@@ -1,0 +1,20 @@
+{
+  /*
+   | This file is automatically updated by ModManifestBuilder
+   | when the project is compiled.
+   | 
+   | Changes made to this file may be overwritten.
+   | 
+   */
+  "$schema": "https://smapi.io/schemas/manifest.json",
+  "UniqueID": "focustense.ForgeMenuChoice",
+  "Name": "Pick Your Enchantment",
+  "Author": "focustense",
+  "Version": "1.2.0",
+  "Description": "Allows you to pick which enchantment you get.",
+  "MinimumApiVersion": "4.0.5",
+  "EntryDll": "ForgeMenuChoice.dll",
+  "UpdateKeys": [
+    "Nexus:26803"
+  ]
+}

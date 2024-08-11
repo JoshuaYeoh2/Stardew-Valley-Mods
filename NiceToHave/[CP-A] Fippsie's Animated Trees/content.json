@@ -1,0 +1,227 @@
+{
+  "Format": "1.7",
+  "ConfigSchema":
+  {
+    "Recolor_Option": {
+      "AllowValues": "default, AWNR, Starblue, Untitled",
+      "Default": "default"
+    },
+    "Animated_Oak": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Animated_Maple": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Animated_Pine": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Animated_Festival": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+  },
+  "Changes": [
+    {
+      "LogName": "Animated Oak",
+      "Action": "EditImage",
+      "Target": "TerrainFeatures/tree1_{{season}}",
+      "FromFile": "assets/{{Recolor_Option}}_{{season}}.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 48,
+        "Height": 160
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 48,
+        "Height": 160
+      },
+      "AnimationFrameTime": 80,
+      "AnimationFrameCount": 2,
+      "When": {
+        "weather": "wind, storm, rain, snow",
+        "Recolor_Option": "default, AWNR, Untitled, Starblue",
+        "Animated_Oak": "true"
+      },
+    },
+    {
+      "LogName": "Animated Oak Festival",
+      "Action": "EditImage",
+      "Target": "TerrainFeatures/tree1_{{season}}",
+      "FromFile": "assets/{{Recolor_Option}}_{{season}}_festival.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 48,
+        "Height": 160
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 48,
+        "Height": 160
+      },
+      "AnimationFrameTime": 80,
+      "AnimationFrameCount": 2,
+      "When": {
+        "HasValue:{{DayEvent}}": "true",
+        "Recolor_Option": "default, AWNR, Untitled, Starblue",
+        "Animated_Festival": "true"
+      },
+    },
+    {
+      "LogName": "Animated Maple",
+      "Action": "EditImage",
+      "Target": "TerrainFeatures/tree2_{{season}}",
+      "FromFile": "assets/{{Recolor_Option}}_{{season}}.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 160,
+        "Width": 48,
+        "Height": 160
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 48,
+        "Height": 160
+      },
+      "AnimationFrameTime": 80,
+      "AnimationFrameCount": 2,
+      "When": {
+        "weather": "wind, storm, rain, snow",
+        "Recolor_Option": "default, AWNR, Untitled, Starblue",
+        "Animated_Maple": "true"
+      },
+    },
+    {
+      "LogName": "Animated Maple Festival",
+      "Action": "EditImage",
+      "Target": "TerrainFeatures/tree2_{{season}}",
+      "FromFile": "assets/{{Recolor_Option}}_{{season}}_festival.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 160,
+        "Width": 48,
+        "Height": 160
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 48,
+        "Height": 160
+      },
+      "AnimationFrameTime": 80,
+      "AnimationFrameCount": 2,
+      "When": {
+        "HasValue:{{DayEvent}}": "true",
+        "Recolor_Option": "default, AWNR, Untitled, Starblue",
+        "Animated_Festival": "true"
+      },
+    },
+    {
+      "LogName": "Animated Pine Spring and Summer",
+      "Action": "EditImage",
+      "Target": "TerrainFeatures/tree3_spring",
+      "FromFile": "assets/{{Recolor_Option}}_spring.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 320,
+        "Width": 48,
+        "Height": 160
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 48,
+        "Height": 160
+      },
+      "AnimationFrameTime": 80,
+      "AnimationFrameCount": 2,
+      "When": {
+        "weather": "wind, storm, rain, snow",
+        "Season": "spring, summer",
+        "Animated_Pine": "true"
+      },
+    },
+    {
+      "LogName": "Animated Pine Fall",
+      "Action": "EditImage",
+      "Target": "TerrainFeatures/tree3_fall",
+      "FromFile": "assets/{{Recolor_Option}}_fall.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 320,
+        "Width": 48,
+        "Height": 160
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 48,
+        "Height": 160
+      },
+      "AnimationFrameTime": 80,
+      "AnimationFrameCount": 2,
+      "When": {
+        "weather": "wind, storm, rain, snow",
+        "Season" : "fall",
+        "Animated_Pine": "true"
+      },
+    },
+    {
+      "LogName": "Animated Pine Winter",
+      "Action": "EditImage",
+      "Target": "TerrainFeatures/tree3_winter",
+      "FromFile": "assets/{{Recolor_Option}}_winter.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 320,
+        "Width": 48,
+        "Height": 160
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 48,
+        "Height": 160
+      },
+      "AnimationFrameTime": 80,
+      "AnimationFrameCount": 2,
+      "When": {
+        "weather": "wind, storm, rain, snow",
+        "Season": "winter",
+        "Animated_Pine": "true"
+      },
+    },
+    {
+      "LogName": "Animated Pine Festival",
+      "Action": "EditImage",
+      "Target": "TerrainFeatures/tree3_{{season}}",
+      "FromFile": "assets/{{Recolor_Option}}_{{season}}_festival.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 320,
+        "Width": 48,
+        "Height": 160
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 48,
+        "Height": 160
+      },
+      "AnimationFrameTime": 80,
+      "AnimationFrameCount": 2,
+      "When": {
+        "HasValue:{{DayEvent}}": "true",
+        "Animated_Festival": "true"
+      },
+    },
+  ]
+}

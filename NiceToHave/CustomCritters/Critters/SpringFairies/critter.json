@@ -1,0 +1,104 @@
+{
+  "Id": "SpringFairies",
+  "SpriteData": {
+    "Variations": 3,
+    "FrameWidth": 16,
+    "FrameHeight": 16,
+        "Scale": 2.5,
+       "Flying": true
+  },
+   "Animations": {
+    "default": {
+      "Frames": [
+        {
+          "Frame": 0,
+          "Duration": 90
+        },
+        {
+          "Frame": 1,
+          "Duration": 60
+        },
+        {
+          "Frame": 2,
+          "Duration": 50
+        },
+        {
+          "Frame": 3,
+          "Duration": 50
+        },
+        {
+          "Frame": 2,
+          "Duration": 50
+        },
+        {
+          "Frame": 1,
+          "Duration": 60
+        }
+      ]
+    }
+  },
+  "SpawnConditions": [
+    {
+      "Not": false,
+      "Seasons": ["spring"],
+      "Locations": ["Woods"],
+      "MinTimeOfDay": 600,
+      "MaxTimeOfDay": 2300,
+      "ChancePerTile": 1,
+      "RequireDarkOut": false,
+      "AllowRain": false,
+      "ChildrenCombine": "and",
+      "Children": []
+    }
+  ],
+  "SpawnLocations": [
+    {
+      "LocationType": "random",
+      "Conditions": [
+        {
+          "Not": false,
+          "Chance": .75,
+          "Variable": "name",
+          "RequireNotNull": false,
+          "Is": null,
+          "ValueEquals": "0",
+          "ChildrenCombine": "and",
+          "Children": []
+        }
+      ]
+    }
+  ],
+  "SpawnAttempts": 12,
+  "Behavior": {
+    "Type": "random",
+    "Speed": 1,
+        "SpeedAddRandom": 2,
+    "PatrolPoints": [
+      {
+        "Type": "random"
+      },
+      {
+        "Type": "startoffset",
+        "X": 10,
+        "Y": 10
+      },
+      {
+        "Type": "startoffset",
+        "X": -8,
+        "Y": 6
+      },
+      {
+        "Type": "startoffset",
+        "X": 3,
+        "Y": -1
+      },
+      {
+        "Type": "startoffset",
+        "X": -3,
+        "Y": -2
+      }
+    ],
+    "PatrolPointDelay": 0,
+    "PatrolPointDelayAddRandom": 0
+  }
+}

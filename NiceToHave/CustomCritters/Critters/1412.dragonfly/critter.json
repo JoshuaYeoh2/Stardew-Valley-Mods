@@ -1,0 +1,103 @@
+{
+  "Id": "1412.dragonfly",
+  "SpriteData": {
+    "Variations": 4,
+    "FrameWidth": 11,
+    "FrameHeight": 12,
+    "Scale": 2
+  },
+  "Animations": {
+    "default": {
+      "Frames": [
+        {
+          "Frame": 0,
+          "Duration": 25
+        },
+        {
+          "Frame": 1,
+          "Duration": 25
+        },
+        {
+          "Frame": 2,
+          "Duration": 25
+        },
+        {
+          "Frame": 3,
+          "Duration": 25
+        },
+        {
+          "Frame": 2,
+          "Duration": 25
+        },
+        {
+          "Frame": 1,
+          "Duration": 25
+        }
+      ]
+    }
+  },
+  "SpawnConditions": [
+    {
+      "Not": false,
+      "Seasons": [ "summer", "fall" ],
+      "Locations": [ "Beach", "Farm", "Forest", "Mountain", "Town", "Woods" ],
+      "MinTimeOfDay": 600,
+      "MaxTimeOfDay": 1850,
+      "ChancePerTile": 1,
+      "RequireDarkOut": false,
+      "AllowRain": false,
+      "ChildrenCombine": "and",
+      "Children": []
+    }  
+  ],
+  "SpawnLocations": [
+    {
+      "LocationType": "random",
+      "Conditions": [
+        {
+          "Not": false,
+          "Chance": 0.50,
+          "Variable": "ParentSheetIndex",
+          "RequireNotNull": false,
+          "Is": null,
+          "ValueEquals": "0",
+          "ChildrenCombine": "and",
+          "Children": []
+        }
+      ]
+    }
+  ],
+  "SpawnAttempts": 20,
+  "Behavior": {
+     "Type": "random",
+    "Speed": 4,
+	"SpeedAddRandom": 3,
+     "PatrolPoints": [
+      {
+        "Type": "random"
+      },
+      {
+        "Type": "startoffset",
+        "X": 8,
+        "Y": 6
+      },
+      {
+        "Type": "startoffset",
+        "X": 3,
+        "Y": -1
+      },
+      {
+        "Type": "startoffset",
+        "X": -8,
+        "Y": -2
+      },
+      {
+        "Type": "startoffset",
+        "X": 9,
+        "Y": -1
+      }
+    ],
+    "PatrolPointDelay": 350,
+    "PatrolPointDelayAddRandom": 350
+  }
+}

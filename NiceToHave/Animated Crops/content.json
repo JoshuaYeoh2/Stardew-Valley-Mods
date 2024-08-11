@@ -1,0 +1,1231 @@
+{
+	"Format": "2.0.0",
+	"ConfigSchema": {
+		"Spring Crops": {
+			"AllowValues": "Green Bean, Carrot, Cauliflower, Coffee, Garlic, Jazz, Kale, Parsnip, Potato, Rice, Rhubarb, Strawberry, Tulip",
+			"Default": "Green Bean, Carrot, Cauliflower, Coffee, Garlic, Jazz, Kale, Parsnip, Potato, Rice, Rhubarb, Strawberry, Tulip",
+			"AllowMultiple": true,
+			"AllowBlank": true,
+			"Section": "Spring Crops"
+		},
+		"Summer Crops": {
+			"AllowValues": "Blueberry, Corn, Hops, Melon, Pepper, Poppy, Radish, Red Cabbage, Spangle, Summer Squash, Sunflower, Starfruit, Tomato, Wheat",
+			"Default": "Blueberry, Corn, Hops, Melon, Pepper, Poppy, Radish, Red Cabbage, Spangle, Summer Squash, Sunflower, Starfruit, Tomato, Wheat",
+			"AllowMultiple": true,
+			"AllowBlank": true,
+			"Section": "Summer Crops"
+		},
+		"Fall Crops": {
+			"AllowValues": "Amaranth, Artichoke, Beet, Bok Coy, Broccoli, Cranberries, Eggplant, Fairy, Grape, Pumpkin, Sunflower, Yam, Sweet Gem Berry",
+			"Default": "Amaranth, Artichoke, Beet, Bok Coy, Broccoli, Cranberries, Eggplant, Fairy, Grape, Pumpkin, Sunflower, Yam, Sweet Gem Berry",
+			"AllowMultiple": true,
+			"AllowBlank": true,
+			"Section": "Fall Crops"
+		},
+		"Other Crops": {
+			"AllowValues": "Powdermelon, Fiber, Qi Bean, Taro Root, Pineapple, Ancient, Cactus",
+			"Default": "Powdermelon, Fiber, Qi Bean, Taro Root, Pineapple, Ancient, Cactus",
+			"AllowMultiple": true,
+			"AllowBlank": true,
+			"Section": "Other Crops"
+		}
+	},
+	"Changes": [
+		{
+			"LogName": "Cauliflower",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Cauliflower.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 96,
+				"Y": 32,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 50,
+			"AnimationFrameCount": 4,
+			"When": {
+				"Spring Crops |contains=Cauliflower": true
+			}
+		},
+		{
+			"LogName": "Parsnip",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Parsnip.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 80,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 50,
+			"AnimationFrameCount": 4,
+			"When": {
+				"Spring Crops |contains=Parsnip": true
+			}
+		},
+		{
+			"LogName": "Garlic",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Garlic.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 80,
+				"Y": 64,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 50,
+			"AnimationFrameCount": 4,
+			"When": {
+				"Spring Crops |contains=Garlic": true
+			}
+		},
+		{
+			"LogName": "Potato",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Potato.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 224,
+				"Y": 32,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 50,
+			"AnimationFrameCount": 4,
+			"When": {
+				"Spring Crops |contains=Potato": true
+			}
+		},
+		{
+			"LogName": "Green Bean",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Green Bean.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 224,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 50,
+			"AnimationFrameCount": 4,
+			"When": {
+				"Spring Crops |contains=Green Bean": true
+			}
+		},
+		{
+			"LogName": "Rhubarb",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Rhubarb.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 96,
+				"Y": 96,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 50,
+			"AnimationFrameCount": 4,
+			"When": {
+				"Spring Crops |contains=Rhubarb": true
+			}
+		},
+		{
+			"LogName": "Strawberry",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Strawberry.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 96,
+				"Y": 576,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 30,
+			"AnimationFrameCount": 4,
+			"When": {
+				"Spring Crops |contains=Strawberry": true
+			}
+		},
+		{
+			"LogName": "Kale",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Kale.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 208,
+				"Y": 64,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When": {
+				"Spring Crops |contains=Kale": true
+			}
+		},
+		{
+			"LogName": "Coffee Bean",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Coffee Bean.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 96,
+				"Y": 640,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 50,
+			"AnimationFrameCount": 4,
+			"When": {
+				"Spring Crops |contains=Coffee": true
+			}
+		},
+		{
+			"LogName": "Tulip",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Tulip.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 80,
+				"Y": 416,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 30,
+			"AnimationFrameCount": 4,
+			"When": {
+				"Spring Crops |contains=Tulip": true
+			}
+		},
+		{
+			"LogName": "Rice Shoot",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Rice Shoot.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 80,
+				"Y": 544,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 30,
+			"AnimationFrameCount": 4,
+			"When": {
+				"Spring Crops |contains=Rice": true
+			}
+		},
+		{
+			"LogName": "Blue Jazz 1",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Blue Jazz 1.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 208,
+				"Y": 416,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 50,
+			"AnimationFrameCount": 4,
+			"When": {
+				"Spring Crops |contains=Jazz": true
+			}
+		},
+		{
+			"LogName": "Blue Jazz 2",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Blue Jazz 2.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 224,
+				"Y": 416,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 50,
+			"AnimationFrameCount": 4,
+			"When": {
+				"Spring Crops |contains=Jazz": true
+			}
+		},
+		{
+			"LogName": "Corn",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Corn.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 224,
+				"Y": 224,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 50,
+			"AnimationFrameCount": 5,
+			"When": {
+				"Summer Crops |contains=Corn": true
+			}
+		},
+		{
+			"LogName": "Blueberry",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Blueberry.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 224,
+				"Y": 128,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 5,
+			"When": {
+				"Summer Crops |contains=Blueberry": true
+			}
+		},
+		{
+			"LogName": "Hops",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Hops.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 224,
+				"Y": 576,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 30,
+			"AnimationFrameCount": 4,
+			"When": {
+				"Summer Crops |contains=Hops": true
+			}
+		},
+		{
+			"LogName": "Hot Pepper",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Hot Pepper.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 96,
+				"Y": 160,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 30,
+			"AnimationFrameCount": 5,
+			"When": {
+				"Summer Crops |contains=Pepper": true
+			}
+		},
+		{
+			"LogName": "Melon",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Melon.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 224,
+				"Y": 96,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 40,
+			"AnimationFrameCount": 6,
+			"When": {
+				"Summer Crops |contains=Melon": true
+			}
+		},
+		{
+			"LogName": "Poppy",
+			"Action": "EditImage",
+			"Target": "TileSheets/Crops",
+			"FromFile": "Assets/Poppy.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 80,
+				"Y": 448,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 40,
+			"AnimationFrameCount": 6,
+			"When": {
+				"Summer Crops |contains=Poppy": true
+			}
+		},
+		{
+			"LogName": "Poppy 2",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Poppy 2.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 96,
+				"Y": 448,
+				"Width": 16,
+				"Height": 16
+			},
+			"AnimationFrameTime": 40,
+			"AnimationFrameCount": 6,
+			"When": {
+				"Summer Crops |contains=Poppy": true
+			}
+		},
+		{
+			"LogName": "Radish",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Radish.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 80,
+				"Y": 192,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 30,
+			"AnimationFrameCount": 5,
+			"When": {
+				"Summer Crops |contains=Radish": true
+			}
+		},
+		{
+			"LogName": "Red Cabbage",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Red Cabbage.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 224,
+				"Y": 192,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 50,
+			"AnimationFrameCount": 4,
+			"When": {
+				"Summer Crops |contains=Red Cabbage": true
+			}
+		},
+		{
+			"LogName": "Starfruit",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Starfruit.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 96,
+				"Y": 224,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 30,
+			"AnimationFrameCount": 7,
+			"When": {
+				"Summer Crops |contains=Starfruit": true
+			}
+		},
+		{
+			"LogName": "Summer Spangle",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Summer Spangle.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 208,
+				"Y": 448,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 30,
+			"AnimationFrameCount": 5,
+			"When": {
+				"Summer Crops |contains=Spangle": true
+			}
+		},
+		{
+			"LogName": "Summer Spangle 2",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Summer Spangle 2.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 224,
+				"Y": 448,
+				"Width": 16,
+				"Height": 16
+			},
+			"AnimationFrameTime": 50,
+			"AnimationFrameCount": 5,
+			"When": {
+				"Summer Crops |contains=Spangle": true
+			}
+		},
+		{
+			"LogName": "Sunflower",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Sunflower.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 80,
+				"Y": 480,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 30,
+			"AnimationFrameCount": 6,
+			"When": {
+				"Summer Crops |contains=Sunflower": true
+			}
+		},
+		{
+			"LogName": "Tomato",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Tomato.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 96,
+				"Y": 128,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 7,
+			"When": {
+				"Summer Crops |contains=Tomato": true
+			}
+		},
+		{
+			"LogName": "Wheat",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Wheat.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 208,
+				"Y": 160,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 5,
+			"When": {
+				"Summer Crops |contains=Wheat": true
+			}
+		},
+		{
+			"LogName": "Amaranth",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Amaranth.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 208,
+				"Y": 608,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 7,
+			"When": {
+				"Fall Crops |contains=Amaranth": true
+			}
+		},
+		{
+			"LogName": "Artichoke",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Artichoke.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 224,
+				"Y": 256,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 50,
+			"AnimationFrameCount": 7,
+			"When": {
+				"Fall Crops |contains=Artichoke": true
+			}
+		},
+		{
+			"LogName": "Beet",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Beet.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 80,
+				"Y": 368,
+				"Width": 16,
+				"Height": 16
+			},
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 6,
+			"When": {
+				"Fall Crops |contains=Beet": true
+			}
+		},
+		{
+			"LogName": "Bok Choy",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Bok Choy.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 208,
+				"Y": 288,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 30,
+			"AnimationFrameCount": 7,
+			"When": {
+				"Fall Crops |contains=Bok Choy": true
+			}
+		},
+		{
+			"LogName": "Cranberries",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Cranberries.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 224,
+				"Y": 320,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 30,
+			"AnimationFrameCount": 7,
+			"When": {
+				"Fall Crops |contains=Cranberries": true
+			}
+		},
+		{
+			"LogName": "Eggplant",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Eggplant.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 96,
+				"Y": 256,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 8,
+			"When": {
+				"Fall Crops |contains=Eggplant": true
+			}
+		},
+		{
+			"LogName": "Fairy Rose",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Fairy Rose.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 208,
+				"Y": 480,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 50,
+			"AnimationFrameCount": 7,
+			"When": {
+				"Fall Crops |contains=Fairy": true
+			}
+		},
+		{
+			"LogName": "Fairy Rose 2",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Fairy Rose 2.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 224,
+				"Y": 480,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 50,
+			"AnimationFrameCount": 7,
+			"When": {
+				"Fall Crops |contains=Fairy": true
+			}
+		},
+		{
+			"LogName": "Grape",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Grape.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 96,
+				"Y": 608,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 50,
+			"AnimationFrameCount": 7,
+			"When": {
+				"Fall Crops |contains=Grape": true
+			}
+		},
+		{
+			"LogName": "Pumpkin",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Pumpkin.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 96,
+				"Y": 288,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 8,
+			"When": {
+				"Fall Crops |contains=Pumpkin": true
+			}
+		},
+		{
+			"LogName": "Yam",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Yam.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 80,
+				"Y": 320,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 7,
+			"When": {
+				"Fall Crops |contains=Yam": true
+			}
+		},
+		{
+			"LogName": "Ancient Fruit",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Ancient Fruit.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 96,
+				"Y": 384,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 8,
+			"When": {
+				"Other Crops |contains=Ancient": true
+			}
+		},
+		{
+			"LogName": "Cactus Fruit",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Cactus Fruit.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 224,
+				"Y": 640,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 8,
+			"When": {
+				"Other Crops |contains=Cactus": true
+			}
+		},
+		{
+			"LogName": "Sweet Gem Berry",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Sweet Gem Berry.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 96,
+				"Y": 512,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 40,
+			"AnimationFrameCount": 8,
+			"When": {
+				"Fall Crops |contains=Sweet Gem Berry": true
+			}
+		},
+		{
+			"LogName": "Pineapple",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Pineapple.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 224,
+				"Y": 672,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 40,
+			"AnimationFrameCount": 5,
+			"When": {
+				"Other Crops |contains=Pineapple": true
+			}
+		},
+		{
+			"LogName": "Taro Root",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Taro Root.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 80,
+				"Y": 672,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 40,
+			"AnimationFrameCount": 5,
+			"When": {
+				"Other Crops |contains=Taro Root": true
+			}
+		},
+		{
+			"LogName": "Powdermelon",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Powdermelon.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 224,
+				"Y": 800,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 40,
+			"AnimationFrameCount": 5,
+			"When": {
+				"Other Crops |contains=Powdermelon": true
+			}
+		},
+		{
+			"LogName": "Broccoli",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Broccoli.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 96,
+				"Y": 800,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 40,
+			"AnimationFrameCount": 5,
+			"When": {
+				"Fall Crops |contains=Broccoli": true
+			}
+		},
+		{
+			"LogName": "Summer Squash",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Summer Squash.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 224,
+				"Y": 768,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 40,
+			"AnimationFrameCount": 6,
+			"When": {
+				"Summer Crops |contains=Summer Squash": true
+			}
+		},
+		{
+			"LogName": "Carrot",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Carrot.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 64,
+				"Y": 768,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 40,
+			"AnimationFrameCount": 6,
+			"When": {
+				"Spring Crops |contains=Carrot": true
+			}
+		},
+		{
+			"LogName": "Fiber Spring",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Fiber_Spring.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 80,
+				"Y": 704,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 40,
+			"AnimationFrameCount": 4,
+			"When": {
+				"Other Crops |contains=Fiber": true
+			}
+		},
+		{
+			"LogName": "Fiber Fall",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Fiber_Fall.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 208,
+				"Y": 704,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 40,
+			"AnimationFrameCount": 4,
+			"When": {
+				"Other Crops |contains=Fiber": true
+			}
+		},
+		{
+			"LogName": "Fiber Winter",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Fiber_Winter.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 80,
+				"Y": 736,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 40,
+			"AnimationFrameCount": 4,
+			"When": {
+				"Other Crops |contains=Fiber": true
+			}
+		},
+		{
+			"LogName": "Qi Bean",
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "Assets/Qi Bean.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 208,
+				"Y": 736,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 40,
+			"AnimationFrameCount": 4,
+			"When": {
+				"Other Crops |contains=Qi Bean": true
+			}
+		}
+	]
+}

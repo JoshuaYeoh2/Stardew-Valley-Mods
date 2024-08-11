@@ -1,0 +1,287 @@
+{
+	"Changes":
+	[
+		{
+			"LogName": "Adds butterflies to town",
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			"MapTiles":
+			[
+				{
+					"Position": { "X": 6, "Y": 49 },
+					"Layer": "Back",
+					"SetProperties": 
+					{
+						"CustomCompanions": "Spawn 1 skellady.ButterfliesPTCC.Butterfly1",
+					},
+				},
+				{
+					"Position": { "X": 11, "Y": 62 },
+					"Layer": "Back",
+					"SetProperties": 
+					{
+						"CustomCompanions": "Spawn 1 skellady.ButterfliesPTCC.Butterfly2",
+					},
+				},
+				{
+					"Position": { "X": 26, "Y": 65 },
+					"Layer": "Back",
+					"SetProperties": 
+					{
+						"CustomCompanions": "Spawn 1 skellady.ButterfliesPTCC.Butterfly3",
+					},
+				},
+				{
+					"Position": { "X": 18, "Y": 80 },
+					"Layer": "Back",
+					"SetProperties": 
+					{
+						"CustomCompanions": "Spawn 1 skellady.ButterfliesPTCC.Butterfly4",
+					},
+				},
+				{
+					"Position": { "X": 50, "Y": 68 },
+					"Layer": "Back",
+					"SetProperties": 
+					{
+						"CustomCompanions": "Spawn 1 skellady.ButterfliesPTCC.Butterfly5",
+					},
+				},
+				{
+					"Position": { "X": 45, "Y": 85 },
+					"Layer": "Back",
+					"SetProperties": 
+					{
+						"CustomCompanions": "Spawn 1 skellady.ButterfliesPTCC.Butterfly6",
+					},
+				},
+				{
+					"Position": { "X": 77, "Y": 67 },
+					"Layer": "Back",
+					"SetProperties": 
+					{
+						"CustomCompanions": "Spawn 1 skellady.ButterfliesPTCC.Butterfly7",
+					},
+				},
+				{
+					"Position": { "X": 34, "Y": 20 },
+					"Layer": "Back",
+					"SetProperties": 
+					{
+						"CustomCompanions": "Spawn 1 skellady.ButterfliesPTCC.Butterfly8",
+					},
+				},
+				{
+					"Position": { "X": 49, "Y": 30 },
+					"Layer": "Back",
+					"SetProperties": 
+					{
+						"CustomCompanions": "Spawn 1 skellady.ButterfliesPTCC.Butterfly9",
+					},
+				},
+				{
+					"Position": { "X": 98, "Y": 85 },
+					"Layer": "Back",
+					"SetProperties": 
+					{
+						"CustomCompanions": "Spawn 1 skellady.ButterfliesPTCC.Butterfly10",
+					},
+				},
+				{
+					"Position": { "X": 87, "Y": 66 },
+					"Layer": "Back",
+					"SetProperties": 
+					{
+						"CustomCompanions": "Spawn 1 skellady.ButterfliesPTCC.Butterfly11",
+					},
+				},
+				{
+					"Position": { "X": 87, "Y": 40 },
+					"Layer": "Back",
+					"SetProperties": 
+					{
+						"CustomCompanions": "Spawn 1 skellady.ButterfliesPTCC.Butterfly12",
+					},
+				},
+				{
+					"Position": { "X": 97, "Y": 24 },
+					"Layer": "Back",
+					"SetProperties": 
+					{
+						"CustomCompanions": "Spawn 1 skellady.ButterfliesPTCC.Butterfly13",
+					},
+				},
+				{
+					"Position": { "X": 45, "Y": 13 },
+					"Layer": "Back",
+					"SetProperties": 
+					{
+						"CustomCompanions": "Spawn 1 skellady.ButterfliesPTCC.Butterfly14",
+					},
+				},
+				{
+					"Position": { "X": 10, "Y": 13 },
+					"Layer": "Back",
+					"SetProperties": 
+					{
+						"CustomCompanions": "Spawn 1 skellady.ButterfliesPTCC.Butterfly15",
+					},
+				},
+				{
+					"Position": { "X": 37, "Y": 62 },
+					"Layer": "Back",
+					"SetProperties": 
+					{
+						"CustomCompanions": "Spawn 1 skellady.ButterfliesPTCC.Butterfly16",
+					},
+				},
+			],
+			"When": 
+			{
+				"Season": "Spring, Summer, Fall",
+				"Weather": "Sun, Wind",
+			},
+		},
+			{
+			"LogName": "Adds butterflies to forest",
+			"Action": "EditMap",
+			"Target": "Maps/Forest",
+			"MapTiles":
+			[
+				{
+					"Position": { "X": 74, "Y": 2 },
+					"Layer": "Back",
+					"SetProperties": 
+					{
+						"CustomCompanions": "Spawn 1 skellady.ButterfliesPTCC.Butterfly1",
+					},
+				},
+				{
+					"Position": { "X": 62, "Y": 7 },
+					"Layer": "Back",
+					"SetProperties": 
+					{
+						"CustomCompanions": "Spawn 1 skellady.ButterfliesPTCC.Butterfly2",
+					},
+				},
+				{
+					"Position": { "X": 69, "Y": 22 },
+					"Layer": "Back",
+					"SetProperties": 
+					{
+						"CustomCompanions": "Spawn 1 skellady.ButterfliesPTCC.Butterfly3",
+					},
+				},
+				{
+					"Position": { "X": 40, "Y": 38 },
+					"Layer": "Back",
+					"SetProperties": 
+					{
+						"CustomCompanions": "Spawn 1 skellady.ButterfliesPTCC.Butterfly4",
+					},
+				},
+				{
+					"Position": { "X": 99, "Y": 17 },
+					"Layer": "Back",
+					"SetProperties": 
+					{
+						"CustomCompanions": "Spawn 1 skellady.ButterfliesPTCC.Butterfly5",
+					},
+				},
+				{
+					"Position": { "X": 24, "Y": 43 },
+					"Layer": "Back",
+					"SetProperties": 
+					{
+						"CustomCompanions": "Spawn 1 skellady.ButterfliesPTCC.Butterfly6",
+					},
+				},
+				{
+					"Position": { "X": 22, "Y": 7 },
+					"Layer": "Back",
+					"SetProperties": 
+					{
+						"CustomCompanions": "Spawn 1 skellady.ButterfliesPTCC.Butterfly7",
+					},
+				},
+				{
+					"Position": { "X": 18, "Y": 47 },
+					"Layer": "Back",
+					"SetProperties": 
+					{
+						"CustomCompanions": "Spawn 1 skellady.ButterfliesPTCC.Butterfly8",
+					},
+				},
+				{
+					"Position": { "X": 59, "Y": 43 },
+					"Layer": "Back",
+					"SetProperties": 
+					{
+						"CustomCompanions": "Spawn 1 skellady.ButterfliesPTCC.Butterfly9",
+					},
+				},
+				{
+					"Position": { "X": 51, "Y": 69 },
+					"Layer": "Back",
+					"SetProperties": 
+					{
+						"CustomCompanions": "Spawn 1 skellady.ButterfliesPTCC.Butterfly10",
+					},
+				},
+				{
+					"Position": { "X": 28, "Y": 87 },
+					"Layer": "Back",
+					"SetProperties": 
+					{
+						"CustomCompanions": "Spawn 1 skellady.ButterfliesPTCC.Butterfly11",
+					},
+				},
+				{
+					"Position": { "X": 83, "Y": 94 },
+					"Layer": "Back",
+					"SetProperties": 
+					{
+						"CustomCompanions": "Spawn 1 skellady.ButterfliesPTCC.Butterfly12",
+					},
+				},
+				{
+					"Position": { "X": 99, "Y": 78 },
+					"Layer": "Back",
+					"SetProperties": 
+					{
+						"CustomCompanions": "Spawn 1 skellady.ButterfliesPTCC.Butterfly13",
+					},
+				},
+				{
+					"Position": { "X": 90, "Y": 67 },
+					"Layer": "Back",
+					"SetProperties": 
+					{
+						"CustomCompanions": "Spawn 1 skellady.ButterfliesPTCC.Butterfly14",
+					},
+				},
+				{
+					"Position": { "X": 85, "Y": 46 },
+					"Layer": "Back",
+					"SetProperties": 
+					{
+						"CustomCompanions": "Spawn 1 skellady.ButterfliesPTCC.Butterfly15",
+					},
+				},
+				{
+					"Position": { "X": 29, "Y": 6 },
+					"Layer": "Back",
+					"SetProperties": 
+					{
+						"CustomCompanions": "Spawn 1 skellady.ButterfliesPTCC.Butterfly16",
+					},
+				},
+			],
+			"When": 
+			{
+				"Season": "Spring, Summer, Fall",
+				"Weather": "Sun, Wind",
+			},
+		},
+	]
+}

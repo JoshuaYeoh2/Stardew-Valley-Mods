@@ -1,0 +1,16 @@
+{
+   "Format": "2.0.0",
+   "Changes": [
+	
+      {
+		"Action": "Load",
+		"Priority": "High",
+		"Target": "Characters/Monsters/Rock Crab",
+		"FromFile": "assets/Rock Crab_{{season}}.png",
+		"Update": "OnLocationChange",
+		"When": {
+			"LocationName": "Beach",
+			}
+		},				
+    ]
+}

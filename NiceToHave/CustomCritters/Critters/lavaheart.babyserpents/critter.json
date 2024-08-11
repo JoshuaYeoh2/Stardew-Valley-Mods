@@ -1,0 +1,142 @@
+{
+  "Id": "lavaheart.babyserpents",
+  "SpriteData": {
+    "Variations": 4,
+    "FrameWidth": 45,
+    "FrameHeight": 45,
+    "Scale": 3
+  },
+  "Animations": {
+    "default": {
+      "Frames": [
+        {
+          "Frame": 0,
+          "Duration": 75
+        },
+        {
+          "Frame": 1,
+          "Duration": 75
+        },
+        {
+          "Frame": 2,
+          "Duration": 75
+        },
+        {
+          "Frame": 3,
+          "Duration": 75
+        },
+        {
+          "Frame": 4,
+          "Duration": 75
+        },
+        {
+          "Frame": 5,
+          "Duration": 75
+        },
+        {
+          "Frame": 6,
+          "Duration": 75
+        },
+        {
+          "Frame": 7,
+          "Duration": 75
+        },
+        {
+          "Frame": 8,
+          "Duration": 75
+        },
+        {
+          "Frame": 9,
+          "Duration": 75
+        },
+        {
+          "Frame": 10,
+          "Duration": 75
+        },
+        {
+          "Frame": 11,
+          "Duration": 75
+        },
+        {
+          "Frame": 12,
+          "Duration": 75
+        },
+        {
+          "Frame": 13,
+          "Duration": 75
+        },
+        {
+          "Frame": 14,
+          "Duration": 75
+        },
+        {
+          "Frame": 15,
+          "Duration": 75
+        }
+      ]
+    }
+  },
+  "SpawnConditions": [
+    {
+      "Not": false,
+      "Seasons": [ "spring", "summer", "fall", "winter" ],
+      "Locations": ["Desert"],
+      "MinTimeOfDay": 600,
+      "MaxTimeOfDay": 2600,
+      "ChancePerTile": 1,
+      "RequireDarkOut": false,
+      "AllowRain": true,
+      "ChildrenCombine": "and",
+      "Children": []
+    }
+  ],
+  "SpawnLocations": [
+    {
+      "LocationType": "random",
+      "Conditions": [
+        {
+          "Not": false,
+          "Chance": 1,
+          "Variable": "ParentSheetIndex",
+          "RequireNotNull": false,
+          "Is": null,
+          "ValueEquals": "0",
+          "ChildrenCombine": "and",
+          "Children": []
+        }
+      ]
+    }
+  ],
+  "SpawnAttempts": 7,
+  "Behavior": {
+    "Type": "random",
+    "Speed": .75,
+    "PatrolPoints": [
+      {
+        "Type": "random"
+      },
+      {
+        "Type": "startoffset",
+        "X": 5,
+        "Y": 5
+      },
+      {
+        "Type": "startoffset",
+        "X": 0,
+        "Y": -5
+      },
+      {
+        "Type": "startoffset",
+        "X": -5,
+        "Y": 0
+      },
+      {
+        "Type": "startoffset",
+        "X": 0,
+        "Y": 5
+      }
+    ],
+    "PatrolPointDelay": 0,
+    "PatrolPointDelayAddRandom": 0
+  }
+}

@@ -1,0 +1,223 @@
+
+{
+  "Id": "kamalei.rose",
+  "SpriteData": {
+    "Variations": 3,
+    "FrameWidth": 43,
+    "FrameHeight": 43,
+    "Scale": 1
+  },
+  "Animations": {
+    "default": {
+      "Frames": [
+        {
+          "Frame": 0,
+          "Duration": 10
+        },
+        {
+          "Frame": 1,
+          "Duration": 10
+        },
+        {
+          "Frame": 2,
+          "Duration": 10
+        },
+        {
+          "Frame": 3,
+          "Duration": 10
+        },
+        {
+          "Frame": 4,
+          "Duration": 10
+        },
+        {
+          "Frame": 5,
+          "Duration": 10
+        },
+		{
+          "Frame": 6,
+          "Duration": 10
+        },
+        {
+          "Frame": 7,
+          "Duration": 10
+        },
+        {
+          "Frame": 8,
+          "Duration": 10
+        },
+        {
+          "Frame": 9,
+          "Duration": 10
+        },
+        {
+          "Frame": 10,
+          "Duration": 10
+        },
+		{
+          "Frame": 11,
+          "Duration": 10
+        },
+        {
+          "Frame": 12,
+          "Duration": 10
+        },
+        {
+          "Frame": 13,
+          "Duration": 10
+        },
+        {
+          "Frame": 14,
+          "Duration": 10
+        },
+        {
+          "Frame": 15,
+          "Duration": 10
+        },
+        {
+          "Frame": 16,
+          "Duration": 10
+        },
+		{
+          "Frame": 17,
+          "Duration": 10
+        },
+        {
+          "Frame": 18,
+          "Duration": 10
+        },
+        {
+          "Frame": 19,
+          "Duration": 10
+        },
+        {
+          "Frame": 20,
+          "Duration": 10
+        },
+        {
+          "Frame": 21,
+          "Duration": 10
+        },
+        {
+          "Frame": 22,
+          "Duration": 10
+        },
+		{
+          "Frame": 23,
+          "Duration": 10
+        },
+        {
+          "Frame": 24,
+          "Duration": 10
+        },
+        {
+          "Frame": 25,
+          "Duration": 10
+        },
+        {
+          "Frame": 26,
+          "Duration": 10
+        },
+        {
+          "Frame": 27,
+          "Duration": 10
+        },
+        {
+          "Frame": 28,
+          "Duration": 10
+        },
+		{
+          "Frame": 29,
+          "Duration": 10
+        },
+        {
+          "Frame": 30,
+          "Duration": 10
+        },
+        {
+          "Frame": 31,
+          "Duration": 10
+        },
+        {
+          "Frame": 32,
+          "Duration": 10
+        },
+        {
+          "Frame": 33,
+          "Duration": 10
+        },
+        {
+          "Frame": 34,
+          "Duration": 10
+        },
+        {
+          "Frame": 35,
+          "Duration": 10
+        }
+      ]
+    }
+  },
+  "SpawnConditions": [
+    {
+      "Not": false,
+      "Seasons": [ "spring", "summer", "fall" ],
+      "Locations": [ "Farm", "Forest", "Backwoods", "Woods", "Mountain", "Town", "BusStop" ],
+      "MinTimeOfDay": 600,
+      "MaxTimeOfDay": 1400,
+      "ChancePerTile": 100,
+      "RequireDarkOut": false,
+      "AllowRain": true,
+      "ChildrenCombine": "and",
+      "Children": []
+    }
+  ],
+  "SpawnLocations": [
+    {
+      "LocationType": "random",
+      "Conditions": [
+        {
+          "Not": false,
+          "Chance": 10,
+          "Variable": "ParentSheetIndex",
+          "RequireNotNull": false,
+          "Is": null,
+          "ValueEquals": "0",
+          "ChildrenCombine": "and",
+          "Children": []
+        }
+      ]
+    }
+  ],
+  "SpawnAttempts": 30,
+  "Behavior": {
+    "Type": "random",
+    "Speed": 1,
+    "PatrolPoints": [
+      {
+        "Type": "startrandom"
+      },
+      {
+        "Type": "random",
+        "X": 7,
+        "Y": 8
+      },
+      {
+        "Type": "random",
+        "X": 4,
+        "Y": 1
+      },
+      {
+        "Type": "random",
+        "X": 3,
+        "Y": -4
+      },
+      {
+        "Type": "random",
+        "X": -3,
+        "Y": -2
+      }
+    ],
+    "PatrolPointDelay": 0,
+    "PatrolPointDelayAddRandom": 0
+  }
+}

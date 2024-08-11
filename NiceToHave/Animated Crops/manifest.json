@@ -1,0 +1,21 @@
+{
+	"Name": "Animated Harvest Crops",
+	"Author": "WisnuNug",
+	"Version": "1.0.3",
+	"Description": "Animated Harvest For All Seasons Crops",
+	"UniqueID": "WisnuNug.AnimatedCrops",
+	"MinimumApiVersion": "4.0.0",
+	"UpdateKeys": [
+		"Nexus:15642"
+	],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		"MinimumVersion": "2.0.0"
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "spacechase0.ContentPatcherAnimations",
+			"IsRequired": true
+		}
+	]
+}

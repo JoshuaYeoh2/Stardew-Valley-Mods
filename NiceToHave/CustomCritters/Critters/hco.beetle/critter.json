@@ -1,0 +1,91 @@
+{
+  "Id": "hco.beetle",
+  "SpriteData": {
+    "Variations": 2,
+    "FrameWidth": 11,
+    "FrameHeight": 11,
+    "Scale": 3,
+	"Flying": false
+  },
+  "Animations": {
+    "default": {
+      "Frames": [
+        {
+          "Frame": 0,
+          "Duration": 50
+        },
+        {
+          "Frame": 1,
+          "Duration": 50
+        },
+        {
+          "Frame": 0,
+          "Duration": 50
+        }, 
+      ]
+    }
+  },
+  "SpawnConditions": [
+    {
+      "Not": false,
+      "Seasons": [ "spring", "summer", "fall" ],
+      "Locations": [ "Farm", "Mountain", "Town", "Forest", "Backwoods" ],
+      "MinTimeOfDay": 600,
+      "MaxTimeOfDay": 2400,
+      "ChancePerTile": 1,
+      "RequireDarkOut": false,
+      "AllowRain": true,
+      "ChildrenCombine": "and",
+      "Children": []
+    }
+  ],
+  "SpawnLocations": [
+    {
+      "LocationType": "object",
+      "Conditions": [
+        {
+          "Not": false,
+          "Chance": 0.90,
+          "Variable": "parentSheetIndex",
+          "RequireNotNull": false,
+          "Is": null,
+          "ValueEquals": "590",
+          "ChildrenCombine": "and",
+          "Children": []
+        }
+      ]
+    }
+  ],
+  "SpawnAttempts": 80,
+  "Behavior": {
+    "Type": "patrol",
+    "Speed": 50,
+    "PatrolPoints": [
+      {
+        "Type": "start"
+      },
+      {
+        "Type": "startoffset",
+        "X": 1,
+        "Y": 0
+      },
+      {
+        "Type": "startoffset",
+        "X": 0,
+        "Y": 1
+      },
+      {
+        "Type": "startoffset",
+        "X": -1,
+        "Y": 0
+      },
+      {
+        "Type": "startoffset",
+        "X": 0,
+        "Y": -1
+      }
+    ],
+    "PatrolPointDelay": 1000,
+    "PatrolPointDelayAddRandom": 1000
+  }
+}
