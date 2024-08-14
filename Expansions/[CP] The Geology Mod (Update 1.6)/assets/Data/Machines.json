@@ -1,0 +1,268 @@
+{
+	"Changes": [
+        {
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/Machines",
+			"FromFile": "assets/Resources/Machines.png"
+		},
+		{
+			"LogName": "Machines",
+			"Action": "EditData",
+			"Target": "Data/BigCraftables",
+			"Entries": {
+				"{{ModId}}_RockProcessor": {
+					"Name": "{{ModId}}_RockProcessor",
+					"DisplayName": "{{i18n: Rock Processor.N}}",
+					"Description": "{{i18n: Rock Processor.D}}",
+					"Price": 1,
+					"Fragility": 0,
+					"CanBePlacedOutdoors": true,
+					"CanBePlacedIndoors": true,
+					"IsLamp": false,
+					"Texture": "Mods/{{ModId}}/Machines",
+					"SpriteIndex": 0,
+					"CustomFields": {}
+				},
+            },
+        },
+        {
+			"LogName": "Machines",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"Entries": {
+				"(BC){{ModId}}_RockProcessor": {
+					"OutputRules": [
+						{
+							"Id": "{{ModId}}RockProcessor_Granite",
+							"Triggers": [
+								{
+									"Trigger": "ItemPlacedInMachine",
+									"RequiredItemId": "(O)569",
+									"RequiredCount": 1,
+								}
+							],
+							"UseFirstValidOutput": false,
+							"OutputItem": [
+								{
+									"Id": "{{ModId}}RockProcessor_Granite_Quartz",
+									"ItemId": "(O)80",
+									"CopyQuality": false,
+                                    "MinStack": 2,
+                                    "MaxStack": 2,
+								}
+							],
+							"MinutesUntilReady": 120,
+							"DaysUntilReady": -1,
+							"RecalculateOnCollect": false
+						},
+                        {
+							"Id": "{{ModId}}RockProcessor_Sandstone",
+							"Triggers": [
+								{
+									"Trigger": "ItemPlacedInMachine",
+									"RequiredItemId": "(O)568",
+									"RequiredCount": 1,
+								}
+							],
+							"UseFirstValidOutput": false,
+							"OutputItem": [
+								{
+									"Id": "{{ModId}}RockProcessor_Sandstone_Quartz",
+									"ItemId": "(O)80",
+									"CopyQuality": false,
+                                    "MinStack": 2,
+                                    "MaxStack": 2,
+								}
+							],
+							"MinutesUntilReady": 120,
+							"DaysUntilReady": -1,
+							"RecalculateOnCollect": false
+						},
+                        {
+							"Id": "{{ModId}}RockProcessor_Marble",
+							"Triggers": [
+								{
+									"Trigger": "ItemPlacedInMachine",
+									"RequiredItemId": "(O)567",
+									"RequiredCount": 1,
+								}
+							],
+							"UseFirstValidOutput": false,
+							"OutputItem": [
+								{
+									"Id": "{{ModId}}RockProcessor_Marble_Calcite",
+									"ItemId": "(O)542",
+									"CopyQuality": false,
+                                    "MinStack": 2,
+                                    "MaxStack": 2,
+								}
+							],
+							"MinutesUntilReady": 120,
+							"DaysUntilReady": -1,
+							"RecalculateOnCollect": false
+						},
+                        {
+							"Id": "{{ModId}}RockProcessor_Mudstone",
+							"Triggers": [
+								{
+									"Trigger": "ItemPlacedInMachine",
+									"RequiredItemId": "(O)574",
+									"RequiredCount": 1,
+								}
+							],
+							"UseFirstValidOutput": false,
+							"OutputItem": [
+								{
+									"Id": "{{ModId}}RockProcessor_Mudstone_Clay",
+									"ItemId": "(O)330",
+									"CopyQuality": false,
+                                    "MinStack": 2,
+                                    "MaxStack": 2,
+								}
+							],
+							"MinutesUntilReady": 120,
+							"DaysUntilReady": -1,
+							"RecalculateOnCollect": false
+						},
+                        {
+							"Id": "{{ModId}}RockProcessor_Slate",
+							"Triggers": [
+								{
+									"Trigger": "ItemPlacedInMachine",
+									"RequiredItemId": "(O)576",
+									"RequiredCount": 1,
+								}
+							],
+							"UseFirstValidOutput": false,
+							"OutputItem": [
+								{
+									"Id": "{{ModId}}RockProcessor_Slate_Pyrite",
+									"ItemId": "(O)559",
+									"CopyQuality": false,
+                                    "MinStack": 2,
+                                    "MaxStack": 2,
+								}
+							],
+							"MinutesUntilReady": 120,
+							"DaysUntilReady": -1,
+							"RecalculateOnCollect": false
+						},
+                        {
+							"Id": "{{ModId}}RockProcessor_Limestone",
+							"Triggers": [
+								{
+									"Trigger": "ItemPlacedInMachine",
+									"RequiredItemId": "(O)571",
+									"RequiredCount": 1,
+								}
+							],
+							"UseFirstValidOutput": false,
+							"OutputItem": [
+								{
+									"Id": "{{ModId}}RockProcessor_Limestone_Calcite",
+									"ItemId": "(O)542",
+									"CopyQuality": false,
+                                    "MinStack": 2,
+                                    "MaxStack": 2,
+								}
+							],
+							"MinutesUntilReady": 120,
+							"DaysUntilReady": -1,
+							"RecalculateOnCollect": false
+						},
+                        {
+							"Id": "{{ModId}}RockProcessor_Gneiss",
+							"Triggers": [
+								{
+									"Trigger": "ItemPlacedInMachine",
+									"RequiredItemId": "(O){{ModId}}_Gneiss",
+									"RequiredCount": 1,
+								}
+							],
+							"UseFirstValidOutput": false,
+							"OutputItem": [
+								{
+									"Id": "{{ModId}}RockProcessor_Gneiss_Hornblende",
+									"ItemId": "(O){{ModId}}_Hornblende",
+									"CopyQuality": false,
+                                    "MinStack": 2,
+                                    "MaxStack": 2,
+								}
+							],
+							"MinutesUntilReady": 120,
+							"DaysUntilReady": -1,
+							"RecalculateOnCollect": false
+						},
+                        {
+							"Id": "{{ModId}}RockProcessor_Schist",
+							"Triggers": [
+								{
+									"Trigger": "ItemPlacedInMachine",
+									"RequiredItemId": "(O){{ModId}}_Schist",
+									"RequiredCount": 1,
+								}
+							],
+							"UseFirstValidOutput": false,
+							"OutputItem": [
+								{
+									"Id": "{{ModId}}RockProcessor_Schist_Hornblende",
+									"ItemId": "(O){{ModId}}_Hornblende",
+									"CopyQuality": false,
+                                    "MinStack": 2,
+                                    "MaxStack": 2,
+								}
+							],
+							"MinutesUntilReady": 120,
+							"DaysUntilReady": -1,
+							"RecalculateOnCollect": false
+						},
+						{
+							"Id": "{{ModId}}RockProcessor_Hornblende",
+							"Triggers": [
+								{
+									"Trigger": "ItemPlacedInMachine",
+									"RequiredItemId": "(O){{ModId}}_Hornblende",
+									"RequiredCount": 5,
+								}
+							],
+							"UseFirstValidOutput": false,
+							"OutputItem": [
+								{
+									"Id": "{{ModId}}RockProcessor_Hornblende_Gneiss",
+									"ItemId": "(O){{ModId}}_Schist",
+									"CopyQuality": false,
+									"MinStack": 1,
+									"MaxStack": 1,
+								}
+							],
+							"MinutesUntilReady": 120,
+							"DaysUntilReady": -1,
+							"RecalculateOnCollect": false
+						},
+                        {
+							"Id": "{{ModId}}_Prismatic_Pieces_Process",
+							"Triggers": [
+								{
+									"Trigger": "ItemPlacedInMachine",
+									"RequiredItemId": "(O){{ModId}}_Prismatic_Pieces",
+									"RequiredCount": 10,
+								}
+							],
+							"UseFirstValidOutput": false,
+							"OutputItem": [
+								{
+									"Id": "{{ModId}}Prismatic_Pieces_Full",
+									"ItemId": "(O)74",
+									"CopyQuality": false,
+								}
+							],
+							"DaysUntilReady": 7,
+                            "InvalidCountMessage": null,
+							"RecalculateOnCollect": false
+						},
+                    ],
+                },
+        	},
+		},
+    ],
+}

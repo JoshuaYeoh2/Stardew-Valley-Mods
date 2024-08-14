@@ -1,0 +1,19 @@
+{
+
+"rain": "MAIL FS_MacRepair/GOTO rainNormal/GOTO rainHome",
+"Mon": "MAIL FS_MacRepair/GOTO MonNormal/GOTO MonHome",
+"Sun": "MAIL FS_MacRepair/GOTO SunNormal/GOTO SunHome",
+"spring": "MAIL FS_MacRepair/GOTO springNormal/GOTO springHome",
+//Mac takes care of the animals in a different order depending on rain, sunny or Sunday
+"rainNormal": "0 Lizzie.Stoffton_ShepherdSecond 16 23/610 Lizzie.Stoffton_Shepherd 15 18 2/700 Lizzie.Stoffton_SchaferBarn1 8 4 0/840 Lizzie.Stoffton_SchaferBarn 1 1 8 square_3_3/1040 Lizzie.Stoffton_SchaferBarn2 11 9 1 square_3_3/1400 Lizzie.Stoffton_SchaferCoop 6 6 2/1900 Lizzie.Stoffton_Shepherd 15 18 2/2100 Lizzie.Stoffton_ShepherdSecond 15 26 3/2300 Lizzie.Stoffton_ShepherdSecond 16 23 3 Mac_sleep",
+//Mac collects egs in the morning on Monday, then drops them in his Aunt's fridge in the afternoon
+"MonNormal": "0 Lizzie.Stoffton_ShepherdSecond 16 23/610 Lizzie.Stoffton_Shepherd 15 18 2/700 Lizzie.Stoffton_SchaferCoop 6 6 square_3_3/940 Lizzie.Stoffton_SchaferBarn 11 8 square_3_3/1140 Lizzie.Stoffton_SchaferBarn2 11 9 1 square_3_3/1500 Lizzie.Stoffton_Pickles 9 19 0/1800 Lizzie.Stoffton_Shepherd 15 18 2/2100 Lizzie.Stoffton_ShepherdSecond 15 26 3/2300 Lizzie.Stoffton_ShepherdSecond 16 23 3 Mac_sleep",
+"SunNormal": "0 Lizzie.Stoffton_ShepherdSecond 16 23/610 Lizzie.Stoffton_Shepherd 15 18 2/630 Lizzie.Stoffton_Yoba 16 12 0/1200 Lizzie.Stoffton_SchaferBarn 11 8 square_3_3/1500 Lizzie.Stoffton_SchaferBarn2 11 9 1 square_3_3/1600 Lizzie.Stoffton_SchaferCoop 6 6 2/1900 Lizzie.Stoffton_Shepherd 15 18 2/2100 Lizzie.Stoffton_ShepherdSecond 15 26 3/2300 Lizzie.Stoffton_ShepherdSecond 16 23 3 Mac_sleep",
+  "springNormal": "0 Lizzie.Stoffton_ShepherdSecond 16 23/610 Lizzie.Stoffton_Shepherd 15 18 2/700 Lizzie.Stoffton_SchaferCoop 6 6 square_3_3/940 Lizzie.Stoffton_SchaferBarn 11 8 square_3_3/1140 Lizzie.Stoffton_SchaferBarn2 11 9 1 square_3_3/1400 Lizzie.Stoffton_SchaferBarn1 8 4 0/1900 Lizzie.Stoffton_Shepherd 15 18 2/2100 Lizzie.Stoffton_ShepherdSecond 15 26 3/2300 Lizzie.Stoffton_ShepherdSecond 16 23 3 Mac_sleep",
+//Mac has a modified schedule when the Vogel house is repaired
+"rainHome": "0 Lizzie.Stoffton_MacHouse 10 4/610 Lizzie.Stoffton_MacHouse 6 16 2/700 Lizzie.Stoffton_SchaferCoop 6 6 2 square_3_3/1900 Lizzie.Stoffton_MacHouse 6 16 2/2100 Lizzie.Stoffton_MacHouse 17 16 3/2300 Lizzie.Stoffton_MacHouse 10 4 3 Mac_sleep",
+"MonHome": "0 Lizzie.Stoffton_MacHouse 10 4/610 Lizzie.Stoffton_MacHouse 6 16 2/700 Lizzie.Stoffton_SchaferCoop 6 6 square_3_3/1500 Lizzie.Stoffton_Pickles 9 19 0/1800 Lizzie.Stoffton_MacHouse 6 16 2/2100 Lizzie.Stoffton_MacHouse 17 16 3/2300 Lizzie.Stoffton_MacHouse 10 4 3 Mac_sleep",
+"SunHome": "0 Lizzie.Stoffton_MacHouse 10 4/610 Lizzie.Stoffton_MacHouse 6 16 2/630 Lizzie.Stoffton_Yoba 8 12 0/1200 Lizzie.Stoffton_SchaferCoop 6 6 2 square_3_3/1900 Lizzie.Stoffton_MacHouse 6 16 2/2100 Lizzie.Stoffton_MacHouse 17 16 3/2300 Lizzie.Stoffton_MacHouse 10 4 3 Mac_sleep",
+  "springHome": "0 Lizzie.Stoffton_MacHouse 10 4/610 Lizzie.Stoffton_MacHouse 6 16 2/700 Lizzie.Stoffton_SchaferCoop 6 6 square_3_3/1900 Lizzie.Stoffton_MacHouse 6 16 2/2100 Lizzie.Stoffton_MacHouse 17 16 3/2300 Lizzie.Stoffton_MacHouse 10 4 3 Mac_sleep",  
+  
+}

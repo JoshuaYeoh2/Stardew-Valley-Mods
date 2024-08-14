@@ -1,0 +1,48 @@
+{
+"Changes": [
+{
+
+  "Action": "EditData",
+  "Target": "Data/Events/Lizzie.Stoffton_Shepherd",
+  "Entries":{
+
+//Greta 4 heart event
+"11666133/f GretaFS 1000": "continue/14 17/farmer 11 24 1 GretaFS 13 17 1 MacFS 17 17 3 FionaFS 15 16 2/skippable/pause 1000/speak GretaFS \"{{i18n:event-11666133.01}}\"/speak MacFS \"{{i18n:event-11666133.02}}\"/speak FionaFS \"{{i18n:event-11666133.03}}\"/speak GretaFS \"{{i18n:event-11666133.04}}\"/speak FionaFS \"{{i18n:event-11666133.05}}\"/speak FionaFS \"{{i18n:event-11666133.06}}\"/move farmer 2 0 1 true/playSound woodyStep/pause 300/playSound woodyStep/pause 1000/move farmer 0 -5 0 true/faceDirection GretaFS 2/playSound woodyStep/pause 300/playSound woodyStep/pause 300/playSound woodyStep/pause 300/playSound woodyStep/pause 300/playSound woodyStep/pause 1000/speak GretaFS \"$q -1 null#{{i18n:event-11666133.07}}#$r -1 0 event_passingBy#{{i18n:event-11666133.08}}#$r -1 30 event_marriedFamily#{{i18n:event-11666133.09}}#$r -1 50 event_familySupport#{{i18n:event-11666133.10}}#$r -1 -250 event_meanReliance#{{i18n:event-11666133.11}}\"/fork meanGretaEnd/speak MacFS \"{{i18n:event-11666133.12}}\"/speak FionaFS \"{{i18n:event-11666133.13}}\"/speak FionaFS \"{{i18n:event-11666133.14}}\"/end",
+  "meanGretaEnd": "friendship MacFS -250/speak MacFS \"{{i18n:event-11666133.meanGretaEnd.01}}\"/friendship FionaFS -250/speak FionaFS \"{{i18n:event-11666133.meanGretaEnd.02}}\"/end",
+
+//Schafer Adult Children Introduction
+"11666151/t 600 2600": "continue/18 26/farmer 11 24 1 FionaFS 13 26 1 OttoFS 15 25 2 GerhardFS 17 25 2 HelmutFS 19 25 2 JohannaFS 21 25 2 FelixFS 21 27 3/skippable/pause 1000/move farmer 2 0 1/faceDirection FionaFS 0/pause 500/speak FionaFS \"{{i18n:event-11666151.01}}\"/speak FionaFS \"{{i18n:event-11666151.02}}\"/faceDirection OttoFS 3/pause 500/speak OttoFS \"{{i18n:event-11666151.03}}\"/faceDirection OttoFS 2/speak FionaFS \"{{i18n:event-11666151.04}}\"/faceDirection GerhardFS 3/pause 500/speak GerhardFS \"{{i18n:event-11666151.05}}\"/faceDirection GerhardFS 2/faceDirection HelmutFS 3/pause 500/speak HelmutFS \"{{i18n:event-11666151.06}}\"/faceDirection HelmutFS 2/faceDirection JohannaFS 3/pause 500/speak JohannaFS \"{{i18n:event-11666151.07}}\"/faceDirection JohannaFS 2/move FelixFS -1 0 3/speak FelixFS \"{{i18n:event-11666151.08}}\"/end",
+
+//Josef 2 heart event
+"11666179/f JosefFS 500": "sadpiano/-1000 -1000/farmer 4 20 2 JosefFS 10 27 1/skippable/changeLocation Lizzie.Stoffton_ShepherdSecond/viewport 4 25/pause 1000/doAction 4 22/speed farmer 4/move farmer 0 6 2/faceDirection JosefFS 3/pause 300/speak JosefFS \"{{i18n:event-11666179.01}}\"/emote farmer 8/speak JosefFS \"{{i18n:event-11666179.02}}\"/speak JosefFS \"{{i18n:event-11666179.03}}\"/end",
+
+//Josef 4 heart event
+"11666180/f JosefFS 1000": "sadpiano/3 26/farmer 10 24 3 JosefFS 4 26 3 OttoFS 3 23 2/skippable/pause 1000/speak JosefFS \"{{i18n:event-11666180.01}}\"/speak OttoFS \"{{i18n:event-11666180.02}}\"/speak JosefFS \"{{i18n:event-11666180.03}}\"/speak JosefFS \"{{i18n:event-11666180.04}}\"/speak OttoFS \"{{i18n:event-11666180.05}}\"/move JosefFS -1 0 3/speak JosefFS \"{{i18n:event-11666180.06}}\"/move JosefFS 0 2 2/warp JosefFS -1000 -1000/speak OttoFS \"{{i18n:event-11666180.07}}\"/end",
+
+//Josef 6 heart event
+"11666181/f JosefFS 1500": "sadpiano/-1000 -1000/farmer 4 20 2 JosefFS 10 27 1/skippable/changeLocation Lizzie.Stoffton_ShepherdSecond/viewport 4 25/pause 1000/doAction 4 22/speed farmer 4/move farmer 0 6 2/emote farmer 8/jump JosefFS/pause 300/faceDirection JosefFS 3/pause 300/speak JosefFS \"{{i18n:event-11666181.01}}\"/speak JosefFS \"$q -1 null#{{i18n:event-11666181.02}}#$r -1 0 event_leaveToIt#{{i18n:event-11666181.03}}#$r -1 50 event_talkAboutIt#{{i18n:event-11666181.04}}\"/speak JosefFS \"{{i18n:event-11666181.05}}\"/speak JosefFS \"{{i18n:event-11666181.06}}\"/emote farmer 40/pause 300/speak JosefFS \"{{i18n:event-11666181.07}}\"/emote farmer 16/pause 300/speak JosefFS \"{{i18n:event-11666181.08}}\"/speak JosefFS \"{{i18n:event-11666181.09}}\"/speak JosefFS \"{{i18n:event-11666181.10}}\"/speak JosefFS \"{{i18n:event-11666181.11}}\"/emote farmer 40/pause 300/speak JosefFS \"{{i18n:event-11666181.12}}\"/emote farmer 60/pause 300/speak JosefFS \"{{i18n:event-11666181.13}}\"/end",
+
+//Josef 8 heart event
+"11666182/f JosefFS 2000": "sadpiano/-1000 -1000/farmer 4 20 2 JosefFS 10 27 1/skippable/changeLocation Lizzie.Stoffton_ShepherdSecond/viewport 4 25/pause 1000/doAction 4 22/speed farmer 4/move farmer 0 6 2/faceDirection JosefFS 3/speak JosefFS \"{{i18n:event-11666182.01}}\"/emote farmer 8/pause 300/speak JosefFS \"{{i18n:event-11666182.02}}\"/speak JosefFS \"{{i18n:event-11666182.03}}\"/speak JosefFS \"{{i18n:event-11666182.04}}\"/emote farmer 60/pause 300/speak JosefFS \"{{i18n:event-11666182.05}}\"/speak JosefFS \"{{i18n:event-11666182.06}}\"/speak JosefFS \"$q -1 null#{{i18n:event-11666182.07}}#$r -1 0 event_stayHelp#{{i18n:event-11666182.08}}#$r -1 0 event_fixHouse#{{i18n:event-11666182.09}}\"/fork fixHouse/speak JosefFS \"{{i18n:event-11666182.10}}\"/end",
+
+//Josef 10 heart event
+"11666183/f JosefFS 2500": "sadpiano/-1000 -1000/farmer 4 20 2 JosefFS 10 27 1/skippable/changeLocation Lizzie.Stoffton_ShepherdSecond/viewport 4 25/pause 1000/doAction 4 22/speed farmer 4/move farmer 0 6 2/faceDirection JosefFS 3/speak JosefFS \"{{i18n:event-11666183.01}}\"/speak JosefFS \"{{i18n:event-11666183.02}}\"/emote farmer 32/pause 300/speak JosefFS \"$q -1 null#{{i18n:event-11666183.03}}#$r -1 0 event_stayAgain#{{i18n:event-11666183.04}}#$r -1 0 event_fixHouse#{{i18n:event-11666183.05}}\"/fork fixHouse/speak JosefFS \"{{i18n:event-11666183.06}}\"/end",
+
+//Rolf 2 heart event
+"11666226/f RolfFS 500": "50s/-1000 -1000/farmer 16 15 0 RolfFS 15 8 0/skippable/mail FS_RolfMail2/changeLocation Lizzie.Stoffton_ShepherdSecond/addBigProp 12 6 15/addBigProp 13 6 15/addBigProp 14 6 15/addObject 14 7 135/viewport 16 8/pause 1000/doAction 16 14/speed farmer 4/move farmer 0 -5 0/textAboveHead RolfFS \"{{i18n:event-11666226.01}}\"/pause 500/playSound cavedrip/pause 500/faceDirection RolfFS 3/addObject 13 7 135/playSound waterSlosh/pause 200/playSound wateringCan/pause 300/textAboveHead RolfFS \"{{i18n:event-11666226.02}}\"/pause 500/faceDirection RolfFS 2/speak RolfFS \"{{i18n:event-11666226.03}}\"/emote farmer 8/pause 500/speak RolfFS \"{{i18n:event-11666226.04}}$6\"/playSound cavedrip/pause 500/faceDirection RolfFS 3/addObject 12 7 135/playSound waterSlosh/pause 200/emote RolfFS 12/playSound wateringCan/pause 600/faceDirection RolfFS 2/pause 500/speak RolfFS \"{{i18n:event-11666226.05}}\"/end",
+
+//Rolf 4 heart event
+"11666227/f RolfFS 1000": "50s/-1000 -1000/farmer 16 15 0 RolfFS 15 7 2/skippable/mail FS_RolfMail4/changeLocation Lizzie.Stoffton_ShepherdSecond/addBigProp 16 8 14/addBigProp 17 8 13/addBigProp 18 8 13/addBigProp 19 8 13/addBigProp 20 8 13/addBigProp 21 8 13/viewport 16 8/pause 1000/doAction 16 14/speed farmer 4/move farmer 0 -5 0/textAboveHead RolfFS \"{{i18n:event-11666227.01}}\"/pause 500/playSound furnace/pause 500/faceDirection RolfFS 1/pause 500/addObject 17 9 379/playSound clank/pause 200/playSound fireball/pause 300/textAboveHead RolfFS \"{{i18n:event-11666227.02}}\"/pause 800/faceDirection RolfFS 2/speak RolfFS \"{{i18n:event-11666227.03}}$4\"/emote farmer 16/pause 500/playSound furnace/pause 500/faceDirection RolfFS 1/addObject 18 9 383/playSound fireball/pause 200/emote RolfFS 16/playSound fireball/pause 600/speak RolfFS \"{{i18n:event-11666227.04}}$6\"/speed farmer 6/move farmer 0 -1 0/specificTemporarySprite waterShane/pause 250/playSound wateringCan/pause 1000/specificTemporarySprite waterShaneDone/pause 500/faceDirection RolfFS 2/pause 500/speak RolfFS \"{{i18n:event-11666227.05}}$6\"/end",
+
+//Rolf 6 heart event
+"11666228/f RolfFS 1500": "50s/-1000 -1000/farmer 16 15 0 RolfFS 15 8 0/skippable/mail FS_RolfMail6/changeLocation Lizzie.Stoffton_ShepherdSecond/addBigProp 12 6 16/addBigProp 13 6 16/addBigProp 14 6 16/addObject 14 7 135/viewport 16 8/pause 1000/doAction 16 14/speed farmer 4/move farmer 0 -5 0/textAboveHead RolfFS \"{{i18n:event-11666228.01}}\"/pause 500/playSound cavedrip/pause 500/faceDirection RolfFS 3/addObject 13 7 135/playSound waterSlosh/pause 200/playSound wateringCan/pause 300/textAboveHead RolfFS \"{{i18n:event-11666228.02}}\"/pause 500/faceDirection RolfFS 2/speak RolfFS \"{{i18n:event-11666228.03}}\"/emote farmer 8/pause 500/speak RolfFS \"{{i18n:event-11666228.04}}$6\"/playSound cavedrip/pause 500/faceDirection RolfFS 3/addObject 12 7 135/playSound waterSlosh/pause 200/emote RolfFS 12/playSound wateringCan/pause 600/faceDirection RolfFS 2/pause 500/speak RolfFS \"{{i18n:event-11666228.05}}\"/end",
+
+
+
+
+
+}
+}
+]
+}
+

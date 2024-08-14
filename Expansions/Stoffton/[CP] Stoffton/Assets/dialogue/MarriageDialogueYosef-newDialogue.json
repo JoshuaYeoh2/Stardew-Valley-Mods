@@ -1,0 +1,27 @@
+{
+"Changes": [
+{
+
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/MarriageDialogueYosefFS",
+  "Entries": {
+//Rainy2 gifts: cloth, morel, wool
+    "Rainy_Day_2": "{{i18n:MarriageDialogueYosef.Rainy_Day_2.1}}",
+    "patio_YosefFS": "{{i18n:MarriageDialogueYosef.patio_YosefFS.1}}$3",
+//Rainy4 gifts: pizza, bean hotpot
+    "Rainy_Night_4": "{{i18n:MarriageDialogueYosef.Rainy_Night_4.1}}",
+//Indoor1 gifts: strawberry seeds, starfruit seeds, cranberry seeds, sunflower seeds, red cabbage seeds, rhubarb seeds
+    "Indoor_Day_1": "{{i18n:MarriageDialogueYosef.Indoor_Day_1.1}}",
+//gifts: pizza, bean hotpot
+    "Indoor_Night_0": "{{i18n:MarriageDialogueYosef.Indoor_Night_0.1}}",
+    "funLeave_YosefFS": "{{i18n:MarriageDialogueYosef.funLeave_YosefFS.1}}",
+    "funReturn_YosefFS": "{{i18n:MarriageDialogueYosef.funReturn_YosefFS.1}}",
+    "spring_YosefFS": "{{i18n:MarriageDialogueYosef.spring_YosefFS.1}}$3#$e#{{i18n:MarriageDialogueYosef.spring_YosefFS.2}}$4",
+    "summer_YosefFS": "",
+    "fall_YosefFS": "{{i18n:MarriageDialogueYosef.fall_YosefFS.1}}$2#$e#{{i18n:MarriageDialogueYosef.fall_YosefFS.2}}$5",
+    "winter_YosefFS": "{{i18n:MarriageDialogueYosef.winter_YosefFS.1}}",
+    "spouseRoom_YosefFS": "{{i18n:MarriageDialogueYosef.spouseRoom_YosefFS.1}}$2#$e#{{i18n:MarriageDialogueYosef.spouseRoom_YosefFS.2}}$3",
+  }
+}
+]
+}

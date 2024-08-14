@@ -1,0 +1,107 @@
+{
+  
+  "Changes": [
+
+  {
+
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Vanessa": "child/polite/neutral/neutral/female/non-datable/null/Town/winter 10//Saloon 18 18/Vanessa"
+
+
+      }
+    },
+    {
+
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Vanessa": "Wow that's awesome! I love it so much! @/206 211 212 213 218/Thanks, @!/194 196 198 220 227 240 247 248 274 276/No thanks./336/This is the worst thing you could have given me./337 346/Thanks/229/"
+		
+      }
+    },
+
+    {
+
+      "LogName": "Vanessa Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Vanessa, Portraits/Vanessa",
+      "FromFile": "assets/{{Target}}/Vanessa.png"
+
+    },
+
+    {
+
+      "LogName": "Vanessa Sprites",
+      "Action": "Load",
+      "Target": "Characters/Vanessa, Characters/Vanessa",
+      "FromFile": "assets/{{Target}}/Vanessa.png"
+
+    },
+
+    {
+
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Vanessa",
+      "FromFile": "assets/Characters/Dialogue/Vanessa dialogue/Dialogue.json"
+
+    },
+    {
+
+      
+            "Action": "EditData",
+            "Target": "Characters/schedules/Vanessa",
+            "When": {
+                "HasSeenEvent": "9695001",
+                "HasMod": "Xiddav.LittleRedSchoolHouse"
+            },
+            "Entries": {
+                  "Tue": "800 Custom_SchoolHouse 22 11 3 Vanessa_Read/1400 Saloon 35 18 0/1620 Town 50 93 0/1740 Saloon 35 18 0/2000 Saloon 35 17 2 Vanessa_Sleep",
+                "Wed": "GOTO Tue",
+                "Fri": "GOTO Tue"
+            }
+        },
+{
+
+      
+            "Action": "EditData",
+            "Target": "Characters/schedules/Vanessa",
+            "When": { "CCR": true },
+            "Entries": {
+                 "Tue": "800 CommunityCenter 15 22 2/1130 Town 50 93 0/1740 Saloon 35 18 0/2000 Saloon 35 17 2 Vanessa_Sleep",
+	"Wed": "GOTO Tue",
+	"Fri": "GOTO Tue"
+            }
+        },
+    {
+
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Vanessa",
+       "FromFile": "assets/Characters/schedules/Vanessa/Schedule.json"
+
+    },       
+{
+            "LogName": "Animations",
+            "Action": "EditData",
+            "Target": "Data/animationDescriptions",
+            "Entries": {
+          
+                "Vanessa_Read": "22/22/22",
+                "Vanessa_Sleep": "23/23/23",
+                "Vanessa_Jump": "24/24/24"
+       }
+            }
+
+  ]
+}
+		
+    
+
+   
+
+		

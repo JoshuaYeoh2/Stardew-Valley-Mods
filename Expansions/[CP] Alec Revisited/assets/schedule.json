@@ -1,0 +1,49 @@
+{
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Characters/schedules/SPB_Alec",
+			"FromFile": "assets/empty.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/schedules/SPB_Alec",
+			"Entries": {
+				"Mon": "1100 Custom_AlecsPetShop 21 14 3/1300 Custom_AlecsPetShop 12 15 0/1330 Custom_AlecsPetShop 20 7 0/1400 Custom_AlecsPetShop 3 6 0 alec_fish \"Strings\\schedules\\SPB_Alec:FishTankFav.000\"/1430 Custom_AlecsPetShop 4 15 0/1500 Custom_AlecsPetShop 9 15 0/1530 Custom_AlecsPetShop 21 14 3/1800 Custom_AlecsRoom 19 5 0 alec_eating/2000 Custom_AlecsRoom 9 5 4 alec_repair/2200 Custom_AlecsRoom 21 13 2 alec_sleep",
+				"Tue": "1100 Custom_AlecsPetShop 21 14 3/1300 Custom_AlecsRoom 19 5 0 alec_eating/1400 Custom_AlecsPetShop 21 14 3/1730 Custom_AlecsPetShop 3 6 0 alec_fish \"Strings\\schedules\\SPB_Alec:FishTankFav.000\"/1800 Forest 63 38 2 \"Strings\\schedules\\SPB_Alec:LuckyRiver.000\"/2000 Custom_AlecsRoom 9 5 4 alec_repair/2200 Custom_AlecsRoom 21 13 2 alec_sleep",
+				"Wed": "700 JojaMart 19 5 0/1100 Custom_AlecsPetShop 21 14 3/1800 Custom_AlecsPetShop 3 6 0 \"Strings\\schedules\\SPB_Alec:FishTankFav.000\"/1900 Forest 63 38 2 \"Strings\\schedules\\SPB_Alec:LuckyRiver.000\"/2000 Custom_AlecsRoom 19 5 0 alec_eating/2200 Custom_AlecsRoom 9 5 4 alec_repair/2300 Custom_AlecsRoom 21 13 2 alec_sleep",
+				"JojaMart_Replacement":	"SeedShop 13 27 1",
+				"Thu": "1100 Custom_AlecsPetShop 21 14 3/1300 Custom_AlecsRoom 19 5 0 alec_eating/1500 Custom_AlecsPetShop 21 14 3/1630 Custom_AlecsPetShop 3 6 0 \"Strings\\schedules\\SPB_Alec:FishTankFav.000\"/1730 Forest 63 38 2 \"Strings\\schedules\\SPB_Alec:LuckyRiver.000\"/1900 Custom_AlecsPetShop 12 15 0/2000 Custom_AlecsRoom 9 5 4 alec_repair/2100 Custom_AlecsRoom 19 5 0 alec_eating/2200 Custom_AlecsRoom 21 13 2 alec_sleep",
+				"Fri": "1100 Custom_AlecsPetShop 21 14 3 \"Strings\\schedules\\SPB_Alec:EarlyClose.000\"/1300 ArchaeologyHouse 17 14 2 alec_reading \"Strings\\schedules\\SPB_Alec:ReadingAgain.000\"/1700 Beach 52 24 2 \"Strings\\schedules\\SPB_Alec:GrewUpBeach.000\"/2100 Custom_AlecsRoom 19 5 0 alec_eating/2300 Custom_AlecsRoom 21 13 2 alec_sleep",
+				"Sat": "900 HarveyRoom 2 6 2 \"Strings\\schedules\\SPB_Alec:HarveyPlane.000\"/1230 Blacksmith 5 13 3 \"Strings\\schedules\\SPB_Alec:BlacksmithTrade.000\"/1500 ArchaeologyHouse 17 14 2 alec_reading \"Strings\\schedules\\SPB_Alec:ReadingAgain.000\"/1700 Forest 63 38 2 \"Strings\\schedules\\SPB_Alec:LuckyRiver.000\"/1800 Custom_AlecsRoom 19 5 0 alec_eating/2000 Custom_AlecsRoom 9 5 4 alec_repairRepair/2100 Custom_AlecsRoom 19 5 0 alec_eating/2200 Custom_AlecsRoom 21 13 2 alec_sleep",
+				"Sun": "800 SeedShop 38 18 0 \"Strings\\schedules\\SPB_Alec:SacredDay.000\"/1200 Mountain 56 35 2 \"Strings\\schedules\\SPB_Alec:ForGeodes.000\"/1600 Forest 63 38 2 \"Strings\\schedules\\SPB_Alec:LuckyRiver.000\"/2000 Custom_AlecsPetShop 12 15 0/2100 Custom_AlecsRoom 9 5 4 alec_repair/2300 Custom_AlecsRoom 21 13 2 alec_sleep",
+				"rain": "1100 Custom_AlecsPetShop 21 14 3/1300 Custom_AlecsPetShop 12 15 0/1330 Custom_AlecsPetShop 20 7 0/1400 Custom_AlecsPetShop 3 6 0 \"Strings\\schedules\\SPB_Alec:FishTankFav.000\"/1430 Custom_AlecsPetShop 4 15 0/1500 Custom_AlecsPetShop 9 15 0/1530 Custom_AlecsPetShop 21 14 3/1800 Custom_AlecsRoom 19 5 0 alec_eating/2000 Custom_AlecsRoom 9 5 4 alec_repair/2200 Custom_AlecsRoom 21 13 2 alec_sleep",
+				"spring": "1100 Custom_AlecsPetShop 21 14 3/1300 Custom_AlecsPetShop 12 15 0/1330 Custom_AlecsPetShop 20 7 0 1400/Custom_AlecsPetShop 3 6 0 \"Strings\\schedules\\SPB_Alec:FishTankFav.000\"/1430 Custom_AlecsPetShop 4 15 0/1500 Custom_AlecsPetShop 9 15 0/1530 Custom_AlecsPetShop 21 14 3/1800 Custom_AlecsRoom 19 5 0 alec_eating/2000 Custom_AlecsRoom 9 5 4 alec_repair/2200 Custom_AlecsRoom 21 13 2 alec_sleep",
+				"summer_Fri": "1100 Custom_AlecsPetShop 21 14 3 \"Strings\\schedules\\SPB_Alec:EarlyClose.000\"/1500 ArchaeologyHouse 17 14 2 alec_reading \"Strings\\schedules\\SPB_Alec:ReadingAgain.000\"/1800 Mountain 56 35 2 \"Strings\\schedules\\SPB_Alec:HotBeach.000\"/2000 Custom_AlecsRoom 9 5 4 alec_repair/2200 Custom_AlecsRoom 21 13 2 alec_sleep",
+				"fall_25": "1100 Custom_AlecsPetShop 21 14 3/1300 Hospital 5 17 0 \"Strings\\schedules\\SPB_Alec:DoctorsA.000\"/1430 Hospital 21 8 3 \"Strings\\schedules\\SPB_Alec:HarveyCheckup.000\"/1600 Hospital 4 6 1 \"Strings\\schedules\\SPB_Alec:DocWeight.000\"/1800 Custom_AlecsPetShop 3 6 0 \"Strings\\schedules\\SPB_Alec:fishTankFav.000\"/2000 Custom_AlecsRoom 9 5 4 alec_repairRepair/2100 Custom_AlecsRoom 19 5 0 alec_eating/2200 Custom_AlecsRoom 21 13 2 alec_sleep",
+				"winter_Tue": "1100 Custom_AlecsPetShop 21 14 3/1300 Custom_AlecsRoom 19 5 0 alec_eating/1400 Custom_AlecsPetShop 21 14 3/1730 Custom_AlecsPetShop 3 6 0 alec_fishFav.000\"/1800 Forest 63 38 2 \"Strings\\schedules\\SPB_Alec:MagicSnow.000\"/2000 Custom_AlecsRoom 9 5 4 alec_repair/2100 Custom_AlecsRoom 19 5 0 alec_eating/2200 Custom_AlecsRoom 21 13 2",
+				"winter_Wed": "900 JojaMart 19 5 0/1200 Custom_AlecsPetShop 21 14 3/1500 Custom_AlecsRoom 19 5 0/1600 Custom_AlecsPetShop 21 14 3/1730 Custom_AlecsPetShop 3 6 0 \"Strings\\schedules\\SPB_Alec:FishTankFav.000\"/1800 Forest 63 38 2 \"Strings\\schedules\\SPB_Alec:MagicSnow.000\"/2000 Custom_AlecsRoom 9 5 4 alec_repair/2100 Custom_AlecsRoom 19 5 0 alec_eating/2200 Custom_AlecsRoom 21 13 2",
+				"winter_Thu": "1100 Custom_AlecsPetShop 21 14 3/1300 Custom_AlecsRoom 19 5 0 alec_eating/1400 Custom_AlecsPetShop 21 14 3/1530 Custom_AlecsPetShop 3 6 0 \"Strings\\schedules\\SPB_Alec:FishTankFav.000\"/1800 Forest 63 38 2 \"Strings\\schedules\\SPB_Alec:MagicSnow.000\"/2000 Custom_AlecsRoom 9 5 4 alec_repair/2100 Custom_AlecsRoom 19 5 0 alec_eating/2200 Custom_AlecsRoom 21 13 2",
+				"winter_Fri": "1100 Custom_AlecsPetShop 21 14 3 \"Strings\\schedules\\SPB_Alec:EarlyClose.000\"/1400 ArchaeologyHouse 17 14 2 alec_reading \"Strings\\schedules\\SPB_Alec:ReadingAgain.000\"/1700 Beach 10 10 3 \"Strings\\schedules\\SPB_Alec:ColdBeach.000\"/2000 Custom_AlecsRoom 9 5 4 alec_repair/2200 Custom_AlecsRoom 21 13 2",
+				"winter_Sun": "800 SeedShop 38 18 0 \"Strings\\schedules\\SPB_Alec:SacredDay.000\"/1200 Mountain 56 35 2 \"Strings\\schedules\\SPB_Alec:ForGeodes.000\"/1600 Forest 63 38 2 \"Strings\\schedules\\SPB_Alec:MagicSnow.000\"/2000 Custom_AlecsRoom 19 5 0 alec_eating/2200 Custom_AlecsRoom 21 13 2",
+				"winter_26": "1100 Custom_AlecsPetShop 21 14 3 \"Strings\\schedules\\SPB_Alec:EarlyClose.000\"/1400 ArchaeologyHouse 17 14 2 alec_reading \"Strings\\schedules\\SPB_Alec:ReadingAgain.000\"/1800 Saloon 18 22 2 \"Strings\\schedules\\SPB_Alec:ClintBDay.000\"/2400 Custom_AlecsRoom 21 13 2",
+				"marriage_Sun":	"800 SeedShop 38 18 0 \"Strings\\schedules\\SPB_Alec:SacredDay.000\"/1200 Mountain 56 35 2 \"Strings\\schedules\\SPB_Alec:ForGeodes.000\"/2200 BusStop -1 23 3",
+				"marriage_Mon":	"900 Custom_AlecsPetShop 21 14 3/1300 Custom_AlecsPetShop 12 15 0/1330 Custom_AlecsPetShop 20 7 0/1400 Custom_AlecsPetShop 3 6 0 \"Strings\\schedules\\SPB_Alec:FishTankFav.000\"/1430 Custom_AlecsPetShop 4 15 0/1500 Custom_AlecsPetShop 9 15 0/1530 Custom_AlecsPetShop 21 14 3/1800 BusStop -1 23 3",
+				"marriage_Wed":	"1200 Beach 10 10 3 \"Strings\\schedules\\SPB_Alec:MarriedBeach.000\"/1800 BusStop -1 23 3",
+				"marriage_Fri":	"900 Custom_AlecsPetShop 21 14 3/1300 Custom_AlecsPetShop 12 15 0/1330 Custom_AlecsPetShop 20 7 0/1400 Custom_AlecsPetShop 3 6 0 \"Strings\\schedules\\SPB_Alec:FishTankFav.000\"/1430 Custom_AlecsPetShop 4 15 0/1500 Custom_AlecsPetShop 9 15 0/1530 Custom_AlecsPetShop 21 14 3/1800 BusStop -1 23 3",
+				"marriage_Sat": "1030 HarveyRoom 2 6 2 \"Strings\\schedules\\SPB_Alec:HarveyPlane.000\"/1800 BusStop -1 23 3",
+				"Marriage_winter_26": "900 Custom_AlecsPetShop 21 14 3/1300 Custom_AlecsPetShop 12 15 0/1330 Custom_AlecsPetShop 20 7 0/1400 Custom_AlecsPetShop 3 6 0 \"Strings\\schedules\\SPB_Alec:FishTankFav.000\"/1430 Custom_AlecsPetShop 4 15 0/1500 Custom_AlecsPetShop 9 15 0/1530 Custom_AlecsPetShop 21 14 3/1800 Saloon 18 22 2 \"Strings\\schedules\\SPB_Alec:ClintBDayMarried.000\"/2400 Custom_AlecsRoom 21 13 2"
+			}
+		},
+		{
+            "LogName": "Harvey Schedule Edit",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Harvey",
+            "Entries": {
+                "Sat": "900 HarveyRoom 8 5 0/1130 HarveyRoom 1 8 1 \"Strings\\schedules\\Harvey:AlecPlane.000\"/1500 HarveyRoom 21 7 0 \"Strings\\schedules\\Harvey:Sat.000\"/1630 HarveyRoom 3 4 0/1900 HarveyRoom 8 5 0/2100 HarveyRoom 6 4 0/2200 HarveyRoom 13 4 1 harvey_sleep",
+                "marriage_Sat": "1030 HarveyRoom 1 8 1 \"Strings\\schedules\\Harvey:AlecPlane.000\"/1800 BusStop -1 23 3",
+                "fall_25": "730 Hospital 1 5 0/1250 Hospital 10 14 2/1330 Hospital 5 5 2/1410 Hospital 5 6 3 harvey_examine_left/1800 HarveyRoom 9 5 0/2300 HarveyRoom 13 4 1 harvey_sleep"
+            }
+        }
+	]
+}

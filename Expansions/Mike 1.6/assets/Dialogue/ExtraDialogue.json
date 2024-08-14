@@ -1,0 +1,56 @@
+{
+  "Changes": [
+
+    {
+      "LogName": "Engagement Dialogue",
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "Entries": {
+        "Mike0": "{{i18n: Engagement1.Mike}}",
+        "Mike1": "{{i18n: Engagement2.Mike}}"
+      }
+     },
+    { 
+      "LogName": "Marriage",
+      "Action": "EditData",
+      "Target": "strings/StringsFromCSFiles",
+      "Entries": {
+        "Utility.cs.5371": "{{i18n: MarriageCS1.Mike}}",
+        "Utility.cs.5369": "{{i18n: MarriageCS2.Mike}}"
+      },
+      "When": {
+        "Relationship:Mike": "Engaged, Married"
+      }
+    },
+
+    { //Dialogue for Rainy Days//
+      "Logname": "Rainy",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/rainy",
+      "Entries": {
+        "Mike": "{{i18n: Rainy.Mike}}"
+      }
+    },
+    {
+      "LogName": "Extra Dialogue",
+      "Action": "EditData",
+      "Target": "Data/ExtraDialogue",
+      "Entries": {
+
+        "Mines_PlayerKilled_Spouse_PlayerMale": "{{i18n: PK.MaleMike}}",
+        "Mines_PlayerKilled_Spouse_PlayerFemale": "{{i18n: PK.FemaleMike}}",
+	"Mines_PlayerKilled_Schnabel": "{{i18n: PK.JustMike}}",
+  	"SummitEvent_Intro_Spouse": "{{i18n: SummitIntro1.Mike}}",
+ 	"SummitEvent_Intro2_Spouse": "{{i18n: SummitIntro2.Mike}}",
+  	"SummitEvent_Intro2_Spouse_Gruff": "{{i18n: SummitIntro3.Mike}}",
+ 	"SummitEvent_Dialogue1_Spouse": "{{i18n: SummitDialogue1A.Mike}}",
+  	"SummitEvent_Dialogue1B_Spouse": "{{i18n: SummitDialogue1B.Mike}}",
+  	"SummitEvent_Dialogue2_Spouse": "{{i18n: SummitDialogue2.Mike}}",
+	"SummitEvent_Dialogue3_Mike": "{{i18n: SummitDialogue3.Mike}}",
+      },
+      "When": {
+        "Relationship:Mike": "Married"
+      }
+     },
+]
+}

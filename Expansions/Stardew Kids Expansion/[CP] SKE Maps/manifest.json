@@ -1,0 +1,18 @@
+{
+   "Name": "Stardew Kids Expansion Data",
+   "Author": "BURAKMESE",
+   "Version": "0.0.2",
+   "Description": "Map data is stored here.",
+   "UniqueID": "BM.MapData",
+   "UpdateKeys": [ "Nexus:" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+  },
+  "Dependencies": [
+		{
+			"UniqueID": "FlashShifter.StardewValleyExpandedCP",
+			"IsRequired": false,
+		},
+	
+	],
+}

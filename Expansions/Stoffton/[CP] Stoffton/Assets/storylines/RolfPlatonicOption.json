@@ -1,0 +1,66 @@
+{
+"Changes": [
+
+//Changing NPCDisoposition for Rolf as marriage candidate
+{
+      "LogName": "Making Rolf a non-marriage candidate in NPCDispositions",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Fields": {
+      "RolfFS": {5: "not-datable"},
+      },
+},
+
+{ 
+	"Action": "EditData",
+	"Target": "Data/Events/farm",
+	"Entries": {
+  "11666231/f RolfFS 2250/x FS_RolfMailHouseRequest": "null",
+}
+},
+
+
+//Adding events for Rolf not dateable
+{
+
+  "Action": "EditData",
+  "Target": "Data/Events/Lizzie.Stoffton_RolfHouse",
+  "Entries":{
+
+//Rolf Repair Request Completion
+"11666232/n FS_RolfMailHouseRequest/i 66/i 62/i 60": "none/9 21/farmer 9 23 0 RolfFS 8 19 3/skippable/pause 1000/faceDirection RolfFS 2 true/pause 500/jump RolfFS/pause 1000/speak RolfFS \"{{i18n:event-11666232.01}}\"/emote farmer 16/speak RolfFS \"{{i18n:event-11666232.02}}\"/removeItem 66/removeItem 62/removeItem 60/addObject 8 21 66/playSound shiny4/pause 500/addObject 9 21 62/playSound shiny4/pause 600/addObject 10 21 60/playSound shiny4/speak RolfFS \"{{i18n:event-11666232.03}}\"/removeObject 8 21/playSound pickUpItem/pause 500/removeObject 9 21/playSound pickUpItem/pause 500/removeObject 10 21/playSound pickUpItem/pause 500/emote farmer 8/pause 500/speak RolfFS \"{{i18n:event-11666232.04}}\"/speak RolfFS \"{{i18n:event-11666232.05}}\"/speak RolfFS \"{{i18n:event-11666232.06}}\"/mail FS_RolfRepair/fade/end dialogue RolfFS \"{{i18n:event-11666232.07}}\"",
+
+
+}
+},
+
+{
+
+  "Action": "EditData",
+  "Target": "Data/Events/Lizzie.Stoffton_RockyFord",
+  "Entries":{
+
+"11666233/n FS_RolfRepair": "CloudCountry/28 34/farmer 28 35 0 RolfFS 28 33 2/skippable/pause 1000/speak RolfFS \"{{i18n:event-11666233.01}}\"/speak RolfFS \"{{i18n:event-11666233.02}}\"/faceDirection RolfFS 0/pause 300/warp RolfFS -1000 -1000/move farmer 0 -2 0/viewport -1000 -1000/changeLocation Lizzie.Stoffton_RolfHouse/warp RolfFS 9 20/faceDirection RolfFS 2/warp farmer 9 22/faceDirection farmer 0/viewport 9 21/faceDirection RolfFS 3/pause 300/faceDirection RolfFS 1/pause 300/faceDirection RolfFS 2/pause 300/speak RolfFS \"{{i18n:event-11666233.03}}\"/speak RolfFS \"$q -1 null#{{i18n:event-11666233.04}}#$r -1 50 event_thankYou#{{i18n:event-11666233.05}}#$r -1 20 event_thankYou#{{i18n:event-11666233.06}}#$r -1 0 event_thankYou#{{i18n:event-11666233.07}}#$r -1 -1000 event_awfulMean#{{i18n:event-11666233.08}}\"/fork awfulMean/speak RolfFS \"{{i18n:event-11666233.09}}\"/end",
+  "awfulMean": "end"
+
+
+
+	}
+},
+
+{
+
+  "Action": "EditData",
+  "Target": "Data/Events/Lizzie.Stoffton_Shepherd",
+  "Entries":{
+
+"11666183/f RolfFS 2500": "null",
+
+	}
+},
+
+
+
+
+]
+}

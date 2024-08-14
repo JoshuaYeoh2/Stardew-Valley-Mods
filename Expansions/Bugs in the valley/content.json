@@ -1,0 +1,1152 @@
+{
+    "Format": "2.0.0",
+    "Changes": [
+        // include custom mail data
+        {
+            "Action": "Include",
+            "FromFile": "data/mail.json"
+        },
+        // include bug spawn location data
+        {
+            "Action": "Include",
+            "FromFile": "data/locations.json"
+        },
+        // load the sprites for the bugs
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/ObjectSprites",
+            "FromFile": "assets/objects.png"
+        },
+        // Bug item data
+  ///////////////
+ // Luna moth //
+///////////////
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Hitaxas.Bugs_Moth": {
+                    "Name": "Hitaxas.Bugs_Moth",
+                    "DisplayName": "{{i18n:moth-name}}",
+                    "Description": "{{i18n:moth-desc}}",
+                    "Type": "Arch",
+                    "Category": -12, // using mineral category (-12) so that it can be donated to the museum (ArchaeologyHouse)
+                    "Price": 80,
+                    "Texture": "Mods/{{ModId}}/ObjectSprites",
+                    "SpriteIndex": 0,
+                    "Edibility": -300, // see https://stardewcommunitywiki.com/Template:Edibility for notes
+                    "ContextTags": [ "color_lime", "season_spring", "season_summer" ],
+                    "Id": "Hitaxas.Bugs_Moth",
+                    "ItemId": "Hitaxas.Bugs_Moth",
+                    "CustomFields": {
+                        "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+                }
+            }
+        }
+        },
+  /////////////
+ // Ladybug //
+/////////////
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Hitaxas.Bugs_Ladybug": {
+                    "Name": "Hitaxas.Bugs_Ladybug",
+                    "DisplayName": "{{i18n:Ladybug-name}}",
+                    "Description": "{{i18n:Ladybug-desc}}",
+                    "Type": "Arch",
+                    "Category": -12,
+                    "Price": 75,
+                    "Texture": "Mods/{{ModId}}/ObjectSprites",
+                    "SpriteIndex": 1,
+                    "Edibility": -300,
+                    "ContextTags": [ "color_red", "season_spring" ],
+                    "CustomFields": {
+                        "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+                }
+            }
+        }
+        },
+  //////////////////
+ // Spring Azure //
+//////////////////
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Hitaxas.Bugs_Butterfly": {
+                    "Name": "Hitaxas.Bugs_Butterfly",
+                    "DisplayName": "{{i18n:Butterfly-name}}",
+                    "Description": "{{i18n:Butterfly-desc}}",
+                    "Type": "Arch",
+                    "Category": -12,
+                    "Price": 100,
+                    "Texture": "Mods/{{ModId}}/ObjectSprites",
+                    "SpriteIndex": 2,
+                    "Edibility": -300,
+                    "ContextTags": [ "color_blue", "season_spring" ],
+                    "CustomFields": {
+                        "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+                }
+            }
+        }
+        },
+  ///////////////////////
+ // Rhinoceros beetle //
+///////////////////////
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Hitaxas.Bugs_Beetle1": {
+                    "Name": "Hitaxas.Bugs_Beetle1",
+                    "DisplayName": "{{i18n:Beetle1-name}}",
+                    "Description": "{{i18n:Beetle1-desc}}",
+                    "Type": "Arch",
+                    "Category": -12,
+                    "Price": 150,
+                    "Texture": "Mods/{{ModId}}/ObjectSprites",
+                    "SpriteIndex": 3,
+                    "Edibility": -300,
+                    "ContextTags": [ "color_brown", "season_summer" ],
+                    "CustomFields": {
+                        "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+                }
+            }
+        }
+        },
+  ///////////////////
+ // Common Darter //
+///////////////////
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Hitaxas.Bugs_DFly1": {
+                    "Name": "Hitaxas.Bugs_DFly1",
+                    "DisplayName": "{{i18n:DFly1-name}}",
+                    "Description": "{{i18n:DFly1-desc}}",
+                    "Type": "Arch",
+                    "Category": -12,
+                    "Price": 100,
+                    "Texture": "Mods/{{ModId}}/ObjectSprites",
+                    "SpriteIndex": 4,
+                    "Edibility": -300,
+                    "ContextTags": [ "color_orange", "season_summer", "season_fall" ],
+                    "CustomFields": {
+                        "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+                }
+            }
+        }
+        },
+  ///////////////////
+ // Boxbug beetle //
+///////////////////
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Hitaxas.Bugs_BoxBug": {
+                    "Name": "Hitaxas.Bugs_BoxBug",
+                    "DisplayName": "{{i18n:BoxBug-name}}",
+                    "Description": "{{i18n:BoxBug-desc}}",
+                    "Type": "Arch",
+                    "Category": -12,
+                    "Price": 100,
+                    "Texture": "Mods/{{ModId}}/ObjectSprites",
+                    "SpriteIndex": 5,
+                    "Edibility": -300,
+                    "ContextTags": [ "color_dark_red", "season_spring" ],
+                    "CustomFields": {
+                        "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+                }
+            }
+        }
+        },
+  //////////////////
+ // Giant Cicada //
+//////////////////
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Hitaxas.Bugs_Cicada": {
+                    "Name": "Hitaxas.Bugs_Cicada",
+                    "DisplayName": "{{i18n:Cicada-name}}",
+                    "Description": "{{i18n:Cicada-desc}}",
+                    "Type": "Arch",
+                    "Category": -12,
+                    "Price": 100,
+                    "Texture": "Mods/{{ModId}}/ObjectSprites",
+                    "SpriteIndex": 6,
+                    "Edibility": -300,
+                    "ContextTags": [ "color_aquamarine", "season_spring" ],
+                    "CustomFields": {
+                        "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+                }
+            }
+        }
+        },
+  //////////////////////
+ // 22-Spot ladybird //
+//////////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Ladybird": {
+            "Name": "Hitaxas.Bugs_Ladybird",
+            "DisplayName": "{{i18n:Ladybird-name}}",
+            "Description": "{{i18n:Ladybird-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 7,
+            "Edibility": -300,
+            "ContextTags": [ "color_yellow", "season_summer", "season_spring" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+  /////////////////////////////
+ // Yellow-Tipped Tigertail //
+/////////////////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_DFly2": {
+            "Name": "Hitaxas.Bugs_DFly2",
+            "DisplayName": "{{i18n:DFly2-name}}",
+            "Description": "{{i18n:DFly2-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 8,
+            "Edibility": -300,
+            "ContextTags": [ "color_sand", "season_winter" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+  /////////////////
+ // Giant Stag //
+////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Beetle2": {
+            "Name": "Hitaxas.Bugs_Beetle2",
+            "DisplayName": "{{i18n:Beetle2-name}}",
+            "Description": "{{i18n:Beetle2-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 9,
+            "Edibility": -300,
+            "ContextTags": [ "color_black", "season_summer" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+  ///////////////
+ // Black ant //
+///////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Ant": {
+            "Name": "Hitaxas.Bugs_Ant",
+            "DisplayName": "{{i18n:Ant-name}}",
+            "Description": "{{i18n:Ant-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 10,
+            "Edibility": -300,
+            "ContextTags": [ "color_dark_blue", "season_summer" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+  /////////////////
+ // Wasp spider //
+/////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Spider": {
+            "Name": "Hitaxas.Bugs_Spider",
+            "DisplayName": "{{i18n:Spider-name}}",
+            "Description": "{{i18n:Spider-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 11,
+            "Edibility": -300,
+            "ContextTags": [ "color_yellow", "season_summer", "season_fall" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+///////////////////
+// Drone beetle //
+/////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Beetle3": {
+            "Name": "Hitaxas.Bugs_Beetle3",
+            "DisplayName": "{{i18n:Beetle3-name}}",
+            "Description": "{{i18n:Beetle3-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 12,
+            "Edibility": -300,
+            "ContextTags": [ "color_yellow_green", "season_summer", "season_fall" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+///////////////////////
+// Darner dragonfly //
+///////////////////// 
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_DFly3": {
+            "Name": "Hitaxas.Bugs_DFly3",
+            "DisplayName": "{{i18n:DFly3-name}}",
+            "Description": "{{i18n:DFly3-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 13,
+            "Edibility": -300,
+            "ContextTags": [ "color_green", "season_spring", "season_summer", "season_fall" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+////////////////////////
+// Common Bluebottle //
+////////////////////// 
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Butterfly2": {
+            "Name": "Hitaxas.Bugs_Butterfly2",
+            "DisplayName": "{{i18n:Butterfly2-name}}",
+            "Description": "{{i18n:Butterfly2-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 14,
+            "Edibility": -300,
+            "ContextTags": [ "color_dark_cyan", "season_summer", "season_fall" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+////////////////////////////////
+// Wallace's Golden Birdwing //
+//////////////////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Butterfly3": {
+            "Name": "Hitaxas.Bugs_Butterfly3",
+            "DisplayName": "{{i18n:Butterfly3-name}}",
+            "Description": "{{i18n:Butterfly3-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 15,
+            "Edibility": -300,
+            "ContextTags": [ "color_orange", "season_summer" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+///////////////////////
+// Goliath Birdwing //
+/////////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Butterfly4": {
+            "Name": "Hitaxas.Bugs_Butterfly4",
+            "DisplayName": "{{i18n:Butterfly4-name}}",
+            "Description": "{{i18n:Butterfly4-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 16,
+            "Edibility": -300,
+            "ContextTags": [ "color_yellow", "season_spring", "season_summer" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+  ////////////
+ // Bingus //
+////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Bingus": {
+            "Name": "Hitaxas.Bugs_Bingus",
+            "DisplayName": "{{i18n:Bingus-name}}",
+            "Description": "{{i18n:Bingus-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 300,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 17,
+            "Edibility": -300,
+            "ContextTags": [ "color_pink", "season_winter" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:bingus.category}}"
+        }
+    }
+}
+},
+  /////////////////////
+ // Painted Skimmer //
+/////////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_DFly4": {
+            "Name": "Hitaxas.Bugs_DFly4",
+            "DisplayName": "{{i18n:DFly4-name}}",
+            "Description": "{{i18n:DFly4-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 18,
+            "Edibility": -300,
+            "ContextTags": [ "color_yellow", "season_summer" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+  /////////////////////////////
+ // Rajah Brooke's Birdwing //
+/////////////////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Butterfly5": {
+            "Name": "Hitaxas.Bugs_Butterfly5",
+            "DisplayName": "{{i18n:Butterfly5-name}}",
+            "Description": "{{i18n:Butterfly5-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 19,
+            "Edibility": -300,
+            "ContextTags": [ "color_lime", "season_winter" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+  //////////////////////
+ // Cairn's Birdwing //
+//////////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Butterfly6": {
+            "Name": "Hitaxas.Bugs_Butterfly6",
+            "DisplayName": "{{i18n:Butterfly6-name}}",
+            "Description": "{{i18n:Butterfly6-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 20,
+            "Edibility": -300,
+            "ContextTags": [ "color_yellow", "season_summer", "season_fall" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+  //////////////
+ // Saw stag //
+//////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Beetle4": {
+            "Name": "Hitaxas.Bugs_Beetle4",
+            "DisplayName": "{{i18n:Beetle4-name}}",
+            "Description": "{{i18n:Beetle4-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 21,
+            "Edibility": -300,
+            "ContextTags": [ "color_brown", "season_fall", "season_winter" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+  //////////////////
+ // Pine Cricket //
+//////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Cricket1": {
+            "Name": "Hitaxas.Bugs_Cricket1",
+            "DisplayName": "{{i18n:Cricket1-name}}",
+            "Description": "{{i18n:Cricket1-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 22,
+            "Edibility": -300,
+            "ContextTags": [ "color_sand", "season_spring" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+  //////////////////
+ // Mole Cricket //
+//////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Cricket2": {
+            "Name": "Hitaxas.Bugs_Cricket2",
+            "DisplayName": "{{i18n:Cricket2-name}}",
+            "Description": "{{i18n:Cricket2-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 23,
+            "Edibility": -300,
+            "ContextTags": [ "color_orange", "season_summer" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+  ///////////////////
+ // House Cricket //
+///////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Cricket3": {
+            "Name": "Hitaxas.Bugs_Cricket3",
+            "DisplayName": "{{i18n:Cricket3-name}}",
+            "Description": "{{i18n:Cricket3-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 24,
+            "Edibility": -300,
+            "ContextTags": [ "color_brown", "season_summer", "season_fall" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+  ////////////////////////
+ // Citrus long-horned //
+////////////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Beetle5": {
+            "Name": "Hitaxas.Bugs_Beetle5",
+            "DisplayName": "{{i18n:Beetle5-name}}",
+            "Description": "{{i18n:Beetle5-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 25,
+            "Edibility": -300,
+            "ContextTags": [ "color_blue", "season_summer" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+  //////////////////////////
+ // Kidney-spot Ladybird //
+//////////////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Ladybird2": {
+            "Name": "Hitaxas.Bugs_Ladybird2",
+            "DisplayName": "{{i18n:Ladybird2-name}}",
+            "Description": "{{i18n:Ladybird2-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 26,
+            "Edibility": -300,
+            "ContextTags": [ "color_black", "season_fall" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+  ///////////////////////
+ // Tiger Swallowtail //
+///////////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Butterfly7": {
+            "Name": "Hitaxas.Bugs_Butterfly7",
+            "DisplayName": "{{i18n:Butterfly7-name}}",
+            "Description": "{{i18n:Butterfly7-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 27,
+            "Edibility": -300,
+            "ContextTags": [ "color_yellow", "season_spring", "season_summer", "season_fall" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+  //////////////////
+ // Jewel beetle //
+//////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Beetle6": {
+            "Name": "Hitaxas.Bugs_Beetle6",
+            "DisplayName": "{{i18n:Beetle6-name}}",
+            "Description": "{{i18n:Beetle6-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 28,
+            "Edibility": -300,
+            "ContextTags": [ "color_green", "season_summer", "season_fall", "season_winter" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+  //////////////////
+ // Horned atlas //
+//////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Beetle7": {
+            "Name": "Hitaxas.Bugs_Beetle7",
+            "DisplayName": "{{i18n:Beetle7-name}}",
+            "Description": "{{i18n:Beetle7-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 29,
+            "Edibility": -300,
+            "ContextTags": [ "color_black", "season_summer", "season_fall", "season_winter" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+  /////////////////////
+ // Horned hercules //
+/////////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Beetle8": {
+            "Name": "Hitaxas.Bugs_Beetle8",
+            "DisplayName": "{{i18n:Beetle8-name}}",
+            "Description": "{{i18n:Beetle8-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 30,
+            "Edibility": -300,
+            "ContextTags": [ "color_yellow", "season_summer", "season_fall", "season_winter" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+  ////////////////////
+ // Common peacock //
+////////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Butterfly8": {
+            "Name": "Hitaxas.Bugs_Butterfly8",
+            "DisplayName": "{{i18n:Butterfly8-name}}",
+            "Description": "{{i18n:Butterfly8-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 31,
+            "Edibility": -300,
+            "ContextTags": [ "color_green", "season_summer", "season_fall" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+  ///////////////
+ // Tarantula //
+///////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Spider2": {
+            "Name": "Hitaxas.Bugs_Spider2",
+            "DisplayName": "{{i18n:Spider2-name}}",
+            "Description": "{{i18n:Spider2-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 32,
+            "Edibility": -300,
+            "ContextTags": [ "color_black", "season_summer", "season_fall" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+  ///////////////////
+ // Orchid mantis //
+///////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Mantis": {
+            "Name": "Hitaxas.Bugs_Mantis",
+            "DisplayName": "{{i18n:Mantis-name}}",
+            "Description": "{{i18n:Mantis-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 33,
+            "Edibility": -300,
+            "ContextTags": [ "color_pink", "season_summer", "season_fall" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+  ///////////////////
+ // Walking stick //
+///////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Stick": {
+            "Name": "Hitaxas.Bugs_Stick",
+            "DisplayName": "{{i18n:Stick-name}}",
+            "Description": "{{i18n:Stick-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 34,
+            "Edibility": -300,
+            "ContextTags": [ "color_green", "season_summer" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+  //////////////////
+ // Giant mantis //
+//////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Mantis2": {
+            "Name": "Hitaxas.Bugs_Mantis2",
+            "DisplayName": "{{i18n:Mantis2-name}}",
+            "Description": "{{i18n:Mantis2-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 35,
+            "Edibility": -300,
+            "ContextTags": [ "color_green", "season_spring" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+  //////////////////
+ // Bell cricket //
+//////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Cricket4": {
+            "Name": "Hitaxas.Bugs_Cricket4",
+            "DisplayName": "{{i18n:Cricket4-name}}",
+            "Description": "{{i18n:Cricket4-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 36,
+            "Edibility": -300,
+            "ContextTags": [ "color_black", "season_fall" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+  /////////////////////
+ // Claudina Agrias //
+/////////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Butterfly9": {
+            "Name": "Hitaxas.Bugs_Butterfly9",
+            "DisplayName": "{{i18n:Butterfly9-name}}",
+            "Description": "{{i18n:Butterfly9-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 37,
+            "Edibility": -300,
+            "ContextTags": [ "color_dark_blue", "season_summer", "season_fall", "season_winter" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+  //////////////////
+ // Rainbow stag //
+//////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Beetle9": {
+            "Name": "Hitaxas.Bugs_Beetle9",
+            "DisplayName": "{{i18n:Beetle9-name}}",
+            "Description": "{{i18n:Beetle9-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 38,
+            "Edibility": -300,
+            "ContextTags": [ "color_red", "season_spring" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+  /////////////////
+ // Grasshopper //
+/////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Grasshopper": {
+            "Name": "Hitaxas.Bugs_Grasshopper",
+            "DisplayName": "{{i18n:Grasshopper-name}}",
+            "Description": "{{i18n:Grasshopper-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 39,
+            "Edibility": -300,
+            "ContextTags": [ "color_dark_green", "season_spring", "season_summer" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+  ///////////////////
+ // Oak silk moth //
+///////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Moth2": {
+            "Name": "Hitaxas.Bugs_Moth2",
+            "DisplayName": "{{i18n:Moth2-name}}",
+            "Description": "{{i18n:Moth2-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 40,
+            "Edibility": -300,
+            "ContextTags": [ "color_copper", "season_summer" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+  ////////////////////////////////
+ // Oriental longheaded locust //
+////////////////////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Locust": {
+            "Name": "Hitaxas.Bugs_Locust",
+            "DisplayName": "{{i18n:Locust-name}}",
+            "Description": "{{i18n:Locust-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 41,
+            "Edibility": -300,
+            "ContextTags": [ "color_green", "season_summer", "season_fall" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+  /////////////////////
+ // Rosy maple moth //
+/////////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Moth3": {
+            "Name": "Hitaxas.Bugs_Moth3",
+            "DisplayName": "{{i18n:Moth3-name}}",
+            "Description": "{{i18n:Moth3-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 42,
+            "Edibility": -300,
+            "ContextTags": [ "color_pink", "season_summer" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+  ///////////////////////////
+ // Hummingbird hawk-moth //
+///////////////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Moth4": {
+            "Name": "Hitaxas.Bugs_Moth4",
+            "DisplayName": "{{i18n:Moth4-name}}",
+            "Description": "{{i18n:Moth4-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 43,
+            "Edibility": -300,
+            "ContextTags": [ "color_copper", "season_summer" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+  //////////////////////////
+ // Great purple emperor //
+//////////////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Butterfly10": {
+            "Name": "Hitaxas.Bugs_Butterfly10",
+            "DisplayName": "{{i18n:Butterfly10-name}}",
+            "Description": "{{i18n:Butterfly10-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 44,
+            "Edibility": -300,
+            "ContextTags": [ "color_copper", "season_summer" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+  ///////////////////////////
+ // Death's-head hawkmoth //
+///////////////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Moth5": {
+            "Name": "Hitaxas.Bugs_Moth5",
+            "DisplayName": "{{i18n:Moth5-name}}",
+            "Description": "{{i18n:Moth5-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 45,
+            "Edibility": -300,
+            "ContextTags": [ "color_purple", "season_spring" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+},
+  //////////
+ //Weevil//
+//////////
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Hitaxas.Bugs_Weevil": {
+            "Name": "Hitaxas.Bugs_Weevil",
+            "DisplayName": "{{i18n:Weevil-name}}",
+            "Description": "{{i18n:Weevil-desc}}",
+            "Type": "Arch",
+            "Category": -12,
+            "Price": 100,
+            "Texture": "Mods/{{ModId}}/ObjectSprites",
+            "SpriteIndex": 46,
+            "Edibility": -300,
+            "ContextTags": [ "color_copper", "season_spring", "season_summer" ],
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:insect.category}}"
+        }
+    }
+}
+}
+    ]
+}

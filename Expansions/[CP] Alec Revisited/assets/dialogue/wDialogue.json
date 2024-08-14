@@ -1,0 +1,28 @@
+{
+    "Changes": [
+        {
+            "LogName": "Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Harvey",
+            "Entries": {
+                "fall_25": "{{i18n:Dialogue.Harvey.Fal25DW}}"
+            }
+        },
+        {
+            "LogName": "Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/SPB_Alec",
+            "Entries": {
+                "fall_25": "{{i18n:Dialogue.Alec.Fal25DW}}"
+            }
+        },
+        {
+            "LogName": "Schedule Dialogue",
+            "Action": "EditData",
+            "Target": "Strings/schedules/SPB_Alec",
+            "Entries": {
+                "DocWeight.000": "{{i18n:ScheduleDialogue.Alec.DocWeightW}}"
+            }
+        }
+    ]
+}

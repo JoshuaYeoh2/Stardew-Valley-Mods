@@ -1,0 +1,51 @@
+{
+  "Changes": [
+ //Dialogues about Mike//
+     { 
+       "LogName": "Gus",
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/Gus",
+       "Entries": {
+         "Mon": "{{i18n: Gus.AboutMike1}}"
+       },
+      "When": {
+      "Relationship:Mike": "Unmet, Friendly, Dating"
+      }
+    },
+    {
+      "LogName": "Gus",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Gus",
+      "Entries": {
+        "Wed2": "{{i18n: Gus.AboutMike2}}",
+	"MikeZZU": "{{i18n: Gus.AboutMike3}}",
+      }
+    },
+    {
+    "LogName": "Haley",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Haley",
+    "Entries": {
+      "Mon2": "{{i18n: Haley.AboutMike}}"
+    },
+    "When": {
+      "Relationship:Mike": "Unmet, Friendly, Dating"
+      }
+    },
+    {
+    "LogName": "Leah",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Leah",
+    "Entries": {
+      "Tue2": "{{i18n: Leah.AboutMike1}}",
+      "Tue6": "{{i18n: Leah.AboutMike2}}",
+      "Sun2": "{{i18n: Leah.AboutMike3}}",
+      "Sun4": "{{i18n: Leah.AboutMike4}}" 
+    },
+    "When": {
+      "Relationship:Mike": "Unmet, Friendly, Dating"
+      }
+    },
+
+]
+}

@@ -1,0 +1,21 @@
+{
+   "Name": "Seasonal Outfits for Annetta of Cape Stardew",
+   "Author": "Liliet",
+   "Version": "0.0.1",
+   "Description": "No more running around in just a dress in winter. Justice for Annetta's poor frozen bare legs",
+   "UniqueID": "Liliet.AnnettaSeasonal",
+   "UpdateKeys": [ "Nexus:18492" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+   "Dependencies": [
+      {
+        "UniqueID": "dreamygloom.AnnettaNPC",
+        "IsRequired": true
+      },
+      {
+        "UniqueID": "AnnettaPortraits12",
+        "IsRequired": false
+      }
+   ]
+}

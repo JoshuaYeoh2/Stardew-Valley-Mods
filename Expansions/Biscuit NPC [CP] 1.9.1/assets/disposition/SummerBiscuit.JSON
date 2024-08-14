@@ -1,0 +1,37 @@
+{
+  "Changes": [
+    {
+ "LogName": "summerbiscuit",
+      "Action": "EditData",
+      "Target": "data/Characters",
+      "When": {
+        "season": "summer"
+      },
+            "Entries": {
+                "Biscuit": {
+                    "DisplayName": "Biscuit",
+                    "BirthSeason": "Spring",
+                    "BirthDay": 2,
+                    "HomeRegion": "Town",
+                    "Gender": "Female",
+                    "Age": "child",
+                    "Manner": "neutral",
+                    "SocialAnxiety": "Outgoing",
+                    "Optimism": "positive",
+
+                    "CanBeRomanced": false,
+                    "LoveInterest": null,
+
+"Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "Beach",
+                            "Tile": { "X": 48, "Y": 22 },
+                            "Direction": "Left"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

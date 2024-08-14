@@ -1,0 +1,48 @@
+{
+"Changes": [
+
+
+//Adding events for Yosef when he is not a marriage candidate
+{
+
+  "Action": "EditData",
+  "Target": "Data/Events/Lizzie.Stoffton_Stoffton",
+  "Entries":{
+
+//Yosef 10 heart event (makeIt fork)
+"11666187/n FS_YosefMail10/n FS_YosefMailMakeIt": "Cloth/23 16/farmer 23 17 3 YosefFS 21 16 1 GerhardFS -1000 -1000 2/skippable/pause 1000/speak YosefFS \"{{i18n:event-11666187.01}}\"/speak YosefFS \"{{i18n:event-11666187.02}}\"/faceDirection YosefFS 0/pause 300/playSound doorClose/pause 300/warp YosefFS -1000 -1001/move farmer -1 0 3/move farmer 0 -1 0/playSound doorClose/pause 300/warp farmer -1000 -1002/viewport -2000 -1000/changeLocation Lizzie.Stoffton_Yosef/warp GerhardFS 5 26/faceDirection GerhardFS 2/warp farmer 4 28/faceDirection farmer 0/warp YosefFS 3 27/faceDirection YosefFS 1/viewport 4 27/pause 1000/speak YosefFS \"{{i18n:event-11666187.03}}\"/emote farmer 16/faceDirection GerhardFS 0/pause 500/speak YosefFS \"{{i18n:event-11666187.04}}\"/faceDirection GerhardFS 2/pause 400/speak GerhardFS \"{{i18n:event-11666187.05}}\"/speak YosefFS \"{{i18n:event-11666187.06}}\"/jump GerhardFS/pause 500/speak GerhardFS \"{{i18n:event-11666187.07}}\"/jump YosefFS/emote farmer 8/pause 500/speak GerhardFS \"{{i18n:event-11666187.08}}\"/move GerhardFS 0 2 2/playSound doorClose/pause 300/warp GerhardFS -100 -1000/emote YosefFS 8/emote farmer 32/pause 500/speak YosefFS \"{{i18n:event-11666187.09}}\"/end",
+
+//Yosef 10 heart event (writtenPlan fork)
+"11666187/n FS_YosefMail10/n FS_YosefMailWrittenPlan": "Cloth/23 16/farmer 23 17 3 YosefFS 21 16 1 GerhardFS -1000 -1000 2/skippable/pause 1000/speak YosefFS \"{{i18n:event-11666187.01}}\"/speak YosefFS \"{{i18n:event-11666187.02}}\"/faceDirection YosefFS 0/pause 300/playSound doorClose/pause 300/warp YosefFS -1000 -1001/move farmer -1 0 3/move farmer 0 -1 0/playSound doorClose/pause 300/warp farmer -1000 -1002/viewport -2000 -1000/changeLocation Lizzie.Stoffton_Yosef/warp GerhardFS 5 26/faceDirection GerhardFS 2/warp farmer 4 28/faceDirection farmer 0/warp YosefFS 3 27/faceDirection YosefFS 1/viewport 4 27/pause 1000/speak YosefFS \"{{i18n:event-11666187.03alt}}\"/emote farmer 16/faceDirection GerhardFS 0/pause 500/speak YosefFS \"{{i18n:event-11666187.04alt}}\"/faceDirection GerhardFS 2/pause 400/speak GerhardFS \"{{i18n:event-11666187.05alt}}\"/speak YosefFS \"{{i18n:event-11666187.06alt}}\"/jump GerhardFS/pause 500/speak GerhardFS \"{{i18n:event-11666187.07alt}}\"/jump YosefFS/emote farmer 8/pause 500/speak GerhardFS \"{{i18n:event-11666187.08alt}}\"/move GerhardFS 0 2 2/playSound doorClose/pause 300/warp GerhardFS -100 -1000/emote YosefFS 8/emote farmer 32/pause 500/end",
+
+
+
+}
+},
+{ 
+	"Action": "EditData",
+	"Target": "Data/Events/farm",
+	"Entries": {"11666178/f YosefFS 2500/x FS_YosefMail10": "null",}
+},
+
+//Repairing Yosef's Place
+{
+    "Action": "EditMap",
+    "Target": "Maps/Lizzie.Stoffton_Yosef",
+    "FromFile": "assets/NewMaps/Stoffton/Stof_Yosef.tmx",
+	"When": {"HasFlag": "FS_YosefMail10"}
+},
+
+//Changing Schedules after Yosef's Place is repaired
+{ 
+	"Action": "EditData",
+	"Target": "Characters/schedules/YosefFS",
+	"Entries":{    
+  "rain": "0 Lizzie.Stoffton_Yosef 17 4 2/610 Lizzie.Stoffton_Yosef 21 6 0square_3_3/800 Lizzie.Stoffton_Mill 18 11 Yosef_work/1100 Lizzie.Stoffton_Mill 11 11 3/1200 Lizzie.Stoffton_Yosef 5 24 2/2400 Lizzie.Stoffton_Yosef 17 4 1 Yosef_sleep",
+  "Sun":"0 Lizzie.Stoffton_Yosef 17 4 2/610 Lizzie.Stoffton_Yosef 21 6 0square_3_3/810 Lizzie.Stoffton_Yoba 26 12 0/1200 Lizzie.Stoffton_SchaferShed 8 10 square_3_3/1600 Lizzie.Stoffton_Yosef 21 6 0square_3_3/2200 Lizzie.Stoffton_Yosef 17 4 1 Yosef_sleep",
+  "spring": "0 Lizzie.Stoffton_Yosef 17 4 2/610 Lizzie.Stoffton_Yosef 21 6 0square_3_3/800 Lizzie.Stoffton_Mill 18 11 Yosef_work/1100 Lizzie.Stoffton_Mill 11 11 3/1200 Lizzie.Stoffton_Yosef 5 24 2/2400 Lizzie.Stoffton_Yosef 17 4 1 Yosef_sleep",
+  	},
+  		"When": {"HasFlag": "FS_YosefMail10"}
+  },
+]
+}

@@ -1,0 +1,24 @@
+{
+"Changes": [
+{
+
+  "Action": "EditData",
+  "Target": "Data/Events/Lizzie.Stoffton_Hotel",
+  "Entries":{
+
+//Tenant Introduction
+"11666158": "continue/9 16/farmer 9 18 0 ErikFS 8 14 0 BrinaFS 7 15 0 XenFS 9 15 0/skippable/pause 1000/playSound crafting/pause 320/playSound crafting/pause 320/faceDirection BrinaFS 1/faceDirection XenFS 3/pause 500/playSound crafting/pause 320/playSound crafting/pause 320/playSound openBox/pause 400/playSound furnace/faceDirection BrinaFS 0/faceDirection XenFS 0/pause 1500/playSound clank/faceDirection ErikFS 2/pause 300/speak ErikFS \"{{i18n:event-11666158.01}}\"/emote XenFS 60/pause 500/move ErikFS 0 4 2/speak ErikFS \"{{i18n:event-11666158.02}}\"/move ErikFS 0 4 2/warp ErikFS -1000 -1000/faceDirection BrinaFS 2/faceDirection XenFS 2/pause 500/speak BrinaFS \"{{i18n:event-11666158.03}}\"/speak XenFS \"{{i18n:event-11666158.04}}\"/end",
+
+//Xen's 2 heart event
+"11666051/f XenFS 500": "movie_wumbus/14 5/farmer 14 8 0 XenFS 14 6 2/skippable/pause 1000/speak XenFS \"{{i18n:event-11666051.01}}\"/speak XenFS \"{{i18n:event-11666051.02}}\"/speak XenFS \"{{i18n:event-11666051.03}}\"/speak XenFS \"{{i18n:event-11666051.04}}\"/emote farmer 32/pause 600/speak XenFS \"{{i18n:event-11666051.05}}\"/speak XenFS \"{{i18n:event-11666051.06}}\"/move XenFS 2 0 1/faceDirection farmer 3/move XenFS -3 0 3/faceDirection farmer 1/faceDirection XenFS 2/faceDirection farmer 0/speak XenFS \"{{i18n:event-11666051.07}}\"/speak XenFS \"{{i18n:event-11666051.08}}\"/speak XenFS \"{{i18n:event-11666051.09}}\"/speak XenFS \"{{i18n:event-11666051.10}}\"/end",
+
+//Xen's 8 heart
+"11666054/f XenFS 2000": "junimoKart/15 7/farmer 14 9 0 XenFS 17 7 1/skippable/pause 1000/speak XenFS \"{{i18n:event-11666054.01}}\"/speak XenFS \"{{i18n:event-11666054.02}}\"/speak XenFS \"{{i18n:event-11666054.03}}\"/move farmer 0 -2 0/faceDirection XenFS 3/faceDirection farmer 1/speak XenFS \"{{i18n:event-11666054.04}}\"/speak XenFS \"{{i18n:event-11666054.05}}\"/speak XenFS \"{{i18n:event-11666054.06}}\"/speak XenFS \"{{i18n:event-11666054.07}}\"/faceDirection farmer 2/faceDirection XenFS 1/move farmer 0 2 2/speak XenFS \"{{i18n:event-11666054.08}}\"/speak XenFS \"{{i18n:event-11666054.09}}\"/end",
+
+
+  
+
+}
+}
+]
+}

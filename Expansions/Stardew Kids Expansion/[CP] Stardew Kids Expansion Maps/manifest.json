@@ -1,0 +1,18 @@
+{
+   "Name": "Ske Maps",
+   "Author": "BURAKMESE",
+   "Version": "0.0.2",
+   "Description": "Map data is stored here. It doesn't matter to the players.",
+   "UniqueID": "BM.SkeMaps",
+   "UpdateKeys": [ "Nexus:" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+  },
+  "Dependencies": [
+		{
+           "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+           "IsRequired": false,
+		},
+	
+	],
+}

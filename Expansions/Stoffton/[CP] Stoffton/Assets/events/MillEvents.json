@@ -1,0 +1,26 @@
+{
+"Changes": [
+{
+
+  "Action": "EditData",
+  "Target": "Data/Events/Lizzie.Stoffton_Mill",
+  "Entries":{
+
+//Yosef 4 heart event
+"11666174/f YosefFS 1000": "Cloth/27 9/farmer 31 19 3 YosefFS 24 11 1 GerhardFS 26 8 2/skippable/pause 1000/speak YosefFS \"{{i18n:event-11666174.01}}\"/speak GerhardFS \"{{i18n:event-11666174.02}}\"/speak YosefFS \"{{i18n:event-11666174.03}}\"/emote GerhardFS 12/speak GerhardFS \"{{i18n:event-11666174.04}}\"/speed GerhardFS 4/move GerhardFS 3 0 1/emote YosefFS 12/speed GerhardFS 4/move GerhardFS 0 8 2/emote YosefFS 28/doAction 29 18/faceDirection farmer 1/pause 500/end",
+
+//Yosef 6 heart event
+"11666175/f YosefFS 1500": "movieTheater/36 19/farmer 36 24 0 YosefFS 35 18 1 XenFS 37 18 3/skippable/pause 1000/speak XenFS \"{{i18n:event-11666175.01}}\"/speak YosefFS \"{{i18n:event-11666175.02}}\"/emote XenFS 8/pause 500/speak YosefFS \"{{i18n:event-11666175.03}}\"/speak XenFS \"{{i18n:event-11666175.04}}\"/speak YosefFS \"{{i18n:event-11666175.05}}\"/emote XenFS 8/pause 500/speak YosefFS \"{{i18n:event-11666175.06}}\"/speak XenFS \"{{i18n:event-11666175.07}}\"/speak YosefFS \"{{i18n:event-11666175.08}}\"/emote XenFS 8/pause 500/speak YosefFS \"{{i18n:event-11666175.09}}\"/emote farmer 8/pause 500/end",
+
+//Yosef 8 heart event
+"11666176/f YosefFS 2000": "Cloth/27 9/farmer 30 19 3 YosefFS 26 11 1 GerhardFS 29 11 2/skippable/pause 1000/speak YosefFS \"{{i18n:event-11666176.01}}\"/speak GerhardFS \"{{i18n:event-11666176.02}}\"/emote YosefFS 12/speak GerhardFS \"{{i18n:event-11666176.03}}\"/emote YosefFS 28/speed GerhardFS 4/move GerhardFS 0 5 2/doAction 29 18/speed GerhardFS 4/move GerhardFS 0 4 2/speed GerhardFS 4/move GerhardFS 5 0 1/move farmer -1 0 3/warp GerhardFS -1000 -1000/speed farmer 4/move farmer 0 -8 0/emote farmer 8/faceDirection farmer 3/pause 500/speak YosefFS \"{{i18n:event-11666176.04}}\"/emote farmer 60/speak YosefFS \"$q -1 null#{{i18n:event-11666176.05}}#$r -1 50 event_writtenPlan#{{i18n:event-11666176.06}}#$r -1 50 event_makeIt#{{i18n:event-11666176.07}}\"/fork makeIt/mail FS_YosefMailWrittenPlan/speak YosefFS \"{{i18n:event-11666176.08}}\"/end",
+  "makeIt": "mail FS_YosefMailMakeIt/speak YosefFS \"{{i18n:event-11666176.makeIt.01}}\"/end",
+
+
+
+
+
+}
+}
+]
+}

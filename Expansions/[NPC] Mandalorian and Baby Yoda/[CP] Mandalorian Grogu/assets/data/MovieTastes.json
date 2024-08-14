@@ -1,0 +1,210 @@
+{ 
+  "Changes": [
+    
+  {   "LogName": "Movie Theatre",
+      "Action": "EditData", 
+      "Target": "Data/MoviesReactions",	 
+          "Entries": {
+  //Mando Movie Tastes          
+              "Mando":   {
+                    "NPCName": "Mando",
+                    "Reactions": [
+                      {   "Tag": "summer_movie_0",
+                          "Response": "love",
+                          "Whitelist": [],
+                          "SpecialResponses": {
+                                "BeforeMovie": {  
+                                      "ResponsePoint": null,
+                                      "Script": "",
+                                      "Text": "I remember you calling me a space cowboy, so I'm intrigued to see an earth cowboy."
+                                          },
+                                "DuringMovie": {
+                                      "ResponsePoint": null,
+                                      "Script": "/textAboveHead Mando \"!!\"",
+                                      "Text": "Kandosii!"
+                                          },
+                                "AfterMovie": {
+                                      "ResponsePoint": null,
+                                      "Script": "",
+                                      "Text": "Space cowboy. You can keep calling me that."
+                                          }
+                               },
+                       "ID": "reaction_1"
+                         },
+                      {   "Tag": "fall_movie_1",
+                          "Response": "like",
+                          "Whitelist": [],
+                          "SpecialResponses": {
+                                "BeforeMovie": {
+                                      "ResponsePoint": null,
+                                      "Script": "",
+                                      "Text": "Scared? I suppose we'll have to see."
+                                      },
+                                "DuringMovie": {
+                                      "ResponsePoint": null,
+                                      "Script": "",
+                                      "Text": "I can see you hiding your eyes, you know?"
+                                      },
+                                "AfterMovie": {
+                                      "ResponsePoint": null,
+                                      "Script": "",
+                                      "Text": "You're shaking a bit... should I walk you home?"
+                                          }
+                                    },
+                          "ID": "reaction_2"
+                          },
+                      {   "Tag": "winter_movie_1",
+                          "Response": "like",
+                          "Whitelist": [],
+                          "SpecialResponses": {
+                                "BeforeMovie": {
+                                      "ResponsePoint": null,
+                                      "Script": "",
+                                      "Text": "Oh, is this... a love story?"
+                                      },
+                                "DuringMovie": {
+                                      "ResponsePoint": null,
+                                      "Script": "/message \"(Mando keeps shifting his hand on the armrest next to yours.)\"",
+                                      "Text": ""
+                                      },
+                                "AfterMovie": {
+                                      "ResponsePoint": null,
+                                      "Script": "",
+                                      "Text": "The film? Yes, it was... enjoyable."
+                                      }
+                                },
+                            "ID": "reaction_3"
+                                  },
+                      {   "Tag": "*",
+                          "Response": "like",
+                          "Whitelist": [],
+                          "SpecialResponses": {
+                                "BeforeMovie": {
+                                      "ResponsePoint": null,
+                                      "Script": "",
+                                      "Text": "The kid would love this place."
+                                      },
+                                "DuringMovie": null,
+                                "AfterMovie": {
+                                      "ResponsePoint": null,
+                                      "Script": "",
+                                      "Text": "I enjoyed that. Thank you for bringing me, @."
+                                      }
+                                },
+                          "ID": "reaction_0"
+                          }
+                      ]
+               },
+  //Grogu Movie Tastes
+            "Grogu":   {
+                  "NPCName": "Grogu",
+                        "Reactions": [
+                            {   "Tag": "spring_movie_0",
+                                "Response": "love",
+                                "Whitelist": [],
+                                "SpecialResponses": {
+                                      "BeforeMovie": {  
+                                            "ResponsePoint": null,
+                                            "Script": "",
+                                            "Text": "Patu! Ba ba ba."
+                                                    },
+                                      "DuringMovie": {
+                                            "ResponsePoint": null,
+                                            "Script": "/message \"(Grogu is entranced.)\"",
+                                            "Text": ""
+                                            },
+                                      "AfterMovie": {
+                                            "ResponsePoint": null,
+                                            "Script": "",
+                                            "Text": "Pa! Boo."
+                                            }
+                                      },
+                                "ID": "reaction_1"
+                              },
+                            {   "Tag": "summer_movie_1",
+                                "Response": "love",
+                                "Whitelist": [],
+                                "SpecialResponses": {
+                                      "BeforeMovie": {
+                                            "ResponsePoint": null,
+                                            "Script": "",
+                                            "Text": "Buir! Um ba."
+                                              },
+                                      "DuringMovie": {
+                                            "ResponsePoint": null,
+                                            "Script": "/message \"(Grogu can't stop giggling.)\"",
+                                            "Text": ""
+                                              },
+                                      "AfterMovie": {
+                                            "ResponsePoint": null,
+                                            "Script": "",
+                                            "Text": "Boo ka."
+                                        }
+                                  },
+                                "ID": "reaction_2"
+                              },
+                            {   "Tag": "fall_movie_1",
+                                "Response": "hate",
+                                "Whitelist": [],
+                                "SpecialResponses": {
+                                      "BeforeMovie": {
+                                            "ResponsePoint": null,
+                                            "Script": "",
+                                            "Text": "Ooh?"
+                                                },
+                                      "DuringMovie": {
+                                            "ResponsePoint": null,
+                                            "Script": "/message \"(Grogu keeps hiding his face in your arm.)\"",
+                                            "Text": ""
+                                            },
+                                      "AfterMovie": {
+                                            "ResponsePoint": null,
+                                            "Script": "",
+                                            "Text": "... Boo?"
+                                          }
+                                      },
+                                "ID": "reaction_3"
+                                          },
+                            {   "Tag": "*",
+                                "Response": "like",
+                                "Whitelist": [],
+                                "SpecialResponses": {
+                                      "BeforeMovie": {
+                                            "ResponsePoint": null,
+                                            "Script": "",
+                                            "Text": "Patu! Aba!"
+                                            },
+                                      "DuringMovie": null,
+                                      "AfterMovie": {
+                                            "ResponsePoint": null,
+                                            "Script": "",
+                                            "Text": "Oooh ack!"
+                                            }
+                                      },
+                              "ID": "reaction_0"
+                              }
+                    ]
+                  }
+            }
+      },
+{   "LogName": "Movie Theatre - Concession Tastes",	
+    "Action": "EditData",	
+    "Target": "Data/ConcessionTastes", 
+    "Entries":  { 
+        "Mando": {  
+            "Name": "Mando",
+	      "LovedTags": ["Sour"],
+	      "LikedTags": ["Salty"],
+            "DislikedTags": ["Healthy"] 
+                  },
+        "Grogu": {
+            "Name": "Grogu",
+            "LovedTags": ["Sweet",],
+            "LikedTags": ["Salty"],
+            "DislikedTags": ["Healthy"] 
+                  }
+           }
+       }
+
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/AdventureGuild",
+      "Entries": {
+        "1655058/F/e 100162/f Biscuit 2500": "playful/6 15/farmer 6 19 0 Marlon 5 11 2 Biscuit -1000 -1000 0/addTemporaryActor Biscuitsword 16 32 5 14 3 true/addTemporaryActor sword 16 32 -200 -200 1 false/skippable/advancedMove Biscuitsword false -2 0 0 2 3 0 0 -2 -1 0/pause 5000/stopAdvancedMoves/stopAnimation Biscuitsword 12/speak Marlon \"What you got there, Biscuit?\"/pause 500/advancedMove Biscuitsword false -2 0 0 2 3 0 0 -2 -1 0/playSound dog_bark/textAboveHead Biscuitsword \"A KNIFE\"/pause 500/jump Marlon/textAboveHead Marlon \"NO!\"/pause 500/speak Marlon \"Stop running with that immediately, you little beast! \"/pause 2000/stopAdvancedMoves/stopAnimation Biscuitsword 12/speak Biscuit \"Okay!\"/emote Marlon 16/pause 500/speak Marlon \"Oh! Good dog. Now, can you drop it?\"/pause 500/speak Biscuit \"Okay!\"/pause 500/move Biscuitsword 1 0 1/move Biscuitsword 0 -1 0/faceDirection Biscuitsword 3/animate Biscuitsword false false 200 24 25 26/warp sword 5 13/showframe sword 0/pause 500/playSound dog_bark/animate Biscuitsword true false 100 23 44 44 23/pause 500/speak Marlon \"Well, look at that! You're pretty well trained, eh?\"/pause 500/animate Biscuitsword false true 200 26 27/speak Marlon \"It would seem you found something fairly interesting as well. $h\"/stopAnimation Biscuitsword 28/animate Biscuitsword false false 200 28 29/pause 500/animate Biscuitsword false true 200 30 31/speak Marlon \"At the very least if the blade isn't great, I could re-work it into something else I suppose...\"/pause 500/stopAnimation Biscuitsword 28/speak Biscuit \"So I did good?#$b# YAY! I knew this was the right place for it! $1\"/pause 500/playSound dog_bark/animate Biscuitsword true false 100 23 44 44 23/pause 500/animate Biscuitsword false true 200 26 27/pause 500/speak Marlon \"You're an odd one, Biscuit, but a good dog none the less. $h\"/pause 500/globalFade 0.005 true/mail marlongift/end"
+      }
+    }
+  ]
+}

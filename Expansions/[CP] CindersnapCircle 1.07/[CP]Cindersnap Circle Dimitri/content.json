@@ -1,0 +1,308 @@
+{
+    "Format": "1.24.0",
+
+    "Changes": [
+        // ADDS DIMITRI TO GAME
+        {
+
+            "LogName": "NPC Manifestation",
+            "Action": "EditData",
+            "Target": "Data/NPCDispositions",
+            "Entries": {
+
+                "Dimitri": "adult/rude/neutral/neutral/male/datable/null/Town/summer 6/null/Custom_Dimitri_DimitriHouse 9 5/Dimitri",
+
+            },
+        },
+
+        {
+
+            "LogName": "NPC Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "Dimitri": "Woah...you got this for me?/64 104 287 575 746/Nice! Thanks/66 84 93 156 286 400/I don't like this at all.../-24 -26 -79 -75/This is just cruel. I don't want that./772 248 -7/Another year gone by, huh? Thanks for remembering my birthday!//",
+
+            },
+        },
+
+        // DIMITRI SPOUSE ROOM
+
+        {
+            "Action": "EditData",
+            "Target": "Data/SpouseRooms",
+            "Entries": {
+                "Dimitri": "K80Chimaera_Dimitri_SpouseRoom/0"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/K80Chimaera_Dimitri_SpouseRoom",
+            "FromFile": "assets/SpouseRoomDimitri.tmx"
+        },
+
+        // DIMITRI DIALOGUES
+
+        {
+
+            "LogName": "Engagement Dialogue",
+            "Action": "EditData",
+            "Target": "Data/EngagementDialogue",
+            "Entries": {
+                "Dimitri0": "Are you sure you still want to marry someone like me?#$b#You know I'd understand if you changed your mind, right?$2",
+                "Dimitri1": "I'm going to eat so much tomorrow! I don't care if I get sick!$1",
+            },
+        },
+
+		{
+			"LogName": "MoonlightJelliesDialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"Entries": {
+				"Dimitri": "It's really cool how the end of something can be this beautiful.#$e#Can't say I'll miss the summer though.$1",
+			}
+		},
+
+		{
+			"LogName": "SpiritsEveDialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"Entries": {
+				"Dimitri": "Think Marlon will let me hop in the skeleton cage? I want to see something...",
+			}
+		},
+
+        {
+			"LogName": "WinterStarDialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"Entries": {
+				"Bryson": "Man, I really miss...eating! I miss eating!$4",
+			}
+		},
+
+
+        // FESTIVAL LOCATIONS
+
+
+        {
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "Dimitri 37 34 2",
+					"Delimiter": "/"
+				}
+			]
+		},
+
+
+        {
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": ["Entries",	"Set-Up_additionalCharacters"],
+					"Value": "Dimitri 23 54 2",
+					"Delimiter": "/"
+				}
+			]
+		},
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [	"Entries","Set-Up_additionalCharacters"	],
+                    "Value": "Dimitri 16 62 1",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+
+
+        // PORTRAITS
+
+        {
+
+            "LogName": "Dimitri Portraits",
+            "Action": "Load",
+            "Target": "Portraits/Dimitri",
+            "FromFile": "assets/Image/dimitri.png",
+        },
+
+        {
+
+            "LogName": "Dimitri Sprites",
+            "Action": "Load",
+            "Target": "Characters/Dimitri",
+            "FromFile": "assets/Image/DimitriSprite.png",
+
+        },
+
+        {
+
+            "LogName": "Dialogue",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Dimitri",
+            "FromFile": "assets/Dialogue/Dialogue.json",
+
+        },
+
+        {
+
+            "LogName": "Marriage Dialogue",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/MarriageDialogueDimitri",
+            "FromFile": "assets/Dialogue/MarriageDialogue.json",
+
+        },
+
+        {
+
+            "LogName": "RandomDialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Dimitri",
+            "Entries": {
+                "spring_Mon": "{{i18n: DimitriSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_Tue": "{{i18n: DimitriSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_Wed": "{{i18n: DimitriSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_Thu": "{{i18n: DimitriSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_Fri": "{{i18n: DimitriSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_Sat": "{{i18n: DimitriSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_Sun": "{{i18n: DimitriSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_13": "Do I look like someone who wants to run around looking for eggs with a bunch of kids?",
+                "spring_23": "I wouldn't be caught dead at that flower dance.#$b#Even if it wasn't during the day, it's really lame.$3",
+                "summer_Mon": "{{i18n: DimitriSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_Tue": "{{i18n: DimitriSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_Wed": "{{i18n: DimitriSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_Thu": "{{i18n: DimitriSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_Fri": "{{i18n: DimitriSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_Sat": "{{i18n: DimitriSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_Sun": "{{i18n: DimitriSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_10": "What's today? The Luau?#$b#I would actually go if I could. I used to love to eat.$2",
+                "summer_27": "Keep an eye out for a purple jelly tomorrow for me, will you?$1",
+                "fall_Mon": "{{i18n: DimitriFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "fall_Tue": "{{i18n: DimitriFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "fall_Wed": "{{i18n: DimitriFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "fall_Thu": "{{i18n: DimitriFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "fall_Fri": "{{i18n: DimitriFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "fall_Sat": "{{i18n: DimitriFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "fall_Sun": "{{i18n: DimitriFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "fall_15": "I do kind of want to have my fortune told.$2#$e#It's probably pretty bleak anyway, though.$1",
+                "fall_26": "Tomorrow is my favorite day of the year! I love Spirit's Eve!$1",
+                "winter_Mon": "{{i18n: DimitriWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_Tue": "{{i18n: DimitriWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_Thu": "{{i18n: DimitriWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_Fri": "{{i18n: DimitriWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_Sat": "{{i18n: DimitriWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_Sun": "{{i18n: DimitriWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_Wed": "{{i18n: DimitriWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_15": "Listen, the night market is cool and all, but they always try to turn me into merchandise!$3#$b#I guess vampire stuff is rare.",
+                "winter_16": "There's some pretty cool stuff here this year.$3",
+                "winter_17": "Annnnd there's all of my savings for the year.#$b#Hope you found something good too!$1",
+                "winter_24": "I should just stay home tomorrow...$2",
+                "spring_Wed2": "{{i18n: DimitriTwoHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "spring_Wed4": "{{i18n: DimitriFourHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "spring_Wed6": "{{i18n: DimitriSixHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "spring_Wed8": "{{i18n: DimitriEightHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "summer_Mon2": "{{i18n: DimitriTwoHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "summer_Mon4": "{{i18n: DimitriFourHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "summer_Mon8": "{{i18n: DimitriSixHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "summer_Mon8": "{{i18n: DimitriEightHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "fall_Fri2": "{{i18n: DimitriTwoHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "fall_Fri4": "{{i18n: DimitriFourHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "fall_Fri6": "{{i18n: DimitriSixHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "fall_Fri8": "{{i18n: DimitriEightHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "winter_Thu2": "{{i18n: DimitriTwoHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "winter_Thu4": "{{i18n: DimitriFourHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "winter_Thu6": "{{i18n: DimitriSixHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "winter_Thu8": "{{i18n: DimitriEightHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+
+            },
+
+        },
+
+        {
+
+            "LogName": "Animations",
+            "Action": "EditData",
+            "Target": "Data/animationDescriptions",
+            "Entries": {
+                "coffin": "20/21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 20 20 20 20 20 20 20 20 20/20",
+                "annoyed": "16/16 16 16 16 16 16 16 16 17 17 17 17 17 17 17 17 16 16 16 16 16 16 16 16 17 17 17 17 17 17 17 17/16",
+                "shades": "18/18/18",
+                "kiss": "4/28/4",
+                "blood": "18/24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 27 27 27 27 27 27 27 27 27 27/118",
+                "magic": "29/33 33 33 34 34 34 35 35 35 34 34 34 35 35 35 34 34 34/29",
+                "meditate": "29/30 31/19",
+            },
+        },
+
+
+
+        {
+
+            "LogName": "Schedule Dialogue",
+            "Action": "Load",
+            "Target": "Strings/schedules/Dimitri",
+            "FromFile": "assets/Schedule/ScheduleDialogue.json"
+
+        },
+
+        {
+
+            "LogName": "Schedule",
+            "Action": "Load",
+            "Target": "Characters/schedules/Dimitri",
+            "FromFile": "assets/Schedule/Schedule.json",
+
+        },
+
+        // EVENTS
+
+        {
+
+            "LogName": "Events",
+            "Action": "EditData",
+            "Target": "Data/Events/Forest",
+            "Entries": {
+                "15164302/f Dimitri 500/t 1800 2000": "Ghost Synth/75 11/farmer 75 12 0 Dimitri 78 2 2/skippable/pause 1000/emote farmer 8/pause 200/move Dimitri 0 6 2/pause 500
+                /speak Dimitri \"Looks like you found my little inside joke for the circle.$6\"/emote farmer 8/move Dimitri 0 4 0/faceDirection farmer 1/pause 200
+                /speak Dimitri \"You know I was the first person to move here, right?$1#$b#Well, of the people who live there now.$1#$b#All the other families moved away a while ago.$3\"/pause 200
+                /faceDirection Dimitri 0/pause 500/speak Dimitri \"The first thing I did when I moved here was change all the signs to say CindersNap instead of Cindersap.$6\"/pause 200
+                /emote farmer 40/faceDirection Dimitri 3/pause 200/speak Dimitri \"What's that look for?$3#$b#Oh whatever, vandalism is not that serious. I've done so much worse.$4#b#I don't even know why I did it, to be honest...$9\"/pause 500
+                /speak Dimitri \"It was so long ago...$2#$b#I guess I thought it was Cindersnap when I looked into moving here.$3#$b#And being wrong about that was just another thing to get on my nerves at the time.$2#$b#So I went and changed it myself!$7\"/pause 500
+                /faceDirection Dimitri 0/pause 200/speak Dimitri \"It's kind of childish when I think about it now...$4#$b#But I was pretty angsty back then.$8\"/pause 200/emote farmer 8/pause 200/faceDirection Dimitri 3/speak Dimitri \"Hm?#$b#Oh, well I was just angry a lot of the time, I guess.$3#$b#I had just...well, you know.$7#$b#I didn't take being a vampire very well when it first happened.$8\"/pause 200
+                /speak Dimitri \"If you think I'm annoying now, you would have hated me back then.$6#$b#I basically terrorized everyone in Pelican town!$8\"/pause 200
+                /faceDirection Dimitri 2/pause 200/speak Dimitri \"Things didn't really change until Bryson and Milo moved here.$3#$b#When they did, Milo was a lot different than he is now.$6#$b#We got into a huge fight!$4#$b#And then Bryson got involved and I ended up fighting with him too!#$b#...I didn't win that one.$8\"/pause 500
+                /emote farmer 40/pause 200/speak Dimitri \"I think we were all going through a hard time...$2#$b#Eventually Bryson and I ended up bonding over how angry we always were!$6#$b#And now he's my best friend!$1\"/pause 200
+                /emote farmer 32/pause 200/speak Dimitri \"Whoops! That was a lot of information you didn't ask for, wasn't it? Sorry...$4#$b#I guess the point is that I was the one to change the signs!$1#$b#But don't worry, you don't have to fight me to be my friend anymore.$1#$b#I'm much calmer now!$1\"/pause 200/emote farmer 60/pause 200/speak Dimitri \"I'll let you go now, though. I know you're busy.$1#$b#See you later, @!\"
+                /end dialogue Dimitri \"Hey @. It was nice talking to you earlier!$1\"",
+            }
+        },
+
+        {
+
+            "LogName": "Events",
+            "Action": "EditData",
+            "Target": "Data/Events/Mountain",
+            "Entries": {
+                "15164304/f Dimitri 1000/t 1200 2000": "Icicles/54 7/farmer 43 7 1 Dimitri 53 6 2 Bryson 55 6 2/skippable/pause 1000/speak Bryson \"Hurry up, Dimitri!$3#$b#I want to see it again!$5\"/pause 500
+                /showFrame Dimitri 4/pause 500/showFrame Dimitri 0/addObject 54 8 156 1/jump Bryson 8/pause 100/pause 100/move farmer 8 0 1/emote farmer 8/pause 100/faceDirection Dimitri 3/pause 500/emote Dimitri 16
+                /speak Dimitri \"@, hey! I didn't hear you over there.$1\"/pause 100/emote Bryson 40/speak Bryson \"Some vampire...$1\"/faceDirection Dimitri 2/pause 500/emote Dimitri 12/speak Dimitri \"I wasn't even listening...$4#$b#Anyway, check out what we found in the mines!\"
+                /move Dimitri 0 1 2/speak Dimitri \"It's some kind of weird fish.$9#$b#Cool right?$6\"/emote farmer 28/faceDirection Dimitri 3/pause 100/speak Dimitri \"What?$7#$b#It was already dead by the time we got back out here!$9#$b#It's not like I have a fish bowl in my jacket!$8\"/pause 200
+                /end dialogue Dimitri \"Maybe one day I'll see you in the mines!$1\"",
+
+            }
+
+        },
+
+
+    ]
+}

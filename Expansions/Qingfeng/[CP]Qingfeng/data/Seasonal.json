@@ -1,0 +1,556 @@
+{
+    "Changes": [
+      {
+        "LogName": "Portraits",
+        "Action": "EditImage",
+        "Target": "Portraits/Qingfeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}.png"
+      },
+
+      {
+        "LogName": "IsOutdoors.spring.Portraits",
+        "Action": "EditImage",
+        "Target": "Portraits/Qingfeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Outdoor.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": true,
+          "Season": "spring"
+        }
+      },
+      {
+        "LogName": "IsOutdoors.fall.Portraits",
+        "Action": "EditImage",
+        "Target": "Portraits/Qingfeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Outdoor.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": true,
+          "Season": "fall"
+        }
+      },
+      {
+        "LogName": "IsOutdoors.summer.Portraits",
+        "Action": "EditImage",
+        "Target": "Portraits/Qingfeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Outdoor.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": true,
+          "Season": "summer"
+        }
+      },
+      {
+        "LogName": "IsOutdoors.winter.Portraits",
+        "Action": "EditImage",
+        "Target": "Portraits/Qingfeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Outdoor.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": true,
+          "Season": "winter"
+        }
+      },
+      {
+        "LogName": "Outdoors.rain.Portraits",
+        "Action": "EditImage",
+        "Target": "Portraits/Qingfeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Rain.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": false,
+          "Season": "spring,summer,fall",
+          "Weather": "rain,"
+        }
+      },
+      {
+        "LogName": "IsOutdoors.storm.Portraits",
+        "Action": "EditImage",
+        "Target": "Portraits/Qingfeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Outdoor_Rain.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": true,
+          "Season": "spring,summer,fall",
+          "Weather": "rain"
+        }
+      },
+      {
+        "LogName": "Outdoors.GreenRain.Portraits",
+        "Action": "EditImage",
+        "Target": "Portraits/Qingfeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_GreenRain.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": false,
+          "Season": "summer",
+          "Weather": "GreenRain"
+        }
+      },
+      {
+        "LogName": "IsOutdoors.GreenRain.Portraits",
+        "Action": "EditImage",
+        "Target": "Portraits/Qingfeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Outdoor_GreenRain.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": true,
+          "Season": "summer",
+          "Weather": "GreenRain"
+        }
+      },
+      {
+        "LogName": "Outdoors.Snow.Portraits",
+        "Action": "EditImage",
+        "Target": "Portraits/Qingfeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Snow.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": false,
+          "Season": "winter",
+          "Weather": "Snow"
+        }
+      },
+      {
+        "LogName": "IsOutdoors.Snow.Portraits",
+        "Action": "EditImage",
+        "Target": "Portraits/Qingfeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Outdoor_Snow.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": true,
+          "Season": "winter",
+          "Weather": "Snow"
+        }
+      },
+      {
+        "LogName": "Outdoors.Storm.Portraits",
+        "Action": "EditImage",
+        "Target": "Portraits/Qingfeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Storm.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": false,
+          "Season": "spring,summer,fall",
+          "Weather": "Storm"
+        }
+      },
+      {
+        "LogName": "IsOutdoors.Storm.Portraits",
+        "Action": "EditImage",
+        "Target": "Portraits/Qingfeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Outdoor_Storm.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": true,
+          "Season": "spring,summer,fall",
+          "Weather": "Storm"
+        }
+      },
+
+      {
+        "LogName": "Outdoors.Snow.Portraits",
+        "Action": "EditImage",
+        "Target": "Portraits/Qingfeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Snow.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": false,
+          "Season": "winter",
+          "Weather": "Snow"
+        }
+      },
+      {
+        "LogName": "IsOutdoors.Snow.Portraits",
+        "Action": "EditImage",
+        "Target": "Portraits/Qingfeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Outdoor_Snow.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": true,
+          "Season": "winter",
+          "Weather": "Snow"
+        }
+      },
+
+      {
+        "LogName": "Characters",
+        "Action": "EditImage",
+        "Target": "Characters/Qingfeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}.png"
+      },
+
+      {
+        "LogName": "IsOutdoors.spring.Characters",
+        "Action": "EditImage",
+        "Target": "Characters/Qingfeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Outdoor.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": true,
+          "Season": "spring"
+        }
+      },
+      {
+        "LogName": "IsOutdoors.fall.Characters",
+        "Action": "EditImage",
+        "Target": "Characters/Qingfeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Outdoor.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": true,
+          "Season": "fall"
+        }
+      },
+      {
+        "LogName": "IsOutdoors.summer.Characters",
+        "Action": "EditImage",
+        "Target": "Characters/Qingfeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Outdoor.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": true,
+          "Season": "summer"
+        }
+      },
+      {
+        "LogName": "IsOutdoors.winter.Characters",
+        "Action": "EditImage",
+        "Target": "Characters/Qingfeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Outdoor.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": true,
+          "Season": "winter"
+        }
+      },
+      {
+        "LogName": "Outdoors.rain.Characters",
+        "Action": "EditImage",
+        "Target": "Characters/Qingfeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Rain.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": false,
+          "Season": "spring,summer,fall",
+          "Weather": "rain,"
+        }
+      },
+      {
+        "LogName": "IsOutdoors.storm.Characters",
+        "Action": "EditImage",
+        "Target": "Characters/Qingfeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Outdoor_Rain.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": true,
+          "Season": "spring,summer,fall",
+          "Weather": "rain"
+        }
+      },
+      {
+        "LogName": "Outdoors.GreenRain.Characters",
+        "Action": "EditImage",
+        "Target": "Characters/Qingfeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_GreenRain.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": false,
+          "Season": "summer",
+          "Weather": "GreenRain"
+        }
+      },
+      {
+        "LogName": "IsOutdoors.GreenRain.Characters",
+        "Action": "EditImage",
+        "Target": "Characters/Qingfeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Outdoor_GreenRain.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": true,
+          "Season": "summer",
+          "Weather": "GreenRain"
+        }
+      },
+      {
+        "LogName": "Outdoors.Snow.Characters",
+        "Action": "EditImage",
+        "Target": "Characters/Qingfeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Snow.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": false,
+          "Season": "winter",
+          "Weather": "Snow"
+        }
+      },
+      {
+        "LogName": "IsOutdoors.Snow.Characters",
+        "Action": "EditImage",
+        "Target": "Characters/Qingfeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Outdoor_Snow.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": true,
+          "Season": "winter",
+          "Weather": "Snow"
+        }
+      },
+      {
+        "LogName": "Outdoors.Storm.Characters",
+        "Action": "EditImage",
+        "Target": "Characters/Qingfeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Storm.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": false,
+          "Season": "spring,summer,fall",
+          "Weather": "Storm"
+        }
+      },
+      {
+        "LogName": "IsOutdoors.Storm.Characters",
+        "Action": "EditImage",
+        "Target": "Characters/Qingfeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Outdoor_Storm.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": true,
+          "Season": "spring,summer,fall",
+          "Weather": "Storm"
+        }
+      },
+
+      {
+        "LogName": "Outdoors.Snow.Characters",
+        "Action": "EditImage",
+        "Target": "Characters/Qingfeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Snow.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": false,
+          "Season": "winter",
+          "Weather": "Snow"
+        }
+      },
+      {
+        "LogName": "IsOutdoors.Snow.Characters",
+        "Action": "EditImage",
+        "Target": "Characters/Qingfeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Outdoor_Snow.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": true,
+          "Season": "winter",
+          "Weather": "Snow"
+        }
+      },
+
+      {
+        "Action": "Load",
+        "Target": "Portraits/Qingfeng_Marriage_spring_Outdoor, Characters/Qingfeng_Marriage_spring_Outdoor",
+        "FromFile": "assets/Seasonal Marriage/{{TargetPathOnly}}/Qingfeng/{{TargetWithoutPath}}.png"
+      },
+      {
+        "Action": "Load",
+        "Target": "Portraits/Qingfeng_Marriage_summer, Characters/Qingfeng_Marriage_summer",
+        "FromFile": "assets/Seasonal Marriage/{{TargetPathOnly}}/Qingfeng/{{TargetWithoutPath}}.png"
+      },
+
+      {
+        "LogName": "IsOutdoors.spring.Marriage.Portraits",
+        "Action": "EditImage",
+        "Target": "Portraits/Qingfeng",
+        "FromFile": "assets/Seasonal Marriage/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_Marriage_{{Season}}_Outdoor.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "Spouse": "Qingfeng",
+          "IsOutdoors": true,
+          "Season": "spring"
+        }
+      },
+
+      {
+        "LogName": "IsOutdoors.spring.Marriage.Characters",
+        "Action": "EditImage",
+        "Target": "Characters/Qingfeng",
+        "FromFile": "assets/Seasonal Marriage/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_Marriage_{{Season}}_Outdoor.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "Spouse": "Qingfeng",
+          "IsOutdoors": true,
+          "Season": "spring"
+        }
+      },
+      {
+        "LogName": "summer.Marriage.Portraits",
+        "Action": "EditImage",
+        "Target": "Portraits/Qingfeng",
+        "FromFile": "assets/Seasonal Marriage/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_Marriage_{{Season}}.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "Spouse": "Qingfeng",
+          "Season": "summer"
+        }
+      },
+
+      {
+        "LogName": "summer.Marriage.Characters",
+        "Action": "EditImage",
+        "Target": "Characters/Qingfeng",
+        "FromFile": "assets/Seasonal Marriage/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_Marriage_{{Season}}.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "Spouse": "Qingfeng",
+          "Season": "summer"
+        }
+      },
+
+      {
+        "Action": "Load",
+        "Target": "Portraits/Qingfeng_spring, Characters/Qingfeng_spring,Portraits/Qingfeng_summer, Characters/Qingfeng_summer,Portraits/Qingfeng_fall, Characters/Qingfeng_fall,Portraits/Qingfeng_winter, Characters/Qingfeng_winter",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/Qingfeng/{{TargetWithoutPath}}.png"
+      },
+      {
+        "Action": "Load",
+        "Target": "Portraits/Qingfeng_spring_Rain, Characters/Qingfeng_spring_Rain,Portraits/Qingfeng_summer_Rain, Characters/Qingfeng_summer_Rain,Portraits/Qingfeng_fall_Rain, Characters/Qingfeng_fall_Rain,Portraits/Qingfeng_winter_Snow, Characters/Qingfeng_winter_Snow",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/Qingfeng/{{TargetWithoutPath}}.png"
+      },
+      {
+        "Action": "Load",
+        "Target": "Portraits/Qingfeng_spring_Outdoor, Characters/Qingfeng_spring_Outdoor,Portraits/Qingfeng_summer_Outdoor, Characters/Qingfeng_summer_Outdoor,Portraits/Qingfeng_fall_Outdoor, Characters/Qingfeng_fall_Outdoor,Portraits/Qingfeng_winter_Outdoor, Characters/Qingfeng_winter_Outdoor",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/Qingfeng/{{TargetWithoutPath}}.png"
+      },
+      {
+        "Action": "Load",
+        "Target": "Portraits/Qingfeng_spring_Outdoor_Rain, Characters/Qingfeng_spring_Outdoor_Rain,Portraits/Qingfeng_summer_Outdoor_Rain, Characters/Qingfeng_summer_Outdoor_Rain,Portraits/Qingfeng_fall_Outdoor_Rain, Characters/Qingfeng_fall_Outdoor_Rain,Portraits/Qingfeng_winter_Outdoor_Snow, Characters/Qingfeng_winter_Outdoor_Snow",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/Qingfeng/{{TargetWithoutPath}}.png"
+      },
+      {
+        "Action": "Load",
+        "Target": "Portraits/Qingfeng_EggFestival, Characters/Qingfeng_EggFestival",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/Qingfeng/{{TargetWithoutPath}}.png"
+      },
+      {
+        "Action": "Load",
+        "Target": "Portraits/Qingfeng_FlowerDance, Characters/Qingfeng_FlowerDance",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/Qingfeng/{{TargetWithoutPath}}.png"
+      },
+      {
+        "Action": "Load",
+        "Target": "Portraits/Qingfeng_Luau, Characters/Qingfeng_Luau",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/Qingfeng/{{TargetWithoutPath}}.png"
+      },
+      {
+        "Action": "Load",
+        "Target": "Portraits/Qingfeng_MoonlightJellies, Characters/Qingfeng_MoonlightJellies",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/Qingfeng/{{TargetWithoutPath}}.png"
+      },
+      {
+        "Action": "Load",
+        "Target": "Portraits/Qingfeng_Fair, Characters/Qingfeng_Fair",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/Qingfeng/{{TargetWithoutPath}}.png"
+      },
+      {
+        "Action": "Load",
+        "Target": "Portraits/Qingfeng_SpiritsEve, Characters/Qingfeng_SpiritsEve",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/Qingfeng/{{TargetWithoutPath}}.png"
+      },
+      {
+        "Action": "Load",
+        "Target": "Portraits/Qingfeng_WinterStar, Characters/Qingfeng_WinterStar",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/Qingfeng/{{TargetWithoutPath}}.png"
+      },
+      {
+        "Action": "EditData",
+        "Target": "Data/Characters",
+        "TargetField": [
+          "Qingfeng",
+          "Appearance"
+        ],
+        "Entries": {
+          "Qingfeng.EggFestival": {
+            "Id": "Qingfeng_EggFestival",
+            "Portrait": "Portraits/Qingfeng_EggFestival",
+            "Sprite": "Characters/Qingfeng_EggFestival",
+            "Precedence": -160,
+            "Condition": "IS_EVENT festival_spring13,"
+          },
+          "Qingfeng.FlowerDance": {
+            "Id": "Qingfeng_FlowerDance",
+            "Portrait": "Portraits/Qingfeng_FlowerDance",
+            "Sprite": "Characters/Qingfeng_FlowerDance",
+            "Precedence": -160,
+            "Condition": "IS_EVENT festival_spring24,"
+          },
+          "Qingfeng.Luau": {
+            "Id": "Qingfeng_Luau",
+            "Portrait": "Portraits/Qingfeng_Luau",
+            "Sprite": "Characters/Qingfeng_Luau",
+            "Precedence": -160,
+            "Condition": "IS_EVENT festival_summer11,"
+          },
+          "Qingfeng.MoonlightJellies": {
+            "Id": "Qingfeng_MoonlightJellies",
+            "Portrait": "Portraits/Qingfeng_MoonlightJellies",
+            "Sprite": "Characters/Qingfeng_MoonlightJellies",
+            "Precedence": -160,
+            "Condition": "IS_EVENT festival_summer28,"
+          },
+          "Qingfeng.Fair": {
+            "Id": "Qingfeng_Fair",
+            "Portrait": "Portraits/Qingfeng_Fair",
+            "Sprite": "Characters/Qingfeng_Fair",
+            "Precedence": -160,
+            "Condition": "IS_EVENT festival_fall16,"
+          },
+          "Qingfeng.SpiritsEve": {
+            "Id": "Qingfeng_SpiritsEve",
+            "Portrait": "Portraits/Qingfeng_SpiritsEve",
+            "Sprite": "Characters/Qingfeng_SpiritsEve",
+            "Precedence": -160,
+            "Condition": "IS_EVENT festival_fall27,"
+          },
+          "Qingfeng.WinterStar": {
+            "Id": "Qingfeng_WinterStar",
+            "Portrait": "Portraits/Qingfeng_WinterStar",
+            "Sprite": "Characters/Qingfeng_WinterStar",
+            "Precedence": -160,
+            "Condition": "IS_EVENT festival_winter25,"
+          }
+        }
+      }
+    ]
+}

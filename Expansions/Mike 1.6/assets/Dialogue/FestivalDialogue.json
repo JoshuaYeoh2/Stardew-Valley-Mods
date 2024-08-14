@@ -1,0 +1,136 @@
+{
+  "Changes": [
+//Dialogue for Festivals//
+    { 
+    "Action": "EditData",
+      "Target": "Data/Festivals/spring13",
+      "Entries": {
+        "Mike": "{{i18n: EggFestival.Mike}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring13",
+      "Entries": {
+        "Mike": "{{i18n: MarriedEggFestival.Mike}}"
+      },
+      "When": {
+        "Relationship:Mike": "Married"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring24",
+      "Entries": {
+        "Mike": "{{i18n: FlowerFestival.Mike}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring24",
+      "Entries": {
+        "Mike": "{{i18n: MarriedFlowerFestival.Mike}}"
+      },
+      "When": {
+        "Relationship:Mike": "Married"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11",
+      "Entries": {
+        "Mike": "{{i18n: LuauFestival.Mike}}",
+        "Mike_spouse": "{{i18n: MarriedLuauFestival.Mike}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer28",
+      "Entries": {
+        "Mike": "{{i18n: JellyFestival.Mike}}",
+        "Mike_spouse": "{{i18n: MarriedJellyFestival1.Mike}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer28",
+      "Entries": {
+        "Mike": "{{i18n: MarriedJellyFestival2.Mike}}"
+      },
+      "When": {
+        "Relationship:Mike": "Married"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall16",
+      "Entries": {
+        "Mike": "{{i18n: FairFestival.Mike}}",
+        "Mike_spouse": "{{i18n: MarriedFairFestival1.Mike}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall16",
+      "Entries": {
+        "Mike": "{{i18n: MarriedFairFestival2.Mike}}"
+      },
+      "When": {
+        "Relationship:Mike": "Married"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall27",
+      "Entries": {
+        "Mike": "{{i18n: SpiritFestival.Mike}}",
+        "Mike_spouse": "{{i18n: MarriedSpiritFestival.Mike}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter8",
+      "Entries": {
+        "Mike": "{{i18n: IceFestival.Mike}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter8",
+      "Entries": {
+        "Mike": "{{i18n: MarriedIceFestival.Mike}}"
+      },
+      "When": {
+        "Relationship:Mike": "Married"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter25",
+      "Entries": {
+        "Mike": "{{i18n: StarFestival.Mike}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter25",
+      "Entries": {
+        "Mike": "{{i18n: MarriedStarFestival.Mike}}"
+      },
+      "When": {
+        "Relationship:Mike": "Married"
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring13, Data/Festivals/spring24, Data/Festivals/summer11, Data/Festivals/summer28, Data/Festivals/fall16, Data/Festivals/fall27, Data/Festivals/winter8, Data/Festivals/winter25",
+      "Entries": {
+        "Mike": "{{i18n: DivorcedFestival.Mike}}"
+      },
+      "When": {
+        "Relationship:Mike": "Divorced"
+      }
+    },
+]
+}

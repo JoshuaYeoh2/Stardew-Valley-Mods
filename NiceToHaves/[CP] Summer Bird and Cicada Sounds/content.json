@@ -1,0 +1,23 @@
+﻿{
+    "Format": "2.0.0",
+    "Changes": [
+    //adding custom sounds
+    {
+    "Action": "EditData",
+    "Target": "Data/AudioChanges",
+    "Entries": {
+        "SummerSounds": {
+            "Id": "summer_day_ambient",
+            "Category": "Ambient",
+            "FilePaths": [
+                "{{AbsoluteFilePath: assets/birds.wav}}",
+				"{{AbsoluteFilePath: assets/birds2.wav}}"
+            ],
+			"Looped": true,
+            "StreamedVorbis": true
+        }
+	}
+	}
+	] 
+} 
+	

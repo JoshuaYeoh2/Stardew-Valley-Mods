@@ -1,0 +1,31 @@
+{
+"Changes": [
+
+//Changing NPCDisoposition for Yosef as marriage candidate
+{
+      "LogName": "Making Yosef a marriage candidate in NPCDispositions",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Fields": {
+      "YosefFS": {5: "datable"},
+      },
+},
+
+//Adding events for Yosef as marriage candidate
+{
+
+  "Action": "EditData",
+  "Target": "Data/Events/Lizzie.Stoffton_Mill",
+  "Entries":{
+
+//Yosef 10 heart event
+"11666177/f YosefFS 2500": "Cloth/21 10/farmer 29 15 0 YosefFS 18 11 3 GerhardFS 26 8 2/skippable/animate YosefFS false true 300 16 17 18 19/pause 1000/move farmer 0 -4 0/move farmer -8 0 3/stopAnimation YosefFS/jump YosefFS/pause 200/faceDirection YosefFS 1/pause 500/speak YosefFS \"{{i18n:event-11666177.01}}\"/playSound keyboardTyping/pause 500/emote farmer 32/pause 500/speak YosefFS \"{{i18n:event-11666177.02}}\"/playSound keyboardTyping/playSound purchase/playSound keyboardTyping/speak YosefFS \"{{i18n:event-11666177.03}}\"/speak GerhardFS \"{{i18n:event-11666177.04}}\"/speed GerhardFS 4/move GerhardFS 4 0 1/speed GerhardFS 4/move GerhardFS 0 8 2/speak YosefFS \"{{i18n:event-11666177.05}}\"/end",
+
+
+
+}
+},
+
+
+]
+}

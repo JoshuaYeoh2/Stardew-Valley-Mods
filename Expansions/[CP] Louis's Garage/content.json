@@ -1,0 +1,2149 @@
+{
+	"Format": "2.0.0",
+	"ConfigSchema": {
+		//"Name": {                     /// just so i remember how configschema should look if i need it
+		//	"AllowValues": "X, Y",
+		//	"Default": "X",
+		//	"Description": ""
+		//}
+	},
+	"DynamicTokens": [
+		{
+			"Name": "IsOddYear",
+			"Value": "{{Query: {{Year}} % 2 = 1}}"
+		}
+	],
+	"Changes": [
+		{
+			"Action": "Include",
+			"FromFile": "Data/PatchesVanilla.json",
+			"When": {
+				"HasMod | contains=FlashShifter.StardewValleyExpandedCP": false
+			},
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/PatchesSVE.json",
+			"When": {
+				"HasMod | contains=FlashShifter.StardewValleyExpandedCP": true
+			},
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/CustomRenaultFurnitureDresser",
+			"FromFile": "assets/Furniture/CustomRenaultFurnitureDresser.png,"
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/CustomRenaultFurnitureBedsidetable",
+			"FromFile": "assets/Furniture/CustomRenaultFurnitureBedsidetable.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/CustomRenaultFurnitureCouch",
+			"FromFile": "assets/Furniture/CustomRenaultFurnitureCouch.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/CustomRenaultFurnitureFireplace",
+			"FromFile": "assets/Furniture/CustomRenaultFurnitureFireplace.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/CustomRenaultFurnitureBookcase",
+			"FromFile": "assets/Furniture/CustomRenaultFurnitureBookcase.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/CustomRenaultFurnitureChildBed",
+			"FromFile": "assets/Furniture/CustomRenaultFurnitureChildBed.png"
+		},		
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/CustomRenaultFurnitureBed",
+			"FromFile": "assets/Furniture/CustomRenaultFurnitureBed.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/CustomRenaultFurnitureCouchTable",
+			"FromFile": "assets/Furniture/CustomRenaultFurnitureCouchTable.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/CustomRenaultFurnitureTable",
+			"FromFile": "assets/Furniture/CustomRenaultFurnitureTable.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/CustomRenaultFurnitureLamp",
+			"FromFile": "assets/Furniture/CustomRenaultFurnitureLamp.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/CustomRenaultFurnitureTV",
+			"FromFile": "assets/Furniture/CustomRenaultFurnitureTV.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/CustomRenaultFurnitureRug",
+			"FromFile": "assets/Furniture/CustomRenaultFurnitureRug.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/CustomRenaultFurnitureCustomSize",
+			"FromFile": "assets/Furniture/CustomRenaultFurnitureCustomSize.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/CustomRenaultFurnitureDecoItems",
+			"FromFile": "assets/Furniture/CustomRenaultFurnitureDecoItems.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/CustomRenaultFurnitureChairs",
+			"FromFile": "assets/Furniture/CustomRenaultFurnitureChairs.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/CustomRenaultFurnitureChairsFront",
+			"FromFile": "assets/Furniture/CustomRenaultFurnitureChairsFront.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/CustomRenaultFurnitureCouchFront",
+			"FromFile": "assets/Furniture/CustomRenaultFurnitureCouchFront.png"
+		},
+
+		{
+			"Action": "Load",
+			"Target": "LooseSprites/{{ModId}}_Crate",
+			"FromFile": "assets/bundle-sprite.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "LooseSprites/R5.CP_NightCar",
+			"FromFile": "assets/heart-8-nightcar.png"
+		},
+		//LewisCar
+		{
+			"LogName": "LewisCar",
+			"Action": "EditImage",
+			"Target": "Maps/{{season}}_town",
+			"FromFile": "assets/lewis.png",
+			"ToArea": {
+				"X": 368,
+				"Y": 512,
+				"Width": 64,
+				"Height": 112
+			},
+			"PatchMode": "Replace"
+		},
+		//TrainFront
+		{
+			"LogName": "TrainFront",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/TrainFront.png",
+			"ToArea": {
+				"X": 576,
+				"Y": 512,
+				"Width": 128,
+				"Height": 64
+			},
+			"PatchMode": "Replace"
+		},
+		//Trainwheel
+		{
+			"LogName": "Train Wheel",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/TrainWheel.png",
+			"ToArea": {
+				"X": 192,
+				"Y": 576,
+				"Width": 20,
+				"Height": 20
+			},
+			"PatchMode": "Replace"
+		},
+		//Train Cars
+		{
+			"LogName": "Train Cars",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/TrainCar.png",
+			"ToArea": {
+				"X": 192,
+				"Y": 512,
+				"Width": 128,
+				"Height": 64
+			},
+			"PatchMode": "Replace"
+		},
+		//Bus
+        {
+            "LogName": "Bus",
+            "Action": "EditImage",
+            "When": {"HasFlag": "ccVault"},
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Bus.png",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 128,
+                "Height": 64
+            },
+            "ToArea": {
+                "X": 288,
+                "Y": 1247,
+                "Width": 128,
+                "Height": 64
+            },
+            "PatchMode": "Replace"
+        },
+        //Bus Doors
+        {
+            "LogName": "Bus Doors",
+            "Action": "EditImage",
+            "When": {"HasFlag": "ccVault"},
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Bus.png",
+            "FromArea": {
+                "X": 0,
+                "Y": 64,
+                "Width": 96,
+                "Height": 38
+            },
+            "ToArea": {
+                "X": 288,
+                "Y": 1311,
+                "Width": 96,
+                "Height": 38
+            },
+            "PatchMode": "Replace"
+        },
+        //Pam
+        {
+            "LogName": "Pam",
+            "Action": "EditImage",
+            "When": {"HasFlag": "ccVault"},
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Bus.png",
+            "FromArea": {
+                "X": 96,
+                "Y": 64,
+                "Width": 15,
+                "Height": 19
+            },
+            "ToArea": {
+                "X": 384,
+                "Y": 1311,
+                "Width": 15,
+                "Height": 19
+            },
+            "PatchMode": "Replace"
+        },
+        //Bus 2
+        {
+            "LogName": "Bus2",
+            "Action": "EditImage",
+            "When": {"HasFlag": "ccVault"},
+            "Target": "LooseSprites/Cursors2",
+            "FromFile": "assets/Cursors2.png",
+            "ToArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 21,
+                "Height": 41
+            },
+            "PatchMode": "Replace"
+        },
+		//Willy's Boat
+		{
+			"LogName": "Willy's Boat",
+			"Action": "EditImage",
+			"Target": "LooseSprites/WillysBoat",
+			"FromFile": "assets/WillysBoat.png",
+			"PatchMode": "Replace",
+		},
+		//Tractor
+		{
+			"LogName": "Tractor",
+			"Action": "EditImage",
+			"Target": "Mods/Pathoschild.TractorMod/Tractor",
+			"FromFile": "assets/tractor.png",
+			"PatchMode": "Replace"
+		},
+		//Graffiti 
+		{
+			"LogName": "TrainOverlay",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/blank.png",
+			"ToArea": {
+				"X": 224,
+				"Y": 576,
+				"Width": 224,
+				"Height": 160
+			},
+			"PatchMode": "Replace"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Furniture",
+			"Entries": {
+				//Dresser:
+				"{{ModId}}_RetroDresserA": "{{ModId}}_RetroDresserA/dresser/-1/-1/4/2000/-1/{{i18n:Furniture.Dressers.1}}/0/Mods\\{{ModId}}\\CustomRenaultFurnitureDresser/true",
+				"{{ModId}}_RetroDresserB": "{{ModId}}_RetroDresserB/dresser/-1/-1/4/2000/-1/{{i18n:Furniture.Dressers.2}}/5/Mods\\{{ModId}}\\CustomRenaultFurnitureDresser/true",
+				"{{ModId}}_RetroDresserC": "{{ModId}}_RetroDresserC/dresser/-1/-1/4/2000/-1/{{i18n:Furniture.Dressers.3}}/10/Mods\\{{ModId}}\\CustomRenaultFurnitureDresser/true",
+				"{{ModId}}_RetroDresserD": "{{ModId}}_RetroDresserD/dresser/-1/-1/4/2000/-1/{{i18n:Furniture.Dressers.4}}/15/Mods\\{{ModId}}\\CustomRenaultFurnitureDresser/true",
+				"{{ModId}}_RetroDresserE": "{{ModId}}_RetroDresserE/dresser/-1/-1/4/2000/-1/{{i18n:Furniture.Dressers.5}}/60/Mods\\{{ModId}}\\CustomRenaultFurnitureDresser/true",
+				"{{ModId}}_RetroDresserF": "{{ModId}}_RetroDresserF/dresser/-1/-1/4/2000/-1/{{i18n:Furniture.Dressers.6}}/65/Mods\\{{ModId}}\\CustomRenaultFurnitureDresser/true",
+				"{{ModId}}_RetroDresserG": "{{ModId}}_RetroDresserG/dresser/-1/-1/4/2000/-1/{{i18n:Furniture.Dressers.7}}/70/Mods\\{{ModId}}\\CustomRenaultFurnitureDresser/true",
+				"{{ModId}}_RetroDresserH": "{{ModId}}_RetroDresserH/dresser/-1/-1/4/2000/-1/{{i18n:Furniture.Dressers.8}}/75/Mods\\{{ModId}}\\CustomRenaultFurnitureDresser/true",
+				//Bedsidetable:
+				"{{ModId}}_RetroBSTA": "{{ModId}}_BSTA/table/1 2/1 1/2/1000/-1/{{i18n:Furniture.BST.1}}/0/Mods\\{{ModId}}\\CustomRenaultFurnitureBedsidetable/true",
+				"{{ModId}}_RetroBSTB": "{{ModId}}_BSTB/table/1 2/1 1/2/1000/-1/{{i18n:Furniture.BST.2}}/2/Mods\\{{ModId}}\\CustomRenaultFurnitureBedsidetable/true",
+				"{{ModId}}_RetroBSTC": "{{ModId}}_BSTC/other/1 2/1 1/2/1000/-1/{{i18n:Furniture.BST.3}}/4/Mods\\{{ModId}}\\CustomRenaultFurnitureBedsidetable/true",
+				"{{ModId}}_RetroBSTD": "{{ModId}}_BSTD/other/1 2/1 1/2/1000/-1/{{i18n:Furniture.BST.4}}/6/Mods\\{{ModId}}\\CustomRenaultFurnitureBedsidetable/true",
+				"{{ModId}}_RetroBSTE": "{{ModId}}_BSTE/other/1 2/1 1/2/1000/-1/{{i18n:Furniture.BST.5}}/8/Mods\\{{ModId}}\\CustomRenaultFurnitureBedsidetable/true",
+				"{{ModId}}_RetroBSTF": "{{ModId}}_BSTF/other/1 2/1 1/2/1000/-1/{{i18n:Furniture.BST.6}}/10/Mods\\{{ModId}}\\CustomRenaultFurnitureBedsidetable/true",
+				"{{ModId}}_RetroBSTG": "{{ModId}}_BSTG/other/1 2/1 1/2/1000/-1/{{i18n:Furniture.BST.7}}/12/Mods\\{{ModId}}\\CustomRenaultFurnitureBedsidetable/true",
+				"{{ModId}}_RetroBSTH": "{{ModId}}_BSTH/other/1 2/1 1/2/1000/-1/{{i18n:Furniture.BST.8}}/14/Mods\\{{ModId}}\\CustomRenaultFurnitureBedsidetable/true",
+				//Couch:
+				"{{ModId}}_RetroCouchA": "{{ModId}}_RetroCouchA/couch/4 2/4 1/4/5000/-1/{{i18n:Furniture.Couch.1}}/0/Mods\\{{ModId}}\\CustomRenaultFurnitureCouch/true",
+				"{{ModId}}_RetroCouchB": "{{ModId}}_RetroCouchB/couch/4 2/4 1/4/5000/-1/{{i18n:Furniture.Couch.2}}/10/Mods\\{{ModId}}\\CustomRenaultFurnitureCouch/true",
+				"{{ModId}}_RetroCouchC": "{{ModId}}_RetroCouchC/couch/4 2/4 1/4/5000/-1/{{i18n:Furniture.Couch.1}}/20/Mods\\{{ModId}}\\CustomRenaultFurnitureCouch/true",
+				"{{ModId}}_RetroDoubleCouchA": "{{ModId}}_RetroDoubleCouchA/couch/3 2/3 1/4/2500/-1/{{i18n:Furniture.DoubleCouch.1}}/96/Mods\\{{ModId}}\\CustomRenaultFurnitureCouch/true",
+				"{{ModId}}_RetroDoubleCouchB": "{{ModId}}_RetroDoubleCouchB/couch/3 2/3 1/4/2500/-1/{{i18n:Furniture.DoubleCouch.2}}/104/Mods\\{{ModId}}\\CustomRenaultFurnitureCouch/true",
+				//Fireplace:
+				"{{ModId}}_RetroFireplaceA": "{{ModId}}_RetroFireplaceA/fireplace/-1/-1/1/4000/-1/{{i18n:Furniture.Fireplace.1}}/0/Mods\\{{ModId}}\\CustomRenaultFurnitureFireplace/true",
+				"{{ModId}}_RetroFireplaceB": "{{ModId}}_RetroFireplaceB/fireplace/-1/-1/1/4000/-1/{{i18n:Furniture.Fireplace.2}}/2/Mods\\{{ModId}}\\CustomRenaultFurnitureFireplace/true",
+				"{{ModId}}_RetroFireplaceC": "{{ModId}}_RetroFireplaceC/fireplace/-1/-1/1/4000/-1/{{i18n:Furniture.Fireplace.3}}/4/Mods\\{{ModId}}\\CustomRenaultFurnitureFireplace/true",
+				"{{ModId}}_RetroFireplaceD": "{{ModId}}_RetroFireplaceD/fireplace/-1/-1/1/4000/-1/{{i18n:Furniture.Fireplace.4}}/6/Mods\\{{ModId}}\\CustomRenaultFurnitureFireplace/true",
+				"{{ModId}}_RetroFireplaceE": "{{ModId}}_RetroFireplaceE/fireplace/-1/-1/1/4000/-1/{{i18n:Furniture.Fireplace.5}}/8/Mods\\{{ModId}}\\CustomRenaultFurnitureFireplace/true",
+				"{{ModId}}_RetroFireplaceF": "{{ModId}}_RetroFireplaceF/fireplace/-1/-1/1/4000/-1/{{i18n:Furniture.Fireplace.6}}/10/Mods\\{{ModId}}\\CustomRenaultFurnitureFireplace/true",
+				"{{ModId}}_RetroFireplaceG": "{{ModId}}_RetroFireplaceG/fireplace/-1/-1/1/4000/-1/{{i18n:Furniture.Fireplace.7}}/12/Mods\\{{ModId}}\\CustomRenaultFurnitureFireplace/true",
+				"{{ModId}}_RetroFireplaceH": "{{ModId}}_RetroFireplaceH/fireplace/-1/-1/1/4000/-1/{{i18n:Furniture.Fireplace.8}}/14/Mods\\{{ModId}}\\CustomRenaultFurnitureFireplace/true",
+				//Bookcases:
+				"{{ModId}}_RetroBookcaseA": "{{ModId}}_RetroBookcaseA/bookcase/-1/-1/1/2500/-1/{{i18n:Furniture.Bookcase.1}}/0/Mods\\{{ModId}}\\CustomRenaultFurnitureBookcase/true",
+				"{{ModId}}_RetroBookcaseB": "{{ModId}}_RetroBookcaseB/bookcase/-1/-1/1/2500/-1/{{i18n:Furniture.Bookcase.2}}/2/Mods\\{{ModId}}\\CustomRenaultFurnitureBookcase/true",
+				"{{ModId}}_RetroBookcaseC": "{{ModId}}_RetroBookcaseC/bookcase/-1/-1/1/2500/-1/{{i18n:Furniture.Bookcase.3}}/4/Mods\\{{ModId}}\\CustomRenaultFurnitureBookcase/true",
+				"{{ModId}}_RetroBookcaseD": "{{ModId}}_RetroBookcaseD/bookcase/-1/-1/1/2500/-1/{{i18n:Furniture.Bookcase.4}}/6/Mods\\{{ModId}}\\CustomRenaultFurnitureBookcase/true",
+				"{{ModId}}_RetroBookcaseE": "{{ModId}}_RetroBookcaseE/bookcase/-1/-1/1/2500/-1/{{i18n:Furniture.Bookcase.5}}/8/Mods\\{{ModId}}\\CustomRenaultFurnitureBookcase/true",
+				"{{ModId}}_RetroBookcaseF": "{{ModId}}_RetroBookcaseF/bookcase/-1/-1/1/2500/-1/{{i18n:Furniture.Bookcase.6}}/10/Mods\\{{ModId}}\\CustomRenaultFurnitureBookcase/true",
+				"{{ModId}}_RetroBookcaseG": "{{ModId}}_RetroBookcaseG/bookcase/-1/-1/1/2500/-1/{{i18n:Furniture.Bookcase.7}}/12/Mods\\{{ModId}}\\CustomRenaultFurnitureBookcase/true",
+				//Beds:
+				"{{ModId}}_RetroBedASingle": "{{ModId}}_RetroBedASingle/bed/2 4/2 3/1/1000/-1/{{i18n:Furniture.RetroBedASingle.1}}/0/Mods\\{{ModId}}\\CustomRenaultFurnitureBed/true",
+				"{{ModId}}_RetroBedADouble": "{{ModId}}_RetroBedADouble/bed double/3 4/3 3/1/1000/-1/{{i18n:Furniture.RetroBedADouble.1}}/4/Mods\\{{ModId}}\\CustomRenaultFurnitureBed/true",
+				"{{ModId}}_RetroBedBSingle": "{{ModId}}_RetroBedBSingle/bed/2 4/2 3/1/1000/-1/{{i18n:Furniture.RetroBedASingle.1}}/64/Mods\\{{ModId}}\\CustomRenaultFurnitureBed/true",
+				"{{ModId}}_RetroBedBDouble": "{{ModId}}_RetroBedBDouble/bed double/3 4/3 3/1/1000/-1/{{i18n:Furniture.RetroBedBDouble.1}}/68/Mods\\{{ModId}}\\CustomRenaultFurnitureBed/true",
+				"{{ModId}}_RetroBedCSingle": "{{ModId}}_RetroBedCSingle/bed/2 4/2 3/1/1000/-1/{{i18n:Furniture.RetroBedCSingle.1}}/10/Mods\\{{ModId}}\\CustomRenaultFurnitureBed/true",
+				"{{ModId}}_RetroBedCDouble": "{{ModId}}_RetroBedCDouble/bed double/3 4/3 3/1/1000/-1/{{i18n:Furniture.RetroBedCDouble.1}}/74/Mods\\{{ModId}}\\CustomRenaultFurnitureBed/true",
+				//ChildBeds:
+				"{{ModId}}_RetroChildBedA": "{{ModId}}_RetroChildBedA/bed child/2 4/2 3/1/1000/-1/{{i18n:Furniture.RetroChildBed.1}}/0/Mods\\{{ModId}}\\CustomRenaultFurnitureChildBed/true",
+				"{{ModId}}_RetroChildBedB": "{{ModId}}_RetroChildBedB/bed child/2 4/2 3/1/1000/-1/{{i18n:Furniture.RetroChildBed.2}}/4/Mods\\{{ModId}}\\CustomRenaultFurnitureChildBed/true",
+				"{{ModId}}_RetroChildBedC": "{{ModId}}_RetroChildBedC/bed child/2 4/2 3/1/1000/-1/{{i18n:Furniture.RetroChildBed.3}}/8/Mods\\{{ModId}}\\CustomRenaultFurnitureChildBed/true",
+
+				//Table:
+				"{{ModId}}_RetroCouchTableA": "{{ModId}}_RetroCouchTableA/table/2 2/2 1/2/1250/-1/{{i18n:Furniture.RetroCouchTable.1}}/0/Mods\\{{ModId}}\\CustomRenaultFurnitureCouchTable/true",
+				"{{ModId}}_RetroCouchTableB": "{{ModId}}_RetroCouchTableB/table/2 2/2 1/2/1250/-1/{{i18n:Furniture.RetroCouchTable.2}}/3/Mods\\{{ModId}}\\CustomRenaultFurnitureCouchTable/true",
+				"{{ModId}}_RetroCouchTableGlass": "{{ModId}}_RetroCouchTableGlass/table/3 2/3 1/1/1250/-1/{{i18n:Furniture.RetroCouchTable.3}}/6/Mods\\{{ModId}}\\CustomRenaultFurnitureCouchTable/true",
+				"{{ModId}}_RetroCouchTableSquare": "{{ModId}}_RetroCouchTableSquare/table/2 2/2 2/1/1250/-1/{{i18n:Furniture.RetroCouchTable.4}}/9/Mods\\{{ModId}}\\CustomRenaultFurnitureCouchTable/true",
+				"{{ModId}}_RetroCouchTableSmall": "{{ModId}}_RetroCouchTableSmall/table/2 1/2 1/1/550/-1/{{i18n:Furniture.RetroCouchTable.5}}/11/Mods\\{{ModId}}\\CustomRenaultFurnitureCouchTable/true",
+				"{{ModId}}_RetroCouchTableColor": "{{ModId}}_RetroCouchTableColor/table/3 2/3 1/1/1250/-1/{{i18n:Furniture.RetroCouchTable.6}}/13/Mods\\{{ModId}}\\CustomRenaultFurnitureCouchTable/true",
+				//Lamps:
+				"{{ModId}}_RetroLampA": "{{ModId}}_RetroLampA/lamp/-1/-1/1/500/-1/{{i18n:Furniture.RetroLamp.1}}/0/Mods\\{{ModId}}\\CustomRenaultFurnitureLamp/true",
+				"{{ModId}}_RetroLampB": "{{ModId}}_RetroLampB/lamp/-1/-1/1/500/-1/{{i18n:Furniture.RetroLamp.2}}/2/Mods\\{{ModId}}\\CustomRenaultFurnitureLamp/true",
+				"{{ModId}}_RetroLampC": "{{ModId}}_RetroLampC/lamp/-1/-1/1/500/-1/{{i18n:Furniture.RetroLamp.3}}/4/Mods\\{{ModId}}\\CustomRenaultFurnitureLamp/true",
+				"{{ModId}}_RetroLampD": "{{ModId}}_RetroLampD/lamp/-1/-1/1/500/-1/{{i18n:Furniture.RetroLamp.4}}/6/Mods\\{{ModId}}\\CustomRenaultFurnitureLamp/true",
+				"{{ModId}}_RetroLampE": "{{ModId}}_RetroLampE/lamp/-1/-1/1/500/-1/{{i18n:Furniture.RetroLamp.5}}/8/Mods\\{{ModId}}\\CustomRenaultFurnitureLamp/true",
+				//TV:
+				"{{ModId}}_RetroPlasmaTV": "{{ModId}}_RetroPlasmaTV/decor/3 3/3 1/1/4500/-1/{{i18n:Furniture.RetroTV.1}}/0/Mods\\{{ModId}}\\CustomRenaultFurnitureTV/true",
+				"{{ModId}}_RetroFakeTV": "{{ModId}}_RetroFakeTV/decor/2 3/2 2/1/250/-1/{{i18n:Furniture.RetroTV.1}}/3/Mods\\{{ModId}}\\CustomRenaultFurnitureTV/true",
+				"{{ModId}}_RetroBudgetTV": "{{ModId}}_RetroBudgetTV/decor/2 3/2 2/1/750/-1/{{i18n:Furniture.RetroTV.1}}/5/Mods\\{{ModId}}\\CustomRenaultFurnitureTV/true",
+				//Rugs:
+				"{{ModId}}_RetroRugBig": "{{ModId}}_RetroRugBig/rug/5 3/-1/1/1500/-1/{{i18n:Furniture.RetroRug.1}}/0/Mods\\{{ModId}}\\CustomRenaultFurnitureRug/true",
+				"{{ModId}}_RetroRugSquare": "{{ModId}}_RetroRugSquare/rug/2 2/-1/1/800/-1/{{i18n:Furniture.RetroRug.2}}/19/Mods\\{{ModId}}\\CustomRenaultFurnitureRug/true",
+				"{{ModId}}_RetroRugLong": "{{ModId}}_RetroRugLong/rug/4 3/4 3/2/1250/-1/{{i18n:Furniture.RetroRug.3}}/7/Mods\\{{ModId}}\\CustomRenaultFurnitureRug/true",
+				//Custom Size Furniture:
+				//Bookcase
+				"{{ModId}}_RetroCustomBookCaseA": "{{ModId}}_RetroCustomBookCaseA/bookcase/3 3/3 1/1/2000/-1/{{i18n:Furniture.CustomBookCase.1}}/0/Mods\\{{ModId}}\\CustomRenaultFurnitureCustomSize/true",
+				"{{ModId}}_RetroCustomBookCaseB": "{{ModId}}_RetroCustomBookCaseB/bookcase/3 3/3 1/1/2000/-1/{{i18n:Furniture.CustomBookCase.2}}/3/Mods\\{{ModId}}\\CustomRenaultFurnitureCustomSize/true",
+				//Dresser
+				"{{ModId}}_RetroCustomDresserA": "{{ModId}}_RetroCustomDresserA/bookcase/3 3/3 1/1/2000/-1/{{i18n:Furniture.CustomDresser.1}}/6/Mods\\{{ModId}}\\CustomRenaultFurnitureCustomSize/true",
+				"{{ModId}}_RetroCustomDresserB": "{{ModId}}_RetroCustomDresserB/dresser/3 2/3 1/1/2000/-1/{{i18n:Furniture.CustomDresser.2}}/41/Mods\\{{ModId}}\\CustomRenaultFurnitureCustomSize/true",
+				"{{ModId}}_RetroCustomDresserC": "{{ModId}}_RetroCustomDresserC/dresser/3 2/3 1/1/2000/-1/{{i18n:Furniture.CustomDresser.3}}/44/Mods\\{{ModId}}\\CustomRenaultFurnitureCustomSize/true",
+				"{{ModId}}_RetroCustomDresserD": "{{ModId}}_RetroCustomDresserD/dresser/3 2/3 1/1/2000/-1/{{i18n:Furniture.CustomDresser.4}}/47/Mods\\{{ModId}}\\CustomRenaultFurnitureCustomSize/true",
+				"{{ModId}}_RetroCustomDresserE": "{{ModId}}_RetroCustomDresserE/dresser/3 2/3 1/1/2000/-1/{{i18n:Furniture.CustomDresser.5}}/50/Mods\\{{ModId}}\\CustomRenaultFurnitureCustomSize/true",
+				"{{ModId}}_RetroCustomDresserF": "{{ModId}}_RetroCustomDresserF/dresser/3 2/3 1/1/2000/-1/{{i18n:Furniture.CustomDresser.6}}/53/Mods\\{{ModId}}\\CustomRenaultFurnitureCustomSize/true",
+				"{{ModId}}_RetroCustomDresserG": "{{ModId}}_RetroCustomDresserG/dresser/3 2/3 1/1/2000/-1/{{i18n:Furniture.CustomDresser.7}}/56/Mods\\{{ModId}}\\CustomRenaultFurnitureCustomSize/true",
+				"{{ModId}}_RetroCustomDresserH": "{{ModId}}_RetroCustomDresserH/dresser/3 2/3 1/1/2000/-1/{{i18n:Furniture.CustomDresser.8}}/59/Mods\\{{ModId}}\\CustomRenaultFurnitureCustomSize/true",
+				//PlasmaTVSides
+				"{{ModId}}_RetroCustomPlasmaTVLeft": "{{ModId}}_RetroCustomPlasmaTVLeft/dresser/1 3/1 1/1/250/-1/{{i18n:Furniture.CustomPlasmaTV.Left}}/30/Mods\\{{ModId}}\\CustomRenaultFurnitureCustomSize/true",
+				"{{ModId}}_RetroCustomPlasmaTVRight": "{{ModId}}_RetroCustomPlasmaTVRight/dresser/1 3/1 1/1/250/-1/{{i18n:Furniture.RetroCustomPlasmaTV.Right}}/31/Mods\\{{ModId}}\\CustomRenaultFurnitureCustomSize/true",
+				//DecoItems
+				//Painting
+				"{{ModId}}_RetroPicturesA": "{{ModId}}_RetroPicturesA/painting/2 2/-1/1/550/-1/{{i18n:Furniture.Pictures.1}}/0/Mods\\{{ModId}}\\CustomRenaultFurnitureDecoItems/true",
+				"{{ModId}}_RetroPicturesB": "{{ModId}}_RetroPicturesB/painting/2 2/-1/1/550/-1/{{i18n:Furniture.Pictures.2}}/36/Mods\\{{ModId}}\\CustomRenaultFurnitureDecoItems/true",
+				"{{ModId}}_RetroPicturesC": "{{ModId}}_RetroPicturesC/painting/3 2/3 2/1/850/-1/{{i18n:Furniture.Pictures.3}}/2/Mods\\{{ModId}}\\CustomRenaultFurnitureDecoItems/true",
+				"{{ModId}}_RetroPicturesD": "{{ModId}}_RetroPicturesD/painting/1 2/1 2/1/250/-1/{{i18n:Furniture.Pictures.4}}/38/Mods\\{{ModId}}\\CustomRenaultFurnitureDecoItems/true",
+				"{{ModId}}_RetroPicturesE": "{{ModId}}_RetroPicturesE/painting/3 2/-1/1/550/-1/{{i18n:Furniture.Pictures.5}}/9/Mods\\{{ModId}}\\CustomRenaultFurnitureDecoItems/true",
+				"{{ModId}}_RetroPicturesF": "{{ModId}}_RetroPicturesF/painting/2 2/-1/1/550/-1/{{i18n:Furniture.Pictures.6}}/44/Mods\\{{ModId}}\\CustomRenaultFurnitureDecoItems/true",
+				"{{ModId}}_RetroPicturesG": "{{ModId}}_RetroPicturesG/painting/2 2/-1/1/550/-1/{{i18n:Furniture.Pictures.7}}/46/Mods\\{{ModId}}\\CustomRenaultFurnitureDecoItems/true",
+				"{{ModId}}_RetroPicturesH": "{{ModId}}_RetroPicturesH/painting/2 2/-1/1/550/-1/{{i18n:Furniture.Pictures.8}}/12/Mods\\{{ModId}}\\CustomRenaultFurnitureDecoItems/true",
+				"{{ModId}}_RetroPicturesI": "{{ModId}}_RetroPicturesI/painting/2 2/-1/1/550/-1/{{i18n:Furniture.Pictures.9}}/14/Mods\\{{ModId}}\\CustomRenaultFurnitureDecoItems/true",
+				"{{ModId}}_RetroPicturesJ": "{{ModId}}_RetroPicturesJ/painting/1 2/-1/1/550/-1/{{i18n:Furniture.Pictures.10}}/50/Mods\\{{ModId}}\\CustomRenaultFurnitureDecoItems/true",
+				"{{ModId}}_RetroPicturesK": "{{ModId}}_RetroPicturesK/painting/2 3/-1/1/550/-1/{{i18n:Furniture.Pictures.11}}/16/Mods\\{{ModId}}\\CustomRenaultFurnitureDecoItems/true",
+				"{{ModId}}_RetroPicturesL": "{{ModId}}_RetroPicturesL/painting/1 1/1 1/1/550/-1/{{i18n:Furniture.Pictures.12}}/5/Mods\\{{ModId}}\\CustomRenaultFurnitureDecoItems/true",
+				"{{ModId}}_RetroPicturesM": "{{ModId}}_RetroPicturesM/painting/1 1/1 1/1/550/-1/{{i18n:Furniture.Pictures.13}}/6/Mods\\{{ModId}}\\CustomRenaultFurnitureDecoItems/true",
+				"{{ModId}}_RetroPicturesN": "{{ModId}}_RetroPicturesN/painting/2 2/-1/1/550/-1/{{i18n:Furniture.Pictures.14}}/7/Mods\\{{ModId}}\\CustomRenaultFurnitureDecoItems/true",
+				//Hanging Shelves
+				"{{ModId}}_RetroHangingShelveA": "{{ModId}}_HangingShelveA/painting/3 2/-1/1/750/-1/{{i18n:Furniture.HangingShelve.1}}/76/Mods\\{{ModId}}\\CustomRenaultFurnitureDecoItems/true",
+				"{{ModId}}_RetroHangingShelveB": "{{ModId}}_HangingShelveB/painting/2 2/-1/1/550/-1/{{i18n:Furniture.HangingShelve.2}}/79/Mods\\{{ModId}}\\CustomRenaultFurnitureDecoItems/true",
+				"{{ModId}}_RetroHangingShelveC": "{{ModId}}_HangingShelveC/painting/2 2/-1/1/550/-1/{{i18n:Furniture.HangingShelve.1}}/81/Mods\\{{ModId}}\\CustomRenaultFurnitureDecoItems/true",
+				"{{ModId}}_RetroHangingShelveD": "{{ModId}}_HangingShelveD/painting/3 2/-1/1/750/-1/{{i18n:Furniture.HangingShelve.1}}/85/Mods\\{{ModId}}\\CustomRenaultFurnitureDecoItems/true",
+				//Scone
+				"{{ModId}}_RetroWallLamp": "{{ModId}}_RetroWallLamp/sconce/-1/-1/1/500/-1/{{i18n:Furniture.WallLamp.1}}/83/Mods\\{{ModId}}\\CustomRenaultFurnitureDecoItems/true",
+				//Decor
+				"{{ModId}}_RetroBearA": "{{ModId}}_RetroBearA/decor/1 2/1 1/1/200/-1/{{i18n:Furniture.RetroBear.1}}/39/Mods\\{{ModId}}\\CustomRenaultFurnitureDecoItems/true",
+				"{{ModId}}_RetroBearB": "{{ModId}}_RetroBearB/decor/1 2/1 1/1/200/-1/{{i18n:Furniture.RetroBear.2}}/40/Mods\\{{ModId}}\\CustomRenaultFurnitureDecoItems/true",
+				"{{ModId}}_RetroCarA": "{{ModId}}_RetroCarA/decor/2 1/2 1/1/200/-1/{{i18n:Furniture.RetroCar.1}}/23/Mods\\{{ModId}}\\CustomRenaultFurnitureDecoItems/true",
+				"{{ModId}}_RetroCarB": "{{ModId}}_RetroCarB/decor/2 2/2 1/1/200/-1/{{i18n:Furniture.RetroCar.2}}/41/Mods\\{{ModId}}\\CustomRenaultFurnitureDecoItems/true",
+				"{{ModId}}_RetroCarC": "{{ModId}}_RetroCarC/decor/1 1/1 1/1/200/-1/{{i18n:Furniture.RetroCar.3}}/61/Mods\\{{ModId}}\\CustomRenaultFurnitureDecoItems/true",
+				//Plant
+				"{{ModId}}_RetroPlant": "{{ModId}}_RetroPlant/decor/2 2/2 1/1/200/-1/{{i18n:Furniture.RetroPlant}}/48/Mods\\{{ModId}}\\CustomRenaultFurnitureDecoItems/true",
+				
+				//Armchair
+				"{{ModId}}_RetroArmchairA": "{{ModId}}_RetroArmchairA/armchair/-1/-1/4/1000/-1/{{i18n:Furniture.RetroArmchair.1}}/0/Mods\\{{ModId}}\\CustomRenaultFurnitureChairs/true",
+				"{{ModId}}_RetroArmchairB": "{{ModId}}_RetroArmchairB/armchair/-1/-1/4/1000/-1/{{i18n:Furniture.RetroArmchair.2}}/6/Mods\\{{ModId}}\\CustomRenaultFurnitureChairs/true",
+				"{{ModId}}_RetroArmchairC": "{{ModId}}_RetroArmchairC/armchair/-1/-1/4/1000/-1/{{i18n:Furniture.RetroArmchair.3}}/42/Mods\\{{ModId}}\\CustomRenaultFurnitureChairs/true",
+				"{{ModId}}_RetroArmchairD": "{{ModId}}_RetroArmchairD/armchair/-1/-1/4/1000/-1/{{i18n:Furniture.RetroArmchair.4}}/36/Mods\\{{ModId}}\\CustomRenaultFurnitureChairs/true",
+				"{{ModId}}_RetroArmchairE": "{{ModId}}_RetroArmchairE/armchair/-1/-1/4/1000/-1/{{i18n:Furniture.RetroArmchair.5}}/48/Mods\\{{ModId}}\\CustomRenaultFurnitureChairs/true",
+				"{{ModId}}_RetroArmchairF": "{{ModId}}_RetroArmchairF/armchair/2 2/2 1/2/1000/-1/{{i18n:Furniture.RetroArmchair.6}}/81/Mods\\{{ModId}}\\CustomRenaultFurnitureChairs/true",
+				"{{ModId}}_RetroArmchairG": "{{ModId}}_RetroArmchairG/armchair/2 2/2 1/2/1000/-1/{{i18n:Furniture.RetroArmchair.7}}/12/Mods\\{{ModId}}\\CustomRenaultFurnitureChairs/true",
+
+				//Chairs
+				"{{ModId}}_RetroChairA": "{{ModId}}_RetroChairA/chair/-1/-1/4/350/-1/{{i18n:Furniture.RetroChair.1}}/72/Mods\\{{ModId}}\\CustomRenaultFurnitureChairs/true",
+				"{{ModId}}_RetroChairB": "{{ModId}}_RetroChairB/chair/-1/-1/4/350/-1/{{i18n:Furniture.RetroChair.2}}/75/Mods\\{{ModId}}\\CustomRenaultFurnitureChairs/true",
+				"{{ModId}}_RetroChairC": "{{ModId}}_RetroChairC/chair/-1/-1/4/350/-1/{{i18n:Furniture.RetroChair.3}}/78/Mods\\{{ModId}}\\CustomRenaultFurnitureChairs/true",
+				
+				//Stool
+				"{{ModId}}_RetroStoolA": "{{ModId}}_RetroStoolA/chair/1 1/1 1/1/999/-1/{{i18n:Furniture.RetroStool.1}}/108/Mods\\{{ModId}}\\CustomRenaultFurnitureChairs/true",
+				"{{ModId}}_RetroStoolB": "{{ModId}}_RetroStoolB/chair/1 1/1 1/1/999/-1/{{i18n:Furniture.RetroStool.2}}/109/Mods\\{{ModId}}\\CustomRenaultFurnitureChairs/true",
+				"{{ModId}}_RetroStoolC": "{{ModId}}_RetroStoolC/chair/1 1/1 1/1/999/-1/{{i18n:Furniture.RetroStool.3}}/110/Mods\\{{ModId}}\\CustomRenaultFurnitureChairs/true",
+				"{{ModId}}_RetroStoolD": "{{ModId}}_RetroStoolD/chair/1 1/1 1/1/999/-1/{{i18n:Furniture.RetroStool.4}}/111/Mods\\{{ModId}}\\CustomRenaultFurnitureChairs/true",
+				"{{ModId}}_RetroStoolE": "{{ModId}}_RetroStoolE/chair/1 1/1 1/1/999/-1/{{i18n:Furniture.RetroStool.5}}/112/Mods\\{{ModId}}\\CustomRenaultFurnitureChairs/true",
+				//Cushion
+				"{{ModId}}_YellowCushion": "{{ModId}}_YellowCushion/rug/1 1/1 1/1/999/-1/{{i18n:Furniture.Cushion.1}}/113/Mods\\{{ModId}}\\CustomRenaultFurnitureChairs/true",
+				"{{ModId}}_WhiteCushion": "{{ModId}}_WhiteCushion/rug/1 1/1 1/1/999/-1/{{i18n:Furniture.Cushion.2}}/114/Mods\\{{ModId}}\\CustomRenaultFurnitureChairs/true",
+			//Table
+				"{{ModId}}_RetroDiningTable": "{{ModId}}_DiningTable/long table/-1/-1/2/5000/-1/{{i18n:Furniture.RetroDiningTable.1}}/0/Mods\\{{ModId}}\\CustomRenaultFurnitureTable/true",
+				"{{ModId}}_RetroMediumTable": "{{ModId}}_MediumTable/table/-1/-1/1/1750/-1/{{i18n:Furniture.RetroMediumTable.1}}/7/Mods\\{{ModId}}\\CustomRenaultFurnitureTable/true",
+				
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Custom_LouisInterior",
+			"Entries": {
+				"90001/f {{ModId}}_Louis 500/t 800 1600/d Sat Sun": "CloudCountry/27 30/{{ModId}}_Louis 28 29 2 Clint 28 31 0 farmer 999 999 0/addMailReceived {{ModId}}_Seen2Heart/skippable/addBigProp 26 31 174/pause 1500/speak Clint \"{{i18n:Events.2Hearts.0}}\"/pause 500/playSound doorClose/warp farmer 27 35/pause 100/faceDirection Clint 2/emote {{ModId}}_Louis 16/pause 1000/speak {{ModId}}_Louis \"{{i18n:Events.2Hearts.1}}\"/emote farmer 8/move farmer 0 -3 0 {{ModId}}_Louis -1 0 2 false/faceDirection Clint 3/speak {{ModId}}_Louis \"{{i18n:Events.2Hearts.2}}\"/speak Clint \"{{i18n:Events.2Hearts.3}}\"/emote Clint 28/pause 500/speak {{ModId}}_Louis \"{{i18n:Events.2Hearts.4}}\"/quickQuestion {{i18n:Events.2Hearts.5}}(break)fork {{ModId}}_Seen2Heart 90001_Fixed(break)friendship {{ModId}}_Louis 10\\friendship Clint -10\\speak {{ModId}}_Louis \"{{i18n:Events.2Hearts.6}}\"\\end dialogueWarpOut {{ModId}}_Louis \"{{i18n:Events.2Hearts.7}}\"(break)emote Clint 12\\friendship Clint -30\\friendship {{ModId}}_Louis 5\\speak Clint \"{{i18n:Events.2Hearts.8}}\"\\move Clint 0 3 3 true\\end dialogueWarpOut {{ModId}}_Louis \"{{i18n:Events.2Hearts.9}}\"", // 2 hearts
+				"90001_Fixed": "friendship {{ModId}}_Louis 15/friendship Clint 15/emote {{ModId}}_Louis 40/emote {{ModId}}_Louis 16/speak {{ModId}}_Louis \"{{i18n:Events.2Hearts-Fork-Fix.0}}\"/stopMusic/speed {{ModId}}_Louis 2/move {{ModId}}_Louis 0 -1 0/speed {{ModId}}_Louis 2/move {{ModId}}_Louis -2 0 3/speed {{ModId}}_Louis 2/move {{ModId}}_Louis 0 3 2/faceDirection {{ModId}}_Louis 1/pause 2000/animate {{ModId}}_Louis false false 175 28 29 30 31/playSound clank/pause 2000/animate {{ModId}}_Louis false false 175 28 29 30 31/playSound clank/pause 1000/beginSimultaneousCommand/playSound grunt/jump {{ModId}}_Louis/emote {{ModId}}_Louis 16/screenShake 10 1/endSimultaneousCommand/pause 1500/playSound furnace/pause 100/R5.CP_Command_Smoke/pause 500/playMusic event1/message \"{{i18n:Events.2Hearts-Fork-Fix.1}}\"/emote Clint 20/jump {{ModId}}_Louis/pause 500/speak {{ModId}}_Louis \"{{i18n:Events.2Hearts-Fork-Fix.2}}\"/move Clint -1 0 2 false/speak Clint \"{{i18n:Events.2Hearts-Fork-Fix.3}}\"/money 300/pause 500/emote farmer 32/pause 1000/globalFade/viewport 999 999/message \"{{i18n:Events.2Hearts-Fork-Fix.5}}\"/end dialogueWarpOut {{ModId}}_Louis \"{{i18n:Events.2Hearts-Fork-Fix.4}}\"", // fork if fixed
+				"90002/f {{ModId}}_Louis 750/t 800 1600/d Sat Sun/n {{ModId}}_EVChargersEvent {{ModId}}_Seen2Heart": "distantBanjo/15 32/{{ModId}}_Louis 16 31 3 farmer 999 999 0/addMailReceived {{ModId}}_SeenEVChargerProposal/addQuest 990002/skippable/animate {{ModId}}_Louis false true 175 16 17 18 19 19 19 19 19 19 19 19 19 19 19 19/pause 3000/emote {{ModId}}_Louis 28/pause 1000/warp farmer 14 35/playSound doorClose/pause 250/move farmer 0 -1 0 false/move farmer 2 0 1/move farmer 0 -2 0/pause 1000/emote farmer 40/emote {{ModId}}_Louis 8/stopAnimation {{ModId}}_Louis/faceDirection {{ModId}}_Louis 2/textAboveHead {{ModId}}_Louis \"{{i18n:Events.3Heart.0}}\"/speak {{ModId}}_Louis \"{{i18n:Events.3Heart.1}}\"/pause 500/emote farmer 32/pause 500/speak {{ModId}}_Louis \"{{i18n:Events.3Heart.2}}\"/pause 1500/speak {{ModId}}_Louis \"{{i18n:Events.3Heart.3}}\"/animate {{ModId}}_Louis false true 175 16 17 18 19 19 19 19 19 19 19 19 19 19 19 19/pause 1000/faceDirection farmer 2/move farmer 0 2 3 true/globalFade/viewport 999 999/message \"{{i18n:Events.3Heart.4}}\"/end dialogueWarpOut {{ModId}}_Louis \"{{i18n:Events.3Heart.5}}\"", // EV chargers event (3 heart)
+				"90004/t 800 1800/d Sat Sun/n {{ModId}}_EVChargersBuilt": "distantBanjo/19 30/{{ModId}}_Louis 20 31 0 farmer 999 999 0/pause 500/skippable/pause 1000/emote {{ModId}}_Louis 20/pause 500/playSound doorClose/warp farmer 27 35/pause 500/move farmer 0 -4 3 true/pause 500/faceDirection {{ModId}}_Louis 1/emote {{ModId}}_Louis 8/pause 1500/speak {{ModId}}_Louis \"{{i18n:Events.EVDone.0}}\"/move farmer -6 0 3/speak {{ModId}}_Louis \"{{i18n:Events.EVDone.1}}\"/emote farmer 32/speak {{ModId}}_Louis \"{{i18n:Events.EVDone.2}}\"/pause 500/emote farmer 8/speak {{ModId}}_Louis \"{{i18n:Events.EVDone.3}}\"/question null \"{{i18n:Events.EVDone.4}}\"/emote {{ModId}}_Louis 16/speak {{ModId}}_Louis \"{{i18n:Events.EVDone.5}}\"/emote farmer 20/faceDirection {{ModId}}_Louis 0/pause 1000/faceDirection farmer 0/playSound boop/pause 1000/playSound coin/pause 500/faceDirection farmer 3/pause 1000/faceDirection {{ModId}}_Louis 1/speak {{ModId}}_Louis \"{{i18n:Events.EVDone.6}}\"/pause 500/speak {{ModId}}_Louis \"{{i18n:Events.EVDone.7}}\"/pause 500/emote farmer 32/move farmer 6 0 2 {{ModId}}_Louis -4 0 3 true/globalFade/viewport 999 999/message \"{{i18n:Events.EVDone.8}}\"/end dialogueWarpOut {{ModId}}_Louis \"{{i18n:Events.EVDone.9}}\"", // EV chargers built event
+				"90007/t 2200 2600/w sunny/n {{ModId}}_MeetFor8Heart": "spaceMusic/999 999/{{ModId}}_Louis -999 -998 0 farmer -999 -999 0/fade/pause 1000/playSound doorClose/pause 1000/skippable/addMailReceived {{ModId}}_Seen8Heart/pause 1000/speak {{ModId}}_Louis \"{{i18n:Events.8Heart.0}}\"/pause 1000/playSound doorClose/pause 1000/playSound doorClose/pause 500/playSound boop/pause 1000/globalFade/viewport 999 999/changeLocation Custom_R5_Drive/viewport 15 8/globalFadeToClear 0.007 true/playSound owl/R5.CP_Command_ShowDrivingCar/pause 8000/playSound owl/globalFade/viewport 999 999/changeLocation Custom_R5_CliffSide/viewport 999 999/warp farmer 36 16/warp {{ModId}}_Louis 35 16/pause 1000/pause 1000/globalFadeToClear 0.002 true/viewport 12 10/viewport move 4 1 9000/pause 10000/speak {{ModId}}_Louis \"{{i18n:Events.8Heart.1}}\"/pause 1000/speak {{ModId}}_Louis \"{{i18n:Events.8Heart.2}}\"/pause 1000/speed {{ModId}}_Louis 1/move {{ModId}}_Louis -1 0 3/pause 500/speak {{ModId}}_Louis \"{{i18n:Events.8Heart.3}}\"/emote {{ModId}}_Louis 28/pause 1000/speak {{ModId}}_Louis \"{{i18n:Events.8Heart.4}}\"/pause 500/emote {{ModId}}_Louis 36/speak {{ModId}}_Louis \"{{i18n:Events.8Heart.5}}\"/pause 1000/faceDirection farmer 3/pause 1000/quickQuestion {{i18n:Events.8Heart.6}}(break)fork {{ModId}}_Seen2Heart 90007_Kiss(break)speak {{ModId}}_Louis \"{{i18n:Events.8Heart.7}}\"\\globalFade\\viewport 999 999\\message \"{{i18n:Events.8Heart.8}}\"\\end newDay", // 8 heart
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Custom_R5_CliffSide",
+			"Entries": {
+				"90007_Kiss": "pause 1000/stopMusic/pause 500/speed farmer 1/move farmer -1 0 3/pause 500/faceDirection {{ModId}}_Louis 1/pause 500/faceDirection farmer 3/pause 500/showFrame {{ModId}}_Louis 20/showFrame farmer 101 true/pause 500/globalFade/viewport 999 999/message \"{{i18n:Events.8Heart_Kiss.0}}\"/end newDay" // fork if kissed in 8 heart
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Town",
+			"Entries": {
+				"90003/f {{ModId}}_Louis 1000/t 1000 1600/d Sat Sun": "jaunty/68 83/{{ModId}}_Louis 69 84 3 Lewis 66 86 0 farmer 63 79 1/addMailReceived {{ModId}}_Seen4Heart/skippable/pause 1000/speak {{ModId}}_Louis \"{{i18n:Events.4Heart.0}}\"/speak Lewis \"{{i18n:Events.4Heart.1}}\"/move farmer 6 0 2/move farmer 0 1 2/faceDirection {{ModId}}_Louis 0/speak {{ModId}}_Louis \"{{i18n:Events.4Heart.2}}\"/emote farmer 32/faceDirection {{ModId}}_Louis 3/move farmer 0 -1 3/move farmer -2 0 2/pause 500/playSound boop/pause 500/emote farmer 40/pause 500/beginSimultaneousCommand/screenFlash 1/playSound explosion/jump farmer/jump {{ModId}}_Louis/jump Lewis/endSimultaneousCommand/pause 500/speak Lewis \"{{i18n:Events.4Heart.3}}\"/speak {{ModId}}_Louis \"{{i18n:Events.4Heart.4}}\"/speed {{ModId}}_Louis 5/move {{ModId}}_Louis 0 -5 0/speed {{ModId}}_Louis 5/move {{ModId}}_Louis -1 0 2/speak {{ModId}}_Louis \"{{i18n:Events.4Heart.5}}\"/faceDirection farmer 1/jump {{ModId}}_Louis/speed Lewis 4/move Lewis 3 0 0/speed Lewis 4/move Lewis 0 -7 3/textAboveHead Lewis \"{{i18n:Events.4Heart.6}}\"/pause 1000/speak {{ModId}}_Louis \"{{i18n:Events.4Heart.7}}\"/speak Lewis \"{{i18n:Events.4Heart.8}}\"/emote Lewis 12/speak Lewis \"{{i18n:Events.4Heart.9}}\"/faceDirection {{ModId}}_Louis 1/speak {{ModId}}_Louis \"{{i18n:Events.4Heart.10}}\"/faceDirection {{ModId}}_Louis 3/speak {{ModId}}_Louis \"{{i18n:Events.4Heart.11}}\"/emote farmer 40/pause 500/speak Lewis \"{{i18n:Events.4Heart.12}}\"/pause 1000/textAboveHead Lewis \"{{i18n:Events.4Heart.13}}\"/speed Lewis 3/speed {{ModId}}_Louis 3/move farmer -4 0 3 {{ModId}}_Louis -4 0 3 Lewis -4 0 3 true/pause 1000/globalFade/viewport 999 999/message \"{{i18n:Events.4Heart.14}}\"/end dialogue \"{{i18n:Events.4Heart.15}}\"" // 4 hearts
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Forest",
+			"Entries": {
+				"90005/f {{ModId}}_Louis 1500/t 1400 1800/w sunny/d Mon Tue Thu Fri": "breezy/26 64/{{ModId}}_Louis 32 64 1 farmer 9 64 1/showFrame {{ModId}}_Louis 21/addMailReceived {{ModId}}_Seen6Heart/skippable/speed farmer 4/move farmer 21 0 1/pause 1000/emote farmer 32/pause 500/emote {{ModId}}_Louis 8/pause 1000/showFrame {{ModId}}_Louis 12/faceDirection {{ModId}}_Louis 3/pause 250/emote {{ModId}}_Louis 16/speak {{ModId}}_Louis \"{{i18n:Events.6Heart.0}}\"/emote {{ModId}}_Louis 60/speak {{ModId}}_Louis \"{{i18n:Events.6Heart.1}}\"/emote farmer 32/quickQuestion {{i18n:Events.6Heart.2}}(break)speak {{ModId}}_Louis \"Hah! Thanks. I take it you like reading these kinds of books too, then?$l\"\\friendship {{ModId}}_Louis 50(break)speak {{ModId}}_Louis \"{{i18n:Events.6Heart.3}}\"\\friendship {{ModId}}_Louis -50\\globalFade\\viewport 999 999\\message \"{{i18n:Events.6Heart.4}}\"\\end(break)speak {{ModId}}_Louis \"{{i18n:Events.6Heart.5}}\"/emote farmer 20/pause 1000/speak {{ModId}}_Louis \"{{i18n:Events.6Heart.6}}\"/emote farmer 40/speak {{ModId}}_Louis \"{{i18n:Events.6Heart.7}}\"/pause 2000/speak {{ModId}}_Louis \"{{i18n:Events.6Heart.8}}\"/emote farmer 20/speak {{ModId}}_Louis \"{{i18n:Events.6Heart.9}}\"/move farmer 0 -7 0 true/globalFade/viewport 999 999/message \"{{i18n:Events.6Heart.10}}\"/message \"{{i18n:Events.6Heart.11}}\"/end" // 6 hearts
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Data/Events/Custom_LouisInterior",
+			"FromFile": "assets/Louis/blank.json"
+		},
+		{
+			"Action": "Load",
+			"Target": "Data/Events/Custom_R5_CliffSide",
+			"FromFile": "assets/Louis/blank.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+				"{{ModId}}_EVChargers": {
+					"Location": "Town",
+					"ShopPosition": "103, 101",
+					"ShopEvent": "None",
+					"ShopType": "Dialogue",
+					"ShopTexture": "LooseSprites/{{ModId}}_Crate",
+					"DrawQuestionMark": true,
+					"BundleDescription": "{{i18n: Quests.EVChargers.Dialogue}}",
+					"Price": {
+						"Money": 3000, // 3k
+						"(O)335": 3, // 3 iron bars
+						"(O)336": 1, // 1 gold bar
+						"(O)338": 2 // 2 refined quartz
+					},
+					"BundleCompletedMail": "{{i18n: Mail.EVChargersBuilt}}",
+					"BundleName": "{{i18n: Quests.EVChargers.OrderName}}",
+					"OverviewDescription": "{{i18n: Quests.EVChargers.Description}}",
+					"InstantShopRemoval": false,
+					"QuestionMarkOffset": "32, -32",
+					"AlternativeShopPositions": [
+						"104, 101",
+						"105, 101",
+						"103, 100"
+					]
+				}
+			},
+			"When": {
+				"HasActiveQuest": 990002
+			},
+			"Update": "OnDayStart"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_PromptLostTools": {
+					"Id": "{{ModId}}_PromptLostTools",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_MET Current {{ModId}}_Louis",
+					"Actions": [
+						"R5.CP_Action_SpawnTools",
+						"AddMail Current {{ModId}}_LostToolsQuest tomorrow"
+					]
+				},
+				"{{ModId}}_Prompt8Heart": {
+					"Id": "{{ModId}}_Prompt8Heart",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_FRIENDSHIP_POINTS Current {{ModId}}_Louis 2000, PLAYER_HAS_MAIL Current {{ModId}}_Seen2Heart Any, PLAYER_HAS_MAIL Current {{ModId}}_Seen4Heart Any, PLAYER_HAS_MAIL Current {{ModId}}_Seen6Heart Any",
+					"Actions": [
+						"AddMail Current {{ModId}}_MeetFor8Heart tomorrow"
+					]
+				},
+				"{{ModId}}_PromptFurniture": {
+					"Id": "{{ModId}}_PromptFurniture",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_FRIENDSHIP_POINTS Current {{ModId}}_Louis 1750",
+					"Actions": [
+						"AddMail Current {{ModId}}_FurniturePrompt tomorrow"
+					]
+				},
+				"{{ModId}}_PromptEVChargers": {
+					"Id": "{{ModId}}_PromptEVChargers",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_FRIENDSHIP_POINTS Current {{ModId}}_Louis 750, PLAYER_HAS_MAIL Current {{ModId}}_Seen2Heart Any",
+					"Actions": [
+						"AddMail Current {{ModId}}_EVChargersEvent tomorrow"
+					]
+				},
+				"{{ModId}}_PromptCarUnlock": {
+					"Id": "{{ModId}}_PromptCarUnlock",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_FRIENDSHIP_POINTS Current {{ModId}}_Louis 1250, PLAYER_HAS_MAIL Current {{ModId}}_EVChargersBuilt Any",
+					"Actions": [
+						"AddMail Current {{ModId}}_EnableCarGarage tomorrow"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_EVChargersBuilt": {
+					"Id": "{{ModId}}_EVChargersBuilt",
+					"Trigger": "DayEnding",
+					"Condition": "TRUE",
+					"Actions": [
+						"RemoveQuest 990002",
+						"AddFriendshipPoints {{ModId}}_Louis 400",
+						"AddMail Current {{ModId}}_EVChargersBuilt received"
+					]
+				}
+			},
+			"When": {
+				"DLX.Bundles/Purchased": "{{ModId}}_EVChargers"
+			},
+			"Update": "OnTimeChange, OnLocationChange"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"Entries": {
+				"{{ModId}}_Furniture": {
+					"Items": [
+						{
+							"ID": "0",
+							"RandomItemId": [
+								"{{ModId}}_RetroDresserA",
+								"{{ModId}}_RetroDresserB",
+								"{{ModId}}_RetroDresserC",
+								"{{ModId}}_RetroDresserD",
+								"{{ModId}}_RetroDresserE",
+								"{{ModId}}_RetroDresserF",
+								"{{ModId}}_RetroDresserG",
+								"{{ModId}}_RetroDresserH",
+								"{{ModId}}_RetroBSTA",
+								"{{ModId}}_RetroBSTB",
+								"{{ModId}}_RetroBSTC",
+								"{{ModId}}_RetroBSTD",
+								"{{ModId}}_RetroBSTE",
+								"{{ModId}}_RetroBSTF",
+								"{{ModId}}_RetroBSTG",
+								"{{ModId}}_RetroBSTH",
+								"{{ModId}}_RetroCouchA",
+								"{{ModId}}_RetroCouchB",
+								"{{ModId}}_RetroCouchC",
+								"{{ModId}}_RetroFireplaceA",
+								"{{ModId}}_RetroFireplaceB",
+								"{{ModId}}_RetroFireplaceC",
+								"{{ModId}}_RetroFireplaceD",
+								"{{ModId}}_RetroFireplaceE",
+								"{{ModId}}_RetroFireplaceF",
+								"{{ModId}}_RetroFireplaceG",
+								"{{ModId}}_RetroFireplaceH",
+								"{{ModId}}_RetroBookcaseA",
+								"{{ModId}}_RetroBookcaseB",
+								"{{ModId}}_RetroBookcaseC",
+								"{{ModId}}_RetroBookcaseD",
+								"{{ModId}}_RetroArmchairA",
+								"{{ModId}}_RetroArmchairD",
+								"{{ModId}}_RetroChairA",
+								"{{ModId}}_RetroStoolA",
+								"{{ModId}}_RetroStoolD",
+								"{{ModId}}_RetroMediumTable",
+								"{{ModId}}_RetroChildBedA"
+							],
+							"Price": 1000,
+							"AvoidRepeat": true
+						},
+						{
+							"ID": "1",
+							"RandomItemId": [
+								"{{ModId}}_RetroBookcaseE",
+								"{{ModId}}_RetroBookcaseF",
+								"{{ModId}}_RetroBookcaseG",
+								"{{ModId}}_RetroBedASingle",
+								"{{ModId}}_RetroBedADouble",
+								"{{ModId}}_RetroBedBSingle",
+								"{{ModId}}_RetroBedBDouble",
+								"{{ModId}}_RetroBedCSingle",
+								"{{ModId}}_RetroBedCDouble",
+								"{{ModId}}_RetroCouchTableA",
+								"{{ModId}}_RetroCouchTableB",
+								"{{ModId}}_RetroCouchTableGlass",
+								"{{ModId}}_RetroCouchTableSquare",
+								"{{ModId}}_RetroCouchTableSmall",
+								"{{ModId}}_RetroCouchTableColor",
+								"{{ModId}}_RetroLampA",
+								"{{ModId}}_RetroLampB",
+								"{{ModId}}_RetroLampC",
+								"{{ModId}}_RetroLampD",
+								"{{ModId}}_RetroLampE",
+								"{{ModId}}_RetroPlasmaTV",
+								"{{ModId}}_RetroFakeTV",
+								"{{ModId}}_RetroBudgetTV",
+								"{{ModId}}_RetroRugBig",
+								"{{ModId}}_RetroRugSquare",
+								"{{ModId}}_RetroRugLong",
+								"{{ModId}}_RetroCustomBookCaseA",
+								"{{ModId}}_RetroCustomBookCaseB",
+								"{{ModId}}_RetroCustomDresserA",
+								"{{ModId}}_RetroCustomDresserB",
+								"{{ModId}}_RetroCustomDresserC",
+								"{{ModId}}_RetroArmchairB",
+								"{{ModId}}_RetroArmchairE",
+								"{{ModId}}_RetroChairB",
+								"{{ModId}}_RetroStoolB",
+								"{{ModId}}_RetroStoolE",
+								"{{ModId}}_YellowCushion",
+								"{{ModId}}_RetroChildBedB"
+							],
+							"Price": 1000,
+							"AvoidRepeat": true
+						},
+						{
+							"ID": "2",
+							"RandomItemId": [
+								"{{ModId}}_RetroCustomDresserD",
+								"{{ModId}}_RetroCustomDresserE",
+								"{{ModId}}_RetroCustomDresserF",
+								"{{ModId}}_RetroCustomDresserG",
+								"{{ModId}}_RetroCustomDresserH",
+								"{{ModId}}_RetroCustomPlasmaTVLeft",
+								"{{ModId}}_RetroCustomPlasmaTVRight",
+								"{{ModId}}_RetroPicturesA",
+								"{{ModId}}_RetroPicturesB",
+								"{{ModId}}_RetroPicturesC",
+								"{{ModId}}_RetroPicturesD",
+								"{{ModId}}_RetroPicturesE",
+								"{{ModId}}_RetroPicturesF",
+								"{{ModId}}_RetroPicturesG",
+								"{{ModId}}_RetroPicturesH",
+								"{{ModId}}_RetroPicturesI",
+								"{{ModId}}_RetroPicturesJ",
+								"{{ModId}}_RetroPicturesK",
+								"{{ModId}}_RetroPicturesL",
+								"{{ModId}}_RetroPicturesM",
+								"{{ModId}}_RetroPicturesN",
+								"{{ModId}}_RetroHangingShelveA",
+								"{{ModId}}_RetroHangingShelveB",
+								"{{ModId}}_RetroHangingShelveC",
+								"{{ModId}}_RetroHangingShelveD",
+								"{{ModId}}_RetroWallLamp",
+								"{{ModId}}_RetroBearA",
+								"{{ModId}}_RetroBearB",
+								"{{ModId}}_RetroCarA",
+								"{{ModId}}_RetroCarB",
+								"{{ModId}}_RetroCarC",
+								"{{ModId}}_RetroPlant",
+								"{{ModId}}_RetroArmchairC",
+								"{{ModId}}_RetroArmchairF",
+								"{{ModId}}_RetroArmchairG",
+								"{{ModId}}_RetroChairC",
+								"{{ModId}}_RetroStoolC",
+								"{{ModId}}_WhiteCushion",
+								"{{ModId}}_RetroDiningTable",
+								"{{ModId}}_RetroChildBedC"
+							],
+							"Price": 1000,
+							"AvoidRepeat": true
+						},
+					]
+				}
+			},
+		},
+		{
+			// Mail
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			"Entries": {
+				"{{ModId}}_LostToolsQuest": "{{i18n: Mail.LostToolsQuest}}",
+				"{{ModId}}_EVChargersEvent": "{{i18n: Mail.EVChargersEvent}}",
+				"{{ModId}}_MeetFor8Heart": "{{i18n: Mail.MeetFor8Heart}}",
+				"{{ModId}}_EnableCarGarage": "{{i18n: Mail.EnableCarGarage}}",
+				"{{ModId}}_FurniturePrompt": "{{i18n: Mail.FurniturePrompt}}"
+			}
+		},
+		{
+			// Movie Snacks
+			"Action": "EditData",
+			"Target": "Data/ConcessionTastes",
+			"Entries": {
+				"{{ModId}}_Louis": {
+					"Name": "{{ModId}}_Louis",
+					"LovedTags": [
+						"Salty",
+						"Hot"
+					],
+					"LikedTags": [
+						"Sweet"
+					],
+					"DislikedTags": [
+						"Sour",
+						"Cold"
+					]
+				}
+			},
+			"MoveEntries": [
+				{
+					"ID": "{{ModId}}_Louis",
+					"ToPosition": "Top"
+				}, // move entry so it's top
+			]
+		},
+		{
+			// Movie Tastes
+			"Action": "EditData",
+			"Target": "Data/MoviesReactions",
+			"Entries": {
+				"{{ModId}}_Louis": {
+					"NPCName": "{{ModId}}_Louis",
+					"Reactions": [
+						{
+							"Tag": "*",
+							"Response": "love",
+							"Whitelist": [
+								"Clint"
+							],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n: Cinema.Before.WithClint}}"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/message \"{{i18n: Cinema.During.WithClint}}\"",
+									"Text": ""
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n: Cinema.After.WithClint}}"
+								}
+							},
+							"ID": "reaction_0"
+						},
+						{
+							"Tag": "comedy",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n: Cinema.Before.Comedy}}"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n: Cinema.During.Comedy}}"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n: Cinema.After.Comedy}}"
+								}
+							},
+							"ID": "reaction_1"
+						},
+						{
+							"Tag": "horror",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n: Cinema.Before.Horror}}"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/shake {{ModId}}_Louis 3000",
+									"Text": "{{i18n: Cinema.During.Horror}}"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n: Cinema.After.Horror}}"
+								}
+							},
+							"ID": "reaction_2"
+						},
+						{
+							"Tag": "*",
+							"Response": "like",
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n: Cinema.Before.Generic}}"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/message \"{{i18n: Cinema.During.Generic}}\"",
+									"Text": ""
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n: Cinema.After.Generic}}"
+								}
+							},
+							"ID": "reaction_3"
+						},
+					]
+				}
+			}
+		},
+		{ // Quests
+			"Action": "EditData",
+			"Target": "Data/Quests",
+			"Entries": {
+				"990002": "Basic/{{i18n: Quests.EVChargers.OrderName}}/{{i18n: Quests.EVChargers.QuestDescription}}/{{i18n: Quests.EVChargers.QuestTask}}/null/-1/0/null" // ev chargers
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/LouisSpouseRoom",
+			"FromFile": "assets/GeorgesSpouseRoom.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/LouisSpousePatio",
+			"FromFile": "assets/GeorgesSpousePatio.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_R5_Drive",
+			"FromFile": "assets/Heart-8-a.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_R5_CliffSide",
+			"FromFile": "assets/Heart-8-b.tmx"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"MechanicShop.1": "{{i18n: MechanicShop.1}}",
+				"MechanicShop.2": "{{i18n: MechanicShop.2}}",
+				"MechanicShop.3": "{{i18n: MechanicShop.3}}",
+				"MechanicShop.4": "{{i18n: MechanicShop.4}}",
+				"MechanicShop.5": "{{i18n: MechanicShop.5}}",
+				"MechanicShop.6": "{{i18n: MechanicShop.6}}",
+				"MechanicShop.7": "{{i18n: MechanicShop.7}}",
+				"MechanicShop.8": "{{i18n: MechanicShop.8}}",
+				"MechanicShop.9": "{{i18n: MechanicShop.9}}",
+				"MechanicShop.10": "{{i18n: MechanicShop.10}}",
+				"MechanicShop.11": "{{i18n: MechanicShop.11}}",
+				"MechanicShop.12": "{{i18n: MechanicShop.12}}",
+				"MechanicShop.13": "{{i18n: MechanicShop.13}}",
+				"MechanicShop.14": "{{i18n: MechanicShop.14}}",
+				"MechanicShop.15": "{{i18n: MechanicShop.15}}",
+				"MechanicShop.16": "{{i18n: MechanicShop.16}}",
+				"MechanicShop.17": "{{i18n: MechanicShop.17}}",
+				"MechanicShop.18": "{{i18n: MechanicShop.18}}",
+				"MechanicShop.19": "{{i18n: MechanicShop.19}}",
+				"MechanicShop.20": "{{i18n: MechanicShop.20}}",
+				"MechanicShop.21": "{{i18n: MechanicShop.21}}",
+				"MechanicShop.22": "{{i18n: MechanicShop.22}}",
+				"MechanicShop.23": "{{i18n: MechanicShop.23}}",
+				"MechanicShop.24": "{{i18n: MechanicShop.24}}",
+				"MechanicShop.25": "{{i18n: MechanicShop.25}}"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_LouisInterior",
+			"FromFile": "assets/GarageInterior.tmx",
+			"Priority": "Medium"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_LouisInterior",
+			"FromFile": "assets/GarageInteriorFixed.tmx",
+			"When": {
+				"DLX.Bundles/Purchased": "{{ModId}}_EVChargers"
+			},
+			"Update": "OnDayStart",
+			"Priority": "Exclusive"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_LouisSpouseRoom",
+			"FromFile": "assets/GeorgesSpouseRoom.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_LouisSpousePatio",
+			"FromFile": "assets/GeorgesSpousePatio.tmx"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Custom_LouisInterior": {
+					"DisplayName": "{{i18n: MechanicShop.DisplayName}}",
+					"CreateOnLoad": {
+						"MapPath": "Maps/Custom_LouisInterior"
+					},
+					"DefaultArrivalTile": {
+						"X": 27,
+						"Y": 35
+					}
+				},
+				"Custom_R5_Drive": {
+					"DisplayName": "...",
+					"CreateOnLoad": {
+						"MapPath": "Maps/Custom_R5_Drive"
+					},
+					"DefaultArrivalTile": {
+						"X": 0,
+						"Y": 0
+					}
+				},
+				"Custom_R5_CliffSide": {
+					"DisplayName": "...",
+					"CreateOnLoad": {
+						"MapPath": "Maps/Custom_R5_CliffSide"
+					},
+					"DefaultArrivalTile": {
+						"X": 0,
+						"Y": 0
+					}
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/SpecialOrderStrings",
+			"Entries": {
+				"R5.LostTools": "{{i18n: Quests.LostTools.QuestTitle}}",
+				"R5.LostToolsDesc": "{{i18n: Quests.LostTools.QuestDescription}}",
+				"R5.LostHammerText": "{{i18n: Quests.LostTools.HammerText}}",
+				"R5.LostWrenchText": "{{i18n: Quests.LostTools.WrenchText}}",
+				"R5.LostScrewdriverText": "{{i18n: Quests.LostTools.ScrewdriverText}}",
+				"R5.LostHammerReturn": "{{i18n: Quests.LostTools.HammerReturn}}",
+				"R5.LostWrenchReturn": "{{i18n: Quests.LostTools.WrenchReturn}}",
+				"R5.LostScrewdriverReturn": "{{i18n: Quests.LostTools.ScrewdriverReturn}}"
+			}
+		},
+		// RETURN TOOLS QUEST (SPECIAL ORDER)
+		{
+			"Action": "EditData",
+			"Target": "Data/SpecialOrders",
+			"Entries": {
+				"{{ModId}}_LostTools": {
+					"Name": "[R5.LostTools]",
+					"Requester": "{{ModId}}_Louis",
+					"Duration": "Month",
+					"Repeatable": false,
+					"RequiredTags": "NOT_IMPLEMENTED",
+					"SpecialRule": "",
+					"Text": "[R5.LostToolsDesc]",
+					"RandomizedElements": null,
+					"Objectives": [
+						{ // HAMMER
+							"Type": "Deliver",
+							"Text": "[R5.LostHammerText]",
+							"RequiredCount": "1",
+							"Data": {
+								"AcceptedContextTags": "R5_LostHammer",
+								"TargetName": "{{ModId}}_Louis",
+								"Message": "[R5.LostHammerReturn]"
+							}
+						},
+						{ // WRENCH
+							"Type": "Deliver",
+							"Text": "[R5.LostWrenchText]",
+							"RequiredCount": "1",
+							"Data": {
+								"AcceptedContextTags": "R5_LostWrench",
+								"TargetName": "{{ModId}}_Louis",
+								"Message": "[R5.LostWrenchReturn]"
+							}
+						},
+						{ // SCREWDRIVER
+							"Type": "Deliver",
+							"Text": "[R5.LostScrewdriverText]",
+							"RequiredCount": "1",
+							"Data": {
+								"AcceptedContextTags": "R5_LostScrewdriver",
+								"TargetName": "{{ModId}}_Louis",
+								"Message": "[R5.LostScrewdriverReturn]"
+							}
+						}
+					],
+					"Rewards": [
+						{
+							"Type": "Money",
+							"Data": {
+								"Amount": "1000"
+							}
+						},
+						{
+							"Type": "Friendship",
+							"Data": {
+								"Amount": "200",
+								"TargetName": "{{ModId}}_Louis"
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_EnergizerBar": {
+					"Name": "{{ModId}}_EnergizerBar",
+					"DisplayName": "{{i18n: Items.EnergizerBar.Name}}",
+					"Description": "{{i18n: Items.EnergizerBar.Description}}",
+					"Price": 0,
+					"Type": "Basic",
+					"Category": 0,
+					"Texture": "Mods/{{ModId}}/EnergizerBar",
+					"SpriteIndex": 0,
+					"Edibility": 50,
+					"IsDrink": false,
+					"ExcludeFromRandomSale": true,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"R5_EnergizerBar"
+					]
+				},
+				"{{ModId}}_ElectricalHammer": {
+					"Name": "{{ModId}}_ElectricalHammer",
+					"DisplayName": "{{i18n: Items.ElectricalHammer.Name}}",
+					"Description": "{{i18n: Items.ElectricalHammer.Description}}",
+					"Type": "Quest",
+					"Category": 0,
+					"Texture": "Mods/{{ModId}}/ElectricalHammer",
+					"SpriteIndex": 0,
+					"Edibility": -300,
+					"IsDrink": false,
+					"ExcludeFromRandomSale": true,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"R5_LostHammer"
+					]
+				},
+				"{{ModId}}_ElectricalWrench": {
+					"Name": "{{ModId}}_ElectricalWrench",
+					"DisplayName": "{{i18n: Items.ElectricalWrench.Name}}",
+					"Description": "{{i18n: Items.ElectricalWrench.Description}}",
+					"Type": "Quest",
+					"Category": 0,
+					"Texture": "Mods/{{ModId}}/ElectricalWrench",
+					"SpriteIndex": 0,
+					"Edibility": -300,
+					"IsDrink": false,
+					"ExcludeFromRandomSale": true,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"R5_LostWrench"
+					]
+				},
+				"{{ModId}}_ElectricalScrewdriver": {
+					"Name": "{{ModId}}_ElectricalScrewdriver",
+					"DisplayName": "{{i18n: Items.ElectricalScrewdriver.Name}}",
+					"Description": "{{i18n: Items.ElectricalScrewdriver.Description}}",
+					"Type": "Quest",
+					"Category": 0,
+					"Texture": "Mods/{{ModId}}/ElectricalScrewdriver",
+					"SpriteIndex": 0,
+					"Edibility": -300,
+					"IsDrink": false,
+					"ExcludeFromRandomSale": true,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"R5_LostScrewdriver"
+					]
+				}
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/ElectricalHammer, Mods/{{ModId}}/ElectricalWrench, Mods/{{ModId}}/ElectricalScrewdriver, Mods/{{ModId}}/EnergizerBar",
+			"FromFile": "assets/{{TargetWithoutPath}}.png" // loads all images for the objects
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/{{ModId}}_Louis_Winter",
+			"FromFile": "assets/Louis/Portraits_winter.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/{{ModId}}_Louis_Island",
+			"FromFile": "assets/Louis/Portraits_beach.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/{{ModId}}_Louis_Island",
+			"FromFile": "assets/Louis/OverworldSprites_beach.png"
+		},
+		// Louis (formerly Georges (formerly Wren))
+		{
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"Entries": {
+				"{{ModId}}_Louis": {
+					"DisplayName": "Louis",
+					"Language": "Default",
+					"Gender": "Male",
+					"Age": "Adult",
+					"Manner": "Polite",
+					"SocialAnxiety": "Outgoing",
+					"Optimism": "Positive",
+					"BirthSeason": "winter",
+					"BirthDay": 23,
+					"HomeRegion": "Town",
+					"IsDarkSkinned": false,
+					"CanSocialize": "TRUE",
+					"CanBeRomanced": true,
+					"CanReceiveGifts": true,
+					"CanCommentOnPurchaseShopItems": true,
+					"CanGreetNearbyCharacters": true,
+					"CanVisitIsland": true,
+					"SpouseGiftJealousy": "FALSE",
+					"SpouseRoom": {
+						"MapAsset": "Custom_LouisSpouseRoom"
+					},
+					"SpousePatio": {
+						"MapAsset": "Custom_LouisSpousePatio"
+					},
+					"EndSlideShow": "MainGroup",
+					"FriendsAndFamily": {
+						"Pierre": "{{i18n: Louis.friend}}",
+						"Clint": "{{i18n: Louis.friend}}",
+						"Lewis": "{{i18n: Louis.friend}}",
+						"Robin": "{{i18n: Louis.friend}}",
+						"Willy": "{{i18n: Louis.friend}}",
+						"Morris": "{{i18n: Louis.acquaintance}}",
+					},
+					"HiddenProfileEmoteSound": "powerup",
+					"HiddenProfileEmoteStartFrame": 16,
+					"HiddenProfileEmoteFrameCount": 4,
+					"HiddenProfileEmoteFrameDuration": 250,
+					"DumpsterDiveEmote": 12,
+					"KissSpriteIndex": 20,
+					"Home": [
+						{
+							"ID": "{{ModId}}_LouisSpawn",
+							"Location": "Custom_LouisInterior",
+							"Tile": {
+								"X": 23,
+								"Y": 18
+							},
+							"Direction": "left"
+						}
+					],
+					"FlowerDanceCanDance": false,
+					"TextureName": "{{ModId}}_Louis",
+					"Appearance": [
+						{
+							"Id": "beach",
+							"Portrait": "Portraits/{{ModId}}_Louis_Island",
+							"Sprite": "Characters/{{ModId}}_Louis_Island",
+							"IsIslandAttire": true,
+							"Precedence": 0
+						},
+						{
+							"Id": "winter",
+							"Season": "winter",
+							"Portrait": "Portraits/{{ModId}}_Louis_Winter",
+							"Sprite": "Characters/{{ModId}}_Louis",
+							"Precedence": 1
+						},
+						{
+							"Id": "default",
+							"Portrait": "Portraits/{{ModId}}_Louis",
+							"Sprite": "Characters/{{ModId}}_Louis",
+							"Precedence": 2
+						}
+					]
+				}
+			}
+		},
+		{ // GEORGES ANIMATIONS
+			"Action": "EditData",
+			"Target": "Data/animationdescriptions",
+			"Entries": {
+				"Louis_hammerFaceLeft": "16/16 16 17 17 17 18 18 18 19 19 19 19/19",
+				"Louis_hammerFaceRight": "28/28 28 29 29 29 30 30 30 31 31 31 31/31",
+				"Louis_leanRight": "22/22 22 22 22 22 22 22 22 22 22 23 23 23 23 23 23 23 23 23 23/23"
+			}
+		},
+		{
+			// Gift Tastes
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"{{ModId}}_Louis": "{{i18n: Louis.LoveMessage}}/122 112 201 253 556 595/{{i18n: Louis.LikeMessage}}/108 244 787 233 395 -15 597 636/{{i18n: Louis.DislikeMessage}}/-2 -16 609 613 635/{{i18n: Louis.HateMessage}}/18 402 418 -28/{{i18n: Louis.NeutralMessage}}//"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/{{ModId}}_Louis",
+			"FromFile": "assets/Louis/Portraits.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/{{ModId}}_Louis",
+			"FromFile": "assets/Louis/OverworldSprites.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/{{ModId}}_Louis",
+			"FromFile": "assets/Louis/blank.json"
+		},
+		{
+			// Dialogue
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{ModId}}_Louis",
+			"Entries": {
+				"Introduction": "{{i18n: LouisDialogue.Introduction}}",
+				"danceRejection": "{{i18n: LouisDialogue.danceRejection}}",
+				"divorced": "{{i18n: LouisDialogue.divorced}}",
+				"breakUp": "{{i18n: LouisDialogue.breakUp}}",
+				"dumped_Guys": "{{i18n: LouisDialogue.dumped_Guys}}",
+				"secondChance_Guys": "{{i18n: LouisDialogue.secondChance_Guys}}",
+				"reject_two_heartA": "{{i18n: LouisDialogue.reject_two_heartA}}",
+				"reject_two_heartB": "{{i18n: LouisDialogue.reject_two_heartB}}",
+				"reject_four_heartA": "{{i18n: LouisDialogue.reject_four_heartA}}",
+				"reject_four_heartB": "{{i18n: LouisDialogue.reject_four_heartB}}",
+				"engageA": "{{i18n: LouisDialogue.engageA}}",
+				"engageB": "{{i18n: LouisDialogue.engageB}}",
+				"marriedA": "{{i18n: LouisDialogue.marriedA}}",
+				"marriedB": "{{i18n: LouisDialogue.marriedB}}",
+				"refusal_no_heartsA": "{{i18n: LouisDialogue.refusal_no_heartsA}}",
+				"refusal_no_heartsB": "{{i18n: LouisDialogue.refusal_no_heartsB}}",
+				"refusal_knownA": "{{i18n: LouisDialogue.refusal_knownA}}",
+				"refusal_knownB": "{{i18n: LouisDialogue.refusal_knownB}}",
+				"refusal_botherA": "{{i18n: LouisDialogue.refusal_botherA}}",
+				"refusal_botherB": "{{i18n: LouisDialogue.refusal_botherB}}",
+				"Resort_Entering": "{{i18n: LouisDialogue.Resort_Entering}}",
+				"Resort_Leaving": "{{i18n: LouisDialogue.Resort_Leaving}}",
+				"Resort_Shore": "{{i18n: LouisDialogue.Resort_Shore}}",
+				"Resort_Umbrella": "{{i18n: LouisDialogue.Resort_Umbrella}}",
+				"Resort_Wander": "{{i18n: LouisDialogue.Resort_Wander}}",
+				"Resort_Wander_2": "{{i18n: LouisDialogue.Resort_Wander_2}}",
+				"Resort_Chair": "{{i18n: LouisDialogue.Resort_Chair}}",
+				"Resort_Bar": "{{i18n: LouisDialogue.Resort_Bar}}",
+				"Resort_Towel": "{{i18n: LouisDialogue.Resort_Towel}}",
+				"Resort_Towel_2": "{{i18n: LouisDialogue.Resort_Towel_2}}",
+				"Resort_Towel_3": "{{i18n: LouisDialogue.Resort_Towel_3}}",
+				"Resort": "{{i18n: LouisDialogue.Resort}}",
+				"give_flowersA": "{{i18n: LouisDialogue.give_flowersA}}",
+				"give_flowersB": "{{i18n: LouisDialogue.give_flowersB}}",
+				"give_pendant": "{{i18n: LouisDialogue.give_pendant}}",
+				"stardrop_gift": "{{i18n: LouisDialogue.stardrop_gift}}",
+				"Mon": "{{i18n: LouisDialogue.Mon}}",
+				"Tue": "{{i18n: LouisDialogue.Tue}}",
+				"Wed": "{{i18n: LouisDialogue.Wed}}",
+				"Thu": "{{i18n: LouisDialogue.Thu}}",
+				"Fri": "{{i18n: LouisDialogue.Fri}}",
+				"Sat": "{{i18n: LouisDialogue.Sat}}",
+				"Sun": "{{i18n: LouisDialogue.Sun}}",
+				"R5_CarJackQ_Why": "{{i18n: LouisDialogue.R5_CarJackQ_Why}}",
+				"R5_CarJackQ_No": "{{i18n: LouisDialogue.R5_CarJackQ_No}}",
+				"Mon2": "{{i18n: LouisDialogue.Mon2}}",
+				"Tue2": "{{i18n: LouisDialogue.Tue2}}",
+				"Wed2": "{{i18n: LouisDialogue.Wed2}}",
+				"Thu2": "{{i18n: LouisDialogue.Thu2}}",
+				"Fri2": "{{i18n: LouisDialogue.Fri2}}",
+				"R5_WhatIsShop_Why": "{{i18n: LouisDialogue.R5_WhatIsShop_Why}}",
+				"R5_WhatIsShop_No": "{{i18n: LouisDialogue.R5_WhatIsShop_No}}",
+				"Sat2": "{{i18n: LouisDialogue.Sat2}}",
+				"Sun2": "{{i18n: LouisDialogue.Sun2}}",
+				"Mon4": "{{i18n: LouisDialogue.Mon4}}",
+				"R5_JojaQ_Answer": "{{i18n: LouisDialogue.R5_JojaQ_Answer}}",
+				"R5_JojaQ_No": "{{i18n: LouisDialogue.R5_JojaQ_No}}",
+				"Tue4": "{{i18n: LouisDialogue.Tue4}}",
+				"Wed4": "{{i18n: LouisDialogue.Wed4}}",
+				"Thu4": "{{i18n: LouisDialogue.Thu4}}",
+				"Fri4": "{{i18n: LouisDialogue.Fri4}}",
+				"Sat4": "{{i18n: LouisDialogue.Sat4}}",
+				"Sun4": "{{i18n: LouisDialogue.Sun4}}",
+				"Mon6": "{{i18n: LouisDialogue.Mon6}}",
+				"Tue6": "{{i18n: LouisDialogue.Tue6}}",
+				"Wed6": "{{i18n: LouisDialogue.Wed6}}",
+				"Thu6": "{{i18n: LouisDialogue.Thu6}}",
+				"Fri6": "{{i18n: LouisDialogue.Fri6}}",
+				"Sat6": "{{i18n: LouisDialogue.Sat6}}",
+				"Sun6": "{{i18n: LouisDialogue.Sun6}}",
+				"Mon8": "{{i18n: LouisDialogue.Mon8}}",
+				"Tue8": "{{i18n: LouisDialogue.Tue8}}",
+				"Wed8": "{{i18n: LouisDialogue.Wed8}}",
+				"Thu8": "{{i18n: LouisDialogue.Thu8}}",
+				"Fri8": "{{i18n: LouisDialogue.Fri8}}",
+				"Sat8": "{{i18n: LouisDialogue.Sat8}}",
+				"Sun8": "{{i18n: LouisDialogue.Sun8}}",
+				"Mon10": "{{i18n: LouisDialogue.Mon10}}",
+				"Tue10": "{{i18n: LouisDialogue.Tue10}}",
+				"Wed10": "{{i18n: LouisDialogue.Wed10}}",
+				"Thu10": "{{i18n: LouisDialogue.Thu10}}",
+				"Fri10": "{{i18n: LouisDialogue.Fri10}}",
+				"Sat10": "{{i18n: LouisDialogue.Sat10}}",
+				"Sun10": "{{i18n: LouisDialogue.Sun10}}",
+				"winter": "{{i18n: LouisDialogue.winter}}",
+				"rainy": "{{i18n: LouisDialogue.rainy}}",
+				"joja_Begin": "{{i18n: LouisDialogue.joja_Begin}}",
+				"cc_Begin": "{{i18n: LouisDialogue.cc_Begin}}",
+				"cc_Bus": "{{i18n: LouisDialogue.cc_Bus}}",
+				"cc_Minecart": "{{i18n: LouisDialogue.cc_Minecart}}",
+				"cc_Complete": "{{i18n: LouisDialogue.cc_Complete}}",
+				"movieTheater": "{{i18n: LouisDialogue.movieTheater}}",
+				"Saloon": "{{i18n: LouisDialogue.Saloon}}",
+				"Saloon2": "{{i18n: LouisDialogue.Saloon2}}",
+				"Saloon4": "{{i18n: LouisDialogue.Saloon4}}",
+				"Saloon6": "{{i18n: LouisDialogue.Saloon6}}",
+				"Saloon8": "{{i18n: LouisDialogue.Saloon8}}",
+				"Saloon10": "{{i18n: LouisDialogue.Saloon10}}",
+				"Saloon_Sat2": "{{i18n: LouisDialogue.Saloon_Sat2}}",
+				"Saloon_Sat4": "{{i18n: LouisDialogue.Saloon_Sat4}}",
+				"Saloon_Sat6": "{{i18n: LouisDialogue.Saloon_Sat6}}",
+				"Saloon_Sat8": "{{i18n: LouisDialogue.Saloon_Sat8}}",
+				"Saloon_Sat10": "{{i18n: LouisDialogue.Saloon_Sat10}}"
+			}
+		},
+		{
+			// Dialogue
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogue{{ModId}}_Louis",
+			"Entries": {
+				"spring_1": "{{i18n: LouisDialogue.Marriage.spring_1}}",
+				"summer_1": "{{i18n: LouisDialogue.Marriage.summer_1}}",
+				"fall_1": "{{i18n: LouisDialogue.Marriage.fall_1}}",
+				"winter_1": "{{i18n: LouisDialogue.Marriage.winter_1}}",
+				"Outdoor_R5.CP_Louis1": "{{i18n: LouisDialogue.Marriage.Outdoor_Louis1}}",
+				"Outdoor_R5.CP_Louis2": "{{i18n: LouisDialogue.Marriage.Outdoor_Louis2}}",
+				"Rainy_Night_1": "{{i18n: LouisDialogue.Marriage.Rainy_Night_1}}",
+				"Rainy_Night_2": "{{i18n: LouisDialogue.Marriage.Rainy_Night_2}}",
+				"Rainy_Night_3": "{{i18n: LouisDialogue.Marriage.Rainy_Night_3}}",
+				"Rainy_Day_1": "{{i18n: LouisDialogue.Marriage.Rainy_Day_1}}",
+				"Rainy_Day_2": "{{i18n: LouisDialogue.Marriage.Rainy_Day_2}}",
+				"Rainy_Day_3": "{{i18n: LouisDialogue.Marriage.Rainy_Day_3}}",
+				"indoor_Night_1": "{{i18n: LouisDialogue.Marriage.indoor_Night_1}}",
+				"indoor_Night_2": "{{i18n: LouisDialogue.Marriage.indoor_Night_2}}",
+				"indoor_Night_3": "{{i18n: LouisDialogue.Marriage.indoor_Night_3}}",
+				"indoor_Day_1": "{{i18n: LouisDialogue.Marriage.indoor_Day_1}}",
+				"indoor_Day_2": "{{i18n: LouisDialogue.Marriage.indoor_Day_2}}",
+				"indoor_Day_3": "{{i18n: LouisDialogue.Marriage.indoor_Day_3}}",
+				"spring_R5.CP_Louis": "{{i18n: LouisDialogue.Marriage.spring_Louis}}",
+				"summer_R5.CP_Louis": "{{i18n: LouisDialogue.Marriage.summer_Louis}}",
+				"fall_R5.CP_Louis": "{{i18n: LouisDialogue.Marriage.fall_Louis}}",
+				"winter_R5.CP_Louis": "{{i18n: LouisDialogue.Marriage.winter_Louis}}",
+				"spouseRoom_R5.CP_Louis": "{{i18n: LouisDialogue.Marriage.spouseRoom_Louis}}",
+				"patio_R5.CP_Louis": "{{i18n: LouisDialogue.Marriage.patio_Louis}}",
+				"OneKid_0": "{{i18n: LouisDialogue.Marriage.OneKid_0}}",
+				"OneKid_1": "{{i18n: LouisDialogue.Marriage.OneKid_1}}",
+				"OneKid_2": "{{i18n: LouisDialogue.Marriage.OneKid_2}}",
+				"OneKid_3": "{{i18n: LouisDialogue.Marriage.OneKid_3}}",
+				"TwoKids_0": "{{i18n: LouisDialogue.Marriage.TwoKids_0}}",
+				"TwoKids_1": "{{i18n: LouisDialogue.Marriage.TwoKids_1}}",
+				"TwoKids_2": "{{i18n: LouisDialogue.Marriage.TwoKids_2}}",
+				"TwoKids_3": "{{i18n: LouisDialogue.Marriage.TwoKids_3}}",
+				"Good_0": "{{i18n: LouisDialogue.Marriage.Good_0}}",
+				"Good_1": "{{i18n: LouisDialogue.Marriage.Good_1}}",
+				"Good_2": "{{i18n: LouisDialogue.Marriage.Good_2}}",
+				"Good_3": "{{i18n: LouisDialogue.Marriage.Good_3}}",
+				"Good_4": "{{i18n: LouisDialogue.Marriage.Good_4}}",
+				"Good_5": "{{i18n: LouisDialogue.Marriage.Good_5}}",
+				"Good_6": "{{i18n: LouisDialogue.Marriage.Good_6}}",
+				"Good_7": "{{i18n: LouisDialogue.Marriage.Good_7}}",
+				"Good_8": "{{i18n: LouisDialogue.Marriage.Good_8}}",
+				"Good_9": "{{i18n: LouisDialogue.Marriage.Good_9}}",
+				"Neutral_0": "{{i18n: LouisDialogue.Marriage.Neutral_0}}",
+				"Neutral_1": "{{i18n: LouisDialogue.Marriage.Neutral_1}}",
+				"Neutral_2": "{{i18n: LouisDialogue.Marriage.Neutral_2}}",
+				"Neutral_3": "{{i18n: LouisDialogue.Marriage.Neutral_3}}",
+				"Neutral_4": "{{i18n: LouisDialogue.Marriage.Neutral_4}}",
+				"Bad_0": "{{i18n: LouisDialogue.Marriage.Bad_0}}",
+				"Bad_1": "{{i18n: LouisDialogue.Marriage.Bad_1}}",
+				"Bad_2": "{{i18n: LouisDialogue.Marriage.Bad_2}}",
+				"Bad_3": "{{i18n: LouisDialogue.Marriage.Bad_3}}",
+				"Bad_4": "{{i18n: LouisDialogue.Marriage.Bad_4}}",
+				"Bad_5": "{{i18n: LouisDialogue.Marriage.Bad_5}}",
+				"Bad_6": "{{i18n: LouisDialogue.Marriage.Bad_6}}",
+				"Bad_7": "{{i18n: LouisDialogue.Marriage.Bad_7}}",
+				"Bad_8": "{{i18n: LouisDialogue.Marriage.Bad_8}}",
+				"funLeave_R5.CP_Louis": "{{i18n: LouisDialogue.Marriage.funLeave_Louis}}",
+				"funReturn_R5.CP_Louis": "{{i18n: LouisDialogue.Marriage.funReturn_Louis}}",
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/MarriageDialogue{{ModId}}_Louis",
+			"FromFile": "assets/Louis/blank.json"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/schedules/{{ModId}}_Louis",
+			"FromFile": "assets/Louis/blank.json"
+		},
+		{
+			"LogName": "Louis Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/{{ModId}}_Louis",
+			"Entries": {
+				//Rain
+				"rain": "610 Custom_LouisInterior 23 18 3/730 Custom_LouisInterior 28 29 2/1700 Custom_LouisInterior 16 31 3/2100 Custom_LouisInterior 23 18 3",
+				//Spring
+				"spring": "610 Custom_LouisInterior 23 18 3/730 Custom_LouisInterior 28 29 2/1700 Custom_LouisInterior 16 31 3/2100 Town 79 95 2/2400 Custom_LouisInterior 23 18 3",
+				//Normal Workday
+				"Mon": "610 Custom_LouisInterior 23 18 3/730 Custom_LouisInterior 28 29 2/1700 Custom_LouisInterior 16 31 3/2100 Town 79 95 2/2400 Custom_LouisInterior 23 18 3",
+				"Tue": "610 Custom_LouisInterior 23 18 3/730 Custom_LouisInterior 28 29 2/1700 Custom_LouisInterior 16 31 3/2100 Town 79 95 2/2400 Custom_LouisInterior 23 18 3",
+				"Thu": "610 Custom_LouisInterior 23 18 3/730 Custom_LouisInterior 28 29 2/1700 Custom_LouisInterior 16 31 3/2100 Town 79 95 2/2400 Custom_LouisInterior 23 18 3",
+				"Fri": "610 Custom_LouisInterior 23 18 3/730 Custom_LouisInterior 28 29 2/1800 Saloon 1 18 0/2300 Town 79 95 2/2600 Custom_LouisInterior 23 18 3",
+				//Short Day
+				"Wed": "610 Custom_LouisInterior 23 18 3/730 Custom_LouisInterior 28 29 2/1200 SeedShop 16 29 3/1600 Woods 7 14 2/2200 Custom_LouisInterior 23 18 3",
+				//Weekend
+				"Sat": "610 Custom_LouisInterior 23 18 3/730 Custom_LouisInterior 16 31 3/1300 Town 35 37 3/1800 Town 65 86 0/2200 Town 79 95 2/2400 Custom_LouisInterior 23 18 3",
+				"Sun": "610 Custom_LouisInterior 23 18 3/730 Custom_LouisInterior 16 31 3/1200 JoshHouse 17 22 3/1700 Town 53 45 2/2200 Town 79 95 2/2400 Custom_LouisInterior 23 18 3",
+				//Summer
+				"summer_Sat": "610 Custom_LouisInterior 23 18 3/730 Custom_LouisInterior 16 31 3/1200 Beach 16 24 2/1700 Beach 19 14 2/2200 Town 79 95 2/2400 Custom_LouisInterior 23 18 3",
+				"summer_Sun": "610 Custom_LouisInterior 23 18 3/730 Custom_LouisInterior 16 31 3/1200 JoshHouse 17 22 3/1700 Beach 16 24 2/2200 Town 79 95 2/2400 Custom_LouisInterior 23 18 3",
+				//Fall
+				"fall_Sat": "610 Custom_LouisInterior 23 18 3/730 Custom_LouisInterior 16 31 3/1200 Forest 94 23 0/1800 Town 65 86 0/2200 Town 79 95 2/2400 Custom_LouisInterior 23 18 3",
+				"fall_Sun": "610 Custom_LouisInterior 23 18 3/730 Custom_LouisInterior 16 31 3/1200 Forest 94 23 0/1800 Town 97 39 2/2200 Town 56 68 3/2400 Custom_LouisInterior 23 18 3",
+				//Winter
+				"winter_Sat": "610 Custom_LouisInterior 23 18 3/730 Custom_LouisInterior 28 29 2/1700 ArchaeologyHouse 41 5 2/2200 Custom_LouisInterior 23 18 3",
+				"winter_Sun": "610 Custom_LouisInterior 23 18 3/730 Custom_LouisInterior 28 29 2/1700 ArchaeologyHouse 41 5 2/2200 Custom_LouisInterior 23 18 3",
+				//Maintanance Schedule
+				"spring_12": "610 Custom_LouisInterior 23 18 3/730 Custom_LouisInterior 28 29 2/1600 BusStop 24 10 0/2100 Custom_LouisInterior 23 18 3",
+				"summer_12": "610 Custom_LouisInterior 23 18 3/730 Custom_LouisInterior 28 29 2/1600 Town 66 86 0/2100 Custom_LouisInterior 23 18 3",
+				"fall_12": "610 Custom_LouisInterior 23 18 3/730 Custom_LouisInterior 28 29 2/1600 Town 106 52 3/2100 Custom_LouisInterior 23 18 3",
+				"winter_12": "610 Custom_LouisInterior 23 18 3/730 Custom_LouisInterior 28 29 2/1600 Mine 12 11 0/2100 Custom_LouisInterior 23 18 3",
+				"marriage_Wed": "900 Custom_LouisInterior 28 29 2/1400 SeedShop 16 29 3/1600 Woods 7 14 2/1800 Custom_LouisInterior 23 18 3",
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Strings/Schedules/{{ModId}}_Louis",
+			"FromFile": "assets/Louis/blank.json"
+		},
+		{
+			"LogName": "Robin",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Robin",
+			"Entries": {
+				"Mon": "{{i18n:Robin.Mon}}",
+				"Sat2": "{{i18n:Robin.Sat2}}",
+				"Fri": "{{i18n:Robin.Fri}}",
+			}
+		},
+		{
+			"LogName": "George",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/George",
+			"Entries": {
+				"Thu": "{{i18n:George.Thu}}",
+				"Wed2": "{{i18n:George.Wed2}}",
+				"Tue2": "{{i18n:George.Tue2}}",
+			}
+		},
+		{
+			"LogName": "Gus",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gus",
+			"Entries": {
+				"Mon": "{{i18n:Gus.Mon}}",
+			}
+		},
+		{
+			"LogName": "Alex",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex",
+			"Entries": {
+				"Mon2": "{{i18n:Alex.Mon2}}",
+				"Tue4": "{{i18n:Alex.Tue4}}",
+				"Wed4": "{{i18n:Alex.Wed4}}",
+				"Thu4": "{{i18n:Alex.Thu4}}",
+				"Fri4": "{{i18n:Alex.Fri4}}",
+				"Sat4": "{{i18n:Alex.Sat4}}",
+				"Wed6": "{{i18n:Alex.Wed6}}",
+			},
+		},
+		{
+			"LogName": "Sebastian",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Entries": {
+				"Wed4": "{{i18n:Seb.Wed4}}",
+			},
+		},
+		{
+			"LogName": "Harvey",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"Entries": {
+				"Mon2": "{{i18n:Harvey.Mon2}}",
+			},
+		},
+		{
+			"LogName": "Lewis",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Lewis",
+			"Entries": {
+				"Wed4": "{{i18n:Lewis.Wed4}}",
+				"Sat2": "{{i18n:Lewis.Sat2}}",
+				"Mon2": "{{i18n:Lewis.Mon2}}",
+			},
+		},
+		{
+			"LogName": "Pam",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Pam",
+			"Entries": {
+				"Mon4": "{{i18n:Pam.Mon4}}",
+				"Tue6": "{{i18n:Pam.Tue6}}",
+			}
+		},
+		//Egg Festival
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "{{ModId}}_Louis 18 53 2",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters"
+					],
+					"Value": "{{ModId}}_Louis 18 53 2",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"{{ModId}}_Louis"
+					],
+					"Value": "{{i18n:EggFestivalYear1}}",
+				}
+			]
+		},
+		//Egg Festival Year 2
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"IsOddYear": false
+			},
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "{{ModId}}_Louis 16 59 1",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters"
+					],
+					"Value": "{{ModId}}_Louis 16 59 1",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"{{ModId}}_Louis"
+					],
+					"Value": "{{i18n:EggFestivalYear2}}",
+				}
+			]
+		},
+		//FLower Dance 
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "{{ModId}}_Louis 26 37 2",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters"
+					],
+					"Value": "{{ModId}}_Louis 26 37 2",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"{{ModId}}_Louis"
+					],
+					"Value": "{{i18n:FlowerDanceYear1}}",
+				}
+			]
+		},
+		//FLower Dance  Years 2    
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"IsOddYear": false
+			},
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "{{ModId}}_Louis 26 37 2",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters"
+					],
+					"Value": "{{ModId}}_Louis 26 37 2",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"{{ModId}}_Louis"
+					],
+					"Value": "{{i18n:FlowerDanceYear2}}",
+				}
+			]
+		},
+		//Luau 
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "{{ModId}}_Louis 28 4 2",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters"
+					],
+					"Value": "{{ModId}}_Louis 28 4 2",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"{{ModId}}_Louis"
+					],
+					"Value": "{{i18n:LuauRandomItem}}",
+				}
+			]
+		},
+		//Luau Year 2
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"IsOddYear": false
+			},
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "{{ModId}}_Louis 29 4 2",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters"
+					],
+					"Value": "{{ModId}}_Louis 29 4 2",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"{{ModId}}_Louis"
+					],
+					"Value": "{{i18n:LuauRandomItem}}",
+				}
+			]
+		},
+		//Moonlight Jellies
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "{{ModId}}_Louis 13 6 2",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"{{ModId}}_Louis"
+					],
+					"Value": "{{i18n:Festivals.MoonlightJellies.Year1}}",
+				}
+			]
+		},
+		//Moonlight Jellies Year 2
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"IsOddYear": false
+			},
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "{{ModId}}_Louis 29 6 2",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"{{ModId}}_Louis"
+					],
+					"Value": "{{i18n:Festivals.MoonlightJellies.Year2}}",
+				}
+			]
+		},
+		//Fair
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "{{ModId}}_Louis 32 57 2",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"{{ModId}}_Louis"
+					],
+					"Value": "{{i18n:Festivals.SDVFair.Year1}}",
+				}
+			]
+		},
+		//Fair Year 2
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"IsOddYear": false
+			},
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "{{ModId}}_Louis 32 57 2",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"{{ModId}}_Louis"
+					],
+					"Value": "{{i18n:Festivals.SDVFair.Year2}}",
+				}
+			]
+		},
+		//Spirit's Eve
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "{{ModId}}_Louis 23 49 2",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"{{ModId}}_Louis"
+					],
+					"Value": "{{i18n:Festivals.SpiritsEve.Year1}}",
+				}
+			],
+		},
+		//Spirit's Eve Year 2
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"IsOddYear": false
+			},
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "{{ModId}}_Louis 27 51 2",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"{{ModId}}_Louis"
+					],
+					"Value": "{{i18n:Festivals.SpiritsEve.Year2}}",
+				}
+			],
+		},
+		//Ice Festival
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "{{ModId}}_Louis 59 30 2",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"{{ModId}}_Louis"
+					],
+					"Value": "{{i18n:Festivals.IceFestival.Year1}}",
+				}
+			]
+		},
+		//Ice Festival Year 2
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"IsOddYear": false
+			},
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "{{ModId}}_Louis 66 25 2",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"{{ModId}}_Louis"
+					],
+					"Value": "{{i18n:Festivals.IceFestival.Year2}}",
+				}
+			]
+		},
+		//Winter Star
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "{{ModId}}_Louis 16 62 2",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"{{ModId}}_Louis"
+					],
+					"Value": "{{i18n:Festivals.WinterStar.Year1}}",
+				}
+			],
+		},
+		//Winter Star Year 2
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"IsOddYear": false
+			},
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "{{ModId}}_Louis 20 57 1",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"{{ModId}}_Louis"
+					],
+					"Value": "{{i18n:Festivals.WinterStar.Year2}}",
+				}
+			],
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/GarageBuildingTexture",
+			"FromFile": "assets/ConcreteGarage.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/GarageBuildingPaintMask",
+			"FromFile": "assets/PaintMask.png"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Buildings",
+			"Entries": {
+				"{{ModId}}.GarageBuilding": {
+					"Name": "{{i18n:GarageBuilding}}",
+					"Description": "{{i18n:GarageDescription}}",
+					"Texture": "Mods/{{ModId}}/GarageBuildingTexture",
+					"Builder": "Robin",
+					"BuildCondition": "PLAYER_HAS_MAIL Current {{ModId}}_EVChargersBuilt Received",
+					"BuildCost": 25000,
+					"BuildDays": 2,
+					"Size": {
+						"X": 5,
+						"Y": 3
+					},
+					"CollisionMap": "XXXXX\nXOOOX\nXOOOX",
+					"SourceRect": {
+						"X": 0,
+						"Y": 0,
+						"Width": 80,
+						"Height": 128
+					},
+					"SortTileOffset": 2.5,
+					"DrawLayers": [
+						{
+							"Id": "FrontPart",
+							"SourceRect": {
+								"X": 80,
+								"Y": 0,
+								"Width": 80,
+								"Height": 128
+							},
+							"DrawInBackground": false,
+							"SortTileOffset": 0.0,
+							"DrawShadow": false
+						}
+					],
+					"BuildingType": "StardewValley.Buildings.Stable",
+					"ModData": {
+						"CarBuilding": "true"
+					}
+				}
+			}
+		},
+		{
+			//if you change the ID, it needs to be changed in the C# as well
+			"Action": "EditData",
+			"Target": "Data/AudioChanges",
+			"Entries": {
+				"R5.CP_Rev": {
+					"ID": "R5.CP_Rev",
+					"Category": "Footsteps",
+					"FilePaths": [
+						"{{AbsoluteFilePath: assets/audio/constant.wav}}"
+					],
+					"StreamedVorbis": true,
+					"Looped": true
+				},
+				"R5.CP_Initial": {
+					"ID": "R5.CP_Initial",
+					"Category": "Footsteps",
+					"FilePaths": [
+						"{{AbsoluteFilePath: assets/audio/rev.wav}}"
+					],
+					"StreamedVorbis": true,
+					"Looped": false
+				},
+				"R5.CP_Idle": {
+					"ID": "R5.CP_Idle",
+					"Category": "Footsteps",
+					"FilePaths": [
+						"{{AbsoluteFilePath: assets/audio/idle.wav}}"
+					],
+					"StreamedVorbis": true,
+					"Looped": true
+				},
+				"R5.CP_Stop": {
+					"ID": "R5.CP_Stop",
+					"Category": "Footsteps",
+					"FilePaths": [
+						"{{AbsoluteFilePath: assets/audio/stop.wav}}"
+					],
+					"StreamedVorbis": true,
+					"Looped": false
+				}
+			}
+		}
+	]
+}

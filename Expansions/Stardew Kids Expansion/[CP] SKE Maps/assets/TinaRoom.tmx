@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="right-down" width="12" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="1">
+ <properties>
+  <property name="AmbientLight" value="50 60 70"/>
+  <property name="Light" value="3 3 6 6 4 4"/>
+ </properties>
+ <tileset firstgid="1" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <layer id="1" name="Back" width="12" height="12">
+  <data encoding="base64" compression="zlib">
+   eJy1kEEOQDAQRadiwSGcjZtwBgdxBOxwCSw5hMSf1E+kZtGNJi+dpm+mP3Ui0qZxOPGri4R9f/lVIlKCCXWPcAMYwSxfFtA8/ol6hbeBHVzgEI/eF4mvNQt9PYc7qV8+a3qn4RPmP4y5Vq/64fxw5ruP+a23LZg/w3/kEah/A8TkYWo=
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back" visible="0"/>
+ <layer id="3" name="Buildings" width="12" height="12">
+  <data encoding="base64" compression="zlib">
+   eJzjYmBgYCYS8wCxIwMmmI1FDARcoeq90fBuIA7EIg5Tn42Gk5gYGJKZMMVh6o8B5Y4zIextArKbgViZlYEhlZGBIY0R1T08zDgcjMP9+IAj0GwnNPPxAUWgm5RYUdWfZSHNPQ9JVE8sAKlPBOJlROJmIAYAAGIbFw==
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings" visible="0"/>
+ <layer id="5" name="Front" width="12" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAPPEJiezJDxVgYGB6zoMo7QmkmRgaGPFYI24mJgcGZCdU8kDwMLAPKLQfiPlZMe12B6twYUcXeMGGqg4FEoNokRtzy6KARqLaJBPWMQDcyYXEnKeAgC/FqHQkroQpYhgVjAwCp/Q6b
+  </data>
+ </layer>
+ <layer id="8" name="AF" width="12" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBh8YAkTA8NipoF2xSggBgAAKSoBTA==
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+</map>

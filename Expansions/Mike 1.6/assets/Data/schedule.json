@@ -1,0 +1,39 @@
+{
+
+  "Changes": [
+     {
+       "LogName": "Schedule Saloon Room",
+       "Action": "Include",
+       "FromFile": "assets/Schedule/Schedule_Room.json",
+    	"When": {
+      	"HasMod |contains=FlashShifter.StardewValleyExpandedALL": false
+      	},
+      },
+     {
+       "LogName": "Schedule 1.6 Add",
+       "Action": "Include",
+       "FromFile": "assets/Schedule/Schedule_1_6.json"
+      },
+     {
+       "LogName": "Schedule Dialogue",
+       "Action": "Include",
+       "FromFile": "assets/Schedule/ScheduleDialogue.json"
+      },
+     {
+       "LogName": "Schedule SVE",
+       "Action": "Include",
+       "FromFile": "assets/Schedule/Schedule_SVE.json",
+    	"When": {
+      	"HasMod |contains=FFlashShifter.StardewValleyExpandedCP": true
+      	},
+      },
+     /*{
+       "LogName": "Schedule BH Room",
+       "Action": "Include",
+       "FromFile": "assets/Schedule/Schedule_Boarding.json",
+    "When": {
+      "HasMod |contains=BHModID": true
+      },
+      },*/
+]
+}

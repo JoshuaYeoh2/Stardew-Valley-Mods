@@ -1,0 +1,66 @@
+{
+  "Changes": [
+    //Seed item
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries":{
+        "{{ModId}}_Purple_Ancient_Fruit_Seeds":{
+          "Name": "Purple Ancient Fruit Seeds",
+          "DisplayName": "Purple Ancient Fruit Seeds",
+          "Description": "A mixture of a purple grape and an ancient fruit. Some say it is sweeter than grapes while being a more subdued in taste fruit. Thrives in spring, summer, and fall.",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price" : 35,
+          "Texture": "Mods/{{ModId}}/Purple_Ancient_Fruit_Seeds",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    //Crop
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries":{
+        "{{ModId}}_Purple_Ancient_Fruit":{
+          "Name": "{{ModID}}_Purple_Ancient_Fruit",
+          "DisplayName": "Purple Ancient Fruit",
+          "Description": "A mixture of a purple grape and an ancient fruit has given birth to a strange but delicious fruit.",
+          "Type": "Fruit",
+          "Category": -79,
+          "Price" : 550,
+          "IsDrink": false,
+          "Edibility": 12,
+          "Texture": "Mods/{{ModId}}/Purple_Ancient_Fruit",
+          "SpriteIndex": 0,
+          "ContextTags": [
+            "season_spring",
+            "season_summer",
+            "season_fall",
+            "color_purple"
+          ]
+        }
+      }
+    },
+    //Planted Crop
+    {
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "{{ModId}}_Purple_Ancient_Fruit_Seeds": {
+                    "Seasons": [ "spring", "summer", "fall" ],
+                    "DaysInPhase": [ 2, 7, 7, 7, 5],
+                    "RegrowDays": 7,
+                    "HarvestItemId": "{{ModId}}_Purple_Ancient_Fruit",
+                    "Texture": "Mods/{{ModId}}/Purple_Ancient_Fruit_Planted",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+    {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Purple_Ancient_Fruit_Seeds, Mods/{{ModId}}/Purple_Ancient_Fruit, Mods/{{ModId}}/Purple_Ancient_Fruit_Planted",
+            "FromFile": "assets/Purple_Ancient_Fruit/{{TargetWithoutPath}}.png"
+        }
+  ]
+}

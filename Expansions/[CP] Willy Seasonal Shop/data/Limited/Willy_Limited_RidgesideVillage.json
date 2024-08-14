@@ -1,0 +1,618 @@
+{ 
+"Changes": [ 
+{
+"Action": "EditData", 
+"Target": "Data/Shops", 
+"TargetField": [ 
+"FishShop", 
+"Items" 
+ ], 
+
+"Entries": { 
+//REALLFISH
+
+//EASY (COMMON)
+"Ridge Bluegill": {
+"Id": "MAMAXDV3_Rafseazz.RSVCP_Ridge_Bluegill", 
+"ItemId": "(O)Rafseazz.RSVCP_Ridge_Bluegill", 
+"Price": "160",  
+"AvailableStock": 5, 
+"AvailableStockLimit": "Global",
+"Condition": "SEASON spring fall winter, SYNCED_RANDOM day willy_fish_Ridge_Bluegill 0.5 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6", 
+}
+], 
+"IgnoreShopPriceModifiers": true,
+}, 
+"Cutthroat Trout": { 
+ "Id": "MAMAXDV3_FISH_Cutthroat_Trout", 
+ "ItemId": "(O)Rafseazz.RSVCP_Cutthroat_Trout", 
+ "Price": "140",  
+"AvailableStock": 5, 
+"AvailableStockLimit": "Global",
+"Condition": "SEASON spring summer fall, SYNCED_RANDOM day willy_fish_Cutthroat_Trout 0.6 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+],
+ "IgnoreShopPriceModifiers": true,
+}, 
+"Ridgeside_Bass": { 
+"Id": "MAMAXDV3_FISH_Ridgeside_Bass", 
+"ItemId": "(O)Rafseazz.RSVCP_Ridgeside_Bass", 
+"Price": "120",  
+"AvailableStock": 5, 
+"AvailableStockLimit": "Global",
+"Condition": "SYNCED_RANDOM day willy_fish_Ridgeside_Bass 0.8 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+], 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"Skulpin_Fish": {
+"Id": "MAMAXDV3_FISH_Skulpin_Fish", 
+"ItemId": "(O)Rafseazz.RSVCP_Skulpin_Fish", 
+"Price": "160",  
+"AvailableStock": 5, 
+"AvailableStockLimit": "Global",
+"Condition": "SEASON summer fall winter, SYNCED_RANDOM day willy_fish_Skulpin_Fish 0.5 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+
+//MEDIUM (UNCOMMON)
+"Mountain_Redbelly_Dace": {
+"Id": "MAMAXDV3_FISH_Mountain_Redbelly_Dace", 
+"ItemId": "(O)Rafseazz.RSVCP_Mountain_Redbelly_Dace", 
+"Price": "180",  
+"AvailableStock": 5, 
+"AvailableStockLimit": "Global",
+"Condition": "SYNCED_RANDOM day willy_fish_Mountain_Redbelly_Dace 0.5 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"Mountain_Whitefish": {
+"Id": "MAMAXDV3_FISH_Mountain_Whitefish", 
+"ItemId": "Rafseazz.RSVCP_Mountain_Whitefish", 
+"Price": "300",  
+"AvailableStock": 3, 
+"AvailableStockLimit": "Global",
+"Condition": "SYNCED_RANDOM day willy_fish_Mountain_Whitefish 0.3 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+},
+"Caped_Tree_Frog": {
+"Id": "MAMAXDV3_FISH_Caped_Tree_Frog", 
+"ItemId": "(O)Rafseazz.RSVCP_Caped_Tree_Frog", 
+"Price": "260",  
+"AvailableStock": 3, 
+"AvailableStockLimit": "Global",
+"Condition": "SEASON spring summer fall, SYNCED_RANDOM day willy_fish_Caped_Tree_Frog 0.4 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+},
+"Harvester_Trout": {
+"Id": "MAMAXDV3_FISH_Harvester_Trout", 
+"ItemId": "(O)Rafseazz.RSVCP_Harvester_Trout", 
+"Price": "320",  
+"AvailableStock": 3, 
+"AvailableStockLimit": "Global",
+"Condition": "SEASON spring fall winter, SYNCED_RANDOM day willy_fish_Harvester_Trout 0.3 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"Pebble_Back_Crab": {
+"Id": "MAMAXDV3_FISH_Pebble_Back_Crab", 
+"ItemId": "(O)Rafseazz.RSVCP_Pebble_Back_Crab", 
+"Price": "360",  
+"AvailableStock": 3, 
+"AvailableStockLimit": "Global",
+"Condition": "SEASON spring summer winter, SYNCED_RANDOM day willy_fish_Pebble_Back_Crab 0.28 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+
+//HARD (RARE)
+"Bladetail_Sturgeon": {
+"Id": "MAMAXDV3_FISH_Bladetail_Sturgeon", 
+"ItemId": "(O)Rafseazz.RSVCP_Bladetail_Sturgeon", 
+"Price": "500",  
+"AvailableStock": 3, 
+"AvailableStockLimit": "Global",
+"Condition": "SEASON summer fall winter, SYNCED_RANDOM day willy_fish_Bladetail_Sturgeon 0.2 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"Cardia_Septal_Jellyfish": {
+"Id": "MAMAXDV3_FISH_Cardia_Septal_Jellyfish", 
+"ItemId": "(O)Rafseazz.RSVCP_Cardia_Septal_Jellyfish", 
+"Price": "660",  
+"AvailableStock": 3, 
+"AvailableStockLimit": "Global",
+"Condition": "SEASON spring fall winter, SYNCED_RANDOM day willy_fish_Cardia_Septal_Jellyfish 0.15 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"Crimson_Spiked_Clam": {
+"Id": "MAMAXDV3_FISH_Crimson_Spiked_Clam", 
+"ItemId": "(O)Rafseazz.RSVCP_Crimson_Spiked_Clam", 
+"Price": "720",  
+"AvailableStock": 3, 
+"AvailableStockLimit": "Global",
+"Condition": "SEASON spring summer winter, SYNCED_RANDOM day willy_fish_Crimson_Spiked_Clam 0.1 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"Fairytale_Lionfish": {
+"Id": "MAMAXDV3_FISH_Fairytale_Lionfish", 
+"ItemId": "(O)Rafseazz.RSVCP_Fairytale_Lionfish", 
+"Price": "580",  
+"AvailableStock": 3, 
+"AvailableStockLimit": "Global",
+"Condition": "SEASON spring summer fall, SYNCED_RANDOM day willy_fish_Fairytale_Lionfish 0.2 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"Fixer_Eel": {
+"Id": "MAMAXDV3_FISH_Fixer_Eel", 
+"ItemId": "(O)Rafseazz.RSVCP_Fixer_Eel", 
+"Price": "480",  
+"AvailableStock": 3, 
+"AvailableStockLimit": "Global",
+"Condition": "SEASON summer fall winter, SYNCED_RANDOM day willy_fish_Fixer_Eel 0.23 @addDailyLuck",  
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"Golden_Rose_Fin": {
+"Id": "MAMAXDV3_FISH_Golden_Rose_Fin", 
+"ItemId": "(O)Rafseazz.RSVCP_Golden_Rose_Fin", 
+"Price": "440",  
+"AvailableStock": 3, 
+"AvailableStockLimit": "Global",
+"Condition": "SEASON spring fall winter, SYNCED_RANDOM day willy_fish_Golden_Rose_Fin 0.25 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"Lullaby_Carp": {
+"Id": "MAMAXDV3_FISH_Lullaby_Carp", 
+"ItemId": "(O)Rafseazz.RSVCP_Lullaby_Carp", 
+"Price": "420",  
+"AvailableStock": 3, 
+"AvailableStockLimit": "Global",
+"Condition": "SEASON spring summer winter, SYNCED_RANDOM day willy_fish_Lullaby_Carp 0.26 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+
+//LEGENDARY 
+"Deep_Ridge_Angler": {
+"Id": "MAMAXDV3_FISH_Deep_Ridge_Angler", 
+"ItemId": "(O)Rafseazz.RSVCP_Deep_Ridge_Angler", 
+"Price": "9000", 
+"AvailableStock": 1, 
+"AvailableStockLimit": "Global", 
+"Condition": "PLAYER_HEARTS Current Willy 10, SEASON winter, SYNCED_RANDOM day willy_fish_Deep_Ridge_Angler 0.01 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+}
+], 
+ "IgnoreShopPriceModifiers": true,
+},
+"Waterfall_Snakehead": {
+"Id": "(O)MAMAXDV3_FISH_Waterfall_Snakehead", 
+"ItemId": "(O)Rafseazz.RSVCP_Waterfall_Snakehead", 
+"Price": "8000", 
+"AvailableStock": 1, 
+"AvailableStockLimit": "Global", 
+"Condition": "PLAYER_HEARTS Current Willy 10, SEASON fall, SYNCED_RANDOM day willy_fish_Waterfall_Snakehead 0.01 @addDailyLuck" ,  
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+}
+], 
+ "IgnoreShopPriceModifiers": true, 
+}, 
+"Sockeye_Salmon": {
+"Id": "MAMAXDV3_FISH_Sockeye_Salmon", 
+"ItemId": "(O)Rafseazz.RSVCP_Sockeye_Salmon", 
+"Price": "7500", 
+"AvailableStock": 1, 
+"AvailableStockLimit": "Global", 
+"Condition": "PLAYER_HEARTS Current Willy 10, SEASON spring summer, SYNCED_RANDOM day willy_fish_Sockeye_Salmon 0.01 @addDailyLuck" , 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+}
+], 
+ "IgnoreShopPriceModifiers": true,
+}, 
+
+},
+"When": { "Willy Sells RsV Fish": "limited" }
+}
+] 
+} 

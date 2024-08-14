@@ -1,0 +1,248 @@
+{
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/Objects",
+			"FromFile": "assets/Resources/Objects.png"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_Zircon": {
+					"Name": "Zircon",
+					"Displayname": "{{i18n: Zircon.N}}",
+					"Description": "{{i18n: Zircon.D}}",
+					"Type": "Minerals",
+					"Category": -2,
+					"Price": 100,
+					"Texture": "Mods/{{ModId}}/Objects",
+					"SpriteIndex": 0,
+					"ContextTags": [
+						"color_red"
+					],
+				},
+				"{{ModId}}_Gneiss": {
+					"Name": "Gneiss",
+					"Displayname": "{{i18n: Gneiss.N}}",
+					"Description": "{{i18n: Gneiss.D}}",
+					"Type": "Minerals",
+					"Category": -2,
+					"Price": 45,
+					"Texture": "Mods/{{ModId}}/Objects",
+					"SpriteIndex": 6,
+					"ContextTags": [
+						"color_brown"
+					],
+				},
+				"{{ModId}}_Halite": {
+					"Name": "Halite",
+					"Displayname": "{{i18n: Halite.N}}",
+					"Description": "{{i18n: Halite.D}}",
+					"Type": "Minerals",
+					"Category": -2,
+					"Price": 55,
+					"Texture": "Mods/{{ModId}}/Objects",
+					"SpriteIndex": 12,
+					"ContextTags": [
+						"color_gray"
+					],
+				},
+				"{{ModId}}_Hornblende": {
+					"Name": "Hornblende",
+					"Displayname": "{{i18n: Hornblende.N}}",
+					"Description": "{{i18n: Hornblende.D}}",
+					"Type": "Minerals",
+					"Category": -2,
+					"Price": 5,
+					"Texture": "Mods/{{ModId}}/Objects",
+					"SpriteIndex": 18,
+					"ContextTags": [
+						"color_black"
+					],
+				},
+				"{{ModId}}_Olivine": {
+					"Name": "Olivine",
+					"Displayname": "{{i18n: Olivine.N}}",
+					"Description": "{{i18n: Olivine.D}}",
+					"Type": "Minerals",
+					"Category": -2,
+					"Price": 55,
+					"Texture": "Mods/{{ModId}}/Objects",
+					"SpriteIndex": 2,
+					"ContextTags": [
+						"color_green"
+					],
+				},
+				"{{ModId}}_Prismatic_Pieces": {
+					"Name": "Prismatic Pieces",
+					"Displayname": "{{i18n: Prismatic_Pieces.N}}",
+					"Description": "{{i18n: Prismatic_Pieces.D}}",
+					"Type": "Minerals",
+					"Category": -2,
+					"Price": 85,
+					"Texture": "Mods/{{ModId}}/Objects",
+					"SpriteIndex": 8,
+				},
+				"{{ModId}}_Schist": {
+					"Name": "Schist",
+					"Displayname": "{{i18n: Schist.N}}",
+					"Description": "{{i18n: Schist.D}}",
+					"Type": "Minerals",
+					"Category": -2,
+					"Price": 40,
+					"Texture": "Mods/{{ModId}}/Objects",
+					"SpriteIndex": 14,
+					"ContextTags": [
+						"color_brown"
+					],
+				},
+				"{{ModId}}_Vanadinite": {
+					"Name": "Vanadinite",
+					"Displayname": "{{i18n: Vanadinite.N}}",
+					"Description": "{{i18n: Vanadinite.D}}",
+					"Type": "Minerals",
+					"Category": -2,
+					"Price": 145,
+					"Texture": "Mods/{{ModId}}/Objects",
+					"SpriteIndex": 24,
+					"ContextTags": [
+						"color_copper"
+						],
+				},
+				"{{ModId}}_Sapphire": {
+					"Name": "Sapphire",
+					"Displayname": "{{i18n: Sapphire.N}}",
+					"Description": "{{i18n: Sapphire.D}}",
+					"Type": "Minerals",
+					"Category": -2,
+					"Price": 185,
+					"Texture": "Mods/{{ModId}}/Objects",
+					"SpriteIndex": 26,
+					"ContextTags": [
+						"color_light_cyan"
+					],
+				},
+				"{{ModId}}_Lapis_Lazuli": {
+					"Name": "Lapis Lazuli",
+					"Displayname": "{{i18n: Lapis Lazuli.N}}",
+					"Description": "{{i18n: Lapis Lazuli.D}}",
+					"Type": "Minerals",
+					"Category": -2,
+					"Price": 60,
+					"Texture": "Mods/{{ModId}}/Objects",
+					"SpriteIndex": 27,
+					"ContextTags": [
+						"color_dark_blue"
+					],
+				},
+				"{{ModId}}_Rhodochrosite": {
+					"Name": "Rhodochrosite",
+					"Displayname": "{{i18n: Rhodochrosite.N}}",
+					"Description": "{{i18n: Rhodochrosite.D}}",
+					"Type": "Minerals",
+					"Category": -2,
+					"Price": 200,
+					"Texture": "Mods/{{ModId}}/Objects",
+					"SpriteIndex": 29,
+					"ContextTags": [
+						"color_pink"
+					],
+				},
+				"{{ModId}}_Peridot": {
+					"Name": "Peridot",
+					"Displayname": "{{i18n: Peridot.N}}",
+					"Description": "{{i18n: Peridot.D}}",
+					"Type": "Minerals",
+					"Category": -2,
+					"Price": 90,
+					"Texture": "Mods/{{ModId}}/Objects",
+					"SpriteIndex": 33,
+					"ContextTags": [
+						"color_lime"
+					],
+				},
+				"{{ModId}}_Onxy": {
+					"Name": "Onxy",
+					"Displayname": "{{i18n: Onxy.N}}",
+					"Description": "{{i18n: Onxy.D}}",
+					"Type": "Minerals",
+					"Category": -2,
+					"Price": 80,
+					"Texture": "Mods/{{ModId}}/Objects",
+					"SpriteIndex": 31,
+					"ContextTags": [
+						"color_black"
+					],
+				},
+				"{{ModId}}_Sunstone": {
+					"Name": "Sunstone",
+					"Displayname": "{{i18n: Sunstone.N}}",
+					"Description": "{{i18n: Sunstone.D}}",
+					"Type": "Minerals",
+					"Category": -2,
+					"Price": 275,
+					"Texture": "Mods/{{ModId}}/Objects",
+					"SpriteIndex": 35,
+					"ContextTags": [
+						"color_dark_orange"
+					],
+				},
+			},
+		},
+		{
+			"LogName": "Editing Hematite",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"573": {
+					"Name": "Hematite",
+					"DisplayName": "[LocalizedText Strings\\Objects:Hematite_Name]",
+					"Description": "[LocalizedText Strings\\Objects:Hematite_Description]",
+					"Type": "Minerals",
+					"Category": -12,
+					"Price": 35,
+					"Texture": null,
+					"SpriteIndex": 573,
+					"Edibility": -300,
+					"IsDrink": false,
+					"Buffs": null,
+					"GeodeDropsDefaultItems": false,
+					"GeodeDrops": null,
+					"ArtifactSpotChances": null,
+					"ExcludeFromFishingCollection": false,
+					"ExcludeFromShippingCollection": false,
+					"ExcludeFromRandomSale": false,
+					"ContextTags": [
+					"color_copper"
+					],
+					"CustomFields": null
+				},
+				"570": {
+					"Name": "Basalt",
+					"DisplayName": "[LocalizedText Strings\\Objects:Basalt_Name]",
+					"Description": "[LocalizedText Strings\\Objects:Basalt_Description]",
+					"Type": "Minerals",
+					"Category": -12,
+					"Price": 65,
+					"Texture": null,
+					"SpriteIndex": 570,
+					"Edibility": -300,
+					"IsDrink": false,
+					"Buffs": null,
+					"GeodeDropsDefaultItems": false,
+					"GeodeDrops": null,
+					"ArtifactSpotChances": null,
+					"ExcludeFromFishingCollection": false,
+					"ExcludeFromShippingCollection": false,
+					"ExcludeFromRandomSale": false,
+					"ContextTags": [
+					"color_gray"
+					],
+					"CustomFields": null
+				},
+			},
+		},
+	]
+}
+

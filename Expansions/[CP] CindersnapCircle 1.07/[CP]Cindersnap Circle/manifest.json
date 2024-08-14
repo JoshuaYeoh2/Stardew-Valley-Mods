@@ -1,0 +1,18 @@
+{
+
+    "Name": "Cindersnap Circle",
+    "Author": "k80Chimaera",
+    "Description": "Adds the new Location Cindersnap Circle",
+    "Version": "1.0.7",
+    "UniqueID": "k80chimaera.CinderCircle",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "UpdateKeys": [ "Nexus:15164" ],
+    "Dependencies": [
+		{
+			"UniqueID": "Lumisteria.TtilesheetsOutdoor",
+			"IsRequired": true
+		}
+	]
+}

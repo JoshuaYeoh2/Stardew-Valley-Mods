@@ -1,0 +1,9 @@
+{
+//home all day
+  "rain": "0 Lizzie.Stoffton_MillHouse 10 6 2/710 Lizzie.Stoffton_MillHouse 4 25 1/900 Lizzie.Stoffton_MillHouse 18 23 3/1200 Lizzie.Stoffton_MillHouse 4 25 1/1400 Lizzie.Stoffton_MillHouse 29 21 2/1800 Lizzie.Stoffton_MillHouse 4 25 1/2000 Lizzie.Stoffton_MillHouse 12 12 3/2200 Lizzie.Stoffton_MillHouse 9 5 3 Gerhard_sleep",
+//Sunday - rainy day but includes Yoba visit
+  "Sun": "0 Lizzie.Stoffton_MillHouse 10 6 2/710 Lizzie.Stoffton_MillHouse 4 25 1/810 Lizzie.Stoffton_Yoba 22 12 0/1210 Lizzie.Stoffton_MillHouse 4 25 1/1400 Lizzie.Stoffton_MillHouse 29 21 2/1800 Lizzie.Stoffton_MillHouse 4 25 1/2000 Lizzie.Stoffton_MillHouse 12 12 3/2200 Lizzie.Stoffton_MillHouse 9 5 3 Gerhard_sleep",
+  "Tue": "GOTO spring",
+//breakfast at home, mill during day/home for supper
+  "spring": "0 Lizzie.Stoffton_MillHouse 10 6 2/710 Lizzie.Stoffton_MillHouse 4 25 1/800 Lizzie.Stoffton_Mill 26 8 2 Gerhard_desk/1100 Lizzie.Stoffton_Mill 1 8 2/1400 Lizzie.Stoffton_Mill 26 8 2 Gerhard_desk/1600 Lizzie.Stoffton_MillHouse 4 25 1/2000 Lizzie.Stoffton_MillHouse 12 12 3/2200 Lizzie.Stoffton_MillHouse 9 5 3 Gerhard_sleep"
+}

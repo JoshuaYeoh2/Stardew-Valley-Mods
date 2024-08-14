@@ -1,0 +1,20 @@
+{
+
+  "Changes": [
+                    {
+            		"LogName": "Spouse Room Data",
+                        "Action": "EditData",
+                        "Target": "Data/SpouseRooms",
+                        "Entries": {
+                            "Mike": "MikeSpouseRoom/0"
+                        }
+                    },
+                    {
+            		"LogName": "Spouse Room Map Load",
+                        "Action": "Load",
+                        "Target": "Maps/MikeSpouseRoom",
+                        "FromFile": "assets/Maps/MikeSpouseRoom.tmx"
+                    },
+
+]
+}

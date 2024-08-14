@@ -1,0 +1,279 @@
+{
+
+//NPC Display Names
+"FSDisplayName.Iris": "Iris",
+"FSDisplayName.Remmington": "Remmington",
+"FSDisplayName.Pori": "Pori",
+
+
+//Strings from Maps
+	"FSMapStrings.Fostoria.1.1": "Fostoria",
+	"FSMapStrings.Fostoria.1.2": "Pelican Town",
+	"FSMapStrings.Fostoria.1.3": "Stoffton",
+    "FSMapStrings.Fostoria.2": "@Catch a bus to the desert",
+    "FSMapStrings.Fostoria.3": "This looks like a ruined greenhouse. Maybe someone who lives in the area knows how to repair it?",
+    "FSMapStrings.MagicShop.1": "A yellowed scroll of parchment filled with dwarven script. This one's tied with a red bow.",
+    "FSMapStrings.MagicShop.2": "A yellowed scroll of parchment filled with dwarven script. This one's tied with a green ribbon.",
+    "FSMapStrings.MagicShop.3": "A yellowed scroll of parchment filled with dwarven script. This one's tied with a blue rope.",
+    "FSMapStrings.MagicShop.4": "A yellowed scroll of parchment filled with dwarven script. This one's tied with a golden chain.",
+    "FSMapStrings.MagicShop.5": "It's one of the helmets commonly worn by dwarves.",
+    "FSMapStrings.MagicShop.6": "It's a piece of the advanced technology once known to the dwarves. It's still glowing and humming.",
+    "FSMapStrings.MagicShop.7": "One of the earliest tools employed by humans.",
+    "FSMapStrings.MagicShop.8": "This exquisite fan most likely belonged to a noblewoman.",
+    "FSMapStrings.MagicShop.9": "It looks like Iris has some hidden inventory back here. Maybe she only sells her special inventory to close friends?",
+    "FSMapStrings.MagicShop.10": "Maybe Iris has even more hidden inventory?",
+    "FSMapStrings.MagicShop.11": "Does this television even work? It's covered in dust and cobwebs.",
+    "FSMapStrings.MagicShop.12": "An ordinary pile of wood.",
+    "FSMapStrings.TinyShop.2": "Fishing for Dummies",
+    "FSMapStrings.TinyShop.3": "A model boat.",
+    "FSMapStrings.TinyShop.4": "Not the freshest of fish.",
+    "FSMapStrings.RuinedShop.1": "Successful Small Town Business 101",
+	"FSMapStrings.RuinedShop.2": "These stairs don't look safe.",
+    "FSMapStrings.FishermanHouse.1": "Practical Magic: Fishing",
+    "FSMapStrings.FishermanHouse.2": "Using Models for Magic: A Practical Guide",
+    "FSMapStrings.FishermanHouse.3": "All the Fish in the Sea: A Fisherman's Tale",
+    "FSMapStrings.Fostoria.Stoffton_Shortcut": "@Fostoria",
+
+//Mail
+"FSMail.RemmingtonRequest.1": "Dear",
+"FSMail.RemmingtonRequest.2":"As we discussed, my research revealed how to fix my fishing tank. Could you bring me a diamond, pine tar, and a frozen tear?",
+"FSMail.RemmingtonRequest.3":"Thanks",
+"FSMail.RemmingtonRequest.4": "Request",
+"FSMail.PoriRequest.1": "Dear",
+"FSMail.PoriRequest.2": "My friends will be able to repair those ruins if I can give them limestone, slate, and a fairy stone. If you're able to bring them by my house sometime, we'll both be able to use the new building.",
+"FSMail.PoriRequest.3": "Flowers",
+"FSMail.PoriRequest.4": "Request",
+"FSMail.IrisMail.1": "Thanks for stopping by yesterday. I thought you might find this recipe useful.",
+"FSMail.IrisMail.2": "Note from Iris",
+
+//Quests
+"FSQuest.1147801.1": "Remmington's Request",
+"FSQuest.1147801.2": "Remmington asked for a frozen tear, pine tar, and a diamond to help with his magical fishing.",
+"FSQuest.1147801.3": "Enter Remmington's house with a frozen tear, pine tar, and a diamond. Make sure you've got space for his rewards.",
+"FSQuest.1147802.1": "Pori's Request",
+"FSQuest.1147802.2": "Pori asked for limestone, slate, and a fairy stone to repair the third floor of one of the abandoned buildings in Fostoria.",
+"FSQuest.1147802.3": "Enter Pori's house with limestone, slate, and a fairy stone.",
+
+//Miscellaneous
+"FSMiscellaneous.FishermanHouse_model.1": "Hey! Don't touch that!",
+"FSMiscellaneous.FishermanHouse_model.2": "This intricate model of the ocean was made with real water. It shimmers with magic. Better not touch it.",
+
+//GiftTastes
+
+"FSLovedGift.Iris": "This is great. Thank you!",
+"FSLikedGift.Iris": "Thank you.",
+"FSDislikeGift.Iris": "Ew. Gross.",
+"FSHatedGift.Iris": "This is terrible.",
+"FSNeutralGift.Iris": "That was nice of you.",
+"FSLovedGift.Remmington": "Wow! I love this.",
+"FSLikedGift.Remmington": "Thanks! This will be useful.",
+"FSDislikeGift.Remmington": "...Why would you give this to me?",
+"FSHatedGift.Remmington": "No, no, no.",
+"FSNeutralGift.Remmington": "Thanks... I guess.",
+"FSLovedGift.Pori": "How lovely! Thank you!",
+"FSLikedGift.Pori": "Thank you! I can use this for dinner tonight.",
+"FSDislikeGift.Pori": "...Do you think I need your charity?",
+"FSHatedGift.Pori": "I really cannot appreciate this.",
+"FSNeutralGift.Pori": "That was thoughtful of you.",
+
+//WinterStar Dialogue
+"FSWinterStarDialogue.IrisFS": "I encourage my brother to get out more often.",
+"FSWinterStarDialogue.RemmingtonFS": "I guess it's good to be here.",
+"FSWinterStarDialogue.Pori": "Usually I don't like the snow, but I guess it can be pretty.",
+"FSFTWinterStarDialogue.IrisFS": "I encourage my brother to get out more often.",
+"FSFTWinterStarDialogue.RemmingtonFS": "I guess it's good to be here.",
+"FSFTWinterStarDialogue.Pori": "Usually I don't like the snow, but I guess it can be pretty.",
+
+//---------------------
+//NPC Dialogue
+//---------------------
+
+//Iris Dialogue
+  "IrisFS.Introduction.1": "So you've found Fostoria, have you? Not the bustling metropolis you expected?",
+  "IrisFS.Mon.1": "I need to order new inventory.",
+  "IrisFS.Mon.2": "Yes?",
+  "IrisFS.Tue.1": "Shouldn't you be planting or something?",
+  "IrisFS.Wed.1": "What did you say? It's %time already?",
+  "IrisFS.Wed.2": "I still haven't made my order.",
+  "IrisFS.Thu.1": "So you're a farmer, huh? Interesting.",
+  "IrisFS.Thu.2": "Fostoria was a mine town, you know.",
+  "IrisFS.Fri.1": "I've heard about that JojaMart in Pelican Town.",
+  "IrisFS.Fri.2": "Never been, of course.|I've heard you ran Joja out of town.",
+  "IrisFS.Fri.3": "Good for you.",
+  "IrisFS.Sat.1": "Hi.",
+  "IrisFS.Sat.2": "Need something?",
+  "IrisFS.Sun.1": "Taking a break today?",
+  "IrisFS.WizardHouse.1": "I try to visit my brother on Sundays.",
+  "IrisFS.Sat2.1": "I've got a few new items for you to look at.",
+  "IrisFS.Sat2.2": "Have you checked out the new inventory?",
+  "IrisFS.Sat4.1": "I've got a few new items to tempt you.",
+  "IrisFS.Sat4.2": "Have you checked out the new inventory?",
+  "IrisFS.Sat6.1": "You've become such a friend, I have several new items to show you.",
+  "IrisFS.Sat6.2": "Have you checked out the new inventory?",
+  "IrisFS.Sat8.1": "You've been such a great friend, I've set out my special inventory for you.",
+  "IrisFS.Sat8.2": "Have you checked out the new inventory?",
+  "IrisFS.Sat10.1": "I've got all my rings out for you, my friend.",
+  "IrisFS.Sat10.2": "Have you checked out my full inventory?",
+  
+//Pori Dialogue
+  "Pori.Introduction.1": "Escaping the city for a bit?",
+  "Pori.Mon.1": "Have you seen any flowers today?",
+  "Pori.Mon.2": "I love flowers.",
+  "Pori.Tue.1": "Finished farming for the day?",
+  "Pori.Wed.1": "I found something today that you might be able to use. [330 771 709 390 388]",
+  "Pori.Thu.1": "Have you found any good forage today?",
+  "Pori.Fri.1": "The trees have been good to me today. Here, I want to share. [724 725 726]",
+  "Pori.Sat.1": "Hello dear.",
+  "Pori.Sat.2": "Find any good forage today?",
+  "Pori.Sun.1": "Hello @. Taking a break to forage?",
+  "Pori.Sun6.1": "You should plant more trees, I've been growing this one for awhile. [633 629 60 628 835 630 632]",
+  "Pori.Fostoria.Stoffton_Tent.1": "What do you think of my flowers? Here, I think you'll like this one. [591 18 22]",
+  "Pori.Fostoria.Stoffton_Greenhouse.1": "I'm able to grow so many more flowers now!",
+  "Pori.Fostoria.Stoffton_Greenhouse.2": "Here, I think you'll like this one. [597 418 595 376 593 421 402 591]",
+  
+//Remmington Dialogue
+  "RemmingtonFS.Introduction.1": "Need some fish? My inventory changes every day.",
+  "RemmingtonFS.Introduction.2": "Where do I get fish out here?",
+  "RemmingtonFS.Introduction.3": "You wouldn't understand.",
+  "RemmingtonFS.Mon.1": "Never buy fish on a Monday.",
+  "RemmingtonFS.Mon.2": "Except from me, of course.",
+  "RemmingtonFS.Mon.3": "Hehe.",
+  "RemmingtonFS.Tue.1": "Don't you have anything better to do?",
+  "RemmingtonFS.Tue2.1": "Accidentally got some extra of these. Here, take one. [715 716 717 718 719 720 721 722 723 372]",
+  "RemmingtonFS.Wed.1": "Are you buying fish today?",
+  "RemmingtonFS.Wed8.1": "A gift for my loyal friend. [131 130 150 701 140 132 148]",
+  "RemmingtonFS.Thu.1": "Caught any fish today?",
+  "RemmingtonFS.Thu4.1": "I guess you're alright. Here, take this. [145 143 706 699]",
+  "RemmingtonFS.Fri.1": "I think I'll restock tonight.",
+  "RemmingtonFS.Sat.1": "Hi.",
+  "RemmingtonFS.Sat.2": "Need some fish?",
+  "RemmingtonFS.Sat6.1": "A little gift for you. [136 142 700 698]",
+  "RemmingtonFS.Sun.1": "I'll have a special on fish tomorrow.",
+  "RemmingtonFS.Sun.2": "Hehe.",
+  "RemmingtonFS.Sun10.1": "On the house. [128 156 164 734]",
+
+
+
+//---------------------
+//Fostoria Events
+//---------------------
+
+//Remmington 4 heart event (Remmington speaking 1-4, 7, 11-14; Wizard speaking 5,6, 8, 9, 10)
+  "event-114780000.01": "What has he done? How is he blocking me?",
+  "event-114780000.02": "I don't understand.",
+  "event-114780000.03": "Oh! You startled me.",
+  "event-114780000.04": "No, I wasn't fishing. I was... well...",
+  "event-114780000.05": "I didn't expect to find you here, @.",
+  "event-114780000.06": "I detest your irresponsible use of magic, Remmington.#$b#But the Council refuses to outlaw your behavior. So I am unable to act.",
+  "event-114780000.07": "You're doing something, Magnus. I know you are.",
+  "event-114780000.08": "I follow the Council's Directives.",
+  "event-114780000.09": "I hope you do the same, Remmington.",
+  "event-114780000.10": "Good day to you, @.",
+  "event-114780000.11": "I suppose you want to know what that was about.",
+  "event-114780000.12": "What can I say? I use magic to stock my shop.#$b#Magnus obviously disagrees with my methods.",
+  "event-114780000.13": "You heard him... What I'm doing isn't outlawed by the Council.#$b#Say, maybe you could find some special reagents that would help me.",
+  "event-114780000.14": "I'll let you know when I figure what I need. I'll make it worth your time.",
+
+//Remmington 6 heart event (Remmington speaking)
+  "event-114780001.01": "Oh! I've learned what I need!",
+  "event-114780001.02": "Come inside for a minute.",
+  "event-114780001.03": "I used to do all my fishing here, in this tank. And when you bring the things I need, I will be able to again!",
+  "event-114780001.04": "Come and look.",
+  "event-114780001.05": "This was my master level project, you know.#$b#But I guess it needs an update to operate with all the magic in the Valley.",
+  "event-114780001.06": "Right. So I need pine tar, a frozen tear, and a diamond. Just bring them by the house anytime.",
+  "event-114780001.07": "I've sent a note listing what I need. In case you forget.",
+
+//Pori 2 heart event (Pori speaking)
+  "event-114780006.01": "It's such a lovely day, isn't it, @?",
+  "event-114780006.02": "I was just making these decorations for a buyer in ZuZu City.#$b#I get by on special orders like this one. Come take a look.",
+  "event-114780006.03": "Here, let me show you how I make them.",
+  "event-114780006.04": "There, you see?",
+  "event-114780006.05": "Pori taught me to make a 'Tub o' Flowers'.",
+
+//Pori 4 heart event (Pori speaking 1, 3, 5; Linus speaking 2, 4; on screen message 6)
+  "event-114780007.01": "It's nice of you to make the walk over, Linus.",
+  "event-114780007.02": "It's worth the walk to see you, Pori.",
+  "event-114780007.03": "You know you're always welcome, Linus...",
+  "event-114780007.04": "Oh, @, out for a walk?",
+  "event-114780007.05": "Linus and I are old friends. It's just too bad we are separated by such distance.",
+  "event-114780007.06": "Linus and Pori make such an effort to get together. I wonder if there's some way to make it easier for them...",
+  
+//Only seen if Pori's Quest was completed before Version 2.0, this is all on screen messages
+  "event-114780010.01": "You probably remember seeing something different here...",
+  "event-114780010.02": "Due to map changes in Version 2.0, visit this location instead.",
+  "event-114780010.03": "Sorry for any inconvenience. - Lizzie",
+
+//Pori 6 heart event (Pori speaking)
+  "event-114780011.01": "Hello, @. I was just looking at this lovely old building.",
+  "event-114780011.02": "I've always loved this building. It has so much potential!",
+  "event-114780011.03": "The ground floor works great as a cellar, of course. But I want to fix up the upper floor as a greenhouse.",
+  "event-114780011.04": "I'll send over a list of what I would need. If you're able to help me, just bring everything to my house.",
+
+//PoriHouse Events
+//Pori completed quest (Pori speaking)
+  "event-114780009.01": "Oh! You've brought everything!",
+  "event-114780009.02": "Let me see!",
+  "event-114780009.03": "This is perfect!",
+  "event-114780009.04": "I know it's an unusual combination of things, but my friends...",
+  "event-114780009.05": "Well, actually, maybe you know about junimos?",
+  "event-114780009.06": "I've made friends with a few of them.",
+  "event-114780009.07": "Thanks again for you help!",
+
+//WitchShop Events
+//Iris 2 heart event (Iris speaking)
+  "event-114780003.01": "Hello, @! I'm so glad you stopped by today.",
+  "event-114780003.02": "I've got a few new items to show you. Wait here.",
+  "event-114780003.03": "I'm glad I've gotten to know you, @.",
+  "event-114780003.04": "Did you see my new inventory?",
+
+//Iris 4 heart event (Iris speaking 1, 3, 4, 5, 6; Wizard speaking 2)
+  "event-114780004.01": "I love you, but you are an idiot, Magnus.",
+  "event-114780004.02": "You're not listening to my side of the story, sis.",
+  "event-114780004.03": "I've heard your story. And I've heard hers. As far as I'm concerned it's your children...",
+  "event-114780004.04": "Is someone there?",
+  "event-114780004.05": "@! How lovely to see you!",
+  "event-114780004.06": "Do you know my brother, Magnus?#$b#He doesn't visit often enough. Now, did you come to see my new inventory?",
+
+//Iris 6 heart event (Iris speaking 1, 3, 4, 5, 7; Abigail speaking 2, 6; on screen message 8)
+  "event-114780005.01": "It's always great to see you, Abigail!",
+  "event-114780005.02": "I wanted to ask you...",
+  "event-114780005.03": "Oh, @! How nice of you to stop in. Abigail and I were just catching up.",
+  "event-114780005.04": "You know Abigail, don't you?",
+  "event-114780005.05": "I was about to make us a snack, why don't you join us?",
+  "event-114780005.06": "Banana Pudding! How did you know that's my favorite?",
+  "event-114780005.07": "My brother... That is, I hoped you'd like it, Abigail.#$b#Now help yourselves, both of you. Then I'll show @ my new inventory.",
+
+
+//Remmington's completed quest (Remmington speaking)
+"event-114780002.01": "Oh! You've brought everything!",
+"event-114780002.02": "Bring it over here.",
+"event-114780002.03": "This looks great! Thanks again.",
+"event-114780002.04": "Of course.",
+"event-114780002.05": "Your reward.",
+"event-114780002.06": "I can't thank you enough.",
+"event-114780002.07": "Really.",
+"event-114780002.08": "Thanks again for you help!",
+
+//new i18n for the shop dialogue (thanks to darthalex2014 for the heads up!)
+"FishShop_Default": "Need some fish?",
+"IrisShop_Default": "I have a few things for you to look at.",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

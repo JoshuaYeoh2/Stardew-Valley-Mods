@@ -1,0 +1,450 @@
+{
+    "Format": "1.24.0",
+
+    "Changes": [
+        // ADDS MILO TO GAME
+        {
+
+            "LogName": "NPC Manifestation",
+            "Action": "EditData",
+            "Target": "Data/NPCDispositions",
+            "Entries": {
+
+                "Milo": "adult/neutral/outgoing/positive/male/datable/null/Town/winter 22/Bryson/Custom_Milo_MiloHouse 1 5/Milo",
+
+            },
+        },
+
+        {
+
+            "LogName": "NPC Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "Milo": "This is for me? I love it!/72 74 228 233 348 606 636/This is pretty cool./60 62 64 66 68 70 597 591 595 638 746 798/I don't really like this./80 330 306 256 224/What makes you think I'd like something like this?/2 18 148 168 684/Woah, you remembered my birthday? That's dope, thanks!//",
+
+            },
+        },
+
+        // MILO SPOUSE ROOM
+
+        {
+            "Action": "EditData",
+            "Target": "Data/SpouseRooms",
+            "Entries": {
+                "Milo": "K80Chimaera_Milo_SpouseRoom/0"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/K80Chimaera_Milo_SpouseRoom",
+            "FromFile": "assets/SpouseRoomMilo.tmx"
+        },
+
+        //MILO DIALOGUES
+
+        {
+
+            "LogName": "MarriageDialogue",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/MarriageDialogueMilo",
+            "FromFile": "assets/Dialogue/MarriageDialogue.json",
+
+        },
+
+        {
+
+            "LogName": "Engagement Dialogue",
+            "Action": "EditData",
+            "Target": "Data/EngagementDialogue",
+            "Entries": {
+                "Milo0": "Did you like the color I picked for my suit? Maybe I should have done the white...#$b#Do you think Bryson would have time to change it?$7",
+                "Milo1": "Lowkey, we should get a separate cake for us to take home after the wedding. It's gonna' taste so good!$1",
+            },
+        },
+
+        {
+			"LogName": "EggFestivalDialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"Entries": {
+				"Milo": "I wonder what they do with all of the eggs after we collect them...$9",
+			}
+		},
+		{
+			"LogName": "FlowerFestivalDialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": {
+				"Milo": "I wish we could all dance together!$2",
+			}
+		},
+		{
+			"LogName": "LuauDialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"Entries": {
+				"Milo": "That soup looks disgusting.$5",
+			}
+		},
+		{
+			"LogName": "MoonlightJelliesDialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"Entries": {
+				"Milo": "I'm always kind of tempted to jump into the water...$7",
+			}
+		},
+		{
+			"LogName": "FairDialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": {
+				"Milo": "I don't know about you, but I'm making a plate to take home!$1",
+			}
+		},
+		{
+			"LogName": "SpiritsEveDialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"Entries": {
+				"Milo": "Have you seen Skye and Faye?$7#$b#They were supposed to meet me here an hour ago!$5.",
+			}
+		},
+		{
+			"LogName": "IceFestivalDialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"Entries": {
+				"Milo": "Are you cold? We can make room for you if you want!$1"
+			}
+		},
+		{
+			"LogName": "WinterStarDialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"Entries": {
+				"Milo": "Penny was my secret gift giver one year and she gave me this book called Metamorphosis.$5#$e#It's about a guy that turns into a giant roach! Why would she give me that?!$7",
+			}
+		},
+
+        // FESTIVAL LOCATIONS
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [  "Entries", "Set-Up_additionalCharacters" ],
+                    "Value": "Milo 18 74 2",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries","Set-Up_additionalCharacters" ],
+                    "Value": "Milo 17 22 2",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+
+        {
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": ["Entries","Set-Up_additionalCharacters"],
+					"Value": "Milo 50 15 2",
+					"Delimiter": "/"
+				}
+			]
+		},
+
+        {
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "Milo 13 28 1",
+					"Delimiter": "/"
+				}
+			]
+		},
+
+        {
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [	"Entries","Set-Up_additionalCharacters"
+					],
+					"Value": "Milo 43 79 2",
+					"Delimiter": "/"
+				}
+			]
+		},
+
+        {
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": ["Entries",	"Set-Up_additionalCharacters"],
+					"Value": "Milo 28 22 2",
+					"Delimiter": "/"
+				}
+			]
+		},
+
+        {
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": ["Entries","Set-Up_additionalCharacters"],
+					"Value": "Milo 85 27 2",
+					"Delimiter": "/"
+				}
+			]
+		},
+
+        {
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [	"Entries","Set-Up_additionalCharacters"	],
+					"Value": "Milo 40 59 3",
+					"Delimiter": "/"
+				}
+			]
+        },
+
+        // PORTRAITS
+
+        {
+
+            "LogName": "Milo Portraits",
+            "Action": "Load",
+            "Target": "Portraits/Milo",
+            "FromFile": "assets/Image/milo.png",
+        },
+
+        {
+
+            "LogName": "Milo Sprites",
+            "Action": "Load",
+            "Target": "Characters/Milo",
+            "FromFile": "assets/Image/MiloSprite.png",
+
+        },
+
+        {
+
+            "LogName": "Dialogue",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Milo",
+            "FromFile": "assets/Dialogue/Dialogue.json",
+
+        },
+
+        {
+
+            "LogName": "RandomDialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Milo",
+            "Entries": {
+                "spring_Mon": "{{i18n: MiloSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_Tue": "{{i18n: MiloSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_Wed": "{{i18n: MiloSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_Thu": "{{i18n: MiloSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_Fri": "{{i18n: MiloSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_Sat": "{{i18n: MiloSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_Sun": "{{i18n: MiloSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_13": "I wonder if there's ever eggs left over that start to smell really bad.$9",
+                "spring_23": "The flower dance? It's tomorrow?$7#$b#I don't have  partner!$7",
+                "summer_Mon": "{{i18n: MiloSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_Tue": "{{i18n: MiloSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_Wed": "{{i18n: MiloSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_Thu": "{{i18n: MiloSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_Fri": "{{i18n: MiloSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_Sat": "{{i18n: MiloSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_Sun": "{{i18n: MiloSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_11": "I'm so excited! I love the Luau!$1",
+                "summer_28": "Nights on the beach are always amazing, but the jellies are nothing short of ethereal!$1",
+                "fall_Mon": "{{i18n: MiloFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "fall_Tue": "{{i18n: MiloFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "fall_Wed": "{{i18n: MiloFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "fall_Thu": "{{i18n: MiloFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "fall_Fri": "{{i18n: MiloFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "fall_Sat": "{{i18n: MiloFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "fall_Sun": "{{i18n: MiloFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "fall_16": "The fair has such good food. I can't wait!$1",
+                "fall_14": "Today's Bryson's birthday! Did you get him something good?$7#$b#I have to go find a pink cake!$7",
+                "fall_26": "How excited are you for the haunted maze?$1#$b#I just hope they don't do the spiders again...$2",
+                "winter_Mon": "{{i18n: MiloWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_Tue": "{{i18n: MiloWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_Thu": "{{i18n: MiloWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_Fri": "{{i18n: MiloWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_Sat": "{{i18n: MiloWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_Sun": "{{i18n: MiloWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_Wed": "{{i18n: MiloWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_7": "Oh, Bryson's going to the Ice Festival! I'll make him, if I have to!$5",
+                "winter_15": "I wish the Night Market lasted all Winter...$2",
+                "winter_16": "I want to try that submarine thing one day, but I hate fishing.$9",
+                "winter_17": "Did you get anything good?#$b#I didn't save up nearly enough money to buy everything I wanted.$2",
+                "winter_24": "Faye's gift is always the hardest to get.$5#$b#She has everything!$1",
+                "spring_Wed2": "{{i18n: MiloTwoHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "spring_Wed4": "{{i18n: MiloFourHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "spring_Wed6": "{{i18n: MiloSixHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "spring_Wed8": "{{i18n: MiloEightHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "summer_Fri2": "{{i18n: MiloTwoHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "summer_Fri4": "{{i18n: MiloFourHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "summer_Fri8": "{{i18n: MiloSixHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "summer_Fri8": "{{i18n: MiloEightHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "fall_Thu2": "{{i18n: MiloTwoHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "fall_Thu4": "{{i18n: MiloFourHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "fall_Thu6": "{{i18n: MiloSixHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "fall_Thu8": "{{i18n: MiloEightHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "winter_Sun2": "{{i18n: MiloTwoHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "winter_Sun4": "{{i18n: MiloFourHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "winter_Sun6": "{{i18n: MiloSixHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "winter_Sun8": "{{i18n: MiloEightHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+
+            },
+
+        },
+
+        {
+
+            "LogName": "Animations",
+            "Action": "EditData",
+            "Target": "Data/animationDescriptions",
+            "Entries": {
+                "working": "17/17 17 17 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 17 17 17 17 17 17 17 17/17",
+                "drinking": "1/20 20 20 20 20 20 20 20 20 21 21 21 21 21 21 21 21 21 21 22 22 22 22 22 22 22 22 22 22 22 22 23 23 23 23 23 23 23 23 23 23 23 23 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 21 21 21 21 21 21 21 21 21 21 21 21 20 20 20/1",
+                "front_food": "24/25 26 25 26 25 26/24",
+                "chair": "12/27/12",
+                "cooking": "8/28 28 29 29 28 28 29 29/8",
+                "shuffle": "8/30 30 30 30 30 30 31 31 31 31 31 31/8",
+                "food_right": "32/33 34/32",
+                "pleased": "1/35/1",
+                "read": "1/36 36 36 36 36 36 36 36 36 36 37 37 38 38 38 38 38 38 38 38 38 38 38 38 38 38 38 38 38 38 38 38 37 37 37 37 37 37 37 37 37 37 37 36/1",
+                "music": "1/39 39 39 39 39 39 39 39 39 39 39 39 39 39 39 43 43 43 43 43 43 43 43 43 43 43 43 43 43 43 43/1",
+                "sauna": "41/40/41",
+                "sunshine": "32/32/32",
+                "kiss": "4/42/4",
+            },
+        },
+
+
+
+        {
+
+            "LogName": "Schedule Dialogue",
+            "Action": "Load",
+            "Target": "Strings/schedules/Milo",
+            "FromFile": "assets/Schedule/ScheduleDialogue.json"
+
+        },
+
+        {
+
+            "LogName": "Schedule",
+            "Action": "Load",
+            "Target": "Characters/schedules/Milo",
+            "FromFile": "assets/Schedule/Schedule.json",
+
+        },
+
+        // EVENTS
+
+        {
+            "Logname": "Events",
+            "Action": "Load",
+            "Target": "Data/Events/Custom_Milo_MiloHouse",
+            "FromFile": "assets/Events/2.json",
+
+        },
+
+        {
+			"LogName": "Events",
+			"Action": "EditData",
+			"Target": "Data/Events/Custom_Milo_MiloHouse",
+			"Entries": {
+                "10359802/f Milo 500/t 1000 1500": "musicboxsong/6 6/farmer 9 14 0 Milo 2 5 3/skippable/pause 1000/emote farmer 40/pause 1000/speak Milo \"...$2\"/pause 500/speak Milo \"Is someone there?\"/pause 500/speak Milo \"You can come in, if you want.$9\"
+                /beginSimultaneousCommand/doAction 9 13/move farmer 0 -6 0/endSimultaneousCommand/move farmer -5 0 3/move farmer 0 -3 3/pause 500/faceDirection Milo 1/pause 500/emote Milo 8/speak Milo \"Oh, it's you. The new farmer.$2\"/pause 500/emote farmer 40/pause 500/speak Milo \"Sorry, I just didn't expect to see you here.$9\"
+                /showFrame Milo 35/pause 500/speak Milo \"Today hasn't been the best, honestly.$2\"/pause 500/speak Milo \"Which is why I haven't gotten out of bed at all...$2\"/faceDirection Milo 1/pause 500/speak Milo \"Sorry, you had to come all the way here to find me.\"/emote farmer 8/speak Milo \"...You want to know why?$7\"
+                /pause 1000/speak Milo \"Well it's nothing that happened specifically.$9#$b#I just started feeling like I don't deserve to live here in Pelican Town.$2\"/faceDirection Milo 2/speak Milo \"I get that feeling a lot, if I'm being honest.$2\"
+                /pause 500/speak Milo \"It sucks, because the whole reason I moved here was to try to fit in.$2\"/showFrame Milo 35/speak Milo \"I wasn't a good person when I lived in Zuzu.$2\"
+                /faceDirection Milo 2/pause 500/speak Milo \"I was on my way to becoming famous, so I was selfish and awful to the people around me.$2\"/faceDirection Milo 3/pause 500/speak Milo \"Then one day... Bryson helped me realized what kind of person I was becoming. He was having a tough time too.$2\"
+                /pause 500/speak Milo \"So we left everything behind, and moved here.$5#$b#Somehow, I guess I thought I'd be able to leave the past behind me and become a better person.$5\"/showFrame Milo 35/pause 500/speak Milo \"But, I feel like it's not enough.$2\"/emote Milo 28/speak Milo \"Maybe I'm not meant to be a good person after all.$2\"/pause 500
+                /pause 500/question fork1 \"I'm sorry. I shouldn't have dumped all of that on you.#You can't erase the past, but you can learn from it.#People don't change.\"/fork BadPerson/pause 500/faceDirection Milo 2/pause 500/speak Milo \"Do you really think so?#$b#That I can move on from everything that happened?\"
+                /emote farmer 32/speak Milo \"Thats...$9#$b#Really good to hear. Thank you.$1\"/faceDirection Milo 1/pause 500/speak Milo \"Wow, things got really depressing all of a sudden, didn't they?$6#$b#Sorry about that.$4#$b# But I am really glad I got to talk to you like this.$1\"/pause 500/speak Milo \"Maybe next time I'll be the one listening. I'm sure you have stuff you'd want to talk about too.\"
+                /emote farmer 60/end dialogue Milo \"If you ever have something you want to talk about, let me know, okay?$1\"",
+                "BadPerson": "speak Milo \"I thought so.$2\"/faceDirection Milo 2/speak Milo \"It's silly, but...I still want to try to be a better person.$2#$b#I may not be able to really become one, but I can at least try, right?$9\"/faceDirection Milo 3/pause 500/speak Milo \"But anyway, thank you for listening.$1#$b#Maybe one day I could do the same for you.\"/emote farmer 60
+                /end dialogue Milo \"If you ever have something you want to talk about, let me know, okay?$1\"",
+			},
+		},
+
+        {
+			"LogName": "Events",
+			"Action": "EditData",
+			"Target": "Data/Events/Beach",
+			"Entries": {
+                "10359806/f Milo 1500/t 1000 1600/z winter/w sunny": "summer2/44 21/farmer 38 12 2 Skye 46 21 2 Milo 42 21 2 Faye 44 20 2/skippable/showFrame Milo 34/animate Skye false true 5000 30 31/animate Faye false true 1000 31 32/pause 1000/speak Milo \"...I just don't think the floaties are that necessary, Skye.$9#$b#They look dorky.\"/pause 200
+                /emote Faye 28/pause 200/speak Skye \"They are not! Water safety is not dorky!$7#$b#Maybe you're the dorky one for thinking it's dorky!$8\"/pause 100
+                /move farmer 0 6 2/speak Milo \"That is so...$5\"/pause 300/speak Faye \"You two are so embarasing.$3\"/pause 100/speak Milo \"How am I embarassing? There's no one even-$5#$b#What?$9\"/pause 200/emote Skye 28/showFrame Milo 33/pause 100
+                /emote Milo 16/speak Milo \"Oh! Hey...@.$6#$b#Didn't see you there, haha.$8\"/emote farmer 32/speak Faye \"Now you're both dorks. How sweet.$1\"/showFrame Milo 34/pause 500/emote Milo 12/showFrame Milo 33/speak Milo \"What are you up to today?$9#$b#Are you busy?$1\"/pause 200
+                /speak Skye \"Hiya, @!$1\"/emote farmer 32/speak Milo \"If you're not doing anything, you're welcome to come and join us!$1#$b#We decided to take a beach day to relax.$1\"/pause 200/speak Skye \"It was needed.$7\"/move farmer 2 0 1/emote farmer 56
+                /pause 200/showFrame Milo 32/speak Faye \"With all of that manual labor on your farm, no wonder you need a break.\"/pause 100/emote farmer 40/pause 100/emote farmer 40/pause 100/speak Milo \"She meant that as a compliment.$\"/end dialogue Milo \"Nice seeing you today, @!\"",
+			}
+		},
+
+        {
+
+            "LogName": "Events",
+            "Action": "EditData",
+            "Target": "Data/Events/ArchaeologyHouse",
+            "Entries": {
+                "10359804/f Milo 1000/t 1000 1700": "musicboxsong/14 11/farmer 11 15 0 Milo 11 10 2 Penny 21 11 2/skippable/animate Milo false true 1000 36 37 38/animate Penny false true 5000 18 19/move farmer 0 -2 0/pause 500/stopAnimation Milo 38/speak Milo \"Oh! You scared me there, @!$7\"/pause 800/speak Milo \"How's it going? Decided to get some reading in too?$1\"/emote farmer 32
+                /speak Milo \"I love reading here. There's so many options, and the vibe is always so relaxing.$1#$b#Right now, I'm reading this really cool horror book that I found.$9#$b#The cover art is really scary looking. Come check it out.$7\"/move farmer 1 0 0/move farmer 0 -3 3/pause 500
+                /speak Milo \"It's got these thorns and creepy hands sticking through them.$7#$b#It's about this girl who gets sucked into another world and she has to try to escape before the vines take over her body.$1\"/faceDirection Milo 1/pause 500/speak Milo \"I tried to get Faye into it, but she said it was too creepy.$9#$b#Does this kind of thing scare you?$3\"
+                /emote farmer 36/speak Milo \"Haha, I guess not. You'd have to be pretty brave to go in the mines all the time like you do.$1#$b#I'm not afraid of a lot of things myself either. I'm pretty brave.$3\"/faceDirection Milo 2/pause 500/speak Milo \"There are some things that freak me out, though.$9\"/emote farmer 8/speak Milo \"Huh? I'm not telling you!$6\"
+                /emote Penny 12/textAboveHead Penny \"Shh!\"/pause 500/emote Milo 28/speak Milo \"Sorry about that!$7\"/showFrame Milo 35/pause 500/speak Milo \"Yikes. Forgot where we were for a second there.$9\"/pause 500/showFrame Milo 4/speak Milo \"But anyway, I'm definitely not telling you what I'm afraid of.$7#$b#The last time I told someone that, Dimitri chased me around with-$5#$b#That thing on a stick.$9\"
+                /speak Milo \"It was terrifying.$7\"/speak Milo \"Enough about me, though.$1\"/quickQuestion What kind of books do you like? #Romance.#Horror.#Adventure.(break)speak Milo \"Romance is cool. I've been reading it more recently.$1\"(break)speak Milo \"The same as me then? You've got excellent taste.$1\"(break)speak Milo \"You'll have to let me know some good adventure books to read then, I haven't read many.$1\"/emote farmer 32/speak Milo \"Hey, I have an idea!$7\"
+                /speak Milo \"I could read the first chapter or so out loud, and you can decide if you'd want to read this one!$1#$b#I have a really good narrator voice!$3\"/emote farmer 16/speak Milo \"Awesome!$1#$b#Okay, here I go.$7#$b#Once upon a time, in a land far far away...$7\"
+                /end dialogue Milo \"Thanks for hanging out with me earlier!$1#$b#I had a lot of fun!$1\"",
+
+            }
+
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+    ]
+}

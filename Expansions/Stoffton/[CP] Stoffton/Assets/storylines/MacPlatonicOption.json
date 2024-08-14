@@ -1,0 +1,68 @@
+{
+"Changes": [
+
+//Removing Dahlia as a Marriage Candidate
+{
+      "LogName": "Removing Dahlia as a Marriage Candidate",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Fields": {
+      "DahliaFS": {5: "not-datable"},
+      },
+
+},
+
+//Adding events for Mac as marriage candidate
+{
+
+  "Action": "EditData",
+  "Target": "Data/Events/Lizzie.Stoffton_RockyFord",
+  "Entries":{
+
+//Mac 2 heart event
+"11666001/f MacFS 500/w sunny": "kindadumbautumn/43 13/farmer 45 14 3 MacFS 43 12 0/skippable/pause 1000/speak MacFS \"{{i18n:event-11666001.01}}\"/emote MacFS 28/playSound grassyStep/pause 600/speed farmer 3/move farmer -1 0 3 true/playSound grassyStep/pause 300/playSound grassyStep/pause 300/playSound grassyStep/pause 1000/faceDirection MacFS 1/speak MacFS \"{{i18n:event-11666001.02}}\"/faceDirection farmer 0/emote farmer 8/speak MacFS \"{{i18n:event-11666001.03}}\"/faceDirection farmer 1/emote farmer 32/speak MacFS \"{{i18n:event-11666001.04}}\"/mail FS_MacMailRequest/end",
+
+	}
+},
+
+{
+
+  "Action": "EditData",
+  "Target": "Data/Events/Lizzie.Stoffton_Boarding",
+  "Entries":{
+  //Dahlia 6 heart event
+"11666166/f DahliaFS 1500/e 11666162": "breezy/18 20/farmer 18 23 0 DahliaFS 19 18 0/skippable/pause 1000/textAboveHead DahliaFS \"{{i18n:event-11666166.01}}\"/faceDirection DahliaFS 2/pause 200/jump DahliaFS/pause 200/speak DahliaFS \"{{i18n:event-11666166.02}}\"/emote farmer 8/speak DahliaFS \"$q -1 null#{{i18n:event-11666166.03}}#$r -1 20 event_loveEggs#{{i18n:event-11666166.04}}#$r -1 50 event_likeMac#{{i18n:event-11666166.05}}\"/fork likeMac/speak DahliaFS \"$q -1 null#{{i18n:event-11666166.06}}#$r -1 50 event_likeMac#{{i18n:event-11666166.07}}#$r -1 0 event_moreMac#{{i18n:event-11666166.08}}\"/fork likeMac/emote farmer 40/pause 500/speak DahliaFS \"{{i18n:event-11666166.09}}\"/speak DahliaFS \"{{i18n:event-11666166.10}}\"/end",
+  "likeMac": "speak DahliaFS \"{{i18n:event-11666166.likeMac.01}}\"/emote farmer 32/pause 500/speak DahliaFS \"{{i18n:event-11666166.likeMac.02}}\"/speak DahliaFS \"{{i18n:event-11666166.likeMac.03}}\"/emote farmer 8/pause 500/speak DahliaFS \"{{i18n:event-11666166.likeMac.04}}\"/end",
+	}
+},
+
+{
+
+  "Action": "EditData",
+  "Target": "Data/Events/Lizzie.Stoffton_Stoffton",
+  "Entries":{
+  //Dahlia 8 heart event (Mac's Proposal)
+"11666168/f DahliaFS 2000/n FS_DahliaMail/w sunny": "jaunty/98 71/farmer 103 60 3 MacFS 97 71 1 DahliaFS 97 70 1/skippable/pause 1000/move farmer -3 0 3/move DahliaFS 1 0 1/move MacFS 1 0 1/speak DahliaFS \"{{i18n:event-11666168.01}}\"/speak MacFS \"{{i18n:event-11666168.02}}\"/speak DahliaFS \"{{i18n:event-11666168.03}}\"/move MacFS 2 0 1/animate MacFS false false 1000 28 29 30 31/stopAnimation MacFS 31/speak DahliaFS \"{{i18n:event-11666168.04}}\"/speak MacFS \"{{i18n:event-11666168.05}}\"/speak DahliaFS \"{{i18n:event-11666168.06}}\"/speak MacFS \"{{i18n:event-11666168.07}}\"/speak MacFS \"{{i18n:event-11666168.08}}\"/end",
+
+//Mac and Dahlia's Marriage
+"11666170/n FS_DahliaMail8/w rainy": "wedding/-1000 -1000/farmer 22 17 0 MacFS 19 10 1 DahliaFS 21 10 3 JohannaFS 23 10 3 OttoFS 17 10 1 AlFS 34 27 0 AlunaFS 24 12 0 BrinaFS 14 17 0 JulianaFS 24 17 0 EbbeFS 12 17 0 ErikFS 22 22 0 FabianaFS 26 17 0 FelixFS 18 22 0 GarthFS 8 17 0 GerhardFS 22 12 0 GretaFS 16 17 0 HelmutFS 18 17 0 IslaFS 30 12 0 KendriaFS 12 27 0 LeanderFS 18 27 0 JosefFS 16 12 0 MakenaFS 32 12 0 MarinaFS 14 22 0 MatiusFS 10 17 0 NadiaFS 24 22 0 OdoFS 14 12 0 OliveFS 6 17 0 FionaFS 18 12 0 RhysFS 10 27 0 RolfFS 12 12 0 SeleneFS 16 27 0 SilasFS 28 12 0 TomasFS 16 22 0 UniceFS 14 27 0 XenFS 34 17 0 YosefFS 26 12 0/skippable/animate MacFS false true 5000 32/animate DahliaFS false true 5000 37/changeLocation Lizzie.Stoffton_Yoba/viewport 20 12/pause 1000/speak MacFS \"{{i18n:event-11666170.01}}\"/speak DahliaFS \"{{i18n:event-11666170.02}}\"/textAboveHead JohannaFS \"{{i18n:event-11666170.03}}\"/textAboveHead OttoFS \"{{i18n:event-11666170.04}}\"/pause 1000/specificTemporarySprite heart 20 10/playSound dwop/pause 2000/speak JohannaFS \"{{i18n:event-11666170.05}}\"/speak OttoFS \"{{i18n:event-11666170.06}}\"/addMailReceived FS_MacMarried/end",
+
+  }
+},
+
+{
+
+  "Action": "EditData",
+  "Target": "Data/Events/Lizzie.Stoffton_MacHouse",
+  "Entries":{
+
+//Mac Repair Request Completion
+"11666216/n FS_MacMailRequest/i 60/i 62/i 64": "none/5 16/farmer 5 18 0 MacFS 5 14 0/pause 1000/faceDirection MacFS 2 true/pause 500/jump MacFS/pause 1000/speak MacFS \"{{i18n:event-11666216.01}}\"/emote farmer 16/speak MacFS \"{{i18n:event-11666216.02}}\"/removeItem 60/removeItem 62/removeItem 64/addObject 4 16 60/playSound shiny4/pause 500/addObject 5 15 62/playSound shiny4/pause 600/addObject 6 16 64/playSound shiny4/removeQuest 1147802/speak MacFS \"{{i18n:event-11666216.03}}\"/removeObject 4 16/playSound pickUpItem/pause 500/removeObject 5 15/playSound pickUpItem/pause 500/removeObject 6 16/playSound pickUpItem/pause 500/emote farmer 8/pause 500/speak MacFS \"{{i18n:event-11666216.04}}\"/speak MacFS \"{{i18n:event-11666216.05}}\"/speak MacFS \"{{i18n:event-11666216.06}}\"/mail FS_MacRepair/fade/end dialogue MacFS \"{{i18n:event-11666216.07}}\"",
+
+//Repairing Mac's House
+"11666215/n FS_MacRepair": "kindadumbautumn/12 17/farmer 12 19 0 MacFS 12 15 2/skippable/pause 1000/speak MacFS \"{{i18n:event-11666215.01}}\"/emote MacFS 32/pause 500/speak MacFS \"{{i18n:event-11666215.02}}\"/faceDirection farmer 1/pause 500/faceDirection farmer 3/pause 500/faceDirection farmer 0/pause 500/emote farmer 16/speak MacFS \"{{i18n:event-11666215.03}}\"/emote farmer 32/pause 500/end",
+}
+},
+
+]
+}

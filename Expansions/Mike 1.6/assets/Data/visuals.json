@@ -1,0 +1,78 @@
+{
+
+  "Changes": [
+//Load Original
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/Mike",
+      "FromFile": "assets/Image/Original/Sprite.png"
+    },
+    {
+      "LogName": "Beach Sprites", 
+      "Action": "Load",
+      "Target": "Characters/Mike_Beach",
+      "FromFile": "assets/Image/Original/Sprite_Beach.png"
+    },
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Mike",
+      "FromFile": "assets/Image/Original/Mike.png"
+    },
+    {
+      "LogName": "Beach Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Mike_Beach",
+      "FromFile": "assets/Image/Original/Mike_Beach.png"
+    },
+
+//Airyn and DSVO
+    {
+      "LogName": "Sprites Airyn and DSVO", 
+      "Action": "EditImage",
+      "Target": "Characters/Mike",
+      "FromFile": "assets/Image/{{MikeLooks}}/Sprite.png",
+      "When": {"MikeLooks": "Airyn, DSVO",},
+    },
+    {
+      "LogName": "Beach Sprites Airyn and DSVO", 
+      "Action": "EditImage",
+      "Target": "Characters/Mike_Beach",
+      "FromFile": "assets/Image/{{MikeLooks}}/Sprite_Beach.png",
+      "When": {"MikeLooks": "Airyn, DSVO",},
+    },
+    {
+      "LogName": "Portraits Airyn and DSVO",
+      "Action": "EditImage",
+      "Target": "Portraits/Mike",
+      "FromFile": "assets/Image/{{MikeLooks}}/Mike.png",
+      "When": {"MikeLooks": "Airyn, DSVO",},
+    },
+    {
+      "LogName": "Beach Portraits Airyn and DSVO",
+      "Action": "EditImage",
+      "Target": "Portraits/Mike_Beach",
+      "FromFile": "assets/Image/{{MikeLooks}}/Mike_Beach.png",
+      "When": {"MikeLooks": "Airyn, DSVO",},
+    },
+
+//At Festivals
+    {
+      "LogName": "Beach Portraits in Festivals at the Beach",
+      "Action": "Include",
+      "FromFile": "assets/Events/festivalchanges.json",
+      "When": {"MikeLooks": "Airyn, DSVO", "HasMod": "DSVTeam.DiverseStardewValley",},
+    },
+
+//Hangin99 (both options)
+    {
+      "LogName": "Portraits Hangin99",
+      "Action": "EditImage",
+      "Target": "Portraits/Mike",
+      "FromFile": "assets/Image/{{MikeLooks}}/Mike.png",
+      "When": {"MikeLooks": "Hangin99_1, Hangin99_2",},
+    },
+
+]
+}

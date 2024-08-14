@@ -1,0 +1,2952 @@
+{
+	"Format": "1.9",
+	
+			"ConfigSchema": 
+		{
+			"Anchoviella":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+ 			"ArcticChar":
+ 				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Arowana":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"BandedAngelfish":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Barracuda":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Barreleye":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"BlackGhostKnifefish":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Blinky":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"BlueDragonSlug":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"BlueFreshwaterShrimp":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"BlueRingedOctopus":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"BlueStarfish":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"BlueTang":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Bonnethead":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"BonnetheadPup1":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"BonnetheadPup2":
+  				{
+				"AllowValues": "true,false",
+				"Default": "false",
+				"AllowMultiple": "false"
+				},
+  			"BrainSlug": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"BriefSquid":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Cavefish":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"CaveLobster":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"CelestialEye": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"ClownKnifefish": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"ClownLoach": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"ClownTriggerfish": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Coelacanth": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Comet": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"CommonPleco":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Conger": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"CrownOfThornsStarfish": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"CyclopsShark": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Decapod": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"DumboOctopus": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"DwarfStingray": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"DwarfStingrayPup": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"ElectricCatfish": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Elephantfish": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"VoidEvilpus": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"FalseKelpfish": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"FireClownfish": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"FlameAngelfish":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"FreshwaterButterflyfish":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"FreshwaterCrab": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"FreshwaterPufferfish": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"FreshwaterShrimp": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"FrilledShark": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"GhostEel1": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "false",
+				"AllowMultiple": "false"
+				},
+  			"GhostEel2": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"GhostKoi": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Glassfish": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"GoblinSharkPup": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Goldfish": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"GreatFireflySquid": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"GreenTerror": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Haddock": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Hagfish": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"HarlequinFreshwaterShrimp":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"HiUtsuriKoi": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"HolyGrenadeStarfish": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Icefish":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Ide": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Jellyfish": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"KingCrab": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"KiUtsuriKoi":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"KohakuKoi": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+ 			"La": 
+ 				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Ladyfish": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Lamprey": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"LongfinIcedevil": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Mandarinfish":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Lionhead": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"LongnoseGar": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Lungfish": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"MantaRayPup": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"MaroonClownfish":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"MimicOctopus": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Monkfish":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"MoorishIdol": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Mudskipper":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Mushu":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Nautilus": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"OrangeClownfish": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"OrnateAngelfish": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Pacu":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Pangasius": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"PinkSkunkClownfish":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Piranha":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Pollock": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Prawn": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"RedFreshwaterShrimp":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+ 			"RedHarlequinFreshwaterShrimp":
+ 				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"RedtailShark": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"RibbonEel": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Robalo": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"RoyalAngelfish": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"RoyalStarfish":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"SaddlebackClownfish": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"SandDollar": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "false",
+				"AllowMultiple": "false"
+				},
+  			"SankeKoi": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Sauger": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"SeaSnake": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"SebaeClownfish": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Shinidamachu": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"ShiroUtsuriKoi":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"SiameseAlgaeEater":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"SkunkClownfish": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"SmallGoblinShark": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"SmallMantaRay": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"SmallSwordfish":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"SnowballPleco":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Soldierfish": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"SpinyDogfish": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"SpinyDogfishPup": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Squirrelfish": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Starfish":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"StubbySquid": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"SwimmerCrab":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"TanchoKoi":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Telescope":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Tench":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"ThreadSailFilefish":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"ThreespotAngelfish": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Tigerfish": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"TigerPuffer": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Trahira": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"TrappedSoul":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Tucunare":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Tui": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"TwobandClownfish":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"VampireFish": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"VampireSquid": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"VoidAlgae": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"VoidCarp": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"WaterSnake":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"WhitesnoutClownfish": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"WidebandClownfish":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"Wolffish":
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"YamabukiKoi": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"YellowtailClownfish": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"ZebraEel": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+  			"ZebraTilapia": 
+  				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+		},	
+	"Changes": [
+		{
+
+			"LogName": "Anchoviella",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "anchoviella.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 256, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Anchoviella": "true"
+				},
+		},
+		{
+					
+			"LogName": "Arctic Char",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "arcticchar.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 288, "Y": 48, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"ArcticChar": "true"
+				},
+		},
+		{
+					
+			"LogName": "Arowana",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "arowana.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 272, "Y": 48, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Arowana": "true"
+				},
+		},
+		{
+					
+			"LogName": "Banded Angelfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "bandedangelfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 80, "Y": 80, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"BandedAngelfish": "true"
+				},
+		},
+		{
+					
+			
+			"LogName": "Barracuda",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "barracuda.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 352, "Y": 48, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Barracuda": "true"
+				},
+		},
+		{			
+			"LogName": "Barreleye",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "barreleye.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 112, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Barreleye": "true"
+				},
+
+		},
+		{
+			"LogName": "Black Ghost Knifefish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "blackghostknifefish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 336, "Y": 32, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"BlackGhostKnifefish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Blinky",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "blinky.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 256, "Y": 48, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Blinky": "true"
+				},
+
+		},
+		{			
+			"LogName": "Blue Dragon Slug",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "bluedragonslug.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 224, "Y": 16, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"BlueDragonSlug": "true"
+				},
+
+		},
+		{			
+			"LogName": "Blue Freshwater Shrimp",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "bluefreshwatershrimp.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 32, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"BlueFreshwaterShrimp": "true"
+				},
+
+		},
+		{			
+			"LogName": "Blue-Ringed Octopus",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "blueringedoctopus.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"BlueRingedOctopus": "true"
+				},
+
+		},
+		{			
+			"LogName": "Blue Starfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "bluestarfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 288, "Y": 16, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"BlueStarfish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Blue Tang",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "bluetang.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 16, "Y": 80, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"BlueTang": "true"
+				},
+
+		},
+		{
+			"LogName": "Bonnethead",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "bonnethead.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 368, "Y": 32, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Bonnethead": "true"
+				},
+
+		},
+		{
+			"LogName": "Bonnethead Pup1",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "bonnetheadpup1.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 16, "Y": 48, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 8,
+			"When":
+				{
+				"BonnetheadPup1": "true"
+				},
+
+		},
+		{
+			"LogName": "Bonnethead Pup2",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "bonnetheadpup2.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 16, "Y": 48, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 8,
+			"When":
+				{
+				"BonnetheadPup2": "true"
+				},
+
+		},
+		{			
+			"LogName": "Brain Slug",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "brainslug.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 304, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 8,
+			"When":
+				{
+				"BrainSlug": "true"
+				},
+
+		},
+		{			
+			"LogName": "Brief Squid",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "briefsquid.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 48, "Y": 32, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"BriefSquid": "true"
+				},
+
+		},
+		{			
+			"LogName": "Cavefish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "cavefish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 160, "Y": 32, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Cavefish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Cave Lobster",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "cavelobster.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 176, "Y": 32, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"CaveLobster": "true"
+				},
+
+		},
+		{			
+			"LogName": "Celestial Eye",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "celestialeye.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 176, "Y": 64, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 8,
+			"When":
+				{
+				"CelestialEye": "true"
+				},
+
+		},
+		{			
+			"LogName": "Clown Knifefish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "clownknifefish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"ClownKnifefish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Clown Loach",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "clownloach.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"ClownLoach": "true"
+				},
+
+		},
+		{
+			"LogName": "Clown Triggerfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "clowntriggerfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 352, "Y": 32, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"ClownTriggerfish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Coelacanth",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "coelacanth.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 144, "Y": 32, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Coelacanth": "true"
+				},
+
+		},
+		{			
+			"LogName": "Comet",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "comet.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 144, "Y": 64, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Comet": "true"
+				},
+
+		},
+		{			
+			"LogName": "Common Pleco",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "commonpleco.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 128, "Y": 16, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"CommonPleco": "true"
+				},
+
+		},
+		{			
+			"LogName": "Conger",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "conger.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 16, "Y": 16, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Conger": "true"
+				},
+
+		},
+		{			
+			"LogName": "Crown Of Thorns Starfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "crownofthornsstarfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 320, "Y": 16, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 9,
+			"When":
+				{
+				"CrownOfThornsStarfish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Cyclops Shark",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "cyclopsshark.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 256, "Y": 16, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 15,
+			"AnimationFrameCount": 16,
+			"When":
+				{
+				"CyclopsShark": "true"
+				},
+
+		},
+		{			
+			"LogName": "Decapod",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "decapod.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 112, "Y": 32, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Decapod": "true"
+				},
+
+		},
+		{			
+			"LogName": "Dumbo Octopus",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "dumbooctopus.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 96, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 8,
+			"When":
+				{
+				"DumboOctopus": "true"
+				},
+
+		},
+		{			
+			"LogName": "Dwarf Stingray",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "dwarfstingray.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 128, "Y": 80, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"DwarfStingray": "true"
+				},
+
+		},
+		{
+			"LogName": "Dwarf Stingray Pup",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "dwarfstingraypup.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 304, "Y": 80, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"DwarfStingrayPup": "true"
+				},
+
+		},
+		{			
+			"LogName": "Electric Catfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "electriccatfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 48, "Y": 64, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 8,
+			"When":
+				{
+				"ElectricCatfish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Elephantfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "elephantfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 80, "Y": 16, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Elephantfish": "true"
+				},
+
+		},
+		{			
+			"LogName": "False Kelpfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "falsekelpfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 208, "Y": 80, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"FalseKelpfish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Fire Clownfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "fireclownfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 336, "Y": 64, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"FireClownfish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Flame Angelfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "flameangelfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 112, "Y": 80, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"FlameAngelfish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Freshwater Butterflyfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "freshwaterbutterflyfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 32, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"FreshwaterButterflyfish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Freshwater Crab",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "freshwatercrab.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 192, "Y": 32, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"FreshwaterCrab": "true"
+				},
+
+		},
+		{			
+			"LogName": "Freshwater Pufferfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "freshwaterpufferfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 128, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 19,
+			"When":
+				{
+				"FreshwaterPufferfish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Freshwater Shrimp",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "freshwatershrimp.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 352, "Y": 16, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"FreshwaterShrimp": "true"
+				},
+
+		},
+		{			
+			"LogName": "Frilled Shark",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "frilledshark.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 48, "Y": 48, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"FrilledShark": "true"
+				},
+
+		},
+		{			
+			"LogName": "Ghost Eel1",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "ghosteel1.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 224, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"GhostEel1": "true"
+				},
+
+		},
+		{			
+			"LogName": "Ghost Eel2",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "ghosteel2.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 224, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 8,
+			"When":
+				{
+				"GhostEel2": "true"
+				},
+
+		},
+		{			
+			"LogName": "Ghost Koi",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "ghostkoi.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 368, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"GhostKoi": "true"
+				},
+
+		},
+		{			
+			"LogName": "Glassfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "glassfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 96, "Y": 64, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Glassfish": "true"
+				},
+
+		},
+		{
+			"LogName": "Goblin Shark Pup",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "goblinsharkpup.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 48, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"GoblinSharkPup": "true"
+				},
+
+		},
+		{			
+			"LogName": "Goldfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "goldfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 112, "Y": 64, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Goldfish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Great Firefly Squid",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "greatfireflysquid.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 288, "Y": 80, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 11,
+			"When":
+				{
+				"GreatFireflySquid": "true"
+				},
+
+		},
+		{			
+			"LogName": "Green Terror",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "greenterror.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 288, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"GreenTerror": "true"
+				},
+
+		},
+		{			
+			"LogName": "Haddock",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "haddock.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 320, "Y": 48, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Haddock": "true"
+				},
+
+		},
+		{			
+			"LogName": "Hagfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "hagfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 272, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Hagfish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Harlequin Freshwater Shrimp",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "harlequinfreshwatershrimp.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 16, "Y": 32, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"HarlequinFreshwaterShrimp": "true"
+				},
+
+		},
+		{			
+			"LogName": "Hi Utsuri Koi",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "hiutsurikoi.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 16, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"HiUtsuriKoi": "true"
+				},
+
+		},
+		{			
+			"LogName": "Holy Grenade Starfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "holygrenadestarfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 336, "Y": 16, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"HolyGrenadeStarfish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Icefish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "icefish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 176, "Y": 80, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Icefish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Ide",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "ide.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 176, "Y": 16, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Ide": "true"
+				},
+
+		},
+		{			
+			"LogName": "Jellyfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "jellyfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 192, "Y": 64, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Jellyfish": "true"
+				},
+
+		},
+		{			
+			"LogName": "King Crab",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "kingcrab.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 96, "Y": 32, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"KingCrab": "true"
+				},
+
+		},
+		{			
+			"LogName": "Ki Utsuri Koi",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "kiutsurikoi.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 48, "Y": 16, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"KiUtsuriKoi": "true"
+				},
+
+		},
+		{			
+			"LogName": "Kohaku Koi",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "kohakukoi.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 112, "Y": 48, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"KohakuKoi": "true"
+				},
+
+		},
+		{			
+			"LogName": "La",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "la.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 208, "Y": 48, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"La": "true"
+				},
+
+		},
+		{			
+			"LogName": "Ladyfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "ladyfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 80, "Y": 48, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Ladyfish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Lamprey",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "lamprey.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 192, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 8,
+			"When":
+				{
+				"Lamprey": "true"
+				},
+
+		},
+		{			
+			"LogName": "Lionhead",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "lionhead.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 128, "Y": 64, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Lionhead": "true"
+				},
+
+		},
+		{			
+			"LogName": "Longfin Icedevil",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "longfinicedevil.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 368, "Y": 48, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"LongfinIcedevil": "true"
+				},
+
+		},
+		{			
+			"LogName": "Longnose Gar",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "longnosegar.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 320, "Y": 32, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"LongnoseGar": "true"
+				},
+
+		},
+		{			
+			"LogName": "Lungfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "lungfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 288, "Y": 32, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Lungfish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Mandarinfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "mandarinfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 256, "Y": 80, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Mandarinfish": "true"
+				},
+
+		},
+		{
+			"LogName": "Manta Ray Pup",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "mantaraypup.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 64, "Y": 48, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"MantaRayPup": "true"
+				},
+
+		},
+		{			
+			"LogName": "Maroon Clownfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "maroonclownfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 304, "Y": 64, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"MaroonClownfish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Mimic Octopus",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "mimicoctopus.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 48, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"MimicOctopus": "true"
+				},
+
+		},
+		{			
+			"LogName": "Monkfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "monkfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 144, "Y": 80, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Monkfish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Moorish Idol",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "moorishidol.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 32, "Y": 80, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"MoorishIdol": "true"
+				},
+
+		},
+		{			
+			"LogName": "Mudskipper",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "mudskipper.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 128, "Y": 32, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Mudskipper": "true"
+				},
+
+		},
+		{			
+			"LogName": "Mushu",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "mushu.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 320, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Mushu": "true"
+				},
+
+		},
+		{			
+			"LogName": "Nautilus",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "nautilus.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 240, "Y": 16, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 16,
+			"When":
+				{
+				"Nautilus": "true"
+				},
+
+		},
+		{			
+			"LogName": "Orange Clownfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "orangeclownfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 256, "Y": 64, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"OrangeClownfish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Ornate Angelfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "ornateangelfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 64, "Y": 80, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"OrnateAngelfish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Pacu",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "pacu.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 112, "Y": 16, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Pacu": "true"
+				},
+
+		},
+		{			
+			"LogName": "Pangasius",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "pangasius.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 192, "Y": 16, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Pangasius": "true"
+				},
+
+		},
+		{			
+			"LogName": "Pink Skunk Clownfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "pinkskunkclownfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 288, "Y": 64, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"PinkSkunkClownfish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Piranha",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "piranha.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 240, "Y": 48, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Piranha": "true"
+				},
+
+		},
+		{			
+			"LogName": "Pollock",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "pollock.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 80, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Pollock": "true"
+				},
+
+		},
+		{			
+			"LogName": "Prawn",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "prawn.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 64, "Y": 32, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Prawn": "true"
+				},
+
+		},
+		{			
+			"LogName": "Red Freshwater Shrimp",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "redfreshwatershrimp.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 368, "Y": 16, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"RedFreshwaterShrimp": "true"
+				},
+
+		},
+		{			
+			"LogName": "Red Harlequin Freshwater Shrimp",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "redharlequinfreshwatershrimp.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 32, "Y": 32, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"RedHarlequinFreshwaterShrimp": "true"
+				},
+
+		},
+		{			
+			"LogName": "Redtail Shark",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "redtailshark.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 64, "Y": 16, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"RedtailShark": "true"
+				},
+
+		},
+		{			
+			"LogName": "Ribbon Eel",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "ribboneel.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 208, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"RibbonEel": "true"
+				},
+
+		},
+		{			
+			"LogName": "Robalo",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "robalo.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 240, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Robalo": "true"
+				},
+
+		},
+		{			
+			"LogName": "Royal Angelfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "royalangelfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 48, "Y": 80, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"RoyalAngelfish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Royal Starfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "royalstarfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 304, "Y": 16, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"RoyalStarfish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Saddleback Clownfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "saddlebackclownfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 240, "Y": 64, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"SaddlebackClownfish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Sand Dollar",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "sanddollar.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 80, "Y": 32, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"SandDollar": "true"
+				},
+
+		},
+		{			
+			"LogName": "Sanke Koi",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "sankekoi.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 128, "Y": 48, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"SankeKoi": "true"
+				},
+
+		},
+		{			
+			"LogName": "Sauger",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "sauger.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 96, "Y": 16, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Sauger": "true"
+				},
+
+		},
+		{			
+			"LogName": "Sea Snake",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "seasnake.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 64, "Y": 64, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"SeaSnake": "true"
+				},
+
+		},
+		{			
+			"LogName": "Sebae Clownfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "sebaeclownfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 208, "Y": 64, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"SebaeClownfish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Shinidamachu",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "shinidamachu.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 240, "Y": 32, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Shinidamachu": "true"
+				},
+
+		},
+		{			
+			"LogName": "Shiro Utsuri Koi",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "shiroutsurikoi.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 32, "Y": 16, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"ShiroUtsuriKoi": "true"
+				},
+
+		},
+		{			
+			"LogName": "Siamese Algae Eater",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "siamesealgaeeater.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 144, "Y": 16, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"SiameseAlgaeEater": "true"
+				},
+
+		},
+		{			
+			"LogName": "Skunk Clownfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "skunkclownfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 272, "Y": 64, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"SkunkClownfish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Small Goblin Shark",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "smallgoblinshark.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 176, "Y": 48, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"SmallGoblinShark": "true"
+				},
+
+		},
+		{			
+			"LogName": "Small Manta Ray",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "smallmantaray.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 224, "Y": 48, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"SmallMantaRay": "true"
+				},
+
+		},
+		{			
+			"LogName": "Small Swordfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "smallswordfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 336, "Y": 48, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"SmallSwordfish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Snowball Pleco",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "snowballpleco.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 160, "Y": 16, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"SnowballPleco": "true"
+				},
+
+		},
+		{			
+			"LogName": "Soldierfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "soldierfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 192, "Y": 80, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Soldierfish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Spiny Dogfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "spinydogfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 64, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"SpinyDogfish": "true"
+				},
+
+		},
+		{
+			"LogName": "Spiny Dogfish Pup",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "spinydogfishpup.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 32, "Y": 48, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"SpinyDogfishPup": "true"
+				},
+
+		},
+		{			
+			"LogName": "Squirrelfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "squirrelfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 160, "Y": 80, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Squirrelfish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Starfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "starfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 272, "Y": 16, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Starfish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Stubby Squid",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "stubbysquid.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 80, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 8,
+			"When":
+				{
+				"StubbySquid": "true"
+				},
+
+		},
+		{			
+			"LogName": "Swimmer Crab",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "swimmercrab.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 80, "Y": 64, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"SwimmerCrab": "true"
+				},
+
+		},
+		{			
+			"LogName": "Tancho Koi",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "tanchokoi.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 96, "Y": 48, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"TanchoKoi": "true"
+				},
+
+		},
+		{			
+			"LogName": "Telescope",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "telescope.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 160, "Y": 64, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 7,
+			"When":
+				{
+				"Telescope": "true"
+				},
+
+		},
+		{			
+			"LogName": "Tench",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "tench.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 304, "Y": 48, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Tench": "true"
+				},
+
+		},
+		{			
+			"LogName": "Thread Sail Filefish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "threadsailfilefish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 224, "Y": 80, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"ThreadSailFilefish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Threespot Angelfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "threespotangelfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 96, "Y": 80, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"ThreespotAngelfish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Tigerfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "tigerfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 304, "Y": 32, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Tigerfish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Tiger Puffer",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "tigerpuffer.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 272, "Y": 80, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 12,
+			"When":
+				{
+				"TigerPuffer": "true"
+				},
+
+		},
+		{			
+			"LogName": "Trahira",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "trahira.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 208, "Y": 16, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Trahira": "true"
+				},
+
+		},
+		{			
+			"LogName": "Trapped Soul",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "trappedsoul.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 176, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"TrappedSoul": "true"
+				},
+
+		},
+		{			
+			"LogName": "Tucunare",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "tucunare.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 160, "Y": 48, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Tucunare": "true"
+				},
+
+		},
+		{			
+			"LogName": "Tui",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "tui.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 192, "Y": 48, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Tui": "true"
+				},
+
+		},
+		{			
+			"LogName": "Twoband Clownfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "twobandclownfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 352, "Y": 64, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"TwobandClownfish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Vampire Fish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "vampirefish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 272, "Y": 32, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"VampireFish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Vampire Squid",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "vampiresquid.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 256, "Y": 32, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"VampireSquid": "true"
+				},
+
+		},
+		{			
+			"LogName": "Void Algae",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "voidalgae.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 144, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"VoidAlgae": "true"
+				},
+
+		},
+		{			
+			"LogName": "Void Carp",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "voidcarp.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 16, "Y": 64, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"VoidCarp": "true"
+				},
+
+		},
+		{			
+			"LogName": "Void Evilpus",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "voidevilpus.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 160, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 16,
+			"When":
+				{
+				"VoidEvilpus": "true"
+				},
+
+		},
+		{			
+			"LogName": "Water Snake",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "watersnake.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 32, "Y": 64, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"WaterSnake": "true"
+				},
+
+		},
+		{			
+			"LogName": "Whitesnout Clownfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "whitesnoutclownfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 320, "Y": 64, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"WhitesnoutClownfish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Wideband Clownfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "widebandclownfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 224, "Y": 64, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"WidebandClownfish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Wolffish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "wolffish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 240, "Y": 80, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Wolffish": "true"
+				},
+
+		},
+		{			
+			"LogName": "Yamabuki Koi",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "yamabukikoi.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 352, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"YamabukiKoi": "true"
+				},
+
+		},
+		{			
+			"LogName": "Yellowtail Clownfish",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "yellowtailclownfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 368, "Y": 64, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"YellowtailClownfish": "true"
+				},
+
+		},
+		{
+			"LogName": "Zebra Eel",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "zebraeel.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 336, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"ZebraEel": "true"
+				},
+
+		},
+		{
+			"LogName": "Zebra Tilapia",
+			"Action": "EditImage",
+			"Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"FromFile": "zebratilapia.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 144, "Y": 48, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"ZebraTilapia": "true"
+				},
+
+		},
+
+		
+	]
+}

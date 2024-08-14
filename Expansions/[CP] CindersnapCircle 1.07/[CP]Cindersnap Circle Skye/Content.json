@@ -1,0 +1,361 @@
+{
+    "Format": "1.24.0",
+
+    "Changes": [
+        // ADDS Skye TO GAME
+        {
+
+            "LogName": "NPC Manifestation",
+            "Action": "EditData",
+            "Target": "Data/NPCDispositions",
+            "Entries": {
+
+                "Skye": "adult/polite/neutral/outgoing/male/datable/null/Town/spring 15/null/Custom_Skye_SkyeHouse 4 4/Skye",
+
+            },
+        },
+
+        {
+
+            "LogName": "NPC Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "Skye": "For me? Thanks so much!/253 234 637 90 368 340 258/This is really cool, @!/402 614 254 282 152 395/...Um, I might give this to someone else./78 715 220 221/Oh...I don't really want it./769 881 342 800 203/You remembered my birthday? Thank you!//",
+
+            },
+        },
+
+        // Skye SPOUSE ROOM (WIP)
+
+        // Skye DIALOGUES
+
+        {
+
+            "LogName": "Engagement Dialogue",
+            "Action": "EditData",
+            "Target": "Data/EngagementDialogue",
+            "Entries": {
+                "Skye0": "Isn't it crazy that with all the people in the world, we still managed to find each other?$1",
+                "Skye1": "Oh! I forgot to give Bryson the money for my suit!$3",
+            },
+        },
+
+
+
+        // Skye FESTIVAL LOCATIONS
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [  "Entries", "Set-Up_additionalCharacters" ],
+                    "Value": "Skye 19 76 0",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries","Set-Up_additionalCharacters" ],
+                    "Value": "Skye 14 21 2",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries","Set-Up_additionalCharacters"],
+                    "Value": "Skye 52 17 3",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Skye 13 30 1",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [	"Entries","Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Skye 33 73 0",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries",	"Set-Up_additionalCharacters"],
+                    "Value": "Skye 10 28 1",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries","Set-Up_additionalCharacters"],
+                    "Value": "Skye 83 27 2",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [	"Entries","Set-Up_additionalCharacters"	],
+                    "Value": "Skye 16 64 1",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+
+
+        // PORTRAITS
+
+        {
+
+            "LogName": "Skye Portraits",
+            "Action": "Load",
+            "Target": "Portraits/Skye",
+            "FromFile": "assets/Image/SkyePortraits.png",
+        },
+
+        {
+
+            "LogName": "Skye Sprites",
+            "Action": "Load",
+            "Target": "Characters/Skye",
+            "FromFile": "assets/Image/SkyeSprite.png",
+
+        },
+
+        // DIALOGUES
+        {
+            "LogName": "EggFestivalDialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "Entries": {
+                "Skye": "I wonder if the chickens miss their eggs.$2",
+            }
+        },
+        {
+            "LogName": "FlowerFestivalDialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "Entries": {
+                "Skye": "Faye gets jealous if I ask Milo to dance.$6",
+            }
+        },
+        {
+            "LogName": "LuauDialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "Entries": {
+                "Skye": "I can't remember if I added something to the soup or not!$7",
+            }
+        },
+        {
+            "LogName": "MoonlightJelliesDialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "Entries": {
+                "Skye": "They glow because they're bioluminescent. It's really cool!$1",
+            }
+        },
+        {
+            "LogName": "FairDialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "Entries": {
+                "Skye": "Is the green part for AM and the orange part for PM? How come the clock only has one hand? I'm so confused!$7",
+            }
+        },
+        {
+            "LogName": "SpiritsEveDialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "Entries": {
+                "Skye": "We're supposed to meet Milo, but...I don't think we're ever getting out of here.$7",
+            }
+        },
+        {
+            "LogName": "IceFestivalDialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "Entries": {
+                "Skye": "Gather around! Faye's keeping us warm!$1"
+            }
+        },
+        {
+            "LogName": "WinterStarDialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "Entries": {
+                "Skye": "I really hope everyone likes their presents...$7",
+            }
+        },
+
+        {
+
+            "LogName": "Dialogue",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Skye",
+            "FromFile": "assets/Dialogue/Dialogue.json",
+
+        },
+
+        {
+
+            "LogName": "Marriage Dialogue",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/MarriageDialogueSkye",
+            "FromFile": "assets/Dialogue/MarriageDialogue.json",
+
+        },
+
+        {
+
+            "LogName": "RandomDialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Skye",
+            "Entries": {
+                "spring_Mon": "{{i18n: SkyeSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_Tue": "{{i18n: SkyeSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_Wed": "{{i18n: SkyeSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_Thu": "{{i18n: SkyeSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_Fri": "{{i18n: SkyeSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_Sat": "{{i18n: SkyeSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_Sun": "{{i18n: SkyeSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_13": "I don't like doing the egg hunt. I don't want them hatching while I'm holding them.$7",
+                "spring_23": "I really want to dance tomorrow...$8#$b#But I can't choose which best friend to dance with! That's like picking favorites!$3",
+                "summer_Mon": "{{i18n: SkyeSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_Tue": "{{i18n: SkyeSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_Wed": "{{i18n: SkyeSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_Thu": "{{i18n: SkyeSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_Fri": "{{i18n: SkyeSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_Sat": "{{i18n: SkyeSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_Sun": "{{i18n: SkyeSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_10": "I forgot to bring something to the luau last year! I can't forget again!$9",
+                "summer_27": "A weak acetic acid should help with any stings. I'll bring some vinegar with me to the beach tomorrow tonight.$1",
+                "fall_Mon": "{{i18n: SkyeFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "fall_Tue": "{{i18n: SkyeFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "fall_Wed": "{{i18n: SkyeFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "fall_Thu": "{{i18n: SkyeFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "fall_Fri": "{{i18n: SkyeFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "fall_Sat": "{{i18n: SkyeFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "fall_Sun": "{{i18n: SkyeFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "fall_15": "I'm going to get so many tokens tomorrow!$1",
+                "fall_27": "I should have gotten a costume or something!$7#$b#I look good in spandex.$6",
+                "winter_Mon": "{{i18n: SkyeWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_Tue": "{{i18n: SkyeWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_Thu": "{{i18n: SkyeWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_Fri": "{{i18n: SkyeWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_Sat": "{{i18n: SkyeWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_Sun": "{{i18n: SkyeWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_Wed": "{{i18n: SkyeWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_15": "I have a long list of stuff to buy from the market. I hope I can get everything.$1",
+                "winter_16": "Faye's dad asked me to watch out for her tonight.$3#$b#I'm just going to call Bryson if anything happens. He seems like he can fight.$1",
+                "winter_17": "Wait! How'd I get home last night? Who was that guy in the cloak?$3",
+                "winter_24": "My gifts aren't ready yet!$7",
+                "spring_Fri2": "{{i18n: SkyeTwoHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "spring_Fri4": "{{i18n: SkyeFourHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "spring_Fri6": "{{i18n: SkyeSixHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "spring_Fri8": "{{i18n: SkyeEightHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "summer_Sun2": "{{i18n: SkyeTwoHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "summer_Sun4": "{{i18n: SkyeFourHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "summer_Sun8": "{{i18n: SkyeSixHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "summer_Sun8": "{{i18n: SkyeEightHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "fall_Tue2": "{{i18n: SkyeTwoHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "fall_Tue4": "{{i18n: SkyeFourHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "fall_Tue6": "{{i18n: SkyeSixHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "fall_Tue8": "{{i18n: SkyeEightHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "winter_Thu2": "{{i18n: SkyeTwoHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "winter_Thu4": "{{i18n: SkyeFourHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "winter_Thu6": "{{i18n: SkyeSixHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "winter_Thu8": "{{i18n: SkyeEightHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+
+            },
+
+        },
+
+        {
+
+            "LogName": "Animations",
+            "Action": "EditData",
+            "Target": "Data/animationDescriptions",
+            "Entries": {
+                "resting": "0/25/0",
+                "snacking": "0/21 21 21 22 22 22 23 23 23 24 24 24 24 24 24/0",
+                "pouring": "0/19 19 20 20/0",
+                "grinding": "0/16 16 17 17 18 18/0",
+                "bobaing": "0/26 27 29 26 27 29/0",
+                "beaching": "30/30 30 30 30 31 31 31 31/30",
+
+
+            },
+        },
+
+
+
+        {
+
+            "LogName": "Schedule Dialogue",
+            "Action": "Load",
+            "Target": "Strings/schedules/Skye",
+            "FromFile": "assets/Schedule/ScheduleDialogue.json"
+
+        },
+
+        {
+
+            "LogName": "Schedule",
+            "Action": "Load",
+            "Target": "Characters/schedules/Skye",
+            "FromFile": "assets/Schedule/Schedule.json",
+
+        },
+
+
+    ]
+}

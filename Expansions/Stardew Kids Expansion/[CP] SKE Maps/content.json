@@ -1,0 +1,37 @@
+{
+               "Format": "1.28.0",
+               "CustomLocations": [
+		// add the in-game location
+		{
+			"Name": "Custom_AdrianRoom",
+			"FromMapFile": "assets/AdrianRoom.tmx"
+		},
+		{
+			"Name": "Custom_VanessaRoom",
+			"FromMapFile": "assets/VanessaRoom.tmx"
+
+
+                                },
+		{
+			"Name": "Custom_DouglasRoom",
+			"FromMapFile": "assets/DouglasRoom.tbin"
+                                },
+		{
+			"Name": "Custom_TinaRoom",
+			"FromMapFile": "assets/TinaRoom.tmx"
+
+		},
+		{
+			"Name": "Custom_JamesRoom",
+			"FromMapFile": "assets/JamesRoom.tmx"
+                                           
+                                 },
+		{
+			"Name": "Custom_DouglasWarpRoom",
+			"FromMapFile": "assets/DouglasWarpRoom.tbin"
+
+                                 
+
+}
+	]
+}

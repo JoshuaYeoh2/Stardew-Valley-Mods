@@ -1,0 +1,592 @@
+
+{
+	"Format": "1.24.0",
+	"Changes": [
+
+		// ADDS FAYE INTO THE GAME
+
+		{
+
+			"LogName": "NPC Manifestation",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Entries": {
+
+				"K80Faye": "adult/polite/outgoing/neutral/female/datable/null/Town/summer 16/null/Custom_Fae_FaeUpstairs 16 5/Faye",
+
+
+			},
+		},
+
+		// ADDS FYNN INTO THE GAME
+
+		{
+
+			"LogName": "NPC Manifestation",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Entries": {
+
+				"Fynn": "adult/polite/outgoing/neutral/male/not-datable/null/Town/spring 22/K80Faye 'daughter'/Custom_Fae_FaeUpstairs 26 19/Fynn",
+
+
+			},
+		},
+
+		// ADDS FIYONA INTO THE GAME
+
+		{
+
+			"LogName": "NPC Manifestation",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Entries": {
+
+				"Fiyona": "teen/neutral/shy/neutral/female/not-datable/null/Town/winter 2/Fynn 'father' K80Faye 'sister'/Custom_Fae_FaeUpstairs 1 5/Fiyona",
+
+
+			},
+		},
+
+		// FAYE GIFT PREFERENCES
+
+		{
+
+			"LogName": "NPC Gift Tastes",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"K80Faye": "Now this is what a fairy princess deserves! Thank you!/595 72 768 577 223 68 60/This is glorious, thank you!!/64 421 62 70 614 86 66/This is alright./80 330/This is not giving royalty! You need to be banished!/335 216 769 767 215 260/Aww thank you for this! I apreciate you.//",
+
+			},
+		},
+
+		// FYNN GIFT PREFERENCES
+
+		{
+
+			"LogName": "NPC Gift Tastes",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"Fynn": "Ah! This is...I appreciate your kindness @!/-7 -12 -26 -80 454 577/I quite like these. Thank you!/340 188 394 402/I appreciate the thought, but I admit this isn't a favorite of mine/20 91 233 342/I'm not very fond of these...but I thank you regardless./-28 143 154 153/Another year gone by? Thank you for remembering!//",
+
+			},
+		},
+
+		// FIYONA GIFT PREFERENCES
+
+		{
+
+			"LogName": "NPC Gift Tastes",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"Fiyona": "Woah this is so cool, thanks!/637 62 421 223 68 253/This is pretty nice, thanks!/66 220 398 60/You dont have anything better than this?/216 194 597/This sucks! Take it back./70 595 335 635 422 /Yes! thank you for this I'm so excited!!//",
+
+			},
+		},
+
+		// FAYE ANIMATIONS
+
+		{
+
+			"LogName": "Animations",
+			"Action": "EditData",
+			"Target": "Data/animationDescriptions",
+			"Entries": {
+				"fayemagic": "16/16 16 16 16 17 17 17 18 18 18 19 19 19 18 18 18 19 19 19 17 17 17/16",
+				"fayefairy": "16/20 20 20 21 21 21 22 22 22 23 23 23 24 24 24 25 25 25 26 26 26 27 27 27 26 26 26 25 25 25 24 24 24 23 23 23 22 22 22 21 21 21/16",
+				"fayelay": "0/29/0",
+				"fayebeach": "30/30/30",
+				"fayesipping": "30/31 31 31 32 32 32 33 33 33 34 34 34 34 35 35 35 35 35 35/30",
+			},
+		},
+
+		{
+
+			"LogName": "Engagement Dialogue",
+			"Action": "EditData",
+			"Target": "Data/EngagementDialogue",
+			"Entries": {
+				"K80Faye": "Thank you",
+				"K80Faye": "Thank You",
+			},
+		},
+
+		{
+
+			"LogName": "Schedule Dialogue",
+			"Action": "Load",
+			"Target": "Strings/schedule/K80Faye",
+			"FromFile": "assets/Schedule/ScheduleDialogue.json",
+
+		},
+
+		// FAYE PORTRAITS & SPRITES
+
+		{
+
+			"LogName": "K80Faye Portraits",
+			"Action": "Load",
+			"Target": "Portraits/K80Faye",
+			"FromFile": "assets/Image/faye.png",
+
+		},
+
+		{
+
+			"LogName": "Faye Sprites",
+			"Action": "Load",
+			"Target": "Characters/K80Faye",
+			"FromFile": "assets/Image/FayeSprite.png",
+
+		},
+
+		// FYNN PORTRAITS & SPRITES
+
+		{
+
+			"LogName": "Fynn Portraits",
+			"Action": "Load",
+			"Target": "Portraits/Fynn",
+			"FromFile": "assets/Image/fynn.png",
+
+		},
+
+		{
+
+			"LogName": "Fynn Sprites",
+			"Action": "Load",
+			"Target": "Characters/Fynn",
+			"FromFile": "assets/Image/FynnSprite.png",
+
+		},
+
+		// FIYONA PORTRAITS AND SPRITES
+
+		{
+
+			"LogName": "Fiyona Portraits",
+			"Action": "Load",
+			"Target": "Portraits/Fiyona",
+			"FromFile": "assets/Image/fiyona.png",
+
+		},
+
+		{
+
+			"LogName": "Fynn Sprites",
+			"Action": "Load",
+			"Target": "Characters/Fiyona",
+			"FromFile": "assets/Image/FiyonaSprite.png",
+
+		},
+
+		// FAYE FESTIVAL LOCATIONS
+
+		{
+		    "Action": "EditData",
+		    "Target": "Data/Festivals/spring13",
+		    "TextOperations": [
+		        {
+		            "Operation": "Append",
+		            "Target": [  "Entries", "Set-Up_additionalCharacters" ],
+		            "Value": "K80Faye 20 74 2",
+		            "Delimiter": "/"
+		        }
+		    ]
+		},
+
+		{
+		    "Action": "EditData",
+		    "Target": "Data/Festivals/spring24",
+		    "TextOperations": [
+		        {
+		            "Operation": "Append",
+		            "Target": [ "Entries","Set-Up_additionalCharacters" ],
+		            "Value": "K80Faye 18 22 2",
+		            "Delimiter": "/"
+		        }
+		    ]
+		},
+
+		{
+		    "Action": "EditData",
+		    "Target": "Data/Festivals/summer11",
+		    "TextOperations": [
+		        {
+		            "Operation": "Append",
+		            "Target": ["Entries","Set-Up_additionalCharacters"],
+		            "Value": "K80Faye 48 17 1",
+		            "Delimiter": "/"
+		        }
+		    ]
+		},
+
+		{
+		    "Action": "EditData",
+		    "Target": "Data/Festivals/fall16",
+		    "TextOperations": [
+		        {
+		            "Operation": "Append",
+		            "Target": [	"Entries","Set-Up_additionalCharacters"
+		            ],
+		            "Value": "K80Faye 44 78 2",
+		            "Delimiter": "/"
+		        }
+		    ]
+		},
+
+		{
+		    "Action": "EditData",
+		    "Target": "Data/Festivals/fall27",
+		    "TextOperations": [
+		        {
+		            "Operation": "Append",
+		            "Target": ["Entries",	"Set-Up_additionalCharacters"],
+		            "Value": "K80Faye 12 28 3",
+		            "Delimiter": "/"
+		        }
+		    ]
+		},
+
+		{
+		    "Action": "EditData",
+		    "Target": "Data/Festivals/winter8",
+		    "TextOperations": [
+		        {
+		            "Operation": "Append",
+		            "Target": ["Entries","Set-Up_additionalCharacters"],
+		            "Value": "K80Faye 84 27 2",
+		            "Delimiter": "/"
+		        }
+		    ]
+		},
+
+		// FAYE DIALOGUES
+
+		{
+		    "LogName": "EggFestivalDialogue",
+		    "Action": "EditData",
+		    "Target": "Data/Festivals/spring13",
+		    "Entries": {
+		        "K80Faye": "We had something like this where I grew up, but the eggs were made of gold.$1",
+		    }
+		},
+		{
+		    "LogName": "FlowerFestivalDialogue",
+		    "Action": "EditData",
+		    "Target": "Data/Festivals/spring24",
+		    "Entries": {
+		        "K80Faye": "Why should I dance with any of the commoners here?$5",
+		    }
+		},
+		{
+		    "LogName": "LuauDialogue",
+		    "Action": "EditData",
+		    "Target": "Data/Festivals/summer11",
+		    "Entries": {
+		        "K80Faye": "Why would I eat anything here when commoners could have poisoned it?",
+		    }
+		},
+		{
+		    "LogName": "FairDialogue",
+		    "Action": "EditData",
+		    "Target": "Data/Festivals/fall16",
+		    "Entries": {
+		        "K80Faye": "These aren't games; they're jobs.",
+		    }
+		},
+		{
+		    "LogName": "SpiritsEveDialogue",
+		    "Action": "EditData",
+		    "Target": "Data/Festivals/fall27",
+		    "Entries": {
+		        "K80Faye": "I'm not sure why I thought Skye of all people could lead us through the maze...",
+		    }
+		},
+		{
+		    "LogName": "IceFestivalDialogue",
+		    "Action": "EditData",
+		    "Target": "Data/Festivals/winter8",
+		    "Entries": {
+		        "K80Faye": "They're lucky I'm willing to share my magic with them..."
+		    }
+		},
+
+
+		{
+
+			"LogName": "Dialogue",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/K80Faye",
+			"FromFile": "assets/Dialogue/Dialogue.json",
+
+		},
+
+		{
+
+            "LogName": "RandomDialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/K80Faye",
+            "Entries": {
+                "spring_Mon": "{{i18n: FayeSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_Tue": "{{i18n: FayeSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_Wed": "{{i18n: FayeSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_Thu": "{{i18n: FayeSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_Fri": "{{i18n: FayeSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_Sat": "{{i18n: FayeSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_Sun": "{{i18n: FayeSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_13": "The egg festival is juvenile.",
+                "spring_23": "As if I would ever dance with the peasants of this hodunk village.",
+                "summer_Mon": "{{i18n: FayeSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_Tue": "{{i18n: FayeSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_Wed": "{{i18n: FayeSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_Thu": "{{i18n: FayeSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_Fri": "{{i18n: FayeSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_Sat": "{{i18n: FayeSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_Sun": "{{i18n: FayeSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_10": "I shouldn't even go to that festival tomorrow.$5",
+                "summer_28": "I like the jelly festival, but my dad is always so worried about us being out so late.$5",
+                "fall_Mon": "{{i18n: FayeFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "fall_Tue": "{{i18n: FayeFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "fall_Wed": "{{i18n: FayeFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "fall_Thu": "{{i18n: FayeFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "fall_Fri": "{{i18n: FayeFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "fall_Sat": "{{i18n: FayeFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "fall_Sun": "{{i18n: FayeFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "fall_15": "I did kind of want to have my fortune told.$2#$e#It's probably pretty bleak anyway, though.$1",
+                "fall_27": "This is my favorite day of the year! I love Spirit's Eve!$1",
+                "winter_Mon": "{{i18n: FayeWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_Tue": "{{i18n: FayeWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_Thu": "{{i18n: FayeWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_Fri": "{{i18n: FayeWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_Sat": "{{i18n: FayeWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_Sun": "{{i18n: FayeWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_Wed": "{{i18n: FayeWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+				"winter_7": "Someone better to carve a sculpture of me tomorrow.$5",
+                "winter_15": "Listen, the night market is cool and all, but they always try to turn me into merchandise!$3#$b#I guess vampire stuff is rare.",
+                "winter_16": "There's some pretty cool stuff here this year.$3",
+                "winter_17": "Annnnd there's all of my savings for the year.#$b#Hope you found something good too!$1",
+                "winter_25": "Ugh. Everything looks so good at the feast. I'm staying home!$2",
+				"spring_Sun2": "{{i18n: FayeTwoHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "spring_Sun4": "{{i18n: FayeFourHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "spring_Sun6": "{{i18n: FayeSixHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "spring_Sun8": "{{i18n: FayeEightHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "summer_Thu2": "{{i18n: FayeTwoHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "summer_Thu4": "{{i18n: FayeFourHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "summer_Thu8": "{{i18n: FayeSixHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "summer_Thu8": "{{i18n: FayeEightHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "fall_Tue2": "{{i18n: FayeTwoHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "fall_Tue4": "{{i18n: FayeFourHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "fall_Tue6": "{{i18n: FayeSixHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "fall_Tue8": "{{i18n: FayeEightHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "winter_Mon2": "{{i18n: FayeTwoHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "winter_Mon4": "{{i18n: FayeFourHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "winter_Mon6": "{{i18n: FayeSixHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "winter_Mon8": "{{i18n: FayeEightHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+
+            },
+
+        },
+
+		// FYNN DIALOGUES
+
+		{
+
+		    "LogName": "Dialogue",
+		    "Action": "Load",
+		    "Target": "Characters/Dialogue/Fynn",
+		    "FromFile": "assets/Dialogue/Fynn_Dialogue.json",
+
+		},
+
+		{
+
+		    "LogName": "RandomDialogue",
+		    "Action": "EditData",
+		    "Target": "Characters/Dialogue/Fynn",
+		    "Entries": {
+		        "spring_Mon": "{{i18n: FynnSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+		        "spring_Tue": "{{i18n: FynnSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+		        "spring_Wed": "{{i18n: FynnSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+		        "spring_Thu": "{{i18n: FynnSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+		        "spring_Fri": "{{i18n: FynnSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+		        "spring_Sat": "{{i18n: FynnSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+		        "spring_Sun": "{{i18n: FynnSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+		        "spring_13": "I remember when my daughters were young enough to enjoy soemthing like the egg festival.$1#$b#I suppose even to us, time moves along undaunted.$9",
+		        "spring_23": "I quite like the people of this village, but not enough to allow them either of my daughters' hands in the flower dance!$5",
+		        "summer_Mon": "{{i18n: FynnSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+		        "summer_Tue": "{{i18n: FynnSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+		        "summer_Wed": "{{i18n: FynnSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+		        "summer_Thu": "{{i18n: FynnSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+		        "summer_Fri": "{{i18n: FynnSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+		        "summer_Sat": "{{i18n: FynnSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+		        "summer_Sun": "{{i18n: FynnSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+		        "summer_10": "The luau was an entirely new experience for me when we moved here!$1#$e#Where we come from, it would be considered some manner of peasant soup.$8",
+		        "summer_27": "The wildlife here never ceases to impress me!$1",
+		        "fall_Mon": "{{i18n: FynnFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+		        "fall_Tue": "{{i18n: FynnFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+		        "fall_Wed": "{{i18n: FynnFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+		        "fall_Thu": "{{i18n: FynnFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+		        "fall_Fri": "{{i18n: FynnFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+		        "fall_Sat": "{{i18n: FynnFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+		        "fall_Sun": "{{i18n: FynnFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+		        "fall_15": "There is never a shortage of trivial entertainment here!$1#$b#But I'm still unsure of what a 'Star Token' is.$1",
+		        "fall_26": "I can't quite understand why tSpirit's Eve must happen at night.$3#$b#It's dangerous for my daughters to be out so late. Anything could happen!$5",
+		        "winter_Mon": "{{i18n: FynnWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+		        "winter_Tue": "{{i18n: FynnWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+		        "winter_Thu": "{{i18n: FynnWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+		        "winter_Fri": "{{i18n: FynnWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+		        "winter_Sat": "{{i18n: FynnWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+		        "winter_Sun": "{{i18n: FynnWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+		        "winter_Wed": "{{i18n: FynnWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+				"winter_7": "I prefer my monuments in gold, but the transient nature of ice is poetic, isn't it?$1",
+		        "winter_15": "Yet another event to be held at the witching hour.$4#$e#Regardless, I will keep my family safe. I would appreciate if you kept an eye out for the girls as well.$7",
+		        "winter_16": "I do not enjoy these nights.$2#$e#It would suit the community much better for this 'market' business to be done with entirely after this year!$4",
+		        "winter_17": "Finally, we approach the end of this horrific event.$4",
+		        "winter_24": "My daughters adore the Winter Star.$1#$e#I think it's because they get so many gifts.$8",
+		        "spring_11": "{{i18n: FynnTwoHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "spring_15": "{{i18n: FynnFourHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "spring_7": "{{i18n: FynnSixHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "spring_21": "{{i18n: FynnEightHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "summer_19": "{{i18n: FynnTwoHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "summer_3": "{{i18n: FynnFourHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "summer_18": "{{i18n: FynnSixHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "summer_23": "{{i18n: FynnEightHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+				"spring_Mon2": "{{i18n: FynnTwoHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "spring_Mon4": "{{i18n: FynnFourHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "spring_Mon6": "{{i18n: FynnSixHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "spring_Mon8": "{{i18n: FynnEightHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "summer_Sat2": "{{i18n: FynnTwoHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "summer_Sat4": "{{i18n: FynnFourHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "summer_Sat8": "{{i18n: FynnSixHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "summer_Sat8": "{{i18n: FynnEightHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "fall_Tue2": "{{i18n: FynnTwoHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "fall_Tue4": "{{i18n: FynnFourHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "fall_Tue6": "{{i18n: FynnSixHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "fall_Tue8": "{{i18n: FynnEightHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "winter_Wed2": "{{i18n: FynnTwoHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "winter_Wed4": "{{i18n: FynnFourHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "winter_Wed6": "{{i18n: FynnSixHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "winter_Wed8": "{{i18n: FynnEightHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+
+		    },
+
+		},
+
+		// FIYONA DIALOGUES
+
+		{
+
+			"LogName": "Dialogue",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Fiyona",
+			"FromFile": "assets/Dialogue/Dialogue.json",
+
+		},
+
+		{
+
+            "LogName": "RandomDialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Fiyona",
+            "Entries": {
+                "spring_Mon": "{{i18n: FiyonaSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_Tue": "{{i18n: FiyonaSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_Wed": "{{i18n: FiyonaSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_Thu": "{{i18n: FiyonaSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_Fri": "{{i18n: FiyonaSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_Sat": "{{i18n: FiyonaSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_Sun": "{{i18n: FiyonaSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_13": "Do I look like someone who wants to run around looking for eggs with a bunch of kids?",
+                "spring_23": "I wouldn't be caught dead at that flower dance.#$b#Even if it wasn't during the day, it's really lame.$3",
+                "summer_Mon": "{{i18n: FiyonaSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_Tue": "{{i18n: FiyonaSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_Wed": "{{i18n: FiyonaSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_Thu": "{{i18n: FiyonaSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_Fri": "{{i18n: FiyonaSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_Sat": "{{i18n: FiyonaSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_Sun": "{{i18n: FiyonaSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_10": "What's today? The Luau?#$b#I would actually go if I could. I used to love to eat.$2",
+                "summer_27": "Keep an eye out for a purple jelly for me, will you?$1",
+                "fall_Mon": "{{i18n: FiyonaFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "fall_Tue": "{{i18n: FiyonaFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "fall_Wed": "{{i18n: FiyonaFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "fall_Thu": "{{i18n: FiyonaFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "fall_Fri": "{{i18n: FiyonaFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "fall_Sat": "{{i18n: FiyonaFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "fall_Sun": "{{i18n: FiyonaFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "fall_15": "I did kind of want to have my fortune told.$2#$e#It's probably pretty bleak anyway, though.$1",
+                "fall_26": "This is my favorite day of the year! I love Spirit's Eve!$1",
+                "winter_Mon": "{{i18n: FiyonaWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_Tue": "{{i18n: FiyonaWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_Thu": "{{i18n: FiyonaWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_Fri": "{{i18n: FiyonaWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_Sat": "{{i18n: FiyonaWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_Sun": "{{i18n: FiyonaWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_Wed": "{{i18n: FiyonaWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_15": "Listen, the night market is cool and all, but they always try to turn me into merchandise!$3#$b#I guess vampire stuff is rare.",
+                "winter_16": "There's some pretty cool stuff here this year.$3",
+                "winter_17": "Annnnd there's all of my savings for the year.#$b#Hope you found something good too!$1",
+                "winter_24": "Ugh. Everything looks so good at the feast. I'm staying home!$2",
+                "spring_Sun2": "{{i18n: FiyonaTwoHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "spring_Sun4": "{{i18n: FiyonaFourHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "spring_Sun6": "{{i18n: FiyonaSixHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "spring_Sun8": "{{i18n: FiyonaEightHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "summer_Thu2": "{{i18n: FiyonaTwoHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "summer_Thu4": "{{i18n: FiyonaFourHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "summer_Thu8": "{{i18n: FiyonaSixHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "summer_Thu8": "{{i18n: FiyonaEightHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "fall_Tue2": "{{i18n: FiyonaTwoHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "fall_Tue4": "{{i18n: FiyonaFourHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "fall_Tue6": "{{i18n: FiyonaSixHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "fall_Tue8": "{{i18n: FiyonaEightHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "winter_Mon2": "{{i18n: FiyonaTwoHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "winter_Mon4": "{{i18n: FiyonaFourHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "winter_Mon6": "{{i18n: FiyonaSixHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+                "winter_Mon8": "{{i18n: FiyonaEightHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+
+            },
+
+        },
+
+		// FAYE SCHEDULE
+
+		{
+
+			"LogName": "Schedule",
+			"Action": "Load",
+			"Target": "Characters/schedules/K80Faye",
+			"FromFile": "assets/Schedule/Schedule.json",
+
+		},
+
+		// FYNN SCHEDULE
+
+		{
+
+			"LogName": "Schedule",
+			"Action": "Load",
+			"Target": "Characters/schedules/Fynn",
+			"FromFile": "assets/Schedule/Fynn_Schedule.json",
+
+		},
+
+		// FIYONA SCHEDULE
+
+		{
+
+			"LogName": "Schedule",
+			"Action": "Load",
+			"Target": "Characters/schedules/Fiyona",
+			"FromFile": "assets/Schedule/Fiyona_Schedule.json",
+
+		},
+
+
+
+
+	]
+}

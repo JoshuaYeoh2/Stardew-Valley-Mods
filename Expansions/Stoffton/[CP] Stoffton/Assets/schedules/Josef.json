@@ -1,0 +1,16 @@
+{
+"rain": "MAIL FS_JosefRepair/GOTO rainNormal/GOTO rainHome",
+"Sun": "MAIL FS_JosefRepair/GOTO SunNormal/GOTO SunHome",
+"spring": "MAIL FS_JosefRepair/GOTO springNormal/GOTO rainHome",
+//studies in his room all day except for meals
+"rainNormal": "0 Lizzie.Stoffton_ShepherdSecond 2 23/610 Lizzie.Stoffton_Shepherd 15 21 0/700 Lizzie.Stoffton_ShepherdSecond 10 27 1 Josef_computer/1130 Lizzie.Stoffton_Shepherd 15 21 0/1230 Lizzie.Stoffton_ShepherdSecond 10 27 1 Josef_computer/1900 Lizzie.Stoffton_Shepherd 15 21 0/2100 Lizzie.Stoffton_ShepherdSecond 10 27 1/2300 Lizzie.Stoffton_ShepherdSecond 2 23 3 Josef_sleep",
+"rainHome": "0 Lizzie.Stoffton_JosefHouse 10 4/610 Lizzie.Stoffton_JosefHouse 4 5 0/640 Lizzie.Stoffton_JosefHouse 5 7 2/700 Lizzie.Stoffton_JosefHouse 16 7 1 Josef_computer/1230 Lizzie.Stoffton_JosefHouse 16 7 1 Josef_computer/1900 Lizzie.Stoffton_JosefHouse 5 7 2/2100 Lizzie.Stoffton_JosefHouse 16 7 1/2300 Lizzie.Stoffton_JosefHouse 10 4 3 Josef_sleep",
+//skips Yoba for school with Ebbe, moves to solo desk for afternoon
+"SunNormal":"0 Lizzie.Stoffton_ShepherdSecond 2 23/610 Lizzie.Stoffton_ShepherdSecond 10 27 1/630 Lizzie.Stoffton_Academy 4 9 1 Josef_computer/1000 Lizzie.Stoffton_Academy 3 5 0/1210 Lizzie.Stoffton_Academy 19 8 0/1300 Lizzie.Stoffton_Academy 13 6 1 Josef_computer/2100 Lizzie.Stoffton_ShepherdSecond 10 27 1/2300 Lizzie.Stoffton_ShepherdSecond 2 23 3 Josef_sleep",
+//skips Yoba for school with Ebbe, works from home in the afternoon
+"SunHome":"0 Lizzie.Stoffton_JosefHouse 10 4/610 Lizzie.Stoffton_JosefHouse 16 7 1/630 Lizzie.Stoffton_Academy 4 9 1 Josef_computer/1000 Lizzie.Stoffton_Academy 3 5 0/1210 Lizzie.Stoffton_JosefHouse 4 5 0/1300 Lizzie.Stoffton_JosefHouse 5 7 2/1400 Lizzie.Stoffton_JosefHouse 16 7 1 Josef_computer/2300 Lizzie.Stoffton_JosefHouse 10 4 3 Josef_sleep",
+//checks animals with dad, school, barn, supper
+  "springNormal": "0 Lizzie.Stoffton_ShepherdSecond 2 23/610 Lizzie.Stoffton_ShepherdSecond 10 27 1/700 Lizzie.Stoffton_SchaferBarn1 8 4 0/830 Lizzie.Stoffton_Academy 4 9 1 Josef_computer/1130 Lizzie.Stoffton_Academy 19 8 0/1300 Lizzie.Stoffton_Academy 45 12 1/1410 Lizzie.Stoffton_SchaferBarn1 8 4 0/1900 Lizzie.Stoffton_Shepherd 15 21 0/2100 Lizzie.Stoffton_ShepherdSecond 10 27 1/2300 Lizzie.Stoffton_ShepherdSecond 2 23 3 Josef_sleep",
+  
+  
+}

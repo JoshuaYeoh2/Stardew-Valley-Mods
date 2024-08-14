@@ -1,0 +1,291 @@
+{
+    "Format": "2.0.0",
+    "CustomLocations": [
+        {
+            "Name": "Custom_AlecsRoom",
+            "FromMapFile": "assets/maps/alecsRoom.tmx"
+        },
+        {
+            "Name": "Custom_AlecsPetShop",
+            "FromMapFile": "assets/maps/alecsPetShop.tmx"
+        }
+    ],
+    "ConfigSchema": {
+        "BeardVariant": {
+            "AllowValues": "None, Half, Full",
+            "Default": "None",
+            "AllowBlank": false
+        },
+        "HairVariant": {
+            "AllowValues": "Original, New",
+            "Default": "Original",
+            "AllowBlank": false
+        },
+        "HarveyMentionsWeight": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "AllowBlank": false
+        },
+        "SeasonalOrOriginal": {
+            "AllowValues": "Revised, Seasonal, Original",
+            "Default": "Revised",
+            "AllowBlank": false
+        },
+        "TranslatedDialogue": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "AllowBlank": false
+        }
+    },
+    "Changes": [
+        {
+            "LogName": "Characters",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "SPB_Alec": {
+                    "DisplayName": "{{i18n:NPCD.Alec.Name}}",
+                    "BirthSeason": "Winter",
+                    "BirthDay": 9,
+                    "HomeRegion": "Town",
+                    "Gender": "Male",
+                    "Age": "Adult",
+                    "Manner": "Polite",
+                    "SocialAnxiety": "Shy",
+                    "Optimism": "Negative",
+                    "CanBeRomanced": true,
+                    "LoveInterest": "Leah",
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "Custom_AlecsRoom",
+                            "Tile": { "X": 21, "Y": 13 },
+                            "Direction": "Left"
+                        }
+                    ],
+                    "SpouseRoom":
+                    {
+                        "MapAsset": "Custom_AlecsSpouseRoom"
+                    },
+                    "SpousePatio":
+                    {
+                        "MapAsset": "Custom_AlecsSpousePatio",
+                        "SpriteAnimationFrames": [
+                            [20, 500],
+                            [21, 500],
+                            [22, 500],
+                            [23, 500],
+                            [24, 500],
+                            [25, 500],
+                            [26, 500],
+                            [27, 500]
+                        ]
+                    },
+                    "HiddenProfileEmoteStartFrame": 20,
+                    "HiddenProfileEmoteFrameCount": 8,
+                    "HiddenProfileEmoteFrameDuration": 500.0,
+                }
+            }
+        },
+        {
+            "LogName": "Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "SPB_Alec": "{{i18n:GiftTastes.Alec.Love}}/62 64 68 122 205 220 550 586 587 589 638 787/{{i18n:GiftTastes.Alec.Like}}/91 167 248 286 378 380 384 386 398 400 535 542 562 564 565 573 575 588 834/{{i18n:GiftTastes.Alec.Dislike}}/24 88 188 190 196 197 199 200 250 253 272 278 284 303 346 348 395 421 426 459 609 721 766 767/{{i18n:GiftTastes.Alec.Hate}}/-22 96 97 98 99 199 101 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 123 124 125 126 127 198 202 209 212 213 214 218 219 225 226 227 228 242 265 349 373 422 445 447 456 579 580 581 582 583 584 585 727 728 729 730 732 733 812 921/{{i18n:GiftTastes.Alec.Neutral}}/70 84 86 90 195 201 204 207 208 210 211 221 222 223 224 229 230 231 232 234 235 236 237 238 240 241 243 244 252 254 258 259 260 264 266 268 270 274 282 300 306 307 308 336 340 342 350 280 338 393 396 402 406 410 414 428 432 440 457 536 537 538 539 540 541 543 544 545 546 547 548 549 551 552 553 554 555 556 557 558 559 560 561 563 566 567 568 569 570 571 572 574 575 577 578 593 595 604 605 607 609 611 612 618 634 636 648 649 651 724 731 749 773 807 815/ "
+            }
+        },
+        {
+            "LogName": "Movie Tastes",
+            "Action": "EditData",
+            "Target": "Data/MoviesReactions",
+            "Entries": {
+                "SPB_Alec": {
+                    "NPCName": "Alec",
+                    "Reactions": [
+                        {
+                            "Tag": "spring_movie_1",
+                            "Response": "loves",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:MovieTastes.Alec.LovesBefore}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": ""
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:MovieTastes.Alec.LovesAfter}}"
+                                }
+                            },
+                            "ID": "reaction_0"
+                        },
+                        {
+                            "Tag": "*",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:MovieTastes.Alec.LikesBefore}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": ""
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:MovieTastes.Alec.LikesAfter}}"
+                                }
+                            },
+                            "ID": "reaction_1"
+                        },
+                        {
+                            "Tag": "horror",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:MovieTastes.Alec.DislikesBefore}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": ""
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:MovieTastes.Alec.DislikesAfter}}"
+                                }
+                            },
+                            "ID": "reaction_2"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Concessions Tastes",
+            "Action": "EditData",
+            "Target": "Data/ConcessionTastes",
+            "Entries": {
+                "SPB_Alec": {
+                    "Name": "Alec",
+                    "LovedTags":["Joja Cola","Personal Pizza", "Nachos", "Ice Cream Sandwich", "Fries", "Apple Slices", "Stardrop Sorbet", "Rock Candy"],
+                    "LikedTags":["Cotton Candy", "Sour Slimes", "Popcorn", "Chocolate Popcorn", "Star Cookie", "Salted Peanuts", "Hummus Snack Pack", "Truffle Popcorn", "Cappuccino Mousse Cake", "JojaCorn"],
+                    "DislikedTags":["Jasmine Tea", "Salmon Burger", "Black Licorice", "Jawbreaker", "Kale Smoothie", "Panzanella Salad"]
+                }
+            }
+        },
+        {
+            "LogName": "Mail",
+            "Action": "EditData",
+            "Target": "data/mail",
+            "Entries": {
+                "AlecDinnerInvite": "{{i18n:Mail.AlecDinnerInvite}}"
+            }
+        },
+        {
+            "LogName": "Original Art",
+            "Action": "Include",
+            "FromFile": "assets/originalArt.json",
+            "When": {
+                "SeasonalOrOriginal": "Original"
+            }
+        },
+        {
+            "LogName": "Revised Art",
+            "Action": "Include",
+            "FromFile": "assets/revisedArt.json",
+            "When": {
+                "SeasonalOrOriginal": "Revised"
+            }
+        },
+        {
+            "LogName": "Seasonal Art",
+            "Action": "Include",
+            "FromFile": "assets/seasonalArt.json",
+            "When": {
+                "SeasonalOrOriginal": "Seasonal"
+            }
+        },
+        {
+            "LogName": "Animations",
+            "Action": "EditData",
+            "Target": "Data/animationDescriptions",
+            "Entries": {
+                "alec_pc": "6/17 17 17 18 18 18 18/19",
+                "alec_repair": "20/20 20 20 21 21 21 22 22 22 23 23 23 24 24 24 25 25 25 26 26 26 27 27 27/27",
+                "alec_reading": "40/41 41/42",
+                "alec_fish": "29/29 29 29 30 30 30 31 31 31/31",
+                "alec_papers": "35/32 32 32 32 33 33 33 33 34 34 34 34/35",
+                "alec_eating": "36/36 36 36 37 37 37 38 38 38 39 39 39/39",
+                "alec_getfood": "52/52 53 54/54",
+                "alec_holdfood": "54/54 54/54",
+                "alec_sleep": "57/57/57",
+                "alec_rest": "57/57/57"
+            }
+        },
+        {
+            "LogName": "Dialogue",
+            "Action": "Include",
+            "FromFile": "assets/schedule.json"
+        },
+        {
+            "LogName": "Dialogue",
+            "Action": "Include",
+            "FromFile": "assets/shops.json"
+        },
+        {
+            "LogName": "Dialogue",
+            "Action": "Include",
+            "FromFile": "assets/dialogue/dialogue.json",
+            "When": {
+                "TranslatedDialogue": "false"
+            }
+        },
+        {
+            "LogName": "Dialogue",
+            "Action": "Include",
+            "FromFile": "assets/dialogue/TDialogue.json",
+            "When": {
+                "TranslatedDialogue": "true"
+            }
+        },
+        {
+            "LogName": "Weight Related Dialogue",
+            "Action": "Include",
+            "FromFile": "assets/dialogue/wDialogue.json",
+            "When": {
+                "HarveyMentionsWeight": "true"
+            }
+        },
+        {
+            "LogName": "Festival Locations",
+            "Action": "Include",
+            "FromFile": "assets/festivals.json"
+        },
+        {    
+            "LogName": "Events",
+            "Action": "Include",
+            "FromFile": "assets/events.json"
+        },
+        {    
+            "LogName": "Maps",
+            "Action": "Include",
+            "FromFile": "assets/maps.json"
+        }
+    ]
+}

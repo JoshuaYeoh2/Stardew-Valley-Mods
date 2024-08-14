@@ -1,0 +1,145 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"Entries": {
+				"SPB_PetsSupplies": {
+					"Currency": 0,
+					"StackSizeVisibility": null,
+					"OpenSound": null,
+					"PurchaseSound": null,
+					"PurchaseRepeatSound": null,
+					"PriceModifiers": null,
+					"PriceModifierMode": 0,
+					"Owners": [
+						{
+							"Condition": null,
+							"Portrait": "SPB_Alec",
+							"Dialogues": [
+								{
+									"Id": "Default",
+									"Condition": null,
+									"Dialogue": null,
+									"RandomDialogue": [
+										"{{i18n:Shop.Petshop.1}}",
+										"{{i18n:Shop.Petshop.2}}",
+										"{{i18n:Shop.Petshop.3}}"
+									]
+								}
+							],
+							"RandomizeDialogueOnOpen": true,
+							"ClosedMessage": null,
+							"Name": "SPB_Alec",
+							"Type": 0
+						}
+					],
+					"VisualTheme": null,
+					"SalableItemTags": [
+						"category_egg",
+						"category_fish"
+					],
+					"Items": [
+						{
+							"Id": "Hay",
+                            "ItemId": "(O)178",
+                            "Price": 50
+						},
+						{
+							"Id": "Small Fish Tank",
+                            "ItemId": "(F)2322",
+                            "Price": 500
+						},
+						{
+							"Id": "Modern Fish Tank",
+                            "ItemId": "(F)2414",
+                            "Price": 550
+						},
+						{
+							"Id": "Large Fish Tank",
+                            "ItemId": "(F)2304",
+                            "Price": 2000
+						},
+						{
+							"Id": "Deluxe Fish Tank",
+                            "ItemId": "(F)2312",
+                            "Price": 5000
+						}
+					],
+					"CustomFields": null,
+					"ApplyProfitMargins": null
+				},
+				"SPB_PetShop": {
+					"Currency": 0,
+					"StackSizeVisibility": null,
+					"OpenSound": null,
+					"PurchaseSound": null,
+					"PurchaseRepeatSound": null,
+					"PriceModifiers": null,
+					"PriceModifierMode": 0,
+					"Owners": [
+						{
+							"Condition": "PLAYER_HAS_SEEN_EVENT Any 16920001",
+							"Portrait": "SPB_Alec",
+							"Dialogues": [
+								{
+									"Id": "Default",
+									"Condition": null,
+									"Dialogue": null,
+									"RandomDialogue": [
+										"{{i18n:Shop.Petshop.1}}",
+										"{{i18n:Shop.Petshop.2}}",
+										"{{i18n:Shop.Petshop.3}}"
+									]
+								}
+							],
+							"RandomizeDialogueOnOpen": true,
+							"ClosedMessage": null,
+							"Name": "SPB_Alec",
+							"Type": 0
+						}
+					],
+					"VisualTheme": null,
+					"SalableItemTags": null,
+					"Items": [
+						{
+							"ActionsOnPurchase": null,
+							"CustomFields": null,
+							"TradeItemId": null,
+							"TradeItemAmount": 1,
+							"Price": -1,
+							"ApplyProfitMargins": null,
+							"AvailableStock": -1,
+							"AvailableStockLimit": 2,
+							"AvoidRepeat": false,
+							"UseObjectDataPrice": false,
+							"IgnoreShopPriceModifiers": false,
+							"PriceModifiers": null,
+							"PriceModifierMode": 0,
+							"AvailableStockModifiers": null,
+							"AvailableStockModifierMode": 0,
+							"Condition": null,
+							"Id": "PetAdoption",
+							"ItemId": "PET_ADOPTION",
+							"RandomItemId": null,
+							"MaxItems": null,
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1,
+							"ObjectInternalName": null,
+							"ObjectDisplayName": null,
+							"ToolUpgradeLevel": -1,
+							"IsRecipe": false,
+							"StackModifiers": null,
+							"StackModifierMode": 0,
+							"QualityModifiers": null,
+							"QualityModifierMode": 0,
+							"ModData": null,
+							"PerItemCondition": null
+						}
+					]
+				}
+			}
+		}
+	]
+}

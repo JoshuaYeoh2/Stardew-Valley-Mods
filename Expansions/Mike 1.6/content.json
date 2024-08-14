@@ -1,0 +1,68 @@
+{
+  "Format": "2.0.0",
+
+	"ConfigSchema": {
+		"MikeLooks": {
+			"AllowValues": "Original, Airyn, DSVO, Hangin99_1, Hangin99_2",
+			"Default": "Original",
+			"AllowMultiple": false,
+			"AllowBlank": false,
+            // "Description": "{{i18n:config.MikeLooks}}"
+		},
+	},
+
+
+  "Changes": [
+//Blank Load
+    {
+      "LogName": "Blank Load", 
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Mike, Characters/Dialogue/MarriageDialogueMike, Strings/schedules/Mike, Characters/schedules/Mike",
+      "FromFile": "assets/blank.json"
+    },
+
+//NPC Mike
+    {
+      "LogName": "Loading Mike", 
+      "Action": "Include",
+      "FromFile": "assets/Data/mikedata.json"
+    },
+
+//Sprites and Portraits
+    {
+      "LogName": "Sprites and Portraits", 
+      "Action": "Include",
+      "FromFile": "assets/Data/visuals.json"
+    },
+
+//Maps
+    {
+      "LogName": "Maps", 
+      "Action": "Include",
+      "FromFile": "assets/Data/maps.json"
+    },
+
+//Dialogue
+    {
+      "LogName": "Dialogue", 
+      "Action": "Include",
+      "FromFile": "assets/Data/dialogue.json"
+    },
+
+//Schedule
+    {
+      "LogName": "Schedule", 
+      "Action": "Include",
+      "FromFile": "assets/Data/schedule.json"
+    },
+
+//Events
+    {
+      "LogName": "Events", 
+      "Action": "Include",
+      "FromFile": "assets/Data/events.json"
+    },
+
+
+]
+}

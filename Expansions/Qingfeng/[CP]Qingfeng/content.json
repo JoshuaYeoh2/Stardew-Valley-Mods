@@ -1,0 +1,408 @@
+﻿{
+    "Format": "2.0.0",
+    "DynamicTokens":
+    [
+        {
+            "Name": "IsOddYear",
+            "Value": "{{Query: {{Year}} % 2 = 1}}"
+        },
+        {
+            "Name": "IndoorVariant" ,
+            "Value": "_Indoor",
+            "When":
+            {
+                "IsOutdoors": "false"
+            }
+        },
+        {
+            "Name": "IndoorVariant",
+            "Value": "_Outdoor",
+            "When":
+            {
+                "IsOutdoors": "true"
+            }
+        }
+    ],
+    "CustomLocations": [
+        {
+            "Name": "Custom_QingfengRoom",
+            "FromMapFile": "assets/Maps/QingfengRoom.tbin"
+        },
+        {
+            "Name": "Custom_ThirdfloorofQingfengHouse",
+            "FromMapFile": "assets/Maps/ThirdfloorofQingfengHouse.tmx"
+        },
+        {
+            "Name": "Custom_SecondfloorofQingfengHouse",
+            "FromMapFile": "assets/Maps/SecondfloorofQingfengHouse.tmx"
+        },
+        {
+            "Name": "Custom_FirstfloorofQingfengHouse",
+            "FromMapFile": "assets/Maps/FirstfloorofQingfengHouse.tmx"
+        },
+        {
+            "Name": "Custom_QingfengCourtyard",
+            "FromMapFile": "assets/Maps/QingfengCourtyard.tmx"
+        },
+        {
+            "Name": "Custom_QingfengForest",
+            "FromMapFile": "assets/Maps/QingfengForest.tmx"
+        }
+    ],
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Data/Events/Custom_FirstfloorofQingfengHouse",
+            "FromFile": "assets/XNBs/FirstfloorofQingfengHouse.xnb"
+        },
+        {
+            "Action": "Load",
+            "Target": "Data/Events/Custom_QingfengCourtyard",
+            "FromFile": "assets/XNBs/QingfengCourtyard.xnb"
+        },
+        {
+            "Action": "Load",
+            "Target": "Data/Events/Custom_QingfengForest",
+            "FromFile": "assets/XNBs/QingfengForest.xnb"
+        },
+        {
+            "Action": "Load",
+            "Target": "Data/Events/Custom_Town",
+            "FromFile": "assets/XNBs/Town.xnb"
+        },
+        {
+            "Action": "Load",
+            "Target": "Data/Events/Custom_SecondfloorofQingfengHouse",
+            "FromFile": "assets/XNBs/SecondfloorofQingfengHouse.xnb"
+        },
+        {
+            "Action": "Load",
+            "Target": "Data/Events/Custom_ThirdfloorofQingfengHouse",
+            "FromFile": "assets/XNBs/ThirdfloorofQingfengHouse.xnb"
+        },
+        {
+            "LogName": "Custom_SecondfloorofQingfengHouse",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SecondfloorofQingfengHouse",
+            "FromFile": "assets/Maps/SecondfloorofQingfengHouse.tmx"
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Town",
+            "FromFile": "assets/Maps/Town.tbin",
+            "Update": "OnLocationChange",
+            "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 5,
+            "Height": 7
+            },
+            "ToArea": {
+            "X": 118,
+            "Y": 19,
+            "Width": 5,
+            "Height": 7
+            },
+            "AddWarps": [
+                "119 23 Custom_QingfengCourtyard 50 74",
+                "119 24 Custom_QingfengCourtyard 50 75"
+            ],
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Town",
+            "FromFile": "assets/Maps/Town.SVE.tbin",
+            "Update": "OnLocationChange",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 4,
+                "Height": 7
+            },
+            "ToArea": {
+                "X": 119,
+                "Y": 19,
+                "Width": 4,
+                "Height": 7
+            },
+            "AddWarps": [
+                "119 23 Custom_QingfengCourtyard 50 74",
+                "119 24 Custom_QingfengCourtyard 50 75"
+            ],
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "FirstfloorofQingfengHouse.1": "{{i18n:FirstfloorofQingfengHouse.1}}",
+                "FirstfloorofQingfengHouse.2": "{{i18n:FirstfloorofQingfengHouse.2}}",
+                "FirstfloorofQingfengHouse.3": "{{i18n:FirstfloorofQingfengHouse.3}}",
+                "FirstfloorofQingfengHouse.4": "{{i18n:FirstfloorofQingfengHouse.4}}",
+                "FirstfloorofQingfengHouse.5": "{{i18n:FirstfloorofQingfengHouse.5}}",
+                "FirstfloorofQingfengHouse.6": "{{i18n:FirstfloorofQingfengHouse.6}}",
+                "FirstfloorofQingfengHouse.7": "{{i18n:FirstfloorofQingfengHouse.7}}",
+                "FirstfloorofQingfengHouse.8": "{{i18n:FirstfloorofQingfengHouse.8}}",
+
+                "SecondfloorofQingfengHouse.1": "{{i18n:SecondfloorofQingfengHouse.1}}",
+                "SecondfloorofQingfengHouse.2": "{{i18n:SecondfloorofQingfengHouse.2}}",
+                "SecondfloorofQingfengHouse.3": "{{i18n:SecondfloorofQingfengHouse.3}}",
+                "SecondfloorofQingfengHouse.4": "{{i18n:SecondfloorofQingfengHouse.4}}",
+                "SecondfloorofQingfengHouse.5": "{{i18n:SecondfloorofQingfengHouse.5}}",
+                "SecondfloorofQingfengHouse.6": "{{i18n:SecondfloorofQingfengHouse.6}}",
+                "SecondfloorofQingfengHouse.7": "{{i18n:SecondfloorofQingfengHouse.7}}",
+                "SecondfloorofQingfengHouse.8": "{{i18n:SecondfloorofQingfengHouse.8}}",
+                "SecondfloorofQingfengHouse.9": "{{i18n:SecondfloorofQingfengHouse.9}}",
+                "SecondfloorofQingfengHouse.10": "{{i18n:SecondfloorofQingfengHouse.10}}",
+                "SecondfloorofQingfengHouse.11": "{{i18n:SecondfloorofQingfengHouse.11}}",
+                "SecondfloorofQingfengHouse.12": "{{i18n:SecondfloorofQingfengHouse.12}}",
+                "SecondfloorofQingfengHouse.13": "{{i18n:SecondfloorofQingfengHouse.13}}",
+                "SecondfloorofQingfengHouse.14": "{{i18n:SecondfloorofQingfengHouse.14}}",
+                "SecondfloorofQingfengHouse.15": "{{i18n:SecondfloorofQingfengHouse.15}}",
+                "SecondfloorofQingfengHouse.16": "{{i18n:SecondfloorofQingfengHouse.16}}",
+                "SecondfloorofQingfengHouse.17": "{{i18n:SecondfloorofQingfengHouse.17}}",
+                "SecondfloorofQingfengHouse.18": "{{i18n:SecondfloorofQingfengHouse.18}}",
+                "SecondfloorofQingfengHouse.19": "{{i18n:SecondfloorofQingfengHouse.19}}",
+                "SecondfloorofQingfengHouse.20": "{{i18n:SecondfloorofQingfengHouse.20}}",
+                "SecondfloorofQingfengHouse.21": "{{i18n:SecondfloorofQingfengHouse.21}}",
+
+                "ThirdfloorofQingfengHouse.1": "{{i18n:ThirdfloorofQingfengHouse.1}}",
+                "ThirdfloorofQingfengHouse.2": "{{i18n:ThirdfloorofQingfengHouse.2}}",
+                "ThirdfloorofQingfengHouse.3": "{{i18n:ThirdfloorofQingfengHouse.3}}",
+                "ThirdfloorofQingfengHouse.4": "{{i18n:ThirdfloorofQingfengHouse.4}}",
+                "ThirdfloorofQingfengHouse.5": "{{i18n:ThirdfloorofQingfengHouse.5}}",
+                "ThirdfloorofQingfengHouse.6": "{{i18n:ThirdfloorofQingfengHouse.6}}",
+                "ThirdfloorofQingfengHouse.7": "{{i18n:ThirdfloorofQingfengHouse.7}}",
+                "ThirdfloorofQingfengHouse.8": "{{i18n:ThirdfloorofQingfengHouse.8}}",
+                "ThirdfloorofQingfengHouse.9": "{{i18n:ThirdfloorofQingfengHouse.9}}",
+                "ThirdfloorofQingfengHouse.10": "{{i18n:ThirdfloorofQingfengHouse.10}}",
+                "ThirdfloorofQingfengHouse.11": "{{i18n:ThirdfloorofQingfengHouse.11}}",
+                "ThirdfloorofQingfengHouse.12": "{{i18n:ThirdfloorofQingfengHouse.12}}",
+                "ThirdfloorofQingfengHouse.13": "{{i18n:ThirdfloorofQingfengHouse.13}}",
+                "ThirdfloorofQingfengHouse.14": "{{i18n:ThirdfloorofQingfengHouse.14}}",
+                "ThirdfloorofQingfengHouse.15": "{{i18n:ThirdfloorofQingfengHouse.15}}",
+
+                "QingfengCourtyard.1": "{{i18n:QingfengCourtyard.1}}",
+                "QingfengCourtyard.2": "{{i18n:QingfengCourtyard.2}}",
+                "QingfengCourtyard.3": "{{i18n:QingfengCourtyard.3}}",
+                "QingfengCourtyard.4": "{{i18n:QingfengCourtyard.4}}",
+                "QingfengCourtyard.5": "{{i18n:QingfengCourtyard.5}}",
+
+                "QingfengForest.1":"{{i18n:QingfengForest.1}}",
+
+                "QingfengRoom.1":"{{i18n:QingfengRoom.1}}",
+                "QingfengRoom.2":"{{i18n:QingfengRoom.2}}",
+                "QingfengRoom.3":"{{i18n:QingfengRoom.3}}",
+                "QingfengRoom.4":"{{i18n:QingfengRoom.4}}",
+                "QingfengRoom.5":"{{i18n:QingfengRoom.5}}",
+                "QingfengRoom.6":"{{i18n:QingfengRoom.6}}",
+                "QingfengRoom.7":"{{i18n:QingfengRoom.7}}",
+                "QingfengRoom.8":"{{i18n:QingfengRoom.8}}",
+                "QingfengRoom.9":"{{i18n:QingfengRoom.9}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+              "Qingfeng": {
+                "DisplayName": "{{i18n:NPCName:Qingfeng}}",
+                  "BirthSeason": "spring",
+                  "BirthDay": 16,
+                  "HomeRegion": "Town",
+                  "Gender": "Female",
+                  "Age": "Teen",
+                  "Manner": "Polite",
+                  "SocialAnxiety": "Shy",
+                  "Optimism": "Positive",
+                  "IsDarkSkinned": false,
+                  "CanBeRomanced": true,
+                  "Calendar": "AlwaysShown",
+                  "SocialTab": "UnknownUntilMet",
+                  "CanSocialize": true,
+                  "CanVisitIslandCondition": false,
+                  "ExcludeFromIntroductionsQuest": false,
+                  "ExcludeFromPerfectionScore": false,
+                  "EndSlideShow": "MainGroup",
+                  "SpouseGiftJealousy": true,
+                  "SpouseRoom": {
+                      "MapAsset": "Custom_QingfengRoom",
+                      "MapSourceRect": {
+                          "X": 0,
+                          "Y": 0,
+                          "Width": 6,
+                          "Height": 9
+                      }
+                  },
+                  "SpousePatio": {
+                      "MapAsset": "Qingfeng_Spouse_Area",
+                      "MapSourceRect": {
+                          "X": 0,
+                          "Y": 0,
+                          "Width": 4,
+                          "Height": 4
+
+                      }
+                  },
+                  "FriendsAndFamily": {},
+                  "UnlockConditions": null,
+                  "SpawnIfMissing": true,
+                  "Home": [
+                      {
+                          "Id": "Default",
+                          "Condition": null,
+                          "Location": "Custom_SecondfloorofQingfengHouse",
+                          "Tile": {"X": 36, "Y": 5},
+                          "Direction": "down"
+                      }
+                  ],
+                  "TextureName": null,
+                  "Size": {
+                      "X": 16,
+                      "Y": 32
+                  },
+                  "CustomFields": {}
+              }
+            }
+        },
+        {
+            "LogName": "Qingfeng's Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "Qingfeng": "{{i18n:Qingfeng.GiftTastes.love}}/424 636 279 74 797 18 Lilaoliu.QingfengCP_Pearl.milk.tea/{{i18n:Qingfeng.GiftTastes.like}}/591 595 254 268/{{i18n:Qingfeng.GiftTastes.dislike}}/258 591 595 254 268/{{i18n:Qingfeng.GiftTastes.hate}}/174 176 180 182 376/{{i18n:Qingfeng.GiftTastes.neutral}}/227 303 348 459 346 446//"
+            }
+        },
+        {
+            "LogName": "Qingfeng's Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "Qingfeng": "{{i18n:Spouse.Qingfeng.GiftTastes.love}}/424 636 279 74 797 18 Lilaoliu.QingfengCP_Pearl.milk.tea/{{i18n:Spouse.Qingfeng.GiftTastes.like}}/591 595 254 268/{{i18n:Spouse.Qingfeng.GiftTastes.dislike}}/258 591 595 254 268/{{i18n:Spouse.Qingfeng.GiftTastes.hate}}/174 176 180 182 376/{{i18n:Spouse.Qingfeng.GiftTastes.neutral}}/227 303 348 459 346//"
+            },
+            "When": {
+                "Spouse": "Qingfeng"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/animationdescriptions",
+            "Entries": {
+                "qingfeng_sleep": "29/29/29",
+                "qingfeng_dozeoff": "16/16/16/16//17/17/17/17/16/16/16/16/17/17/17/17/16/16/16/16/17/17/17/17/18/18/18/18/18/18/18/18/18/18/19/19/19/19/19/19/19/19/19/19",
+                "qingfeng_sitsonachair": "32/32/32/32/32/33/33/33/33/34/34/34/34/35/35/35/35",
+                "qingfeng_drinking1":"20/20 20 20 20 20 20 20 20 20 20 21 21 21 21 21 21 21 21 21 21/20"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Custom_QingfengRoom",
+            "FromFile": "Assets/Maps/QingfengRoom.tbin"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Qingfeng_Spouse_Area",
+            "FromFile": "Assets/Maps/Qingfeng_Spouse_Area.tbin"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Qingfeng",
+            "FromFile": "assets/Sprites/Qingfeng.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/Qingfeng",
+            "FromFile": "assets/Portraits/Qingfeng.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Qingfeng_Beach",
+            "FromFile": "assets/Sprites/Qingfeng_Beach.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/Qingfeng_Beach",
+            "FromFile": "assets/Portraits/Qingfeng_Beach.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/schedules/Qingfeng",
+            "FromFile": "assets/Schedules/Qingfeng/Schedule.json"
+        },
+        {
+            "Action": "Load",
+            "Target": "Strings/schedules/Qingfeng",
+            "FromFile": "data/blank.json"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Qingfeng,Characters/Dialogue/MarriageDialogueQingfeng",
+            "FromFile": "data/blank.json"
+        },
+        {
+            "LogName": "Dialogue",
+            "Action": "Include",
+            "FromFile": "assets/Dialogue/QingfengDialogue.json,assets/Dialogue/QingfengMarriageDialogue.json"
+        },
+        {
+            "LogName": "ScheduleDialogue",
+            "Action": "Include",
+            "FromFile": "assets/Schedules/Qingfeng/ScheduleDialogue.json"
+        },
+        {
+            "LogName": "Movies",
+            "Action": "Include",
+            "FromFile": "data/Movies.json,data/SpouseMovies.json"
+        },
+        {
+            "LogName": "Festivals",
+            "Action": "Include",
+            "FromFile": "data/Festivals.json"
+        },
+        {
+            "LogName": "SVEFestivals",
+            "Action": "Include",
+            "FromFile": "data/SVEFestivals.json"
+        },
+        {
+            "LogName": "RSVFestivals",
+            "Action": "Include",
+            "FromFile": "data/RSVFestivals.json"
+        },
+        {
+            "LogName": "Summit",
+            "Action": "Include",
+            "FromFile": "data/Summit.json"
+        },
+        {
+            "LogName": "Objects",
+            "Action": "Include",
+            "FromFile": "assets/Objects/Objects.json"
+        },
+        {
+            "LogName": "Shops",
+            "Action": "Include",
+            "FromFile": "assets/Objects/Shops.json"
+        },
+        {
+            "LogName": "Events",
+            "Action": "Include",
+            "FromFile": "data/Events.json"
+        },
+        {
+            "LogName": "Mail",
+            "Action": "Include",
+            "FromFile": "data/Mail.json"
+        },
+        {
+            "LogName": "Seasonal",
+            "Action": "Include",
+            "FromFile": "data/Seasonal.json"
+        }
+    ]
+}

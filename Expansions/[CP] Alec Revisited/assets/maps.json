@@ -1,0 +1,80 @@
+{
+    "Changes": [
+        {
+            "LogName": "Edit Alec's Room Map",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_AlecsRoom",
+            "FromFile": "assets/maps/alecsRoomClean.tmx",
+            "ToArea": { "X": 0, "Y": 0, "Width": 24, "Height": 18},
+            "When": { 
+                "HasFlag": "AlecDinnerInvite"
+            }
+        },
+        {
+            "LogName": "Edit Alec's Room Map",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_AlecsRoom",
+            "FromFile": "assets/maps/alecsRoomMarried.tmx",
+            "ToArea": { "X": 0, "Y": 0, "Width": 24, "Height": 18},
+            "When": { 
+                "Relationship:SPB_Alec": "Married"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "Edit Beach Map",
+            "Action": "EditMap",
+            "Target": "Maps/Beach",
+            "FromFile": "assets/maps/beachPatch.tmx",
+            "ToArea": { "X": 46, "Y": 5, "Width": 2, "Height": 2},
+            "PatchMode": "Replace",
+            "When": {
+                "HasSeenEvent": "16920008",
+                "HasSeenEvent |contains=16920011": "false"
+            }
+        },
+        {
+            "LogName": "Edit Forest Map",
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "FromFile": "assets/maps/forestPatchNew.tmx",
+            "ToArea": { "X": 70, "Y": 19, "Width": 14, "Height": 13}
+        },
+        {
+            "LogName": "Load Spouse Room",
+            "Action": "Load",
+            "Target": "Maps/Custom_AlecsSpouseRoom",
+            "FromFile": "assets/maps/alecsSpouseRoom.tmx"
+        },
+        {
+            "LogName": "Load Spouse Patio",
+            "Action": "Load",
+            "Target": "Maps/Custom_AlecsSpousePatio",
+            "FromFile": "assets/maps/AlecsSpousePatio.tmx"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/map",
+            "FromFile": "assets/loosesprites/map.png",
+            "PatchMode": "Overlay"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/map_summer",
+            "FromFile": "assets/loosesprites/map_summer.png",
+            "PatchMode": "Overlay"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/map_fall",
+            "FromFile": "assets/loosesprites/map_fall.png",
+            "PatchMode": "Overlay"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/map_winter",
+            "FromFile": "assets/loosesprites/map_winter.png",
+            "PatchMode": "Overlay"
+        }
+    ]
+}

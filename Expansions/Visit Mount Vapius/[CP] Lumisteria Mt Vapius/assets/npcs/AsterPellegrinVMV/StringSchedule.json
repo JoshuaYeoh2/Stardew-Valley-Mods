@@ -1,0 +1,22 @@
+{
+  "Changes": [
+    {
+      "LogName": "Load Schedule Strings",
+      "Action": "Load",
+      "Target": "Strings/schedules/AsterPellegrinVMV",
+      "FromFile": "assets/npcs/BlankDialogue.json"
+    },
+    {
+      "LogName": "Aster Schedule Strings",
+      "Action": "EditData",
+      "Target": "Strings/schedules/AsterPellegrinVMV",
+      "Entries": {
+		  "Job_spring.000": "{{i18n: AsterScheduleJob_spring000}}",
+		  "HaleyVisitingAsterHouse.000": "{{i18n: AsterScheduleHaleyVisitingAsterHouse000}}",
+		  "HaleyVisitingAsterBench.000": "{{i18n: AsterScheduleHaleyVisitingAsterBench000}}",
+		  "HaleyVisitingHamletPond.000": "{{i18n: AsterScheduleHaleyVisitingHamletPond000}}",
+
+      }
+    },
+  ]
+}
