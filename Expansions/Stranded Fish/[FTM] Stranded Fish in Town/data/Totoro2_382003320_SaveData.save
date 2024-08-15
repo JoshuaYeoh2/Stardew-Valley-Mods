@@ -1,5 +1,5 @@
 {
-  "WeatherForYesterday": "Storm",
+  "WeatherForYesterday": "Sun",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
@@ -9,7 +9,18 @@
       "Tile": "71, 101",
       "Type": "Forage",
       "ID": "132",
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Town",
+      "Name": "Sunfish",
+      "Tile": "70, 80",
+      "Type": "Forage",
+      "ID": "145",
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
