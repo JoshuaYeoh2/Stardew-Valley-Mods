@@ -1,0 +1,17 @@
+{
+    "Name": "The Bee's Knees - An Atelier Wildflour Custom Animal Mod",
+    "Author": "wildflourmods",
+    "Version": "1.2.1",
+    "Description": "A set of new custom honeybee farm animals for your coop",
+    "UniqueID": "wildflour.honeybees",
+    "MinimumApiVersion": "4.0.0-alpha",
+    "UpdateKeys": ["Nexus:20928"], 
+    "Dependencies": [
+        {"UniqueID": "Atelier.Cauldron", "IsRequired": true},
+        {"UniqueID": "wildflour.ateliercrops", "IsRequired": false},
+        {"UniqueID": "hxw.tilesheets", "IsRequired": true}
+    ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

@@ -1,0 +1,120 @@
+{
+  "Changes": [
+    {
+      "LogName": "Wildflour's Honeybees Animal Info",
+      "Action": "EditData",
+      "Target": "Data/FarmAnimals",
+      "Entries": {
+        "wildflour.honeybees_Honeybee": {
+          "DisplayName": "{{i18n:honeybees_Honeybee}}",
+          "House": "wildflour.honeybees_Apiary",
+          "Gender": "Female",
+          "PurchasePrice": 750,
+          "SellPrice": 1500,
+          "ShopTexture": "Mods/wildflour.honeybees/Icons",
+          "ShopSourceRect": {
+            "X": 0,
+            "Y": 0,
+            "Width": 32,
+            "Height": 16
+          },
+          "ShopDisplayName": "{{i18n: honeybees_Shop_Honeybee.name}}",
+          "ShopDescription": "{{i18n: honeybees_Shop_Honeybee.description}}",
+          "ShopMissingBuildingDescription": "[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5926]",
+          "RequiredBuilding": "wildflour.honeybees_Apiary",
+          "EggItemIds": [
+            "wildflour.honeybees_honeyegg"
+          ],
+          "IncubationTime": -1,
+          "IncubatorParentSheetOffset": 1,
+          "BirthText": "{{i18n:honeybees_Shop_Honeybee.birth}}",
+          "DaysToMature": 4,
+          "CanGetPregnant": false,
+          "DaysToProduce": 1,
+          "HarvestType": "DropOvernight",
+          "ProduceItemIds": [
+            {
+              "Id": "Default_Honeybee_Honeycomb",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.honeybees_honeycomb",
+            },
+            {
+              "Id": "Default_Honeybee_Honey",
+              "MinimumFriendship": 0,
+              "ItemId": "340",
+              "Condition": "RANDOM .1"
+            }
+          ],
+          "DeluxeProduceItemIds": [
+            
+            {
+              "Id": "Deluxe_Honeybee_MixedFlowerSeeds",
+              "MinimumFriendship": 0,
+              "ItemId": "MixedFlowerSeeds",
+              "Condition": "RANDOM .1",
+            },
+            {
+              "Id": "Deluxe_Honeybee_Tulip",
+              "MinimumFriendship": 0,
+              "ItemId": "591",
+              "Condition": "SEASON spring, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_Honeybee_Jazz",
+              "MinimumFriendship": 0,
+              "ItemId": "597",
+              "Condition": "SEASON spring, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_Honeybee_Poppy",
+              "MinimumFriendship": 0,
+              "ItemId": "376",
+              "Condition": "SEASON summer, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_Honeybee_Sunflower",
+              "MinimumFriendship": 0,
+              "ItemId": "421",
+              "Condition": "SEASON summer fall, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_Honeybee_FairyRose",
+              "MinimumFriendship": 0,
+              "ItemId": "595",
+              "Condition": "SEASON fall, RANDOM .1"
+            }
+
+          ],
+          "ProduceOnMature": false,
+          "FriendshipForFasterProduce": -1,
+          "DeluxeProduceMinimumFriendship": 200,
+          "DeluxeProduceCareDivisor": 1200.0,
+          "DeluxeProduceLuckMultiplier": 0.0,
+          "ProfessionForHappinessBoost": 2,
+          "ProfessionForQualityBoost": 2,
+          "ProfessionForFasterProduce": -1,
+          "Texture": "Mods/wildflour.honeybees/Honeybee",
+          "UseFlippedRightForLeft": true,
+          "SpriteWidth": 16,
+          "SpriteHeight": 16,
+          "EmoteOffset": {
+            "X": 0,
+            "Y": -16
+          },
+          "Skins": [],
+          "CanSwim": false,
+          "BabiesFollowAdults": true,
+          "GrassEatAmount": 3,
+          "HappinessDrain": 6,
+          "UpDownPetHitboxTileSize": "1, 1",
+          "LeftRightPetHitboxTileSize": "1, 1",
+          "BabyUpDownPetHitboxTileSize": "1, 1",
+          "BabyLeftRightPetHitboxTileSize": "1, 1",
+          "ShowInSummitCredits": true,
+          "CustomFields": {}
+        },
+      }
+    }
+    
+  ]
+}
