@@ -6,7 +6,7 @@
     {
       "MapName": "BugLand",
       "Name": "wildflour.ateliercrops_dusk_cap",
-      "Tile": "32, 14",
+      "Tile": "30, 14",
       "Type": "Forage",
       "ID": "wildflour.ateliercrops_dusk_cap",
       "DaysUntilExpire": 1,
@@ -15,22 +15,11 @@
       "MonType": null
     },
     {
-      "MapName": "WitchSwamp",
-      "Name": "wildflour.ateliercrops_dusk_cap",
-      "Tile": "8, 31",
+      "MapName": "BugLand",
+      "Name": "wildflour.ateliercrops_dawn_trumpet",
+      "Tile": "40, 6",
       "Type": "Forage",
-      "ID": "wildflour.ateliercrops_dusk_cap",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "WitchSwamp",
-      "Name": "wildflour.ateliercrops_tiny_angels",
-      "Tile": "20, 27",
-      "Type": "Forage",
-      "ID": "wildflour.ateliercrops_tiny_angels",
+      "ID": "wildflour.ateliercrops_dawn_trumpet",
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -38,52 +27,8 @@
     },
     {
       "MapName": "Railroad",
-      "Name": "wildflour.ateliercrops_daisy",
-      "Tile": "26, 21",
-      "Type": "Forage",
-      "ID": "wildflour.ateliercrops_daisy",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Railroad",
-      "Name": "wildflour.ateliercrops_daisy",
-      "Tile": "8, 17",
-      "Type": "Forage",
-      "ID": "wildflour.ateliercrops_daisy",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Railroad",
-      "Name": "wildflour.ateliercrops_mint",
-      "Tile": "8, 20",
-      "Type": "Forage",
-      "ID": "wildflour.ateliercrops_mint",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Railroad",
-      "Name": "wildflour.ateliercrops_mint",
-      "Tile": "18, 22",
-      "Type": "Forage",
-      "ID": "wildflour.ateliercrops_mint",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_CapeBusStop",
       "Name": null,
-      "Tile": "24, 30",
+      "Tile": "0, 38",
       "Type": "Container",
       "ID": null,
       "DaysUntilExpire": 1,
@@ -98,8 +43,19 @@
     },
     {
       "MapName": "Custom_CapeBusStop",
+      "Name": "wildflour.ateliercrops_lemon",
+      "Tile": "19, 33",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_lemon",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_CapeBusStop",
       "Name": null,
-      "Tile": "54, 15",
+      "Tile": "28, 8",
       "Type": "Container",
       "ID": null,
       "DaysUntilExpire": 1,
@@ -115,7 +71,7 @@
     {
       "MapName": "BusStop",
       "Name": null,
-      "Tile": "20, 18",
+      "Tile": "21, 14",
       "Type": "Container",
       "ID": null,
       "DaysUntilExpire": 1,
@@ -129,9 +85,97 @@
       "MonType": null
     },
     {
-      "MapName": "IslandNorth",
+      "MapName": "Mountain",
+      "Name": "wildflour.ateliercrops_rosefinch_feather",
+      "Tile": "122, 36",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_rosefinch_feather",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Mountain",
+      "Name": "wildflour.ateliercrops_avalune",
+      "Tile": "126, 29",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_avalune",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Backwoods",
+      "Name": "wildflour.ateliercrops_gloomy_blewit",
+      "Tile": "36, 17",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_gloomy_blewit",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Backwoods",
+      "Name": "wildflour.ateliercrops_gloomy_blewit",
+      "Tile": "11, 25",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_gloomy_blewit",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Backwoods",
+      "Name": "wildflour.ateliercrops_lime",
+      "Tile": "34, 30",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_lime",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AnnettaForest",
+      "Name": "wildflour.ateliercrops_almond",
+      "Tile": "33, 31",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_almond",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Forest",
+      "Name": "wildflour.ateliercrops_lavender",
+      "Tile": "59, 13",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_lavender",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Forest",
+      "Name": "wildflour.ateliercrops_almond",
+      "Tile": "17, 55",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_almond",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "IslandWest",
       "Name": "wildflour.ateliercrops_golden_aura",
-      "Tile": "67, 57",
+      "Tile": "108, 77",
       "Type": "Forage",
       "ID": "wildflour.ateliercrops_golden_aura",
       "DaysUntilExpire": 1,
@@ -140,82 +184,11 @@
       "MonType": null
     },
     {
-      "MapName": "Custom_CapeStardew",
-      "Name": null,
-      "Tile": "31, 64",
-      "Type": "Container",
-      "ID": null,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": {
-        "Category": "Buried",
-        "Contents": [
-          "wildflour.ateliercrops_redonion"
-        ]
-      },
-      "MonType": null
-    },
-    {
-      "MapName": "Backwoods",
-      "Name": "wildflour.ateliercrops_strawberry",
-      "Tile": "0, 15",
+      "MapName": "Town",
+      "Name": "wildflour.ateliercrops_violet",
+      "Tile": "60, 65",
       "Type": "Forage",
-      "ID": "wildflour.ateliercrops_strawberry",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AnnettaForest",
-      "Name": "wildflour.ateliercrops_strawberry",
-      "Tile": "11, 30",
-      "Type": "Forage",
-      "ID": "wildflour.ateliercrops_strawberry",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "IslandWest",
-      "Name": "wildflour.ateliercrops_cilantro",
-      "Tile": "102, 76",
-      "Type": "Forage",
-      "ID": "wildflour.ateliercrops_cilantro",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Woods",
-      "Name": "wildflour.ateliercrops_clover",
-      "Tile": "41, 17",
-      "Type": "Forage",
-      "ID": "wildflour.ateliercrops_clover",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Woods",
-      "Name": "wildflour.ateliercrops_puffball",
-      "Tile": "8, 63",
-      "Type": "Forage",
-      "ID": "wildflour.ateliercrops_puffball",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Desert",
-      "Name": "wildflour.ateliercrops_apple",
-      "Tile": "50, 151",
-      "Type": "Forage",
-      "ID": "wildflour.ateliercrops_apple",
+      "ID": "wildflour.ateliercrops_violet",
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
