@@ -1,0 +1,111 @@
+{
+"Format": "2.3.0",
+"ConfigSchema": { 
+
+"Willy Sells Vanilla Fish": {
+"AllowValues": "unlimited, limited, disabled",
+"Default": "limited",
+"Section": "Vanilla"
+},
+"Willy Sells Vanilla Crab Pot Fish": {
+"AllowValues": "unlimited, limited, disabled",
+"Default": "limited",
+"Section": "Vanilla"
+},
+"Willy Sells Vanilla Forage": {
+"AllowValues": "unlimited, limited, disabled",
+"Default": "limited",
+"Section": "Vanilla"
+},
+"Willy Sells Vanilla Other Catchables": {
+"AllowValues": "unlimited, limited, disabled",
+"Default": "limited",
+"Section": "Vanilla"
+},
+"Willy Sells Vanilla Dishes": {
+"AllowValues": "unlimited, limited, disabled",
+"Default": "limited",
+"Section": "Vanilla"
+},
+"Willy Sells Vanilla Bait": {
+"AllowValues": "true, false",
+"Default": "true",
+"Section": "Vanilla"
+},
+"Willy Sells Vanilla Tackle": {
+"AllowValues": "true, false",
+"Default": "true",
+"Section": "Vanilla"
+},
+
+"Willy Sells SVE Fish": {
+"AllowValues": "unlimited, limited, disabled",
+"Default": "limited",
+"Section": "Stardew Valley Expanded"
+},
+"Willy Sells RsV Fish": {
+"AllowValues": "unlimited, limited, disabled",
+"Default": "limited",
+"Section": "Ridgeside Village"
+},
+"Willy Sells ES Fish": {
+"AllowValues": "unlimited, limited, disabled",
+"Default": "limited",
+"Section": "East Scarp"
+},
+"Willy Sells VMV Fish": {
+"AllowValues": "unlimited, limited, disabled",
+"Default": "limited",
+"Section": "Lumisteria Visit Mount Vapius"
+},
+"Willy Sells LASV Fish": {
+"AllowValues": "unlimited, limited, disabled",
+"Default": "limited",
+"Section": "Lunna - Astray in Stardew Valley"
+},
+
+
+},
+   
+ "Changes": [
+      {
+        "Action": "Include",
+        "FromFile": "data/Unlimited/Willy_Vanilla.json, data/Limited/Willy_Limited_Vanilla.json"
+      },
+     {
+        "Action": "Include",
+        "FromFile": "data/Unlimited/Willy_SVE.json, data/Limited/Willy_Limited_SVE.json",
+        "When": {
+             "HasMod": "FlashShifter.StardewValleyExpandedCP"
+        }
+      },
+     {
+        "Action": "Include",
+        "FromFile": "data/Unlimited/Willy_RidgesideVillage.json, data/Limited/Willy_Limited_RidgesideVillage.json",
+        "When": {
+             "HasMod": "Rafseazz.RSVCP"
+        }
+      },
+     {
+        "Action": "Include",
+        "FromFile": "data/Unlimited/Willy_ES.json, data/Limited/Willy_Limited_ES.json",
+        "When": {
+             "HasMod": "LemurKat.EastScarpe.CP"
+        }
+       },
+      {
+        "Action": "Include",
+        "FromFile": "data/Unlimited/Willy_VMV.json, data/Limited/Willy_Limited_VMV.json",
+        "When": {
+             "HasMod": "Lumisteria.MtVapius"
+        }
+       },
+      {
+        "Action": "Include",
+        "FromFile": "data/Unlimited/Willy_LASV.json, data/Limited/Willy_Limited_LASV.json",
+        "When": {
+             "HasMod": "Rafseazz.LunnaCP"
+        }
+       },
+    ]
+}

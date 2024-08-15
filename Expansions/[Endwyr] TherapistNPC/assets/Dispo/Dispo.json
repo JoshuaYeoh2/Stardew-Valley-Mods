@@ -1,0 +1,42 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "GreyNPC": {
+                    "DisplayName": "Grey",
+                    "Gender": "Male",
+                    "Age": "Adult",
+		"Manner": "Polite",
+                    "SocialAnxiety": "Neutral",
+                    "Optimism": "Positive",
+			"Manner": "Polite",
+                    "BirthSeason": "Summer",
+                    "BirthDay": "28",
+                    "HomeRegion": "Town",
+                    "CanSocialize": "True",
+                    "CanBeRomanced": "False",
+                    "CanReceiveGifts": "True",
+                    "SocialTab": "UnknownUntilMet",
+                    "IntroductionsQuest": "True",
+                    "ItemDeliveryQuests": "True",
+                    "DumpsterDiveEmote": "8",
+		    "DumpsterDiveFriendshipEffect": "0",
+                    "WinterStarParticipant": "True",
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "Custom_GreysHome",
+                            "Tile": {
+                                "X": 17,
+                                "Y": 6
+                            },
+                            "Direction": "up"
+                        }
+                    ],
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+   "Name": "Mike Custom NPC",
+   "Author": "SYS",
+   "Version": "3.0.0",
+   "Description": "A custom NPC named Mike is added to the game.",
+   "UniqueID": "SYS.mike",
+   "UpdateKeys": ["Nexus:6288"],
+   "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+   {
+      "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+      "IsRequired": false,
+   },
+	],
+}

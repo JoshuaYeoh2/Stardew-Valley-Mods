@@ -1,0 +1,242 @@
+{
+
+  "Changes": [
+
+     {
+       "LogName": "Movie Invitation Spouse",
+       "Action": "EditData",
+       "Target": "Strings/Characters",
+      "Entries": {
+       "MovieInvite_Spouse_Mike": "{{i18n: MovieInviteSpouse.Mike}}"
+      }
+     },
+
+    { //Movies//
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+      "Mike": {"Name": "Mike",
+        "LovedTags": [
+        "Apple Slices", "Fries", "Joja Cola", "Nachos", "Personal Pizza", "Stardrop Sorbet"
+        ],
+        "LikedTags": [
+        "Cappuccino Mousse Cake", "Chocolate Popcorn", "Cotton Candy", "Hummus Snack Pack", "Ice Cream Sandwich", "JojaCorn", "Salmon Burger", "Star Cookie"
+        ],
+        "DislikedTags": [
+        "Black Licorice", "Jasmine Tea", "Jawbreaker", "Kale Smoothie", "Panzanella Salad", "Popcorn", "Rock Candy", "Salted Peanuts", "Sour Slimes", "Truffle Popcorn"
+        ]
+      }
+      }
+    },
+    {"Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Entries": {
+      "Mike": {
+      "NPCName": "Mike",
+      "Reactions": [
+        {
+          "Tag": "family",
+          "Response": "love",
+          "Whitelist": [],
+          "SpecialResponses": null,
+          "ID": "reaction_0"
+        },
+        {
+          "Tag": "horror",
+          "Response": "dislike",
+          "Whitelist": [],
+          "SpecialResponses": null,
+          "ID": "reaction_1"
+        },
+        {
+          "Tag": "spring_movie_0",
+          "Response": "like",
+          "Whitelist": [],
+          "SpecialResponses": {
+            "BeforeMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "{{i18n: MovieBefore.Spring1}}"
+            },
+            "DuringMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "{{i18n: MovieDuring.Spring1}}"
+            },
+            "AfterMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "{{i18n: MovieAfter.Spring1}}"
+            }
+          },
+          "ID": "reaction_2"
+        },
+        {
+          "Tag": "summer_movie_0",
+          "Response": "love",
+          "Whitelist": [],
+          "SpecialResponses": {
+            "BeforeMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "{{i18n: MovieBefore.Summer1}}"
+            },
+            "DuringMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "{{i18n: MovieDuring.Summer1}}"
+            },
+            "AfterMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "{{i18n: MovieAfter.Summer1}}"
+            }
+          },
+          "ID": "reaction_3"
+        },
+        {
+          "Tag": "fall_movie_0",
+          "Response": "dislike",
+          "Whitelist": [],
+          "SpecialResponses": {
+            "BeforeMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "{{i18n: MovieBefore.Fall1}}"
+            },
+            "DuringMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "{{i18n: MovieDuring.Fall1}}"
+            },
+            "AfterMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "{{i18n: MovieAfter.Fall1}}"
+            }
+          },
+          "ID": "reaction_4"
+        },
+        {
+          "Tag": "winter_movie_0",
+          "Response": "love",
+          "Whitelist": [],
+          "SpecialResponses": {
+            "BeforeMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "{{i18n: MovieBefore.Winter1}}"
+            },
+            "DuringMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "{{i18n: MovieDuring.Winter1}}"
+            },
+            "AfterMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "{{i18n: MovieAfter.Winter1}}"
+            }
+          },
+          "ID": "reaction_5"
+        },
+        {
+          "Tag": "spring_movie_1",
+          "Response": "hate",
+          "Whitelist": [],
+          "SpecialResponses": {
+            "BeforeMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "{{i18n: MovieBefore.Spring2}}"
+            },
+            "DuringMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "{{i18n: MovieDuring.Spring2}}"
+            },
+            "AfterMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "{{i18n: MovieAfter.Spring2}}"
+            }
+          },
+          "ID": "reaction_6"
+        },
+        {
+          "Tag": "summer_movie_1",
+          "Response": "love",
+          "Whitelist": [],
+          "SpecialResponses": {
+            "BeforeMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "{{i18n: MovieBefore.Summer2}}"
+            },
+            "DuringMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "{{i18n: MovieDuring.Summer2}}"
+            },
+            "AfterMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "{{i18n: MovieAfter.Summer2}}"
+            }
+          },
+          "ID": "reaction_7"
+        },
+        {
+          "Tag": "fall_movie_1",
+          "Response": "love",
+          "Whitelist": [],
+          "SpecialResponses": {
+            "BeforeMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "{{i18n: MovieBefore.Fall2}}"
+            },
+            "DuringMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "{{i18n: MovieDuring.Fall2}}"
+            },
+            "AfterMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "{{i18n: MovieAfter.Fall2}}"
+            }
+          },
+          "ID": "reaction_8"
+        },
+        {
+          "Tag": "winter_movie_1",
+          "Response": "like",
+          "Whitelist": [],
+          "SpecialResponses": {
+            "BeforeMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "{{i18n: MovieBefore.Winter2}}"
+            },
+            "DuringMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "{{i18n: MovieDuring.Winter2}}"
+            },
+            "AfterMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "{{i18n: MovieAfter.Winter2}}"
+            }
+          },
+          "ID": "reaction_9"
+        }
+      ]
+   }
+   }
+}
+
+
+]
+}

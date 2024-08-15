@@ -1,0 +1,103 @@
+{
+  "Format": "1.29.0",
+
+  
+"ConfigSchema": {   		
+  "TinaBow": {
+  "AllowValues": "true, false",
+  "Default": "true",
+  "Description": "Whether or not Tina should wear a bow."
+        },
+  "VisitKrobus": {
+  "AllowValues": "true, false",
+  "Default": "false",
+  "Description": "If True is select, Douglas will visit Krobus on rainy days. I recommend False if you are roommates with Krobus."	
+},
+  "CCR": {
+  "AllowValues": "true, false",
+  "Default": "false",
+  "Description": "If you are using the Community Center Reimagined mod released by Lemurkat and children are using the Community Center instead of school, you should True. Not compatible with the SVE modified community center. Should remain False if you are using Town School."
+        },	
+},
+ "Changes": [
+
+  {
+      "Action": "Include",
+      "FromFile": "assets/Adrian.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/Douglas.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/James.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/Tina.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/Vanessa.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/VanillaNpcs.json"
+ },
+{
+            "LogName": "AdrianFestival",
+            "Action": "Include",
+            "FromFile": "assets/Festivals/Adrian.json"
+    },
+    {
+      "LogName": "AdrianFestivalDialogue",
+      "Action": "Include",
+      "FromFile": "assets/Festivals/Dialogue/Adrian.json"
+    },
+{
+            "LogName": "DouglasFestival",
+            "Action": "Include",
+            "FromFile": "assets/Festivals/Douglas.json"
+    },
+    {
+      "LogName": "DouglasFestivalDialogue",
+      "Action": "Include",
+      "FromFile": "assets/Festivals/Dialogue/Douglas.json"
+    },
+{
+            "LogName": "JamesFestival",
+            "Action": "Include",
+            "FromFile": "assets/Festivals/James.json"
+    },
+    {
+      "LogName": "JamesFestivalDialogue",
+      "Action": "Include",
+      "FromFile": "assets/Festivals/Dialogue/James.json"
+    },
+{
+            "LogName": "TinaFestival",
+            "Action": "Include",
+            "FromFile": "assets/Festivals/Tina.json"
+    },
+    {
+      "LogName": "TinaFestivalDialogue",
+      "Action": "Include",
+      "FromFile": "assets/Festivals/Dialogue/Tina.json"
+    },
+{
+            "LogName": "VanessaFestival",
+            "Action": "Include",
+            "FromFile": "assets/Festivals/Vanessa.json"
+    },
+    {
+      "LogName": "VanessaFestivalDialogue",
+      "Action": "Include",
+      "FromFile": "assets/Festivals/Dialogue/Vanessa.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/Events.json"
+    }
+  ]
+}

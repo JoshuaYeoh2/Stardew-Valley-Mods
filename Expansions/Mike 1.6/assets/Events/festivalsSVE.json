@@ -1,0 +1,279 @@
+{
+    "Changes": [
+//Egg Fests
+{
+  "LogName": "Egg Festival Mike",
+  "Action": "EditData",
+  "Target": "Data/Festivals/spring13",
+  "TextOperations": [
+        {
+        "Operation": "Append",
+        "Target": [ "Entries", "Set-Up_additionalCharacters"],
+        "Value": "Mike 32 55 2",
+        "Delimiter": "/"
+         },
+     ],
+            "When": {
+		"Query: {{Year}} % 2 = 0": false
+            }
+ },
+{
+  "LogName": "Egg Festival Mike2",
+  "Action": "EditData",
+  "Target": "Data/Festivals/spring13",
+  "TextOperations": [
+        {
+        "Operation": "Append",
+        "Target": [ "Entries", "Set-Up_additionalCharacters"],
+        "Value": "Mike 23 58 1",
+        "Delimiter": "/"
+         },
+     ],
+            "When": {
+		"Query: {{Year}} % 2 = 0": true
+            }
+ },
+
+//Flower Fests
+{
+  "LogName": "Flower Festival Mike",
+  "Action": "EditData",
+  "Target": "Data/Festivals/spring24",
+  "TextOperations": [
+        {
+        "Operation": "Append",
+        "Target": [ "Entries", "Set-Up_additionalCharacters"],
+        "Value": "Mike 11 20 2",
+        "Delimiter": "/"
+         },
+     ],
+            "When": {
+		"Query: {{Year}} % 2 = 0": false
+            }
+ },
+{
+  "LogName": "Flower Festival Mike2",
+  "Action": "EditData",
+  "Target": "Data/Festivals/spring24",
+  "TextOperations": [
+        {
+        "Operation": "Append",
+        "Target": [ "Entries", "Set-Up_additionalCharacters"],
+        "Value": "Mike 4 29 1",
+        "Delimiter": "/"
+         },
+     ],
+            "When": {
+		"Query: {{Year}} % 2 = 0": true
+            }
+ },
+
+//Luau Fests
+{
+  "LogName": "Luau Festival Mike",
+  "Action": "EditData",
+  "Target": "Data/Festivals/summer11",
+  "TextOperations": [
+        {
+        "Operation": "Append",
+        "Target": [ "Entries", "Set-Up_additionalCharacters"],
+        "Value": "Mike 36 3 2",
+        "Delimiter": "/"
+         },
+     ],
+            "When": {
+		"Query: {{Year}} % 2 = 0": false
+            }
+ },
+{
+  "LogName": "Luau Festival Mike2",
+  "Action": "EditData",
+  "Target": "Data/Festivals/summer11",
+  "TextOperations": [
+        {
+        "Operation": "Append",
+        "Target": [ "Entries", "Set-Up_additionalCharacters"],
+        "Value": "Mike 36 3 2",
+        "Delimiter": "/"
+         },
+     ],
+            "When": {
+		"Query: {{Year}} % 2 = 0": true
+            }
+ },
+
+//Jelly Fest
+{
+  "LogName": "Jellies Festival Mike",
+  "Action": "EditData",
+  "Target": "Data/Festivals/summer28",
+  "TextOperations": [
+        {
+        "Operation": "Append",
+        "Target": [ "Entries", "Set-Up_additionalCharacters"],
+        "Value": "Mike 87 40 2",
+        "Delimiter": "/"
+         },
+     ],
+            "When": {
+		"Query: {{Year}} % 2 = 0": false
+            }
+ },
+{
+  "LogName": "Jellies Festival Mike2",
+  "Action": "EditData",
+  "Target": "Data/Festivals/summer28",
+  "TextOperations": [
+        {
+        "Operation": "Append",
+        "Target": [ "Entries", "Set-Up_additionalCharacters"],
+        "Value": "Mike 9 15 3",
+        "Delimiter": "/"
+         },
+     ],
+            "When": {
+		"Query: {{Year}} % 2 = 0": true
+            }
+ },
+
+//Fair Fest
+{
+  "LogName": "Fair Festival Mike",
+  "Action": "EditData",
+  "Target": "Data/Festivals/fall16",
+  "TextOperations": [
+        {
+        "Operation": "Append",
+        "Target": [ "Entries", "Set-Up_additionalCharacters"],
+        "Value": "Mike 16 64 1",
+        "Delimiter": "/"
+         },
+     ],
+            "When": {
+		"Query: {{Year}} % 2 = 0": false
+            }
+ },
+{
+  "LogName": "Fair Festival Mike2",
+  "Action": "EditData",
+  "Target": "Data/Festivals/fall16",
+  "TextOperations": [
+        {
+        "Operation": "Append",
+        "Target": [ "Entries", "Set-Up_additionalCharacters"],
+        "Value": "Mike 19 62 1",
+        "Delimiter": "/"
+         },
+     ],
+            "When": {
+		"Query: {{Year}} % 2 = 0": true
+            }
+ },
+
+
+//Spirit Fest
+{
+  "LogName": "Spirit Festival Mike",
+  "Action": "EditData",
+  "Target": "Data/Festivals/fall27",
+  "TextOperations": [
+        {
+        "Operation": "Append",
+        "Target": [ "Entries", "Set-Up_additionalCharacters"],
+        "Value": "Mike 25 54 2",
+        "Delimiter": "/"
+         },
+     ],
+            "When": {
+		"Query: {{Year}} % 2 = 0": false
+            }
+ },
+{
+  "LogName": "Spirit Festival Mike2",
+  "Action": "EditData",
+  "Target": "Data/Festivals/fall27",
+  "TextOperations": [
+        {
+        "Operation": "Append",
+        "Target": [ "Entries", "Set-Up_additionalCharacters"],
+        "Value": "Mike 25 54 2",
+        "Delimiter": "/"
+         },
+     ],
+            "When": {
+		"Query: {{Year}} % 2 = 0": true
+            }
+ },
+
+//Ice Fest
+{
+  "LogName": "Ice Festival Mike",
+  "Action": "EditData",
+  "Target": "Data/Festivals/winter8",
+  "TextOperations": [
+        {
+        "Operation": "Append",
+        "Target": [ "Entries", "Set-Up_additionalCharacters"],
+        "Value": "Mike 88 34 0",
+        "Delimiter": "/"
+         },
+     ],
+            "When": {
+		"Query: {{Year}} % 2 = 0": false
+            }
+ },
+{
+  "LogName": "Ice Festival Mike2",
+  "Action": "EditData",
+  "Target": "Data/Festivals/winter8",
+  "TextOperations": [
+        {
+        "Operation": "Append",
+        "Target": [ "Entries", "Set-Up_additionalCharacters"],
+        "Value": "Mike 85 34 3",
+        "Delimiter": "/"
+         },
+     ],
+            "When": {
+		"Query: {{Year}} % 2 = 0": true
+            }
+ },
+
+
+//Star Fest
+{
+  "LogName": "Winter Star Festival Mike",
+  "Action": "EditData",
+  "Target": "Data/Festivals/winter25",
+  "TextOperations": [
+        {
+        "Operation": "Append",
+        "Target": [ "Entries", "Set-Up_additionalCharacters"],
+        "Value": "Mike 23 74 0",
+        "Delimiter": "/"
+         },
+     ],
+            "When": {
+		"Query: {{Year}} % 2 = 0": false
+            }
+ },
+{
+  "LogName": "Winter Star Festival Mike2",
+  "Action": "EditData",
+  "Target": "Data/Festivals/winter25",
+  "TextOperations": [
+        {
+        "Operation": "Append",
+        "Target": [ "Entries", "Set-Up_additionalCharacters"],
+        "Value": "Mike 35 73 0",
+        "Delimiter": "/"
+         },
+     ],
+            "When": {
+		"Query: {{Year}} % 2 = 0": true
+            }
+ },
+//0 = up, 1 = right, 2 = down, 3 = left
+
+]
+}

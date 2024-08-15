@@ -1,0 +1,27 @@
+{
+
+  "Changes": [
+    {
+      "LogName": "Events for Mike", 
+      "Action": "Include",
+      "FromFile": "assets/Events/events.json"
+    },
+    {
+      "LogName": "Mail for Mike", 
+      "Action": "Include",
+      "FromFile": "assets/Events/mail.json"
+    },
+    {
+      "LogName": "Festival Positions", 
+      "Action": "Include",
+      "FromFile": "assets/Events/festivals.json",
+      "When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,},
+    },
+    {
+      "LogName": "Mail for Mike", 
+      "Action": "Include",
+      "FromFile": "assets/Events/festivalsSVE.json",
+      "When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,},
+    },
+]
+}

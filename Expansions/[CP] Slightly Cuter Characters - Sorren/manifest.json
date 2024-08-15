@@ -1,0 +1,21 @@
+{
+   "Name": "Slightly Cuter Characters - Sorren",
+   "Author": "SeanFletchr",
+   "Version": "2.0.0",
+   "Description": "Makes annachibi's original NPC Sorren slightly cuter.",
+   "UniqueID": "SeanFletchr.CuteSpritesSorren",
+   "UpdateKeys": [ "Nexus:10853" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+   "Dependencies": [
+   {
+	  "UniqueID": "annachibi.SorrenNPC",
+	  "IsRequired": true
+   },
+   {
+      "UniqueID": "Poltergeister.CuteSprites",
+      "IsRequired": false
+   }
+]
+}

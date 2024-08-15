@@ -1,0 +1,13 @@
+{
+  "Name": "Stranded Fish in Town",
+  "Author": "None",
+  "Version": "1.0.6",
+  "Description": "Add stranded fish to the Town.",
+  "UniqueID": "None.StrandedFish.Town.FTM",
+  "UpdateKeys": [ "Nexus:9187" ],
+  "MinimumApiVersion": "3.0.0",
+  "ContentPackFor": {
+    "UniqueID": "Esca.FarmTypeManager",
+    "MinimumVersion": "1.10.1"
+  }
+}

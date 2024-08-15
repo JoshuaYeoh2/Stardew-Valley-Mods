@@ -1,0 +1,25 @@
+{
+"Changes": [
+{
+
+  "Action": "EditData",
+  "Target": "Data/Events/Lizzie.Stoffton_Blacksmith",
+  "Entries":{
+
+//Ignas 2 heart event
+  "11666087/f IgnasFS 500": "distantBanjo/22 25/farmer 22 27 0 IgnasFS 22 24 2/skippable/pause 1000/speak IgnasFS \"{{i18n:event-11666087.01}}\"/speak IgnasFS \"$q -1 null#{{i18n:event-11666087.02}}#$r -1 -30 event_HateFarming#{{i18n:event-11666087.03}}#$r -1 0 event_Living#{{i18n:event-11666087.04}}#$r -1 30 event_Helping#{{i18n:event-11666087.05}}\"/speak IgnasFS \"{{i18n:event-11666087.06}}\"/end",
+
+//Blacksmith Introduction
+"11666159": "distantBanjo/5 8/farmer 4 9 0 IgnasFS 3 6 2 MarinaFS 5 6 2 TomasFS 7 6 2 FelixFS 8 6 2 ClayFS 7 9 3/skippable/pause 1000/speak IgnasFS \"{{i18n:event-11666159.01}}\"/speak MarinaFS \"{{i18n:event-11666159.02}}\"/speak ClayFS \"{{i18n:event-11666159.03}}\"/speak ClayFS \"{{i18n:event-11666159.04}}\"/speak ClayFS \"{{i18n:event-11666159.05}}\"/speak TomasFS \"{{i18n:event-11666159.06}}\"/speak FelixFS \"{{i18n:event-11666159.07}}\"/end",
+	
+//Clay 2 heart event
+  "11666196/f ClayFS 500": "distantBanjo/5 20/farmer 10 23 3 ClayFS 5 20 2 QuinnFS 3 23 1 WillFS 3 21 1 BrinaFS 7 21 0/skippable/pause 1000/speak ClayFS \"{{i18n:event-11666196.01}}\"/speak BrinaFS \"{{i18n:event-11666196.02}}\"/speak ClayFS \"{{i18n:event-11666196.03}}\"/speak BrinaFS \"{{i18n:event-11666196.04}}\"/speak BrinaFS \"{{i18n:event-11666196.05}}\"/speak ClayFS \"{{i18n:event-11666196.06}}\"/speak WillFS \"{{i18n:event-11666196.07}}\"/speak QuinnFS \"{{i18n:event-11666196.08}}\"/speak BrinaFS \"{{i18n:event-11666196.09}}\"/speak ClayFS \"{{i18n:event-11666196.10}}\"/emote farmer 32/pause 1000/end",
+
+
+
+
+
+}
+}
+]
+}

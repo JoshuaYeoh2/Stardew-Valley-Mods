@@ -1,0 +1,45 @@
+{
+	
+	"Changes": [
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			"FromFile": "assets/Town.tmx",
+			"FromArea": {
+				"X": 83,
+				"Y": 84,
+				"Width": 46,
+				"Height": 25
+			},
+			"ToArea": {
+				"X": 83,
+				"Y": 84,
+				"Width": 46,
+				"Height": 25
+			},
+			"PatchMode": "Replace"
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			"FromFile": "assets/TownEV.tmx",
+			"FromArea": {
+				"X": 83,
+				"Y": 84,
+				"Width": 46,
+				"Height": 25
+			},
+			"ToArea": {
+				"X": 83,
+				"Y": 84,
+				"Width": 46,
+				"Height": 25
+			},
+			"PatchMode": "Replace",
+			"When": {
+				"DLX.Bundles/Purchased": "{{ModId}}_EVChargers"
+			},
+			"Update": "OnDayStart"
+		},
+	]
+}

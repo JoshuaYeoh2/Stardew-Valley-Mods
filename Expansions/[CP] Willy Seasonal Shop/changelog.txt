@@ -1,0 +1,63 @@
+> Version 1.1.6
+   • Adding a quality fish system, every time you get closer to willy, there will be a greater chance for willy to sell better quality fish but this is only for limited, unlimited has no effect
+   • Add new dialogue in willy shop
+   • Added i18n files, for those who want to translate 
+   • Fixed Crimsonfish that should appear in summer instead appearing in spring 
+> Version 1.1.5
+   • Fix config schema is broken because there is no comma in one of the lines
+> Version 1.1.4
+   • Added beach forage to willy shop
+   • Now Dishes can appear in willy shop up to 5 different Dishes, but now Dishes that appear in willy shop have a percentage to appear, each dish has 50 percent to appear in willy shop
+      1 has 50% to appear 
+      2 has 25% to appear 
+      3 has 12.5% to appear 
+      4 has 6.25% to appear 
+      5 has 3.125% to appear 
+> Version 1.1.3
+   • Adding Curiosity Lure when fishing level 10
+   • Added Fishing related dishes to willy shop 
+      Dishes rotating stock every day
+      Spring and Summer: Each item has a 1/17 (≈5.8%) chance to appear.
+      Fall and Winter: Each item has a 1/18 (≈5.5%) chance to appear.
+      each dish depends on the ingredient such as Fried Calamari which has squid ingredient, squid appears during winter so Fried Calamari also appears in willy shop during winter.
+   • dishes Price modifier 
+      Willy 0 hearts: Price multiplied by 3 to 4 of the item price
+      Willy 6 hearts: Price multiplied by 2 to 3 of the item's price 
+      Willy 10 hearts: Price multiplied by 1.2 to 1.8 of the item price  
+> Version 1.1.2
+   • Added new configurations for Vanilla Fish which are Crab Pot Fish, Other Catchables, Bait and Bobber
+   • Reduce the stock of every fish that willy shop sells for limited stock configuration
+   • Compatibility patch adds VMV fish when having the Visit Mount Vapius mod
+   • Compatibility patch adds LASV fish when having the Lunna - Astray in Stardew Valley mod
+> Version 1.1.1
+   • Added config, so you can choose whether you want limited stock or unlimited stock
+> Version 1.1.0
+   • Added new fish void salmon and slimejack appear in willy shop when obtained Magic Ink
+   • Compatibility patch adds SVE fish when having the Stardew valley expanded mod
+   • Compatibility patch adds ES fish when having the East Scarp mod
+> Version 1.0.9
+   • Added "Ridgeside Villiage" fish to willy shop
+   • IgnoreShopPriceModifiers added to all fish to avoid price issues
+> Version 1.0.8
+   • New desert fish after the bus being repaired
+   • After 6 hearts with willy the price of fish will discount 50 percent
+> Version 1.0.7
+   • Bug fix: ginger island fish and wild bait not appearing in the shop
+   • Improvements to the code
+> Version 1.0.6
+   > Add new item: ginger island fish , Cave fish , crab pot fish , other catchable (example: seaweed) , night market fish
+> Version 1.0.5
+   • Added new fish Carp
+   • Fix there are some fish that do not appear because they are overwritten by other fish id.
+> Version 1.0.4
+   • bug fix. hopefully don't add new bugs again
+> Version 1.0.3
+   • Fix bug: When close the store and open it right away, the fishes to buy change. Now the fish change every day
+> Version 1.0.2
+   • Update for version 1.6
+   • No longer requires shop tile framework but requires content patcher.
+> Version 1.0.1
+   • Fix bug when rainy shop tile framework cannot be loaded
+   • added new fish Mutant Carp
+> Version 1.0.0
+   • Initial release

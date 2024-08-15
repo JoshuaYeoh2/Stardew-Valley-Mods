@@ -1,0 +1,398 @@
+{
+  "Changes": [
+    {
+      "LogName": "Load fish sprites",
+      "Action": "Load",
+      "Target": "Mods/otohime.teyvatfish/abidingangelfish, Mods/otohime.teyvatfish/aizenmedaka, Mods/otohime.teyvatfish/berylconch, Mods/otohime.teyvatfish/bitterpufferfish, Mods/otohime.teyvatfish/brownpufferfish, Mods/otohime.teyvatfish/brownshirakodai, Mods/otohime.teyvatfish/truefruitangler, Mods/otohime.teyvatfish/glazemedaka, Mods/otohime.teyvatfish/goldenkoi, Mods/otohime.teyvatfish/halcyonjadeaxemarlin, Mods/otohime.teyvatfish/lazuriteaxemarlin, Mods/otohime.teyvatfish/lumitoile, Mods/otohime.teyvatfish/medaka, Mods/otohime.teyvatfish/peachangler, Mods/otohime.teyvatfish/purpleshirakodai, Mods/otohime.teyvatfish/rustykoi, Mods/otohime.teyvatfish/sandstormangler, Mods/otohime.teyvatfish/sangopearl, Mods/otohime.teyvatfish/starconch, Mods/otohime.teyvatfish/sunsetcloudangler, Mods/otohime.teyvatfish/sweetflowermedaka, Mods/otohime.teyvatfish/teacoloredshirakodai, Mods/otohime.teyvatfish/tidalga, Mods/otohime.teyvatfish/truefruitangler",
+      "FromFile": "assets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "LogName": "Aquarium Sprites",
+      "Action": "Load",
+      "Target": "Mods/otohime.teyvatfish/AquariumFish",
+      "FromFile": "assets/AquariumSprites.png",
+    }, 
+    {
+      "LogName": "Objects Data",
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+         "{{ModId}}_Abiding_Angelfish": {
+          "Name": "Abiding Angelfish",
+          "DisplayName": "Abiding Angelfish",
+          "Description": "A rare and valuable butterflyfish variant from Liyue.",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 300,
+          "Texture": "Mods\\otohime.teyvatfish\\abidingangelfish",
+          "SpriteIndex": "0",
+          "Edibility": 100,
+          "ContextTags": [
+                        "color_pink",
+                        "fish_abiding_angelfish"
+                    ],
+                    "CustomFields": {}
+        },
+         "{{ModId}}_Aizen_Medaka": {
+          "Name": "Aizen Medaka",
+          "DisplayName": "Aizen Medaka",
+          "Description": "Long ago, there was a funny story that said that you could get Aizen Medaka by throwing normal Medaka into a pot of blue dye.",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 200,
+          "Texture": "Mods\\otohime.teyvatfish\\aizenmedaka",
+          "SpriteIndex": "0",
+          "Edibility": 50,
+          "ContextTags": [
+                        "color_blue",
+                        "fish_aizen_medaka"
+                    ],
+                    "CustomFields": {}
+        },
+        "{{ModId}}_Beryl_Conch": {
+          "Name": "Beryl Conch",
+          "DisplayName": "Beryl Conch",
+          "Description": "Despite the name, it is not a shell but something condensed from pure elemental energy.",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 100,
+          "Texture": "Mods\\otohime.teyvatfish\\berylconch",
+          "SpriteIndex": "0",
+          "Edibility": 0,
+          "ContextTags": [
+                    ],
+                    "CustomFields": {}
+        },
+        "{{ModId}}_Bitter_Pufferfish": {
+          "Name": "Bitter Pufferfish",
+          "DisplayName": "Bitter Pufferfish",
+          "Description": "As the name suggests, this creature spreads bitterness wherever it goes in the underwater world.",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 200,
+          "Texture": "Mods\\otohime.teyvatfish\\bitterpufferfish",
+          "SpriteIndex": "0",
+          "Edibility": 10,
+          "ContextTags": [
+                        "color_green",
+                        "fish_bitter_pufferfish"
+                    ],
+                    "CustomFields": {}
+        },
+        "{{ModId}}_Brown_Pufferfish": {
+          "Name": "Brown Pufferfish",
+          "DisplayName": "Brown Pufferfish",
+          "Description": "This fish is capable of sucking water into its body before expelling it like a cannon from its mouth with a strong force and pinpoint accuracy.",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 200,
+          "Texture": "Mods\\otohime.teyvatfish\\brownpufferfish",
+          "SpriteIndex": "0",
+          "Edibility": 10,
+          "ContextTags": [
+                        "color_brown",
+                        "fish_brown_pufferfish"
+                    ],
+                    "CustomFields": {}
+        },
+        "{{ModId}}_Brown_Shirakodai": {
+          "Name": "Brown Shirakodai",
+          "DisplayName": "Brown Shirakodai",
+          "Description": "Earthen-colored patterns run across its body, and its temper is also as steady as stone.",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 200,
+          "Texture": "Mods\\otohime.teyvatfish\\brownshirakodai",
+          "SpriteIndex": "0",
+          "Edibility": 20,
+          "ContextTags": [
+                        "color_brown",
+                        "fish_brown_shirakodai"
+                    ],
+                    "CustomFields": {}
+        },
+        "{{ModId}}_Glaze_Medaka": {
+          "Name": "Glaze Medaka",
+          "DisplayName": "Glaze Medaka",
+          "Description": "This species has inscrutable behavioral patterns, and they can often be seen bursting into struggling fits out of the blue.",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 200,
+          "Texture": "Mods\\otohime.teyvatfish\\glazemedaka",
+          "SpriteIndex": "0",
+          "Edibility": 50,
+          "ContextTags": [
+                        "color_purple",
+                        "fish_glazemedaka"
+                    ],
+                    "CustomFields": {}
+        },
+        "{{ModId}}_Golden_Koi": {
+          "Name": "Golden Koi",
+          "DisplayName": "Golden Koi",
+          "Description": "A large fish said to be the descendant of dragons.",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 400,
+          "Texture": "Mods\\otohime.teyvatfish\\goldenkoi",
+          "SpriteIndex": "0",
+          "Edibility": 50,
+          "ContextTags": [
+                        "color_gold",
+                        "fish_golden_koi"
+                    ],
+                    "CustomFields": {}
+        },
+        "{{ModId}}_Halcyon_Jade_Axe_Marlin": {
+          "Name": "Halcyon Jade Axe Marlin",
+          "DisplayName": "Halcyon Jade Axe Marlin",
+          "Description": "The jade-colored Axe Marlin prefers to live in areas where aquatic plants flourish, and where its shape easily blends in with the background.",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 200,
+          "Texture": "Mods\\otohime.teyvatfish\\halcyonjadeaxemarlin",
+          "SpriteIndex": "0",
+          "Edibility": 30,
+          "ContextTags": [
+                        "color_green",
+                        "fish_halcyon_jade_axe_marlin"
+                    ],
+                    "CustomFields": {}
+        },
+        "{{ModId}}_Lazurite_Axe_Marlin": {
+          "Name": "Lazurite Axe Marlin",
+          "DisplayName": "Lazurite Axe Marlin",
+          "Description": "A fish with unique morphology and Sumeru's cousin to the butterfly fish.",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 200,
+          "Texture": "Mods\\otohime.teyvatfish\\lazuriteaxemarlin",
+          "SpriteIndex": "0",
+          "Edibility": 30,
+          "ContextTags": [
+                        "color_blue",
+                        "fish_lazurite_axe_marlin"
+                    ],
+                    "CustomFields": {}
+        },
+        "{{ModId}}_Lumitoile": {
+          "Name": "Lumitoile",
+          "DisplayName": "Lumitoile",
+          "Description": "A soft-bodied animal that emits a gentle light.",
+          "Type": "Basic",
+          "Category": -23,
+          "Price": 100,
+          "Texture": "Mods\\otohime.teyvatfish\\lumitoile",
+          "SpriteIndex": "0",
+          "Edibility": 10,
+          "ContextTags": [
+                        "color_blue",
+                        "fish_lumitoile",
+                        "beach_item",
+                        "forage_item",
+                        "forage_item_beach"
+                    ],
+                    "CustomFields": {}
+        },
+        "{{ModId}}_Medaka": {
+          "Name": "Medaka",
+          "DisplayName": "Medaka",
+          "Description": "A lively, energetic fish famous for its petal-shaped tail.",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 200,
+          "Texture": "Mods\\otohime.teyvatfish\\medaka",
+          "SpriteIndex": "0",
+          "Edibility": 50,
+          "ContextTags": [
+                        "color_red",
+                        "fish_medaka"
+                    ],
+                    "CustomFields": {}
+        },
+        "{{ModId}}_Peach_Angler": {
+          "Name": "Peach Angler",
+          "DisplayName": "Peach Angler",
+          "Description": "These fish are, as their name suggests, so sweet that they are considered 'ideal for dessert.'",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 300,
+          "Texture": "Mods\\otohime.teyvatfish\\peachangler",
+          "SpriteIndex": "0",
+          "Edibility": 100,
+          "ContextTags": [
+                        "color_pink",
+                        "fish_peach_angler"
+                    ],
+                    "CustomFields": {}
+        },
+        "{{ModId}}_Purple_Shirakodai": {
+          "Name": "Purple Shirakodai",
+          "DisplayName": "Purple Shirakodai",
+          "Description": "Lovely purple patterns run across its body, and they love to swim together in schools to fend off natural dangers and predators.",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 200,
+          "Texture": "Mods\\otohime.teyvatfish\\purpleshirakodai",
+          "SpriteIndex": "0",
+          "Edibility": 30,
+          "ContextTags": [
+                        "color_purple",
+                        "fish_purple_shirakodai"
+                    ],
+                    "CustomFields": {}
+        },
+        "{{ModId}}_Rusty_Koi": {
+          "Name": "Rusty Koi",
+          "DisplayName": "Rusty Koi",
+          "Description": "This is a variant species of Koi, and is sometimes termed the 'awakened dragon' amongst them.",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 400,
+          "Texture": "Mods\\otohime.teyvatfish\\rustykoi",
+          "SpriteIndex": "0",
+          "Edibility": 50,
+          "ContextTags": [
+                        "color_blue",
+                        "fish_rusty_koi"
+                    ],
+                    "CustomFields": {}
+        },
+        "{{ModId}}_Sandstorm_Angler": {
+          "Name": "Sandstorm Angler",
+          "DisplayName": "Sandstorm Angler",
+          "Description": "With its immense strength and strongest horns amongst its kind, this fish acts as an 'underwater workhorse.'",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 300,
+          "Texture": "Mods\\otohime.teyvatfish\\sandstormangler",
+          "SpriteIndex": "0",
+          "Edibility": 20,
+          "ContextTags": [
+                        "color_brown",
+                        "fish_sandstorm_angler"
+                    ],
+                    "CustomFields": {}
+        },
+        "{{ModId}}_Sango_Pearl": {
+          "Name": "Sango Pearl",
+          "DisplayName": "Sango Pearl",
+          "Description": "A precious pearl that grows in the coral of Watatsumi. Gives off a cool sheen like that of the moonlight.",
+          "Type": "Basic",
+          "Category": -23,
+          "Price": 500,
+          "Texture": "Mods\\otohime.teyvatfish\\sangopearl",
+          "SpriteIndex": "0",
+          "Edibility": 0,
+          "ContextTags": [
+                        "color_pink",
+                        "fish_sango_pearl",
+                        "beach_item",
+                        "forage_item",
+                        "forage_item_beach"
+                    ],
+                    "CustomFields": {}
+        },
+        "{{ModId}}_Starconch": {
+          "Name": "Starconch",
+          "DisplayName": "Starconch",
+          "Description": "Hold it close to your ear, and hear the longing calls of the sea.",
+          "Type": "Basic",
+          "Category": -23,
+          "Price": 100,
+          "Texture": "Mods\\otohime.teyvatfish\\starconch",
+          "SpriteIndex": "0",
+          "Edibility": 0,
+          "ContextTags": [
+                        "color_blue",
+                        "fish_starconch",
+                        "beach_item",
+                        "forage_item",
+                        "forage_item_beach"
+                    ],
+                    "CustomFields": {}
+        },
+        "{{ModId}}_Sunset_Cloud_Angler": {
+          "Name": "Sunset Cloud Angler",
+          "DisplayName": "Sunset Cloud Angler",
+          "Description": "When cooked in a special way, the acidity actually adds to the freshness of the fish. As a result, this fish sells very well.",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 400,
+          "Texture": "Mods\\otohime.teyvatfish\\sunsetcloudangler",
+          "SpriteIndex": "0",
+          "Edibility": 100,
+          "ContextTags": [
+                        "color_pink",
+                        "fish_sandstorm_angler"
+                    ],
+                    "CustomFields": {}
+        },
+        "{{ModId}}_Sweet_Flower_Medaka": {
+          "Name": "Sweet-Flower Medaka",
+          "DisplayName": "Sweet-Flower Medaka",
+          "Description": "It might be because this fish has a sweet tooth, but every bone in its body seems to serve as an antenna to seek out sweet treats.",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 200,
+          "Texture": "Mods\\otohime.teyvatfish\\sweetflowermedaka",
+          "SpriteIndex": "0",
+          "Edibility": 60,
+          "ContextTags": [
+                        "color_orange",
+                        "fish_sweet_flower_medaka"
+                    ],
+                    "CustomFields": {}
+        },
+        "{{ModId}}_Tea_Colored_Shirakodai": {
+          "Name": "Tea-Colored Shirakodai",
+          "DisplayName": "Tea-Colored Shirakodai",
+          "Description": "This fish has a lovely, streamlined dorsal fin, and has the nickname 'Queen of the Waters.'",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 200,
+          "Texture": "Mods\\otohime.teyvatfish\\teacoloredshirakodai",
+          "SpriteIndex": "0",
+          "Edibility": 40,
+          "ContextTags": [
+                        "color_green",
+                        "fish_tea_colored_shirakodai"
+                    ],
+                    "CustomFields": {}
+        },
+        "{{ModId}}_Tidalga": {
+          "Name": "Tidalga",
+          "DisplayName": "Tidalga",
+          "Description": "An algae floating with the tides that sustains itself by feeding on substances produced by other plants.",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 100,
+          "Texture": "Mods\\otohime.teyvatfish\\tidalga",
+          "SpriteIndex": "0",
+          "Edibility": 30,
+          "ContextTags": [
+                        "color_blue",
+                        "fish_tidalga"
+                    ],
+                    "CustomFields": {}
+        },
+        "{{ModId}}_True_Fruit_Angler": {
+          "Name": "True Fruit Angler",
+          "DisplayName": "True Fruit Angler",
+          "Description": "This fish looks like an unripe fruit on a tree branch, hence the nickname 'True Fruit.'",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 300,
+          "Texture": "Mods\\otohime.teyvatfish\\truefruitangler",
+          "SpriteIndex": "0",
+          "Edibility": 50,
+          "ContextTags": [
+                        "color_green",
+                        "fish_true_fruit_angler"
+                    ],
+                    "CustomFields": {}
+        }
+      }
+   }
+]
+}

@@ -1,0 +1,130 @@
+{
+  
+  "Changes": [
+{
+    "LogName": "NPC Manifestation",
+    "Action": "EditData",
+    "Target": "Data/Characters",
+    "Entries": {
+	"Tina": {
+		"DisplayName": "Tina",
+		"BirthSeason": "Fall",
+		"BirthDay": 14,
+		"HomeRegion": "Other",
+		"Gender": "Female",
+		"Age": "Child",
+		"Manner": "Polite",
+		"SocialAnxiety": "Outgoing",
+		"Optimism": "Neutral",
+		"CanBeRomanced": false,
+		"LoveInterest": null,
+		"Home": [
+		   {
+			"Id": "Default",
+			"Location": "ScienceHouse",
+			"Tile": {  "X": 28,"Y": 9  },
+			"Direction": "Down"
+				}
+			],
+		"Breather": false
+			}
+		}
+	},
+
+    {
+
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Tina": "I love it. Thank you so much!/220 223 224/This is a great specimen, I mean, a great gift! Thank you./276/Yuck!/209/I hate this./211 233 346/Thanks./229/"
+		
+      }
+    },
+
+    {
+
+      "LogName": "Tina Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Tina",
+      "When": { "TinaBow": false },
+       "FromFile": "assets/{{Target}}/Tina.png"
+    },
+	
+	{
+      //Tina's Portraits
+      "Action": "Load",
+      "Target": "Portraits/Tina",
+      "When": { "TinaBow": true },
+       "FromFile": "assets/{{Target}}/TinaBow.png"
+    },
+
+    {
+
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Tina",
+      "FromFile": "assets/Characters/Dialogue/Tina dialogue/Dialogue.json"
+
+    },
+
+    {
+
+      
+            "Action": "EditData",
+            "Target": "Characters/schedules/Tina",
+            "When": {
+                "HasSeenEvent": "9695001",
+                "HasMod": "Xiddav.LittleRedSchoolHouse"
+            },
+            "Entries": {
+                 "Tue": "800 Custom_SchoolHouse 22 9 0 Tina_Sit/1400 Town 17 13 2/1550 Town 15 14 0/1740 ScienceHouse 22 18 1/2000 ScienceHouse 8 6 2",
+	"Wed": "GOTO Tue",
+	"Fri": "GOTO Tue",
+            }
+        },
+{
+
+      
+            "Action": "EditData",
+            "Target": "Characters/schedules/Tina",
+            "When": { "CCR": true },
+            "Entries": {
+                 "Tue": "800 CommunityCenter 15 27 0/1130 Town 17 13 2/1550 Town 15 14 0/1740 ScienceHouse 22 18 1/2000 ScienceHouse 8 6 2",
+	"Wed": "GOTO Tue",
+	"Fri": "GOTO Tue",
+            }
+        },
+    {
+
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Tina",
+       "FromFile": "assets/Characters/schedules/Tina/Schedule.json"
+
+    },       
+
+
+    {
+
+      "LogName": "Tina Sprites",
+      "Action": "Load",
+      "Target": "Characters/Tina, Characters/Tina",
+      "FromFile": "assets/{{Target}}/Tina.png"
+
+    },
+   {
+            "LogName": "Animations",
+            "Action": "EditData",
+            "Target": "Data/animationDescriptions",
+            "Entries": {
+                "Tina_Sit": "22/22/22",
+                "Tina_Sleep": "23/23/23",
+                "Tina_Jump": "24/24/24"
+       }
+            }
+
+  ]
+}
+		
+		

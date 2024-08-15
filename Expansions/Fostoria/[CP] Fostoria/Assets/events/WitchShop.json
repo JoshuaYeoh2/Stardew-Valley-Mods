@@ -1,0 +1,17 @@
+{
+"Changes": [
+	{
+   
+   "Action": "EditData",
+   "Target": "Data/Events/Fostoria.Stoffton_MagicShop",
+   "Entries":{
+
+  "114780003/f IrisFS 500": "WizardSong/3 20/farmer 3 23 0 IrisFS 3 20 2/skippable/pause 1000/speak IrisFS \"{{i18n:event-114780003.01}}\"/emote farmer 8/speak IrisFS \"{{i18n:event-114780003.02}}\"/faceDirection IrisFS 0 true/speed IrisFS 4/move IrisFS 0 -2 0/pause 2000/playSound pickUpItem/pause 500/playSound pickUpItem/pause 500/faceDirection IrisFS 2 true/speed IrisFS 4/move IrisFS 0 2 2/addObject 1 20 516 1/playSound shiny4/pause 500/addObject 2 20 518 1/playSound shiny4/pause 600/speak IrisFS \"{{i18n:event-114780003.03}}\"/emote farmer 60/pause 2000/fade/end dialogue IrisFS \"{{i18n:event-114780003.04}}\"",
+  "114780004/f IrisFS 1000": "WizardSong/3 18/farmer 3 23 0 IrisFS 4 12 2 Wizard 3 13 1/skippable/pause 1000/speak IrisFS \"{{i18n:event-114780004.01}}\"/emote farmer 8/speak Wizard \"{{i18n:event-114780004.02}}\"/speak IrisFS \"{{i18n:event-114780004.03}}\"/jump IrisFS/pause 500/speak IrisFS \"{{i18n:event-114780004.04}}\"/emote farmer 40/move IrisFS 0 1 2/move IrisFS 1 0 2/speak IrisFS \"{{i18n:event-114780004.05}}\"/speed IrisFS 3/move IrisFS 0 6 2/speed Wizard 3/move Wizard 3 0 1/speed Wizard 3/move Wizard 0 6 2/speak IrisFS \"{{i18n:event-114780004.06}}\"/fade/end",
+  "114780005/f IrisFS 1500": "WizardSong/3 20/farmer 3 23 0 IrisFS 3 20 2 Abigail 6 20 3/mail IrisMail/skippable/pause 1000/faceDirection IrisFS 1 true/speak IrisFS \"{{i18n:event-114780005.01}}\"/speak Abigail \"{{i18n:event-114780005.02}}\"/faceDirection Abigail 2 true/jump Abigail/jump IrisFS/faceDirection IrisFS 2 true/speak IrisFS \"{{i18n:event-114780005.03}}\"/pause 500/speak IrisFS \"{{i18n:event-114780005.04}}\"/emote farmer 40/speak IrisFS \"{{i18n:event-114780005.05}}\"/speed IrisFS 4/move IrisFS 0 -2 0/speed IrisFS 4/move IrisFS 3 0 1/speed Abigail 3/move Abigail 0 -5 0/speed farmer 3/move farmer 5 0 1/speed IrisFS 4/move IrisFS 0 -5 0/playSound wand/pause 1000/speed Abigail 3/move Abigail 3 0 1/speed farmer 3/move farmer 0 -6 0/speed IrisFS 4/move IrisFS 4 0 1/move IrisFS 0 1 2/speed farmer 3/move farmer 2 0 1/addObject 10 15 904 1/speak Abigail \"{{i18n:event-114780005.06}}\"/speak IrisFS \"{{i18n:event-114780005.07}}\"/playSound gulp/pause 500/playSound gulp/pause 500/end"
+  
+  
+}
+}
+]
+}

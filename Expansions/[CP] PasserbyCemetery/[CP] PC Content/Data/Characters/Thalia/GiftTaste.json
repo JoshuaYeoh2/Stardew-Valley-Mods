@@ -1,0 +1,15 @@
+{
+"Changes": [
+/************************************************
+GIFT TASTES
+ ************************************************/
+ {
+"LogName": "GiftTastes",
+"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+"Entries": {
+"FC.Thalia": "{{i18n:Thalia.gift.love}}/{{ModID}}_DodoMayo {{ModID}}_DeepCaveFruitJuice {{ModID}}_ChocoBun {{ModID}}_PopachiniStew/{{i18n:Thalia.gift.like}}/{{ModID}}_PaneekiStirFry {{ModID}}_RefinedTropaWine {{ModID}}_TropaWine {{ModID}}_WarpRootTea {{ModID}}_ArcaCoin {{ModID}}_AdauulaCakes/{{i18n:Thalia.gift.dislike}}/{{ModID}}_GaggleShrooms {{ModID}}_MovoraptorMayo {{ModID}}_LureBerryJuice/{{i18n:Thalia.gift.hate}}/{{ModID}}_MidnightSurpise {{ModID}}_DarkTuffWedges/{{i18n:Thalia.gift.neutral}}/{{ModID}}_FairyFingerTea {{ModID}}_FirePepperMeatPie/",
+}
+ },
+]
+}

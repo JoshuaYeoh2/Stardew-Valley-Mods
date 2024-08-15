@@ -1,0 +1,71 @@
+{
+"Changes": [
+{
+
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/NadiaFS",
+  "Entries": {
+//Faces
+//0- neutral
+//1- smile
+//2- frown
+//3- anger
+//4- shock
+//5- pleased
+    "Introduction": "{{i18n:Nadia.Introduction.1}}",
+    "Mon": "{{i18n:Nadia.Mon.1}}$1",
+    "Mon2": "{{i18n:Nadia.Mon2.1}}$1",
+    "Mon4": "{{i18n:Nadia.Mon4.1}}$1",
+    "Tue": "{{i18n:Nadia.Tue.1}}$3#$b#{{i18n:Nadia.Tue.2}}$2#$b#{{i18n:Nadia.Tue.3}}$5",
+    "Tue2": "{{i18n:Nadia.Tue2.1}}$2",
+    "Tue_inlaw_VashaFS": "{{i18n:Nadia.Tue_inlaw_VashaFS.1}}",
+    "Tue_inlaw_QuinnFS": "{{i18n:Nadia.Tue_inlaw_QuinnFS.1}}",
+    "Wed": "{{i18n:Nadia.Wed.1}}#$e#{{i18n:Nadia.Wed.2}}$1",
+    "Wed2": "{{i18n:Nadia.Wed2.1}}$1",
+    "Thu": "{{i18n:Nadia.Thu.1}}$3#$b#{{i18n:Nadia.Thu.2}}$2#$b#{{i18n:Nadia.Thu.3}}$5",
+    "Thu2": "{{i18n:Nadia.Thu2.1}}$3",
+    "Fri": "{{i18n:Nadia.Fri.1}}#$b#{{i18n:Nadia.Fri.2}}$2#$b#{{i18n:Nadia.Fri.3}}$1",
+    "Fri4": "{{i18n:Nadia.Fri4.1}}$1",
+    "Sat": "{{i18n:Nadia.Sat.1}}$3#$e#{{i18n:Nadia.Sat.2}}",
+    "Sat2": "{{i18n:Nadia.Sat2.1}}",
+    "Sat6": "{{i18n:Nadia.Sat6.1}}$2#$b#{{i18n:Nadia.Sat6.2}}$5",
+    "Sun": "{{i18n:Nadia.Sun.1}}$5",
+    "summer_Mon": "{{i18n:Nadia.summer_Mon.1}}",
+    "summer_Tue": "{{i18n:Nadia.summer_Tue.1}}$1",
+    "summer_Wed": "{{i18n:Nadia.summer_Wed.1}}$2#$b#{{i18n:Nadia.summer_Wed.2}}",
+    "summer_Wed6": "{{i18n:Nadia.summer_Wed6.1}}$1",
+    "summer_Thu": "{{i18n:Nadia.summer_Thu.1}}$3#$b#{{i18n:Nadia.summer_Thu.2}}$5",
+    "summer_Thu8": "{{i18n:Nadia.summer_Thu8.1}}$2#$e#{{i18n:Nadia.summer_Thu8.2}}",
+    "summer_Fri": "{{i18n:Nadia.summer_Fri.1}}$1",
+    "summer_Fri4": "{{i18n:Nadia.summer_Fri4.1}}$1",
+    "summer_Sat": "{{i18n:Nadia.summer_Sat.1}}",
+    "summer_Sun": "{{i18n:Nadia.summer_Sun.1}}$1",
+    "fall_Mon": "{{i18n:Nadia.fall_Mon.1}}$4#$b#{{i18n:Nadia.fall_Mon.2}}$3#$b#{{i18n:Nadia.fall_Mon.3}}$4",
+    "fall_Mon6": "{{i18n:Nadia.fall_Mon6.1}}",
+    "fall_Tue": "#$c .5#{{i18n:Nadia.fall_Tue.1}}$4#$e#{{i18n:Nadia.fall_Tue.2}}$4",
+    "fall_Tue6": "{{i18n:Nadia.fall_Tue6.1}}$1",
+    "fall_Wed": "{{i18n:Nadia.fall_Wed.1}}",
+    "fall_Wed6": "{{i18n:Nadia.fall_Wed6.1}}$1",
+    "fall_Thu": "{{i18n:Nadia.fall_Thu.1}}",
+    "fall_Thu6": "{{i18n:Nadia.fall_Thu6.1}}$1",
+    "fall_Fri": "{{i18n:Nadia.fall_Fri.1}}$4#$b#{{i18n:Nadia.fall_Fri.2}}$5",
+    "fall_Fri6": "{{i18n:Nadia.fall_Fri6.1}}$1",
+    "fall_Fri8": "{{i18n:Nadia.fall_Fri8.1}}$1",
+    "fall_Sat": "{{i18n:Nadia.fall_Sat.1}}$1#$b#{{i18n:Nadia.fall_Sat.2}}$4#$b#{{i18n:Nadia.fall_Sat.3}}$2",
+    "fall_Sat6": "{{i18n:Nadia.fall_Sat6.1}}$1",
+    "fall_Sun": "{{i18n:Nadia.fall_Sun.1}}$1",
+    "winter_Mon": "#$c .5#{{i18n:Nadia.winter_Mon.1}}#$e#{{i18n:Nadia.winter_Mon.2}}",
+    "winter_Tue": "{{i18n:Nadia.winter_Tue.1}}$1",
+    "winter_Tue6": "{{i18n:Nadia.winter_Tue6.1}}",
+    "winter_Wed": "{{i18n:Nadia.winter_Wed.1}}",
+    "winter_Wed6": "{{i18n:Nadia.winter_Wed6.1}}$1",
+    "winter_Thu": "{{i18n:Nadia.winter_Thu.1}}$4#$b#{{i18n:Nadia.winter_Thu.2}}",
+    "winter_Thu6": "{{i18n:Nadia.winter_Thu6.1}}$1",
+    "winter_Fri": "{{i18n:Nadia.winter_Fri.1}}",
+    "winter_Sat": "{{i18n:Nadia.winter_Sat.1}}$1",
+    "winter_Sun": "{{i18n:Nadia.winter_Sun.1}}$2#$b#{{i18n:Nadia.winter_Sun.2}}$5",
+    "Lizzie.Stoffton_Yoba": "{{i18n:Nadia.Lizzie.Stoffton_Yoba.1}}",
+  }
+}
+]
+}

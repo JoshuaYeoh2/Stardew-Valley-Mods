@@ -1,0 +1,21 @@
+﻿{
+    "Name": "Axolotl Village [CC]",
+    "Author": "otohimexoxo",
+    "Version": "1.5.10",
+    "Description": "",
+    "UniqueID": "otohime.AV.CC",
+    "MinimumApiVersion": "4.0.0-alpha",
+    "UpdateKeys": [ "Nexus:" ],
+    "ContentPackFor":
+    {
+        "UniqueID": "PeacefulEnd.CustomCompanions",
+        "MinimumVersion": "4.0.0"
+    },
+	"Dependencies": [
+		{
+			"UniqueID": "spacechase0.SpaceCore",
+    		"IsRequired": true,
+			"MinimumVersion": "1.19.0"
+  		},
+	]
+}

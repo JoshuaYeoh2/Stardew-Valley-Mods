@@ -1,0 +1,72 @@
+{
+	"Format": "2.0.0",
+	"ConfigSchema": 
+	{
+		"MunchingtonColour":
+		{
+			"AllowValues": "White, Gold",
+			"Default": "White",
+			"Description": "Changes Aideen's cat Munchington to have white fur in his portraits matching his sprite or gold fur matching his original portraits."
+		},
+		"LittleGruffColour":
+		{
+			"AllowValues": "Purple, Black",
+			"Default": "Black",
+			"Description": "Changes Eyvindr's goat Little Gruff to have black fur in his portraits matching his sprite or purple fur matching his original portraits."
+		}
+	},
+	"Changes": 
+	[
+		{
+			"LogName": "East Scarp Portraits",
+			"Action": "EditImage",
+			"Target": "Portraits/PepperPup, Portraits/DuckNPC, Portraits/Duck2NPC, Portraits/RichieTheMacaw, Portraits/LadySheba, Portraits/Abyssrooster, Portraits/BlueJay",
+			"FromFile": "Assets/{{TargetWithoutPath}}.png",
+			"When":
+			{
+				"HasMod |contains= Lemurkat.JacobEloise.CP": true
+			},
+		},
+		{
+			"LogName": "Munchington Portraits",
+			"Action": "EditImage",
+			"Target": "Portraits/Munchboi",
+			"FromFile": "Assets/{{TargetWithoutPath}}_{{MunchingtonColour}}.png",
+			"When":
+			{
+				"HasMod |contains= Lemurkat.JacobEloise.CP": true
+			},
+		},
+		{
+			"LogName": "Little Gruff Portraits",
+			"Action": "EditImage",
+			"Target": "Portraits/LittleGruff",
+			"FromFile": "Assets/{{TargetWithoutPath}}_{{LittleGruffColour}}.png",
+			"When":
+			{
+				"HasMod |contains= LemurKat.EastScarpe.CP": true
+			},
+		},
+		{
+			"LogName": "Mister Ginger Portraits",
+			"Action": "EditImage",
+			"Target": "Portraits/MisterGinger",
+			"FromFile": "Assets/{{TargetWithoutPath}}.png",
+			"When":
+			{
+				"HasMod |contains= LemurKat.Mr.Ginger.NPC": true,
+                "HasSeenEvent:hostPlayer |contains= 5295000": false
+			},
+		},
+		{
+			"LogName": "Gremlin Portraits",
+			"Action": "EditImage",
+			"Target": "Portraits/Gremlin",
+			"FromFile": "Assets/{{TargetWithoutPath}}.png",
+			"When":
+			{
+				"HasMod |contains= LemurKat.JulietHouse.NPC": true
+			},
+		}
+	]
+}

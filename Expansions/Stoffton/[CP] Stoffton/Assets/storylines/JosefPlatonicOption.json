@@ -1,0 +1,66 @@
+{
+"Changes": [
+
+//Changing NPCDisoposition for Josef as marriage candidate
+{
+      "LogName": "Making Josef a non-marriage candidate in NPCDispositions",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Fields": {
+      "JosefFS": {5: "not-datable"},
+      },
+},
+
+{ 
+	"Action": "EditData",
+	"Target": "Data/Events/farm",
+	"Entries": {
+  "11666225/f JosefFS 2000/n FS_JosefHouse/x FS_JosefMailHouseRequest": "null",
+}
+},
+
+
+//Adding events for Josef not dateable
+{
+
+  "Action": "EditData",
+  "Target": "Data/Events/Lizzie.Stoffton_JosefHouse",
+  "Entries":{
+
+//Josef Repair Request Completion
+"11666224/n FS_JosefMailHouseRequest/i 66/i 62/i 64": "none/9 7/farmer 9 8 0 JosefFS 8 6 0/skippable/pause 1000/faceDirection JosefFS 2 true/pause 500/jump JosefFS/pause 1000/speak JosefFS \"{{i18n:event-11666224.01}}\"/emote farmer 16/speak JosefFS \"{{i18n:event-11666224.02}}\"/removeItem 66/removeItem 62/removeItem 64/addObject 9 6 66/playSound shiny4/pause 500/addObject 8 7 62/playSound shiny4/pause 600/addObject 10 7 64/playSound shiny4/speak JosefFS \"{{i18n:event-11666224.03}}\"/removeObject 9 6/playSound pickUpItem/pause 500/removeObject 8 7/playSound pickUpItem/pause 500/removeObject 10 7/playSound pickUpItem/pause 500/emote farmer 8/pause 500/speak JosefFS \"{{i18n:event-11666224.04}}\"/speak JosefFS \"{{i18n:event-11666224.05}}\"/speak JosefFS \"{{i18n:event-11666224.06}}\"/mail FS_JosefRepair/fade/end dialogue JosefFS \"{{i18n:event-11666224.07}}\"",
+
+
+}
+},
+
+{
+
+  "Action": "EditData",
+  "Target": "Data/Events/Lizzie.Stoffton_RockyFord",
+  "Entries":{
+
+"11666184/n FS_JosefRepair": "CloudCountry/114 8/farmer 114 9 0 JosefFS 114 7 2/skippable/pause 1000/speak JosefFS \"{{i18n:event-11666184.01}}\"/speak JosefFS \"{{i18n:event-11666184.02}}\"/faceDirection JosefFS 0/pause 300/warp JosefFS -1000 -1000/move farmer 0 -2 0/viewport -1000 -1000/changeLocation Lizzie.Stoffton_JosefHouse/warp JosefFS 9 7/faceDirection JosefFS 2/warp farmer 9 9/faceDirection farmer 0/viewport 9 8/faceDirection JosefFS 3/pause 300/faceDirection JosefFS 1/pause 300/faceDirection JosefFS 2/pause 300/speak JosefFS \"{{i18n:event-11666184.03}}\"/speak JosefFS \"$q -1 null#{{i18n:event-11666184.04}}#$r -1 50 event_thankYou#{{i18n:event-11666184.05}}#$r -1 20 event_thankYou#{{i18n:event-11666184.06}}#$r -1 0 event_thankYou#{{i18n:event-11666184.07}}#$r -1 -1000 event_awfulMean#{{i18n:event-11666184.08}}\"/fork awfulMean/speak JosefFS \"{{i18n:event-11666184.09}}\"/end",
+  "awfulMean": "end"
+
+
+
+	}
+},
+
+{
+
+  "Action": "EditData",
+  "Target": "Data/Events/Lizzie.Stoffton_Shepherd",
+  "Entries":{
+
+"11666183/f JosefFS 2500": "null",
+
+	}
+},
+
+
+
+
+]
+}

@@ -1,0 +1,2495 @@
+{
+	"Format": "2.1.0",
+
+"ConfigSchema": {
+        "ExcludeNPCsWinterStar": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+        "FostoriaSize": {
+            "AllowValues": "Big, Small, Tiny",
+            "Default": "Small",
+            "Description": "Allows you to choose between Big, Small, and Tiny versions of the Fostoria map."
+        },
+        "FostoriaShortcut": {
+        	"AllowValues": "true, false",
+        	"Default": "false",
+        	"Description": "True provides a shortcut from Fostoria to Backwoods (may not be compatible with other mods that change the Backwoods map)."
+        },
+    },
+
+	"Changes":[
+// add map Fostoria
+{
+	"Action": "Load",
+	"Target": "Maps/Fostoria.Stoffton_Fostoria",
+	"FromFile": "assets/Maps/Fostoria7.tmx"
+},
+
+// add location Fostoria depending on size
+
+{
+    "LogName": "Adding Fostoria when Tiny",
+    "Action": "Include",
+    "FromFile": "Assets/Maps/FostoriaTiny.json",
+    "When": {"FostoriaSize": "Tiny"}
+},
+{
+    "LogName": "Adding Fostoria when Small",
+    "Action": "Include",
+    "FromFile": "Assets/Maps/FostoriaSmall.json",
+    "When": {"FostoriaSize": "Small"}
+},
+{
+    "LogName": "Adding Fostoria when Big",
+    "Action": "Include",
+    "FromFile": "Assets/Maps/FostoriaBig.json",
+    "When": {"FostoriaSize": "Big"}
+},
+// add map Greenhouse
+{
+	"Action": "Load",
+	"Target": "Maps/Fostoria.Stoffton_Greenhouse",
+	"FromFile": "assets/Maps/F_Greenhouse.tmx"
+},
+
+// add location Greenhouse
+{
+	"Action": "EditData",
+	"Target": "Data/Locations",
+	"Entries": {
+		"Fostoria.Stoffton_Greenhouse": {
+			"CreateOnLoad": { "MapPath": "Maps/Fostoria.Stoffton_Greenhouse" },
+			"FormerLocationNames": [ "Custom_F_Greenhouse" ]
+		}
+	}
+},
+// add map MagicShop
+{
+	"Action": "Load",
+	"Target": "Maps/Fostoria.Stoffton_MagicShop",
+	"FromFile": "assets/Maps/F_MagicShop.tmx"
+},
+
+// add location MagicShop
+{
+	"Action": "EditData",
+	"Target": "Data/Locations",
+	"Entries": {
+		"Fostoria.Stoffton_MagicShop": {
+			"CreateOnLoad": { "MapPath": "Maps/Fostoria.Stoffton_MagicShop" },
+			"FormerLocationNames": [ "Custom_F_MagicShop" ]
+		}
+	}
+},
+// add map Tent
+{
+	"Action": "Load",
+	"Target": "Maps/Fostoria.Stoffton_Tent",
+	"FromFile": "assets/Maps/F_Tent.tmx"
+},
+
+// add location Tent
+{
+	"Action": "EditData",
+	"Target": "Data/Locations",
+	"Entries": {
+		"Fostoria.Stoffton_Tent": {
+			"CreateOnLoad": { "MapPath": "Maps/Fostoria.Stoffton_Tent" },
+			"FormerLocationNames": [ "Custom_F_Tent" ]
+		}
+	}
+},
+// add map RuinedShop
+{
+	"Action": "Load",
+	"Target": "Maps/Fostoria.Stoffton_RuinedShop",
+	"FromFile": "assets/Maps/F_RuinedShop.tmx"
+},
+
+// add location RuinedShop
+{
+	"Action": "EditData",
+	"Target": "Data/Locations",
+	"Entries": {
+		"Fostoria.Stoffton_RuinedShop": {
+			"CreateOnLoad": { "MapPath": "Maps/Fostoria.Stoffton_RuinedShop" },
+			"FormerLocationNames": [ "Custom_F_RuinedShop" ]
+		}
+	}
+},
+// add map FishermanHouse
+{
+	"Action": "Load",
+	"Target": "Maps/Fostoria.Stoffton_FishermanHouse",
+	"FromFile": "assets/Maps/F_FishermanHouse.tmx"
+},
+
+// add location FishermanHouse
+{
+	"Action": "EditData",
+	"Target": "Data/Locations",
+	"Entries": {
+		"Fostoria.Stoffton_FishermanHouse": {
+			"CreateOnLoad": { "MapPath": "Maps/Fostoria.Stoffton_FishermanHouse" },
+			"FormerLocationNames": [ "Custom_F_FishermanHouse" ]
+		}
+	}
+},
+// add map RuinedShopSmall
+{
+	"Action": "Load",
+	"Target": "Maps/Fostoria.Stoffton_RuinedShopSmall",
+	"FromFile": "assets/Maps/F_RuinedShopSmall.tmx"
+},
+
+// add location RuinedShopSmall
+{
+	"Action": "EditData",
+	"Target": "Data/Locations",
+	"Entries": {
+		"Fostoria.Stoffton_RuinedShopSmall": {
+			"CreateOnLoad": { "MapPath": "Maps/Fostoria.Stoffton_RuinedShopSmall" },
+			"FormerLocationNames": [ "Custom_F_RuinedShopSmall" ]
+		}
+	}
+},
+//add map BathHouse
+{
+	"Action": "Load",
+	"Target": "Maps/Fostoria.Stoffton_BathHouse",
+	"FromFile": "assets/Maps/FostoriaBath.tmx"
+},
+//add location BathHouse
+{
+	"Action": "EditData",
+	"Target": "Data/Locations",
+	"Entries": {
+		"Fostoria.Stoffton_BathHouse": {
+			"CreateOnLoad": { "MapPath": "Maps/Fostoria.Stoffton_BathHouse" },
+			"FormerLocationNames": [  ]
+		}
+	}
+},
+{
+     "Action": "Load",
+	 "Target": "Maps/Tunnel",
+	 "FromFile": "Assets/Maps/FostoriaTunnel.tmx",
+	 "When": {	"HasMod |contains=DaisyNiko.SVR3": false,
+	 			"HasMod |contains=Tarniyar.CP.WalkToDesert": false}
+},
+{
+	"LogName": "Loading Fostoria_{size} maps when WTDR not installed",
+	"Action": "EditMap",
+    "Target": "Maps/Fostoria.Stoffton_Fostoria",
+    "FromFile": "assets/Maps/Fostoria7_{{FostoriaSize}}.tmx",
+    "When": {"HasMod |contains=Tarniyar.CP.WalkToDesert": false}
+},
+{
+	"LogName": "Loading Fostoria_{size} maps for WTDR and SVR3",
+	"Action": "EditMap",
+    "Target": "Maps/Fostoria.Stoffton_Fostoria",
+    "FromFile": "assets/Maps/Fostoria7_{{FostoriaSize}}.tmx",
+    "When": {	"HasMod |contains=Tarniyar.CP.WalkToDesert": true,
+    			"HasMod |contains=DaisyNiko.SVR3": true}
+},
+{
+	"LogName": "Loading Fostoria_{size}_WTDR maps",
+	"Action": "EditMap",
+    "Target": "Maps/Fostoria.Stoffton_Fostoria",
+    "FromFile": "assets/Maps/Fostoria7_{{FostoriaSize}}_WTDR.tmx",
+    "When": {	"HasMod |contains=Tarniyar.CP.WalkToDesert": true,
+    			"HasMod |contains=DaisyNiko.SVR3": false}
+},
+//Access from WTDR without SVR3
+{
+            "Action": "EditMap",
+            "Target": "Maps/Tarniyar.CP.WalkToDesert_Forest_Road",
+            "FromFile": "assets/Maps/ForestRoadPatch.tmx",
+            "FromArea": { "X": 0, "Y": 0, "Width": 8, "Height": 7 },
+            "ToArea": { "X": 29, "Y": 0, "Width": 8, "Height": 7 },
+            "When": {	"HasMod |contains=Tarniyar.CP.WalkToDesert": true,
+         				"HasMod |contains=DaisyNiko.SVR3": false,}
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/Tarniyar.CP.WalkToDesert_Forest_Road",
+		"MapTiles": [
+		{
+			"Position": { "X": 33, "Y": 0 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 106 118"
+			}
+		},
+		{
+			"Position": { "X": 34, "Y": 0 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 107 118"
+			}
+		},
+		{
+			"Position": { "X": 35, "Y": 0 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 108 118"
+			}
+		},
+		],
+         "When": {	"HasMod |contains=Tarniyar.CP.WalkToDesert": true,
+         			"HasMod |contains=DaisyNiko.SVR3": false,
+         			"FostoriaSize": "Big" },
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/Tarniyar.CP.WalkToDesert_Forest_Road",
+         "MapTiles": [
+		{
+			"Position": { "X": 33, "Y": 0 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 95 78"
+			}
+		},
+		{
+			"Position": { "X": 34, "Y": 0 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 96 78"
+			}
+		},
+		{
+			"Position": { "X": 35, "Y": 0 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 97 78"
+			}
+		},
+		],
+         "When": {	"HasMod |contains=Tarniyar.CP.WalkToDesert": true,
+         			"HasMod |contains=DaisyNiko.SVR3": false,
+         			"FostoriaSize": "Small" },
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/Tarniyar.CP.WalkToDesert_Forest_Road",
+         "MapTiles": [
+		{
+			"Position": { "X": 33, "Y": 0 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 95 39"
+			}
+		},
+		{
+			"Position": { "X": 34, "Y": 0 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 96 39"
+			}
+		},
+		{
+			"Position": { "X": 35, "Y": 0 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 97 39"
+			}
+		},
+		],
+         "When": {	"HasMod |contains=Tarniyar.CP.WalkToDesert": true,
+         			"HasMod |contains=DaisyNiko.SVR3": false,
+         			"FostoriaSize": "Tiny" },
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/Fostoria.Stoffton_Fostoria",
+         "MapTiles": [
+		{
+			"Position": { "X": 106, "Y": 120 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Tarniyar.CP.WalkToDesert_Forest_Road 33 1"
+			}
+		},
+		{
+			"Position": { "X": 107, "Y": 120 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Tarniyar.CP.WalkToDesert_Forest_Road 34 1"
+			}
+		},
+		{
+			"Position": { "X": 108, "Y": 120 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Tarniyar.CP.WalkToDesert_Forest_Road 35 1"
+			}
+		},
+		],
+         "When": {	"HasMod |contains=Tarniyar.CP.WalkToDesert": true,
+         			"HasMod |contains=DaisyNiko.SVR3": false,
+         			"FostoriaSize": "Big" },
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/Fostoria.Stoffton_Fostoria",
+         "MapTiles": [
+		{
+			"Position": { "X": 95, "Y": 80 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Tarniyar.CP.WalkToDesert_Forest_Road 33 1"
+			}
+		},
+		{
+			"Position": { "X": 96, "Y": 80 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Tarniyar.CP.WalkToDesert_Forest_Road 34 1"
+			}
+		},
+		{
+			"Position": { "X": 97, "Y": 80 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Tarniyar.CP.WalkToDesert_Forest_Road 35 1"
+			}
+		},
+		],
+         "When": {	"HasMod |contains=Tarniyar.CP.WalkToDesert": true,
+         			"HasMod |contains=DaisyNiko.SVR3": false,
+         			"FostoriaSize": "Small" },
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/Fostoria.Stoffton_Fostoria",
+         "MapTiles": [
+		{
+			"Position": { "X": 95, "Y": 41 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Tarniyar.CP.WalkToDesert_Forest_Road 33 1"
+			}
+		},
+		{
+			"Position": { "X": 96, "Y": 41 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Tarniyar.CP.WalkToDesert_Forest_Road 34 1"
+			}
+		},
+		{
+			"Position": { "X": 97, "Y": 41 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Tarniyar.CP.WalkToDesert_Forest_Road 35 1"
+			}
+		},
+		],
+         "When": {	"HasMod |contains=Tarniyar.CP.WalkToDesert": true,
+         			"HasMod |contains=DaisyNiko.SVR3": false,
+         			"FostoriaSize": "Tiny" },
+},
+//Adds Desert Patch for WTDR (without SVE)
+{
+            "Action": "EditMap",
+            "Target": "Maps/Desert",
+            "FromFile": "assets/Maps/FostoriaWTDRpatch.tmx",
+            "FromArea": { "X": 0, "Y": 0, "Width": 6, "Height": 20 },
+            "ToArea": { "X": 44, "Y": 10, "Width": 6, "Height": 20 },
+            "When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+            			"HasMod": "Tarniyar.CP.WalkToDesert"}
+},
+//Adds Desert Patch for WTDR with SVE
+{
+            "Action": "EditMap",
+            "Target": "Maps/Desert",
+            "FromFile": "assets/Maps/FostoriaWTDRSVEpatch.tmx",
+            "FromArea": { "X": 0, "Y": 0, "Width": 6, "Height": 12 },
+            "ToArea": { "X": 54, "Y": 16, "Width": 6, "Height": 12 },
+            "When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+            			"HasMod": "Tarniyar.CP.WalkToDesert"}
+},
+
+//Adds warps from Tunnel to Fostoria depending on map size (without SVR3 or WTDR)
+{
+         "Action": "EditMap",
+         "Target": "Maps/Tunnel",
+         "MapTiles": [
+		{
+			"Position": { "X": 0, "Y": 7 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 116 115"
+			}
+		},
+		{
+			"Position": { "X": 0, "Y": 8 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 116 116"
+			}
+		},
+		{
+			"Position": { "X": 0, "Y": 9 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 116 117"
+			}
+		},
+		{
+			"Position": { "X": 0, "Y": 10 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 116 118"
+			}
+		},
+		],
+         "When": {	"HasMod |contains=Tarniyar.CP.WalkToDesert": false,
+         			"HasMod |contains=DaisyNiko.SVR3": false,
+         			"FostoriaSize": "Big" },
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/Tunnel",
+         "MapTiles": [
+		{
+			"Position": { "X": 0, "Y": 7 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 116 75"
+			}
+		},
+		{
+			"Position": { "X": 0, "Y": 8 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 116 76"
+			}
+		},
+		{
+			"Position": { "X": 0, "Y": 9 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 116 77"
+			}
+		},
+		{
+			"Position": { "X": 0, "Y": 10 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 116 78"
+			}
+		},
+		],
+         "When": {	"HasMod |contains=Tarniyar.CP.WalkToDesert": false,
+         			"HasMod |contains=DaisyNiko.SVR3": false,
+         			"FostoriaSize": "Small" },
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/Tunnel",
+         "MapTiles": [
+		{
+			"Position": { "X": 0, "Y": 7 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 116 36"
+			}
+		},
+		{
+			"Position": { "X": 0, "Y": 8 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 116 37"
+			}
+		},
+		{
+			"Position": { "X": 0, "Y": 9 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 116 38"
+			}
+		},
+		{
+			"Position": { "X": 0, "Y": 10 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 116 39"
+			}
+		},
+		],
+         "When": {	"HasMod |contains=Tarniyar.CP.WalkToDesert": false,
+         			"HasMod |contains=DaisyNiko.SVR3": false,
+         			"FostoriaSize": "Tiny" },
+},
+//Adds return warps from Fostoria to Tunnel if not using SVR3 or WTDR
+{
+         "Action": "EditMap",
+         "Target": "Maps/Fostoria.Stoffton_Fostoria",
+         "MapTiles": [
+		{
+			"Position": { "X": 118, "Y": 115 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Tunnel 1 7"
+			}
+		},
+		{
+			"Position": { "X": 118, "Y": 116 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Tunnel 1 8"
+			}
+		},
+		{
+			"Position": { "X": 118, "Y": 117 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Tunnel 1 9"
+			}
+		},
+		{
+			"Position": { "X": 118, "Y": 118 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Tunnel 1 10"
+			}
+		},
+		],
+         "When": {	"HasMod |contains=Tarniyar.CP.WalkToDesert": false,
+         			"HasMod |contains=DaisyNiko.SVR3": false,
+         			"FostoriaSize": "Big" },
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/Fostoria.Stoffton_Fostoria",
+         "MapTiles": [
+		{
+			"Position": { "X": 118, "Y": 75 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Tunnel 1 7"
+			}
+		},
+		{
+			"Position": { "X": 118, "Y": 76 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Tunnel 1 8"
+			}
+		},
+		{
+			"Position": { "X": 118, "Y": 77 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Tunnel 1 9"
+			}
+		},
+		{
+			"Position": { "X": 118, "Y": 78 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Tunnel 1 10"
+			}
+		},
+		],
+         "When": {	"HasMod |contains=Tarniyar.CP.WalkToDesert": false,
+         			"HasMod |contains=DaisyNiko.SVR3": false,
+         			"FostoriaSize": "Small" },
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/Fostoria.Stoffton_Fostoria",
+         "MapTiles": [
+		{
+			"Position": { "X": 118, "Y": 36 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Tunnel 1 7"
+			}
+		},
+		{
+			"Position": { "X": 118, "Y": 37 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Tunnel 1 8"
+			}
+		},
+		{
+			"Position": { "X": 118, "Y": 38 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Tunnel 1 9"
+			}
+		},
+		{
+			"Position": { "X": 118, "Y": 39 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Tunnel 1 10"
+			}
+		},
+		],
+         "When": {	"HasMod |contains=Tarniyar.CP.WalkToDesert": false,
+         			"HasMod |contains=DaisyNiko.SVR3": false,
+         			"FostoriaSize": "Tiny" },
+},
+//Adds warps from Desert to Fostoria depending on map size (without WTDR)
+{
+         "Action": "EditMap",
+         "Target": "Maps/Desert",
+         "MapTiles": [
+		{
+			"Position": { "X": 48, "Y": 25 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 70"
+			}
+		},
+		{
+			"Position": { "X": 48, "Y": 26 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 71"
+			}
+		},
+		{
+			"Position": { "X": 48, "Y": 27 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 72"
+			}
+		},
+		{
+			"Position": { "X": 48, "Y": 28 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 73"
+			}
+		},
+		{
+			"Position": { "X": 48, "Y": 29 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 74"
+			}
+		},
+		],
+         "When": {	"HasMod |contains=Tarniyar.CP.WalkToDesert": false,
+         			"FostoriaSize": "Big"}
+},	
+{
+         "Action": "EditMap",
+         "Target": "Maps/Desert",
+         "MapTiles": [
+		{
+			"Position": { "X": 48, "Y": 25 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 62"
+			}
+		},
+		{
+			"Position": { "X": 48, "Y": 26 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 63"
+			}
+		},
+		{
+			"Position": { "X": 48, "Y": 27 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 64"
+			}
+		},
+		{
+			"Position": { "X": 48, "Y": 28 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 65"
+			}
+		},
+		{
+			"Position": { "X": 48, "Y": 29 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 66"
+			}
+		},
+		],
+         "When": {	"HasMod |contains=Tarniyar.CP.WalkToDesert": false,
+         			"FostoriaSize": "Small"}
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/Desert",
+         "MapTiles": [
+		{
+			"Position": { "X": 48, "Y": 25 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 23"
+			}
+		},
+		{
+			"Position": { "X": 48, "Y": 26 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 24"
+			}
+		},
+		{
+			"Position": { "X": 48, "Y": 27 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 25"
+			}
+		},
+		{
+			"Position": { "X": 48, "Y": 28 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 26"
+			}
+		},
+		{
+			"Position": { "X": 48, "Y": 29 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 27"
+			}
+		},
+		],
+         "When": {	"HasMod |contains=Tarniyar.CP.WalkToDesert": false,
+         			"FostoriaSize": "Tiny"}
+},	
+//Adds warps from Desert to Fostoria depending on map size with WTDR but without SVE
+{
+         "Action": "EditMap",
+         "Target": "Maps/Desert",
+         "MapTiles": [
+		{
+			"Position": { "X": 48, "Y": 20 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 70"
+			}
+		},
+		{
+			"Position": { "X": 48, "Y": 21 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 71"
+			}
+		},
+		{
+			"Position": { "X": 48, "Y": 22 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 72"
+			}
+		},
+		{
+			"Position": { "X": 48, "Y": 23 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 73"
+			}
+		},
+		{
+			"Position": { "X": 48, "Y": 24 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 74"
+			}
+		},
+		],
+         "When": {	"HasMod": "Tarniyar.CP.WalkToDesert",
+         			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+         			"FostoriaSize": "Big"}
+},	
+{
+         "Action": "EditMap",
+         "Target": "Maps/Desert",
+         "MapTiles": [
+		{
+			"Position": { "X": 48, "Y": 20 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 62"
+			}
+		},
+		{
+			"Position": { "X": 48, "Y": 21 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 63"
+			}
+		},
+		{
+			"Position": { "X": 48, "Y": 22 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 64"
+			}
+		},
+		{
+			"Position": { "X": 48, "Y": 23 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 65"
+			}
+		},
+		{
+			"Position": { "X": 48, "Y": 24 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 66"
+			}
+		},
+		],
+         "When": {	"HasMod": "Tarniyar.CP.WalkToDesert",
+         			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+         			"FostoriaSize": "Small"}
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/Desert",
+         "MapTiles": [
+		{
+			"Position": { "X": 48, "Y": 20 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 23"
+			}
+		},
+		{
+			"Position": { "X": 48, "Y": 21 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 24"
+			}
+		},
+		{
+			"Position": { "X": 48, "Y": 22 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 25"
+			}
+		},
+		{
+			"Position": { "X": 48, "Y": 23 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 26"
+			}
+		},
+		{
+			"Position": { "X": 48, "Y": 24 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 27"
+			}
+		},
+		],
+         "When": {	"FostoriaSize": "Tiny",
+         			"HasMod": "Tarniyar.CP.WalkToDesert",
+         			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+         			}
+},	
+//Adds warps from Desert to Fostoria depending on map size with WTDR & SVE
+{
+         "Action": "EditMap",
+         "Target": "Maps/Desert",
+         "MapTiles": [
+		{
+			"Position": { "X": 58, "Y": 20 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 70"
+			}
+		},
+		{
+			"Position": { "X": 58, "Y": 21 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 71"
+			}
+		},
+		{
+			"Position": { "X": 58, "Y": 22 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 72"
+			}
+		},
+		{
+			"Position": { "X": 58, "Y": 23 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 73"
+			}
+		},
+		{
+			"Position": { "X": 58, "Y": 24 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 74"
+			}
+		},
+		],
+         "When": {	"HasMod": "Tarniyar.CP.WalkToDesert",
+         			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+         			"FostoriaSize": "Big"}
+},	
+{
+         "Action": "EditMap",
+         "Target": "Maps/Desert",
+         "MapTiles": [
+		{
+			"Position": { "X": 58, "Y": 20 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 62"
+			}
+		},
+		{
+			"Position": { "X": 58, "Y": 21 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 63"
+			}
+		},
+		{
+			"Position": { "X": 58, "Y": 22 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 64"
+			}
+		},
+		{
+			"Position": { "X": 58, "Y": 23 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 65"
+			}
+		},
+		{
+			"Position": { "X": 58, "Y": 24 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 66"
+			}
+		},
+		],
+         "When": {	"HasMod": "Tarniyar.CP.WalkToDesert",
+         			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+         			"FostoriaSize": "Small"}
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/Desert",
+         "MapTiles": [
+		{
+			"Position": { "X": 58, "Y": 20 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 23"
+			}
+		},
+		{
+			"Position": { "X": 58, "Y": 21 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 24"
+			}
+		},
+		{
+			"Position": { "X": 58, "Y": 22 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 25"
+			}
+		},
+		{
+			"Position": { "X": 58, "Y": 23 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 26"
+			}
+		},
+		{
+			"Position": { "X": 58, "Y": 24 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 1 27"
+			}
+		},
+		],
+         "When": {	"HasMod": "Tarniyar.CP.WalkToDesert",
+         			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+         			"FostoriaSize": "Tiny"}
+},					
+//Adds warps from SVR3 BackwoodsWest to Fostoria
+{
+         "Action": "EditMap",
+         "Target": "Maps/Custom_BackwoodsWest",
+         "MapTiles": [
+		{
+			"Position": { "X": 15, "Y": 29 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 116 75"
+			}
+		},
+		{
+			"Position": { "X": 15, "Y": 30 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 116 76"
+			}
+		},
+		],
+         "When": {	"HasMod": "DaisyNiko.SVR3",
+         			"FostoriaSize": "Big" },
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/Custom_BackwoodsWest",
+         "MapTiles": [
+		{
+			"Position": { "X": 15, "Y": 29 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 116 75"
+			}
+		},
+		{
+			"Position": { "X": 15, "Y": 30 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 116 76"
+			}
+		},
+		],
+         "When": {	"HasMod": "DaisyNiko.SVR3",
+         			"FostoriaSize": "Small" },
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/Custom_BackwoodsWest",
+         "MapTiles": [
+		{
+			"Position": { "X": 15, "Y": 29 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 116 36"
+			}
+		},
+		{
+			"Position": { "X": 15, "Y": 30 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 116 37"
+			}
+		},
+		],
+         "When": {	"HasMod": "DaisyNiko.SVR3",
+         			"FostoriaSize": "Tiny" },
+},
+//Adds return warps from Fostoria to SVR3 BackwoodsWest
+{
+         "Action": "EditMap",
+         "Target": "Maps/Fostoria.Stoffton_Fostoria",
+         "MapTiles": [
+		{
+			"Position": { "X": 118, "Y": 115 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Custom_BackwoodsWest 16 29"
+			}
+		},
+		{
+			"Position": { "X": 118, "Y": 116 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Custom_BackwoodsWest 16 29"
+			}
+		},
+		{
+			"Position": { "X": 118, "Y": 117 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Custom_BackwoodsWest 16 30"
+			}
+		},
+		{
+			"Position": { "X": 118, "Y": 118 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Custom_BackwoodsWest 16 30"
+			}
+		},
+		],
+         "When": {	"HasMod": "DaisyNiko.SVR3",
+         			"FostoriaSize": "Big"},
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/Fostoria.Stoffton_Fostoria",
+         "MapTiles": [
+		{
+			"Position": { "X": 118, "Y": 75 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Custom_BackwoodsWest 16 29"
+			}
+		},
+		{
+			"Position": { "X": 118, "Y": 76 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Custom_BackwoodsWest 16 29"
+			}
+		},
+		{
+			"Position": { "X": 118, "Y": 77 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Custom_BackwoodsWest 16 30"
+			}
+		},
+		{
+			"Position": { "X": 118, "Y": 78 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Custom_BackwoodsWest 16 30"
+			}
+		},
+		],
+         "When": {	"HasMod": "DaisyNiko.SVR3",
+         			"FostoriaSize": "Small"},
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/Fostoria.Stoffton_Fostoria",
+         "MapTiles": [
+		{
+			"Position": { "X": 118, "Y": 36 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Custom_BackwoodsWest 16 29"
+			}
+		},
+		{
+			"Position": { "X": 118, "Y": 37 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Custom_BackwoodsWest 16 29"
+			}
+		},
+		{
+			"Position": { "X": 118, "Y": 38 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Custom_BackwoodsWest 16 30"
+			}
+		},
+		{
+			"Position": { "X": 118, "Y": 39 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Custom_BackwoodsWest 16 30"
+			}
+		},
+		],
+         "When": {	"HasMod": "DaisyNiko.SVR3",
+         			"FostoriaSize": "Tiny"},
+},
+//Adding warps to Stoffton for Big Fostoria
+{
+         "Action": "EditMap",
+         "Target": "Maps/Fostoria.Stoffton_Fostoria",
+         "MapTiles": [
+		{
+			"Position": { "X": 119, "Y": 57 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Lizzie.Stoffton_RockyFord 1 85"
+			}
+		},
+		{
+			"Position": { "X": 119, "Y": 58 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Lizzie.Stoffton_RockyFord 1 86"
+			}
+		},
+		{
+			"Position": { "X": 119, "Y": 59 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Lizzie.Stoffton_RockyFord 1 87"
+			}
+		},
+		{
+			"Position": { "X": 119, "Y": 60 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Lizzie.Stoffton_RockyFord 1 88"
+			}
+		},
+		],
+         "When": {	"HasMod": "Lizzie.Stoffton",
+         			"FostoriaSize": "Big"},
+},	
+{
+         "Action": "EditMap",
+         "Target": "Maps/Lizzie.Stoffton_RockyFord",
+         "MapTiles": [
+		{
+			"Position": { "X": 0, "Y": 85 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 117 57"
+			}
+		},
+		{
+			"Position": { "X": 0, "Y": 86 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 117 58"
+			}
+		},
+		{
+			"Position": { "X": 0, "Y": 87 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 117 59"
+			}
+		},
+		{
+			"Position": { "X": 0, "Y": 88 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 117 60"
+			}
+		},
+		],
+         "When": {	"HasMod": "Lizzie.Stoffton",
+         			"FostoriaSize": "Big"},
+},
+//Adding warps to Stoffton for Small Fostoria
+{
+         "Action": "EditMap",
+         "Target": "Maps/Fostoria.Stoffton_Fostoria",
+         "MapTiles": [
+		{
+			"Position": { "X": 119, "Y": 57 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Lizzie.Stoffton_RockyFord 1 85"
+			}
+		},
+		{
+			"Position": { "X": 119, "Y": 58 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Lizzie.Stoffton_RockyFord 1 86"
+			}
+		},
+		{
+			"Position": { "X": 119, "Y": 59 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Lizzie.Stoffton_RockyFord 1 87"
+			}
+		},
+		{
+			"Position": { "X": 119, "Y": 60 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Lizzie.Stoffton_RockyFord 1 88"
+			}
+		},
+		],
+         "When": {	"HasMod": "Lizzie.Stoffton",
+         			"FostoriaSize": "Small"},
+},	
+{
+         "Action": "EditMap",
+         "Target": "Maps/Lizzie.Stoffton_RockyFord",
+         "MapTiles": [
+		{
+			"Position": { "X": 0, "Y": 85 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 117 57"
+			}
+		},
+		{
+			"Position": { "X": 0, "Y": 86 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 117 58"
+			}
+		},
+		{
+			"Position": { "X": 0, "Y": 87 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 117 59"
+			}
+		},
+		{
+			"Position": { "X": 0, "Y": 88 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 117 60"
+			}
+		},
+		],
+         "When": {	"HasMod": "Lizzie.Stoffton",
+         			"FostoriaSize": "Small"},
+},
+//Adding warps to Stoffton for Tiny Fostoria
+{
+         "Action": "EditMap",
+         "Target": "Maps/Fostoria.Stoffton_Fostoria",
+         "MapTiles": [
+		{
+			"Position": { "X": 119, "Y": 24 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Lizzie.Stoffton_RockyFord 1 85"
+			}
+		},
+		{
+			"Position": { "X": 119, "Y": 25 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Lizzie.Stoffton_RockyFord 1 86"
+			}
+		},
+		{
+			"Position": { "X": 119, "Y": 26 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Lizzie.Stoffton_RockyFord 1 87"
+			}
+		},
+		{
+			"Position": { "X": 119, "Y": 27 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Lizzie.Stoffton_RockyFord 1 88"
+			}
+		},
+		],
+         "When": {	"HasMod": "Lizzie.Stoffton",
+         			"FostoriaSize": "Tiny"},
+},	
+{
+         "Action": "EditMap",
+         "Target": "Maps/Lizzie.Stoffton_RockyFord",
+         "MapTiles": [
+		{
+			"Position": { "X": 0, "Y": 85 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 117 24"
+			}
+		},
+		{
+			"Position": { "X": 0, "Y": 86 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 117 25"
+			}
+		},
+		{
+			"Position": { "X": 0, "Y": 87 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 117 26"
+			}
+		},
+		{
+			"Position": { "X": 0, "Y": 88 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 117 27"
+			}
+		},
+		],
+         "When": {	"HasMod": "Lizzie.Stoffton",
+         			"FostoriaSize": "Tiny"},
+},
+
+
+
+//Patching Fostoria map for access to Stoffton's Crossroads
+{
+            "Action": "EditMap",
+            "Target": "Maps/Fostoria.Stoffton_Fostoria",
+            "FromFile": "assets/Maps/Fostoria_Crossroads_Patch.tmx",
+            "FromArea": { "X": 55, "Y": 0, "Width": 32, "Height": 15 },
+            "ToArea": { "X": 55, "Y": 0, "Width": 32, "Height": 15 },
+            "When": {	"HasMod |contains=Lizzie.Stoffton": true,}
+},
+{
+            "Action": "EditMap",
+            "Target": "Maps/Fostoria.Stoffton_Fostoria",
+            "FromFile": "assets/Maps/Fostoria_Crossroads_Patch.tmx",
+            "FromArea": { "X": 76, "Y": 15, "Width": 3, "Height": 1 },
+            "ToArea": { "X": 76, "Y": 15, "Width": 3, "Height": 1 },
+            "When": {	"HasMod |contains=Lizzie.Stoffton": true,}
+},
+//Patching Backwoods maps when Shortcut is set to True
+{
+            "Action": "EditMap",
+            "Target": "Maps/Backwoods",
+            "FromFile": "assets/Maps/FostoriaBackwoodsPatch.tmx",
+            "FromArea": { "X": 0, "Y": 14, "Width": 18, "Height": 10 },
+            "ToArea": { "X": 0, "Y": 14, "Width": 18, "Height": 10 },
+            "When": { "FostoriaShortcut": true}
+},
+
+//Patching Fostoria map and adding warps when Shortcut is set to True
+{
+         "Action": "EditMap",
+         "Target": "Maps/Backwoods",
+         "MapTiles": [
+		{
+			"Position": { "X": 10, "Y": 22 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 116 110"
+			}
+		},
+		],
+         "When": {	"FostoriaShortcut": true,
+         			"FostoriaSize": "Big" },
+},
+{
+            "Action": "EditMap",
+            "Target": "Maps/Fostoria.Stoffton_Fostoria",
+            "FromFile": "assets/Maps/FostoriaBackwoodsPatch.tmx",
+            "FromArea": { "X": 29, "Y": 0, "Width": 11, "Height": 9 },
+            "ToArea": { "X": 109, "Y": 106, "Width": 11, "Height": 9 },
+            "When": { 	"FostoriaShortcut": true,
+            			"FostoriaSize": "Big"}
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/Backwoods",
+         "MapTiles": [
+		{
+			"Position": { "X": 10, "Y": 22 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 116 70"
+			}
+		},
+		],
+         "When": {	"FostoriaShortcut": true,
+         			"FostoriaSize": "Small" },
+},
+{
+            "Action": "EditMap",
+            "Target": "Maps/Fostoria.Stoffton_Fostoria",
+            "FromFile": "assets/Maps/FostoriaBackwoodsPatch.tmx",
+            "FromArea": { "X": 29, "Y": 17, "Width": 11, "Height": 9 },
+            "ToArea": { "X": 109, "Y": 66, "Width": 11, "Height": 9 },
+            "When": { 	"FostoriaShortcut": true,
+            			"FostoriaSize": "Small"}
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/Backwoods",
+         "MapTiles": [
+		{
+			"Position": { "X": 10, "Y": 22 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 116 31"
+			}
+		},
+		],
+         "When": {	"FostoriaShortcut": true,
+         			"FostoriaSize": "Tiny" },
+},
+{
+            "Action": "EditMap",
+            "Target": "Maps/Fostoria.Stoffton_Fostoria",
+            "FromFile": "assets/Maps/FostoriaBackwoodsPatch.tmx",
+            "FromArea": { "X": 29, "Y": 26, "Width": 11, "Height": 9 },
+            "ToArea": { "X": 109, "Y": 27, "Width": 11, "Height": 9 },
+            "When": { 	"FostoriaShortcut": true,
+            			"FostoriaSize": "Tiny"}
+},
+//Adding Bathhouse
+//Not currently used as there is no way to get the flag FS_FostoriaBathhouse, this is included for future development repairing the decaying house in Fostoria
+
+{
+            "Action": "EditMap",
+            "Target": "Maps/Fostoria.Stoffton_Fostoria",
+            "FromFile": "assets/Maps/FostoriaBackwoodsPatch.tmx",
+            "FromArea": { "X": 0, "Y": 0, "Width": 5, "Height": 7 },
+            "ToArea": { "X": 92, "Y": 78, "Width": 5, "Height": 7 },
+            "When": { 	"HasFlag": "FS_FostoriaBathhouse",
+            			"FostoriaSize": "Big"}
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/Fostoria.Stoffton_BathHouse",
+         "MapTiles": [
+		{
+			"Position": { "X": 7, "Y": 15 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 94 84"
+			}
+		},
+		],
+         "When": {	"HasFlag": "FS_FostoriaBathhouse",
+         			"FostoriaSize": "Big" },
+},
+{
+            "Action": "EditMap",
+            "Target": "Maps/Fostoria.Stoffton_Fostoria",
+            "FromFile": "assets/Maps/FostoriaBackwoodsPatch.tmx",
+            "FromArea": { "X": 5, "Y": 0, "Width": 5, "Height": 7 },
+            "ToArea": { "X": 10, "Y": 45, "Width": 5, "Height": 7 },
+            "When": { 	"HasFlag": "FS_FostoriaBathhouse",
+            			"FostoriaSize": "Small"}
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/Fostoria.Stoffton_BathHouse",
+         "MapTiles": [
+		{
+			"Position": { "X": 7, "Y": 15 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 12 51"
+			}
+		},
+		],
+         "When": {	"HasFlag": "FS_FostoriaBathhouse",
+         			"FostoriaSize": "Small" },
+},
+{
+            "Action": "EditMap",
+            "Target": "Maps/Fostoria.Stoffton_Fostoria",
+            "FromFile": "assets/Maps/FostoriaBackwoodsPatch.tmx",
+            "FromArea": { "X": 10, "Y": 0, "Width": 5, "Height": 7 },
+            "ToArea": { "X": 10, "Y": 9, "Width": 5, "Height": 7 },
+            "When": { 	"HasFlag": "FS_FostoriaBathhouse",
+            			"FostoriaSize": "Tiny"}
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/Fostoria.Stoffton_BathHouse",
+         "MapTiles": [
+		{
+			"Position": { "X": 7, "Y": 15 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Fostoria.Stoffton_Fostoria 12 15"
+			}
+		},
+		],
+         "When": {	"HasFlag": "FS_FostoriaBathhouse",
+         			"FostoriaSize": "Tiny" },
+},
+//map changes for Pori's quest
+{
+            "Action": "EditMap",
+            "Target": "Maps/Fostoria.Stoffton_Fostoria",
+            "FromFile": "assets/Maps/Fostoria5.tmx",
+            "FromArea": { "X": 106, "Y": 0, "Width": 6, "Height": 11 },
+            "ToArea": { "X": 106, "Y": 0, "Width": 6, "Height": 11 },
+            "When": {"HasFlag": "PoriComplete"}
+},
+{
+            "Action": "EditMap",
+            "Target": "Maps/Fostoria.Stoffton_RuinedShop",
+            "FromFile": "assets/Maps/F_RuinedShop2.tmx",
+            "FromArea": { "X": 37, "Y": 2, "Width": 3, "Height": 1 },
+            "ToArea": { "X": 37, "Y": 2, "Width": 3, "Height": 1 },
+            "When": {"HasFlag": "PoriComplete"}
+},		
+
+//Editing Object Descriptions and Strings from Maps for Storyline Continuity
+{ 
+	"Action": "EditData",
+	"Target": "Strings/StringsFromMaps",
+	"Entries": {
+    "Fostoria.1": "`{{i18n:FSMapStrings.Fostoria.1.1}}^@{{i18n:FSMapStrings.Fostoria.1.2}}^>{{i18n:FSMapStrings.Fostoria.1.3}}",
+    "Fostoria.2": "@{{i18n:FSMapStrings.Fostoria.2}}",
+    "Fostoria.3": "{{i18n:FSMapStrings.Fostoria.3}}",
+    "MagicShop.1": "{{i18n:FSMapStrings.MagicShop.1}}",
+    "MagicShop.2": "{{i18n:FSMapStrings.MagicShop.2}}",
+    "MagicShop.3": "{{i18n:FSMapStrings.MagicShop.3}}",
+    "MagicShop.4": "{{i18n:FSMapStrings.MagicShop.4}}",
+    "MagicShop.5": "{{i18n:FSMapStrings.MagicShop.5}}",
+    "MagicShop.6": "{{i18n:FSMapStrings.MagicShop.6}}",
+    "MagicShop.7": "{{i18n:FSMapStrings.MagicShop.7}}",
+    "MagicShop.8": "{{i18n:FSMapStrings.MagicShop.8}}",
+    "MagicShop.9": "{{i18n:FSMapStrings.MagicShop.9}}",
+    "MagicShop.10": "{{i18n:FSMapStrings.MagicShop.10}}",
+    "MagicShop.11": "{{i18n:FSMapStrings.MagicShop.11}}",
+    "MagicShop.12": "{{i18n:FSMapStrings.MagicShop.12}}",
+    "TinyShop.2": "'{{i18n:FSMapStrings.TinyShop.2}}'",
+    "TinyShop.3": "{{i18n:FSMapStrings.TinyShop.3}}",
+    "TinyShop.4": "{{i18n:FSMapStrings.TinyShop.4}}",
+    "RuinedShop.1": "'{{i18n:FSMapStrings.RuinedShop.1}}'",
+	"RuinedShop.2": "{{i18n:FSMapStrings.RuinedShop.2}}",
+    "FishermanHouse.1": "'{{i18n:FSMapStrings.FishermanHouse.1}}'",
+    "FishermanHouse.2": "'{{i18n:FSMapStrings.FishermanHouse.2}}'",
+    "FishermanHouse.3": "'{{i18n:FSMapStrings.FishermanHouse.3}}'",
+    "Fostoria.Stoffton_Shortcut": "'{{i18n:FSMapStrings.Fostoria.Stoffton_Shortcut}}'",
+    
+	}
+},
+
+//Adding Events
+
+{
+     "Action": "Load",
+	 "Target": "Data/Events/Fostoria.Stoffton_Fostoria",
+	 "FromFile": "assets/dialogue/blank.json"
+},
+	{
+    	"LogName": "i18n Event Files",
+    	"Action": "Include",
+    	"FromFile": "Assets/Events/FostoriaEvents.json",
+    },
+{
+     "Action": "Load",
+	 "Target": "Data/Events/Fostoria.Stoffton_FishermanHouse",
+	 "FromFile": "assets/dialogue/blank.json"
+},
+	{
+    	"LogName": "i18n Event Files",
+    	"Action": "Include",
+    	"FromFile": "Assets/Events/FishermanHouse.json",
+    },
+{
+     "Action": "Load",
+	 "Target": "Data/Events/Fostoria.Stoffton_MagicShop",
+	 "FromFile": "assets/dialogue/blank.json"
+},
+	{
+    	"LogName": "i18n Event Files",
+    	"Action": "Include",
+    	"FromFile": "Assets/Events/WitchShop.json",
+    },
+{
+     "Action": "Load",
+	 "Target": "Data/Events/Fostoria.Stoffton_Tent",
+	 "FromFile": "assets/dialogue/blank.json"
+},
+	{
+    	"LogName": "i18n Event Files",
+    	"Action": "Include",
+    	"FromFile": "Assets/Events/PoriHouse.json",
+    },
+//Editing Events for Tiny Fostoria
+{ 
+	"Action": "EditData",
+	"Target": "Data/Events/Fostoria.Stoffton_Fostoria",
+	"Entries": {
+	  "114780000/f RemmingtonFS 1000": "shaneTheme/98 20/farmer 95 17 1 RemmingtonFS 98 22 3 Wizard -1000 -1000 2/skippable/pause 1000/emote RemmingtonFS 44/playSound fishEscape/pause 500/speak RemmingtonFS \"{{i18n:event-114780000.01}}\"/move RemmingtonFS 1 0 1/playSound cast/pause 900/emote RemmingtonFS 44/playSound fishEscape/pause 500/speak RemmingtonFS \"{{i18n:event-114780000.02}}\"/pause 500/move farmer 3 0 1/faceDirection farmer 2/pause 200/faceDirection RemmingtonFS 2 true/jump RemmingtonFS/speak RemmingtonFS \"{{i18n:event-114780000.03}}\"/emote farmer 8/pause 500/speak RemmingtonFS \"{{i18n:event-114780000.04}}\"/pause 600/playSound wand/screenFlash 3/showFrame Wizard 16/warp Wizard 100 18/pause 500/showFrame Wizard 0/pause 500/faceDirection Wizard 2/pause 500/screenFlash .35/shake Wizard 500/faceDirection Wizard 3/speak Wizard \"{{i18n:event-114780000.05}}\"/pause 500/faceDirection Wizard 2/speak Wizard \"{{i18n:event-114780000.06}}\"/jump RemmingtonFS/speak RemmingtonFS \"Y{{i18n:event-114780000.07}}\"/emote RemmingtonFS 12/pause 300/faceDirection Wizard 3 true/speak Wizard \"{{i18n:event-114780000.08}}\"/faceDirection Wizard 2 true/pause 500/speak Wizard \"{{i18n:event-114780000.09}}\"/pause 500/faceDirection Wizard 3 true/speak Wizard \"{{i18n:event-114780000.10}}\"/playSound wand/screenFlash 3/warp Wizard -1000 -1000/pause 1000/faceDirection RemmingtonFS 0 true/pause 1000/emote RemmingtonFS 12/pause 500/speak RemmingtonFS \"{{i18n:event-114780000.11}}\"/emote farmer 40/speak RemmingtonFS \"{{i18n:event-114780000.12}}\"/emote farmer 8/speak RemmingtonFS \"{{i18n:event-114780000.13}}\"/emote farmer 32/speak RemmingtonFS \"{{i18n:event-114780000.14}}\"/pause 800/end",},
+	"When": {"FostoriaSize": "Tiny"}
+},
+
+{ //Editing Mail for Heart Events
+	"Action": "EditData",
+	"Target": "Data/mail",
+	"Entries": {
+	  "RemmingtonRequest": "{{i18n:FSMail.RemmingtonRequest.1}} @,^{{i18n:FSMail.RemmingtonRequest.2}}^{{i18n:FSMail.RemmingtonRequest.3}},^   -{{i18n:FSDisplayName.Remmington}} %item quest 1147801 %%[#]{{i18n:FSDisplayName.Remmington}}'s {{i18n:FSMail.RemmingtonRequest.4}}",
+	  "PoriRequest": "{{i18n:FSMail.PoriRequest.1}} @,^{{i18n:FSMail.PoriRequest.2}}^{{i18n:FSMail.PoriRequest.3}},^   -{{i18n:FSDisplayName.Pori}} %item quest 1147802 %%[#]{{i18n:FSDisplayName.Pori}}'s {{i18n:FSMail.PoriRequest.4}}",
+	  "IrisMail": "@,^^{{i18n:FSMail.IrisMail.1}}^^-{{i18n:FSDisplayName.Iris}} %item craftingRecipe Banana_Pudding %%[#]{{i18n:FSMail.IrisMail.2}}",
+	
+	}
+},
+
+{ //Editing Quests for Heart Events
+	"Action": "EditData",
+	"Target": "Data/quests",
+	"Entries": {
+	  "1147801": "Basic/{{i18n:FSQuest.1147801.1}}/{{i18n:FSQuest.1147801.2}}/{{i18n:FSQuest.1147801.3}}/-1/-1/0/-1/true",
+	"1147802": "Basic/{{i18n:FSQuest.1147802.1}}/{{i18n:FSQuest.1147802.2}}/{{i18n:FSQuest.1147802.3}}/-1/-1/0/-1/true",
+	}
+},
+
+//Adding changable dialogue for maps
+{ 
+	"Action": "EditData",
+	"Target": "Data/ExtraDialogue",
+	"Entries": {
+	"FishermanHouse_model": "{{i18n:FSMiscellaneous.FishermanHouse_model.1}}",
+	}
+},
+
+{ 
+	"Action": "EditData",
+	"Target": "Strings/Locations",
+	"Entries": {
+	"FishermanHouse_model": "{{i18n:FSMiscellaneous.FishermanHouse_model.2}}",
+	}
+},
+
+
+
+{ //Fixing Linus Schedule
+	"Action": "EditData",
+	"Target": "Characters/schedules/Linus",
+	"Entries": {
+    "spring_Wed": "630 Mountain 25 5 1/700 Mountain 45 19 1/1130 Mountain 28 9 1/1900 Tent 3 2 1/2100 Tent 1 3 2/2300 Tent 4 4 2 linus_sleep",
+    "summer_Wed": "630 Mountain 39 5 1/940 Mountain 44 27 1 square_3_3/1100 Mountain 28 9 1/2000 Mountain 25 5 1/2020 Tent 2 2 2",
+    "fall_Wed": "700 Mountain 25 5 1/740 Mountain 28 9 1/900 Railroad 20 57 2 square_5_5/1100 Mountain 28 9 1/1900 Tent 2 2 2",
+	}
+},
+{ //Fixing Remmington's schedule for Stoffton
+	"Action": "EditData",
+	"Target": "Characters/schedules/RemmingtonFS",
+	"Entries": {
+    "Mon": "0 Lizzie.Stoffton_Fish 12 12 0/610 Lizzie.Stoffton_Fish 12 12 2/1400 Fostoria.Stoffton_FishermanHouse 6 12 0/2100 Fostoria.Stoffton_FishermanHouse 9 4 Fisher_sleep",
+    "Wed": "0 Lizzie.Stoffton_Fish 12 12 0/610 Lizzie.Stoffton_Fish 12 12 2/1400 Fostoria.Stoffton_FishermanHouse 6 12 0/2100 Fostoria.Stoffton_FishermanHouse 9 4 Fisher_sleep",
+    "Fri": "0 Lizzie.Stoffton_Fish 12 12 0/610 Lizzie.Stoffton_Fish 12 12 2/1400 Fostoria.Stoffton_FishermanHouse 6 12 0/2100 Fostoria.Stoffton_FishermanHouse 9 4 Fisher_sleep"
+	},
+	"When": {"HasMod": "Lizzie.Stoffton"},
+},
+
+//Adding NPCs
+{
+    "LogName": "Including NPC file",
+    "Action": "Include",
+    "FromFile": "Assets/data/FostoriaNPC.json"
+},
+   
+//NPC Gift Data
+
+	{
+      "LogName": "Gift tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "IrisFS": "{{i18n:FSLovedGift.Iris}}/-2 -12/{{i18n:FSLikedGift.Iris}}/-80/{{i18n:FSDislikeGift.Iris}}//{i18n:FSHatedGift.Iris}//{{i18n:FSNeutralGift.Iris}}// ",
+        "RemmingtonFS": "{{i18n:FSLovedGift.Remmington}}/-2/{{i18n:FSLikedGift.Remmington}}/-28/{{i18n:FSDislikeGift.Remmington}}//{{i18n:FSHatedGift.Remmington}}/-4/{{i18n:FSNeutralGift.Remmington}}// ",
+       "Pori": "{{i18n:FSLovedGift.Pori}}/-80/{{i18n:FSLikedGift.Pori}}/-81/{{i18n:FSDislikeGift.Pori}}/-7/{{i18n:FSHatedGift.Pori}}/-2/{{i18n:FSNeutralGift.Pori}}// ",
+      	},
+    },
+
+//Adding IrisFS
+	{
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/IrisFS",
+      "FromFile": "assets/sprites/Witch.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/IrisFS",
+      "FromFile": "assets/portraits/Witch.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/IrisFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+    	"LogName": "i18n Dialogue Files",
+    	"Action": "Include",
+    	"FromFile": "assets/dialogue/Witch.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/IrisFS",
+      "FromFile": "assets/schedules/Witch.json",
+    },
+    
+ //Adding RemmingtonFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/RemmingtonFS",
+      "FromFile": "assets/sprites/Fisher.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/RemmingtonFS",
+      "FromFile": "assets/portraits/Fisher.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/RemmingtonFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+    	"LogName": "i18n Dialogue Files",
+    	"Action": "Include",
+    	"FromFile": "assets/dialogue/Fisher.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/RemmingtonFS",
+      "FromFile": "assets/schedules/Fisher.json",
+    },
+
+//Adding Pori   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/Pori",
+      "FromFile": "assets/sprites/Pori.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Pori",
+      "FromFile": "assets/portraits/Pori.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Pori",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+    	"LogName": "i18n Dialogue Files",
+    	"Action": "Include",
+    	"FromFile": "assets/dialogue/Pori.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Pori",
+      "FromFile": "assets/schedules/Pori.json",
+    },    
+    
+    { //Changing Pori's Schedule After Quest
+	"Action": "EditData",
+	"Target": "Characters/schedules/Pori",
+	"Entries": {
+    "spring": "0 Fostoria.Stoffton_Tent 7 8/610 Fostoria.Stoffton_Greenhouse 40 24 1/800 Fostoria.Stoffton_Greenhouse 35 9 0/900 Fostoria.Stoffton_Greenhouse 41 17 1/1000 Fostoria.Stoffton_Greenhouse 35 12 3/1100 Fostoria.Stoffton_Greenhouse 40 24 1/1200 Fostoria.Stoffton_Greenhouse 41 17 1/1300 Fostoria.Stoffton_Greenhouse 35 12 3/1400 Fostoria.Stoffton_Fostoria 35 20 0/1600 Fostoria.Stoffton_Tent 3 5 0/1800 Fostoria.Stoffton_Tent 3 8 2/2000 Fostoria.Stoffton_Tent 13 8 1 Pori_sleep",
+	},
+	"When": {
+            "HasFlag": "PoriComplete" 
+         },
+},
+//Adding animation descriptions for new NPCs
+{ 
+	"Action": "EditData",
+	"Target": "Data/animationDescriptions",
+	"Entries": {
+	  "Fisher_sleep": "12/12/12",
+	  "Witch_sleep": "12/12/12",
+	  "Witch_read": "19/19/19",
+	  "Witch_meditate": "24/24/24",
+	  "Pori_sleep": "12/12/12",
+	  "Pori_flute": "0/16 16 17 17 18 18 19 19/0/silent",
+	}
+},
+//Excluding NPCs from various festivals, events, requests, etc.
+{
+         "Action": "EditData",
+         "Target": "Data/CustomNPCExclusions",
+         "Entries": {
+"IrisFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"RemmingtonFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"Pori": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+         },
+         "When": {
+                "ExcludeNPCsWinterStar": true
+            }
+},
+//Excluding NPCs from various festivals, events, requests, etc.
+{
+         "Action": "EditData",
+         "Target": "Data/CustomNPCExclusions",
+         "Entries": {
+"IrisFS": "ShopDialog ItemDelivery Socialize IslandVisit PerfectFriend",
+"RemmingtonFS": "ShopDialog ItemDelivery Socialize IslandVisit PerfectFriend",
+"Pori": "ShopDialog ItemDelivery Socialize IslandVisit PerfectFriend",
+         },
+         "When": {
+                "ExcludeNPCsWinterStar": false
+            }
+},
+//New setup for WinterStar when NPCs are included
+{
+         "Action": "EditData",
+         "Target": "Data/Festivals/winter25",
+         "Entries": {
+         "Set-Up_additionalCharacters": "IrisFS 57 53 down/Wizard 58 53 down/RemmingtonFS 38 57 left/Pori 47 57 down",
+"IrisFS": "{{i18n:FSWinterStarDialogue.IrisFS}}",
+"RemmingtonFS": "{{i18n:FSWinterStarDialogue.RemmingtonFS}}",
+"Pori": "{{i18n:FSWinterStarDialogue.Pori}}",
+         },
+         "When": {
+                "ExcludeNPCsWinterStar": false,
+                "HasMod |contains=Lizzie.FamilyTies": false
+            }
+},
+
+//New setup for WinterStar when NPCs are included and Family Ties installed
+{
+         "Action": "EditData",
+         "Target": "Data/Festivals/winter25",
+         "Entries": {
+         "Set-Up_additionalCharacters": "IrisFS 35 72 down/RemmingtonFS 38 57 left/Pori 44 57 down",
+"IrisFS": "{{i18n:FSFTWinterStarDialogue.IrisFS}}",
+"RemmingtonFS": "{{i18n:FSFTWinterStarDialogue.RemmingtonFS}}",
+"Pori": "{{i18n:FSFTWinterStarDialogue.Pori}}",
+         },
+         "When": {
+                "ExcludeNPCsWinterStar": false,
+                "HasMod": "Lizzie.FamilyTies"
+            }
+},
+
+//Adding Warps for New Farm from Fostoria
+{
+         "Action": "EditMap",
+         "Target": "Maps/Fostoria.Stoffton_Fostoria",
+         "MapTiles": [
+		{
+			"Position": { "X": 3, "Y": 3 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Lizzie.Stoffton_NewFarm 52 68"
+			}
+		},
+		{
+			"Position": { "X": 4, "Y": 3 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Lizzie.Stoffton_NewFarm 52 68"
+			}
+		},
+		
+		],
+        "When": {"HasFlag": "FS_NewFarmDeed" },
+
+},
+
+//Adding Warp Totem
+
+{
+			"LogName": "Register location with warp network",
+			"Action": "EditData",
+			"Target": "Data/WarpNetwork/Destinations",
+			"Entries": {
+				"Fostoria": {
+					"location": "Fostoria.Stoffton_Fostoria",
+					"x": 88,
+					"y": 12,
+					"enabled": true,
+					"label": "Fostoria",
+				}
+			}
+},
+		{
+			"LogName": "Register warp item",
+			"Action": "EditData",
+			"Target": "Data/WarpNetwork/WarpItems",
+			"Entries": {
+			"{{spacechase0.JsonAssets/ObjectId:FostoriaTotem}}": {
+					"Destination": "Fostoria",
+					"IgnoreDisabled": true,
+				}
+			},
+			"When":{
+				"HasMod":"spacechase0.JsonAssets"
+			}
+		},
+		//Adding Iris's Shop
+		{
+		"Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "Fostoria.Stoffton_IrisShop": {
+                    "Owners": [
+                        {
+                            "Name": "IrisFS",
+                            "Dialogues": [
+                                {
+                                    "Id": "Fostoria.Stoffton_IrisShop_Default",
+                                    "Dialogue": "{{i18n:IrisShop_Default}}"
+                                }
+                            ]
+                        }
+                    ],
+
+                    "Items": [
+                        {
+                        	"Id": "Fostoria.Stoffton_IrisShop1",
+                        	"Price": "1000",
+                        	"AvoidRepeat": "true",
+                        	"AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "RandomItemId": [
+                                "(O)96",
+                                "(O)97",
+                                "(O)98",
+                                "(O)99"
+                                ]
+                        },
+                        {
+                        	"Id": "Fostoria.Stoffton_IrisShop2",
+                        	"AvoidRepeat": "true",
+                        	"Price": "1000",
+                        	"AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "RandomItemId": [
+                                "(O)96",
+                                "(O)97",
+                                "(O)98",
+                                "(O)99"
+                                ]
+                        },
+                        {
+                        	"Id": "Fostoria.Stoffton_IrisShop3",
+                        	"AvoidRepeat": "true",
+                        	"AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "RandomItemId": [
+                                "(O)122",
+                                "(O)121",
+                                "(O)120",
+                                "(O)106"
+                                ]
+                        },
+                        {
+                        	"Id": "Fostoria.Stoffton_IrisShop4",
+                        	"AvoidRepeat": "true",
+                        	"AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "RandomItemId": [
+                                "(O)122",
+                                "(O)121",
+                                "(O)120",
+                                "(O)106"
+                                ]
+                        },
+                        {
+                        	"Id": "Fostoria.Stoffton_IrisShop5",
+                        	"Condition": "PLAYER_HAS_SEEN_EVENT Current 114780003",
+                        	"Price": "200",
+                        	"AvoidRepeat": "true",
+                        	"AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "RandomItemId": ["(O)516", "(O)518"]
+                        },
+                        {
+                        	"Id": "Fostoria.Stoffton_IrisShop6",
+                        	"Condition": "PLAYER_HAS_SEEN_EVENT Current 114780004",
+                        	"Price": "400",
+                        	"AvoidRepeat": "true",
+                        	"AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "RandomItemId": ["(O)517", "(O)519"]
+                        },
+                        {
+                        	"Id": "Fostoria.Stoffton_IrisShop7",
+                        	"Condition": "PLAYER_HAS_SEEN_EVENT Current 114780005",
+                        	"AvoidRepeat": "true",
+                        	"AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "RandomItemId": ["(O)529", "(O)531", "(O)533", "(O)532", "(O)534", "(O)530", "(O)839"]
+                        },
+                        {
+                        	"Id": "Fostoria.Stoffton_IrisShop8",
+                        	"Condition": "PLAYER_HAS_SEEN_EVENT Current 114780005",
+                        	"AvoidRepeat": "true",
+                        	"AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "RandomItemId": ["(O)529", "(O)531", "(O)533", "(O)532", "(O)534", "(O)530", "(O)839"]
+                        },
+                        {
+                        	"Id": "Fostoria.Stoffton_IrisShop9",
+                        	"Condition": "PLAYER_HAS_SEEN_EVENT Current 114780005",
+                        	"AvoidRepeat": "true",
+                        	"AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "RandomItemId": ["(O)529", "(O)531", "(O)533", "(O)532", "(O)534", "(O)530", "(O)839"]
+                        },
+                        {
+                        	"Id": "Fostoria.Stoffton_IrisShop10",
+                        	"Condition": "PLAYER_HEARTS Current IrisFS 8",
+                        	"AvoidRepeat": "true",
+                        	"AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "RandomItemId": ["(O)526", "(O)525", "(O)524", "(O)523", "(O)528", "(O)880", "(O)810", "(O)888"]
+                        },
+                        {
+                        	"Id": "Fostoria.Stoffton_IrisShop11",
+                        	"Condition": "PLAYER_HEARTS Current IrisFS 8",
+                        	"AvoidRepeat": "true",
+                        	"AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "RandomItemId": ["(O)526", "(O)525", "(O)524", "(O)523", "(O)528", "(O)880", "(O)810", "(O)888"]
+                        },
+                        {
+                        	"Id": "Fostoria.Stoffton_IrisShop12",
+                        	"Condition": "PLAYER_HEARTS Current IrisFS 8",
+                        	"AvoidRepeat": "true",
+                        	"AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "RandomItemId": ["(O)526", "(O)525", "(O)524", "(O)523", "(O)528", "(O)880", "(O)810", "(O)888"]
+                        },
+                        {
+                        	"Id": "Fostoria.Stoffton_IrisShop13",
+                        	"Condition": "PLAYER_HEARTS Current IrisFS 10",
+                        	"AvoidRepeat": "true",
+                        	"AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "RandomItemId": ["(O)860", "(O)887", "(O)527", "(O)859", "(O)811", "(O)863", "(O)861", "(O)520", "(O)862", "(O)522", "(O)521", "(O)801"]
+                        },
+                        {
+                        	"Id": "Fostoria.Stoffton_IrisShop14",
+                        	"Condition": "PLAYER_HEARTS Current IrisFS 10",
+                        	"AvoidRepeat": "true",
+                        	"AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "RandomItemId": ["(O)860", "(O)887", "(O)527", "(O)859", "(O)811", "(O)863", "(O)861", "(O)520", "(O)862", "(O)522", "(O)521", "(O)801"]
+                        },
+                        {
+                        	"Id": "Fostoria.Stoffton_IrisShop15",
+                        	"Condition": "PLAYER_HEARTS Current IrisFS 10",
+                        	"AvoidRepeat": "true",
+                        	"AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "RandomItemId": ["(O)860", "(O)887", "(O)527", "(O)859", "(O)811", "(O)863", "(O)861", "(O)520", "(O)862", "(O)522", "(O)521", "(O)801"]
+                        },
+                        {
+                        	"Id": "Fostoria.Stoffton_IrisShop16",
+                        	"Condition": "PLAYER_HEARTS Current IrisFS 10",
+                        	"AvoidRepeat": "true",
+                        	"AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "RandomItemId": ["(O)860", "(O)887", "(O)527", "(O)859", "(O)811", "(O)863", "(O)861", "(O)520", "(O)862", "(O)522", "(O)521", "(O)801"]
+                        },
+                    ]
+                }
+            }
+		},
+		//Adding Remmington's Shop
+		{
+		"Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "Fostoria.Stoffton_FishShop": {
+                    "Owners": [
+                        {
+                            "Name": "RemmingtonFS",
+                            "Dialogues": [
+                                {
+                                    "Id": "Fostoria.Stoffton_FishShop_Default",
+                                    "Dialogue": "{{i18n:FishShop_Default}}"
+                                }
+                            ]
+                        }
+                    ],
+
+                    "Items": [
+                        {
+                        	"Id": "Fostoria.Stoffton_FishShop1",
+                        	"AvoidRepeat": "true",
+                        	"AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "RandomItemId": [
+                                "(O)800",
+                                "(O)132",
+                                "(O)700",
+                                "(O)142",
+                                "(O)143",
+                                "(O)702",
+                                "(O)372",
+                                "(O)718",
+                                "(O)717",
+                                "(O)148",
+                                "(O)156",
+                                "(O)136",
+                                "(O)162",
+                                "(O)715",
+                                "(O)719",
+                                "(O)149",
+                                "(O)723",
+                                "(O)722",
+                                "(O)128",
+                                "(O)150",
+                                "(O)164",
+                                "(O)131",
+                                "(O)165",
+                                "(O)706",
+                                "(O)720",
+                                "(O)698",
+                                "(O)145",
+                                "(O)699",
+                                "(O)701",
+                                "(O)130",
+                                "(O)140",
+                                "(O)734",
+                                ]
+                        },
+                        {
+                        	"Id": "Fostoria.Stoffton_FishShop2",
+                        	"AvoidRepeat": "true",
+                        	"AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "RandomItemId": [
+                                "(O)800",
+                                "(O)132",
+                                "(O)700",
+                                "(O)142",
+                                "(O)143",
+                                "(O)702",
+                                "(O)372",
+                                "(O)718",
+                                "(O)717",
+                                "(O)148",
+                                "(O)156",
+                                "(O)136",
+                                "(O)162",
+                                "(O)715",
+                                "(O)719",
+                                "(O)149",
+                                "(O)723",
+                                "(O)722",
+                                "(O)128",
+                                "(O)150",
+                                "(O)164",
+                                "(O)131",
+                                "(O)165",
+                                "(O)706",
+                                "(O)720",
+                                "(O)698",
+                                "(O)145",
+                                "(O)699",
+                                "(O)701",
+                                "(O)130",
+                                "(O)140",
+                                "(O)734",
+                                ]
+                        },
+                        {
+                        	"Id": "Fostoria.Stoffton_FishShop3",
+                        	"AvoidRepeat": "true",
+                        	"AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "RandomItemId": [
+                                "(O)800",
+                                "(O)132",
+                                "(O)700",
+                                "(O)142",
+                                "(O)143",
+                                "(O)702",
+                                "(O)372",
+                                "(O)718",
+                                "(O)717",
+                                "(O)148",
+                                "(O)156",
+                                "(O)136",
+                                "(O)162",
+                                "(O)715",
+                                "(O)719",
+                                "(O)149",
+                                "(O)723",
+                                "(O)722",
+                                "(O)128",
+                                "(O)150",
+                                "(O)164",
+                                "(O)131",
+                                "(O)165",
+                                "(O)706",
+                                "(O)720",
+                                "(O)698",
+                                "(O)145",
+                                "(O)699",
+                                "(O)701",
+                                "(O)130",
+                                "(O)140",
+                                "(O)734",
+                                ]
+                        },
+                        {
+                        	"Id": "Fostoria.Stoffton_FishShop4",
+                        	"AvoidRepeat": "true",
+                        	"AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "RandomItemId": [
+                                "(O)800",
+                                "(O)132",
+                                "(O)700",
+                                "(O)142",
+                                "(O)143",
+                                "(O)702",
+                                "(O)372",
+                                "(O)718",
+                                "(O)717",
+                                "(O)148",
+                                "(O)156",
+                                "(O)136",
+                                "(O)162",
+                                "(O)715",
+                                "(O)719",
+                                "(O)149",
+                                "(O)723",
+                                "(O)722",
+                                "(O)128",
+                                "(O)150",
+                                "(O)164",
+                                "(O)131",
+                                "(O)165",
+                                "(O)706",
+                                "(O)720",
+                                "(O)698",
+                                "(O)145",
+                                "(O)699",
+                                "(O)701",
+                                "(O)130",
+                                "(O)140",
+                                "(O)734",
+                                ]
+                        },
+                        {
+                        	"Id": "Fostoria.Stoffton_FishShop5",
+                        	"AvoidRepeat": "true",
+                        	"AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "RandomItemId": [
+                                "(O)800",
+                                "(O)132",
+                                "(O)700",
+                                "(O)142",
+                                "(O)143",
+                                "(O)702",
+                                "(O)372",
+                                "(O)718",
+                                "(O)717",
+                                "(O)148",
+                                "(O)156",
+                                "(O)136",
+                                "(O)162",
+                                "(O)715",
+                                "(O)719",
+                                "(O)149",
+                                "(O)723",
+                                "(O)722",
+                                "(O)128",
+                                "(O)150",
+                                "(O)164",
+                                "(O)131",
+                                "(O)165",
+                                "(O)706",
+                                "(O)720",
+                                "(O)698",
+                                "(O)145",
+                                "(O)699",
+                                "(O)701",
+                                "(O)130",
+                                "(O)140",
+                                "(O)734",
+                                ]
+                        },
+                        {
+                        	"Id": "Fostoria.Stoffton_FishShop6",
+                        	"AvoidRepeat": "true",
+                        	"AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "RandomItemId": [
+                                "(O)800",
+                                "(O)132",
+                                "(O)700",
+                                "(O)142",
+                                "(O)143",
+                                "(O)702",
+                                "(O)372",
+                                "(O)718",
+                                "(O)717",
+                                "(O)148",
+                                "(O)156",
+                                "(O)136",
+                                "(O)162",
+                                "(O)715",
+                                "(O)719",
+                                "(O)149",
+                                "(O)723",
+                                "(O)722",
+                                "(O)128",
+                                "(O)150",
+                                "(O)164",
+                                "(O)131",
+                                "(O)165",
+                                "(O)706",
+                                "(O)720",
+                                "(O)698",
+                                "(O)145",
+                                "(O)699",
+                                "(O)701",
+                                "(O)130",
+                                "(O)140",
+                                "(O)734",
+                                ]
+                        },
+                        {
+                        	"Id": "Fostoria.Stoffton_FishShop7",
+                        	"AvoidRepeat": "true",
+                        	"AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "RandomItemId": [
+                                "(O)800",
+                                "(O)132",
+                                "(O)700",
+                                "(O)142",
+                                "(O)143",
+                                "(O)702",
+                                "(O)372",
+                                "(O)718",
+                                "(O)717",
+                                "(O)148",
+                                "(O)156",
+                                "(O)136",
+                                "(O)162",
+                                "(O)715",
+                                "(O)719",
+                                "(O)149",
+                                "(O)723",
+                                "(O)722",
+                                "(O)128",
+                                "(O)150",
+                                "(O)164",
+                                "(O)131",
+                                "(O)165",
+                                "(O)706",
+                                "(O)720",
+                                "(O)698",
+                                "(O)145",
+                                "(O)699",
+                                "(O)701",
+                                "(O)130",
+                                "(O)140",
+                                "(O)734",
+                                ]
+                        },
+                        
+                    ]
+                }
+            }
+		},
+]
+}

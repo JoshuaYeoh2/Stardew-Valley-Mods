@@ -1,0 +1,45 @@
+{
+
+  "Changes": [
+    {
+      "LogName": "Dialogue",
+      "Action": "Include",
+      "FromFile": "assets/Dialogue/Dialogue.json",
+    },
+    {
+      "LogName": "Dialogue Extras",
+      "Action": "Include",
+      "FromFile": "assets/Dialogue/ExtraDialogue.json",
+    },
+    {
+      "LogName": "Dialogue Festivals",
+      "Action": "Include",
+      "FromFile": "assets/Dialogue/FestivalDialogue.json",
+    },
+    {
+      "LogName": "Dialogue from Others",
+      "Action": "Include",
+      "FromFile": "assets/Dialogue/OtherDialogue.json",
+    },
+    {
+      "LogName": "Dialogue 1.6",
+      "Action": "Include",
+      "FromFile": "assets/Dialogue/1_6Dialogue.json",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Include",
+      "FromFile": "assets/Dialogue/JasperDialogue.json",
+      "When": 
+        {"HasMod |contains=Lemurkat.NPCJasper": true}
+    },
+    {
+      "LogName": "Marriage Dialogue",
+      "Action": "Include",
+      "FromFile": "assets/Dialogue/MarriageDialogue.json",
+      "When": 
+        {"Relationship:Mike": "Married"}
+    },
+
+]
+}

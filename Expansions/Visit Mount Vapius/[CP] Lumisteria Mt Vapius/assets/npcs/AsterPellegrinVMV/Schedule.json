@@ -1,0 +1,30 @@
+{
+  "Changes": [
+    {
+      "LogName": "Blank Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/AsterPellegrinVMV",
+      "FromFile": "assets/npcs/BlankDialogue.json"
+    },
+    {
+      "LogName": "Default Schedules",
+      "Action": "EditData",
+      "Target": "Characters/schedules/AsterPellegrinVMV",
+      "Entries": {
+		"3": "630 Lumisteria.MtVapius_AsterHouse 11 19 3 \"Strings\\schedules\\AsterPellegrinVMV:HaleyVisitingAsterHouse.000\"/750 Lumisteria.MtVapius_Hamlet 79 25 2 \"Strings\\schedules\\AsterPellegrinVMV:HaleyVisitingAsterBench.000\"/1100 Lumisteria.MtVapius_Hamlet 43 10 3 \"Strings\\schedules\\AsterPellegrinVMV:HaleyVisitingHamletPond.000\"/1800 Lumisteria.MtVapius_AsterHouse 22 9 4/2030 Lumisteria.MtVapius_AsterHouse 8 16 4/2300 Lumisteria.MtVapius_AsterHouse 16 5 4",
+        "17": "630 Lumisteria.MtVapius_AsterHouse 11 19 3 \"Strings\\schedules\\AsterPellegrinVMV:HaleyVisitingAsterHouse.000\"/750 Lumisteria.MtVapius_Hamlet 79 25 2 \"Strings\\schedules\\AsterPellegrinVMV:HaleyVisitingAsterBench.000\"/1100 Lumisteria.MtVapius_Hamlet 43 10 3 \"Strings\\schedules\\AsterPellegrinVMV:HaleyVisitingHamletPond.000\"/1800 Lumisteria.MtVapius_AsterHouse 22 9 4/2030 Lumisteria.MtVapius_AsterHouse 8 16 4/2300 Lumisteria.MtVapius_AsterHouse 16 5 4",
+        //"rain": "800 Lumisteria.MtVapius_AsterHouse 18 16 2/930 Lumisteria.MtVapius_AsterHouse 1 17 2/1700 Lumisteria.MtVapius_AsterHouse 12 16 1",
+        "summer_Tue": "700 Lumisteria.MtVapius_Hamlet 69 65 2 AsterPellegrinVMV_read/1300 Lumisteria.MtVapius_Hamlet 71 63 2/1400 Lumisteria.MtVapius_Hamlet 69 65 2/1800 Lumisteria.MtVapius_Hamlet 82 19 4/2230 Lumisteria.MtVapius_AsterHouse 16 5 4",
+        "winter_Tue": "700 Lumisteria.MtVapius_Hamlet 69 65 2 AsterPellegrinVMV_read/1300 Lumisteria.MtVapius_Hamlet 71 63 2/1400 Lumisteria.MtVapius_Hamlet 69 65 2/1800 Lumisteria.MtVapius_Inn 22 34 2/2100 Lumisteria.MtVapius_AsterHouse 16 5 4",
+        "Mon": "800 Lumisteria.MtVapius_AsterHouse 18 16 2/930 Lumisteria.MtVapius_Hamlet 78 26 2 AsterPellegrinVMV_read/1030 Lumisteria.MtVapius_Hamlet 45 8 2 AsterPellegrinVMV_work/1300 Lumisteria.MtVapius_Hamlet 69 23 3 AsterPellegrinVMV_gardening/1400 Lumisteria.MtVapius_Hamlet 78 23 3 AsterPellegrinVMV_gardening/1500 Lumisteria.MtVapius_Hamlet 86 42 3 AsterPellegrinVMV_gardening/1700 Lumisteria.MtVapius_Hamlet 64 67 3 AsterPellegrinVMV_gardening/1800 Lumisteria.MtVapius_Hamlet 72 67 3 AsterPellegrinVMV_gardening/2000 Lumisteria.MtVapius_AsterHouse 8 16 4/2300 Lumisteria.MtVapius_AsterHouse 16 5 4",
+        //Wed moved to day entry.
+		"Thu": "730 Lumisteria.MtVapius_AsterHouse 18 16 2/1000 Lumisteria.MtVapius_AsterHouse 22 9 2 AsterPellegrinVMV_dance/1500 Lumisteria.MtVapius_AsterHouse 8 16 4/2300 Lumisteria.MtVapius_AsterHouse 16 5 4",
+		"Fri": "800 Lumisteria.MtVapius_AsterHouse 18 16 2/930 Lumisteria.MtVapius_Hamlet 78 26 2 AsterPellegrinVMV_read/1030 Lumisteria.MtVapius_Hamlet 45 8 2 AsterPellegrinVMV_work/1200 Lumisteria.MtVapius_Hamlet 46 81 3 AsterPellegrinVMV_gardening/1400 Lumisteria.MtVapius_Hamlet 60 82 3 AsterPellegrinVMV_gardening/1500 Lumisteria.MtVapius_Hamlet 52 88 3 AsterPellegrinVMV_gardening/1700 Lumisteria.MtVapius_Hamlet 60 89 3 AsterPellegrinVMV_gardening/2000 Lumisteria.MtVapius_AsterHouse 8 16 4/2300 Lumisteria.MtVapius_AsterHouse 16 5 4",
+        "Sat": "610 Lumisteria.MtVapius_AsterHouse 18 16 2/750 Lumisteria.MtVapius_Hamlet 67 66 2  AsterPellegrinVMV_read/1800 Lumisteria.MtVapius_AsterHouse 22 9 4/2030 Lumisteria.MtVapius_AsterHouse 8 16 4/2300 Lumisteria.MtVapius_AsterHouse 16 5 4",
+        "Sun": "730 Lumisteria.MtVapius_AsterHouse 18 16 2/1000 Lumisteria.MtVapius_AsterHouse 22 9 2 AsterPellegrinVMV_dance/1500 Lumisteria.MtVapius_AsterHouse 8 16 4/2300 Lumisteria.MtVapius_AsterHouse 16 5 4",
+        "spring": "800 Lumisteria.MtVapius_AsterHouse 18 16 2/930 Lumisteria.MtVapius_Hamlet 78 26 2 AsterPellegrinVMV_read/1030 Lumisteria.MtVapius_Hamlet 45 8 2 AsterPellegrinVMV_work/1300 Lumisteria.MtVapius_AsterHouse 22 9 4/2000 Lumisteria.MtVapius_AsterHouse 8 16 4/2230 Lumisteria.MtVapius_Hamlet 82 19 4",
+        "summer": "800 Lumisteria.MtVapius_AsterHouse 18 16 2/930 Lumisteria.MtVapius_Hamlet 78 26 2 AsterPellegrinVMV_read/1030 Lumisteria.MtVapius_Hamlet 45 8 2 AsterPellegrinVMV_work/1300 Lumisteria.MtVapius_AsterHouse 22 9 4/2000 Lumisteria.MtVapius_AsterHouse 8 16 4/2300 Lumisteria.MtVapius_AsterHouse 16 5 4",
+      }
+    },
+  ]
+}

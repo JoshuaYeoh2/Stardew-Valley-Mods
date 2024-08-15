@@ -1,0 +1,34 @@
+{
+	"Name": "NEA & COT [CP]",
+	"Author": "DestyNova",
+	"Version": "1.10.0",
+	"Description": "A fantasy expansion for East Scarp that includes NPCs, Skills, Crops, Weapons, Items & More!",
+	  "UniqueID": "DN.SnS",
+	  "MinimumApiVersion": "3.15.0",
+	  "ContentPackFor": {
+	  "UniqueID": "Pathoschild.ContentPatcher"
+	  },
+	  "UpdateKeys": ["Nexus:12369"],
+	  "Dependencies": [  
+		{
+		  "UniqueID": "LemurKat.EastScarpe.CP",
+		  "IsRequired": true
+		},   
+		{
+		  "UniqueID": "spacechase0.SpaceCore",
+		  "IsRequired": true
+		},
+		{
+            "UniqueID": "DaisyNiko.Tilesheets",
+			"IsRequired": true
+        },
+        {
+            "UniqueID": "Lumisteria.LumiTilesheetsIndoor",
+			"IsRequired": true
+        },
+        {
+            "UniqueID": "Lumisteria.TtilesheetsOutdoor",
+			"IsRequired": true
+        },
+	 ]
+  }

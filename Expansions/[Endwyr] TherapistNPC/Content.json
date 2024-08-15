@@ -1,0 +1,368 @@
+{
+    "Format": "2.0.0",
+    "Changes": [
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "FromFile": "assets/Maps/Forest.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 8,
+                "Height": 12
+            },
+            "ToArea": {
+                "X": 109,
+                "Y": 11,
+                "Width": 8,
+                "Height": 12
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Hospital",
+            "FromFile": "assets/Maps/Hospital.tmx",
+            "FromArea": {
+                "X": 15,
+                "Y": 8,
+                "Width": 9,
+                "Height": 12
+            },
+            "ToArea": {
+                "X": 15,
+                "Y": 8,
+                "Width": 9,
+                "Height": 12
+            }
+        },
+        //NPC Grey
+        {
+            "LogName": "Disposition",
+            "Action": "Include",
+            "FromFile": "assets/Dispo/Dispo.json"
+        },
+        {
+            "LogName": "Portraits",
+            "Action": "Load",
+            "Target": "Portraits/GreyNPC",
+            "FromFile": "assets/Portraits/Grey.png"
+        },
+        {
+            "LogName": "Grey Winter Portrait",
+            "Action": "EditImage",
+            "Target": "Characters/Grey, Portraits/GreyNPC",
+            "FromFile": "assets/Portraits/Grey_Winter.png",
+            "When": {
+                "Season": "winter"
+            }
+        },
+        {
+            "LogName": "Grey Beach Portrait",
+            "Action": "Load",
+            "Target": "Portraits/GreyNPC_Beach",
+            "FromFile": "assets/Portraits/Grey_Beach.png"
+        },
+        {
+            "LogName": "Grey Sprite",
+            "Action": "Load",
+            "Target": "Characters/GreyNPC",
+            "FromFile": "assets/Sprites/Grey.png"
+        },
+        {
+            "LogName": "Grey swimsuit sprites",
+            "Action": "Load",
+            "Target": "Characters/GreyNPC_Beach",
+            "FromFile": "assets/Sprites/Grey_Beach.png"
+        },
+        {
+            "LogName": "Grey Winter sprites",
+            "Action": "EditImage",
+            "Target": "Characters/GreyNPC",
+            "FromFile": "assets/Sprites/Grey_Winter.png",
+            "When": {
+                "Season": "winter"
+            }
+        },
+        {
+            "LogName": "Blank JSON load",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/GreyNPC, Characters/schedules/GreyNPC, Strings/schedules/GreyNPC",
+            "FromFile": "assets/blank.json"
+        },
+        {
+            "LogName": "Gift Tastes Include",
+            "Action": "Include",
+            "FromFile": "assets/GiftTastes/GiftTastes.json"
+        },
+        {
+            "LogName": "Schedule/Dialogue Includes",
+            "Action": "Include",
+            "FromFile": "assets/schedules/Grey.json, assets/Dialogue/Grey.json"
+        },
+        { //ALEX THERAPY SCHEDULE
+            "Action": "EditData",
+            "Target": "Characters/schedules/Alex",
+            "When": {
+                "HasSeenEvent": 2481135
+            },
+            "Entries": {
+                "4": "800 Custom_GreysHome 11 5 2 alex_football/1100 Custom_GreysHome 2 5 2/1200 JoshHouse 14 5 2 alex_lift_weights/1600 Town 50 68 1/1830 JoshHouse 8 19 2/2000 JoshHouse 17 5 0/2200 JoshHouse 21 4 1 alex_sleep",
+                "18": "GOTO 4"
+            }
+        },
+        { //KENT THERAPY SCHEDULE, after 3 Heart Event
+            "Action": "EditData",
+            "Target": "Characters/schedules/Kent",
+            "When": {
+                "HasSeenEvent": 100
+            },
+            "Entries": {
+                "4": "1000 Custom_GreysHome 11 5 2/1300 Custom_GreysHome 2 5 2/1400 Town 6 72 1/1700 SamHouse 2 21 0/1900 SamHouse 8 5 3/2100 Town 6 89 2/2300 SamHouse 21 5 3 kent_sleep",
+                "18": "GOTO 4"
+            }
+        },
+        { //CAROLINE THERAPY SCHEDULE
+            "Action": "EditData",
+            "Target": "Characters/schedules/Caroline",
+            "Entries": {
+                "1": "900 SeedShop 22 5 2/1040 SeedShop 21 5 0/1330 SeedShop 15 23 0/1420 Hospital 13 14 2/1500 Hospital 21 17 0/1600 SeedShop 27 7 1/1700 SeedShop 25 4 1 caroline_sleep",
+                //CAROLINE FAMILY THERAPY 
+                "22": "800 SeedShop 37 6 3/1000 Sunroom 5 7 1/1200 SeedShop 15 23 0/1330 Town 23 71 2/1600 Hospital 13 14 2/1700 Hospital 21 18 0/1830 Sunroom 5 7 1/2030 SeedShop 25 4 1 caroline_sleep"
+            }
+        },
+        { //PIERRE THERAPY SCHEDULE
+            "Action": "EditData",
+            "Target": "Characters/schedules/Pierre",
+            "Entries": {
+                "10": "700 SeedShop 10 20 0/830 SeedShop 4 17 2/1700 Hospital 12 14 2/1800 Hospital 19 15 1/1900 SeedShop 37 5 0/2100 SeedShop 20 5 0/2300 SeedShop 24 4 1 pierre_sleep",
+                //Pierre Family Therapy        
+                "22": "700 SeedShop 10 20 0/830 SeedShop 4 17 2/1700 Hospital 20 18 0/1830 Sunroom 6 7 3/2040 SeedShop 24 4 1 pierre_sleep"
+            }
+        },
+        { //CLINT THERAPY SCHEDULE
+            "Action": "EditData",
+            "Target": "Characters/schedules/Clint",
+            "Entries": {
+                "18": "850 Blacksmith 3 13 2/1200 Custom_GreysHome 11 5 2/1500 Custom_GreysHome 2 5 2/1600 Saloon 19 23 3/2400 Blacksmith 10 4 1 clint_sleep"
+            }
+        },
+        { //PENNY THERAPY SCHEDULE
+            "Action": "EditData",
+            "Target": "Characters/schedules/Penny",
+            "Entries": {
+                "7": "900 Trailer 1 8 0/1030 ArchaeologyHouse 16 10 2/1200 Hospital 13 14 2 penny_read/1400 Hospital 20 17 0/1500 Trailer 12 6 0 penny_dishes/2100 Trailer 4 9 1 penny_sleep"
+            }
+        },
+        { //SHANE AA THERAPY SCHEDULE, after 6 Heart Event
+            "Action": "EditData",
+            "Target": "Characters/schedules/Shane",
+            "When": {
+                "HasSeenEvent": 3910975
+            },
+            "Entries": {
+                "9": "850 AnimalShop 24 17 1/1700 Hospital 21 18 0/2000 AnimalShop 27 4 1 shane_sleep",
+                "23": "GOTO 9"
+            }
+        },
+        { //PAM AA THERAPY SCHEDULE
+            "Action": "EditData",
+            "Target": "Characters/schedules/Pam",
+            "When": {
+                "HasSeenEvent": 503180
+            },
+            "Entries": {
+                "9": "800 Trailer 15 4 2 pam_sit_down/1200 JojaMart 6 19 1/1700 Hospital 18 6 2 pam_sit_down/2000 Trailer 15 4 2 pam_sleep",
+                "23": "GOTO 9",
+                "JojaMart_Replacement": "SeedShop 2 24 3"
+            }
+        },
+        { //ABIGAIL FAMILY THERAPY SCHEDULE
+            "Action": "EditData",
+            "Target": "Characters/schedules/Abigail",
+            "When": {
+                "HasSeenEvent": 17
+            },
+            "Entries": {
+                "22": "900 SeedShop 39 5 0/1030 Town 73 54 2/1300 SeedShop 3 6 0 abigail_videogames/1600 Hospital 12 17 2 abigail_sit_down/1700 Hospital 18 15 1/1800 SeedShop 3 6 0 abigail_videogames/2030 SeedShop 1 9 3 abigail_sleep"
+            }
+        },
+        { //ROBIN COUPLES THERAPY SCHEDULE
+            "Action": "EditData",
+            "Target": "Characters/schedules/Robin",
+            "When": {
+                "HasSeenEvent": 25
+            },
+            "Entries": {
+                "3": "930 SeedShop 27 18 0/1300 SeedShop 27 22 2 robin_exercise/1600 SeedShop 24 16 0/1700 Hospital 14 15 2/1800 Hospital 21 17 0/1900 ScienceHouse 16 5 0/2100 ScienceHouse 21 4 1 robin_sleep",
+                //ROBIN FAMILY THERAPY
+                "14": "GOTO 3"
+            }
+        },
+        { //DEMETRIUS COUPLES THERAPY SCHEDULE
+            "Action": "EditData",
+            "Target": "Characters/schedules/Demetrius",
+            "When": {
+                "HasSeenEvent": 25
+            },
+            "Entries": {
+                "3": "750 ScienceHouse 16 19 2 demetrius_read/1100 ScienceHouse 22 20 1 demetrius_notes/1500 ScienceHouse 7 18 1/1540 Hospital 13 14 2 demetrius_read/1800 Hospital 19 18 0/1900 ScienceHouse 19 4 11 demetrius_sleep",
+                //DEMETRIUS FAMILY THERAPY
+                "14": "GOTO 3"
+            }
+        },
+        { //SEBASTIAN FAMILY THERAPY SCHEDULE
+            "Action": "EditData",
+            "Target": "Characters/schedules/Sebastian",
+            "Entries": {
+                "14": "1030 SebastianRoom 9 4 3 sebastian_computer/1500 Hospital 18 8 0/1800 Hospital 18 15 1/1900 ScienceHouse 15 4 2/2130 SebastianRoom 11 9 1 sebastian_sleep"
+            }
+        },
+        { //Sebastian Teletherapy Event
+            "Action": "EditData",
+            "Target": "Data/Events/SebastianRoom",
+            "Entries": {
+                "756842368/p Sebastian/f GreyNPC 750/e 2794460": "continue/7 6/Sebastian 7 6 0/emote Sebastian 12/pause 1500/speak Sebastian \"It's a double standard, and I can't stand it. \"/emote farmer 16/move farmer 0 0 0/pause 1000/playSound doorClose/pause 1000/warp farmer 50 50/pause 1000/speak Sebastian \"Like last winter I made a snowgoon, and Maru wanted to make a snowman.#$b# And then *He* made me take mine down, but Maru's was fine.$2 \"/emote Sebastian 12/speak Sebastian \"It's ridiculous. What's his problem?$5 \"/end"
+            }
+        },
+        { //Maru Teletherapy Event
+            "Action": "EditData",
+            "Target": "Data/Events/ScienceHouse",
+            "Entries": {
+                "354687568/p Maru/f GreyNPC 750/e 6": "continue/6 6/farmer 6 23 0 Maru 8 5 0/pause 3000/speak Maru \"... but he does treat me differently, and it's not fair to Sebastian.$2#$b#...$2#$b#He avoids me because Dad puts me on a pedistal.$2 \"/emote Maru 28/speak Maru \"I think Dad only does it because I'm a girl... And that's not fair.$2#$b#And... he can be really full of himself sometimes.$2#$b#Don't ask him about tomatoes!$1 \"/emote Maru 32/pause 3000/speak Maru \"But... I just want a brother.$2#$b#...$2 \"/emote Maru 28/pause 1000/end"
+            }
+        },
+        { //Sam Teletherapy Event
+            "Action": "EditData",
+            "Target": "Data/Events/SamHouse",
+            "Entries": {
+                "354687568/f Sam 750/p Sam/e 44": "continue/21 17/Sam 21 17 1/pause 1500/speak Sam \"Vincent asked about Dad again.$5#$b#... It's hard sometimes.$5 \"/emote Sam 28/speak GreyNPC \"Do you talk to anyone about it? \"/speak Sam \"Yeah... Sebastian helps.$2#$b#He's having issues too, with Maru's dad.$2#$b#And Penny has trouble with her mom too.$10#$b#We've talked a few times. It helps.$5#$b#But at the end of the day we're just kids, you know?$2#$b#...$2#$b#It's alot sometimes.$5 \"/emote Sam 28/end"
+            }
+        },
+        { //JODI THERAPY SCHEDULE, after 2 hearts total
+            "Action": "EditData",
+            "Target": "Characters/schedules/Jodi",
+            "Entries": {
+                "5_2": "800 SamHouse 6 5 0 jodi_dishes/940 SamHouse 5 5 0/1000 SamHouse 7 5 0/1020 SamHouse 4 5 0/1040 SamHouse 6 5 0 jodi_dishes/1100 Custom_GreysHome 10 5 2/1300 Custom_GreysHome 2 5 2/1400 SamHouse 7 5 0/1930 SamHouse 5 7 3/2100 SamHouse 10 22 3/2200 SamHouse 22 5 1 jodi_sleep"
+            }
+        },
+        { //MARNIE THERAPY SCHEDULE
+            "Action": "EditData",
+            "Target": "Characters/schedules/Marnie",
+            "Entries": {
+                "1": "850 Custom_GreysHome 10 6 1/1000 Custom_GreysHome 2 5 2/1100 AnimalShop 24 15 0/2100 AnimalShop 12 5 3 marnie_sleep"
+            }
+        },
+        { //ELLIOTT THERAPY SCHEDULE
+            "Action": "EditData",
+            "Target": "Characters/schedules/Elliott",
+            "Entries": {
+                "winter_22": "800 ElliottHouse 1 5 0/1000 ElliottHouse 6 4 0/1100 ElliottHouse 1 5 0/1300 Hospital 12 14 2/1500 Hospital 20 17 0/1500 ElliottHouse 7 7 2/2100 ElliottHouse 1 5 0/2400 ElliottHouse 13 4 1 elliott_sleep"
+            }
+        },
+        { //EMILY THERAPY SCHEDULE
+            "Action": "EditData",
+            "Target": "Characters/schedules/Emily",
+            "Entries": {
+                "summer_3": "900 HaleyHouse 16 5 2/1130 Hospital 12 14 2/1300 Hospital 20 18 0/1400 Saloon 15 17 0 square_5_1_0/2430 HaleyHouse 21 4 1 emily_sleep"
+            }
+        },
+        { //HALEY THERAPY SCHEDULE
+            "Action": "EditData",
+            "Target": "Characters/schedules/Haley",
+            "Entries": {
+                "fall_2": "900 HaleyHouse 6 5 0/950 HaleyHouse 8 7 1/1100 Custom_GreysHome 10 5 2/1300 Custom_GreysHome 2 5 2/1400 Forest 34 25 2 haley_photo/1630 HaleyHouse 19 16 0 square_5_1_0/2000 HaleyHouse 5 7 0 square_5_5/2230 HaleyHouse 1 5 3 haley_sleep"
+            }
+        },
+        { //Haley&Emily Teletherapy Event
+            "Action": "EditData",
+            "Target": "Data/Events/HaleyHouse",
+            "Entries": {
+                "354687568/p Haley/p Emily/f GreyNPC 750/e 11/e 471942": "continue/5 17/farmer 50 50 0 Haley 2 16 3 Emily 3 17 3/pause 1500/emote Haley 12/speak Haley \"... and you're always locked up in your room, eating stuff you found in the forest!$5 \"/emote Emily 28/speak GreyNPC \"Haley, look at me, not your sister.#$b#What Emily does in her free-time is her business. We need to not dictate what others do.\"/emote Haley 40/pause 1000/speak Haley \"I just don't get it.$3 \"/speak GreyNPC \"Let's try that. When you're talking to eachother about stuff, don't say 'you' say 'I'.#$b#I don't like it when... Fill in the blank. \"/emote Emily 28/speak Emily \"Haley...$2#$b#I don't like it when people yell at me.$2 \"/pause 500/emote Haley 40/pause 500/speak Haley \"...$12#$b#I'm sorry Emily...$2 \"/emote Emily 20/emote Haley 20/end"
+            }
+        },
+        { //DUSTY THERAPY SCHEDULE
+            "Action": "EditData",
+            "Target": "Characters/schedules/Dusty",
+            "When": {
+                "HasSeenEvent": 2481135
+            },
+            "Entries": {
+                "4": "800 Town 58 64 2/820 Custom_GreysHome 12 5 2/1100 Custom_GreysHome 4 4 2/1200 Town 53 68 2/1840 Town 87 100 2/2000 Town 51 87 0/2200 Town 53 68 2",
+                "18": "GOTO 4"
+            }
+        },
+        //Updated Hospital Death Location
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Hospital",
+            "Entries": {
+                "PlayerKilled": "none/-100 -100/farmer 14 6 2 Harvey 15 6 3/pause 1500/showFrame 5/message \" ...{0}?\"/pause 1000/message \"Easy, now... take it slow.\"/viewport 14 6 true/pause 1000/speak Harvey \"Someone found you unconscious and battered... I had to perform an emergency surgery on you!#$b#Be a little more careful next time, okay?$s\"/showFrame 0/pause 1000/emote farmer 28/hospitaldeath/end position 14 6"
+            }
+        },
+        { //CC_ SHANE AA THERAPY SCHEDULE, after 6 Heart Event
+            "Action": "EditData",
+            "Target": "Characters/schedules/Shane",
+            "When": {
+                "HasSeenEvent": 3910975,
+                "HasSeenEvent |contains=191393": true
+            },
+            "Entries": {
+                "9": "850 AnimalShop 24 17 1/1430 CommunityCenter 7 10 0/2000 AnimalShop 27 4 1 shane_sleep",
+                "23": "GOTO 9"
+            }
+        },
+        { //CC_ Pam AA THERAPY SCHEDULE
+            "Action": "EditData",
+            "Target": "Characters/schedules/Pam",
+            "When": {
+                "HasSeenEvent": 503180,
+                "HasSeenEvent |contains=191393": true
+            },
+            "Entries": {
+                "9": "800 Trailer 15 4 2 pam_sit_down/1200 JojaMart 6 19 1/1700 CommunityCenter 6 7 2/2000 Trailer 15 4 2 pam_sleep",
+                "23": "GOTO 9"
+            }
+        },
+        { //Penny&Pam Event
+            "Action": "EditData",
+            "Target": "Data/Events/BusStop",
+            "Entries": {
+                "56489721/p Pam/f GreyNPC 500/e 503180/e 191393": "continue/22 14/Pam 21 11 2 Penny 20 11 2/pause 3000/speak Pam \"Penny I really think it's helping...$2#$b#I still mess up sometimes, but... It's just nice to talk to people.$2 \"/emote Penny 20/speak Penny \" I'm glad, Mom.$3 \"/emote Pam 32/speak Pam \"And um...$2#$b#It would mean a lot to me if you came too...$2#$b#Just to listen...$2#$b# Or talk...$2#$b#But only if you want.$2 \"/move Pam 0 0 1/pause 3000/emote Penny 40/speak Penny \"I think I'd like that.$4 \"/move Pam 0 0 3/emote Pam 20/pause 3000/end"
+            }
+        },
+        { //Penny goes to AA THERAPY SCHEDULE
+            "Action": "EditData",
+            "Target": "Characters/schedules/Penny",
+            "When": {
+                "HasSeenEvent": 56489721
+            },
+            "Entries": {
+                "9": "830 Trailer 6 5 0/900 ArchaeologyHouse 17 9 2 penny_read/1400 Town 88 100 2/1620 Town 17 90 3 penny_wave_left/1700 CommunityCenter 4 7 2/2000 Trailer 4 9 1 penny_sleep",
+                "9_6": "GOTO 9"
+            }
+        },
+        { //Marnie goes to AA Therapy Schedule
+            "Action": "EditData",
+            "Target": "Characters/schedules/Marnie",
+            "When": {
+                "HasSeenEvent": 3910975,
+                "HasSeenEvent |contains=191393": true,
+                "HasSeenEvent |contains=3910974": true
+            },
+            "Entries": {
+                "23": "900 AnimalShop 17 5 0/1000 SeedShop 23 16 2/1300 SeedShop 28 17 2 marnie_exercise/1600 CommunityCenter 4 10 0/2000 AnimalShop 12 5 3 marnie_sleep"
+            }
+        }
+    ],
+    //NEW LOCATIONS
+    "CustomLocations": [
+        {
+            "Name": "Custom_GreysHome",
+            "FromMapFile": "assets/Maps/GreysHome.tmx"
+        }
+    ]
+}
+
+// For making Shane a Shopkeeper, update his "Default" schedule.
+// This should make him work Mon-Fri. Marnie will work with animals more often, or do half days or something.
+// "HasSeenEvent": Community Center Complete, 6 Heart Event, & Marnie AA Event.

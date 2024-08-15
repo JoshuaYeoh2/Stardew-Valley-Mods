@@ -1,0 +1,108 @@
+ {
+  "Changes": [
+  
+///events//
+ //Jelliintroduction///
+       {
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_SeaCavernDepths2",
+	"Update": "OnLocationChange",
+      "When": {
+     "EssenceComplete": true,
+       "HasActiveQuest |contains=CapeQuestA": false,
+       },
+      "Entries": {
+    "146353398": "moonlightJellies/-1000 -1000/farmer 17 2 2 Jelli 17 28 1/swimming Jelli/skippable/globalFade/viewport 17 20 true unfreeze/playSound slosh/move farmer 0 15 2/pause 500/playSound slosh/pause 2000/viewport 17 17/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/speed Jelli 5/move Jelli 0 -3 0/speed Jelli 5/move Jelli 3 0 1/playSound slosh/pause 500/playSound slosh/speed Jelli 5/move Jelli 0 3 2/pause 1000/move Jelli -2 0 3/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/speed Jelli 4/move Jelli 0 -8 0/move Jelli -1 0 0/pause 200/stopSwimming Jelli/emote farmer 16/speak Jelli \"{{i18n:Jelli.Event.Dialogue1}}\"/pause 1000/speak Jelli \"{{i18n:Jelli.Event.Dialogue2}}\"/pause 1500/speak Jelli \"{{i18n:Jelli.Event.Dialogue3}}\"/pause 1000/emote farmer 16/speak Jelli \"{{i18n:Jelli.Event.Dialogue4}}\"/emote farmer 8/question fork0 \"#{{i18n:Jelli.Question.001}}#{{i18n:Jelli.Question.002}}\"/pause 200/fork JelliQ01/pause 300/speak Jelli \"{{i18n:Jelli.Response.001}}\"/pause 2000/speak Jelli \"{{i18n:Jelli.Event.Dialogue5}}\"/pause 200/addMailReceived Jelliwarp/playSound objectiveComplete/addTemporaryActor JelliSpell1 18 18 17 18 2 false/animate JelliSpell1 false true 100 0 1 2 3 4 5 6/pause 1300/playSound wand/screenFlash 1/warp Jelli -200 -200/warp farmer -140 -140/warp JelliSpell1 -100 -100/changeToTemporaryMap Custom_CapeCaveWarp/viewport 5 6 true unfreeze/pause 3000/globalFade/viewport -1000 -1000/end",
+    
+    
+    "JelliQ01": "speak Jelli \"{{i18n:Jelli.Response.002}}\"/pause 1000/speak Jelli \"{{i18n:Jelli.Event.Dialogue5}}\"/pause 200/addMailReceived Jelliwarp/playSound objectiveComplete/addTemporaryActor JelliSpell1 18 18 17 18 2 false/animate JelliSpell1 false true 100 0 1 2 3 4 5 6/pause 1300/playSound wand/screenFlash 1/warp Jelli -200 -200/warp farmer -140 -140/warp JelliSpell1 -100 -100/changeToTemporaryMap Custom_CapeCaveWarp/viewport 5 6 true unfreeze/pause 3000/globalFade/viewport -1000 -1000/end",
+   }
+   },
+   
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_SeaCavernDepths2",
+      "When": {
+     "EssenceComplete": true,
+      "HasActiveQuest |contains=CapeQuestA": true,
+      },
+      "Entries": {
+    "14635339a": "moonlightJellies/-1000 -1000/farmer 17 2 2 Jelli 17 28 1/swimming Jelli/skippable/globalFade/viewport 17 20 true unfreeze/playSound slosh/move farmer 0 15 2/pause 500/playSound slosh/pause 2000/viewport 17 17/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/viewport move 0 2 1000/speed Jelli 5/move Jelli 0 -3 0/speed Jelli 5/move Jelli 3 0 1/playSound slosh/pause 500/playSound slosh/speed Jelli 5/move Jelli 0 3 2/pause 1000/move Jelli -2 0 3/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/viewport move 0 -2 1000/speed Jelli 4/move Jelli 0 -8 0/move Jelli -1 0 0/pause 200/stopSwimming Jelli/emote farmer 16/speak Jelli \"{{i18n:Jelli.Event.Dialogue1}}\"/pause 1000/speak Jelli \"{{i18n:Jelli.Event.Dialogue2}}\"/pause 1500/speak Jelli \"{{i18n:Jelli.Event.Dialogue3}}\"/pause 1000/emote farmer 16/speak Jelli \"{{i18n:Jelli.Event.Dialogue4}}\"/emote farmer 8/question fork0 \"#{{i18n:Jelli.Question.001}}#{{i18n:Jelli.Question.002}}\"/pause 200/fork JelliQ01/pause 300/speak Jelli \"{{i18n:Jelli.Response.001}}\"/pause 2000/speak Jelli \"{{i18n:Jelli.Event.Dialogue5}}\"/pause 200/addMailReceived Jelliwarp/playSound objectiveComplete/addTemporaryActor JelliSpell1 18 18 17 18 2 false/animate JelliSpell1 false true 100 0 1 2 3 4 5 6/pause 1300/playSound wand/screenFlash 1/warp Jelli -200 -200/warp farmer -140 -140/warp JelliSpell1 -100 -100/removeQuest CapeQuestA/changeToTemporaryMap Custom_CapeCaveWarp/viewport 5 6 true unfreeze/pause 3000/globalFade/viewport -1000 -1000/end",
+    
+    
+    "JelliQ01": "speak Jelli \"{{i18n:Jelli.Response.002}}\"/pause 1000/speak Jelli \"{{i18n:Jelli.Event.Dialogue5}}\"/pause 200/addMailReceived Jelliwarp/playSound objectiveComplete/addTemporaryActor JelliSpell1 18 18 17 18 2 false/animate JelliSpell1 false true 100 0 1 2 3 4 5 6/pause 1300/playSound wand/screenFlash 1/warp Jelli -200 -200/warp farmer -140 -140/warp JelliSpell1 -100 -100/removeQuest CapeQuestA/changeToTemporaryMap Custom_CapeCaveWarp/viewport 5 6 true unfreeze/pause 3000/globalFade/viewport -1000 -1000/end",
+   }
+   },
+ 
+   
+  ///JelliquestsMonsters//////
+
+{
+  "Action": "EditData",
+  "Target": "Data/Events/Custom_SeaCavernDepths2",
+"When": {
+	"HasSeenEvent |contains=14635741": false,
+	"HasActiveQuest |contains=JQuestA": false,		
+	"HasActiveQuest |contains=JQuestB": false,
+	"HasActiveQuest |contains=JQuestC": false,
+	"HasActiveQuest |contains=JQuestD": false,
+	"JWarp": true,
+},
+  "Entries": {
+    "146350031/e 146353398/k JQuest1": "none/-1000 -1000/farmer 17 2 2 Jelli 17 28 1/swimming Jelli/skippable/globalFade/viewport 17 20 true unfreeze/playSound slosh/move farmer 0 15 2/pause 300/playSound slosh/pause 600/viewport 17 17/speed Jelli 5/move Jelli 0 -3 0/move Jelli 3 0 1/playSound slosh/playSound slosh/speed Jelli 5/move Jelli 0 3 2/move Jelli -2 0 3/speed Jelli 4/move Jelli 0 -8 0/move Jelli -1 0 0/pause 200/stopSwimming Jelli/emote farmer 16/emote farmer 16/question fork0 \"{{i18n:Dialogue.QuestionEvent_Jelli}}#{{i18n:Dialogue.QuestionFork_Response1}}#{{i18n:Dialogue.QuestionFork_Response2}}\"/pause 200/fork JQuest1/pause 300/speak Jelli \"{{i18n:Dialogue.Jelli_quest1}}\"/pause 3000/globalFade/viewport -1000 -1000/end",
+    "JQuest1": "speak Jelli \"{{i18n:Dialogue.Jelli_quest2}}\"/pause 1000/addQuest JQuestC/addQuest JQuestA/pause 1000/end"
+  }
+},
+
+{
+	"Action": "EditData",
+	"Target": "Data/Events/Custom_SeaCavernDepths2",
+	"When": {
+	"HasSeenEvent |contains=14635741": false,
+        "HasActiveQuest |contains=JQuestA": false,		
+	"HasActiveQuest |contains=JQuestB": false,
+	"HasActiveQuest |contains=JQuestC": false,
+	"HasActiveQuest |contains=JQuestD": false,
+	"JWarp": true,
+},
+
+	"Entries":  {
+    "146357001/e 14635339a/k JQuest1": "none/-1000 -1000/farmer 17 2 2 Jelli 17 28 1/swimming Jelli/skippable/globalFade/viewport 17 20 true unfreeze/playSound slosh/move farmer 0 15 2/pause 300/playSound slosh/pause 600/viewport 17 17/speed Jelli 5/move Jelli 0 -3 0/move Jelli 3 0 1/playSound slosh/playSound slosh/speed Jelli 5/move Jelli 0 3 2/move Jelli -2 0 3/speed Jelli 4/move Jelli 0 -8 0/move Jelli -1 0 0/pause 200/stopSwimming Jelli/emote farmer 16/emote farmer 16/question fork0 \"{{i18n:Dialogue.QuestionEvent_Jelli}}#{{i18n:Dialogue.QuestionFork_Response1}}#{{i18n:Dialogue.QuestionFork_Response2}}\"/pause 200/fork JQuest1/pause 300/speak Jelli \"{{i18n:Dialogue.Jelli_quest1}}\"/pause 3000/globalFade/viewport -1000 -1000/end",
+    "JQuest1": "speak Jelli \"{{i18n:Dialogue.Jelli_quest2}}\"/pause 1000/addQuest JQuestC/addQuest JQuestA/pause 1000/end"
+  }
+},
+
+//monsterreturnevent//
+
+{
+  "Action": "EditData",
+  "Target": "Data/Events/Custom_SeaCavernDepths2",
+"Update": "OnLocationChange",
+  "Entries": {
+    "14635741/gameStateQuery {{HasActiveQuest |contains=JQuestD}}": "XOR/-1000 -1000/farmer 17 2 2 Jelli 17 28 1/swimming Jelli/skippable/globalFade/viewport 17 20 true freeze/playSound slosh/speed farmer 4/move farmer 0 15 2/pause 500/playSound slosh/pause 2000/viewport 17 20/speed Jelli 5/move Jelli 0 -3 0/speed Jelli 6/move Jelli 3 0 1/playSound slosh/playSound slosh/move Jelli 0 3 2/move Jelli -2 0 3/move Jelli 0 -8 0/move Jelli -1 0 0/pause 100/speed farmer 3/stopSwimming Jelli/speak Jelli \"{{i18n:Dialogue.Jelli_quest3}}\"/addMailReceived seaCombat1/pause 20/speak Jelli \"{{i18n:Dialogue.Jelli_quest4}}\"/pause 10/removeQuest JQuestD/pause 10/money 1000/pause 3000/globalFade/viewport -1000 -1000/end",
+  }
+},
+///LunarCrystalShardEvent///
+{
+  "Action": "EditData",
+  "Target": "Data/Events/Custom_SeaCavernDepths2",
+"Update": "OnLocationChange",
+  "When": {
+"HasVisitedLocation": "Custom_SeaCavernDepths6",
+  },
+  "Entries": {
+    "14635852/i Cape.LunarCrystalShard/k JQuest3/gameStateQuery {{HasActiveQuest |contains=JQuestB}}": "XOR/-1000 -1000/farmer 17 2 2 Jelli 17 28 1/swimming Jelli/skippable/globalFade/viewport 17 20 true freeze/playSound slosh/speed farmer 6/move farmer 0 15 2/pause 500/playSound slosh/pause 2000/viewport 17 20/speed Jelli 5/move Jelli 0 -3 0/speed Jelli 4/move Jelli 3 0 1/playSound slosh/playSound slosh/speed Jelli 6/move Jelli 0 3 2/move Jelli -2 0 3/speed Jelli 4/move Jelli 0 -8 0/move Jelli -1 0 0/pause 100/stopSwimming Jelli/speed farmer 3/question fork0 \"{{i18n:Dialogue.QuestionEvent2_Jelli}}#{{i18n:Dialogue.QuestionFork2_Response1}}#{{i18n:Dialogue.QuestionFork2_Response2}}\"/pause 200/pause 1000/fork JQuest2/pause 300/speak Jelli \"{{i18n:Dialogue.Jelli2_quest1}}\"/removeQuest JQuestB/pause 100/removeQuest CapeQuestA/pause 3000/globalFade/viewport -1000 -1000/end",
+    "JQuest2": "speak Jelli \"{{i18n:Dialogue.Jelli2_quest2}}\"/pause 1000/question fork1 \"{{i18n:Dialogue.QuestionEvent2_Jelli2}}#{{i18n:Dialogue.QuestionFork3_Response1}}#{{i18n:Dialogue.QuestionFork3_Response2}}\"/pause 1000/fork JQuest3/pause 300/speak Jelli \"{{i18n:Dialogue.Jelli_endquest}}\"/globalFade/viewport -1000 -1000/end",
+    "JQuest3": "stopMusic/playMusic poppy/speak Jelli \"{{i18n:Dialogue.Jelli_Lunar}}\"/removeItem (O)Cape.LunarCrystalShard/pause 100/mail prettyStone1/pause 10/removeQuest JQuestB/pause 10/removeQuest CapeQuestA/pause 10/removeQuest JQuestD/pause 1000/globalFade/viewport -1000 -1000/end",
+    
+  }
+  },
+
+
+  
+  
+
+
+   
+  ]
+}

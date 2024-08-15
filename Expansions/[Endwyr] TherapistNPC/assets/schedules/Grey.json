@@ -1,0 +1,34 @@
+{
+	"Changes": [
+		{
+			"LogName": "Grey's Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/GreyNPC",
+			"Entries": {
+				"1": "900 Custom_GreysHome 2 8 0/1130 Hospital 21 15 2/1610 Hospital 21 15 1/1630 Custom_GreysHome 27 4 0/2300 Custom_GreysHome 33 4 2",
+				"3": "900 Custom_GreysHome 2 8 0/1030 Hospital 21 15 2/1920 Custom_GreysHome 19 10 0/2300 Custom_GreysHome 33 4 2",
+				"4": "1000 Custom_GreysHome 2 8 0/2040 Custom_GreysHome 18 10 0/2400 Custom_GreysHome 33 4 2",
+				"5": "GOTO 4",
+				"7": "900 Custom_GreysHome 2 8 0/1100 Hospital 21 15 2/1510 Hospital 21 15 1/1530 Custom_GreysHome 27 4 0/2300 Custom_GreysHome 33 4 2",
+				"9": "900 Custom_GreysHome 2 8 0/1100 CommunityCenter 1 8 1/2030 Custom_GreysHome 33 4 2", //AA @ CommCenter. "Default" if CC Not unlocked
+				"10": "900 Custom_GreysHome 2 8 0/1500 Hospital 21 15 3/1910 Hospital 21 15 1/1930 Custom_GreysHome 33 4 2",
+				"14": "GOTO 3",
+				"18": "GOTO 4",
+				"22": "900 Custom_GreysHome 2 8 0/1400 Hospital 21 15 2/1840 Custom_GreysHome 33 4 2",
+				"23": "GOTO 9",
+				"fall_2": "GOTO 4",
+				"winter_22": "900 Custom_GreysHome 2 8 0/1200 Hospital 21 15 2/1830 Custom_GreysHome 33 4 2",
+				"fri": "700 Custom_GreysHome 19 10 0/730 Custom_GreysHome 18 5 2/1010 Custom_GreysHome 15 7 0/1100 Forest 112 19 0/1130 Forest 48 29 3/1300 Town 33 79 0/1800 Saloon 43 21 2/2400 Custom_GreysHome 33 4 2",
+				"spring": "730 SeedShop 14 20 2/1100 Mountain 29 10 0/1700 Custom_GreysHome 33 4 2",
+				"summer": "730 SeedShop 14 20 2/1100 Custom_GreysHome 24 4 0/1400 Forest 94 34 2/1500 Beach 49 24 2/1900 Custom_GreysHome 33 4 2",
+				"fall": "730 SeedShop 14 20 2/1100 BathHouse_MensLocker 7 7 3/1900 Custom_GreysHome 33 4 2",
+				"winter": "730 SeedShop 14 20 2/1100 Custom_GreysHome 24 4 0/1400 Saloon 40 17 2/2400 Custom_GreysHome 33 4 2",
+				//"rain": "X",
+				//"rain2: "X",
+				"GreenRain": "900 Custom_GreysHome 2 8 0",
+				"Default": "1100 Custom_GreysHome 2 8 0/2010 Custom_GreysHome 33 4 2"
+				//Days off: 6, 8, 11-13, 15-17, 19-21, & 24-28
+			}
+		}
+	]
+}

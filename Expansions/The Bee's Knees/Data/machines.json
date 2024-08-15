@@ -1,0 +1,139 @@
+{
+    "Changes": [
+
+{
+    "LogName": "Honey Eggs",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)158", "OutputRules"],
+    "When": {"Atelier.Cauldron/ConfigValue:FaerieGarden": "True"},
+    "Entries": {
+        "wildflour.honeybees_slimeeggpress_honeyegg": {
+            "Id": "wildflour.honeybees_slimeeggpress_honeyegg",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)340",
+                    "RequiredCount": 15
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.honeybees_honeyegg",
+                    "ItemId": "(O)wildflour.honeybees_honeyegg",
+                    "MinStack": 1,
+                    "MaxStack": 1
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "wildflour.honeybees_slimeeggpress_void_honeyegg": {
+            "Id": "wildflour.honeybees_slimeeggpress_void_honeyegg",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)769",
+                    "RequiredCount": 50
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.honeybees_void_honeyegg",
+                    "ItemId": "(O)wildflour.honeybees_void_honeyegg",
+                    "MinStack": 1,
+                    "MaxStack": 1
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "wildflour.honeybees_slimeeggpress_golden_honeyegg": {
+            "Id": "wildflour.honeybees_slimeeggpress_golden_honeyegg",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)768",
+                    "RequiredCount": 25
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.honeybees_golden_honeyegg",
+                    "ItemId": "(O)wildflour.honeybees_golden_honeyegg",
+                    "MinStack": 1,
+                    "MaxStack": 1
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "wildflour.honeybees_slimeeggpress_faerie_honeyegg": {
+            "Id": "wildflour.honeybees_slimeeggpress_faerie_honeyegg",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)595",
+                    "RequiredCount": 25
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.honeybees_faerie_honeyegg",
+                    "ItemId": "(O)wildflour.honeybees_faerie_honeyegg",
+                    "MinStack": 1,
+                    "MaxStack": 1
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "wildflour.honeybees_slimeeggpress_sugar_honeyegg": {
+            "Id": "wildflour.honeybees_slimeeggpress_sugar_honeyegg",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)221",
+                    "RequiredCount": 10
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.honeybees_sugar_honeyegg",
+                    "ItemId": "(O)wildflour.honeybees_sugar_honeyegg",
+                    "MinStack": 1,
+                    "MaxStack": 1
+                }
+            ],
+            "MinutesUntilReady": 20
+        }
+    }
+},
+   
+{
+    "LogName": "Honey Eggs",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)158", "OutputRules"],
+    "When": {"Atelier.Cauldron/ConfigValue:FaerieGarden": "False"},
+    "Entries": {
+        "wildflour.honeybees_slimeeggpress_honeyegg": {
+            "Id": "wildflour.honeybees_slimeeggpress_honeyegg",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)340",
+                    "RequiredCount": 15
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.honeybees_honeyegg",
+                    "ItemId": "(O)wildflour.honeybees_honeyegg",
+                    "MinStack": 1,
+                    "MaxStack": 1
+                }
+            ],
+            "MinutesUntilReady": 20
+        }
+    }
+}
+   
+]
+}

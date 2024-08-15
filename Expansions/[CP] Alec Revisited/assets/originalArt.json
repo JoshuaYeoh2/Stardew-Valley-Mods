@@ -1,0 +1,38 @@
+{
+    "Changes": [
+        {
+            "LogName": "Original Sprites",
+            "Action": "Load",
+            "Target": "Characters/SPB_Alec",
+            "FromFile": "assets/sprites/original/{{BeardVariant}}/alec.png"
+        },
+        {
+            "LogName": "Original Portraits",
+            "Action": "Load",
+            "Target": "Portraits/SPB_Alec",
+            "FromFile": "assets/portraits/original/{{BeardVariant}}/{{HairVariant}}/alec.png"
+        },
+        {
+            "LogName": "Original Beach Sprites",
+            "Action": "Load",
+            "Target": "Characters/SPB_Alec_Beach",
+            "FromFile": "assets/sprites/original/{{BeardVariant}}/beach_alec.png"
+        },
+        {
+            "LogName": "Original Beach Portraits",
+            "Action": "Load",
+            "Target": "Portraits/SPB_Alec_Beach",
+            "FromFile": "assets/portraits/original/{{BeardVariant}}/{{HairVariant}}/beach_alec.png"
+        },
+        {
+            "LogName": "NPC Map Locations Sprite Offsets",
+            "Action": "EditData",
+            "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+            "Entries": {
+                "SPB_Alec": {
+                    "MarkerCropOffset": 0
+                }
+            }
+        }
+    ]
+}

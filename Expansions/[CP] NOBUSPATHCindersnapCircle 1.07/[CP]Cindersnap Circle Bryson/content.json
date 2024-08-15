@@ -1,0 +1,372 @@
+
+{
+	"Format": "1.24.0",
+	"Changes": [
+		// ADDS BRYSON TO THE GAME
+		{
+
+			"LogName": "NPC Manifestation",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Entries": {
+
+				"Bryson": "<adult/rude/outgoing/neutral/male/datable/Milo/Town/fall 14/Milo/Custom_Milo_MiloHouse 27 5/Bryson",
+
+			},
+		},
+
+		{
+
+			"LogName": "NPC Gift Tastes",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"Bryson": "Yoo this is a dope gift!/70 400 215 394 428 221/Ayo how did you even get this!/ 440 82 66 156 227 60 395/This is for me? Pfft./346 330 206 233 248/Get this out my face./348 167 194 195 398/That was very thoughtful of you./-4/ ", //last line is for birthday gifts keep it simple.
+
+			},
+		},
+
+		{
+
+			"LogName": "Animations",
+			"Action": "EditData",
+			"Target": "Data/animationDescriptions",
+			"Entries": {
+				"sketching": "0/16 16 16 16 16 16 17 17 17 17 17 17 18 18 18 18 18 18 19 19 19 19 19 19 19 18 18 18 18 18 18 18 17 17 17 17 17 17 17 16 16 16 16 16/0",
+				"texting": "0/20 20 20 20 20 20 20 21 21 21 21 21 21 21 21 21 21 22 22 22 22 22 22 22 22 22 21 21 21 21 21 21 21 21 21 20 20 20 20 20 20 20 20/0",
+				"lay": "12/23/12",
+				"sewing": "1/24 24 24 24 24 24 24 24 24 25 25 25 25 25 25 25 26 26 26 26 26 26 26 26 26 26 27 27 27 27 27 27 26 26 26 26 26 26 26 26 26 26 25 25 25 25 25 25 25 25 24 24 24 24 24 24/1",
+
+			},
+		},
+
+		// BRYSON SPOUSE ROOM
+
+		{
+            "Action": "EditData",
+            "Target": "Data/SpouseRooms",
+            "Entries": {
+                "Bryson": "K80Chimaera_Bryson_SpouseRoom/0"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/K80Chimaera_Bryson_SpouseRoom",
+            "FromFile": "assets/SpouseRoomBryson.tmx"
+        },
+
+
+
+		// BRYSON DIALOGUES
+
+		{
+
+            "LogName": "Marriage Dialogue",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/MarriageDialogueBryson",
+            "FromFile": "assets/Dialogue/MarriageDialogue.json",
+
+        },
+
+		{
+
+			"LogName": "Engagement Dialogue",
+			"Action": "EditData",
+			"Target": "Data/EngagementDialogue",
+			"Entries": {
+				"<Bryson0>": "   ", //If you named your NPC "Stennis" it would look like "Stennis0"  this is dialogue your NPC says while waiting to be married.
+				"<Bryson1>": "   ", //These two dialogue points are all you need as after this dialogue you will be married the next day
+			},
+		},
+
+		{
+
+			"LogName": "Schedule Dialogue",
+			"Action": "Load",
+			"Target": "Strings/schedules/Bryson",
+			"FromFile": "assets/Schedule/ScheduleDialogue.json",
+
+		},
+
+
+		{
+
+			"LogName": "Schedule",
+			"Action": "Load",
+			"Target": "Characters/schedules/Bryson",
+			"FromFile": "assets/Schedule/Schedule.json",
+
+		},
+
+		{
+
+			"LogName": "Bryson Portraits",
+			"Action": "Load",
+			"Target": "Portraits/Bryson",
+			"FromFile": "assets/Image/Bryson_portraits.png",
+
+		},
+
+		{
+
+			"LogName": "Bryson Sprites",
+			"Action": "Load",
+			"Target": "Characters/Bryson",
+			"FromFile": "assets/Image/Bryson_Sprites.png",
+
+		},
+
+		{
+
+            "LogName": "Dialogue",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Bryson",
+            "FromFile": "assets/Dialogue/Dialogue.json",
+
+        },
+
+
+
+			{
+
+            "LogName": "RandomDialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Bryson",
+            "Entries": {
+				"spring_Mon": "{{i18n: BrysonSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_Tue": "{{i18n: BrysonSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_Wed": "{{i18n: BrysonSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_Thu": "{{i18n: BrysonSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_Fri": "{{i18n: BrysonSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_Sat": "{{i18n: BrysonSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_Sun": "{{i18n: BrysonSpringRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13}}}}",
+                "spring_13": "I hate the egg festival.$2#$b#Eggs are nasty and stinky.$5",
+                "spring_23": "I dont even know why I go to the flowerd dance. I never have a date.$5",
+                "summer_Mon": "{{i18n: BrysonSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_Tue": "{{i18n: BrysonSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_Wed": "{{i18n: BrysonSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_Thu": "{{i18n: BrysonSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_Fri": "{{i18n: BrysonSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_Sat": "{{i18n: BrysonSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_Sun": "{{i18n: BrysonSummerRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "summer_11": "Milo drags me out of my room for the luau every year!$5#$b#The soup always smells gross.$5",
+                "summer_28": "I guess the jellyfish are pretty cool, but I wish they had food at the festival.$2",
+                "fall_Mon": "{{i18n: BrysonFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "fall_Tue": "{{i18n: BrysonFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "fall_Wed": "{{i18n: BrysonFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "fall_Thu": "{{i18n: BrysonFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "fall_Fri": "{{i18n: BrysonFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "fall_Sat": "{{i18n: BrysonFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "fall_Sun": "{{i18n: BrysonFallRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11}}}}",
+                "fall_15": "Hope you're ready for the fair tomorrow!$1",
+                "fall_26": "The haunted maze is pretty dope! Save time to check it out tomorrow.$1",
+                "winter_Mon": "{{i18n: BrysonWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_Tue": "{{i18n: BrysonWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_Thu": "{{i18n: BrysonWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_Fri": "{{i18n: BrysonWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_Sat": "{{i18n: BrysonWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_Sun": "{{i18n: BrysonWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+                "winter_Wed": "{{i18n: BrysonWinterRandom{{Random: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12}}}}",
+				"winter_7": "I don't want to go to that stupid ice festival at all! Milo always makes me go!$5",
+                "winter_15": "*Yawn*$0#$b#Sorry just really bored.$3",
+                "winter_16": "I don't know why Im here$9",
+                "winter_17": "I'm so glad this is the last day of the night market$1",
+                "winter_24": "I'm hoping for a new sewing machine this year!$1",
+				"spring_Sat2": "{{i18n: BrysonTwoHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "spring_Sat4": "{{i18n: BrysonFourHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "spring_Sat6": "{{i18n: BrysonSixHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "spring_Sat8": "{{i18n: BrysonEightHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "summer_Tue2": "{{i18n: BrysonTwoHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "summer_Tue4": "{{i18n: BrysonFourHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "summer_Tue8": "{{i18n: BrysonSixHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "summer_Tue8": "{{i18n: BrysonEightHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "fall_Wed2": "{{i18n: BrysonTwoHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "fall_Wed4": "{{i18n: BrysonFourHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "fall_Wed6": "{{i18n: BrysonSixHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "fall_Wed8": "{{i18n: BrysonEightHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "winter_Sun2": "{{i18n: BrysonTwoHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "winter_Sun4": "{{i18n: BrysonFourHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "winter_Sun6": "{{i18n: BrysonSixHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+		        "winter_Sun8": "{{i18n: BrysonEightHeartRandom{{Random: 01, 02, 03, 04, 05, 06}}}}",
+
+            },
+
+		},
+
+
+ 	// FESTIVAL DIALOGUES
+
+        {
+			"LogName": "EggFestivalDialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"Entries": {
+				"Bryson": "Where does the mayor get these eggs? They're gross!$3",
+			}
+		},
+		{
+			"LogName": "FlowerFestivalDialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": {
+				"Bryson": "The flower dance is so lame if you don't have a partner.$2",
+			}
+		},
+		{
+			"LogName": "LuauDialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"Entries": {
+				"Bryson": "You couldn't pay me to eat that soup!$3",
+			}
+		},
+		{
+			"LogName": "MoonlightJelliesDialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"Entries": {
+				"Bryson": "I wish we could catch them and keep them as pets.$2",
+			}
+		},
+		{
+			"LogName": "FairDialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": {
+				"Bryson": "That loser with the wheel took all my coins! Who does he think he is?$5",
+			}
+		},
+		{
+			"LogName": "SpiritsEveDialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"Entries": {
+				"Bryson": "I don't know, Dimitri might be able to take them...but probably not.$1",
+			}
+		},
+		{
+			"LogName": "IceFestivalDialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"Entries": {
+				"Bryson": "I don't care about these dumb sculptures!$5#$b#I wanna go home..$2"
+			}
+		},
+		{
+			"LogName": "WinterStarDialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"Entries": {
+				"Bryson": "Emily gave me her cheap fabric as a present!$5#$b#She can keep it I don't want it! $2",
+			}
+		},
+
+
+ 	// FESTIVAL LOCATIONS
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [  "Entries", "Set-Up_additionalCharacters" ],
+                    "Value": "Bryson 26 75 2",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries","Set-Up_additionalCharacters" ],
+                    "Value": "Bryson 4 29 2",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+
+        {
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": ["Entries","Set-Up_additionalCharacters"],
+					"Value": "Bryson 29 8 2",
+					"Delimiter": "/"
+				}
+			]
+		},
+
+        {
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "Bryson 16 24 2",
+					"Delimiter": "/"
+				}
+			]
+		},
+
+        {
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [	"Entries","Set-Up_additionalCharacters"
+					],
+					"Value": "Bryson 27 70 2",
+					"Delimiter": "/"
+				}
+			]
+		},
+
+        {
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": ["Entries",	"Set-Up_additionalCharacters"],
+					"Value": "Bryson 25 54 2",
+					"Delimiter": "/"
+				}
+			]
+		},
+
+        {
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": ["Entries","Set-Up_additionalCharacters"],
+					"Value": "Bryson 72 23 2",
+					"Delimiter": "/"
+				}
+			]
+		},
+
+        {
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [	"Entries","Set-Up_additionalCharacters"	],
+					"Value": "Bryson 38 59 1",
+					"Delimiter": "/"
+				}
+			]
+        },
+	]
+}

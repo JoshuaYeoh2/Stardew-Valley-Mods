@@ -1,0 +1,13 @@
+{
+//FunLeave/FunReturn Schedule when married: Wednesday - goes to her grandmother's cabin and stands/sits whatever makes sense (Fiona should be there MWF)
+
+
+
+  "rain": "GOTO spring",
+//Sun Yoba, visit father in shop, visit kitchen table afternoon
+  "Sun": "0 Lizzie.Stoffton_Hotel 4 4 2/610 Lizzie.Stoffton_Hotel 12 13 0/820 Lizzie.Stoffton_Yoba 14 17 0/1200 Lizzie.Stoffton_Pickles 13 35 2/1500 Lizzie.Stoffton_Pickles 9 24 3/2000 Lizzie.Stoffton_Hotel 4 17 1/2300 Lizzie.Stoffton_Hotel 6 4 1 Brina_sleep",
+  //Tuesday - takes off work early to have dinner with her family, stands outside with Ebbe for a bit before returning home
+  "Tue": "0 Lizzie.Stoffton_Hotel 4 4 2/610 Lizzie.Stoffton_Hotel 12 13 0/740 Lizzie.Stoffton_Mill 41 15 1/830 Lizzie.Stoffton_Mill 43 12 3/920 Lizzie.Stoffton_Mill 41 21 1/950 Lizzie.Stoffton_Mill 43 12 3/1020 Lizzie.Stoffton_Mill 41 15 1/1050 Lizzie.Stoffton_Mill 4 11 0/1200 Lizzie.Stoffton_Mill 43 12 3/1240 Lizzie.Stoffton_Mill 41 21 1/1310 Lizzie.Stoffton_Mill 43 12 3/1340 Lizzie.Stoffton_Mill 41 15 1/1410 Lizzie.Stoffton_Mill 43 18 3/1440 Lizzie.Stoffton_Mill 43 12 3/1510 Lizzie.Stoffton_Mill 41 21 1/1540 Lizzie.Stoffton_Pickles 9 24 3/1900 Lizzie.Stoffton_Stoffton 27 67 1/2100 Lizzie.Stoffton_Hotel 4 17 1/2300 Lizzie.Stoffton_Hotel 6 4 1 Brina_sleep",
+  //arrives about 9 - full day of work schedule
+  "spring": "0 Lizzie.Stoffton_Hotel 4 4 2/610 Lizzie.Stoffton_Hotel 12 13 0/740 Lizzie.Stoffton_Mill 41 15 1/830 Lizzie.Stoffton_Mill 43 12 3/920 Lizzie.Stoffton_Mill 41 21 1/950 Lizzie.Stoffton_Mill 43 12 3/1020 Lizzie.Stoffton_Mill 41 15 1/1050 Lizzie.Stoffton_Mill 4 11 0/1200 Lizzie.Stoffton_Mill 43 12 3/1240 Lizzie.Stoffton_Mill 41 21 1/1310 Lizzie.Stoffton_Mill 43 12 3/1340 Lizzie.Stoffton_Mill 41 15 1/1410 Lizzie.Stoffton_Mill 43 18 3/1440 Lizzie.Stoffton_Mill 43 12 3/1510 Lizzie.Stoffton_Mill 41 21 1/1540 Lizzie.Stoffton_Mill 43 12 3/1610 Lizzie.Stoffton_Mill 41 15 1/1640 Lizzie.Stoffton_Mill 43 18 3/1710 Lizzie.Stoffton_Mill 4 11 0/1740 Lizzie.Stoffton_Mill 43 18 3/1810 Lizzie.Stoffton_Mill 43 12 3/1840 Lizzie.Stoffton_Mill 41 21 1/1910 Lizzie.Stoffton_Mill 43 12 3/1940 Lizzie.Stoffton_Mill 41 15 1/2000 Lizzie.Stoffton_Hotel 4 17 1/2300 Lizzie.Stoffton_Hotel 6 4 1 Brina_sleep"
+}

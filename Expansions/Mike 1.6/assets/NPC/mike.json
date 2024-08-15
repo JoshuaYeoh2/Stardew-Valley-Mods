@@ -1,0 +1,134 @@
+{
+
+  "Changes": [
+        {
+            "LogName": "Mike NPC Manifestation",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "Mike": {
+                    "DisplayName": "{{i18n: Name.Mike}}",
+                    "BirthSeason": "Summer",
+                    "BirthDay": 26,
+                    "HomeRegion": "Town",
+                    "Gender": "Male",
+                    "Age": "Adult",
+                    "Manner": "Rude",
+                    "SocialAnxiety": "Neutral",
+                    "Optimism": "Neutral",
+                    "CanBeRomanced": true,
+		    "Calendar": "AlwaysShown",
+		    "SocialTab": "UnknownUntilMet",
+		    "EndSlideShow": "MainGroup",
+		    "FlowerDanceCanDance": false,
+	 	    "FriendsAndFamily": {
+			"Gus": "{{i18n: Relationship.Mike.Gus}}",
+			"Emily": "{{i18n: Relationship.Mike.Emily}}",
+			"Pam": "{{i18n: Relationship.Mike.Pam}}",
+			"Vanessa": "{{i18n: Relationship.Mike.Vanessa}}",
+		    },	
+	 	    /*"LoveInterest": {
+			"Leah": "{{i18n: Relationship.Mike.Leah}}",
+		    },*/	
+                    "SpouseRoom": {
+                        "MapAsset": "MikeSpouseRoom",
+                        "MapSourceRect": {
+                            "X": 0,
+                            "Y": 0,
+                            "Width": 6,
+                            "Height": 9
+                        }
+                    },
+                    "SpousePatio": {
+                        "MapAsset": "spousePatios",
+                        "MapSourceRect": {
+                            "X": 0,
+                            "Y": 0,
+                            "Width": 4,
+                            "Height": 4
+                        },
+                        "SpriteAnimationFrames": [
+                            [
+                                16,
+                                500
+                            ],
+                            [
+                                17,
+                                500
+                            ],
+                            [
+                                18,
+                                500
+                            ],
+                            [
+                                17,
+                                500
+                            ],
+                            [
+                                18,
+                                500
+                            ],
+                            [
+                                17,
+                                500
+                            ],
+                        ],
+                        "SpriteAnimationPixelOffset": {
+                            "X": 0,
+                            "Y": 0
+                        }
+                    },
+                    "HiddenProfileEmoteDuration": -1,
+                    "HiddenProfileEmoteStartFrame": 32,
+                    "HiddenProfileEmoteFrameCount": 4,
+                    "HiddenProfileEmoteFrameDuration": 200.0,
+		    "SpawnIfMissing": true,
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "Saloon",
+                            "Tile": {
+                                "X": 42,
+                                "Y": 9
+                            },
+                            "Direction": "Down",
+                        },
+                    ]
+
+                	},
+		},
+	},
+
+    {
+      "LogName": "Gift tastes for Mike",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Mike": "{{i18n: Mike.LoveGift}}/192 210 213 342 636/{{i18n: Mike.LikedGift}}/233 194/{{i18n: Mike.DislikedGift}}/728/{{i18n: Mike.HateGift}}/219/{{i18n: Mike.NeutralGift}}//"
+      }
+    }, 
+
+     {
+       "LogName": "Animation Description Strings",
+       "Action": "EditData",
+       "Target": "Strings/animationDescriptions",
+       "Entries": {
+        "mike_read": "{{i18n: Mike.ReadingAni}}",
+        "mike_school": "{{i18n: Mike.SchoolAni}}",
+        "mike_guitar": "{{i18n: Mike.GuitarAni}}"
+      }
+     },
+
+     {
+       "LogName": "Animation Description Data",
+       "Action": "EditData",
+       "Target": "Data/animationDescriptions",
+      "Entries": {
+        "mike_read": "16/16 16 16 17 17 17 18 18 18 17 17 17 18 18 18 17 17 17 16 16 16/16/Strings\\animationDescriptions:mike_read",
+        "mike_school": "19/19/19/Strings\\animationDescriptions:mike_school",
+        "mike_guitar": "24/24 24 24 25 25 25 24 24 24 25 25 25 24 24 24 25 25 25 24 24 24 25 25 25 24 24 24/24/Strings\\animationDescriptions:mike_guitar",
+        "mike_sleep": "51/51/51",
+      }
+    },
+]
+}

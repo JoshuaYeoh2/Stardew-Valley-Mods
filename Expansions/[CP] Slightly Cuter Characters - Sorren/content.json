@@ -1,0 +1,102 @@
+{
+	"Format": "1.24.0",
+    "DynamicTokens": [
+
+        // Standard Dynamic Tokens
+
+        {
+            "Name": "IndoorVariant", // Indoors
+            "Value": "_Indoor",
+            "When":
+            {
+                "IsOutdoors": "false"
+            }
+        },
+        {
+            "Name": "IndoorVariant", // Outdoors
+            "Value": "_Outdoor",
+            "When":
+            {
+                "IsOutdoors": "true"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "FlowerDance",
+            "When":
+            {
+                "DayEvent": "flower dance",
+                "LocationName": "Forest, temp"
+            }
+        }
+    ],
+
+	"ConfigSchema": {
+		"NoNose": {
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+        "SeasonalOutfits": {
+            "AllowValues": "true, false",
+            "Default": "false"
+        }
+	},
+	"Changes": [
+
+        // Regular Characters Sprites
+
+        {
+		    "LogName": "Sorren Sprites",
+			"Action": "EditImage",
+			"Target": "Characters/Sorren",
+			"FromFile": "assets/Sorren.png",
+            "When": {
+                "HasFile:{{FromFile}}": true,
+                "SeasonalOutfits": false
+}
+		},
+        {
+            "LogName": "Seasonal",
+            "Action": "EditImage",
+            "Target": "Characters/Sorren",
+            "FromFile": "assets/Sorren_{{Season}}.png",
+            "Update": "OnLocationChange", 
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "SeasonalOutfits": true
+            }
+        },
+        {
+            "LogName": "Indoor Variant",
+            "Action": "EditImage",
+            "Target": "Characters/Sorren",
+            "FromFile": "assets/Sorren_{{Season}}{{IndoorVariant}}.png",
+            "Update": "OnLocationChange", 
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "SeasonalOutfits": true
+            }
+
+        },
+        {
+		    "LogName": "Sorren Swim Sprites",
+			"Action": "EditImage",
+			"Target": "Characters/Sorren_Swimtrunks",
+			"FromFile": "assets/Sorren_Swimtrunks.png"
+		},
+
+        {
+            "LogName": "Sorren Nose",
+            "Action": "EditImage",
+            "Target": "Characters/Sorren, Characters/Sorren_Swimtrunks",
+            "FromFile": "assets/{{TargetWithoutPath}}_nose.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "HasFile:{{FromFile}}": true,
+                "NoNose": false
+            }
+        }
+	]
+}

@@ -1,0 +1,23 @@
+{
+
+  "Changes": [
+                    {
+            		"LogName": "Mike Includes",
+                        "Action": "Include",
+                        "FromFile": "assets/NPC/mike.json"
+                    },
+                    {
+            		"LogName": "Mike Spouse Data",
+                        "Action": "Include",
+                        "FromFile": "assets/NPC/spouse.json"
+                    },
+                    {
+            		"LogName": "Mike Movie Data",
+                        "Action": "Include",
+                        "FromFile": "assets/NPC/movies.json"
+                    },
+
+
+
+]
+}

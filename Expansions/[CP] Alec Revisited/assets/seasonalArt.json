@@ -1,0 +1,156 @@
+{
+    "Changes": [
+        {
+            "LogName": "Revised Portraits",
+            "Action": "Load",
+            "Target": "Portraits/SPB_Alec",
+            "FromFile": "assets/portraits/revised/{{BeardVariant}}/{{HairVariant}}/Alec_{{Season}}.png"
+        },
+        {
+            "LogName": "Revised Portraits (Winter Indoors)",
+            "Action": "EditImage",
+            "Target": "Portraits/SPB_Alec",
+            "FromFile": "assets/portraits/revised/{{BeardVariant}}/{{HairVariant}}/Alec_Winter_Inside.png",
+            "When": {
+                "Season": "Winter",
+                "IsOutdoors": "false",
+                "Weather": "Sun"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "Revised Portraits (Winter Snow Outdoors)",
+            "Action": "EditImage",
+            "Target": "Portraits/SPB_Alec",
+            "FromFile": "assets/portraits/revised/{{BeardVariant}}/{{HairVariant}}/Alec_Winter_Snow.png",
+            "When": {
+                "Season": "Winter",
+                "IsOutdoors": "true",
+                "Weather": "Snow"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "Revised Portraits (Winter Snow Indoors)",
+            "Action": "EditImage",
+            "Target": "Portraits/SPB_Alec",
+            "FromFile": "assets/portraits/revised/{{BeardVariant}}/{{HairVariant}}/Alec_Winter_Snow_Inside.png",
+            "When": {
+                "Season": "Winter",
+                "IsOutdoors": "false",
+                "Weather": "Snow"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "Revised Portraits (Flower Dance)",
+            "Action": "EditImage",
+            "Target": "Portraits/SPB_Alec",
+            "FromFile": "assets/portraits/revised/{{BeardVariant}}/{{HairVariant}}/Alec_FlowerDance.png",
+            "When": {
+                "DayEvent": "flower dance",
+                "LocationName": "Temp"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "Revised Portraits (Spirit's Eve)",
+            "Action": "EditImage",
+            "Target": "Portraits/SPB_Alec",
+            "FromFile": "assets/portraits/revised/{{BeardVariant}}/{{HairVariant}}/Alec_SpiritsEve.png",
+            "When": {
+                "DayEvent": "spirit's eve",
+                "LocationName": "Temp",
+                "Hearts:Alec": "8, 9, 10, 11, 12, 13, 14"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "Revised Portraits (Beach)",
+            "Action": "Load",
+            "Target": "Portraits/SPB_Alec_Beach",
+            "FromFile": "assets/portraits/revised/{{BeardVariant}}/{{HairVariant}}/Alec_Beach.png"
+        },
+        {
+            "LogName": "Revised Sprites",
+            "Action": "Load",
+            "Target": "Characters/SPB_Alec",
+            "FromFile": "assets/sprites/revised/{{BeardVariant}}/Alec_{{Season}}.png"
+        },
+        {
+            "LogName": "Revised Sprites (Winter Indoors)",
+            "Action": "EditImage",
+            "Target": "Characters/SPB_Alec",
+            "FromFile": "assets/sprites/revised/{{BeardVariant}}/Alec_Winter_Inside.png",
+            "When": {
+                "Season": "Winter",
+                "IsOutdoors": "false",
+                "Weather": "Sun"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "Revised Sprites (Winter Snow Outdoors)",
+            "Action": "EditImage",
+            "Target": "Characters/SPB_Alec",
+            "FromFile": "assets/sprites/revised/{{BeardVariant}}/Alec_Winter_Snow.png",
+            "When": {
+                "Season": "Winter",
+                "IsOutdoors": "true",
+                "Weather": "Snow"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "Revised Sprites (Winter Snow Indoors)",
+            "Action": "EditImage",
+            "Target": "Characters/SPB_Alec",
+            "FromFile": "assets/sprites/revised/{{BeardVariant}}/Alec_Winter_Snow_Inside.png",
+            "When": {
+                "Season": "Winter",
+                "IsOutdoors": "false",
+                "Weather": "Snow"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "Revised Sprites (Flower Dance)",
+            "Action": "EditImage",
+            "Target": "Characters/SPB_Alec",
+            "FromFile": "assets/sprites/revised/{{BeardVariant}}/Alec_FlowerDance.png",
+            "When": {
+                "DayEvent": "flower dance",
+                "LocationName": "Temp"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "Revised Sprites (Spirit's Eve)",
+            "Action": "EditImage",
+            "Target": "Characters/SPB_Alec",
+            "FromFile": "assets/sprites/revised/{{BeardVariant}}/Alec_SpiritsEve.png",
+            "When": {
+                "DayEvent": "spirit's eve",
+                "LocationName": "Temp",
+                "Hearts:Alec": "8, 9, 10, 11, 12, 13, 14"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "Revised Sprites (Beach)",
+            "Action": "Load",
+            "Target": "Characters/SPB_Alec_Beach",
+            "FromFile": "assets/sprites/revised/{{BeardVariant}}/Alec_Beach.png"
+        },
+        {
+            "LogName": "NPC Map Locations Sprite Offsets",
+            "Action": "EditData",
+            "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+            "Entries": {
+                "SPB_Alec": {
+                    "MarkerCropOffset": -1
+                }
+            }
+        }
+    ]
+}

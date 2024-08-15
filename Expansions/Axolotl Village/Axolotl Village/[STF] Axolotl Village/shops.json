@@ -1,0 +1,1373 @@
+{
+  "Shops": [
+    {
+      "ShopName": "AxolotlFishShop",
+      "CategoriesToSellHere": [],
+      "PortraitPath": "assets/BlueVendor.png",
+      "Quote": "Fresh fish! Get'cha fish here!",
+      "MaxNumItemsSoldInStore": 10,
+      "When": [
+        "t 600 2000"
+      ],
+      "ItemStocks": [
+        {
+          "StockPrice": 200,
+          "Stock": 3,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Pufferfish"
+          ]
+        },
+       {
+          "StockPrice": 100,
+          "Stock": 3,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Flounder"
+          ]
+        },
+      {
+          "StockPrice": 100,
+          "Stock": 3,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Lionfish"
+          ]
+        },
+        {
+          "StockPrice": 150,
+          "Stock": 3,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Octopus"
+          ]
+        },
+       {
+          "StockPrice": 120,
+          "Stock": 3,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Blue Discus"
+          ]
+        },
+       {
+          "StockPrice": 180,
+          "Stock": 3,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Stingray"
+          ]
+        },
+      {
+          "StockPrice": 100,
+          "Stock": 3,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Tuna"
+          ]
+        },
+       {
+          "StockPrice": 250,
+          "Stock": 1,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Super Cucumber"
+          ]
+        },
+       ],
+      "ClosedMessage": "Sorry, I'm all outta fish.",
+    },
+    {
+      "ShopName": "AxolotlTropicalShop",
+      "CategoriesToSellHere": [],
+      "PortraitPath": "assets/PinkVendor.png",
+      "Quote": "Welcome, we sell tropical goods here!",
+      "MaxNumItemsSoldInStore": 10,
+      "When": [
+        "t 600 2000"
+      ],
+      "ItemStocks": [
+        {
+          "StockPrice": 500,
+          "Stock": 3,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Piña Colada",
+            "Tropical Curry",
+            "Seafoam Pudding"
+          ]
+        },
+        {
+          "StockPrice": 200,
+          "Stock": 5,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Mango Sticky Rice",
+            "Banana Pudding"
+          ]
+        },
+        {
+          "StockPrice": 100,
+          "Stock": 10,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Banana",
+            "Coconut",
+            "Pineapple",
+            "Mango"
+          ]
+        },
+      ],
+      "ClosedMessage": "Sorry, currently closed!",
+    },
+    {
+      "ShopName": "AxolotlVeggieShop",
+      "CategoriesToSellHere": [],
+      "PortraitPath": "assets/YellowVendor.png",
+      "Quote": "Vegetables and vegetable seeds here!",
+      "MaxNumItemsSoldInStore": 30,
+      "When": [
+        "z winter/t 600 2000"
+      ],
+      "ItemStocks": [ 
+          ///summer stocks
+        {
+          "ItemType": "Object",
+          "Stock": 5,
+          "When": ["!z summer"],
+          "StockPrice": 100,
+          "ItemNames": [
+            "Corn",
+            "Corn Seeds",
+            "Radish"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "Stock": 5,
+          "When": ["!z summer"],
+          "StockPrice": 30,
+          "ItemNames": [
+            "Fiddlehead Fern",
+            "Hops",
+            "Radish Seeds",
+            "Tea Leaves",
+            "Taro Tuber",
+            "Tomato Seeds"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "Stock": 5,
+          "When": ["!z summer"],
+          "StockPrice": 80,
+          "ItemNames": [
+            "Red Cabbage Seeds",
+            "Taro Root",
+            "Tomato"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "Stock": 5,
+          "When": ["!z summer"],
+          "StockPrice": 10,
+          "ItemNames": [
+            "Wheat",
+            "Wheat Seeds"
+          ]
+        },
+         {
+          "ItemType": "Object",
+          "Stock": 5,
+          "When": ["!z summer"],
+          "StockPrice": 150,
+          "ItemNames": [
+            "Red Cabbage",
+            "Tea Sapling"
+          ]
+        },
+  ///spring stocks
+        {
+          "ItemType": "Object",
+          "Stock": 5,
+          "When": ["!z spring"],
+          "StockPrice": 100,
+          "ItemNames": [
+            "Kale"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "Stock": 5,
+          "When": ["!z spring"],
+          "StockPrice": 50,
+          "ItemNames": [
+            "Cauliflower Seeds",
+            "Garlic",
+            "Bean Starter",
+            "Kale Seeds",
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "Stock": 5,
+          "When": ["!z spring"],
+          "StockPrice": 80,
+          "ItemNames": [
+            "Potato"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "Stock": 5,
+          "When": ["!z spring"],
+          "StockPrice": 10,
+          "ItemNames": [
+            "Parsnip Seeds",
+            "Unmilled Rice"
+          ]
+        },
+       {
+          "ItemType": "Object",
+          "Stock": 5,
+          "When": ["!z spring"],
+          "StockPrice": 30,
+          "ItemNames": [
+            "Garlic Seeds",
+            "Green Bean",
+            "Parsnip",
+            "Potato Seeds",
+            "Tea Leaves",
+            "Rice Shoot"
+          ]
+        },
+         {
+          "ItemType": "Object",
+          "Stock": 5,
+          "When": ["!z spring"],
+          "StockPrice": 150,
+          "ItemNames": [
+            "Cauliflower",
+            "Tea Sapling"
+          ]
+        },
+  ///fall stocks
+        {
+          "ItemType": "Object",
+          "Stock": 5,
+          "When": ["!z fall"],
+          "StockPrice": 100,
+          "ItemNames": [
+            "Beet",
+            "Corn",
+            "Corn Seeds",
+            "Pumpkin Seeds"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "Stock": 5,
+          "When": ["!z fall"],
+          "StockPrice": 50,
+          "ItemNames": [
+            "Amaranth Seeds",
+            "Eggplant",
+            "Yam Seeds"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "Stock": 5,
+          "When": ["!z fall"],
+          "StockPrice": 80,
+          "ItemNames": [
+            "Bok Choy"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "Stock": 5,
+          "When": ["!z fall"],
+          "StockPrice": 20,
+          "ItemNames": [
+            "Artichoke Seeds",
+            "Beet Seeds",
+            "Eggplant Seeds"
+          ]
+        },
+       {
+          "ItemType": "Object",
+          "Stock": 5,
+          "When": ["!z fall"],
+          "StockPrice": 30,
+          "ItemNames": [
+            "Bok Choy Seeds",
+            "Tea Leaves"
+          ]
+        },
+         {
+          "ItemType": "Object",
+          "Stock": 5,
+          "When": ["!z fall"],
+          "StockPrice": 150,
+          "ItemNames": [
+            "Amaranth",
+            "Artichoke",
+            "Tea Sapling",
+            "Yam"
+          ]
+        },
+         {
+          "ItemType": "Object",
+          "Stock": 5,
+          "When": ["!z fall"],
+          "StockPrice": 250,
+          "ItemNames": [
+            "Pumpkin"
+          ]
+        },
+         {
+          "ItemType": "Object",
+          "Stock": 5,
+          "When": ["!z fall"],
+          "StockPrice": 10,
+          "ItemNames": [
+            "Wheat",
+            "Wheat Seeds"
+          ]
+        },
+      ],
+      "ClosedMessage": "Sorry, come back later!",
+    },
+    {
+      "ShopName": "AxolotlFruitShop",
+      "CategoriesToSellHere": [],
+      "PortraitPath": "assets/BlueVendor.png",
+      "Quote": "Fruits and fruit seeds here!",
+      "MaxNumItemsSoldInStore": 10,
+      "When": [
+        "z winter/t 600 2000"
+      ],
+      "ItemStocks": [
+             ///summer stocks
+        {
+          "ItemType": "Object",
+          "Stock": 5,
+          "When": ["!z summer"],
+          "StockPrice": 100,
+          "ItemNames": [
+            "Coconut",
+            "Orange"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "Stock": 5,
+          "When": ["!z summer"],
+          "StockPrice": 30,
+          "ItemNames": [
+            "Blueberry",
+            "Hot Pepper",
+            "Hot Pepper Seeds"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "Stock": 5,
+          "When": ["!z summer"],
+          "StockPrice": 80,
+          "ItemNames": [
+            "Cactus Fruit",
+            "Grape",
+            "Blueberry Seeds",
+            "Melon Seeds",
+            "Spice Berry"
+          ]
+        },
+         {
+          "ItemType": "Object",
+          "Stock": 5,
+          "When": ["!z summer"],
+          "StockPrice": 150,
+          "ItemNames": [
+            "Banana",
+            "Mango",
+            "Peach"
+          ]
+        },
+         {
+          "ItemType": "Object",
+          "Stock": 5,
+          "When": ["!z summer"],
+          "StockPrice": 250,
+          "ItemNames": [
+            "Melon",
+            "Pineapple",
+            "Pineapple Seeds"
+          ]
+        },
+         {
+          "ItemType": "Object",
+          "Stock": 5,
+          "When": ["!z summer"],
+          "StockPrice": 700,
+          "ItemNames": [
+            "Starfruit",
+            "Starfruit Seeds"
+          ]
+        },
+  ///spring stocks
+        {
+          "ItemType": "Object",
+          "Stock": 5,
+          "When": ["!z spring"],
+          "StockPrice": 100,
+          "ItemNames": [
+            "Coconut",
+            "Rhubarb Seeds",
+            "Strawberry Seeds"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "Stock": 5,
+          "When": ["!z spring"],
+          "StockPrice": 50,
+          "ItemNames": [
+            "Apricot"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "Stock": 5,
+          "When": ["!z spring"],
+          "StockPrice": 80,
+          "ItemNames": [
+            "Cactus Fruit",
+            "Cherry"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "Stock": 5,
+          "When": ["!z spring"],
+          "StockPrice": 250,
+          "ItemNames": [
+            "Rhubarb",
+            "Pineapple",
+            "Pineapple Seeds"
+          ]
+        },
+       {
+          "ItemType": "Object",
+          "Stock": 5,
+          "When": ["!z spring"],
+          "StockPrice": 10,
+          "ItemNames": [
+            "Salmonberry"
+          ]
+        },
+         {
+          "ItemType": "Object",
+          "Stock": 5,
+          "When": ["!z spring"],
+          "StockPrice": 150,
+          "ItemNames": [
+            "Banana",
+            "Mango",
+            "Strawberry"
+          ]
+        },
+  ///fall stocks
+        {
+          "ItemType": "Object",
+          "Stock": 5,
+          "When": ["!z fall"],
+          "StockPrice": 100,
+          "ItemNames": [
+            "Apple",
+            "Coconut"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "Stock": 5,
+          "When": ["!z fall"],
+          "StockPrice": 80,
+          "ItemNames": [
+            "Cactus Fruit",
+            "Cranberries",
+            "Grape",
+            "Wild Plum"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "Stock": 5,
+          "When": ["!z fall"],
+          "StockPrice": 20,
+          "ItemNames": [
+            "Blackberry",
+          ]
+        },
+         {
+          "ItemType": "Object",
+          "Stock": 5,
+          "When": ["!z fall"],
+          "StockPrice": 150,
+          "ItemNames": [
+            "Banana",
+            "Mango",
+            "Pomegranate"
+          ]
+        },
+         {
+          "ItemType": "Object",
+          "Stock": 5,
+          "When": ["!z fall"],
+          "StockPrice": 250,
+          "ItemNames": [
+            "Cranberry Seeds",
+            "Pineapple",
+            "Pineapple Seeds"
+          ]
+        },
+      ],
+      "ClosedMessage": "Sorry, come back later!",
+    },
+    {
+      "ShopName": "PinkAxolotlIceCreamShop",
+      "CategoriesToSellHere": [],
+      "PortraitPath": "assets/PinkVendor.png",
+      "Quote": "My ice cream is better than Bluey's!",
+      "MaxNumItemsSoldInStore": 5,
+      "When": [
+        "t 600 2000"
+      ],
+      "ItemStocks": [
+        {
+          "StockPrice": 250,
+          "Stock": 5,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Ice Cream",
+            "Melon Ice Cream"
+          ]
+        },
+      ],
+      "ClosedMessage": "Sorry, I ran out of ice cream.",
+    },
+    {
+      "ShopName": "BlueAxolotlIceCreamShop",
+      "CategoriesToSellHere": [],
+      "PortraitPath": "assets/BlueVendor.png",
+      "Quote": "Don't listen to Pinky! My ice cream is way better!",
+      "MaxNumItemsSoldInStore": 5,
+      "When": [
+        "t 600 2000"
+      ],
+      "ItemStocks": [
+        {
+          "StockPrice": 250,
+          "Stock": 5,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Ice Cream",
+            "Blueberry Ice Cream"
+          ]
+         },
+        ],
+      "ClosedMessage": "Sorry, I ran out of ice cream.",
+    },
+{
+      "ShopName": "PinkAxolotlHalloweenShop",
+      "CategoriesToSellHere": [],
+      "PortraitPath": "assets/PinkVendor.png",
+      "Quote": "My candy is better than Bluey's!",
+      "MaxNumItemsSoldInStore": 10,
+      "When": [
+        "t 600 2400"
+      ],
+      "ItemStocks": [
+        {
+          "StockPrice": 200,
+          "Stock": 5,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Halloween Candy",
+            "Melon Candy",
+            "Miner's Treat"
+          ]
+        },
+        {
+          "StockPrice": 300,
+          "Stock": 5,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Albino Axolotl Jack-o'-Lantern",
+            "Black Axolotl Jack-o'-Lantern",
+            "Blue Axolotl Jack-o'-Lantern",
+            "Pink Axolotl Jack-o'-Lantern",
+            "Lavender Axolotl Jack-o'-Lantern",
+            "Yellow Axolotl Jack-o'-Lantern"
+          ]
+        },
+      ],
+      "ClosedMessage": "Sorry, I ran out of candy.",
+    },
+{
+      "ShopName": "BlueAxolotlHalloweenShop",
+      "CategoriesToSellHere": [],
+      "PortraitPath": "assets/BlueVendor.png",
+      "Quote": "Don't listen to Pinky! My candy is way better!",
+      "MaxNumItemsSoldInStore": 10,
+      "When": [
+        "t 600 2400"
+      ],
+      "ItemStocks": [
+        {
+          "StockPrice": 200,
+          "Stock": 5,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Halloween Candy",
+            "Blueberry Candy",
+            "Miner's Treat"
+          ]
+         },
+        {
+          "StockPrice": 300,
+          "Stock": 5,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Albino Axolotl Jack-o'-Lantern",
+            "Black Axolotl Jack-o'-Lantern",
+            "Blue Axolotl Jack-o'-Lantern",
+            "Pink Axolotl Jack-o'-Lantern",
+            "Lavender Axolotl Jack-o'-Lantern",
+            "Yellow Axolotl Jack-o'-Lantern"
+          ]
+        },
+        ],
+      "ClosedMessage": "Sorry, I ran out of candy.",
+    },
+{
+      "ShopName": "PinkAxolotlChristmasShop",
+      "CategoriesToSellHere": [],
+      "PortraitPath": "assets/PinkVendor.png",
+      "Quote": "My candy is better than Bluey's!",
+      "MaxNumItemsSoldInStore": 10,
+      "When": [
+        "t 600 2400"
+      ],
+      "ItemStocks": [
+        {
+          "StockPrice": 200,
+          "Stock": 5,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Melon Candy Cane",
+            "Futan Santa Captain"
+          ]
+        },
+        {
+          "StockPrice": 300,
+          "Stock": 5,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Melon Fruitcake"
+          ]
+        },
+      ],
+      "ClosedMessage": "Sorry, I ran out of candy.",
+    },
+{
+      "ShopName": "BlueAxolotlChristmasShop",
+      "CategoriesToSellHere": [],
+      "PortraitPath": "assets/BlueVendor.png",
+      "Quote": "Don't listen to Pinky! My candy is way better!",
+      "MaxNumItemsSoldInStore": 10,
+      "When": [
+        "t 600 2400"
+      ],
+      "ItemStocks": [
+        {
+          "StockPrice": 200,
+          "Stock": 5,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Blueberry Candy Cane",
+            "Futan Santa Captain"
+          ]
+        },
+        {
+          "StockPrice": 300,
+          "Stock": 5,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Blueberry Fruitcake"
+          ]
+        },
+      ],
+      "ClosedMessage": "Sorry, I ran out of candy.",
+    },
+  {
+      "ShopName": "PinkAxolotlTanabataShop",
+      "CategoriesToSellHere": [],
+      "PortraitPath": "assets/PinkVendor.png",
+      "Quote": "My lights are better than Bluey's!",
+      "MaxNumItemsSoldInStore": 15,
+      "When": [
+        "t 600 2400"
+      ],
+      "ItemStocks": [
+        {
+          "StockPrice": 50,
+          "Stock": 1,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Pink Tanzaku"
+          ]
+        },
+       {
+          "StockPrice": 150,
+          "Stock": 3,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Melon Ramune"
+          ]
+        },
+       {
+          "StockPrice": 200,
+          "Stock": 3,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Taiyaki",
+            "Melon Kakigori"
+          ]
+        },
+        {
+          "StockPrice": 300,
+          "Stock": 3,
+          "ItemType": "Object",
+          "ItemNames": [
+            "otohime.AV_Takoyaki",
+            "Okonomiyaki"
+          ]
+        },
+        {
+          "StockPrice": 500,
+          "Stock": 5,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Pink Nova Light",
+            "Nova Light"
+          ]
+        },
+        {
+          "StockPrice": 1000,
+          "Stock": 5,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Tanabata Bamboo",
+          ]
+        },
+      ],
+      "ClosedMessage": "Sorry, I ran out of stuff.",
+    },
+ {
+      "ShopName": "BlueAxolotlTanabataShop",
+      "CategoriesToSellHere": [],
+      "PortraitPath": "assets/BlueVendor.png",
+      "Quote": "Don't listen to Pinky! My lights are way better!",
+      "MaxNumItemsSoldInStore": 10,
+      "When": [
+        "t 600 2400"
+      ],
+      "ItemStocks": [
+       {
+          "StockPrice": 50,
+          "Stock": 1,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Blue Tanzaku"
+          ]
+        },
+       {
+          "StockPrice": 150,
+          "Stock": 3,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Blueberry Ramune"
+          ]
+        },
+       {
+          "StockPrice": 200,
+          "Stock": 3,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Taiyaki",
+            "Blueberry Kakigori"
+          ]
+        },
+        {
+          "StockPrice": 300,
+          "Stock": 3,
+          "ItemType": "Object",
+          "ItemNames": [
+            "otohime.AV_Takoyaki",
+            "Okonomiyaki"
+          ]
+        },
+        {
+          "StockPrice": 500,
+          "Stock": 5,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Blue Nova Light",
+            "Nova Light"
+          ]
+        },
+        {
+          "StockPrice": 1000,
+          "Stock": 5,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Tanabata Bamboo",
+          ]
+        },
+      ],
+      "ClosedMessage": "Sorry, I ran out of stuff.",
+    },
+    {
+      "ShopName": "AxolotlWarpShop",
+      "CategoriesToSellHere": [],
+      "PortraitPath": "assets/BlackVendor.png",
+      "Quote": "All warps, all authentic. No refunds.",
+      "MaxNumItemsSoldInStore": 10,
+      "When": [
+        "t 600 2000"
+      ],
+      "ItemStocks": [
+        {
+          "StockPrice": 500,
+          "Stock": 10,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Warp Totem: Farm",
+            "Warp Totem: Mountains",
+            "Warp Totem: Beach",
+            "Warp Totem: Desert",
+            "Warp Totem: Island",
+            "Warp Totem: Axolotl Village"
+          ]
+        },
+      ],
+      "ClosedMessage": "Sorry, currently closed!",
+    },
+{
+      "ShopName": "AxolotlPlushShop",
+      "CategoriesToSellHere": [],
+      "PortraitPath": "assets/AlbinoVendor.png",
+      "Quote": "We have cute plushies for sale here.~",
+      "MaxNumItemsSoldInStore": 20,
+      "When": [
+        "t 600 2000"
+      ],
+      "ItemStocks": [
+        {
+          "StockPrice": 500,
+          "Stock": 3,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Futan Captain",
+            "Futan Hiro",
+            "Futan Jinx",
+            "Futan Lala",
+            "Futan Lulu",
+            "Futan Nimue",
+            "Futan Noa",
+            "Futan Olina",
+            "Futan Puka",
+      
+          ]
+        },
+       {
+          "StockPrice": 1000,
+          "Stock": 3,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Lg. Futan Captain",
+            "Lg. Futan Hiro",
+            "Lg. Futan Jinx",
+            "Lg. Futan Lala",
+            "Lg. Futan Lulu",
+            "Lg. Futan Nimue",
+            "Lg. Futan Noa",
+            "Lg. Futan Olina",
+            "Lg. Futan Puka",
+      
+          ]
+        },
+      ],
+      "ClosedMessage": "So sorry, we're closed.~",
+    },
+{
+      "ShopName": "AxolotlDrinkShop",
+      "CategoriesToSellHere": [],
+      "PortraitPath": "assets/PurpleVendor.png",
+      "Quote": "Welcome! What can I get for you?",
+      "MaxNumItemsSoldInStore": 15,
+      "When": [
+        "t 600 2400"
+      ],
+      "ItemStocks": [
+        {
+          "StockPrice": 200,
+          "Stock": 5,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Cranberry Candy",
+            "Shrimp Cocktail",
+            "Ginger Ale"
+          ]
+        },
+      {
+          "StockPrice": 300,
+          "Stock": 5,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Beer",
+            "Pale Ale",
+            "Cotton Candy Cocktail",
+            "Chocolate Milkshake",
+            "Strawberry Milkshake",
+            "Vanilla Milkshake"
+          ]
+        },
+       {
+          "StockPrice": 400,
+          "Stock": 5,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Rainbow Colada"
+          ]
+        },
+      ],
+      "ClosedMessage": "Closed, sorry!",
+    },
+{
+      "ShopName": "AxolotlBakeShop",
+      "CategoriesToSellHere": [],
+      "PortraitPath": "assets/PinkVendor2.png",
+      "Quote": "Welcome! What would you like?",
+      "MaxNumItemsSoldInStore": 25,
+      "When": [
+        "t 600 2000"
+      ],
+      "ItemStocks": [
+        {
+          "StockPrice": 300,
+          "Stock": 5,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Strange Bun",
+            "Chocolate Cake",
+            "The Big Cookie",
+            "The Big Donut",
+            "Maple Bar",
+            "Cinnamon Layer Cake",
+            "Primary Layer Cake",
+            "Churro",
+            "Flan"
+          ]
+        },
+      {
+          "StockPrice": 500,
+          "Stock": 5,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Pink Cake",
+            "Pink Axolotl Cake",
+            "Yellow Axolotl Cake",
+            "Blue Axolotl Cake",
+            "Lavender Axolotl Cake",
+            "Black Axolotl Cake",
+            "Albino Axolotl Cake"
+          ]
+        },
+      {
+          "StockPrice": 200,
+          "Stock": 5,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Cookie",
+            "Fluffy Marshmallow",
+            "Cotton Candy Heart",
+            "S'mores"
+          ]
+        },
+       {
+          "StockPrice": 100,
+          "Stock": 5,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Chocolate Bar"
+          ]
+        },
+      ],
+      "ClosedMessage": "Closed, sorry!",
+    },
+{
+      "ShopName": "PurpleKandiShop",
+      "CategoriesToSellHere": [],
+      "PortraitPath": "assets/PurpleVendor.png",
+      "Quote": "Kandi merch here!",
+      "MaxNumItemsSoldInStore": 10,
+      "When": [
+        "t 600 2400"
+      ],
+      "ItemStocks": [
+       {
+          "StockPrice": 200,
+          "Stock": 5,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Kandi Candy",
+            "Kandi Bow"
+          ]
+        },
+        {
+          "StockPrice": 500,
+          "Stock": 5,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Futan Kandi"
+          ]
+        },
+        {
+          "StockPrice": 1000,
+          "Stock": 1,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Lg. Futan Kandi"
+          ]
+        },
+      ],
+      "ClosedMessage": "Sorry, out of merch!",
+    },
+{
+      "ShopName": "BlueKandiShop",
+      "CategoriesToSellHere": [],
+      "PortraitPath": "assets/BlueVendor.png",
+      "Quote": "Kandi merch here!",
+      "MaxNumItemsSoldInStore": 10,
+      "When": [
+        "t 600 2400"
+      ],
+      "ItemStocks": [
+        {
+          "StockPrice": 500,
+          "Stock": 5,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Blue Candy",
+            "Purple Candy",
+            "Cute Heart",
+            "Red Lollipop",
+            "Orange Lollipop",
+            "Yellow Lollipop",
+            "Green Lollipop",
+            "Blue Lollipop",
+            "Purple Lollipop",
+            "Pink Lollipop"
+          ]
+        }
+      ],
+      "ClosedMessage": "Sorry, out of merch!",
+    },
+{
+      "ShopName": "AccessoryShop",
+      "CategoriesToSellHere": [],
+      "PortraitPath": "assets/PinkVendor3.png",
+      "Quote": "Hiya! Anything catch your eye?",
+      "MaxNumItemsSoldInStore": 15,
+      "When": [
+        "t 600 2400"
+      ],
+      "ItemStocks": [
+        {
+          "StockPrice": 200,
+          "Stock": 1,
+          "ItemType": "Hat",
+          "ItemNames": [
+            "Starfish Hair Clip"
+          ]
+        },
+       {
+          "StockPrice": 500,
+          "Stock": 1,
+          "ItemType": "Hat",
+          "ItemNames": [
+            "Baby Albino Axolotl",
+            "Baby Black Axolotl",
+            "Baby Blue Axolotl",
+            "Baby Lavender Axolotl",
+            "Baby Pink Axolotl",
+            "Baby Yellow Axolotl"
+          ]
+        },
+      ],
+      "ClosedMessage": "Come back later!",
+    },
+{
+      "ShopName": "CandyShop",
+      "CategoriesToSellHere": [],
+      "PortraitPath": "assets/BlueVendor2.png",
+      "Quote": "Hi! What would you like?",
+      "MaxNumItemsSoldInStore": 15,
+      "When": [
+        "t 600 2400"
+      ],
+      "ItemStocks": [
+        {
+          "StockPrice": 100,
+          "Stock": 5,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Red Lolli",
+            "Orange Lolli",
+            "Yellow Lolli",
+            "Green Lolli",
+            "Blue Lolli",
+            "Purple Lolli",
+            "Red Gummy Bear",
+            "Orange Gummy Bear",
+            "Yellow Gummy Bear",
+            "Green Gummy Bear",
+            "Blue Gummy Bear",
+            "Purple Gummy Bear",
+            "Chocolate Bar"
+          ]
+        },
+       {
+          "StockPrice": 120,
+          "Stock": 5,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Chocolate Malt Balls"
+          ]
+        },
+      {
+          "StockPrice": 300,
+          "Stock": 5,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Rainbow Candy"
+          ]
+        },
+      ],
+      "ClosedMessage": "Come back later!",
+    },
+{
+      "ShopName": "SeedShop",
+      "CategoriesToSellHere": [],
+      "PortraitPath": "assets/YellowVendor2.png",
+      "Quote": "We've got great seeds and saplings here!",
+      "MaxNumItemsSoldInStore": 20,
+      "When": [
+        "t 600 2400"
+      ],
+      "ItemStocks": [
+        {
+          "StockPrice": 100,
+          "Stock": 5,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Flamingo Flower Seeds",
+            "Urn Plant Seeds",
+            "Rose Grape Starter"
+          ]
+        },
+        {
+          "StockPrice": 500,
+          "Stock": 5,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Pink Axolotl Scarecrow",
+            "Albino Axolotl Scarecrow",
+            "Yellow Axolotl Scarecrow",
+            "Blue Axolotl Scarecrow",
+            "Lavender Axolotl Scarecrow",
+            "Black Axolotl Scarecrow"
+          ]
+        },
+       {
+          "StockPrice": 1000,
+          "Stock": 5,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Cannonball Sapling"
+          ]
+        },
+       {
+          "StockPrice": 1400,
+          "Stock": 5,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Tea Crabapple Sapling"
+          ]
+        },
+      {
+          "StockPrice": 2000,
+          "Stock": 1,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Apricot Sapling",
+            "Cherry Sapling",
+            "Banana Sapling",
+            "Mango Sapling",
+            "Orange Sapling",
+            "Peach Sapling",
+            "Apple Sapling",
+            "Pomegranate Sapling",
+          ]
+        },
+      ],
+      "ClosedMessage": "Come back later!",
+    },
+{
+      "ShopName": "LavenderPlushShop",
+      "CategoriesToSellHere": [],
+      "PortraitPath": "assets/PurpleVendor2.png",
+      "Quote": "Take home a cute plushie today!",
+      "MaxNumItemsSoldInStore": 15,
+      "When": [
+        "t 600 2400"
+      ],
+      "ItemStocks": [
+       {
+          "StockPrice": 500,
+          "Stock": 1,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Futan Albino Axolotl",
+            "Futan Black Axolotl",
+            "Futan Blue Axolotl",
+            "Futan Lavender Axolotl",
+            "Futan Pink Axolotl",
+            "Futan Yellow Axolotl"
+          ]
+        },
+      {
+          "StockPrice": 1000,
+          "Stock": 1,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Lg. Futan Albino Axolotl",
+            "Lg. Futan Black Axolotl",
+            "Lg. Futan Blue Axolotl",
+            "Lg. Futan Lavender Axolotl",
+            "Lg. Futan Pink Axolotl",
+            "Lg. Futan Yellow Axolotl"
+          ]
+        },
+      ],
+      "ClosedMessage": "Come back later!",
+    },
+{
+      "ShopName": "PinkBOFShop",
+      "CategoriesToSellHere": [],
+      "PortraitPath": "assets/PinkVendor4.png",
+      "Quote": "Tons of cute flower seeds here!",
+      "MaxNumItemsSoldInStore": 15,
+      "When": [
+        "t 600 2400"
+      ],
+      "ItemStocks": [
+       {
+          "StockPrice": 20,
+          "Stock": 5,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Tulip Bulb"
+          ]
+        },
+       {
+          "StockPrice": 30,
+          "Stock": 5,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Jazz Seeds"
+          ]
+        },
+      {
+          "StockPrice": 50,
+          "Stock": 5,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Spangle Seeds",
+            "Mixed Flower Seeds"
+          ]
+        },
+       {
+          "StockPrice": 100,
+          "Stock": 5,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Flamingo Flower Seeds",
+            "Urn Plant Seeds",
+            "Rose Grape Starter",
+            "Poppy Seeds"
+          ]
+        },
+      {
+          "StockPrice": 200,
+          "Stock": 1,
+          "ItemType": "Object",
+          "ItemNames": [
+            "Sunflower Seeds",
+            "Fairy Seeds"
+          ]
+        },
+      ],
+      "ClosedMessage": "Sorry, I ran out of stuff!"
+    },
+{
+      "ShopName": "BlueBOFShop",
+      "CategoriesToSellHere": [],
+      "PortraitPath": "assets/BlueVendor3.png",
+      "Quote": "Tons of cute flower accessories here!",
+      "MaxNumItemsSoldInStore": 15,
+      "When": [
+        "t 600 2400"
+      ],
+      "ItemStocks": [
+       {
+          "StockPrice": 200,
+          "Stock": 1,
+          "ItemType": "Hat",
+          "ItemNames": [
+            "Pink Flower Hair Clip",
+            "Yellow Flower Hair Clip",
+            "Blue Flower Hair Clip",
+            "Purple Flower Hair Clip",
+          ]
+        },
+       {
+          "StockPrice": 300,
+          "Stock": 1,
+          "ItemType": "Hat",
+          "ItemNames": [
+            "Pink Flower Crown",
+            "Yellow Flower Crown",
+            "Blue Flower Crown",
+            "Purple Flower Crown"
+          ]
+        },
+      ],
+      "ClosedMessage": "Sorry, I ran out of stuff!"
+    },
+  ]
+}

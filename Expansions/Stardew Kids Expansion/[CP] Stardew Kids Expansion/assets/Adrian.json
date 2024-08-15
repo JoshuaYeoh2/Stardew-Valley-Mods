@@ -1,0 +1,130 @@
+{
+  
+  "Changes": [
+
+    {
+    "LogName": "NPC Manifestation",
+    "Action": "EditData",
+    "Target": "Data/Characters",
+    "Entries": {
+	"Adrian": {
+		"DisplayName": "Adrian",
+		"BirthSeason": "Summer",
+		"BirthDay": 14,
+		"HomeRegion": "Town",
+		"Gender": "Male",
+		"Age": "Child",
+		"Manner": "Polite",
+		"SocialAnxiety": "Outgoing",
+		"Optimism": "Neutral",
+		"CanBeRomanced": false,
+		"LoveInterest": null,
+		"Home": [
+		   {
+			"Id": "Default",
+			"Location": "Custom_AdrianRoom",
+			"Tile": {  "X": 8,"Y": 5  },
+			"Direction": "Down"
+				}
+			],
+		"Breather": false
+			}
+		}
+	},
+
+    {
+
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Adrian": "Wow I love it!/206/Hey, how did you know I was hungry? It looks delicious./211/Yuck!/208/My mother told me not to take anything from strangers./216 346/Thanks./224/"
+		
+      }
+    },
+
+    {
+
+      "LogName": "Adrian Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Adrian, Portraits/Adrian",
+      "FromFile": "assets/{{Target}}/Adrian.png"
+
+    },
+
+    {
+
+      "LogName": "Adrian Sprites",
+      "Action": "Load",
+      "Target": "Characters/Adrian, Characters/Adrian",
+      "FromFile": "assets/{{Target}}/Adrian.png"
+
+    },
+
+    {
+
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Adrian",
+      "FromFile": "assets/Characters/Dialogue/Adrian dialogue/Dialogue.json"
+
+    },
+
+ 
+   {
+
+      
+            "Action": "EditData",
+            "Target": "Characters/schedules/Adrian",
+            "When": {
+                "HasSeenEvent": "9695001",
+                "HasMod": "Xiddav.LittleRedSchoolHouse"
+            },
+            "Entries": {
+                "Tue": "800 Custom_SchoolHouse 11 8 1 Adrian_Read/1130 Town 15 13 2/1250 Custom_SchoolHouse 11 8 1 Adrian_Read/1550 Town 24 13 2/1740 SeedShop 24 14 1 Adrian_PlayToys/2000 Custom_AdrianRoom 8 5 2 Adrian_Sleep",
+                "Wed": "GOTO Tue",
+                "Fri": "GOTO Tue"
+            }
+        },
+{
+
+      
+            "Action": "EditData",
+            "Target": "Characters/schedules/Adrian",
+             "When": { "CCR": true },
+            "Entries": {
+                 "Tue": "800 CommunityCenter 17 26 3/1400 Town 15 13 2/1550 Town 24 13 2/1740 SeedShop 24 14 1 Adrian_PlayToys/2000 Custom_AdrianRoom 8 5 2 Adrian_Sleep",
+	"Wed": "GOTO Tue",
+	"Fri": "GOTO Tue",
+            }
+        },
+    {
+
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Adrian",
+       "FromFile": "assets/Characters/schedules/Adrian/Schedule.json"
+
+    },       
+  {
+            "LogName": "Animations",
+            "Action": "EditData",
+            "Target": "Data/animationDescriptions",
+            "Entries": {
+                "Adrian_Read": "24/24/24",
+                "Adrian_Sleep": "24/24/24",
+                "Adrian_PlayToys": "18/19/19"
+       }
+            }
+
+  ]
+}
+		
+
+
+
+
+
+
+
+		

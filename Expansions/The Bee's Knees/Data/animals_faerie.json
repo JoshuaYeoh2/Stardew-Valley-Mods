@@ -1,0 +1,649 @@
+{
+  "Changes": [
+    {
+      "LogName": "Wildflour's Honeybees Animal Info",
+      "Action": "EditData",
+      "Target": "Data/FarmAnimals",
+      "Entries": {
+        "wildflour.honeybees_Honeybee": {
+          "DisplayName": "{{i18n:honeybees_Honeybee}}",
+          "House": "wildflour.honeybees_Apiary",
+          "Gender": "Female",
+          "PurchasePrice": 750,
+          "SellPrice": 1500,
+          "ShopTexture": "Mods/wildflour.honeybees/Icons",
+          "ShopSourceRect": {
+            "X": 0,
+            "Y": 0,
+            "Width": 32,
+            "Height": 16
+          },
+          "ShopDisplayName": "{{i18n: honeybees_Shop_Honeybee.name}}",
+          "ShopDescription": "{{i18n: honeybees_Shop_Honeybee.description}}",
+          "ShopMissingBuildingDescription": "[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5926]",
+          "RequiredBuilding": "wildflour.honeybees_Apiary",
+          "EggItemIds": [
+            "wildflour.honeybees_honeyegg"
+          ],
+          "IncubationTime": -1,
+          "IncubatorParentSheetOffset": 1,
+          "BirthText": "{{i18n:honeybees_Shop_Honeybee.birth}}",
+          "DaysToMature": 4,
+          "CanGetPregnant": false,
+          "DaysToProduce": 1,
+          "HarvestType": "DropOvernight",
+          "ProduceItemIds": [
+            {
+              "Id": "Default_Honeybee_Honeycomb",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.honeybees_honeycomb",
+            },
+            {
+              "Id": "Default_Honeybee_Honey",
+              "MinimumFriendship": 0,
+              "ItemId": "340",
+              "Condition": "RANDOM .1"
+            }
+          ],
+          "DeluxeProduceItemIds": [
+            
+            {
+              "Id": "Deluxe_Honeybee_MixedFlowerSeeds",
+              "MinimumFriendship": 0,
+              "ItemId": "MixedFlowerSeeds",
+              "Condition": "RANDOM .1",
+            },
+            {
+              "Id": "Deluxe_Honeybee_Tulip",
+              "MinimumFriendship": 0,
+              "ItemId": "591",
+              "Condition": "SEASON spring, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_Honeybee_Jazz",
+              "MinimumFriendship": 0,
+              "ItemId": "597",
+              "Condition": "SEASON spring, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_Honeybee_Poppy",
+              "MinimumFriendship": 0,
+              "ItemId": "376",
+              "Condition": "SEASON summer, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_Honeybee_Sunflower",
+              "MinimumFriendship": 0,
+              "ItemId": "421",
+              "Condition": "SEASON summer fall, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_Honeybee_FairyRose",
+              "MinimumFriendship": 0,
+              "ItemId": "595",
+              "Condition": "SEASON fall, RANDOM .1"
+            }
+
+          ],
+          "ProduceOnMature": false,
+          "FriendshipForFasterProduce": -1,
+          "DeluxeProduceMinimumFriendship": 200,
+          "DeluxeProduceCareDivisor": 1200.0,
+          "DeluxeProduceLuckMultiplier": 0.0,
+          "ProfessionForHappinessBoost": 2,
+          "ProfessionForQualityBoost": 2,
+          "ProfessionForFasterProduce": -1,
+          "Texture": "Mods/wildflour.honeybees/Honeybee",
+          "UseFlippedRightForLeft": true,
+          "SpriteWidth": 16,
+          "SpriteHeight": 16,
+          "EmoteOffset": {
+            "X": 0,
+            "Y": -16
+          },
+          "Skins": [],
+          "CanSwim": false,
+          "BabiesFollowAdults": true,
+          "GrassEatAmount": 3,
+          "HappinessDrain": 6,
+          "UpDownPetHitboxTileSize": "1, 1",
+          "LeftRightPetHitboxTileSize": "1, 1",
+          "BabyUpDownPetHitboxTileSize": "1, 1",
+          "BabyLeftRightPetHitboxTileSize": "1, 1",
+          "ShowInSummitCredits": true,
+          "CustomFields": {}
+        },
+        "wildflour.honeybees_Honeybee_Void": {
+          "DisplayName": "{{i18n:honeybees_Honeybee_Void}}",
+          "House": "wildflour.honeybees_Apiary",
+          "Gender": "Female",
+          "PurchasePrice": 600,
+          "SellPrice": 1200,
+          "ShopTexture": "Mods/wildflour.honeybees/Icons",
+          "ShopSourceRect": {
+            "X": 64,
+            "Y": 0,
+            "Width": 32,
+            "Height": 16
+          },
+          "ShopDisplayName": "{{i18n: honeybees_Shop_Honeybee_Void.name}}",
+          "ShopDescription": "{{i18n: honeybees_Shop_Honeybee_Void.description}}",
+          "ShopMissingBuildingDescription": "[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5940]",
+          "RequiredBuilding": "wildflour.honeybees_Apiary",
+          "EggItemIds": [
+            "wildflour.honeybees_void_honeyegg"
+          ],
+          "IncubationTime": -1,
+          "IncubatorParentSheetOffset": 1,
+          "BirthText": "{{i18n:honeybees_Shop_Honeybee_Void.birth}}",
+          "DaysToMature": 5,
+          "CanGetPregnant": false,
+          "DaysToProduce": 1,
+          "HarvestType": "DropOvernight",
+          "ProduceItemIds": [
+            {
+              "Id": "Default_HoneybeeVoid_Honeycomb",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.honeybees_honeycomb"
+            },
+            {
+              "Id": "Default_HoneybeeVoid_Honey",
+              "MinimumFriendship": 0,
+              "ItemId": "340",
+              "Condition": "RANDOM .1"
+            }
+          ],
+          "DeluxeProduceItemIds": [
+            {
+              "Id": "Deluxe_HoneybeeVoid_Yarrow",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_yarrow",
+			        "Condition": "SEASON spring, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeVoid_Valerian",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_valerian",
+			        "Condition": "SEASON summer, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeVoid_Mugwort",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_mugwort",
+			        "Condition": "SEASON summer, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeVoid_Mandrake",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_mandrake",
+			        "Condition": "SEASON fall, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeVoid_Thistle",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_thistle",
+              "Condition": "SEASON fall, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeVoid_RoseFlax",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_rose_flax",
+              "Condition": "SEASON spring, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeVoid_VioletFlax",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_violet_flax",
+              "Condition": "SEASON fall, RANDOM .1"
+            }
+          ],
+          "ProduceOnMature": false,
+          "FriendshipForFasterProduce": -1,
+          "DeluxeProduceMinimumFriendship": 200,
+          "DeluxeProduceCareDivisor": 1200.0,
+          "DeluxeProduceLuckMultiplier": 0.0,
+          "ProfessionForHappinessBoost": 2,
+          "ProfessionForQualityBoost": 2,
+          "ProfessionForFasterProduce": -1,
+          "Texture": "Mods/wildflour.honeybees/Honeybee_void",
+          "UseFlippedRightForLeft": true,
+          "SpriteWidth": 16,
+          "SpriteHeight": 16,
+          "EmoteOffset": {
+            "X": 0,
+            "Y": -16
+          },
+          "Skins": [],
+          "CanSwim": false,
+          "BabiesFollowAdults": true,
+          "GrassEatAmount": 2,
+          "HappinessDrain": 5,
+          "UpDownPetHitboxTileSize": "1, 1",
+          "LeftRightPetHitboxTileSize": "1, 1",
+          "BabyUpDownPetHitboxTileSize": "1, 1",
+          "BabyLeftRightPetHitboxTileSize": "1, 1",
+          "ShowInSummitCredits": true,
+          "CustomFields": {}
+        },
+        "wildflour.honeybees_Honeybee_Golden": {
+          "DisplayName": "{{i18n:honeybees_Honeybee_Golden}}",
+          "House": "wildflour.honeybees_Apiary",
+          "Gender": "Female",
+          "PurchasePrice": 2000,
+          "SellPrice": 4000,
+          "ShopTexture": "Mods/wildflour.honeybees/Icons",
+          "ShopSourceRect": {
+            "X": 32,
+            "Y": 0,
+            "Width": 32,
+            "Height": 16
+          },
+          "ShopDisplayName": "{{i18n: honeybees_Shop_Honeybee_Golden.name}}",
+          "ShopDescription": "{{i18n: honeybees_Shop_Honeybee_Golden.description}}",
+          "ShopMissingBuildingDescription": "[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5940]",
+          "RequiredBuilding": "wildflour.honeybees_Apiary",
+          "EggItemIds": [
+            "wildflour.honeybees_golden_honeyegg"
+          ],
+          "IncubationTime": -1,
+          "IncubatorParentSheetOffset": 1,
+          "BirthText": "{{i18n:honeybees_Shop_Honeybee_Golden.birth}}",
+          "DaysToMature": 4,
+          "CanGetPregnant": false,
+          "DaysToProduce": 1,
+          "HarvestType": "DropOvernight",
+          "ProduceItemIds": [
+            {
+              "Id": "Default_HoneybeeGolden_Honeycomb",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.honeybees_honeycomb",
+            },
+            {
+              "Id": "Default_HoneybeeGolden_Honey",
+              "MinimumFriendship": 0,
+              "ItemId": "340",
+              "Condition": "RANDOM .1"
+            }
+          ],
+          "DeluxeProduceItemIds": [
+            {
+              "Id": "Deluxe_HoneybeeGolden_AmberMoondrop",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_amber_moondrop",
+			        "Condition": "SEASON spring, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeGolden_JadeMoondrop",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_jade_moondrop",
+			        "Condition": "SEASON summer, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeGolden_LapisMoondrop",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_lapis_moondrop",
+			        "Condition": "SEASON summer, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeGolden_PearlMoondrop",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_pearl_moondrop",
+			        "Condition": "SEASON spring, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeGolden_Apple",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_apple",
+			        "Condition": "SEASON spring, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeGolden_Apricot",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_apricot",
+			        "Condition": "SEASON fall, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeGolden_Banana",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_banana",
+			        "Condition": "SEASON winter, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeGolden_Cherry",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_cherry",
+			        "Condition": "SEASON fall, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeGolden_Elderberries",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_elderberries",
+			        "Condition": "SEASON fall, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeGolden_Mango",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_mango",
+			        "Condition": "SEASON winter, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeGolden_Orange",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_orange",
+			        "Condition": "SEASON winter, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeGolden_Peach",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_peach",
+			        "Condition": "SEASON winter, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeGolden_Pomegranate",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_pomegranate",
+			        "Condition": "SEASON spring, RANDOM .1"
+            }
+          ],
+          "ProduceOnMature": false,
+          "FriendshipForFasterProduce": -1,
+          "DeluxeProduceMinimumFriendship": 200,
+          "DeluxeProduceCareDivisor": 1200.0,
+          "DeluxeProduceLuckMultiplier": 0.0,
+          "ProfessionForHappinessBoost": 2,
+          "ProfessionForQualityBoost": 2,
+          "ProfessionForFasterProduce": -1,
+          "Texture": "Mods/wildflour.honeybees/Honeybee_Golden",
+          "UseFlippedRightForLeft": true,
+          "SpriteWidth": 16,
+          "SpriteHeight": 16,
+          "EmoteOffset": {
+            "X": 0,
+            "Y": -16
+          },
+          "Skins": [],
+          "CanSwim": false,
+          "BabiesFollowAdults": true,
+          "GrassEatAmount": 3,
+          "HappinessDrain": 5,
+          "UpDownPetHitboxTileSize": "1, 1",
+          "LeftRightPetHitboxTileSize": "1, 1",
+          "BabyUpDownPetHitboxTileSize": "1, 1",
+          "BabyLeftRightPetHitboxTileSize": "1, 1",
+          "ShowInSummitCredits": true,
+          "CustomFields": {}
+        },
+        "wildflour.honeybees_Honeybee_Faerie": {
+          "DisplayName": "{{i18n:honeybees_Honeybee_Faerie}}",
+          "House": "wildflour.honeybees_Apiary",
+          "Gender": "Female",
+          "PurchasePrice": 4000,
+          "SellPrice": 8000,
+          "ShopTexture": "Mods/wildflour.honeybees/Icons",
+          "ShopSourceRect": {
+            "X": 96,
+            "Y": 0,
+            "Width": 32,
+            "Height": 16
+          },
+          "ShopDisplayName": "{{i18n: honeybees_Shop_Honeybee_Faerie.name}}",
+          "ShopDescription": "{{i18n: honeybees_Shop_Honeybee_Faerie.description}}",
+          "ShopMissingBuildingDescription": "[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5947]",
+          "RequiredBuilding": "wildflour.honeybees_Apiary",
+          "EggItemIds": [
+            "wildflour.honeybees_faerie_honeyegg"
+          ],
+          "IncubationTime": -1,
+          "IncubatorParentSheetOffset": 1,
+          "BirthText": "{{i18n:honeybees_Shop_Honeybee_Faerie.birth}}",
+          "DaysToMature": 4,
+          "CanGetPregnant": false,
+          "DaysToProduce": 1,
+          "HarvestType": "DropOvernight",
+          "ProduceItemIds": [
+            {
+              "Id": "Default_HoneybeeFaerie_Honeycomb",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.honeybees_honeycomb",
+            },
+            {
+              "Id": "Default_HoneybeeFaerie_Honey",
+              "MinimumFriendship": 0,
+              "ItemId": "340",
+              "Condition": "RANDOM .1"
+            }
+          ],
+          "DeluxeProduceItemIds": [
+            {
+              "Id": "Deluxe_HoneybeeFaerie_arctic_fox",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_arctic_fox",
+			        "Condition": "SEASON summer, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeFaerie_Avalune",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_avalune",
+              "Condition": "SEASON summer, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeFaerie_Puffball",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_puffball",
+              "Condition": "SEASON spring, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeFaerie_Maiden",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_maiden",
+              "Condition": "SEASON spring, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeFaerie_Geranium",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_geranium",
+              "Condition": "SEASON fall, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeFaerie_BlueChiffon",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_chiffon",
+			        "Condition": "SEASON fall, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeFaerie_Daisy",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_daisy",
+              "Condition": "SEASON spring, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeFaerie_DawnLily",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_dawn_lily",
+              "Condition": "SEASON summer, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeFaerie_DuskLily",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_dusk_lily",
+              "Condition": "SEASON summer, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeFaerie_Violet",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_violet",
+              "Condition": "SEASON spring, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeFaerie_Primrose",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_primrose",
+              "Condition": "SEASON spring, RANDOM .1"
+            }
+
+          ],
+          "ProduceOnMature": false,
+          "FriendshipForFasterProduce": -1,
+          "DeluxeProduceMinimumFriendship": 200,
+          "DeluxeProduceCareDivisor": 1200.0,
+          "DeluxeProduceLuckMultiplier": 0.0,
+          "ProfessionForHappinessBoost": 2,
+          "ProfessionForQualityBoost": 2,
+          "ProfessionForFasterProduce": -1,
+          "Texture": "Mods/wildflour.honeybees/Honeybee_faerie",
+          "UseFlippedRightForLeft": true,
+          "SpriteWidth": 16,
+          "SpriteHeight": 16,
+          "EmoteOffset": {
+            "X": 0,
+            "Y": -16
+          },
+          "Skins": [],
+          "CanSwim": false,
+          "BabiesFollowAdults": true,
+          "GrassEatAmount": 3,
+          "HappinessDrain": 5,
+          "UpDownPetHitboxTileSize": "1, 1",
+          "LeftRightPetHitboxTileSize": "1, 1",
+          "BabyUpDownPetHitboxTileSize": "1, 1",
+          "BabyLeftRightPetHitboxTileSize": "1, 1",
+          "ShowInSummitCredits": true,
+          "CustomFields": {}
+        },
+        "wildflour.honeybees_Honeybee_Sugar": {
+          "DisplayName": "{{i18n:honeybees_Honeybee_Sugar}}",
+          "House": "wildflour.honeybees_Apiary",
+          "Gender": "Female",
+          "PurchasePrice": 4000,
+          "SellPrice": 8000,
+          "ShopTexture": "Mods/wildflour.honeybees/Icons",
+          "ShopSourceRect": {
+            "X": 128,
+            "Y": 0,
+            "Width": 32,
+            "Height": 16
+          },
+          "ShopDisplayName": "{{i18n: honeybees_Shop_Honeybee_Sugar.name}}",
+          "ShopDescription": "{{i18n: honeybees_Shop_Honeybee_Sugar.description}}",
+          "ShopMissingBuildingDescription": "[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5947]",
+          "RequiredBuilding": "wildflour.honeybees_Apiary",
+          "EggItemIds": [
+            "wildflour.honeybees_sugar_honeyegg"
+          ],
+          "IncubationTime": -1,
+          "IncubatorParentSheetOffset": 1,
+          "BirthText": "{{i18n:honeybees_Shop_Honeybee_Sugar.birth}}",
+          "DaysToMature": 3,
+          "CanGetPregnant": false,
+          "DaysToProduce": 1,
+          "HarvestType": "DropOvernight",
+          "ProduceItemIds": [
+            {
+              "Id": "Default_HoneybeeSugar_Honeycomb",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.honeybees_honeycomb",
+            },
+            {
+              "Id": "Default_HoneybeeSugar_Honey",
+              "MinimumFriendship": 0,
+              "ItemId": "340",
+              "Condition": "RANDOM .1"
+            }
+          ],
+          "DeluxeProduceItemIds": [
+            {
+              "Id": "Deluxe_HoneybeeSugar_CakeBlossom",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_cake_blossom",
+			        "Condition": "SEASON spring, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeSugar_CaramelBlossom",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_caramel_blossom",
+              "Condition": "SEASON fall, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeSugar_CreamsicleBlossom",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_creamsicle_blossom",
+              "Condition": "SEASON summer, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeSugar_CustardBlossom",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_custard_blossom",
+              "Condition": "SEASON summer, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeSugar_GumdropBlossom",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_gumdrop_blossom",
+              "Condition": "SEASON winter, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeSugar_MacaronBlossom",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_macaron_blossom",
+              "Condition": "SEASON spring, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeSugar_PieBlossom",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_pie_blossom",
+              "Condition": "SEASON fall, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeSugar_ShortcakeBlossom",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_shortcake_blossom",
+			        "Condition": "SEASON summer, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeSugar_SprinkleBlossom",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_sprinkle_blossom",
+              "Condition": "SEASON winter, RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_HoneybeeSugar_SugarBlossom",
+              "MinimumFriendship": 0,
+              "ItemId": "wildflour.ateliercrops_sugar_blossom",
+              "Condition": "SEASON summer, RANDOM .1"
+            }
+
+          ],
+          "ProduceOnMature": false,
+          "FriendshipForFasterProduce": -1,
+          "DeluxeProduceMinimumFriendship": 200,
+          "DeluxeProduceCareDivisor": 1200.0,
+          "DeluxeProduceLuckMultiplier": 0.0,
+          "ProfessionForHappinessBoost": 2,
+          "ProfessionForQualityBoost": 2,
+          "ProfessionForFasterProduce": -1,
+          "Texture": "Mods/wildflour.honeybees/honeybee_sugar",
+          "UseFlippedRightForLeft": true,
+          "SpriteWidth": 16,
+          "SpriteHeight": 16,
+          "EmoteOffset": {
+            "X": 0,
+            "Y": -16
+          },
+          "Skins": [],
+          "CanSwim": false,
+          "BabiesFollowAdults": true,
+          "GrassEatAmount": 3,
+          "HappinessDrain": 5,
+          "UpDownPetHitboxTileSize": "1, 1",
+          "LeftRightPetHitboxTileSize": "1, 1",
+          "BabyUpDownPetHitboxTileSize": "1, 1",
+          "BabyLeftRightPetHitboxTileSize": "1, 1",
+          "ShowInSummitCredits": true,
+          "CustomFields": {}
+        }
+
+      }
+    }
+    
+  ]
+}

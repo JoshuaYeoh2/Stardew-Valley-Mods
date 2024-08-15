@@ -1,0 +1,272 @@
+{
+    "Changes": [
+
+        // AUDIO DATA
+        {
+            "LogName": "Mateo Theme",
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "SnS.MateoTheme": {
+                    "ID": "SnS.MateoTheme",
+                    "Category": "Music",
+                    "FilePaths": [ "{{AbsoluteFilePath: Assets/Music/MateoTheme.ogg}}" ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                }
+            }
+        },
+        {
+            "LogName": "Hector Theme",
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "SnS.HectorTheme": {
+                    "ID": "SnS.HectorTheme",
+                    "Category": "Music",
+                    "FilePaths": [ "{{AbsoluteFilePath: Assets/Music/HectorTheme.ogg}}" ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                }
+            }
+        },
+        {
+            "LogName": "Cirrus Theme",
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "SnS.CirrusTheme": {
+                    "ID": "SnS.CirrusTheme",
+                    "Category": "Music",
+                    "FilePaths": [ "{{AbsoluteFilePath: Assets/Music/CirrusTheme.ogg}}" ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                }
+            }
+        },
+        {
+            "LogName": "Cirrus' Keytar Solo'",
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "SnS.KeytarSolo": {
+                    "ID": "SnS.KeytarSolo",
+                    "Category": "Music",
+                    "FilePaths": [ "{{AbsoluteFilePath: Assets/Music/KeytarSolo.ogg}}" ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                }
+            }
+        },
+        {
+            "LogName": "Dandelion Theme",
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "SnS.DandelionTheme": {
+                    "ID": "SnS.DandelionTheme",
+                    "Category": "Music",
+                    "FilePaths": [ "{{AbsoluteFilePath: Assets/Music/DandelionTheme.ogg}}" ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                }
+            }
+        },
+        {
+            "LogName": "Roslin Theme",
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "SnS.RoslinTheme": {
+                    "ID": "SnS.RoslinTheme",
+                    "Category": "Music",
+                    "FilePaths": [ "{{AbsoluteFilePath: Assets/Music/RoslinTheme.ogg}}" ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                }
+            }
+        },
+        {
+            "LogName": "Lonely Theme",
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "SnS.LonelyTheme": {
+                    "ID": "SnS.LonelyTheme",
+                    "Category": "Music",
+                    "FilePaths": [ "{{AbsoluteFilePath: Assets/Music/LonelyTheme.ogg}}" ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                }
+            }
+        },
+        {
+            "LogName": "Lonely Theme: Reprise",
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "SnS.LonelyThemeReprise": {
+                    "ID": "SnS.LonelyThemeReprise",
+                    "Category": "Music",
+                    "FilePaths": [ "{{AbsoluteFilePath: Assets/Music/LonelyReprise.ogg}}" ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                }
+            }
+        },
+        {
+            "LogName": "Despair Theme",
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "SnS.DespairTheme": {
+                    "ID": "SnS.DespairTheme",
+                    "Category": "Music",
+                    "FilePaths": [ "{{AbsoluteFilePath: Assets/Music/DespairTheme.ogg}}" ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                }
+            }
+        },
+        {
+            "LogName": "Hope Theme",
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "SnS.HopeTheme": {
+                    "ID": "SnS.HopeTheme",
+                    "Category": "Music",
+                    "FilePaths": [ "{{AbsoluteFilePath: Assets/Music/HopeTheme.ogg}}" ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                }
+            }
+        },
+        {
+            "LogName": "Vulnerable Theme",
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "SnS.VulnerableTheme": {
+                    "ID": "SnS.VulnerableTheme",
+                    "Category": "Music",
+                    "FilePaths": [ "{{AbsoluteFilePath: Assets/Music/VulnerableTheme.ogg}}" ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                }
+            }
+        },
+
+        // JUKEBOX DATA 
+        {
+            "Action": "EditData",
+            "Target": "Data/JukeboxTracks",
+            "Entries": {
+                "SnS.MateoTheme": {
+                    "Name": "Mateo's Theme (Never Ending Adventure)",
+                    "Available": null
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/JukeboxTracks",
+            "Entries": {
+                "SnS.HectorTheme": {
+                    "Name": "{{TrueName}}'s Theme (Circle of Thorns)",
+                    "Available": null
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/JukeboxTracks",
+            "Entries": {
+                "SnS.CirrusTheme": {
+                    "Name": "Cirrus' Theme (Peace and Love on the Planet Earth)",
+                    "Available": null
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/JukeboxTracks",
+            "Entries": {
+                "SnS.KeytarSolo": {
+                    "Name": "Cirrus' Keytar Solo",
+                    "Available": null
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/JukeboxTracks",
+            "Entries": {
+                "SnS.DandelionTheme": {
+                    "Name": "Dandelion's Theme (Giant Woman)",
+                    "Available": null
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/JukeboxTracks",
+            "Entries": {
+                "SnS.RoslinTheme": {
+                    "Name": "Roslin's Theme (It's Over, Isn't It?)",
+                    "Available": null
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/JukeboxTracks",
+            "Entries": {
+                "SnS.LonelyTheme": {
+                    "Name": "S&S: Lonely Theme (To Zanarkand)",
+                    "Available": null
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/JukeboxTracks",
+            "Entries": {
+                "SnS.LonelyThemeReprise": {
+                    "Name": "S&S: Lonely Theme Reprised (To Zanarkand)",
+                    "Available": null
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/JukeboxTracks",
+            "Entries": {
+                "SnS.DespairTheme": {
+                    "Name": "S&S: Despair Theme",
+                    "Available": null
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/JukeboxTracks",
+            "Entries": {
+                "SnS.HopeTheme": {
+                    "Name": "S&S: Hope Theme",
+                    "Available": null
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/JukeboxTracks",
+            "Entries": {
+                "SnS.VulnerableTheme": {
+                    "Name": "S&S: Vulnerable Theme (Dearly Beloved)",
+                    "Available": null
+                }
+            }
+        }
+     ]
+}

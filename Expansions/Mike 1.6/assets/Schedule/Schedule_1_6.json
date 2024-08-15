@@ -1,0 +1,22 @@
+{
+  "Changes": [
+
+	{	
+		"Action": "EditData",
+		"Target": "Characters/schedules/Mike",
+		"Entries": {
+  "GreenRain": "610 Saloon 42 10 2 mike_read/1000 Saloon 38 18 0/1200 Saloon 26 18 2 mike_guitar/1600 Saloon 11 20 0/2200 Saloon 40 17 2/2400 Saloon 41 10 2 mike_sleep",
+		},
+		"When": {"HasMod |contains=FlashShifter.SVECode": false,},
+	},
+	{	
+		"Action": "EditData",
+		"Target": "Characters/schedules/Mike",
+		"Entries": {
+  "GreenRain": "610 Saloon 42 10 2 mike_read/1000 Saloon 38 18 0/1200 Saloon 26 18 2 mike_guitar/1600 Saloon 11 20 0/2200 Saloon 40 17 2/2400 Saloon 41 10 2 mike_sleep",
+		},
+		"When": {"HasMod |contains=FlashShifter.SVECode": true,},
+	},
+
+]
+}

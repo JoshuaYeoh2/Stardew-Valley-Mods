@@ -1,0 +1,23 @@
+{
+   "Name": "Vapius Coins Wallet Currency",
+   "Author": "DeLiXx",
+  "Version": "1.0.0",
+   "Description": "A tiny mod for turning Vapius Coins into a wallet currency",
+   "UniqueID": "DLX.VMVCoins",
+   "MinimumApiVersion": "4.0.0",
+   "UpdateKeys": ["Nexus:26230"],
+   "ContentPackFor": {
+	  "UniqueID": "Pathoschild.ContentPatcher",
+	  "MinimumVersion": "2.0.0"
+   },
+   "Dependencies": [
+	   {
+		  "UniqueID": "Lumisteria.MtVapius",
+		  "IsRequired": true
+	   },
+	   {
+		  "UniqueID": "DLX.Bundles",
+		  "IsRequired": true
+	   },
+	]
+}

@@ -1,0 +1,479 @@
+{
+	"Changes": [
+
+		//=======================
+		//     Ridge Cherry
+		//=======================
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"Priority": "Late",
+			"TargetField": [
+				"RSVJericShop",
+				"Items"
+			],
+			"Entries": {
+				"ZoeyHoshi.RSVForageCrop_RidgeCherrySapling": {
+					"RandomItemId": [
+						"(O)ZoeyHoshi.RSVForageCrop_RidgeCherrySapling"
+					],
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStock": 2,
+					"AvailableStockLimit": "Global",
+					"Condition": "SEASON spring"
+				}
+			}
+		},
+
+		//=======================
+		//   Mountain Arugula
+		//=======================
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"Priority": "Late",
+			"TargetField": [
+				"RSVJericShop",
+				"Items"
+			],
+			"Entries": {
+				"ZoeyHoshi.RSVForageCrop_MountainArugulaSeeds": {
+					"RandomItemId": [
+						"(O)ZoeyHoshi.RSVForageCrop_MountainArugulaSeeds"
+					],
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStock": 5,
+					"AvailableStockLimit": "Player",
+					"Condition": "SEASON spring"
+				}
+			}
+		},
+
+		//=======================
+		// Ridge Azorean Flower
+		//=======================
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"Priority": "Late",
+			"TargetField": [
+				"RSVJericShop",
+				"Items"
+			],
+			"Entries": {
+				"ZoeyHoshi.RSVForageCrop_RidgeAzoreanFlowerSeeds": {
+					"RandomItemId": [
+						"(O)ZoeyHoshi.RSVForageCrop_RidgeAzoreanFlowerSeeds"
+					],
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStock": 5,
+					"AvailableStockLimit": "Player",
+					"Condition": "SEASON spring"
+				}
+			}
+		},
+
+		//=======================
+		// Ridgeside Monkshood
+		//=======================
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"Priority": "Late",
+			"TargetField": [
+				"RSVJericShop",
+				"Items"
+			],
+			"Entries": {
+				"ZoeyHoshi.RSVForageCrop_RidgesideMonkshoodSeeds": {
+					"RandomItemId": [
+						"(O)ZoeyHoshi.RSVForageCrop_RidgesideMonkshoodSeeds"
+					],
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStock": 5,
+					"AvailableStockLimit": "Player",
+					"Condition": "SEASON spring"
+				}
+			}
+		},
+
+		//=======================
+		//    Mountain Chico
+		//=======================
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"Priority": "Late",
+			"TargetField": [
+				"RSVJericShop",
+				"Items"
+			],
+			"Entries": {
+				"ZoeyHoshi.RSVForageCrop_MountainChicoSapling": {
+					"RandomItemId": [
+						"(O)ZoeyHoshi.RSVForageCrop_MountainChicoSapling"
+					],
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStock": 2,
+					"AvailableStockLimit": "Global",
+					"Condition": "SEASON summer"
+				}
+			}
+		},
+
+		//=======================
+		//   Ridge Wild Apple
+		//=======================
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"Priority": "Late",
+			"TargetField": [
+				"RSVJericShop",
+				"Items"
+			],
+			"Entries": {
+				"ZoeyHoshi.RSVForageCrop_RidgeWildAppleSapling": {
+					"RandomItemId": [
+						"(O)ZoeyHoshi.RSVForageCrop_RidgeWildAppleSapling"
+					],
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStock": 2,
+					"AvailableStockLimit": "Global",
+					"Condition": "SEASON summer"
+				}
+			}
+		},
+
+		//=======================
+		//    Forest Amancay
+		//=======================
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"Priority": "Late",
+			"TargetField": [
+				"RSVJericShop",
+				"Items"
+			],
+			"Entries": {
+				"ZoeyHoshi.RSVForageCrop_ForestAmancaySeeds": {
+					"RandomItemId": [
+						"(O)ZoeyHoshi.RSVForageCrop_ForestAmancaySeeds"
+					],
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStock": 5,
+					"AvailableStockLimit": "Player",
+					"Condition": "SEASON summer"
+				}
+			}
+		},
+
+		//=======================
+		//  Mountain Hokkaido
+		//=======================
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"Priority": "Late",
+			"TargetField": [
+				"RSVJericShop",
+				"Items"
+			],
+			"Entries": {
+				"ZoeyHoshi.RSVForageCrop_MountainHokkaidoSeeds": {
+					"RandomItemId": [
+						"(O)ZoeyHoshi.RSVForageCrop_MountainHokkaidoSeeds"
+					],
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStock": 5,
+					"AvailableStockLimit": "Player",
+					"Condition": "SEASON summer"
+				}
+			}
+		},
+
+		//=======================
+		//  Violet Devil's Claw
+		//=======================
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"Priority": "Late",
+			"TargetField": [
+				"RSVJericShop",
+				"Items"
+			],
+			"Entries": {
+				"ZoeyHoshi.RSVForageCrop_VioletDevilsClawSeeds": {
+					"RandomItemId": [
+						"(O)ZoeyHoshi.RSVForageCrop_VioletDevilsClawSeeds"
+					],
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStock": 5,
+					"AvailableStockLimit": "Player",
+					"Condition": "SEASON summer"
+				}
+			}
+		},
+
+		//=======================
+		//  Autumn Drop Berry
+		//=======================
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"Priority": "Late",
+			"TargetField": [
+				"RSVJericShop",
+				"Items"
+			],
+			"Entries": {
+				"ZoeyHoshi.RSVForageCrop_AutumnDropBerrySeeds": {
+					"RandomItemId": [
+						"(O)ZoeyHoshi.RSVForageCrop_AutumnDropBerrySeeds"
+					],
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStock": 5,
+					"AvailableStockLimit": "Player",
+					"Condition": "SEASON fall"
+				}
+			}
+		},
+
+		//=======================
+		//   Highland Chard
+		//=======================
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"Priority": "Late",
+			"TargetField": [
+				"RSVJericShop",
+				"Items"
+			],
+			"Entries": {
+				"ZoeyHoshi.RSVForageCrop_HighlandChardSeeds": {
+					"RandomItemId": [
+						"(O)ZoeyHoshi.RSVForageCrop_HighlandChardSeeds"
+					],
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStock": 5,
+					"AvailableStockLimit": "Player",
+					"Condition": "SEASON fall"
+				}
+			}
+		},
+
+		//=======================
+		//      Lava Lily
+		//=======================
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"Priority": "Late",
+			"TargetField": [
+				"RSVJericShop",
+				"Items"
+			],
+			"Entries": {
+				"ZoeyHoshi.RSVForageCrop_LavaLilySeeds": {
+					"RandomItemId": [
+						"(O)ZoeyHoshi.RSVForageCrop_LavaLilySeeds"
+					],
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStock": 5,
+					"AvailableStockLimit": "Player",
+					"Condition": "SEASON fall"
+				}
+			}
+		},
+
+		//=======================
+		//   Summit Snowbell
+		//=======================
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"Priority": "Late",
+			"TargetField": [
+				"RSVJericShop",
+				"Items"
+			],
+			"Entries": {
+				"ZoeyHoshi.RSVForageCrop_SummitSnowbellSeeds": {
+					"RandomItemId": [
+						"(O)ZoeyHoshi.RSVForageCrop_SummitSnowbellSeeds"
+					],
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStock": 5,
+					"AvailableStockLimit": "Player",
+					"Condition": "SEASON fall"
+				}
+			}
+		},
+
+		//=======================
+		// Highland Butterwort
+		//=======================
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"Priority": "Late",
+			"TargetField": [
+				"RSVJericShop",
+				"Items"
+			],
+			"Entries": {
+				"ZoeyHoshi.RSVForageCrop_HighlandButterwortSeeds": {
+					"RandomItemId": [
+						"(O)ZoeyHoshi.RSVForageCrop_HighlandButterwortSeeds"
+					],
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStock": 5,
+					"AvailableStockLimit": "Player",
+					"Condition": "SEASON fall"
+				}
+			}
+		},
+
+		//=======================
+		//  Frost Clump Berry
+		//=======================
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"Priority": "Late",
+			"TargetField": [
+				"RSVJericShop",
+				"Items"
+			],
+			"Entries": {
+				"ZoeyHoshi.RSVForageCrop_FrostClumpBerrySeeds": {
+					"RandomItemId": [
+						"(O)ZoeyHoshi.RSVForageCrop_FrostClumpBerrySeeds"
+					],
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStock": 5,
+					"AvailableStockLimit": "Player",
+					"Condition": "SEASON winter"
+				}
+			}
+		},
+
+		//=======================
+		//   Aurorean Iris
+		//=======================
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"Priority": "Late",
+			"TargetField": [
+				"RSVJericShop",
+				"Items"
+			],
+			"Entries": {
+				"ZoeyHoshi.RSVForageCrop_AuroreanIrisSeeds": {
+					"RandomItemId": [
+						"(O)ZoeyHoshi.RSVForageCrop_AuroreanIrisSeeds"
+					],
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStock": 5,
+					"AvailableStockLimit": "Player",
+					"Condition": "SEASON winter"
+				}
+			}
+		},
+
+		//=======================
+		//  Sierra Wintergreen
+		//=======================
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"Priority": "Late",
+			"TargetField": [
+				"RSVJericShop",
+				"Items"
+			],
+			"Entries": {
+				"ZoeyHoshi.RSVForageCrop_SierraWintergreenSeeds": {
+					"RandomItemId": [
+						"(O)ZoeyHoshi.RSVForageCrop_SierraWintergreenSeeds"
+					],
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStock": 5,
+					"AvailableStockLimit": "Player",
+					"Condition": "SEASON winter"
+				}
+			}
+		},
+
+		//=======================
+		//  Sierra Wintergreen
+		//=======================
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"Priority": "Late",
+			"TargetField": [
+				"RSVJericShop",
+				"Items"
+			],
+			"Entries": {
+				"ZoeyHoshi.RSVForageCrop_RidgesideClementineSapling": {
+					"RandomItemId": [
+						"(O)ZoeyHoshi.RSVForageCrop_RidgesideClementineSapling"
+					],
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStock": 2,
+					"AvailableStockLimit": "Player",
+					"Condition": "SEASON winter"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"Priority": "Late",
+			"TargetField": [
+				"ShadowShop",
+				"Items"
+			],
+			"Entries": {
+				"ZoeyHoshi.RSVForageCrop_MountainMistbloomSeeds": {
+					"Id": "ZoeyHoshi.RSVForageCrop_MountainMistbloomSeeds",
+					"ItemId": "(O)ZoeyHoshi.RSVForageCrop_MountainMistbloomSeeds",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"Condition": "DAY_OF_WEEK Friday"
+				}
+			},
+			"When": {
+				"Relationship:Daia": "Friendly",
+				"EasyMountainMistbloom": false
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"Priority": "Late",
+			"TargetField": [
+				"ShadowShop",
+				"Items"
+			],
+			"Entries": {
+				"ZoeyHoshi.RSVForageCrop_MountainMistbloomSeedsEasy": {
+					"Id": "ZoeyHoshi.RSVForageCrop_MountainMistbloomSeeds",
+					"ItemId": "(O)ZoeyHoshi.RSVForageCrop_MountainMistbloomSeeds",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"Condition": "DAY_OF_WEEK Friday"
+				}
+			},
+			"When": {
+				"EasyMountainMistbloom": true
+			}
+		}
+	]
+}

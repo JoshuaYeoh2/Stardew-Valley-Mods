@@ -1,0 +1,1100 @@
+{
+  "Format": "2.0",
+  "Changes": [ 
+    {               
+     "Action": "Include",
+     "FromFile": "data/Objects.json",
+    },
+    { 
+      "Action": "EditData",
+      "Target": "Data/Fish",
+      "Entries": {
+	"{{ModId}}_Beryl_Conch": "Beryl Conch/trap/.15/681 .35/ocean/1/6",
+        "{{ModId}}_Abiding_Angelfish": "Abiding Angelfish/40/floater/2/7/600 1300/spring/both/689 .4 680 .1/2/.2/.1/0",
+        "{{ModId}}_Aizen_Medaka": "Aizen Medaka/10/mixed/2/5/600 1300/winter/both/689 .4 680 .1/2/.4/.1/0",
+        "{{ModId}}_Bitter_Pufferfish": "Bitter Pufferfish/40/floater/8/11/1300 1900/spring/both/689 .4 680 .1/3/.3/.1/0",
+        "{{ModId}}_Brown_Pufferfish": "Brown Pufferfish/40/floater/8/11/1300 1900/fall/both/689 .4 680 .1/3/.3/.1/0",
+        "{{ModId}}_Brown_Shirakodai": "Brown Shirakodai/10/smooth/2/5/800 1400/fall/both/689 .4 680 .1/2/.5/.1/0",
+        "{{ModId}}_Tidalga": "Tidalga/trap/.15/681 .35/ocean/1/6",
+        "{{ModId}}_Glaze_Medaka": "Glaze Medaka/10/mixed/2/5/600 1300/winter/both/689 .4 680 .1/2/.4/.1/0",
+        "{{ModId}}_Golden_Koi": "Golden Koi/30/smooth/14/40/600 1200/summer fall/sunny/689 .4 680 .1/2/.2/.1/0",
+        "{{ModId}}_Halcyon_Jade_Axe_Marlin": "Jalcyon Jade Axe Marlin/10/smooth/1/1/700 1300/spring/both/689 .4 680 .1/2/.4/.1/0",
+        "{{ModId}}_Lazurite_Axe_Marlin": "Lazurite Axe Marlin/10/smooth/1/1/700 1300/winter/both/689 .4 680 .1/2/.4/.1/0",
+        "{{ModId}}_Medaka": "Medaka/10/mixed/2/5/600 1300/fall/both/689 .4 680 .1/2/.4/.1/0",
+        "{{ModId}}_Peach_Angler": "Peach Angler/50/floater/5/10/1400 2000/summer/both/689 .4 680 .1/4/.2/.1/0",
+        "{{ModId}}_Purple_Shirakodai": "Purple Shirakodai/10/smooth/2/5/600 1800/winter/both/689 .4 680 .1/2/.5/.1/0",
+        "{{ModId}}_Rusty_Koi": "Rusty Koi/30/smooth/14/40/600 1200/winter/both/689 .4 680 .1/2/.2/.1/0",
+        "{{ModId}}_Sandstorm_Angler": "Sandstorm Angler/10/floater/5/10/1400 2000/fall/both/689 .4 680 .1/4/.3/.1/0",
+        "{{ModId}}_Sunset_Cloud_Angler": "Sunset Cloud Angler/10/floater/5/10/1400 2000/spring/both/689 .4 680 .1/4/.3/.1/0",
+        "{{ModId}}_Sweet_Flower_Medaka": "Sweet-Flower Medaka/10/mixed/2/5/600 1300/spring/both/689 .4 680 .1/2/.4/.1/0",
+        "{{ModId}}_Tea_Colored_Shirakodai": "Tea-Colored Shirakodai/10/smooth/2/5/800 1400/spring/both/689 .4 680 .1/2/.5/.1/0",
+        "{{ModId}}_True_Fruit_Angler": "True Fruit Angler/10/floater/5/10/1400 2000/spring/both/689 .4 680 .1/4/.3/.1/0"
+      }
+    },
+{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Beach",
+				"Fish"
+			],
+			"Entries": {
+                "{{ModId}}_Bitter_Pufferfish": {
+                    "Id": "{{ModId}}_Bitter_Pufferfish",
+                    "ItemId": "(O){{ModId}}_Bitter_Pufferfish",
+                    "Condition": "LOCATION_SEASON Here spring",
+
+                }, "{{ModId}}_Brown_Pufferfish": {
+                    "Id": "{{ModId}}_Brown_Pufferfish",
+                    "ItemId": "(O){{ModId}}_Brown_Pufferfish",
+                    "Condition": "LOCATION_SEASON Here fall",
+
+                }, "{{ModId}}_Halcyon_Jade_Axe_Marlin": {
+                    "Id": "{{ModId}}_Halcyon_Jade_Axe_Marlin",
+                    "ItemId": "(O){{ModId}}_Halcyon_Jade_Axe_Marlin",
+                    "Condition": "LOCATION_SEASON Here spring",
+
+                }, "{{ModId}}_Lazurite_Axe_Marlin": {
+                    "Id": "{{ModId}}_Lazurite_Axe_Marlin",
+                    "ItemId": "(O){{ModId}}_Lazurite_Axe_Marlin",
+                    "Condition": "LOCATION_SEASON Here spring winter",
+
+                }, "{{ModId}}_Peach_Angler": {
+                    "Id": "{{ModId}}_Peach_Angler",
+                    "ItemId": "(O){{ModId}}_Peach_Angler",
+                    "Condition": "LOCATION_SEASON Here summer",
+
+                }, "{{ModId}}_Sandstorm_Angler": {
+                    "Id": "{{ModId}}_Sandstorm_Angler",
+                    "ItemId": "(O){{ModId}}_Sandstorm_Angler",
+                    "Condition": "LOCATION_SEASON Here fall",
+
+                }, "{{ModId}}_Sunset_Cloud_Angler": {
+                    "Id": "{{ModId}}_Sunset_Cloud_Angler",
+                    "ItemId": "(O){{ModId}}_Sunset_Cloud_Angler",
+                    "Condition": "LOCATION_SEASON Here spring",
+
+                }, "{{ModId}}_True_Fruit_Angler": {
+                    "Id": "{{ModId}}_True_Fruit_Angler",
+                    "ItemId": "(O){{ModId}}_True_Fruit_Angler",
+                    "Condition": "LOCATION_SEASON Here spring",
+                }, 
+            },
+        },
+             {
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Forest",
+				"Fish"
+			],
+			"Entries": {
+                "{{ModId}}_Aizen_Medaka": {
+                    "Id": "{{ModId}}_Aizen_Medaka",
+                    "ItemId": "(O){{ModId}}_Aizen_Medaka",
+                    "Condition": "LOCATION_SEASON Here winter",
+
+                }, "{{ModId}}_Glaze_Medaka": {
+                    "Id": "{{ModId}}_Glaze_Medaka",
+                    "ItemId": "(O){{ModId}}_Glaze_Medaka",
+                    "Condition": "LOCATION_SEASON Here winter",
+
+                }, "{{ModId}}_Medaka": {
+                    "Id": "{{ModId}}_Medaka",
+                    "ItemId": "(O){{ModId}}_Medaka",
+                    "Condition": "LOCATION_SEASON Here spring fall",
+
+                }, "{{ModId}}_Sweet_Flower_Medaka": {
+                    "Id": "{{ModId}}_Sweet_Flower_Medaka",
+                    "ItemId": "(O){{ModId}}_Sweet_Flower_Medaka",
+                    "Condition": "LOCATION_SEASON Here spring",
+                }, 
+            },
+        },
+     {
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Woods",
+				"Fish"
+			],
+			"Entries": {
+                "{{ModId}}_Abiding_Angelfish": {
+                    "Id": "{{ModId}}_Abiding_Angelfish",
+                    "ItemId": "(O){{ModId}}_Abiding_Angelfish",
+                    "Condition": "LOCATION_SEASON Here spring",
+
+                }, "{{ModId}}_Golden_Koi": {
+                    "Id": "{{ModId}}_Golden_Koi",
+                    "ItemId": "(O){{ModId}}_Golden_Koi",
+                    "Condition": "LOCATION_SEASON Here summer fall",
+
+                }, "{{ModId}}_Rusty_Koi": {
+                    "Id": "{{ModId}}_Rusty_Koi",
+                    "ItemId": "(O){{ModId}}_Rusty_Koi",
+                    "Condition": "LOCATION_SEASON Here winter",
+                }, 
+            },
+        },
+    {
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"IslandSouth",
+				"Fish"
+			],
+			"Entries": {
+                "{{ModId}}_Brown_Shirakodai": {
+                    "Id": "{{ModId}}_Brown_Shirakodai",
+                    "ItemId": "(O){{ModId}}_Brown_Shirakodai",
+                    "Condition": "LOCATION_SEASON Here fall",
+
+                }, "{{ModId}}_Purple_Shirakodai": {
+                    "Id": "{{ModId}}_Purple_Shirakodai",
+                    "ItemId": "(O){{ModId}}_Purple_Shirakodai",
+                    "Condition": "LOCATION_SEASON Here winter",
+
+                }, "{{ModId}}_Tea_Colored_Shirakodai": {
+                    "Id": "{{ModId}}_Tea_Colored_Shirakodai",
+                    "ItemId": "(O){{ModId}}_Tea_Colored_Shirakodai",
+                    "Condition": "LOCATION_SEASON Here spring",
+
+                }, "{{ModId}}_Sweet_Flower_Medaka": {
+                    "Id": "{{ModId}}_Sweet_Flower_Medaka",
+                    "ItemId": "(O){{ModId}}_Sweet_Flower_Medaka",
+                    "Condition": "LOCATION_SEASON Here spring",
+                }, 
+            },
+        },
+    { ///Abiding Angelfish
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+        "fish_abiding_angelfish": {
+          "RequiredTags": [
+            "fish_abiding_angelfish"
+          ],
+          "SpawnTime": -1,
+          "ProducedItems": [
+            {
+              "RequiredPopulation": 9,
+              "Chance": 0.02,
+              "ItemID": 797,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            },
+            {
+              "RequiredPopulation": 6,
+              "Chance": 0.01,
+              "ItemID": 166,
+              "MinQuantity": 1,
+              "MaxQuantity": 3
+            },
+            {
+              "RequiredPopulation": 5,
+              "Chance": 0.01,
+              "ItemID": 203,
+              "MinQuantity": 1,
+              "MaxQuantity": 5
+            },
+            {
+              "RequiredPopulation": 0,
+              "Chance": 0.7,
+              "ItemID": 812,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
+          ],
+          "PopulationGates": {
+            "4": [
+              "153 5"
+            ],
+            "7": [
+              "221 1"
+            ]
+          }
+        }
+      }
+    },
+    { ///Aizen Medaka
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+        "fish_aizen_medaka": {
+          "RequiredTags": [
+            "fish_aizen_medaka"
+          ],
+          "SpawnTime": -1,
+          "ProducedItems": [
+            {
+              "RequiredPopulation": 9,
+              "Chance": 0.02,
+              "ItemID": 797,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            },
+            {
+              "RequiredPopulation": 6,
+              "Chance": 0.01,
+              "ItemID": 166,
+              "MinQuantity": 1,
+              "MaxQuantity": 3
+            },
+            {
+              "RequiredPopulation": 5,
+              "Chance": 0.01,
+              "ItemID": 203,
+              "MinQuantity": 1,
+              "MaxQuantity": 5
+            },
+            {
+              "RequiredPopulation": 0,
+              "Chance": 0.7,
+              "ItemID": 812,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
+          ],
+          "PopulationGates": {
+            "4": [
+              "416 3"
+            ],
+            "7": [
+              "84 3"
+            ]
+          }
+        }
+      }
+    },
+    { ///Bitter Pufferfish
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+        "fish_bitter_pufferfish": {
+          "RequiredTags": [
+            "fish_bitter_pufferfish"
+          ],
+          "SpawnTime": -1,
+          "ProducedItems": [
+            {
+              "RequiredPopulation": 9,
+              "Chance": 0.02,
+              "ItemID": 797,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            },
+            {
+              "RequiredPopulation": 6,
+              "Chance": 0.01,
+              "ItemID": 166,
+              "MinQuantity": 1,
+              "MaxQuantity": 3
+            },
+            {
+              "RequiredPopulation": 5,
+              "Chance": 0.01,
+              "ItemID": 203,
+              "MinQuantity": 1,
+              "MaxQuantity": 5
+            },
+            {
+              "RequiredPopulation": 0,
+              "Chance": 0.7,
+              "ItemID": 812,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
+          ],
+          "PopulationGates": {
+            "4": [
+              "815 3"
+            ],
+            "7": [
+              "614 1"
+            ]
+          }
+        }
+      }
+    },
+    { ///Brown Pufferfish
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+        "fish_brown_pufferfish": {
+          "RequiredTags": [
+            "fish_brown_pufferfish"
+          ],
+          "SpawnTime": -1,
+          "ProducedItems": [
+            {
+              "RequiredPopulation": 9,
+              "Chance": 0.02,
+              "ItemID": 797,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            },
+            {
+              "RequiredPopulation": 6,
+              "Chance": 0.01,
+              "ItemID": 166,
+              "MinQuantity": 1,
+              "MaxQuantity": 3
+            },
+            {
+              "RequiredPopulation": 5,
+              "Chance": 0.01,
+              "ItemID": 203,
+              "MinQuantity": 1,
+              "MaxQuantity": 5
+            },
+            {
+              "RequiredPopulation": 0,
+              "Chance": 0.7,
+              "ItemID": 812,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
+          ],
+          "PopulationGates": {
+            "4": [
+              "220 1"
+            ],
+            "7": [
+              "88 3"
+            ]
+          }
+        }
+      }
+    },
+    { ///Brown Shirakodai
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+        "fish_brown_shirakodai": {
+          "RequiredTags": [
+            "fish_brown_shirakodai"
+          ],
+          "SpawnTime": -1,
+          "ProducedItems": [
+            {
+              "RequiredPopulation": 9,
+              "Chance": 0.02,
+              "ItemID": 797,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            },
+            {
+              "RequiredPopulation": 6,
+              "Chance": 0.01,
+              "ItemID": 166,
+              "MinQuantity": 1,
+              "MaxQuantity": 3
+            },
+            {
+              "RequiredPopulation": 5,
+              "Chance": 0.01,
+              "ItemID": 203,
+              "MinQuantity": 1,
+              "MaxQuantity": 5
+            },
+            {
+              "RequiredPopulation": 0,
+              "Chance": 0.7,
+              "ItemID": 812,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
+          ],
+          "PopulationGates": {
+            "4": [
+              "86 3"
+            ],
+            "7": [
+              "815 3"
+            ]
+          }
+        }
+      }
+    },
+    { ///Glaze Medaka
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+        "fish_glaze_medaka": {
+          "RequiredTags": [
+            "fish_glaze_medaka"
+          ],
+          "SpawnTime": -1,
+          "ProducedItems": [
+            {
+              "RequiredPopulation": 9,
+              "Chance": 0.02,
+              "ItemID": 797,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            },
+            {
+              "RequiredPopulation": 6,
+              "Chance": 0.01,
+              "ItemID": 166,
+              "MinQuantity": 1,
+              "MaxQuantity": 3
+            },
+            {
+              "RequiredPopulation": 5,
+              "Chance": 0.01,
+              "ItemID": 203,
+              "MinQuantity": 1,
+              "MaxQuantity": 5
+            },
+            {
+              "RequiredPopulation": 0,
+              "Chance": 0.7,
+              "ItemID": 812,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
+          ],
+          "PopulationGates": {
+            "4": [
+              "422 2"
+            ],
+            "7": [
+              "66 3"
+            ]
+          }
+        }
+      }
+    },
+ { ///Golden Koi
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+        "fish_golden_koi": {
+          "RequiredTags": [
+            "fish_golden_koi"
+          ],
+          "SpawnTime": -1,
+          "ProducedItems": [
+            {
+              "RequiredPopulation": 9,
+              "Chance": 0.02,
+              "ItemID": 797,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            },
+            {
+              "RequiredPopulation": 6,
+              "Chance": 0.01,
+              "ItemID": 166,
+              "MinQuantity": 1,
+              "MaxQuantity": 3
+            },
+            {
+              "RequiredPopulation": 5,
+              "Chance": 0.01,
+              "ItemID": 203,
+              "MinQuantity": 1,
+              "MaxQuantity": 5
+            },
+            {
+              "RequiredPopulation": 0,
+              "Chance": 0.7,
+              "ItemID": 812,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
+          ],
+          "PopulationGates": {
+            "4": [
+              "384 10"
+            ],
+            "7": [
+              "336 2"
+            ]
+          }
+        }
+      }
+    },
+ { ///Halcyon Jade Axe Marlin
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+        "fish_halcyon_jade_axe_marlin": {
+          "RequiredTags": [
+            "fish_halcyon_jade_axe_marlin"
+          ],
+          "SpawnTime": -1,
+          "ProducedItems": [
+            {
+              "RequiredPopulation": 9,
+              "Chance": 0.02,
+              "ItemID": 797,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            },
+            {
+              "RequiredPopulation": 6,
+              "Chance": 0.01,
+              "ItemID": 166,
+              "MinQuantity": 1,
+              "MaxQuantity": 3
+            },
+            {
+              "RequiredPopulation": 5,
+              "Chance": 0.01,
+              "ItemID": 203,
+              "MinQuantity": 1,
+              "MaxQuantity": 5
+            },
+            {
+              "RequiredPopulation": 0,
+              "Chance": 0.7,
+              "ItemID": 812,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
+          ],
+          "PopulationGates": {
+            "4": [
+              "815 3"
+            ],
+            "7": [
+              "614 1"
+            ]
+          }
+        }
+      }
+    },
+ { ///Lazurite Axe Marlin
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+        "fish_lazurite_axe_marlin": {
+          "RequiredTags": [
+            "fish_lazurite_axe_marlin"
+          ],
+          "SpawnTime": -1,
+          "ProducedItems": [
+            {
+              "RequiredPopulation": 9,
+              "Chance": 0.02,
+              "ItemID": 797,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            },
+            {
+              "RequiredPopulation": 6,
+              "Chance": 0.01,
+              "ItemID": 166,
+              "MinQuantity": 1,
+              "MaxQuantity": 3
+            },
+            {
+              "RequiredPopulation": 5,
+              "Chance": 0.01,
+              "ItemID": 203,
+              "MinQuantity": 1,
+              "MaxQuantity": 5
+            },
+            {
+              "RequiredPopulation": 0,
+              "Chance": 0.7,
+              "ItemID": 812,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
+          ],
+          "PopulationGates": {
+            "4": [
+              "84 3"
+            ],
+            "7": [
+              "62 2"
+            ]
+          }
+        }
+      }
+    },
+ { ///Medaka
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+        "fish_medaka": {
+          "RequiredTags": [
+            "fish_medaka"
+          ],
+          "SpawnTime": -1,
+          "ProducedItems": [
+            {
+              "RequiredPopulation": 9,
+              "Chance": 0.02,
+              "ItemID": 797,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            },
+            {
+              "RequiredPopulation": 6,
+              "Chance": 0.01,
+              "ItemID": 166,
+              "MinQuantity": 1,
+              "MaxQuantity": 3
+            },
+            {
+              "RequiredPopulation": 5,
+              "Chance": 0.01,
+              "ItemID": 203,
+              "MinQuantity": 1,
+              "MaxQuantity": 5
+            },
+            {
+              "RequiredPopulation": 0,
+              "Chance": 0.7,
+              "ItemID": 812,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
+          ],
+          "PopulationGates": {
+            "4": [
+              "724 3"
+            ],
+            "7": [
+              "731 1"
+            ]
+          }
+        }
+      }
+    },
+ { ///Peach Angler
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+        "fish_peach_angler": {
+          "RequiredTags": [
+            "fish_peach_angler"
+          ],
+          "SpawnTime": -1,
+          "ProducedItems": [
+            {
+              "RequiredPopulation": 9,
+              "Chance": 0.02,
+              "ItemID": 797,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            },
+            {
+              "RequiredPopulation": 6,
+              "Chance": 0.01,
+              "ItemID": 166,
+              "MinQuantity": 1,
+              "MaxQuantity": 3
+            },
+            {
+              "RequiredPopulation": 5,
+              "Chance": 0.01,
+              "ItemID": 203,
+              "MinQuantity": 1,
+              "MaxQuantity": 5
+            },
+            {
+              "RequiredPopulation": 0,
+              "Chance": 0.7,
+              "ItemID": 812,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
+          ],
+          "PopulationGates": {
+            "4": [
+              "636 3"
+            ],
+            "7": [
+              "221 1"
+            ]
+          }
+        }
+      }
+    },
+ { ///Purple Shirakodai
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+        "fish_purple_shirakodai": {
+          "RequiredTags": [
+            "fish_purple_shirakodai"
+          ],
+          "SpawnTime": -1,
+          "ProducedItems": [
+            {
+              "RequiredPopulation": 9,
+              "Chance": 0.02,
+              "ItemID": 797,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            },
+            {
+              "RequiredPopulation": 6,
+              "Chance": 0.01,
+              "ItemID": 166,
+              "MinQuantity": 1,
+              "MaxQuantity": 3
+            },
+            {
+              "RequiredPopulation": 5,
+              "Chance": 0.01,
+              "ItemID": 203,
+              "MinQuantity": 1,
+              "MaxQuantity": 5
+            },
+            {
+              "RequiredPopulation": 0,
+              "Chance": 0.7,
+              "ItemID": 812,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
+          ],
+          "PopulationGates": {
+            "4": [
+              "815 3"
+            ],
+            "7": [
+              "66 3"
+            ]
+          }
+        }
+      }
+    },
+ { ///Rusty Koi
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+        "fish_rusty_koi": {
+          "RequiredTags": [
+            "fish_rusty_koi"
+          ],
+          "SpawnTime": -1,
+          "ProducedItems": [
+            {
+              "RequiredPopulation": 9,
+              "Chance": 0.02,
+              "ItemID": 797,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            },
+            {
+              "RequiredPopulation": 6,
+              "Chance": 0.01,
+              "ItemID": 166,
+              "MinQuantity": 1,
+              "MaxQuantity": 3
+            },
+            {
+              "RequiredPopulation": 5,
+              "Chance": 0.01,
+              "ItemID": 203,
+              "MinQuantity": 1,
+              "MaxQuantity": 5
+            },
+            {
+              "RequiredPopulation": 0,
+              "Chance": 0.7,
+              "ItemID": 812,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
+          ],
+          "PopulationGates": {
+            "4": [
+              "62 3"
+            ],
+            "7": [
+              "109 1"
+            ]
+          }
+        }
+      }
+    },
+ { ///Sandstorm Angler
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+        "fish_sandstorm_angler": {
+          "RequiredTags": [
+            "fish_sandstorm_angler"
+          ],
+          "SpawnTime": -1,
+          "ProducedItems": [
+            {
+              "RequiredPopulation": 9,
+              "Chance": 0.02,
+              "ItemID": 261,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            },
+            {
+              "RequiredPopulation": 6,
+              "Chance": 0.01,
+              "ItemID": 166,
+              "MinQuantity": 1,
+              "MaxQuantity": 3
+            },
+            {
+              "RequiredPopulation": 5,
+              "Chance": 0.01,
+              "ItemID": 203,
+              "MinQuantity": 1,
+              "MaxQuantity": 5
+            },
+            {
+              "RequiredPopulation": 0,
+              "Chance": 0.7,
+              "ItemID": 812,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
+          ],
+          "PopulationGates": {
+            "4": [
+              "118 3"
+            ],
+            "7": [
+              "90 3"
+            ]
+          }
+        }
+      }
+    },
+ { ///Sunset Cloud Angler
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+        "fish_sunset_cloud_angler": {
+          "RequiredTags": [
+            "fish_sunset_cloud_angler"
+          ],
+          "SpawnTime": -1,
+          "ProducedItems": [
+            {
+              "RequiredPopulation": 9,
+              "Chance": 0.02,
+              "ItemID": 797,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            },
+            {
+              "RequiredPopulation": 6,
+              "Chance": 0.01,
+              "ItemID": 166,
+              "MinQuantity": 1,
+              "MaxQuantity": 3
+            },
+            {
+              "RequiredPopulation": 5,
+              "Chance": 0.01,
+              "ItemID": 203,
+              "MinQuantity": 1,
+              "MaxQuantity": 5
+            },
+            {
+              "RequiredPopulation": 0,
+              "Chance": 0.7,
+              "ItemID": 812,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
+          ],
+          "PopulationGates": {
+            "4": [
+              "233 1"
+            ],
+            "7": [
+              "106 1"
+            ]
+          }
+        }
+      }
+    },
+ { ///Sweet-Flower Medaka
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+        "fish_sweet_flower_medaka": {
+          "RequiredTags": [
+            "fish_sweet_flower_medaka"
+          ],
+          "SpawnTime": -1,
+          "ProducedItems": [
+            {
+              "RequiredPopulation": 9,
+              "Chance": 0.02,
+              "ItemID": 797,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            },
+            {
+              "RequiredPopulation": 6,
+              "Chance": 0.01,
+              "ItemID": 166,
+              "MinQuantity": 1,
+              "MaxQuantity": 3
+            },
+            {
+              "RequiredPopulation": 5,
+              "Chance": 0.01,
+              "ItemID": 203,
+              "MinQuantity": 1,
+              "MaxQuantity": 5
+            },
+            {
+              "RequiredPopulation": 0,
+              "Chance": 0.7,
+              "ItemID": 812,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
+          ],
+          "PopulationGates": {
+            "4": [
+              "245 5"
+            ],
+            "7": [
+              "243 1"
+            ]
+          }
+        }
+      }
+    },
+ { ///Tea-Colored Shirakodai
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+        "fish_tea_colored_shirakodai": {
+          "RequiredTags": [
+            "fish_tea_colored_shirakodai"
+          ],
+          "SpawnTime": -1,
+          "ProducedItems": [
+            {
+              "RequiredPopulation": 9,
+              "Chance": 0.02,
+              "ItemID": 797,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            },
+            {
+              "RequiredPopulation": 6,
+              "Chance": 0.01,
+              "ItemID": 166,
+              "MinQuantity": 1,
+              "MaxQuantity": 3
+            },
+            {
+              "RequiredPopulation": 5,
+              "Chance": 0.01,
+              "ItemID": 203,
+              "MinQuantity": 1,
+              "MaxQuantity": 5
+            },
+            {
+              "RequiredPopulation": 0,
+              "Chance": 0.7,
+              "ItemID": 812,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
+          ],
+          "PopulationGates": {
+            "4": [
+              "815 3"
+            ],
+            "7": [
+              "614 1"
+            ]
+          }
+        }
+      }
+    },
+ { ///True Fruit Angler
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+        "fish_true_fruit_angler": {
+          "RequiredTags": [
+            "fish_true_fruit_angler"
+          ],
+          "SpawnTime": -1,
+          "ProducedItems": [
+            {
+              "RequiredPopulation": 9,
+              "Chance": 0.02,
+              "ItemID": 797,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            },
+            {
+              "RequiredPopulation": 6,
+              "Chance": 0.01,
+              "ItemID": 166,
+              "MinQuantity": 1,
+              "MaxQuantity": 3
+            },
+            {
+              "RequiredPopulation": 5,
+              "Chance": 0.01,
+              "ItemID": 203,
+              "MinQuantity": 1,
+              "MaxQuantity": 5
+            },
+            {
+              "RequiredPopulation": 0,
+              "Chance": 0.7,
+              "ItemID": 812,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
+          ],
+          "PopulationGates": {
+            "4": [
+              "834 3"
+            ],
+            "7": [
+              "454 1"
+            ]
+          }
+        }
+      }
+    },
+{
+      "LogName": "Aquarium Data",
+      "Action": "EditData",
+      "Target": "Data/AquariumFish",
+      "Entries": {
+        "{{ModId}}_Abiding_Angelfish": "0/fish/////Mods\\otohime.teyvatfish\\AquariumFish",
+        "{{ModId}}_Aizen_Medaka": "1/fish/////Mods\\otohime.teyvatfish\\AquariumFish",
+        "{{ModId}}_Beryl_Conch": "2/static/////Mods\\otohime.teyvatfish\\AquariumFish",
+        "{{ModId}}_Bitter_Pufferfish": "3/ground/3/3 4 4///Mods\\otohime.teyvatfish\\AquariumFish",
+        "{{ModId}}_Brown_Pufferfish": "5/ground/5/5 6 6///Mods\\otohime.teyvatfish\\AquariumFish",
+        "{{ModId}}_Brown_Shirakodai": "7/fish/////Mods\\otohime.teyvatfish\\AquariumFish",
+        "{{ModId}}_True_Fruit_Angler": "8/ground/8/8 9 9///Mods\\otohime.teyvatfish\\AquariumFish",
+        "{{ModId}}_Glaze_Medaka": "10/fish/////Mods\\otohime.teyvatfish\\AquariumFish",
+        "{{ModId}}_Golden_Koi": "11/fish/////Mods\\otohime.teyvatfish\\AquariumFish",
+        "{{ModId}}_Halcyon_Jade_Axe_Marlin": "12/fish/////Mods\\otohime.teyvatfish\\AquariumFish",
+        "{{ModId}}_Lazurite_Axe_Marlin": "13/fish/////Mods\\otohime.teyvatfish\\AquariumFish",
+        "{{ModId}}_Lumitoile": "14/static/////Mods\\otohime.teyvatfish\\AquariumFish",
+        "{{ModId}}_Medaka": "15/fish/////Mods\\otohime.teyvatfish\\AquariumFish",
+        "{{ModId}}_Peach_Angler": "16/ground/16/16 17 17///Mods\\otohime.teyvatfish\\AquariumFish",
+        "{{ModId}}_Purple_Shirakodai": "18/fish/////Mods\\otohime.teyvatfish\\AquariumFish",
+        "{{ModId}}_Rusty_Koi": "19/fish/////Mods\\otohime.teyvatfish\\AquariumFish",
+        "{{ModId}}_Sandstorm_Angler": "20/ground/20/20 21 21///Mods\\otohime.teyvatfish\\AquariumFish",
+        "{{ModId}}_Sango_Pearl": "22/static/////Mods\\otohime.teyvatfish\\AquariumFish",
+        "{{ModId}}_Starconch": "23/static/////Mods\\otohime.teyvatfish\\AquariumFish",
+        "{{ModId}}_Sunset_Cloud_Angler": "24/ground/24/24 25 25///Mods\\otohime.teyvatfish\\AquariumFish",
+        "{{ModId}}_Sweet_Flower_Medaka": "26/fish/////Mods\\otohime.teyvatfish\\AquariumFish",
+        "{{ModId}}_Tea_Colored_Shirakodai": "27/fish/////Mods\\otohime.teyvatfish\\AquariumFish",
+        "{{ModId}}_Tidalga": "28/cephalopod/28/28 29/29 29 30 30/31 32/Mods\\otohime.teyvatfish\\AquariumFish"
+      }
+    }
+  ]
+}

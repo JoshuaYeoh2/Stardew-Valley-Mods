@@ -1,0 +1,23 @@
+{
+    "Format": "2.0.0",
+ 	"ConfigSchema": {
+		"Enable Mushroom Bundles": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"Description": "(Recommended) Adds MAAM Mushrooms to the Regular and Remixed Bundles."
+		},
+	},
+	"Changes": [
+ 		{
+			"Action": "Include",
+			"FromFile": "data/Mushrooms.json, data/MealsandRecipes.json, data/Machines.json, data/Shops.json, data/MushroomGrowths.json, data/Bundles.json, data/GiftTastes.json"
+		},
+		{ 
+            "Action": "Load",
+			"Target": "StunkyMcDoo.MuchAdoAboutMushrooms.cp/01_common_mushrooms, StunkyMcDoo.MuchAdoAboutMushrooms.cp/02_uncommon_mushrooms, StunkyMcDoo.MuchAdoAboutMushrooms.cp/03_rare_mushrooms, StunkyMcDoo.MuchAdoAboutMushrooms.cp/04_mushroom_dishes, StunkyMcDoo.MuchAdoAboutMushrooms.cp/05_mushroom_goods, StunkyMcDoo.MuchAdoAboutMushrooms.cp/06_mushroom_clumps",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        }
+    ]
+}
+
+

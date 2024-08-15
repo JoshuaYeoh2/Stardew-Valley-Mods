@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="right-down" width="11" height="11" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="1">
+ <properties>
+  <property name="DayTiles" value="Front 6 1 256 Front 6 2 288 Front 7 1 256 Front 7 2 288 Front 27 1 256 Front 27 2 288 Front 36 1 225 Front 37 1 225 Front 36 2 469 Front 37 2 469 Front 36 3 501 Front 37 3 501 Front 2 14 256 Front 2 15 288 Buildings 32 2 38 Buildings 32 3 70 Back 32 4 102"/>
+  <property name="Light" value="24 50 4 33 53 4 24 58 4 21 64 4 17 86 4 27 86 4 38 65 4 30 72 4 27 72 4 41 69 4 71 67 4 52 98 4 56 98 4 92 79 4"/>
+  <property name="Warp" value="5 10 SeedShop 24 13"/>
+ </properties>
+ <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="2177" name="2" tilewidth="16" tileheight="16" tilecount="128" columns="32">
+  <image source="townInterior_2" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="2305" name="Paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths" width="64" height="144"/>
+ </tileset>
+ <layer id="1" name="Back" width="11" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYCANqAOxBh6siaTWHYg98GBPJLXpQJyBB2ciqbVjYmBwAGJ7HHQcE0JtPZDdwISfhoF4IDuBiTBNrLkNTJjm1rEA5YC4gYWwufOAauYD8QIW7Oaig3gc4gAQuyF2
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="3" name="Buildings" width="11" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYAJiZjyYBYgZgViRARM8QsIwoArEjlD2VKBGYyAWB2ImJAwDrkhqVwAdspIJIfcSSR262hNAdSeB+CzQcepAzAlkpwLVpwFxJ5LaLqA4N5KZ7iyYfkA2FxtwBJrpxIiqVpEZu1pFVgYGJVZUtY441KK7YSEQJ0LVbkDzewbQD5lQf6xggMQHMk6EqmvGIgcA2NQUDQ==
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings"/>
+ <layer id="5" name="Front" width="11" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYCANaBGQ1yHRPGSwmAmV/5CRgcEViN0YUcXbgfg1mhipoB2ovwPNjIdM2NUysjIwMLFSZh+xYBEQH4XixVCxJVC+EzMDw3I8eo/iEAcALSULyA==
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="7" name="Paths" width="11" height="11" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgZgIMTPx8ZMALl2ICYFYhZ8KhDBuxEqkNXi88dlJiLDABoBQCo
+  </data>
+ </layer>
+ <objectgroup id="8" name="Paths"/>
+ <layer id="9" name="AlwaysFront" width="11" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg+IJ2RgSGDcaBdQTtwlEx9AA/9AZc=
+  </data>
+ </layer>
+ <objectgroup id="10" name="AlwaysFront"/>
+</map>

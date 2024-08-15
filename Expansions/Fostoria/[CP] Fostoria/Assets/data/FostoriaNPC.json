@@ -1,0 +1,209 @@
+{
+    "Changes": [
+        {
+            "LogName": "Adding Fostoria NPCs",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+				"IrisFS": {
+					"DisplayName": "{{i18n:FSDisplayName.Iris}}",
+					"BirthSeason": "Winter",
+					"BirthDay": 13,
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"Gender": "Female",
+					"Age": "Adult",
+					"Manner": "rude",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Positive",
+					"IsDarkSkinned": false,
+					"CanBeRomanced": false,
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FriendsAndFamily": {
+					  "RemmingtonFS": ""
+					},
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Fostoria.Stoffton_MagicShop",
+						"Tile": {
+						  "X": 4,
+						  "Y": 5
+						},
+						"Direction": "down"
+					  }
+					],
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"CustomFields": null
+				  },
+				  "RemmingtonFS": {
+					"DisplayName": "{{i18n:FSDisplayName.Remmington}}",
+					"BirthSeason": "Fall",
+					"BirthDay": 20,
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"Gender": "Male",
+					"Age": "Adult",
+					"Manner": "rude",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Positive",
+					"IsDarkSkinned": false,
+					"CanBeRomanced": false,
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FriendsAndFamily": {
+					  "IrisFS": ""
+					},
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Fostoria.Stoffton_FishermanHouse",
+						"Tile": {
+						  "X": 7,
+						  "Y": 5
+						},
+						"Direction": "down"
+					  }
+					],
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"CustomFields": null
+				  },
+				  "Pori": {
+					"DisplayName": "{{i18n:FSDisplayName.Pori}}",
+					"BirthSeason": "Summer",
+					"BirthDay": 7,
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"Gender": "Female",
+					"Age": "Adult",
+					"Manner": "polite",
+					"SocialAnxiety": "Outgoing",
+					"Optimism": "Positive",
+					"IsDarkSkinned": false,
+					"CanBeRomanced": false,
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FriendsAndFamily": {
+					  "RemmingtonFS": ""
+					},
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Fostoria.Stoffton_Tent",
+						"Tile": {
+						  "X": 7,
+						  "Y": 8
+						},
+						"Direction": "down"
+					  }
+					],
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"CustomFields": null
+				  },
+  }
+  }
+  ]
+  }

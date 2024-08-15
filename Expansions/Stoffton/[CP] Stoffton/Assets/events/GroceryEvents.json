@@ -1,0 +1,35 @@
+{
+"Changes": [
+{
+
+  "Action": "EditData",
+  "Target": "Data/Events/Lizzie.Stoffton_Grocery",
+  "Entries":{
+
+//Vasha 4 heart event
+"11666047/f VashaFS 1000": "fall1/19 6/farmer 20 6 3 VashaFS 19 5 2/skippable/pause 1000/emote VashaFS 28/pause 600/speak VashaFS \"{{i18n:event-11666047.01}}\"/speak VashaFS \"{{i18n:event-11666047.02}}\"/speak VashaFS \"$q -1 null#{{i18n:event-11666047.03}}#$r -1 0 event_YesSiblings#{{i18n:event-11666047.04}}#$r -1 0 event_NoSiblings#{{i18n:event-11666047.05}}#$r -1 0 event_AwkwardSiblings#{{i18n:event-11666047.06}}\"/speak VashaFS \"{{i18n:event-11666047.07}}\"/speak VashaFS \"{{i18n:event-11666047.08}}\"/speak VashaFS \"{{i18n:event-11666047.09}}\"/speak VashaFS \"$q -1 null#{{i18n:event-11666047.10}}#$r -1 0 event_YesOdd#{{i18n:event-11666047.11}}#$r -1 20 event_NoOdd#{{i18n:event-11666047.12}}#$r -1 30 event_OddGood#{{i18n:event-11666047.13}}\"/speak VashaFS \"{{i18n:event-11666047.14}}\"/end",
+
+//Xen's 4 heart event
+"11666052/f XenFS 1000": "junimoKart_whaleMusic/23 25/farmer 26 28 1 XenFS 28 25 1 ErikFS 20 26 3 GretaFS 25 26 3 AlexandriaFS 22 21 1/skippable/pause 1000/emote XenFS 12/pause 600/speak XenFS \"{{i18n:event-11666052.01}}\"/faceDirection XenFS 2/speak XenFS \"{{i18n:event-11666052.02}}\"/emote farmer 8/move AlexandriaFS 3 0 3/speak XenFS \"{{i18n:event-11666052.03}}\"/speak XenFS \"{{i18n:event-11666052.04}}\"/move AlexandriaFS -4 0 3/speak XenFS \"$q -1 null#{{i18n:event-11666052.05}}#$r -1 10 event_NotHard#{{i18n:event-11666052.06}}#$r -1 20 event_Beginner#{{i18n:event-11666052.07}}#$r -1 -50 event_Whining#{{i18n:event-11666052.08}}\"/speak XenFS \"{{i18n:event-11666052.09}}\"/speak XenFS \"{{i18n:event-11666052.10}}\"/end",
+
+//Erik 2 heart event
+"11666084/f ErikFS 500": "Crystal Bells/19 26/farmer 17 26 1 XenFS 16 22 1 ErikFS 20 26 3 GretaFS 25 26 3 AlexandriaFS 22 21 1/skippable/pause 1000/speak ErikFS \"{{i18n:event-11666084.01}}\"/emote farmer 40/pause 600/speak ErikFS \"{{i18n:event-11666084.02}}\"/speak ErikFS \"{{i18n:event-11666084.03}}\"/speak ErikFS \"$q -1 null#{{i18n:event-11666084.04}}#$r -1 -30 event_Cant#{{i18n:event-11666084.05}}#$r -1 0 event_NoInfluence#{{i18n:event-11666084.06}}#$r -1 10 event_WillTry#{{i18n:event-11666084.07}}\"/end",
+
+//Quinn 6 heart event
+"11666091/f QuinnFS 1500": "SunRoom/22 6/farmer 20 7 1 QuinnFS 22 6 2/skippable/pause 1000/faceDirection QuinnFS 3/pause 300/faceDirection QuinnFS 0/pause 300/speak QuinnFS \"{{i18n:event-11666091.01}}\"/faceDirection QuinnFS 1/pause 300/emote QuinnFS 16/pause 300/faceDirection QuinnFS 2/pause 300/speak QuinnFS \"{{i18n:event-11666091.02}}\"/speak QuinnFS \"{{i18n:event-11666091.03}}\"/speak QuinnFS \"{{i18n:event-11666091.04}}\"/speak QuinnFS \"$q -1 null#{{i18n:event-11666091.05}}#$r -1 50 event_Sure#{{i18n:event-11666091.06}}#$r -1 5 event_NotToday#{{i18n:event-11666091.07}}#$r -1 -150 event_Never#{{i18n:event-11666091.08}}\"/fork NeverQuinn/message \"{{i18n:event-11666091.09}}\"/end",
+  "NeverQuinn": "end",
+
+//Nadia 4 heart event
+"11666148/f NadiaFS 1000": "continue/42 25/farmer 38 23 1 NadiaFS 43 23 2 ErikFS 41 23 2 VashaFS 44 27 3 QuinnFS 40 27 1/skippable/pause 1000/speak NadiaFS \"{{i18n:event-11666148.01}}\"/speak ErikFS \"{{i18n:event-11666148.02}}\"/emote VashaFS 12/emote QuinnFS 12/pause 500/speak NadiaFS \"{{i18n:event-11666148.03}}\"/emote NadiaFS 16/pause 500/speak QuinnFS \"{{i18n:event-11666148.04}}\"/emote VashaFS 24/pause 500/speak QuinnFS \"{{i18n:event-11666148.05}}\"/emote VashaFS 8/pause 500/speak NadiaFS \"{{i18n:event-11666148.06}}\"/emote QuinnFS 16/emote VashaFS 16/pause 500/faceDirection ErikFS 3/speak ErikFS \"{{i18n:event-11666148.07}}\"/emote farmer 40/pause 500/speak NadiaFS \"{{i18n:event-11666148.08}}\"/speak NadiaFS \"{{i18n:event-11666148.09}}\"/end",
+
+//Grocery Introduction
+"11666157": "continue/42 25/farmer 38 23 1 NadiaFS 43 23 2 ErikFS 41 23 2 VashaFS 44 27 3 QuinnFS 40 27 1/skippable/pause 1000/faceDirection ErikFS 3/pause 300/speak ErikFS \"{{i18n:event-11666157.01}}\"/faceDirection VashaFS 0/pause 300/speak VashaFS \"{{i18n:event-11666157.02}}\"/speak QuinnFS \"{{i18n:event-11666157.03}}\"/faceDirection QuinnFS 0/pause 300/speak QuinnFS \"{{i18n:event-11666157.04}}\"/speak NadiaFS \"{{i18n:event-11666157.05}}\"/faceDirection NadiaFS 3/pause 300/speak NadiaFS \"{{i18n:event-11666157.06}}\"/speak ErikFS \"{{i18n:event-11666157.07}}\"/end",
+
+//Al 2 heart event
+"11666188/f AlFS 500": "poppy/16 25/farmer 17 32 0 ErikFS 17 25 3 AlFS 15 25 1/skippable/pause 1000/speak ErikFS \"{{i18n:event-11666188.01}}\"/speak AlFS \"{{i18n:event-11666188.02}}\"/speak ErikFS \"{{i18n:event-11666188.03}}\"/speak AlFS \"{{i18n:event-11666188.04}}\"/move farmer 0 -4 0/jump AlFS/pause 500/speak AlFS \"{{i18n:event-11666188.05}}\"/emote farmer 8/pause 500/speak AlFS \"{{i18n:event-11666188.06}}\"/speak ErikFS \"{{i18n:event-11666188.07}}\"/speak AlFS \"{{i18n:event-11666188.08}}\"/speak ErikFS \"{{i18n:event-11666188.09}}\"/emote farmer 32/pause 1000/end",
+
+
+}
+}
+]
+}

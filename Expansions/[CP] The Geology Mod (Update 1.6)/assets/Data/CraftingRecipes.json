@@ -1,0 +1,13 @@
+{
+   "Changes": [
+        {
+            "LogName": "Geology Crafting Recipe",
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "{{ModId}}_RockProcessor": "390 100 335 4/Home/{{ModId}}_RockProcessor/true/Mining 4/Rock Processor",
+              }
+        },
+    ]
+}
+

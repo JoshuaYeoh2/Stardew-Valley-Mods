@@ -1,0 +1,22 @@
+{
+  "Changes": [
+
+	{	
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Mike",
+		"Entries": {
+			"GreenRain":"{{i18n: GreenRain.Mike}}",
+			"GreenRainFinished":"{{i18n: GreenRainFinished.Mike}}",
+			"GreenRain_2": "{{i18n: GreenRain2.Mike}}",
+			"AcceptBirthdayGift_Positive": "{{i18n: BdayPos.Mike}}",
+			"AcceptBirthdayGift_Negative": "{{i18n: BdayNeg.Mike}}",
+			"AcceptGift_(O)StardropTea": "{{i18n: StardropTea.Mike}}",
+			"spring_18": "{{i18n: Spring18.MikeDesert}}",
+			"summer_21": "{{i18n: Summer21.MikeTrout}}",
+			"winter_12": "{{i18n: Winter12.MikeSquid}}",
+			"MikeZZU": "{{i18n: ZZUEvent.Mike}}",
+		}
+	},
+
+]
+}

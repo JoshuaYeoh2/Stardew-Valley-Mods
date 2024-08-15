@@ -1,0 +1,104 @@
+{
+  "Format": "2.3.0",
+  "Changes": [
+    {
+      "LogName": "NPC Manifestation",
+      "Action": "Include",
+      "FromFile": "assets/disposition/Disposition.json, assets/disposition/summerbiscuit.json"
+    },
+    {
+      "LogName": "NPC Gift Tastes",
+      "Action": "Include",
+      "FromFile": "assets/Gift tastes/GiftTastes.json"
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Biscuit",
+      "FromFile": "assets/img/Spritesheet.png"
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Biscuit",
+      "FromFile": "assets/img/portrait.png"
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Biscuit",
+      "FromFile": "assets/schedules/blank.json"
+    },
+    {
+      "LogName": "Schedule Dialogue",
+      "Action": "Load",
+      "Target": "Strings/schedules/Biscuit",
+      "FromFile": "assets/schedules/blank.json"
+    },
+    {
+      "LogName": "Schedule issue",
+      "Action": "Include",
+      "FromFile": "assets/schedules/schedule.json, assets/schedules/scheduleDialogue.json"
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Biscuit",
+      "FromFile": "assets/dialogue/Dialogue.json"
+    },
+    {
+      "LogName": "Animation Frames",
+      "Action": "Include",
+      "FromFile": "assets/anim/Animations.json"
+    },
+    {
+      "LogName": "Events",
+      "Action": "Include",
+      "FromFile": "assets/Events/Backwoods.json, assets/Events/BathHouse_pool.json, assets/Events/Beach.json, assets/Events/BusStop.json, assets/Events/Forest.json, assets/Events/JoshHouse.json, assets/Events/Railroad.json, assets/Events/Samhouse.json, assets/Events/Town.json, assets/Events/AnimalShop.json, assets/Events/mountain.json, assets/Events/HaleyHouse.json, assets/Events/Woods.json, assets/Events/AdventureGuild.json"
+    },
+    {
+      "LogName": "Festivals",
+      "Action": "Include",
+      "FromFile": "assets/Festivals/Festivals.json"
+    },
+    {
+      "LogName": "Extra Spritesheets",
+      "Action": "Load",
+      "Target": "Characters/Biscuit-gift, Characters/Biscuitball, Characters/Biscuitswimming-sheet, Characters/Biscuitswimming, Characters/Dustyg, Characters/Kentfishing, Characters/princefrog, Characters/Canvas, Characters/Robot, Characters/Biscuitsword, Characters/sword, Characters/FashionBiscuit",
+      "FromFile": "assets/img/ExtraSpritesheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Data/Events/AdventureGuild",
+      "FromFile": "assets/XNBs/Blank.xnb",
+      "When": {
+        "HasMod |contains= FlashShifter.StardewValleyExpandedCP": false,
+        "HasMod |contains= supert.adventureguildexpanded": false,
+        "HasMod |contains= Rafseazz.RSVCP": false,
+        "HasMod |contains= purrplingcat.npcadventure": false,
+        "HasMod |contains= SiTheGreat.AdventurerAbigail": false,
+        "HasMod |contains= DestyNova.Mateo.CP": false,
+        "HasMod |contains= Wolf.Marlon": false,
+        "HasMod |contains= BlatantDecoy.BugmeatRecipes-CP": false
+      }
+    },
+    {
+      "LogName": "mails",
+      "Action": "EditData",
+      "Target": "Data/mail",
+      "Entries": {
+        "jodiletter": "Hello @! I was inspired to start gardening yesterday and I thought you might like some of these spare seeds!  ^   -Jodi %item object 595 10 %%[#]A Gift From Jodi",
+        "samsmusic": "@!^Something hit a chord with me and I got a bout of musical inspiration! Anyway, I saw this and thought you might enjoy it!  ^   -Sam %item object 463 1 %%[#]A Gift From Sam",
+        "haleyshoot": "@.^I was doing a photo shoot yesterday and had this lying around as a prop. I don't need it anymore though so I thought you would like it or something. Hey, maybe I can shoot some photos with you sometime!  ^   -Haley %item object 421 1 %%[#]A Gift From Haley",
+        "Lewisgold": "@.^There has been a pest in my garden lately and it would appear that they seem content on publicly digging up the things they found. As Mayor, I cannot in good conscience keep this valuable item so I, as a generous and benevolent Mayor, thought you might appreciate it.  ^   -Mayor Lewis %item object 336 1 %%[#]A Gift From Mayor Lewis",
+        "harveynote": "@.^I was looking for something behind the counter yesterday and I came across this. Seems like I ordered one too many bottles so I thought you'd benefit from this the most. Feel free to stop by the clinic if you ever need more! Remember to stay safe if you go into that mine!   ^   -Harvey %item object 351 1 %%[#]A Gift From Harvey",
+        "vincentsletter": "@.^I asked Sam to help me write this but then he got busy so Mum helped! (hello @!) We all wanted to say thank you for being so nice to Biscuit! She can be like me sommt__ sometimes but you are still nice to her. I want you to have some of my favorite stuff because I app-- appree-- appreciate you for being nice. Kay thanks! P.S. Mum says kay isn't really the right word but I use it all the time so it has to be, right?   ^   -Vincent %item object 612 2 %%[#]A Gift From Vincent",
+        "leahfood": "@.^I was wondering if you would be interested in trying this for me. I've been practicing my cooking with ingredients I foraged myself and I think they're turning out great. Even Biscuit likes my cooking! please enjoy,   ^   -Leah %item object 196 1 %%[#]A Gift From Leah",
+        "marlongift": "greetings @.^ A visitor found an old blade and brought it to the guild. The quality was bad but the metal itself was good enough to be re-worked. I hope this aids you on your travels  ^   -Marlon %item object 533 1 %%[#]A Gift From Marlon",
+        "marubot": "Hello @.^ You won't believe it but MarILDA was here for a visit yesterday! I did some repairs and we had a lovely chat. While I was doing some maintenance I found this and thought you would like it. MarILDA and I both wish you well!  ^   -Maru %item object 787 1 %%[#]A Gift From Maru",
+        "Emilyfashion": "Hello @.^ Yesterday I had a really productive day and I came to a realization about about my hobby. This was laying around my work room afterwards and I thought you might enjoy it! It always brings me a sense of calmness when working to have one of these around.  ^   -Emily%item object 70 1 %%[#]A Gift From Emily",
+        "alexletter": "Hey @!^ Granny made a whole bunch of cookies yesterday and I thought I would be generous and share! No need to thank me, I already know I'm awesome (but if you want to tell me I'm more awesome I won't complain).  ^   -Alex %item object 223 1 %%[#]A Gift From Alex"
+      }
+    }
+  ]
+}

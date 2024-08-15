@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="14" height="21" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="16">
+ <properties>
+  <property name="AmbientLight" value="95 95 95"/>
+  <property name="DayTiles" value="Front 3 1 256 Front 3 2 288 Front 10 1 256 Front 10 2 288"/>
+  <property name="Doors" value="1 9 1 120"/>
+  <property name="Light" value="3 8 4 6 8 4 11 8 4 3 2 5 10 2 5 6 19 5 5 15 5 5 11 5 11 12 5"/>
+  <property name="NightTiles" value="Front 3 1 1253 Front 3 2 1285 Front 10 1 1253 Front 10 2 1285"/>
+  <property name="Warp" value="6 20 Fostoria.Stoffton_Fostoria 104 11"/>
+ </properties>
+ <tileset firstgid="1" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior" width="512" height="1088"/>
+  <tile id="1323">
+   <animation>
+    <frame tileid="1323" duration="250"/>
+    <frame tileid="1323" duration="250"/>
+    <frame tileid="1323" duration="250"/>
+    <frame tileid="1259" duration="250"/>
+    <frame tileid="1325" duration="250"/>
+    <frame tileid="1325" duration="250"/>
+    <frame tileid="1259" duration="250"/>
+    <frame tileid="1323" duration="250"/>
+    <frame tileid="1323" duration="250"/>
+    <frame tileid="1323" duration="250"/>
+    <frame tileid="1323" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="1324">
+   <animation>
+    <frame tileid="1324" duration="250"/>
+    <frame tileid="1324" duration="250"/>
+    <frame tileid="1324" duration="250"/>
+    <frame tileid="1260" duration="250"/>
+    <frame tileid="1326" duration="250"/>
+    <frame tileid="1326" duration="250"/>
+    <frame tileid="1260" duration="250"/>
+    <frame tileid="1324" duration="250"/>
+    <frame tileid="1324" duration="250"/>
+    <frame tileid="1324" duration="250"/>
+    <frame tileid="1324" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="1355">
+   <animation>
+    <frame tileid="1355" duration="250"/>
+    <frame tileid="1355" duration="250"/>
+    <frame tileid="1355" duration="250"/>
+    <frame tileid="1291" duration="250"/>
+    <frame tileid="1357" duration="250"/>
+    <frame tileid="1357" duration="250"/>
+    <frame tileid="1291" duration="250"/>
+    <frame tileid="1355" duration="250"/>
+    <frame tileid="1355" duration="250"/>
+    <frame tileid="1355" duration="250"/>
+    <frame tileid="1355" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="1356">
+   <animation>
+    <frame tileid="1356" duration="250"/>
+    <frame tileid="1356" duration="250"/>
+    <frame tileid="1356" duration="250"/>
+    <frame tileid="1292" duration="250"/>
+    <frame tileid="1358" duration="250"/>
+    <frame tileid="1358" duration="250"/>
+    <frame tileid="1292" duration="250"/>
+    <frame tileid="1356" duration="250"/>
+    <frame tileid="1356" duration="250"/>
+    <frame tileid="1356" duration="250"/>
+    <frame tileid="1356" duration="250"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer id="1" name="Back" width="14" height="21">
+  <data encoding="csv">
+232,233,232,233,232,233,232,233,232,233,232,233,264,265,
+264,51,54,54,54,54,54,54,54,54,54,54,53,233,
+232,83,86,86,86,86,86,86,86,86,86,86,85,265,
+264,115,113,113,113,113,113,113,113,113,113,113,117,233,
+232,574,575,672,575,576,575,576,575,576,672,576,606,265,
+264,639,640,704,640,1150,1151,1152,640,639,704,607,608,233,
+232,607,608,607,608,1182,1183,1184,608,607,608,607,608,265,
+264,639,640,639,640,639,640,639,640,639,640,639,640,233,
+232,607,54,54,54,54,54,54,54,54,54,54,53,265,
+264,256,86,86,86,86,86,86,86,86,86,86,85,233,
+232,1274,1306,1341,1341,1341,1341,1341,113,1341,1341,1341,117,265,
+264,1337,1273,1274,1273,1274,1273,1274,1273,1274,1273,1274,1304,233,
+232,1305,1306,1305,1306,1305,1306,1305,1306,1305,1306,1305,1306,265,
+264,1337,1338,1337,1338,1337,1338,1337,1338,1337,1338,1337,1338,233,
+1305,1305,1306,1305,1306,1305,1306,1305,1306,1305,1306,1305,1306,265,
+1337,1337,1338,1337,1338,1337,1338,1337,1338,1337,1338,1337,1338,233,
+232,1305,1306,1305,1306,1305,1306,1305,1306,1305,1306,1305,1306,265,
+264,1337,1338,1337,1338,1337,1338,1337,1338,1337,1338,1337,1338,233,
+232,1305,1306,1305,1306,1305,1306,1305,1306,1305,1306,1305,1306,265,
+264,1337,1338,1337,1338,1337,1338,1337,1338,1337,1338,1337,1338,233,
+232,1305,1306,1305,1306,1305,1306,1305,1306,1305,1306,1305,1306,265
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="14" height="21">
+  <data encoding="csv">
+1,10,11,11,11,11,11,11,11,11,11,11,12,1,
+10,42,0,0,0,0,0,0,0,0,0,0,44,37,
+65,80,81,81,81,81,81,81,81,81,81,81,82,69,
+65,112,113,113,113,113,553,113,421,422,113,553,114,69,
+65,144,0,0,0,0,585,0,0,0,0,585,146,69,
+65,0,0,0,0,0,0,0,323,324,0,0,0,69,
+65,0,0,0,0,0,0,0,0,0,0,0,0,1,
+65,0,194,3,3,3,3,3,3,3,3,3,12,1,
+65,0,55,0,0,0,0,0,0,0,702,0,44,12,
+65,121,87,0,0,0,0,0,0,0,734,81,82,69,
+65,0,119,612,613,107,107,107,107,0,766,107,108,69,
+65,0,2144,644,645,632,634,632,632,797,798,496,140,69,
+65,0,0,0,0,0,0,0,0,0,0,0,432,69,
+65,0,0,0,0,0,0,0,0,0,0,0,0,69,
+65,2147485326,1678,0,0,0,0,0,0,0,441,888,889,69,
+65,2147485358,1710,0,0,1073,1074,1075,0,0,0,0,0,69,
+65,0,0,0,0,1105,1106,1107,0,0,0,0,0,69,
+65,0,0,0,0,0,0,0,0,0,0,0,0,69,
+65,364,0,0,0,0,0,0,0,0,0,0,0,69,
+161,162,196,196,196,163,0,164,196,196,196,196,167,168,
+1,1,1,1,1,65,0,69,1,1,1,1,1,1
+</data>
+ </layer>
+ <layer id="3" name="Front" width="14" height="21">
+  <data encoding="csv">
+0,2,0,0,0,11,0,0,0,0,0,0,4,1,
+33,0,0,257,0,1591,0,0,0,0,257,0,0,0,
+0,0,0,289,0,1623,0,0,389,390,289,0,0,0,
+0,0,0,0,0,0,609,0,417,418,0,481,0,0,
+0,0,0,0,0,0,0,0,449,450,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,164,166,166,166,166,166,166,166,166,166,167,168,
+0,57,0,0,0,0,0,0,0,669,670,0,4,0,
+0,89,0,580,581,1257,1256,1225,1258,701,0,1109,0,37,
+0,0,0,612,613,139,139,139,139,733,0,139,145,0,
+0,0,0,0,0,599,602,599,600,765,0,464,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,409,856,857,0,
+0,0,0,0,0,1041,1042,1043,0,0,0,0,0,0,
+0,0,0,0,0,1257,920,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,370,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="4" name="Back"/>
+ <objectgroup id="5" name="Buildings">
+  <object id="2" name="TileData" x="16" y="144" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door RemmingtonFS"/>
+   </properties>
+  </object>
+  <object id="3" name="TileData" x="192" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;FishermanHouse.1&quot;"/>
+   </properties>
+  </object>
+  <object id="4" name="TileData" x="64" y="176" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;FishermanHouse.3&quot;"/>
+   </properties>
+  </object>
+  <object id="5" name="TileData" x="48" y="176" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;FishermanHouse.2&quot;"/>
+   </properties>
+  </object>
+  <object id="8" name="TileData" x="32" y="224" width="16" height="16">
+   <properties>
+    <property name="Action" value="NPCMessage RemmingtonFS &quot;Data\ExtraDialogue:FishermanHouse_model/Strings\Locations:FishermanHouse_model&quot;"/>
+   </properties>
+  </object>
+  <object id="9" name="TileData" x="32" y="240" width="16" height="16">
+   <properties>
+    <property name="Action" value="NPCMessage RemmingtonFS &quot;Data\ExtraDialogue:FishermanHouse_model/Strings\Locations:FishermanHouse_model&quot;"/>
+   </properties>
+  </object>
+  <object id="10" name="TileData" x="16" y="240" width="16" height="16">
+   <properties>
+    <property name="Action" value="NPCMessage RemmingtonFS &quot;Data\ExtraDialogue:FishermanHouse_model/Strings\Locations:FishermanHouse_model&quot;"/>
+   </properties>
+  </object>
+  <object id="11" name="TileData" x="16" y="224" width="16" height="16">
+   <properties>
+    <property name="Action" value="NPCMessage RemmingtonFS &quot;Data\ExtraDialogue:FishermanHouse_model/Strings\Locations:FishermanHouse_model&quot;"/>
+   </properties>
+  </object>
+  <object id="12" name="TileData" x="96" y="256" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop Fostoria.Stoffton_FishShop RemmingtonFS 0600 2000 6 14 1 1"/>
+   </properties>
+  </object>
+  <object id="13" name="TileData" x="80" y="240" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;TinyShop.4&quot;"/>
+   </properties>
+  </object>
+  <object id="14" name="TileData" x="32" y="176" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;TinyShop.2&quot;"/>
+   </properties>
+  </object>
+  <object id="15" name="TileData" x="96" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;TinyShop.3&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="Front"/>
+</map>

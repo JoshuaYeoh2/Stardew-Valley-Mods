@@ -1,0 +1,9 @@
+{
+    "15164304/f Dimitri 1000/t 1200 2000": "Icicles/54 7/farmer 43 7 1 Dimitri 53 6 2 Bryson 55 6 2/skippable/pause 1000/speak Bryson \"Hurry up, Dimitri!$3#$b#I want to see it again!$5\"/pause 500
+    /showFrame Dimitri 4/pause 500/showFrame Dimitri 0/addObject 54 8 156 1/jump Bryson 8/pause 100/pause 100/move farmer 8 0 1/emote farmer 8/pause 100/faceDirection Dimitri 3/pause 500/emote Dimitri 16
+    /speak Dimitri \"@, hey! I didn't hear you over there.$1\"/pause 100/emote Bryson 40/speak Bryson \"Some vampire...$1\"/faceDirection Dimitri 2/pause 500/emote Dimitri 12/speak Dimitri \"I wasn't even listening...$4#$b#Anyway, check out what we found in the mines!\"
+    /move Dimitri 0 1 2/speak Dimitri \"It's some kind of weird fish.$9#$b#Cool right?$6\"/emote farmer 28/faceDirection Dimitri 3/pause 100/speak Dimitri \"What?$7#$b#It was already dead by the time we got back out here!$9#$b#It's not like I have a fish bowl in my jacket!$8\"/pause 200
+    /end dialogue Dimitri \"Maybe one day I'll see you in the mines!$1\"",
+
+
+}

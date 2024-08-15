@@ -1,0 +1,1 @@
+In the next update I'm working on a content that will allow you to move Douglas to your home if you marry the wizard, it's not finished yet so this part doesn't make any sense right now. 

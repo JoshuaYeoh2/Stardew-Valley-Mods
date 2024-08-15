@@ -1,0 +1,26 @@
+{
+	"Name": "[CP] Louis's Garage",
+  "Author": "XxHarvzBackxX, Yri and KayStar",
+  "Version": "1.0.1",
+  "Description": "Stardew + Renault R5 Collaboration: Louis's Garage. (CP Component)",
+	"UniqueID": "R5.CP",
+	"MinimumApiVersion": "4.0.0",
+	"UpdateKeys": [ "Nexus:24687" ],
+	"Dependencies": [
+		{
+			"UniqueID": "DLX.Bundles",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "spacechase0.SpaceCore",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "misscoriel.UCRFix",
+			"IsRequired": false
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	}
+}

@@ -1,0 +1,62 @@
+
+{
+    "Changes": [
+	// Load the BG for the custom mail
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/BugMail",
+            "FromFile": "Assets/BugMail.png"
+        },
+	// Conditions for sending mail
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+		"IntroMail": {
+			"Id": "IntroMail",
+				"Trigger": "DayEnding", // triggered by sleeping at the end of the day
+				"Action": "AddMail Current IntroMail"
+		},
+                "LunaMoth": {
+			"Id": "LunaMoth",
+				"Trigger": "DayEnding", // triggered by sleeping at the end of the day
+				"Action": "AddMail Current LunaMoth",
+				"Condition": "MuseumDonationChecker.DonationStatus (O)Hitaxas.Bugs_Moth"}, // check if a Luna moth was donated
+                "PurpEmp": {
+			"Id": "PurpEmp",
+				"Trigger": "DayEnding", // triggered by sleeping at the end of the day
+				"Action": "AddMail Current PurpEmp",
+				"Condition": "MuseumDonationChecker.DonationStatus (O)Hitaxas.Bugs_Butterfly10"}, // check if a Great purple emperor was donated
+		"RainbowStag":{
+			"Id": "RainbowStag",
+				"Trigger": "DayEnding", // triggered by sleeping at the end of the day
+				"Action": "AddMail Current RainbowStag",
+				"Condition": "MuseumDonationChecker.DonationStatus (O)Hitaxas.Bugs_Beetle9"} // check if a Rainbow stag was donated
+
+	// commented out for now, because I don't want to break things before the reward is added.
+	//	"FinalMail": {
+	//			"Id": "FinalMail",
+	//			"Trigger": "DayEnding", // triggered by sleeping at the end of the day
+	//			"Action": "AddMail Current FinalMail",
+	//			"Condition": "MuseumDonationChecker.HitaxasBugsStatus true" // check if ALL bugs have been donated
+	//			      }
+	
+        }
+        },
+	// Actual mail entries
+        // to include an item in the mail, add something like the following to the end of the text string
+        // %item id (O)66 1%%[#] // this would add an amethyst to the mail letter
+	// for the custom BG, use [letterbg Mods/{{ModID}}/BugMail 0]
+        {
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+		"IntroMail": "[letterbg Mods/{{ModID}}/BugMail 0]Hey there farmer! Sorry to bug you... hehe... get it? Bug? Anyway, I wanted to let you know that you can now find bugs scattered throughout the valley. Keep a look out for them. If you find one, try bringing it to Gunther. He can tell you more about them! Happy hunting~",
+                "LunaMoth": "[letterbg Mods/{{ModID}}/BugMail 0]I see a Luna Moth was donated to the museum, I've included a little reward for you. Nice work, keep at it! %item id (O)910 1%%[#]",
+		"PurpEmp": "[letterbg Mods/{{ModID}}/BugMail 0]I see a Great purple emperor was donated to the museum, I've included a little reward for you. Nice work, Keep at it! %item id (O)66 1%%[#]",
+		"RainbowStag": "[letterbg Mods/{{ModID}}/BugMail 0]I see a Rainbow stag was donated to the museum, I've included a little reward for you. Nice work, Keep at it! %item id (O)74 1%%[#]",
+		"FinalMail": "[letterbg Mods/{{ModID}}/BugMail 0]Congratulations on donating all of the bugs the valley has to offer! In a future update, I will present you with a grand reward for this!"
+	}
+        }
+            ]
+        }

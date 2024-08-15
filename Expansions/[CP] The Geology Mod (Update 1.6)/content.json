@@ -1,0 +1,40 @@
+{
+   "Format": "2.0.0",
+   "ConfigSchema": {
+        "Spawn Rate Adjustment": {
+            "AllowValues": "Cheat, Balanced, Hardcore",
+            "Default": "Balanced"
+        }
+    },
+   "Changes": [
+    {
+        "Action": "Include",
+        "FromFile": "assets/Data/Objects.json",
+    },
+    {
+        "Action": "Include",
+        "FromFile": "assets/Data/CustomOre.json"
+    },
+    {
+        "Action": "Include",
+        "FromFile": "assets/Data/Machines.json",
+    },
+    {
+        "Action": "Include",
+        "FromFile": "assets/Data/CraftingRecipes.json",
+    },
+    {
+        "Action": "Include",
+        "FromFile": "assets/Data/Maps.json",
+    },
+    {
+        "Action": "Include",
+        "FromFile": "assets/Data/Weapons.json",
+    },
+    {
+        "Action": "Include",
+        "FromFile": "assets/Data/MuseumRewards.json",
+    },
+    ]
+}
+

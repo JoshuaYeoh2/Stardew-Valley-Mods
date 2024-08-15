@@ -1,0 +1,1366 @@
+{
+    "Changes": [
+  ///////////////
+ // Luna moth //
+///////////////
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": ["Woods","Forage"],
+            "Entries": {
+                "Hitaxas.Bugs_Moth": {
+                    "Chance": 1.0, // was 0.8
+                    //"Season": "spring",
+                    "Condition": "SEASON spring summer", // see https://stardewvalleywiki.com/Modding:Game_state_queries#Date_.26_time for notes
+                    "Id": "Hitaxas.Bugs_Moth",
+                    "ItemId": "Hitaxas.Bugs_Moth",
+                    "RandomItemId": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": "Stack",
+                    "QualityModifiers": null,
+                    "QualityModifierMode": "Stack",
+                    "ModData": null,
+                    "PerItemCondition": null
+                }
+            }
+        },
+  /////////////
+ // Ladybug //
+/////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Farm_{{FarmType}}","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Ladybug": {
+            "Chance": 1.0, // was 0.8
+            "Season": "spring",
+            "Condition": "SEASON spring",
+            "Id": "Hitaxas.Bugs_Ladybug",
+            "ItemId": "Hitaxas.Bugs_Ladybug",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+   //////////////////
+ // Spring Azure //
+//////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Forest","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Butterfly": {
+            "Chance": 1.0, // was 0.8
+            "Season": "spring",
+            "Condition": null,
+            "Id": "Hitaxas.Bugs_Butterfly",
+            "ItemId": "Hitaxas.Bugs_Butterfly",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  ///////////////////////
+ // Rhinoceros beetle //
+///////////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Forest","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Beetle1": {
+            "Chance": 1.0, // was 0.8
+            "Season": "summer",
+            "Condition": null,
+            "Id": "Hitaxas.Bugs_Beetle1",
+            "ItemId": "Hitaxas.Bugs_Beetle1",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  ///////////////////
+ // Common Darter //
+///////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Mountain","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_DFly1": {
+            "Chance": 1.0, // was 0.8
+            //"Season": "summer",
+            "Condition": "SEASON summer fall",
+            "Id": "Hitaxas.Bugs_DFly1",
+            "ItemId": "Hitaxas.Bugs_DFly1",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  ///////////////////
+ // Boxbug beetle //
+///////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Town","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_BoxBug": {
+            "Chance": 1.0, // was 0.8
+            "Season": "spring",
+            "Condition": null,
+            "Id": "Hitaxas.Bugs_BoxBug",
+            "ItemId": "Hitaxas.Bugs_BoxBug",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  //////////////////
+ // Giant Cicada //
+//////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Forest","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Cicada": {
+            "Chance": 1.0, // was 0.8
+            "Season": "spring",
+            "Condition": null,
+            "Id": "Hitaxas.Bugs_Cicada",
+            "ItemId": "Hitaxas.Bugs_Cicada",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  //////////////////////
+ // 22-Spot ladybird //
+//////////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Town","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Ladybird": {
+            "Chance": 1.0, // was 0.8
+            //"Season": "summer",
+            "Condition": "Season spring summer",
+            "Id": "Hitaxas.Bugs_Ladybird",
+            "ItemId": "Hitaxas.Bugs_Ladybird",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  /////////////////////////////
+ // Yellow-Tipped Tigertail //
+/////////////////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Railroad","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_DFly2": {
+            "Chance": 1.0, // was 0.8
+            "Season": "winter",
+            "Condition": null,
+            "Id": "Hitaxas.Bugs_DFly2",
+            "ItemId": "Hitaxas.Bugs_DFly2",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  /////////////////
+ // Giant Stag //
+////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Woods","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Beetle2": {
+            "Chance": 1.0, // was 0.8
+            "Season": "summer",
+            "Condition": null,
+            "Id": "Hitaxas.Bugs_Beetle2",
+            "ItemId": "Hitaxas.Bugs_Beetle2",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  ///////////////
+ // Black ant //
+///////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Farm_{{FarmType}}","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Ant": {
+            "Chance": 1.0, // was 0.8
+            "Season": "summer",
+            "Condition": null,
+            "Id": "Hitaxas.Bugs_Ant",
+            "ItemId": "Hitaxas.Bugs_Ant",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  /////////////////
+ // Wasp spider //
+/////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Forest","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Spider": {
+            "Chance": 1.0, // was 0.8
+            //"Season": "summer",
+            "Condition": "SEASON summer fall",
+            "Id": "Hitaxas.Bugs_Spider",
+            "ItemId": "Hitaxas.Bugs_Spider",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+///////////////////
+// Drone beetle //
+/////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Forest","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Beetle3": {
+            "Chance": 1.0, // was 0.8
+            //"Season": "summer",
+            "Condition": "SEASON summer fall",
+            "Id": "Hitaxas.Bugs_Beetle3",
+            "ItemId": "Hitaxas.Bugs_Beetle3",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+///////////////////////
+// Darner dragonfly //
+///////////////////// 
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Mountain","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_DFly3": {
+            "Chance": 1.0, // was 0.8
+            //"Season": "spring",
+            "Condition": "SEASON spring summer fall",
+            "Id": "Hitaxas.Bugs_DFly3",
+            "ItemId": "Hitaxas.Bugs_DFly3",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+////////////////////////
+// Common Bluebottle //
+////////////////////// 
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Forest","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Butterfly2": {
+            "Chance": 1.0, // was 0.8
+            //"Season": "summer",
+            "Condition": "SEASON summer fall",
+            "Id": "Hitaxas.Bugs_Butterfly2",
+            "ItemId": "Hitaxas.Bugs_Butterfly2",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+////////////////////////////////
+// Wallace's Golden Birdwing //
+//////////////////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Woods","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Butterfly3": {
+            "Chance": 1.0, // was 0.8
+            "Season": "summer",
+            "Condition": null,
+            "Id": "Hitaxas.Bugs_Butterfly3",
+            "ItemId": "Hitaxas.Bugs_Butterfly3",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+///////////////////////
+// Goliath Birdwing //
+/////////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Forest","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Butterfly4": {
+            "Chance": 1.0, // was 0.8
+            //"Season": "spring",
+            "Condition": "SEASON spring summer",
+            "Id": "Hitaxas.Bugs_Butterfly4",
+            "ItemId": "Hitaxas.Bugs_Butterfly4",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  ////////////
+ // Bingus //
+////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["BusStop","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Bingus": {
+            "Chance": 0.1, // was 0.8
+            "Season": "winter",
+            "Condition": null,
+            "Id": "Hitaxas.Bugs_Bingus",
+            "ItemId": "Hitaxas.Bugs_Bingus",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  /////////////////////
+ // Painted Skimmer //
+/////////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Railroad","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_DFly4": {
+            "Chance": 1.0, // was 0.8
+            "Season": "summer",
+            "Condition": null,
+            "Id": "Hitaxas.Bugs_DFly4",
+            "ItemId": "Hitaxas.Bugs_DFly4",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  /////////////////////////////
+ // Rajah Brooke's Birdwing //
+/////////////////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Forest","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Butterfly5": {
+            "Chance": 1.0, // was 0.8
+            "Season": "winter",
+            "Condition": null,
+            "Id": "Hitaxas.Bugs_Butterfly5",
+            "ItemId": "Hitaxas.Bugs_Butterfly5",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  //////////////////////
+ // Cairn's Birdwing //
+//////////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Woods","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Butterfly6": {
+            "Chance": 1.0, // was 0.8
+            //"Season": "summer",
+            "Condition": "SEASON summer fall",
+            "Id": "Hitaxas.Bugs_Butterfly6",
+            "ItemId": "Hitaxas.Bugs_Butterfly6",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  //////////////
+ // Saw stag //
+//////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Railroad","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Beetle4": {
+            "Chance": 1.0, // was 0.8
+            //"Season": "fall",
+            "Condition": "SEASON fall winter",
+            "Id": "Hitaxas.Bugs_Beetle4",
+            "ItemId": "Hitaxas.Bugs_Beetle4",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  //////////////////
+ // Pine Cricket //
+//////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Railroad","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Cricket1": {
+            "Chance": 1.0, // was 0.8
+            "Season": "spring",
+            "Condition": null,
+            "Id": "Hitaxas.Bugs_Cricket1",
+            "ItemId": "Hitaxas.Bugs_Cricket1",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  //////////////////
+ // Mole Cricket //
+//////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Railroad","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Cricket2": {
+            "Chance": 1.0, // was 0.8
+            "Season": "summer",
+            "Condition": null,
+            "Id": "Hitaxas.Bugs_Cricket2",
+            "ItemId": "Hitaxas.Bugs_Cricket2",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  ///////////////////
+ // House Cricket //
+///////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Railroad","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Cricket3": {
+            "Chance": 1.0, // was 0.8
+            //"Season": "summer",
+            "Condition": "SEASON summer fall",
+            "Id": "Hitaxas.Bugs_Cricket3",
+            "ItemId": "Hitaxas.Bugs_Cricket3",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  ////////////////////////
+ // Citrus long-horned //
+////////////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Town","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Beetle5": {
+            "Chance": 1.0, // was 0.8
+            "Season": "summer",
+            "Condition": null,
+            "Id": "Hitaxas.Bugs_Beetle5",
+            "ItemId": "Hitaxas.Bugs_Beetle5",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  //////////////////////////
+ // Kidney-spot Ladybird //
+//////////////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Farm_{{FarmType}}","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Ladybird2": {
+            "Chance": 1.0, // was 0.8
+            "Season": "fall",
+            "Condition": null,
+            "Id": "Hitaxas.Bugs_Ladybird2",
+            "ItemId": "Hitaxas.Bugs_Ladybird2",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  ///////////////////////
+ // Tiger Swallowtail //
+///////////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["BusStop","Forage"], // last researched "preferred area"
+    "Entries": {
+        "Hitaxas.Bugs_Butterfly7": {
+            "Chance": 1.0, // was 0.8
+            //"Season": "spring",
+            "Condition": "SEASON spring summer fall",
+            "Id": "Hitaxas.Bugs_Butterfly7",
+            "ItemId": "Hitaxas.Bugs_Butterfly7",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  //////////////////
+ // Jewel beetle //
+//////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Railroad","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Beetle6": {
+            "Chance": 1.0,
+            //"Season": "summer",
+            "Condition": "SEASON summer fall winter",
+            "Id": "Hitaxas.Bugs_Beetle6",
+            "ItemId": "Hitaxas.Bugs_Beetle6",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  //////////////////
+ // Horned atlas //
+//////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Railroad","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Beetle7": {
+            "Chance": 1.0, // was 0.8
+            //"Season": "summer",
+            "Condition": "SEASON summer fall winter",
+            "Id": "Hitaxas.Bugs_Beetle7",
+            "ItemId": "Hitaxas.Bugs_Beetle7",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  /////////////////////
+ // Horned hercules //
+/////////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Railroad","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Beetle8": {
+            "Chance": 1.0, // was 0.8
+            //"Season": "summer",
+            "Condition": "SEASON summer fall winter",
+            "Id": "Hitaxas.Bugs_Beetle8",
+            "ItemId": "Hitaxas.Bugs_Beetle8",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  ////////////////////
+ // Common peacock //
+////////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Railroad","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Butterfly8": {
+            "Chance": 1.0, // was 0.8
+            //"Season": "summer",
+            "Condition": "SEASON summer fall",
+            "Id": "Hitaxas.Bugs_Butterfly8",
+            "ItemId": "Hitaxas.Bugs_Butterfly8",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  ///////////////
+ // Tarantula //
+///////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Railroad","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Spider2": {
+            "Chance": 1.0, // was 0.8
+            //"Season": "summer",
+            "Condition": "SEASON summer fall",
+            "Id": "Hitaxas.Bugs_Spider2",
+            "ItemId": "Hitaxas.Bugs_Spider2",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  ///////////////////
+ // Orchid mantis //
+///////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Railroad","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Mantis": {
+            "Chance": 1.0, // was 0.8
+            //"Season": "summer",
+            "Condition": "SEASON summer fall",
+            "Id": "Hitaxas.Bugs_Mantis",
+            "ItemId": "Hitaxas.Bugs_Mantis",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  ///////////////////
+ // Walking stick //
+///////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Railroad","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Stick": {
+            "Chance": 1.0, // was 0.8
+            "Season": "summer",
+            "Condition": null,
+            "Id": "Hitaxas.Bugs_Stick",
+            "ItemId": "Hitaxas.Bugs_Stick",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  //////////////////
+ // Giant mantis //
+//////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Railroad","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Mantis2": {
+            "Chance": 1.0, // was 0.8
+            "Season": "spring",
+            "Condition": null,
+            "Id": "Hitaxas.Bugs_Mantis2",
+            "ItemId": "Hitaxas.Bugs_Mantis2",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  //////////////////
+ // Bell cricket //
+//////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Railroad","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Cricket4": {
+            "Chance": 1.0, // was 0.8
+            "Season": "fall",
+            "Condition": null,
+            "Id": "Hitaxas.Bugs_Cricket4",
+            "ItemId": "Hitaxas.Bugs_Cricket4",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  /////////////////////
+ // Claudina Agrias //
+/////////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Railroad","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Butterfly9": {
+            "Chance": 1.0, // was 0.8
+            //"Season": "summer",
+            "Condition": "SEASON summer fall winter",
+            "Id": "Hitaxas.Bugs_Butterfly9",
+            "ItemId": "Hitaxas.Bugs_Butterfly9",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  //////////////////
+ // Rainbow stag //
+//////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Railroad","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Beetle9": {
+            "Chance": 1.0, // was 0.8
+            "Season": "spring",
+            "Condition": null,
+            "Id": "Hitaxas.Bugs_Beetle9",
+            "ItemId": "Hitaxas.Bugs_Beetle9",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  /////////////////
+ // Grasshopper //
+/////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Railroad","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Grasshopper": {
+            "Chance": 1.0, // was 0.8
+            //"Season": "summer",
+            "Condition": "SEASON spring summer",
+            "Id": "Hitaxas.Bugs_Grasshopper",
+            "ItemId": "Hitaxas.Bugs_Grasshopper",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  ///////////////////
+ // Oak silk moth //
+///////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Railroad","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Moth2": {
+            "Chance": 1.0, // was 0.8
+            "Season": "summer",
+            "Condition": null,
+            "Id": "Hitaxas.Bugs_Moth2",
+            "ItemId": "Hitaxas.Bugs_Moth2",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  ////////////////////////////////
+ // Oriental longheaded locust //
+////////////////////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Railroad","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Locust": {
+            "Chance": 1.0, // was 0.8
+            //"Season": "summer",
+            "Condition": "SEASON summer fall",
+            "Id": "Hitaxas.Bugs_Locust",
+            "ItemId": "Hitaxas.Bugs_Locust",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  /////////////////////
+ // Rosy maple moth //
+/////////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Railroad","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Moth3": {
+            "Chance": 1.0, // was 0.8
+            "Season": "summer",
+            "Condition": null,
+            "Id": "Hitaxas.Bugs_Moth3",
+            "ItemId": "Hitaxas.Bugs_Moth3",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  ///////////////////////////
+ // Hummingbird hawk-moth //
+///////////////////////////
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": ["Railroad","Forage"],
+    "Entries": {
+        "Hitaxas.Bugs_Moth4": {
+            "Chance": 1.0, // was 0.8
+            "Season": "summer",
+            "Condition": null,
+            "Id": "Hitaxas.Bugs_Moth4",
+            "ItemId": "Hitaxas.Bugs_Moth4",
+            "RandomItemId": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+    }
+},
+  //////////////////////////
+ // Great purple emperor //
+//////////////////////////
+{
+	"Action": "EditData",
+	"Target": "Data/Locations",
+	"TargetField": ["Mountain","Forage"],
+	"Entries": {
+	    "Hitaxas.Bugs_Butterfly10": {
+		"Chance": 1.0, // was 0.8
+		"Season": "summer",
+		"Condition": null,
+		"Id": "Hitaxas.Bugs_Butterfly10",
+		"ItemId": "Hitaxas.Bugs_Butterfly10",
+		"RandomItemId": null,
+		"MinStack": -1,
+		"MaxStack": -1,
+		"Quality": -1,
+		"ToolUpgradeLevel": -1,
+		"IsRecipe": false,
+		"StackModifiers": null,
+		"StackModifierMode": "Stack",
+		"QualityModifiers": null,
+		"QualityModifierMode": "Stack",
+		"ModData": null,
+		"PerItemCondition": null
+	    }
+	}
+    },
+  ///////////////////////////
+ // Death's-head hawkmoth //
+///////////////////////////
+    {
+	"Action": "EditData",
+	"Target": "Data/Locations",
+	"TargetField": ["Forest","Forage"],
+	"Entries": {
+	    "Hitaxas.Bugs_Moth5": {
+		"Chance": 1.0, // was 0.8
+		"Season": "spring",
+		"Condition": null,
+		"Id": "Hitaxas.Bugs_Moth5",
+		"ItemId": "Hitaxas.Bugs_Moth5",
+		"RandomItemId": null,
+		"MinStack": -1,
+		"MaxStack": -1,
+		"Quality": -1,
+		"ToolUpgradeLevel": -1,
+		"IsRecipe": false,
+		"StackModifiers": null,
+		"StackModifierMode": "Stack",
+		"QualityModifiers": null,
+		"QualityModifierMode": "Stack",
+		"ModData": null,
+		"PerItemCondition": null
+	    }
+	}
+    },
+  //////////
+ //Weevil//
+//////////
+{
+	"Action": "EditData",
+	"Target": "Data/Locations",
+	"TargetField": ["Farm_{{FarmType}}","Forage"],
+	"Entries": {
+	    "Hitaxas.Bugs_Weevil": {
+		"Chance": 1.0, // was 0.8
+		"Condition": "SEASON spring summer",
+		"Id": "Hitaxas.Bugs_Weevil",
+		"ItemId": "Hitaxas.Bugs_Weevil",
+		"RandomItemId": null,
+		"MinStack": -1,
+		"MaxStack": -1,
+		"Quality": -1,
+		"ToolUpgradeLevel": -1,
+		"IsRecipe": false,
+		"StackModifiers": null,
+		"StackModifierMode": "Stack",
+		"QualityModifiers": null,
+		"QualityModifierMode": "Stack",
+		"ModData": null,
+		"PerItemCondition": null
+	    }
+	}
+    }
+    ]
+}

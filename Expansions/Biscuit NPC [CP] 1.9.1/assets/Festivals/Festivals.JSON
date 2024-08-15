@@ -1,0 +1,249 @@
+ {
+"Changes": 
+	[
+//event
+	{	
+	"LogName": "Egg Festival",
+	"Action": "EditData",
+	"Target": "Data/Festivals/spring13",
+	"TextOperations":
+	[
+//SetUp
+	{
+	"Operation": "Append",
+	"Target": ["Entries", "Set-Up_additionalCharacters"],
+	"Value": "Biscuit 16 65 right",
+	"Delimiter": "/"
+	},
+
+//MainEvent
+	{
+	"Operation": "Append",
+	"Target": ["Entries", "MainEvent_additionalCharacters"],
+	"Value": "Biscuit 16 65 left",
+	"Delimiter": "/"
+	},
+//animation 
+	{
+	"Operation": "Append",
+	"Target": ["Fields", "set-up", 5],
+	"Value": "/animate Biscuit false true 200 18 19",
+	},
+	],
+	},
+//text
+	{
+	"Action": "EditData",
+	"Target": "Data/Festivals/spring13",
+	"Entries": 
+	{"Biscuit": "I'm so egg-cited to egg-splore for some eggs! no yolk! $10 #$e# Why are you looking at me like that? $7"},
+	},
+//event
+	{	
+	"LogName": "Flower Dance",
+	"Action": "EditData",
+	"Target": "Data/Festivals/spring24",
+	"TextOperations":
+	[
+//SetUp
+	{
+	"Operation": "Append",
+	"Target": ["Entries", "Set-Up_additionalCharacters"],
+	"Value": "Biscuit 17 34 down",
+	"Delimiter": "/"
+	},
+//Biscuit animation 
+	{
+	"Operation": "Append",
+	"Target": ["Fields", "set-up", 5],
+	"Value": "/animate Biscuit false true 100 96 96 96 97 97 97",
+	},
+	],
+	},
+//text
+	{	
+	"LogName": "Flower Dance",
+	"Action": "EditData",
+	"Target": "Data/Festivals/spring24",
+	"Entries": 
+	{ "Biscuit": "oh boy! I hope no one trips but acci-dance can happen! $10"},
+	},
+//event
+	{	
+	"LogName": "Luau",
+	"Action": "EditData",
+	"Target": "Data/Festivals/summer11",
+	"TextOperations":
+	[
+//SetUp
+	{
+	"Operation": "Append",
+	"Target": ["Entries", "Set-Up_additionalCharacters"],
+	"Value": "Biscuit 27 9 right",
+	"Delimiter": "/"
+	},
+//animation 
+	{
+	"Operation": "Append",
+	"Target": ["Fields", "set-up", 5],
+	"Value": "/animate Biscuit false true 100 98 98 98 99 99 99",
+	},
+//MainEvent
+	{
+	"Operation": "Append",
+	"Target": ["Entries", "MainEvent_additionalCharacters"],
+	"Value": "Biscuit 12 21 down",
+	"Delimiter": "/"
+	},
+	],
+	},
+//text
+	{	
+	"LogName": "Luau",
+	"Action": "EditData",
+	"Target": "Data/Festivals/summer11",
+	"Entries": 
+	{ "Biscuit": "I wonder whats in the soup. Marnie says I can't have any since it's not good for pups. $2"},
+	},
+//event
+	{	
+	"LogName": "Dance of the Moonlight Jellies",
+	"Action": "EditData",
+	"Target": "Data/Festivals/summer28",
+	"TextOperations":
+	[
+//SetUp
+	{
+	"Operation": "Append",
+	"Target": ["Entries", "Set-Up_additionalCharacters"],
+	"Value": "Biscuit 39 31 down",
+	"Delimiter": "/"
+	},
+//MainEvent
+	{
+	"Operation": "Append",
+	"Target": ["Entries", "MainEvent_additionalCharacters"],
+	"Value": "Biscuit 29 36 right",
+	"Delimiter": "/"
+	},
+//animation 
+	{
+	"Operation": "Append",
+	"Target": ["Fields", "set-up", 5],
+	"Value": "/animate Biscuit false true 100 40 41",
+	},
+	],
+	},
+//text
+	{	
+	"LogName": "Dance of the Moonlight Jellies",
+	"Action": "EditData",
+	"Target": "Data/Festivals/summer28",
+	"Entries": 
+	{ "Biscuit": "These guys only visit at the end of the year? #$b# 'Tis the season to be jelly! I guess $10"},
+	},
+//event
+	{	
+	"LogName": "Stardew Valley Fair",
+	"Action": "EditData",
+	"Target": "Data/Festivals/fall16",
+	"TextOperations":
+	[
+//SetUp
+	{
+	"Operation": "Append",
+	"Target": ["Entries", "Set-Up_additionalCharacters"],
+	"Value": "Biscuit 18 78 right",
+	"Delimiter": "/"
+	},
+	],
+	},
+//text
+	{	
+	"LogName": "Stardew Valley Fair",
+	"Action": "EditData",
+	"Target": "Data/Festivals/fall16",
+	"Entries": 
+	{"Biscuit": "....This clown isn't too happy. I hope he didn't break his funny bone $2"},
+	},
+//event
+	{	
+	"LogName": "Spirit's Eve",
+	"Action": "EditData",
+	"Target": "Data/Festivals/fall27",
+	"TextOperations":
+	[
+//SetUp
+	{
+	"Operation": "Append",
+	"Target": ["Entries", "Set-Up_additionalCharacters"],
+	"Value": "Biscuit 37 22 up",
+	"Delimiter": "/"
+	},
+	],
+	},
+//text
+	{	
+	"LogName": "Spirit's Eve",
+	"Action": "EditData",
+	"Target": "Data/Festivals/fall27",
+	"Entries": 
+	{"Biscuit": "I think I can see the \"canine Crunchies\" commercial! that jignle will be stuck in my head for days! #$e# ...Maybe thats the real horror! $7"},
+	},
+//event
+	{	
+	"LogName": "Festival of Ice",
+	"Action": "EditData",
+	"Target": "Data/Festivals/winter8",
+	"TextOperations":
+	[
+//SetUp
+	{
+	"Operation": "Append",
+	"Target": ["Entries", "Set-Up_additionalCharacters"],
+	"Value": "Biscuit 77 30 right",
+	"Delimiter": "/"
+	},
+
+// animation 
+	{
+	"Operation": "Append",
+	"Target": ["Fields", "set-up", 5],
+	"Value": "/animate Biscuit false true 100 20 21",
+	},
+	],
+	},
+//text
+	{	
+	"LogName": "Festival of Ice",
+	"Action": "EditData",
+	"Target": "Data/Festivals/winter8",
+	"Entries": 
+	{"Biscuit": "I wonder how many people dropped out of the contest because they got cold feet? $10"},
+	},
+//event
+	{	
+	"LogName": "Feast of the Winter Star",
+	"Action": "EditData",
+	"Target": "Data/Festivals/winter25",
+	"TextOperations":
+	[
+//SetUp
+	{
+	"Operation": "Append",
+	"Target": ["Entries", "Set-Up_additionalCharacters"],
+	"Value": "Biscuit 46 59 3",
+	"Delimiter": "/"
+	},
+	],
+	},
+//text
+	{	
+	"LogName": "Feast of the Winter Star",
+	"Action": "EditData",
+	"Target": "Data/Festivals/winter25",
+	"Entries": 
+	{"Biscuit": "today is the best day to un-leash the holiday spirit! $10"},
+	},
+	]
+	}
