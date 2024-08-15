@@ -1,0 +1,22 @@
+{
+    "Format": "2.0.0",
+  "Changes": [
+    {
+      "LogName": "Blank JSON load",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/AidaSaura, Characters/Schedules/AidaSaura, Characters/Dialogue/MaggiSaura, Strings/Schedules/AidaSaura, Characters/Schedules/MaggiSaura, Strings/Schedules/MaggiSaura",
+      "FromFile": "assets/Data/blank.json"
+    },
+    {
+      "LogName": "File Includes",
+      "Action": "Include",
+      "FromFile": "assets/NPCs/Aida.json, assets/NPCs/Maggi.json, assets/NPCs/Schedules/AidaSchedule.json, assets/NPCs/Schedules/MaggiSchedule.json, assets/NPCs/Dialogue/AidaDialogue.json, assets/NPCs/Dialogue/MaggiDialogue.json, assets/Events/Events.json, assets/Data/Animals.json, assets/Data/BigCraftables.json, assets/Data/Crops.json, assets/Data/FruitTrees.json, assets/Data/LocationData.json, assets/Data/Objects.json, assets/Data/Shops.json, assets/Data/Festivals/FestivalDialogue.json, assets/Data/Festivals/Festivals_Y1.json, assets/Data/Festivals/Festivals_Y2.json, assets/Data/AidaBison1.json, assets/Data/AidaBison2.json, assets/Data/AidaBison3.json, assets/Data/AidaBison4.json"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/Spring_EstradaTilesheet, Maps/Summer_EstradaTilesheet, Maps/Fall_EstradaTilesheet, Maps/Winter_EstradaTilesheet, Maps/MaggiJunimoFigures",
+      "FromFile": "assets/Maps/{{TargetWithoutPath}}.png"
+    }
+
+  ]
+}

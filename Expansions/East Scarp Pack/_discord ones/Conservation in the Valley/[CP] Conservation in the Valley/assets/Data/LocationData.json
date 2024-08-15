@@ -1,0 +1,317 @@
+{
+    "Changes": [
+		{
+			"Action": "Load",
+			"Target": "Maps/RanchoEstrada",
+			"FromFile": "Assets/Maps/RanchoEstrada.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/CasaEstrada",
+			"FromFile": "Assets/Maps/CasaEstrada.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/EstradaBarnLower",
+			"FromFile": "Assets/Maps/EstradaBarnLower.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/EstradaBarnUpper",
+			"FromFile": "Assets/Maps/EstradaBarnUpper.tmx"
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Entries": {
+                "RanchoEstrada": {
+                    "DisplayName": "{{i18n:CITV.Locations.RanchoEstrada}}",
+                    "DefaultArrivalTile": {
+                        "X": 37,
+                        "Y": 16
+                    },
+                    "CreateOnLoad": {
+                        "MapPath": "Maps\\RanchoEstrada"
+                    },
+                    "ArtifactSpots": [
+                        {
+                            "Chance": 0.6,
+                            "Id": "(O)382",
+                            "ItemId": "(O)382", //coal
+                            "MinStack": 1,
+                            "MaxStack": 3,
+                            "Quality": -1
+                        },
+                        {
+                            "Chance": 0.1,
+                            "Id": "(O)378",
+                            "ItemId": "(O)378", //copper ore
+                            "RandomItemId": null,
+                            "MinStack": 1,
+                            "MaxStack": 3,
+                            "Quality": -1
+                        },
+                        {
+                            "Chance": 0.15,
+                            "Id": "(O)709", //hardwood
+                            "ItemId": "(O)709",
+                            "RandomItemId": null,
+                            "MinStack": -1,
+                            "MaxStack": -1,
+                            "Quality": -1
+                        },
+                        {
+                            "Chance": 0.25,
+                            "Id": "(O)390", //stone
+                            "ItemId": "(O)390",
+                            "RandomItemId": null,
+                            "MinStack": 1,
+                            "MaxStack": 3,
+                            "Quality": -1,
+                        },
+                        {
+                            "Chance": 0.01,
+                            "Id": "(O)114", //ancient seed
+                            "ItemId": "(O)114",
+                            "RandomItemId": null,
+                            "MinStack": -1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                        }
+                    ],
+                    "Forage": [
+                        {
+                            "Chance": 0.7,
+                            "Season": "Spring",
+                            "Condition": null,
+                            "Id": "(O)20",
+                            "ItemId": "(O)20",
+                            "RandomItemId": null,
+                            "MinStack": -1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                        },
+                        {
+                            "Chance": 0.5,
+                            "Season": "Spring",
+                            "Condition": null,
+                            "Id": "(O)22",
+                            "ItemId": "(O)22",
+                            "RandomItemId": null,
+                            "MinStack": -1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                        },
+                        {
+                            "Chance": 0.5,
+                            "Season": "Summer",
+                            "Condition": null,
+                            "Id": "(O)396",
+                            "ItemId": "(O)396",
+                            "RandomItemId": null,
+                            "MinStack": -1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                        },
+                        {
+                            "Chance": 0.8,
+                            "Season": "Summer",
+                            "Condition": null,
+                            "Id": "(O)398",
+                            "ItemId": "(O)398",
+                            "RandomItemId": null,
+                            "MinStack": -1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                        },
+                        {
+                            "Chance": 0.4,
+                            "Season": "Fall",
+                            "Condition": null,
+                            "Id": "(O)404",
+                            "ItemId": "(O)404",
+                            "RandomItemId": null,
+                            "MinStack": -1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                        },
+                        {
+                            "Chance": 0.4,
+                            "Season": "Fall",
+                            "Condition": null,
+                            "Id": "(O)595",
+                            "ItemId": "(O)595",
+                            "RandomItemId": null,
+                            "MinStack": -1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                        },
+                        {
+                            "Chance": 0.9,
+                            "Season": "Fall",
+                            "Condition": null,
+                            "Id": "(O)408",
+                            "ItemId": "(O)408",
+                            "RandomItemId": null,
+                            "MinStack": -1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                        },
+                        {
+                            "Chance": 0.85,
+                            "Season": "Winter",
+                            "Condition": null,
+                            "Id": "(O)414",
+                            "ItemId": "(O)414",
+                            "RandomItemId": null,
+                            "MinStack": -1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                        },
+                        {
+                            "Chance": 0.9,
+                            "Season": "Winter",
+                            "Condition": null,
+                            "Id": "(O)418",
+                            "ItemId": "(O)418",
+                            "RandomItemId": null,
+                            "MinStack": -1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                        },
+                        {
+                            "Chance": 0.5,
+                            "Season": "Winter",
+                            "Condition": null,
+                            "Id": "(O)Powdermelon",
+                            "ItemId": "(O)Powdermelon",
+                            "RandomItemId": null,
+                            "MinStack": -1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                        }
+                    ],
+                    "MinDailyWeeds": 2,
+                    "MaxDailyWeeds": 5,
+                    "FirstDayWeedMultiplier": 15,
+                    "MinDailyForageSpawn": 1,
+                    "MaxDailyForageSpawn": 6,
+                    "MaxSpawnedForageAtOnce": 10,
+                    "ChanceForClay": 0.03,
+                    "Music": [],
+                    "MusicDefault": null,
+                    "MusicContext": "Default",
+                    "MusicIgnoredInRain": false,
+                    "MusicIgnoredInSpring": false,
+                    "MusicIgnoredInSummer": false,
+                    "MusicIgnoredInFall": false,
+                    "MusicIgnoredInFallDebris": false,
+                    "MusicIgnoredInWinter": false,
+                    "MusicIsTownTheme": false,
+                    "CustomFields": {}
+                },
+				"CasaEstrada": {
+                    "DisplayName": "{{i18n:CITV.Locations.CasaEstrada}}",
+                    "DefaultArrivalTile": {
+                        "X": 21,
+                        "Y": 29
+                    },
+                    "CreateOnLoad": {
+                        "MapPath": "Maps\\CasaEstrada"
+                    },
+                    "CustomFields": {}
+                },
+				"EstradaBarnLower": {
+                    "DisplayName": "{{i18n:CITV.Locations.EstradaBarnLower}}",
+                    "DefaultArrivalTile": {
+                        "X": 14,
+                        "Y": 22
+                    },
+                    "CreateOnLoad": {
+                        "MapPath": "Maps\\EstradaBarnLower"
+                    },
+                    "CustomFields": {}
+                },
+				"EstradaBarnUpper": {
+                    "DisplayName": "{{i18n:CITV.Locations.EstradaBarnUpper}}",
+                    "DefaultArrivalTile": {
+                        "X": 14,
+                        "Y": 22
+                    },
+                    "CreateOnLoad": {
+                        "MapPath": "Maps\\EstradaBarnUpper"
+                    },
+                    "CustomFields": {}
+                },
+			}
+		},
+
+        {
+            "Action": "EditMap",
+            "Target": "Maps/EastScarp_Village",
+            "PatchMode": "Replace",
+            "FromFile": "assets/Maps/EstradaRanchEntryPatch.tmx",
+            "ToArea": {
+                "X": 0,
+                "Y": 48,
+                "Width": 8,
+                "Height": 12
+            }
+        },
+
+        {
+            "Action": "EditMap",
+            "Target": "Maps/EastScarp_Village",
+            "AddWarps": [
+                "0 55 RanchoEstrada 37 15",
+                "0 56 RanchoEstrada 37 16"
+            ]
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/RanchoEstrada",
+            "AddWarps": [
+                "39 15 EastScarp_Village 2 55",
+                "39 16 EastScarp_Village 2 56",
+                "39 17 EastScarp_Village 2 56"
+            ]
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/CasaEstrada",
+            "AddWarps": [
+                "21 31 RanchoEstrada 32 5",
+                "22 31 RanchoEstrada 32 5",
+            ]
+        },
+		{
+            "Action": "EditMap",
+            "Target": "Maps/CasaEstrada",
+            "MapProperties": {
+                "Doors": "4 14 townInterior 120 13 14 townInterior 120",
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/EstradaBarnUpper",
+            "AddWarps": [
+                "27 18 EstradaBarnLower 27 19",
+                "28 18 EstradaBarnLower 28 19",
+            ]
+        },
+		{
+            "Action": "EditMap",
+            "Target": "Maps/EstradaBarnUpper",
+            "MapProperties": {
+                "Doors": "15 10 townInterior 120 6 17 townInterior 824 7 17 townInterior 825 23 17 townInterior 824 24 17 townInterior 825",
+            }
+        },
+		{
+            "Action": "EditMap",
+            "Target": "Maps/RanchoEstrada",
+            "MapProperties": {
+                "Outdoors": "T",
+            }
+        },
+]
+}

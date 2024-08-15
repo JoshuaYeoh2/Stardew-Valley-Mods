@@ -1,0 +1,88 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "RaffieJohn.ReylaShop": {
+                    "Owners": [
+                        {
+                        "Name": "RaffieJohn.Reyla",
+                            "Dialogue": [
+                                {
+                            "Id": "RaffieJohn.ReylaShop",
+                            "Dialogue": "{{i18n: RaffieJohn.ReylaShop}}"
+                                }
+                            ]
+                        }
+                    ],
+                    "Items":[
+                        {
+                            "Id": "(0)RaffieJohn.Tteokbokki",
+                            "Condition": null,
+                            "Price": "250",
+                            "TradeItemId": null,
+                            "ItemId": "(0)RaffieJohn.Tteokbokki",
+                            "AvailableStock": "5",
+                            "AvailableStockLimit": "player"
+                        },
+                        {
+                            "Id": "(0)RaffieJohn.BeefBroth",
+                            "Condition": null,
+                            "Price": "250",
+                            "TradeItemId": null,
+                            "ItemId": "(0)RaffieJohn.BeefBroth",
+                            "AvailableStock": "5",
+                            "AvailableStockLimit": "player"
+                        },
+                        {
+                            "Id": "(0)RaffieJohn.PorkTamale",
+                            "Condition": null,
+                            "Price": "250",
+                            "TradeItemId": null,
+                            "ItemId": "(0)RaffieJohn.PorkTamale",
+                            "AvailableStock": "5",
+                            "AvailableStockLimit": "player"
+                        },
+                        {
+                            "Id": "(0)RaffieJohn.BeefTamale",
+                            "Condition": null,
+                            "Price": "250",
+                            "TradeItemId": null,
+                            "ItemId": "(0)RaffieJohn.BeefTamale",
+                            "AvailableStock": "5",
+                            "AvailableStockLimit": "player"
+                        },
+                        {
+                            "Id": "(0)RaffieJohn.BobaTea",
+                            "Condition": null,
+                            "Price": "250",
+                            "TradeItemId": null,
+                            "ItemId": "(0)RaffieJohn.BobaTea",
+                            "AvailableStock": "5",
+                            "AvailableStockLimit": "player"
+                        },
+                        {
+                            "Id": "(0)RaffieJohn.Kenpeito",
+                            "Condition": null,
+                            "Price": "250",
+                            "TradeItemId": null,
+                            "ItemId": "(0)RaffieJohn.Kenpeito",
+                            "AvailableStock": "5",
+                            "AvailableStockLimit": "player"
+                        },
+                        {
+                            "Id": "(0)RaffieJohn.SpaghettiSquash",
+                            "Condition": null,
+                            "Price": "250",
+                            "TradeItemId": null,
+                            "ItemId": "(0)RaffieJohn.SpaghettiSquash",
+                            "AvailableStock": "5",
+                            "AvailableStockLimit": "player"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

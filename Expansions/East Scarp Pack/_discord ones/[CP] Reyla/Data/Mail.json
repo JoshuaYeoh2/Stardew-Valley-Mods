@@ -1,0 +1,175 @@
+{
+    "Changes": [
+        //SET AS TRIGGER ACTION
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "RaffieJohn.Reyla_Test.Trigger": {
+                    "Id": "RaffieJohn.Reyla_Test.Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS current RaffieJohn.Reyla 00",
+                    "HostOnly": false,
+                    "Action": "AddMail Current RaffieJohn.Reyla_Test",
+                    "Actions": null,
+                    "CustomFields": {}
+                } 
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "RaffieJohn.ReylaQuestMailMeetTheGuild.Trigger": {
+                    "Id": "RaffieJohn.ReylaQuestMailMeetTheGuild.Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS current RaffieJohn.Reyla 10",
+                    "HostOnly": false,
+                    "Action": "AddMail Current RaffieJohn.ReylaQuestMailMeetTheGuild",
+                    "Actions": null,
+                    "CustomFields": {}
+                } 
+            },
+            "When":{
+                "Hasflag": "guildmember"}
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "RaffieJohn.Reyla_MakeABoom.Trigger": {
+                    "Id": "RaffieJohn.Reyla_MakeABoom.Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS current RaffieJohn.Reyla 1250, PLAYER_HAS_SEEN_EVENT All RaffieJohn.ReylaCave",
+                    "HostOnly": false,
+                    "Action": null,
+                    "Actions": ["AddMail Current RaffieJohn.Reyla_MakeABoom", "AddSpecialOrder RaffieJohn.Reyla_SO_Boom"],
+                    "CustomFields": {}
+                } 
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "RaffieJohn.ReylaMailPlushie.Trigger": {
+                    "Id": "RaffieJohn.ReylaMailPlushie.Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS current RaffieJohn.Reyla 1500",
+                    "HostOnly": false,
+                    "Action": "AddMail Current RaffieJohn.ReylaMailPlushie",
+                    "Actions": null,
+                    "CustomFields": {}
+                } 
+            },
+            "When": {
+                "HasMod|contains=VWW.CP.PixelPalsPlushies": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "RaffieJohn.Reyla_Reyla_MineOpened.Trigger": {
+                    "Id": "RaffieJohn.Reyla_Reyla_MineOpened.Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_SPECIAL_ORDER_COMPLETE All RaffieJohn.Reyla_SO_Boom",
+                    "HostOnly": false,
+                    "Action": "AddMail Current Reyla.MineOpened",
+                    "Actions": null,
+                    "CustomFields": {}
+                } 
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "RaffieJohn.Reyla_PhotoMom.Trigger": {
+                    "Id": "RaffieJohn.Reyla_PhotoMom.Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS current RaffieJohn.Reyla 1500",
+                    "HostOnly": false,
+                    "Action": "AddMail Current RaffieJohn.Reyla_PhotoMom",
+                    "Actions": null,
+                    "CustomFields": {}
+                } 
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "RaffieJohn.Reyla_ThankYou.Trigger": {
+                    "Id": "RaffieJohn.Reyla_ThankYou.Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS current RaffieJohn.Reyla 1500, PLAYER_HAS_SEEN_EVENT current RaffieJohn.ReylaMom",
+                    "HostOnly": false,
+                    "Action": "AddMail Current RaffieJohn.Reyla_ThankYou",
+                    "Actions": null,
+                    "CustomFields": {}
+                } 
+            }
+        },
+        //ACTUAL MAIL
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			"Entries": {
+                "RaffieJohn.ReylaQuestMailMeetTheGuild": "{{i18n: Reyla.Mail_Quest_01}}[#]{{i18n: Reyla.Mail_Quest_01_Title}}"
+            }
+        },
+        {
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			"Entries": {
+                "RaffieJohn.Reyla_Test": "{{i18n: Reyla.test}}[#]{{i18n: Reyla.test_title}}"
+            }
+        },
+        {
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			"Entries": {
+                "RaffieJohn.ReylaMailPlushie": "{{i18n: Reyla.plushie}}[#]{{i18n: Reyla.plushie_title}}"
+            },
+            "When": {
+                "HasMod|contains=VWW.CP.PixelPalsPlushies": true
+            }
+        },
+        {
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			"Entries": {
+                "RaffieJohn.Reyla_Terms": "{{i18n: Reyla.Terms}}[#]{{i18n: Reyla.Terms_title}}"
+            }
+        },
+        {
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			"Entries": {
+                "RaffieJohn.Reyla_MakeABoom": "{{i18n: Reyla.MakeABoom}}[#]{{i18n: Reyla.MakeABoom_Title}}"
+            }
+        },
+        {
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			"Entries": {
+                "RaffieJohn.Reyla.MineOpened": "{{i18n: Reyla.MineOpened}}[#]{{i18n: Reyla.MineOpened_Title}}"
+            }
+        },
+        {
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			"Entries": {
+                "RaffieJohn.Reyla_PhotoMom": "{{i18n: Reyla.PhotoMom}}[#]{{i18n: Reyla.PhotoMom_Title}}"
+            }
+        },
+        {
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			"Entries": {
+                "RaffieJohn.Reyla_ThankYou": "{{i18n: Reyla.ThankYou}}[#]{{i18n: Reyla.ThankYou_Title}}"
+            }
+        }
+    ]
+}

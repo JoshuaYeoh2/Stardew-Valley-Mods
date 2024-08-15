@@ -1,0 +1,40 @@
+{
+    "Changes": [
+        {
+            "LogName": "Dolly in Barn",
+            "Action": "EditMap",
+            "Target": "Maps/EstradaBarnLower",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": "7",
+                        "Y": "12"
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 SauriConservationintheValleyCC.DollyBison"
+                    },
+                },
+            ],
+            "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "Dolly Out Grazing",
+            "Action": "EditMap",
+            "Target": "Maps/RanchoEstrada",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": "10",
+                        "Y": "14"
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 SauriConservationintheValleyCC.DollyBison"
+                    },
+                },
+            ],
+            "Update": "OnLocationChange"
+        },
+    ]
+}

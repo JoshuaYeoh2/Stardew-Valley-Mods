@@ -1,0 +1,77 @@
+{
+  "Changes": [
+    {
+      "LogName": "BearFamMail",
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "Entries": {
+
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //plot mail - standalone
+        "SigurdHardWork": "{{i18n:MailSigurd1}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 0][textcolor black][#]{{i18n:MailSigurd1Title}}",
+        "BearFamExtraMembers": "{{i18n:MailSondra1}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 0][textcolor black][#]{{i18n:MailSondra1Title}}",
+        "TerenMysteryMail": "{{i18n:MailTeren1}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 1][textcolor black][#]{{i18n:MailTeren1Title}}",
+        "GunnarGoesMissing": "{{i18n:MailGunnarGone}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 0][textcolor black][#]{{i18n:MailGunnarGoneTitle}}",
+        "SigisDumb": "{{i18n:MailSigDumb}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 0][textcolor black][#]{{i18n:MailSigDumbTitle}}",
+        "GudrunInvite": "{{i18n:MailGudrunInvite}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 0][textcolor black][#]{{i18n:MailGudrunInviteTitle}}",
+        "SigAwake": "{{i18n:MailSigAwake}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 1][textcolor black][#]{{i18n:MailSigAwakeTitle}}",
+        "SigLessonTime": "{{i18n:MailSigLessonTime}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 2][textcolor black][#]{{i18n:MailSigLessonTimeTitle}}",
+        "BeeExplanationSkipped": "{{i18n:MailBeeExplanationSkipped}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 0][textcolor black][#]{{i18n:MailBeeExplanationSkippedTitle}}",
+        "SondraBotbInvite": "{{i18n:MailSondraBotbInvite}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 0][textcolor black][#]{{i18n:MailSondraBotbInviteTitle}}",
+        "FavorforSig": "{{i18n:MailSigFavor}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 0][textcolor black][#]{{i18n:MailSigFavorTitle}}",
+        "FavorforTeren": "{{i18n:MailTerenLostCookbook}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 1][textcolor black][#]{{i18n:MailTerenLostCookbookTitle}}",
+
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //Teren's cooking mail
+        "RoseCupcakeChosen": "{{i18n:MailTerenRoseCupcake}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 1][textcolor black][#]{{i18n:MailTerenRoseCupcakeTitle}}",
+        "SesameBrownBreadChosen": "{{i18n:MailTerenBrownBread}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 1][textcolor black][#]{{i18n:MailTerenBrownBreadTitle}}",
+        "CornbreadMuffinsChosen": "{{i18n:MailTerenCornbreadMuffin}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 1][textcolor black][#]{{i18n:MailTerenCornbreadMuffinTitle}}",
+        "TerenCookingSkipped": "{{i18n:MailTerenCookingSkipped}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 1][textcolor black][#]{{i18n:MailTerenCookingSkippedTitle}}",
+
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //Ramen event mail
+        "bearfam.sigramen": "{{i18n:SigRamenLetter}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 0][textcolor black][#]{{i18n:SigRamenTitle}}",
+        "bearfam.sondraramen": "{{i18n:SondraRamenLetter}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 0][textcolor black][#]{{i18n:SondraRamenTitle}}",
+        "bearfam.gunnarramen": "{{i18n:GunnarRamenLetter}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 0][textcolor black][#]{{i18n:GunnarRamenTitle}}",
+        "bearfam.gudrunramen": "{{i18n:GudrunRamenLetter}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 0][textcolor black][#]{{i18n:GudrunRamenTitle}}",
+
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //Sondra's seasonal mail
+        "bearfam.springtimeshortbread": "{{i18n:SpringTimeLetter}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 0][textcolor black][#]{{i18n:SpringtimeTitle}}",
+        "bearfam.summersnackcake": "{{i18n:SummerSnackLetter}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 0][textcolor black][#]{{i18n:SummerSnackTitle}}",
+        "bearfam.autumnapplecookie": "{{i18n:AutumnCookieLetter}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 0][textcolor black][#]{{i18n:AutumnCookieTitle}}",
+        "bearfam.winterwonderbar": "{{i18n:WinterBarLetter}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 0][textcolor black][#]{{i18n:WinterBarTitle}}",
+
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //Sondra's congrats letter
+        "bearfam.brazieralfredo": "{{i18n:BrazierAlfredoLetter}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 0][textcolor black][#]{{i18n:BrazierAlfredoTitle}}",
+
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //Gunnar friendship improves
+        "bearfam.gunnarperfectpotion": "{{i18n:GunnarPerfectPotionLetter}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 0][textcolor black][#]{{i18n:GunnarPerfectPotionTitle}}",
+        "bearfam.gunnarnineherbcharm": "{{i18n:GunnarNineHerbCharmLetter}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 0][textcolor black][#]{{i18n:GunnarNineHerbCharmTitle}}",
+        "bearfam.gunnarremedyall": "{{i18n:GunnarRemedyLetter}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 0][textcolor black][#]{{i18n:GunnarRemedyTitle}}",
+        "bearfam.gunnarphoenixdown": "{{i18n:GunnarPhoenixDownLetter}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 0][textcolor black][#]{{i18n:GunnarPhoenixDownTitle}}",
+
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //Sig friendship improves
+        "bearfam.peachjojacola": "{{i18n:SigPeachJojaLetter}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 0][textcolor black][#]{{i18n:SigPeachJojaTitle}}",
+        "bearfam.pumpkinjojacola": "{{i18n:SigPumpkinJojaLetter}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 0][textcolor black][#]{{i18n:SigPumpkinJojaTitle}}",
+        "bearfam.ferskenpeachcobbler": "{{i18n:SigFerskenPeachCobblerLetter}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 0][textcolor black][#]{{i18n:SigFerskenPeachCobblerTitle}}",
+        "bearfam.slicedpeaches": "{{i18n:SigSlicedPeachesLetter}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 0][textcolor black][#]{{i18n:SigSlicedPeachesTitle}}"
+
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        /*"": "{{i18n:}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 0][textcolor black][#]{{i18n:}}",
+      "": "{{i18n:}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 0][textcolor black][#]{{i18n:}}",
+      "": "{{i18n:}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 0][textcolor black][#]{{i18n:}}",
+      "": "{{i18n:}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 0][textcolor black][#]{{i18n:}}",
+      "": "{{i18n:}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 0][textcolor black][#]{{i18n:}}",
+      "": "{{i18n:}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 0][textcolor black][#]{{i18n:}}",
+      "": "{{i18n:}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 0][textcolor black][#]{{i18n:}}",
+      "": "{{i18n:}}[letterbg Mods/MadDog.HashtagBearFam/LetterBackgrounds 0][textcolor black][#]{{i18n:}}"*/
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+      }
+    }
+  ]
+}

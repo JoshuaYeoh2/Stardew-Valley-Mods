@@ -1,0 +1,78 @@
+{
+    "Changes": [
+        //---------------------------- ITEM DATA ------------------------------------------// 
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModID}}_Items.ExpiredMegaBomb": {
+                    "Name": "{{ModID}}_Items.ExpiredMegaBomb",
+                    "DisplayName": "{{i18n:Items.ExpiredMegaBomb.Title}}",
+                    "Description": "{{i18n:Items.ExpiredMegaBomb.Description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 0,
+                    "Edibility": -300,
+                    "Buff": null,
+                    "IsDrink": false,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ContextTags": [ "color_orange", "bomb_item" ],
+                    "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
+                    "SpriteIndex": 13
+                }               
+            }
+        },
+        //---------------------------- SPACECORE DATA ------------------------------------------// 
+        {
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+            "Entries": { 
+                "{{ModID}}_Items.ExpiredMegaBomb": { 
+                    "UseForTriggerAction": true,
+                    "ConsumeForTriggerAction": true,
+                    "CategoryTextOverride": "{{i18n:Items.ExpiredMegaBomb.Category}}"
+                 }
+             }
+        },
+        {
+            "LogName": "Trigger Action - Expired Mega Bomb Fail",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+              "{{ModID}}_TriggerActions.ExpiredMegaBomb.InjurePlayer": {
+                "Id": "DitR.ExpiredMegaBomb.InjurePlayer",
+                "Trigger": "spacechase0.SpaceCore_OnItemUsed",
+                "Actions": [ 
+                    "spacechase0.SpaceCore_DamageCurrentFarmer -1", "AddConversationTopic DitR_CT_UsedExpiredMegaBomb 3", 
+                    "spacechase0.SpaceCore_PlaySound explosion true", "IncrementStat ExpiredMegaBombsUsed 1",
+                    "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:Items.ExpiredMegaBomb.HUDMessage}}\" (O){{ModID}}_Items.ExpiredMegaBomb" 
+                ],
+                "MarkActionApplied": false,
+                "Condition": "ITEM_ID Input (O){{ModID}}_Items.ExpiredMegaBomb"
+              },
+
+              "{{ModID}}_TriggerActions.UsedMultipleExpiredMegaBombs": {
+                "Trigger": "DayEnding",
+                "Id": "{{ModID}}_TriggerActions.UsedMultipleExpiredMegaBombs",
+                "Condition": "PLAYER_STAT Current ExpiredMegaBombsUsed 5",
+                "Actions": [ "AddConversationTopic DitR_CT_UsedMultipleExpiredMegaBombs 3" ]
+            }
+            }
+          },
+        //---------------------------- GIFT TASTE DATA ------------------------------------------// 
+          {
+            "LogName": "Hatred Override",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+           {
+                "Operation": "Append",
+                "Target": ["Entries", "Universal_hate"],
+                "Value": "{{ModID}}_Items.ExpiredMegaBomb",
+                "Delimiter": " "
+            }
+        ]
+    }
+    ]
+}

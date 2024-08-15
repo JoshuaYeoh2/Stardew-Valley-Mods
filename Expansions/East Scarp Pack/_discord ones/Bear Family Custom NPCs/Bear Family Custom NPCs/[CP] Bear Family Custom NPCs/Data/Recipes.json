@@ -1,0 +1,59 @@
+{
+  "Changes": [
+    //recipes 
+    {
+      "LogName": "CookingRecipes",
+      "Action": "EditData",
+      "Target": "Data/CookingRecipes",
+      "Entries": {
+        "MadDog.HashtagBearfam.TriangleGrilledCheese": "216 1 424 1/1 10/MadDog.HashtagBearfam.TriangleGrilledCheese/default/{{i18n:MadDog.HashtagBearfam.TriangleGrilledCheese}}", //bread cheese
+
+        "MadDog.HashtagBearfam.SondraWinterBar": "408 1 433 1 282 1/1 10/MadDog.HashtagBearfam.SondraWinterBar/SEASON_DAY winter 10/{{i18n:MadDog.HashtagBearfam.SondraWinterBar}}", //hazelnut cranberry coffee bean
+        "MadDog.HashtagBearfam.SondraSummerCake": "246 1 254 1 258 1/1 10/MadDog.HashtagBearfam.SondraSummerCake/SEASON_DAY summer 10/{{i18n:MadDog.HashtagBearfam.SondraSummerCake}}", //flour melon blueberry
+        "MadDog.HashtagBearfam.SondraSpringtimeShortbread": "246 1 245 1 296 1/1 10/MadDog.HashtagBearfam.SondraSpringtimeShortbread/SEASON_DAY spring 10/{{i18n:MadDog.HashtagBearfam.SondraSpringtimeShortbread}}", //flour sugar salmonberry
+        "MadDog.HashtagBearfam.SondraAutumnCookie": "246 1 613 1/1 10/MadDog.HashtagBearfam.SondraAutumnCookie/SEASON_DAY fall 10/{{i18n:MadDog.HashtagBearfam.SondraAutumnCookie}}", //flour apple
+        "MadDog.HashtagBearfam.BrazierSecretAlfredo": "246 1 248 1 -6 1/1 10/MadDog.HashtagBearfam.BrazierSecretAlfredo/PLAYER_FARMHOUSE_UPGRADE Current 1/{{i18n:MadDog.HashtagBearfam.BrazierSecretAlfredo}}", //flour garlic milk 
+
+
+        "MadDog.HashtagBearfam.SondraPerfectRamen": "399 1 406 1 246 1 -5 1/1 10/MadDog.HashtagBearfam.SondraPerfectRamen/e MadDog.BearFam.16197003/{{i18n:MadDog.HashtagBearfam.SondraPerfectRamen}}", //spring onion wild plum flour egg
+        "MadDog.HashtagBearfam.SigurdPerfectRamen": "260 1 248 1 246 1 -5 1/1 10/MadDog.HashtagBearfam.SigurdPerfectRamen/e MadDog.BearFam.16197003/{{i18n:MadDog.HashtagBearfam.SigurdPerfectRamen}}", //hot pepper garlic flour egg
+        "MadDog.HashtagBearfam.GunnarPerfectRamen": "22 1 404 1 246 1 -5 1/1 10/MadDog.HashtagBearfam.GunnarPerfectRamen/e MadDog.BearFam.16197003/{{i18n:MadDog.HashtagBearfam.GunnarPerfectRamen}}", //dandelion common mushroom flour egg
+        "MadDog.HashtagBearfam.GudrunPerfectRamen": "278 1 250 1 246 1 -5 1/1 10/MadDog.HashtagBearfam.GudrunPerfectRamen/e MadDog.BearFam.16197003/{{i18n:MadDog.HashtagBearfam.GudrunPerfectRamen}}", //bok choy kale flour egg
+
+        "MadDog.HashtagBearfam.NineHerbsCharm": "-5 1 152 1 330 1 311 1/1 10/MadDog.HashtagBearfam.NineHerbsCharm/e MadDog.BearFam.16193004/{{i18n:MadDog.HashtagBearfam.NineHerbsCharm}}", //egg seaweed clay pinecone
+        "MadDog.HashtagBearfam.GunnarRemedyAll": "340 1 16 1 372 1 330 1/1 10/MadDog.HashtagBearfam.GunnarRemedyAll/e MadDog.BearFam.16193006/{{i18n:MadDog.HashtagBearfam.GunnarRemedyAll}}", //honey wild horseradish clam clay      //may change that to event seen
+        "MadDog.HashtagBearfam.GunnarPhoenixDown": "444 1 453 1 192 1/1 10/MadDog.HashtagBearfam.GunnarPhoenixDown/e MadDog.BearFam.16193008/{{i18n:MadDog.HashtagBearfam.GunnarPhoenixDown}}", //duck feather poppy seeds potato       //may change that to event seen
+        "MadDog.HashtagBearfam.GunnarPerfectPotion": "420 1 422 1 -5 1 378 1/1 10/MadDog.HashtagBearfam.GunnarPerfectPotion/e MadDog.BearFam.16193010/{{i18n:MadDog.HashtagBearfam.GunnarPerfectPotion}}", //red mushroom purple mushroom egg copper ore
+
+        "MadDog.HashtagBearfam.PumpkinJoja": "276 1 167 1/1 10/MadDog.HashtagBearfam.PumpkinJoja/e MadDog.BearFam.16191007/{{i18n:MadDog.HashtagBearfam.PumpkinJoja}}", //pumpkin joja cola
+        "MadDog.HashtagBearfam.PeachJoja": "636 1 167 1/1 10/MadDog.HashtagBearfam.PeachJoja/e MadDog.BearFam.16191008/{{i18n:MadDog.HashtagBearfam.PeachJoja}}", //peach joja cola
+
+
+
+        "MadDog.HashtagBearfam.FerskenPeachCobbler": "MadDog.HashtagBearfam.FerskenPeach 1 245 1 246 1/1 10/MadDog.HashtagBearfam.FerskenPeachCobbler/null/{{i18n:MadDog.HashtagBearfam.FerskenPeachCobbler}}", //ferskenpeach flour sugar //event seen this
+        "MadDog.HashtagBearfam.SlicedPeaches": "MadDog.HashtagBearfam.FerskenPeach 1 245 1/1 10/MadDog.HashtagBearfam.SlicedPeaches/null/{{i18n:MadDog.HashtagBearfam.SlicedPeaches}}", //ferskenpeach sugar //event seen this
+        "MadDog.HashtagBearfam.FerskenPeach_Mead_Tankard": "MadDog.HashtagBearfam.FerskenPeach_Mead 1 245 1/1 10/MadDog.HashtagBearfam.FerskenPeach_Mead_Tankard 3/null/{{i18n:MadDog.HashtagBearfam.FerskenPeach_Mead_Tankard}}", //fersken peach mead, 
+        "MadDog.HashtagBearfam.HoneyCakes": "246 1 MadDog.HashtagBearfam.FerskenPeach_Honey 1 258 1/1 10/MadDog.HashtagBearfam.HoneyCakes 2/null/{{i18n:MadDog.HashtagBearfam.HoneyCakes}}",
+
+
+
+        "MadDog.HashtagBearfam.GunnarBadPotion": "330 2 382 1/1 10/MadDog.HashtagBearfam.GunnarBadPotion/null/{{i18n:MadDog.HashtagBearfam.GunnarBadPotion}}", //2 clay 1 coal
+        "MadDog.HashtagBearfam.GunnarFirstPotion": "92 3 776 1/1 10/MadDog.HashtagBearfam.GunnarFirstPotion/null/{{i18n:MadDog.HashtagBearfam.GunnarFirstPotion}}", //3 sap 1 slime
+        "MadDog.HashtagBearfam.GunnarMysteryPotion": "767 1 427 1 881 1/1 10/MadDog.HashtagBearfam.GunnarMysteryPotion/null/{{i18n:MadDog.HashtagBearfam.GunnarMysteryPotion}}", //1 bat wing 1 tulip bulb 1 bone fragment
+        "MadDog.HashtagBearfam.GunnarSecondPotion": "248 1 771 2/1 10/MadDog.HashtagBearfam.GunnarSecondPotion/null/{{i18n:MadDog.HashtagBearfam.GunnarSecondPotion}}", //1 garlic 2 fiber
+        "MadDog.HashtagBearfam.GunnarThirdPotion": "378 1 -5 1 829 1/1 10/MadDog.HashtagBearfam.GunnarThirdPotion/null/{{i18n:MadDog.HashtagBearfam.GunnarThirdPotion}}", //1 copper ore 1 egg 1 ginger
+        "MadDog.HashtagBearfam.GunnarWeirdPotion": "404 1 372 1 726 1/1 10/MadDog.HashtagBearfam.GunnarWeirdPotion/null/{{i18n:MadDog.HashtagBearfam.GunnarWeirdPotion}}", //1 common mush 1 clam 1 pine tar
+
+
+        "MadDog.HashtagBearfam.TTBrownies": "246 1 -5 1 614 1/1 10/MadDog.HashtagBearfam.TTBrownies 4/null/{{i18n:MadDog.HashtagBearfam.TTBrownies}}", //wheat egg green tea
+        "MadDog.HashtagBearfam.BananaBread": "246 1 91 1/1 10/MadDog.HashtagBearfam.BananaBread 3/null/{{i18n:MadDog.HashtagBearfam.BananaBread}}", //wheat banana
+        "MadDog.HashtagBearfam.RoseCupcakes": "246 1 595 1/1 10/MadDog.HashtagBearfam.RoseCupcakes 4/null/{{i18n:MadDog.HashtagBearfam.RoseCupcakes}}", //wheat fairy rose
+        "MadDog.HashtagBearfam.CornbreadMuffins": "246 1 270 1/1 10/MadDog.HashtagBearfam.CornbreadMuffins 3/null/{{i18n:MadDog.HashtagBearfam.CornbreadMuffins}}", //wheat corn
+        "MadDog.HashtagBearfam.SesameBrownBread": "246 1 770 1/1 10/MadDog.HashtagBearfam.SesameBrownBread 3/null/{{i18n:MadDog.HashtagBearfam.SesameBrownBread}}", //wheat mixed seeds
+        "MadDog.HashtagBearfam.HoneyWheatBread": "246 1 MadDog.HashtagBearfam.FerskenPeach_Honey 1/1 10/MadDog.HashtagBearfam.HoneyWheatBread 3/null/{{i18n:MadDog.HashtagBearfam.HoneyWheatBread}}" //wheat fersken peach honey
+        /*"": "/1 10// /{{i18n:}}"
+        /*"MadDog.HashtagBearfam.FerskenPeach_Honey": "MadDog.HashtagBearfam.FerskenPeach 1 340 1/1 10/MadDog.HashtagBearfam.FerskenPeach_Honey 2/null/{{i18n:MadDog.HashtagBearfam.FerskenPeach_Honey}}", //fersken peach, honey*/
+      }
+    }
+  ]
+}

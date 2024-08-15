@@ -1,0 +1,52 @@
+{
+	"Changes": [
+
+		{
+			"LogName": "Gudrun Strings",
+			"Action": "EditData",
+			"Target": "Strings/schedules/MadDog.HashtagBearFam.Gudrun",
+			"When": {
+				"Query: {{Year}} % 2 = 1": true
+			},
+			"Entries": {
+
+				//Strings
+
+				"GudrunSpiritsEveInnA.000": "{{Random:{{i18n:StringsGudrunSpiritsEveInnA1}}++{{i18n:StringsGudrunSpiritsEveInnA2}}++{{i18n:StringsGudrunSpiritsEveInnA3}}|inputSeparator=++}}",
+				"GudrunSpiritsEveInnB.000": "{{Random:{{i18n:StringsGudrunSpiritsEveInnB1}}++{{i18n:StringsGudrunSpiritsEveInnB2}}++{{i18n:StringsGudrunSpiritsEveInnB3}}|inputSeparator=++}}",
+				"GudrunPickTrashMountain.000": "{{Random:{{i18n:StringsGudrunPickTrashMountain1}}++{{i18n:StringsGudrunPickTrashMountain2}}++{{i18n:StringsGudrunPickTrashMountain3}}|inputSeparator=++}}",
+				"GudrunClassroomTime.000": "{{Random:{{i18n:StringsGudrunClassroomTime1}}++{{i18n:StringsGudrunClassroomTime2}}++{{i18n:StringsGudrunClassroomTime3}}|inputSeparator=++}}",
+				"GudrunShallowsPhotography.000": "{{Random:{{i18n:StringsGudrunShallowsPhotography1}}++{{i18n:StringsGudrunShallowsPhotography2}}++{{i18n:StringsGudrunShallowsPhotography3}}|inputSeparator=++}}",
+				"GudrunPITV.000": "{{Random:{{i18n:StringsGudrunPITV1}}++{{i18n:StringsGudrunPITV2}}++{{i18n:StringsGudrunPITV3}}|inputSeparator=++}}",
+				"GudrunGreenRain.000": "{{Random:{{i18n:StringsGudrunGreenRain1}}++{{i18n:StringsGudrunGreenRain2}}++{{i18n:StringsGudrunGreenRain3}}|inputSeparator=++}}",
+				"GudrunDTZA.000": "{{Random:{{i18n:StringsGudrunDTZA1}}++{{i18n:StringsGudrunDTZA2}}++{{i18n:StringsGudrunDTZA3}}|inputSeparator=++}}",
+				"GudrunDTZMall.000": "{{Random:{{i18n:StringsGudrunDTZMall1}}++{{i18n:StringsGudrunDTZMall2}}++{{i18n:StringsGudrunDTZMall3}}|inputSeparator=++}}",
+				"GudrunDTZB.000": "{{Random:{{i18n:StringsGudrunDTZB1}}++{{i18n:StringsGudrunDTZB2}}++{{i18n:StringsGudrunDTZB3}}|inputSeparator=++}}"
+			}
+		},
+		{
+			"LogName": "Gudrun Strings Year 2",
+			"Action": "EditData",
+			"Target": "Strings/schedules/MadDog.HashtagBearFam.Gudrun",
+			"When": {
+				"Query: {{Year}} % 2 = 0": true
+			},
+			"Entries": {
+
+				//Strings
+
+				"GudrunSpiritsEveInnA.000": "{{Random:{{i18n:StringsGudrunSpiritsEveInnAy21}}++{{i18n:StringsGudrunSpiritsEveInnAy22}}++{{i18n:StringsGudrunSpiritsEveInnAy23}}|inputSeparator=++}}",
+				"GudrunSpiritsEveInnB.000": "{{Random:{{i18n:StringsGudrunSpiritsEveInnBy21}}++{{i18n:StringsGudrunSpiritsEveInnBy22}}++{{i18n:StringsGudrunSpiritsEveInnBy23}}|inputSeparator=++}}",
+				"GudrunPickTrashMountain.000": "{{Random:{{i18n:StringsGudrunPickTrashMountain1}}++{{i18n:StringsGudrunPickTrashMountain2}}++{{i18n:StringsGudrunPickTrashMountain3}}|inputSeparator=++}}",
+				"GudrunClassroomTime.000": "{{Random:{{i18n:StringsGudrunClassroomTime1}}++{{i18n:StringsGudrunClassroomTime2}}++{{i18n:StringsGudrunClassroomTime3}}|inputSeparator=++}}",
+				"GudrunShallowsPhotography.000": "{{Random:{{i18n:StringsGudrunShallowsPhotography1}}++{{i18n:StringsGudrunShallowsPhotography2}}++{{i18n:StringsGudrunShallowsPhotography3}}|inputSeparator=++}}",
+				"GudrunPITV.000": "{{Random:{{i18n:StringsGudrunPITV1}}++{{i18n:StringsGudrunPITV2}}++{{i18n:StringsGudrunPITV3}}|inputSeparator=++}}",
+				"GudrunGreenRain.000": "{{Random:{{i18n:StringsGudrunGreenRain1}}++{{i18n:StringsGudrunGreenRain2}}++{{i18n:StringsGudrunGreenRain3}}|inputSeparator=++}}",
+				"GudrunDTZA.000": "{{Random:{{i18n:StringsGudrunDTZA1}}++{{i18n:StringsGudrunDTZA2}}++{{i18n:StringsGudrunDTZA3}}|inputSeparator=++}}",
+				"GudrunDTZMall.000": "{{Random:{{i18n:StringsGudrunDTZMall1}}++{{i18n:StringsGudrunDTZMall2}}++{{i18n:StringsGudrunDTZMall3}}|inputSeparator=++}}",
+				"GudrunDTZB.000": "{{Random:{{i18n:StringsGudrunDTZB1}}++{{i18n:StringsGudrunDTZB2}}++{{i18n:StringsGudrunDTZB3}}|inputSeparator=++}}"
+			}
+		}
+	]
+} 
+

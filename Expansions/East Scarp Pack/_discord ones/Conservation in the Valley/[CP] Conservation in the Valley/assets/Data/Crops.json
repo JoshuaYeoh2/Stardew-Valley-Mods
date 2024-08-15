@@ -1,0 +1,187 @@
+{
+    "Changes": [
+        {
+            "LogName": "CITVCropObjects textures",
+            "Action": "Load",
+            "Target": "Mods/SauriConservationInTheValley/CITVCrops",
+            "FromFile": "assets/Items/CITVCrops.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "CITV_MinersLettuceSeeds": { //seeds
+                    "Seasons": [
+                        "Spring",
+                        "Fall",
+                        "Winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "RegrowDays": 2,
+                    "IsRaised": false,
+                    "IsPaddyCrop": false,
+					"NeedsWatering": false,
+                    "PlantableLocationRules": null,
+                    "HarvestItemId": "CITV_MinersLettuce",
+                    "HarvestMinStack": 3,
+                    "HarvestMaxStack": 6,
+                    "HarvestMaxIncreasePerFarmingLevel": 0.5,
+                    "ExtraHarvestChance": 0.5,
+                    "HarvestMethod": "Scythe",
+                    "HarvestMinQuality": 0,
+                    "HarvestMaxQuality": null,
+                    "TintColors": [],
+                    "Texture": "Mods\\SauriConservationintheValley\\CITVCrops",
+                    "SpriteIndex": 0,
+                    "CustomFields": {}
+                },
+			},
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "CITV_GoldenCurrantSeeds": { //seeds
+                    "Seasons": [
+                        "Spring",
+                        "Summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        2,
+                        1
+                    ],
+                    "RegrowDays": 3,
+                    "IsRaised": true,
+                    "IsPaddyCrop": false,
+					"NeedsWatering": false,
+                    "PlantableLocationRules": null,
+                    "HarvestItemId": "CITV_GoldenCurrant",
+                    "HarvestMinStack": 2,
+                    "HarvestMaxStack": 4,
+                    "HarvestMaxIncreasePerFarmingLevel": 0.5,
+                    "ExtraHarvestChance": 0.0,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinQuality": 0,
+                    "HarvestMaxQuality": null,
+                    "TintColors": [],
+                    "Texture": "Mods\\SauriConservationintheValley\\CITVCrops",
+                    "SpriteIndex": 4,
+                    "CustomFields": {}
+                },
+			},
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "CITV_LemonadeBerrySeeds": { //seeds
+                    "Seasons": [
+                        "Spring",
+                        "Summer",
+                        "Fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        2,
+                        2
+                    ],
+                    "RegrowDays": 4,
+                    "IsRaised": false,
+                    "IsPaddyCrop": false,
+					"NeedsWatering": false,
+                    "PlantableLocationRules": null,
+                    "HarvestItemId": "CITV_LemonadeBerry",
+                    "HarvestMinStack": 5,
+                    "HarvestMaxStack": 7,
+                    "HarvestMaxIncreasePerFarmingLevel": 0.5,
+                    "ExtraHarvestChance": 0.0,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinQuality": 0,
+                    "HarvestMaxQuality": null,
+                    "TintColors": [],
+                    "Texture": "Mods\\SauriConservationintheValley\\CITVCrops",
+                    "SpriteIndex": 6,
+                    "CustomFields": {}
+                },
+			},
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "CITV_BeargrassSeeds": { //seeds
+                    "Seasons": [
+                        "Spring",
+						"Summer",
+                        "Fall",
+                        "Winter"
+                    ],
+                    "DaysInPhase": [
+                        2,
+                        2,
+                        1
+                    ],
+                    "RegrowDays": -1,
+                    "IsRaised": false,
+                    "IsPaddyCrop": false,
+					"NeedsWatering": false,
+                    "PlantableLocationRules": null,
+                    "HarvestItemId": "CITV_GrizzlyTuber",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 3,
+                    "HarvestMaxIncreasePerFarmingLevel": 0.5,
+                    "ExtraHarvestChance": 0.2,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinQuality": 0,
+                    "HarvestMaxQuality": null,
+                    "TintColors": [],
+                    "Texture": "Mods\\SauriConservationintheValley\\CITVCrops",
+                    "SpriteIndex": 8,
+                    "CustomFields": {}
+                },
+			},
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "CITV_ManzanitaSeeds": { //seeds
+                    "Seasons": [
+                        "Spring",
+                        "Summer"
+                    ],
+                    "DaysInPhase": [
+                        2,
+                        2,
+                        2,
+                        2
+                    ],
+                    "RegrowDays": 4,
+                    "IsRaised": true,
+                    "IsPaddyCrop": false,
+					"NeedsWatering": false,
+                    "PlantableLocationRules": null,
+                    "HarvestItemId": "CITV_Manzanita",
+                    "HarvestMinStack": 5,
+                    "HarvestMaxStack": 8,
+                    "HarvestMaxIncreasePerFarmingLevel": 0.5,
+                    "ExtraHarvestChance": 0.0,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinQuality": 0,
+                    "HarvestMaxQuality": null,
+                    "TintColors": [],
+                    "Texture": "Mods\\SauriConservationintheValley\\CITVCrops",
+                    "SpriteIndex": 10,
+                    "CustomFields": {}
+                },
+			},
+		},
+		],
+	}

@@ -1,0 +1,92 @@
+{
+  "Changes": [
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    //scarecrow test zone
+    {
+      "LogName": "Scare Bear Time",
+      "Action": "EditData",
+      "Target": "Data/BigCraftables",
+      "Entries": {
+        "MadDog.HashtagBearfam.BearScarecrow": {
+          "Name": "MadDog.HashtagBearfam.BearScarecrow",
+          "DisplayName": "{{i18n:MadDog.HashtagBearfam.BearCrow}}",
+          "Description": "{{i18n:MadDog.HashtagBearfam.BearCrow.Description}}",
+          "Type": "Crafting",
+          "Category": -9,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{ExcludeFromPerfection}}",
+          "Price": 50,
+          "Fragility": 0,
+          "CanBePlacedOutdoors": true,
+          "CanBePlacedIndoors": true,
+          "IsLamp": false,
+          "Texture": "{{InternalAssetKey: assets/MadDog.BearFamScarecrow.png}}",
+          "SpriteIndex": 0,
+          "ContextTags": [
+            "crow_scare"
+          ]
+        }
+      }
+    },
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    //keg Test zone
+    {
+      "LogName": "Keg It Up",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)12",
+        "OutputRules"
+      ],
+      "Entries": {
+        "MadDog.HashtagBearfam.FerskenPeach_Mead": {
+          "Id": "MadDog.HashtagBearfam.FerskenPeach_Mead",
+          "Triggers": [
+            {
+              "RequiredItemId": "(O)MadDog.HashtagBearfam.FerskenPeach_Honey",
+              "RequiredCount": 3
+            }
+          ],
+          "OutputItem": [
+            {
+              "ItemId": "(O)MadDog.HashtagBearfam.FerskenPeach_Mead"
+            }
+          ],
+          "MinutesUntilReady": 7500
+        }
+
+      }
+    },
+    {
+      "LogName": "Age It Up",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)163",
+        "OutputRules"
+      ],
+      "Entries": {
+        "MadDog.HashtagBearfam.FerskenPeach_Mead": {
+          "Id": "MadDog.HashtagBearfam.FerskenPeach_Mead",
+          "Triggers": [
+            {
+              "RequiredItemId": "(O)MadDog.HashtagBearfam.FerskenPeach_Mead",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "CustomData": {
+                "AgingMultiplier": "4"
+              },
+              "OutputMethod": "StardewValley.Objects.Cask, Stardew Valley: OutputCask",
+              "ItemId": "(O)MadDog.HashtagBearfam.FerskenPeach_Mead"
+            }
+          ],
+          "MinutesUntilReady": -1
+        }
+
+      }
+    }
+  ]
+}

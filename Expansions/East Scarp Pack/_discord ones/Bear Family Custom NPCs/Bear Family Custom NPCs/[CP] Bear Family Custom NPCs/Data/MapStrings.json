@@ -1,0 +1,261 @@
+{
+  "Changes": [
+    //Map Strings
+    {
+      "LogName": "Map Strings",
+      "Action": "EditData",
+      "Target": "strings/StringsFromMaps",
+      "Entries": {
+
+        //Sigurd Room
+
+        "SigPhotos1": "{{i18n:StringsLodgeSigPhotos1}}",
+        "SigPhotos2": "{{i18n:StringsLodgeSigPhotos2}}",
+        "SigPennant": "{{i18n:StringsLodgeSigPennant}}",
+        "SigTrunk": "{{i18n:StringsLodgeSigTrunk}}",
+        "SigBoots": "{{i18n:StringsLodgeSigBoots}}",
+        "SigFootlocker": "{{i18n:StringsLodgeSigFootlocker}}",
+        "SigHelmet": "{{i18n:StringsLodgeSigHelmet}}",
+        "SigGridball": "{{i18n:StringsLodgeSigGridball}}",
+        "SigPC": "{{i18n:StringsLodgeSigPC}}",
+        "SigReminder": "{{i18n:StringsLodgeSigReminder}}",
+        "SigHoney2": "{{i18n:StringsLodgeSigHoney2}}",
+        "SigHighSchoolBox": "{{i18n:StringsLodgeSigPoetryBox}}",
+        "SigCollegeBox": "{{i18n:StringsLodgeSigCollegeBox}}",
+        "SigMeds": "{{i18n:StringsLodgeSigMeds}}",
+        "SigPoetryBook": "{{i18n:StringsLodgeSigPoetryBook}}",
+        "SigBookshelves": "{{i18n:StringsLodgeSigBookshelves}}",
+
+        //Gunnar Room
+
+        "GunPoster": "{{i18n:StringsLodgeGunPoster}}",
+        "GunPotion1": "{{i18n:StringsLodgeGunPotion1}}",
+        "GunSwords": "{{i18n:StringsLodgeGunSwords}}",
+        "GunTrials": "{{i18n:StringsLodgeGunTrials}}",
+        "GunCandy": "{{i18n:StringsLodgeGunCandy}}",
+        "GunPotions2": "{{i18n:StringsLodgeGunPotions2}}",
+        "GunGear": "{{i18n:StringsLodgeGunGear}}",
+        "GunShoes": "{{i18n:StringsLodgeGunShoes}}",
+        "GunWedding": "{{i18n:StringsLodgeGunWedding}}",
+        "GunBear": "{{i18n:StringsLodgeGunBear}}",
+        "GunPizza": "{{i18n:StringsLodgeGunPizza}}",
+        "GunConsole1": "{{i18n:StringsLodgeGunConsole1}}",
+        "GunConsole2": "{{i18n:StringsLodgeGunConsole2}}",
+
+        //Gudrun Room
+
+        "GudrunShelf1": "{{i18n:StringsLodgeGudrunShelf1}}",
+        "GudrunShelf2": "{{i18n:StringsLodgeGudrunShelf2}}",
+        "GudrunBooks1": "{{i18n:StringsLodgeGudrunBooks1}}",
+        "GudrunPearl": "{{i18n:StringsLodgeGudrunPearl}}",
+        "GudrunBooks2": "{{i18n:StringsLodgeGudrunBooks2}}",
+        "GudrunPC": "{{i18n:StringsLodgeGudrunPC}}",
+        "GudrunShoes": "{{i18n:StringsLodgeGudrunShoes}}",
+        "GudrunPlushie": "{{i18n:StringsLodgeGudrunPlushie}}",
+        "GudrunBed": "{{i18n:StringsLodgeGudrunBed}}",
+        "GudrunNote1": "{{i18n:StringsLodgeGudrunNote1}}",
+        "GudrunDresser": "{{i18n:StringsLodgeGudrunDresser}}",
+        "GudrunHomework": "{{i18n:StringsLodgeGudrunHomework}}",
+        "GudrunVanity": "{{i18n:StringsLodgeGudrunVanity}}",
+        "GudrunShark": "{{i18n:StringsLodgeGudrunShark}}",
+
+        //Sondra Room
+
+        "SondraPhoto": "{{i18n:StringsLodgeSondraPhoto}}",
+        "SondraRadio": "{{i18n:StringsLodgeSondraRadio}}",
+        "SondraStars": "{{i18n:StringsLodgeSondraStars}}",
+        "SondraTypewriter": "{{i18n:StringsLodgeSondraTypewriter}}",
+        "SondraPlant": "{{i18n:StringsLodgeSondraPlant}}",
+        "SondraLetter": "{{i18n:StringsLodgeSondraLetter}}",
+        "SondraMusicStand": "{{i18n:StringsLodgeSondraMusicStand}}",
+        "SondraPiano": "{{i18n:StringsLodgeSondraPiano}}",
+        "SondraBarbell": "{{i18n:StringsLodgeSondraBarbell}}",
+        "SondraBooks": "{{i18n:StringsLodgeSondraBooks}}",
+        "SondraTable": "{{i18n:StringsLodgeSondraTable}}",
+        "SondraBed": "{{i18n:StringsLodgeSondraBed}}",
+        "SondraDresser": "{{i18n:StringsLodgeSondraDresser}}",
+        "SondraCloset": "{{i18n:StringsLodgeSondraCloset}}",
+        "SondraLaptop": "{{i18n:StringsLodgeSondraLaptop}}",
+
+        //Teren Room
+
+        "TerenPoster": "{{i18n:StringsLodgeTerenPoster}}",
+        "TerenHeadphones": "{{i18n:StringsLodgeTerenHeadphones}}",
+        "TerenCups": "{{i18n:StringsLodgeTerenCups}}",
+        "TerenComputer": "{{i18n:StringsLodgeTerenComputer}}",
+        "TerenYoga": "{{i18n:StringsLodgeTerenYoga}}",
+        "TerenRecord1": "{{i18n:StringsLodgeTerenRecordA{{Random:1++2++3++4|inputSeparator=++}}}}",
+        "TerenRecord2": "{{i18n:StringsLodgeTerenRecordB{{Random:1++2++3++4|inputSeparator=++}}}}",
+        "TerenRecordPlayer": "{{i18n:StringsLodgeTerenRecordPlayer}}",
+        "TerenRecordBox": "{{i18n:StringsLodgeTerenRecordBox}}",
+        "TerenSpeakers": "{{i18n:StringsLodgeTerenSpeakers}}",
+        "TerenGrassCrown": "{{i18n:StringsLodgeTerenGrassCrown}}",
+
+        //Bear Lodge
+
+        "BearBreakfast": "{{i18n:StringsLodgeBearBreakfast}}",
+        "BearBathroom1": "{{i18n:StringsLodgeBearBathroom1}}",
+        "BearBathroom2": "{{i18n:StringsLodgeBearBathroom2}}",
+        "BearBulletin": "{{i18n:StringsLodgeBearBulletin}}",
+        "BearFamilyPhotos": "{{i18n:StringsLodgeBearFamilyPhotos}}",
+        "BearBlade": "{{i18n:StringsLodgeBearBlade}}",
+        "BearAxe": "{{i18n:StringsLodgeBearAxe}}",
+        "BearYoba": "{{i18n:StringsLodgeBearYoba}}",
+        "BearBooks1": "{{i18n:StringsLodgeBearBooks1}}",
+        "BearBooks2": "{{i18n:StringsLodgeBearBooks2}}",
+        "BearBooks3": "{{i18n:StringsLodgeBearBooks3}}",
+        "BearBooks4": "{{i18n:StringsLodgeBearBooks4}}",
+        "BearShelving": "{{i18n:StringsLodgeBearShelving}}",
+        "BearPlant": "{{i18n:StringsLodgeBearPlant}}",
+        "BearRec1": "{{i18n:StringsLodgeBearRadio{{Random:1++2++3++4++5++6++7++8++9++10++11++12|inputSeparator=++}}}}",
+        "BearRec2": "{{i18n:StringsLodgeBearRec2}}",
+        "BearRec3": "{{i18n:StringsLodgeBearRec3}}",
+        "BearRec4": "{{i18n:StringsLodgeBearRec4}}",
+        "BearRec5": "{{i18n:StringsLodgeBearRec5}}",
+        "BearLiving1": "{{i18n:StringsLodgeBearLiving1}}",
+        "BearLiving2": "{{i18n:StringsLodgeBearLiving2}}",
+        "BearLiving3": "{{i18n:StringsLodgeBearLiving3}}",
+        "BearLiving4": "{{i18n:StringsLodgeBearLivingTV{{Random:1++2++3++4++5|inputSeparator=++}}}}",
+        "BearLodgeGreenRain": "{{i18n:StringsLodgeBearLodgeGreenRain}}",
+        "BearLiving5": "{{i18n:StringsLodgeBearLiving5}}",
+        "BearLiving6": "{{i18n:StringsLodgeBearLiving6}}",
+        "BearKitchen1": "{{i18n:StringsLodgeBearKitchen1}}",
+        "BearKitchen2": "{{i18n:StringsLodgeBearKitchen2}}",
+        "BearKitchen3": "{{i18n:StringsLodgeBearKitchen3}}",
+        "BearKitchen4": "{{i18n:StringsLodgeBearKitchen4}}",
+        "BearKitchen5": "{{i18n:StringsLodgeBearKitchen5}}",
+        "BearKitchen6": "{{i18n:StringsLodgeBearKitchen6}}",
+        "BearKitchen7": "{{i18n:StringsLodgeBearKitchen7}}",
+        "BearKitchen8": "{{i18n:StringsLodgeBearKitchen8}}",
+        "BearKitchen9": "{{i18n:StringsLodgeBearKitchen9}}",
+        "BearRunesA": "{{i18n:StringsLodgeBearRunesA}}",
+        "BearRunesB": "{{i18n:StringsLodgeBearRunesB}}",
+        "BearSign": "{{i18n:StringsLodgeBearSign}}",
+        "BearMonster": "{{i18n:StringsLodgeBearMonster}}",
+        "LodgeSpareRoom": "{{i18n:StringsBearFamSpareRoom}}",
+        "BearSpecialBook1": "{{i18n:StringsBearFamSpecialBook1}}",
+        "BearSpecialBook2": "{{i18n:StringsBearFamSpecialBook2}}",
+
+        //BearLodgeCellar
+        "BearLodgeGarden1": "{{i18n:StringsLodgeBearLodgeGarden1}}",
+        "BearLodgePeach": "{{i18n:StringsLodgeBearLodgePeach}}",
+        "BearLodgeHives1": "{{i18n:StringsLodgeBearLodgeHives1}}",
+        "BearLodgeHives2": "{{i18n:StringsLodgeBearLodgeHives2}}",
+        "BearLodgeHives3": "{{i18n:StringsLodgeBearLodgeHives3}}",
+        "BearLodgeHoneyJar": "{{i18n:StringsLodgeBearLodgeHoneyJar}}",
+        "BearLodgePeachBasket": "{{i18n:StringsLodgeBearLodgePeachBasket}}",
+        "BearLodgeCola": "{{i18n:StringsLodgeBearLodgeCola}}",
+        "BearLodgeGrave": "{{i18n:StringsLodgeBearLodgeGrave}}",
+        "BearLodgeRecycleMachine": "{{i18n:StringsLodgeBearLodgeRecycleMachine}}",
+        "BearLodgeLodgeColumn1": "{{i18n:StringsLodgeBearLodgeColumn1}}",
+        "BearLodgeLodgeColumn2": "{{i18n:StringsLodgeBearLodgeColumn2}}",
+
+        //SigSpouseRoom
+        "SigSpousePhotosOld": "{{i18n:StringsSigSpousePhotosOld}}",
+        "SigSpousePoetry": "{{i18n:StringsSigSpousePoetry{{Random:1++2++3|inputSeparator=++}}}}",
+        "SigSpousePhotosNew": "{{i18n:StringsSigSpousePhotosNew}}",
+        "SigSpouseBooks": "{{i18n:StringsSigSpouseBooks{{Random:1++2++3|inputSeparator=++}}}}",
+        "SigSpouseVideoGames": "{{i18n:StringsSigSpouseVideoGames{{Random:1++2++3++4|inputSeparator=++}}}}",
+        "SigSpouseAxe": "{{i18n:StringsSigSpouseAxe}}",
+        "SigSpouseOldTVOptions": "{{i18n:StringsSigSpouseOldTVOptions{{Random:1++2++3|inputSeparator=++}}}}",
+        "SigSpouseOldTVComfy": "{{i18n:StringsSigSpouseOldTVComfy{{Random:1++2++3|inputSeparator=++}}}}",
+        "SigSpouseFootlocker": "{{i18n:StringsSigSpouseFootlocker}}",
+
+        //GunnarSpouseRoom
+        "GunnarSpouseGameConsole": "{{i18n:StringsGunnarSpouseGameConsole{{Random:1++2++3|inputSeparator=++}}}}",
+        "GunnarSpouseGameTime": "{{i18n:StringsGunnarSpouseGameTime{{Random:1++2++3|inputSeparator=++}}}}",
+        "GunnarSpouseVideoGames": "{{i18n:StringsGunnarSpouseVideoGames{{Random:1++2++3|inputSeparator=++}}}}",
+        "GunnarSpouseWeapons": "{{i18n:StringsGunnarSpouseWeapons}}",
+        "GunnarSpouseSword": "{{i18n:StringsGunnarSpouseSword}}",
+        "GunnarSpouseZuzuExpress": "{{i18n:StringsGunnarSpouseZuzuExpress}}",
+        "GunnarSpouseExperiments": "{{i18n:StringsGunnarSpouseExperiments{{Random:1++2++3|inputSeparator=++}}}}",
+        "GunnarSpouseBoots": "{{i18n:StringsGunnarSpouseBoots}}",
+        "GunnarSpouseCouch": "{{i18n:StringsGunnarSpouseCouch}}",
+
+        //TerenSpouseSpouseRoom
+        "TerenSpouseFavoriteRecords": "{{i18n:StringsTerenSpouseFavoriteRecords{{Random:1++2++3|inputSeparator=++}}}}",
+        "TerenSpouseMusicTastes": "{{i18n:StringsTerenSpouseMusicTastes}}",
+        "TerenSpouseRecordPlayer": "{{i18n:StringsTerenSpouseRecordPlayer{{Random:1++2++3|inputSeparator=++}}}}",
+        "TerenSpouseAssortedPhotos": "{{i18n:StringsTerenSpouseAssortedPhotos{{Random:1++2++3|inputSeparator=++}}}}",
+        "TerenSpouseRecipeBook": "{{i18n:StringsTerenSpouseRecipeBook{{Random:1++2++3|inputSeparator=++}}}}",
+        "TerenSpouseWorkLaptop": "{{i18n:StringsTerenSpouseWorkLaptop}}",
+        "TerenSpouseYogaMat": "{{i18n:StringsTerenSpouseYogaMat}}",
+        "TerenSpouseSassyBed": "{{i18n:StringsTerenSpouseSassyBed}}",
+        "TerenSpouseTidyUp": "{{i18n:StringsTerenSpouseTidyUp}}",
+
+        //KrakenCave
+        "BearCellarCaveIn": "{{i18n:StringsBearCellarCaveIn}}",
+
+        //Visit the cave
+        "KrakenCave1": "{{i18n:StringsBearKrakenCave1}}",
+
+        //RH route TxS
+        "TSBearRHMailbox": "{{i18n:TSBearRHMailboxString}}",
+        "TSBearRHFountain": "{{i18n:TSBearRHFountainString}}",
+        "TSBearRHWoodAxe": "{{i18n:TSBearRHWoodAxeString}}",
+        "TSBearRHBeeBox": "{{i18n:TSBearRHBeeBoxString}}",
+        "TSBearRHMeadBarrel": "{{i18n:TSBearRHMeadBarrelString}}"
+      }
+
+    },
+    {
+      "LogName": "RH Bees during Winter",
+      "Action": "EditData",
+      "Target": "strings/StringsFromMaps",
+      "Entries": {
+        "TSBearRHMeadBarrel2": "{{i18n:TSBearRHMeadBarrelString2}}",
+        "BearLodgePeachBasket": "{{i18n:StringsLodgeBearLodgePeachBasketWinter}}",
+        "BearLodgeHives1": "{{i18n:StringsLodgeBearLodgeHivesWinter1}}",
+        "BearLodgeHives2": "{{i18n:StringsLodgeBearLodgeHivesWinter2}}",
+        "BearLodgeHives3": "{{i18n:StringsLodgeBearLodgeHivesWinter3}}",
+        "BearLodgeGarden1": "{{i18n:StringsLodgeBearLodgeGardenWinter1}}"
+      },
+      "When": {
+        "Season": "Winter"
+      }
+    },
+    {
+      "LogName": "Broken Radio during Green Rain",
+      "Action": "EditData",
+      "Target": "strings/StringsFromMaps",
+      "Entries": {
+        "BearRec1": "{{i18n:StringsBearRadioGreen}}"
+      },
+      "When": {
+        "Weather": "GreenRain"
+      }
+    },
+    {
+      "LogName": "Chore List + More",
+      "Action": "EditData",
+      "Target": "strings/StringsFromMaps",
+      "Entries": {
+        "KrakenCave2": "{{i18n:StringsBearKrakenCave2}}"
+      },
+      "When": {
+        "HasSeenEvent": "MadDog.BearFam.16193011" //arise kraken event
+      }
+    },
+    {
+      "LogName": "Chore List + More",
+      "Action": "EditData",
+      "Target": "strings/StringsFromMaps",
+      "Entries": {
+        "BearKitchen2": "{{i18n:StringsLodgeBearKitchen2Update}}",
+        "BearLodgeRecycleMachine": "{{i18n:StringsLodgeBearLodgeRecycleMachineUpdate}}",
+        "BearRec3": "{{i18n:StringsLodgeBearRec3Update}}",
+        "BearFamilyPhotos": "{{i18n:StringsLodgeBearFamilyPhotosUpdate}}",
+        "BearBathroom2": "{{i18n:StringsLodgeBearBathroom2Update}}",
+        "BearBulletin": "{{i18n:StringsLodgeBearBulletinUpdate}}",
+        "BearBooks2": "{{i18n:StringsLodgeBearBooks2Update}}",
+        "BearBlade": "{{i18n:StringsLodgeBearBladeUpdate}}",
+        "BearKitchen4": "{{i18n:StringsLodgeBearKitchen4Update}}",
+        "BearKitchen6": "{{i18n:StringsLodgeBearKitchen6Update}}"
+      },
+      "When": {
+        "HasSeenEvent": "MadDog.BearFam.16197002"
+      }
+    }
+  ]
+  }
+      

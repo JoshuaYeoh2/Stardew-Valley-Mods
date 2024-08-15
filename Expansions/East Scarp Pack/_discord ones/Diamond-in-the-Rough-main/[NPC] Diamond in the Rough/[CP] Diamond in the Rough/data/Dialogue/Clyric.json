@@ -1,0 +1,13 @@
+{
+    "Changes": [
+
+        {
+            "LogName": "Clyric Dialogue Pool",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/ClyricT",
+            "Entries": 	{ 
+                "{{WeekDay}}": "{{i18n:Core.ClyricT.Dialogue.{{Random:{{Range: 1, 20}}}}}}"
+            }
+        }
+        ]
+}

@@ -1,0 +1,72 @@
+{
+    "Changes": [
+//---------------------------- DISPOSITIONS ------------------------------------------//
+        {
+            "LogName": "Clyric Dispositions",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "ClyricT": {
+                    "DisplayName": "{{i18n:Core.ClyricT.Name}}",
+                    "HomeRegion": "Other", //Castle Village
+                    "Gender": "Female",
+                    "Age": "Adult",
+                    "Manner": "Polite",
+                    "SocialAnxiety": "Outgoing",
+                    "Optimism": "Positive",
+                    "CanBeRomanced": false,
+                    "LoveInterest": "Lucifer", // (uwu) u know me, u know who this is ♥♥♥
+                    "Calendar": "HiddenAlways",
+                    "SocialTab": "HiddenAlways",
+                    "CanGreetNearbyCharacters": true,
+                    "IntroductionsQuest": false,
+                    "PerfectionScore": false,
+                    "WinterStarParticipant": false,
+                    "DumpsterDiveFriendshipEffect": 0,
+                    "DumpsterDiveEmote": 28,
+                    "CanVisitIsland": false,
+                    "CanCommentOnPurchasedShopItems": false,
+                    "EndSlideShow": "TrailingGroup",
+                    "SpawnIfMissing": true,
+                    "Breather": true,
+                    "Home": [
+                        {
+                            "Id": "Cly Waiting Room",
+                            "Location": "EastScarp_TNPCWaitingWarpRoom",
+                            "Tile": { "X": 5, "Y": 9 },
+                            "Direction": "down",
+                            "Condition": "!PLAYER_HAS_SEEN_EVENT Current {{ModID}}_Events.TBA"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "ClyricT" ],
+            "Entries": { 
+                "Calendar": "AlwaysShown", 
+                "SocialTab": "AlwaysShown",
+                "BirthSeason": "spring",
+                "BirthDay": 12
+             },
+            "When": { "HasSeenEvent": "{{ModID}}_Events.TBA" }
+        },
+//---------------------------- GIFT TASTE ------------------------------------------//
+        {
+            "LogName": "Gift Taste",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "ClyricT": "{{i18n:Gifts.ClyricT.Love}}/5/{{i18n:Gifts.ClyricT.Like}}/5/{{i18n:Gifts.ClyricT.Dislike}}/-5/{{i18n:Gifts.ClyricT.Hate}}/5/{{i18n:Gifts.ClyricT.Neutral}}/5/"
+            }
+        },
+//---------------------------- SPRITES ------------------------------------------//
+        {
+            "Action": "Load",
+            "Target": "Characters/ClyricT, Portraits/ClyricT",
+            "FromFile": "assets/{{TargetPathOnly}}/Clyric/Clyric.png"
+        }
+     ]
+}

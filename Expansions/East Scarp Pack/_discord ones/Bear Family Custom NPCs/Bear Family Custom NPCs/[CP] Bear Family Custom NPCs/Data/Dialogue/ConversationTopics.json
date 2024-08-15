@@ -1,0 +1,1286 @@
+{
+	"Changes": [
+
+		//why.
+		//vanilla NPCs
+
+		{
+			"LogName": "Lewis",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Lewis",
+			"Entries": {
+
+				//bear fam
+				"BearFamTimeForBees": "{{i18n:LewisCTBFTimeforBees}}",
+				"BearFamFullHouse": "{{i18n:LewisCTBFFullHouse}}",
+
+				//sig
+				"SigLowBattery": "{{i18n:LewisCTLowBat}}",
+				"SigVersusCrabs": "{{i18n:LewisCTCrabs}}",
+
+				//son
+				"SondraRememberWulfram": "{{i18n:LewisCTRememberWulfram}}",
+				"SondraSaloonJukebox": "{{i18n:LewisCTSondraSaloonJukebox}}",
+				"SondraFundraiser": "{{i18n:LewisCTSondraFundraiser}}",
+
+				//gun
+				"GunnarBoxShop": "{{i18n:LewisCTBoxShop}}",
+				"GunnarBuildsaBomb": "{{i18n:LewisCTBuildsaBomb}}",
+				"GunnarBreaksaSword": "{{i18n:LewisCTBreaksaSword}}",
+				"GunnarGuildTryout": "{{i18n:LewisCTGuildTryout}}",
+				"GunnarGetsaLecture": "{{i18n:LewisCTGunnarGetsaLecture}}",
+				"GunnarMissing": "{{i18n:LewisCTGunnarMissing}}",
+				"GunnartheLost": "{{i18n:LewisCTGunnartheLost}}",
+				"GunnarCellarBomb": "{{i18n:LewisCTGunnarCellarBomb}}",
+				"GunnarMysteryCave": "{{i18n:LewisCTGunnarMysteryCave}}",
+				"GunnarFailure": "{{i18n:LewisCTGunnarFailure}}",
+
+				//gud
+				"GudrunEcoFriendly": "{{i18n:LewisCTEcoFriendly}}",
+				"GudrunAgainsttheMachine": "{{i18n:LewisCTGudrunAgainsttheMachine}}",
+				"GudrunRunAway": "{{i18n:LewisCTGudrunRunAway}}",
+				"GudrunComesHome": "{{i18n:LewisCTGudrunComesHome}}"
+
+			}
+		},
+
+		{
+			"LogName": "Emily",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Emily",
+			"Entries": {
+
+				//bear fam
+				"BearFamTimeForBees": "{{i18n:EmilyCTBFTimeforBees}}",
+				"BearFamFullHouse": "{{i18n:EmilyCTBFFullHouse}}",
+
+				//sig
+				"SigLowBattery": "{{i18n:EmilyCTLowBat}}",
+
+				//son
+				"SondraAerobicsAttempt": "{{i18n:EmilyCTSondraAerobicsAttempt}}",
+
+				//gun
+				"GunnarBoxShop": "{{i18n:EmilyCTBoxShop}}",
+				"GunnarBuildsaBomb": "{{i18n:EmilyCTBuildsaBomb}}",
+				"GunnarBreaksaSword": "{{i18n:EmilyCTBreaksaSword}}",
+				"GunnarGuildTryout": "{{i18n:EmilyCTGuildTryout}}",
+				"GunnarGetsaLecture": "{{i18n:EmilyCTGunnarGetsaLecture}}",
+				"GunnarMissing": "{{i18n:EmilyCTGunnarMissing}}",
+				"GunnartheLost": "{{i18n:EmilyCTGunnartheLost}}",
+				"GunnarCommunityMember": "{{i18n:EmilyCTGunnarCommunityMember}}",
+				"GunnarCellarBomb": "{{i18n:EmilyCTGunnarCellarBomb}}",
+				"GunnarMysteryCave": "{{i18n:EmilyCTGunnarMysteryCave}}",
+				"GunnarFailure": "{{i18n:EmilyCTGunnarFailure}}",
+
+				//gud
+				"GudrunQinstagram": "{{i18n:EmilyCTQinstagram}}",
+				"GudrunCollegeFears": "{{i18n:EmilyCTGudrunCollegeFears}}",
+				"GudrunRunAway": "{{i18n:EmilyCTGudrunRunAway}}",
+				"GudrunComesHome": "{{i18n:EmilyCTGudrunComesHome}}",
+
+				//convo
+				"GudrunGrades": "{{i18n:EmilyCTGudrunGrades}}",
+				"GudrunHaleyEmilyJewelry": "{{i18n:EmilyCTGudrunHaleyEmilyJewelry}}",
+				"GunnarRecipes": "{{i18n:EmilyCTGunnarRecipes}}"
+			}
+		},
+
+		{
+			"LogName": "Haley",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"Entries": {
+
+				//bear fam
+				"BearFamFullHouse": "{{i18n:HaleyCTBFFullHouse}}",
+				"BearFamFireDrill": "{{i18n:HaleyCTBFFireDrill}}",
+
+				//gun
+				"GunnarGuildTryout": "{{i18n:HaleyCTGuildTryout}}",
+				"GunnarCommunityMember": "{{i18n:HaleyCTGunnarCommunityMember}}",
+				"GunnarCellarBomb": "{{i18n:HaleyCTGunnarCellarBomb}}",
+
+				//gud
+				"GudrunQinstagram": "{{i18n:HaleyCTQinstagram}}",
+				"GudrunAgainsttheMachine": "{{i18n:HaleyCTGudrunAgainsttheMachine}}",
+				"GudrunandtheSea": "{{i18n:HaleyCTGudrunandtheSea}}",
+				"GudrunCollegeFears": "{{i18n:HaleyCTGudrunCollegeFears}}",
+				"GudrunWeird": "{{i18n:HaleyCTGudrunWeird}}",
+				"GudrunRunAway": "{{i18n:HaleyCTGudrunRunAway}}",
+				"GudrunComesHome": "{{i18n:HaleyCTGudrunComesHome}}",
+
+				//teren
+				"WelcomeSergeantBarnes": "{{i18n:HaleyCTWelcomeSergeantBarnes}}",
+				"TerenBadHairDay": "{{i18n:HaleyCTTerenBadHairDay}}",
+
+				//convos
+				"GudrunPhotographyA": "{{i18n:HaleyCTGudrunPhotographyA}}",
+				"GudrunHaleyEmilyJewelry": "{{i18n:HaleyCTGudrunHaleyEmilyJewelry}}"
+
+
+			}
+		},
+
+		{
+			"LogName": "Clint",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Clint",
+			"Entries": {
+
+				//bear fam
+				"BearFamAttacked": "{{i18n:ClintCTBFAttacked}}",
+
+				//gun
+				"GunnarBoxShop": "{{i18n:ClintCTBoxShop}}",
+				"GunnarBuildsaBomb": "{{i18n:ClintCTBuildsaBomb}}",
+				"GunnarBreaksaSword": "{{i18n:ClintCTBreaksaSword}}",
+				"GunnarGuildTryout": "{{i18n:ClintCTGuildTryout}}",
+				"GunnarGetsaLecture": "{{i18n:ClintCTGunnarGetsaLecture}}",
+				"GunnarMissing": "{{i18n:ClintCTGunnarMissing}}",
+				"GunnartheLost": "{{i18n:ClintCTGunnartheLost}}",
+				"GunnarCommunityMember": "{{i18n:ClintCTGunnarCommunityMember}}",
+				"GunnarCellarBomb": "{{i18n:ClintCTGunnarCellarBomb}}",
+				"GunnarMysteryCave": "{{i18n:ClintCTGunnarMysteryCave}}",
+				"GunnarFailure": "{{i18n:ClintCTGunnarFailure}}",
+
+				//gud
+				"GudrunEcoFriendly": "{{i18n:ClintCTEcoFriendly}}",
+
+				//convos
+				"GudrunHaleyEmilyJewelry": "{{i18n:ClintCTGudrunHaleyEmilyJewelry}}",
+				"GunnarRecipes": "{{i18n:ClintCTGunnarRecipes}}"
+
+			}
+		},
+
+		{
+			"LogName": "Gus",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gus",
+			"Entries": {
+
+				//bear fam
+				"BearFamTimeForBees": "{{i18n:GusCTBFTimeforBees}}",
+				"BearFamFullHouse": "{{i18n:GusCTBFFullHouse}}",
+
+				//sig
+				"SigAndCigarettes": "{{i18n:GusCTCigarettes}}",
+				"SigHatesCrowds": "{{i18n:GusCTHatesCrowds}}",
+
+				//son
+				"SondraRememberWulfram": "{{i18n:GusCTRememberWulfram}}",
+				"SondraSaloonJukebox": "{{i18n:GusCTSondraSaloonJukebox}}",
+				"SondraFundraiser": "{{i18n:GusCTSondraFundraiser}}",
+
+				//gun
+				"GunnarBoxShop": "{{i18n:GusCTBoxShop}}",
+				"GunnarGuildTryout": "{{i18n:GusCTGuildTryout}}",
+				"GunnarCellarBomb": "{{i18n:GusCTGunnarCellarBomb}}",
+
+				//teren
+				"WelcomeSergeantBarnes": "{{i18n:GusCTWelcomeSergeantBarnes}}",
+				"BakingSergeantTeren": "{{i18n:GusCTBakingSergeantTeren}}",
+
+				//convos
+				"GudrunPhotographyA": "{{i18n:GusCTGudrunPhotographyA}}",
+				"TerensRecipes": "{{i18n:GusCTTerenRecipes}}",
+				"BearRecipes": "{{i18n:GusCTBearRecipes}}",
+				"SondraRecipes": "{{i18n:GusCTSondraRecipes}}"
+
+			}
+		},
+
+		{
+			"LogName": "Demetrius",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Demetrius",
+			"Entries": {
+
+				//son
+				"SondraFundraiser": "{{i18n:DemetriusCTSondraFundraiser}}",
+
+				//gun
+				"GunnarBoxShop": "{{i18n:DemetriusCTBoxShop}}",
+				"GunnarBuildsaBomb": "{{i18n:DemetriusCTBuildsaBomb}}",
+				"GunnarGetsaLecture": "{{i18n:DemetriusCTGunnarGetsaLecture}}",
+				"GunnarMissing": "{{i18n:DemetriusCTGunnarMissing}}",
+				"GunnartheLost": "{{i18n:DemetriusCTGunnartheLost}}",
+				"GunnarCellarBomb": "{{i18n:DemetriusCTGunnarCellarBomb}}",
+				"GunnarMysteryCave": "{{i18n:DemetriusCTGunnarMysteryCave}}",
+				"GunnarFailure": "{{i18n:DemetriusCTGunnarFailure}}",
+
+				//gud
+				"GudrunQinstagram": "{{i18n:DemetriusCTQinstagram}}",
+				"GudrunAgainsttheMachine": "{{i18n:DemetriusCTGudrunAgainsttheMachine}}",
+
+				//convos
+				"GudrunStudentA": "{{i18n:DemetriusCTGudrunStudentA}}",
+				"GudrunStudentC": "{{i18n:DemetriusCTGudrunStudentC}}",
+				"GunnarRecipes": "{{i18n:DemetriusCTGunnarRecipes}}"
+
+			}
+		},
+
+		{
+			"LogName": "Harvey",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"Entries": {
+
+				//sig
+				"SigLowBattery": "{{i18n:HarveyCTLowBat}}",
+				"SigAndCigarettes": "{{i18n:HarveyCTCigarettes}}",
+
+				//son
+				"SondraAgingGracefully": "{{i18n:HarveyCTAgingGracefully}}",
+				"SondraAerobicsAttempt": "{{i18n:HarveyCTSondraAerobicsAttempt}}",
+				"CheeringUpMissSondra": "{{i18n:HarveyCTCheeringUpMissSondra}}",
+
+				//gun
+				"GunnarBuildsaBomb": "{{i18n:HarveyCTBuildsaBomb}}",
+				"GunnarBreaksaSword": "{{i18n:HarveyCTBreaksaSword}}",
+				"GunnarGuildTryout": "{{i18n:HarveyCTGuildTryout}}",
+				"GunnartheLost": "{{i18n:HarveyCTGunnartheLost}}",
+				"GunnarCellarBomb": "{{i18n:HarveyCTGunnarCellarBomb}}"
+
+			}
+		},
+
+		{
+			"LogName": "Robin",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Robin",
+			"Entries": {
+
+				//son
+				"SondraAerobicsAttempt": "{{i18n:RobinCTSondraAerobicsAttempt}}",
+				"SondraFundraiser": "{{i18n:RobinCTSondraFundraiser}}",
+
+				//gun  
+				"GunnarCommunityMember": "{{i18n:RobinCTGunnarCommunityMember}}",
+				"GunnarCellarBomb": "{{i18n:RobinCTGunnarCellarBomb}}"
+			}
+		},
+
+		{
+			"LogName": "Pierre",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Pierre",
+			"Entries": {
+
+				//son
+				"SondraAerobicsAttempt": "{{i18n:PierreCTSondraAerobicsAttempt}}",
+				"SondraFundraiser": "{{i18n:PierreCTSondraFundraiser}}",
+
+				//gun
+				"GunnarCellarBomb": "{{i18n:PierreCTGunnarCellarBomb}}",
+
+				//gud
+				"GudrunAgainsttheMachine": "{{i18n:PierreCTGudrunAgainsttheMachine}}",
+				"GudrunCollegeFears": "{{i18n:PierreCTGudrunCollegeFears}}",
+
+				//teren
+				"WelcomeSergeantBarnes": "{{i18n:PierreCTWelcomeSergeantBarnes}}",
+				"MeetSassy": "{{i18n:PierreCTDatingSergeantTeren}}",
+
+				//convos
+				"GudrunStudentA": "{{i18n:PierreCTGudrunStudentA}}",
+				"GudrunStudentC": "{{i18n:PierreCTGudrunStudentC}}"
+
+			}
+		},
+
+		{
+			"LogName": "Alex",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex",
+			"Entries": {
+
+				//gun
+				"GunnarCellarBomb": "{{i18n:AlexCTGunnarCellarBomb}}",
+
+				//teren
+				"WelcomeSergeantBarnes": "{{i18n:AlexCTWelcomeSergeantBarnes}}"
+			}
+		},
+
+		{
+			"LogName": "Jodi",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jodi",
+			"Entries": {
+
+				//son
+				"SondraAerobicsAttempt": "{{i18n:JodiCTSondraAerobicsAttempt}}",
+				"SondraFundraiser": "{{i18n:JodiCTSondraFundraiser}}",
+
+				//gun
+				"GunnarCellarBomb": "{{i18n:JodiCTGunnarCellarBomb}}",
+
+				//teren
+				"TerenBadHairDay": "{{i18n:JodiCTTerenBadHairDay}}",
+				"MeetSassy": "{{i18n:JodiCTMeetSassy}}",
+				"BakingSergeantTeren": "{{i18n:JodiCTBakingSergeantTeren}}",
+
+				//convos
+				"GudrunStudentB": "{{i18n:JodiCTGudrunStudentB}}",
+				"TerensRecipes": "{{i18n:JodiCTTerenRecipes}}"
+
+
+			}
+		},
+
+		{
+			"LogName": "Caroline",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Caroline",
+			"Entries": {
+
+				//son
+				"SondraAerobicsAttempt": "{{i18n:CarolineCTSondraAerobicsAttempt}}",
+				"SondraFundraiser": "{{i18n:CarolineCTSondraFundraiser}}",
+
+				//gun
+				"GunnarCellarBomb": "{{i18n:CarolineCTGunnarCellarBomb}}",
+
+				//gud
+				"GudrunCollegeFears": "{{i18n:CarolineCTGudrunCollegeFears}}",
+
+				//teren
+				"TerenBadHairDay": "{{i18n:CarolineCTTerenBadHairDay}}",
+				"MeetSassy": "{{i18n:CarolineCTMeetSassy}}",
+				"BakingSergeantTeren": "{{i18n:CarolineCTBakingSergeantTeren}}",
+				"DatingSergeantTeren": "{{i18n:CarolineCTDatingSergeantTeren}}",
+
+				//convos
+				"TerensRecipes": "{{i18n:CarolineCTTerenRecipes}}"
+			}
+		},
+
+		{
+			"LogName": "Abigail",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries": {
+
+				//son
+				"SondraFundraiser": "{{i18n:AbigailCTSondraFundraiser}}",
+
+				//gun
+				"GunnarCellarBomb": "{{i18n:AbigailCTGunnarCellarBomb}}",
+
+				//gud
+				"GudrunAgainsttheMachine": "{{i18n:AbigailCTGudrunAgainsttheMachine}}",
+				"GudrunCollegeFears": "{{i18n:AbigailCTGudrunCollegeFears}}",
+				"GudrunRunAway": "{{i18n:AbigailCTGudrunRunAway}}",
+				"GudrunComesHome": "{{i18n:AbigailCTGudrunComesHome}}",
+
+				//teren
+				"MeetSassy": "{{i18n:AbigailCTMeetSassy}}",
+				"DatingSergeantTeren": "{{i18n:AbigailCTDatingSergeantTeren}}",
+
+				//convo
+				"GudrunVideoGamesB": "{{i18n:AbigailCTGudrunVideoGames}}",
+				"GudrunHaleyEmilyJewelry": "{{i18n:AbigailCTGudrunHaleyEmilyJewelry}}",
+				"GunnarRecipes": "{{i18n:AbigailCTGunnarRecipes}}"
+
+			}
+		},
+
+		{
+			"LogName": "Sam",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Entries": {
+
+				//Son
+				"SondraSaloonJukebox": "{{i18n:SamCTSondraSaloonJukebox}}",
+				"SondraLastSong": "{{i18n:SamCTSondraLastSong}}",
+				"SondraAerobicsAttempt": "{{i18n:SamCTSondraAerobicsAttempt}}",
+				"CheeringUpMissSondra": "{{i18n:SamCTCheeringUpMissSondra}}",
+				"SondraFundraiser": "{{i18n:SamCTSondraFundraiser}}",
+
+				//gun
+				"GunnarCellarBomb": "{{i18n:SamCTGunnarCellarBomb}}",
+
+				//gud
+				"GudrunAgainsttheMachine": "{{i18n:SamCTGudrunAgainsttheMachine}}",
+
+				//teren
+				"MeetSassy": "{{i18n:SamCTMeetSassy}}",
+
+				//convo
+				"GudrunVideoGamesA": "{{i18n:SamCTGudrunVideoGames}}",
+				"SondraRecipes": "{{i18n:SamCTSondraRecipes}}"
+			}
+		},
+
+		{
+			"LogName": "Vincent",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Vincent",
+			"Entries": {
+
+				//son
+				"SondraFundraiser": "{{i18n:VincentCTSondraFundraiser}}",
+
+				//gun
+				"GunnarCellarBomb": "{{i18n:VincentCTGunnarCellarBomb}}",
+
+				//gud
+				"GudrunArtsandCrafts": "{{i18n:VincentCTGudrunArtsandCrafts}}",
+
+				//teren
+				"BakingSergeantTeren": "{{i18n:VincentCTBakingSergeantTeren}}"
+			}
+		},
+		{
+			"LogName": "Evelyn",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Evelyn",
+			"Entries": {
+
+				//convos
+				"SondraRecipes": "{{i18n:EvelynCTSondraRecipes}}"
+
+			}
+		},
+
+		{
+			"LogName": "Willy",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Willy",
+			"Entries": {
+
+				//son
+				"SondraSaloonJukebox": "{{i18n:WillyCTSondraSaloonJukebox}}",
+
+				//gun
+				"GunnarCellarBomb": "{{i18n:WillyCTGunnarCellarBomb}}",
+
+				//gud
+				"GudrunandtheSea": "{{i18n:WillyCTGudrunandtheSea}}",
+				"GudrunWeird": "{{i18n:WillyCTGudrunWeird}}",
+
+				//convos
+				"GudrunGrades": "{{i18n:WillyCTGudrunGrades}}",
+				"BearRecipes": "{{i18n:WillyCTBearRecipes}}"
+
+
+
+			}
+		},
+
+		{
+			"LogName": "Marnie",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Marnie",
+			"Entries": {
+
+				//son
+				"SondraSaloonJukebox": "{{i18n:MarnieCTSondraSaloonJukebox}}",
+				"SondraAerobicsAttempt": "{{i18n:MarnieCTSondraAerobicsAttempt}}",
+
+				//gun
+				"GunnarCellarBomb": "{{i18n:MarnieCTGunnarCellarBomb}}"
+			}
+		},
+
+		{
+			"LogName": "Shane",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+
+				//son
+				"SondraSaloonJukebox": "{{i18n:ShaneCTSondraSaloonJukebox}}",
+
+				//gun
+				"GunnarCellarBomb": "{{i18n:ShaneCTGunnarCellarBomb}}"
+			}
+		},
+
+		{
+			"LogName": "Sebastian",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Entries": {
+
+				//son
+				"SondraSaloonJukebox": "{{i18n:SebastianCTSondraSaloonJukebox}}",
+				"CheeringUpMissSondra": "{{i18n:SebastianCTCheeringUpMissSondra}}",
+				"SondraFundraiser": "{{i18n:SebastianCTSondraFundraiser}}",
+
+				//gun
+				"GunnarCellarBomb": "{{i18n:SebastianCTGunnarCellarBomb}}",
+
+				//convos
+				"GudrunStudentB": "{{i18n:SebastianCTGudrunStudentB}}"
+			}
+		},
+
+		{
+			"LogName": "Morris",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Morris",
+			"Entries": {
+
+				//son
+				"SondraFundraiser": "{{i18n:MorrisCTSondraFundraiser}}",
+
+				//gun
+				"GunnarCellarBomb": "{{i18n:MorrisCTGunnarCellarBomb}}",
+
+				//gud
+				"GudrunAgainsttheMachine": "{{i18n:MorrisCTGudrunAgainsttheMachine}}"
+			}
+		},
+
+		{
+			"LogName": "Maru",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Entries": {
+
+				//son
+				"SondraFundraiser": "{{i18n:MaruCTSondraFundraiser}}",
+
+				//gun
+				"GunnarCellarBomb": "{{i18n:MaruCTGunnarCellarBomb}}",
+
+				//gud
+				"GudrunAgainsttheMachine": "{{i18n:MaruCTGudrunAgainsttheMachine}}"
+			}
+		},
+
+		{
+			"LogName": "Penny",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Penny",
+			"Entries": {
+
+				//gun
+				"GunnarCellarBomb": "{{i18n:PennyCTGunnarCellarBomb}}",
+
+				//gud
+				"GudrunArtsandCrafts": "{{i18n:PennyCTGudrunArtsandCrafts}}",
+				"GudrunWeird": "{{i18n:PennyCTGudrunWeird}}",
+				"GudrunRunAway": "{{i18n:PennyCTGudrunRunAway}}"
+			}
+		},
+
+		{
+			"LogName": "Jas",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jas",
+			"Entries": {
+
+				//gun
+				"GunnarCellarBomb": "{{i18n:JasCTGunnarCellarBomb}}",
+
+				//gud
+				"GudrunArtsandCrafts": "{{i18n:JasCTGudrunArtsandCrafts}}"
+
+			}
+		},
+
+		/*{
+			"LogName": "Robin",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Robin",
+			"Entries": {
+			}
+		},*/
+		//my NPCs
+
+		//GUDRUN
+
+		{
+			"LogName": "Gudrun Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gudrun",
+			"Entries": {
+
+				//vanilla cts
+				"cc_Complete": "{{i18n:GudrunCCComplete}}",
+				"joja_Begin": "{{i18n:GudrunJojaBegin}}",
+				"movieTheater": "{{i18n:GudrunMovieTheater}}",
+				"cc_Bus": "{{i18n:GudrunCCBus}}",
+
+				//my cts
+
+				//fam
+
+				"BearFamFullHouse": "{{i18n:GudrunCTBFFullHouse}}",
+				"BearFamAttacked": "{{i18n:GudrunCTBFAttacked}}",
+				"BearFamFireDrill": "{{i18n:GudrunCTBFFireDrill}}",
+
+				//Sig
+				"SigLowBattery": "{{i18n:GudrunCTLowBat}}",
+				"SigAndCigarettes": "{{i18n:GudrunCTCigarettes}}",
+				"SigHatesCrowds": "{{i18n:GudrunCTHatesCrowds}}",
+				"SigVersusCrabs": "{{i18n:GudrunCTCrabs}}",
+				/*"SigtheSoldier": "{{i18n:GudrunCTSigtheSoldier}}",
+				"SigtheHero": "{{i18n:GudrunCTSigtheHero}}",
+				"SigRecovery": "{{i18n:GudrunCTSigRecovery}}",
+				"SigSoItBegins": "{{i18n:GudrunCTSigSoItBegins}}",
+				"SigatHome": "{{i18n:GudrunCTSigatHome}}",
+				"SigFuture": "{{i18n:GudrunCTSigFuture}}",
+				"SigImprovement": "{{i18n:GudrunCTSigImprovement}}",
+				"SigTheraBees": "{{i18n:GudrunCTSigTheraBees}}",
+				"SigConvosAndCraftBeer": "{{i18n:GudrunCTSigConvosAndCraftBeer}}",
+				"SigandHonors": "{{i18n:GudrunCTSigandHonors}}",
+				"SigTeacher": "{{i18n:GudrunCTSigTeacher}}",
+				"BearFamBeeBonuses": "{{i18n:GudrunCTBearFamBeeBonuses}}",
+				//
+				"SigEligible": "{{i18n:GudrunCTSigEligible}}",
+				"SigMovieDate": "{{i18n:GudrunCTSigMovieDate}}",
+				"SigTentPitching": "{{i18n:GudrunCTSigTentPitching}}",
+				"SigintheCity": "{{i18n:GudrunCTSigintheCity}}",
+				"SigCanCook": "{{i18n:GudrunCTSigCanCook}}",
+				//
+
+				//Sondra
+				"SondraAgingGracefully": "{{i18n:GudrunCTAgingGracefully}}",
+				"SondraRememberWulfram": "{{i18n:GudrunCTRememberWulfram}}",
+				"SondraSaloonJukebox": "{{i18n:GudrunCTSondraSaloonJukebox}}",
+				"SondraLastSong": "{{i18n:GudrunCTSondraLastSong}}",
+				"SondraAerobicsAttempt": "{{i18n:GudrunCTSondraAerobicsAttempt}}",
+				"CheeringUpMissSondra": "{{i18n:GudrunCTCheeringUpMissSondra}}",
+				"SondraFundraiser": "{{i18n:GudrunCTSondraFundraiser}}",
+				"ASongforSondra": "{{i18n:GudrunCTASongforSondra}}",
+				"SondraGratitude": "{{i18n:GudrunCTSondraGratitude}}",
+
+				//Gunnar
+				"GunnarBoxShop": "{{i18n:GudrunCTBoxShop}}",
+				"GunnarBuildsaBomb": "{{i18n:GudrunCTBuildsaBomb}}",
+				"GunnarBreaksaSword": "{{i18n:GudrunCTBreaksaSword}}",
+				"GunnarGuildTryout": "{{i18n:GudrunCTGuildTryout}}",
+				"GunnarGetsaLecture": "{{i18n:GudrunCTGunnarGetsaLecture}}",
+				"GunnarMissing": "{{i18n:GudrunCTGunnarMissing}}",
+				"GunnartheLost": "{{i18n:GudrunCTGunnartheLost}}",
+				"GunnarCommunityMember": "{{i18n:GudrunCTGunnarCommunityMember}}",
+				"GunnarCellarBomb": "{{i18n:GudrunCTGunnarCellarBomb}}",
+				"GunnarMysteryCave": "{{i18n:GudrunCTGunnarMysteryCave}}",
+				"GunnarFailure": "{{i18n:GudrunCTGunnarFailure}}",
+
+				//Gudrun
+				"GudrunQinstagram": "{{i18n:GudrunCTQinstagram}}",
+				"GudrunEcoFriendly": "{{i18n:GudrunCTEcoFriendly}}",
+				"GudrunArtsandCrafts": "{{i18n:GudrunCTGudrunArtsandCrafts}}",
+				"GudrunAgainsttheMachine": "{{i18n:GudrunCTGudrunAgainsttheMachine}}",
+				"GudrunandtheSea": "{{i18n:GudrunCTGudrunandtheSea}}",
+				"GudrunCollegeFears": "{{i18n:GudrunCTGudrunCollegeFears}}",
+				"GudrunWeird": "{{i18n:GudrunCTGudrunWeird}}",
+				"GudrunRunAway": "{{i18n:GudrunCTGudrunRunAway}}",
+				"GudrunComesHome": "{{i18n:GudrunCTGudrunComesHome}}",
+
+				//Teren
+				"WelcomeSergeantBarnes": "{{i18n:GudrunCTWelcomeSergeantBarnes}}",
+				"TerenBadHairDay": "{{i18n:GudrunCTTerenBadHairDay}}",
+				"MeetSassy": "{{i18n:GudrunCTMeetSassy}}",
+				"BakingSergeantTeren": "{{i18n:GudrunCTBakingSergeantTeren}}",
+				"DatingSergeantTeren": "{{i18n:GudrunCTDatingSergeantTeren}}",*/
+
+				//dialogue cts
+				"SootPocketAdventure": "{{i18n:GudrunCTSootPocketAdventure}}",
+				"TerensRecipes": "{{i18n:GudrunCTTerenRecipes}}",
+				"BearRecipes": "{{i18n:GudrunCTBearRecipes}}",
+				"GunnarRecipes": "{{i18n:GudrunCTGunnarRecipes}}",
+				"SondraRecipes": "{{i18n:GudrunCTSondraRecipes}}"
+
+
+				/*//other mod cts
+				"LucikielArrives": "{{i18n:GudrunCTLucikielArrives}}",
+				"LavrilUnlocked": "{{i18n:GudrunCTLavrilUnlocked}}",
+				"CamieIntro": "{{i18n:GudrunCTCamieIntro}}",
+				"jojaMartStruckByLightning": "{{i18n:GudrunCTjojaMartStruckByLightning}}",
+				"NoraIntro": "{{i18n:GudrunCTNoraIntro}}",
+				"NoraClass": "{{i18n:GudrunCTNoraClass}}",
+				"NoraFear:": "{{i18n:GudrunCTNoraClass}}",
+				"NoraSad": "{{i18n:GudrunCTNoraSad}}",
+				"NoraBusy": "{{i18n:GudrunCTNoraBusy}}",
+				"JulietGremlin": "{{i18n:GudrunCTJulietGremlin}}",
+				"RodneyPoetryReading": "{{i18n:GudrunCTRodneyPoetryReading}}",
+				"DwarfStory": "{{i18n:GudrunCTDwarfStory}}",
+				"ShadowfolkStory": "{{i18n:GudrunCTShadowfolkStory}}",
+				"MeetingMeredith": "{{i18n:GudrunCTMeetingMeredith}}",
+				"BookLaunchParty": "{{i18n:GudrunCTBookLaunchParty}}",
+				"EliIntro": "{{i18n:GudrunCTEliIntro}}",
+				"DylanIntro": "{{i18n:GudrunCTDylanIntro}}",
+				"EliJunimo2": "{{i18n:GudrunCTEliJunimo2}}",
+				"DylanBeach": "{{i18n:GudrunCTDylanBeach}}",
+				"DylanTown": "{{i18n:GudrunCTDylanTown}}",
+				"DylanSaloon": "{{i18n:GudrunCTDylanSaloon}}",
+				"JohnsArrival": "{{i18n:GudrunCTJohnsArrival}}",
+				"keahi_prank": "{{i18n:GudrunCTKeahiPrank}}",
+				"Aideen_Garden": "{{i18n:GudrunCTAideenGarden}}",
+				"LitD_CT_ShadowPlay": "{{i18n:GudrunCTShadowPlay}}",
+				"LitD_CT_SensFlowers": "{{i18n:GudrunCTSensFlowers}}",
+				"GrandpaHaunts": "{{i18n:GudrunCTGrandpaHaunts}}",
+				"DitR_CT_PipoShorts": "{{i18n:GudrunCTDiTRPipoShorts}}",
+				"WelcomeToPridePITV": "{{i18n:GudrunCTWelcomeToPridePITV}}",
+				"PrideSeasonStartPITV": "{{i18n:GudrunCTPrideSeasonStartPITV}}",
+				"PrideSeasonGiftPITV": "{{i18n:GudrunCTPrideSeasonGiftPITV}}",
+				"HatMouseTheAllyPITV": "{{i18n:GudrunCTHatMouseTheAllyPITV}}"*/
+			}
+		},
+
+		//SONDRA
+
+		{
+			"LogName": "Sondra Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Sondra",
+			"Entries": {
+
+				//vanilla cts
+				"cc_Complete": "{{i18n:SondraCCComplete}}",
+				"joja_Begin": "{{i18n:SondraJojaBegin}}",
+				"movieTheater": "{{i18n:SondraMovieTheater}}",
+				"cc_Bus": "{{i18n:SondraCCBus}}",
+				"cc_Begin": "{{i18n:SondraCCBegin}}",
+
+				//my cts
+
+				//fam
+				"BearFamTimeForBees": "{{i18n:SondraCTBFTimeforBees}}",
+				"BearFamFullHouse": "{{i18n:SondraCTBFFullHouse}}",
+				"BearFamAttacked": "{{i18n:SondraCTBFAttacked}}",
+				"BearFamFireDrill": "{{i18n:SondraCTBFFireDrill}}",
+
+				//Sig
+				"SigLowBattery": "{{i18n:SondraCTLowBat}}",
+				"SigAndCigarettes": "{{i18n:SondraCTCigarettes}}",
+				"SigHatesCrowds": "{{i18n:SondraCTHatesCrowds}}",
+				"SigVersusCrabs": "{{i18n:SondraCTCrabs}}",
+				/*"SigtheSoldier": "{{i18n:SondraCTSigtheSoldier}}",
+				"SigtheHero": "{{i18n:SondraCTSigtheHero}}",
+				"SigRecovery": "{{i18n:SondraCTSigRecovery}}",
+				"SigSoItBegins": "{{i18n:SondraCTSigSoItBegins}}",
+				"SigatHome": "{{i18n:SondraCTSigatHome}}",
+				"SigFuture": "{{i18n:SondraCTSigFuture}}",
+				"SigImprovement": "{{i18n:SondraCTSigImprovement}}",
+				"SigTheraBees": "{{i18n:SondraCTSigTheraBees}}",
+				"SigConvosAndCraftBeer": "{{i18n:SondraCTSigConvosAndCraftBeer}}",
+				"SigandHonors": "{{i18n:SondraCTSigandHonors}}",
+				"SigTeacher": "{{i18n:SondraCTSigTeacher}}",
+				"BearFamBeeBonuses": "{{i18n:SondraCTBearFamBeeBonuses}}",
+				//
+				"SigEligible": "{{i18n:SondraCTSigEligible}}",
+				"SigMovieDate": "{{i18n:SondraCTSigMovieDate}}",
+				"SigTentPitching": "{{i18n:SondraCTSigTentPitching}}",
+				"SigintheCity": "{{i18n:SondraCTSigintheCity}}",
+				"SigCanCook": "{{i18n:SondraCTSigCanCook}}",
+				//
+
+
+				//Sondra
+				"SondraAgingGracefully": "{{i18n:SondraCTAgingGracefully}}",
+				"SondraRememberWulfram": "{{i18n:SondraCTRememberWulfram}}",
+				"SondraSaloonJukebox": "{{i18n:SondraCTSondraSaloonJukebox}}",
+				"SondraLastSong": "{{i18n:SondraCTSondraLastSong}}",
+				"SondraAerobicsAttempt": "{{i18n:SondraCTSondraAerobicsAttempt}}",
+				"CheeringUpMissSondra": "{{i18n:SondraCTCheeringUpMissSondra}}",
+				"SondraFundraiser": "{{i18n:SondraCTSondraFundraiser}}",
+				"ASongforSondra": "{{i18n:SondraCTASongforSondra}}",
+				"SondraGratitude": "{{i18n:SondraCTSondraGratitude}}",
+
+				//Gunnar
+				"GunnarBoxShop": "{{i18n:SondraCTBoxShop}}",
+				"GunnarBuildsaBomb": "{{i18n:SondraCTBuildsaBomb}}",
+				"GunnarBreaksaSword": "{{i18n:SondraCTBreaksaSword}}",
+				"GunnarGuildTryout": "{{i18n:SondraCTGuildTryout}}",
+				"GunnarGetsaLecture": "{{i18n:SondraCTGunnarGetsaLecture}}",
+				"GunnarMissing": "{{i18n:SondraCTGunnarMissing}}",
+				"GunnartheLost": "{{i18n:SondraCTGunnartheLost}}",
+				"GunnarCommunityMember": "{{i18n:SondraCTGunnarCommunityMember}}",
+				"GunnarCellarBomb": "{{i18n:SondraCTGunnarCellarBomb}}",
+				"GunnarMysteryCave": "{{i18n:SondraCTGunnarMysteryCave}}",
+				"GunnarFailure": "{{i18n:SondraCTGunnarFailure}}",
+
+				//Gudrun
+				"GudrunQinstagram": "{{i18n:SondraCTQinstagram}}",
+				"GudrunEcoFriendly": "{{i18n:SondraCTEcoFriendly}}",
+				"GudrunArtsandCrafts": "{{i18n:SondraCTGudrunArtsandCrafts}}",
+				"GudrunAgainsttheMachine": "{{i18n:SondraCTGudrunAgainsttheMachine}}",
+				"GudrunandtheSea": "{{i18n:SondraCTGudrunandtheSea}}",
+				"GudrunCollegeFears": "{{i18n:SondraCTGudrunCollegeFears}}",
+				"GudrunWeird": "{{i18n:SondraCTGudrunWeird}}",
+				"GudrunRunAway": "{{i18n:SondraCTGudrunRunAway}}",
+				"GudrunComesHome": "{{i18n:SondraCTGudrunComesHome}}",
+
+				//Teren
+				"WelcomeSergeantBarnes": "{{i18n:SondraCTWelcomeSergeantBarnes}}",
+				"TerenBadHairDay": "{{i18n:SondraCTTerenBadHairDay}}",
+				"MeetSassy": "{{i18n:SondraCTMeetSassy}}",
+				"BakingSergeantTeren": "{{i18n:SondraCTBakingSergeantTeren}}",
+				"DatingSergeantTeren": "{{i18n:SondraCTDatingSergeantTeren}}",*/
+
+				//dialogue cts
+				"GudrunGrades": "{{i18n:SondraCTGudrunGrades}}",
+				"SootPocketAdventure": "{{i18n:SondraCTSootPocketAdventure}}",
+				"TerensRecipes": "{{i18n:SondraCTTerenRecipes}}",
+				"BearRecipes": "{{i18n:SondraCTBearRecipes}}",
+				"GunnarRecipes": "{{i18n:SondraCTGunnarRecipes}}",
+				"SondraRecipes": "{{i18n:SondraCTSondraRecipes}}",
+
+				/*//other mod cts
+				"LucikielArrives": "{{i18n:SondraCTLucikielArrives}}",
+				"LavrilUnlocked": "{{i18n:SondraCTLavrilUnlocked}}",
+				"CamieIntro": "{{i18n:SondraCTCamieIntro}}",
+				"NoraIntro": "{{i18n:SondraCTNoraIntro}}",
+				"NoraClass": "{{i18n:SondraCTNoraClass}}",
+				"NoraFear:": "{{i18n:SondraCTNoraClass}}",
+				"NoraSad": "{{i18n:SondraCTNoraSad}}",
+				"NoraBusy": "{{i18n:SondraCTNoraBusy}}",
+				"JulietGremlin": "{{i18n:SondraCTJulietGremlin}}",
+				"DwarfStory": "{{i18n:SondraCTDwarfStory}}",
+				"ShadowfolkStory": "{{i18n:SondraCTShadowfolkStory}}",
+				"MeetingMeredith": "{{i18n:SondraCTMeetingMeredith}}",
+				"BookLaunchParty": "{{i18n:SondraCTBookLaunchParty}}",
+				"RodneyPoetryReading": "{{i18n:SondraCTRodneyPoetryReading}}",
+				"EliIntro": "{{i18n:SondraCTEliIntro}}",
+				"DylanIntro": "{{i18n:SondraCTDylanIntro}}",
+				"EliJunimo2": "{{i18n:SondraCTEliJunimo2}}",
+				"DylanBeach": "{{i18n:SondraCTDylanBeach}}",
+				"DylanTown": "{{i18n:SondraCTDylanTown}}",
+				"DylanSaloon": "{{i18n:SondraCTDylanSaloon}}",
+				"JohnsArrival": "{{i18n:SondraCTJohnsArrival}}",
+				"keahi_prank": "{{i18n:SondraCTKeahiPrank}}",
+				"Aideen_Garden": "{{i18n:SondraCTAideenGarden}}",
+				"LitD_CT_ShadowPlay": "{{i18n:SondraCTShadowPlay}}",
+				"LitD_CT_SensFlowers": "{{i18n:SondraCTSensFlowers}}",
+				"GrandpaHaunts": "{{i18n:SondraCTGrandpaHaunts}}",
+				"WelcomeToPridePITV": "{{i18n:SondraCTWelcomeToPridePITV}}",
+				"PrideSeasonStartPITV": "{{i18n:SondraCTPrideSeasonStartPITV}}",
+				"PrideSeasonGiftPITV": "{{i18n:SondraCTPrideSeasonGiftPITV}}",
+				"HatMouseTheAllyPITV": "{{i18n:SondraCTHatMouseTheAllyPITV}}",*/
+				"DitR_CT_PipoShorts": "{{i18n:SondraCTDiTRPipoShorts}}"
+
+			}
+		},
+
+		//SIGURD
+
+		{
+			"LogName": "Sigurd Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Sigurd",
+			"Entries": {
+
+				//vanilla cts
+				"cc_Complete": "{{i18n:SigCCComplete}}",
+				"joja_Begin": "{{i18n:SigJojaBegin}}",
+				"movieTheater": "{{i18n:SigMovieTheater}}",
+				"cc_Bus": "{{i18n:SigCCBus}}",
+				"cc_Begin": "{{i18n:SigCCBegin}}",
+
+				//my cts
+
+				//fam
+				"BearFamTimeForBees": "{{i18n:SigCTBFTimeforBees}}",
+				"BearFamFullHouse": "{{i18n:SigCTBFFullHouse}}",
+				"BearFamAttacked": "{{i18n:SigCTBFAttacked}}",
+				"BearFamFireDrill": "{{i18n:SigCTBFFireDrill}}",
+
+				//Sigurd
+				"SigLowBattery": "{{i18n:SigCTLowBat}}",
+				"SigAndCigarettes": "{{i18n:SigCTCigarettes}}",
+				"SigHatesCrowds": "{{i18n:SigCTHatesCrowds}}",
+				/*"SigVersusCrabs": "{{i18n:SigCTCrabs}}",
+				"SigtheSoldier": "{{i18n:SigCTSigtheSoldier}}",
+				"SigtheHero": "{{i18n:SigCTSigtheHero}}",
+				"SigRecovery": "{{i18n:SigCTSigRecovery}}",
+				"SigSoItBegins": "{{i18n:SigCTSigSoItBegins}}",
+				"SigatHome": "{{i18n:SigCTSigatHome}}",
+				"SigFuture": "{{i18n:SigCTSigFuture}}",
+				"SigImprovement": "{{i18n:SigCTSigImprovement}}",
+				"SigTheraBees": "{{i18n:SigCTSigTheraBees}}",
+				"SigConvosAndCraftBeer": "{{i18n:SigCTSigConvosAndCraftBeer}}",
+				"SigandHonors": "{{i18n:SigCTSigandHonors}}",
+				"SigTeacher": "{{i18n:SigCTSigTeacher}}",
+				"BearFamBeeBonuses": "{{i18n:SigCTBearFamBeeBonuses}}",
+				"SigurdWhatHappened": "{{i18n:SigCTSigurdWhatHappened}}",
+				//
+				"SigEligible": "{{i18n:SigCTSigEligible}}",
+				"SigMovieDate": "{{i18n:SigCTSigMovieDate}}",
+				"SigTentPitching": "{{i18n:SigCTSigTentPitching}}",
+				"SigintheCity": "{{i18n:SigCTSigintheCity}}",
+				"SigCanCook": "{{i18n:SigCTSigCanCook}}",
+				//
+
+				//Sondra
+				"SondraAgingGracefully": "{{i18n:SigCTAgingGracefully}}",
+				"SondraRememberWulfram": "{{i18n:SigCTRememberWulfram}}",
+				"SondraSaloonJukebox": "{{i18n:SigCTSondraSaloonJukebox}}",
+				"SondraLastSong": "{{i18n:SigCTSondraLastSong}}",
+				"SondraAerobicsAttempt": "{{i18n:SigCTSondraAerobicsAttempt}}",
+				"CheeringUpMissSondra": "{{i18n:SigCTCheeringUpMissSondra}}",
+				"SondraFundraiser": "{{i18n:SigCTSondraFundraiser}}",
+				"ASongforSondra": "{{i18n:SigCTASongforSondra}}",
+				"SondraGratitude": "{{i18n:SigCTSondraGratitude}}",
+
+				//Gunnar
+				"GunnarBoxShop": "{{i18n:SigCTBoxShop}}",
+				"GunnarBuildsaBomb": "{{i18n:SigCTBuildsaBomb}}",
+				"GunnarBreaksaSword": "{{i18n:SigCTBreaksaSword}}",
+				"GunnarGuildTryout": "{{i18n:SigCTGuildTryout}}",
+				"GunnarGetsaLecture": "{{i18n:SigCTGunnarGetsaLecture}}",
+				"GunnarMissing": "{{i18n:SigCTGunnarMissing}}",
+				"GunnartheLost": "{{i18n:SigCTGunnartheLost}}",
+				"GunnarCommunityMember": "{{i18n:SigCTGunnarCommunityMember}}",
+				"GunnarCellarBomb": "{{i18n:SigCTGunnarCellarBomb}}",
+				"GunnarMysteryCave": "{{i18n:SigCTGunnarMysteryCave}}",
+				"GunnarFailure": "{{i18n:SigCTGunnarFailure}}",
+
+				//Gudrun
+				"GudrunQinstagram": "{{i18n:SigCTQinstagram}}",
+				"GudrunEcoFriendly": "{{i18n:SigCTEcoFriendly}}",
+				"GudrunArtsandCrafts": "{{i18n:SigCTGudrunArtsandCrafts}}",
+				"GudrunAgainsttheMachine": "{{i18n:SigCTGudrunAgainsttheMachine}}",
+				"GudrunandtheSea": "{{i18n:SigCTGudrunandtheSea}}",
+				"GudrunCollegeFears": "{{i18n:SigCTGudrunCollegeFears}}",
+				"GudrunWeird": "{{i18n:SigCTGudrunWeird}}",
+				"GudrunRunAway": "{{i18n:SigCTGudrunRunAway}}",
+				"GudrunComesHome": "{{i18n:SigCTGudrunComesHome}}",
+
+				//Teren
+				"WelcomeSergeantBarnes": "{{i18n:SigCTWelcomeSergeantBarnes}}",
+				"TerenBadHairDay": "{{i18n:SigCTTerenBadHairDay}}",
+				"MeetSassy": "{{i18n:SigCTMeetSassy}}",
+				"BakingSergeantTeren": "{{i18n:SigCTBakingSergeantTeren}}",
+				"DatingSergeantTeren": "{{i18n:SigCTDatingSergeantTeren}}",*/
+
+				//dialogue cts
+				"GudrunGrades": "{{i18n:SigCTGudrunGrades}}",
+				"SootPocketAdventure": "{{i18n:SigCTSootPocketAdventure}}",
+				"TerensRecipes": "{{i18n:SigurdCTTerenRecipes}}",
+				"BearRecipes": "{{i18n:SigurdCTBearRecipes}}",
+				"GunnarRecipes": "{{i18n:SigurdCTGunnarRecipes}}",
+				"SondraRecipes": "{{i18n:SigurdCTSondraRecipes}}",
+
+				/*//other mod cts
+				"LucikielArrives": "{{i18n:SigCTLucikielArrives}}",
+				"LavrilUnlocked": "{{i18n:SigCTLavrilUnlocked}}",
+				"CamieIntro": "{{i18n:SigCTCamieIntro}}",
+				"AlexTryouts": "{{i18n:SigCTAlexTryouts}}",
+				"AlexSportsRoom": "{{i18n:SigCTAlexSportsRoom}}",
+				"jojaMartStruckByLightning": "{{i18n:SigCTjojaMartStruckByLightning}}",
+				"Naomi_Return": "{{i18n:SigCTNaomiReturns}}",
+				"NoraIntro": "{{i18n:SigCTNoraIntro}}",
+				"NoraClass": "{{i18n:SigCTNoraClass}}",
+				"NoraFear:": "{{i18n:SigCTNoraClass}}",
+				"NoraSad": "{{i18n:SigCTNoraSad}}",
+				"NoraBusy": "{{i18n:SigCTNoraBusy}}",
+				"JulietGremlin": "{{i18n:SigCTJulietGremlin}}",
+				"RodneyPoetryReading": "{{i18n:SigCTRodneyPoetryReading}}",
+				"DwarfStory": "{{i18n:SigCTDwarfStory}}",
+				"ShadowfolkStory": "{{i18n:SigCTShadowfolkStory}}",
+				"MeetingMeredith": "{{i18n:SigCTMeetingMeredith}}",
+				"BookLaunchParty": "{{i18n:SigCTBookLaunchParty}}",
+				"EliIntro": "{{i18n:SigCTEliIntro}}",
+				"DylanIntro": "{{i18n:SigCTDylanIntro}}",
+				"EliJunimo2": "{{i18n:SigCTEliJunimo2}}",
+				"DylanBeach": "{{i18n:SigCTDylanBeach}}",
+				"DylanTown": "{{i18n:SigCTDylanTown}}",
+				"DylanSaloon": "{{i18n:SigCTDylanSaloon}}",
+				"JohnsArrival": "{{i18n:SigCTJohnsArrival}}",
+				"keahi_prank": "{{i18n:SigCTKeahiPrank}}",
+				"Aideen_Garden": "{{i18n:SigCTAideenGarden}}",
+				"LitD_CT_ShadowPlay": "{{i18n:SigCTShadowPlay}}",
+				"LitD_CT_SensFlowers": "{{i18n:SigCTSensFlowers}}",
+				"GrandpaHaunts": "{{i18n:SigurdCTGrandpaHaunts}}",
+				"WelcomeToPridePITV": "{{i18n:SigurdCTWelcomeToPridePITV}}",
+				"PrideSeasonStartPITV": "{{i18n:SigurdCTPrideSeasonStartPITV}}",
+				"PrideSeasonGiftPITV": "{{i18n:SigurdCTPrideSeasonGiftPITV}}",
+				"HatMouseTheAllyPITV": "{{i18n:SigurdCTHatMouseTheAllyPITV}}",*/
+				"DitR_CT_PipoShorts": "{{i18n:SigCTDiTRPipoShorts}}",
+				"DitR_CT_UsedExpiredMegaBomb": "{{i18n:SigurdCTDiTRUsedExpiredMegaBomb}}",
+				"GunnarHasaBomb": "{{i18n:SigurdCTGunnarHasaBomb}}",
+
+				//other types of CTs
+				"MadDogBearFamMEEPArmyPhotoCT": "{{i18n:SigCTMadDogBearFamMEEPArmyPhotoCT}}",
+				"YouShotSondra": "{{i18n:SigurdCTYouShotSondra}}",
+				"YouShotGudrun": "{{i18n:SigurdCTYouShotGudrun}}"
+			}
+		},
+		//GUNNAR
+		{
+			"LogName": "Gunnar Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gunnar",
+			"Entries": {
+
+				//vanilla cts
+				"cc_Complete": "{{i18n:GunnarCCComplete}}",
+				"joja_Begin": "{{i18n:GunnarJojaBegin}}",
+				"movieTheater": "{{i18n:GunnarMovieTheater}}",
+				"cc_Bus": "{{i18n:GunnarCCBus}}",
+
+				//my cts
+
+				//fam
+				"BearFamFullHouse": "{{i18n:GunnarCTBFFullHouse}}",
+				"BearFamAttacked": "{{i18n:GunnarCTBFAttacked}}",
+				"BearFamFireDrill": "{{i18n:GunnarCTBFFireDrill}}",
+
+				//Sigurd
+				"SigLowBattery": "{{i18n:GunnarCTLowBat}}",
+				"SigAndCigarettes": "{{i18n:GunnarCTCigarettes}}",
+				"SigHatesCrowds": "{{i18n:GunnarCTHatesCrowds}}",
+				/*"SigVersusCrabs": "{{i18n:GunnarCTCrabs}}",
+				"SigtheSoldier": "{{i18n:GunnarCTSigtheSoldier}}",
+				"SigtheHero": "{{i18n:GunnarCTSigtheHero}}",
+				"SigRecovery": "{{i18n:GunnarCTSigRecovery}}",
+				"SigSoItBegins": "{{i18n:GunnarCTSigSoItBegins}}",
+				"SigatHome": "{{i18n:GunnarCTSigatHome}}",
+				"SigFuture": "{{i18n:GunnarCTSigFuture}}",
+				"SigImprovement": "{{i18n:GunnarCTSigImprovement}}",
+				"SigTheraBees": "{{i18n:GunnarCTSigTheraBees}}",
+				"SigConvosAndCraftBeer": "{{i18n:GunnarCTSigConvosAndCraftBeer}}",
+				"SigandHonors": "{{i18n:GunnarCTSigandHonors}}",
+				"SigTeacher": "{{i18n:GunnarCTSigTeacher}}",
+				"BearFamBeeBonuses": "{{i18n:GunnarCTBearFamBeeBonuses}}",
+				"SigurdWhatHappened": "{{i18n:GunnarCTSigurdWhatHappened}}",
+				//
+				"SigEligible": "{{i18n:GunnarCTSigEligible}}",
+				"SigMovieDate": "{{i18n:GunnarCTSigMovieDate}}",
+				"SigTentPitching": "{{i18n:GunnarCTSigTentPitching}}",
+				"SigintheCity": "{{i18n:GunnarCTSigintheCity}}",
+				"SigCanCook": "{{i18n:GunnarCTSigCanCook}}",
+				//
+
+
+				//Sondra
+				"SondraAgingGracefully": "{{i18n:GunnarCTAgingGracefully}}",
+				"SondraRememberWulfram": "{{i18n:GunnarCTRememberWulfram}}",
+				"SondraSaloonJukebox": "{{i18n:GunnarCTSondraSaloonJukebox}}",
+				"SondraLastSong": "{{i18n:GunnarCTSondraLastSong}}",
+				"SondraAerobicsAttempt": "{{i18n:GunnarCTSondraAerobicsAttempt}}",
+				"CheeringUpMissSondra": "{{i18n:GunnarCTCheeringUpMissSondra}}",
+				"SondraFundraiser": "{{i18n:GunnarCTSondraFundraiser}}",
+				"ASongforSondra": "{{i18n:GunnarCTASongforSondra}}",
+				"SondraGratitude": "{{i18n:GunnarCTSondraGratitude}}",
+
+				//gunnar
+				"GunnarBoxShop": "{{i18n:GunnarCTBoxShop}}",
+				"GunnarBuildsaBomb": "{{i18n:GunnarCTBuildsaBomb}}",
+				"GunnarBreaksaSword": "{{i18n:GunnarCTBreaksaSword}}",
+				"GunnarGuildTryout": "{{i18n:GunnarCTGuildTryout}}",
+				"GunnarGetsaLecture": "{{i18n:GunnarCTGunnarGetsaLecture}}",
+				"GunnartheLost": "{{i18n:GunnarCTGunnartheLost}}",
+				"GunnarCommunityMember": "{{i18n:GunnarCTGunnarCommunityMember}}",
+				"GunnarCellarBomb": "{{i18n:GunnarCTGunnarCellarBomb}}",
+				"GunnarMysteryCave": "{{i18n:GunnarCTGunnarMysteryCave}}",
+				"GunnarFailure": "{{i18n:GunnarCTGunnarFailure}}",
+
+				//Gudrun
+				"GudrunQinstagram": "{{i18n:GunnarCTQinstagram}}",
+				"GudrunEcoFriendly": "{{i18n:GunnarCTEcoFriendly}}",
+				"GudrunArtsandCrafts": "{{i18n:GunnarCTGudrunArtsandCrafts}}",
+				"GudrunAgainsttheMachine": "{{i18n:GunnarCTGudrunAgainsttheMachine}}",
+				"GudrunandtheSea": "{{i18n:GunnarCTGudrunandtheSea}}",
+				"GudrunCollegeFears": "{{i18n:GunnarCTGudrunCollegeFears}}",
+				"GudrunWeird": "{{i18n:GunnarCTGudrunWeird}}",
+				"GudrunRunAway": "{{i18n:GunnarCTGudrunRunAway}}",
+				"GudrunComesHome": "{{i18n:GunnarCTGudrunComesHome}}",
+
+				//Teren
+				"WelcomeSergeantBarnes": "{{i18n:GunnarCTWelcomeSergeantBarnes}}",
+				"TerenBadHairDay": "{{i18n:GunnarCTTerenBadHairDay}}",
+				"MeetSassy": "{{i18n:GunnarCTMeetSassy}}",
+				"BakingSergeantTeren": "{{i18n:GunnarCTBakingSergeantTeren}}",
+				"DatingSergeantTeren": "{{i18n:GunnarCTDatingSergeantTeren}}",*/
+
+				//dialogue cts
+				"GudrunGrades": "{{i18n:GunnarCTGudrunGrades}}",
+				"SootPocketAdventure": "{{i18n:GunnarCTSootPocketAdventure}}",
+				"TerensRecipes": "{{i18n:GunnarCTTerenRecipes}}",
+				"BearRecipes": "{{i18n:GunnarCTBearRecipes}}",
+				"GunnarRecipes": "{{i18n:GunnarCTGunnarRecipes}}",
+				"SondraRecipes": "{{i18n:GunnarCTSondraRecipes}}",
+
+				/*//other mod cts
+				"LucikielArrives": "{{i18n:GunnarCTLucikielArrives}}",
+				"LavrilUnlocked": "{{i18n:GunnarCTLavrilUnlocked}}",
+				"CamieIntro": "{{i18n:GunnarCTCamieIntro}}",
+				"NoraIntro": "{{i18n:GunnarCTNoraIntro}}",
+				"NoraClass": "{{i18n:GunnarCTNoraClass}}",
+				"NoraFear:": "{{i18n:GunnarCTNoraClass}}",
+				"NoraSad": "{{i18n:GunnarCTNoraSad}}",
+				"NoraBusy": "{{i18n:GunnarCTNoraBusy}}",
+				"JulietGremlin": "{{i18n:GunnarCTJulietGremlin}}",
+				"DwarfStory": "{{i18n:GunnarCTDwarfStory}}",
+				"ShadowfolkStory": "{{i18n:GunnarCTShadowfolkStory}}",
+				"MeetingMeredith": "{{i18n:GunnarCTMeetingMeredith}}",
+				"BookLaunchParty": "{{i18n:GunnarCTBookLaunchParty}}",
+				"RodneyPoetryReading": "{{i18n:GunnarCTRodneyPoetryReading}}",
+				"EliIntro": "{{i18n:GunnarCTEliIntro}}",
+				"EliJunimo2": "{{i18n:GunnarCTEliJunimo2}}",
+				"DylanIntro": "{{i18n:GunnarCTDylanIntro}}",
+				"DylanBeach": "{{i18n:GunnarCTDylanBeach}}",
+				"DylanTown": "{{i18n:GunnarCTDylanTown}}",
+				"DylanSaloon": "{{i18n:GunnarCTDylanSaloon}}",
+				"JohnsArrival": "{{i18n:GunnarCTJohnsArrival}}",
+				"keahi_prank": "{{i18n:GunnarCTKeahiPrank}}",
+				"Aideen_Garden": "{{i18n:GunnarCTAideenGarden}}",
+				"LitD_CT_ShadowPlay": "{{i18n:GunnarCTShadowPlay}}",
+				"LitD_CT_SensFlowers": "{{i18n:GunnarCTSensFlowers}}",
+				"GrandpaHaunts": "{{i18n:GunnarCTGrandpaHaunts}}",
+				"WelcomeToPridePITV": "{{i18n:GunnarCTWelcomeToPridePITV}}",
+				"PrideSeasonStartPITV": "{{i18n:GunnarCTPrideSeasonStartPITV}}",
+				"PrideSeasonGiftPITV": "{{i18n:GunnarCTPrideSeasonGiftPITV}}",
+				"HatMouseTheAllyPITV": "{{i18n:GunnarCTHatMouseTheAllyPITV}}",*/
+				"DitR_CT_PipoShorts": "{{i18n:GunnarCTDiTRPipoShorts}}",
+				"DitR_CT_UsedExpiredMegaBomb": "{{i18n:GunnarCTDiTRUsedExpiredMegaBomb}}",
+
+				//other types of CTs
+				"YouShotSondra": "{{i18n:GunnarCTYouShotSondra}}",
+				"YouShotGudrun": "{{i18n:GunnarCTYouShotGudrun}}",
+				"Gunnar_PotionsGoingMissing": "{{i18n:GunnarCT.PotionsGoingMissing}}",
+				"Gunnar_PotionsGoingMissingMore": "{{i18n:GunnarCT.PotionsGoingMissingMore}}",
+				"Gunnar_SuspicionRising": "{{i18n:GunnarCT.SuspicionRising}}",
+				"Gunnar_InvestigationTime": "{{i18n:GunnarCT.InvestigationTime}}",
+				"Gunnar_WasItYou": "{{i18n:GunnarCT.WasItYou}}",
+				"Gunnar_FinalConfrontation": "{{i18n:GunnarCT.FinalConfrontation}}"
+
+			}
+		},
+		//TEREN
+		{
+			"LogName": "Teren Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Teren",
+			"Entries": {
+
+				/*//vanilla cts
+				"cc_Complete": "{{i18n:TerenCCComplete}}",
+				"joja_Begin": "{{i18n:TerenJojaBegin}}",
+				"movieTheater": "{{i18n:TerenMovieTheater}}",
+				"cc_Bus": "{{i18n:TerenCCBus}}",
+				"cc_Begin": "{{i18n:TerenCCBegin}}",
+
+				//my cts
+
+				//fam
+				"BearFamTimeForBees": "{{i18n:TerenCTBFTimeforBees}}",
+				"BearFamFullHouse": "{{i18n:TerenCTBFFullHouse}}",
+				"BearFamAttacked": "{{i18n:TerenCTBFAttacked}}",
+				"BearFamFireDrill": "{{i18n:TerenCTBFFireDrill}}",
+
+				//Sigurd
+				"SigLowBattery": "{{i18n:TerenCTLowBat}}",
+				"SigAndCigarettes": "{{i18n:TerenCTCigarettes}}",
+				"SigHatesCrowds": "{{i18n:TerenCTHatesCrowds}}",
+				"SigVersusCrabs": "{{i18n:TerenCTCrabs}}",
+				"SigtheSoldier": "{{i18n:TerenCTSigtheSoldier}}",
+				"SigtheHero": "{{i18n:TerenCTSigtheHero}}",
+				"SigRecovery": "{{i18n:TerenCTSigRecovery}}",
+				"SigSoItBegins": "{{i18n:TerenCTSigSoItBegins}}",
+				"SigatHome": "{{i18n:TerenCTSigatHome}}",
+				"SigFuture": "{{i18n:TerenCTSigFuture}}",
+				"SigImprovement": "{{i18n:TerenCTSigImprovement}}",
+				"SigTheraBees": "{{i18n:TerenCTSigTheraBees}}",
+				"SigConvosAndCraftBeer": "{{i18n:TerenCTSigConvosAndCraftBeer}}",
+				"SigandHonors": "{{i18n:TerenCTSigandHonors}}",
+				"SigTeacher": "{{i18n:TerenCTSigTeacher}}",
+				"BearFamBeeBonuses": "{{i18n:TerenCTBearFamBeeBonuses}}",
+				"SigurdWhatHappened": "{{i18n:TerenCTSigurdWhatHappened}}",
+				//
+				"SigEligible": "{{i18n:TerenCTSigEligible}}",
+				"SigMovieDate": "{{i18n:TerenCTSigMovieDate}}",
+				"SigTentPitching": "{{i18n:TerenCTSigTentPitching}}",
+				"SigintheCity": "{{i18n:TerenCTSigintheCity}}",
+				"SigCanCook": "{{i18n:TerenCTSigCanCook}}",
+				//
+
+				//Sondra
+				"SondraAgingGracefully": "{{i18n:TerenCTAgingGracefully}}",
+				"SondraRememberWulfram": "{{i18n:TerenCTRememberWulfram}}",
+				"SondraSaloonJukebox": "{{i18n:TerenCTSondraSaloonJukebox}}",
+				"SondraLastSong": "{{i18n:TerenCTSondraLastSong}}",
+				"SondraAerobicsAttempt": "{{i18n:TerenCTSondraAerobicsAttempt}}",
+				"CheeringUpMissSondra": "{{i18n:TerenCTCheeringUpMissSondra}}",
+				"SondraFundraiser": "{{i18n:TerenCTSondraFundraiser}}",
+				"ASongforSondra": "{{i18n:TerenCTASongforSondra}}",
+				"SondraGratitude": "{{i18n:TerenCTSondraGratitude}}",
+
+				//Gunnar
+				"GunnarBoxShop": "{{i18n:TerenCTBoxShop}}",
+				"GunnarBuildsaBomb": "{{i18n:TerenCTBuildsaBomb}}",
+				"GunnarBreaksaSword": "{{i18n:TerenCTBreaksaSword}}",
+				"GunnarGuildTryout": "{{i18n:TerenCTGuildTryout}}",
+				"GunnarGetsaLecture": "{{i18n:TerenCTGunnarGetsaLecture}}",
+				"GunnarMissing": "{{i18n:TerenCTGunnarMissing}}",
+				"GunnartheLost": "{{i18n:TerenCTGunnartheLost}}",
+				"GunnarCommunityMember": "{{i18n:TerenCTGunnarCommunityMember}}",
+				"GunnarCellarBomb": "{{i18n:TerenCTGunnarCellarBomb}}",
+				"GunnarMysteryCave": "{{i18n:TerenCTGunnarMysteryCave}}",
+				"GunnarFailure": "{{i18n:TerenCTGunnarFailure}}",
+
+				//Gudrun
+				"GudrunQinstagram": "{{i18n:TerenCTQinstagram}}",
+				"GudrunEcoFriendly": "{{i18n:TerenCTEcoFriendly}}",
+				"GudrunArtsandCrafts": "{{i18n:TerenCTGudrunArtsandCrafts}}",
+				"GudrunAgainsttheMachine": "{{i18n:TerenCTGudrunAgainsttheMachine}}",
+				"GudrunandtheSea": "{{i18n:TerenCTGudrunandtheSea}}",
+				"GudrunCollegeFears": "{{i18n:TerenCTGudrunCollegeFears}}",
+				"GudrunWeird": "{{i18n:TerenCTGudrunWeird}}",
+				"GudrunRunAway": "{{i18n:TerenCTGudrunRunAway}}",
+				"GudrunComesHome": "{{i18n:TerenCTGudrunComesHome}}",
+
+				//Teren
+				"WelcomeSergeantBarnes": "{{i18n:TerenCTWelcomeSergeantBarnes}}",
+				"TerenBadHairDay": "{{i18n:TerenCTTerenBadHairDay}}",
+				"MeetSassy": "{{i18n:TerenCTMeetSassy}}",
+				"BakingSergeantTeren": "{{i18n:TerenCTBakingSergeantTeren}}",
+				"DatingSergeantTeren": "{{i18n:TerenCTDatingSergeantTeren}}",*/
+
+				//dialogue cts
+				"GudrunGrades": "{{i18n:TerenCTGudrunGrades}}",
+				"SootPocketAdventure": "{{i18n:TerenCTSootPocketAdventure}}",
+				"TerensRecipes": "{{i18n:TerenCTTerenRecipes}}",
+				"BearRecipes": "{{i18n:TerenCTBearRecipes}}",
+				"GunnarRecipes": "{{i18n:TerenCTGunnarRecipes}}",
+				"SondraRecipes": "{{i18n:TerenCTSondraRecipes}}",
+
+				/*//other mod cts
+				"LucikielArrives": "{{i18n:TerenCTLucikielArrives}}",
+				"LavrilUnlocked": "{{i18n:TerenCTLavrilUnlocked}}",
+				"CamieIntro": "{{i18n:TerenCTCamieIntro}}",
+				"NoraIntro": "{{i18n:TerenCTNoraIntro}}",
+				"NoraClass": "{{i18n:TerenCTNoraClass}}",
+				"NoraFear:": "{{i18n:TerenCTNoraClass}}",
+				"NoraSad": "{{i18n:TerenCTNoraSad}}",
+				"NoraBusy": "{{i18n:TerenCTNoraBusy}}",
+				"JulietGremlin": "{{i18n:TerenCTJulietGremlin}}",
+				"DwarfStory": "{{i18n:TerenCTDwarfStory}}",
+				"ShadowfolkStory": "{{i18n:TerenCTShadowfolkStory}}",
+				"MeetingMeredith": "{{i18n:TerenCTMeetingMeredith}}",
+				"BookLaunchParty": "{{i18n:TerenCTBookLaunchParty}}",
+				"RodneyPoetryReading": "{{i18n:TerenCTRodneyPoetryReading}}",
+				"EliJunimo2": "{{i18n:TerenCTEliJunimo2}}",
+				"EliIntro": "{{i18n:TerenCTEliIntro}}",
+				"DylanIntro": "{{i18n:TerenCTDylanIntro}}",
+				"DylanBeach": "{{i18n:TerenCTDylanBeach}}",
+				"DylanTown": "{{i18n:TerenCTDylanTown}}",
+				"DylanSaloon": "{{i18n:TerenCTDylanSaloon}}",
+				"JohnsArrival": "{{i18n:TerenCTJohnsArrival}}",
+				"keahi_prank": "{{i18n:TerenCTKeahiPrank}}",
+				"Aideen_Garden": "{{i18n:TerenCTAideenGarden}}",
+				"LitD_CT_ShadowPlay": "{{i18n:TerenCTShadowPlay}}",
+				"LitD_CT_SensFlowers": "{{i18n:TerenCTSensFlowers}}",
+				"GrandpaHaunts": "{{i18n:TerenCTGrandpaHaunts}}",
+				"WelcomeToPridePITV": "{{i18n:TerenCTWelcomeToPridePITV}}",
+				"PrideSeasonStartPITV": "{{i18n:TerenCTPrideSeasonStartPITV}}",
+				"PrideSeasonGiftPITV": "{{i18n:TerenCTPrideSeasonGiftPITV}}",
+				"HatMouseTheAllyPITV": "{{i18n:TerenCTHatMouseTheAllyPITV}}",*/
+				"DitR_CT_PipoShorts": "{{i18n:TerenCTDiTRPipoShorts}}",
+				"DitR_CT_UsedExpiredMegaBomb": "{{i18n:TerenCTDiTRUsedExpiredMegaBomb}}"
+
+			}
+		}
+	]
+}

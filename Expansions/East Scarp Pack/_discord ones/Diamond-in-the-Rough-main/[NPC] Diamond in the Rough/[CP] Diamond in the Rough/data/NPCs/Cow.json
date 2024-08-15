@@ -1,0 +1,72 @@
+{
+    "Changes": [
+//---------------------------- DISPOSITIONS ------------------------------------------//
+        {
+            "LogName": "Cow Dispositions",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "CowD": {
+                    "DisplayName": "{{i18n:Core.CowD.Name}}",
+                    "HomeRegion": "Other", //Castle Village
+                    "Gender": "Female",
+                    "Age": "Child",
+                    "Manner": "Rude",
+                    "SocialAnxiety": "Outgoing",
+                    "Optimism": "Positive",
+                    "CanBeRomanced": false,
+                    "LoveInterest": "Setting Things On Fire",
+                    "Calendar": "HiddenAlways",
+                    "SocialTab": "HiddenAlways",
+                    "CanGreetNearbyCharacters": false,
+                    "IntroductionsQuest": false,
+                    "PerfectionScore": false,
+                    "WinterStarParticipant": false,
+                    "DumpsterDiveFriendshipEffect": 0,
+                    "DumpsterDiveEmote": 32,
+                    "CanVisitIsland": false,
+                    "CanCommentOnPurchasedShopItems": false,
+                    "EndSlideShow": "TrailingGroup",
+                    "SpawnIfMissing": true,
+                    "Breather": false,
+                    "Home": [
+                        {
+                            "Id": "Cow Waiting Room",
+                            "Location": "EastScarp_TNPCWaitingWarpRoom",
+                            "Tile": { "X": 6, "Y": 9 },
+                            "Direction": "down",
+                            "Condition": "!PLAYER_HAS_SEEN_EVENT Current {{ModID}}_Events.TBA"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "CowD" ],
+            "Entries": { 
+                "Calendar": "AlwaysShown", 
+                "SocialTab": "AlwaysShown",
+                "BirthSeason": "summer",
+                "BirthDay": 1
+             },
+            "When": { "HasSeenEvent": "{{ModID}}_Events.TBA" }
+        },
+//---------------------------- GIFT TASTE ------------------------------------------//
+        {
+            "LogName": "Gift Taste",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "CowD": "{{i18n:Gifts.CowD.Love}}/5/{{i18n:Gifts.CowD.Like}}/5/{{i18n:Gifts.CowD.Dislike}}/-5/{{i18n:Gifts.CowD.Hate}}/5/{{i18n:Gifts.CowD.Neutral}}/5/"
+            }
+        },
+//---------------------------- SPRITES ------------------------------------------//
+        {
+            "Action": "Load",
+            "Target": "Characters/CowD, Portraits/CowD",
+            "FromFile": "assets/{{TargetPathOnly}}/Cow/Cow.png"
+        }
+     ]
+}

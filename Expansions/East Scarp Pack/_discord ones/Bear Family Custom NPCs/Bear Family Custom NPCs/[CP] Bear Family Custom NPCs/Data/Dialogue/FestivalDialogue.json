@@ -1,0 +1,245 @@
+{
+	"Changes": [
+		{
+			"LogName": "Egg Festival",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"Entries": {
+				"MadDog.HashtagBearFam.Sigurd": "{{i18n:EggFestSigurd{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Sondra": "{{i18n:EggFestSondra{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Gunnar": "{{i18n:EggFestGunnar{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Gudrun": "{{i18n:EggFestGudrun{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Teren": "{{i18n:EggFestTeren{{Random:1++2|inputSeparator=++}}}}"
+			}
+		},
+		{
+			"LogName": "Flower Dance",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": {
+				"MadDog.HashtagBearFam.Sigurd": "{{i18n:FlowerDanceSigurd{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Sondra": "{{i18n:FlowerDanceSondra{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Gunnar": "{{i18n:FlowerDanceGunnar{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Gudrun": "{{i18n:FlowerDanceGudrun{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Teren": "{{i18n:FlowerDanceTeren{{Random:1++2|inputSeparator=++}}}}"
+			}
+		},
+		{
+			"LogName": "Luau",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"Entries": {
+				"MadDog.HashtagBearFam.Sigurd": null, //does not attend
+				"MadDog.HashtagBearFam.Sondra": "{{i18n:LuauSondra{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Gunnar": "{{i18n:LuauGunnar{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Gudrun": "{{i18n:LuauGudrun{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Teren": "{{i18n:LuauTeren{{Random:1++2|inputSeparator=++}}}}"
+			}
+		},
+		{
+			"LogName": "Jellies",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"Entries": {
+				"MadDog.HashtagBearFam.Sigurd": "{{i18n:JelliesSigurd{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Sondra": "{{i18n:JelliesSondra{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Gunnar": "{{i18n:JelliesGunnar{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Gudrun": "{{i18n:JelliesGudrun{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Teren": "{{i18n:JelliesTeren{{Random:1++2|inputSeparator=++}}}}"
+			}
+		},
+		{
+			"LogName": "PelicanFair",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": {
+				"MadDog.HashtagBearFam.Sigurd": "{{i18n:PelicanFairSigurd{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Sondra": "{{i18n:PelicanFairSondra{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Gunnar": "{{i18n:PelicanFairGunnar{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Gudrun": "{{i18n:PelicanFairGudrun{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Teren": "{{i18n:PelicanFairTeren{{Random:1++2|inputSeparator=++}}}}"
+			}
+		},
+		{
+			"LogName": "Spirit's Eve",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"Entries": {
+				"MadDog.HashtagBearFam.Sigurd": "{{i18n:SpiritsEveSigurd{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Sigurd_y2": "{{i18n:SpiritsEveSigurdy2{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Sondra": "{{i18n:SpiritsEveSondra{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Sondra_y2": "{{i18n:SpiritsEveSondray2{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Gunnar": "{{i18n:SpiritsEveGunnar{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Gunnar_y2": "{{i18n:SpiritsEveGunnary2{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Gudrun": "{{i18n:SpiritsEveGudrun{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Gudrun_y2": "{{i18n:SpiritsEveGudruny2{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Teren": "{{i18n:SpiritsEveTeren{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Teren_y2": "{{i18n:SpiritsEveTereny2{{Random:1++2|inputSeparator=++}}}}"
+			}
+		},
+		{
+			"LogName": "Ice Festival",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"Entries": {
+				"MadDog.HashtagBearFam.Sigurd": "{{i18n:IceFishSigurd{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Sondra": null, //does not attend
+				"MadDog.HashtagBearFam.Gunnar": "{{i18n:IceFishGunnar{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Gudrun": null, //does not attend
+				"MadDog.HashtagBearFam.Teren": "{{i18n:IceFishTeren{{Random:1++2|inputSeparator=++}}}}"
+			}
+		},
+
+		{
+			"LogName": "WinterStar",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"Entries": {
+				"MadDog.HashtagBearFam.Sigurd": "{{i18n:WinterfestSigurd{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Sondra": "{{i18n:WinterfestSondra{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Gunnar": "{{i18n:WinterfestGunnar{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Gudrun": "{{i18n:WinterfestGudrun{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Teren": "{{i18n:WinterfestTeren{{Random:1++2|inputSeparator=++}}}}"
+			}
+		},
+
+		/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		//Sig
+		{
+			"LogName": "WinterStar", //4 hearts
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"Entries": {
+				"MadDog.HashtagBearFam.Sigurd": "{{i18n:WinterfestSigurd14heart}}"
+			},
+			"When": {
+				"Hearts:MadDog.HashtagBearFam.Sigurd": "4, 5"
+			}
+		},
+		{
+			"LogName": "WinterStar", //6 hearts
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"Entries": {
+				"MadDog.HashtagBearFam.Sigurd": "{{i18n:WinterfestSigurd16heart}}"
+			},
+			"When": {
+				"Hearts:MadDog.HashtagBearFam.Sigurd": "6, 7"
+			}
+		},
+		{
+			"LogName": "WinterStar", //8 hearts
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"Entries": {
+				"MadDog.HashtagBearFam.Sigurd": "{{i18n:WinterfestSigurd18heart}}"
+			},
+			"When": {
+				"Hearts:MadDog.HashtagBearFam.Sigurd": "8, 9, 10"
+			}
+		},
+
+		/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		//Gunnar
+		{
+			"LogName": "WinterStar", //4 hearts
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"Entries": {
+				"MadDog.HashtagBearFam.Gunnar": "{{i18n:WinterfestGunnar14heart}}"
+			},
+			"When": {
+				"Hearts:MadDog.HashtagBearFam.Gunnar": "4, 5"
+			}
+		},
+		{
+			"LogName": "WinterStar", //6 hearts
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"Entries": {
+				"MadDog.HashtagBearFam.Gunnar": "{{i18n:WinterfestGunnar16heart}}"
+			},
+			"When": {
+				"Hearts:MadDog.HashtagBearFam.Gunnar": "6, 7"
+			}
+		},
+		{
+			"LogName": "WinterStar", //8 hearts
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"Entries": {
+				"MadDog.HashtagBearFam.Gunnar": "{{i18n:WinterfestGunnar18heart}}"
+			},
+			"When": {
+				"Hearts:MadDog.HashtagBearFam.Gunnar": "8, 9, 10"
+			}
+		},
+
+		/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		//Gudrun
+		{
+			"LogName": "WinterStar", //4 hearts
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"Entries": {
+				"MadDog.HashtagBearFam.Gudrun": "{{i18n:WinterfestGudrun14heart}}"
+			},
+			"When": {
+				"Hearts:MadDog.HashtagBearFam.Gudrun": "4, 5"
+			}
+		},
+		{
+			"LogName": "WinterStar", //6 hearts
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"Entries": {
+				"MadDog.HashtagBearFam.Gudrun": "{{i18n:WinterfestGudrun16heart}}"
+			},
+			"When": {
+				"Hearts:MadDog.HashtagBearFam.Gudrun": "6, 7"
+			}
+		},
+		{
+			"LogName": "WinterStar", //8 hearts
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"Entries": {
+				"MadDog.HashtagBearFam.Gudrun": "{{i18n:WinterfestGudrun18heart}}"
+			},
+			"When": {
+				"Hearts:MadDog.HashtagBearFam.Gudrun": "8, 9, 10"
+			}
+		},
+		/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		{
+			"LogName": "RSV Ember of Resolutions",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter28",
+			"Entries": {
+				"MadDog.HashtagBearFam.Sigurd": "{{i18n:RSVEmberSigurd{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Sondra": "{{i18n:RSVEmberSondra{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Gunnar": "{{i18n:RSVEmberGunnar{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Gudrun": "{{i18n:RSVEmberGudrun{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Teren": "{{i18n:RSVEmberTeren{{Random:1++2|inputSeparator=++}}}}"
+			},
+			"When": {
+				"HasMod": "Rafseazz.RSVCP"
+			}
+		},
+		{
+			"LogName": "RSV Gathering Festival",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall20",
+			"Entries": {
+				"MadDog.HashtagBearFam.Sigurd": "{{i18n:RSVGatheringFestSigurd{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Sondra": "{{i18n:RSVGatheringFestSondra{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Gunnar": "{{i18n:RSVGatheringFestGunnar{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Gudrun": "{{i18n:RSVGatheringFestGudrun{{Random:1++2|inputSeparator=++}}}}",
+				"MadDog.HashtagBearFam.Teren": "{{i18n:RSVGatheringFestTeren{{Random:1++2|inputSeparator=++}}}}"
+			},
+			"When": {
+				"HasMod": "Rafseazz.RSVCP"
+			}
+		}
+	]
+}

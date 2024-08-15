@@ -1,0 +1,598 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+
+        /*"MadDog.Bearfam_TerenLetter": {
+          "Id": "MadDog.Bearfam_TerenLetter",
+          "Trigger": "DayStarted",
+          "Location": "Farm",
+          "Condition": "PLAYER_HAS_SEEN_EVENT Current MadDog.BearFam.16197004", //has seen bearfam attacked
+          "Actions": [
+            "AddMail Host TerenMysteryMail now"
+          ]
+        },*/
+
+        "MadDog.Bearfam_BearsArriveLetter": {
+          "Id": "MadDog.Bearfam_BearsArriveLetter",
+          "Trigger": "DayStarted",
+          "Location": "Farm",
+          "Condition": "PLAYER_STAT Host daysPlayed 26", //has played for at least 26 days
+          "Actions": [
+            "AddMail Current BearFamExtraMembers now"
+          ]
+        },
+        "MadDog.Bearfam_TerenTimeGate": {
+          "Id": "MadDog.Bearfam_TerenTimeGate",
+          "Trigger": "DayStarted",
+          "Location": "Farm",
+          "Condition": "PLAYER_HAS_MAIL Current BearFamExtraMembers Received", //player received bear fam letter
+          "Actions": [
+            "AddConversationTopic TerenArrivalImminent 14"
+          ]
+        },
+        "MadDog.Bearfam_TerenLetter": {
+          "Id": "MadDog.Bearfam_TerenLetter",
+          "Trigger": "DayStarted",
+          "Location": "Farm",
+          "Condition": "!PLAYER_HAS_CONVERSATION_TOPIC Current TerenArrivalImminent, PLAYER_HAS_MAIL Current BearFamExtraMembers Received", //fourteen days after Bears arrive, Teren's letter arrives
+          "Actions": [
+            "AddMail Host TerenMysteryMail now"
+          ]
+        },
+        "MadDog.Bearfam_SondraShortbread": { //send shortbread recipe
+          "Id": "MadDog.Bearfam_SondraShortbread",
+          "Trigger": "DayStarted",
+          "Location": "Farm",
+          "Condition": "SEASON_DAY spring 10",
+          "Actions": [
+            "AddMail Current bearfam.springtimeshortbread now"
+          ]
+        },
+
+        "MadDog.Bearfam_SondraSnackcake": { //send snackcake recipe
+          "Id": "MadDog.Bearfam_SondraSnackcake",
+          "Trigger": "DayStarted",
+          "Location": "Farm",
+          "Condition": "SEASON_DAY summer 13",
+          "Actions": [
+            "AddMail Current bearfam.summersnackcake now"
+          ]
+        },
+
+        "MadDog.Bearfam_SondraApplecookie": { //send fall cookie recipe
+          "Id": "MadDog.Bearfam_SondraApplecookie",
+          "Trigger": "DayStarted",
+          "Location": "Farm",
+          "Condition": "SEASON_DAY fall 16",
+          "Actions": [
+            "AddMail Current bearfam.autumnapplecookie now"
+          ]
+        },
+
+        "MadDog.Bearfam_SondraWonderBar": { //send wonderbar recipe
+          "Id": "MadDog.Bearfam_SondraWonderBar",
+          "Trigger": "DayStarted",
+          "Location": "Farm",
+          "Condition": "SEASON_DAY winter 19",
+          "Actions": [
+            "AddMail Current bearfam.winterwonderbar now"
+          ]
+        },
+
+        "MadDog.Bearfam_SondraAlfredo": {
+          "Id": "MadDog.Bearfam_SondraAlfredo",
+          "Trigger": "DayStarted",
+          "Location": "Farm",
+          "Condition": "PLAYER_FARMHOUSE_UPGRADE Current 1", //has upgraded to kitchen
+          "Actions": [
+            "AddMail Current bearfam.brazieralfredo now"
+          ]
+        },
+
+        "MadDog.Bearfam_Ramen": {
+          "Id": "MadDog.Bearfam_Ramen",
+          "Trigger": "DayStarted",
+          "Location": "Farm",
+          "Condition": "PLAYER_HAS_SEEN_EVENT Current MadDog.BearFam.16197003", //ramen fire
+          "Actions": [
+            "AddMail Current bearfam.sigramen now",
+            "AddMail Current bearfam.sondraramen now",
+            "AddMail Current bearfam.gunnarramen now",
+            "AddMail Current bearfam.gudrunramen now"
+          ]
+        },
+        "MadDog.Bearfam_PhoenixDown": {
+          "Id": "MadDog.Bearfam_PhoenixDown",
+          "Trigger": "DayStarted",
+          "Location": "Farm",
+          "Condition": "PLAYER_HAS_SEEN_EVENT Current MadDog.BearFam.16193008",
+          "Actions": [
+            "AddMail Current bearfam.gunnarphoenixdown now" //send phoenix down
+          ]
+        },
+
+        "MadDog.Bearfam_PerfectPotion": {
+          "Id": "MadDog.Bearfam_PerfectPotion",
+          "Trigger": "DayStarted",
+          "Location": "Farm",
+          "Condition": "PLAYER_HAS_SEEN_EVENT Current MadDog.BearFam.16193010",
+          "Actions": [
+            "AddMail Current bearfam.gunnarperfectpotion now" //send perfect potion
+          ]
+        },
+
+        "MadDog.Bearfam_RemedyAll": {
+          "Id": "MadDog.Bearfam_RemedyAll",
+          "Trigger": "DayStarted",
+          "Location": "Farm",
+          "Condition": "PLAYER_HAS_SEEN_EVENT Current MadDog.BearFam.16193006",
+          "Actions": [
+            "AddMail Current bearfam.gunnarremedyall now" //send remedy
+          ]
+        },
+
+        "MadDog.Bearfam_NineHerbCharm": {
+          "Id": "MadDog.Bearfam_NineHerbCharm",
+          "Trigger": "DayStarted",
+          "Location": "Farm",
+          "Condition": "PLAYER_HAS_SEEN_EVENT Current MadDog.BearFam.16193004",
+          "Actions": [
+            "AddMail Current bearfam.gunnarnineherbcharm now" //send nine herb
+          ]
+        },
+
+        "MadDog.Bearfam_SigPumpkinCola": {
+          "Id": "MadDog.Bearfam_SigPumpkinCola",
+          "Trigger": "DayStarted",
+          "Location": "Farm",
+          "Condition": "PLAYER_HAS_SEEN_EVENT Current MadDog.BearFam.16191007",
+          "Actions": [
+            "AddMail Current bearfam.pumpkinjojacola now" // pumpkin joja
+          ]
+        },
+
+        "MadDog.Bearfam_SigPeachCola": {
+          "Id": "MadDog.Bearfam_SigPeachCola",
+          "Trigger": "DayStarted",
+          "Location": "Farm",
+          "Condition": "PLAYER_HAS_SEEN_EVENT Current MadDog.BearFam.16191008",
+          "Actions": [
+            "AddMail Current bearfam.peachjojacola now" //peach joja
+          ]
+        },
+        "MadDog.Bearfam_slicedpeaches": {
+          "Id": "MadDog.Bearfam_slicedpeaches",
+          "Trigger": "DayStarted",
+          "Location": "Farm",
+          "Condition": "PLAYER_HAS_SEEN_EVENT Current MadDog.BearFam.16191010",
+          "Actions": [
+            "AddMail Current bearfam.slicedpeaches now" //sliced peaches
+          ]
+        },
+        "MadDog.Bearfam_ferskenpeachcobbler": {
+          "Id": "MadDog.Bearfam_ferskenpeachcobbler",
+          "Trigger": "DayStarted",
+          "Location": "Farm",
+          "Condition": "PLAYER_HAS_SEEN_EVENT Current MadDog.BearFam.16191013",
+          "Actions": [
+            "AddMail Current bearfam.ferskenpeachcobbler now" //cobbler
+          ]
+        },
+
+        "MadDog.Bearfam_GunScheduleChange": {
+          "Id": "MadDog.Bearfam_GunScheduleChange",
+          "Trigger": "DayEnding",
+          "Location": "Farm",
+          "Condition": "!PLAYER_HAS_CONVERSATION_TOPIC Current GunnarGetsaLecture, PLAYER_HAS_SEEN_EVENT Current MadDog.BearFam.16193004", //after gunnar gets a lecture vanishes gunnar to the mines for 7 days
+          "Actions": [
+            "AddConversationTopic GunnarMissing 10"
+            //"AddMail Host GunnarGone Received"
+          ]
+        },
+
+        "MadDog.Bearfam_GunMissing": {
+          "Id": "MadDog.Bearfam_GunMissing",
+          "Trigger": "DayEnding",
+          "Location": "Farm",
+          "Condition": "!PLAYER_HAS_CONVERSATION_TOPIC Current GunnarGetsaLecture, !PLAYER_HAS_CONVERSATION_TOPIC Current GunnarMissing, PLAYER_HAS_SEEN_EVENT Current MadDog.BearFam.16193004", //after gunnar has been missing for awhile start quest
+          "Actions": [
+            "AddMail Current GunnarGoesMissing now",
+            "RemoveConversationTopic GunnarMissing"
+          ]
+        },
+        "MadDog.Bearfam_SigTries": {
+          "Id": "MadDog.Bearfam_SigTries",
+          "Trigger": "DayEnding",
+          "Location": "Farm",
+          "Condition": "!PLAYER_HAS_CONVERSATION_TOPIC Current SigTriesHelping, PLAYER_HAS_SEEN_EVENT Current MadDog.BearFam.16193005", //you rescued Gunnar and 3 days have passed
+          "Actions": [
+            "AddMail Current SigisDumb now"
+          ]
+        },
+
+        "MadDog.Bearfam_SigHeadache": {
+          "Id": "MadDog.Bearfam_SigHeadache",
+          "Trigger": "DayEnding",
+          "Location": "Farm",
+          "Condition": "PLAYER_HAS_CONVERSATION_TOPIC Current SigtheHero", //Sig stays in hospital for 3 days
+          "Actions": [
+            "AddMail Host SigHeadache received" //creates flag SigHeadache
+          ]
+        },
+
+        "MadDog.Bearfam_SigChecksout": {
+          "Id": "MadDog.Bearfam_SigChecksout",
+          "Trigger": "DayEnding",
+          "Location": "Farm",
+          "Condition": "!PLAYER_HAS_CONVERSATION_TOPIC Current SigtheHero, PLAYER_HAS_MAIL Host SigHeadache Received", //Hospital stay over, time for therapy
+          "Actions": [
+            "AddMail Host SigAwake now" //sends mail to visit Sig at hospital
+          ]
+        },
+
+        "MadDog.Bearfam_GudrunBoatInvite": {
+          "Id": "MadDog.Bearfam_GudrunBoatInvite",
+          "Trigger": "DayEnding",
+          "Location": "Farm",
+          "Condition": "!PLAYER_HAS_CONVERSATION_TOPIC Current GudrunAgainsttheMachine, PLAYER_HAS_SEEN_EVENT Current MadDog.BearFam.16194003, PLAYER_FRIENDSHIP_POINTS Current MadDog.HashTagBearfam.Gudrun 1000", //after protest event Gudrun invites farmer to boat ride yo
+          "Actions": [
+            "AddMail Current GudrunInvite now"
+          ]
+        },
+
+        "MadDog.Bearfam_GudrunActingStrange": {
+          "Id": "MadDog.Bearfam_GudrunActingStrange",
+          "Trigger": "DayEnding",
+          "Location": "Farm",
+          "Condition": "!PLAYER_HAS_CONVERSATION_TOPIC Current GudrunCollegeFears, PLAYER_HAS_SEEN_EVENT Current MadDog.BearFam.16194005, PLAYER_FRIENDSHIP_POINTS Current MadDog.HashTagBearfam.Gudrun 1500", //after college talk Gudrun's a lil weird
+          "Actions": [
+            "AddConversationTopic GudrunWeird 4"
+          ]
+        },
+
+        "MadDog.Bearfam_SigLesson": {
+          "Id": "MadDog.Bearfam_SigLesson",
+          "Trigger": "DayEnding",
+          "Location": "Farm",
+          "Condition": "!PLAYER_HAS_CONVERSATION_TOPIC Current SigImprovement, PLAYER_HAS_SEEN_EVENT Current MadDog.BearFam.16191010", //after the therapy CT, Sig's written a lesson plan
+          "Actions": [
+            "AddMail Current SigLessonTime now"
+          ]
+        },
+
+        "MadDog.Bearfam_BotbIsReady": {
+          "Id": "MadDog.Bearfam_BotbIsReady",
+          "Trigger": "DayEnding",
+          "Location": "Farm",
+          "Condition": "!PLAYER_HAS_CONVERSATION_TOPIC Current SondraFundraiser, PLAYER_HAS_SEEN_EVENT Current MadDog.BearFam.16192006, PLAYER_HAS_MAIL Host BattleoftheBandsIsReady Received", //CT is over, have also seen event, have completed the special order
+          "Actions": [
+            "AddMail Current SondraBotbInvite now"
+          ]
+        },
+        "MadDog.Bearfam_MailTerenQuest": {
+          "Id": "MadDog.Bearfam_MailTerenQuest",
+          "Trigger": "DayStarted",
+          "Location": "Farm",
+          "Condition": "PLAYER_FRIENDSHIP_POINTS Current MadDog.HashTagBearfam.Teren 1250", //5 hearts
+          "Actions": [
+            "AddMail Current FavorforTeren tomorrow" //send remedy
+          ]
+        },
+
+        "MadDog.Bearfam_TerenRecipesRead": {
+          "Id": "MadDog.Bearfam_TerenRecipesRead",
+          "Trigger": "spacechase0.SpaceCore_OnItemUsed",
+          "Condition": "ITEM_ID Input (O)MadDog.HashtagBearfam.TerenRecipes",
+          "Actions": [
+            "MarkCookingRecipeKnown Current MadDog.HashtagBearfam.TTBrownies true",
+            "MarkCookingRecipeKnown Current MadDog.HashtagBearfam.BananaBread true",
+            "MarkCookingRecipeKnown Current MadDog.HashtagBearfam.RoseCupcakes true",
+            "MarkCookingRecipeKnown Current MadDog.HashtagBearfam.CornbreadMuffins true",
+            "MarkCookingRecipeKnown Current MadDog.HashtagBearfam.SesameBrownBread true",
+            "MarkCookingRecipeKnown Current MadDog.HashtagBearfam.HoneyWheatBread true",
+            "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:MadDogBearfamTerenRecipesLearned}}\" (O)MadDog.HashtagBearfam.TerenRecipes",
+            "spacechase0.SpaceCore_PlaySound getNewSpecialItem false",
+            "AddConversationTopic TerensRecipes 5"
+          ],
+          "MarkActionApplied": true
+        },
+        "MadDog.Bearfam_BearRecipesRead": {
+          "Id": "MadDog.Bearfam_BearRecipesRead",
+          "Trigger": "spacechase0.SpaceCore_OnItemUsed",
+          "Condition": "ITEM_ID Input (O)MadDog.HashtagBearfam.BearRecipes",
+          "Actions": [
+            "MarkCookingRecipeKnown Current MadDog.HashtagBearfam.FerskenPeach_Mead_Tankard true",
+            "MarkCookingRecipeKnown Current MadDog.HashtagBearfam.FerskenPeachCobbler true",
+            "MarkCookingRecipeKnown Current MadDog.HashtagBearfam.SlicedPeaches true",
+            "MarkCookingRecipeKnown Current MadDog.HashtagBearfam.HoneyCakes true",
+            "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:MadDogBearfamBearRecipesLearned}}\" (O)MadDog.HashtagBearfam.BearRecipes",
+            "spacechase0.SpaceCore_PlaySound getNewSpecialItem false",
+            "AddConversationTopic BearRecipes 5"
+          ],
+          "MarkActionApplied": true
+        },
+
+        "MadDog.Bearfam_GunnarRecipesRead": {
+          "Id": "MadDog.Bearfam_GunnarRecipesRead",
+          "Trigger": "spacechase0.SpaceCore_OnItemUsed",
+          "Condition": "ITEM_ID Input (O)MadDog.HashtagBearfam.GunnarRecipes",
+          "Actions": [
+            "MarkCookingRecipeKnown Current MadDog.HashtagBearfam.GunnarBadPotion true",
+            "MarkCookingRecipeKnown Current MadDog.HashtagBearfam.GunnarFirstPotion true",
+            "MarkCookingRecipeKnown Current MadDog.HashtagBearfam.GunnarMysteryPotion true",
+            "MarkCookingRecipeKnown Current MadDog.HashtagBearfam.GunnarSecondPotion true",
+            "MarkCookingRecipeKnown Current MadDog.HashtagBearfam.GunnarThirdPotion true",
+            "MarkCookingRecipeKnown Current MadDog.HashtagBearfam.GunnarWeirdPotion true",
+            "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:MadDogBearfamGunnarRecipesLearned}}\" (O)MadDog.HashtagBearfam.GunnarRecipes",
+            "spacechase0.SpaceCore_PlaySound getNewSpecialItem false",
+            "AddConversationTopic GunnarRecipes 5"
+          ],
+          "MarkActionApplied": true
+        },
+        "MadDog.Bearfam_SondraRecipesRead": {
+          "Id": "MadDog.Bearfam_SondraRecipesRead",
+          "Trigger": "spacechase0.SpaceCore_OnItemUsed",
+          "Condition": "ITEM_ID Input (O)MadDog.HashtagBearfam.SondraRecipes",
+          "Actions": [
+            "MarkCookingRecipeKnown Current MadDog.HashtagBearfam.SondraWinterBar true",
+            "MarkCookingRecipeKnown Current MadDog.HashtagBearfam.SondraSpringtimeShortbread true",
+            "MarkCookingRecipeKnown Current MadDog.HashtagBearfam.SondraSummerCake true",
+            "MarkCookingRecipeKnown Current MadDog.HashtagBearfam.SondraAutumnCookie true",
+            "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:MadDogBearfamSondraRecipesLearned}}\" (O)MadDog.HashtagBearfam.SondraRecipes",
+            "spacechase0.SpaceCore_PlaySound getNewSpecialItem false",
+            "AddConversationTopic SondraRecipes 5"
+          ],
+          "MarkActionApplied": true
+        },
+
+
+
+        "MadDog.Bearfam_WoodPileWhy": {
+          "Id": "MadDog.Bearfam_WoodPileWhy",
+          "Trigger": "Manual",
+          "Condition": "!PLAYER_HAS_MAIL Current MadDog.Bearfam_StolenWood Any",
+          "Actions": [
+            "spacechase0.SpaceCore_DamageCurrentFarmer {{Random: 0, 1, 3}}",
+            "AddItem (O){{Random: 388, 709}} {{Random: 1, 2, 3}}",
+            "spacechase0.SpaceCore_PlaySound getNewSpecialItem false",
+            "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:MadDogStolenWood}}\" (O)388",
+            "AddMail Current MadDog.Bearfam_StolenWood received",
+            "RemoveMail Current MadDog.Bearfam_StolenWoodRemovalMF",
+            "MarkActionApplied Current MadDog.Bearfam_WoodPileWhyRemoval false"
+          ]
+
+
+        },
+        "MadDog.Bearfam_WoodPileWhyRemoval": {
+          "Id": "MadDog.Bearfam_WoodPileWhyRemoval",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HAS_MAIL Current MadDog.Bearfam_StolenWood Any",
+          "Actions": [
+            "AddMail Current MadDog.Bearfam_StolenWoodRemovalMF received",
+            "RemoveMail Current MadDog.Bearfam_StolenWood",
+            "MarkActionApplied Current MadDog.Bearfam_WoodPileWhy false"
+          ]
+        },
+
+
+        "MadDog.Bearfam_GunnarPotionTheft": {
+          "Id": "MadDog.Bearfam_GunnarPotionTheft",
+          "Trigger": "Manual",
+          "Condition": "!PLAYER_HAS_MAIL Current MadDog.Bearfam_StolenPotion Any",
+          "Actions": [
+            "spacechase0.SpaceCore_DamageCurrentFarmer {{Random: 0, 1, 3, 5, 10, 30, 100}}",
+            "AddItem (O)MadDog.HashtagBearfam.{{Random: GunnarFirstPotion, GunnarSecondPotion, GunnarThirdPotion, GunnarRemedyAll, GunnarWeirdPotion, GunnarBadPotion, GunnarMysteryPotion, GunnarPhoenixDown, NineHerbsCharm, GunnarPerfectPotion}} 1",
+            "spacechase0.SpaceCore_PlaySound getNewSpecialItem false",
+            "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:MadDogStolenPotion}}\" (O)118",
+            "AddMail Current MadDog.Bearfam_StolenPotion received",
+            "RemoveMail Current MadDog.Bearfam_StolenPotionRemovalMF",
+            "IncrementStat GunnarPotionStolen 1",
+            "MarkActionApplied Current MadDog.Bearfam_GunnarPotionTheftRemoval false"
+          ]
+        },
+        "MadDog.Bearfam_GunnarPotionTheftRemoval": {
+          "Id": "MadDog.Bearfam_GunnarPotionTheftRemoval",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HAS_MAIL Current MadDog.Bearfam_StolenPotion Any",
+          "Actions": [
+            "RemoveMail Current MadDog.Bearfam_StolenPotion",
+            "AddMail Current MadDog.Bearfam_StolenPotionRemovalMF received",
+            "MarkActionApplied Current MadDog.Bearfam_GunnarPotionTheft false"
+          ]
+        },
+
+        "MadDog.Bearfam_GunnarPotionTheftInquiry1": {
+          "Id": "MadDog.Bearfam_GunnarPotionTheftInquiry1",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_STAT Current GunnarPotionStolen 5",
+          "Actions": [
+            "AddConversationTopic Gunnar_PotionsGoingMissing 3"
+          ]
+        },
+        "MadDog.Bearfam_GunnarPotionTheftInquiry2": {
+          "Id": "MadDog.Bearfam_GunnarPotionTheftInquiry2",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_STAT Current GunnarPotionStolen 10",
+          "Actions": [
+            "AddConversationTopic Gunnar_PotionsGoingMissingMore 3"
+          ]
+        },
+        "MadDog.Bearfam_GunnarPotionTheftInquiry3": {
+          "Id": "MadDog.Bearfam_GunnarPotionTheftInquiry3",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_STAT Current GunnarPotionStolen 15",
+          "Actions": [
+            "AddConversationTopic Gunnar_SuspicionRising 3"
+          ]
+        },
+        "MadDog.Bearfam_GunnarPotionTheftInquiry4": {
+          "Id": "MadDog.Bearfam_GunnarPotionTheftInquiry4",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_STAT Current GunnarPotionStolen 20",
+          "Actions": [
+            "AddConversationTopic Gunnar_InvestigationTime 3"
+          ]
+        },
+        "MadDog.Bearfam_GunnarPotionTheftInquiry5": {
+          "Id": "MadDog.Bearfam_GunnarPotionTheftInquiry5",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_STAT Current GunnarPotionStolen 25",
+          "Actions": [
+            "AddConversationTopic Gunnar_WasItYou 3"
+          ]
+        },
+        "MadDog.Bearfam_GunnarPotionTheftInquiryFinal": {
+          "Id": "MadDog.Bearfam_GunnarPotionTheftInquiryFinal",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_STAT Current GunnarPotionStolen 100",
+          "Actions": [
+            "AddConversationTopic Gunnar_FinalConfrontation 3"
+          ]
+        }
+
+
+        /*
+        "MadDog.Bearfam_MailSigQuest": {
+          "Id": "MadDog.Bearfam_MailSigQuest",
+          "Trigger": "DayEnding",
+          "Location": "Farm",
+          "Condition": "PLAYER_HAS_SEEN_EVENT Current MadDog.BearFam.", //seen argument
+          "Actions": [
+            "AddMail Current FavorforSig tomorrow"
+          ]
+        },
+        */
+        /*"MadDog.Bearfam_GudrunGone": {
+              "Id": "MadDog.Bearfam_GudrunGone",
+              "Trigger": "DayEnding",
+              "Location": "Farm",
+              "Condition": "!PLAYER_HAS_CONVERSATION_TOPIC Current GudrunWeird, PLAYER_HAS_SEEN_EVENT Current MadDog.BearFam.16194005, PLAYER_FRIENDSHIP_POINTS Current MadDog.HashTagBearfam.Gudrun 1500", //after Gud's been weird she runs away
+              "Actions": [
+                "AddMail Host GudrunGone Received"
+              ]
+            }*/
+
+        /*
+                "MadDog.Bearfam_SondraBday": {
+                    "Trigger": "DayStarted",
+                    "Location": "Farm", ////east scarpe inn
+                    "Condition": "PLAYER_HAS_FLAG Host SondraBdayInviteFlag",
+                    "Actions": [
+                        "MarkEventSeen SondraBDayEvent false",
+                        "RemoveMail Host SondraBdayInvite"
+                    ]
+                }
+               */
+      }
+
+    },
+    {
+      "LogName": "Teren x Eli RH set flag",
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "When": { "EnableRivalHeartsTerenEli |valueAt=0": true },
+      "Entries": {
+        "MadDog.Bearfam_EliTerenRH": {
+          "Id": "MadDog.Bearfam_EliTerenRH",
+          "Trigger": "LocationChanged",
+          "Location": "Farm",
+          "Condition": null,
+          "Actions": [
+            "AddMail Current EliTerenRHActive now"
+          ]
+        }
+      }
+    },
+    {
+      "LogName": "Sig x Dylan RH set flag",
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "When": { "EnableRivalHeartsSigDylan |valueAt=0": true },
+      "Entries": {
+        "MadDog.Bearfam_SigDylanRH": {
+          "Id": "MadDog.Bearfam_SigDylanRH",
+          "Trigger": "LocationChanged",
+          "Location": "Farm",
+          "Condition": null,
+          "Actions": [
+            "AddMail Current SigDylanRHActive now"
+          ]
+        }
+      }
+    },
+    {
+      "LogName": "Teren x Eli RH remove flag",
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "When": { "EnableRivalHeartsTerenEli |valueAt=0": false },
+      "Entries": {
+        "MadDog.Bearfam_EliTerenRH": {
+          "Id": "MadDog.Bearfam_EliTerenRH",
+          "Trigger": "LocationChanged",
+          "Location": "Farm",
+          "Condition": null,
+          "Actions": [
+            "RemoveMail Current EliTerenRHActive now"
+          ]
+        }
+      }
+    },
+    {
+      "LogName": "Sig x Dylan RH remove flag",
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "When": { "EnableRivalHeartsSigDylan |valueAt=0": false },
+      "Entries": {
+        "MadDog.Bearfam_SigDylanRH": {
+          "Id": "MadDog.Bearfam_SigDylanRH",
+          "Trigger": "LocationChanged",
+          "Location": "Farm",
+          "Condition": null,
+          "Actions": [
+            "RemoveMail Current SigDylanRHActive now"
+          ]
+        }
+      }
+    },
+    //scary Axell magic zone
+    {
+      "LogName": "Overrides Seen Today Flag Removal",
+      //Removes the flags that stop an NPC from continuing to talk on time update
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+
+        "MadDog.Bearfam_OverrideSeenTodayRemoval.1": {
+          "Id": "MadDog.Bearfam_OverrideSeenTodayRemoval.1",
+          "Trigger": "DayStarted",
+          "Condition": "Any \"PLAYER_HAS_MAIL Current MadDogSigurd_OverrideSeenToday Any\" \"PLAYER_HAS_MAIL Current MadDogSondra_OverrideSeenToday Any\" \"PLAYER_HAS_MAIL Current MadDogGunnar_OverrideSeenToday Any\" \"PLAYER_HAS_MAIL Current MadDogGudrun_OverrideSeenToday Any\" \"PLAYER_HAS_MAIL Current MadDogTeren_OverrideSeenToday Any\"",
+          "Actions": [
+            "RemoveMail Current MadDogSigurd_OverrideSeenToday",
+            "RemoveMail Current MadDogSondra_OverrideSeenToday",
+            "RemoveMail Current MadDogGunnar_OverrideSeenToday",
+            "RemoveMail Current MadDogGudrun_OverrideSeenToday",
+            "RemoveMail Current MadDogTeren_OverrideSeenToday",
+            "MarkActionApplied Current MadDog.Bearfam_OverrideSeenTodayRemoval.2 false"
+          ]
+        },
+
+        "MadDog.Bearfam_OverrideSeenTodayRemoval.2": {
+          "Id": "MadDog.Bearfam_OverrideSeenTodayRemoval.2",
+          "Trigger": "DayStarted",
+          "Condition": "Any \"PLAYER_HAS_MAIL Current MadDogSigurd_OverrideSeenToday Any\" \"PLAYER_HAS_MAIL Current MadDogSondra_OverrideSeenToday Any\" \"PLAYER_HAS_MAIL Current MadDogGunnar_OverrideSeenToday Any\" \"PLAYER_HAS_MAIL Current MadDogGudrun_OverrideSeenToday Any\" \"PLAYER_HAS_MAIL Current MadDogTeren_OverrideSeenToday Any\"",
+          "Actions": [
+            "RemoveMail Current MadDogSigurd_OverrideSeenToday",
+            "RemoveMail Current MadDogSondra_OverrideSeenToday",
+            "RemoveMail Current MadDogGunnar_OverrideSeenToday",
+            "RemoveMail Current MadDogGudrun_OverrideSeenToday",
+            "RemoveMail Current MadDogTeren_OverrideSeenToday",
+            "MarkActionApplied Current MadDog.Bearfam_OverrideSeenTodayRemoval.1 false"
+          ]
+        }
+      }
+    }
+  ]
+}

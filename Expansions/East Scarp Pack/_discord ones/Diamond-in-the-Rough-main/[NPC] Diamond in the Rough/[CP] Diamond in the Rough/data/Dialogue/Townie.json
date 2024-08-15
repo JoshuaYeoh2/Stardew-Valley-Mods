@@ -1,0 +1,103 @@
+{
+    "Changes": [
+        {
+            "LogName": "Krobus Commentary about Sen",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Krobus",
+            "Priority": "Late",
+            "Entries":     { 
+                "{{Season}}_{{Day}}": "{{i18n:Townie.Krobus.SenCommentary.{{Random:{{Range: 1, 4}}}}}}"
+            },
+            "When": {
+                "DayOfWeek |contains=Friday": false,
+                "Relationship:SenS |contains=Unmet": false,
+                "Query: {{Random: {{Range: 1, 20}}|key=KSD}} = 1": true
+             }
+        },
+        {
+            "LogName": "Sen Dialogue for Krobus",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Krobus",
+            "Entries": {
+                "DitR_CT_SenMet": "{{i18n:Townie.Krobus.SenMet}}",
+                "DitR_CT_DreamReveal": "{{i18n:Townie.Krobus.DreamReveal}}",
+                "DitR_CT_ShadowPlay": "{{i18n:Townie.Krobus.ShadowPlay}}",
+                "DitR_CT_GardenWaitTime": "{{i18n:Townie.Krobus.GardenWaitTime}}",
+                "DitR_CT_GardenCompleted": "{{i18n:Townie.Krobus.GardenCompleted}}",
+                "DitR_CT_FamilyFlashback": "{{i18n:Townie.Krobus.FamilyFlashback}}",
+                "DitR_CT_MineFlashback": "{{i18n:Townie.Krobus.MineFlashback}}",
+                "DitR_CT_TheConfrontation": "{{i18n:Townie.Krobus.TheConfrontation}}",
+                "DitR_CT_SkrellEpilogue": "{{i18n:Townie.Krobus.SkrellEpilogue}}",
+                "DitR_CT_SensFlowers": "{{i18n:Townie.Krobus.SensFlowers}}"
+            },
+            "When": { "DayOfWeek |contains=Friday": false }  
+        },
+        {
+            "LogName": "Lewis Unlucky Shorts Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Lewis",
+            "Entries": {
+                "AcceptGift_(O){{ModID}}_Items.UnluckyPurpleShorts": "{{i18n:Townie.Lewis.UnluckyPurpleShorts}}",
+                "DitR_CT_PipoShorts": "{{i18n:Townie.Lewis.PipoShorts}}"
+            }
+        },
+        {
+            "LogName": "Void Snail Accept Responses",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Vincent",
+            "Entries": {
+                "AcceptGift_(O){{ModID}}_Items.VoidLavaSnail": "{{i18n:Townie.{{TargetWithoutPath}}.VoidLavaSnail}}",
+                "AcceptGift_(O){{ModID}}_Items.GoldenVoidLavaSnail": "{{i18n:Townie.{{TargetWithoutPath}}.VoidLavaSnail}}"
+            }
+        },
+        {
+            "LogName": "Void Snail Reject Responses",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jodi",
+            "Entries": {
+                "RejectItem_(O){{ModID}}_Items.VoidLavaSnail": "{{i18n:Townie.{{TargetWithoutPath}}.VoidLavaSnail}}",
+                "RejectItem_(O){{ModID}}_Items.GoldenVoidLavaSnail": "{{i18n:Townie.{{TargetWithoutPath}}.VoidLavaSnail}}"
+            }
+        },
+        {
+            "LogName": "Krobus Unlucky Shorts Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Krobus",
+            "Entries": {
+                "RejectItem_(O){{ModID}}_Items.UnluckyPurpleShorts": "{{i18n:Townie.Krobus.UnluckyPurpleShorts.{{DayOfWeek |contains=Friday}}}}"
+            }
+        },
+        {
+            "LogName": "Sen Dialogue for Dwarf",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Dwarf, Characters/Dialogue/Wizard",
+            "Entries": {
+                "DitR_CT_SenMet": "{{i18n:Townie.{{TargetWithoutPath}}.SenMet}}",
+                "DitR_CT_DreamReveal": "{{i18n:Townie.{{TargetWithoutPath}}.DreamReveal}}",
+                "DitR_CT_ShadowPlay": "{{i18n:Townie.{{TargetWithoutPath}}.ShadowPlay}}",
+                "DitR_CT_GardenWaitTime": "{{i18n:Townie.{{TargetWithoutPath}}.GardenWaitTime}}",
+                "DitR_CT_GardenCompleted": "{{i18n:Townie.{{TargetWithoutPath}}.GardenCompleted}}",
+                "DitR_CT_FamilyFlashback": "{{i18n:Townie.{{TargetWithoutPath}}.FamilyFlashback}}",
+                "DitR_CT_MineFlashback": "{{i18n:Townie.{{TargetWithoutPath}}.MineFlashback}}",
+                "DitR_CT_TheConfrontation": "{{i18n:Townie.{{TargetWithoutPath}}.TheConfrontation}}",
+                "DitR_CT_SkrellEpilogue": "{{i18n:Townie.{{TargetWithoutPath}}.SkrellEpilogue}}",
+                "DitR_CT_SensFlowers": "{{i18n:Townie.{{TargetWithoutPath}}.SensFlowers}}"
+            } 
+        },
+        {
+            "LogName": "The Great Bear(?) Fiasco",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Haley, Characters/Dialogue/Alex, Characters/Dialogue/Elliott, Characters/Dialogue/Harvey, Characters/Dialogue/Sam, Characters/Dialogue/Abigail, Characters/Dialogue/Leah, Characters/Dialogue/Maru, Characters/Dialogue/Penny, Characters/Dialogue/Caroline, Characters/Dialogue/Demetrius, Characters/Dialogue/Clint, Characters/Dialogue/Evelyn, Characters/Dialogue/George, Characters/Dialogue/Gus, Characters/Dialogue/Jas, Characters/Dialogue/Jodi, Characters/Dialogue/Kent, Characters/Dialogue/Lewis, Characters/Dialogue/Linus, Characters/Dialogue/Marnie, Characters/Dialogue/Pam, Characters/Dialogue/Pierre, Characters/Dialogue/Robin, Characters/Dialogue/Vincent, Characters/Dialogue/Willy, Characters/Dialogue/Sebastian, Characters/Dialogue/Shane, Characters/Dialogue/Emily, Characters/Dialogue/GuntherSilvian, Characters/Dialogue/MarlonFay, Characters/Dialogue/MorrisTod",
+            "Entries": {
+                "DitR_CT_ShadowPlay": "{{i18n:Townie.{{TargetWithoutPath}}.ShadowPlay}}"
+            } 
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "TriedToMarryButKrobus": "{{i18n:Townie.Krobus.TriedToMarryButKrobus}}"
+            }
+        }
+    ]
+}

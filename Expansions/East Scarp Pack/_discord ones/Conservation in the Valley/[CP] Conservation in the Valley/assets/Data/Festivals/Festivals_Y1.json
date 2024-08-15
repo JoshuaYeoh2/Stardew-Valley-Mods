@@ -1,0 +1,172 @@
+{
+    "Changes": [
+        /*   "When": {
+                "IsEvenYear": false
+            },*/
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "AidaSaura 61 100 2/MaggiSaura 62 100 2",
+                    "Delimiter": "/"
+                },
+				{
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                     "Value": "AidaSaura 61 100 2/MaggiSaura 62 100 2",
+                    "Delimiter": "/"
+                },
+			  ],
+			},
+		{
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "AidaSaura 1 40 2/MaggiSaura 19 25 2",
+                    "Delimiter": "/"
+                },
+				{
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                     "Value": "AidaSaura 1 40 0/MaggiSaura 2 40 0",
+                    "Delimiter": "/"
+                },
+			  ],
+			},
+		{
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "AidaSaura 32 19 0/MaggiSaura 51 24 2",
+                    "Delimiter": "/"
+                },
+				{
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                     "Value": "AidaSaura 32 19 0/MaggiSaura 26 15 1",
+                    "Delimiter": "/"
+                },
+			  ],
+			},
+		{
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "AidaSaura 76 17 2/MaggiSaura 40 24 2",
+                    "Delimiter": "/"
+                },
+				{
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                     "Value": "AidaSaura 39 24 2/MaggiSaura 40 24 2",
+                    "Delimiter": "/"
+                },
+			  ],
+			},
+		{
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "AidaSaura 19 31 2/MaggiSaura 69 70 3",
+                    "Delimiter": "/"
+                },
+			  ],
+			},
+		{
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "AidaSaura 24 62 2/MaggiSaura 27 51 3",
+                    "Delimiter": "/"
+                },
+			  ],
+			},
+		{
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "AidaSaura 84 16 2/MaggiSaura 80 26 3",
+                    "Delimiter": "/"
+                },
+				{
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                     "Value": "AidaSaura 84 16 2/MaggiSaura 80 26 3",
+                    "Delimiter": "/"
+                },
+			  ],
+			},
+		{
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "AidaSaura 43 78 2/MaggiSaura 44 78 2",
+                    "Delimiter": "/"
+                },
+			  ],
+			},
+		],
+}

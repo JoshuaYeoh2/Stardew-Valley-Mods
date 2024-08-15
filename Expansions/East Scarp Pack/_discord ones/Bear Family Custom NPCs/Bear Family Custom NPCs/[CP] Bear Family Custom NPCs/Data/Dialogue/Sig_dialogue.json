@@ -1,0 +1,716 @@
+{
+	"Changes": [
+
+		{
+			"LogName": "Sigurd Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Sigurd",
+			"Entries": {
+
+				"Introduction": "{{i18n:SigIntroduction}}",
+				"FlowerDance_Decline": "{{i18n:SigdanceRejection}}",
+				"FlowerDance_Accept_Spouse": "{{i18n:SigDanceSpouseAccept}}",
+				"FlowerDance_Accept": "{{i18n:SigDanceAccept}}",
+				"WinterStar_GiveGift_Before_Spouse": "{{i18n:SigWinterStarBeforeSpouse}}",
+				"WinterStar_GiveGift_Before": "{{i18n:SigWinterStarBefore}}",
+				"WinterStar_GiveGift_After_Spouse": "{{i18n:SigWinterStarAfterSpouse}}",
+				"WinterStar_GiveGift_After": "{{i18n:SigWinterStarAfter}}",
+				"WinterStar_ReceiveGift": "{{i18n:SigWinterStarReceiveGift}}",
+				"WinterStar_ReceiveGift_(O)787": "{{i18n:SigWinterStarReceiveGiftBatteryPack}}",
+				"WinterStar_ReceiveGift_(O)167": "{{i18n:SigWinterStarReceiveGiftJojaCola}}",
+				"WinterStar_ReceiveGift_(O)340": "{{i18n:SigWinterStarReceiveGiftHoney}}",
+				"WinterStar_ReceiveGift_(O)106": "{{i18n:SigWinterStarReceiveGiftOrnamentalFan}}",
+				"WinterStar_ReceiveGift_(O)346": "{{i18n:SigWinterStarReceiveGiftBeer}}",
+				"WinterStar_ReceiveGift_(O)636": "{{i18n:SigWinterStarReceiveGiftPeach}}",
+				"WinterStar_ReceiveGift_(O)223": "{{i18n:SigWinterStarReceiveGiftCookie}}",
+				"divorced": "{{i18n:Sigdivorced}}",
+				"dumped_Boys": "{{i18n:Sigdumped_Boys}}",
+				"secondChance_Boys": "{{i18n:SigsecondChance_Boys}}",
+				"Fair_Judging": "{{i18n:SigFairJudging}}",
+				"Fair_Judged_PlayerLost_PurpleShorts": "{{i18n:SigFairPurpleShorts}}",
+				"Fair_Judged_PlayerLost_Skipped": "{{i18n:SigFairSkipped}}",
+				"Fair_Judged_PlayerLost": "{{i18n:SigFairLost}}",
+				"Fair_Judged_PlayerWon": "{{i18n:SigFairWon}}",
+				"DumpsterDiveComment": "{{i18n:SigDumpsterDiveComment}}#$action Add{{WeekDay}}ey {{Random: 120 220 240 600}}#",
+				"HitBySlingshot": "{{i18n:SigHitBySlingshot}}",
+				"RejectBouquet_NotDatable": "{{i18n:SigRejectBouquet}}",
+				"RejectBouquet_NpcAlreadyMarried": "{{i18n:SigRejectBouquetAlreadyMarried}}",
+				"RejectBouquet_Divorced": "{{i18n:SigRejectBouquetDivorced}}",
+				"RejectBouquet_VeryLowHearts": "{{i18n:SigRejectBouquetVeryLowHearts{{Random:{{Range: 1, 2}}}}}}",
+				"RejectBouquet_LowHearts": "{{i18n:SigRejectBouquetLowHearts{{Random:{{Range: 1, 2}}}}}}",
+				"AcceptBouquet": "{{i18n:SigAcceptBouquet}}",
+				"MadDog.HashtagBearFam.Sigurd_Engaged": "{{i18n:SigurdEngaged}}",
+				"MadDog.HashtagBearFam.Sigurd_AfterWedding": "{{i18n:SigurdAfterWedding}}",
+				"GreenRain": "{{i18n:SigurdGreenRain}}",
+				"GreenRainFinished": "{{i18n:SigurdGreenRainFinished}}",
+				"GreenRain_2": "{{i18n:SigurdGreenRain2}}",
+				"HitBySlingshot_bomb_item": "{{i18n:SigHitbySlingShotBombItem}}",
+				"HitBySlingshot_(O)441": "{{i18n:SigHitbySlingShotExplosiveAmmo}}",
+				"HitBySlingshot_category_egg": "{{i18n:SigurdHitbySlingShotEggCategory}}",
+				"HitBySlingshot_arrow_item": "{{i18n:SigurdHitbySlingShotArrow}}",
+				"HitBySlingshot_(O)Cornucopia_Durian": "{{i18n:SigurdHitbySlingShotCornucopiaDurian}}",
+				"HitBySlingshot_(O)TenebrousNova.EnD.SanguineHeart": "{{i18n:SigurdHitbySlingShotEnDSanguineHeart}}",
+
+				"Mountain_Entry": "{{i18n:SigurdMountainEntry1}}/{{i18n:SigurdMountainEntry2}}/{{i18n:SigurdMountainEntry3}}/{{i18n:SigurdMountainEntry4}}",
+				"Saloon_Entry": "{{i18n:SigurdSaloonEntry1}}/{{i18n:SigurdSaloonEntry2}}/{{i18n:SigurdSaloonEntry3}}/{{i18n:SigurdSaloonEntry4}}",
+				"ArchaeologyHouse_Entry": "{{i18n:SigurdMuseumEntry1}}/{{i18n:SigurdMuseumEntry2}}/{{i18n:SigurdMuseumEntry3}}/{{i18n:SigurdMuseumEntry4}}",
+				"Town_Entry": "{{i18n:SigurdTownEntry1}}/{{i18n:SigurdTownEntry2}}/{{i18n:SigurdTownEntry3}}/{{i18n:SigurdTownEntry4}}",
+				"ScienceHouse_Entry": "{{i18n:SigurdScienceHouseEntry1}}/{{i18n:SigurdScienceHouseEntry2}}/{{i18n:SigurdScienceHouseEntry3}}/{{i18n:SigurdScienceHouseEntry4}}",
+				"EastScarp_Village_Entry": "{{i18n:SigurdESVillageEntry1}}/{{i18n:SigurdESVillageEntry2}}/{{i18n:SigurdESVillageEntry3}}/{{i18n:SigurdESVillageEntry4}}",
+
+				"SpouseStardrop": "{{i18n:SigurdSpouseStardrop}}",
+				"WipedMemory": "{{i18n:SigurdWipedMemory}}",
+				"SpouseFarmhouseClutter": "{{i18n:SigurdSpouseFarmhouseClutter}}",
+				"SpouseGiftJealous": "{{i18n:SigurdSpouseGiftJealous}}",
+				"Spouse_MonstersInHouse": "{{i18n:SigurdSpouseSpouseMonstersInHouse}}",
+
+				"RejectMermaidPendant_Divorced": "{{i18n:SigurdRejectMermaidPendantDivorced}}",
+				"RejectMermaidPendant_NeedHouseUpgrade": "{{i18n:SigurdRejectMermaidPendantHouseUpgrade}}",
+				"RejectMermaidPendant_NotDatable": "{{i18n:SigurdRejectMermaidPendantNotDatable}}",
+				"RejectMermaidPendant_NpcWithSomeoneElse": "{{i18n:SigurdRejectMermaidPendantNPCinRelationship}}",
+				"RejectMermaidPendant_PlayerWithSomeoneElse": "{{i18n:SigurdRejectMermaidPendantPlayerinRelationship}}",
+				"RejectMermaidPendant_Under8Hearts": "{{i18n:SigurdRejectMermaidPendantUnder8Hearts}}",
+				"RejectMermaidPendant_Under10Hearts": "{{i18n:SigurdRejectMermaidPendantUnder10Hearts}}",
+				"RejectMermaidPendant_Under10Hearts_AskedAgain": "{{i18n:SigurdRejectMermaidPendantUnder10HeartsAnnoy}}",
+				"RejectMermaidPendant": "{{i18n:SigurdRejectMermaidPendantDefault}}",
+
+				"RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:SigurdRejectMovieTicketAlreadyInvited}}",
+				"RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:SigurdRejectMovieTicketAlreadyWatched}}",
+				"RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n:SigurdRejectMovieTicketNotInterested}}",
+				"RejectMovieTicket_Divorced": "{{i18n:SigurdRejectMovieTicketDivorced}}",
+				"RejectMovieTicket": "{{i18n:SigurdRejectMovieTicketDefault}}",
+
+				"dating_MadDog.BearFam.Gunnar": "{{i18n:SigurddatingGunnar}}",
+				"married_MadDog.BearFam.Gunnar": "{{i18n:SigurdmarriedGunnar}}",
+				"divorced_MadDog.BearFam.Gunnar": "{{i18n:SigurddivorcedGunnar}}",
+
+				"dating_MadDog.BearFam.Teren": "{{i18n:SigurddatingTeren}}",
+				"married_MadDog.BearFam.Teren": "{{i18n:SigurdmarriedTeren}}",
+				"divorced_MadDog.BearFam.Teren": "{{i18n:SigurddivorcedTeren}}",
+
+				"married_memory_oneweek": "{{i18n:Sigurdfarmermarriedoneweek}}",
+				"firstVisit_Railroad": "{{i18n:Sigurdfirstrailroad}}",
+				"firstVisit_Sewer": "{{i18n:Sigurdfirstsewer}}",
+				"gotPet": "{{i18n:SigurdgotPet}}",
+				"SquidFest": "{{i18n:SigurdSquidfest}}",
+				"married": "{{i18n:Sigurdfarmermarried}}",
+				"houseUpgrade_1": "{{i18n:Sigurdhouseupgradefirst}}",
+
+				"achievement_30": "{{i18n:Sigurdachievementhelpwanted}}", //helpwanted Sig
+				"achievement_38": "{{i18n:Sigurdachievementsoup}}", //impress go soup Sig
+				"achievement_35": "{{i18n:Sigurdachievementreadbook}}", //read every book  Sig
+				"achievement_20": "{{i18n:Sigurdachievementcrafting}}", //crafty Sig
+				"achievement_28": "{{i18n:Sigurdachievementdonatemuseum}}", //donate much treasure Sig
+				"achievement_21": "{{i18n:Sigurdachievementmorecrafting}}", //very crafty Sig
+				"structureBuilt_Stable": "{{i18n:SigurdbuiltStable}}",
+				"mineArea_121": "{{i18n:SigurdmineSkull}}", //skull cav          Sig
+				"mineArea_40": "{{i18n:Sigurdminefloor40}}", //level 40 mine  
+				"cropMatured_276": "{{i18n:SigurdgrewPumpkin}}",
+				"cropMatured_304": "{{i18n:SigurdgrewHops}}",
+
+
+				//romance dialogue
+				"give_flowersA": "{{i18n:SigFlowersA}}",
+				"give_flowersB": "{{i18n:SigFlowersB}}",
+				"give_pendant": "{{i18n:SigPendant}}",
+				"stardrop_gift": "{{i18n:SigStardrop}}", //Valentine by Carol Ann Duffy
+				"giftquestion_yes": "{{i18n:SigGiftYes}}",
+				"giftquestion_lie": "{{i18n:SigGiftNo}}",
+
+				"breakUp": "{{i18n:Sigbreakup}}",
+				"reject_two_heartA": "{{i18n:Sig2HeartsA}}",
+				"reject_two_heartB": "{{i18n:Sig2HeartsB}}",
+				"reject_four_heartA": "{{i18n:Sig4HeartsA}}",
+				"reject_four_heartB": "{{i18n:Sig4HeartsB}}",
+				"engageA": "{{i18n:SigEngageA}}",
+				"engageB": "{{i18n:SigEngageB}}",
+				"marriedA": "{{i18n:SigMarriedA}}",
+				"marriedB": "{{i18n:SigMarriedB}}",
+				"refusal_no_heartsA": "{{i18n:SigRefusal0A}}",
+				"refusal_no_heartsB": "{{i18n:SigRefusal0B}}",
+				"refusal_knownA": "{{i18n:SigKnownA}}",
+				"refusal_knownB": "{{i18n:SigKnownB}}",
+				"refusal_botherA": "{{i18n:SigBotherA}}",
+				"refusal_botherB": "{{i18n:SigBotherB}}",
+
+				// Resort Lines //done
+				"Resort_Entering": "{{i18n:SigResEnter}}",
+				"Resort_Leaving": "{{i18n:SigResLeave}}",
+				"Resort_Shore": "{{i18n:SigResShore}}",
+				"Resort_Umbrella": "{{i18n:SigResUmbrella}}",
+				"Resort_Wander": "{{i18n:SigResWander}}",
+				"Resort_Wander_2": "{{i18n:SigResWander2}}",
+				"Resort_Chair": "{{i18n:SigResChair}}",
+				"Resort_Bar": "{{i18n:SigResBar}}",
+				"Resort_Towel": "{{i18n:SigResTowel}}",
+				"Resort_Towel_2": "{{i18n:SigResTowel2}}",
+				"Resort_Towel_3": "{{i18n:SigResTowel3}}",
+				"Resort": "{{i18n:SigResort}}",
+
+				//Specific Dialogue
+
+				"spring_18_1": "{{i18n:SigSpring18year1}}",
+				"fall_18_1": "{{i18n:SigFall18year1}}",
+				"winter_24_1": "{{i18n:SigWinter24year1}}",
+				"spring_12": "{{i18n:SigSpring12}}",
+				"spring_23": "{{i18n:SigSpring23}}",
+				"summer_10": "{{i18n:SigSummer10}}",
+				"summer_27": "{{i18n:SigSummer27}}",
+				"fall_1": "{{i18n:SigFall1}}",
+				"fall_15": "{{i18n:SigFall15}}",
+				"fall_26": "{{i18n:SigFall26}}",
+				"winter_7": "{{i18n:SigWinter7}}",
+				"winter_15": "{{i18n:SigWinter15}}",
+				"winter_16": "{{i18n:SigWinter16}}",
+				"winter_17": "{{i18n:SigWinter17}}",
+				"winter_24": "{{i18n:SigWinter24}}",
+				"winter_28": "{{i18n:SigWinter28}}"
+			}
+		},
+		//daily
+		{
+			"LogName": "Dialogue - 0-4",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Sigurd",
+			"Update": "OnLocationChange",
+			"Entries": {
+				"Mon": "{{i18n:SigDialogue04.{{Random:{{Range: 1, 30}}}}}}",
+				"Tue": "{{i18n:SigDialogue04.{{Random:{{Range: 1, 30}}}}}}",
+				"Wed": "{{i18n:SigDialogue04.{{Random:{{Range: 1, 30}}}}}}",
+				"Thu": "{{i18n:SigDialogue04.{{Random:{{Range: 1, 30}}}}}}",
+				"Fri": "{{i18n:SigDialogue04.{{Random:{{Range: 1, 30}}}}}}",
+				"Sat": "{{i18n:SigDialogue04.{{Random:{{Range: 1, 30}}}}}}",
+				"Sun": "{{i18n:SigDialogue04.{{Random:{{Range: 1, 30}}}}}}"
+			},
+			"When": {
+				"Hearts:MadDog.HashtagBearFam.Sigurd": "{{Range: 0, 4}}",
+				"HasSeenEvent |contains=MadDog.BearFam.16193005": false,
+				"HasFlag |contains=MadDogSigurd_OverrideSeenToday": false
+			}
+		},
+		{
+			"LogName": "Dialogue - 0-4 - Seasonal",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Sigurd",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:SigDialogue04.{{season}}.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current MadDogSigurd_OverrideSeenToday received"
+			},
+			"When": {
+				"Query: {{Random: {{Range: 1, 10}}|key=SigSeasonA}} = 1": true,
+				"Hearts:MadDog.HashtagBearFam.Sigurd": "{{Range: 0, 4}}",
+				"HasSeenEvent |contains=MadDog.BearFam.16193005": false,
+				"HasFlag |contains=MadDogSigurd_OverrideSeenToday": false
+			}
+		},
+		{
+			"LogName": "Dialogue - 6-10 Platonic",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Sigurd",
+			"Update": "OnLocationChange",
+			"Entries": {
+				"Mon": "{{i18n:SigDialogue610.{{Random:{{Range: 1, 25}}}}}}",
+				"Tue": "{{i18n:SigDialogue610.{{Random:{{Range: 1, 25}}}}}}",
+				"Wed": "{{i18n:SigDialogue610.{{Random:{{Range: 1, 25}}}}}}",
+				"Thu": "{{i18n:SigDialogue610.{{Random:{{Range: 1, 25}}}}}}",
+				"Fri": "{{i18n:SigDialogue610.{{Random:{{Range: 1, 25}}}}}}",
+				"Sat": "{{i18n:SigDialogue610.{{Random:{{Range: 1, 25}}}}}}",
+				"Sun": "{{i18n:SigDialogue610.{{Random:{{Range: 1, 25}}}}}}"
+			},
+			"When": {
+				"HasFlag |contains=MadDogSigurd_OverrideSeenToday": false,
+				"Hearts:MadDog.HashtagBearFam.Sigurd": "{{Range: 5, 10}}",
+				"HasSeenEvent |contains=MadDog.BearFam.16191005": false //need right event id
+			}
+		},
+		{
+			"LogName": "Dialogue - 6 - 10 Platonic - Seasonal",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Sigurd",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:SigDialogue610.{{season}}.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current MadDogSigurd_OverrideSeenToday received"
+			},
+			"When": {
+				"Query: {{Random: {{Range: 1, 10}}|key=SigSeasonB}} = 1": true,
+				"Hearts:MadDog.HashtagBearFam.Sigurd": "{{Range: 5, 10}}",
+				"HasSeenEvent |contains=MadDog.BearFam.16193005": false,
+				"HasFlag |contains=MadDogSigurd_OverrideSeenToday": false
+			}
+		},
+		{
+			"LogName": "Dialogue - 6-10 Platonic - Has Seen Therapy Event",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Sigurd",
+			"Update": "OnLocationChange",
+			"Entries": {
+				"Mon": "{{i18n:SigDialogue610T.{{Random:{{Range: 1, 60}}}}}}",
+				"Tue": "{{i18n:SigDialogue610T.{{Random:{{Range: 1, 60}}}}}}",
+				"Wed": "{{i18n:SigDialogue610T.{{Random:{{Range: 1, 60}}}}}}",
+				"Thu": "{{i18n:SigDialogue610T.{{Random:{{Range: 1, 60}}}}}}",
+				"Fri": "{{i18n:SigDialogue610T.{{Random:{{Range: 1, 60}}}}}}",
+				"Sat": "{{i18n:SigDialogue610T.{{Random:{{Range: 1, 60}}}}}}",
+				"Sun": "{{i18n:SigDialogue610T.{{Random:{{Range: 1, 60}}}}}}"
+			},
+			"When": {
+				"Hearts:MadDog.HashtagBearFam.Sigurd": "{{Range: 5, 10}}",
+				"HasSeenEvent |contains=MadDog.BearFam.16191007": true, //need right event id - should be bus stop therapy
+				"HasFlag |contains=MadDogSigurd_OverrideSeenToday": false
+			}
+		},
+		{
+			"LogName": "Dialogue - 6-10  Platonic - Has Seen Therapy Event - Seasonal",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Sigurd",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:SigDialogue610T.{{season}}.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current MadDogSigurd_OverrideSeenToday received"
+			},
+			"When": {
+				"Query: {{Random: {{Range: 1, 10}}|key=SigSeasonC}} = 1": true,
+				"Hearts:MadDog.HashtagBearFam.Sigurd": "{{Range: 5, 10}}",
+				"HasSeenEvent |contains=MadDog.BearFam.16191007": true, //need right event id - should be bus stop therapy
+				"HasFlag |contains=MadDogSigurd_OverrideSeenToday": false
+			}
+		},
+		{
+			"LogName": "Dialogue - 8-10 Romantic", //SigDating decided in my config.json and established in my content.json
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Sigurd",
+			"Update": "OnLocationChange",
+			"Priority": "Late",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:SigDialogue810R.{{SigDating}}.{{Random:{{Range: 1, 25}}|key={{Time}}}}}}#$action AddMail Current MadDogSigurd_OverrideSeenToday received"
+			},
+			"Condition": "PLAYER_NPC_RELATIONSHIP current MadDog.HashtagBearFam.Sigurd dating engaged married",
+			"When": {
+				"Hearts:MadDog.HashtagBearFam.Sigurd": "{{Range: 8, 10}}",
+				"Query: {{Random: {{Range: 1, 15}}|key=RomanceSig}} = 1": true,
+				"EnableRivalHeartsTerenSig": false,
+				"EnableRivalHeartsSigDylan": false,
+				"HasFlag |contains=MadDogSigurd_OverrideSeenToday": false
+			}
+		},
+		{
+			"LogName": "Dialogue - 8-10 Romantic - Seasonal", //SigDating decided in my config.json and established in my content.json
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Sigurd",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:SigDialogue810R.{{SigDating}}.{{season}}.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current MadDogSigurd_OverrideSeenToday received"
+			},
+			"Condition": "PLAYER_NPC_RELATIONSHIP current MadDog.HashtagBearFam.Sigurd dating engaged married",
+			"When": {
+				"Hearts:MadDog.HashtagBearFam.Sigurd": "{{Range: 8, 10}}",
+				"Query: {{Random: {{Range: 1, 15}}|key=SigSeasonRomance}} = 1": true,
+				"EnableRivalHeartsTerenSig": false,
+				"EnableRivalHeartsSigDylan": false,
+				"HasFlag |contains=MadDogSigurd_OverrideSeenToday": false
+			}
+		},	
+		{
+			"LogName": "Sig ED Commentary Dylan RH Activated",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Sigurd",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:SigDialogueDylanRH.{{Random:{{Range: 1, 10}}|key={{Time}}}}}}#$action AddMail Current MadDogSigurd_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=TenebrousNova.EliDylan.CP": true,
+				"EnableRivalHeartsSigDylan": true, //this is determined in my config.json
+				"EnableRivalHeartsTerenSig": false, //this is determined in my config.json
+				"Query: {{Random: {{Range: 1, 20}}|key=DylanRH}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogSigurd_OverrideSeenToday": false
+			}
+		},	
+		{
+			"LogName": "Sig Commentary Sig RH Activated",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Sigurd",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:SigDialogueTerenRH.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current MadDogSigurd_OverrideSeenToday received"
+			},
+			"When": {
+				"EnableRivalHeartsTerenSig": true, //this is determined in my config.json
+				"EnableRivalHeartsTerenEli": false, //this is determined in my config.json
+				"EnableRivalHeartsSigDylan": false, //this is determined in my config.json
+				"Query: {{Random: {{Range: 1, 20}}|key=TerenRH}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogSigurd_OverrideSeenToday": false
+			}
+		},
+		//crossover dialogue
+		//Eli and Dylan
+		{
+			"LogName": "Sig ED Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Sigurd",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:SigDialogueED.{{Random:{{Range: 1, 10}}|key={{Time}}}}}}#$action AddMail Current MadDogSigurd_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=TenebrousNova.EliDylan.CP": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=EDsig}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogSigurd_OverrideSeenToday": false
+			}
+		},
+		//Rodney O'Brien (later include Edwina, Meredith)
+		{
+			"LogName": "Sigurd Rodney O'Brien Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Sigurd",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:SigDialogueROB.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current MadDogSigurd_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=TheFrenchDodo.RodneyOBrien": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=ROBsig}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogSigurd_OverrideSeenToday": false
+			}
+		},
+		//Nora the Herpetologist
+		{
+			"LogName": "Sigurd Nora Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Sigurd",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:SigDialogueNtH.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogSigurd_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=Bagi.Nora.CP": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=NtHsig}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogSigurd_OverrideSeenToday": false
+			}
+		},
+		//Diamond in the Rough
+		{
+			"LogName": "Sigurd DitR Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Sigurd",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:SigDialogueDitR.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogSigurd_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=7thAxis.DitR.CP": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=DitRsig}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogSigurd_OverrideSeenToday": false
+			}
+		},
+		//Sword and Sorcery
+		{
+			"LogName": "Sigurd SnS Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Sigurd",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:SigDialogueSnS.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogSigurd_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=DN.SnS.CP": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=SnSsig}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogSigurd_OverrideSeenToday": false
+			}
+		},
+		//Plum Forrest + Family
+		{
+			"LogName": "Sigurd Plum Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Sigurd",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:SigDialoguePFAF.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogSigurd_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=AgentPhoenixCupcake.cp.PlumForrest": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=PFAFsig}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogSigurd_OverrideSeenToday": false
+			}
+		},
+		//Metalcore Goes Cottagecore
+		{
+			"LogName": "Sigurd MGC Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Sigurd",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:SigDialogueMGC.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogSigurd_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=Squeaks.MGC.CP": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=MGCsig}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogSigurd_OverrideSeenToday": false
+			}
+		},
+		//Clown Cinematic Universe Zone
+		//Traveling Dreamer - A New Dream
+		{
+			"LogName": "Sigurd Barron & John Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Sigurd",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:SigDialogueFCAND.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogSigurd_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=Fellowclown.AND": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=FCTDsig}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogSigurd_OverrideSeenToday": false
+			}
+		},
+		//The Wayfarer
+		{
+			"LogName": "Sigurd Lyell Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Sigurd",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:SigDialogueFCTW.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogSigurd_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=Fellowclown.Lyell": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=FCTWsig}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogSigurd_OverrideSeenToday": false
+			}
+		},
+		/*//Magical Family
+		{
+			"LogName": "Sigurd Valerie Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Sigurd",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:SigDialogueFCMF.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogSigurd_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=Fellowclown.MagicalFamily": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=FCMFsig}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogSigurd_OverrideSeenToday": false
+			}
+		},*/
+		//Settling Waters
+		{
+			"LogName": "Sigurd Nikolai Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Sigurd",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:SigDialogueFCSW.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogSigurd_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=Fellowclown.Nikolai": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=FCSWsig}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogSigurd_OverrideSeenToday": false
+			}
+		},
+		//Yri The Architect
+		{
+			"LogName": "Sig YtA Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Sigurd",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:SigDialogueYtA.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogSigurd_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=yri.yri": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=YtAsig}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogSigurd_OverrideSeenToday": false
+			}
+		},
+		//Always Raining in the Valley
+		{
+			"LogName": "Sig ARV Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Sigurd",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:SigDialogueARV.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogSigurd_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=Himetarts.ARV.CP": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=ARVSig}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogSigurd_OverrideSeenToday": false
+			}
+		},
+		//King's Raid Lucikiel
+		{
+			"LogName": "Sig Lucikiel Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Sigurd",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:SigDialogueLuc.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogSigurd_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=Arknir.Lucikiel": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=Lucsig}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogSigurd_OverrideSeenToday": false
+			}
+		},
+		//King's Raid Lavril
+		{
+			"LogName": "Sig Lavril Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Sigurd",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:SigDialogueLav.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogSigurd_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=Arknir27.Lavril": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=Lavsig}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogSigurd_OverrideSeenToday": false
+			}
+		},
+
+		//expansions
+		//DTZ
+		{
+			"LogName": "Sigurd DTZ Commentary", //mod name here
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Sigurd",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:SigDialogueDTZ.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current MadDogSigurd_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=DTZ.DowntownZuzuCP": true, //MOD ID HERE
+				"Query: {{Random: {{Range: 1, 20}}|key=DTZsig}} = 1": true, //key needs differentiating per mod    //Abbreviation for key here
+				"HasFlag |contains=MadDogSigurd_OverrideSeenToday": false
+			}
+		},
+		//Stardew Valley Expanded
+		{
+			"LogName": "Sigurd SVE Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Sigurd",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:SigDialogueSVE.{{Random:{{Range: 1, 4}}|key={{Time}}}}}}#$action AddMail Current MadDogSigurd_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=SVEsig}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogSigurd_OverrideSeenToday": false
+			}
+		},
+		//Ridgeside Village
+		{
+			"LogName": "Sigurd RSV Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Sigurd",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:SigDialogueRSV.{{Random:{{Range: 1, 4}}|key={{Time}}}}}}#$action AddMail Current MadDogSigurd_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=Rafseazz.RSVCP": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=RSVsig}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogSigurd_OverrideSeenToday": false
+			}
+		}
+		/*//Visit Mount Vapius VMV
+		{
+			"LogName": "Sigurd VMV Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Sigurd",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:SigDialogueVMV.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogSigurd_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=Lumisteria.MtVapius": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=VMVsig}} = 1": true, //key needs differentiating per mod   
+				"HasFlag |contains=MadDogSigurd_OverrideSeenToday": false
+			}
+		}*/
+
+
+		//Sunberry Village SBV
+		/* {
+      "LogName": "Sigurd SBV Commentary", 
+      "Action": "EditData",
+      "Priority": "Late",
+		"Update": "OnLocationChange",
+      "Target": "Characters/Dialogue/MadDog.HashtagBearFam.Sigurd",
+      "Entries": {
+        "{{WeekDay}}": "{{i18n:SigDialogueSBV.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogSigurd_OverrideSeenToday received"
+      },
+      "When": {
+        "HasMod: |contains=skellady.SBVCP": true, //MOD ID HERE - TBD (no public alpha or release yet!!!!!!!!!!!!)
+        "Query: {{Random: {{Range: 1, 20}}|key=SBVsig}} = 1": true //key needs differentiating per mod    
+		"HasFlag |contains=MadDogSigurd_OverrideSeenToday": false
+      }
+    }
+    */
+
+
+		//standalone NPCs - TBD on 1.6 versions of Ayeisha, Stray Catfe, Delores, Sorren, Shiko, Paul, Mike, Wilford, Lunna, Denver, Aspen, Alecto, Riley, Constance/The Fishmonger, Sydney (and more these are just me skimming my old 1.5 mods folder lmao)
+		/* place holder template
+     {
+      "LogName": "Sigurd XXXXX Commentary", //mod name here
+      "Action": "EditData",
+      "Priority": "Late",
+		"Update": "OnLocationChange",
+      "Target": "Characters/Dialogue/MadDog.HashtagBearFam.Sigurd",
+      "Entries": {
+        "{{WeekDay}}": "{{i18n:SigDialogueXXXXX.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogSigurd_OverrideSeenToday received"
+      },
+      "When": {
+        "HasMod: |contains=X": true, //MOD ID HERE
+        "Query: {{Random: {{Range: 1, 20}}|key=XXXXXsig}} = 1": true //key needs differentiating per mod    //Abbreviation for key here
+		"HasFlag |contains=MadDogSigurd_OverrideSeenToday": false
+      }
+    }
+     */
+
+		//TBD Expansions depending on 1.6 - Cape Stardew, Adventurer Guild Expanded, Defense Division, Boarding House
+		/* place holder template
+     {
+      "LogName": "Sigurd XXXXX Commentary", //mod name here
+      "Action": "EditData",
+      "Priority": "Late",
+		"Update": "OnLocationChange",
+      "Target": "Characters/Dialogue/MadDog.HashtagBearFam.Sigurd",
+      "Entries": {
+        "{{WeekDay}}": "{{i18n:SigDialogueXXXXX.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogSigurd_OverrideSeenToday received"
+      },
+      "When": {
+        "HasMod: |contains=X": true, //MOD ID HERE
+        "Query: {{Random: {{Range: 1, 20}}|key=XXXXXsig}} = 1": true //key needs differentiating per mod    //Abbreviation for key here
+		"HasFlag |contains=MadDogSigurd_OverrideSeenToday": false
+      }
+    }
+     */
+	]
+}

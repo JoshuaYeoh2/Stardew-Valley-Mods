@@ -1,0 +1,144 @@
+{
+    "Changes": [
+
+        //Removes flags associated with daily repeatables
+        {
+            "LogName": "Bulk Daily Flag Remover", 
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+      
+                "{{ModID}}_TriggerActions.DitRDailyFlagRemovals": {
+                    "Id": "{{ModID}}_TriggerActions.DitRDailyFlagRemovals",
+                    "MarkActionApplied": false,
+                    "Trigger": "DayEnding",
+                    "Actions": [
+                        "RemoveMail Current DitR_M_EveT_OverrideSeenToday",
+                        "RemoveMail Current DitR_M_TraceV_OverrideSeenToday",
+                        "RemoveMail Current DitR_M_ClyricT_OverrideSeenToday",
+                        "RemoveMail Current DitR_M_SenS_OverrideSeenToday",
+                        "RemoveMail Current DitR_M_SkrellS_OverrideSeenToday",
+                        "RemoveMail Current DitR_M_EbbS_OverrideSeenToday",
+                        "RemoveMail Current DitR_M_DiamondS_OverrideSeenToday",
+                        "RemoveMail Current DitR_M_WaffleW_OverrideSeenToday",
+                        "RemoveMail Current DitR_M_PipoP_OverrideSeenToday",
+                        "RemoveMail Current DitR_M_CowD_OverrideSeenToday",
+                        "RemoveMail Current DitR_M_GotTraceCoffeeToday",
+                        "RemoveMail Current DitR_M_AcceptedVoidSnailQuestToday",
+                        "RemoveMail Current DitR_M_AttackedJeremyToday"
+                    ]
+                }
+            }
+        },
+
+    //Corrects NPC positions in NPC Map Locations
+    {
+        "Action": "EditData",
+        "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+        "Entries": {
+            "WaffleW": { "MarkerCropOffset": 208 },
+            "PipoP":   { "MarkerCropOffset": 240 },
+            "EveT":    { "MarkerCropOffset": 4 },
+            "TraceV":  { "MarkerCropOffset": 4 },
+            "SenS":    { "MarkerCropOffset": 5 },
+            "JeremyTSnail":    { "MarkerCropOffset": 112 }
+        },
+        "When": { "HasMod: |contains=Bouhm.NPCMapLocations": true }
+    },
+
+    //Quest Fixer, fixes a potential update soft lock
+    {
+        "LogName": "Quest Fixer",
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+            "{{ModID}}_TriggerActions.QuestFixer": {
+                "Id": "{{ModID}}_TriggerActions.QuestFixer",
+                "Trigger": "DayStarted",
+                "Actions": [ 
+                    "AddQuest {{ModID}}_Quests.AGardenForSen",
+                    "RemoveQuest 10770100",
+                    "RemoveQuest 7thAxis.DitR.CP.Quests.AGardenForSen"
+                 ]
+            }
+        },
+        "When": { "HasActiveQuest: |contains=10770100, 7thAxis.DitR.CP.Quests.AGardenForSen": true }
+    },
+
+    //Migrates data for Lurking in the Dark for 1.5.6
+    {
+        "LogName": "Sen Event and Flag Migration",
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Priority": "Early",
+        "Entries": {
+            "{{ModID}}_TriggerActions.SenEventMigration": {
+                "Id": "{{ModID}}_TriggerActions.SenEventMigration",
+                "Trigger": "DayStarted",
+                "HostOnly": true,
+                "Actions": [
+
+                //I know you can put it in one... this is just more readable for me.
+                
+                    //Events
+                    "Pathoschild.ContentPatcher_MigrateIds Events 107701000 {{ModID}}_Events.SenS.0h",
+                    "Pathoschild.ContentPatcher_MigrateIds Events 107701002 {{ModID}}_Events.SenS.2h",
+                    "Pathoschild.ContentPatcher_MigrateIds Events 107701004 {{ModID}}_Events.SenS.4h",
+                    "Pathoschild.ContentPatcher_MigrateIds Events 107701006 {{ModID}}_Events.SenS.6h.P1",
+                    "Pathoschild.ContentPatcher_MigrateIds Events 1077010062 {{ModID}}_Events.SenS.6h.P2",
+                    "Pathoschild.ContentPatcher_MigrateIds Events 107701008 {{ModID}}_Events.SenS.8h",
+                    "Pathoschild.ContentPatcher_MigrateIds Events 1077010011 {{ModID}}_Events.SenS.10h.P1",
+                    "Pathoschild.ContentPatcher_MigrateIds Events 1077010012 {{ModID}}_Events.SenS.10h.P2",
+                    "Pathoschild.ContentPatcher_MigrateIds Events 1077010013 {{ModID}}_Events.SenS.10h.P3",
+                    "Pathoschild.ContentPatcher_MigrateIds Events 1077010014 {{ModID}}_Events.SenS.14h",
+
+                    //Mail
+                    "Pathoschild.ContentPatcher_MigrateIds Mail LitD_M_AGardenForSenComplete DitR_M_AGardenForSenComplete",
+                    "Pathoschild.ContentPatcher_MigrateIds Mail LitD_M_SeedSilentEvent DitR_M_SenGardenTrigger",
+                    "Pathoschild.ContentPatcher_MigrateIds Mail LitD_M_Romantic DitR_M_SenS_Romantic"
+                ]
+            }
+        }
+    },
+
+    //Migrates event data from pre 1.0.19-a DitR
+    {
+        "LogName": "ID change event conversation",
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+            "{{ModID}}_TriggerActions.SenEventMigration.2": {
+                "Id": "{{ModID}}_TriggerActions.SenEventMigration.2",
+                "Trigger": "DayStarted",
+                "HostOnly": true,
+                "Actions": [
+                
+                    //Events
+                    "Pathoschild.ContentPatcher_MigrateIds Events 7thAxis.DitR.CP.Events.SenS.0h {{ModID}}_Events.SenS.0h",
+                    "Pathoschild.ContentPatcher_MigrateIds Events 7thAxis.DitR.CP.Events.SenS.2h {{ModID}}_Events.SenS.2h",
+                    "Pathoschild.ContentPatcher_MigrateIds Events 7thAxis.DitR.CP.Events.SenS.4h {{ModID}}_Events.SenS.4h",
+                    "Pathoschild.ContentPatcher_MigrateIds Events 7thAxis.DitR.CP.Events.SenS.6h.P1 {{ModID}}_Events.SenS.6h.P1",
+                    "Pathoschild.ContentPatcher_MigrateIds Events 7thAxis.DitR.CP.Events.SenS.6h.P2 {{ModID}}_Events.SenS.6h.P2",
+                    "Pathoschild.ContentPatcher_MigrateIds Events 7thAxis.DitR.CP.Events.SenS.8h {{ModID}}_Events.SenS.8h",
+                    "Pathoschild.ContentPatcher_MigrateIds Events 7thAxis.DitR.CP.Events.SenS.10h.P1 {{ModID}}_Events.SenS.10h.P1",
+                    "Pathoschild.ContentPatcher_MigrateIds Events 7thAxis.DitR.CP.Events.SenS.10h.P2 {{ModID}}_Events.SenS.10h.P2",
+                    "Pathoschild.ContentPatcher_MigrateIds Events 7thAxis.DitR.CP.Events.SenS.10h.P3 {{ModID}}_Events.SenS.10h.P3",
+                    "Pathoschild.ContentPatcher_MigrateIds Events 7thAxis.DitR.CP.Events.SenS.14h {{ModID}}_Events.SenS.14h",
+
+                    "Pathoschild.ContentPatcher_MigrateIds Events 7thAxis.DitR.CP.Events.EveT.0h {{ModID}}_Events.EveT.0h",
+                    "Pathoschild.ContentPatcher_MigrateIds Events 7thAxis.DitR.CP.Events.EveT.2h.P1 {{ModID}}_Events.EveT.2h.P1",
+
+                    "Pathoschild.ContentPatcher_MigrateIds Events 7thAxis.DitR.CP.Events.JeremyTS.VoidLavaSnailRoundUp {{ModID}}_Events.JeremyTS.VoidLavaSnailRoundUp"
+
+                ],
+
+                "{{ModID}}_TriggerActions.SenEventMigration.6H.QuestCheck.2": {
+                    "Trigger": "DayStarted",
+                    "Id": "{{ModID}}_TriggerActions.SenEventMigration.6H.QuestCheck.2",
+                    "Actions": [ "RemoveSpecialOrder 7thAxis.DitR.CP.Quests.VoidLavaSnailRoundUp" ]
+                }
+            }
+        }
+    }
+]
+}

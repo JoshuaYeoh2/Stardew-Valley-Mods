@@ -1,0 +1,292 @@
+{
+	"Changes": [
+
+		/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+		//Sig
+
+		// Egg Festival
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [ "Entries", "Set-Up_additionalCharacters" ],
+					"Value": "MadDog.HashtagBearFam.Sigurd 52 76 2",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": [ "Entries", "MainEvent_additionalCharacters" ],
+					"Value": "MadDog.HashtagBearFam.Sigurd 52 76 3",
+					"Delimiter": "/"
+				}
+			]
+		},
+
+		// Flower Dance
+		{
+
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [ "Entries", "Set-Up_additionalCharacters" ],
+					"Value": "MadDog.HashtagBearFam.Sigurd 54 30 2",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": [ "Entries", "MainEvent_additionalCharacters" ],
+					"Value": "MadDog.HashtagBearFam.Sigurd 54 30 2",
+					"Delimiter": "/"
+				}
+			],
+			"When": {
+				"HasMod |contains=Rafseazz.RSVCP": false
+			}
+		},
+
+		//Flower Dance RSV Variation
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [ "Entries", "Set-Up_additionalCharacters" ],
+					"Value": "MadDog.HashtagBearFam.Sigurd 54 30 2",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": [ "Entries", "MainEvent_additionalCharacters" ],
+					"Value": "MadDog.HashtagBearFam.Sigurd 54 30 2",
+					"Delimiter": "/"
+				}
+			],
+			"When": {
+				"HasMod |contains=Rafseazz.RSVCP": true
+			}
+		},
+
+		/* //Luau - No Sigurd! 
+		{
+		"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [ "Entries", "Set-Up_additionalCharacters" ],
+					"Value": "MadDog.HashtagBearFam.Sigurd 44 22 2",
+					"Delimiter": "/"
+				},
+			{
+					"Operation": "Append",
+					"Target": [ "Entries", "MainEvent_additionalCharacters" ],
+					"Value": "MadDog.HashtagBearFam.Sigurd 27 7 1",
+					"Delimiter": "/"
+				}
+			]
+		},*/
+
+		// Dance of the Moonlight Jellies
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"TextOperations": [
+				{ // I have not added a MainEvent to this one, since the waterfront area is V crowded already and very little of the map is visible.
+					"Operation": "Append",
+					"Target": [ "Entries", "Set-Up_additionalCharacters" ],
+					"Value": "MadDog.HashtagBearFam.Sigurd 65 5 2",
+					"Delimiter": "/"
+				}
+			]
+		},
+
+		// Stardew Fair
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "MadDog.HashtagBearFam.Sigurd 58 52 2",
+					"Delimiter": "/"
+				}
+			],
+			"When": {
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "MadDog.HashtagBearFam.Sigurd 21 31 2",
+					"Delimiter": "/"
+				}
+			],
+			"When": {
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+			}
+		},
+
+		// Spirit's Eve
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [ "Entries", "Set-Up_additionalCharacters" ],
+					"Value": "MadDog.HashtagBearFam.Sigurd 2 53 2", //2 53 2 //19 41 2
+					"Delimiter": "/"
+				}
+				/*,
+				{
+					"Operation": "Append",
+					"Target": [ "Fields", "set-up", 5 ],
+					"Value": "/positionOffset MadDog.HashtagBearFam.Sigurd 0 20/animate MadDog.HashtagBearFam.Sigurd false true 100 39 39 39"
+				}*/
+			],
+			"When": {
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "MadDog.HashtagBearFam.Sigurd 2 53 2",
+					"Delimiter": "/"
+				}
+			],
+			"When": {
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+			}
+		},
+
+		// Ice Festival
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [ "Entries", "Set-Up_additionalCharacters" ],
+					"Value": "MadDog.HashtagBearFam.Sigurd 89 24 1",
+					"Delimiter": "/"
+				},
+				{ // Note the spelling of "Main-Event" here differs from the others
+					"Operation": "Append",
+					"Target": [ "Entries", "Main-Event_additionalCharacters" ],
+					"Value": "MadDog.HashtagBearFam.Sigurd 89 24 1",
+					"Delimiter": "/"
+				}
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": { "Query: {{Year}} % 2 = 0": true },
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [ "Entries", "Set-Up_additionalCharacters" ],
+					"Value": "MadDog.HashtagBearFam.Sigurd 98 34 1",
+					"Delimiter": "/"
+				},
+				{ // Note the spelling of "Main-Event" here differs from the others
+					"Operation": "Append",
+					"Target": [ "Entries", "Main-Event_additionalCharacters" ],
+					"Value": "MadDog.HashtagBearFam.Sigurd 98 34 1",
+					"Delimiter": "/"
+				}
+			]
+		},
+
+
+		// Winter Star
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [ "Entries", "Set-Up_additionalCharacters" ],
+					"Value": "MadDog.HashtagBearFam.Sigurd 52 72 2",
+					"Delimiter": "/"
+				}
+			]
+		} /*,
+
+		//RSV Ember of Resolution
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter28",
+			"When": { "HasMod": "Rafseazz.RSVCP" },
+			"TextOperations": [
+				//SetUp
+				{
+					"Operation": "Append",
+					"Target": [ "Entries", "Set-Up_additionalCharacters" ],
+					"Value": "MadDog.HashtagBearFam.Sigurd 24 42 1",
+					"Delimiter": "/"
+				},
+				//MainEvent
+				{
+					"Operation": "Append",
+					"Target": [ "Entries", "MainEvent_additionalCharacters" ],
+					"Value": "MadDog.HashtagBearFam.Sigurd 28 42 1",
+					"Delimiter": "/"
+				}
+
+			]
+		},
+
+		//RSV Gathering Festival
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall20",
+			"When": { "HasMod": "Rafseazz.RSVCP" },
+			"TextOperations": [
+				//SetUp
+				{
+					"Operation": "Append",
+					"Target": [ "Entries", "Set-Up_additionalCharacters" ],
+					"Value": "MadDog.HashtagBearFam.Sigurd 102 34 2",
+					"Delimiter": "/"
+				},
+				//MainEvent
+				{
+					"Operation": "Append",
+					"Target": [ "Entries", "MainEvent_additionalCharacters" ],
+					"Value": "MadDog.HashtagBearFam.Sigurd 102 34 2",
+					"Delimiter": "/"
+				}
+
+			]
+		}*/
+	]
+}

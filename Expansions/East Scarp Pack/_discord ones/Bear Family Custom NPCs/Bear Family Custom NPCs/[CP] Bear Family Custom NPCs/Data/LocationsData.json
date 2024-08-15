@@ -1,0 +1,870 @@
+{
+  "Changes": [
+
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    //load maps
+    {
+      "LogName": "Load House Interior",
+      "Action": "Load",
+      "Target": "Maps/MadDog.HashtagBearFam_BearLodge",
+      "FromFile": "assets/Maps/BearLodgeHouse.tmx"
+    },
+    {
+      "LogName": "Load Cellar",
+      "Action": "Load",
+      "Target": "Maps/MadDog.HashtagBearFam_Cellar",
+      "FromFile": "assets/Maps/Custom_BearLodge_Cliff.tmx"
+    },
+    {
+      "LogName": "Load Loading Zone",
+      "Action": "Load",
+      "Target": "Maps/MadDog.HashtagBearFam_LoadingZone",
+      "FromFile": "assets/Maps/Custom_BearLoadingZone.tmx"
+    },
+    {
+      "LogName": "Load Date Map",
+      "Action": "Load",
+      "Target": "Maps/MadDog.HashtagBearFam_BearDateSpot",
+      "FromFile": "assets/Maps/HashTagBearfamDateNight.tmx"
+    },
+    {
+      "LogName": "Load Mine Map",
+      "Action": "Load",
+      "Target": "Maps/MadDog.HashtagBearFam_BearEventMine",
+      "FromFile": "assets/Maps/HashtagBearFamCaveEvent.tmx"
+    },
+    {
+      "LogName": "Load Kraken Cave",
+      "Action": "Load",
+      "Target": "Maps/MadDog.HashtagBearFam_KrakenCave",
+      "FromFile": "assets/Maps/Custom_BearCaveWaterEvents.tmx"
+    },
+    {
+      "LogName": "Load Gudrun Boat",
+      "Action": "Load",
+      "Target": "Maps/MadDog.HashtagBearFam_BoatMap",
+      "FromFile": "assets/Maps/BearFamBoatRideMap.tmx"
+    },
+    {
+      "LogName": "Load TS RH Location",
+      "Action": "Load",
+      "Target": "Maps/MadDog.HashtagBearFam_RHTerenSigHouse",
+      "FromFile": "assets/Maps/MadDogHashtagBearfam_RivalHearts.tmx"
+    },
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    /*// patch zone
+    {
+      "LogName": "Load Kraken Map Patch",
+      "Action": "Load",
+      "Target": "Maps/MadDog.HashtagBearFam_AddKrakenPatch", //Custom_BearFamAddKrakenPatch
+      "FromFile": "assets/Maps/Custom_BearCaveKrakenPatch.tmx"
+    },
+    {
+      "LogName": "Load AddHole Patch", //Custom_BearFamAddHolePatch
+      "Action": "Load",
+      "Target": "Maps/MadDog.HashtagBearFam_HoleAddedPatch",
+      "FromFile": "assets/Maps/Custom_BearLodge_Cliff_Hole.tmx"
+    },
+    {
+      "LogName": "Load HoleRepaired Patch", //Custom_BearAddHoleRepaired
+      "Action": "Load",
+      "Target": "Maps/MadDog.HashtagBearFam_HoleRepairedPatch",
+      "FromFile": "assets/Maps/Custom_BearLodge_Cliff_HoleExplorable.tmx"
+    },
+    {
+      "LogName": "Load Gun's Shop Patch", //Custom_GunMineShopSpot
+      "Action": "Load",
+      "Target": "Maps/MadDog.HashtagBearFam_GunMineShopSpot",
+      "FromFile": "assets/Maps/Custom_BearFamGunShopPatch.tmx"
+    },
+    // end patch zone*/
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    //Make maps functional here
+    {
+      "LogName": "New Map Formatting Shenanigans",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+
+
+        "MadDog.BearFam.Custom_BearLodge": {
+          "DisplayName": "{{i18n:MadDog.BearFam.Custom_BearLodge}}",
+          "DefaultArrivalTile": {
+            "X": 19,
+            "Y": 31
+          },
+          "Music": [
+            {
+              "Id": "MadDog.BearFam.LodgeMusicMadisonStreet",
+              "Track": "MadDog.HashtagBearFam_TheManorOnMadisonStreet",
+              "Condition": "RANDOM .75"
+            },
+            {
+              "Id": "MadDog.BearFam.LodgeMusicThemeOfSad",
+              "Track": "MadDog.HashtagBearFam_TheBearFamilyDen",
+              "Condition": "RANDOM .25"
+            }
+          ],
+          "CreateOnLoad": { "MapPath": "Maps/MadDog.HashtagBearFam_BearLodge" },
+          "FormerLocationNames": [ "Custom_BearLodge" ]
+        },
+
+
+        "MadDog.BearFam.Custom_BearFamDateSpot": {
+          "DisplayName": "{{i18n:MadDog.BearFam.Custom_BearFamDateSpot}}",
+          "DefaultArrivalTile": {
+            "X": 27,
+            "Y": 4
+          },
+          "Music": [
+            {
+              "Id": "MadDog.BearFam.DateMusic",
+              "Track": "fall3"
+            }
+          ],
+          "MusicIgnoredInRain": true,
+          "CreateOnLoad": { "MapPath": "Maps/MadDog.HashtagBearFam_BearDateSpot" },
+          "FormerLocationNames": [ "Custom_BearFamDateSpot" ]
+        },
+
+
+        "MadDog.BearFam.Custom_BearFamLoadingZone": {
+          "DisplayName": "{{i18n:MadDog.BearFam.Custom_BearFamLoadingZone}}",
+          "DefaultArrivalTile": {
+            "X": 15,
+            "Y": 19
+          },
+          "CreateOnLoad": { "MapPath": "Maps/MadDog.HashtagBearFam_LoadingZone" },
+          "FormerLocationNames": [ "Custom_BearLoadingZone" ]
+        },
+
+
+        "MadDog.BearFam.Custom_BearFamNoKrakenMap": {
+          "DisplayName": "{{i18n:MadDog.BearFam.Custom_BearFamNoKrakenMap}}",
+          "DefaultArrivalTile": {
+            "X": 44,
+            "Y": 14
+          },
+          "Music": [
+            {
+              "Id": "MadDog.BearFam.KrakenCaveMusic",
+              "Track": "MadDog.HashtagBearFam_TheKraken"
+            }
+          ],
+          "CreateOnLoad": { "MapPath": "Maps/MadDog.HashtagBearFam_KrakenCave" },
+          "FormerLocationNames": [ "Custom_BearFamNoKrakenMap" ],
+
+          "Forage": [
+            {
+              "Chance": 0.2,
+              "Season": null,
+              "Id": "(O)167", //joja cola
+              "ItemId": "(O)167"
+            },
+            {
+              "Chance": 0.2,
+              "Season": null,
+              "Id": "(O)168", //trash
+              "ItemId": "(O)168"
+
+            },
+            {
+              "Chance": 0.2,
+              "Season": null,
+              "Id": "(O)169", //driftwood
+              "ItemId": "(O)169"
+            },
+            {
+              "Chance": 0.2,
+              "Season": null,
+              "Id": "(O)170", //broken glasses
+              "ItemId": "(O)170"
+            },
+            {
+              "Chance": 0.2,
+              "Season": null,
+              "Id": "(O)171", //broken cd
+              "ItemId": "(O)171"
+            },
+            {
+              "Chance": 0.2,
+              "Season": null,
+              "Id": "(O)172", //soggy newspaper
+              "ItemId": "(O)172"
+            },
+            {
+              "Chance": 0.1,
+              "Season": null,
+              "Id": "(O)589", //trilobite
+              "ItemId": "(O)589"
+            },
+            {
+              "Chance": 0.1,
+              "Season": null,
+              "Id": "(O)586", //nautilus fossil
+              "ItemId": "(O)586"
+            },
+            {
+              "Chance": 0.1,
+              "Season": null,
+              "Id": "(O)117", //anchor
+              "ItemId": "(O)117"
+            }
+
+          ],
+          "MinDailyWeeds": 2,
+          "MaxDailyWeeds": 5,
+          "FirstDayWeedMultiplier": 15,
+          "MinDailyForageSpawn": 1,
+          "MaxDailyForageSpawn": 3,
+          "MaxSpawnedForageAtOnce": 8,
+
+          "ArtifactSpots": [
+            {
+              "Chance": 0.7,
+              "Id": "(O)378",
+              "ItemId": "(O)378", //copper ore
+              "MinStack": 5,
+              "MaxStack": 8
+            },
+            {
+              "Chance": 0.5,
+              "Id": "(O)380",
+              "ItemId": "(O)380", //iron ore
+              "MinStack": 4,
+              "MaxStack": 6
+            },
+            {
+              "Chance": 0.3,
+              "Id": "(O)384",
+              "ItemId": "(O)384", //gold ore
+              "MinStack": 2,
+              "MaxStack": 5
+            },
+            {
+              "Chance": 0.1,
+              "Id": "(O)386",
+              "ItemId": "(O)386", //iridium ore
+              "MinStack": 1,
+              "MaxStack": 3
+            },
+            {
+              "Chance": 0.6,
+              "Id": "(O)118",
+              "ItemId": "(O)118" //glass shards
+            },
+            {
+              "Chance": 0.4,
+              "Id": "(O)535",
+              "ItemId": "(O)535" //geode
+            },
+            {
+              "Chance": 0.08,
+              "Id": "(O)109",
+              "ItemId": "(O)109" //prehistoric handaxe
+            },
+            {
+              "Chance": 0.08,
+              "Id": "(O)120",
+              "ItemId": "(O)120" //ancient sword
+            }
+          ],
+
+          "FishAreas": {
+            "UndergroundKrakenLake": {
+              "DisplayName": "{{i18n:MadDog.BearFam.Custom_KrakenLakeName}}",
+              "Position": null,
+              "CrabPotFishTypes": [ "ocean" ],
+              "CrabPotJunkChance": 0.5
+            }
+          },
+
+          "Fish": [
+            //custom fish
+            {
+              "Id": "MadDog.BearFam.Krakenling",
+              "ItemId": "MadDog.BearFam.Krakenling",
+              "FishAreaID": "UndergroundKrakenLake",
+              "Season": null,
+              "Precedence": -500
+            },
+            {
+              "Id": "MadDog.BearFam.Lyngbakr",
+              "ItemId": "MadDog.BearFam.Lyngbakr",
+              "FishAreaID": "UndergroundKrakenLake",
+              "Condition": "LOCATION_Season Here spring summer",
+              "Precedence": -500
+            },
+            {
+              "Id": "MadDog.BearFam.Hafgufa",
+              "ItemId": "MadDog.BearFam.Hafgufa",
+              "FishAreaID": "UndergroundKrakenLake",
+              "Condition": "LOCATION_Season Here fall winter",
+              "Precedence": -500
+            },
+            {
+              "Id": "MadDog.BearFam.Jojellyfish",
+              "ItemId": "MadDog.BearFam.Jojellyfish",
+              "FishAreaID": "UndergroundKrakenLake",
+              "Season": null,
+              "Precedence": -500
+            },
+            {
+              "Id": "MadDog.BearFam.Colacrab",
+              "ItemId": "MadDog.BearFam.Colacrab",
+              "FishAreaID": "UndergroundKrakenLake",
+              "Season": null,
+              "Precedence": -500
+            },
+
+            //vanilla fish
+            {
+              "Id": "(O)147", //herring
+              "ItemId": "(O)147",
+              "FishAreaID": "UndergroundKrakenLake",
+              "Condition": "LOCATION_Season Here Spring Winter"
+            },
+            {
+              "Id": "(O)156", //Ghostfish
+              "ItemId": "(O)156",
+              "FishAreaID": "UndergroundKrakenLake",
+              "Season": null
+            },
+            {
+              "Id": "(O)158", //stonefish
+              "ItemId": "(O)158",
+              "FishAreaID": "UndergroundKrakenLake",
+              "Season": null
+            },
+            {
+              "Id": "(O)799", //spook fish
+              "ItemId": "(O)799",
+              "FishAreaID": "UndergroundKrakenLake",
+              "Season": null
+            },
+            {
+              "Id": "(O)269", //midnight carp
+              "ItemId": "(O)269",
+              "FishAreaID": "UndergroundKrakenLake",
+              "Condition": "LOCATION_Season Here Fall Winter"
+            },
+            {
+              "Id": "(O)149", //octopus
+              "ItemId": "(O)149",
+              "FishAreaID": "UndergroundKrakenLake",
+              "Season": null
+            }
+
+
+          ]
+        },
+
+
+        "MadDog.BearFam.Custom_BearLodge_Cliff": {
+          "DisplayName": "{{i18n:MadDog.BearFam.Custom_BearLodge_Cliff}}",
+          "DefaultArrivalTile": {
+            "X": 3,
+            "Y": 10
+          },
+          "Music": [
+            {
+              "Id": "MadDog.BearFam.CellarMusic",
+              "Track": "MadDog.HashtagBearFam_TheBearFamilyDen"
+            }
+          ],
+          "MusicIgnoredInRain": true,
+          "CreateOnLoad": { "MapPath": "Maps/MadDog.HashtagBearFam_Cellar" },
+          "FormerLocationNames": [ "Custom_BearLodge_Cliff" ],
+          "Forage": [
+            {
+              "Chance": 0.1,
+              "Season": "Summer",
+              "Id": "(O)169", //driftwood
+              "ItemId": "(O)169"
+            }
+          ],
+
+          "FishAreas": {
+            "UndergroundBearRiver": {
+              "DisplayName": "{{i18n:MadDog.BearFam.Custom_BearRiverName}}",
+              "Position": null,
+              "CrabPotFishTypes": [],
+              "CrabPotJunkChance": 1.0
+            }
+          },
+          "Fish": [
+            //custom fish
+            {
+              "Id": "MadDog.BearFam.Lyngbakr",
+              "ItemId": "MadDog.BearFam.Lyngbakr",
+              "FishAreaID": "UndergroundBearRiver",
+              "Condition": "LOCATION_Season Here spring summer",
+              "Precedence": -500
+            },
+            {
+              "Id": "MadDog.BearFam.Hafgufa",
+              "ItemId": "MadDog.BearFam.Hafgufa",
+              "FishAreaID": "UndergroundBearRiver",
+              "Condition": "LOCATION_Season Here fall winter",
+              "Precedence": -500
+            },
+            //vanilla fish
+            {
+              "Season": null,
+              "FishAreaId": "UndergroundBearRiver",
+              "Id": "(O)139", //salmon
+              "ItemId": "(O)139"
+            },
+            {
+              "Season": "Winter",
+              "FishAreaId": "UndergroundBearRiver",
+              "Id": "(O)707", //lingcod
+              "ItemId": "(O)707"
+            },
+            {
+              "Season": "Winter",
+              "FishAreaId": "UndergroundBearRiver",
+              "Id": "(O)141", //perch
+              "ItemId": "(O)141"
+            },
+            {
+              "Season": "Spring",
+              "FishAreaId": "UndergroundBearRiver",
+              "Id": "(O)145", //sunfish
+              "ItemId": "(O)145"
+            },
+            {
+              "Season": "Fall",
+              "FishAreaId": "UndergroundBearRiver",
+              "Id": "(O)137", //smallmouth bass
+              "ItemId": "(O)137"
+            },
+            {
+              "Season": "Summer",
+              "FishAreaId": "UndergroundBearRiver",
+              "Id": "(O)138", //rainbow trout
+              "ItemId": "(O)138"
+            }
+          ]
+        },
+
+        "MadDog.BearFam.Custom_BearLodge_BearEventMine": {
+          "DisplayName": "{{i18n:MadDog.BearFam_BearEventMine}}",
+          "DefaultArrivalTile": {
+            "X": 12,
+            "Y": 17
+          },
+          "CreateOnLoad": { "MapPath": "Maps/MadDog.HashtagBearFam_BearEventMine" },
+          "FormerLocationNames": [ "Custom_BearFamMinesMapEvents" ]
+        },
+
+
+        "MadDog.BearFam.Custom_BearLodge_BoatMap": {
+          "DisplayName": "{{i18n:MadDog.BearFam_BearBoatMap}}",
+          "DefaultArrivalTile": {
+            "X": 15,
+            "Y": 9
+          },
+          "CreateOnLoad": { "MapPath": "Maps/MadDog.HashtagBearFam_BoatMap" },
+          "FormerLocationNames": null
+        },
+
+        "MadDog.HashtagBearFam_RHTerenSigHouse": {
+          "DisplayName": "{{i18n:MadDog.HashtagBearFam_RHTerenSigHouse}}",
+          "DefaultArrivalTile": {
+            "X": 3,
+            "Y": 20
+          },
+          "Music": [
+            {
+              "Id": "MadDog.BearFam_LodgeMusicMadisonStreet",
+              "Track": "MadDog.HashtagBearFam_TheManorOnMadisonStreet",
+              "Condition": "RANDOM .25"
+            },
+            {
+              "Id": "MadDog.BearFam_LodgeMusicThemeOfSad",
+              "Track": "MadDog.HashtagBearFam_TheBearFamilyDen",
+              "Condition": "RANDOM .75"
+            }
+          ],
+          "CreateOnLoad": { "MapPath": "Maps/MadDog.HashtagBearFam_RHTerenSigHouse" },
+          "ArtifactSpots": [
+            {
+              "Chance": 0.6,
+              "Id": "(O)118",
+              "ItemId": "(O)118" //glass shards
+            },
+            {
+              "Chance": 0.4,
+              "Id": "(O)535",
+              "ItemId": "(O)535" //geode
+            }
+          ],
+          "FishAreas": {
+            "RH_RiverZone": {
+              "DisplayName": "{{i18n:MadDog.BearFam_RHRiverZone}}",
+              "Position": null,
+              "CrabPotFishTypes": [ "ocean" ],
+              "CrabPotJunkChance": 0.5
+            }
+          },
+
+          "Fish": [
+            //custom fish
+            {
+              "Id": "MadDog.BearFam.Krakenling",
+              "ItemId": "MadDog.BearFam.Krakenling",
+              "FishAreaID": "RH_RiverZone",
+              "Season": null,
+              "Precedence": -500
+            },
+            {
+              "Id": "MadDog.BearFam.Lyngbakr",
+              "ItemId": "MadDog.BearFam.Lyngbakr",
+              "FishAreaID": "RH_RiverZone",
+              "Condition": "LOCATION_Season Here spring summer",
+              "Precedence": -500
+            },
+            {
+              "Id": "MadDog.BearFam.Hafgufa",
+              "ItemId": "MadDog.BearFam.Hafgufa",
+              "FishAreaID": "RH_RiverZone",
+              "Condition": "LOCATION_Season Here fall winter",
+              "Precedence": -500
+            },
+            {
+              "Id": "MadDog.BearFam.Jojellyfish",
+              "ItemId": "MadDog.BearFam.Jojellyfish",
+              "FishAreaID": "RH_RiverZone",
+              "Season": null,
+              "Precedence": -500
+            },
+            {
+              "Id": "MadDog.BearFam.Colacrab",
+              "ItemId": "MadDog.BearFam.Colacrab",
+              "FishAreaID": "RH_RiverZone",
+              "Season": null,
+              "Precedence": -500
+            }
+            //vanilla fish
+            /*{
+              "Id": "(O)",
+              "ItemId": "(O)",
+              "FishAreaID": "UndergroundKrakenLake",
+              "Condition": "LOCATION_Season Here "
+            }*/
+          ]
+        }
+
+
+      }
+    },
+    //fucking up forage lmao
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [ "MadDog.BearFam.Custom_BearFamNoKrakenMap", "Forage" ],
+      "When": {
+        "HasMod": "Cornucopia.ArtisanGoods"
+      },
+      "Entries": {
+        "(O)Cornucopia_SeaSalt": {
+          "ItemId": "(O)Cornucopia_SeaSalt"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [ "MadDog.BearFam.Custom_BearFamNoKrakenMap", "Forage" ],
+      "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia_ExtendedCropsPackEnabled"
+      },
+      "Entries": {
+        "(O)Cornucopia_JuniperBerries": {
+          "ItemId": "(O)Cornucopia_JuniperBerries",
+          "Chance": 0.1
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [ "MadDog.BearFam.Custom_BearLodge_Cliff", "Forage" ],
+      "When": {
+        "HasMod": "Cornucopia.MoreCrops"
+      },
+      "Entries": {
+        "(O)Cornucopia_Raspberry": {
+          "ItemId": "(O)Cornucopia_Raspberry",
+          "Chance": 0.1,
+          "Season": "Summer"
+        }
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [ "MadDog.BearFam.Custom_BearLodge_Cliff", "Forage" ],
+      "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia_ExtendedCropsPackEnabled"
+      },
+      "Entries": {
+        "(O)Cornucopia_JuniperBerries": {
+          "ItemId": "(O)Cornucopia_JuniperBerries",
+          "Chance": 0.1
+        },
+        "(O)Cornucopia_BlackCurrants": {
+          "ItemId": "(O)Cornucopia_BlackCurrants",
+          "Chance": 0.1,
+          "Season": "Winter"
+        }
+
+      }
+    },
+    //Location on World Map Stuff????
+    {
+      "LogName": "NO SVE",
+      "Action": "EditData",
+      "Target": "Data/WorldMap",
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+      },
+      "TargetField": [ "EastScarp", "MapAreas" ],
+      "Entries": {
+        "BearLodge": {
+          "Id": "BearLodge",
+          "PixelArea": {
+            "X": 133,
+            "Y": 6,
+            "Width": 19,
+            "Height": 10
+          },
+          "Tooltips": [
+            {
+              "Id": "BearLodge",
+              "Text": "{{i18n:MadDog.Hashtag_MapLodge}}"
+            }
+          ],
+          "WorldPositions": [
+            {
+              "Id": "BearLodge",
+              "LocationName": "MadDog.BearFam.Custom_BearLodge",
+              "ExtendedTileArea": null,
+              "MapPixelArea": {
+                "X": 133,
+                "Y": 6,
+                "Width": 19,
+                "Height": 10
+              },
+              "ScrollText": "{{i18n:MadDog.Hashtag_MapLodge}}"
+            },
+            {
+              "Id": "BearLodgeCellar",
+              "LocationName": "MadDog.BearFam.Custom_BearLodge_Cliff",
+              "MapPixelArea": {
+                "X": 133,
+                "Y": 6,
+                "Width": 19,
+                "Height": 10
+              },
+              "ScrollText": "{{i18n:MadDog.Hashtag_MapLodgeCellar}}"
+            },
+            {
+              "Id": "KrakenCave",
+              "Condition": "PLAYER_HAS_SEEN_EVENT Host MadDog.BearFam.16193008",
+              "LocationName": "MadDog.BearFam.Custom_BearFamNoKrakenMap",
+              "ExtendedTileArea": null,
+              "MapPixelArea": {
+                "X": 133,
+                "Y": 6,
+                "Width": 19,
+                "Height": 10
+              },
+              "ScrollText": "{{i18n:MadDog.Hashtag_MapLodgeKrakenCave}}"
+            },
+            {
+              "Id": "SxTRHHouse",
+              //"Condition": "PLAYER_HAS_SEEN_EVENT Host MadDog.BearFam.",
+              "LocationName": "MadDog.HashtagBearFam_RHTerenSigHouse",
+              "ExtendedTileArea": null,
+              "MapPixelArea": {
+                "X": 133,
+                "Y": 6,
+                "Width": 19,
+                "Height": 10
+              },
+              "ScrollText": "{{i18n:MadDog.Hashtag_MapLodgeRHHouse}}"
+            },
+            {
+              "ScrollTextZones": [],
+              "Id": "Default",
+              "LocationName": "EastScarp_Village",
+              "ScrollText": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "LogName": "YES SVE",
+      "Action": "EditData",
+      "Target": "Data/WorldMap",
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+      },
+      "TargetField": [ "EastScarp", "MapAreas" ],
+      "Entries": {
+        "BearLodge": {
+          "Id": "BearLodge",
+          "PixelArea": {
+            "X": 53,
+            "Y": 6,
+            "Width": 19,
+            "Height": 10
+          },
+          "Tooltips": [
+            {
+              "Id": "BearLodge",
+              "Text": "{{i18n:MadDog.Hashtag_MapLodge}}"
+            }
+          ],
+          "WorldPositions": [
+            {
+              "Id": "BearLodge",
+              "LocationName": "MadDog.BearFam.Custom_BearLodge",
+              "ExtendedTileArea": null,
+              "MapPixelArea": {
+                "X": 53,
+                "Y": 6,
+                "Width": 19,
+                "Height": 10
+              },
+              "ScrollText": "{{i18n:MadDog.Hashtag_MapLodge}}"
+            },
+            {
+              "Id": "BearLodgeCellar",
+              "LocationName": "MadDog.BearFam.Custom_BearLodge_Cliff",
+              "MapPixelArea": {
+                "X": 53,
+                "Y": 6,
+                "Width": 19,
+                "Height": 10
+              },
+              "ScrollText": "{{i18n:MadDog.Hashtag_MapLodgeCellar}}"
+            },
+            {
+              "Id": "KrakenCave",
+              "Condition": "PLAYER_HAS_SEEN_EVENT Host MadDog.BearFam.16193008",
+              "LocationName": "MadDog.BearFam.Custom_BearFamNoKrakenMap",
+              "ExtendedTileArea": null,
+              "MapPixelArea": {
+                "X": 53,
+                "Y": 6,
+                "Width": 19,
+                "Height": 10
+              },
+              "ScrollText": "{{i18n:MadDog.Hashtag_MapLodgeKrakenCave}}"
+            },
+            {
+              "Id": "SxTRHHouse",
+              //"Condition": "PLAYER_HAS_SEEN_EVENT Host MadDog.BearFam.",
+              "LocationName": "MadDog.HashtagBearFam_RHTerenSigHouse",
+              "ExtendedTileArea": null,
+              "MapPixelArea": {
+                "X": 53,
+                "Y": 6,
+                "Width": 19,
+                "Height": 10
+              },
+              "ScrollText": "{{i18n:MadDog.Hashtag_MapLodgeRHHouse}}"
+            },
+            {
+              "ScrollTextZones": [],
+              "Id": "Default",
+              "LocationName": "EastScarp_Village",
+              "ScrollText": null
+            }
+          ]
+        }
+      }
+    },
+
+    {
+      "LogName": "Edit ES World Map NO SVE",
+      "Action": "EditImage",
+      "When": {
+        "Season": "spring, summer, fall, winter",
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+      },
+      "Target": "Mods/Lemurkat.EastScarp/ESWorldMap",
+      "PatchMode": "Overlay",
+      "FromFile": "assets/WorldMapPatch/{{season}}_BearLodgeWorldMapPatch.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 18,
+        "Height": 19
+      },
+      "ToArea": {
+        "X": 132,
+        "Y": 0,
+        "Width": 18,
+        "Height": 19
+      }
+    },
+
+
+    {
+      "LogName": "Edit ES World Map YES SVE",
+      "Action": "EditImage",
+      "When": {
+        "Season": "spring, summer, fall, winter",
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+      },
+      "Target": "Mods/Lemurkat.EastScarp/ESWorldMap",
+      "PatchMode": "Overlay",
+      "FromFile": "assets/WorldMapPatch/{{season}}_BearLodgeWorldMapPatch.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 18,
+        "Height": 19
+      },
+      "ToArea": {
+        "X": 52,
+        "Y": 0,
+        "Width": 18,
+        "Height": 19
+      }
+    },
+
+    {
+      "LogName": "Don't steal my trees! - thanks Atra, Lemur",
+      "Action": "EditMap",
+      "Target": "Maps/MadDog.HashtagBearFam_Cellar",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 17,
+            "Y": 13
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "EastScarpe.FruitTreeCut": "{{i18n:MadDogBearfamPeachTree}}"
+          }
+        }
+      ]
+    }
+
+
+
+
+  ]
+}

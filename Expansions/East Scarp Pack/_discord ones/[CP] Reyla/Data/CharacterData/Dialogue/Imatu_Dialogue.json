@@ -1,0 +1,17 @@
+{
+    "Changes":[
+        {
+            "LogName": "Imatu's Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/RaffieJohn.Imatu",
+            "Entries": {
+                //
+                "Introduction": "{{i18n: Imatu.Introduction}}",
+                "pamHouseUpgrade": "{{i18n: Imatu.pamHouseUpgrade}}",
+                "pamHouseUpgradeAnonymous": "{{i18n: Imatu.pamHouseUpgradeAnonymous}}",
+                "cc_Complete": "{{i18n: Imatu.cc_Complete}}",
+                "movieTheater": "{{i18n: Imatu.movieTheater}}"
+            }
+        }
+    ]
+}

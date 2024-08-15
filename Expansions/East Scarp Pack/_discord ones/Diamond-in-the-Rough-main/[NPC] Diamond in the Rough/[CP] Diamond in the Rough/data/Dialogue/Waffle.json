@@ -1,0 +1,64 @@
+{
+    "Changes": [
+        {
+            "LogName": "Waffle Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/WaffleW",
+            "Entries": {
+                "{{WeekDay}}": "{{i18n:Core.WaffleW.{{Random:Sound, Action|key=WAB}}.{{Random:{{Range: 1, 20}}}}}}"
+            }
+        },
+        { 
+            "LogName": "Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/WaffleW",
+            "Entries": {
+
+            //Locations
+            "Town_62_34": "{{i18n:Core.WaffleW.Locations.Town.PrideFest}}",
+            "sapphicsaph_pitv.CommunityCenterPride_3_8": "{{i18n:Core.WaffleW.Locations.CommunityCenter.PrideFest.{{Random:{{Range: 1, 2}}}}}}",
+
+            //Gifts
+            "AcceptGift_category_fish": "{{i18n:Gifts.WaffleW.Fish}}",
+            "AcceptGift_category_milk": "{{i18n:Gifts.WaffleW.Milk}}",
+            "AcceptGift_category_meat": "{{i18n:Gifts.WaffleW.Meat}}",
+            "AcceptGift_category_junk": "{{i18n:Gifts.WaffleW.Trash}}",
+            "AcceptGift_(O)Ancient_Doll": "{{i18n:Gifts.WaffleW.Doll}}",
+            "AcceptGift_(O)103": "{{i18n:Gifts.WaffleW.Doll}}",
+            "AcceptGift_(O)126": "{{i18n:Gifts.WaffleW.Doll}}",
+            "AcceptGift_(O)127": "{{i18n:Gifts.WaffleW.ChewingStick}}",
+            "AcceptGift_(O)223": "{{i18n:Gifts.WaffleW.Cookie}}",
+            "AcceptGift_(O)169": "{{i18n:Gifts.WaffleW.Driftwood}}",
+            "AcceptGift_(O)306": "{{i18n:Gifts.WaffleW.Mayonnaise}}",
+            "AcceptGift_(O)307": "{{i18n:Gifts.WaffleW.Mayonnaise}}",
+            "AcceptGift_(O)308": "{{i18n:Gifts.WaffleW.Mayonnaise}}",
+            "AcceptGift_(O)807": "{{i18n:Gifts.WaffleW.Mayonnaise}}",
+            "AcceptGift_(O)119": "{{i18n:Gifts.WaffleW.Bone}}",
+            "AcceptGift_(O)579": "{{i18n:Gifts.WaffleW.Bone}}",
+            "AcceptGift_(O)580": "{{i18n:Gifts.WaffleW.Bone}}",
+            "AcceptGift_(O)581": "{{i18n:Gifts.WaffleW.Bone}}",
+            "AcceptGift_(O)582": "{{i18n:Gifts.WaffleW.Bone}}",
+            "AcceptGift_(O)583": "{{i18n:Gifts.WaffleW.Bone}}",
+            "AcceptGift_(O)584": "{{i18n:Gifts.WaffleW.Bone}}",
+            "AcceptGift_(O)S585": "{{i18n:Gifts.WaffleW.Bone}}",
+            "AcceptGift_(O)881": "{{i18n:Gifts.WaffleW.Bone}}",
+            "AcceptGift_(O)769": "{{i18n:Gifts.WaffleW.VoidEssence}}",
+            "AcceptGift_(O)305": "{{i18n:Gifts.WaffleW.VoidEgg}}",
+            "AcceptGift_(O)sapphicsaph_pitv.PridePop": "{{i18n:Gifts.WaffleW.PridePop}}",
+            "AcceptGift_(O)sapphicsaph_pitv.BiBerryMuffin": "{{i18n:Gifts.WaffleW.BiBerryMuffin}}",
+            "AcceptGift_(O)sapphicsaph_pitv.GaylacticCookie": "{{i18n:Gifts.WaffleW.GayCookie}}",
+            "AcceptGift_(O)sapphicsaph_pitv.TastyAceCookie": "{{i18n:Gifts.WaffleW.GayCookie}}",
+
+            "RejectItem_(O)220": "{{i18n:Gifts.WaffleW.ChocolateCake}}",
+            "RejectItem_(O)795": "{{i18n:Gifts.WaffleW.VoidSalmon}}",
+            "RejectItem_(O)436": "{{i18n:Gifts.WaffleW.GoatMilk}}",
+            "RejectItem_(O)438": "{{i18n:Gifts.WaffleW.GoatMilk}}",
+            "RejectItem_(O)768": "{{i18n:Gifts.WaffleW.SolarEssence}}",
+            "RejectItem_(O){{ModID}}_Items.UnluckyPurpleShorts": "{{i18n:Gifts.WaffleW.UnluckyPurpleShorts}}",
+            "AcceptGift_(O)192": "{{i18n:Gifts.WaffleW.Potato}}",
+
+            "RejectItem_(O)809": "{{i18n:Movies.WaffleW.RejectMovieTicket}}" 
+        }
+    }
+        ]
+}

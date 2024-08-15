@@ -1,0 +1,73 @@
+{
+    "Changes": [
+//---------------------------- DISPOSITIONS ------------------------------------------//
+        {
+            "LogName": "Skrell Dispositions",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "SkrellS": {
+                    "DisplayName": "{{i18n:Core.SkrellS.Name}}",
+                    "FormerCharacterNames": [ "Skrell" ],
+                    "HomeRegion": "Other",
+                    "Gender": "Male",
+                    "Age": "Adult",
+                    "Manner": "Rude",
+                    "SocialAnxiety": "Neutral",
+                    "Optimism": "Negative",
+                    "CanBeRomanced": false,
+                    "LoveInterest": "Diamond, Ebb",
+                    "Calendar": "HiddenAlways",
+                    "SocialTab": "HiddenAlways",
+                    "CanGreetNearbyCharacters": false,
+                    "IntroductionsQuest": false,
+                    "PerfectionScore": false,
+                    "WinterStarParticipant": false,
+                    "DumpsterDiveFriendshipEffect": 0,
+                    "DumpsterDiveEmote": 40,
+                    "CanVisitIsland": false,
+                    "CanCommentOnPurchasedShopItems": false,
+                    "EndSlideShow": "TrailingGroup",
+                    "SpawnIfMissing": true,
+                    "Breather": false,
+                    "Home": [
+                        {
+                            "Id": "Skrell Waiting Room",
+                            "Location": "EastScarp_TNPCWaitingWarpRoom",
+                            "Tile": { "X": 14, "Y": 9 },
+                            "Direction": "down",
+                            "Condition": "!PLAYER_HAS_SEEN_EVENT Current {{ModID}}_Events.TBA"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "SkrellS" ],
+            "Entries": { 
+                "Calendar": "AlwaysShown", 
+                "SocialTab": "AlwaysShown",
+                "BirthSeason": "summer",
+                "BirthDay": 5
+             },
+            "When": { "HasSeenEvent": "{{ModID}}_Events.TBA" }
+        },
+//---------------------------- GIFT TASTE ------------------------------------------//
+        {
+            "LogName": "Gift Taste",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "SkrellS": "{{i18n:Gifts.SkrellS.Love}}/5/{{i18n:Gifts.SkrellS.Like}}/5/{{i18n:Gifts.SkrellS.Dislike}}/-5/{{i18n:Gifts.SkrellS.Hate}}/5/{{i18n:Gifts.SkrellS.Neutral}}/5/"
+            }
+        },
+//---------------------------- SPRITES ------------------------------------------//
+        {
+            "Action": "Load",
+            "Target": "Characters/SkrellS, Portraits/SkrellS",
+            "FromFile": "assets/{{TargetPathOnly}}/Skrell/Skrell.png"
+        }
+     ]
+}

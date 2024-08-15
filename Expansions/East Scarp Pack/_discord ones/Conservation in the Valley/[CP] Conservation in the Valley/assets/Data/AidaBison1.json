@@ -1,0 +1,40 @@
+{
+    "Changes": [
+        {
+            "LogName": "Angel in Barn",
+            "Action": "EditMap",
+            "Target": "Maps/EstradaBarnLower",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": "2",
+                        "Y": "6"
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 SauriConservationintheValleyCC.AngelBison"
+                    },
+                },
+            ],
+            "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "Angel Out Grazing",
+            "Action": "EditMap",
+            "Target": "Maps/RanchoEstrada",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": "25",
+                        "Y": "29"
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 SauriConservationintheValleyCC.AngelBison"
+                    },
+                },
+            ],
+            "Update": "OnLocationChange"
+        },
+    ]
+}

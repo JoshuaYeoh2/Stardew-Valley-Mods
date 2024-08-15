@@ -1,0 +1,153 @@
+{
+  "Changes": [
+
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    //weapons
+    {
+      "Action": "EditData",
+      "Target": "Data/Weapons",
+      "Entries": {
+        "MadDog.HashtagBearfam.BearTrainingSword": {
+          "Name": "MadDog.HashtagBearfam.BearTrainingSword",
+          "DisplayName": "{{i18n:MadDog.HashtagBearfam.BearTrainingSword}}",
+          "Description": "{{i18n:MadDog.HashtagBearfam.BearTrainingSword.Description}}",
+          "Type": 0,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": true,
+          "Category": -98,
+          "Price": 150,
+          "MinDamage": 2,
+          "MaxDamage": 6,
+          "Knockback": 1,
+          "Speed": 0,
+          "Precision": 50,
+          "Defense": 2,
+          "MineDropVar": 0,
+          "MineDropMinimumLevel": -1,
+          "ExtraSwingArea": -1,
+          "CritChance": 0.01,
+          "CritMultiplier": 1,
+          "Texture": "{{InternalAssetKey: assets/MadDog.BearFamObjects.png}}",
+          "SpriteIndex": 29
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Weapons",
+      "Entries": {
+        "MadDog.HashtagBearfam.Dainsleif": {
+          "Name": "MadDog.HashtagBearfam.Dainsleif",
+          "DisplayName": "{{i18n:MadDog.HashtagBearfam.Dainsleif}}",
+          "Description": "{{i18n:MadDog.HashtagBearfam.Dainsleif.Description}}",
+          "Type": 0,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": true,
+          "Category": -98,
+          "Price": 2500,
+          "MinDamage": 80,
+          "MaxDamage": 150,
+          "Knockback": 2,
+          "Speed": 2,
+          "Precision": 90,
+          "Defense": 20,
+          "MineDropVar": 0,
+          "MineDropMinimumLevel": -1,
+          "ExtraSwingArea": -1,
+          "CritChance": 0.30,
+          "CritMultiplier": 2,
+          "Texture": "{{InternalAssetKey: assets/MadDog.BearFamObjects.png}}",
+          "SpriteIndex": 30
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Weapons",
+      "Entries": {
+        "MadDog.HashtagBearfam.Gramr": {
+          "Name": "MadDog.HashtagBearfam.Gramr",
+          "DisplayName": "{{i18n:MadDog.HashtagBearfam.Gramr}}",
+          "Description": "{{i18n:MadDog.HashtagBearfam.Gramr.Description}}",
+          "Type": 0,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": true,
+          "Category": -98,
+          "Price": 550,
+          "MinDamage": 29,
+          "MaxDamage": 45,
+          "Knockback": 2,
+          "Speed": 8,
+          "Precision": 100,
+          "Defense": 2,
+          "MineDropVar": 0,
+          "MineDropMinimumLevel": -1,
+          "ExtraSwingArea": -1,
+          "CritChance": 0.05,
+          "CritMultiplier": 2,
+          "Texture": "{{InternalAssetKey: assets/MadDog.BearFamObjects.png}}",
+          "SpriteIndex": 31
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Weapons",
+      "Entries": {
+        "MadDog.HashtagBearfam.Hofund": {
+          "Name": "MadDog.HashtagBearfam.Hofund",
+          "DisplayName": "{{i18n:MadDog.HashtagBearfam.Hofund}}",
+          "Description": "{{i18n:MadDog.HashtagBearfam.Hofund.Description}}",
+          "Type": 0,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": true,
+          "Category": -98,
+          "Price": 800,
+          "MinDamage": 39,
+          "MaxDamage": 65,
+          "Knockback": 2,
+          "Speed": 2,
+          "Precision": 70,
+          "Defense": 2,
+          "MineDropVar": 0,
+          "MineDropMinimumLevel": -1,
+          "ExtraSwingArea": -1,
+          "CritChance": 0.02,
+          "CritMultiplier": 1,
+          "Texture": "{{InternalAssetKey: assets/MadDog.BearFamObjects.png}}",
+          "SpriteIndex": 32
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Weapons",
+      "Entries": {
+        "MadDog.HashtagBearfam.Ulfberht": {
+          "Name": "MadDog.HashtagBearfam.Ulfberht",
+          "DisplayName": "{{i18n:MadDog.HashtagBearfam.Ulfberht}}",
+          "Description": "{{i18n:MadDog.HashtagBearfam.Ulfberht.Description}}",
+          "Type": 0,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": true,
+          "Category": -98,
+          "Price": 350,
+          "MinDamage": 13,
+          "MaxDamage": 27,
+          "Knockback": 1,
+          "Speed": -2,
+          "Precision": 65,
+          "Defense": 3,
+          "MineDropVar": 0,
+          "MineDropMinimumLevel": -1,
+          "ExtraSwingArea": -1,
+          "CritChance": 0.02,
+          "CritMultiplier": 2,
+          "Texture": "{{InternalAssetKey: assets/MadDog.BearFamObjects.png}}",
+          "SpriteIndex": 33
+        }
+      }
+    }
+  ]
+}

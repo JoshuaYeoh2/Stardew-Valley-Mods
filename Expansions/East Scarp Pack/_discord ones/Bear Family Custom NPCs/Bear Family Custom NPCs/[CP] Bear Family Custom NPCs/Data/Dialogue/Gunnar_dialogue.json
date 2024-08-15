@@ -1,0 +1,628 @@
+{
+	"Changes": [
+
+		{
+			"LogName": "Gunnar Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gunnar",
+			"Entries": {
+
+				"Introduction": "{{i18n:GunnarIntroduction}}",
+				"FlowerDance_Decline": "{{i18n:GunnardanceRejection}}",
+				"FlowerDance_Accept_Spouse": "{{i18n:GunnarDanceSpouseAccept}}",
+				"FlowerDance_Accept": "{{i18n:GunnarDanceAccept}}",
+				"WinterStar_GiveGift_Before_Spouse": "{{i18n:GunnarWinterStarBeforeSpouse}}",
+				"WinterStar_GiveGift_Before": "{{i18n:GunnarWinterStarBefore}}",
+				"WinterStar_GiveGift_After_Spouse": "{{i18n:GunnarWinterStarAfterSpouse}}",
+				"WinterStar_GiveGift_After": "{{i18n:GunnarWinterStarAfter}}",
+				"WinterStar_ReceiveGift": "{{i18n:GunnarWinterStarReceiveGift}}",
+				"divorced": "{{i18n:Gunnardivorced}}",
+				"dumped_Boys": "{{i18n:Gunnardumped_Boys}}",
+				"secondChance_Boys": "{{i18n:GunnarsecondChance_Boys}}",
+				"Fair_Judging": "{{i18n:GunnarFairJudging}}",
+				"Fair_Judged_PlayerLost_PurpleShorts": "{{i18n:GunnarFairPurpleShorts}}",
+				"Fair_Judged_PlayerLost_Skipped": "{{i18n:GunnarFairSkipped}}",
+				"Fair_Judged_PlayerLost": "{{i18n:GunnarFairLost}}",
+				"Fair_Judged_PlayerWon": "{{i18n:GunnarFairWon}}",
+				"DumpsterDiveComment": "{{i18n:GunnarDumpsterDiveComment}}",
+				"HitBySlingshot": "{{i18n:GunnarHitBySlingshot}}",
+				"RejectBouquet_NotDatable": "{{i18n:GunnarRejectBouquet}}",
+				"RejectBouquet_NpcAlreadyMarried": "{{i18n:GunnarRejectBouquetAlreadyMarried}}",
+				"RejectBouquet_Divorced": "{{i18n:GunnarRejectBouquetDivorced}}",
+				"RejectBouquet_VeryLowHearts": "{{i18n:GunnarRejectBouquetVeryLowHearts{{Random:{{Range: 1, 2}}}}}}",
+				"RejectBouquet_LowHearts": "{{i18n:GunnarRejectBouquetLowHearts{{Random:{{Range: 1, 2}}}}}}",
+				"AcceptBouquet": "{{i18n:GunnarAcceptBouquet}}",
+				"MadDog.HashtagBearFam.Gunnar_Engaged": "{{i18n:GunnarEngaged}}",
+				"MadDog.HashtagBearFam.Gunnar_AfterWedding": "{{i18n:GunnarAfterWedding}}",
+				"GreenRain": "{{i18n:GunnarGreenRain}}",
+				"GreenRainFinished": "{{i18n:GunnarGreenRainFinished}}",
+				"GreenRain_2": "{{i18n:GunnarGreenRain2}}",
+				"HitBySlingshot_bomb_item": "{{i18n:GunnarHitbySlingShotBombItem}}",
+				"HitBySlingshot_(O)441": "{{i18n:GunnarHitbySlingShotExplosiveAmmo}}",
+				"HitBySlingshot_category_egg": "{{i18n:GunnarHitbySlingShotEggCategory}}",
+
+				"Saloon_Entry": "{{i18n:GunnarSaloonEntry1}}/{{i18n:GunnarSaloonEntry2}}/{{i18n:GunnarSaloonEntry3}}/{{i18n:GunnarSaloonEntry4}}",
+				"ArchaeologyHouse_Entry": "{{i18n:GunnarMuseumEntry1}}/{{i18n:GunnarMuseumEntry2}}/{{i18n:GunnarMuseumEntry3}}/{{i18n:GunnarMuseumEntry4}}",
+				"Town_Entry": "{{i18n:GunnarTownEntry1}}/{{i18n:GunnarTownEntry2}}/{{i18n:GunnarTownEntry3}}/{{i18n:GunnarTownEntry4}}",
+				"Mine_Entry": "{{i18n:GunnarMineEntry1}}/{{i18n:GunnarMineEntry2}}/{{i18n:GunnarMineEntry3}}/{{i18n:GunnarMineEntry4}}",
+				"Blacksmith_Entry": "{{i18n:GunnarBlacksmithEntry1}}/{{i18n:GunnarBlacksmithEntry2}}/{{i18n:GunnarBlacksmithEntry3}}/{{i18n:GunnarBlacksmithEntry4}}",
+				"Mountain_Entry": "{{i18n:GunnarMountainEntry1}}/{{i18n:GunnarMountainEntry2}}/{{i18n:GunnarMountainEntry3}}/{{i18n:GunnarMountainEntry4}}",
+				"AdventureGuild_Entry": "{{i18n:GunnarAdventureGuildEntry1}}/{{i18n:GunnarAdventureGuildEntry2}}/{{i18n:GunnarAdventureGuildEntry3}}/{{i18n:GunnarAdventureGuildEntry4}}",
+				"EastScarp_Village_Entry": "{{i18n:GunnarESVillageEntry1}}/{{i18n:GunnarESVillageEntry2}}/{{i18n:GunnarESVillageEntry3}}/{{i18n:GunnarESVillageEntry4}}",
+
+				"SpouseStardrop": "{{i18n:GunnarSpouseStardrop}}",
+				"WipedMemory": "{{i18n:GunnarWipedMemory}}",
+				"SpouseFarmhouseClutter": "{{i18n:GunnarSpouseFarmhouseClutter}}",
+				"SpouseGiftJealous": "{{i18n:GunnarSpouseGiftJealous}}",
+				"Spouse_MonstersInHouse": "{{i18n:GunnarSpouseSpouseMonstersInHouse}}",
+
+				"RejectMermaidPendant_Divorced": "{{i18n:GunnarRejectMermaidPendantDivorced}}",
+				"RejectMermaidPendant_NeedHouseUpgrade": "{{i18n:GunnarRejectMermaidPendantHouseUpgrade}}",
+				"RejectMermaidPendant_NotDatable": "{{i18n:GunnarRejectMermaidPendantNotDatable}}",
+				"RejectMermaidPendant_NpcWithSomeoneElse": "{{i18n:GunnarRejectMermaidPendantNPCinRelationship}}",
+				"RejectMermaidPendant_PlayerWithSomeoneElse": "{{i18n:GunnarRejectMermaidPendantPlayerinRelationship}}",
+				"RejectMermaidPendant_Under8Hearts": "{{i18n:GunnarRejectMermaidPendantUnder8Hearts}}",
+				"RejectMermaidPendant_Under10Hearts": "{{i18n:GunnarRejectMermaidPendantUnder10Hearts}}",
+				"RejectMermaidPendant_Under10Hearts_AskedAgain": "{{i18n:GunnarRejectMermaidPendantUnder10HeartsAnnoy}}",
+				"RejectMermaidPendant": "{{i18n:GunnarRejectMermaidPendantDefault}}",
+
+				"RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:GunnarRejectMovieTicketAlreadyInvited}}",
+				"RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:GunnarRejectMovieTicketAlreadyWatched}}",
+				"RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n:GunnarRejectMovieTicketNotInterested}}",
+				"RejectMovieTicket_Divorced": "{{i18n:GunnarRejectMovieTicketDivorced}}",
+				"RejectMovieTicket": "{{i18n:GunnarRejectMovieTicketDefault}}",
+
+				"dating_MadDog.BearFam.Sigurd": "{{i18n:GunnardatingSig}}",
+				"married_MadDog.BearFam.Sigurd": "{{i18n:GunnarmarriedSig}}",
+				"divorced_MadDog.BearFam.Sigurd": "{{i18n:GunnardivorcedSig}}",
+
+				"dating_MadDog.BearFam.Teren": "{{i18n:GunnardatingTeren}}",
+				"married_MadDog.BearFam.Teren": "{{i18n:GunnarmarriedTeren}}",
+				"divorced_MadDog.BearFam.Teren": "{{i18n:GunnardivorcedTeren}}",
+
+				"married_memory_oneweek": "{{i18n:Gunnarfarmermarriedoneweek}}",
+				"firstVisit_Railroad": "{{i18n:Gunnarfirstrailroad}}",
+				"firstVisit_Sewer": "{{i18n:Gunnarfirstsewer}}",
+				"gotPet": "{{i18n:GunnargotPet}}",
+				"SquidFest": "{{i18n:GunnarSquidfest}}",
+				"married": "{{i18n:Gunnarfarmermarried}}",
+				"houseUpgrade_1": "{{i18n:Gunnarhouseupgradefirst}}",
+
+				"achievement_25": "{{i18n:Gunnarachievementlotsfish}}", //catch a lot of fish    Gun
+				"achievement_28": "{{i18n:Gunnarachievementdonatemuseum}}", //donate much treasure Gun
+				"wonIceFishing": "{{i18n:Gunnarwonicefishing}}", //Gun
+				"purchasedAnimal_Goat": "{{i18n:GunnarpurchaseGoat}}", //Gun
+				"structureBuilt_Slime Hutch": "{{i18n:GunnarbuiltSlimeHutch}}", //Gun
+				"structureBuilt_Fish Pond": "{{i18n:GunnarbuiltFishPond}}", //Gun
+				"mineArea_121": "{{i18n:GunnarmineSkull}}", //skull cav         Gun 
+				"mineArea_40": "{{i18n:Gunnarminefloor40}}", //level 40 mine        Gun 
+				"purchasedAnimal_Dinosaur": "{{i18n:GunnarpurchaseDino}}",
+				"cropMatured_276": "{{i18n:GunnargrewPumpkin}}",
+				"cropMatured_421": "{{i18n:GunnargrewSunflower}}", //Gun
+				"fishCaught_838": "{{i18n:GunnarcaughtBlueDiscus}}", //gun
+				"fishCaught_799": "{{i18n:GunnarcaughtSpookFish}}", //gun
+
+				//romance dialogue
+				"give_flowersA": "{{i18n:GunnarFlowersA}}",
+				"give_flowersB": "{{i18n:GunnarFlowersB}}",
+				"give_pendant": "{{i18n:GunnarPendant}}",
+				"stardrop_gift": "{{i18n:GunnarStardrop}}",
+				"giftquestion_yes": "{{i18n:GunnarGiftYes}}",
+				"giftquestion_lie": "{{i18n:GunnarGiftNo}}",
+
+				"breakUp": "{{i18n:Gunnarbreakup}}",
+				"reject_two_heartA": "{{i18n:Gunnar2HeartsA}}",
+				"reject_two_heartB": "{{i18n:Gunnar2HeartsB}}",
+				"reject_four_heartA": "{{i18n:Gunnar4HeartsA}}",
+				"reject_four_heartB": "{{i18n:Gunnar4HeartsB}}",
+				"engageA": "{{i18n:GunnarEngageA}}",
+				"engageB": "{{i18n:GunnarEngageB}}",
+				"marriedA": "{{i18n:GunnarMarriedA}}",
+				"marriedB": "{{i18n:GunnarMarriedB}}",
+				"refusal_no_heartsA": "{{i18n:GunnarRefusal0A}}",
+				"refusal_no_heartsB": "{{i18n:GunnarRefusal0B}}",
+				"refusal_knownA": "{{i18n:GunnarKnownA}}",
+				"refusal_knownB": "{{i18n:GunnarKnownB}}",
+				"refusal_botherA": "{{i18n:GunnarBotherA}}",
+				"refusal_botherB": "{{i18n:GunnarBotherB}}",
+
+				// Resort Lines //done
+				"Resort_Entering": "{{i18n:GunnarResEnter}}",
+				"Resort_Leaving": "{{i18n:GunnarResLeave}}",
+				"Resort_Shore": "{{i18n:GunnarResShore}}",
+				"Resort_Umbrella": "{{i18n:GunnarResUmbrella}}",
+				"Resort_Wander": "{{i18n:GunnarResWander}}",
+				"Resort_Wander_2": "{{i18n:GunnarResWander2}}",
+				"Resort_Chair": "{{i18n:GunnarResChair}}",
+				"Resort_Bar": "{{i18n:GunnarResBar}}",
+				"Resort_Towel": "{{i18n:GunnarResTowel}}",
+				"Resort_Towel_2": "{{i18n:GunnarResTowel2}}",
+				"Resort_Towel_3": "{{i18n:GunnarResTowel3}}",
+				"Resort": "{{i18n:GunnarResort}}",
+
+				//Specific Dialogue
+
+				"spring_18_1": "{{i18n:GunnarSpring18year1}}",
+				"fall_18_1": "{{i18n:GunnarFall18year1}}",
+				"winter_24_1": "{{i18n:GunnarWinter24year1}}",
+				"spring_12": "{{i18n:GunnarSpring12}}",
+				"spring_23": "{{i18n:GunnarSpring23}}",
+				"summer_10": "{{i18n:GunnarSummer10}}",
+				"summer_27": "{{i18n:GunnarSummer27}}",
+				"fall_1": "{{i18n:GunnarFall1}}",
+				"fall_15": "{{i18n:GunnarFall15}}",
+				"fall_26": "{{i18n:GunnarFall26}}",
+				"winter_7": "{{i18n:GunnarWinter7}}",
+				"winter_15": "{{i18n:GunnarWinter15}}",
+				"winter_16": "{{i18n:GunnarWinter16}}",
+				"winter_17": "{{i18n:GunnarWinter17}}",
+				"winter_24": "{{i18n:GunnarWinter24}}",
+				"winter_28": "{{i18n:GunnarWinter28}}"
+			}
+		},
+
+		//daily
+		{
+			"LogName": "Dialogue - 0-4",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gunnar",
+			"Update": "OnLocationChange",
+			"Entries": {
+				"Mon": "{{i18n:GunnarDialogue04.{{Random:{{Range: 1, 30}}}}}}",
+				"Tue": "{{i18n:GunnarDialogue04.{{Random:{{Range: 1, 30}}}}}}",
+				"Wed": "{{i18n:GunnarDialogue04.{{Random:{{Range: 1, 30}}}}}}",
+				"Thu": "{{i18n:GunnarDialogue04.{{Random:{{Range: 1, 30}}}}}}",
+				"Fri": "{{i18n:GunnarDialogue04.{{Random:{{Range: 1, 30}}}}}}",
+				"Sat": "{{i18n:GunnarDialogue04.{{Random:{{Range: 1, 30}}}}}}",
+				"Sun": "{{i18n:GunnarDialogue04.{{Random:{{Range: 1, 30}}}}}}"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGunnar_OverrideSeenToday": false,
+				"Hearts:MadDog.HashtagBearFam.Gunnar": "{{Range: 0, 4}}"
+			}
+		},
+		{
+			"LogName": "Dialogue - 0-4 - Seasonal",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gunnar",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GunnarDialogue04.{{season}}.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current MadDogGunnar_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGunnar_OverrideSeenToday": false,
+				"Query: {{Random: {{Range: 1, 10}}|key=GunnarSeasonA}} = 1": true,
+				"Hearts:MadDog.HashtagBearFam.Gunnar": "{{Range: 0, 4}}"
+			}
+		},
+		{
+			"LogName": "Dialogue - 6-10 Platonic",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gunnar",
+			"Update": "OnLocationChange",
+			"Entries": {
+				"Mon": "{{i18n:GunnarDialogue610.{{Random:{{Range: 1, 60}}}}}}",
+				"Tue": "{{i18n:GunnarDialogue610.{{Random:{{Range: 1, 60}}}}}}",
+				"Wed": "{{i18n:GunnarDialogue610.{{Random:{{Range: 1, 60}}}}}}",
+				"Thu": "{{i18n:GunnarDialogue610.{{Random:{{Range: 1, 60}}}}}}",
+				"Fri": "{{i18n:GunnarDialogue610.{{Random:{{Range: 1, 60}}}}}}",
+				"Sat": "{{i18n:GunnarDialogue610.{{Random:{{Range: 1, 60}}}}}}",
+				"Sun": "{{i18n:GunnarDialogue610.{{Random:{{Range: 1, 60}}}}}}"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGunnar_OverrideSeenToday": false,
+				"Hearts:MadDog.HashtagBearFam.Gunnar": "{{Range: 5, 10}}"
+			}
+		},
+		{
+			"LogName": "Dialogue - 6 - 10 Seasonal Platonic - Seasonal",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gunnar",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GunnarDialogue610.{{season}}.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current MadDogGunnar_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGunnar_OverrideSeenToday": false,
+				"Query: {{Random: {{Range: 1, 10}}|key=GunnarSeasonB}} = 1": true,
+				"Hearts:MadDog.HashtagBearFam.Gunnar": "{{Range: 5, 10}}"
+			}
+		},
+		{
+			"LogName": "Dialogue - 8-10 Romantic", //GunnarDating decided in my config.json and established in my content.json
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gunnar",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GunnarDialogue810R.{{GunnarDating}}.{{Random:{{Range: 1, 20}}|key={{Time}}}}}}#$action AddMail Current MadDogGunnar_OverrideSeenToday received"
+			},
+			"Condition": "PLAYER_NPC_RELATIONSHIP current MadDog.HashtagBearFam.Gunnar dating engaged married",
+			"When": {
+				"HasFlag |contains=MadDogGunnar_OverrideSeenToday": false,
+				"Hearts:MadDog.HashtagBearFam.Gunnar": "{{Range: 8, 10}}",
+				"Query: {{Random: {{Range: 1, 15}}|key=RomanceGunnar}} = 1": true
+			}
+		},
+		{
+			"LogName": "Dialogue - 8-10 Romantic - Seasonal", //GunnarDating decided in my config.json and established in my content.json
+			"Action": "EditData",
+			"Update": "OnLocationChange",
+			"Priority": "Late",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gunnar",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GunnarDialogue810R.{{GunnarDating}}.{{season}}.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current MadDogGunnar_OverrideSeenToday received"
+
+			},
+			"Condition": "PLAYER_NPC_RELATIONSHIP current MadDog.HashtagBearFam.Gunnar dating engaged married",
+			"When": {
+				"HasFlag |contains=MadDogGunnar_OverrideSeenToday": false,
+				"Hearts:MadDog.HashtagBearFam.Gunnar": "{{Range: 8, 10}}",
+				"Query: {{Random: {{Range: 1, 15}}|key=GunnarSeasonRomance}} = 1": true
+			}
+		},
+
+		//crossover dialogue
+		//Eli and Dylan
+		{
+			"LogName": "Gunnar ED Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gunnar",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GunnarDialogueED.{{Random:{{Range: 1, 10}}|key={{Time}}}}}}#$action AddMail Current MadDogGunnar_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGunnar_OverrideSeenToday": false,
+				"HasMod: |contains=TenebrousNova.EliDylan.CP": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=EDgun}} = 1": true //key needs differentiating per mod
+			}
+		},
+		//Rodney O'Brien (later include Edwina, Meredith)
+		{
+			"LogName": "Gunnar Rodney O'Brien Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gunnar",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GunnarDialogueROB.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGunnar_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGunnar_OverrideSeenToday": false,
+				"HasMod: |contains=TheFrenchDodo.RodneyOBrien": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=ROBgun}} = 1": true //key needs differentiating per mod
+			}
+		},
+		/*//Nora the Herpetologist
+		{
+			"LogName": "Gunnar Nora Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gunnar",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GunnarDialogueNtH.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGunnar_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGunnar_OverrideSeenToday": false,
+				"HasMod: |contains=Bagi.Nora.CP": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=NtHgun}} = 1": true //key needs differentiating per mod
+			}
+		},
+		//Diamond in the Rough
+		{
+			"LogName": "Gunnar DitR Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gunnar",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GunnarDialogueLotV.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGunnar_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGunnar_OverrideSeenToday": false,
+				"HasMod: |contains=7thAxis.DitR.CP": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=DitRgun}} = 1": true //key needs differentiating per mod
+			}
+		},
+		//Sword and Sorcery
+		{
+			"LogName": "Gunnar SnS Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gunnar",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GunnarDialogueSnS.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGunnar_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGunnar_OverrideSeenToday": false,
+				"HasMod: |contains=DN.SnS.CP": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=SnSgun}} = 1": true //key needs differentiating per mod
+			}
+		},
+		//Plum Forrest + Family
+		{
+			"LogName": "Gunnar Plum Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gunnar",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GunnarDialoguePFAF.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGunnar_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGunnar_OverrideSeenToday": false,
+				"HasMod: |contains=AgentPhoenixCupcake.cp.PlumForrest": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=PFAFgun}} = 1": true //key needs differentiating per mod
+			}
+		},
+		//Metalcore Goes Cottagecore
+		{
+			"LogName": "Gunnar MGC Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gunnar",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GunnarDialogueMGC.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGunnar_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGunnar_OverrideSeenToday": false,
+				"HasMod: |contains=Squeaks.MGC.CP": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=MGCgun}} = 1": true //key needs differentiating per mod
+			}
+		},
+		//Clown Cinematic Universe Zone
+		//Traveling Dreamer - A New Dream
+		{
+			"LogName": "Gunnar Barron & John Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gunnar",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GunnarDialogueFCAND.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGunnar_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGunnar_OverrideSeenToday": false,
+				"HasMod: |contains=Fellowclown.AND": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=FCTDgun}} = 1": true //key needs differentiating per mod
+			}
+		},
+		//The Wayfarer
+		{
+			"LogName": "Gunnar Lyell Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gunnar",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GunnarDialogueFCTW.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGunnar_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGunnar_OverrideSeenToday": false,
+				"HasMod: |contains=Fellowclown.Lyell": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=FCTWgun}} = 1": true //key needs differentiating per mod
+			}
+		},
+		//Magical Family
+		{
+			"LogName": "Gunnar Valerie Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gunnar",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GunnarDialogueFCMF.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGunnar_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGunnar_OverrideSeenToday": false,
+				"HasMod: |contains=Fellowclown.MagicalFamily": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=FCMFgun}} = 1": true //key needs differentiating per mod
+			}
+		},
+		//Settling Waters
+		{
+			"LogName": "Gunnar Nikolai Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gunnar",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GunnarDialogueFCSW.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGunnar_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGunnar_OverrideSeenToday": false,
+				"HasMod: |contains=Fellowclown.Nikolai": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=FCSWgun}} = 1": true //key needs differentiating per mod
+			}
+		},
+		{
+			"LogName": "Gunnar YtA Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gunnar",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GunnarDialogueYtA.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGunnar_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGunnar_OverrideSeenToday": false,
+				"HasMod: |contains=yri.yri": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=YtAGun}} = 1": true //key needs differentiating per mod
+			}
+		},
+		{
+			"LogName": "Gunnar ARV Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gunnar",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GunnarDialogueARV.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGunnar_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGunnar_OverrideSeenToday": false,
+				"HasMod: |contains=Himetarts.ARV.CP": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=ARVGun}} = 1": true //key needs differentiating per mod
+			}
+		},
+		{
+			"LogName": "Gunnar Lucikiel Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gunnar",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GunnarDialogueLuc.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGunnar_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGunnar_OverrideSeenToday": false,
+				"HasMod: |contains=Arknir.Lucikiel": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=LucGun}} = 1": true //key needs differentiating per mod
+			}
+		},
+		{
+			"LogName": "Gunnar Lavril Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gunnar",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GunnarDialogueLav.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGunnar_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGunnar_OverrideSeenToday": false,
+				"HasMod: |contains=Arknir27.Lavril": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=LavGun}} = 1": true //key needs differentiating per mod
+			}
+		},
+
+		//standalone NPCs - TBD on 1.6 versions of Ayeisha, Stray Catfe, Delores, Sorren, Shiko, Paul, Mike, Wilford, Lunna, Denver, ARV, Aspen, Alecto, Riley, Constance/The Fish{{WeekDay}}ger, Sydney (and more these are just me skimming my old 1.5 mods folder lmao)
+		/* place holder template
+     {
+      "LogName": "Gunnar XXXXX Commentary", //mod name here
+      "Action": "EditData",
+      "Priority": "Late",
+		"Update": "OnLocationChange",
+      "Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gunnar",
+      "Entries": {
+        "{{WeekDay}}": "{{i18n:GunnarDialogueXXXXXXXXXX.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGunnar_OverrideSeenToday received"
+      },
+      "When": { 
+		"HasFlag |contains=MadDogGunnar_OverrideSeenToday": false,
+        "HasMod: |contains=X": true, //MOD ID HERE
+        "Query: {{Random: {{Range: 1, 20}}|key=XXXXXgun}} = 1": true //key needs differentiating per mod    //Abbreviation for key here
+      }
+    }
+     */
+
+		//expansions
+		//DTZ
+		 {
+      "LogName": "Gunnar DTZ Commentary", //mod name here
+      "Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+      "Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gunnar",
+      "Entries": {
+        "{{WeekDay}}": "{{i18n:GunnarDialogueDTZ.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current MadDogGunnar_OverrideSeenToday received"
+      },
+			"When": {
+				"HasFlag |contains=MadDogGunnar_OverrideSeenToday": false,
+				"HasMod: |contains=DTZ.DowntownZuzuCP": true, //MOD ID HERE
+				"Query: {{Random: {{Range: 1, 20}}|key=DTZgun}} = 1": true //key needs differentiating per mod    //Abbreviation for key here
+			}
+    }
+		/*//Stardew Valley Expanded
+		{
+			"LogName": "Gunnar SVE Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gunnar",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GunnarDialogueSVE.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGunnar_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGunnar_OverrideSeenToday": false,
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=SVEgun}} = 1": true //key needs differentiating per mod
+			}
+		},
+		//Ridgeside Village
+		{
+			"LogName": "Gunnar RSV Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gunnar",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GunnarDialogueRSV.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGunnar_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGunnar_OverrideSeenToday": false,
+				"HasMod: |contains=Rafseazz.RSVCP": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=RSVgun}} = 1": true //key needs differentiating per mod
+			}
+		}
+		//Visit Mount Vapius VMV
+		 {
+      "LogName": "Gunnar VMV Commentary", 
+      "Action": "EditData",
+      "Priority": "Late",
+		"Update": "OnLocationChange",
+      "Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gunnar",
+      "Entries": {
+        "{{WeekDay}}": "{{i18n:GunnarDialogueVMV.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGunnar_OverrideSeenToday received"
+      },
+      "When": { 
+		"HasFlag |contains=MadDogGunnar_OverrideSeenToday": false,
+        "HasMod: |contains=Lumisteria.MtVapius": true, //(no public alpha or release yet!!!!!!!!!!!!)
+        "Query: {{Random: {{Range: 1, 20}}|key=VMVgun}} = 1": true //key needs differentiating per mod   
+      }
+    }
+  */
+		//Sunberry Village SBV
+		/* {
+      "LogName": "Gunnar SBV Commentary", 
+      "Action": "EditData",
+      "Priority": "Late",
+		"Update": "OnLocationChange",
+      "Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gunnar",
+      "Entries": {
+        "{{WeekDay}}": "{{i18n:GunnarDialogueSBV.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGunnar_OverrideSeenToday received"
+      },
+      "When": { 
+		"HasFlag |contains=MadDogGunnar_OverrideSeenToday": false,
+        "HasMod: |contains=skellady.SBVCP": true, //MOD ID HERE - TBD (no public alpha or release yet!!!!!!!!!!!!)
+        "Query: {{Random: {{Range: 1, 20}}|key=SBVgun}} = 1": true //key needs differentiating per mod    
+      }
+    }
+    */
+		//TBD Expansions depending on 1.6 - Cape Stardew, Adventurer Guild Expanded, Defense Division, Boarding House
+		/* place holder template
+     {
+      "LogName": "Gunnar XXXXX Commentary", //mod name here
+      "Action": "EditData",
+      "Priority": "Late",
+		"Update": "OnLocationChange",
+      "Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gunnar",
+      "Entries": {
+        "{{WeekDay}}": "{{i18n:GunnarDialogueXXXXXXXXXX.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGunnar_OverrideSeenToday received"
+      },
+      "When": { 
+		"HasFlag |contains=MadDogGunnar_OverrideSeenToday": false,
+        "HasMod: |contains=X": true, //MOD ID HERE
+        "Query: {{Random: {{Range: 1, 20}}|key=XXXXXgun}} = 1": true //key needs differentiating per mod    //Abbreviation for key here
+      }
+    }
+     */
+	]
+}
+

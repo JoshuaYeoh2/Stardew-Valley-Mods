@@ -1,0 +1,19 @@
+{
+  "Name": "Diamond in the Rough - Farm Type Manager",
+  "Author": "7thAxis",
+  "Description": "Controls forage and other FTM settings for DitR.",
+    "Version": "1.0.0",
+  "UniqueID": "7thAxis.DitR.FTM",
+   "UpdateKeys": ["Nexus:???"],
+  "MinimumApiVersion": "2.5",
+  "ContentPackFor": {
+    "UniqueID": "Esca.FarmTypeManager",
+    "MinimumVersion": "1.4.4"
+  },
+  "Dependencies": [
+		{
+			"UniqueID": "7thAxis.DitR",
+			"IsRequired": true
+		}
+  ]
+}

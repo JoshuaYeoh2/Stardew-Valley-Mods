@@ -1,0 +1,60 @@
+{
+  "Changes": [
+    {
+	  "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+	"MaggiSaura": {
+	   "DisplayName": "{{i18n:MaggiSaura}}",
+	   "BirthSeason": "Fall",
+	   "BirthDay": 11,
+	   "HomeRegion": "Town",
+	   "Gender": "Female",
+	   "Age": "Teen",
+	   "Manner": "Polite",
+	   "SocialAnxiety": "Neutral",
+	   "Optimism": "Positive",
+	   "CanBeRomanced": false,
+	   "SocialTab": "UnknownUntilMet",
+       "IntroductionsQuest": true,
+       "PerfectionScore": true,
+	   "Home": [
+	     {
+		  "Id": "Default",
+		  "Location": "CasaEstrada",
+		  "Tile": { 
+		    "X": 2,
+			"Y": 7
+		  },
+		  "Direction": "Right"
+		 }
+	    ]
+	   }
+	  }
+	 },
+    {
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "MaggiSaura": "{{i18n:gifts.maggi.love}}/832 106 206/{{i18n:gifts.maggi.like}}/426 436 438 254 828/{{i18n:gifts.maggi.neutral}}/724 419 872/{{i18n:gifts.maggi.dislike}}/243 906 346 303/{{i18n:gifts.maggi.hate}}/306 307 308 807/"
+       }
+    },
+    //Loves Pineapple, Ornamental Fan, Pizza
+    //Dislikes Miner's Treat, Poi, Beer, Pale Ale 
+	//Hates all Mayo products
+	{
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/MaggiSaura",
+      "FromFile": "assets/NPCs/Characters/MaggiFullSprites2.png"
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/MaggiSaura",
+      "FromFile": "assets/NPCs/Portraits/MaggiFullPortraits2.png"
+    }
+  ]
+}

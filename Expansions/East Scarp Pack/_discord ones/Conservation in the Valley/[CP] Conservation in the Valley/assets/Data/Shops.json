@@ -1,0 +1,110 @@
+{
+  "Changes": [
+    {
+      "LogName": "Aida Livestock and Edible Native Seeds Shop",
+      "Action": "EditMap",
+      "Target": "Maps/RanchoEstrada",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 28,
+            "Y": 13
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "OpenShop AidasLENS_Saurianne none 800 1630"
+          }
+        }
+      ]
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "Entries": {
+        "AidasLENS_Saurianne": {
+          "Id": "AidaLENS_Shop",
+          "Owners": [ //don't need this
+            {
+              "Name": "AidaSaura",
+              //"Condition": "TIME 600 2400",
+              //"Portrait": "{{InternalAssetKey: assets/MadDog.Bearfam_JojaVendingPortrait.png}}",
+              "Dialogues": [
+                {
+                  "Dialogue": "{{i18n:aida.dialogue.shop}}"
+                }
+              ]
+            }
+          ],
+          "SalableItemTags": null,
+          "Items": [
+            {
+              "Id": "Sauri.CITV_MinersLettuceSeeds",
+              "Price": 20,
+              "AvailableStock": 15,
+              "AvailableStockLimit": "Player",
+              "ItemID": "(O)CITV_MinersLettuceSeeds"
+
+            },
+            {
+              "Id": "Sauri.CITV_GoldenCurrantSeeds",
+              "Price": 20,
+              "AvailableStock": 15,
+              "AvailableStockLimit": "Player",
+              "ItemID": "(O)CITV_GoldenCurrantSeeds"
+            },
+            {
+              "Id": "Sauri.CITV_LemonadeBerrySeeds",
+              "Price": 20,
+              "AvailableStock": 15,
+              "AvailableStockLimit": "Player",
+              "ItemID": "(O)CITV_LemonadeBerrySeeds"
+            },
+            {
+              "Id": "Sauri.CITV_BearGrassSeeds",
+              "Price": 20,
+              "AvailableStock": 15,
+              "AvailableStockLimit": "Player",
+              "ItemID": "(O)CITV_BearGrassSeeds"
+            },
+            {
+              "Id": "Sauri.CITV_ManzanitaSeeds",
+              "Price": 20,
+              "AvailableStock": 15,
+              "AvailableStockLimit": "Player",
+              "ItemID": "(O)CITV_ManzanitaSeeds"
+            },
+            {
+              "Id": "Sauri.CITV_BlackWalnutSapling",
+              "Price": 1000,
+              "AvailableStock": 3,
+              "AvailableStockLimit": "Player",
+              "ItemID": "(O)CITV_BlackWalnutSapling"
+            },
+            {
+              "Id": "Sauri.CITV_BlackHawthornSapling",
+              "Price": 1000,
+              "AvailableStock": 3,
+              "AvailableStockLimit": "Player",
+              "ItemID": "(O)CITV_BlackHawthornSapling"
+            },
+            {
+              "Id": "Sauri.CITV_ValleyPlumSapling",
+              "Price": 1000,
+              "AvailableStock": 3,
+              "AvailableStockLimit": "Player",
+              "ItemID": "(O)CITV_ValleyPlumSapling"
+            },
+            {
+              "Id": "Sauri.CITV_LemonadeBerryAde",
+              "Price": 80,
+              "Condition": "SEASON Summer",
+              "AvailableStock": 10,
+              "AvailableStockLimit": "Player",
+              "ItemID": "(O)CITV_LemonadeBerryAde"
+            },
+          ]
+        }
+      }
+    }
+  ]
+}
