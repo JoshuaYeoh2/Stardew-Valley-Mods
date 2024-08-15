@@ -1,0 +1,123 @@
+{
+    "Changes": 
+    [
+        {
+        
+            "LogName": "Normal Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialogueSigurd",
+          "Entries": {
+
+            //this gets renamed back to MarriageDialogueSigurd    
+
+            /*"patio_Sig": "{{Random:{{i18n:patioSig1}} ++ {{i18n:patioSig2}} ++ {{i18n:patioSig3}}|inputSeparator=++}}",
+            "spouseRoom_Sig": "{{Random:{{i18n:spouseroomSig1}} ++ {{i18n:spouseroomSig2}} ++ {{i18n:spouseroomSig3}}|inputSeparator=++}}",*/
+
+
+            "funLeave_Sig": "{{i18n:funLeaveMarriedSig}}",
+            "funReturn_Sig": "{{18n:funReturnMarriedSig}}",
+            //dates
+            "spring_Sig": "{{i18n:springMarriedSig}}",
+            "spring_24": "{{i18n:springMarriedSig24}",
+            "spring_19": "{{i18n:springMarriedSig19}}",
+            "summer_Sig": "{{i18n:summerMarriedSig}}",
+            "summer_11": "{{i18n:summerMarriedSig11}}",
+            "fall_Sig": "{{i18n:fallMarriedSig}}",
+            "fall_19": "{{i18n:fallMarriedSig19}}",
+            "winter_Sig": "{{i18n:winterMarriedSig}}",
+            "winter_24": "{{i18n:winterMarriedSig24}}",
+
+
+            //GENERIC DIALOGUE
+            //rainyday 
+            "Rainy_Day_0": "{{i18n:RainyDaySig0}}",
+            "Rainy_Day_1": "{{i18n:RainyDaySig1}}",
+            "Rainy_Day_2": "{{i18n:RainyDaySig2}}",
+            "Rainy_Day_3": "{{i18n:RainyDaySig3}}",
+            "Rainy_Day_4": "{{i18n:RainyDaySig4}}",
+            "Rainy_Day_5": "{{i18n:RainyDaySig5}}",
+            "Rainy_Day_6": "{{i18n:RainyDaySig6}}",
+
+            //rainynight
+            "Rainy_Night_0": "{{i18n:RainyNightSig0}}", //Ecclesiastes 4:11
+            "Rainy_Night_1": "{{i18n:RainyNightSig1}}",
+            "Rainy_Night_2": "{{i18n:RainyNightSig2}}",
+            "Rainy_Night_3": "{{i18n:RainyNightSig3}}", //Jojaflix = Netflix
+            "Rainy_Night_4": "{{i18n:RainyNightSig4}}", //Student-Song - John Milton May
+            "Rainy_Night_5": "{{i18n:RainyNightSig5}}",
+            "Rainy_Night_6": "{{i18n:RainyNightSig6}}",
+            "Rainy_Night_Sig": "{{i18n:RainyNightSig}}",
+
+            //indoorday
+            "Indoor_Day_0": "{{i18n:IndoorDaySig0}}",
+            "Indoor_Day_1": "{{i18n:IndoorDaySig1}}",
+            "Indoor_Day_2": "{{i18n:IndoorDaySig2}}",
+            "Indoor_Day_3": "{{i18n:IndoorDaySig3}}",
+            "Indoor_Day_4": "{{i18n:IndoorDaySig4}}",
+            "Indoor_Day_5": "{{i18n:IndoorDaySig5}}",
+            "Indoor_Day_Sig": "{{i18n:IndoorDaySig}}",
+
+            //indoornight
+            "Indoor_Night_0": "{{i18n:IndoorNightSig0}}",
+            "Indoor_Night_1": "{{i18n:IndoorNightSig1}}",
+            "Indoor_Night_2": "{{i18n:IndoorNightSig2}}",
+            "Indoor_Night_3": "{{i18n:IndoorNightSig3}}",
+            "Indoor_Night_4": "{{i18n:IndoorNightSig4}}",
+            "Indoor_Night_5": "{{i18n:IndoorNightSig5}}",
+
+            //outdoor
+            "Outdoor_0": "{{i18n:OutdoorSig0}}", //Give Me The Splendid, Silent Sun - Walt Whitman
+            "Outdoor_1": "{{i18n:OutdoorSig1}}",
+            "Outdoor_2": "{{i18n:OutdoorSig2}}",
+            "Outdoor_3": "{{i18n:OutdoorSig3}}",
+            "Outdoor_4": "{{i18n:OutdoorSig4}}",
+            "Outdoor_Sig": "{{i18n:OutdoorSig}}",
+
+            //kids
+
+            "OneKid_0": "{{i18n:OneKidSig0}}",
+            "OneKid_1": "{{i18n:OneKidSig1}}",
+            "OneKid_2": "{{i18n:OneKidSig2}}",
+            "OneKid_3": "{{i18n:OneKidSig3}}",
+            "OneKid_4": "{{i18n:OneKidSig4}}",
+            "TwoKids_0": "{{i18n:TwoKidsSig0}}",
+            "TwoKids_1": "{{i18n:TwoKidsSig1}}",
+            "TwoKids_2": "{{i18n:TwoKidsSig2}}",
+            "TwoKids_3": "{{i18n:TwoKidsSig3}}",
+            "TwoKids_4": "{{i18n:TwoKidsSig4}}",
+
+            //AFFECTION DIALOGUE
+
+            "Good_0": "{{i18n:GoodSig0}}",
+            "Good_1": "{{i18n:GoodSig1}}",
+            "Good_2": "{{i18n:GoodSig2}}",
+            "Good_3": "{{i18n:GoodSig3}}",
+            "Good_4": "{{i18n:GoodSig4}}",
+            "Good_5": "{{i18n:GoodSig5}}",
+            "Good_6": "{{i18n:GoodSig6}}",
+            "Good_7": "{{i18n:GoodSig7}}",
+            "Good_8": "{{i18n:GoodSig8}}", //Paterson - William Carlos Williams
+
+            "Neutral_0": "{{i18n:NeutralSig0}}",
+            "Neutral_1": "{{i18n:NeutralSig1}}",
+            "Neutral_2": "{{i18n:NeutralSig2}}",
+            "Neutral_3": "{{i18n:NeutralSig3}}",
+            "Neutral_4": "{{i18n:NeutralSig4}}",
+            "Neutral_5": "{{i18n:NeutralSig5}}",
+            "Neutral_6": "{{i18n:NeutralSig6}}",
+            "Neutral_7": "{{i18n:NeutralSig7}}",
+
+            "Bad_0": "{{i18n:BadSig0}}",
+            "Bad_1": "{{i18n:BadSig1}}",
+            "Bad_2": "{{i18n:BadSig2}}",
+            "Bad_3": "{{i18n:BadSig3}}",
+            "Bad_4": "{{i18n:BadSig4}}",
+            "Bad_5": "{{i18n:BadSig5}}",
+            "Bad_6": "{{i18n:BadSig6}}",
+            "Bad_7": "{{i18n:BadSig7}}",
+            "Bad_8": "{{i18n:BadSig8}}"
+
+          }            
+        }
+    ]
+}

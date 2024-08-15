@@ -1,0 +1,129 @@
+{
+   "Changes": [
+          {
+         "Action":"EditData",
+         "Target":"UnlockableBundles/WalletCurrencies",
+              "When": {
+                "HasMod": "DLX.Bundles"
+            },
+         "Entries":{
+            "{{ModID}}_ArcaCoin":{
+               "Shared":false,
+               "HoldItemUpOnDiscovery":false,
+               "DrawOverheadPickupAnimation":true,
+               "OverheadPickupTexture":"Mods/{{ModID}}/Objects",
+               "OverheadPickupAnimation":"0@800",
+               "OverheadPickupTextureWidth":16,
+               "BillboardTexture":"Mods/{{ModID}}/Wallet",
+               "BillboardAnimation":"0@800",
+               "BillboardTextureWidth":16,
+               "BillboardDigits":4,
+               "PlayMoneyRollSound":true,
+               "Items":[
+                  {
+                     "ItemId":"(O){{ModID}}_ArcaCoin",
+                     "Value":1
+                  }
+               ],
+               "PowersData":{
+                  "DisplayName":"{{i18n:FC.Ancient.ArcaCoin}}",
+                  "TexturePath":"Mods/{{ModID}}/Wallet",
+                  "TexturePosition":{
+                     "X":0,
+                     "Y":0
+                  }
+               }
+            }
+         }
+      },
+     {
+            "Action": "Load",
+            "FromFile": "Assets/Maps/Tilesheets/PC_Icon.png",
+            "Target": "Mods/{{ModID}}/PC_Icon",
+            "When": {
+                "HasMod": "shekurika.worldMaps"
+            }
+        },
+{
+            "Action": "EditData",
+            "Entries": {
+                "{{ModID}}_OldGraveYard": {
+                    "Condition": "PLAYER_VISITED_LOCATION Current Fellowclown.PC_OldGraveYard",
+                    "Location": "{{ModID}}_OldGraveYard",
+                    "SpriteIndex": 0,
+                    "Texture": "Mods/{{ModID}}/PC_Icon"
+                }
+            },
+            "Target": "Mods/shekurika.Worldmaps/WorldMapData",
+            "When": {
+                 "HasMod": "shekurika.worldMaps"
+            }
+        },
+        {
+    "Action": "EditData",
+    "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+    "Entries": {
+        "FC.FakeNpc": {
+            "Exclude": true
+        },
+          "FC.Mellie": {
+            "Exclude": true
+        },
+          "FC.Twinkle": {
+            "Exclude": true
+        }
+    },
+            "When": {
+                 "HasMod": "Bouhm.NPCMapLocations"
+            }
+},
+       {
+    "Action": "EditData",
+    "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+    "Entries": {
+        "FC.Dezerie": {
+            "Exclude": true
+        }
+    },
+            "When": {
+                 "HasSeenEvent |contains={{ModID}}_SummoningRett": true,
+            }
+},
+       {
+    "Action": "EditData",
+    "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+    "Entries": {
+        "FC.Dezerie": {
+            "Exclude": false
+        }
+    },
+            "When": {
+                 "HasSeenEvent |contains={{ModID}}_ConfessionsOfMother": true,
+            }
+},
+{
+    "Action": "EditData",
+    "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+     "When": {
+           "HasMod |contains=Bouhm.NPCMapLocations": true
+            },
+    "Entries": {
+        "FC.Lyell": {
+            "MarkerCropOffset": 480,
+        },
+         "FC.Roswell": {
+            "MarkerCropOffset": 327,
+        },
+         "FC.Alan": {
+            "MarkerCropOffset": 5,
+        },
+         "FC.Dezerie": {
+            "MarkerCropOffset": 5,
+        },
+          "FC.Thalia": {
+            "MarkerCropOffset": 4,
+        },
+    }
+},
+   ]
+}

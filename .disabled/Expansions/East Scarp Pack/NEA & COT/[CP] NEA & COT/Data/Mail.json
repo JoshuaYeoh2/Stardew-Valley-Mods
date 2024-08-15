@@ -1,0 +1,91 @@
+{
+    "Changes": [
+        // LETTERS
+        {
+            "LogName": "Letter from the Hospital",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "MateoHospital":"{{i18n:Mail.Mateo.Letter1}}",
+            }
+        },
+        {
+            "LogName": "Date in the Mines",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "MineDateInvite":"{{i18n:Mail.Mateo.Letter2}}"
+            }
+        },
+        {
+            "LogName": "Autumnal Stew Recipe",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "MateoAutumnalStew":"{{i18n:Mail.Mateo.Letter3}}"
+            }
+        },
+        {
+            "LogName": "Salish Bourbon Recipe",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "MateoSalishBourbon":"{{i18n:Mail.Mateo.Letter4}}"
+            }
+        },
+        {
+            "LogName": "From the mysterious 'B'",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "HectorIntroLetter":"{{i18n:Mail.Hector.Letter0}}"
+            }
+        },
+        {
+            "LogName": "From the mysterious 'B'",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "AetherQuest":"{{i18n:Mail.Hector.Letter1}}"
+            }
+        },
+        {
+            "LogName": "From the mysterious 'B'",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "AetherQuest2":"{{i18n:Mail.Hector.Letter2}}"
+            }
+        },
+
+        // TRIGGER ACTIONS
+        {
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModID}}_AutumnalStew": {
+					"Id": "{{ModID}}_AutumnalStew",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_SEEN_EVENT Current SnS.Ch1.Mateo.4",
+					"Actions": [
+						"AddMail Current MateoAutumnalStew tomorrow",
+					]
+				}
+			}
+		},
+        {
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModID}}_SalishBourbon": {
+					"Id": "{{ModID}}_SalishBourbon",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_SEEN_EVENT Current SnS.Ch1.Mateo.11",
+					"Actions": [
+						"AddMail Current MateoSalishBourbon tomorrow",
+					]
+				}
+			}
+		},
+    ]
+}

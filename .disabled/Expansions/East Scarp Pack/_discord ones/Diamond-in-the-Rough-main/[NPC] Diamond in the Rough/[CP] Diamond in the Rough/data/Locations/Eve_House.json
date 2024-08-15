@@ -1,0 +1,146 @@
+{
+    "Changes": [
+
+//---------------------------- EXTERIOR LOAD ------------------------------------------//   
+        {
+            "Action": "EditMap",
+            "Target": "Maps/EastScarp_Village",
+            "FromFile": "assets/Maps/Eve_House_Exterior.tmx",
+            "ToArea": { "X": 74, "Y": 85, "Width": 13, "Height": 12 },
+            "PatchMode": "Replace"
+        },
+//---------------------------- INTERIOR LOAD ------------------------------------------//          
+        {
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_Maps.Eve_House_Interior",
+			"FromFile": "assets/Maps/Eve_House_Interior.tmx"
+		},
+        {
+			"LogName": "Location Data",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"{{ModID}}_Maps.Eve_House_Interior": {
+                    "MusicIsTownTheme": true,
+					"DisplayName": "{{i18n:Maps.EveT.EveHouse}}",
+					"DefaultArrivalTile": { "X": 6, "Y": 10 },
+					"CreateOnLoad": { "MapPath": "Maps/{{ModID}}_Maps.Eve_House_Interior" },
+					"FormerLocationNames": [ "7thAxis.LotV.Eve_House_Interior" ]
+				}
+			}
+		},
+//---------------------------- WARPS ------------------------------------------//   
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_Maps.Eve_House_Interior",
+            "AddWarps": [ "6 11 EastScarp_Village 79 94" ]
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/EastScarp_Village",
+            "MapTiles": [
+                {
+                    "Position": { "X": 79, "Y": 93 },
+                    "Layer": "Buildings",
+                    "SetProperties": { "Action": "Warp 6 9 {{ModID}}_Maps.Eve_House_Interior" }
+                }
+            ]
+        },
+//---------------------------- SPECIAL TILES ------------------------------------------//
+    //Festive lights
+        {
+            "Action": "EditMap",
+            "Target": "Maps/EastScarp_Village",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "MapProperties", "Light" ],
+                    "Value": "79 92 2 81 92 1 82 92 2",
+                    "Delimiter": " "
+                }
+            ],
+            "When": { "Season |contains=Winter": true }
+        },
+    //MEEP Drawer
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_Maps.Eve_House_Interior",
+            "MapTiles": [
+                {
+                    "Position": { "X": 10, "Y": 4 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteraction_Image Mods/{{ModID}}_Images/Drawer_Photo.1",
+                        "MEEP_CloseupInteraction_Text": "{{i18n:Maps.EveT.EveTHDrawer}}"
+                    }
+                }
+            ]
+        },
+//---------------------------- GARBAGE CAN ------------------------------------------//
+        {
+            "Action": "EditData",
+            "Target": "Data/GarbageCans",
+            "TargetField": [ "GarbageCans" ], 
+            "Entries": {
+               
+                "7thAxis.DitR_TrashCan.EveT": {
+                    "BaseChance": 1.0,
+                    "Items": [
+                       {
+                            "Id": "7thAxis.DitR_TrashCan.EveT.Bombs",
+                            "Condition": "RANDOM 0.1",
+                            "RandomItemId": [ 
+                                "(O)286", "(O)288", "(O)287", //Bombs
+                                "(O)893", "(O)894", "(O)895", //Fireworks
+                                "(O)441" //Explosive Ammo
+                            ]
+                        },
+                        {
+                            "Id": "7thAxis.DitR_TrashCan.EveT.StinkyBomb",
+                            "Condition": "RANDOM 0.4",
+                            "RandomItemId": [ "(O){{ModID}}_Items.ExpiredMegaBomb" ]
+                        },
+                        {
+                            "Id": "7thAxis.DitR_TrashCan.EveT.Trash",
+                            "RandomItemId": [ "(O)168", "(O)172" ]
+                        }
+                    ],
+                    "CustomFields": {}
+                }
+            }
+        },
+//---------------------------- MAP STRINGS ------------------------------------------//   
+        {
+            "LogName": "Eve Map Strings",
+            "Action": "EditData",
+            "Target": "strings/StringsFromMaps",
+            "Entries": {
+
+                //Outside
+                "EveTHPipoFood": "{{i18n:Maps.EveT.EveTHPipoFood}}",
+                "EveTHPlanter1": "{{i18n:Maps.EveT.EveTHPlanter1}}",
+                "EveTHPlanter2": "{{i18n:Maps.EveT.EveTHPlanter2}}",
+                "EveTHPlanter3": "{{i18n:Maps.EveT.EveTHPlanter3}}",
+                "EveTHFirePit": "{{i18n:Maps.EveT.EveTHFirePit}}",
+                "EveTHMailBox": "{{i18n:Maps.EveT.EveTHMailBox|MailPerson={{i18n:Maps.EveT.EveTHMailBox.Ayeisha.{{HasMod: |contains=TheLimeyDragon.Ayeisha}}}}}}",
+
+                //Inside                
+                "EveTHSink": "{{i18n:Maps.EveT.EveTHSink}}",
+                "EveTHFridge": "{{i18n:Maps.EveT.EveTHFridge}}",
+                "EveTHStove": "{{i18n:Maps.EveT.EveTHStove}}",
+                "EveTMegaBomb": "{{i18n:Maps.EveT.EveTMegaBomb}}",
+                "EveTHDogBowl": "{{i18n:Maps.EveT.EveTHDogBowl}}",
+                "EveTHPainting": "{{i18n:Maps.EveT.EveTHPainting}}",
+                "EveTHDogBed": "{{i18n:Maps.EveT.EveTHDogBed}}",
+                "EveTHPlant": "{{i18n:Maps.EveT.EveTHPlant}}",
+                "EveTHCherryBomb": "{{i18n:Maps.EveT.EveTHCherryBomb}}",
+                "EveTHBed": "{{i18n:Maps.EveT.EveTHBed}}",
+                "EveTHBomb": "{{i18n:Maps.EveT.EveTHBomb}}",
+                "EveTHFlower": "{{i18n:Maps.EveT.EveTHFlower}}",
+                "EveTHTable": "{{i18n:Maps.EveT.EveTHTable}}",
+                "EveTHCactus": "{{i18n:Maps.EveT.EveTHCactus}}",
+                "EveTHGems": "{{i18n:Maps.EveT.EveTHGems}}"
+            }
+        }
+    ]
+}

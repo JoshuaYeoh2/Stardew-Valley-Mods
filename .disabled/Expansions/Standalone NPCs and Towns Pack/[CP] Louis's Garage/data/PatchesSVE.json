@@ -1,0 +1,98 @@
+{
+	
+	"Changes": [
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			"FromFile": "assets/TownSVE.tmx",
+			"FromArea": {
+				"X": 111,
+				"Y": 82,
+				"Width": 12,
+				"Height": 18
+			},
+			"ToArea": {
+				"X": 111,
+				"Y": 82,
+				"Width": 12,
+				"Height": 18
+			},
+			"PatchMode": "Replace"
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			"FromFile": "assets/TownSVE.tmx",
+			"FromArea": {
+				"X": 105,
+				"Y": 95,
+				"Width": 6,
+				"Height": 3
+			},
+			"ToArea": {
+				"X": 105,
+				"Y": 95,
+				"Width": 6,
+				"Height": 3
+			},
+			"PatchMode": "Replace",
+			"When": {
+				"DLX.Bundles/Purchased": "{{ModId}}_EVChargers"
+			},
+			"Update": "OnDayStart"
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Custom_LouisInterior",
+			"AddWarps": [
+				"26 36 Town 119 92", 
+				"27 36 Town 120 92",
+				"12 36 Town 113 92", 
+				"13 36 Town 114 92",
+				"14 36 Town 115 92",
+				"15 36 Town 116 92"
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Custom_Garden",
+			"MapTiles": [
+				{
+					"Position": { "X": 0, "Y": 27},
+					"Layer": "Back",
+					"SetProperties": {
+						"TouchAction": "Warp Town 122 94",
+					},
+				},
+				{
+					"Position": { "X": 0, "Y": 28},
+					"Layer": "Back",
+					"SetProperties": {
+						"TouchAction": "Warp Town 122 94",
+					},
+				},
+				{
+					"Position": { "X": 0, "Y": 29},
+					"Layer": "Back",
+					"SetProperties": {
+						"TouchAction": "Warp Town 122 94",
+					},
+				},
+				{
+					"Position": { "X": 0, "Y": 30},
+					"Layer": "Back",
+					"SetProperties": {
+						"TouchAction": "Warp Town 122 94",
+					},
+				},
+				{
+					"Position": { "X": 0, "Y": 31},
+					"Layer": "Back",
+					"SetProperties": {
+						"TouchAction": "Warp Town 122 94",
+					},
+				},
+			],
+		},
+	]
+}

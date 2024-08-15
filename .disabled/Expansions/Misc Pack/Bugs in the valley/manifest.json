@@ -1,0 +1,15 @@
+{
+    "Name": "Bugs in the valley",
+    "Author": "Hitaxas",
+    "Version": "1.2", // fixed some typos, added 2 new bugs, a german translation and some mail that utilizes Museum Donation Checker
+    "Description": "Adds bugs as new forgeable and museum donatable items.",
+    "UniqueID": "Hitaxas.Bugs",
+    "UpdateKeys": ["Nexus: 24071"],
+    "Dependencies": [
+        {"UniqueID": "sophie.Calcifer", "IsRequired": true}
+],
+    "MinimumApiVersion": "4.0.0-alpha",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

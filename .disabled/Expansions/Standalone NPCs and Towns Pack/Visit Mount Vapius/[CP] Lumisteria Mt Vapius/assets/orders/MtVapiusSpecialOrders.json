@@ -1,0 +1,914 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "Lumisteria.MtVapiusSpecialOrders.MtVapiusFlowers": {
+          "Name": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusFlowers_Name]",
+          "Requester": "Demetrius",
+          "Duration": "TwoWeeks",
+          "Repeatable": "True",
+          "RequiredTags": "!season_winter, !season_fall",
+          "OrderType": "Esca.EMP/MtVapiusBoard",
+          "SpecialRule": "",
+          "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusFlowers_Text]",
+          "RandomizedElements": [
+            {
+              "Name": "Text",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusFlowers_RE_Text_0]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusFlowers_RE_Text_1]"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusFlowers_Objective_0_Text]",
+              "RequiredCount": "40",
+              "Data": {
+                "AcceptedContextTags": "mt_vapius, flower_item/category_flowers"
+              }
+            },
+            {
+              "Type": "Ship",
+              "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusFlowers_Objective_1_Text]",
+              "RequiredCount": "40",
+              "Data": {
+                "AcceptedContextTags": "mt_vapius, flower_item/category_flowers"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "3500"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "Lumisteria.MtVapiusSpecialOrders.MtVapiusFlowersMail",
+                "NoLetter": "false"
+              }
+            }
+          ]
+        },
+        "Lumisteria.MtVapiusSpecialOrders.PelicanFlowers": {
+          "Name": "[Lumisteria.MtVapiusSpecialOrders.PelicanFlowers_Name]",
+          "Requester": "CelestineDuboisVMV",
+          "Duration": "TwoWeeks",
+          "Repeatable": "True",
+          "RequiredTags": "!season_winter",
+          "OrderType": "Esca.EMP/MtVapiusBoard",
+          "SpecialRule": "",
+          "Text": "[Lumisteria.MtVapiusSpecialOrders.PelicanFlowers_Text]",
+          "RandomizedElements": [
+            {
+              "Name": "Crop",
+              "Values": [
+                {
+                  "RequiredTags": "season_spring",
+                  "Value": "PICK_ITEM Tulip, Blue Jazz"
+                },
+                {
+                  "RequiredTags": "season_summer",
+                  "Value": "PICK_ITEM Poppy, Summer Spangle, Sunflower"
+                },
+                {
+                  "RequiredTags": "season_fall",
+                  "Value": "PICK_ITEM Sunflower, Fairy Rose"
+                }
+              ]
+            },
+            {
+              "Name": "Text",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "[Lumisteria.MtVapiusSpecialOrders.PelicanFlowers_RE_Text_0]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "[Lumisteria.MtVapiusSpecialOrders.PelicanFlowers_RE_Text_1]"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "[Lumisteria.MtVapiusSpecialOrders.PelicanFlowers_Objective_0_Text]",
+              "RequiredCount": "40",
+              "Data": {
+                "AcceptedContextTags": "{Crop:Tags}"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "[Lumisteria.MtVapiusSpecialOrders.PelicanFlowers_Objective_1_Text]",
+              "RequiredCount": "40",
+              "Data": {
+                "DropBox": "MtVapiusBox",
+                "DropBoxGameLocation": "Lumisteria.MtVapius_Hamlet",
+                "DropBoxIndicatorLocation": "38 63",
+                "MinimumCapacity": "30",
+                "AcceptedContextTags": "{Crop:Tags}"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "{Crop:Price}",
+                "Multiplier": "50"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "Lumisteria.MtVapiusSpecialOrders.PelicanFlowersMail",
+                "NoLetter": "false"
+              }
+            }
+          ]
+        },
+        "Lumisteria.MtVapiusSpecialOrders.MtVapiusSeasonCrops": {
+          "Name": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusSeasonCrops_Name]",
+          "Requester": "CelestineDuboisVMV",
+          "Duration": "Month",
+          "Repeatable": "True",
+          "RequiredTags": "!season_winter, !dropbox_MtVapiusBox",
+          "OrderType": "Esca.EMP/MtVapiusBoard",
+          "SpecialRule": "",
+          "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusSeasonCrops_Text]",
+          "RandomizedElements": [
+            {
+              "Name": "Crop",
+              "Values": [
+                {
+                  "RequiredTags": "season_spring",
+                  "Value": "PICK_ITEM Green Bean, Potato"
+                },
+                {
+                  "RequiredTags": "season_summer",
+                  "Value": "PICK_ITEM Tomato, Hot Pepper"
+                },
+                {
+                  "RequiredTags": "season_fall",
+                  "Value": "PICK_ITEM Yam, Eggplant"
+                }
+              ]
+            },
+            {
+              "Name": "Text",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusSeasonCrops_RE_Text_0]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusSeasonCrops_RE_Text_1]"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusSeasonCrops_Objective_0_Text]",
+              "RequiredCount": "90",
+              "Data": {
+                "AcceptedContextTags": "{Crop:Tags}"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusSeasonCrops_Objective_1_Text]",
+              "RequiredCount": "90",
+              "Data": {
+                "DropBox": "MtVapiusBox",
+                "DropBoxGameLocation": "Lumisteria.MtVapius_Hamlet",
+                "DropBoxIndicatorLocation": "38 63",
+                "MinimumCapacity": "30",
+                "AcceptedContextTags": "{Crop:Tags}"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "{Crop:Price}",
+                "Multiplier": "105"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "Lumisteria.MtVapiusSpecialOrders.MtVapiusSeasonCropsMail",
+                "NoLetter": "false"
+              }
+            }
+          ]
+        },
+        "Lumisteria.MtVapiusSpecialOrders.MtVapiusShipping": {
+          "Name": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusShipping_Name]",
+          "Requester": "CelestineDuboisVMV",
+          "Duration": "Month",
+          "Repeatable": "True",
+          "RequiredTags": "!season_winter, !dropbox_MtVapiusBox",
+          "OrderType": "Esca.EMP/MtVapiusBoard",
+          "SpecialRule": "",
+          "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusShipping_Text]",
+          "RandomizedElements": [
+            {
+              "Name": "Crop",
+              "Values": [
+                {
+                  "RequiredTags": "season_spring",
+                  "Value": "PICK_ITEM Cauliflower, Rhubarb"
+                },
+                {
+                  "RequiredTags": "season_summer",
+                  "Value": "PICK_ITEM Tomato, Blueberry, Melon, Hot Pepper, Red Cabbage"
+                },
+                {
+                  "RequiredTags": "season_fall",
+                  "Value": "PICK_ITEM Pumpkin, Eggplant, Cranberries, Grape, Artichoke"
+                }
+              ]
+            },
+            {
+              "Name": "Crop2",
+              "Values": [
+                {
+                  "RequiredTags": "season_spring",
+                  "Value": "PICK_ITEM Green Bean, Garlic"
+                },
+                {
+                  "RequiredTags": "season_summer",
+                  "Value": "PICK_ITEM Radish, Wheat"
+                },
+                {
+                  "RequiredTags": "season_fall",
+                  "Value": "PICK_ITEM Bok Choy, Amaranth, Yam, Beet"
+                }
+              ]
+            },
+            {
+              "Name": "Text",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusShipping_RE_Text_0]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusShipping_RE_Text_1]"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusShipping_Objective_0_Text]",
+              "RequiredCount": "40",
+              "Data": {
+                "AcceptedContextTags": "{Crop:Tags}"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusShipping_Objective_1_Text]",
+              "RequiredCount": "40",
+              "Data": {
+                "DropBox": "MtVapiusBox",
+                "DropBoxGameLocation": "Lumisteria.MtVapius_Hamlet",
+                "DropBoxIndicatorLocation": "38 63",
+                "MinimumCapacity": "30",
+                "AcceptedContextTags": "{Crop:Tags}"
+              }
+            },
+            {
+              "Type": "Collect",
+              "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusShipping_Objective_2_Text]",
+              "RequiredCount": "80",
+              "Data": {
+                "AcceptedContextTags": "{Crop2:Tags}"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusShipping_Objective_3_Text]",
+              "RequiredCount": "80",
+              "Data": {
+                "DropBox": "MtVapiusBox",
+                "DropBoxGameLocation": "Lumisteria.MtVapius_Hamlet",
+                "DropBoxIndicatorLocation": "38 63",
+                "MinimumCapacity": "30",
+                "AcceptedContextTags": "{Crop2:Tags}"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "{Crop:Price}",
+                "Multiplier": "60"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "Lumisteria.MtVapiusSpecialOrders.MtVapiusShippingMail",
+                "NoLetter": "false"
+              }
+            }
+          ]
+        },
+        "Lumisteria.MtVapiusSpecialOrders.MtVapiusFishes": {
+          "Name": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusFishes_Name]",
+          "Requester": "Demetrius",
+          "Duration": "TwoWeeks",
+          "Repeatable": "True",
+          "RequiredTags": "",
+          "OrderType": "Esca.EMP/MtVapiusBoard",
+          "SpecialRule": "",
+          "MailToRemoveOnEnd": "Lumisteria.MtVapiusSpecialOrders.MtVapiusFishesMail",
+          "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusFishes_Text]",
+          "RandomizedElements": [
+            {
+              "Name": "Text",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusFishes_RE_Text_0]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusFishes_RE_Text_1]"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusFishes_Objective_0_Text]",
+              "RequiredCount": "20",
+              "Data": {
+                "AcceptedContextTags": "mt_vapius, category_fish"
+              }
+            },
+            {
+              "Type": "Ship",
+              "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusFishes_Objective_1_Text]",
+              "RequiredCount": "20",
+              "Data": {
+                "AcceptedContextTags": "mt_vapius, category_fish"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1000"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "Lumisteria.MtVapiusSpecialOrders.MtVapiusFishesMail",
+                "NoLetter": "false"
+              }
+            }
+          ]
+        },
+        "Lumisteria.MtVapiusSpecialOrders.MtVapiusLodgeStarfruits": {
+          "Name": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusLodgeStarfruits_Name]",
+          "Requester": "Marlon",
+          "Duration": "Month",
+          "Repeatable": "False",
+          "RequiredTags": "event_Lumisteria.MtVapius_Arrival, season_summer",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusLodgeStarfruits_Text]",
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusLodgeStarfruits_Objective_0_Text]",
+              "RequiredCount": "25",
+              "Data": {
+                "AcceptedContextTags": "item_starfruit"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusLodgeStarfruits_Objective_1_Text]",
+              "RequiredCount": "25",
+              "Data": {
+                "DropBox": "MtVapiusBox",
+                "DropBoxGameLocation": "Lumisteria.MtVapius_Hamlet",
+                "DropBoxIndicatorLocation": "38 63",
+                "MinimumCapacity": "9",
+                "AcceptedContextTags": "item_starfruit"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "38000"
+              }
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "Lumisteria.MtVapiusSpecialOrders.MtVapiusLodgeStarfruitsMail",
+                "NoLetter": "false"
+              }
+            }
+          ]
+        },
+        "Lumisteria.MtVapiusSpecialOrders.MtVapiusLodgeStarfruits2": {
+          "Name": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusLodgeStarfruits2_Name]",
+          "Requester": "MtVapiusLodge",
+          "Duration": "Month",
+          "Repeatable": "False",
+          "RequiredTags": "mail_Lumisteria.MtVapiusSpecialOrders.MtVapiusLodgeStarfruitsMail, season_summer",
+          "OrderType": "Esca.EMP/MtVapiusBoard",
+          "SpecialRule": "",
+          "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusLodgeStarfruits2_Text]",
+          "RandomizedElements": [
+            {
+              "Name": "Text",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusLodgeStarfruits2_RE_Text_0]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusLodgeStarfruits2_RE_Text_1]"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusLodgeStarfruits2_Objective_0_Text]",
+              "RequiredCount": "30",
+              "Data": {
+                "AcceptedContextTags": "item_starfruit"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusLodgeStarfruits2_Objective_1_Text]",
+              "RequiredCount": "30",
+              "Data": {
+                "DropBox": "MtVapiusBox",
+                "DropBoxGameLocation": "Lumisteria.MtVapius_Hamlet",
+                "DropBoxIndicatorLocation": "38 63",
+                "MinimumCapacity": "9",
+                "AcceptedContextTags": "item_starfruit"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "46000",
+              }
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "Lumisteria.MtVapiusSpecialOrders.MtVapiusLodgeStarfruits2Mail",
+                "NoLetter": "false"
+              }
+            }
+          ]
+        },
+        "Lumisteria.MtVapiusSpecialOrders.MtVapiusSunflowers": {
+          "Name": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusSunflowers_Name]",
+          "Requester": "CelestineDuboisVMV",
+          "Duration": "TwoWeeks",
+          "Repeatable": "True",
+          "RequiredTags": "season_fall, !dropbox_MtVapiusBox",
+          "OrderType": "Esca.EMP/MtVapiusBoard",
+          "SpecialRule": "",
+          "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusSunflowers_Text]",
+          "MailToRemoveOnEnd": "Lumisteria.MtVapiusSpecialOrders.MtVapiusSunflowersMail",
+          "RandomizedElements": [
+            {
+              "Name": "Text",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusSunflowers_RE_Text_0]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusSunflowers_RE_Text_1]"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusSunflowers_Objective_0_Text]",
+              "RequiredCount": "40",
+              "Data": {
+                "AcceptedContextTags": "item_sunflower/sunflower_item"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusSunflowers_Objective_1_Text]",
+              "RequiredCount": "40",
+              "Data": {
+                "DropBox": "MtVapiusBox",
+                "DropBoxGameLocation": "Lumisteria.MtVapius_Hamlet",
+                "DropBoxIndicatorLocation": "38 63",
+                "MinimumCapacity": "30",
+                "AcceptedContextTags": "item_sunflower/sunflower_item"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "3500"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {
+                //"Amount": "300",
+                //"TargetName": "Robin"
+              }
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "Lumisteria.MtVapiusSpecialOrders.MtVapiusSunflowersMail",
+                "NoLetter": "false"
+              }
+            }
+          ]
+        },
+        "Lumisteria.MtVapiusSpecialOrders.MtVapiusMinerals": {
+          "Name": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusMinerals_Name]",
+          "Requester": "Gunther",
+          "Duration": "TwoWeeks",
+          "Repeatable": "True",
+          "RequiredTags": "!dropbox_GuntherBox",
+          "OrderType": "Esca.EMP/MtVapiusBoard",
+          "SpecialRule": "",
+          "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusMinerals_Text]",
+          "RandomizedElements": [
+            {
+              "Name": "Text",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusMinerals_RE_Text_0]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusMinerals_RE_Text_1]"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusMinerals_Objective_0_Text]",
+              "RequiredCount": "20",
+              "Data": {
+                "AcceptedContextTags": "mt_vapius, category_MtVapiusMinerals/category_gem"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusMinerals_Objective_1_Text]",
+              "RequiredCount": "20",
+              "Data": {
+                "DropBox": "GuntherBox",
+                "DropBoxGameLocation": "ArchaeologyHouse",
+                "DropBoxIndicatorLocation": "6 8",
+                "AcceptedContextTags": "mt_vapius, category_MtVapiusMinerals/category_gem"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1000"
+              }
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "Lumisteria.MtVapiusSpecialOrders.MtVapiusMineralsMail",
+                "NoLetter": "false"
+              }
+            }
+          ]
+        },
+        "Lumisteria.MtVapiusSpecialOrders.MtVapiusUrchins": {
+          "Name": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusUrchins_Name]",
+          "Requester": "AdelaideRosierVMV",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "!dropbox_MtVapiusBox",
+          "OrderType": "Esca.EMP/MtVapiusBoard",
+          "SpecialRule": "",
+          "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusUrchins_Text]",
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusUrchins_Objective_0_Text]",
+              "RequiredCount": "5",
+              "Data": {
+                "AcceptedContextTags": "item_sea_urchin"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusUrchins_Objective_1_Text]",
+              "RequiredCount": "5",
+              "Data": {
+                "DropBox": "MtVapiusBox",
+                "DropBoxGameLocation": "Lumisteria.MtVapius_Hamlet",
+                "DropBoxIndicatorLocation": "38 63",
+                "MinimumCapacity": "9",
+                "AcceptedContextTags": "item_sea_urchin"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1000"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "Lumisteria.MtVapiusSpecialOrders.MtVapiusUrchinsMail",
+                "NoLetter": "false"
+              }
+            }
+          ]
+        },
+        "Lumisteria.MtVapiusSpecialOrders.MtVapiusJellies": {
+          "Name": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusJellies_Name]",
+          "Requester": "CelestineDuboisVMV",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "!dropbox_MtVapiusBox",
+          "OrderType": "Esca.EMP/MtVapiusBoard",
+          "SpecialRule": "",
+          "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusJellies_Text]",
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusJellies_Objective_0_Text]",
+              "RequiredCount": "5",
+              "Data": {
+                "AcceptedContextTags": "jelly_item, !preserve_sheet_index_400, !preserve_sheet_index_260"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusJellies_Objective_1_Text]",
+              "RequiredCount": "5",
+              "Data": {
+                "DropBox": "MtVapiusBox",
+                "DropBoxGameLocation": "Lumisteria.MtVapius_Hamlet",
+                "DropBoxIndicatorLocation": "38 63",
+                "MinimumCapacity": "9",
+                "AcceptedContextTags": "jelly_item, !preserve_sheet_index_400, !preserve_sheet_index_260"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1500"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "Lumisteria.MtVapiusSpecialOrders.MtVapiusJelliesMail",
+                "NoLetter": "false"
+              }
+            }
+          ]
+        },
+        //Vanilla Board
+        "Lumisteria.MtVapiusSpecialOrders.MtVapiusMusicBandFood": {
+          "Name": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusMusicBandFood_Name]",
+          "Requester": "Sam",
+          "Duration": "Week",
+          "Repeatable": "true",
+          "RequiredTags": "!dropbox_RobinWood",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusMusicBandFood_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusMusicBandFood_Objective_0_Text]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_lumisteria.mtvapius_cooking_tourtons"
+              }
+            },
+            {
+              "Type": "Collect",
+              "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusMusicBandFood_Objective_1_Text]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_lumisteria.mtvapius_cooking_empanadas"
+              }
+            },
+            {
+              "Type": "Collect",
+              "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusMusicBandFood_Objective_2_Text]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_lumisteria.mtvapius_cooking_jampie"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusMusicBandFood_Objective_3_Text]",
+              "RequiredCount": "1",
+              "Data": {
+                "DropBox": "RobinWood",
+                "DropBoxGameLocation": "ScienceHouse",
+                "DropBoxIndicatorLocation": "10.5 18",
+                "MinimumCapacity": "9",
+                "AcceptedContextTags": "item_lumisteria.mtvapius_cooking_tourtons"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusMusicBandFood_Objective_4_Text]",
+              "RequiredCount": "1",
+              "Data": {
+                "DropBox": "RobinWood",
+                "DropBoxGameLocation": "ScienceHouse",
+                "DropBoxIndicatorLocation": "10.5 18",
+                "MinimumCapacity": "9",
+                "AcceptedContextTags": "item_lumisteria.mtvapius_cooking_empanadas"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusMusicBandFood_Objective_5_Text]",
+              "RequiredCount": "1",
+              "Data": {
+                "DropBox": "RobinWood",
+                "DropBoxGameLocation": "ScienceHouse",
+                "DropBoxIndicatorLocation": "10.5 18",
+                "MinimumCapacity": "9",
+                "AcceptedContextTags": "item_lumisteria.mtvapius_cooking_jampie"
+              }
+            },
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1800"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "Lumisteria.MtVapiusSpecialOrders.MtVapiusMusicBandFoodMail",
+                "NoLetter": "false"
+              }
+            }
+          ]
+        },
+        "Lumisteria.MtVapiusLotMonsterGoal": {
+          "Name": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusLotMonsterGoal]",
+          "Requester": "Mariam",
+          "Duration": "Week",
+          "Repeatable": true,
+          "RequiredTags": "",
+          "Condition": "",
+          "OrderType": "Esca.EMP/MtVapiusBoard",
+          "SpecialRule": "",
+          "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusLotMonsterGoal_Text]",
+          "MailToRemoveOnEnd": "Lumisteria.MtVapiusSpecialOrders.MtVapiusFishesMail",
+          "RandomizedElements": [
+            {
+              "Name": "Monster",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "Target|Slime,Frost Jelly, Sludge, Big Slime|LocalizedName|[Lumisteria.MtVapiusSpecialOrders.MtVapiusLotMonsterGoal_RE_Monster_0_LocalizedName]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "Target|Dust Spirit|LocalizedName|[Lumisteria.MtVapiusSpecialOrders.MtVapiusLotMonsterGoal_RE_Monster_1_LocalizedName]"
+                },
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Slay",
+              "Text": "[Lumisteria.MtVapiusSpecialOrders.MtVapiusLotMonsterGoal_Objective_0_Text]",
+              "RequiredCount": "70",
+              "Data": {
+                "TargetName": "{Monster:Target}"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "5000"
+              }
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "Lumisteria.MtVapiusSpecialOrders.MtVapiusLotMonsterGoalMail",
+                "NoLetter": "false"
+              }
+            }
+          ],
+          "CustomFields": null
+        },
+      }
+    }
+  ]
+}

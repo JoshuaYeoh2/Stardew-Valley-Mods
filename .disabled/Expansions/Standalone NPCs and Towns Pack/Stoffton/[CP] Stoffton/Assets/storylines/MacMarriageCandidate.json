@@ -1,0 +1,18 @@
+{
+"Changes": [
+
+//Changing Mac to a marriage candidate using config file
+{
+      "LogName": "Making Mac a marriage candidate",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Fields": {
+      "MacFS": {5: "datable"},
+      },
+      "When": {"MacMarriageCandidate": true}
+},
+
+
+
+]
+}

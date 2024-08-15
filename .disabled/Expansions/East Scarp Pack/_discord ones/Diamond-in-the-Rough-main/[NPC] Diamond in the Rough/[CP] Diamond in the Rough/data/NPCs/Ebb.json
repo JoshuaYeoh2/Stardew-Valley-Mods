@@ -1,0 +1,73 @@
+{
+    "Changes": [
+//---------------------------- DISPOSITIONS ------------------------------------------//
+        {
+            "LogName": "Ebb Dispositions",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "EbbS": {
+                    "DisplayName": "{{i18n:Core.EbbS.Name}}",
+                    "FormerCharacterNames": [ "Ebb" ],
+                    "HomeRegion": "Other",
+                    "Gender": "Undefined",
+                    "Age": "Adult",
+                    "Manner": "Polite",
+                    "SocialAnxiety": "Shy",
+                    "Optimism": "Positive",
+                    "CanBeRomanced": false,
+                    "LoveInterest": "Skrell",
+                    "Calendar": "HiddenAlways",
+                    "SocialTab": "HiddenAlways",
+                    "CanGreetNearbyCharacters": false,
+                    "IntroductionsQuest": false,
+                    "PerfectionScore": false,
+                    "WinterStarParticipant": false,
+                    "DumpsterDiveFriendshipEffect": 0,
+                    "DumpsterDiveEmote": 60,
+                    "CanVisitIsland": false,
+                    "CanCommentOnPurchasedShopItems": false,
+                    "EndSlideShow": "TrailingGroup",
+                    "SpawnIfMissing": true,
+                    "Breather": false,
+                    "Home": [
+                        {
+                            "Id": "Ebb Waiting Room",
+                            "Location": "EastScarp_TNPCWaitingWarpRoom",
+                            "Tile": { "X": 15, "Y": 9 },
+                            "Direction": "down",
+                            "Condition": "!PLAYER_HAS_SEEN_EVENT Current {{ModID}}_Events.TBA"
+                        }
+                    ]
+                }
+            }
+        },        
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "EbbS" ],
+            "Entries": { 
+                "Calendar": "AlwaysShown", 
+                "SocialTab": "AlwaysShown",
+                "BirthSeason": "fall",
+                "BirthDay": 5
+             },
+            "When": { "HasSeenEvent": "{{ModID}}_Events.TBA" }
+        },
+//---------------------------- GIFT TASTE ------------------------------------------//
+        {
+            "LogName": "Gift Taste",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "EbbS": "{{i18n:Gifts.EbbS.Love}}/5/{{i18n:Gifts.EbbS.Like}}/5/{{i18n:Gifts.EbbS.Dislike}}/-5/{{i18n:Gifts.EbbS.Hate}}/5/{{i18n:Gifts.EbbS.Neutral}}/5/"
+            }
+        },
+//---------------------------- SPRITES ------------------------------------------//
+        {
+            "Action": "Load",
+            "Target": "Characters/EbbS, Portraits/EbbS",
+            "FromFile": "assets/{{TargetPathOnly}}/Ebb/Ebb.png"
+        }
+     ]
+}

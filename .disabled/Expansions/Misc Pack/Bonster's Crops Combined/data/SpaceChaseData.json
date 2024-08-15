@@ -1,0 +1,26 @@
+"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/CookingRecipeOverrides",
+			"Entries": {
+				"Aranitas": {
+					"ProductQualifiedId": "{{ModId}}_Aranitas",
+					"ProductAmount": 1,
+					"Ingredients": [
+					{
+						"Type": "ContextTag",
+						"Value": "",
+						"Amount": 1,
+						"OverrideText": "Any mayonnaise or egg",
+						"OverrideTexturePath": "6480.blueegg/Objects",
+						"OverrideTextureRect": {
+							"X": 16,
+							"Y": 0,
+							"Width": 16,
+							"Height": 16
+						},
+					}
+					]
+				}
+			}
+		},

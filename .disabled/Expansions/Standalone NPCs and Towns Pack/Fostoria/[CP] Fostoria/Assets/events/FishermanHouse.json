@@ -1,0 +1,16 @@
+{
+"Changes": [
+	{
+   
+   "Action": "EditData",
+   "Target": "Data/Events/Fostoria.Stoffton_FishermanHouse",
+   "Entries":{
+
+
+  "114780002/e 114780001/c 3/i 726/i 84/i 72": "shaneTheme/6 15/farmer 6 18 0 RemmingtonFS 3 15 3/pause 1000/faceDirection RemmingtonFS 2 true/pause 500/jump RemmingtonFS/pause 1000/speak RemmingtonFS \"{{i18n:event-114780002.01}}\"/emote farmer 16/speak RemmingtonFS \"{{i18n:event-114780002.02}}\"/speed farmer 4/move farmer 0 -1 0/speed farmer 4/move farmer -3 0 3/faceDirection farmer 0 true/removeItem 726/removeItem 84/removeItem 72/addObject 3 16 726/playSound shiny4/pause 500/addObject 2 16 84/playSound shiny4/pause 600/addObject 4 16 72/playSound shiny4/removeQuest 1147801/speak RemmingtonFS \"{{i18n:event-114780002.03}}\"/removeObject 3 16/playSound pickUpItem/pause 500/removeObject 2 16/playSound pickUpItem/pause 500/removeObject 4 16/playSound pickUpItem/pause 500/emote farmer 40/pause 500/speak RemmingtonFS \"{{i18n:event-114780002.04}}[159 898]\"/speak RemmingtonFS \"{{i18n:event-114780002.05}}[160 899]\"/speak RemmingtonFS \"{{i18n:event-114780002.06}}[775 902]\"/speak RemmingtonFS \"{{i18n:event-114780002.07}}[163 900].\"/fade/end dialogue RemmingtonFS \"{{i18n:event-114780002.08}}\"",
+  
+  
+}
+}
+]
+}

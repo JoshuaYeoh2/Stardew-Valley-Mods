@@ -1,0 +1,11 @@
+{
+  "rain": "800 JoshHouse 7 19 2/1300 JoshHouse 12 5 0/1600 Town 50 69 1 Strings\\schedules\\James:spring.000/1830 JoshHouse 7 19 2/2000 JoshHouse 19 20 0/2100 Custom_JamesRoom 7 5 0",
+  "Mon": "900 JoshHouse 1 20 1/1120 Town 50 69 1/1740 Town 12 11 1/2000 Custom_JamesRoom 7 5 2",
+  "Tue": "900 ArchaeologyHouse 19 15 0/1400 Town 89 93 2/1620 Town 50 68 1/1740 JoshHouse 7 19 2/2000 Custom_JamesRoom 7 5 0",
+  "Wed": "GOTO Tue",
+  "Fri": "GOTO Tue",
+  "Sat": "GOTO Mon",
+  "summer_16": "800 Town 65 64 2/1030 Hospital 15 16 3\"Strings\\schedules\\James:summer_16.000\"/1330 Hospital 15 15 3 \"Strings\\schedules\\James:summer_16.001\"/1600 JoshHouse 19 20 0/2400 Custom_JamesRoom 7 5 0 James_sleep",
+   "summer": "730 Beach 21 20 0/1200 Town 86 93 2/1700 JoshHouse 12 5 0/1900 JoshHouse 7 19 2/2000 Custom_JamesRoom 2 5 0/2200 Custom_JamesRoom 7 5 0 James_sleep",
+  "spring": "730 Beach 21 20 0/1200 Town 86 93 2/1700 JoshHouse 12 5 0/1900 JoshHouse 7 19 2/2000 Custom_JamesRoom 2 5 0/2200 Custom_JamesRoom 7 5 0 James_sleep"
+}

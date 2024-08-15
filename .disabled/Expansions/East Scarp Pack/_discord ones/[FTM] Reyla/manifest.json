@@ -1,0 +1,14 @@
+{
+    "Name": "Reyla - Farm Type Manager",
+    "Author": "RaffieJohn",
+    "Version": "1.0.0",
+    "Description": "FTM for Reyla's Mines.",
+    "UniqueID": "RaffieJohn.ReylaFTM",
+    "UpdateKeys": ["Nexus:-1"],
+    "ContentPackFor":
+    {
+        "UniqueID": "Esca.FarmTypeManager",
+        "MinimumVersion": "1.8"
+    },
+    "MinimumApiVersion": "3.0"
+}

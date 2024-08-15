@@ -1,0 +1,123 @@
+{
+    "Changes": 
+    [
+        {
+        
+            "LogName": "Normal Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialogueGunnar",
+          "Entries": {
+
+            //this gets renamed back to MarriageDialogueGunnar    
+
+            /*"patio_Gunnar": "{{Random:{{i18n:patioGunnar1}} ++ {{i18n:patioGunnar2}} ++ {{i18n:patioGunnar3}}|inputSeparator=++}}",
+            "spouseRoom_Gunnar": "{{Random:{{i18n:spouseroomGunnar1}} ++ {{i18n:spouseroomGunnar2}} ++ {{i18n:spouseroomGunnar3}}|inputSeparator=++}}",*/
+
+
+            "funLeave_Gunnar": "{{i18n:funLeaveMarriedGunnar}}",
+            "funReturn_Gunnar": "{{18n:funReturnMarriedGunnar}}",
+            //dates
+            "spring_Gunnar": "{{i18n:springMarriedGunnar}}",
+            "spring_24": "{{i18n:springMarriedGunnar24}",
+            "spring_19": "{{i18n:springMarriedGunnar19}}",
+            "summer_Gunnar": "{{i18n:summerMarriedGunnar}}",
+            "summer_11": "{{i18n:summerMarriedGunnar11}}",
+            "fall_Gunnar": "{{i18n:fallMarriedGunnar}}",
+            "fall_19": "{{i18n:fallMarriedGunnar19}}",
+            "winter_Gunnar": "{{i18n:winterMarriedGunnar}}",
+            "winter_24": "{{i18n:winterMarriedGunnar24}}",
+
+
+            //GENERIC DIALOGUE
+            //rainyday 
+            "Rainy_Day_0": "{{i18n:RainyDayGunnar0}}",
+            "Rainy_Day_1": "{{i18n:RainyDayGunnar1}}",
+            "Rainy_Day_2": "{{i18n:RainyDayGunnar2}}",
+            "Rainy_Day_3": "{{i18n:RainyDayGunnar3}}",
+            "Rainy_Day_4": "{{i18n:RainyDayGunnar4}}",
+            "Rainy_Day_5": "{{i18n:RainyDayGunnar5}}",
+            "Rainy_Day_6": "{{i18n:RainyDayGunnar6}}",
+
+            //rainynight
+            "Rainy_Night_0": "{{i18n:RainyNightGunnar0}}", 
+            "Rainy_Night_1": "{{i18n:RainyNightGunnar1}}",
+            "Rainy_Night_2": "{{i18n:RainyNightGunnar2}}",
+            "Rainy_Night_3": "{{i18n:RainyNightGunnar3}}",   
+            "Rainy_Night_4": "{{i18n:RainyNightGunnar4}}",     
+            "Rainy_Night_5": "{{i18n:RainyNightGunnar5}}",
+            "Rainy_Night_6": "{{i18n:RainyNightGunnar6}}",
+            "Rainy_Night_Gunnar": "{{i18n:RainyNightGunnar}}",
+
+            //indoorday
+            "Indoor_Day_0": "{{i18n:IndoorDayGunnar0}}",
+            "Indoor_Day_1": "{{i18n:IndoorDayGunnar1}}",
+            "Indoor_Day_2": "{{i18n:IndoorDayGunnar2}}",
+            "Indoor_Day_3": "{{i18n:IndoorDayGunnar3}}",
+            "Indoor_Day_4": "{{i18n:IndoorDayGunnar4}}",
+            "Indoor_Day_5": "{{i18n:IndoorDayGunnar5}}",
+            "Indoor_Day_Gunnar": "{{i18n:IndoorDayGunnar}}",
+
+            //indoornight
+            "Indoor_Night_0": "{{i18n:IndoorNightGunnar0}}",
+            "Indoor_Night_1": "{{i18n:IndoorNightGunnar1}}",
+            "Indoor_Night_2": "{{i18n:IndoorNightGunnar2}}",
+            "Indoor_Night_3": "{{i18n:IndoorNightGunnar3}}",
+            "Indoor_Night_4": "{{i18n:IndoorNightGunnar4}}",
+            "Indoor_Night_5": "{{i18n:IndoorNightGunnar5}}",
+
+            //outdoor
+            "Outdoor_0": "{{i18n:OutdoorGunnar0}}", 
+            "Outdoor_1": "{{i18n:OutdoorGunnar1}}",
+            "Outdoor_2": "{{i18n:OutdoorGunnar2}}",
+            "Outdoor_3": "{{i18n:OutdoorGunnar3}}",
+            "Outdoor_4": "{{i18n:OutdoorGunnar4}}",
+            "Outdoor_Gunnar": "{{i18n:OutdoorGunnar}}",
+
+            //kids
+
+            "OneKid_0": "{{i18n:OneKidGunnar0}}",
+            "OneKid_1": "{{i18n:OneKidGunnar1}}",
+            "OneKid_2": "{{i18n:OneKidGunnar2}}",
+            "OneKid_3": "{{i18n:OneKidGunnar3}}",
+            "OneKid_4": "{{i18n:OneKidGunnar4}}",
+            "TwoKids_0": "{{i18n:TwoKidsGunnar0}}",
+            "TwoKids_1": "{{i18n:TwoKidsGunnar1}}",
+            "TwoKids_2": "{{i18n:TwoKidsGunnar2}}",
+            "TwoKids_3": "{{i18n:TwoKidsGunnar3}}",
+            "TwoKids_4": "{{i18n:TwoKidsGunnar4}}",
+
+            //AFFECTION DIALOGUE
+
+            "Good_0": "{{i18n:GoodGunnar0}}",
+            "Good_1": "{{i18n:GoodGunnar1}}",
+            "Good_2": "{{i18n:GoodGunnar2}}",
+            "Good_3": "{{i18n:GoodGunnar3}}",
+            "Good_4": "{{i18n:GoodGunnar4}}",
+            "Good_5": "{{i18n:GoodGunnar5}}",
+            "Good_6": "{{i18n:GoodGunnar6}}",
+            "Good_7": "{{i18n:GoodGunnar7}}",
+            "Good_8": "{{i18n:GoodGunnar8}}", 
+
+            "Neutral_0": "{{i18n:NeutralGunnar0}}",
+            "Neutral_1": "{{i18n:NeutralGunnar1}}",
+            "Neutral_2": "{{i18n:NeutralGunnar2}}",
+            "Neutral_3": "{{i18n:NeutralGunnar3}}",
+            "Neutral_4": "{{i18n:NeutralGunnar4}}",
+            "Neutral_5": "{{i18n:NeutralGunnar5}}",
+            "Neutral_6": "{{i18n:NeutralGunnar6}}",
+            "Neutral_7": "{{i18n:NeutralGunnar7}}",
+
+            "Bad_0": "{{i18n:BadGunnar0}}",
+            "Bad_1": "{{i18n:BadGunnar1}}",
+            "Bad_2": "{{i18n:BadGunnar2}}",
+            "Bad_3": "{{i18n:BadGunnar3}}",
+            "Bad_4": "{{i18n:BadGunnar4}}",
+            "Bad_5": "{{i18n:BadGunnar5}}",
+            "Bad_6": "{{i18n:BadGunnar6}}",
+            "Bad_7": "{{i18n:BadGunnar7}}",
+            "Bad_8": "{{i18n:BadGunnar8}}"
+
+          }            
+        }
+    ]
+}

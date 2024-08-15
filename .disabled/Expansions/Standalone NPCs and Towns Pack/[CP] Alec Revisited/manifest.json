@@ -1,0 +1,23 @@
+{
+    "Name": "[CP] Alec Revisited",
+    "Author": "HopeWasHere and SoftPandaBoi",
+    "Description": "Brings back the NPC Alec, and adds new things!",
+    "Version": "2.2.1",
+    "UniqueID": "SoftPandaBoi.CPAlecRevisited",
+    "MinimumApiVersion": "3.18.4",
+    "Dependencies":[
+        {
+            "UniqueID": "Bouhm.NPCMapLocations",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "SoftPandaBoi.ClintReforged",
+            "IsRequired": false
+        }
+    ],
+    "UpdateKeys": ["Nexus:10697"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher",
+        "MinimumVersion": "1.29.4"
+    }
+}

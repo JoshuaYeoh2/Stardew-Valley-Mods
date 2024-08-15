@@ -1,0 +1,17 @@
+{
+  "Name": "Ridgeside Forage Crops",
+  "Author": "ZoeyHoshi",
+  "Version": "1.0.1",
+  "Description": "Adds crops for the forageables of Ridgeside Village.",
+  "UniqueID": "ZoeyHoshi.RSVForageCrop",
+  "UpdateKeys": [ "Nexus:25788" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "Rafseazz.RidgesideVillage",
+      "IsRequired": true
+    }
+  ]
+}

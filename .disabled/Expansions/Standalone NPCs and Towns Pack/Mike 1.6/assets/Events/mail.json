@@ -1,0 +1,23 @@
+{
+
+  "Changes": [
+
+    { //Mails//
+      "LogName": "Birthday",
+      "Action": "EditData",
+      "Target": "Data/mail",
+      "Entries": {
+        "mikebirthday": "{{i18n: MikeBirthdayLetter.content}}[#]{{i18n: MikeBirthdayLetter.title}}" 
+      }
+    },
+    {
+      "LogName": "Birthday",
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+      "Entries": {
+        "MikeBdayInvite/f Mike 500/z spring/z fall/z winter/u 25/x mikebirthday": "null"
+      }
+    },
+
+]
+}

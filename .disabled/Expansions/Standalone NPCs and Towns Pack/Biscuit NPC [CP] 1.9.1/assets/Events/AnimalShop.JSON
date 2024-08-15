@@ -1,0 +1,11 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/AnimalShop",
+      "Entries": {
+        "1655010/F/f Shane 1250 Biscuit 1250": "none/22 16/Biscuit 22 15 1 Shane 24 15 3 farmer 13 19 0/skippable/animate Biscuit false true 200 40 41/pause 2000/speak Shane \"...\"/emote Biscuit 16/pause 500/speak Shane \"No. Just no. $3\"/pause 500/emote Biscuit 40/emote Shane 40/pause 500/speak Biscuit \"You have an Iron will, Shane. I'll give you that, but there's no way even you could resist.....\"/stopAnimation Biscuit 4/animate Biscuit false false 200 32 33/pause 400/showFrame Biscuit 74/speak Biscuit \"THE WORLD'S SADDEST PUPPY-DOG EYES $2\"/pause 500/speak Shane \"....That's not going to work...$3\"/pause 500/speak Biscuit \"CURSES. He's more powerful than I thought. I'm going to have to bring out the big guns $9.\"/beginSimultaneousCommand/playSound dogWhining/showFrame Biscuit 75/shake Shane 500/endSimultaneousCommand/emote Shane 40 true/emote Biscuit 40/pause 2000/speak Shane \"OKAY! Fine. You win! Just stop looking like I kidnapped your best friend!$a \"/beginSimultaneousCommand/stopAnimation Biscuit 4/showFrame Biscuit 4/playSound dog_bark/jump Biscuit/endSimultaneousCommand/animate Biscuit false true 200 22 23/pause 500/speak Shane \"...Well that figures. Alright. Wait here. \"/move Shane 6 0 1/move Shane 0 -1 0/playSound doorClose/warp Shane 1000 1000/pause 2000/playSound doorClose/warp Shane 30 14/showFrame Shane 28/beginSimultaneousCommand/textAboveHead Biscuit \"YAY CHARLIE!\"/speed Biscuit 6/move Biscuit 8 0 1/endSimultaneousCommand/faceDirection Biscuit 0/pause 500/animate Shane false false 200 28 29/pause 400/stopAnimation Shane 29/showFrame Shane 29/emote Biscuit 20/pause 500/speak Shane \"Alright, Pup. I know you like her but you need to play nice with her. $9#$b#...Or don't and she'll peck ya till you buzz off! $8\"/emote Biscuit 16/speak Biscuit \"Charlie would NEVER! We're practically besties! $10#$b# Right, Charlie? $1\"/textAboveHead Shane \"*disgruntled chicken sounds tm*\"/pause 1000/viewport move 0 -2 2000/globalFade/viewport -200 -200/end"
+      }
+    }
+  ]
+}

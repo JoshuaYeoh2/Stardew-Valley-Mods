@@ -1,0 +1,11 @@
+{
+	"Name": "[CP] Much Ado About Mushrooms",
+	"Description": "Expands on the Mushroom experience of Stardew Valley!. Regrown from scratch",
+	"Author": "Stunky McDoo",
+	"Version": "1.1.0",
+    "MinimumApiVersion": "3.0.0",
+	"UniqueID": "StunkyMcDoo.MuchAdoAboutMushrooms.cp",
+	"ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher"},
+    "Dependencies": [{"UniqueID": "mistyspring.ItemExtensions", "IsRequired": true}],
+	"UpdateKeys": [ "Nexus:8828" ],
+}

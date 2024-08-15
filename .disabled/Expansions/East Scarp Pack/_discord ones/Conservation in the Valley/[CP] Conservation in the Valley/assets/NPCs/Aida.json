@@ -1,0 +1,62 @@
+{
+  "Changes": [
+
+    {
+	  "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+	"AidaSaura": {
+	   "DisplayName": "{{i18n:AidaSaura}}",
+	   "BirthSeason": "Summer",
+	   "BirthDay": 25,
+	   "HomeRegion": "Town",
+	   "Gender": "Female",
+	   "Age": "Adult",
+	   "Manner": "Polite",
+	   "SocialAnxiety": "Outgoing",
+	   "Optimism": "Positive",
+	   "CanBeRomanced": false,
+	   "LoveInterest": "Gus",
+	   "SocialTab": "UnknownUntilMet",
+       "IntroductionsQuest": true,
+       "PerfectionScore": true,
+	   "Home": [
+	     {
+		  "Id": "Default",
+		  "Location": "CasaEstrada",
+		  "Tile": {
+		    "X": 12,
+			"Y": 7
+		  },
+		  "Direction": "Right"
+		 }
+	    ]
+	   }
+	  }
+	 },
+    {
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "AidaSaura": "{{i18n:gifts.aida.love}}/254 340 651/{{i18n:gifts.aida.like}}/-81 -75 -79/{{i18n:gifts.aida.neutral}}/-6/{{i18n:gifts.aida.dislike}}/243 830 906/{{i18n:gifts.aida.hate}}/789 71/"
+       }
+    },
+    //Loves Melon, Poppyseed Muffin, Honey
+    //Dislikes Miner's Treat, Poi, Taro Root
+	//Hates Trash, and Lewis's shorts, with or without gold trim. Why would you give her that, oh god, why would you give her that
+	{
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/AidaSaura",
+      "FromFile": "assets/NPCs/Characters/AidaFullSprites2.png"
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/AidaSaura",
+      "FromFile": "assets/NPCs/Portraits/AidaFullPortraits2.png"
+    },
+  ]
+}

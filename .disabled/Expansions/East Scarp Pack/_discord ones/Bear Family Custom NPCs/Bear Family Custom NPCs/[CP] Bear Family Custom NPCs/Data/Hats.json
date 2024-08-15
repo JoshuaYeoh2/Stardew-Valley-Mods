@@ -1,0 +1,19 @@
+{
+  "Changes": [
+    //hat test zone
+    {
+      "LogName": "Load Gunnar's Viking Helmet",
+      "Action": "EditData",
+      "Target": "Data/Hats",
+      "Entries": {
+        "MadDog.BearFam_VikingHelmet": "MadDog.BearFam_VikingHelmet/{{i18n:MadDog.BearFam_VikingHelmet.Description}}/false/true//{{i18n:MadDog.BearFam_VikingHelmet}}/0/Mods\\MadDogBearFam\\VikingHelmet"
+      }
+    },
+    {
+      "LogName": "Load Gunnar's Viking Helmet asset",
+      "Action": "Load",
+      "Target": "Mods\\MadDogBearFam\\VikingHelmet",
+      "FromFile": "Assets/MadDog.BearFam_VikingHelmet.png"
+    }
+  ]
+}

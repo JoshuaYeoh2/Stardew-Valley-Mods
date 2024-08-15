@@ -1,0 +1,405 @@
+{
+  "Format": "1.28.0",
+   "Changes": [
+    
+	{
+         "Action": "EditMap",
+         "Target": "Maps/SeedShop",
+		 "When": { 
+		"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+		},
+         
+		 "FromFile": "assets/SeedShop.tbin",
+            "FromArea": {
+                "X": 24,
+                "Y": 11,
+                "Width": 1,
+                "Height": 2,
+            },
+            "ToArea": {
+                "X": 24,
+                "Y": 11,
+                "Width": 1,
+                "Height": 2,
+            },			
+	},
+	{
+         "Action": "EditMap",
+         "Target": "Maps/SeedShop",
+         "When": { 
+	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+		},
+         
+		 "FromFile": "assets/SeedShop.tbin",
+                "FromArea": {
+                "X": 24,
+                "Y": 11,
+                "Width": 1,
+                "Height": 2,
+            },
+            "ToArea": {
+                "X": 24,
+                "Y": 11,
+                "Width": 1,
+                "Height": 2,
+             }
+               },
+{
+         "Action": "EditMap",
+         "Target": "Maps/WizardHouse",
+		 "When": { 
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+		},
+         
+		 "FromFile": "assets/WizardHouse.tbin",
+            "FromArea": {
+                "X": 2,
+                "Y": 10,
+                "Width": 1,
+                "Height": 2,
+            },
+            "ToArea": {
+                "X": 2,
+                "Y": 10,
+                "Width": 1,
+                "Height": 2,
+            },
+			
+	},
+	
+	
+	{
+         "Action": "EditMap",
+         "Target": "Maps/WizardHouse",
+         "When": { 
+	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+		},
+         
+		 "FromFile": "assets/WizardHouse.tbin",
+                "FromArea": {
+                "X": 2,
+                "Y": 10,
+                "Width": 1,
+                "Height": 2,
+            },
+            "ToArea": {
+                "X": 2,
+                "Y": 10,
+                "Width": 1,
+                "Height": 2,
+             }
+               },
+{
+         "Action": "EditMap",
+         "Target": "Maps/Saloon",
+		 "When": { 
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+		},
+         
+		 "FromFile": "assets/Saloon.tbin",
+            "FromArea": {
+                "X": 36,
+                "Y": 15,
+                "Width": 1,
+                "Height": 2,
+            },
+            "ToArea": {
+                "X": 36,
+                "Y": 15,
+                "Width": 1,
+                "Height": 2,
+            },
+			
+	},
+	
+	
+	{
+         "Action": "EditMap",
+         "Target": "Maps/Saloon",
+         "When": { 
+	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+		},
+         
+		 "FromFile": "assets/Saloon.tbin",
+                "FromArea": {
+                "X": 36,
+                "Y": 15,
+                "Width": 1,
+                "Height": 2,
+            },
+            "ToArea": {
+                "X": 36,
+                "Y": 15,
+                "Width": 1,
+                "Height": 2,
+             }
+               },
+{
+         "Action": "EditMap",
+         "Target": "Maps/ScienceHouse",
+		 "When": { 
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+		},
+         
+		 "FromFile": "assets/ScienceHouse.tbin",
+            "FromArea": {
+                "X": 18,
+                "Y": 10,
+                "Width": 1,
+                "Height": 2,
+            },
+            "ToArea": {
+                "X": 18,
+                "Y": 10,
+                "Width": 1,
+                "Height": 2,
+            },
+			
+	},
+	
+	
+	{
+         "Action": "EditMap",
+         "Target": "Maps/ScienceHouse",
+         "When": { 
+	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+		},
+         
+		 "FromFile": "assets/ScienceHouse.tbin",
+                "FromArea": {
+                "X": 18,
+                "Y": 10,
+                "Width": 1,
+                "Height": 2,
+            },
+            "ToArea": {
+                "X": 18,
+                "Y": 10,
+                "Width": 1,
+                "Height": 2,
+             }
+               },
+{
+         "Action": "EditMap",
+         "Target": "Maps/JoshHouse",
+		 "When": { 
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+		},
+         
+		 "FromFile": "assets/JoshHouse.tbin",
+            "FromArea": {
+                "X": 16,
+                "Y": 14,
+                "Width": 1,
+                "Height": 2,
+            },
+            "ToArea": {
+                "X": 16,
+                "Y": 14,
+                "Width": 1,
+                "Height": 2,
+            },
+			
+	},
+	
+	
+	{
+         "Action": "EditMap",
+         "Target": "Maps/JoshHouse",
+         "When": { 
+	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+		},
+         
+		 "FromFile": "assets/JoshHouse.tbin",
+                "FromArea": {
+                "X": 16,
+                "Y": 14,
+                "Width": 1,
+                "Height": 2,
+            },
+            "ToArea": {
+                "X": 15,
+                "Y": 14,
+                "Width": 1,
+                "Height": 2,
+             }
+               },
+		     
+                {
+            "LogName": "Edit SeedShop Map Warps",
+            "Action": "EditMap",
+            "Target": "Maps/SeedShop",
+            "MapTiles": [
+                {
+                    "Position": { "X": 24, "Y": 11 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "LockedDoorWarp 5 9 Custom_AdrianRoom 600 2300"
+                    }
+                },
+                {
+                    "Position": { "X": 24, "Y": 12 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "LockedDoorWarp 5 9 Custom_AdrianRoom 600 2300"
+                    }
+                }
+            ]
+        },
+{
+            "LogName": "Edit AdrianRoom Map Warps",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_AdrianRoom",
+            "MapTiles": [
+               {
+                    "Position": { "X": 5, "Y": 10 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "TouchAction": "Warp SeedShop 24 13"                 
+                      }
+                }
+            ]
+        },
+                {
+            "LogName": "Edit Saloon Map Warps",
+            "Action": "EditMap",
+            "Target": "Maps/Saloon",
+            "MapTiles": [
+                {
+                    "Position": { "X": 36, "Y": 16 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "LockedDoorWarp 6 12 Custom_VanessaRoom 600 2300"
+                    }
+                },
+                {
+                    "Position": { "X": 36, "Y": 15 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "LockedDoorWarp 6 12 Custom_VanessaRoom 600 2300"
+                      }
+                }
+            ]
+        },
+ {
+            "LogName": "Edit VanessaRoom Map Warps",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_VanessaRoom",
+            "MapTiles": [
+               {
+                    "Position": { "X": 6, "Y": 13 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "TouchAction": "Warp Saloon 36 17"                 
+                      }
+                }
+            ]
+        },
+                {
+            "LogName": "Edit JoshHouse Map Warps",
+            "Action": "EditMap",
+            "Target": "Maps/JoshHouse",
+            "MapTiles": [
+                {
+                    "Position": { "X": 15, "Y": 14 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "LockedDoorWarp 1 5 Custom_JamesRoom 600 2300"
+                    }
+                },
+                {
+                    "Position": { "X": 15, "Y": 15 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "LockedDoorWarp 1 5 Custom_JamesRoom 600 2300"
+                        }
+                }
+            ]
+        },
+{
+            "LogName": "Edit JamesRoom Map Warps",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_JamesRoom",
+            "MapTiles": [
+               {
+                    "Position": { "X": 1, "Y": 4 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "TouchAction": "Warp JoshHouse 15 16"                 
+                      }
+                }
+            ]
+        },
+ {
+            "LogName": "Edit WizardHouse Map Warps",
+            "Action": "EditMap",
+            "Target": "Maps/WizardHouse",
+            "MapTiles": [
+                {
+                    "Position": { "X": 2, "Y": 11 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "LockedDoorWarp 3 10 Custom_DouglasRoom 600 2300"
+                    }
+                },
+                {
+                    "Position": { "X": 2, "Y": 10 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "LockedDoorWarp 3 10 Custom_DouglasRoom 600 2300"
+                    }
+                }
+            ]
+        },
+{
+            "LogName": "Edit DouglasRoom Map Warps",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_DouglasRoom",
+            "MapTiles": [
+               {
+                    "Position": { "X": 3, "Y": 11 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "TouchAction": "Warp WizardHouse 2 12"                 
+                      }
+                }
+            ]
+        },
+
+ {
+            "LogName": "Edit ScienceHouse Map Warps",
+            "Action": "EditMap",
+            "Target": "Maps/ScienceHouse",
+            "MapTiles": [
+                {
+                    "Position": { "X": 18, "Y": 11 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "LockedDoorWarp 3 5 Custom_TinaRoom 600 2300"
+                    }
+                },
+                {
+                    "Position": { "X": 18, "Y": 11 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "LockedDoorWarp 3 5 Custom_TinaRoom 600 2300"
+                    }
+                }
+            ]
+        },
+
+               {
+ "Action": "EditMap",
+            "Target": "Maps/Custom_TinaRoom",
+            "MapTiles": [
+                {
+                    "Position": { "X": 3, "Y": 4 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "TouchAction": "Warp ScienceHouse 18 12"        
+                }
+                }
+            ]
+        }
+    ]
+}

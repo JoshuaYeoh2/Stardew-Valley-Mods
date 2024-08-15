@@ -1,0 +1,18 @@
+{
+  "Name": "Axolotl Village [STF]",
+  "Author": "otohimexoxo",
+  "Version": "1.5.10",
+  "Description": "",
+  "UniqueID": "otohime.STF.axolotlvillage",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": ["Nexus:"],
+  "ContentPackFor": {
+    "UniqueID": "Cherry.ShopTileFramework"
+  },
+"Dependencies": [
+{
+		  "UniqueID": "otohime.AV",
+		  "IsRequired": true,
+		}
+]
+}

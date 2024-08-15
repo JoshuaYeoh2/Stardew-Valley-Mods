@@ -1,0 +1,477 @@
+{
+  "ForageSpawnEnabled": true,
+  "LargeObjectSpawnEnabled": false,
+  "OreSpawnEnabled": false,
+  "MonsterSpawnEnabled": false,
+  "Forage_Spawn_Settings": {
+    "Areas": [
+      {
+        "SpringItemIndex": [
+          "Smallmouth Bass",
+          "Bream",
+          "Catfish",
+          "Sunfish",
+          "Green Algae",
+          "Shad",
+          "Green Terror",
+          "Pacu",
+          "Siamese Algae Eater",
+          "Trahira"
+        ],
+        "SummerItemIndex": [
+          "Rainbow Trout",
+          "Bream",
+          "Pike",
+          "Sunfish",
+          "Green Algae",
+          "Shad",
+          "Tilapia",
+          "Green Terror",
+          "Pacu",
+          "Trahira",
+          "Freshwater Pufferfish",
+          "Common Pleco"
+        ],
+        "FallItemIndex": [
+          "Salmon",
+          "Smallmouth Bass",
+          "Bream",
+          "Walleye",
+          "Catfish",
+          "Green Algae",
+          "Shad",
+          "Tiger Trout",
+          "Tilapia",
+          "Pacu",
+          "Trahira",
+          "Common Pleco"
+        ],
+        "WinterItemIndex": [
+          "Bream",
+          "Walleye",
+          "Perch",
+          "Catfish",
+          "Pike",
+          "Green Algae",
+          "Lingcod",
+          "Tiger Trout",
+          "Snowball Pleco"
+        ],
+        "UniqueAreaID": "Town Fish Stranding Area",
+        "MapName": "Town",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "0,92/13,94",
+          "14,95/20,97",
+          "21,98/22,100",
+          "23,100/28,103",
+          "29,103/31,103",
+          "35,102/46,102",
+          "46,101/51,101",
+          "57,99/74,101",
+          "73,97/74,100",
+          "73,89/74,92",
+          "71,88/73,89",
+          "70,77/72,89",
+          "71,75/74,79",
+          "74,71/77,76",
+          "77,64/79,72",
+          "72,62/77,64",
+          "69,56/71,61",
+          "68,39/69,51",
+          "70,38/79,40",
+          "78,35/82,38",
+          "82,33/87,36",
+          "86,27/89,34",
+          "88,16/90,27",
+          "89,14/91,18",
+          "95,15/98,19",
+          "93,18/96,21",
+          "93,21/94,34",
+          "90,35/92,37",
+          "88,37/90,39",
+          "84,39/88,41",
+          "82,41/86,42",
+          "80,41/84,43",
+          "75,43/80,44",
+          "75,45/76,48",
+          "77,49/78,51",
+          "78,56/83,59",
+          "84,60/86,61",
+          "84,61/85/70",
+          "84,69/85,74",
+          "81,75/83,77",
+          "78,78/80,80",
+          "76,80/78,82",
+          "77,82/78,86",
+          "79,87/82,90",
+          "83,90/83,92",
+          "83,97/84,102",
+          "85,102/91,104",
+          "92,104/92,105"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 5
+      }
+    ],
+    "PercentExtraSpawnsPerForagingLevel": 0,
+    "SpringItemIndex": [],
+    "SummerItemIndex": [],
+    "FallItemIndex": [],
+    "WinterItemIndex": [],
+    "CustomTileIndex": []
+  },
+  "Large_Object_Spawn_Settings": {
+    "Areas": [
+      {
+        "ObjectTypes": [
+          "Stump"
+        ],
+        "FindExistingObjectLocations": true,
+        "PercentExtraSpawnsPerSkillLevel": 0,
+        "RelatedSkill": "Foraging",
+        "UniqueAreaID": "Farm large object area 1",
+        "MapName": "CafeOutdoors",
+        "MinimumSpawnsPerDay": 999,
+        "MaximumSpawnsPerDay": 999,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      }
+    ],
+    "CustomTileIndex": []
+  },
+  "Ore_Spawn_Settings": {
+    "Areas": [
+      {
+        "MiningLevelRequired": null,
+        "StartingSpawnChance": null,
+        "LevelTenSpawnChance": null,
+        "UniqueAreaID": "Farm ore area 1",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 5,
+        "IncludeTerrainTypes": [
+          "Quarry"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      }
+    ],
+    "PercentExtraSpawnsPerMiningLevel": 0,
+    "MiningLevelRequired": {
+      "Stone": 0,
+      "Geode": 0,
+      "FrozenGeode": 5,
+      "MagmaGeode": 8,
+      "Gem": 6,
+      "Copper": 0,
+      "Iron": 4,
+      "Gold": 7,
+      "Iridium": 9,
+      "Mystic": 10,
+      "Diamond": 6,
+      "Ruby": 6,
+      "Jade": 6,
+      "Amethyst": 6,
+      "Topaz": 6,
+      "Emerald": 6,
+      "Aquamarine": 6
+    },
+    "StartingSpawnChance": {
+      "Stone": 66,
+      "Geode": 8,
+      "FrozenGeode": 4,
+      "MagmaGeode": 2,
+      "Gem": 5,
+      "Copper": 21,
+      "Iron": 15,
+      "Gold": 10,
+      "Iridium": 1,
+      "Mystic": 1,
+      "Diamond": 0,
+      "Ruby": 0,
+      "Jade": 0,
+      "Amethyst": 0,
+      "Topaz": 0,
+      "Emerald": 0,
+      "Aquamarine": 0
+    },
+    "LevelTenSpawnChance": {
+      "Stone": 48,
+      "Geode": 2,
+      "FrozenGeode": 2,
+      "MagmaGeode": 2,
+      "Gem": 5,
+      "Copper": 16,
+      "Iron": 13,
+      "Gold": 10,
+      "Iridium": 1,
+      "Mystic": 1,
+      "Diamond": 0,
+      "Ruby": 0,
+      "Jade": 0,
+      "Amethyst": 0,
+      "Topaz": 0,
+      "Emerald": 0,
+      "Aquamarine": 0
+    },
+    "CustomTileIndex": []
+  },
+  "Monster_Spawn_Settings": {
+    "Areas": [
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "shadow brute",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 8
+            }
+          },
+          {
+            "MonsterName": "wilderness golem",
+            "Settings": {
+              "SpawnWeight": 4
+            }
+          },
+          {
+            "MonsterName": "purple slime",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 10,
+              "SpawnWeight": 2
+            }
+          },
+          {
+            "MonsterName": "red slime",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 8,
+              "MaximumSkillLevel": 9,
+              "SpawnWeight": 2
+            }
+          },
+          {
+            "MonsterName": "blue slime",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 4,
+              "MaximumSkillLevel": 7,
+              "SpawnWeight": 2
+            }
+          },
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MaximumSkillLevel": 3,
+              "SpawnWeight": 2
+            }
+          }
+        ],
+        "UniqueAreaID": "Farm monster area 1",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 5,
+        "MaximumSpawnsPerDay": 8,
+        "IncludeTerrainTypes": [
+          "Dirt",
+          "Diggable",
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 1900,
+          "EndTime": 2550,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 1,
+          "OnlySpawnIfAPlayerIsPresent": true,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "iridium bat",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 10,
+              "SpawnWeight": 4
+            }
+          },
+          {
+            "MonsterName": "serpent",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 10,
+              "SpawnWeight": 3
+            }
+          },
+          {
+            "MonsterName": "lava bat",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 8,
+              "SpawnWeight": 4
+            }
+          },
+          {
+            "MonsterName": "frost bat",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 5,
+              "SpawnWeight": 2
+            }
+          },
+          {
+            "MonsterName": "bat",
+            "Settings": {
+              "SpawnWeight": 2
+            }
+          }
+        ],
+        "UniqueAreaID": "Farm monster area 2",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "Dirt",
+          "Diggable",
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 1900,
+          "EndTime": 2550,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 1,
+          "OnlySpawnIfAPlayerIsPresent": true,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      }
+    ],
+    "CustomTileIndex": []
+  },
+  "QuarryTileIndex": [
+    556,
+    558,
+    583,
+    606,
+    607,
+    608,
+    630,
+    635,
+    636,
+    680,
+    681,
+    685
+  ],
+  "File_Conditions": {
+    "FarmTypes": [],
+    "FarmerNames": [],
+    "SaveFileNames": [],
+    "OtherMods": {}
+  }
+}

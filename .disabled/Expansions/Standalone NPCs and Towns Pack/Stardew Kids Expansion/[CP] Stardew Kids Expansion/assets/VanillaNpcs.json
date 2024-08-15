@@ -1,0 +1,149 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueAbigail",
+      "Entries": {
+        "Rainy_Night_0": "Adrian doesn't like rain....$s",
+        "spring_2": "I'm going to visit my family today.#$e#I hope Adrian didn't mess with my room.$h",
+        "summer_13": "Tomorrow is Adrian's birthday.#$b#What do you think I should get him?$h",
+        "summer_14": "I hope Adrian likes the gift I sent him! $h",
+        "summer_15": "Adrian loved the gift I sent him!$h",
+        "winter_2": "Today we're going to have a snowball fight with Adrian."
+
+      }
+    },
+    //Adds new dialogues with Adrian for Abigail
+
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Abigail",
+      "Entries": {
+        "spring_2": "Adrian can be annoying sometimes, but I wouldn't trade him for the world.$h",
+        "Summer_14": "Today is my brother's birthday. I hope he likes the gift I got.",
+        "summer2": "I tried playing Journey of the Prairie King with Adrian.#$e#He's better than me, though.$h",
+        "fall_13": "I tried playing Journey of the Prairie King with Adrian.#$e#He's better than me, though.$h"
+      }
+    },
+    //Pierre will occasionally talk about his son
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Pierre",
+      "Entries": {
+        "Mon": "Adrian is helping in the shop today.",
+        "Tue2": "I don't want Adrian to be affected by the troubles in the shop.#$e#He's just a kid.",
+        "summer_14": "What should I get Adrian for his birthday?#$e#Maybe I should ask Caroline."
+      }
+    },
+    //Caroline for Adrian
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Caroline",
+      "Entries": {
+        "Summer_14": "I made Adrian's favorite cake.#$e#He loved it!",
+        "Tue": "I need to talk to Penny about Adrian's grades...$h",
+        "Mon_inlaw_Abigail": "Adrian has been lonely since Abigail left.#$e#Thankfully he has Tina to keep him company.",
+        "fall_13": "I promised Adrian I'd play Journey of the Meadow King with him.#$e#I'm not really sure how it works though."
+      }
+    },
+    //Wizard For Douglas
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Wizard",
+      "When": {
+        "Query: {{FemaleWizard}} AND {{HasMod: misscoriel.razolyn, Nom0ri.RomRas}}": false
+      },
+      "Entries": {
+        "Mon": "Have you met my son Douglas?",
+        "Tue2": "Douglas has what it takes to be a very powerful wizard.#$e#He needs a lot of practice first.",
+        "Wed": "Douglas is strictly forbidden to go into town.#$e#His existence must not be known to the townspeople.#$b#Unfortunately, I did not make this rule. The laws of magic require it.",
+        "Thu8": "Douglas' mother? That's frankly none of your business."
+      }
+    },
+    //Female Wizard
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Wizard",
+      "When": {
+        "Query: {{FemaleWizard}} OR {{HasMod: misscoriel.razolyn, Nom0ri.RomRas}}": true
+      },
+      "Entries": {
+        "Mon": "Have you met my son Douglas?",
+        "Tue2": "Douglas has what it takes to be a very powerful wizard.#$e#He needs a lot of practice first, though.",
+        "Wed": "Douglas is strictly forbidden to go into town.#$e#His existence must not be known to the townspeople.#$b#Unfortunately, I did not make this rule. The laws of magic require it.",
+        "Thu8": "Douglas' father? That's frankly none of your business."
+      }
+    },
+    //Alex For James
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Alex",
+      "Entries": {
+        "Mon_2": "I'm showing James some gridball moves today.",
+        "Summer_Mon": "James is helping me out at the ice cream counter today."
+      }
+    },
+    //Krobus For Douglas
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Krobus",
+      "Entries": {
+        "mon2": "Douglas sometimes visits here. He's very...different."
+      }
+    },
+    //Gus For Vanessa
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Gus",
+      "Entries": {
+        "Mon4": "Vanessa is my niece.#$b#After her father went to prison, my sister couldn't afford to take care of her anymore.$s#$b#So I offered to look after her.",
+        "Mon": "I like having Vanessa around.#$e# She helps around the Saloon and is learning to cook.",
+        "Tue4": "Vanessa made a new dish today.#$b#It turned out...interesting."
+      }
+    },
+    //George for James
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/George",
+      "Entries": {
+        "Sat": "Have you met my grandson, James?",
+        "Sat2": "Hopefully James isn't tearing up the house.$u",
+        "Sat10": "James' mother and father are in Zuzu City.#$b#They're getting a divorce.#$e#They didn't want James to go through that.$s"
+      }
+    },
+    //Evelyn for James
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Evelyn",
+      "Entries": {
+        "Mon2": "Arthur called today.#$e#He's James' father.",
+        "Tue2": "James isn't very good at school.#$e#He doesn't like to study much.$h"
+      }
+    },
+    //Robin For Tina
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Robin",
+      "Entries": {
+        "Mon": "Tina is a very smart girl.#$e#She's very interested in science."
+      }
+    },
+      //Emily for Vanessa
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Emily",
+        "Entries": {
+          "Mon": "Vanessa gerçekten çok yetenekli bir kız.#$e#Sanatın bir çok alanında başarılı olabilir."
+
+       }
+    },
+//Penny for All kids in the Town
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Penny",
+"Entries": {
+            "Tue": "I'm tutoring all the kids in town today.#$e#They're a handful, but it's nice to make a difference in someone's life.",       
+     }
+}
+]
+}

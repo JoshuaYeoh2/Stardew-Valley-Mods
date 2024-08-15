@@ -1,0 +1,238 @@
+{
+  "Changes": [
+    {
+      "LogName": "Default Schedules",
+      "Action": "EditData",
+      "Target": "Characters/Schedules/MaggiSaura",
+      "Entries": {
+		"rain": "
+			730 CasaEstrada 9 24 0/
+			1000 CasaEstrada 5 9 1/
+			1300 CasaEstrada 11 24 0/
+			1500 CasaEstrada 5 9 1/
+			1930 CasaEstrada 9 26 2/
+			2030 CasaEstrada 5 9 1/
+			2200 CasaEstrada 2 7 1
+		",
+		"spring_Mon": "
+			730 EstradaBarnLower 20 20 0/
+			900 CasaEstrada 5 9 1/
+			1600 EastScarp_Village 20 65 1/
+			2030 CasaEstrada 9 26 2/
+			2200 CasaEstrada 2 7 1
+		",
+		"spring_Tues": "
+			730 CasaEstrada 11 24 0/
+			900 CasaEstrada 5 9 1/
+			1530 RanchoEstrada 30 8 2/
+			1830 CasaEstrada 9 26 2/
+			2000 CasaEstrada 5 9 1/
+			2200 CasaEstrada 2 7 1
+		",
+		"spring_Wed": "
+			730 CasaEstrada 11 24 0/
+			900 CasaEstrada 5 9 1/
+			1530 RanchoEstrada 30 8 2/
+			1830 CasaEstrada 9 26 2/
+			2000 CasaEstrada 5 9 1/
+			2200 CasaEstrada 2 7 1
+		",
+		"spring_Thurs": "
+			730 EstradaBarnLower 20 20 0/
+			900 CasaEstrada 5 9 1/
+			1630 EastScarp_Village 20 65 1/
+			1930 CasaEstrada 9 26 2/
+			2100 CasaEstrada 5 9 1/
+			2200 CasaEstrada 2 7 1
+		",
+		"spring_Fri": "
+			730 EstradaBarnLower 20 20 0/
+			1000 ArchaeologyHouse 13 17 3/
+			1400 Town 91 104 2/
+			1830 CasaEstrada 9 26 2/
+			2000 CasaEstrada 5 9 1/
+			2200 CasaEstrada 2 7 1
+		",
+		"spring_Sat": "
+			730 EstradaBarnLower 20 20 0/
+			900 CasaEstrada 5 9 1/
+			1600 EastScarp_Village 20 65 1/
+			2030 CasaEstrada 9 26 2/
+			2200 CasaEstrada 2 7 1
+		",
+		"spring_Sun": "
+			830 EstradaBarnLower 20 20 0/
+			1200 EastScarp_Village 46 92 2/
+			1730 Saloon 28 21 2/
+			2030 CasaEstrada 5 9 1/
+			2200 CasaEstrada 2 7 1
+		",
+		"summer_Mon": "
+			730 EstradaBarnLower 20 20 0/
+			900 CasaEstrada 11 24 0/
+			1300 Mountain 46 35 1/
+			1830 CasaEstrada 5 9 1/
+			2030 CasaEstrada 9 26 2/
+			2200 CasaEstrada 2 7 1
+		",
+		"summer_Tues": "
+			730 CasaEstrada 11 24 0/
+			900 CasaEstrada 5 9 1/
+			1530 RanchoEstrada 30 8 2/
+			1830 RanchoEstrada 28 4 2/
+			2000 CasaEstrada 5 9 1/
+			2200 CasaEstrada 2 7 1
+		",
+		"summer_Wed": "
+			730 CasaEstrada 11 24 0/
+			1100 Beach 40 15 2/
+			1400 ArchaeologyHouse 30 8 2/
+			1830 RanchoEstrada 28 4 2/
+			2030 CasaEstrada 5 9 1/
+			2200 CasaEstrada 2 7 1
+		",
+		"summer_Thurs": "
+			730 EstradaBarnLower 20 20 0/
+			900 CasaEstrada 5 9 1/
+			1630 EastScarp_Village 20 65 1/
+			1930 CasaEstrada 9 26 2/
+			2100 CasaEstrada 5 9 1/
+			2200 CasaEstrada 2 7 1
+		",
+		"summer_Fri": "
+			730 EstradaBarnLower 20 20 0/
+			1000 ArchaeologyHouse 13 17 3/
+			1400 Town 91 104 2/
+			1830 RanchoEstrada 28 4 2/
+			2000 CasaEstrada 5 9 1/
+			2200 CasaEstrada 2 7 1
+		",
+		"summer_Sat": "
+			730 CasaEstrada 11 24 0/
+			1100 Beach 40 15 2/
+			1400 ArchaeologyHouse 30 8 2/
+			1830 RanchoEstrada 28 4 2/
+			2030 CasaEstrada 5 9 1/
+			2200 CasaEstrada 2 7 1
+		",
+		"summer_Sun": "
+			830 EstradaBarnLower 20 20 0/
+			1200 EastScarp_Village 46 92 2/
+			1730 Saloon 28 21 2/
+			2030 CasaEstrada 5 9 1/
+			2200 CasaEstrada 2 7 1
+		",
+		"fall_Mon": "
+			730 EstradaBarnLower 20 20 0/
+			0900 CasaEstrada 5 9 1/
+			1600 EastScarp_Village 20 65 1/
+			2030 CasaEstrada 9 26 2/
+			2200 CasaEstrada 2 7 1
+		",
+		"fall_Tues": "
+			730 CasaEstrada 11 24 0/
+			0900 CasaEstrada 5 9 1/
+			1530 RanchoEstrada 30 8 2/
+			1830 CasaEstrada 9 26 2/
+			2000 CasaEstrada 5 9 1/
+			2200 CasaEstrada 2 7 1
+		",
+		"fall_Wed": "
+			730 CasaEstrada 11 24 0/
+			900 CasaEstrada 5 9 1/
+			1530 RanchoEstrada 30 8 2/
+			1830 CasaEstrada 9 26 2/
+			2000 CasaEstrada 5 9 1/
+			2200 CasaEstrada 2 7 1
+		",
+		"fall_Thurs": "
+			730 EstradaBarnLower 20 20 0/
+			900 CasaEstrada 5 9 1/
+			1630 EastScarp_Village 20 65 1/
+			1930 CasaEstrada 9 26 2/
+			2100 CasaEstrada 5 9 1/
+			2200 CasaEstrada 2 7 1
+		",
+		"fall_Fri": "
+			730 EstradaBarnLower 20 20 0/
+			1000 ArchaeologyHouse 13 17 3/
+			1400 Town 91 104 2/
+			1830 CasaEstrada 9 26 2/
+			2000 CasaEstrada 5 9 1/
+			2200 CasaEstrada 2 7 1
+		",
+		"fall_Sat": "
+			730 EstradaBarnLower 20 20 0/
+			900 CasaEstrada 5 9 1/
+			1600 EastScarp_Village 20 65 1/
+			2030 CasaEstrada 9 26 2/
+			2200 CasaEstrada 2 7 1
+		",
+		"fall_Sun": "
+			830 EstradaBarnLower 20 20 0/
+			1200 EastScarp_Village 46 92 2/
+			1730 Saloon 28 21 2/
+			2030 CasaEstrada 5 9 1/
+			2200 CasaEstrada 2 7 1
+		",
+		"winter_Mon": "
+			730 EstradaBarnLower 20 20 0/
+			900 CasaEstrada 5 9 1/
+			1600 EastScarp_VillageInn 28 26 2/
+			2030 CasaEstrada 9 26 2/
+			2200 CasaEstrada 2 7 1
+		",
+		"winter_Tues": "
+			730 CasaEstrada 11 24 0/
+			900 CasaEstrada 5 9 1/
+			1830 CasaEstrada 9 26 2/
+			2000 CasaEstrada 5 9 1/
+			2200 CasaEstrada 2 7 1
+		",
+		"winter_Wed": "
+			730 CasaEstrada 11 24 0/
+			900 CasaEstrada 5 9 1/
+			1830 CasaEstrada 9 26 2/
+			2000 CasaEstrada 5 9 1/
+			2200 CasaEstrada 2 7 1
+		",
+		"winter_Thurs": "
+			730 EstradaBarnLower 20 20 0/
+			900 CasaEstrada 5 9 1/
+			1630 EastScarp_VillageInn 28 26 2/
+			1930 CasaEstrada 9 26 2/
+			2100 CasaEstrada 5 9 1/
+			2200 CasaEstrada 2 7 1
+		",
+		"winter_Fri": "
+			730 EstradaBarnLower 20 20 0/
+			1000 ArchaeologyHouse 13 17 3/
+			1400 Town 91 104 2/
+			1830 CasaEstrada 9 26 2/
+			2000 CasaEstrada 5 9 1/
+			2200 CasaEstrada 2 7 1
+		",
+		"winter_Sat": "
+			730 EstradaBarnLower 20 20 0/
+			900 CasaEstrada 5 9 1/
+			1600 EastScarp_VillageInn 28 26 2/
+			2030 CasaEstrada 9 26 2/
+			2200 CasaEstrada 2 7 1
+		",
+		"winter_Sun": "
+			830 EstradaBarnLower 20 20 0/
+			1200 EastScarp_Village 46 92 2/
+			1730 Saloon 28 21 2/
+			2030 CasaEstrada 5 9 1/
+			2200 CasaEstrada 2 7 1
+		",
+		"winter_17": "
+			730 CasaEstrada 11 24 0/
+			900 CasaEstrada 5 9 1/
+			1730 Beach 38 36 2/
+			2200 CasaEstrada 2 7 1
+		",
+      },
+    },
+  ],
+}

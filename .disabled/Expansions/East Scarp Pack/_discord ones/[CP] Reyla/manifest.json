@@ -1,0 +1,42 @@
+{
+  "Name": "Reyla",
+  "Author": "RaffieJohn",
+  "Version": "0.1.3",
+  "Description": "A new NPC who has come to Stardew after traveling the world.",
+  "UniqueID": "RaffieJohn.Reyla",
+  "Dependencies": [
+    {
+      "UniqueID": "Fellowclown.ClownCore",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "Fellowclown.PC",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "DecidedlyHuman.MappingExtensionsAndExtraProperties",  
+      "IsRequired": true 
+    },
+    {
+      "UniqueID": "VWW.CP.PixelPalsPlushies",  
+      "IsRequired": false 
+    },
+    {
+      "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "Esca.FarmTypeManager",
+      "IsRequired": true
+    }
+  ],
+  "DH.MEEP": "2.0.0",
+  "DH.MEEP.CloseupInteractions": "",
+  "DH.MEEP.VanillaLetters": "",
+  "DH.MEEP.SetMailFlag": "",
+  "DH.MEEP.FarmAnimalSpawns": "",
+  "UpdateKeys": [ "Nexus: 17034" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

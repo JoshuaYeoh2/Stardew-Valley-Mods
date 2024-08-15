@@ -1,0 +1,70 @@
+{
+    "Format": "2.0.0",
+
+    "CustomLocations": [
+        {
+           "Name": "wildflour.honeybees_Apiary_Interior",
+           "FromMapFile": "assets/Apiary_Interior.tmx"
+        }
+    ],
+
+    "Changes": [
+
+        //Include Animal Object Data
+
+        {
+            "LogName": "Wildflour's Honeybees Animals Objects Vanilla",
+            "Action": "Include",
+            "FromFile": "Data/objects_vanilla.json",
+            "When": {"Atelier.Cauldron/ConfigValue:FaerieGarden": "False"}    
+        },
+
+        {
+            "LogName": "Wildflour's Honeybees Animals Objects FG",
+            "Action": "Include",
+            "FromFile": "Data/objects_faerie.json",
+            "When": {"Atelier.Cauldron/ConfigValue:FaerieGarden": "True"}
+        },
+
+        //Include Animal Data
+
+        {
+            "LogName": "Wildflour's Honeybees Animals",
+            "Action": "Include",
+            "FromFile": "Data/animals_vanilla.json",
+            "When": {"Atelier.Cauldron/ConfigValue:FaerieGarden": "False"}    
+        },
+
+        {
+            "LogName": "Wildflour's Honeybees Animals with Faerie Garden",
+            "Action": "Include",
+            "FromFile": "Data/animals_faerie.json",
+            "When": {"Atelier.Cauldron/ConfigValue:FaerieGarden": "True"}
+        },
+
+        //Include Apiary Building
+
+        {
+            "LogName": "Wildflour's Honeybees Apiary",
+            "Action": "Include",
+            "FromFile": "Data/buildings.json"
+        },
+
+        //Include Machine Interactions
+
+        {
+            "LogName": "Wildflour's Honeybees Machine Rules",
+            "Action": "Include",
+            "FromFile": "Data/machines.json"
+        },
+
+       
+        //Include Textures
+
+        {
+            "LogName": "Wildflour's Honeybees Textures",
+            "Action": "Include",
+            "FromFile": "Data/textures.json"
+        }
+    ]
+}

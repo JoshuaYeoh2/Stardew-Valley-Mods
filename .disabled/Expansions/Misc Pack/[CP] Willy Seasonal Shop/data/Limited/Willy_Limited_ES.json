@@ -1,0 +1,398 @@
+{ 
+"Changes": [ 
+{
+"Action": "EditData", 
+"Target": "Data/Shops", 
+"TargetField": [ 
+"FishShop", 
+"Items" 
+ ], 
+
+"Entries": { 
+
+//ALL SEASON
+"Golden_Trout": {
+"Id": "MAMAXDV3_FISH_Golden_Trout", 
+"ItemId": "(O)EastScarp_Golden_Trout", 
+"Price": "440",  
+"AvailableStock": 3, 
+"AvailableStockLimit": "Global",
+"Condition": "SYNCED_RANDOM day willy_fish_Golden_Trout 0.35 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"Kokanee_Salmon": { 
+ "Id": "MAMAXDV3_FISH_Kokanee_Salmon", 
+ "ItemId": "(O)EastScarp_Kokanee_Salmon", 
+ "Price": "480",  
+"AvailableStock": 3, 
+"AvailableStockLimit": "Global",
+"Condition": "SYNCED_RANDOM day willy_fish_Kokanee_Salmon 0.3 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+] , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"King_Carp": { 
+"Id": "MAMAXDV3_FISH_King_Carp", 
+"ItemId": "(O)EastScarp_King_Carp", 
+"Price": "1800",  
+"AvailableStock": 1, 
+"AvailableStockLimit": "Global",
+"Condition": "SYNCED_RANDOM day willy_fish_King_Carp 0.1 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"Red_Herring": {
+"Id": "MAMAXDV3_FISH_Red_Herring", 
+"ItemId": "(O)EastScarp_Red_Herring", 
+"Price": "300",  
+"AvailableStock": 1, 
+"AvailableStockLimit": "Global",
+"Condition": "PLAYER_HAS_SEEN_EVENT Current 57874011, SYNCED_RANDOM day willy_fish_Red_Herring 0.4 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+},
+"Fairy_Betta": {
+"Id": "MAMAXDV3_FISH_Fairy_Betta", 
+"ItemId": "(O)EastScarp_Fairy_Betta", 
+"Price": "840",  
+"AvailableStock": 2, 
+"AvailableStockLimit": "Global",
+"Condition": "SYNCED_RANDOM day willy_fish_Fairy_Betta 0.2 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"Obsidian_Maw": {
+"Id": "MAMAXDV3_FISH_Obsidian_Maw", 
+"ItemId": "(O)EastScarp_Obsidian_Maw", 
+"Price": "900",  
+"AvailableStock": 1, 
+"AvailableStockLimit": "Global",
+"Condition": "SYNCED_RANDOM day willy_fish_Obsidian_Maw 0.15 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"Slime_Barbel": {
+"Id": "MAMAXDV3_FISH_Slime_Barbel", 
+"ItemId": "(O)EastScarp_Slime_Barbel", 
+"Price": "840",  
+"AvailableStock": 2, 
+"AvailableStockLimit": "Global",
+"Condition": "SYNCED_RANDOM day willy_fish_Slime_Barbel 0.2 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+},
+
+//SPRING
+"Ornate_Nudibranch": {
+"Id": "MAMAXDV3_FISH_Ornate_Nudibranch", 
+"ItemId": "(O)EastScarp_Ornate_Nudibranch", 
+"Price": "880",  
+"AvailableStock": 3, 
+"AvailableStockLimit": "Global",
+"Condition": "SEASON spring, SYNCED_RANDOM day willy_fish_Ornate_Nudibranch 0.1 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+//SUMMER
+"Sea_Bunny_Nudibranch": {
+"Id": "MAMAXDV3_FISH_Sea_Bunny_Nudibranch", 
+"ItemId": "(O)EastScarp_Sea_Bunny_Nudibranch", 
+"Price": "1000",  
+"AvailableStock": 3, 
+"AvailableStockLimit": "Global",
+"Condition": "SEASON summer, SYNCED_RANDOM day willy_fish_Sea_Bunny_Nudibranch 0.1 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+//FALL
+"Sunset_Nudibranch": {
+"Id": "MAMAXDV3_FISH_Sunset_Nudibranch", 
+"ItemId": "(O)EastScarp_Sunset_Nudibranch", 
+"Price": "920",  
+"AvailableStock": 3, 
+"AvailableStockLimit": "Global",
+"Condition": "SEASON fall, SYNCED_RANDOM day willy_fish_Sunset_Nudibranch 0.1 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+//WINTER
+"Cerulean_Nudibranch": {
+"Id": "MAMAXDV3_FISH_Cerulean_Nudibranch", 
+"ItemId": "(O)EastScarp_Cerulean_Nudibranch", 
+"Price": "880",  
+"AvailableStock": 3, 
+"AvailableStockLimit": "Global",
+"Condition": "SEASON winter, SYNCED_RANDOM day willy_fish_Cerulean_Nudibranch 0.2 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+
+},
+"When": { "Willy Sells ES Fish": "limited" }
+}
+] 
+} 

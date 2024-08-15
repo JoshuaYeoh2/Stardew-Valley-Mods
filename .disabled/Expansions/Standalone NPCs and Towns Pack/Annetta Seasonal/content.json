@@ -1,0 +1,62 @@
+{
+    "Format": "1.29.3",
+	
+	"ConfigSchema": {
+    "Annetta portrait":{
+            "AllowValues":"Black hair, Purple hair",
+            "Default":"Purple hair"
+        },
+    "Annetta sprite":{
+            "AllowValues":"Black hair, Purple hair",
+            "Default":"Black hair"
+        }
+    },
+
+    "Changes": [
+
+        {
+            "LogName": "Annetta colored portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Annetta",
+            "FromFile": "assets/Annetta_portrait_{{Annetta portrait}}.png",
+            "Update": "OnLocationChange",            
+            "When": {
+                "HasFile:{{FromFile}}": true
+            }
+        },
+        {
+            "LogName": "Annetta Seasonal portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Annetta",
+            "FromFile": "assets/Annetta_portrait_{{Season}}.png",
+			"PatchMode": "overlay",
+            "Update": "OnLocationChange",            
+            "When": {
+                "HasFile:{{FromFile}}": true
+            }
+        },
+        {
+            "LogName": "Annetta Seasonal spritesheet",
+            "Action": "EditImage",
+            "Target": "Characters/Annetta",
+            "FromFile": "assets/Annetta_sprite_{{Season}}.png",
+            "Update": "OnLocationChange",            
+            "When": {
+                "HasFile:{{FromFile}}": true
+            }
+        },
+		
+		{
+           "LogName": "Annetta purple hair sprite",
+           "Action": "EditImage",
+           "Target": "Characters/Annetta",
+           "FromFile": "assets/Annetta_sprite_PurpleHair_Overlay.png",
+           "PatchMode": "overlay",
+           "When": {
+			   "Annetta sprite": "Purple hair",
+			   "HasFile:{{FromFile}}": true
+			}
+       }
+ 
+    ]
+}

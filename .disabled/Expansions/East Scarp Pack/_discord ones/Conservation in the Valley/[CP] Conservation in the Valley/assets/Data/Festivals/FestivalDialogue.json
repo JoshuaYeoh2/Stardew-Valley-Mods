@@ -1,0 +1,92 @@
+{
+    "Changes": [
+        {
+            "LogName": "Egg Festival Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "Entries": {
+				"Aida": "{{i18n:aida.dialogue.EggFest}}",
+				"Aida_y2": "{{i18n:aida.dialogue.EggFesty2}}",
+				"Maggi": "{{i18n:maggi.dialogue.EggFest}}",
+				"Maggi_y2": "{{i18n:maggi.dialogue.EggFesty2}}",
+				},
+			},
+		{
+            "LogName": "Flower Dance Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "Entries": {
+				"Aida": "{{i18n:aida.dialogue.FlowerDance}}",
+				"Aida_y2": "{{i18n:aida.dialogue.FlowerDancey2}}",
+				"Maggi": "{{i18n:maggi.dialogue.FlowerDance}}",
+				"Maggi_y2": "{{i18n:maggi.dialogue.FlowerDancey2}}",
+				},
+			},
+		{
+            "LogName": "Luau Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "Entries": {
+				"Aida": "{{i18n:aida.dialogue.Luau}}",
+				"Aida_y2": "{{i18n:aida.dialogue.Luauy2}}",
+				"Maggi": "{{i18n:maggi.dialogue.Luau}}",
+				"Maggi_y2": "{{i18n:maggi.dialogue.Luauy2}}",
+				},
+			},
+		{
+            "LogName": "Jellies Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "Entries": {
+				"Aida": "{{i18n:aida.dialogue.Jellies}}",
+				"Aida_y2": "{{i18n:aida.dialogue.Jelliesy2}}",
+				"Maggi": "{{i18n:maggi.dialogue.Jellies}}",
+				"Maggi_y2": "{{i18n:maggi.dialogue.Jelliesy2}}",
+				},
+			},
+		{
+            "LogName": "Fair Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "Entries": {
+				"Aida": "{{i18n:aida.dialogue.Fair}}",
+				"Aida_y2": "{{i18n:aida.dialogue.Fairy2}}",
+				"Maggi": "{{i18n:maggi.dialogue.Fair}}",
+				"Maggi_y2": "{{i18n:maggi.dialogue.Fairy2}}",
+				},
+			},
+		{
+            "LogName": "Spirit's Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "Entries": {
+				"Aida": "{{i18n:aida.dialogue.SpiritsEve}}",
+				"Aida_y2": "{{i18n:aida.dialogue.SpiritsEvey2}}",
+				"Maggi": "{{i18n:maggi.dialogue.SpiritsEve}}",
+				"Maggi_y2": "{{i18n:maggi.dialogue.SpiritsEvey2}}",
+				},
+			},
+		{
+            "LogName": "Ice Festival Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "Entries": {
+				"Aida": "{{i18n:aida.dialogue.IceFest}}",
+				"Aida_y2": "{{i18n:aida.dialogue.IceFesty2}}",
+				"Maggi": "{{i18n:maggi.dialogue.IceFest}}",
+				"Maggi_y2": "{{i18n:maggi.dialogue.IceFesty2}}",
+				},
+			},
+		{
+            "LogName": "Winter Star Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "Entries": {
+				"Aida": "{{i18n:aida.dialogue.WinterStar}}",
+				"Aida_y2": "{{i18n:aida.dialogue.WinterStary2}}",
+				"Maggi": "{{i18n:maggi.dialogue.WinterStar}}",
+				"Maggi_y2": "{{i18n:maggi.dialogue.WinterStary2}}",
+				},
+			},
+		]
+}

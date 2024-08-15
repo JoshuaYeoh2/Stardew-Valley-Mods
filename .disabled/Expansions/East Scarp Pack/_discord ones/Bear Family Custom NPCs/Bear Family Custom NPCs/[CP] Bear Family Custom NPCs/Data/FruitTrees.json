@@ -1,0 +1,72 @@
+{
+  "Changes": [
+    // custom fruit tree
+    // add fruit + sapling items
+
+    // note: sapling must have an edibility under 0 (usually -300) to be plantable
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "MadDog.HashtagBearfam.FerskenPeach": {
+          "Name": "MadDog.HashtagBearfam.FerskenPeach",
+          "DisplayName": "{{i18n:MadDog.HashtagBearfam.FerskenPeach}}",
+          "Description": "{{i18n:MadDog.HashtagBearfam.FerskenPeach.Description}}",
+          "Type": "Fruit",
+          "Category": -79,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": true,
+          "Price": 169,
+          "Edibility": 23,
+          "IsDrink": false,
+
+          "Texture": "{{InternalAssetKey: assets/MadDog.BearFamObjects.png}}",
+          "SpriteIndex": 34,
+          "ContextTags": [
+            "color_pink"
+          ]
+        },
+        "MadDog.HashtagBearfam.FerskenPeachSapling": {
+          "Name": "MadDog.HashtagBearfam.FerskenPeachSapling",
+          "DisplayName": "{{i18n:MadDog.HashtagBearfam.FerskenPeachSapling}}",
+          "Description": "{{i18n:MadDog.HashtagBearfam.FerskenPeachSapling.Description}}",
+          "Type": "Basic",
+          "Category": -74,
+          "Price": 1505,
+
+          "Texture": "{{InternalAssetKey: assets/MadDog.BearFamObjects.png}}",
+          "SpriteIndex": 37
+        }
+      }
+    },
+
+    // add fruit tree
+    {
+      "Action": "EditData",
+      "Target": "Data/FruitTrees",
+      "Entries": {
+        "MadDog.HashtagBearfam.FerskenPeachSapling": {
+          "DisplayName": "{{i18n:MadDog.HashtagBearfam.FerskenPeachTree}}",
+          "Seasons": [ "summer", "fall" ],
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": true,
+          "Fruit": [
+            {
+              "Id": "MadDog.HashtagBearfam.FerskenPeach",
+              "ItemId": "MadDog.HashtagBearfam.FerskenPeach",
+              "Seasons": [ "summer", "fall" ],
+              "Chance": 0.5,
+              "Condition": null,
+              "RandomItemId": null,
+              "MinStack": 0,
+              "MaxStack": 1,
+              "Quality": 1
+            }
+          ],
+          "Texture": "{{InternalAssetKey: assets/MadDog.BearFamFruitTrees.png}}",
+          "TextureSpriteRow": 0
+        }
+      }
+    }
+  ]
+}

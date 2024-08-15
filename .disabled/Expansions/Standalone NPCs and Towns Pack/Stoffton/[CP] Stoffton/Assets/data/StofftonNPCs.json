@@ -1,0 +1,3931 @@
+{
+	"Changes": [
+		{
+			"LogName": "Adding Stoffton NPCs",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"Entries": {
+				"AlFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Al}}",
+					"BirthSeason": "Winter",
+					"BirthDay": 24,
+					"Gender": "Male",
+					"Age": "Adult",
+					"Manner": "Rude",
+					"SocialAnxiety": "Shy",
+					"Optimism": "Negative",
+					"IsDarkSkinned": false,
+					"CanBeRomanced": false,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Dad",
+						"Tile": {
+						  "X": 5,
+						  "Y": 5
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"WillFS": "{{i18n:Stoffton.NPCRelationships.son}}"
+					},
+					"CustomFields": null
+				  },
+
+				"AlexandriaFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Alexandria}}",
+					"BirthSeason": "Spring",
+					"BirthDay": 16,
+					"Gender": "Female",
+					"Age": "Teen",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": false,
+					"CanBeRomanced": true,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Cafe",
+						"Tile": {
+						  "X": 31,
+						  "Y": 5
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+					"SpouseRoom": {
+						"MapAsset": "Lizzie_Stoffton_SpouseRoom",
+						"MapSourceRect": {
+							"X": 12,
+							"Y": 0,
+							"Width": 6,
+							"Height": 9
+						}
+					},
+					"SpousePatio": {
+						"MapAsset": "Lizzie_Stoffton_OutsideArea",
+						"MapSourceRect": {
+							"X": 8,
+							"Y": 0,
+							"Width": 4,
+							"Height": 4
+						},
+					},
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"LexiFS": "{{i18n:Stoffton.NPCRelationships.mom}}",
+						"KendriaFS": "{{i18n:Stoffton.NPCRelationships.mother}}"
+					},
+					"CustomFields": null
+				  },
+
+				"AlunaFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Aluna}}",
+					"BirthSeason": "Spring",
+					"BirthDay": 12,
+					"Gender": "Female",
+					"Age": "Adult",
+					"Manner": "Polite",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": false,
+					"CanBeRomanced": false,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_MillHouse",
+						"Tile": {
+						  "X": 5,
+						  "Y": 6
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"GerhardFS": "{{i18n:Stoffton.NPCRelationships.husband}}",
+						"YosefFS": "{{i18n:Stoffton.NPCRelationships.oldest_son}}",
+						"SilasFS": "{{i18n:Stoffton.NPCRelationships.son}}",
+						"IslaFS": "{{i18n:Stoffton.NPCRelationships.babyGirl}}",
+						"MakenaFS": "{{i18n:Stoffton.NPCRelationships.babyGirl}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"BrinaFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Brina}}",
+					"BirthSeason": "Summer",
+					"BirthDay": 3,
+					"Gender": "Female",
+					"Age": "Adult",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": false,
+					"CanBeRomanced": true,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Hotel",
+						"Tile": {
+						  "X": 4,
+						  "Y": 4
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+					"SpouseRoom": {
+						"MapAsset": "Lizzie_Stoffton_SpouseRoom",
+						"MapSourceRect": {
+							"X": 24,
+							"Y": 0,
+							"Width": 6,
+							"Height": 9
+						}
+					},
+					"SpousePatio": {
+						"MapAsset": "Lizzie_Stoffton_OutsideArea",
+						"MapSourceRect": {
+							"X": 16,
+							"Y": 0,
+							"Width": 4,
+							"Height": 4
+						},
+					},
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"HelmutFS": "{{i18n:Stoffton.NPCRelationships.father}}",
+						"GretaFS": "{{i18n:Stoffton.NPCRelationships.mother}}",
+						"EbbeFS": "{{i18n:Stoffton.NPCRelationships.littleSister}}",
+						"MatiusFS": "{{i18n:Stoffton.NPCRelationships.youngerBrother}}",
+						"GarthFS": "{{i18n:Stoffton.NPCRelationships.babyBrother}}",
+						"OliveFS": "{{i18n:Stoffton.NPCRelationships.babySister}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"ClayFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Clay}}",
+					"BirthSeason": "Spring",
+					"BirthDay": 6,
+					"Gender": "Male",
+					"Age": "Adult",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": true,
+					"CanBeRomanced": true,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_BlacksmithSecond",
+						"Tile": {
+						  "X": 4,
+						  "Y": 6
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+					"SpouseRoom": {
+						"MapAsset": "Lizzie_Stoffton_SpouseRoom",
+						"MapSourceRect": {
+							"X": 0,
+							"Y": 27,
+							"Width": 6,
+							"Height": 9
+						}
+					},
+					"SpousePatio": {
+						"MapAsset": "Lizzie_Stoffton_OutsideArea",
+						"MapSourceRect": {
+							"X": 0,
+							"Y": 12,
+							"Width": 4,
+							"Height": 4
+						},
+					},
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"IgnasFS": "{{i18n:Stoffton.NPCRelationships.father}}",
+						"MarinaFS": "{{i18n:Stoffton.NPCRelationships.mother}}",
+						"TomasFS": "{{i18n:Stoffton.NPCRelationships.brother}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"DahliaFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Dahlia}}",
+					"BirthSeason": "Fall",
+					"BirthDay": 6,
+					"Gender": "Female",
+					"Age": "Teen",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": true,
+					"CanBeRomanced": true,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Boarding",
+						"Tile": {
+						  "X": 5,
+						  "Y": 8
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+					"SpouseRoom": {
+						"MapAsset": "Lizzie_Stoffton_SpouseRoom",
+						"MapSourceRect": {
+							"X": 0,
+							"Y": 9,
+							"Width": 6,
+							"Height": 9
+						}
+					},
+					"SpousePatio": {
+						"MapAsset": "Lizzie_Stoffton_OutsideArea",
+						"MapSourceRect": {
+							"X": 0,
+							"Y": 4,
+							"Width": 4,
+							"Height": 4
+						},
+					},
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"JohannaFS": "",
+						"JulianaFS": "",
+						"FabianaFS": ""
+					},
+					"CustomFields": null
+				  },
+
+
+				"DwarfAFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Pxurk}}",
+					"BirthSeason": "Summer",
+					"BirthDay": 6,
+					"Gender": "Female",
+					"Age": "Child",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": true,
+					"CanBeRomanced": false,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Dwarf",
+						"Tile": {
+						  "X": 6,
+						  "Y": 4
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"DwarfBFS": "{{i18n:Stoffton.NPCRelationships.mother}}",
+						"DwarfDFS": "{{i18n:Stoffton.NPCRelationships.father}}",
+						"DwarfCFS": "{{i18n:Stoffton.NPCRelationships.sibling}}",
+						"DwarfEFS": "{{i18n:Stoffton.NPCRelationships.sibling}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"DwarfBFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Emalik}}",
+					"BirthSeason": "Summer",
+					"BirthDay": 12,
+					"Gender": "Female",
+					"Age": "Adult",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": true,
+					"CanBeRomanced": false,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Dwarf",
+						"Tile": {
+						  "X": 7,
+						  "Y": 4
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"DwarfDFS": "{{i18n:Stoffton.NPCRelationships.husband}}",
+						"DwarfAFS": "{{i18n:Stoffton.NPCRelationships.child}}",
+						"DwarfCFS": "{{i18n:Stoffton.NPCRelationships.child}}",
+						"DwarfEFS": "{{i18n:Stoffton.NPCRelationships.child}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"DwarfCFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Gfvol}}",
+					"BirthSeason": "Fall",
+					"BirthDay": 12,
+					"Gender": "Female",
+					"Age": "Child",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": true,
+					"CanBeRomanced": false,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Dwarf",
+						"Tile": {
+						  "X": 5,
+						  "Y": 4
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"DwarfBFS": "{{i18n:Stoffton.NPCRelationships.mother}}",
+						"DwarfDFS": "{{i18n:Stoffton.NPCRelationships.father}}",
+						"DwarfAFS": "{{i18n:Stoffton.NPCRelationships.sibling}}",
+						"DwarfEFS": "{{i18n:Stoffton.NPCRelationships.sibling}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"DwarfDFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Filosoof}}",
+					"BirthSeason": "Fall",
+					"BirthDay": 23,
+					"Gender": "Male",
+					"Age": "Adult",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": true,
+					"CanBeRomanced": false,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Dwarf",
+						"Tile": {
+						  "X": 3,
+						  "Y": 4
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"DwarfBFS": "{{i18n:Stoffton.NPCRelationships.wife}}",
+						"DwarfAFS": "{{i18n:Stoffton.NPCRelationships.child}}",
+						"DwarfCFS": "{{i18n:Stoffton.NPCRelationships.child}}",
+						"DwarfEFS": "{{i18n:Stoffton.NPCRelationships.child}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"DwarfEFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Zsopk}}",
+					"BirthSeason": "Winter",
+					"BirthDay": 6,
+					"Gender": "Female",
+					"Age": "Child",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": true,
+					"CanBeRomanced": false,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Dwarf",
+						"Tile": {
+						  "X": 9,
+						  "Y": 4
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"DwarfBFS": "{{i18n:Stoffton.NPCRelationships.mother}}",
+						"DwarfDFS": "{{i18n:Stoffton.NPCRelationships.father}}",
+						"DwarfAFS": "{{i18n:Stoffton.NPCRelationships.sibling}}",
+						"DwarfCFS": "{{i18n:Stoffton.NPCRelationships.sibling}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"EbbeFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Ebbe}}",
+					"BirthSeason": "Winter",
+					"BirthDay": 2,
+					"Gender": "Female",
+					"Age": "Teen",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": false,
+					"CanBeRomanced": true,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Pickles",
+						"Tile": {
+						  "X": 15,
+						  "Y": 4
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+					"SpouseRoom": {
+						"MapAsset": "Lizzie_Stoffton_SpouseRoom",
+						"MapSourceRect": {
+							"X": 24,
+							"Y": 9,
+							"Width": 6,
+							"Height": 9
+						}
+					},
+					"SpousePatio": {
+						"MapAsset": "Lizzie_Stoffton_OutsideArea",
+						"MapSourceRect": {
+							"X": 16,
+							"Y": 4,
+							"Width": 4,
+							"Height": 4
+						},
+						"SpriteAnimationFrames": [
+							[
+								16,
+								500
+							],
+							[
+								17,
+								500
+							],
+							[
+								16,
+								500
+							],
+							[
+								17,
+								500
+							],
+							[
+								18,
+								500
+							],
+							[
+								19,
+								500
+							],
+							[
+								0,
+								3500
+							],
+						],
+						"SpriteAnimationPixelOffset": {
+							"X": 0,
+							"Y": 0
+						}
+					},
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"HelmutFS": "{{i18n:Stoffton.NPCRelationships.father}}",
+						"GretaFS": "{{i18n:Stoffton.NPCRelationships.mother}}",
+						"BrinaFS": "{{i18n:Stoffton.NPCRelationships.bigSister}}",
+						"MatiusFS": "{{i18n:Stoffton.NPCRelationships.littleBrother}}",
+						"GarthFS": "{{i18n:Stoffton.NPCRelationships.babyBrother}}",
+						"OliveFS": "{{i18n:Stoffton.NPCRelationships.babySister}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"ErikFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Erik}}",
+					"BirthSeason": "Fall",
+					"BirthDay": 22,
+					"Gender": "Male",
+					"Age": "Adult",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": false,
+					"CanBeRomanced": false,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Grocery",
+						"Tile": {
+						  "X": 32,
+						  "Y": 4
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"NadiaFS": "{{i18n:Stoffton.NPCRelationships.wife}}",
+						"VashaFS": "{{i18n:Stoffton.NPCRelationships.child}}",
+						"QuinnFS": "{{i18n:Stoffton.NPCRelationships.son}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"FabianaFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Fabiana}}",
+					"BirthSeason": "Summer",
+					"BirthDay": 20,
+					"Gender": "Female",
+					"Age": "Teen",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": true,
+					"CanBeRomanced": true,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Boarding",
+						"Tile": {
+						  "X": 15,
+						  "Y": 8
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+					"SpouseRoom": {
+						"MapAsset": "Lizzie_Stoffton_SpouseRoom",
+						"MapSourceRect": {
+							"X": 12,
+							"Y": 9,
+							"Width": 6,
+							"Height": 9
+						}
+					},
+					"SpousePatio": {
+						"MapAsset": "Lizzie_Stoffton_OutsideArea",
+						"MapSourceRect": {
+							"X": 8,
+							"Y": 4,
+							"Width": 4,
+							"Height": 4
+						},
+					},
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"JohannaFS": "",
+						"JulianaFS": "",
+						"DahliaFS": ""
+					},
+					"CustomFields": null
+				  },
+
+
+				"FelixFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Felix}}",
+					"BirthSeason": "Summer",
+					"BirthDay": 9,
+					"Gender": "Male",
+					"Age": "Adult",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Positive",
+					"IsDarkSkinned": false,
+					"CanBeRomanced": false,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_FlowerSecond",
+						"Tile": {
+						  "X": 20,
+						  "Y": 7
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"TomasFS": "{{i18n:Stoffton.NPCRelationships.husband}}",
+						"FionaFS": "{{i18n:Stoffton.NPCRelationships.mother}}",
+						"OttoFS": "{{i18n:Stoffton.NPCRelationships.oldestBrother}}",
+						"GerhardFS": "{{i18n:Stoffton.NPCRelationships.brother}}",
+						"Marnie": "{{i18n:Stoffton.NPCRelationships.bigSister}}",
+						"JohannaFS": "{{i18n:Stoffton.NPCRelationships.littleSister}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"FionaFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Fiona}}",
+					"BirthSeason": "Spring",
+					"BirthDay": 28,
+					"Gender": "Female",
+					"Age": "Adult",
+					"Manner": "Polite",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Positive",
+					"IsDarkSkinned": false,
+					"CanBeRomanced": false,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Shepherd",
+						"Tile": {
+						  "X": 21,
+						  "Y": 7
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"OttoFS": "{{i18n:Stoffton.NPCRelationships.son}}",
+						"GerhardFS": "{{i18n:Stoffton.NPCRelationships.son}}",
+						"HelmutFS": "{{i18n:Stoffton.NPCRelationships.son}}",
+						"JohannaFS": "{{i18n:Stoffton.NPCRelationships.daughter}}",
+						"FelixFS": "{{i18n:Stoffton.NPCRelationships.son}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"GarthFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Garth}}",
+					"BirthSeason": "Winter",
+					"BirthDay": 21,
+					"Gender": "Male",
+					"Age": "Child",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": false,
+					"CanBeRomanced": false,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Pickles",
+						"Tile": {
+						  "X": 6,
+						  "Y": 4
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"HelmutFS": "{{i18n:Stoffton.NPCRelationships.father}}",
+						"GretaFS": "{{i18n:Stoffton.NPCRelationships.mother}}",
+						"BrinaFS": "{{i18n:Stoffton.NPCRelationships.bigSister}}",
+						"EbbeFS": "{{i18n:Stoffton.NPCRelationships.sister}}",
+						"MatiusFS": "{{i18n:Stoffton.NPCRelationships.brother}}",
+						"OliveFS": "{{i18n:Stoffton.NPCRelationships.babySister}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"GerhardFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Gerhard}}",
+					"BirthSeason": "Summer",
+					"BirthDay": 22,
+					"Gender": "Male",
+					"Age": "Adult",
+					"Manner": "Rude",
+					"SocialAnxiety": "Shy",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": false,
+					"CanBeRomanced": false,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_MillHouse",
+						"Tile": {
+						  "X": 10,
+						  "Y": 6
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"AlunaFS": "{{i18n:Stoffton.NPCRelationships.wife}}",
+						"YosefFS": "{{i18n:Stoffton.NPCRelationships.myBoy}}",
+						"SilasFS": "{{i18n:Stoffton.NPCRelationships.son}}",
+						"IslaFS": "{{i18n:Stoffton.NPCRelationships.daughter}}",
+						"MakenaFS": "{{i18n:Stoffton.NPCRelationships.daughter}}",
+						"OttoFS": "{{i18n:Stoffton.NPCRelationships.olderBrother}}",
+						"HelmutFS": "{{i18n:Stoffton.NPCRelationships.brother}}",
+						"FelixFS": "{{i18n:Stoffton.NPCRelationships.brother}}",
+						"JohannaFS": "{{i18n:Stoffton.NPCRelationships.sister}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"GoblinWifeFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Iratxoa}}",
+					"BirthSeason": "Spring",
+					"BirthDay": 9,
+					"Gender": "Female",
+					"Age": "Adult",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": true,
+					"CanBeRomanced": false,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Goblin",
+						"Tile": {
+						  "X": 5,
+						  "Y": 15
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+// references a base-game character
+					"FriendsAndFamily": {
+						"Henchman": "{{i18n:Stoffton.NPCRelationships.husband}}",
+						"GreenBabyFS": "{{i18n:Stoffton.NPCRelationships.child}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"GreenBabyFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.GreenBaby}}",
+					"BirthSeason": "Winter",
+					"BirthDay": 5,
+					"Gender": "Female",
+					"Age": "Child",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": true,
+					"CanBeRomanced": false,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Goblin",
+						"Tile": {
+						  "X": 9,
+						  "Y": 6
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+// references a base-game character
+					"FriendsAndFamily": {
+						"GoblinWifeFS": "{{i18n:Stoffton.NPCRelationships.mother}}",
+						"Henchman": "{{i18n:Stoffton.NPCRelationships.father}}"
+					},
+					"CustomFields": null
+				  },
+
+// Henchman - new relationships for base-game character, should be addressed somewhere, but I don't know where exactly
+// "GoblinWifeFS":  "{{i18n:Stoffton.NPCRelationships.wife}}"
+// "GreenBabyFS":  "{{i18n:Stoffton.NPCRelationships.child}}"
+
+				"GretaFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Greta}}",
+					"BirthSeason": "Summer",
+					"BirthDay": 27,
+					"Gender": "Female",
+					"Age": "Adult",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": false,
+					"CanBeRomanced": false,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Pickles",
+						"Tile": {
+						  "X": 12,
+						  "Y": 19
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"HelmutFS": "{{i18n:Stoffton.NPCRelationships.husband}}",
+						"BrinaFS": "{{i18n:Stoffton.NPCRelationships.eldestDaughter}}",
+						"EbbeFS": "{{i18n:Stoffton.NPCRelationships.daughter}}",
+						"MatiusFS": "{{i18n:Stoffton.NPCRelationships.eldestSon}}",
+						"GarthFS": "{{i18n:Stoffton.NPCRelationships.youngestSon}}",
+						"OliveFS": "{{i18n:Stoffton.NPCRelationships.babyGirl}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"HelmutFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Helmut}}",
+					"BirthSeason": "Summer",
+					"BirthDay": 16,
+					"Gender": "Male",
+					"Age": "Adult",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": false,
+					"CanBeRomanced": false,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Pickles",
+						"Tile": {
+						  "X": 16,
+						  "Y": 19
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"GretaFS": "{{i18n:Stoffton.NPCRelationships.wife}}",
+						"BrinaFS": "{{i18n:Stoffton.NPCRelationships.eldestDaughter}}",
+						"EbbeFS": "{{i18n:Stoffton.NPCRelationships.daughter}}",
+						"MatiusFS": "{{i18n:Stoffton.NPCRelationships.eldestSon}}",
+						"GarthFS": "{{i18n:Stoffton.NPCRelationships.youngestSon}}",
+						"OliveFS": "{{i18n:Stoffton.NPCRelationships.babyGirl}}",
+						"OttoFS": "{{i18n:Stoffton.NPCRelationships.eldestBrother}}",
+						"GerhardFS": "{{i18n:Stoffton.NPCRelationships.brother}}",
+						"FelixFS": "{{i18n:Stoffton.NPCRelationships.brother}}",
+						"JohannaFS": "{{i18n:Stoffton.NPCRelationships.sister}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"IgnasFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Ignas}}",
+					"BirthSeason": "Spring",
+					"BirthDay": 25,
+					"Gender": "Male",
+					"Age": "Adult",
+					"Manner": "Polite",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": true,
+					"CanBeRomanced": false,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_BlacksmithSecond",
+						"Tile": {
+						  "X": 20,
+						  "Y": 5
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"MarinaFS": "{{i18n:Stoffton.NPCRelationships.wife}}",
+						"TomasFS": "{{i18n:Stoffton.NPCRelationships.son}}",
+						"ClayFS": "{{i18n:Stoffton.NPCRelationships.son}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"IslaFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Isla}}",
+					"BirthSeason": "Spring",
+					"BirthDay": 21,
+					"Gender": "Female",
+					"Age": "Child",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": false,
+					"CanBeRomanced": false,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_MHSecond",
+						"Tile": {
+						  "X": 11,
+						  "Y": 5
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"AlunaFS": "{{i18n:Stoffton.NPCRelationships.mom}}",
+						"GerhardFS": "{{i18n:Stoffton.NPCRelationships.dad}}",
+						"YosefFS": "{{i18n:Stoffton.NPCRelationships.oldestBrother}}",
+						"SilasFS": "{{i18n:Stoffton.NPCRelationships.brother}}",
+						"MakenaFS": "{{i18n:Stoffton.NPCRelationships.twinSister}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"JohannaFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Johanna}}",
+					"BirthSeason": "Winter",
+					"BirthDay": 4,
+					"Gender": "Female",
+					"Age": "Adult",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": false,
+					"CanBeRomanced": false,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Boarding",
+						"Tile": {
+						  "X": 12,
+						  "Y": 28
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"FionaFS": "{{i18n:Stoffton.NPCRelationships.mother}}",
+						"OttoFS": "{{i18n:Stoffton.NPCRelationships.eldestBrother}}",
+						"GerhardFS": "{{i18n:Stoffton.NPCRelationships.brother}}",
+						"HelmutFS": "{{i18n:Stoffton.NPCRelationships.brother}}",
+						"FelixFS": "{{i18n:Stoffton.NPCRelationships.brother}}",
+						"JulianaFS": "",
+						"FabianaFS": "",
+						"DahliaFS": ""
+					},
+					"CustomFields": null
+				  },
+
+
+				"JosefFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Josef}}",
+					"BirthSeason": "Summer",
+					"BirthDay": 26,
+					"Gender": "Male",
+					"Age": "Adult",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": false,
+					"CanBeRomanced": true,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Shepherd",
+						"Tile": {
+						  "X": 4,
+						  "Y": 8
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+					"SpouseRoom": {
+						"MapAsset": "Lizzie_Stoffton_SpouseRoom",
+						"MapSourceRect": {
+							"X": 18,
+							"Y": 0,
+							"Width": 6,
+							"Height": 9
+						}
+					},
+					"SpousePatio": {
+						"MapAsset": "Lizzie_Stoffton_OutsideArea",
+						"MapSourceRect": {
+							"X": 12,
+							"Y": 0,
+							"Width": 4,
+							"Height": 4
+						},
+					},
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"FionaFS": "{{i18n:Stoffton.NPCRelationships.grandmother}}",
+						"OttoFS": "{{i18n:Stoffton.NPCRelationships.father}}",
+						"MacFS": "{{i18n:Stoffton.NPCRelationships.brother}}",
+						"OdoFS": "{{i18n:Stoffton.NPCRelationships.brother}}",
+						"RolfFS": "{{i18n:Stoffton.NPCRelationships.brother}}",
+						"JohannaFS": "{{i18n:Stoffton.NPCRelationships.Aunt}}",
+						"GerhardFS": "{{i18n:Stoffton.NPCRelationships.Uncle}}",
+						"HelmutFS": "{{i18n:Stoffton.NPCRelationships.Uncle}}",
+						"FelixFS": "{{i18n:Stoffton.NPCRelationships.Uncle}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"JulianaFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Juliana}}",
+					"BirthSeason": "Fall",
+					"BirthDay": 4,
+					"Gender": "Female",
+					"Age": "Teen",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": true,
+					"CanBeRomanced": true,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Boarding",
+						"Tile": {
+						  "X": 26,
+						  "Y": 7
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+					"SpouseRoom": {
+						"MapAsset": "Lizzie_Stoffton_SpouseRoom",
+						"MapSourceRect": {
+							"X": 18,
+							"Y": 9,
+							"Width": 6,
+							"Height": 9
+						}
+					},
+					"SpousePatio": {
+						"MapAsset": "Lizzie_Stoffton_OutsideArea",
+						"MapSourceRect": {
+							"X": 12,
+							"Y": 4,
+							"Width": 4,
+							"Height": 4
+						},
+					},
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"JohannaFS": "",
+						"FabianaFS": "",
+						"DahliaFS": ""
+					},
+					"CustomFields": null
+				  },
+
+
+				"KendriaFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Kendria}}",
+					"BirthSeason": "Fall",
+					"BirthDay": 26,
+					"Gender": "Female",
+					"Age": "Adult",
+					"Manner": "Polite",
+					"SocialAnxiety": "Outgoing",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": true,
+					"CanBeRomanced": false,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Cafe",
+						"Tile": {
+						  "X": 25,
+						  "Y": 16
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"LexiFS": "{{i18n:Stoffton.NPCRelationships.wife}}",
+						"AlexandriaFS": "{{i18n:Stoffton.NPCRelationships.child}}",
+						"UniceFS": "{{i18n:Stoffton.NPCRelationships.mother}}",
+						"RhysFS": "{{i18n:Stoffton.NPCRelationships.father}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"LeanderFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Leander}}",
+					"BirthSeason": "Winter",
+					"BirthDay": 11,
+					"Gender": "Male",
+					"Age": "Adult",
+					"Manner": "Rude",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": true,
+					"CanBeRomanced": false,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Clothes",
+						"Tile": {
+						  "X": 20,
+						  "Y": 4
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"SeleneFS": "{{i18n:Stoffton.NPCRelationships.wife}}",
+						"LexiFS": "{{i18n:Stoffton.NPCRelationships.daughter}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"LexiFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Lexi}}",
+					"BirthSeason": "Spring",
+					"BirthDay": 8,
+					"Gender": "Female",
+					"Age": "Adult",
+					"Manner": "Polite",
+					"SocialAnxiety": "Outgoing",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": true,
+					"CanBeRomanced": false,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Cafe",
+						"Tile": {
+						  "X": 25,
+						  "Y": 16
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"LeanderFS": "{{i18n:Stoffton.NPCRelationships.dad}}",
+						"SeleneFS": "{{i18n:Stoffton.NPCRelationships.mom}}",
+						"KendriaFS": "{{i18n:Stoffton.NPCRelationships.wife}}",
+						"AlexandriaFS": "{{i18n:Stoffton.NPCRelationships.child}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"MacFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Mac}}",
+					"BirthSeason": "Fall",
+					"BirthDay": 19,
+					"Gender": "Male",
+					"Age": "Adult",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": false,
+					"CanBeRomanced": false,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Shepherd",
+						"Tile": {
+						  "X": 4,
+						  "Y": 8
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+					"SpouseRoom": {
+						"MapAsset": "Lizzie_Stoffton_SpouseRoom",
+						"MapSourceRect": {
+							"X": 6,
+							"Y": 9,
+							"Width": 6,
+							"Height": 9
+						}
+					},
+					"SpousePatio": {
+						"MapAsset": "Lizzie_Stoffton_OutsideArea",
+						"MapSourceRect": {
+							"X": 4,
+							"Y": 4,
+							"Width": 4,
+							"Height": 4
+						},
+					},
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"FionaFS": "{{i18n:Stoffton.NPCRelationships.grandmother}}",
+						"OttoFS": "{{i18n:Stoffton.NPCRelationships.father}}",
+						"JosefFS": "{{i18n:Stoffton.NPCRelationships.brother}}",
+						"OdoFS": "{{i18n:Stoffton.NPCRelationships.brother}}",
+						"RolfFS": "{{i18n:Stoffton.NPCRelationships.brother}}",
+						"JohannaFS": "{{i18n:Stoffton.NPCRelationships.Aunt}}",
+						"GerhardFS": "{{i18n:Stoffton.NPCRelationships.Uncle}}",
+						"HelmutFS": "{{i18n:Stoffton.NPCRelationships.Uncle}}",
+						"FelixFS": "{{i18n:Stoffton.NPCRelationships.Uncle}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"MakenaFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Makena}}",
+					"BirthSeason": "Spring",
+					"BirthDay": 21,
+					"Gender": "Female",
+					"Age": "Child",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": false,
+					"CanBeRomanced": false,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_MHSecond",
+						"Tile": {
+						  "X": 4,
+						  "Y": 5
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"AlunaFS": "{{i18n:Stoffton.NPCRelationships.mom}}",
+						"GerhardFS": "{{i18n:Stoffton.NPCRelationships.dad}}",
+						"YosefFS": "{{i18n:Stoffton.NPCRelationships.oldestBrother}}",
+						"SilasFS": "{{i18n:Stoffton.NPCRelationships.brother}}",
+						"IslaFS": "{{i18n:Stoffton.NPCRelationships.twinSister}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"MarinaFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Marina}}",
+					"BirthSeason": "Fall",
+					"BirthDay": 10,
+					"Gender": "Female",
+					"Age": "Adult",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": true,
+					"CanBeRomanced": false,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_BlacksmithSecond",
+						"Tile": {
+						  "X": 16,
+						  "Y": 5
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"IgnasFS": "{{i18n:Stoffton.NPCRelationships.husband}}",
+						"TomasFS": "{{i18n:Stoffton.NPCRelationships.son}}",
+						"ClayFS": "{{i18n:Stoffton.NPCRelationships.babyBoy}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"MatiusFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Matius}}",
+					"BirthSeason": "Summer",
+					"BirthDay": 18,
+					"Gender": "Male",
+					"Age": "Child",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": false,
+					"CanBeRomanced": false,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Pickles",
+						"Tile": {
+						  "X": 2,
+						  "Y": 4
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"HelmutFS": "{{i18n:Stoffton.NPCRelationships.father}}",
+						"GretaFS": "{{i18n:Stoffton.NPCRelationships.mother}}",
+						"BrinaFS": "{{i18n:Stoffton.NPCRelationships.bigSister}}",
+						"EbbeFS": "{{i18n:Stoffton.NPCRelationships.sister}}",
+						"GarthFS": "{{i18n:Stoffton.NPCRelationships.babyBrother}}",
+						"OliveFS": "{{i18n:Stoffton.NPCRelationships.babySister}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"NadiaFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Nadia}}",
+					"BirthSeason": "Fall",
+					"BirthDay": 14,
+					"Gender": "Female",
+					"Age": "Adult",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": false,
+					"CanBeRomanced": false,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Grocery",
+						"Tile": {
+						  "X": 31,
+						  "Y": 4
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"ErikFS": "{{i18n:Stoffton.NPCRelationships.husband}}",
+						"VashaFS": "{{i18n:Stoffton.NPCRelationships.child}}",
+						"QuinnFS": "{{i18n:Stoffton.NPCRelationships.son}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"OdoFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Odo}}",
+					"BirthSeason": "Summer",
+					"BirthDay": 25,
+					"Gender": "Male",
+					"Age": "Teen",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": false,
+					"CanBeRomanced": true,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Shepherd",
+						"Tile": {
+						  "X": 4,
+						  "Y": 8
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+					"SpouseRoom": {
+						"MapAsset": "Lizzie_Stoffton_SpouseRoom",
+						"MapSourceRect": {
+							"X": 6,
+							"Y": 0,
+							"Width": 6,
+							"Height": 9
+						}
+					},
+					"SpousePatio": {
+						"MapAsset": "Lizzie_Stoffton_OutsideArea",
+						"MapSourceRect": {
+							"X": 4,
+							"Y": 0,
+							"Width": 4,
+							"Height": 4
+						},
+					},
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"FionaFS": "{{i18n:Stoffton.NPCRelationships.grandmother}}",
+						"OttoFS": "{{i18n:Stoffton.NPCRelationships.father}}",
+						"JosefFS": "{{i18n:Stoffton.NPCRelationships.brother}}",
+						"MacFS": "{{i18n:Stoffton.NPCRelationships.brother}}",
+						"RolfFS": "{{i18n:Stoffton.NPCRelationships.brother}}",
+						"JohannaFS": "{{i18n:Stoffton.NPCRelationships.Aunt}}",
+						"GerhardFS": "{{i18n:Stoffton.NPCRelationships.Uncle}}",
+						"HelmutFS": "{{i18n:Stoffton.NPCRelationships.Uncle}}",
+						"FelixFS": "{{i18n:Stoffton.NPCRelationships.Uncle}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"OliveFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Olive}}",
+					"BirthSeason": "Summer",
+					"BirthDay": 1,
+					"Gender": "Female",
+					"Age": "Child",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": false,
+					"CanBeRomanced": false,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Pickles",
+						"Tile": {
+						  "X": 10,
+						  "Y": 4
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"HelmutFS": "{{i18n:Stoffton.NPCRelationships.father}}",
+						"GretaFS": "{{i18n:Stoffton.NPCRelationships.mother}}",
+						"BrinaFS": "{{i18n:Stoffton.NPCRelationships.bigSister}}",
+						"EbbeFS": "{{i18n:Stoffton.NPCRelationships.sister}}",
+						"MatiusFS": "{{i18n:Stoffton.NPCRelationships.brother}}",
+						"GarthFS": "{{i18n:Stoffton.NPCRelationships.brother}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"OttoFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Otto}}",
+					"BirthSeason": "Fall",
+					"BirthDay": 25,
+					"Gender": "Male",
+					"Age": "Adult",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": false,
+					"CanBeRomanced": false,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Shepherd",
+						"Tile": {
+						  "X": 4,
+						  "Y": 8
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"FionaFS": "{{i18n:Stoffton.NPCRelationships.mother}}",
+						"JosefFS": "{{i18n:Stoffton.NPCRelationships.eldestSon}}",
+						"MacFS": "{{i18n:Stoffton.NPCRelationships.son}}",
+						"OdoFS": "{{i18n:Stoffton.NPCRelationships.son}}",
+						"RolfFS": "{{i18n:Stoffton.NPCRelationships.youngestSon}}",
+						"JohannaFS": "{{i18n:Stoffton.NPCRelationships.sister}}",
+						"GerhardFS": "{{i18n:Stoffton.NPCRelationships.brother}}",
+						"HelmutFS": "{{i18n:Stoffton.NPCRelationships.brother}}",
+						"FelixFS": "{{i18n:Stoffton.NPCRelationships.littleBrother}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"QuinnFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Quinn}}",
+					"BirthSeason": "Spring",
+					"BirthDay": 11,
+					"Gender": "Male",
+					"Age": "Adult",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Positive",
+					"IsDarkSkinned": false,
+					"CanBeRomanced": true,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Grocery",
+						"Tile": {
+						  "X": 23,
+						  "Y": 5
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+					"SpouseRoom": {
+						"MapAsset": "Lizzie_Stoffton_SpouseRoom",
+						"MapSourceRect": {
+							"X": 6,
+							"Y": 27,
+							"Width": 6,
+							"Height": 9
+						}
+					},
+					"SpousePatio": {
+						"MapAsset": "Lizzie_Stoffton_OutsideArea",
+						"MapSourceRect": {
+							"X": 4,
+							"Y": 12,
+							"Width": 4,
+							"Height": 4
+						},
+					},
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"ErikFS": "{{i18n:Stoffton.NPCRelationships.dad}}",
+						"NadiaFS": "{{i18n:Stoffton.NPCRelationships.mom}}",
+						"VashaFS": "{{i18n:Stoffton.NPCRelationships.sibling}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"RhysFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Rhys}}",
+					"BirthSeason": "Winter",
+					"BirthDay": 16,
+					"Gender": "Male",
+					"Age": "Adult",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Positive",
+					"IsDarkSkinned": false,
+					"CanBeRomanced": false,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Drinks",
+						"Tile": {
+						  "X": 19,
+						  "Y": 5
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"UniceFS": "{{i18n:Stoffton.NPCRelationships.wife}}",
+						"KendriaFS": "{{i18n:Stoffton.NPCRelationships.daughter}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"RolfFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Rolf}}",
+					"BirthSeason": "Fall",
+					"BirthDay": 17,
+					"Gender": "Male",
+					"Age": "Teen",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": false,
+					"CanBeRomanced": true,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Shepherd",
+						"Tile": {
+						  "X": 4,
+						  "Y": 8
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+					"SpouseRoom": {
+						"MapAsset": "Lizzie_Stoffton_SpouseRoom",
+						"MapSourceRect": {
+							"X": 0,
+							"Y": 18,
+							"Width": 6,
+							"Height": 9
+						}
+					},
+					"SpousePatio": {
+						"MapAsset": "Lizzie_Stoffton_OutsideArea",
+						"MapSourceRect": {
+							"X": 0,
+							"Y": 8,
+							"Width": 4,
+							"Height": 4
+						},
+					},
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"FionaFS": "{{i18n:Stoffton.NPCRelationships.grandmother}}",
+						"OttoFS": "{{i18n:Stoffton.NPCRelationships.father}}",
+						"JosefFS": "{{i18n:Stoffton.NPCRelationships.bigBrother}}",
+						"MacFS": "{{i18n:Stoffton.NPCRelationships.brother}}",
+						"OdoFS": "{{i18n:Stoffton.NPCRelationships.brother}}",
+						"JohannaFS": "{{i18n:Stoffton.NPCRelationships.Aunt}}",
+						"GerhardFS": "{{i18n:Stoffton.NPCRelationships.Uncle}}",
+						"HelmutFS": "{{i18n:Stoffton.NPCRelationships.Uncle}}",
+						"FelixFS": "{{i18n:Stoffton.NPCRelationships.Uncle}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"SeleneFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Selene}}",
+					"BirthSeason": "Fall",
+					"BirthDay": 8,
+					"Gender": "Female",
+					"Age": "Adult",
+					"Manner": "Polite",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": true,
+					"CanBeRomanced": false,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Clothes",
+						"Tile": {
+						  "X": 17,
+						  "Y": 4
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"LeanderFS": "{{i18n:Stoffton.NPCRelationships.husband}}",
+						"LexiFS": "{{i18n:Stoffton.NPCRelationships.daughter}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"SilasFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Silas}}",
+					"BirthSeason": "Summer",
+					"BirthDay": 14,
+					"Gender": "Male",
+					"Age": "Teen",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": false,
+					"CanBeRomanced": true,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_MHSecond",
+						"Tile": {
+						  "X": 25,
+						  "Y": 27
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+					"SpouseRoom": {
+						"MapAsset": "Lizzie_Stoffton_SpouseRoom",
+						"MapSourceRect": {
+							"X": 6,
+							"Y": 18,
+							"Width": 6,
+							"Height": 9
+						}
+					},
+					"SpousePatio": {
+						"MapAsset": "Lizzie_Stoffton_OutsideArea",
+						"MapSourceRect": {
+							"X": 4,
+							"Y": 8,
+							"Width": 4,
+							"Height": 4
+						},
+						"SpriteAnimationFrames": [
+							[
+								20,
+								500
+							],
+							[
+								21,
+								500
+							],
+							[
+								23,
+								500
+							],
+							[
+								22,
+								3500
+							],
+						],
+						"SpriteAnimationPixelOffset": {
+							"X": 0,
+							"Y": 0
+						}
+					},
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"AlunaFS": "{{i18n:Stoffton.NPCRelationships.mom}}",
+						"GerhardFS": "{{i18n:Stoffton.NPCRelationships.dad}}",
+						"YosefFS": "{{i18n:Stoffton.NPCRelationships.bigBrother}}",
+						"IslaFS": "{{i18n:Stoffton.NPCRelationships.babySister}}",
+						"MakenaFS": "{{i18n:Stoffton.NPCRelationships.babySister}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"TomasFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Tomas}}",
+					"BirthSeason": "Spring",
+					"BirthDay": 2,
+					"Gender": "Male",
+					"Age": "Adult",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": true,
+					"CanBeRomanced": false,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_FlowerSecond",
+						"Tile": {
+						  "X": 16,
+						  "Y": 7
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"FelixFS": "{{i18n:Stoffton.NPCRelationships.husband}}",
+						"IgnasFS": "{{i18n:Stoffton.NPCRelationships.father}}",
+						"MarinaFS": "{{i18n:Stoffton.NPCRelationships.mother}}",
+						"ClayFS": "{{i18n:Stoffton.NPCRelationships.brother}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"UniceFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Unice}}",
+					"BirthSeason": "Spring",
+					"BirthDay": 22,
+					"Gender": "Female",
+					"Age": "Adult",
+					"Manner": "Polite",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": true,
+					"CanBeRomanced": false,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Drinks",
+						"Tile": {
+						  "X": 15,
+						  "Y": 5
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"RhysFS": "{{i18n:Stoffton.NPCRelationships.husband}}",
+						"KendriaFS": "{{i18n:Stoffton.NPCRelationships.daughter}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"VashaFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Vasha}}",
+					"BirthSeason": "Spring",
+					"BirthDay": 11,
+					"Gender": "Female",
+					"Age": "Adult",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": false,
+					"CanBeRomanced": true,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Grocery",
+						"Tile": {
+						  "X": 19,
+						  "Y": 5
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+					"SpouseRoom": {
+						"MapAsset": "Lizzie_Stoffton_SpouseRoom",
+						"MapSourceRect": {
+							"X": 12,
+							"Y": 18,
+							"Width": 6,
+							"Height": 9
+						}
+					},
+					"SpousePatio": {
+						"MapAsset": "Lizzie_Stoffton_OutsideArea",
+						"MapSourceRect": {
+							"X": 8,
+							"Y": 8,
+							"Width": 4,
+							"Height": 4
+						},
+					},
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"ErikFS": "{{i18n:Stoffton.NPCRelationships.dad}}",
+						"NadiaFS": "{{i18n:Stoffton.NPCRelationships.mom}}",
+						"QuinnFS": "{{i18n:Stoffton.NPCRelationships.brother}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"WillFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Will}}",
+					"BirthSeason": "Fall",
+					"BirthDay": 23,
+					"Gender": "Male",
+					"Age": "Adult",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": false,
+					"CanBeRomanced": true,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_DadSecond",
+						"Tile": {
+						  "X": 5,
+						  "Y": 6
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+					"SpouseRoom": {
+						"MapAsset": "Lizzie_Stoffton_SpouseRoom",
+						"MapSourceRect": {
+							"X": 24,
+							"Y": 18,
+							"Width": 6,
+							"Height": 9
+						}
+					},
+					"SpousePatio": {
+						"MapAsset": "Lizzie_Stoffton_OutsideArea",
+						"MapSourceRect": {
+							"X": 16,
+							"Y": 8,
+							"Width": 4,
+							"Height": 4
+						},
+					},
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"AlFS": "{{i18n:Stoffton.NPCRelationships.dad}}"
+					},
+					"CustomFields": null
+				  },
+
+
+				"XenFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Xen}}",
+					"BirthSeason": "Winter",
+					"BirthDay": 22,
+					"Gender": "Female",
+					"Age": "Teen",
+					"Manner": "Polite",
+					"SocialAnxiety": "Outgoing",
+					"Optimism": "Neutral",
+					"IsDarkSkinned": true,
+					"CanBeRomanced": true,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_Hotel",
+						"Tile": {
+						  "X": 15,
+						  "Y": 4
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+					"SpouseRoom": {
+						"MapAsset": "Lizzie_Stoffton_SpouseRoom",
+						"MapSourceRect": {
+							"X": 18,
+							"Y": 18,
+							"Width": 6,
+							"Height": 9
+						}
+					},
+					"SpousePatio": {
+						"MapAsset": "Lizzie_Stoffton_OutsideArea",
+						"MapSourceRect": {
+							"X": 12,
+							"Y": 8,
+							"Width": 4,
+							"Height": 4
+						},
+					},
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"BrinaFS": "",
+						"AlexandriaFS": ""
+					},
+					"CustomFields": null
+				  },
+
+
+				"YosefFS": {
+					"DisplayName": "{{i18n:Stoffton.NPCName.Yosef}}",
+					"BirthSeason": "Fall",
+					"BirthDay": 3,
+					"Gender": "Male",
+					"Age": "Adult",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"CanBeRomanced": false,
+					"Home": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Lizzie.Stoffton_MHSecond",
+						"Tile": {
+						  "X": 4,
+						  "Y": 22
+						},
+						"Direction": "down"
+					  }
+					],
+					"HomeRegion": "Other",
+					"Language": "Default",
+					"LoveInterest": null,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"CanSocialize": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": null,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": null,
+					"WinterStarGifts": [],
+					"WinterStarParticipant": null,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+					"SpouseRoom": {
+						"MapAsset": "Lizzie_Stoffton_SpouseRoom",
+						"MapSourceRect": {
+							"X": 0,
+							"Y": 0,
+							"Width": 6,
+							"Height": 9
+						}
+					},
+					"SpousePatio": {
+						"MapAsset": "Lizzie_Stoffton_OutsideArea",
+						"MapSourceRect": {
+							"X": 0,
+							"Y": 0,
+							"Width": 4,
+							"Height": 4
+						},
+					},
+
+					"TextureName": null,
+					"Breather": true,
+					"BreathChestRect": null,
+					"BreathChestPosition": null,
+					"Shadow": null,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"ShakePortraits": [],
+					"KissSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"HiddenProfileEmoteSound": null,
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 19,
+					"HiddenProfileEmoteFrameCount": 1,
+					"HiddenProfileEmoteFrameDuration": 200.0,
+					"FormerCharacterNames": [],
+					"FriendsAndFamily": {
+						"AlunaFS": "{{i18n:Stoffton.NPCRelationships.mom}}",
+						"GerhardFS": "{{i18n:Stoffton.NPCRelationships.dad}}",
+						"SilasFS": "{{i18n:Stoffton.NPCRelationships.brother}}",
+						"IslaFS": "{{i18n:Stoffton.NPCRelationships.babySister}}",
+						"MakenaFS": "{{i18n:Stoffton.NPCRelationships.babySister}}"
+					},
+					"CustomFields": null
+				  },
+
+  }
+  }
+  ]
+  }
+  

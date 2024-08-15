@@ -1,0 +1,37 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/BathHouse_Pool",
+      "Entries":
+	{
+        "1655034/F/f Biscuit 750/c 1/r 0.5": "none/14 16/farmer 14 13 2/skippable/swimming farmer/addTemporaryActor Biscuitswimming 16 32 21 8 2/playSound dog_bark/emote farmer 16/beginSimultaneousCommand/move Biscuitswimming 0 6 3/move Biscuitswimming -6 0 3/playSound dog_bark/shake Biscuitswimming 700/pause 500/TextAboveHead Biscuitswimming \"Hey!\"/faceDirection farmer 1/animate Biscuitswimming false false 80 17 18 19 20 21 22 23/pause 500/beginSimultaneousCommand/stopAnimation Biscuitswimming 23/showframe Biscuitswimming 23/pause 900/TextAboveHead Biscuitswimming \"It's a pawresent for you!....Do you dig it? \"pause 1000/endSimultaneousCommand/emote farmer 20/animate Biscuitswimming false false 100 23 22 21 20 19 18 17/showframe Biscuitswimming 17/pause 500/TextAboveHead Biscuitswimming \"Pretty Swim-pressive, eh?<\"/move Biscuitswimming 0 1 2/beginSimultaneousCommand/faceDirection farmer 2/move Biscuitswimming -9 0 3/endSimultaneousCommand/globalFade 0.004 true/move Biscuitswimming 0 -6 3/viewport -1000 -1000/Speak Biscuitswimming \" What a pleasant surprise! Her jokes are a bit off the deep end though![698]\"/end"
+    }
+		},
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/BathHouse_Pool",
+      "Entries":
+	{
+        "1655035/F/f Biscuit 1000/c 1/r 0.4": "none/14 16/farmer 14 13 2/skippable/swimming farmer/addTemporaryActor Biscuitswimming 16 32 21 8 2/playSound dog_bark/emote farmer 16/beginSimultaneousCommand/move Biscuitswimming 0 6 3/move Biscuitswimming -6 0 3/playSound dog_bark/shake Biscuitswimming 700/pause 500/TextAboveHead Biscuitswimming \"Hey!\"/faceDirection farmer 1/animate Biscuitswimming false false 80 17 18 19 20 21 22 23/pause 500/beginSimultaneousCommand/stopAnimation Biscuitswimming 23/showframe Biscuitswimming 23/pause 900/TextAboveHead Biscuitswimming \"It's a pawresent for you!....Do you dig it? \"pause 1000/endSimultaneousCommand/emote farmer 20/animate Biscuitswimming false false 100 23 22 21 20 19 18 17/showframe Biscuitswimming 17/pause 500/TextAboveHead Biscuitswimming \"Pretty Swim-pressive, eh?<\"/move Biscuitswimming 0 1 2/beginSimultaneousCommand/faceDirection farmer 2/move Biscuitswimming -9 0 3/endSimultaneousCommand/globalFade 0.004 true/move Biscuitswimming 0 -6 3/viewport -1000 -1000/Speak Biscuitswimming \" What a pleasant surprise! How does she get this stuff I wonder? Think she pool-ed her resources.[158]\"/end"
+    }
+		},
+   {
+      "Action": "EditData",
+      "Target": "Data/Events/BathHouse_Pool",
+      "Entries":
+	{
+        "1655036/F/f Biscuit 1500/c 1/r 0.5": "none/14 16/farmer 14 13 2/skippable/swimming farmer/addTemporaryActor Biscuitswimming 16 32 21 8 2/playSound dog_bark/emote farmer 16/beginSimultaneousCommand/move Biscuitswimming 0 6 3/move Biscuitswimming -6 0 3/playSound dog_bark/shake Biscuitswimming 700/pause 500/TextAboveHead Biscuitswimming \"Hey!\"/faceDirection farmer 1/animate Biscuitswimming false false 80 17 18 19 20 21 22 23/pause 500/beginSimultaneousCommand/stopAnimation Biscuitswimming 23/showframe Biscuitswimming 23/pause 900/TextAboveHead Biscuitswimming \"It's a pawresent for you!....Do you dig it? \"pause 1000/endSimultaneousCommand/emote farmer 20/animate Biscuitswimming false false 100 23 22 21 20 19 18 17/showframe Biscuitswimming 17/pause 500/TextAboveHead Biscuitswimming \"Pretty Swim-pressive, eh?<\"/move Biscuitswimming 0 1 2/beginSimultaneousCommand/faceDirection farmer 2/move Biscuitswimming -9 0 3/endSimultaneousCommand/globalFade 0.004 true/move Biscuitswimming 0 -6 3/viewport -1000 -1000/Speak Biscuitswimming \" What a pleasant surprise! Unlike this water, Biscuit will never be shallow! [547]\"/end"
+    }
+		},
+   {
+      "Action": "EditData",
+      "Target": "Data/Events/BathHouse_Pool",
+      "Entries":
+	{
+        "1655037/F/f Biscuit 2000/c 1/r 0.5": "none/14 16/farmer 14 13 2/skippable/swimming farmer/addTemporaryActor Biscuitswimming 16 32 21 8 2/playSound dog_bark/emote farmer 16/beginSimultaneousCommand/move Biscuitswimming 0 6 3/move Biscuitswimming -6 0 3/playSound dog_bark/shake Biscuitswimming 700/pause 500/TextAboveHead Biscuitswimming \"Hey!\"/faceDirection farmer 1/animate Biscuitswimming false false 80 17 18 19 20 21 22 23/pause 500/beginSimultaneousCommand/stopAnimation Biscuitswimming 23/showframe Biscuitswimming 23/pause 900/TextAboveHead Biscuitswimming \"It's a pawresent for you!....Do you dig it? \"pause 1000/endSimultaneousCommand/emote farmer 20/animate Biscuitswimming false false 100 23 22 21 20 19 18 17/showframe Biscuitswimming 17/pause 500/TextAboveHead Biscuitswimming \"Pretty Swim-pressive, eh?<\"/move Biscuitswimming 0 1 2/beginSimultaneousCommand/faceDirection farmer 2/move Biscuitswimming -9 0 3/endSimultaneousCommand/globalFade 0.004 true/move Biscuitswimming 0 -6 3/viewport -1000 -1000/Speak Biscuitswimming \" What a pleasant surprise! Biscuit really goes with the flow, eh?[349]\"/end"
+      }
+    }
+  ]
+}
+

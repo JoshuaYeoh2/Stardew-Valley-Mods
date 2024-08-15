@@ -1,0 +1,429 @@
+{
+  "Changes": [
+
+////Manifestation
+      {
+          "LogName": "Mando Manifestation", "Action": "EditData", "Target": "Data/Characters",
+          "Entries": {
+              "Mando": {
+                  "DisplayName": "Mando",
+                  "BirthSeason": "Winter",
+                  "BirthDay": 28,
+                  "HomeRegion": "Town",
+                  "Gender": "Male",
+                  "Age": "Adult",
+                  "Manner": "Neutral",
+                  "SocialAnxiety": "Shy",
+                  "Optimism": "Neutral",
+                  
+                  "CanBeRomanced": true,
+                  "CanVisitIsland": false,
+                  "FlowerDanceCanDance": false,
+                  
+                  "Home": [{
+                          "Id": "Default",
+                          "Condition": null,
+                          "Location": "Custom_RazorCrest",
+                          "Tile": {"X": 18,"Y": 6},
+                          "Direction": "left",
+                  }],
+                  "SpouseRoom": {
+                      "MapAsset": "spouseRooms_Mando",
+                      "MapSourceRect": {
+                          "X": 0,
+                          "Y": 0,
+                          "Width": 6,
+                          "Height": 9
+                      }
+                  },
+            
+                          
+                  /*"SpousePatio": {
+                      "MapAsset": "spousePatios_Mando",
+                      "MapSourceRect": {
+                          "X": 0,
+                          "Y": 0,
+                          "Width": 4,
+                          "Height": 4
+                      },
+                      "SpriteAnimationFrames": [
+                          [],
+                          [],
+                          ]
+                  },*/
+              }
+          },
+      },
+      
+      {
+          "LogName": "Mando Manifestation", "Action": "EditData", "Target": "Data/Characters",
+          "Entries": {
+              "Mando": {
+                  "DisplayName": "Din",
+                  "BirthSeason": "Winter",
+                  "BirthDay": 28,
+                  "HomeRegion": "Town",
+                  "Gender": "Male",
+                  "Age": "Adult",
+                  "Manner": "Neutral",
+                  "SocialAnxiety": "Shy",
+                  "Optimism": "Neutral",
+                  
+                  "CanBeRomanced": true,
+                  "CanVisitIsland": false,
+                  "FlowerDanceCanDance": false,
+                  
+                  "Home": [{
+                          "Id": "Default",
+                          "Condition": null,
+                          "Location": "Custom_RazorCrest",
+                          "Tile": {"X": 18,"Y": 6},
+                          "Direction": "left",
+                  }],
+                  "SpouseRoom": {
+                      "MapAsset": "spouseRooms_Mando",
+                      "MapSourceRect": {
+                          "X": 0,
+                          "Y": 0,
+                          "Width": 6,
+                          "Height": 9
+                      }
+                  },
+            
+                          
+                  /*"SpousePatio": {
+                      "MapAsset": "spousePatios_Mando",
+                      "MapSourceRect": {
+                          "X": 0,
+                          "Y": 0,
+                          "Width": 4,
+                          "Height": 4
+                      },
+                      "SpriteAnimationFrames": [
+                          [],
+                          [],
+                          ]
+                  },*/
+              }
+          },
+          "When": {"HasSeenEvent": "85925000"}
+      },
+      
+      {
+          "LogName": "Mando Gift Tastes", "Action": "EditData", "Target": "Data/NPCGiftTastes",
+          "Entries": {
+              "Mando": "@! ...Thank you./205 337 635/Thank you. The kid will love this.//...Thank you?/-80/I cannot carry that for you right now.//Thank you, @.//"
+          },
+      },
+
+////Portraits and Sprites
+
+    {
+
+      "LogName": "Mando Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Mando",
+      "FromFile": "assets/images/MandoPortraits.png",
+
+    },
+
+    {
+
+      "LogName": "Mando Sprites",
+      "Action": "Load",
+      "Target": "Characters/Mando",
+      "FromFile": "assets/images/MandoSprites.png",
+
+    },
+
+      
+      
+    {
+        "LogName": "Animations",
+        "Action": "EditData",
+        "Target": "Data/animationdescriptions",
+        "Entries": {
+            "mando_sleep": "24/24/24",
+            "Mando_sleep": "24/24/24",
+            "Mando_sit": "17/18/17",
+            "MandoG_sit": "17/22/17",
+            "MandoG_stand": "20/21/20",
+        }
+    },
+      
+////Dialogue and Schedule
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Mando",
+      "FromFile": "assets/data/MandoDialogue.json"
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Mando",
+      "FromFile": "assets/data/MandoSchedule.json"
+    },
+    {
+      "LogName": "Mando Schedule Dialogue",
+      "Action": "Load",
+      "Target": "Strings/schedules/Mando",
+      "FromFile": "assets/data/MandoScheduleDialogue.json"
+    },
+    {
+      "Action": "EditData",
+	  "Target": "Characters/Dialogue/rainy",
+      "Entries": {
+          "Mando": "@, you're soaked!#$b#Ensure you warm up tonight.",
+      },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "Entries": {
+          "Mando0": "Mandalorians don't have traditional marriage ceremonies.#$b#But I am happy to share in your traditions, cyar'ika.$l",
+          "Mando1": "Soon, I shall call you riduur.$h#$b#Oh... it means spouse.$l#$e#I find myself... nervous.#$b#I don't know why. The kid already calls you Bu-... well, something.$l",
+      },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/ExtraDialogue",
+      "Entries": {
+          "Mines_PlayerKilled_Mando_NotSpouse": "The kid started crying and dragged me here...#$b#Then we found you unconscious in the mines.#$b#I know you're capable, but please... be careful.$s",
+          "Mines_PlayerKilled_Mando_Spouse": "You were gone so long I started to get worried about you! When I saw your limp body...$s",
+          "SummitEvent_Dialogue3_Mando": "I think we've both found what we were looking for in this place.#$b#I wouldn't want to be anywhere else but here with you.$l"
+			},
+		},
+      
+    {
+      "LogName": "Marriage Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueMando",
+      "FromFile": "assets/data/marriageDialogue.json"
+    },
+    {
+        "Action": "EditData",
+        "Target": "Strings/schedules/Mando",
+        "Entries": {		 
+		"RCbed.000": "Good morning, cyar'ika.#$e#You're cold.#$b#Come closer.",
+		"RCbed.001": "Oh, @.#$e#I wish you could stay.#$b#Take care returning to the farm."
+		   },
+        "When": { "Relationship:Mando": "Dating, Engaged, Married" },
+    },
+      
+/////Wedding / Marriage
+
+    { 
+      "Action": "EditData",
+      "Target": "strings/StringsFromCSFiles",
+      "Entries": {
+        "Utility.cs.5371": "@... Mando... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you married!$h",
+        "Utility.cs.5373": "@... Mando... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you married!$h",
+        "Utility.cs.5375": "@... Mando... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you married!$h",
+        "Utility.cs.5377": "@... Mando... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you married!$h",
+
+        "Utility.cs.5367": "Mando... @... You are both new to our town, but we have all been blessed by your presence.#$b#You care for the people here, and we can all see you care for each other... and little Grogu.$h#$b#It is my great honor, on this day {0} of {1}, to unite Mando and @ in the bonds of marriage.",
+        "Utility.cs.5369": "Mando... @... You are both new to our town, but we have all been blessed by your presence.#$b#You care for the people here, and we can all see you care for each other... and little Grogu.$h#$b#It is my great honor, on this day {0} of {1}, to unite Mando and @ in the bonds of marriage.",
+
+        "Utility.cs.5381": "Married! To the Mandalorian...",
+        "Utility.cs.5383": "But there is still one ceremony left...",
+
+        "Game1.cs.2782": "The wedding was wonderful. I was honored to accept you before the town.$h",
+
+        "NPC.cs.4507": "Cyar'ika",
+        "NPC.cs.4508": "Love",
+        "NPC.cs.4509": "Mesh'la",
+        "NPC.cs.4510": "Darling",
+        "NPC.cs.4511": "My heart",
+        "NPC.cs.4512": "Cyar'ika",
+        "NPC.cs.4513": "Mesh'la",
+        "NPC.cs.4514": "My love",
+        "NPC.cs.4515": "Beautiful",
+        "NPC.cs.4516": "Darling",
+        "NPC.cs.4517": "Cyar'ika",
+        "NPC.cs.4518": "Cyare",
+        "NPC.cs.4519": "Riduur",
+        "NPC.cs.4522": "My riduur",
+        "NPC.cs.4523": "Cyar'ika",
+
+      },
+      "When": { "Relationship:Mando": "Engaged, Married" }
+    },
+    { 
+      "Action": "EditData",
+      "Target": "strings/StringsFromCSFiles",
+      "Entries": {
+        "NPC.cs.3980": "@...#$b#Do you mean it? Tell me now if you're joking, I can't bear it otherwise.#$b#Cyar'ika.#$b#Of course I will wed you.#$b#In 3 days, we'll have your ceremony before the Town.", },
+      "When": { "Relationship:Mando": "Dating, Engaged, Married" }
+    },
+      
+//////// Marriage Farm Sprites and Portraits
+      
+{
+
+      "LogName": "Din Portraits Day",
+      "Action": "EditImage",
+      "Target": "Portraits/Mando",
+      "FromFile": "assets/Images/DinPortraits.png",
+      "When": {
+                "Time": "{{Range: 800, 2050}}",
+	        "HasSeenEvent": "85925000",
+                "LocationName": "Cabin, FarmHouse",
+            },
+
+            "Update": "OnTimeChange, OnLocationChange"
+      },
+        {
+            "LogName": "Din Sprites Day",
+            "Action": "EditImage",
+            "Target": "Characters/Mando",
+            "FromFile": "assets/Images/DinSprites.png",
+            "When":
+            {
+                "Time": "{{Range: 800, 2050}}",
+	        "HasSeenEvent": "85925000",
+                "LocationName": "Cabin, FarmHouse",
+            },
+
+            "Update": "OnTimeChange, OnLocationChange"
+        },
+        {
+            "LogName": "Din Portraits Night",
+            "Action": "EditImage",
+            "Target": "Portraits/Mando",
+            "FromFile": "assets/Images/DinPortraitsSwim.png",
+            "When":
+            {
+                "Time": "{{Range: 2100, 2600}}",
+	        "HasSeenEvent": "85925000",
+                "LocationName": "Cabin, FarmHouse, BathHouse_Pool",
+            },
+
+            "Update": "OnTimeChange, OnLocationChange"
+        },
+        {
+            "LogName": "Din Sprites Night",
+            "Action": "EditImage",
+            "Target": "Characters/Mando",
+            "FromFile": "assets/Images/DinSpritesSwim.png",
+            "When":
+            {
+                "Time": "{{Range: 2100, 2600}}",
+	        "HasSeenEvent": "85925000",
+                "LocationName": "Cabin, FarmHouse, BathHouse_Pool",
+            },
+
+            "Update": "OnTimeChange, OnLocationChange"
+        },
+
+        {
+            "LogName": "Din Portraits Morning",
+            "Action": "EditImage",
+            "Target": "Portraits/Mando",
+            "FromFile": "assets/Images/DinPortraitsSwim.png",
+            "When":
+            {
+                "Time": "{{Range: 600, 750}}",
+	        "HasSeenEvent": "85925000",
+                "LocationName": "Cabin, FarmHouse",
+            },
+
+            "Update": "OnTimeChange, OnLocationChange"
+        },
+        {
+            "LogName": "Din Sprites Morning",
+            "Action": "EditImage",
+            "Target": "Characters/Mando",
+            "FromFile": "assets/Images/DinSpritesSwim.png",
+            "When":
+            {
+                "Time": "{{Range: 600, 750}}",
+	        "HasSeenEvent": "85925000",
+                "LocationName": "Cabin, FarmHouse",
+            },
+
+            "Update": "OnTimeChange, OnLocationChange"
+        },
+      
+////////////////Temp sprites for Events
+
+
+    {
+
+      "LogName": "Temp Sprites",
+      "Action": "Load",
+      "Target": "Characters/Mandalorian",
+      "FromFile": "assets/Images/MandoSprites.png",
+ },
+    {
+
+      "LogName": "Temp Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Mandalorian",
+      "FromFile": "assets/Images/MandoPortraits.png",
+
+    },
+
+    {
+
+      "LogName": "Temp Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Din",
+      "FromFile": "assets/Images/DinPortraits.png",
+
+    },
+
+
+    {
+
+      "LogName": "Temp Sprites",
+      "Action": "Load",
+      "Target": "Characters/Din",
+      "FromFile": "assets/Images/DinSprites.png",
+    },
+      
+    {
+            "LogName": "Marriage Events",
+            "Action": "EditImage",
+            "Target": "Characters/Din",
+            "FromFile": "assets/Images/DinSpritesSwim.png",
+            "When":
+            {
+                "Time": "{{Range: 2000, 2600}}",
+	        "HasSeenEvent": "85925000",
+                "LocationName": "Custom_Bed, FarmHouse",
+   
+            },
+
+            "Update": "OnTimeChange, OnLocationChange"
+        },
+
+        {
+            "LogName": "Marriage Events",
+            "Action": "EditImage",
+            "Target": "Portraits/Din",
+            "FromFile": "assets/Images/DinPortraitsSwim.png",
+            "When":
+            {
+                "Time": "{{Range: 2000, 2600}}",
+	        "HasSeenEvent": "85925000",
+                "LocationName": "Custom_Bed, FarmHouse",
+   
+            },
+
+            "Update": "OnTimeChange, OnLocationChange"
+        },
+
+    {
+
+      "LogName": "Temp Sprites",
+      "Action": "Load",
+      "Target": "Characters/DinSwim",
+      "FromFile": "assets/Images/DinSpritesSwim.png",
+    },
+      
+      
+    
+      
+      ]
+}

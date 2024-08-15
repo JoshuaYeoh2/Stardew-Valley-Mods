@@ -1,0 +1,47 @@
+{
+    "Changes": [
+
+{
+    "LogName":"Add Honeybee Objects",
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "wildflour.honeybees_honeycomb": {
+            "Name": "wildflour.honeybees_honeycomb",
+            "DisplayName": "{{i18n:honeybees_honeycomb.name}}",
+            "Description": "{{i18n:honeybees_honeycomb.description}}",
+            "Type": "ArtisanGoods",          
+            "Category": -75,
+            "Edibility": 0,
+	        "Price": 80,
+
+            "ContextTags":
+            ["wildflour_honeybee_item",
+            "bee_item",
+            "color_gold"],
+
+            "Texture": "Mods/wildflour.honeybees/Objects",
+            "SpriteIndex": 0
+    },
+        "wildflour.honeybees_honeyegg": {
+            "Name": "wildflour.honeybees_honeyegg",
+            "DisplayName": "{{i18n:honeybees_honeyegg.name}}",
+            "Description": "{{i18n:honeybees_honeyegg.description}}",
+            "Type": "ArtisanGoods",          
+            "Category": -5,
+            "Edibility": 0,
+            "Price": 80,
+
+            "ContextTags":
+            ["wildflour_honeybee_item",
+            "bee_item",
+            "color_gold"],
+
+            "Texture": "Mods/wildflour.honeybees/Objects",
+            "SpriteIndex": 1
+    }
+}
+}
+
+    ]
+}

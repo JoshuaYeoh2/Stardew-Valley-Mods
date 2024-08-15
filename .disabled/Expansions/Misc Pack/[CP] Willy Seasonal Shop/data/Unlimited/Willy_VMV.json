@@ -1,0 +1,167 @@
+{ 
+"Changes": [ 
+{
+"Action": "EditData", 
+"Target": "Data/Shops", 
+"TargetField": [ 
+"FishShop", 
+"Items" 
+ ], 
+
+"Entries": { 
+
+//CRAB POT
+"MossyCrayfish": {
+"Id": "MAMAXDV3_FISH_MossyCrayfish", 
+"ItemId": "(O)Lumisteria.MtVapius_MossyCrayfish", 
+"Price": "240", 
+"Condition": "LOCATION_ACCESSIBLE Railroad, SYNCED_RANDOM day willy_fish_MossyCrayfish 0.1 @addDailyLuck",
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+},
+
+//FISH
+"WhiteVendace": {
+"Id": "MAMAXDV3_FISH_WhiteVendace", 
+"ItemId": "(O)Lumisteria.MtVapius_WhiteVendace", 
+"Price": "280", 
+"Condition": "LOCATION_ACCESSIBLE Railroad, SYNCED_RANDOM day willy_fish_WhiteVendace 0.1 @addDailyLuck",
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"VapiusRoach": { 
+ "Id": "MAMAXDV3_FISH_VapiusRoach", 
+ "ItemId": "(O)Lumisteria.MtVapius_VapiusRoach", 
+ "Price": "280", 
+"Condition": "LOCATION_ACCESSIBLE Railroad, SYNCED_RANDOM day willy_fish_VapiusRoach 0.1 @addDailyLuck",
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+] , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"AlpineChar": { 
+"Id": "MAMAXDV3_FISH_AlpineChar", 
+"ItemId": "(O)Lumisteria.MtVapius_AlpineChar", 
+"Price": "336", 
+"Condition": "LOCATION_ACCESSIBLE Railroad, SYNCED_RANDOM day willy_fish_AlpineChar 0.1 @addDailyLuck",
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"CrystalFish": {
+"Id": "MAMAXDV3_FISH_CrystalFish", 
+"ItemId": "(O)Lumisteria.MtVapius_CrystalFish", 
+"Price": "1200", 
+"Condition": "LOCATION_ACCESSIBLE Railroad, SYNCED_RANDOM day willy_fish_CrystalFish 0.05 @addDailyLuck",
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"GiantCrystalFish": {
+"Id": "MAMAXDV3_FISH_GiantCrystalFish", 
+"ItemId": "(O)Lumisteria.MtVapius_GiantCrystalFish", 
+"Price": "4800", 
+"Condition": "LOCATION_ACCESSIBLE Railroad, SYNCED_RANDOM day willy_fish_GiantCrystalFish 0.03 @addDailyLuck",
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"RainbowPerch": {
+"Id": "MAMAXDV3_FISH_RainbowPerch", 
+"ItemId": "(O)Lumisteria.MtVapius_RainbowPerch", 
+"Price": "224", 
+"Condition": "LOCATION_ACCESSIBLE Railroad, SYNCED_RANDOM day willy_fish_RainbowPerch 0.1 @addDailyLuck",
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+},
+"LeafyTrout": {
+"Id": "MAMAXDV3_FISH_LeafyTrout", 
+"ItemId": "(O)Lumisteria.MtVapius_LeafyTrout", 
+"Price": "640", 
+"Condition": "LOCATION_ACCESSIBLE Railroad, SEASON spring fall winter, SYNCED_RANDOM day willy_fish_Ornate_LeafyTrout 0.1 @addDailyLuck",
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+
+//LEGENDARY
+"Sturgiant": {
+"Id": "MAMAXDV3_FISH_Sturgiant", 
+"ItemId": "(O)Lumisteria.MtVapius_Sturgiant", 
+"Price": "8500", 
+"AvailableStock": 1, 
+"AvailableStockLimit": "Player", 
+"Condition": "LOCATION_ACCESSIBLE Railroad, PLAYER_HEARTS Current Willy 10, SEASON summer winter, SYNCED_RANDOM day willy_fish_Sturgiant 0.01 @addDailyLuck",
+ "IgnoreShopPriceModifiers": true,
+}, 
+"AlpineCharPrince": {
+"Id": "MAMAXDV3_FISH_AlpineCharPrince", 
+"ItemId": "(O)Lumisteria.MtVapius_AlpineCharPrince", 
+"Price": "8000",
+"AvailableStock": 1, 
+"AvailableStockLimit": "Player",  
+"Condition": "LOCATION_ACCESSIBLE Railroad, PLAYER_HEARTS Current Willy 10, SEASON fall, SYNCED_RANDOM day willy_fish_AlpineCharPrince 0.01 @addDailyLuck",
+ "IgnoreShopPriceModifiers": true,
+}, 
+"PlanetFish": {
+"Id": "MAMAXDV3_FISH_PlanetFish", 
+"ItemId": "(O)Lumisteria.MtVapius_PlanetFish",
+"Price": "9500",
+"AvailableStock": 1, 
+"AvailableStockLimit": "Player",  
+"Condition": "LOCATION_ACCESSIBLE Railroad, PLAYER_HEARTS Current Willy 10, SEASON winter, SYNCED_RANDOM day willy_fish_PlanetFish 0.01 @addDailyLuck",
+ "IgnoreShopPriceModifiers": true,
+}, 
+},
+"MoveEntries": [ 
+{ 
+"ID": "MAMAXDV3_FISH_MossyCrayfish", 
+"AfterID": "MAMAXDV3_FAKE_FISH_Crayfish" 
+}
+],
+"When": { "Willy Sells VMV Fish": "unlimited" }
+}
+] 
+} 

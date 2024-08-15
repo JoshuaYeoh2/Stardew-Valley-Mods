@@ -1,0 +1,77 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add bombs as a SO",
+            "Action": "EditData",
+            "Target": "Data/SpecialOrders",
+            "Update": "OnLocationChange",
+            "Entries": {
+                "RaffieJohn.Reyla_SO_Boom": {
+                    "Name": "[RaffieJohn.Reyla_SO_Boom_Name]",
+                    "Requester": "Reyla",
+                    "Duration": "Month",
+                    "Repeatable": "False",
+                    "RequiredTags": "event_RaffieJohn.ReylaCave, mail_RaffieJohn.Reyla_SO_Boom",
+                    "OrderType": "",
+                    "SpecialRule": "",
+                    "Text": "[RaffieJohn.Reyla_SO_Boom_Text]",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+                        {
+                            "Type": "Donate",
+                            "Text": "[RaffieJohn.ReylaSOBoom_Objective_1_Text]",
+                            "RequiredCount": "300",
+                            "Data": {
+                                "DropBox": "RaffieJohnBox",
+                                "DropBoxGameLocation": "RaffieJohn.Reyla_Home",
+                                "DropBoxIndicatorLocation": "28.5 33",
+                                "AcceptedContextTags": "item_wood"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[RaffieJohn.ReylaSOBoom_Objective_2_Text]",
+                            "RequiredCount": "50",
+                            "Data": {
+                                "DropBox": "RaffieJohnBox",
+                                "DropBoxGameLocation": "RaffieJohn.Reyla_Home",
+                                "DropBoxIndicatorLocation": "28.5 33",
+                                "AcceptedContextTags": "item_bomb"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[RaffieJohn.ReylaSOBoom_Objective_3_Text]",
+                            "RequiredCount": "30",
+                            "Data": {
+                                "DropBox": "RaffieJohnBox",
+                                "DropBoxGameLocation": "RaffieJohn.Reyla_Home",
+                                "DropBoxIndicatorLocation": "28.5 33",
+                                "AcceptedContextTags": "item_mega_bomb"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                             "Type": "Mail",
+                             "Data": {
+                                  "MailReceived": "Reyla.MineBoomTime",
+                                  "Host": "true",
+                                  "NoLetter": "true"
+                             }
+                        },
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": "5000",
+                                "Multiplier": "1" 
+                            }
+                        }
+                   ]
+                }
+            }
+        }
+    ]
+}

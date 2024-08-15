@@ -1,0 +1,116 @@
+{
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Data/Events/Fellowclown.PC_OldGraveYard", 
+      "FromFile": "assets/empty.json",
+      "Priority": "Low"
+    },
+    {
+      "Action": "Load",
+      "Target": "Data/Events/AdventureGuild", 
+      "FromFile": "assets/empty.json",
+      "Priority": "Low"
+    },
+    {
+      "Action": "Load",
+      "Target": "Data/Events/RaffieJohn.Reyla_Home", 
+      "FromFile": "assets/empty.json",
+      "Priority": "Low"
+    },
+    {
+      "Action": "Load",
+      "Target": "Data/Events/RaffieJohn.Reyla_MineEntrance", 
+      "FromFile": "assets/empty.json",
+      "Priority": "Low"
+    },
+    //0 Heart Event when you enter Reyla's house 7:00 AM - 6:00 PM sunny
+    //(0 = Back turned to you (up), 1 = facing right, 2 = Facing you (down), 3(4 for advanceMove) = facing left)
+    //layout for events - music/camera position/npc and or farmer position then their direction/skippable
+
+    {
+      "LogName": "Reyla 0 Heart Event PC Installed",
+      "Action": "EditData",
+      "Target": "Data/Events/RaffieJohn.Reyla_Home",
+      "Entries": {
+        "RaffieJohn.ReylaIntro/t 600 1800": "none/27 22/farmer 32 12 2 Reyla 27 20 2/skippable/viewport 27 22 clamp true/pause 100/addConversationTopic MeetReyla/playMusic Humming.Reyla_Music/advancedMove farmer false 0 8 2 1000 -1 0 3 1000/pause 1000/emote farmer 56/speak Reyla \"{{i18n:0heart.PC.00}}\"/waitForAllStationary/pause 500/faceDirection farmer 3/stopMusic/emote Reyla 56/faceDirection Reyla 1/speak Reyla \"{{i18n:0heart.PC.01}}\"/jump Reyla 8/pause 1000/move Reyla 2 0 1/speak Reyla \"{{i18n:0heart.PC.02}}\"/emote Reyla 40/pause 1000/emote Reyla 16/ jump Reyla 8/speak Reyla \"{{i18n:0heart.PC.03}}\"/move Reyla 1 0 1/jump Reyla 8/pause 1000/jump Reyla 8/speak Reyla \"{{i18n:0heart.PC.04}}\"/emote farmer 32/speak Reyla \"{{i18n:0heart.PC.05}}\"/move Reyla 0 -4 1/pause 1000/faceDirection Reyla 2/faceDirection farmer 0/speak Reyla \"{{i18n:0heart.PC.06}}\"/emote farmer 40/speak Reyla \"{{i18n:0heart.PC.07}}\"/emote Reyla 20/speak Reyla \"{{i18n:0heart.PC.08}}\"/pause 1000/speak Reyla \"{{i18n:0heart.PC.09}}\"/emote farmer 32/speak Reyla \"{{i18n:0heart.PC.10}}\"/advancedMove farmer false 0 -7 0 150 -4 0 2 100/pause 300/faceDirection Reyla 2/pause 100/move Reyla 0 -3 3/stopAdvancedMoves/friendship RaffieJohn.Reyla 100/end"
+      },
+        "When": {
+        "HasFlag|contains=landslideDone": true,
+        "HasMod|contains=Fellowclown.PC": true
+      }
+    },
+    {
+      "LogName": "Reyla 0 Heart Event No PC Installed",
+      "Action": "EditData",
+      "Target": "Data/Events/RaffieJohn.Reyla_Home",
+      "Entries": {
+        "RaffieJohn.ReylaIntro/t 600 1800/f RaffieJohn.Reyla 10": "none/27 22/farmer 32 12 2 Reyla 27 20 2/skippable/viewport 27 22 clamp true/pause 100/addConversationTopic MeetReyla/playMusic Humming.Reyla_Music/advancedMove farmer false 0 8 2 1000 -1 0 3 1000/pause 1000/emote farmer 56/speak Reyla \"{{i18n:0heart.v.00}}\"/waitForAllStationary/pause 500/faceDirection farmer 3/stopMusic/emote Reyla 56/faceDirection Reyla 1/speak Reyla \"{{i18n:0heart.v.01}}\"/jump Reyla 8/pause 1000/move Reyla 2 0 1/speak Reyla \"{{i18n:0heart.v.02}}\"/emote Reyla 40/pause 1000/emote Reyla 16/ jump Reyla 8/speak Reyla \"{{i18n:0heart.v.03}}\"/move Reyla 1 0 1/jump Reyla 8/pause 1000/jump Reyla 8/speak Reyla \"{{i18n:0heart.v.04}}\"/emote farmer 32/speak Reyla \"{{i18n:0heart.v.05}}\"/move Reyla 0 -4 1/pause 1000/faceDirection Reyla 2/faceDirection farmer 0/speak Reyla \"{{i18n:0heart.v.06}}\"/emote farmer 40/speak Reyla \"{{i18n:0heart.v.07}}\"/emote Reyla 20/speak Reyla \"{{i18n:0heart.v.08}}\"/pause 1000/speak Reyla \"{{i18n:0heart.v.09}}\"/emote farmer 32/speak Reyla \"{{i18n:0heart.v.10}}\"/advancedMove farmer false 0 -7 0 150 -4 0 2 100/pause 300/faceDirection Reyla 2/pause 100/move Reyla 0 -3 3/stopAdvancedMoves/friendship RaffieJohn.Reyla 100/end"
+      },
+        "When": {
+        "HasMod|contains=Fellowclown.PC": false
+      }
+    },
+    //0 Heart Event when you enter Reyla's house 7:00 AM - 6:00 PM sunny
+    //(0 = Back turned to you (up), 1 = facing right, 2 = Facing you (down), 3(4 for advanceMove) = facing left)
+    //layout for events - music/camera position/npc and or farmer position then their direction/skippable
+    {
+        "LogName": "Reyla 2 Heart Event",
+        "Action": "EditData",
+        "Target": "Data/Events/AdventureGuild",
+        "Entries": {
+              "RaffieJohn.ReylaAdventure/e RaffieJohn.ReylaIntro/f Reyla 500/t 600 1800": "breezy/6 13/farmer -999 -999 0 Reyla 7 13 3 Marlon 5 13 2/skippable/viewport 6 13 clamp true/pause 1000/addConversationTopic ReylaStory/speak Reyla \"{{i18n: 2heart.v.00}}\"/emote Reyla 32/pause 500/speak Marlon \"{{i18n: 2heart.v.01}}\"/emote Reyla 20/pause 1000/speak Marlon \"{{i18n: 2heart.v.02}}\"/pause 1000/speak Reyla \"{{i18n: 2heart.v.03}}\"/speak Marlon \"{{i18n: 2heart.v.04}}\"/warp farmer 6 18/playSound doorClose/pause 1000/move Reyla 0 0 2/speak Reyla \"{{i18n: 2heart.v.05}}\"/move farmer 0 -3 0/speak Marlon \"{{i18n: 2heart.v.06}}\"/speak Marlon \"{{i18n: 2heart.v.07}}\"/emote farmer 40/speak Reyla \"{{i18n: 2heart.v.08}}\"/speak Reyla \"{{i18n: 2heart.v.09}}\"/question fork0 \"#{{i18n: 2heart.v.10}}#{{i18n: 2heart.v.11}}#\"/fork RaffieJohn.ReylaAdventureNo/pause 500/speak Reyla \"{{i18n: 2heart.v.12}}\"/speak Reyla \"{{i18n: 2heart.v.13}}\"/speak Reyla \"{{i18n: 2heart.v.14}}\"/speak Reyla \"{{i18n: 2heart.v.15}}\"/speak Reyla \"{{i18n: 2heart.v.16}}\"/speak Reyla \"{{i18n: 2heart.v.17}}\"/speak Reyla \"{{i18n: 2heart.v.18}}\"/speak Reyla \"{{i18n: 2heart.v.19}}\"/speak Reyla \"{{i18n: 2heart.v.20}}\"/speak Reyla \"{{i18n: 2heart.v.21}}\"/speak Reyla \"{{i18n: 2heart.v.22}}\"/question fork0 \"#{{i18n: 2heart.v.23}}#{{i18n: 2heart.v.24}}#\"/fork RaffieJohn.ReylaAdventureBoring/pause 500/emote farmer 32/emote Reyla 20/speak Reyla \"{{i18n: 2heart.v.25}}\"/speak Reyla \"{{i18n: 2heart.v.26}}\"/friendship Reyla 250/end",
+              "RaffieJohn.ReylaAdventureNo": "pause 500/speak Reyla \"{{i18n:2heart.f.No.00}}\"/emote Reyla 60/speak Reyla \"{{i18n: 2heart.f.No.01}}\"/friendship RaffieJohn.Reyla -50/end",
+              "RaffieJohn.ReylaAdventureBoring": "pause 500/speak Reyla \"{{i18n: 2heart.f.Boring.00}}\"/friendship RaffieJohn.Reyla -250/end"
+        },
+        "When": {
+          "HasFlag": "guildMember"
+      }
+    },
+    //0 Heart Event when you enter Reyla's house 7:00 AM - 6:00 PM sunny
+    //(0 = Back turned to you (up), 1 = facing right, 2 = Facing you (down), 3(4 for advanceMove) = facing left)
+    //layout for events - music/camera position/npc and or farmer position then their direction/skippable
+    {
+      "LogName": "Reyla 4 Heart Event",
+      "Action": "EditData",
+      "Target": "Data/Events/Fellowclown.PC_OldGraveYard",
+      "Entries": {
+            "RaffieJohn.ReylaGhost/f RaffieJohn.Reyla 1000/t 2000 2300": "nightTime/18 50/farmer 18 55 0 Reyla 18 49 0 FC.Maverick 4 34 2/skippable/viewport 18 50 clamp true/pause 1000/speak Reyla \"{{i18n: 4heart.v.00}}\"/speak FC.Maverick \"{{i18n: 4heart.v.01}}\"/pause 500/emote Reyla 16/pause 200/jump Reyla 8/speed FC.Maverick 8/move FC.Maverick 0 13 2/shake FC.Maverick 1000/faceDirection FC.Maverick 0/faceDirection Reyla 3/faceDirection farmer 3/emote farmer 16/speak Reyla \"{{i18n: 4heart.v.02}}\"/speak FC.Maverick \"{{i18n: 4heart.v.03}}\"/playSound ghost/addTemporaryActor Ghost 16 24 4 32 0 false Monster/speed Ghost 6/move Ghost 0 11 2/speak Reyla \"{{i18n: 4heart.v.04}}\"/jump FC.Maverick 8/speed FC.Maverick 8/move FC.Maverick 6 0 1/speed FC.Maverick 8/move FC.Maverick 0 6 2/speed FC.Maverick 8/move FC.Maverick 9 0 1/showFrame FC.Maverick 31/speed Reyla 8/move Reyla 0 4 2/faceDirection Reyla 3/speak Reyla \"{{i18n: 4heart.v.05}}\"/speed Ghost 6/advancedMove Ghost false 0 10 2 100 7 0 1 1000/speak FC.Maverick \"{{i18n: 4heart.v.06}}\"/fade/viewport -100 -100/playSound swordswipe/pause 200/playSound swordswipe/speak Reyla \"{{i18n: 4heart.v.07}}\"/playSound ghost/warp Reyla 9 53/warp Ghost -999 -999/pause 500/globalFadeToClear/viewport 18 50 clamp true/playMusic SunRoom/faceDirection Reyla 1/faceDirection farmer 0/speak Reyla \"{{i18n: 4heart.v.08}}\"/pause 100/faceDirection FC.Maverick 3/pause 200/speak FC.Maverick \"{{i18n: 4heart.v.09}}\"/move Reyla 6 0 1/speak FC.Maverick \"{{i18n: 4heart.v.10}}\"/pause 150/speak Reyla \"{{i18n: 4heart.v.11}}\"/pause 150/speak FC.Maverick \"{{i18n: 4heart.v.12}}\"/speak Reyla \"{{i18n: 4heart.v.13}}\"/speak Reyla \"{{i18n: 4heart.v.14}}\"/faceDirection Reyla 2/faceDirection FC.Maverick 2/speak Reyla \"{{i18n: 4heart.v.15}}\"/speak FC.Maverick \"{{i18n: 4heart.v.16}}\"/emote FC.Maverick 12/speak FC.Maverick \"{{i18n: 4heart.v.17}}\"/speak Reyla \"{{i18n: 4heart.v.18}}\"/speak FC.Maverick \"{{i18n: 4heart.v.19}}\"/speak Reyla \"{{i18n: 4heart.v.20}}\"/speak Reyla \"{{i18n: 4heart.v.21}}\"/speak FC.Maverick \"{{i18n: 4heart.v.22}}\"/emote FC.Maverick 60/advancedMove FC.Maverick false -3 0 4 100 0 1 2 100 -6 0 4 100 0 -10 2 100/pause 500/question fork0 \"#{{i18n: 4heart.v.23}}#{{i18n: 4heart.v.24}}#\"/fork RaffieJohn.ReylaGhostSorry/pause 500/speak Reyla \"{{i18n: 4heart.v.26}}\"/emote farmer 40/speak Reyla \"{{i18n: 4heart.v.27}}\"/speak Reyla \"{{i18n: 4heart.v.28}}\"/emote farmer 60/speak Reyla \"{{i18n: 4heart.v.29}}\"/emote Reyla 40/emote Reyla 28/speak Reyla \"{{i18n: 4heart.v.30}}\"/advancedMove Reyla false -5 0 4 100 0 -7 0 500/fade/viewport -100 -100/pause 500/message \"{{i18n: 4heart.v.31}}\"/friendship RaffieJohn.Reyla 50/stopAdvancedMoves/end",
+            "RaffieJohn.ReylaGhostSorry": "pause 500/speak Reyla \"{{i18n: 4heart.f.Sorry.00}}\"/speak Reyla \"{{i18n: 4heart.f.Sorry.01}}\"/friendship RaffieJohn.Reyla 150/end"
+          },
+        "When": {
+        "HasFlag": "guildMember",
+        "HasMod|contains=Fellowclown.PC": true
+      }
+    },
+    {
+      "LogName":"Reyla 5 Heart Event - Beginning part of meeting Imatu",
+      "Action":"EditData",
+      "Target":"Data/Events/RaffieJohn.Reyla_MineEntrance",
+      "Entries":{
+        "RaffieJohn.ReylaCave/f RaffieJohn.Reyla 1250/t 0600 2000": "none/7 6/farmer 7 9 0 Reyla 6 4 0/skippable/viewport 7 6 clamp true/pause 1000/speak Reyla \"{{i18n: 5heart.v.00}}\"/move farmer 0 -5 0/emote farmer 8/speak Reyla \"{{i18n: 5heart.v.01}}\"/faceDirection Reyla 1/speak Reyla \"{{i18n: 5heart.v.02}}\"/question fork0 \"#{{i18n: 5heart.v.03}}#{{i18n: 5heart.v.04}}\"/fork RaffieJohn.ReylaLeaveAlone/pause 500/speak Reyla \"{{i18n: 5heart.v.05}}\"/pause 500/speak Reyla \"{{i18n: 5heart.v.06}}\"/end",
+        "RaffieJohn.ReylaLeaveAlone": "pause 500/speak Reyla \"{{i18n: 5heart.f.00}}\"/speak Reyla \"{{i18n: 5heart.f.01}}\"/speak Reyla \"{{i18n: 5heart.f.02}}\"/pasue 500/end"
+      }
+    },
+    //0 Heart Event when you enter Reyla's house 7:00 AM - 6:00 PM sunny
+    //(0 = Back turned to you (up), 1 = facing right, 2 = Facing you (down), 3(4 for advanceMove) = facing left)
+    //layout for events - music/camera position/npc and or farmer position then their direction/skippable
+    {
+      "LogName":"Reyla 6 Heart Event",
+      "Action":"EditData",
+      "Target":"Data/Events/RaffieJohn.Reyla_Home",
+      "Entries":{
+        "RaffieJohn.ReylaMom/f RaffieJohn.Reyla 1500/n RaffieJohn.Reyla_PhotoMom/t 2000 2300/": "nightTime/11 10/farmer 21 6 3 Reyla 7 4 0/skippable/viewport 11 10 clamp true/pause 1000/speak Reyla \"{{i18n: 6heart.v.00}}\"/pause 1000/speak Reyla \"{{i18n: 6heart.v.01}}\"/pause 1000/speak Reyla \"{{i18n: 6heart.v.02}}\"/pause 1000/speak Reyla \"{{i18n: 6heart.v.03}}\"/pause 1000/speak Reyla \"{{i18n: 6heart.v.04}}\"/pause 1000/speak Reyla \"{{i18n: 6heart.v.05}}\"/pause 1000/move farmer -14 0 0/emote farmer 40/pause 500/speak Reyla \"{{i18n: 6heart.v.06}}\"/pause 500/faceDirection Reyla 2/speak Reyla \"{{i18n: 6heart.v.07}}\"/emote Reyla 60/pause 500/speak Reyla \"{{i18n: 6heart.v.08}}\"/pause 500/speak Reyla \"{{i18n: 6heart.v.09}}\"/pause 500/speak Reyla \"{{i18n: 6heart.v.10}}\"/pause 500/speak Reyla \"{{i18n: 6heart.v.11}}\"/pause 500/speak Reyla \"{{i18n: 6heart.v.12}}\"/pause 500/speak Reyla \"{{i18n: 6heart.v.13}}\"/pause 500/speak Reyla \"{{i18n: 6heart.v.14}}\"/pause 500/speak Reyla \"{{i18n: 6heart.v.15}}\"/pause 500/speak Reyla \"{{i18n: 6heart.v.16}}\"/pause 500/speak Reyla \"{{i18n: 6heart.v.17}}\"/pause 500/speak Reyla \"{{i18n: 6heart.v.18}}\"/pause 500/speak Reyla \"{{i18n: 6heart.v.19}}\"/pause 500/speak Reyla \"{{i18n: 6heart.v.20}}\"/pause 500/speak Reyla \"{{i18n: 6heart.v.21}}\"/pause 500/speak Reyla \"{{i18n: 6heart.v.22}}\"/pause 500/speak Reyla \"{{i18n: 6heart.v.23}}\"/pause 500/speak Reyla \"{{i18n: 6heart.v.24}}\"/pause 500/speak Reyla \"{{i18n: 6heart.v.25}}\"/pause 500/emote Reyla 32/speak Reyla \"{{i18n: 6heart.v.26}}\"/pause 500/speak Reyla \"{{i18n: 6heart.v.27}}\"/pause 500/speak Reyla \"{{i18n: 6heart.v.28}}\"/pause 500/advancedMove farmer false 10 0 2 -3 0 2/pause 500/friendship RaffieJohn.Reyla 100/mail RaffieJohn.Reyla_ThankYou/stopAdvancedMoves/end"
+      }
+    }
+    /*{
+      "LogName":"Reyla 8 Heart Event",
+      "Action": "EditData",
+      "Target": "Data/Events/RaffieJohn.Reyla_Home",
+      "Entries":{
+        "RaffieJohn.ReylaConfession/f RaffieJohn.Reyla 2000/t 2000 2300":"nightTime/11 10/farmer 21 6 3 Reyla 7 4 0/skippable/viewport 11 10 clamp true/pause 1000/question fork0 \"#{{i18n: 8heart.v.00}}#{{i18n: 8heart.v.01}}\"/fork RaffieJohn.ReylaConfessionReject/pause 500/speak Reyla \"{{i18n: 8heart.v.02}}\"/end",
+        "RaffieJohn.ReylaConfessionReject":"pause 1000/speak Reyla \"{{i18n: 8heart.f.Reject.00}}\"/end"
+      }
+    }*/     
+  ]
+}

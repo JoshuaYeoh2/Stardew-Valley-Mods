@@ -1,0 +1,107 @@
+{
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Data/Events/Custom_AlecsPetShop",
+            "FromFile": "assets/empty.json"
+        },
+        {
+            "Action": "Load",
+            "Target": "Data/Events/Custom_AlecsRoom",
+            "FromFile": "assets/empty.json"
+        },
+        {
+            "LogName": "2 heart Event",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_AlecsPetShop",
+            "Entries": {
+                "16920001/f SPB_Alec 500": "Hospital_Ambient/14 14/farmer 18 19 0 SPB_Alec 3 6 0/skippable/move farmer 0 -11 3/viewport move -1 -2 3000/animate SPB_Alec false true 120 29 29 29 30 30 30 31 31 31/pause 2000/move farmer -3 0 3/pause 500/speak SPB_Alec \"{{i18n:2hearts.01}}\"/pause 500/stopAnimation SPB_Alec/move SPB_Alec 0 2 1/move SPB_Alec 5 0 1/speak SPB_Alec \"{{i18n:2hearts.02}}\"/move SPB_Alec 5 0 1/speak SPB_Alec \"{{i18n:2hearts.03}}\"/speak SPB_Alec \"{{i18n:2hearts.04}}\"/speak SPB_Alec \"{{i18n:2hearts.05}}\"/quickQuestion #{{i18n:2hearts.06}}#{{i18n:2hearts.07}}#{{i18n:2hearts.08}}#{{i18n:2hearts.09}}#{{i18n:2hearts.10}}(break)friendship SPB_Alec -20\\speak SPB_Alec \"{{i18n:2hearts.11}}\"(break)friendship SPB_Alec 40\\speak SPB_Alec \"{{i18n:2hearts.12}}\"(break)friendship SPB_Alec 20\\speak SPB_Alec \"{{i18n:2hearts.13}}\"(break)friendship SPB_Alec 40\\speak SPB_Alec \"{{i18n:2hearts.14}}\"(break)friendship SPB_Alec -40\\speak SPB_Alec \"{{i18n:2hearts.15}}\"/pause 100/speak SPB_Alec \"{{i18n:2hearts.16}}\"/end"
+            }
+        },
+        {
+            "LogName": "3 Heart Event",
+            "Action": "EditData",
+            "Target": "Data/Events/Beach",
+            "Entries": {
+                "16920007/f SPB_Alec 750 Elliott 750/p Elliott": "none/13 10/farmer 19 8 3 SPB_Alec 10 10 3 Elliott 17 11 3/skippable/addConversationTopic SPB_AandEFightStart/move Elliott -6 0 3/speak Elliott \"{{i18n:3hearts.01}}\"/pause 500/faceDirection SPB_Alec 1 true/speak SPB_Alec \"{{i18n:3hearts.02}}\"/move SPB_Alec 20 0 1 true/pause 1000/textAboveHead SPB_Alec \"{{i18n:3hearts.03}}\"/pause 100/faceDirection Elliott 1/emote Elliott 16/faceDirection farmer 2/emote farmer 8/pause 500/faceDirection farmer 1/pause 4000/end"
+            }
+        },
+        {
+            "LogName": "4 Heart Event",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_AlecsRoom",
+            "Entries": {
+                "16920002/f SPB_Alec 1000/p SPB_Alec": "Hospital_Ambient/9 12/farmer 9 15 0 SPB_Alec 9 5 2/skippable/animate SPB_Alec false true 200 20 20 20 21 21 21 22 22 22 23 23 23 24 24 24 25 25 25 26 26 26 27 27 27/viewport move 0 -1 4000 true/move farmer 0 -2 0/speak SPB_Alec \"{{i18n:4hearts.01}}\"/move farmer 0 -5 0/stopAnimation SPB_Alec/question fork1 \"{{i18n:4hearts.02}}#{{i18n:4hearts.03}}#{{i18n:4hearts.04}}#\"/fork workingOn/jump SPB_Alec 4/emote SPB_Alec 12/pause 500/speak SPB_Alec \"{{i18n:4hearts.05}}\"pause 500/end",
+                "workingOn": "speak SPB_Alec \"{{i18n:4hearts.workingOn.01}}\"/animate SPB_Alec false true 200 20 20 20 21 21 21 22 22 22 23 23 23 24 24 24 25 25 25 26 26 26 27 27 27/pause 1000/stopAnimation SPB_Alec/speak SPB_Alec \"{{i18n:4hearts.workingOn.02}}\"/speak SPB_Alec \"{{i18n:4hearts.workingOn.03}}\"/move SPB_Alec 0 2 2/speak SPB_Alec \"{{i18n:4hearts.workingOn.04}}\"/end"
+            }
+        },
+        {
+            "LogName": "6 heart Event",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_AlecsPetShop",
+            "Entries": {
+                "16920003/f Alec 1500/p Alec": "Hospital_Ambient/14 17/farmer 18 19 0 Alec 3 8 1 Abigail 16 16 1 Sebastian 17 15 2 Emily 19 14 1 Maru 20 17 3/skippable/emote Abigail 12/move farmer 0 -3 3/speak Abigail \"{{i18n:6hearts.01}}\"/pause 500/speak Sebastian \"{{i18n:6hearts.02}}\"/faceDirection Emily 3 true/speak Emily \"{{i18n:6hearts.03}}\"/viewport move 0 -2 3000 true/move farmer 0 -8 0 true/speak Maru \"{{i18n:6hearts.04}}\"/pause 500/emote Maru 28/move farmer -13 0 3/emote Sebastian 12/pause 500/textAboveHead Sebastian \"{{i18n:6hearts.05}}\"/pause 500/textAboveHead Maru \"{{i18n:6hearts.06}}\"/pause 1000/textAboveHead Emily \"{{i18n:6hearts.07}}\"/question fork0 \"{{i18n:6hearts.08}}#{{i18n:6hearts.09}}\"/fork WorriedAbout/friendship Alec -40/speak Alec \"{{i18n:6hearts.10}}\"/speak Alec \"{{i18n:6hearts.11}}\"/move farmer 13 0 2/move farmer 0 5 2 true /move Abigail 0 0 0 true/move Emily -1 0 0 true/move Maru -1 0 0 true/move Sebastian 0 0 0/end",
+                "WorriedAbout": "friendship Alec 40/speak Alec \"{{i18n:6hearts.WorriedAbout.01}}\"/speak Alec \"{{i18n:6hearts.WorriedAbout.02}}\"/move farmer 13 0 2/move farmer 0 5 2 true /move Abigail 0 0 0 true/move Emily -1 0 0 true/move Maru -1 0 0 true/move Sebastian 0 0 0/end"
+            }
+        },
+        {
+            "LogName": "8 Heart Event",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_AlecsRoom",
+            "Entries": {
+                "16920004/f Alec 2000/p SPB_Alec": "Hospital_Ambient/9 12/farmer 9 15 0 SPB_Alec 10 10 2/skippable/animate SPB_Alec false true 200 32 32 32 32 33 33 33 33 34 34 34 34/emote SPB_Alec 8/viewport move 0 -1 3000 true/move farmer 0 -4 0/speak SPB_Alec \"{{i18n:8hearts.01}}\"/speak SPB_Alec \"{{i18n:8hearts.02}}\"/move farmer -7 0 0 true/pause 2000/textAboveHead SPB_Alec \"{{i18n:8hearts.03}}\"/pause 2000/textAboveHead SPB_Alec \"{{i18n:8hearts.04}}\"/move farmer 0 -2 1/pause 500/emote SPB_Alec 28/pause 500/textAboveHead SPB_Alec \"{{i18n:8hearts.05}}\"/pause 2000/move farmer 3 0 2/emote farmer 16/jump farmer 5/textAboveHead SPB_Alec \"{{i18n:8hearts.06}}\"/pause 500/move farmer 4 0 1/stopAnimation SPB_Alec/move SPB_Alec 0 -1 3/speak SPB_Alec \"{{i18n:8hearts.07}}\"/emote SPB_Alec 32/speak SPB_Alec \"{{i18n:8hearts.08}}\"/end"
+            }
+        },
+        {
+            "LogName": "10 Heart Event Invite",
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries": {
+                "16920005/f SPB_Alec 2500/x AlecDinnerInvite": "null"     
+            }
+        },
+        {
+            "LogName": "10 Heart Event",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_AlecsRoom",
+            "Entries": {
+                "16920006/t 1800 2200/n AlecDinnerInvite": "Hospital_Ambient/9 12/farmer 9 15 0 SPB_Alec 13 5 0/skippable/viewport move 0 -1 4000 true/move farmer 0 -10 1/move SPB_Alec 0 0 3/question fork0 SPB_Alec \"{{i18n:event-16920006.01}}#{{i18n:event-16920006.02}}#{{i18n:event-16920006.03}}\"/fork LooksAmazing/speak SPB_Alec \"{{i18n:event-16920006.04}}\"/switchEvent Alec10HE2",
+                "LooksAmazing": "speak SPB_Alec \"{{i18n:event-16920006.LooksAmazing.01}}\"/switchEvent Alec10HE2",
+                "Alec10HE2": "resetVariable/speak SPB_Alec \"{{i18n:event-16920006.Alec10HE2.01}}\"/pause 500/speak SPB_Alec \"{{i18n:event-16920006.SPB_Alec10HE2.02}}\"/speak SPB_Alec \"{{i18n:event-16920006.Alec10HE2.03}}\"/pause 500/speak SPB_Alec \"{{i18n:event-16920006.Alec10HE2.04}}\"/question fork0 \"{{i18n:event-16920006.Alec10HE2.05}}#{{i18n:event-16920006.Alec10HE2.06}}#{{i18n:event-16920006.Alec10HE2.07}}#\"/fork LoveBack/speak SPB_Alec \"{{i18n:event-16920006.Alec10HE2.08}}\"/friendship SPB_Alec -20/speak SPB_Alec \"{{i18n:event-16920006.Alec10HE2.09}}\"/move SPB_Alec 6 0 0/animate SPB_Alec false true 200 29 29 29 30 30 30 31 31 31/pause 2000/animate SPB_Alec false true 200 54 54/speak SPB_Alec \"{{i18n:event-16920006.Alec10HE2.10}}\"/end",
+                "LoveBack": "speak SPB_Alec \"...$4/pause 500/speak SPB_Alec \"{{i18n:event-16920006.LoveBack.01}}\"/friendship SPB_Alec 20/speak SPB_Alec \"{{i18n:event-16920006.LoveBack.02}}\"/move SPB_Alec 6 0 0/animate SPB_Alec false true 200 29 29 29 30 30 30 31 31 31/pause 2000/animate SPB_Alec false true 200 54 54/speak SPB_Alec \"{{i18n:event-16920006.LoveBack.03}}\"/end"
+            }
+        },
+        {
+            "LogName": "14 Heart Event Part 1",
+            "Action": "EditData",
+            "Target": "Data/Events/Beach",
+            "Entries": {
+                "16920008/f SPB_Alec 3500 Elliott 1250/e 16920007/p SPB_Alec": "none/13 10/farmer 18 12 3 SPB_Alec 10 10 3/skippable/addConversationTopic SPB_StormsComing 1/move farmer -8 0 3/pause 500/speak SPB_Alec \"{{i18n:14hearts.01}}\"/faceDirection SPB_Alec 2 false/pause 250/faceDirection farmer 0 false/pause 250/emote SPB_Alec 28/speak SPB_Alec \"{{i18n:14hearts.02}}\"/faceDirection SPB_Alec 3 false/pause 500/speak SPB_Alec \"{{i18n:14hearts.03}}\"/speak SPB_Alec \"{{i18n:14hearts.04}}\"/pause 500/faceDirection SPB_Alec 2 False/pause 250/emote SPB_Alec 28/speak SPB_Alec \"{{i18n:14hearts.05}}\"/pause 500/end"
+            }
+        },
+        {
+            "LogName": "14 Heart Event Part 2",
+            "Action": "EditData",
+            "Target": "Data/Events/Beach",
+            "Entries": {
+                "16920009/e 16920008/A SPB_StormsComing": "none/45 12/farmer 41 14 1 Elliott 46 12 0 SPB_Alec 47 22 0/skippable/addConversationTopic SPB_StormHit 1/move farmer 5 0 0/speak Elliott \"{{i18n:event-16920009.01}}\"/faceDirection Elliott 2/speak Elliott \"{{i18n:event-16920009.02}}\"/speak Elliott \"{{i18n:event-16920009.03}}\"/move SPB_Alec 0 -6 0 continue/textAboveHead SPB_Alec \"{{i18n:event-16920009.04}}\"/pause 500/move Elliott 1 0 2/faceDirection farmer 1/speak Elliott \"{{i18n:event-16920009.05}}\"/speak SPB_Alec \"{{i18n:event-16920009.06}}\"/speak Elliott \"{{i18n:event-16920009.07}}\"/pause 250/emote SPB_Alec 12/pause 250/speak SPB_Alec \"{{i18n:event-16920009.08}}\"/pause 250/emote Elliott 8/faceDirection farmer 2 true/move SPB_Alec 0 6 0/faceDirection farmer 0/speak Elliott \"{{i18n:event-16920009.09}}\"/speak Elliott \"{{i18n:event-16920009.10}}\"/end"
+            }
+        },
+        {
+            "LogName": "14 Heart Event Part 3",
+            "Action": "EditData",
+            "Target": "Data/Events/Beach",
+            "Entries": {
+                "16920010/e 16920009/A SPB_StormHit/p SPB_Alec": "none/51 24/farmer 50 19 2 SPB_Alec 52 24 2/skippable/move farmer 0 5 2/speak SPB_Alec \"{{i18n:event-16920010.01}}\"/pause 250/showFrame SPB_Alec 55/emote SPB_Alec 40/pause 250/speak SPB_Alec \"{{i18n:event-16920010.02}}\"/faceDirection farmer 1/speak SPB_Alec \"{{i18n:event-16920010.03}}\"/pause 250/speak SPB_Alec \"{{i18n:event-16920010.04}}\"/pause 250/speak SPB_Alec \"{{i18n:event-16920010.05}}\"/pause 250/speak SPB_Alec \"{{i18n:event-16920010.06}}\"/end"
+            }
+        },
+        {
+            "LogName": "14 Heart Event Part 4",
+            "Action": "EditData",
+            "Target": "Data/Events/ElliottHouse",
+            "Entries": {
+                "16920011/e 16920010/p Elliott": "none/8 5/farmer 3 9 0 SPB_Alec 4 6 3 Elliott 2 6 1/skippable/move farmer 0 -1 0/pause 250/speak SPB_Alec \"{{i18n:event-16920011.01}}\"/speak Elliott \"{{i18n:event-16920011.02}}\"/speak SPB_Alec \"{{i18n:event-16920011.03}}\"/pause 250/emote Elliott 40/pause 250/speak SPB_Alec \"{{i18n:event-16920011.04}}\"/speak SPB_Alec \"{{i18n:event-16920011.05}}\"/pause 250/faceDirection SPB_Alec 1/emote SPB_Alec 28/pause 250/faceDirection SPB_Alec 3/speak SPB_Alec \"{{i18n:event-16920011.06}}\"/speak Elliott \"{{i18n:event-16920011.07}}\"/speak Elliott \"{{i18n:event-16920011.08}}\"/speak Elliott \"{{i18n:event-16920011.09}}\"/speak Elliott \"{{i18n:event-16920011.10}}\"/pause 250/speak SPB_Alec \"{{i18n:event-16920011.11}}\"/emote farmer 32/pause 500/end"
+            }
+        }
+    ]
+}

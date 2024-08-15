@@ -1,0 +1,215 @@
+{
+"Changes": [
+
+//Non-Farm Grogu
+
+////Manifestation
+      {
+          "LogName": "Grogu Manifestation", "Action": "EditData", "Target": "Data/Characters",
+          "Entries": {
+              "Grogu": {
+                  "DisplayName": "Grogu",
+                  "BirthSeason": "Fall",
+                  "BirthDay": 22,
+                  "HomeRegion": "Town",
+                  "Gender": "Male",
+                  "Age": "Child",
+                  "Manner": "Neutral",
+                  "SocialAnxiety": "Shy",
+                  "Optimism": "Neutral",
+                  
+                  "CanSocialize": false,
+                  "CanBeRomanced": false,
+                  "CanVisitIsland": false,
+                  "FlowerDanceCanDance": false,
+                  "CanCommentOnPurchasedShopItems": false,
+                  "CanGreetNearbyCharacters": false,
+                  "Breather": false,
+                  
+                  "Home": [{
+                          "Id": "Default",
+                          "Condition": null,
+                          "Location": "Custom_RazorCrest",
+                          "Tile": {"X": 16,"Y": 7},
+                          "Direction": "down",
+                  }],
+              },
+          },
+      },
+      {
+          "LogName": "Grogu Manifestation - MANDO MARRIED", "Action": "EditData", "Target": "Data/Characters",
+          "When": { "Relationship:Mando": "Married" },
+          "Entries": {
+              "Grogu": {
+                  "DisplayName": "Grogu",
+                  "BirthSeason": "Fall",
+                  "BirthDay": 22,
+                  "HomeRegion": "Town",
+                  "Gender": "Male",
+                  "Age": "Child",
+                  "Manner": "Neutral",
+                  "SocialAnxiety": "Shy",
+                  "Optimism": "Neutral",
+                  
+                  "CanSocialize": false,
+                  "CanBeRomanced": false,
+                  "CanVisitIsland": null,
+                  "FlowerDanceCanDance": false,
+                  "CanCommentOnPurchasedShopItems": false,
+                  "CanGreetNearbyCharacters": false,
+                  "Breather": false,
+                  
+                  "Home": [{
+                          "Id": "Default",
+                          "Condition": null,
+                          "Location": "BusStop",
+                          "Tile": {"X": 18,"Y": 25},
+                          "Direction": "down",
+                  }],
+              },
+          },
+      },
+      {
+          "LogName": "Grogu Gift Tastes", "Action": "EditData", "Target": "Data/NPCGiftTastes",
+          "Entries": {
+              "Grogu": "Patu!/203 223 400/Doo.//eh?//Pfffffllllt.//Patu.//"
+          },
+      },
+
+////Portraits and Sprites
+
+    {
+
+      "LogName": "Grogu Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Grogu",
+      "FromFile": "assets/images/GroguPortraits.png",
+
+    },
+
+    {
+
+      "LogName": "Grogu Sprites",
+      "Action": "Load",
+      "Target": "Characters/Grogu",
+      "FromFile": "assets/images/GroguSprites.png",
+
+    },
+
+    {
+        "LogName": "Animations",
+        "Action": "EditData",
+        "Target": "Data/animationdescriptions",
+        "Entries": {
+            "Grogu_sit": "17/18/17",
+            "Grogu_sitleft": "21/22/21",
+            "Grogu_sleep": "18/19/18",
+            "Grogu_sleepleft": "22/23/22",
+            "MGrogu_sit": "31/35/31",
+            "MGrogu_stand": "31/35/31",
+            "Grogu_force": "18/24 24 24 24 24 24 24 25 25 25 25 25 25 25 26 26 26 26 26 26 26 27 27 27 27 27 27 27/18",
+        }
+    },
+
+    
+////Dialogue and Schedule
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Grogu",
+      "FromFile": "assets/data/GroguDialogue.json"
+    },
+    {
+      "LogName": "Grogu Schedule Load",
+      "Action": "Load",
+      "Target": "Characters/schedules/Grogu",
+      "FromFile": "assets/data/GroguSchedule.json"
+    },
+
+    {
+      "LogName": "Grogu Non-Married Schedule",
+      "Action": "EditData",
+      "Target": "Characters/schedules/Grogu",
+      "When": { "Relationship:Mando": "Unmet, Friendly, Dating, Engaged, Divorced" },
+      "Entries": {
+        ///SPRING
+          "spring": "610 Custom_RazorCrest 3 8 2/1000 Custom_RazorCrest 17 8 1/1100 Custom_RazorCrest 10 6 3 Grogu_sitleft/1200 Town 79 95 2 MGrogu_stand/1600 Town 16 11 2 square_3_1/2050 Custom_RazorCrest 17 8 0 Grogu_sleep",
+        ///SUMMER
+          "summer": "610 Custom_RazorCrest 3 7 1/1000 Beach 9 13 3 square_2_2/1650 Beach 20 24 2 Grogu_sitleft/2000 Custom_RazorCrest 17 8 0 Grogu_sleep",
+        ///FALL
+          "fall": "610 Custom_RazorCrest 15 6 0/1200 Mountain 13 6 2 Grogu_force/1800 Mountain 46 20 1/2000 Custom_RazorCrest 17 8 0 Grogu_sleep ",
+        ///WINTER
+          "winter": "610 Custom_RazorCrest 15 6 0/700 Forest 66 15 2 square_5_5/1950 Custom_RazorCrest 17 8 0 Grogu_sleep",
+        ///RAIN
+          "rain": "610 Custom_RazorCrest 15 6 0/1000 Town 29 58 1 square_3_3/1650 Saloon 10 20 0 Grogu_sitleft/2100 Custom_RazorCrest 17 8 0 Grogu_sleep",
+	}
+    },
+
+
+    {
+      "LogName": "Grogu Married Schedule",
+      "Action": "EditData",
+      "Target": "Characters/schedules/Grogu",
+      "When": { "Relationship:Mando": "Married" },
+      "Entries": {
+	       "Tue": "910 Beach 8 12 3 Grogu_sitleft/1700 Town 11 64 2 square_5_5/1950 BusStop 18 25 1",
+	       "Fri": "810 Custom_RazorCrest 15 6 0/1600 Saloon 1 22 2 GroguM_stand/2100 BusStop 18 25 1",
+	       "spring": "2100 BusStop 18 25 1",
+	       "summer": "2100 BusStop 18 25 1",
+	       "fall": "2100 BusStop 18 25 1",
+	       "winter": "2100 BusStop 18 25 1",
+	       "rain": "2100 BusStop 18 25 1",
+
+		}
+    },
+    
+//////Farm Grogu
+    
+
+    {
+      "LogName": "Grogu Pet", "Action": "EditImage", "Target": "Animals/cat",
+      "FromFile": "assets/images/FarmGrogu.png", "When": { "Relationship:Mando": "Married",  "GroguPet": "yes"}
+    },
+
+    {
+      "LogName": "Grogu Pet", "Action": "EditImage", "Target": "Animals/dog",
+      "FromFile": "assets/images/FarmGrogu.png", "When": { "Relationship:Mando": "Married",  "GroguPet": "yes"}
+    },
+
+
+    
+    {
+      "Action": "EditData",
+      "Target": "Strings/Characters",
+       "Entries": {
+ 	"PetLovesYou": "Grogu loves you. <",
+		},
+	"When": { "Relationship:Mando": "Married", "GroguPet": "yes" }
+    },
+    
+    
+    { "Action": "EditData",
+      "Target": "Data/AudioChanges",
+      "Entries": {
+          "dog_bark": {
+              "ID": "dog_bark",
+              "FilePaths": ["{{AbsoluteFilePath: assets/sounds/Grogu2.wav}}"],
+              "StreamedVorbis": true },
+          "dog_pant": {
+              "ID": "dog_pant",
+              "FilePaths": ["{{AbsoluteFilePath: assets/sounds/Grogu2.wav}}"],
+              "StreamedVorbis": true },
+          "cat": {
+              "ID": "cat",
+              "FilePaths": ["{{AbsoluteFilePath: assets/sounds/Grogu2.wav}}"],
+              "StreamedVorbis": true },
+
+      },
+        "When": { "Relationship:Mando": "Married", "GroguPet": "yes" }
+    },
+
+
+  ]
+}
+		
+		

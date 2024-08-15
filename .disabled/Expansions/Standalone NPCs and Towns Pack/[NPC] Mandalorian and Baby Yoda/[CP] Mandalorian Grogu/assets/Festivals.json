@@ -1,0 +1,411 @@
+{
+ 
+//They do not attend the flower dance
+
+  "Changes": [
+
+//Egg Festival
+      {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Mando 37 73 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Grogu 36 72 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Mando 35 67 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Grogu 35 68 3",
+                    "Delimiter": "/"
+                },
+	   ]
+        },
+
+	{ 
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Mando": "If I don't watch the kid, he'll eat 10 of these eggs before I can stop him.#$b#Can't look away from him for a second. Here, hold this one?[182]",
+        "Grogu": "Patu!#$e#Ah bababa.",
+      		},
+	"When": { "Relationship:Mando": "Unmet, Friendly, Dating" }
+   	 },
+
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Mando": "The eggs you painted look lovely. This one is my favorite.[107]#$e#Go mingle, I can watch the kid.",
+        "Grogu": "Buir!#$e#Ah ba ba ba boo.",
+     		 },
+	"When": { "Relationship:Mando": "Engaged, Married" }
+      
+    },
+
+
+
+//Luau
+      {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Mando 39 24 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Grogu 40 25 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Mando 31 19 0",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Grogu 32 19 0",
+                    "Delimiter": "/"
+                },
+	   ]
+        },
+
+	{ 
+      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "Mando": "Did you grow anything to add to the soup? We brought this.[190]#$e#It's more crowded than I like, but the kid loves these things.#$b#Well, he loves the food.",
+        "Grogu": "Patu!#$e#Ah bababa.",
+      		},
+	"When": { "Relationship:Mando": "Unmet, Friendly, Dating" }
+   	 },
+
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "Mando": "There you are, mesh'la. Here's the ingredient you asked me to bring.[430]#$e#Glad I rubbed all that sunscreen on you this morning. You're already a little burnt.",
+        "Grogu": "Buir!#$e#Ah ba ba ba boo.",
+     		 },
+	"When": { "Relationship:Mando": "Engaged, Married" }
+      
+    },
+
+
+
+//Jellyfish
+      {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Mando 88 34 1",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Grogu 88 35 1",
+                    "Delimiter": "/"
+                },
+
+	   ]
+        },
+
+	{ 
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Mando": "We missed the jellyfish our first year here.#$b#I'm still not good with the crowds in town, but I used to be worse.#$e#Another season gone.",
+        "Grogu": "Patu!#$e#Ah bababa.",
+      		},
+	"When": { "Relationship:Mando": "Unmet, Friendly, Dating, Engaged" }
+   	 },
+
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Mando": "Hello, mesh'la. I picked something up for us to share after the jellyfish.[348]#$e#I'll have a glass with you when we go back.#$b#And when the kid's asleep, maybe...",
+        "Grogu": "Buir!#$e#Ah ba ba ba boo.",
+     		 },
+	"When": { "Relationship:Mando": "Married" }
+    },
+
+
+
+
+//Fair
+      {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Mando 61 65 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Grogu 60 65 2",
+                    "Delimiter": "/"
+                },
+	   ]
+
+        },
+
+	{ 
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Mando": "I'm not allowed to do the slingshot game anymore.#$b#Apparently I broke some records.#$e#I think the kid wants to ride a chicken.",
+        "Grogu": "Patu!#$e#Ah bababa.",
+      		},
+	"When": { "Relationship:Mando": "Unmet, Friendly, Dating" }
+   	 },
+
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Mando": "There you are, mesh'la.#$b#I have a gift for you, little farmer.[421]",
+        "Grogu": "Buir!#$e#Ah ba ba ba boo.",
+     		 },
+	"When": { "Relationship:Mando": "Engaged, Married" }
+      
+    },
+
+
+
+//Spirit's Eve
+      {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Mando 15 18 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Grogu 10 18 0",
+                    "Delimiter": "/"
+                },
+	   ]
+        },
+
+	{ 
+      "Action": "EditData",
+      "Target": "data/festivals/fall27",
+      "Entries": {
+        "Mando": "Shh. I think the kid found a pumpkin back there.#$e#I try to let him run around when I can. Still getting used to it here.",
+        "Grogu": "Patu!#$e#Ah bababa.",
+      		},
+	"When": { "Relationship:Mando": "Unmet, Friendly, Dating, Engaged" }
+   	 },
+
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall27",
+      "Entries": {
+        "Mando": "You found us.#$b#My little bounty hunter.#$e#Your reward? You'll get it when we get home.#$e#You know... I think we're pretty hidden back here...",
+        "Grogu": "Buir!#$e#Ah ba ba ba boo.",
+     		 },
+	"When": { "Relationship:Mando": "Married" }
+      
+    },
+
+
+
+
+//Ice
+      {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Mando 61 25 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Grogu 62 25 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Main-Event_additionalCharacters"
+                    ],
+                    "Value": "Mando 65 39 1",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Main-Event_additionalCharacters"
+                    ],
+                    "Value": "Grogu 66 39 1",
+                    "Delimiter": "/"
+                },
+	   ]
+        },
+
+	{ 
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Mando": "Hello, @.#$b#I see that competitive gleam in your eye.#$e#Good luck with the contest.",
+        "Grogu": "Patu!#$e#Ah bababa.",
+      		},
+	"When": { "Relationship:Mando": "Unmet, Friendly, Dating, Engaged" }
+   	 },
+
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Mando": "You look cold, cyar'ika.#$b#Here, something to keep you warm.[253]#$e#When we get home, I'll draw you a warm bath.",
+        "Grogu": "Buir!#$e#Ah ba ba ba boo.",
+     		 },
+	"When": { "Relationship:Mando": "Married" }
+      
+    },
+
+
+
+
+//Winter Star
+      {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Mando 29 61 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Grogu 30 61 2",
+                    "Delimiter": "/"
+                },
+
+	   ]
+        },
+
+	{ 
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "Mando": "You can't help but feel a little sentimental when the town is lit up like this.#$e#I hope you had a good year, @.",
+        "Grogu": "Ooooooh.#$e#Uuuubababa.",
+      		},
+	"When": { "Relationship:Mando": "Unmet, Friendly, Dating" }
+   	 },
+
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "Mando": "I'm so thankful for you, @. Here, a gift from the kid and me.[74]#$e#Come, cyar'ika, take in the tree with us.",
+        "Grogu": "Buir!#$e#Ah ooo ba boo.",
+     		 },
+	"When": { "Relationship:Mando": "Engaged, Married" }
+      
+    },
+
+
+  ]
+}
+		
+		

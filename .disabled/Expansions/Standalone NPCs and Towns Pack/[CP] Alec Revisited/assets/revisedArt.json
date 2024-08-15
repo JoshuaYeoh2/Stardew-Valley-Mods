@@ -1,0 +1,58 @@
+{
+    "Changes": [
+        {
+            "LogName": "Revised Sprites",
+            "Action": "Load",
+            "Target": "Characters/SPB_Alec",
+            "FromFile": "assets/sprites/revised/{{BeardVariant}}/Alec_Spring1.png"
+        },
+        {
+            "LogName": "Revised Portraits",
+            "Action": "Load",
+            "Target": "Portraits/SPB_Alec",
+            "FromFile": "assets/portraits/revised/{{BeardVariant}}/{{HairVariant}}/Alec_Spring.png"
+        },
+        {
+            "LogName": "Revised Winter Sprites",
+            "Action": "EditImage",
+            "Target": "Characters/SPB_Alec",
+            "FromFile": "assets/sprites/revised/{{BeardVariant}}/Alec_Winter1.png",
+            "When": {
+                "Season": "Winter"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "Revised Winter Portraits",
+            "Action": "EditImage",
+            "Target": "Portraits/SPB_Alec",
+            "FromFile": "assets/portraits/revised/{{BeardVariant}}/{{HairVariant}}/Alec_Winter_Snow_Inside.png",
+            "When": {
+                "Season": "Winter"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "Revised Beach Sprites",
+            "Action": "Load",
+            "Target": "Characters/SPB_Alec_Beach",
+            "FromFile": "assets/sprites/revised/{{BeardVariant}}/Alec_Beach1.png"
+        },
+        {
+            "LogName": "Revised Beach Portraits",
+            "Action": "Load",
+            "Target": "Portraits/SPB_Alec_Beach",
+            "FromFile": "assets/portraits/revised/{{BeardVariant}}/{{HairVariant}}/Alec_Beach.png"
+        },
+        {
+            "LogName": "NPC Map Locations Sprite Offsets",
+            "Action": "EditData",
+            "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+            "Entries": {
+                "SPB_Alec": {
+                    "MarkerCropOffset": 0
+                }
+            }
+        }
+    ]
+}

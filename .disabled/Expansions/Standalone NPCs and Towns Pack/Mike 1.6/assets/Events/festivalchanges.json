@@ -1,0 +1,79 @@
+{
+    "Changes": [
+
+	//At the beach
+		{
+            "LogName": "Mike Portrait Replace",
+            "Action": "EditImage",
+            "Target": "Portraits/Mike",
+      	    "FromFile": "assets/Image/{{MikeLooks}}/Mike_Beach.png",
+	    "When":
+			{
+		"LocationName |contains= Temp, beach": true,
+		"MikeLooks": "Airyn, DSVO",
+			},
+		},
+		{
+            "LogName": "Mike Walk Replace",
+            "Action": "EditImage",
+            "Target": "Characters/Mike",
+      	    "FromFile": "assets/Image/{{MikeLooks}}/Mike_Beach.png",
+	    "When":
+			{
+		"LocationName |contains= beach": true,
+		"MikeLooks": "Airyn, DSVO",
+			},
+		},
+
+	//Festivals at the beach
+		{
+            "LogName": "Mike Luau Portrait Replace",
+            "Action": "EditImage",
+            "Target": "Portraits/Mike",
+      	    "FromFile": "assets/Image/{{MikeLooks}}/Mike_Beach.png",
+	    "When":
+			{
+		"DayEvent |contains= luau, Moonshine Barbecue, Pelican Town Potluck": true,
+		"LocationName |contains= Temp, beach": true,
+		"MikeLooks": "Airyn, DSVO",
+			},
+		},
+		{
+            "LogName": "Mike Luau Walk Replace",
+            "Action": "EditImage",
+            "Target": "Characters/Mike",
+            "FromFile": "assets/Image/{{MikeLooks}}/Sprite_Beach.png",
+	    "When":
+			{
+		"DayEvent |contains= luau, Moonshine Barbecue, Pelican Town Potluck": true,
+		"LocationName |contains= Temp, beach": true,
+		"MikeLooks": "Airyn, DSVO",
+			},
+		},
+		{
+            "LogName": "Mike Jelly Portrait Replace",
+            "Action": "EditImage",
+            "Target": "Portraits/Mike",
+      	    "FromFile": "assets/Image/{{MikeLooks}}/Mike_Beach.png",
+	    "When":
+			{
+		"DayEvent |contains= Dance of the moonlight jellies": true,
+		"LocationName |contains= Temp, beach": true,
+		"MikeLooks": "Airyn, DSVO",
+			},
+		},
+		{
+            "LogName": "Mike Jelly Walk Replace",
+            "Action": "EditImage",
+            "Target": "Characters/Mike",
+            "FromFile": "assets/Image/{{MikeLooks}}/Sprite_Beach.png",
+	    "When":
+			{
+		"DayEvent |contains= Dance of the moonlight jellies": true,
+		"LocationName |contains= Temp, beach": true,
+		"MikeLooks": "Airyn, DSVO",
+			},
+		},
+
+]
+}

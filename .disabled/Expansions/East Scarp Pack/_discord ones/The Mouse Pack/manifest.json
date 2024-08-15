@@ -1,0 +1,19 @@
+{
+  "Name": "The Mouse Pack",
+   "Author": "Dolphin Is Not a Fish",
+   "Description": "Portrait replacers for various mouse NPCs",
+   "Version": "0.1.0", 
+   "UniqueID": "DolphINaF.MousePack",
+ 
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher",
+       "MinimumVersion": "1.18.4"
+    },
+   "UpdateKeys": [],
+   "Dependencies": [  
+		{
+		  "UniqueID": "EastScarp.FGES",
+		  "IsRequired": true
+		},
+   ]   
+}

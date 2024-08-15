@@ -1,0 +1,499 @@
+{
+	"Changes": [
+		{
+            "LogName": "CITVObjects textures",
+            "Action": "Load",
+            "Target": "Mods/SauriConservationintheValley/CITVAnimalArtisan",
+            "FromFile": "assets/Items/CITVAnimalArtisan.png"
+        },
+        {
+            "LogName": "CITVObjects textures",
+            "Action": "Load",
+            "Target": "Mods/SauriConservationintheValley/CITVAnimalProducts",
+            "FromFile": "assets/Items/CITVAnimalProducts.png"
+        },
+        {
+            "LogName": "CITVObjects textures",
+            "Action": "Load",
+            "Target": "Mods/SauriConservationintheValley/CITVCropObjects",
+            "FromFile": "assets/Items/CITVCropObjects.png"
+        },
+		{
+            "LogName": "CITVObjects textures",
+            "Action": "Load",
+            "Target": "Mods/SauriConservationintheValley/CITVEstradaFood",
+            "FromFile": "assets/Items/CITVEstradaFood.png"
+        },
+	/*Crops & Fruit Trees*/
+	{
+			"LogName": "CropObjects",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"CITV_MinersLettuce": {
+					"Name": "CITV_MinersLettuce",
+					"DisplayName": "{{i18n:CITV_MinersLettuce}}",
+					"Description": "{{i18n:CITV_MinersLettuce_Description}}",
+					"Edibility": "12",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 3,
+					"Texture": "Mods\\SauriConservationintheValley\\CITVCropObjects",
+					"SpriteIndex": 0,
+					"ContextTags": [
+						],
+				},
+
+				"CITV_MinersLettuceSeeds": {
+					"Name": "CITV_MinersLettuceSeeds",
+					"DisplayName": "{{i18n:CITV_MinersLettuceSeeds}}",
+					"Description": "{{i18n:CITV_MinersLettuceSeeds_Description}}",
+					"Edibility": "-300",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 10,
+					"Texture": "Mods\\SauriConservationintheValley\\CITVCropObjects",
+					"SpriteIndex": 1,
+					"ContextTags": [
+						],
+				},
+
+				"CITV_GoldenCurrant": {
+					"Name": "CITV_GoldenCurrant",
+					"DisplayName": "{{i18n:CITV_GoldenCurrant}}",
+					"Description": "{{i18n:CITV_GoldenCurrant_Description}}",
+					"Edibility": "16",
+					"Type": "Fruit",
+					"Category": -79,
+					"Price": 5,
+					"Texture": "Mods\\SauriConservationintheValley\\CITVCropObjects",
+					"SpriteIndex": 2,
+					"ContextTags": [
+						],
+				},
+
+				"CITV_GoldenCurrantSeeds": {
+					"Name": "CITV_GoldenCurrantSeeds",
+					"DisplayName": "{{i18n:CITV_GoldenCurrantSeeds}}",
+					"Description": "{{i18n:CITV_GoldenCurrantSeeds_Description}}",
+					"Edibility": "-300",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 10,
+					"Texture": "Mods\\SauriConservationintheValley\\CITVCropObjects",
+					"SpriteIndex": 3,
+					"ContextTags": [
+						],
+				},
+
+				"CITV_LemonadeBerry": {
+					"Name": "CITV_LemonadeBerry",
+					"DisplayName": "{{i18n:CITV_LemonadeBerry}}",
+					"Description": "{{i18n:CITV_LemonadeBerry_Description}}",
+					"Edibility": "14",
+					"Type": "Fruit",
+					"Category": -79,
+					"Price": 4,
+					"Texture": "Mods\\SauriConservationintheValley\\CITVCropObjects",
+					"SpriteIndex": 4,
+					"ContextTags": [
+						],
+				},
+
+				"CITV_LemonadeBerrySeeds": {
+					"Name": "CITV_LemonadeBerrySeeds",
+					"DisplayName": "{{i18n:CITV_LemonadeBerrySeeds}}",
+					"Description": "{{i18n:CITV_LemonadeBerrySeeds_Description}}",
+					"Edibility": "-300",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 10,
+					"Texture": "Mods\\SauriConservationintheValley\\CITVCropObjects",
+					"SpriteIndex": 5,
+					"ContextTags": [
+						],
+				},
+
+				"CITV_GrizzlyTuber": {
+					"Name": "CITV_GrizzlyTuber",
+					"DisplayName": "{{i18n:CITV_GrizzlyTuber}}",
+					"Description": "{{i18n:CITV_GrizzlyTuber_Description}}",
+					"Edibility": "20",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 30,
+					"Texture": "Mods\\SauriConservationintheValley\\CITVCropObjects",
+					"SpriteIndex": 6,
+					"ContextTags": [
+						],
+				},
+
+				"CITV_BearGrassSeeds": {
+					"Name": "CITV_BearGrassSeeds",
+					"DisplayName": "{{i18n:CITV_BearGrassSeeds}}",
+					"Description": "{{i18n:CITV_BearGrassSeeds_Description}}",
+					"Edibility": "-300",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 10,
+					"Texture": "Mods\\SauriConservationintheValley\\CITVCropObjects",
+					"SpriteIndex": 7,
+					"ContextTags": [
+						],
+				},
+
+				"CITV_Manzanita": {
+					"Name": "CITV_Manzanita",
+					"DisplayName": "{{i18n:CITV_Manzanita}}",
+					"Description": "{{i18n:CITV_Manzanita_Description}}",
+					"Edibility": "16",
+					"Type": "Fruit",
+					"Category": -79,
+					"Price": 5,
+					"Texture": "Mods\\SauriConservationintheValley\\CITVCropObjects",
+					"SpriteIndex": 8,
+					"ContextTags": [
+						],
+				},
+
+				"CITV_ManzanitaSeeds": {
+					"Name": "CITV_ManzanitaSeeds",
+					"DisplayName": "{{i18n:CITV_ManzanitaSeeds}}",
+					"Description": "{{i18n:CITV_ManzanitaSeeds_Description}}",
+					"Edibility": "-300",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 10,
+					"Texture": "Mods\\SauriConservationintheValley\\CITVCropObjects",
+					"SpriteIndex": 9,
+					"ContextTags": [
+						],
+				},
+
+				"CITV_BlackWalnut": {
+					"Name": "CITV_BlackWalnut",
+					"DisplayName": "{{i18n:CITV_BlackWalnut}}",
+					"Description": "{{i18n:CITV_BlackWalnut_Description}}",
+					"Edibility": "20",
+					"Type": "Fruit",
+					"Category": -79,
+					"Price": 120,
+					"Texture": "Mods\\SauriConservationintheValley\\CITVCropObjects",
+					"SpriteIndex": 10,
+					"ContextTags": [
+						],
+				},
+				
+				"CITV_BlackWalnutSapling": {
+					"Name": "CITV_BlackWalnutSapling",
+					"DisplayName": "{{i18n:CITV_BlackWalnutSapling}}",
+					"Description": "{{i18n:CITV_BlackWalnutSapling_Description}}",
+					"Edibility": "-300",
+					"Type": "Basic",
+					"Category": -74,
+					"Price": 500,
+					"Texture": "Mods\\SauriConservationintheValley\\CITVCropObjects",
+					"SpriteIndex": 11,
+					"ContextTags": [
+					],
+				},
+				
+				"CITV_BlackHawthorn": {
+					"Name": "CITV_BlackHawthorn",
+					"DisplayName": "{{i18n:CITV_BlackHawthorn}}",
+					"Description": "{{i18n:CITV_BlackHawthorn_Description}}",
+					"Edibility": "20",
+					"Type": "Fruit",
+					"Category": -79,
+					"Price": 120,
+					"Texture": "Mods\\SauriConservationintheValley\\CITVCropObjects",
+					"SpriteIndex": 12,
+					"ContextTags": [
+						],
+				},
+				
+				"CITV_BlackHawthornSapling": {
+					"Name": "CITV_BlackHawthornSapling",
+					"DisplayName": "{{i18n:CITV_BlackHawthornSapling}}",
+					"Description": "{{i18n:CITV_BlackHawthornSapling_Description}}",
+					"Edibility": "-300",
+					"Type": "Basic",
+					"Category": -74,
+					"Price": 500,
+					"Texture": "Mods\\SauriConservationintheValley\\CITVCropObjects",
+					"SpriteIndex": 13,
+					"ContextTags": [
+					],
+				},
+				
+				"CITV_ValleyPlum": {
+					"Name": "CITV_ValleyPlum",
+					"DisplayName": "{{i18n:CITV_ValleyPlum}}",
+					"Description": "{{i18n:CITV_ValleyPlum_Description}}",
+					"Edibility": "20",
+					"Type": "Fruit",
+					"Category": -79,
+					"Price": 120,
+					"Texture": "Mods\\SauriConservationintheValley\\CITVCropObjects",
+					"SpriteIndex": 14,
+					"ContextTags": [
+						],
+				},
+				
+				"CITV_ValleyPlumSapling": {
+					"Name": "CITV_ValleyPlumSapling",
+					"DisplayName": "{{i18n:CITV_ValleyPlumSapling}}",
+					"Description": "{{i18n:CITV_ValleyPlumSapling_Description}}",
+					"Edibility": "-300",
+					"Type": "Basic",
+					"Category": -74,
+					"Price": 500,
+					"Texture": "Mods\\SauriConservationintheValley\\CITVCropObjects",
+					"SpriteIndex": 15,
+					"ContextTags": [
+					],
+				},
+		    },
+	    },
+			
+		/*Animal Produce*/
+		{
+			"LogName": "AnimalProducts",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"CITV_MuscovyEgg": {
+					"Name": "CITV_MuscovyEgg",
+					"DisplayName": "{{i18n:CITV_MuscovyEgg}}",
+					"Description": "{{i18n:CITV_MuscovyEgg_Description}}",
+					"Edibility": "18",
+					"Type": "Basic",
+					"Category": -5,
+					"Price": 150,
+					"Texture": "Mods\\SauriConservationintheValley\\CITVAnimalProducts",
+					"SpriteIndex": 0,
+					"ContextTags": [
+					],
+				},
+				
+				"CITV_MuscovyFeather": {
+					"Name": "CITV_MuscovyFeather",
+					"DisplayName": "{{i18n:CITV_MuscovyFeather}}",
+					"Description": "{{i18n:CITV_MuscovyFeather_Description}}",
+					"Edibility": "-300",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 300,
+					"Texture": "Mods\\SauriConservationintheValley\\CITVAnimalProducts",
+					"SpriteIndex": 1,
+					"ContextTags": [
+					],
+				},
+				
+				"CITV_TurkeyEgg": {
+					"Name": "CITV_TurkeyEgg",
+					"DisplayName": "{{i18n:CITV_TurkeyEgg}}",
+					"Description": "{{i18n:CITV_TurkeyEgg_Description}}",
+					"Edibility": "20",
+					"Type": "Basic",
+					"Category": -5,
+					"Price": 200,
+					"Texture": "Mods\\SauriConservationintheValley\\CITVAnimalProducts",
+					"SpriteIndex": 2,
+					"ContextTags": [
+					],
+				},
+				
+				"CITV_TurkeyFeather": {
+					"Name": "CITV_TurkeyFeather",
+					"DisplayName": "{{i18n:CITV_TurkeyFeather}}",
+					"Description": "{{i18n:CITV_TurkeyFeather_Description}}",
+					"Edibility": "-300",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 400,
+					"Texture": "Mods\\SauriConservationintheValley\\CITVAnimalProducts",
+					"SpriteIndex": 3,
+					"ContextTags": [
+					],
+				},
+			},
+		},
+			
+		/*Animal Artisan*/
+		{
+			"LogName": "ArtisanGoods",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"CITV_MuscovyMayo": {
+					"Name": "CITV_MuscovyMayo",
+					"DisplayName": "{{i18n:CITV_MuscovyMayo}}",
+					"Description": "{{i18n:CITV_MuscovyMayo_Description}}",
+					"Edibility": "32",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 450,
+					"Texture": "Mods\\SauriConservationintheValley\\CITVAnimalArtisan",
+					"SpriteIndex": 0,
+					"ContextTags": [
+					],
+				},
+				
+				"CITV_TurkeyMayo": {
+					"Name": "CITV_TurkeyMayo",
+					"DisplayName": "{{i18n:CITV_TurkeyMayo}}",
+					"Description": "{{i18n:CITV_TurkeyMayo_Description}}",
+					"Edibility": "36",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 500,
+					"Texture": "Mods\\SauriConservationintheValley\\CITVAnimalArtisan",
+					"SpriteIndex": 1,
+					"ContextTags": [
+					],
+				},
+			},
+		},
+	
+		/*Cooking*/
+		{
+			"LogName": "Cooking",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"CITV_BerryCurrantFruitLeather": {
+					"Name": "CITV_BerryCurrantFruitLeather",
+					"DisplayName": "{{i18n:CITV_BerryCurrantFruitLeather}}",
+					"Description": "{{i18n:CITV_BerryCurrantFruitLeather_Description}}",
+					"Edibility": "50",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 54,
+					"Texture": "Mods\\SauriConservationintheValley\\CITVEstradaFood",
+					"SpriteIndex": 0,
+					"IsDrink": false,
+					"Buffs": [
+						{
+							"Duration": 120,
+							"CustomAttributes": {
+								"FarmingLevel": 0,
+								"FishingLevel": 0,
+								"MiningLevel": 0,
+								"LuckLevel": 1,
+								"ForagingLevel": 0,
+								"MaxStamina": 10,
+								"MagneticRadius": 0,
+								"Speed": 0,
+								"Defense": 0,
+								"Attack": 0
+							},
+							"CustomFields": {}
+						},
+					],
+					"ContextTags": [
+					],
+				},
+				
+				"CITV_ValleySalad": {
+					"Name": "CITV_ValleySalad",
+					"DisplayName": "{{i18n:CITV_ValleySalad}}",
+					"Description": "{{i18n:CITV_ValleySalad_Description}}",
+					"Edibility": "60",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 700,
+					"Texture": "Mods\\SauriConservationintheValley\\CITVEstradaFood",
+					"SpriteIndex": 1,
+					"IsDrink": false,
+					"Buffs": [
+						{
+							"Duration": 240,
+							"CustomAttributes": {
+								"FarmingLevel": 2,
+								"FishingLevel": 0,
+								"MiningLevel": 0,
+								"LuckLevel": 1,
+								"ForagingLevel": 2,
+								"MaxStamina": 0,
+								"MagneticRadius": 0,
+								"Speed": 0,
+								"Defense": 0,
+								"Attack": 0
+							},
+							"CustomFields": {}
+						},
+					],
+					"ContextTags": [
+					],
+				},
+				
+				"CITV_GrizzlyTuberFries": {
+					"Name": "CITV_GrizzlyTuberFries",
+					"DisplayName": "{{i18n:CITV_GrizzlyTuberFries}}",
+					"Description": "{{i18n:CITV_GrizzlyTuberFries_Description}}",
+					"Edibility": "60",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 130,
+					"Texture": "Mods\\SauriConservationintheValley\\CITVEstradaFood",
+					"SpriteIndex": 2,
+					"IsDrink": false,
+					"Buffs": [
+						{
+							"Duration": 300,
+							"CustomAttributes": {
+								"FarmingLevel": 0,
+								"FishingLevel": 0,
+								"MiningLevel": 2,
+								"LuckLevel": 0,
+								"ForagingLevel": 0,
+								"MaxStamina": 0,
+								"MagneticRadius": 5,
+								"Speed": 0,
+								"Defense": 0,
+								"Attack": 0
+							},
+							"CustomFields": {}
+						},
+					],
+					"ContextTags": [
+					],
+				},
+				
+				"CITV_LemonadeBerry-Ade": {
+					"Name": "CITV_LemonadeBerryAde",
+					"DisplayName": "{{i18n:CITV_LemonadeBerryAde}}",
+					"Description": "{{i18n:CITV_LemonadeBerryAde_Description}}",
+					"Edibility": "50",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 60,
+					"Texture": "Mods\\SauriConservationintheValley\\CITVEstradaFood",
+					"SpriteIndex": 3,
+					"IsDrink": true,
+					"Buffs": [
+						{
+							"Duration": 120,
+							"CustomAttributes": {
+								"FarmingLevel": 0,
+								"FishingLevel": 0,
+								"MiningLevel": 0,
+								"LuckLevel": 1,
+								"ForagingLevel": 0,
+								"MaxStamina": 0,
+								"MagneticRadius": 0,
+								"Speed": 1,
+								"Defense": 0,
+								"Attack": 0
+							},
+							"CustomFields": {}
+						},
+					],
+					"ContextTags": [
+					],
+				},
+			},
+		},
+	]
+}

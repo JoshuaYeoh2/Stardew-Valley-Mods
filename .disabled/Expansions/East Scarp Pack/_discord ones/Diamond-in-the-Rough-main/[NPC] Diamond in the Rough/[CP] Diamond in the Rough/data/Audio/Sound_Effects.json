@@ -1,0 +1,43 @@
+{
+    "Changes": [     
+        {
+            "LogName": "DitR Sound Effects",
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "{{ModID}}_SFX.WaffleBark": {
+                    "ID": "{{ModID}}_SFX.WaffleBark",
+                    "Category": "Sound",
+                    "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/SFX/Dog_Bark_3.ogg}}" ],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                },
+
+                "{{ModID}}_SFX.PipoMeow": {
+                    "ID": "{{ModID}}_SFX.PipoMeow",
+                    "Category": "Sound",
+                    "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/SFX/Cat_Meow.ogg}}" ],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                },
+
+                "{{ModID}}_SFX.SnailCryBaby": {
+                    "ID": "{{ModID}}_SFX.SnailCryBaby",
+                    "Category": "Sound",
+                    "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/SFX/Snail_Cry_Baby.ogg}}" ],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                },
+
+                "{{ModID}}_SFX.SnailCry": {
+                    "ID": "{{ModID}}_SFX.SnailCry",
+                    "Category": "Sound",
+                    "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/SFX/Snail_Cry.ogg}}" ],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                }
+            }
+        }
+     ]
+
+}

@@ -1,0 +1,15 @@
+{
+"Changes": [
+{
+
+  "Action": "EditData",
+  "Target": "Data/Events/Lizzie.Stoffton_Dwarf",
+  "Entries":{
+//Dwarf Introduction
+"11666173": "tribal/4 20/farmer 4 21 0 DwarfAFS 6 18 1 DwarfBFS 2 19 2 DwarfCFS 7 21 1 DwarfDFS 3 17 0 DwarfEFS 9 14 3/skippable/pause 1000/speak DwarfBFS \"{{i18n:event-11666173.01}}\"/faceDirection DwarfAFS 2/pause 500/speak DwarfAFS \"{{i18n:event-11666173.02}}\"/faceDirection DwarfCFS 2/pause 500/speak DwarfCFS \"{{i18n:event-11666173.03}}\"/faceDirection DwarfEFS 2/pause 500/speak DwarfEFS \"{{i18n:event-11666173.04}}\"/faceDirection DwarfDFS 2/pause 500/speak DwarfDFS \"{{i18n:event-11666173.05}}\"/end",
+
+
+}
+}
+]
+}

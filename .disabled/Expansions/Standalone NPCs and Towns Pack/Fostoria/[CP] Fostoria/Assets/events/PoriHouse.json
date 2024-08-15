@@ -1,0 +1,15 @@
+{
+"Changes": [
+	{
+   
+   "Action": "EditData",
+   "Target": "Data/Events/Fostoria.Stoffton_Tent",
+   "Entries":{
+
+  "114780009/e 114780011/i 571/i 576/i 577": "none/5 8/farmer 5 11 0 Pori 5 6 0/pause 1000/faceDirection Pori 2 true/pause 500/jump Pori/pause 1000/speak Pori \"{{i18n:event-114780009.01}}\"/emote farmer 16/speak Pori \"{{i18n:event-114780009.02}}\"/speed farmer 3/move farmer 0 -2 0/removeItem 571/removeItem 576/removeItem 577/addObject 4 8 571/playSound shiny4/pause 500/addObject 5 7 576/playSound shiny4/pause 600/addObject 6 8 577/playSound shiny4/removeQuest 1147802/speak Pori \"{{i18n:event-114780009.03}}\"/removeObject 4 8/playSound pickUpItem/pause 500/removeObject 5 7/playSound pickUpItem/pause 500/removeObject 6 8/playSound pickUpItem/pause 500/emote farmer 8/pause 500/speak Pori \"{{i18n:event-114780009.04}}\"/speak Pori \"{{i18n:event-114780009.05}}\"/speak Pori \"{{i18n:event-114780009.06}}\"/mail PoriComplete/fade/end dialogue Pori \"{{i18n:event-114780009.07}}\"",
+  
+  
+}
+}
+]
+}

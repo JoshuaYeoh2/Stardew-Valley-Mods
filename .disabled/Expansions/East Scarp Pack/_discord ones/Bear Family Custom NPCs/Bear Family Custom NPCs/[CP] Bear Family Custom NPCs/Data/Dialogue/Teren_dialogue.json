@@ -1,0 +1,686 @@
+{
+	"Changes": [
+
+		{
+			"LogName": "Teren Standard Keys",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Teren",
+			"Entries": {
+
+				"Introduction": "{{i18n:TerenIntroduction}}",
+				"FlowerDance_Decline": "{{i18n:TerenDanceRejection}}",
+				"FlowerDance_Accept_Spouse": "{{i18n:TerenDanceSpouseAccept}}",
+				"FlowerDance_Accept": "{{i18n:TerenDanceAccept}}",
+				/*"WinterStar_GiveGift_Before_Spouse": "{{i18n:TerenWinterStarBeforeSpouse}}",
+				"WinterStar_GiveGift_Before": "{{i18n:TerenWinterStarBefore}}",
+				"WinterStar_GiveGift_After_Spouse": "{{i18n:TerenWinterStarAfterSpouse}}",
+				"WinterStar_GiveGift_After": "{{i18n:TerenWinterStarAfter}}",
+				"WinterStar_ReceiveGift": "{{i18n:TerenWinterStarReceiveGift}}",
+				"divorced": "{{i18n:Terendivorced}}",
+				"dumped_Boys": "{{i18n:Terendumped_Boys}}",
+				"secondChance_Boys": "{{i18n:TerensecondChance_Boys}}",
+				"Fair_Judging": "{{i18n:TerenFairJudging}}",
+				"Fair_Judged_PlayerLost_PurpleShorts": "{{i18n:TerenFairPurpleShorts}}",
+				"Fair_Judged_PlayerLost_Skipped": "{{i18n:TerenFairSkipped}}",
+				"Fair_Judged_PlayerLost": "{{i18n:TerenFairLost}}",
+				"Fair_Judged_PlayerWon": "{{i18n:TerenFairWon}}",*/
+				"DumpsterDiveComment": "{{i18n:TerenDumpsterDiveComment}}",
+				"HitBySlingshot": "{{i18n:TerenHitBySlingshot}}",
+				"RejectBouquet_NotDatable": "{{i18n:TerenRejectBouquet}}",
+				/*"RejectBouquet_NpcAlreadyMarried": "{{i18n:TerenRejectBouquetAlreadyMarried}}",
+				"RejectBouquet_Divorced": "{{i18n:TerenRejectBouquetDivorced}}",
+				"RejectBouquet_VeryLowHearts": "{{i18n:TerenRejectBouquetVeryLowHearts{{Random:{{Range: 1, 2}}}}}}",
+				"RejectBouquet_LowHearts": "{{i18n:TerenRejectBouquetLowHearts{{Random:{{Range: 1, 2}}}}}}",
+				"AcceptBouquet": "{{i18n:TerenAcceptBouquet}}",
+				"MadDog.HashtagBearFam.Teren_Engaged": "{{i18n:TerenEngaged}}",
+				"MadDog.HashtagBearFam.Teren_AfterWedding": "{{i18n:TerenAfterWedding}}",*/
+				"GreenRain": "{{i18n:TerenGreenRain}}",
+				"GreenRainFinished": "{{i18n:TerenGreenRainFinished}}",
+				"GreenRain_2": "{{i18n:TerenGreenRain2}}",
+				"HitBySlingshot_bomb_item": "{{i18n:TerenHitbySlingShotBombItem}}",
+				"HitBySlingshot_(O)91": "{{i18n:TerenHitbySlingShotBanana}}",
+				"HitBySlingshot_(O)441": "{{i18n:TerenHitbySlingShotExplosiveAmmo}}",
+				"HitBySlingshot_preserve_sheet_index_91": "{{i18n:TerenHitbySlingShotBananaGood}}",
+				"HitBySlingshot_arrow_item": "{{i18n:TerenHitbySlingShotArrow}}",
+				"HitBySlingshot_(O)Cornucopia_Durian": "{{i18n:TerenHitbySlingShotCornucopiaDurian}}",
+				"HitBySlingshot_(O)Cornucopia_Plantain": "{{i18n:TerenHitbySlingShotCornucopiaPlantain}}",
+				"HitBySlingshot_(O)TenebrousNova.EnD.SanguineHeart": "{{i18n:TerenHitbySlingShotEnDSanguineHeart}}",
+
+
+				"Mountain_Entry": "{{i18n:TerenMountainEntry1}}/{{i18n:TerenMountainEntry2}}/{{i18n:TerenMountainEntry3}}/{{i18n:TerenMountainEntry4}}",
+				"Saloon_Entry": "{{i18n:TerenSaloonEntry1}}/{{i18n:TerenSaloonEntry2}}/{{i18n:TerenSaloonEntry3}}/{{i18n:TerenSaloonEntry4}}",
+				"Railroad_Entry": "{{i18n:TerenRailroadEntry1}}/{{i18n:TerenRailroadEntry2}}/{{i18n:TerenRailroadEntry3}}/{{i18n:TerenRailroadEntry4}}",
+				"Town_Entry": "{{i18n:TerenTownEntry1}}/{{i18n:TerenTownEntry2}}/{{i18n:TerenTownEntry3}}/{{i18n:TerenTownEntry4}}",
+				"Hospital_Entry": "{{i18n:TerenHospitalEntry1}}/{{i18n:TerenHospitalEntry2}}/{{i18n:TerenHospitalEntry3}}/{{i18n:TerenHospitalEntry4}}",
+				"EastScarp_Village_Entry": "{{i18n:TerenESVillageEntry1}}/{{i18n:TerenESVillageEntry2}}/{{i18n:TerenESVillageEntry3}}/{{i18n:TerenESVillageEntry4}}",
+
+				"SpouseStardrop": "{{i18n:TerenSpouseStardrop}}",
+				"WipedMemory": "{{i18n:TerenWipedMemory}}",
+				"SpouseFarmhouseClutter": "{{i18n:TerenSpouseFarmhouseClutter}}",
+				"SpouseGiftJealous": "{{i18n:TerenSpouseGiftJealous}}",
+				"Spouse_MonstersInHouse": "{{i18n:TerenSpouseMonstersInHouse}}",
+
+				/*"RejectMermaidPendant_Divorced": "{{i18n:TerenRejectMermaidPendantDivorced}}",
+				"RejectMermaidPendant_NeedHouseUpgrade": "{{i18n:TerenRejectMermaidPendantHouseUpgrade}}",
+				"RejectMermaidPendant_NotDatable": "{{i18n:TerenRejectMermaidPendantNotDatable}}",
+				"RejectMermaidPendant_NpcWithSomeoneElse": "{{i18n:TerenRejectMermaidPendantNPCinRelationship}}",
+				"RejectMermaidPendant_PlayerWithSomeoneElse": "{{i18n:TerenRejectMermaidPendantPlayerinRelationship}}",
+				"RejectMermaidPendant_Under8Hearts": "{{i18n:TerenRejectMermaidPendantUnder8Hearts}}",
+				"RejectMermaidPendant_Under10Hearts": "{{i18n:TerenRejectMermaidPendantUnder10Hearts}}",
+				"RejectMermaidPendant_Under10Hearts_AskedAgain": "{{i18n:TerenRejectMermaidPendantUnder10HeartsAnnoy}}",*/
+				"RejectMermaidPendant": "{{i18n:TerenRejectMermaidPendantDefault}}",
+
+				"RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:TerenRejectMovieTicketAlreadyInvited}}",
+				"RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:TerenRejectMovieTicketAlreadyWatched}}",
+				"RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n:TerenRejectMovieTicketNotInterested}}",
+				"RejectMovieTicket_Divorced": "{{i18n:TerenRejectMovieTicketDivorced}}",
+				"RejectMovieTicket": "{{i18n:TerenRejectMovieTicketDefault}}",
+
+				"dating_MadDog.BearFam.Gunnar": "{{i18n:TerendatingGunnar}}",
+				"married_MadDog.BearFam.Gunnar": "{{i18n:TerenmarriedGunnar}}",
+				"divorced_MadDog.BearFam.Gunnar": "{{i18n:TerendivorcedGunnar}}",
+
+				"dating_MadDog.BearFam.Sigurd": "{{i18n:TerendatingSig}}",
+				"married_MadDog.BearFam.Sigurd": "{{i18n:TerenmarriedSig}}",
+				"divorced_MadDog.BearFam.Sigurd": "{{i18n:TerendivorcedSig}}",
+
+				"married_memory_oneweek": "{{i18n:Terenfarmermarriedoneweek}}",
+				"firstVisit_Railroad": "{{i18n:Terenfirstrailroad}}",
+				"firstVisit_Sewer": "{{i18n:Terenfirstsewer}}",
+				"gotPet": "{{i18n:TerengotPet}}",
+				"SquidFest": "{{i18n:TerenSquidfest}}",
+				"married": "{{i18n:Terenfarmermarried}}",
+				"houseUpgrade_1": "{{i18n:Terenhouseupgradefirst}}",
+
+				"achievement_16": "{{i18n:Terenachievementmorecooking}}", //more cooking T 
+				"achievement_15": "{{i18n:Terenachievementcooking}}", //cooking   T 
+				"structureBuilt_Stable": "{{i18n:TerenbuiltStable}}",
+				"purchasedAnimal_Dinosaur": "{{i18n:TerenpurchaseDino}}",
+				"cropMatured_276": "{{i18n:TerengrewPumpkin}}",
+				"cropMatured_304": "{{i18n:TerengrewHops}}"
+
+				//romance dialogue
+				/*"give_flowersA": "{{i18n:TerenFlowersA}}",
+				"give_flowersB": "{{i18n:TerenFlowersB}}",
+				"give_pendant": "{{i18n:TerenPendant}}",
+				"stardrop_gift": "{{i18n:TerenStardrop}}",
+				"giftquestion_yes": "{{i18n:TerenGiftYes}}",
+				"giftquestion_lie": "{{i18n:TerenGiftNo}}",
+
+				"breakUp": "{{i18n:Terenbreakup}}",
+				"reject_two_heartA": "{{i18n:Teren2HeartsA}}",
+				"reject_two_heartB": "{{i18n:Teren2HeartsB}}",
+				"reject_four_heartA": "{{i18n:Teren4HeartsA}}",
+				"reject_four_heartB": "{{i18n:Teren4HeartsB}}",
+				"engageA": "{{i18n:TerenEngageA}}",
+				"engageB": "{{i18n:TerenEngageB}}",
+				"marriedA": "{{i18n:TerenMarriedA}}",
+				"marriedB": "{{i18n:TerenMarriedB}}",
+				"refusal_no_heartsA": "{{i18n:TerenRefusal0A}}",
+				"refusal_no_heartsB": "{{i18n:TerenRefusal0B}}",
+				"refusal_knownA": "{{i18n:TerenKnownA}}",
+				"refusal_knownB": "{{i18n:TerenKnownB}}",
+				"refusal_botherA": "{{i18n:TerenBotherA}}",
+				"refusal_botherB": "{{i18n:TerenBotherB}}",
+
+				// Resort Lines //done
+				"Resort_Entering": "{{i18n:TerenResEnter}}",
+				"Resort_Leaving": "{{i18n:TerenResLeave}}",
+				"Resort_Shore": "{{i18n:TerenResShore}}",
+				"Resort_Umbrella": "{{i18n:TerenResUmbrella}}",
+				"Resort_Wander": "{{i18n:TerenResWander}}",
+				"Resort_Wander_2": "{{i18n:TerenResWander2}}",
+				"Resort_Chair": "{{i18n:TerenResChair}}",
+				"Resort_Bar": "{{i18n:TerenResBar}}",
+				"Resort_Towel": "{{i18n:TerenResTowel}}",
+				"Resort_Towel_2": "{{i18n:TerenResTowel2}}",
+				"Resort_Towel_3": "{{i18n:TerenResTowel3}}",
+				"Resort": "{{i18n:TerenResort}}",
+
+
+				//Specific Dialogue
+
+				"spring_18_2": "{{i18n:TerenSpring18year2}}",
+				"fall_18_1": "{{i18n:TerenFall18year1}}",
+				"winter_24_1": "{{i18n:TerenWinter24year1}}",
+				"spring_12": "{{i18n:TerenSpring12}}",
+				"spring_23": "{{i18n:TerenSpring23}}",
+				"summer_10": "{{i18n:TerenSummer10}}",
+				"summer_27": "{{i18n:TerenSummer27}}",
+				"fall_15": "{{i18n:TerenFall15}}",
+				"fall_26": "{{i18n:TerenFall26}}",
+				"winter_7": "{{i18n:TerenWinter7}}",
+				"winter_15": "{{i18n:TerenWinter15}}",
+				"winter_16": "{{i18n:TerenWinter16}}",
+				"winter_17": "{{i18n:TerenWinter17}}",
+				"winter_24": "{{i18n:TerenWinter24}}",
+				"winter_28": "{{i18n:TerenWinter28}}"*/
+			}
+		},
+
+		//daily
+		{
+			"LogName": "Dialogue - 0-4",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Teren",
+			"Update": "OnLocationChange",
+			"Entries": {
+				"Mon": "{{i18n:TerenDialogue04.{{Random:{{Range: 1, 30}}}}}}",
+				"Tue": "{{i18n:TerenDialogue04.{{Random:{{Range: 1, 30}}}}}}",
+				"Wed": "{{i18n:TerenDialogue04.{{Random:{{Range: 1, 30}}}}}}",
+				"Thu": "{{i18n:TerenDialogue04.{{Random:{{Range: 1, 30}}}}}}",
+				"Fri": "{{i18n:TerenDialogue04.{{Random:{{Range: 1, 30}}}}}}",
+				"Sat": "{{i18n:TerenDialogue04.{{Random:{{Range: 1, 30}}}}}}",
+				"Sun": "{{i18n:TerenDialogue04.{{Random:{{Range: 1, 30}}}}}}"
+			},
+			"When": {
+				"Hearts:MadDog.HashtagBearFam.Teren": "{{Range: 0, 4}}",
+				"HasFlag |contains=MadDogTeren_OverrideSeenToday": false
+			}
+		},
+		{
+			"LogName": "Dialogue - 0-4 - Seasonal",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Teren",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:TerenDialogue04.{{season}}.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current MadDogTeren_OverrideSeenToday received"
+			},
+			"When": {
+				"Query: {{Random: {{Range: 1, 10}}|key=TerenSeasonA}} = 1": true,
+				"Hearts:MadDog.HashtagBearFam.Teren": "{{Range: 0, 4}}",
+				"HasFlag |contains=MadDogTeren_OverrideSeenToday": false
+			}
+		},
+		{
+			"LogName": "Dialogue - 6-10 Platonic",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Teren",
+			"Update": "OnLocationChange",
+			"Entries": {
+				"Mon": "{{i18n:TerenDialogue610.{{Random:{{Range: 1, 60}}}}}}",
+				"Tue": "{{i18n:TerenDialogue610.{{Random:{{Range: 1, 60}}}}}}",
+				"Wed": "{{i18n:TerenDialogue610.{{Random:{{Range: 1, 60}}}}}}",
+				"Thu": "{{i18n:TerenDialogue610.{{Random:{{Range: 1, 60}}}}}}",
+				"Fri": "{{i18n:TerenDialogue610.{{Random:{{Range: 1, 60}}}}}}",
+				"Sat": "{{i18n:TerenDialogue610.{{Random:{{Range: 1, 60}}}}}}",
+				"Sun": "{{i18n:TerenDialogue610.{{Random:{{Range: 1, 60}}}}}}"
+			},
+			"When": {
+				"Hearts:MadDog.HashtagBearFam.Teren": "{{Range: 5, 10}}",
+				"HasFlag |contains=MadDogTeren_OverrideSeenToday": false
+			}
+		},
+		{
+			"LogName": "Dialogue - 6 - 10 Seasonal Platonic - Seasonal",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Teren",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:TerenDialogue610.{{season}}.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current MadDogTeren_OverrideSeenToday received"
+			},
+			"When": {
+				"Query: {{Random: {{Range: 1, 10}}|key=TerenSeasonB}} = 1": true,
+				"Hearts:MadDog.HashtagBearFam.Teren": "{{Range: 5, 10}}",
+				"HasFlag |contains=MadDogTeren_OverrideSeenToday": false
+			}
+		},
+		{
+			"LogName": "Teren Sassy Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Teren",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:TerenDialogueSASS.{{Random:{{Range: 1, 10}}|key={{Time}}}}}}#$action AddMail Current MadDogTeren_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag: |contains=SassyComesHome": true,
+				"Query: {{Random: {{Range: 1, 12}}|key=SASSter}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogTeren_OverrideSeenToday": false
+			}
+		},
+
+		/*{
+			"LogName": "Dialogue - 8-10 Romantic", //TerenDating decided in my config.json and established in my content.json
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Teren",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:TerenDialogue810R.{{TerenDating}}.{{Random:{{Range: 1, 20}}|key={{Time}}}}}}#$action AddMail Current MadDogTeren_OverrideSeenToday received"
+			},
+			"Condition": "PLAYER_NPC_RELATIONSHIP current MadDog.HashtagBearFam.Teren dating engaged married",
+			"When": {
+				"Hearts:MadDog.HashtagBearFam.Teren": "{{Range: 8, 10}}",
+				"Query: {{Random: {{Range: 1, 15}}|key=RomanceTeren}} = 1": true,
+				"EnableRivalHeartsTerenSig": false,
+				"EnableRivalHeartsTerenEli": false,
+				"HasFlag |contains=MadDogTeren_OverrideSeenToday": false
+			}
+		},
+		{
+			"LogName": "Dialogue - 8-10 Romantic - Seasonal", //TerenDating decided in my config.json and established in my content.json
+			"Action": "EditData",
+			"Update": "OnLocationChange",
+			"Priority": "Late",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Teren",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:TerenDialogue810R.{{TerenDating}}.{{season}}.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current MadDogTeren_OverrideSeenToday received"
+
+			},
+			"Condition": "PLAYER_NPC_RELATIONSHIP current MadDog.HashtagBearFam.Teren dating engaged married",
+			"When": {
+				"Hearts:MadDog.HashtagBearFam.Teren": "{{Range: 8, 10}}",
+				"Query: {{Random: {{Range: 1, 15}}|key=TerenSeasonRomance}} = 1": true,
+				"EnableRivalHeartsTerenSig": false,
+				"EnableRivalHeartsTerenEli": false,
+				"HasFlag |contains=MadDogTeren_OverrideSeenToday": false
+			}
+		},*/
+
+		/*//Rival Hearts Commentary
+		//Eli RH
+		{
+			"LogName": "Teren ED Commentary Eli RH Activated",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Teren",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:TerenDialogueEliRH.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current MadDogTeren_OverrideSeenToday received"
+
+			},
+			"When": {
+				"HasMod: |contains=TenebrousNova.EliDylan.CP": true,
+				"EnableRivalHeartsTerenEli": true, //this is determined in my config.json
+				"EnableRivalHeartsTerenSig": false, //this is determined in my config.json
+				"Query: {{Random: {{Range: 1, 20}}|key=EliRH}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogTeren_OverrideSeenToday": false
+			}
+		},
+		//Sig RH
+		{
+			"LogName": "Teren Commentary Sig RH Activated",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Teren",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:TerenDialogueSigRH.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current MadDogTeren_OverrideSeenToday received"
+
+			},
+			"When": {
+				"EnableRivalHeartsTerenSig": true, //this is determined in my config.json
+				"EnableRivalHeartsTerenEli": false, //this is determined in my config.json
+				"EnableRivalHeartsSigDylan": false, //this is determined my config.json
+				"Query: {{Random: {{Range: 1, 20}}|key=SigRH}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogTeren_OverrideSeenToday": false
+			}
+		},*/
+
+		//crossover dialogue
+		//Eli and Dylan
+		{
+			"LogName": "Teren ED Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Teren",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:TerenDialogueED.{{Random:{{Range: 1, 10}}|key={{Time}}}}}}#$action AddMail Current MadDogTeren_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=TenebrousNova.EliDylan.CP": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=EDter}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogTeren_OverrideSeenToday": false
+			}
+		},
+		//Rodney O'Brien (later include Edwina, Meredith)
+		{
+			"LogName": "Teren Rodney O'Brien Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Teren",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:TerenDialogueROB.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogTeren_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=TheFrenchDodo.RodneyOBrien": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=ROBter}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogTeren_OverrideSeenToday": false
+			}
+		},
+		//Nora the Herpetologist
+		{
+			"LogName": "Teren Nora Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Teren",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:TerenDialogueNtH.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogTeren_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=Bagi.Nora.CP": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=NtHter}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogTeren_OverrideSeenToday": false
+			}
+		},
+		//Diamond in the Rough
+		{
+			"LogName": "Teren DitR Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Teren",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:TerenDialogueDitR.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogTeren_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=7thAxis.DitR.CP": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=DitRter}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogTeren_OverrideSeenToday": false
+			}
+		},
+		/*//Sword and Sorcery
+		{
+			"LogName": "Teren SnS Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Teren",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:TerenDialogueSnS.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogTeren_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=DN.SnS.CP": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=SnSter}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogTeren_OverrideSeenToday": false
+			}
+		},
+		//Plum Forrest + Family
+		{
+			"LogName": "Teren Plum Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Teren",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:TerenDialoguePFAF.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogTeren_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=AgentPhoenixCupcake.cp.PlumForrest": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=PFAFter}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogTeren_OverrideSeenToday": false
+			}
+		},
+		//Metalcore Goes Cottagecore
+		{
+			"LogName": "Teren MGC Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Teren",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:TerenDialogueMGC.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogTeren_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=Squeaks.MGC.CP": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=MGCter}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogTeren_OverrideSeenToday": false
+			}
+		},
+		//Clown Cinematic Universe Zone
+		//Traveling Dreamer - A New Dream
+		{
+			"LogName": "Teren Barron & John Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Teren",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:TerenDialogueFCAND.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogTeren_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=Fellowclown.AND": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=FCTDter}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogTeren_OverrideSeenToday": false
+			}
+		},
+		//The Wayfarer
+		{
+			"LogName": "Teren Lyell Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Teren",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:TerenDialogueFCTW.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogTeren_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=Fellowclown.Lyell": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=FCTWter}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogTeren_OverrideSeenToday": false
+			}
+		},
+		//Magical Family
+		{
+			"LogName": "Teren Valerie Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Teren",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:TerenDialogueFCMF.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogTeren_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=Fellowclown.MagicalFamily": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=FCMFter}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogTeren_OverrideSeenToday": false
+			}
+		},
+		//Settling Waters
+		{
+			"LogName": "Teren Nikolai Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Teren",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:TerenDialogueFCSW.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogTeren_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=Fellowclown.Nikolai": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=FCSWter}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogTeren_OverrideSeenToday": false
+			}
+		},
+		{
+			"LogName": "Teren YtA Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Teren",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:TerenDialogueYtA.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogTeren_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=yri.yri": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=YtAter}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogTeren_OverrideSeenToday": false
+			}
+		},
+		{
+			"LogName": "Teren ARV Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Teren",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:TerenDialogueARV.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogTeren_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=Himetarts.ARV.CP": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=ARVter}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogTeren_OverrideSeenToday": false
+			}
+		},
+		{
+			"LogName": "Teren Lucikiel Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Teren",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:TerenDialogueLuc.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogTeren_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=Arknir.Lucikiel": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=Lucter}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogTeren_OverrideSeenToday": false
+			}
+		},
+		{
+			"LogName": "Teren Lavril Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Teren",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:TerenDialogueLav.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogTeren_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=Arknir27.Lavril": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=Lavter}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogTeren_OverrideSeenToday": false
+			}
+		},
+
+		//standalone NPCs - TBD on 1.6 versions of Ayeisha, Stray Catfe, Delores, Sorren, Shiko, Paul, Mike, Wilford, Lunna, Denver, ARV, Aspen, Alecto, Riley, Constance/The Fishmonger, Sydney (and more these are just me skimming my old 1.5 mods folder lmao)
+		/* place holder template
+     {
+      "LogName": "Teren XXXXX Commentary", //mod name here
+      "Action": "EditData",
+      "Priority": "Late",
+		"Update": "OnLocationChange",
+      "Target": "Characters/Dialogue/MadDog.HashtagBearFam.Teren",
+      "Entries": {
+        "{{WeekDay}}": "{{i18n:TerenDialogueXXXXXX.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogTeren_OverrideSeenToday received",
+      },
+      "When": {
+        "HasMod: |contains=X": true, //MOD ID HERE
+        "Query: {{Random: {{Range: 1, 20}}|key=XXXXXter}} = 1": true //key needs differentiating per mod    //Abbreviation for key here
+		"HasFlag |contains=MadDogTeren_OverrideSeenToday": false
+      }
+    }
+     */
+
+		//expansions
+		//DTZ
+		 {
+      "LogName": "Teren DTZ Commentary", //mod name here
+      "Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+      "Target": "Characters/Dialogue/MadDog.HashtagBearFam.Teren",
+      "Entries": {
+        "{{WeekDay}}": "{{i18n:TerenDialogueDTZ.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current MadDogTeren_OverrideSeenToday received"
+      },
+			"When": {
+				"HasMod: |contains=DTZ.DowntownZuzuCP": true, //MOD ID HERE
+				"Query: {{Random: {{Range: 1, 20}}|key=DTZter}} = 1": true, //key needs differentiating per mod    //Abbreviation for key here
+				"HasFlag |contains=MadDogTeren_OverrideSeenToday": false
+			}
+    }
+		/*//Stardew Valley Expanded
+		{
+			"LogName": "Teren SVE Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Teren",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:TerenDialogueSVE.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogTeren_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=SVEter}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogTeren_OverrideSeenToday": false
+			}
+		},
+		//Ridgeside Village
+		{
+			"LogName": "Teren RSV Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Teren",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:TerenDialogueRSV.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogTeren_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod: |contains=Rafseazz.RSVCP": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=RSVter}} = 1": true, //key needs differentiating per mod
+				"HasFlag |contains=MadDogTeren_OverrideSeenToday": false
+			}
+		}
+		//Visit Mount Vapius VMV
+		/* {
+      "LogName": "Teren VMV Commentary", 
+      "Action": "EditData",
+      "Priority": "Late",
+		"Update": "OnLocationChange",
+      "Target": "Characters/Dialogue/MadDog.HashtagBearFam.Teren",
+      "Entries": {
+        "{{WeekDay}}": "{{i18n:TerenDialogueVMV.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogTeren_OverrideSeenToday received"
+      },
+      "When": {
+        "HasMod: |contains=Lumisteria.MtVapius": true, 
+        "Query: {{Random: {{Range: 1, 20}}|key=VMVter}} = 1": true //key needs differentiating per mod   
+		"HasFlag |contains=MadDogTeren_OverrideSeenToday": false
+      }
+    }
+  */
+		//Sunberry Village SBV
+		/* {
+      "LogName": "Teren SBV Commentary", 
+      "Action": "EditData",
+      "Priority": "Late",
+		"Update": "OnLocationChange",
+      "Target": "Characters/Dialogue/MadDog.HashtagBearFam.Teren",
+      "Entries": {
+        "{{WeekDay}}": "{{i18n:TerenDialogueSBV.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogTeren_OverrideSeenToday received",
+       
+      },
+      "When": {
+        "HasMod: |contains=skellady.SBVCP": true, //MOD ID HERE - TBD (no public alpha or release yet!!!!!!!!!!!!)
+        "Query: {{Random: {{Range: 1, 20}}|key=SBVter}} = 1": true //key needs differentiating per mod    
+		"HasFlag |contains=MadDogTeren_OverrideSeenToday": false
+      }
+    }
+    */
+		//TBD Expansions depending on 1.6 - Cape Stardew, Adventurer Guild Expanded, Defense Division, Boarding House
+		/* place holder template
+     {
+      "LogName": "Teren XXXXX Commentary", //mod name here
+      "Action": "EditData"
+      "Priority": "Late",
+		"Update": "OnLocationChange",
+      "Target": "Characters/Dialogue/MadDog.HashtagBearFam.Teren",
+      "Entries": {
+        "{{WeekDay}}": "{{i18n:TerenDialogueXXXXXXXXXX.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogTeren_OverrideSeenToday received",
+        
+      },
+      "When": {
+        "HasMod: |contains=X": true, //MOD ID HERE
+        "Query: {{Random: {{Range: 1, 20}}|key=XXXXXter}} = 1": true //key needs differentiating per mod    //Abbreviation for key here
+		"HasFlag |contains=MadDogTeren_OverrideSeenToday": false
+      }
+    }
+     */
+	]
+}

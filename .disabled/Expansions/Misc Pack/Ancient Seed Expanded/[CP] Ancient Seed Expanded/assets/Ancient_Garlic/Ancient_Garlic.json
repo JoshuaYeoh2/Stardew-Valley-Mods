@@ -1,0 +1,66 @@
+{
+  "Changes": [
+    //Seed item
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries":{
+        "{{ModId}}_Ancient_Garlic_Seeds":{
+          "Name": "Ancient Garlic Seeds",
+          "DisplayName": "Ancient Garlic",
+          "Description": "Seeds for a long-lost garlic variety. Plant these to grow a pungent and powerful garlic once used by ancient healers. Its aroma alone is strong enough to knock you off your feet. Thrives in spring, summer, and fall.",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price" : 35,
+          "Texture": "Mods/{{ModId}}/Ancient_Garlic_Seed",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    //Crop
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries":{
+        "{{ModId}}_Ancient_Garlic":{
+          "Name": "{{ModID}}_Ancient_Garlic",
+          "DisplayName": "Ancient Garlic",
+          "Description": "A long-lost variety of garlic, used by ancient healers for its potent flavor and medicinal properties. Its aroma alone is strong enough to knock you off your feet. Adds a rich and aromatic touch to any dish. Regrows every 7 days.",
+          "Type": "Vegetable",
+          "Category": -75,
+          "Price" : 550,
+          "IsDrink": false,
+          "Edibility": -20,
+          "Texture": "Mods/{{ModId}}/Ancient_Garlic",
+          "SpriteIndex": 0,
+          "ContextTags": [
+            "season_spring",
+            "season_summer",
+            "season_fall",
+            "color_pink"
+          ]
+        }
+      }
+    },
+    //Planted Crop
+    {
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "{{ModId}}_Ancient_Garlic_Seeds": {
+                    "Seasons": [ "spring", "summer", "fall" ],
+                    "DaysInPhase": [ 2, 7, 7, 7, 5],
+                    "RegrowDays": 7,
+                    "HarvestItemId": "{{ModId}}_Ancient_Garlic",
+                    "Texture": "Mods/{{ModId}}/Ancient_Garlic_Planted",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+    {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Ancient_Garlic_Seed, Mods/{{ModId}}/Ancient_Garlic, Mods/{{ModId}}/Ancient_Garlic_Planted",
+            "FromFile": "assets/Ancient_Garlic/{{TargetWithoutPath}}.png"
+        }
+  ]
+}

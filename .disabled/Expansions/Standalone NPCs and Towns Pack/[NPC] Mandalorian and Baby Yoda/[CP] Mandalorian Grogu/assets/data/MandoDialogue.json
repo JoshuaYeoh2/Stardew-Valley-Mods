@@ -1,0 +1,123 @@
+
+{
+
+  "Introduction": "You're new.#$e#You can just call me Mando. The kid's name is Grogu.#$e#I suppose we'll see you around.",
+    
+    "AcceptBirthdayGift_Positive": "You...#$b#Thank you.",
+    "AcceptBirthdayGift_Negative": "The... thought was good.",
+    "AcceptBouquet": "You... you want...#$b#I would be honored to court you, mesh'la.",
+    "DumpsterDiveComment": "Hmmm. Resourceful.",
+    "HitBySlingshot": "Careful. Weapons are sacred and should not be handled wrecklessly.",
+    
+    "RejectBouquet_Divorced": "Don't.$2",
+    "RejectBouquet_NpcAlreadyMarried": "Unkind, considering your friendship with {0}.",
+    "RejectBouquet_VeryLowHearts": "Think carefully.",
+    "RejectBouquet_LowHearts": "You are kind, @.#$b#But I cannot give you what you want.",
+    "RejectBouquet": "...",
+    
+    "RejectGift_Divorced": "Don't.$2",
+    
+    "RejectMermaidPendant_Divorced": "Haven't we been through enough?",
+    "RejectMermaidPendant_NpcWithSomeoneElse": "Unkind, considering your friendship with {0}.",
+    "RejectMermaidPendant_PlayerWithSomeoneElse": "Second guessing?#$b#Enjoy your riduur, @. You are better off.",
+    "RejectMermaidPendant_Under10Hearts": "I... don't think I'm ready for that yet.",
+    "RejectMermaidPendant_Under10Hearts_AskedAgain": "Patience, mesh'la.",
+    "RejectMermaidPendant": "I... don't think I'm ready for that yet.",
+    
+    "RejectMovieTicket_AlreadyInvitedBySomeoneElse": "Another time?",
+    "RejectMovieTicket_AlreadyWatchedThisWeek": "Another time?",
+    "RejectMovieTicket_Divorced": "I don't think either of us want that.",
+    "RejectMovieTicket_DontWantToSeeThatMovie": "Another time?",
+    "RejectMovieTicket": "Another time?",
+    
+    "SpouseStardrop": "@, cyar'ika.#$b#You have blessed my life since you entered it.$4#$b#I thought that this stardrop would be a wonderful way to show my affection and gratitude.$1#$b#I love you, riduur.$4",
+    
+    "WinterStar_GiveGift_Before": "Shhh, a surprise.",
+    "WinterStar_GiveGift_After": "Well? How did I do?",
+    "WinterStar_ReceiveGift": "",
+    
+    "WipedMemory": "Have we...? No.#$e#You can just call me Mando. The kid's name is Grogu.#$e#I suppose we'll see you around.",
+    
+
+  "Resort_Entering": "I've been told I need a vacation...",
+  "Resort_Leaving": "Are you heading back with us?",
+  "Resort_Shore": "I'm not a fan of water, but the view is nice.",
+  "Resort_Chair": "I think I have sand in my boots.",
+  "Resort_Bar": "I'm not sure what they expect me to do with this drink.",
+  "Resort": "I hope you're here to relax, you deserve a break.",
+
+  "danceRejection": "Sorry, I don't dance..",
+  "breakUp": "I see.#$b#As you wish, @.",
+  "Divorced": "Don't.$2",
+  "dumped_Guys": "Leave me be, @.",
+  "secondChance_Guys": "I cannot lose you, cyar'ika. But know I cannot share you either.",
+
+
+
+
+  "Mon": "Good day, @.#$e#I'm glad to see the farm emerging from the dust.",
+  "Mon2": "I was my tribe's bounty hunter before we settled here.#$b#I haven't taken a bounty in over a year, but old habits die hard.",
+  "Mon4": "I think the kid was looking for you last night.#$b#Feel free to visit the Crest when you can.",
+
+  "Tue": "%Mando nods at you amiably, but is concentrating on Grogu.",
+  "Tue2": "How are you liking farm life?#$b#A sudden change in lifestyle can be... freeing.",
+  "Tue4": "The kid wouldn't go to sleep last night.#$b#Feeling quite old today.",
+  "Tue6": "Good day, @.#$e#You look tired today. Don't forget to take days to rest.",
+
+  "Wed": "Do you grow strawberries? The kid loves them.#$b#And cookies, of course.",
+  "Wed2": "We live in my ship, in the woods behind the bus stop.#$b#Feel free to visit.",
+  "Wed4": "Do you go into the mines often?#$b#Be careful, make sure your weapons are kept sharp.",
+  "Wed8": "Hello, mesh'la.#$e#Oh... it means... sorry, I have to watch the kid.",
+
+  "Thu": "Sorry, I'm not much for conversation.",
+  "Thu2": "I don't think we could ever live in the town.#$b#I'm not a fan of large crowds. Old habits, I can't relax in them.",
+  "Thu4": "We found some mushrooms on our walk yesterday.#$b#Fried mushrooms are one of my favorites.",
+  "Thu6": "I stayed in the Crest's cockpit to watch the stars last night.#$q 225101/225102 qstars_1#I would love to... view the stars with you some night.
+	#$r 225101 -5 qstars_no#I'm not really into stars.
+	#$r 225102 10 qstars_maybe#Isn't it kind of scary to think about the vastness of space?
+	#$r 225103 15 qstars_yes#I would love to. I feel so small watching the stars.",
+	"qstars_no": "Ah well, perhaps not the best idea then.",
+	"qstars_maybe": "A little fear can be good for you, verd'ika.#$e#Come to the Crest's cockpit after sunset if you'd ever like to join me in some stargazing.",
+	"qstars_yes": "I don't think you could ever be small in my eyes, verd'ika.#$e#Come to the Crest's cockpit after sunset if you'd ever like to join me in some stargazing.",
+
+
+  "Fri": "%Mando nods at you but quickly turns away.",
+  "Fri2": "The kid? He is my foundling.#$b#I... let him go once. I will not again.",
+  "Fri4": "The beach can get frigid in winter, but it's very peaceful in the warmer seasons.#$b#The kid loves playing in the waves.",
+  "Fri6": "Most of the town heads to the saloon on Fridays.#$b#Do you like crowds?",
+
+  "Sat": "@.#$e#%Mando shifts from foot to foot in silence.",
+  "Sat2": "On the weekends, I let the kid eat a few treats.#$b#He loves strange buns, for some reason. But he'll eat anything, I think.",
+  "Sat4": "Sometimes I think about taking the ship up again, but the town is a great place for the kid.#$b#I can't be selfish, I'm his buir.",
+  "Sat6": "I think a coil on the Crest is leaking.#$b#I woke up sweating in my beskar last night.",
+  "Sat8": "You... came looking for us?#$e#You are welcome to come visit the Crest any time, mesh'la.",
+
+  "Sun": "The town is friendly. Maybe too friendly.#$b#I'm sure you will make connections soon.",
+  "Sun4": "I should probably start feeding the kid better.#$b#Do you grow vegetables? Do you think he'd like them?",
+  "Sun6": "Well met, verd'ika.#$e#You are getting stronger. The farm is treating you well, I see.",
+
+  "spring_Mon": "The kid and I found this in the river yesterday. Maybe you know how to crack it open.[535]",
+  "summer_Tue4": "Um... the kid wanted me to give this to you.[421]#$e#Flowers suit you, verd'ika.",
+  "fall_Wed": "The kid ran off into your farm last night. I almost lost him in the corn.#$b#He's a troublemaker.",
+  "winter_Thu6": "It's getting colder each day.#$b#If you ever need to warm up, you are welcome in the Crest.",
+  "spring_Fri6": "You look... nice today, @.",
+  "summer_Sat": "It's so hot today, I feel like I'm melting.#$e#If I jumped in the river I'd sink, but maybe it would be worth it to cool off.",
+  "fall_Sun": "The leaves are beautiful today.#$e#I almost feel relaxed enough to lay under a tree and just watch them in the breeze.",
+  "winter_Mon": "Do you have enough warm clothes?#$b#Make sure you are staying warm.#$b#This may help.[395]",
+
+
+////Festival Dates
+
+  "spring_14": "The kid ate so many eggs yesterday.#$b#Can he even eat them? I wish I knew more about his species.",
+  "spring_23": "The flower dance is tomorrow.#$b#I'm not much for dancing... the kid and I will probably steer clear of the festivities.#$e#You should dance with someone special tomorrow.",
+  "spring_23_2": "The flower dance is tomorrow.#$b#You should dance with someone who makes you happy. You deserve it.",
+  "summer_12": "I didn't try the soup yesterday. It's not really possible to eat in front of others.#$b#But the kid had 3 bowls... somehow.",
+  "fall_1": "Last night was so peaceful.#$b#Sometimes I need a good reminder that there is beauty out there.#$b#And of course there's... other beautiful things.", 
+  "fall_22": "It's the kid's birthday today so he gets to be a little spoiled.#$b#I hope he's happy...",
+  "fall_26": "There is a hedge maze each year at the Spirit's Eve festival.#$b#The kid hasn't solved it yet but he's come close.#$e#Maybe we'll see you there tomorrow evening.",
+  "winter_7": "I'm not looking forward to the ice festival.#$b#We were trapped in an ice cave once. It was... not pleasant.",
+  "winter_27": "Tomorrow?#$b#It is. How did you know that's my birthday?",
+
+
+
+}

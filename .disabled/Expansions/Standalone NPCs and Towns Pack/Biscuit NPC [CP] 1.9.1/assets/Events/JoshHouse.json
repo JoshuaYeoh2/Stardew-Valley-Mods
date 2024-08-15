@@ -1,0 +1,11 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/JoshHouse",
+      "Entries": {
+        "1655004/f Biscuit 1500": "jaunty/5 16/farmer 9 23 0 Evelyn 3 17 0 Biscuit 2 17 1 George 3 5 2/skippable/addTemporaryActor Biscuit-gift 16 32 2 19 1/showFrame Biscuit-gift 44/beginSimultaneousCommand/animate Biscuit false true 200 46 47/animate Evelyn false true 190 17 18/endSimultaneousCommand/pause 500/speak Evelyn \"One moment, dear.#$b# Goodness you're hungry today! $h#$e#\"/playSound dogWhining/pause 500/speak Biscuit \"You have no idea, Granny! \"/pause 500/speak Evelyn \"Alright, here you go, pup. $h#$e#\"/stopAnimation Biscuit 6/animate Biscuit false true 190 40/stopAnimation Evelyn 17/faceDirection Evelyn 3/emote Evelyn 20/beginSimultaneousCommand/jump Biscuit/playSound dog_bark/endSimultaneousCommand/beginSimultaneousCommand/animate Biscuit false false 190 32 33/playSound dog_pant/animate Biscuit false true 190 34 35/speed George 4/advancedMove George false 0 1 2 0 0 5 4 0 0 9/faceDirection George 3/beginSimultaneousCommand/faceDirection Evelyn 3/speak George \"Is that little pest beck here again?#$e#\"/beginSimultaneousCommand/faceDirection Evelyn 2/emote Biscuit 8/move Biscuit 0 2 1/beginSimultaneousCommand/showFrame Biscuit 88/showFrame Biscuit-gift 4/endSimultaneousCommand/faceDirection George 3/beginSimultaneousCommand/emote Biscuit-gift 16/emote George 40/endSimultaneousCommand/emote George 28/pause 1000/beginSimultaneousCommand/jump Biscuit-gift/playSound dog_bark/textAboveHead Biscuit-gift \"MISTER GEORGE!\"/endSimultaneousCommand/speak George \"OH NO, NOT AGAIN!#$e#\"/beginSimultaneousCommand/shake George 1000/speed Biscuit-gift 6/move Biscuit-gift 6 0 1/viewport -1000 -1000/endSimultaneousCommand/playSound dog_bark/playSound boulderBreak/speak George \"EVELYN! GET THIS CREATURE OFF OF ME!\"/speak Evelyn \"Oh, dear! That just means she likes you! It's affection! #$e#\"/speak George \"NO, IT'S DiSgUsTiNg! #$e#\"/speak Evelyn \"Oh, don't act like you don't like her! You practically flew in here as soon as you heard her!#$e#\"/playSound dog_pant/message \"It seems like Biscuit has done the imPAWsible and befriended George...I think?\"/end"
+      }
+    }
+  ]
+}

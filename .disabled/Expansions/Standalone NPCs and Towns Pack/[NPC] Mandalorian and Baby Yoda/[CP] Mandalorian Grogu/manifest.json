@@ -1,0 +1,19 @@
+{
+
+  "Name": "NPC Mandalorian - NPCs",
+  "Author": "BexTX",
+  "Description": "NPCs of the Mandalorian and Grogu.",
+  "Version": "2.0.0",
+  "UniqueID": "BexTX.MandoNPC", 
+
+  "ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher"},
+  "Dependencies": [
+   {
+      "UniqueID": "misscoriel.eventrepeater",
+      "IsRequired": true,
+   },
+   ],
+
+  "UpdateKeys": [ "Nexus:8592" ],
+
+}

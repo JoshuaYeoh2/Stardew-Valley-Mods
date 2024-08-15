@@ -1,0 +1,113 @@
+{
+    "Changes": [
+        
+      //MONSTER STAT CHANGES. MARGO can inflict so much damage on monsters that it nullifies my changes but oh well.
+        //Seen Event, PM off
+        {
+            "LogName": "Shadow Stat Changes - Seen Event - PM off",
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "Fields": {
+              "Shadow Brute": {
+                "0": 160, // HP
+                "1": 0,   // Damage
+                "7": 2,   // Defense
+                "9": 1    // Movement threshold
+              },
+              "Shadow Shaman": {
+                "0": 80, // HP
+                "1": 0,  // Damage
+                "7": 2,  // Defense
+                "9": 1   // Movement threshold
+              },
+              "Shadow Sniper": {
+                "0": 300, // HP
+                "1": 0,   // Damage
+                "7": 2,   // Defense
+                "9": 1    // Movement threshold
+              },
+              "Shadow Guy": {
+                "0": 125, // HP
+                "1": 0,   // Damage
+                "7": 2,   // Defense
+                "9": 1    // Movement threshold
+              }
+            },
+            "When": {
+                "HasSeenEvent: |contains={{ModID}}_Events.SenS.10h.P3": true,
+                "HasSeenEvent: |contains=1090508": false, //SVE shadow peace event
+                "Pacifist Mode": false,
+                "Shadow Stat Changes":true
+            }
+          },
+       
+        //Not Seen Event, PM On
+        {
+            "LogName": "Shadow Stat Changes - Not Seen Event - PM on",
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "Fields": {
+              "Shadow Brute": {
+                "0": 999999, // HP
+                "7": 999999 // Defense
+              },
+              "Shadow Shaman": {
+                "0": 999999, // HP
+                "7": 999999 // Defense
+              },
+              "Shadow Sniper": {
+                "0": 999999, // HP
+                "7": 999999 // Defense
+              },
+              "Shadow Guy": {
+                "0": 999999, // HP
+                "7": 999999 // Defense
+              }
+            },
+            "When": {
+                "HasSeenEvent: |contains={{ModID}}_Events.SenS.10h.P3": false,
+                "HasSeenEvent: |contains=1090508": false, //SVE shadow peace event
+                "Pacifist Mode": true,
+                "Shadow Stat Changes":true
+            }
+          },
+        //Seen event, PM On
+        {
+            "LogName": "Shadow Stat Changes - Seen Event - PM on",
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "Fields": {
+              "Shadow Brute": {
+                "0": 999999, // HP
+                "1": 0, // Damage
+                "7": 999999, // Defense
+                "9": 1 // Movement threshold
+              },
+              "Shadow Shaman": {
+                "0": 999999, // HP
+                "1": 0, // Damage
+                "7": 999999, // Defense
+                "9": 1 // Movement threshold
+              },
+              "Shadow Sniper": {
+                "0": 999999, // HP
+                "1": 0, // Damage
+                "7": 999999, // Defense
+                "9": 1 // Movement threshold
+              },
+              "Shadow Guy": {
+                "0": 999999, // HP
+                "1": 0, // Damage
+                "7": 999999, // Defense
+                "9": 1 // Movement threshold
+              }
+            },
+            "When": {
+                "HasSeenEvent: |contains={{ModID}}_Events.SenS.10h.P3": true,
+                "HasSeenEvent: |contains=1090508": false, //SVE shadow peace event
+                "Pacifist Mode": true,
+                "Shadow Stat Changes":true
+            }
+          }
+    ]
+}

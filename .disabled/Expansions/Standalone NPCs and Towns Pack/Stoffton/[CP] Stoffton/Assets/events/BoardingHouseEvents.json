@@ -1,0 +1,53 @@
+{
+"Changes": [
+{
+
+  "Action": "EditData",
+  "Target": "Data/Events/Lizzie.Stoffton_Boarding",
+  "Entries":{
+
+//Juliana 2 heart event
+"11666097/f JulianaFS 500/f JohannaFS 500": "breezy/29 18/farmer 27 18 1 JohannaFS 29 18 3 JulianaFS -1000 -1000 0/skippable/pause 1000/emote JohannaFS 28/pause 500/speak JohannaFS \"{{i18n:event-11666097.01}}\"/emote farmer 8/pause 500/faceDirection JohannaFS 1/pause 1000/faceDirection JohannaFS 2/pause 1000/faceDirection JohannaFS 3/pause 1000/speak JohannaFS \"{{i18n:event-11666097.02}}\"/warp JulianaFS 28 24 0/move JulianaFS 0 -4 0 true/playSound woodyStep/pause 300/playSound woodyStep/pause 300/playSound woodyStep/pause 300/playSound woodyStep/pause 1000/faceDirection JulianaFS 1/pause 500/faceDirection JulianaFS 3/pause 500/faceDirection JulianaFS 0/pause 500/speak JulianaFS \"{{i18n:event-11666097.03}}\"/speak JohannaFS \"$q -1 null#{{i18n:event-11666097.04}}#$r -1 50 event_Decor#{{i18n:event-11666097.05}}#$r -1 -50 event_Need#{{i18n:event-11666097.06}}#$r -1 0 event_Help#{{i18n:event-11666097.07}}\"/speak JulianaFS \"{{i18n:event-11666097.08}}\"/speak JohannaFS \"{{i18n:event-11666097.09}}\"/speak JulianaFS \"{{i18n:event-11666097.10}}\"/fork MeanToJuliana/end",
+  "MeanToJuliana": "friendship JulianaFS -400/end",
+
+//Juliana 4 heart event
+"11666099/e 11666098": "breezy/28 9/farmer 28 11 0 JulianaFS 28 9 3/skippable/pause 1000/faceDirection JulianaFS 0/pause 500/faceDirection JulianaFS 1/pause 500/faceDirection JulianaFS 2/pause 500/emote JulianaFS 20/pause 500/speak JulianaFS \"$q -1 null#{{i18n:event-11666099.01}}#$r -1 20 event_Helped#{{i18n:event-11666099.02}}#$r -1 50 event_Helped#{{i18n:event-11666099.03}}#$r -1 40 event_Helped#{{i18n:event-11666099.04}}\"/emote farmer 60/pause 500/emote JulianaFS 20/pause 500/end",
+
+//Juliana 6 heart event
+"11666100/f JulianaFS 1500": "breezy/28 10/farmer 28 12 0 JulianaFS 31 10 1/skippable/pause 1000/move farmer 0 -1 0/pause 500/faceDirection JulianaFS 3/pause 500/move JulianaFS -1 0 3/speak JulianaFS \"{{i18n:event-11666100.01}}\"/emote farmer 40/pause 500/speak JulianaFS \"{{i18n:event-11666100.02}}\"/emote farmer 8/pause 500/speak JulianaFS \"{{i18n:event-11666100.03}}\"/end",
+ 
+//Juliana 8 heart event
+"11666101/f JulianaFS 2000": "breezy/28 10/farmer 28 12 0 JulianaFS 31 10 1/skippable/pause 1000/move farmer 0 -1 0/pause 500/faceDirection JulianaFS 3/jump JulianaFS/move JulianaFS -1 0 3/speak JulianaFS \"{{i18n:event-11666101.01}}\"/emote farmer 60/pause 500/speak JulianaFS \"{{i18n:event-11666101.02}}\"/emote farmer 8/pause 500/speak JulianaFS \"{{i18n:event-11666101.03}}\"/emote farmer 40/pause 500/speak JulianaFS \"{{i18n:event-11666101.04}}\"/speak JulianaFS \"$q -1 null#{{i18n:event-11666101.05}}#$r -1 50 event_Proud#{{i18n:event-11666101.06}}#$r -1 0 event_Happy#{{i18n:event-11666101.07}}#$r -1 10 event_Happy#{{i18n:event-11666101.08}}#$r -1 -300 event_stingy#{{i18n:event-11666101.09}}\"/fork JulianaMooch/speak JulianaFS \"{{i18n:event-11666101.10}}\"/end",
+  "JulianaMooch": "end",
+
+//Juliana 10 heart event
+"11666103/e 11666102/t 1900 2100/c 1": "breezy/24 18/farmer 19 18 1 JulianaFS 24 18 0/skippable/pause 1000/faceDirection JulianaFS 3/pause 500/speak JulianaFS \"{{i18n:event-11666103.01}}\"/emote farmer 60/pause 500/speak JulianaFS \"{{i18n:event-11666103.02}}\"/move farmer 3 0 1/speak JulianaFS \"{{i18n:event-11666103.03}}\"/faceDirection JulianaFS 0/move farmer 0 2 2/move JulianaFS 0 2 2/speak JulianaFS \"{{i18n:event-11666103.04}}\"/message \"{{i18n:event-11666103.05}}\"/end",
+
+//Boarding House Introduction
+"11666155": "breezy/33 22/farmer 30 20 1 JohannaFS 31 23 1 DahliaFS 32 21 2 FabianaFS 34 21 2 JulianaFS 36 23 3/skippable/pause 1000/faceDirection JohannaFS 0/pause 300/speak JohannaFS \"{{i18n:event-11666155.01}}\"/speak JohannaFS \"{{i18n:event-11666155.02}}\"/speak JohannaFS \"{{i18n:event-11666155.03}}\"/faceDirection DahliaFS 3/faceDirection JulianaFS 0/pause 300/speak DahliaFS \"{{i18n:event-11666155.04}}\"/faceDirection FabianaFS 3/pause 300/speak FabianaFS \"{{i18n:event-11666155.05}}\"/faceDirection JulianaFS 3/pause 300/speak JulianaFS \"{{i18n:event-11666155.06}}\"/speak JohannaFS \"{{i18n:event-11666155.07}}\"/end",
+
+//Mac 6 heart event
+"11666162/f MacFS 1500": "breezy/21 18/farmer 18 22 0 JohannaFS 24 18 0 DahliaFS 4 17 2 MacFS 19 18 0/skippable/pause 1000/animate MacFS false true 500 20 21 22 23 24 25 26 27/speak MacFS \"{{i18n:event-11666162.01}}\"/faceDirection JohannaFS 3/pause 300/speak JohannaFS \"{{i18n:event-11666162.02}}\"/playSound doorClose/pause 300/move DahliaFS 0 1 2/speed DahliaFS 5/move DahliaFS 13 0 1/speak DahliaFS \"{{i18n:event-11666162.03}}\"/emote farmer 8/pause 500/stopAnimation MacFS/faceDirection MacFS 3/emote MacFS 60/pause 500/speak DahliaFS \"{{i18n:event-11666162.04}}\"/speak DahliaFS \"{{i18n:event-11666162.05}}\"/faceDirection DahliaFS 2/pause 500/speak DahliaFS \"{{i18n:event-11666162.06}}\"/end",
+
+//Dahlia 2 heart event
+"11666164/f DahliaFS 500": "breezy/32 22/farmer 19 28 0 JohannaFS 31 23 1 DahliaFS 32 21 2/skippable/pause 1000/speak DahliaFS \"{{i18n:event-11666164.01}}\"/speak JohannaFS \"{{i18n:event-11666164.02}}\"/speak DahliaFS \"{{i18n:event-11666164.03}}\"/speak JohannaFS \"{{i18n:event-11666164.04}}\"/speak DahliaFS \"{{i18n:event-11666164.05}}\"/speak JohannaFS \"{{i18n:event-11666164.06}}\"/end",
+
+//Dhalia 4 heart event
+"11666165/f DahliaFS 1000": "breezy/6 9/farmer 4 13 0 DahliaFS 6 9 0/skippable/pause 1000/faceDirection DahliaFS 1/move farmer 0 -1 0/faceDirection DahliaFS 3/move farmer 0 -1 0/faceDirection DahliaFS 2/pause 500/speak DahliaFS \"{{i18n:event-11666165.01}}\"/speak DahliaFS \"{{i18n:event-11666165.02}}\"/emote farmer 8/speak DahliaFS \"$q -1 null#{{i18n:event-11666165.03}}#$r -1 50 event_roomOwn#{{i18n:event-11666165.04}}#$r -1 0 event_roomLeaving#{{i18n:event-11666165.05}}#$r -1 30 event_roomWrong#{{i18n:event-11666165.06}}\"/speak DahliaFS \"{{i18n:event-11666165.07}}\"/speak DahliaFS \"{{i18n:event-11666165.08}}\"/speak DahliaFS \"$q -1 null#{{i18n:event-11666165.09}}#$r -1 50 event_johanna#{{i18n:event-11666165.10}}#$r -1 0 event_johanna#{{i18n:event-11666165.11}}#$r -1 0 event_ownPlace#{{i18n:event-11666165.12}}\"/speak DahliaFS \"{{i18n:event-11666165.13}}\"/speak DahliaFS \"{{i18n:event-11666165.14}}\"/speak DahliaFS \"{{i18n:event-11666165.15}}\"/end",
+
+//Johanna 2 heart event
+"11666192/f JohannaFS 500/t 600 1800": "breezy/18 19/farmer 19 25 0 JohannaFS 19 19 3 HelmutFS 17 19 1/skippable/pause 1000/speak HelmutFS \"{{i18n:event-11666192.01}}\"/speak JohannaFS \"{{i18n:event-11666192.02}}\"/speak HelmutFS \"{{i18n:event-11666192.03}}\"/speak JohannaFS \"{{i18n:event-11666192.04}}\"/speak HelmutFS \"{{i18n:event-11666192.05}}\"/move farmer 0 -2 0/faceDirection JohannaFS 2/faceDirection HelmutFS 2/pause 500/emote farmer 8/pause 500/speak JohannaFS \"{{i18n:event-11666192.06}}\"/speak HelmutFS \"$q -1 null#{{i18n:event-11666192.07}}#$r -1 0 event_compromise#{{i18n:event-11666192.08}}#$r -1 -100 event_Rude#{{i18n:event-11666192.09}}\"/fork Johanna2Rude/friendship JohannaFS 50/speed HelmutFS 4/move HelmutFS 0 10 2/warp HelmutFS -1000 -1000/speak JohannaFS \"{{i18n:event-11666192.10}}\"/end",
+  "Johanna2Rude": "friendship JohannaFS -100/emote JohannaFS 12/emote HelmutFS 12/pause 500/end",
+
+//Johanna 6 heart event
+"11666195/f JohannaFS 1500/t 600 1800": "breezy/18 19/farmer 17 24 0 JohannaFS 25 18 0/skippable/addObject 17 18 724/addObject 18 19 188/addObject 27 19 276/addObject 19 16 311/addObject 20 16 608/addObject 21 16 649/addObject 22 16 236/addObject 23 16 253/addObject 20 21 731/addObject 22 21 231/addObject 24 21 207/pause 1000/speak JohannaFS \"{{i18n:event-11666195.01}}\"/emote farmer 8/pause 500/speak JohannaFS \"{{i18n:event-11666195.02}}\"/emote farmer 8/pause 500/jump JohannaFS/pause 300/faceDirection JohannaFS 2/pause 500/speak JohannaFS \"{{i18n:event-11666195.03}}\"/speak JohannaFS \"{{i18n:event-11666195.04}}\"/speak JohannaFS \"{{i18n:event-11666195.05}}\"/speak JohannaFS \"{{i18n:event-11666195.06}}\"/emote farmer 40/pause 500/speak JohannaFS \"{{i18n:event-11666195.07}}\"/speak JohannaFS \"{{i18n:event-11666195.08}}\"/emote farmer 16/pause 500/speak JohannaFS \"{{i18n:event-11666195.09}}\"/speak JohannaFS \"{{i18n:event-11666195.10}}\"/end",
+
+
+
+
+
+
+}
+}
+]
+}

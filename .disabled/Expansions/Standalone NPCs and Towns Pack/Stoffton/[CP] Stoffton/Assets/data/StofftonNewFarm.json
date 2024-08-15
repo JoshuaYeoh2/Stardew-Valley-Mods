@@ -1,0 +1,37 @@
+{
+"Changes": [
+
+//Creating NewFarm Deed
+{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Lizzie.Stoffton_NewFarmDeed": {
+                    "Name": "Lizzie.Stoffton_NewFarmDeed", 
+                    "Displayname": "{{i18n:mail.Lizzie.Stoffton_NewFarmDeed}}",
+                    "Description": "{{i18n:mail.Lizzie.Stoffton_NewFarmDeedDescription}}",
+                    "Type": "asdf",
+					"Category": -102,
+					"Price": 1000,
+					"Texture": "TileSheets\\Objects_2",
+					"SpriteIndex": 141,
+					"Edibility": -300,
+					"IsDrink": false,
+					"Buffs": null,
+					"GeodeDropsDefaultItems": false,
+					"GeodeDrops": null,
+					"ArtifactSpotChances": null,
+					"ExcludeFromFishingCollection": false,
+					"ExcludeFromShippingCollection": false,
+					"ExcludeFromRandomSale": true,
+					"ContextTags": [
+					  "color_brown",
+					  "book_item"
+					],
+					"CustomFields": null
+                }
+            }
+},
+
+
+]}

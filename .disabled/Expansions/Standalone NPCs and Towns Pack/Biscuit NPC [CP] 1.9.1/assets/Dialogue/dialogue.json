@@ -1,0 +1,411 @@
+{
+  "Introduction": "Oh hey! I just moved in with my new People! They couldn't resist my charm! I am quite labradorable! They call me Biscuit! $1#$e# Now if only I could get them to slip me a few more snacks.....",
+
+  "danceRejection": "Sorry. Can't dance, you know? Four left paws and all... $4",
+
+  "divorced": "Fine then! I will find someone better to give me head pats! $5",
+
+  "Mon10": "Oh... hey,@ $2#$e# Sorry. I'm a little bit down today... Vince was REALLY sad this morning. It was pawful! Something about 'not being smart like Jas.'$2\r\n#$q 155/156 Vincentfallback#Do you think there is something I can do to cheer him up?\r\n#$r 155 20 yesvincenthelp#Sure! just be yourself and Vincent will come around. You always cheer him up eventually!\r\n#$r 156 0 novincenthelp#Probably not.  He may need some space...",
+
+  "yesvincenthelp": "Really? thanks @! I'll do my best! $1",
+
+  "novincenthelp": "...Oh...right... maybe I shouldn't get too involved... 2$",
+
+  "Vincentfallback": "$p 155\r\n#I'm so gonna cheer Vincent up! $10\r\n|I hope that I'm doing the right thing $11\r\n",
+
+  "Mon8": "$d kent# Sometimes I see Mister Kent on the couch awake at night and he seems sad. $2#$b#He always feels better when I cuddle with him though!$1|I love the name \"Biscuit\" because I love biscuits!$1#$b#Someone tried to call me 'Scrappy' once so I nipped him.... $5 #$b#I don't like talking about it...$4",
+
+  "Mon6": "Vince showed me a \"snail\" the other day! He said it had a \"shell\" on its back! #b#I always thought they were gummy worms with tiny cinnamon rolls on them! $7 #b#Vince is so smart! $1",
+
+  "Mon4": "Do you have chickens? I would love to meet them! Do you think they would play with me if I ask nicely? I promise I'll be gentle!",
+
+  "Mon2": "$c 0.04#  Miss Pam gave me a funny drink at the Hyooman kennel yesterday.... it made my nose burn though$4#$e#This morning I saw a squirrel and it made fun of me! \"Stumpy legs, Stumpy Legs\" it said! I don't have \"stumpy legs!\".....What does that even mean anyways? $5",
+
+  "Mon": "I found a weird green doll in Gunthers' trash and he got mad when he saw me with it. $2#$e# What's his problem?! Not like he was playing with it like those shiny rocks $5 #$e# Okay, so maybe it wasn't in his trash...but he still wasn't playing with it! $4",
+
+  "Tue10": " $p 155#Remember when you gave me advice on cheering Vince up? It worked! I really did just have to be myself. $1|Sometimes, Emily tries to get me to dance with her...I don't think she realizes I have two left feet! $4",
+
+  "Tue8": "$d bus# Miss Pam brings me snacks when she comes to work sometimes. Imagine my surprise when she said she was \"Bacon under the sun\" and she had some!$1|Dusty told me I shouldn't \"hound\" people for treats. How can I not though? I'm a dog!",
+
+  "Tue6": "One time in Zuzu I was trying to find my bulldog friend but found a large machine instead.... Turns out a \"bulldozer\" isn't a sleeping bulldog! Who would have figured?!",
+
+  "Tue4": " I like when you visit me @. You really make my tail wag! $1 #$b#... Do you think it has a mind of its own? $7",
+
+  "Tue2": "$3 *Biscuit appears to have something in her mouth*I didn't steal any sneks aye sweir",
+
+  "Tue": "$d joja# The other day, that \"Morris\" guy yelled at me for barking outside the Joja Mart! All the other Joja Marts I've seen on my travels have \"Barking lots\". How was I supposed to know his was different?! $5|Miss Haley always says I smell but when no one's around she pets me and gives me snacks. I don't know why she doesn't want to show people she's really nice.",
+
+  "Wed10": "Granny called me a \"diamond in the ruff!\" $1#$b#... That's a good thing, right? $9",
+
+  "Wed8": "Dusty always acts like he's old and tired but I think he sleeps a lot because he secretly paw-ty's all night",
+
+  "Wed6": "$c 0.5# Haley was taking photos of me the other day, I thought she was the pup-arazzi!#$e# I wonder why Haley always takes pictures of stuff....she can see those things every day! $9",
+
+  "Wed4": "Did you know I have a brother named Truffles? I'm older than him by 2 minutes! $1#$e# He was a real trouble maker but I'm not gonna lie. I do miss him.",
+
+  "Wed2": "$d kent#I went out with Vince and Mister Kent the other day! he was trying to teach him how to \"fish.\" Miss Jodi said it was good they were bonding so I'm happy. $1|Vince told me he misses his dad sometimes so I try to play with him when he's not studying! He's a good boy. $2",
+
+  "Wed": "$p 19#Sam was kind of upset...I think he said you thought any song he makes is pawful. Why would you say that!? It's so mean... $2|Do you enjoy Sam's music too, @? He's super talented, isn't he?",
+
+  "Thu10": "Did you know Gus sometimes gives me whole pieces of chicken?! It's doggone truth! Dusty and I Share all the time! #$b# Dusty tells really great stories too! Although....#$e# Sometimes his stories are kind of sad. There are a lot of mean people in this world.... $2",
+
+  "Thu8": "I went over to %farm because I heard you had collie-flour!$6#$b# there were no Collies there at all though!$5",
+
+  "Thu6": "Some people think I wouldn't like cats but all the cats I ever met were real smart! $4#$b#Cats and Dogs get along more often than you think- we even have a common enemy! #$b#Squirrels.... $5",
+
+  "Thu4": "Miss Jodi yelled at me because I played with her slipper the other day. I didn't mean to be so Ruff with it! $2 #$b# At least she let me have the other one too after. $6",
+
+  "Thu2": "I had a bully in Zuzu. He would always call me \"Pug-ly!\" That makes no sense! I'm not even a pug! $5",
+
+  "Thu": "People say \"trash\" like it's a bad thing but it's my favorite stuff!",
+
+  "Fri10": "Sometimes it's annoying to have a tail. I try to catch it but it mocks me! It's attached to me! Why can I not reach it?!",
+
+  "Fri8": "Dusty's one of my best friends! He's really smart and teaches me how to do all kinds of things!#$e#One Time Dusty showed me how to \"sit up\" for steak! Alex gave us both some! It was yummy!",
+
+  "Fri6": "I heard %favorite was something you love!...What? People in this town talk a lot and I'm \"all ears.\" #e# What else have I heard? Well.... $4#b# I don't think you wanna know. Trust me. $7",
+
+  "Fri4": "$y 'How do you feel about Sam?_He's a good guy! Why? Was he asking about me?_Oh..uh no reason! I didn't hear anything or....anything. $4_He's alright I guess._He's way better than alright! He gives me Bacon and sometimes drops food on the floor I can eat! 1$'",
+
+  "Fri2": "$d kent# I thought Mister Kent was sad about the squirrel out back yesterday. $2#$b#Turns out I was barking up the wrong tree... $4 | Vince gave me a new toy! It's a little green hyooman he found in the dirt. We call him \"Gumby!\" $1",
+
+  "Fri": "Once I first showed up in town Jodi thought I had something called \"fleas\". I don't know what that is but they are apparently bad and I don't have them!",
+
+  "Sat10": "Sam says Sebastian can be \"flakey\" when it comes to practise.#$b# He didn't smell anything like pastry when I saw him though! $7#$b# Maybe Sam has a bad Nose... $2",
+
+  "Sat8": "$d joja#Sam said Morris was a \"crumby Boss\" but when I went to see him there were no crumbs anywhere. I was so disappointed. $2 | A wise cat once told me \"donut worry about what others say.\" He was so smart! How did he know I love Donuts?! ...Why would they worry about what others think though?",
+
+  "Sat6": " I don't know if I should bug Dusty today, but I'm feeling paw-sitive he's in a good mood, @. I feel it in my paws!",
+
+  "Sat4": "$d kent#I try to tell Mister Kent to cheer up because his life seems Ruff but he just pats me on the head. He smiles though, so I think I did good. | One time Sam let me ride on his skateboard. It was so much fun! But, Miss Jodi said \"no skateboards in the house!\"",
+
+  "Sat2": "Love days like this! The kiddos always have time to play with me! $1",
+
+  "Sat": "Mister Elliot is always doing scribbles in his book. I don't always understand the story he's telling me but it's nice that he shares with me,#$b# plus the crab cake bits are a nice bonus too.",
+
+  "Sun10": "Jodi said Vince gave a \"Half-baked\" effort on his test but I told Vince it was okay when he was sad. Cookie dough is half baked too and it's still delicious!",
+
+  "Sun8": "I gave Mister Willy a stick I found and he asked if I was trying to \"butter him up.\" He's so silly, you eat butter not use it on people!",
+
+  "Sun6": "Mister Gus told me I have a \"dough-ey\" tummy! Maybe that's why my name is Biscuit!<3 $1",
+
+  "Sun4": "It's fun to visit %farm at night! Sometimes I dig around and find some interesting things!$1#$b# Why are you looking at me like that?$6",
+
+  "Sun2": "Yesterday, Emily said Haley was being \"salty\" but when I licked her hand, it wasn't salty at all! It just tasted like soap!#$b....#$b#...Haley said I was gross for doing that after..... $2",
+
+  "Sun": "@, what is this \"Yoba\" everyone keeps talking about? Makes me think of a small green fellow with big ears and a glowing sword for some reason.... #9",
+
+  "summer_Mon10": "Sam said it was hot enough to \"cook an egg\" out here.#$b# Do you think Shane has a coop full of omelets? $1",
+
+  "summer_Mon8": "I heard Mister Lewis saying \"Variety is the spice of life\". But what if people like things to stay the same? It's okay to not like spicy things right?#$b# I personally prefer things to be sweet!",
+
+  "summer_Mon6": "Jodi said eating the last piece of crispy bass was just the  \"icing on the cake\" of my bad behavior.  I don't understand though, I don't even have cake!#$b# ....but I would like one though",
+
+  "summer_Mon4": "Sebastian said the game he was working on was \"jam-packed\" with content! I looked in his gray box and there was no jam at all.... Why does he do this to me....",
+
+  "summer_Mon2": "Did you know I have a brother named Snickerdoodle and a sister named Cookie? I hope they come here to visit someday...I miss them. $2#e# It's really weird that their people coincidently named them after snacks too...$9 #e# Oh well, must run in the family! $1",
+
+  "summer_Mon": "$d kent#Mister Kent was trying to help Vince with his spelling yesterday. I can't wait until Vince can spell \"Biscuit\" for me!|Whenever I find a Joja cola in the trash I bring it to Sam. He always pats me and tells me I'm good! He's a good friend.",
+
+  "summer_Tue10": "Did you know socks go missing all the time? Vince and Sam have so many mismatched socks it drives Jodi crazy!#$b#Huh? Oh yeah, I have a bunch of mismatched socks they gave me too! They always share. $10",
+
+  "summer_Tue8": "Mister Pierre doesn't seem to like me much. I tried to bring him a corn cob I found and he told me it was disgusting! $5#$b# Abby gave me a head pat though so it was okay in the end. $1",
+
+  "summer_Tue6": "Vince has nightmares sometimes so I sleep on the end of his bed when I can.#$b#That way I can protect him if he needs me!",
+
+  "summer_Tue4": "Robin sometimes throws scrap pieces of wood she has around for me to fetch!#$b# She's a lovely person!#$b# Demetrius doesn't like me very much though....",
+
+  "summer_Tue2": "Dusty told me when he was my age he would play in the water on the beach in the summer. I wonder if I should give that a try.$6# I can't swim though and what if there are sharks?! I've heard about the movie \"Paws!\" $7",
+
+  "summer_Tue": "$d cc#Granny goes into the community center with nice smelling flowers sometimes. She is good with plants but when I try to dig them up for her she gets upset so I don't do it anymore.| Granny and George are really nice! George always sneaks me bits of food when he thinks no one is looking. $1",
+
+  "summer_Wed10": "You know, @? It's nice to live here. There are no cars honking at you, everyone is friendly (for the most part) and I always have a full tummy.#$e# Life is kinda cool sometimes $1",
+
+  "summer_Wed8": "Alex is really nice! He always lets me play with his Gridball and he gives me pets $1!#$b#It's nice to have friends to play with. $4",
+
+  "summer_Wed6": "Oh hey, @. Don't tell anyone but I may have accidentally dug up the Mister Lewis' Flower bed....$4#$e#Do you think he'll be really mad? $2",
+
+  "summer_Wed4": "Dusty and I play \"tug-of-war\" with an old rope we found.#$b# He's really good! Probably the world champion!#$e# I wonder if I will ever beat him....",
+
+  "summer_Wed2": "Shane told me I was allowed to visit as long as I don't bother his chickens.#$b# I like Charlie. Did you know she's the most experienced hen there? I had no idea.#$b# Must be neat to be so important.",
+
+  "summer_Wed": "When it gets too sunny outside I like to lay under the tree Penny reads under. She really is smart! It's so cool there.",
+
+  "summer_Thu10": "$d bus# I'm not a fan of that bus...remind me of Zuzu too much $2 |Don't tell anyone but I'm afraid of the bus...It's just so loud and it reminds me of Zuzu! $4#b# I've almost been hit by one of those things so many times... $2",
+
+  "summer_Thu8": "When I lived in Zuzu with my \"Grammy\" I would always sleep at the end of her bed so I could protect her.#$e# Does %pet do that for you, @?",
+
+  "summer_Thu6": "Hey @, I heard you have a %pet? Can I meet them! Are they friendly? $1",
+
+  "summer_Thu4": "One time I heard Mister Elliot talk about %farm.#$b#I think he was talking about the chickens because he said \"it was like watching poultry in motion.\"$1",
+
+  "summer_Thu2": "Vince loves Grapes! I always bring him a bunch when I find them! Miss Penny makes him wash them though....",
+
+  "summer_Thu": "Hey @, as a farmer you must win a lot of races right?#$b# Because you are always ahead of the crop! $1",
+
+  "summer_Fri10": "$d joja#I heard Mister Morris say they were having a sale on hot dogs but I went to see them they weren't there!#$e# How could they be hot anyways? Isn't there AC in Joja Marts? |Can I work in your fields? That way I could be a \"corn dog!\"",
+
+  "summer_Fri8": "I had a friend named Snoopy whose people owned a bakery back in Zuzu.#$e# He was so lucky! All of us street dogs called him the \"Bagle Beagle!\" $1",
+
+  "summer_Fri6": "I was talking to %pet the other day and they wanted me to let you know they would love to share their snacks with me! $1#$e# .....I would NEVER make something like that up! Pawnest! $4",
+
+  "summer_Fri4": "Sam talks about \"%band\" a lot. I don't know what that is but it makes him happy! $1",
+
+  "summer_Fri2": "I was chasing a squirrel earlier and I ran right into a tree! It was so embarassing....$4#$e#Little bugger laughed at me too! So rude! $5",
+
+  "summer_Fri": "Hey @! Have you ever met Abby's friend, David? He's a good guy but he gets cranky when it's hot out! #e# Trust me... you don't want to tussle with David when he's angry... $7",
+
+  "summer_Sat10": "$c 0.5# Sometimes taking a risk and meeting someone new is really scary. You can make the greatest friend or just some jerk who throws things at you. Life sure is RUFF sometimes.#$e# When I was little my mom used to take my siblings and I away from \"the place with many cars\" when it was too hot.",
+
+  "summer_Sat8": "I hope you stay my friend forever, @! #$b#Maybe one day I can be friends with everyone in town! $1#$e# ...The mayor and Pierre might be a problem though... $4",
+
+  "summer_Sat6": "Last night, I had a dream I was back in Zuzu... I don't think I ever want to go back there again...$2#e# I do miss all my friends but I think they would understand. $6#e#  This place just feels like home to me. $1",
+
+  "summer_Sat4": "$c 0.5# Did you know I had an owner once, @? He wasn't as nice as you.#$e#There aren't a lot of cars here! the air is so fresh! $1",
+
+  "summer_Sat2": "%Appears to have a mouth full of food and can't speak $3",
+
+  "summer_Sat": "...You may have noticed some holes in the ground down on %farm...That wasn't me I swear! $7",
+
+  "summer_Sun10": "Jas tries to teach me how to \"jump rope\" but I'm not very good at it.  #$e#Huh? Oh. I keep tripping over my own paws...It's harder than it looks, @! $4",
+
+  "summer_Sun8": "I heard someone say Alex had \"pet-tential to be a sports su-paw star!\" $1#$e# If he does, do you think I could get a spot on the team? $11",
+
+  "summer_Sun6": "$d kent#Mister Kent gave me some bacon when he thought Jodi wasn't looking. #b#You should have seen his face when he realized he was caught!$10 #e# It's nice to see he's lightening up a bit. The sound of bacon used to bug him for some reason.| Did you know that peanut-butter jars are actually NOT big enough for your head?#b# How do I know that? Uh, no reason... $4",
+
+  "summer_Sun4": "$c 0.5# Don't make fun of me but once in Zuzu I got stuck in a dumpster while foraging....The neighborhood had a good laugh about that. $4#$e# I wonder why Mister Harvey has a patch of fun on his face.....",
+
+  "summer_Sun2": "I heard Jodi send Sam out to \"Fetch\" Vincent. #$b# You would think she would ask ME, the dog, to do it. $5#$b#...Although I usually forget and end up playing with Vincent instead....$4",
+
+  "summer_Sun": "Last night Sam was watching a film called \"The Dog Father.\"#$e# I think it's a bad name for a film! There aren't any dogs in it at all! $5",
+
+  "fall_Mon10": "Mister Wizard thinks he has family somewhere in town. I hope he can connect with them.  #$e# It's hard not knowing if your family members are safe and happy... $11",
+
+  "fall_Mon8": "When Sam finishes band practice I sit up and \"give him a round of a-paws!\" $1#$e# Everyone pats me and gives me treats after. It's so great!",
+
+  "fall_Mon6": "$y 'Hey, I think Mister George wants to be one of my bestest friends! What do you think?_He definitely does. He probably wants you around ALL THE TIME._I know right? I should hang out with him more. It'll be PAWsome! $10_.....Are we thinking about the same George?_What?! Of course, we are! He always yells with such joy when he sees me!'",
+
+  "fall_Mon4": "Sebastian acts like he's all tough but he's actually a good boy! He always gives me pats. $1#e# The other day I saw him helping a frog back to the lake.  I think he was embarrassed I saw him though. $0",
+
+  "fall_Mon2": "Hey @! Did you see that cool skateboard trick Sam did the other day? He's so cool! $1",
+
+  "fall_Mon": "I heard Mayor Lewis say he was \"Rolling in enough Dough to build a statue of himself!\"#$b# Why is he hogging all the dough! I want some, he should share if he has enough to roll in!",
+
+  "fall_Tue10": "Sam is a good big brother. I think it's sweet that he makes time to play with Vincent and I.",
+
+  "fall_Tue8": "@! Have you ever tried pick-up lines?#$b# Like: \"You're so beautiful, even the leaves fall for you.\" $10 #$e# Do you think anyone would fall for that?",
+
+  "fall_Tue6": "$d joja#Sometimes I tinkle on the Jojamart building when Sam comes home upset. Mister Morris is a GREAT-BIG- $5#e# oh that's a bad word I think! $7 |Sometimes I drink out of the big fountain beside the community center. #b# The water tastes a lot better than Zuzu City puddles! $1",
+
+  "fall_Tue4": "In Zuzu, there were these uniform people who would try to catch me. $6#b#I don't think they wanted to hurt me, but strangers are new and scary so I ran away.$6#e# I'm glad there's no one like that here though! $1",
+
+  "fall_Tue2": "I saw Miss Leah when I was playing in the forest the other day. #b# She drew a picture of me! She's so talented! $1",
+
+  "fall_Tue": "$p 54#I saw Alex blushing once! He was muttering about how you thought his hair was \"fashionable.\" $1|Granny makes special cookies just for me since she says the people ones are \"Bad for Dogs.\" #b# I don't know how a cookie could be bad but I love Granny for making me feel special! $1$p 55#I heard Alex muttering something about \"fungal growths\" or something and messing with his hair. He can be weird sometimes, right?|Alex says he doesn't like his hair but takes FOREVER to \" style\" it.  What's that all about?",
+
+  "fall_Wed10": "I want to be as cool as Marlon when I grow up! He has all these cool pointy swords and can fight monsters! $1 #$e# If I could fight monsters, I would protect the whole valley! #$b# For now I guess I'll have to make sure the ones under Vincent's bed don't get us. ",
+
+  "fall_Wed8": "Do you think Willy would ever let me on his boat? I have a mean doggy paddle! $1#$e# On a more serious note;  I don't think it would happen since, you know, I can't swim and all... $4",
+
+  "fall_Wed6": "I was digging near the big tree in the woods and accidentally got something called \"clay\" on Jas while she was playing.$2#$e#She REALLY doesn't like that clay stuff.#$b#She forgave me when I brought her a pretty yellow daffodil! $1",
+
+  "fall_Wed4": "Alex and I watched a superhero movie on George's tv!#$b#My favorite character was Labro-thor! $1",
+
+  "fall_Wed2": "The other day, Vincent spilled some food on the floor for me!#$b#... Unfortunately, it was a blop of Miss Jodi's lentil soup! $8",
+
+  "fall_Wed": "I really love this time of year! I get to jump in all the fallen leaves!",
+
+  "fall_Thu10": "The birds here are usually very polite but I would always stay on guard, @!... They may be in cahoots with the squirrels...$9",
+
+  "fall_Thu8": "It's acorn-y joke but don’t sweat the fall stuff. $10",
+
+  "fall_Thu6": "Why do I like \"trash\" so much? Hmmm I never thought about it before....#$b# I think it may be because I used to scavenge for food and sometimes there are fun and tasty things in the \"trash.\"",
+
+  "fall_Thu4": "I went to visit Harvey because I heard him say he needed to do a \"Lab report.\"#$b# He wouldn't let me in the clinic though! Do you think he has another dog in there? $9",
+
+  "fall_Thu2": "Yesterday I watched a movie with George on his tv.$1#$b# It was called \"Jurassic Bark.!\"#$e#...Those dogs were gigantic! $7",
+
+  "fall_Thu": "Howl you doin’ today, @?",
+
+  "fall_Fri10": "Sometimes, when Abby comes over to visit, she sneaks me little treats. Miss Jodi says I'm getting a bit pudgy and I should ease up but they are so delicious! $1 #$e# Besides, a pudgy puppy is a pleasant puppy they say! $10",
+
+  "fall_Fri8": "Sometimes, I visit the Adventurer's Guild when I get bored. Gil always slips me some beef jerky! $1",
+
+  "fall_Fri6": "$y 'Hey, @!  Do you have a sweet tooth for candy today?_You bet I do! I'm a sucker for candy!_That's what I thought! Here you might like this! $10 [243]_I’m going to go against the grain and say: Not really. _That's what I thought! Here you might like this! $10 [231]'",
+
+  "fall_Fri4": "Mister Harvey is really nice! He lets me go into the room with Vincent when he gets a \"check up\" even though he says he shouldn't.#b# Do you think if I'm good for a \"check up\" I could get a lollypop too? $1",
+
+  "fall_Fri2": "$d joja#That Morris guy said Joja Mart was a \"re-tail\" store so if I ever lose mine I know where to go!#e#....Do you think a short tail would be half-off? $7|I promised Vince we'd be \"best friends fur-ever\" so I have to be careful to never go bald!",
+
+  "fall_Fri": "Mister Harvey said his clinic really isn't busy sometimes.#b# I don't know why though, he's a good dog-tor! $1",
+
+  "fall_Sat10": "Have you ever seen Maru and Sebby talk to one another? It's really pawkward... $6#$b# I think Maru really wants to be friendlier with Sebby but they are just so different. $6 #$e# I think they should get along! If my siblings were here I would get along with them.#$e# ...I guess I don't need to worry about that though... $11",
+
+  "fall_Sat8": "hey @! if you have a scarecrow in your field you should give it an award!#$e#... #$e# because it's outstanding in its field pfft. $10",
+
+  "fall_Sat6": "$d kent#I like to go on walks with Mister Kent. He's very quiet but he usually winds a stick and throws it for me!#$e# We stop and watch the water too but sometimes Mister Kent seems to get nervous... $6#$b# But if I lay down beside him he relaxes and pets me.|I like walking to school with Vincent! Jas always joins and it's sort of like a mini field trip! $11",
+
+  "fall_Sat4": "Mister George loves those leek thingies so when I see them I dig 'em up and bring 'em over. $1#$e#Granny always washes them though. Seems like a waste to me but I guess everyone does things differently $9",
+
+  "fall_Sat2": "Sam said he was saving up for \"sub-woofers\". $9#$e# If he needs someone to \"woof\" he should ask me! I have a great voice! $1",
+
+  "fall_Sat": "You know, Miss Haley is like a really fancy dog....#$b# She's very Pawsh! $1",
+
+  "fall_Sun10": "I dig at Mayor Lewis' place sometimes for fun. He has a lot of strange shiny bars and shapes in his yard. $1#$e#I wonder why he doesn't just keep that stuff in his house... $9#$e#I guess if it's in the dirt he doesn't want it so it's fair game! $10",
+
+  "fall_Sun8": "Miss Penny is really responsible, isn't she? Sometimes I wonder if she ever was a kid. #$e# Maybe that's why she likes reading so much! She says in a book you could be anyone or go anywhere. It makes me want to learn how to read! #$e# I'll stick to listening to Miss Penny read though. $10",
+
+  "fall_Sun6": "Hey @, if potatoes have eyes and corn has ears, how do you keep a secret on the farm? $9",
+
+  "fall_Sun4": "Sebastian told Sam I was annoying, but when Sam wasn't looking he whispered \"I didn't mean that\" and pat me on the head.#$e# He can be a real bonehead sometimes. Why doesn't he just say what he means the first time? $9",
+
+  "fall_Sun2": "Haley was drinking a \"Pugkin spice late\" the other day!#$e# You don't think it's made with real pugs, do you... $7",
+
+  "fall_Sun": "Did you throw out a perfectly good stick the other day or am I imagining things?$9#$e# You wouldn't throw those away... would you? $2",
+
+  "winter_Mon10": "Gus likes to give Dusty and I little treats now and then. I think Dusty's pen is in the best place possible! $1#$e# Imagine, every time someone goes by with food they have to look at our adorable doggo faces and decide whether or not to share.#$e# It's not Man-ip-ulation! You'd have to be a man to do that and we are dogs! $10",
+
+  "winter_Mon8": "You better be careful, @. %pet has been telling me all of your secrets! $10",
+
+  "winter_Mon6": "Dusty told me Alex was \"mutts\" about sports!#$e#Alex isn't a dog though...Oh wait, Dusty is!$9 #$e#...Wow.... $7",
+
+  "winter_Mon4": "Caroline sometimes sneaks me treats from the shop! They are so yummy! One day I should get her one of the \"tacos\" from Mister Gus that she likes so much.#$b#How am I gonna ask for one though....",
+
+  "winter_Mon2": "%farm doesn't have a lot of fun places to dig in the winter....$2",
+
+  "winter_Mon": "It's cold....so cold....$7",
+
+  "winter_Tue10": "Don't tell anyone but sometimes, I follow Alex up to the bathhouse because it's warm in there.#$e# Alex has been trying to teach me how to swim but the water is still kind of scary when I can't touch the bottom. $4#$e# One day I'll be able to swim though! Then we can all play in the water together! $10",
+
+  "winter_Tue8": "How come none of the animals come out to play in the snow? Do they not like the cold?#$e#  They don't \"snow\" what they're missing! $10",
+
+  "winter_Tue6": "Sometimes when Vincent is reading he gets distracted by the things around him. $6#$e# That's why Miss Jodi makes me leave the room when he does his homework, so he can \"focus.\" $2",
+
+  "winter_Tue4": "Pierre doesn't hold \"buy one get one flea\" sales and I think that's a good thing.#$e# Who would want to get fleas with their purchases? $8",
+
+  "winter_Tue2": "Vincent said I can go sledding with him and Jas! $1#$e# I don't know what that is, but it sure sounds fun! $10",
+
+  "winter_Tue": "It's cold out there! Be sure to bundle up!",
+
+  "winter_Wed10": "My Mum was one of the best cuddlers ever! When it would get cold we'd all snuggle together. #$e# I miss it sometimes, but now I have a lot of people I can snuggle with whenever I want. $1",
+
+  "winter_Wed8": "Shane always seems stand-offish to other people but he's nice to animals like me! #$b# I think he could be just as nice to people too if they give him a reason to trust. #$e# Sometimes you have to be mean to protect the kindness you have left after losing too much. $11",
+
+  "winter_Wed6": "Are you out exploring, @?#$b# Don't leaf me out of the fun! $10",
+
+  "winter_Wed4": "I heard there's going to be a feast soon!#$b# What a great idea for Paw-liday! $1",
+
+  "winter_Wed2": "Dogtor Harvey told me I should stay inside when it's cold out so I don't become a pupcicle $10",
+
+  "winter_Wed": "Vincent taught me how to make \"snow angels\" yesterday! $1#$e# Mine ended up being a snow bloppy! That's a blobby puppy! $10",
+
+  "winter_Thu10": "When everyone goes to the saloon they come back smelling kind of like Shane did. $4 #$e# I smelled bottles like that before and they almost always mean bad news. #$b# I'm glad no one here has been mean to me when they smell like that.",
+
+  "winter_Thu8": "In the wintertime, Dusty always leaves a little bit of food in his bowl for me when I visit. #$e# I tell him not to but I think he does it so I always know there will be something for me to eat if needed.#$e# Don't tell anyone but he's actually a big softy! < $10",
+
+  "winter_Thu6": "Can you believe this weather?! it's un-brr-lieveable! $10",
+
+  "winter_Thu4": "Miss Jodie says the lack of sun makes her \"Melon-Collie\". #$e#How is that possible? She's not a fruit or a collie...$9",
+
+  "winter_Thu2": "Emily was complimenting Haley's shirt yesterday.#$b# She said it made her look \"Quite fetching!.\"#$e# Silly Emily! She makes clothes! She should know they can't fetch! $11",
+
+  "winter_Thu": "They call it a \"dogtors Paw-ffice\" but Mister Harvey still won't let me go in by myself...$9",
+
+  "winter_Fri10": "I love that I have a place to escape the cold! I can really appreciate how much fun snow is now that I don't have to sleep on it. #$e# Zuzu's snow wasn't like this though, it was all slushy and dirty! Not fun at all! $4",
+
+  "winter_Fri8": "They say there's \"snow place like home!\" What do you think, @? Is it true or does that seem kind of \"flakey!\" $10",
+
+  "winter_Fri6": "Sebby seems ruff around the edges but he is very nice!#$e# The other day he told Sam I was annoying, but then when Sam turned away he pat me on the head and whispered he \"didn't mean it\". $11",
+
+  "winter_Fri4": "Vincent read me a book yesterday! It was called \"Hairy Paw-ter\". $1#$e#He's been practicing his reading lately. I think he wants to impress Miss Penny. $11",
+
+  "winter_Fri2": "Sam asked me if my favorite band was \"the Beagles \" but I have no idea who they are!#$e# I wonder if they are any good though? $9",
+
+  "winter_Fri": "If it gets any colder, I'll become a \"chili dog!\" $11",
+
+  "winter_Sat10": "Fishing seems like it's really difficult- and how does that even work with all the ice in the way? Do the fish even like cold water? It must suck that they can't get out of it. $9",
+
+  "winter_Sat8": "I relate to Alex a lot. I know that sounds strange since I can't play sports but.... $6 #$b# Maybe it's because we both ended up in the valley because we lost everything...I guess this place just calls to anyone who needs it. $6",
+
+  "winter_Sat4": "Did you know Jas was afraid of me at first? #$b# I know I find it hard to believe too! $1#$e# Vincent told me she was just shy though. I'm glad! I do not want to be scary to anyone!#$e# It's hard to be sure of who you can trust so I'm glad she trusts me!",
+
+  "winter_Sat2": "Vincent told me he gets upset when Winter is over because his snowmen disappear...#$e# Guess you could say they both had a meltdown! $1",
+
+  "winter_Sat": "Yesterday Granny had a hard time moving because of the cold. It makes me worry when I see her like that so I stick around. $2\r\n#$q 157/158 fallbackgranny#Do you think I'm hovering or over-stepping, @?\r\n#$r 157 20 grannygood#Not at all. It's wonderful that you care as long as you're not overbearing.\r\n#$r 158 0 grannybad#Probably. You have a lot of energy and that may be too much for Granny to handle.",
+
+  "grannygood": "You're right! I think it's a good thing to keep an eye on the ones we care about! $1",
+
+  "grannybad": "Oh...maybe I should lay off a bit... $11",
+
+  "fallbackgranny": "$p 157\r\n#I won't let Granny down! $10\r\n|Maybe I need to calm my energy... $11\r\n",
+
+  "winter_Sat6": "Linus is really cool! He's good at sleeping outside, just like me!#$e#... He's better at it though. In Zuzu, I would try to stay warm under cars...$4#$e# I'm much more suited to being a house pup! $11",
+
+  "winter_Sun10": "Those blue chickens Shane's raising... how did that even happen?#$b# Like, is he a mad genius when it comes to chicken genetics or does he just use blue food coloring and say it's natural? $9#$e# Mister Demitrius is a science guy, right? I wonder why he's not more interested in this.... $9",
+
+  "winter_Sun8": "I know it may sound silly, but sometimes I see small apple people. $4 #$e# What? Junimos? Is that what they're called? Wooooahh $7",
+
+  "winter_Sun6": "On days like this I wish I could sleep in but I just can't.#$b# It's like my legs want to run a mile a minute!",
+
+  "winter_Sun4": "Sebby's room always smells funny! I wonder why that is? Do you think he has a skunk friend? I hear they are really smart. $9",
+
+  "winter_Sun2": "I finally met that Wizard guy! He can talk to me too!#$e# I wish he would come out more. I think he could make a whole lotta friends. $11#$e# Sometimes people prefer to be alone though. Maybe he feels safer that way. $9#$e# It can be hard to trust when you feel safer alone. $6",
+
+  "winter_Sun": "Maru is very good at making things! I wish I was that creative $1#$b# I would make a treat dispenser! I'd put it in front of Pierre's store so everyone could admire it. $11",
+
+  "give_flowersA": "Yuck! I can't eat those! $4",
+
+  "give_flowersB": "I don't want those. $4",
+
+  "give_pendant": "What the heck even is that?",
+
+  "stardrop_gift": "Hey, check out this funny-shaped fruit I found! Do you want it? I think it's special so you should have it! $10",
+
+  "rejectNPCA": "Nope. Do not want. Denied. $8",
+
+  "rejectNPCB": "....No.... $2",
+
+  "reject_two_heartA": "I don't want that, thanks... $8",
+
+  "reject_two_heartB": "I REALLY dont want that.  $8",
+
+  "reject_four_heartA": "Those are bad for me. I dont want them.  $8",
+
+  "reject_four_heartB": "Yuck no!  $8",
+
+  "engageA": "You're silly! You can't marry me! I'm a dog! $10",
+
+  "engageB": "Are you okay? I dont want that $8",
+
+  "marriedA": "You're a good friend, but its a hard pass for me... $4",
+
+  "marriedB": "No way! That's icky! $8",
+
+  "refusal_no_heartsA": "No way!  $8",
+
+  "refusal_no_heartsB": "Nope. Just nope.  $8",
+
+  "refusal_knownA": "No thanks...  $8",
+
+  "refusal_knownB": "This is not for me... right?  $8",
+
+  "refusal_botherA": "Please stop... this is too much now. $2",
+
+  "refusal_botherB": "I'm not going to like you anymore if you keep doing this! $5",
+
+  "birthdayLoveA": "Bow Wow! A pawesome gift, and you remembered my birthday too! Thank you, @! $10#$e#",
+
+  "birthdayLoveB": "YIPpie! A Birthday Present for me?! I love this so much! ",
+
+  "birthdayLikeA": "What a great Birthday gift! I really like this! Thank you, @!",
+
+  "birthdayLikeB": "This is so great! I like this so much, @! Thank you!",
+
+  "birthdayDislikeA": "Oh uh...thanks for remembering my birthday at least. $4#$e#",
+
+  "birthdayDislikeB": "Oh a birthday gift....thaaanksss.$8#$e#",
+
+  "birthdayNeutralA": "Thank you so much for the Birthday present! $1",
+
+  "birthdayNeutralB": "Wow! This is cool! Thanks for the birthday gift!"
+			}

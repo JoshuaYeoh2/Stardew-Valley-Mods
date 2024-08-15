@@ -1,0 +1,3879 @@
+{
+	"Format": "2.1.0",
+
+"ConfigSchema": {
+        "MacMarriageCandidate": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Makes Mac a marriage candidate, limiting his storyline."
+        },
+        "YosefMarriageCandidate":{
+        	"AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Makes Yosef a marriage candidate, changing his storyline."
+        },
+        "RolfMarriageCandidate":{
+        	"AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Makes Rolf a marriage candidate, changing his storyline."
+        },
+        "NewFarm":{
+        	"AllowValues": "Original, Tiny",
+            "Default": "Original",
+            "Description": "Adds a new farm."
+        },
+        "NewFarmCleared":{
+        	"AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Determines whether trees, weeds, and such are spawned on the new farm near Stoffton."
+        },
+        "NewFarmPrice":{
+            "Default": "10000",
+            "Description": "Price of the new farm for sale in Stoffton."
+        },
+    },
+	
+	
+	"Changes":[
+//Adding Outdoor Maps
+// add map Custom_Crossroads
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_Crossroads",
+			"FromFile": "assets/NewMaps/FS_Crossroads.tmx"
+		},
+// add map Custom_Stof_NewPasture aka Rocky Ford
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_RockyFord",
+			"FromFile": "assets/newmaps/NewPasture.tmx"
+		},
+// add map Custom_Stof_Stoffton
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_Stoffton",
+			"FromFile": "assets/newmaps/Stoffton.tmx"
+		},
+// add map NewFarm - original, cleared
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_NewFarm",
+			"FromFile": "assets/newmaps/Lizzie_FarmClear.tmx",
+			"When": {"NewFarm": "Original",
+					"NewFarmCleared": true}
+		},
+// add map NewFarm - original, not cleared
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_NewFarm",
+			"FromFile": "assets/newmaps/Lizzie_Farm.tmx",
+			"When": {"NewFarm": "Original",
+					"NewFarmCleared": false}
+		},
+// add map NewFarm - Tiny, cleared
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_NewFarm",
+			"FromFile": "assets/newmaps/Tiny_FarmClear.tmx",
+			"When": {"NewFarm": "Tiny",
+					"NewFarmCleared": true}
+		},
+// add map NewFarm - Tiny, not cleared
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_NewFarm",
+			"FromFile": "assets/newmaps/Tiny_Farm.tmx",
+			"When": {"NewFarm": "Tiny",
+					"NewFarmCleared": false}
+		},
+// add location NewFarm when Original
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_NewFarm": {
+					"DisplayName": "{{i18n:Lizzie.Stoffton.FarmDisplayName}}",
+					"CreateOnLoad": { 
+						"MapPath": "Maps/Lizzie.Stoffton_NewFarm",
+						"AlwaysActive": true },
+					"DefaultArrivalTile": {
+					  "X": 82,
+					  "Y": 20
+					},
+					"ExcludeFromNpcPathfinding": false,
+					"CanPlantHere": true,
+					"CanBuildHere": true,
+					"CanHaveGreenRainSpawns": true,
+					"ArtifactSpots": [
+					  {
+						"Chance": 0.5,
+						"ApplyGenerousEnchantment": true,
+						"OneDebrisPerDrop": true,
+						"Precedence": 0,
+						"ContinueOnDrop": false,
+						"Condition": null,
+						"Id": "(O)382",
+						"ItemId": "(O)382",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 1,
+						"MaxStack": 3,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					  },
+					  {
+						"Chance": 0.1,
+						"ApplyGenerousEnchantment": true,
+						"OneDebrisPerDrop": true,
+						"Precedence": 0,
+						"ContinueOnDrop": false,
+						"Condition": null,
+						"Id": "(O)770",
+						"ItemId": "(O)770",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 1,
+						"MaxStack": 3,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					  },
+					  {
+						"Chance": 0.25,
+						"ApplyGenerousEnchantment": true,
+						"OneDebrisPerDrop": true,
+						"Precedence": 0,
+						"ContinueOnDrop": false,
+						"Condition": null,
+						"Id": "(O)390",
+						"ItemId": "(O)390",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 1,
+						"MaxStack": 3,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					  }
+					],
+					"FishAreas": {
+					  "RiverAndLargePond": {
+						"DisplayName": null,
+						"Position": {
+						  "X": 0,
+						  "Y": 0,
+						  "Width": 53,
+						  "Height": 55
+						},
+						"CrabPotFishTypes": [],
+						"CrabPotJunkChance": 0.2
+					  }
+					},
+					"Fish": [
+					  {
+						"Chance": 0.4,
+						"Season": null,
+						"FishAreaId": "RiverAndLargePond",
+						"BobberPosition": null,
+						"PlayerPosition": null,
+						"MinFishingLevel": 0,
+						"MinDistanceFromShore": 0,
+						"MaxDistanceFromShore": -1,
+						"ApplyDailyLuck": false,
+						"CuriosityLureBuff": -1.0,
+						"CatchLimit": -1,
+						"IsBossFish": false,
+						"SetFlagOnCatch": null,
+						"RequireMagicBait": false,
+						"Precedence": 0,
+						"IgnoreFishDataRequirements": true,
+						"CanBeInherited": true,
+						"ChanceModifiers": null,
+						"ChanceModifierMode": "Stack",
+						"ChanceBoostPerLuckLevel": 0.0,
+						"UseFishCaughtSeededRandom": false,
+						"Condition": null,
+						"Id": "LOCATION_FISH Forest BOBBER_X BOBBER_Y WATER_DEPTH",
+						"ItemId": "LOCATION_FISH Forest BOBBER_X BOBBER_Y WATER_DEPTH",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": -1,
+						"MaxStack": -1,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					  }
+					],
+					"Forage": [],
+					"MinDailyWeeds": 5,
+					"MaxDailyWeeds": 11,
+					"FirstDayWeedMultiplier": 15,
+					"MinDailyForageSpawn": 1,
+					"MaxDailyForageSpawn": 4,
+					"MaxSpawnedForageAtOnce": 6,
+					"ChanceForClay": 0.03,
+					"Music": [],
+					"MusicDefault": null,
+					"MusicContext": "Default",
+					"MusicIgnoredInRain": false,
+					"MusicIgnoredInSpring": false,
+					"MusicIgnoredInSummer": false,
+					"MusicIgnoredInFall": false,
+					"MusicIgnoredInFallDebris": false,
+					"MusicIgnoredInWinter": false,
+					"MusicIsTownTheme": false,
+					"CustomFields": null
+				}
+			},
+			"When": {"NewFarm": "Original"}
+		},
+// add location NewFarm when Tiny
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_NewFarm": {
+					"DisplayName": "{{i18n:Lizzie.Stoffton.FarmDisplayName}}",
+					"CreateOnLoad": { 
+						"MapPath": "Maps/Lizzie.Stoffton_NewFarm",
+						"AlwaysActive": true },
+					"DefaultArrivalTile": {
+					  "X": 62,
+					  "Y": 14
+					},
+					"ExcludeFromNpcPathfinding": false,
+					"CanPlantHere": true,
+					"CanBuildHere": true,
+					"CanHaveGreenRainSpawns": true,
+					"ArtifactSpots": [
+					  {
+						"Chance": 0.5,
+						"ApplyGenerousEnchantment": true,
+						"OneDebrisPerDrop": true,
+						"Precedence": 0,
+						"ContinueOnDrop": false,
+						"Condition": null,
+						"Id": "(O)382",
+						"ItemId": "(O)382",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 1,
+						"MaxStack": 3,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					  },
+					  {
+						"Chance": 0.1,
+						"ApplyGenerousEnchantment": true,
+						"OneDebrisPerDrop": true,
+						"Precedence": 0,
+						"ContinueOnDrop": false,
+						"Condition": null,
+						"Id": "(O)770",
+						"ItemId": "(O)770",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 1,
+						"MaxStack": 3,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					  },
+					  {
+						"Chance": 0.25,
+						"ApplyGenerousEnchantment": true,
+						"OneDebrisPerDrop": true,
+						"Precedence": 0,
+						"ContinueOnDrop": false,
+						"Condition": null,
+						"Id": "(O)390",
+						"ItemId": "(O)390",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": 1,
+						"MaxStack": 3,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					  }
+					],
+					"FishAreas": {
+					  "RiverAndLargePond": {
+						"DisplayName": null,
+						"Position": {
+						  "X": 74,
+						  "Y": 49,
+						  "Width": 12,
+						  "Height": 10
+						},
+						"CrabPotFishTypes": [],
+						"CrabPotJunkChance": 0.2
+					  }
+					},
+					"Fish": [
+					  {
+						"Chance": 0.4,
+						"Season": null,
+						"FishAreaId": "RiverAndLargePond",
+						"BobberPosition": null,
+						"PlayerPosition": null,
+						"MinFishingLevel": 0,
+						"MinDistanceFromShore": 0,
+						"MaxDistanceFromShore": -1,
+						"ApplyDailyLuck": false,
+						"CuriosityLureBuff": -1.0,
+						"CatchLimit": -1,
+						"IsBossFish": false,
+						"SetFlagOnCatch": null,
+						"RequireMagicBait": false,
+						"Precedence": 0,
+						"IgnoreFishDataRequirements": true,
+						"CanBeInherited": true,
+						"ChanceModifiers": null,
+						"ChanceModifierMode": "Stack",
+						"ChanceBoostPerLuckLevel": 0.0,
+						"UseFishCaughtSeededRandom": false,
+						"Condition": null,
+						"Id": "LOCATION_FISH Forest BOBBER_X BOBBER_Y WATER_DEPTH",
+						"ItemId": "LOCATION_FISH Forest BOBBER_X BOBBER_Y WATER_DEPTH",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": -1,
+						"MaxStack": -1,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					  }
+					],
+					"Forage": [],
+					"MinDailyWeeds": 1,
+					"MaxDailyWeeds": 5,
+					"FirstDayWeedMultiplier": 5,
+					"MinDailyForageSpawn": 4,
+					"MaxDailyForageSpawn": 12,
+					"MaxSpawnedForageAtOnce": 12,
+					"ChanceForClay": 0.03,
+					"Music": [],
+					"MusicDefault": null,
+					"MusicContext": "Default",
+					"MusicIgnoredInRain": false,
+					"MusicIgnoredInSpring": false,
+					"MusicIgnoredInSummer": false,
+					"MusicIgnoredInFall": false,
+					"MusicIgnoredInFallDebris": false,
+					"MusicIgnoredInWinter": false,
+					"MusicIsTownTheme": false,
+					"CustomFields": null
+				}
+			},
+			"When": {"NewFarm": "Tiny"}
+		},
+//Adding Warps for New Farm from Fostoria
+{
+         "Action": "EditMap",
+         "Target": "Maps/Fostoria.Stoffton_Fostoria",
+         "MapTiles": [
+		{
+			"Position": { "X": 3, "Y": 3 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Lizzie.Stoffton_NewFarm 52 68"
+			}
+		},
+		{
+			"Position": { "X": 4, "Y": 3 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Lizzie.Stoffton_NewFarm 52 68"
+			}
+		},
+		
+		],
+         "When": {	"HasMod |contains=Fostoria.Stoffton": true,
+         			"HasFlag": "FS_NewFarmDeed" },
+},
+//Adding Warps for New Farm from Crossroads
+{
+         "Action": "EditMap",
+         "Target": "Maps/Lizzie.Stoffton_Crossroads",
+         "MapTiles": [
+		{
+			"Position": { "X": 12, "Y": 18 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Lizzie.Stoffton_NewFarm 95 21"
+			}
+		},
+		{
+			"Position": { "X": 12, "Y": 19 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Lizzie.Stoffton_NewFarm 95 22"
+			}
+		},
+		{
+			"Position": { "X": 12, "Y": 20 },
+			"Layer": "Back",
+			"SetProperties": {
+				"TouchAction": "Warp Lizzie.Stoffton_NewFarm 95 23"
+			}
+		},
+		
+		],
+         "When": {"HasFlag": "FS_NewFarmDeed"},
+},
+
+
+//Adding Location Data for Outdoor Maps
+{
+    "LogName": "Adding Stoffton Outdoor Locations",
+    "Action": "Include",
+    "FromFile": "Assets/data/StofftonOutdoor.json"
+},
+//Adding Indoor Locations
+// add map NewFarm Cave
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_FarmCave",
+			"FromFile": "assets/newmaps/Lizzie_FarmCave.tmx"
+		},
+
+		// add location NewFarm Cave
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_FarmCave": {
+					"CreateOnLoad": { 
+						"MapPath": "Maps/Lizzie.Stoffton_FarmCave",	
+						"Type": "StardewValley.Locations.IslandFarmHouse",
+					 }, 
+				},
+			}
+		},
+
+// add map Custom_Stof_Academy
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_Academy",
+			"FromFile": "assets/newmaps/stoffton/Stof_Academy.tmx"
+		},
+
+		// add location Custom_Stof_Academy
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_Academy": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_Academy" },
+					"FormerLocationNames": [ "Custom_Stof_Academy" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_Academy_Temp
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_Academy_Temp",
+			"FromFile": "assets/newmaps/stoffton/Stof_Academy_Temp.tmx"
+		},
+
+		// add location Custom_Stof_Academy_Temp
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_Academy_Temp": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_Academy_Temp" },
+					"FormerLocationNames": [ "Custom_Stof_Academy_Temp" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_AirplaneShed
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_AirplaneShed",
+			"FromFile": "assets/newmaps/Stof_AirplaneShed.tmx"
+		},
+
+		// add location Custom_Stof_AirplaneShed
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_AirplaneShed": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_AirplaneShed" },
+					"FormerLocationNames": [ "Custom_Stof_AirplaneShed" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_Aqua
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_Aqua",
+			"FromFile": "assets/newmaps/stoffton/Stof_Aqua.tmx"
+		},
+
+		// add location Custom_Stof_Aqua
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_Aqua": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_Aqua" },
+					"FormerLocationNames": [ "Custom_Stof_Aqua" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_Blacksmith
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_Blacksmith",
+			"FromFile": "assets/newmaps/stoffton/Stof_Blacksmith.tmx"
+		},
+
+		// add location Custom_Stof_Blacksmith
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_Blacksmith": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_Blacksmith" },
+					"FormerLocationNames": [ "Custom_Stof_Blacksmith" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_BlacksmithSecond
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_BlacksmithSecond",
+			"FromFile": "assets/newmaps/stoffton/Stof_BlacksmithSecond.tmx"
+		},
+
+		// add location Custom_Stof_BlacksmithSecond
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_BlacksmithSecond": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_BlacksmithSecond" },
+					"FormerLocationNames": [ "Custom_Stof_BlacksmithSecond" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_Boarding
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_Boarding",
+			"FromFile": "assets/newmaps/stoffton/Stof_Boarding.tmx"
+		},
+
+		// add location Custom_Stof_Boarding
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_Boarding": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_Boarding" },
+					"FormerLocationNames": [ "Custom_Stof_Boarding" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_CabinEast
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_CabinEast",
+			"FromFile": "assets/newmaps/Stof_Cabin1.tmx"
+		},
+
+		// add location Custom_Stof_CabinEast
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_CabinEast": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_CabinEast" },
+					"FormerLocationNames": [ "Custom_Stof_CabinEast" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_CabinWest
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_CabinWest",
+			"FromFile": "assets/newmaps/Stof_Cabin2.tmx"
+		},
+
+		// add location Custom_Stof_CabinWest
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_CabinWest": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_CabinWest" },
+					"FormerLocationNames": [ "Custom_Stof_CabinWest" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_Cafe
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_Cafe",
+			"FromFile": "assets/newmaps/stoffton/Stof_Cafe.tmx"
+		},
+
+		// add location Custom_Stof_Cafe
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_Cafe": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_Cafe" },
+					"FormerLocationNames": [ "Custom_Stof_Cafe" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_Clothes
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_Clothes",
+			"FromFile": "assets/newmaps/stoffton/Stof_Clothes.tmx"
+		},
+
+		// add location Custom_Stof_Clothes
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_Clothes": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_Clothes" },
+					"FormerLocationNames": [ "Custom_Stof_Clothes" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_Dad
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_Dad",
+			"FromFile": "assets/newmaps/stoffton/Stof_Dad.tmx"
+		},
+
+		// add location Custom_Stof_Dad
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_Dad": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_Dad" },
+					"FormerLocationNames": [ "Custom_Stof_Dad" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_DadSecond
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_DadSecond",
+			"FromFile": "assets/newmaps/stoffton/Stof_DadSecond.tmx"
+		},
+
+		// add location Custom_Stof_DadSecond
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_DadSecond": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_DadSecond" },
+					"FormerLocationNames": [ "Custom_Stof_DadSecond" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_Drinks
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_Drinks",
+			"FromFile": "assets/newmaps/stoffton/Stof_Drinks.tmx"
+		},
+
+		// add location Custom_Stof_Drinks
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_Drinks": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_Drinks" },
+					"FormerLocationNames": [ "Custom_Stof_Drinks" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_Dwarf
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_Dwarf",
+			"FromFile": "assets/newmaps/Stof_Dwarf.tmx"
+		},
+
+		// add location Custom_Stof_Dwarf
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_Dwarf": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_Dwarf" },
+					"FormerLocationNames": [ "Custom_Stof_Dwarf" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_FionaCabin
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_FionaCabin",
+			"FromFile": "assets/newmaps/Stof_Cabin.tmx"
+		},
+
+		// add location Custom_Stof_FionaCabin
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_FionaCabin": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_FionaCabin" },
+					"FormerLocationNames": [ "Custom_Stof_FionaCabin" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_Fish
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_Fish",
+			"FromFile": "assets/newmaps/stoffton/Stof_Fish.tmx"
+		},
+
+		// add location Custom_Stof_Fish
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_Fish": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_Fish" },
+					"FormerLocationNames": [ "Custom_Stof_Fish" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_Flower
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_Flower",
+			"FromFile": "assets/newmaps/stoffton/Stof_Flower.tmx"
+		},
+
+		// add location Custom_Stof_Flower
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_Flower": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_Flower" },
+					"FormerLocationNames": [ "Custom_Stof_Flower" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_FlowerSecond
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_FlowerSecond",
+			"FromFile": "assets/newmaps/stoffton/Stof_FlowerSecond.tmx"
+		},
+
+		// add location Custom_Stof_FlowerSecond
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_FlowerSecond": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_FlowerSecond" },
+					"FormerLocationNames": [ "Custom_Stof_FlowerSecond" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_Gems
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_Gems",
+			"FromFile": "assets/newmaps/stoffton/Stof_Gems.tmx"
+		},
+
+		// add location Custom_Stof_Gems
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_Gems": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_Gems" },
+					"FormerLocationNames": [ "Custom_Stof_Gems" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_Goblin
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_Goblin",
+			"FromFile": "assets/newmaps/Stof_Goblin.tmx"
+		},
+
+		// add location Custom_Stof_Goblin
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_Goblin": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_Goblin" },
+					"FormerLocationNames": [ "Custom_Stof_Goblin" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_Grocery
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_Grocery",
+			"FromFile": "assets/newmaps/stoffton/Stof_Grocery.tmx"
+		},
+
+		// add location Custom_Stof_Grocery
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_Grocery": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_Grocery" },
+					"FormerLocationNames": [ "Custom_Stof_Grocery" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_Hotel
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_Hotel",
+			"FromFile": "assets/newmaps/stoffton/Stof_Hotel.tmx"
+		},
+
+		// add location Custom_Stof_Hotel
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_Hotel": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_Hotel" },
+					"FormerLocationNames": [ "Custom_Stof_Hotel" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_JosefHouse
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_JosefHouse",
+			"FromFile": "assets/newmaps/JosefHouseRuined.tmx"
+		},
+
+		// add location Custom_Stof_JosefHouse
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_JosefHouse": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_JosefHouse" },
+					"FormerLocationNames": [ "Custom_Stof_JosefHouse" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_MacHouse
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_MacHouse",
+			"FromFile": "assets/newmaps/MacHouseRuined.tmx"
+		},
+
+		// add location Custom_Stof_MacHouse
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_MacHouse": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_MacHouse" },
+					"FormerLocationNames": [ "Custom_Stof_MacHouse" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_MHSecond
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_MHSecond",
+			"FromFile": "assets/newmaps/stoffton/Stof_MillHouse2.tmx"
+		},
+
+		// add location Custom_Stof_MHSecond
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_MHSecond": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_MHSecond" },
+					"FormerLocationNames": [ "Custom_Stof_MHSecond" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_Mill
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_Mill",
+			"FromFile": "assets/newmaps/stoffton/Stof_Mill.tmx"
+		},
+
+		// add location Custom_Stof_Mill
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_Mill": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_Mill" },
+					"FormerLocationNames": [ "Custom_Stof_Mill" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_MillHouse
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_MillHouse",
+			"FromFile": "assets/newmaps/stoffton/Stof_MillHouse.tmx"
+		},
+
+		// add location Custom_Stof_MillHouse
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_MillHouse": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_MillHouse" },
+					"FormerLocationNames": [ "Custom_Stof_MillHouse" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_Old
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_Old",
+			"FromFile": "assets/newmaps/stoffton/Stof_Old.tmx"
+		},
+
+		// add location Custom_Stof_Old
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_Old": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_Old" },
+					"FormerLocationNames": [ "Custom_Stof_Old" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_Pickles
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_Pickles",
+			"FromFile": "assets/newmaps/stoffton/Stof_Pickles.tmx"
+		},
+
+		// add location Custom_Stof_Pickles
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_Pickles": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_Pickles" },
+					"FormerLocationNames": [ "Custom_Stof_Pickles" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_RolfHouse
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_RolfHouse",
+			"FromFile": "assets/newmaps/RolfHouseRuined.tmx"
+		},
+
+		// add location Custom_Stof_RolfHouse
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_RolfHouse": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_RolfHouse" },
+					"FormerLocationNames": [ "Custom_Stof_RolfHouse" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_SchaferBarn
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_SchaferBarn",
+			"FromFile": "assets/newmaps/StofBarn.tmx"
+		},
+
+		// add location Custom_Stof_SchaferBarn
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_SchaferBarn": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_SchaferBarn" },
+					"FormerLocationNames": [ "Custom_Stof_SchaferBarn" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_SchaferBarn1
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_SchaferBarn1",
+			"FromFile": "assets/newmaps/StofBarn1.tmx"
+		},
+
+		// add location Custom_Stof_SchaferBarn1
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_SchaferBarn1": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_SchaferBarn1" },
+					"FormerLocationNames": [ "Custom_Stof_SchaferBarn1" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_SchaferBarn2
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_SchaferBarn2",
+			"FromFile": "assets/newmaps/StofBarn2.tmx"
+		},
+
+		// add location Custom_Stof_SchaferBarn2
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_SchaferBarn2": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_SchaferBarn2" },
+					"FormerLocationNames": [ "Custom_Stof_SchaferBarn2" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_SchaferCoop
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_SchaferCoop",
+			"FromFile": "assets/newmaps/StofCoop.tmx"
+		},
+
+		// add location Custom_Stof_SchaferCoop
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_SchaferCoop": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_SchaferCoop" },
+					"FormerLocationNames": [ "Custom_Stof_SchaferCoop" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_SchaferShed
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_SchaferShed",
+			"FromFile": "assets/newmaps/Stof_SchaferShed.tmx"
+		},
+
+		// add location Custom_Stof_SchaferShed
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_SchaferShed": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_SchaferShed" },
+					"FormerLocationNames": [ "Custom_Stof_SchaferShed" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_Shepherd
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_Shepherd",
+			"FromFile": "assets/newmaps/F_Shepherd2.tmx"
+		},
+
+		// add location Custom_Stof_Shepherd
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_Shepherd": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_Shepherd" },
+					"FormerLocationNames": [ "Custom_Stof_Shepherd" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_ShepherdSecond
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_ShepherdSecond",
+			"FromFile": "assets/newmaps/F_ShepherdSecond.tmx"
+		},
+
+		// add location Custom_Stof_ShepherdSecond
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_ShepherdSecond": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_ShepherdSecond" },
+					"FormerLocationNames": [ "Custom_Stof_ShepherdSecond" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_Silas4heart
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_Silas4heart",
+			"FromFile": "assets/newmaps/StofftonSilas4.tmx"
+		},
+
+		// add location Custom_Stof_Silas4heart
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_Silas4heart": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_Silas4heart" },
+					"FormerLocationNames": [ "Custom_Stof_Silas4heart" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_Silas6_1_heart
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_Silas6_1_heart",
+			"FromFile": "assets/newmaps/StofftonSilas6_1.tmx"
+		},
+
+		// add location Custom_Stof_Silas6_1_heart
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_Silas6_1_heart": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_Silas6_1_heart" },
+					"FormerLocationNames": [ "Custom_Stof_Silas6_1_heart" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_Silas6_2_heart
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_Silas6_2_heart",
+			"FromFile": "assets/newmaps/StofftonSilas6_2.tmx"
+		},
+
+		// add location Custom_Stof_Silas6_2_heart
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_Silas6_2_heart": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_Silas6_2_heart" },
+					"FormerLocationNames": [ "Custom_Stof_Silas6_2_heart" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_Silas8_1_heart
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_Silas8_1_heart",
+			"FromFile": "assets/newmaps/NewPastureSilas8_1.tmx"
+		},
+
+		// add location Custom_Stof_Silas8_1_heart
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_Silas8_1_heart": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_Silas8_1_heart" },
+					"FormerLocationNames": [ "Custom_Stof_Silas8_1_heart" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_Silas8_2_heart
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_Silas8_2_heart",
+			"FromFile": "assets/newmaps/NewPastureSilas8_2.tmx"
+		},
+
+		// add location Custom_Stof_Silas8_2_heart
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_Silas8_2_heart": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_Silas8_2_heart" },
+					"FormerLocationNames": [ "Custom_Stof_Silas8_2_heart" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_Tailor
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_Tailor",
+			"FromFile": "assets/newmaps/stoffton/Stof_Tailor.tmx"
+		},
+
+		// add location Custom_Stof_Tailor
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_Tailor": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_Tailor" },
+					"FormerLocationNames": [ "Custom_Stof_Tailor" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_Yoba
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_Yoba",
+			"FromFile": "assets/newmaps/stoffton/Stof_Yoba.tmx"
+		},
+
+		// add location Custom_Stof_Yoba
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_Yoba": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_Yoba" },
+					"FormerLocationNames": [ "Custom_Stof_Yoba" ]
+				}
+			}
+		},
+
+// add map Custom_Stof_Yosef
+		{
+			"Action": "Load",
+			"Target": "Maps/Lizzie.Stoffton_Yosef",
+			"FromFile": "assets/newmaps/stoffton/Stof_YosefRuined.tmx"
+		},
+
+		// add location Custom_Stof_Yosef
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Lizzie.Stoffton_Yosef": {
+					"CreateOnLoad": { "MapPath": "Maps/Lizzie.Stoffton_Yosef" },
+					"FormerLocationNames": [ "Custom_Stof_Yosef" ]
+				}
+			}
+		},
+{
+            "Action": "EditMap",
+            "Target": "Maps/Lizzie.Stoffton_MHSecond",
+            "FromFile": "assets/NewMaps/Stoffton/Stof_Twins.tmx",
+            "FromArea": { "X": 8, "Y": 1, "Width": 7, "Height": 3 },
+            "ToArea": { "X": 8, "Y": 1, "Width": 7, "Height": 3 },
+            "When": {
+            "HasSeenEvent": "11666016",
+            "HasSeenEvent |contains=11666014": false
+            }
+},
+{
+            "Action": "EditMap",
+            "Target": "Maps/Lizzie.Stoffton_MHSecond",
+            "FromFile": "assets/NewMaps/Stoffton/Stof_Twins.tmx",
+            "FromArea": { "X": 14, "Y": 4, "Width": 1, "Height": 1 },
+            "ToArea": { "X": 14, "Y": 4, "Width": 1, "Height": 1 },
+            "When": {	"HasSeenEvent": "11666016",
+            			"HasSeenEvent |contains=11666014": false}
+},
+{
+            "Action": "EditMap",
+            "Target": "Maps/Lizzie.Stoffton_MHSecond",
+            "FromFile": "assets/NewMaps/Stoffton/Stof_Twins.tmx",
+            "FromArea": { "X": 8, "Y": 4, "Width": 5, "Height": 6 },
+            "ToArea": { "X": 8, "Y": 4, "Width": 5, "Height": 6 },
+            "When": {"HasSeenEvent": "11666019"}
+},
+{
+            "Action": "EditMap",
+            "Target": "Maps/Lizzie.Stoffton_Boarding",
+            "FromFile": "assets/NewMaps/Stoffton/Stof_Boarding_Changes.tmx",
+            "FromArea": { "X": 24, "Y": 3, "Width": 20, "Height": 9 },
+            "ToArea": { "X": 24, "Y": 3, "Width": 20, "Height": 9 },
+            "When": {
+            "HasSeenEvent": "11666098",
+            }
+},
+//completes room swap for twins
+{
+            "Action": "EditMap",
+            "Target": "Maps/Lizzie.Stoffton_MHSecond",
+            "FromFile": "assets/NewMaps/Stoffton/Stof_Twins2.tmx",
+            "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 15 },
+            "ToArea": { "X": 0, "Y": 0, "Width": 32, "Height": 15 },
+            "When": {"HasSeenEvent": "11666014"}
+},
+//Map Edits for Cafe
+{
+            "Action": "EditMap",
+            "Target": "Maps/Lizzie.Stoffton_Cafe",
+            "FromFile": "assets/NewMaps/Stoffton/Stof_Cafe_Options.tmx",
+            "FromArea": { "X": 24, "Y": 11, "Width": 5, "Height": 3 },
+            "ToArea": { "X": 24, "Y": 11, "Width": 5, "Height": 3 },
+            "When": {"Hearts:LexiFS": "8, 9, 10"}
+},
+{
+            "Action": "EditMap",
+            "Target": "Maps/Lizzie.Stoffton_Cafe",
+            "FromFile": "assets/NewMaps/Stoffton/Stof_Cafe_Options.tmx",
+            "FromArea": { "X": 16, "Y": 11, "Width": 5, "Height": 3 },
+            "ToArea": { "X": 16, "Y": 11, "Width": 5, "Height": 3 },
+            "When": {"Season": "Summer"}
+},
+{
+            "Action": "EditMap",
+            "Target": "Maps/Lizzie.Stoffton_Cafe",
+            "FromFile": "assets/NewMaps/Stoffton/Stof_Cafe_Options.tmx",
+            "FromArea": { "X": 2, "Y": 13, "Width": 5, "Height": 3 },
+            "ToArea": { "X": 16, "Y": 11, "Width": 5, "Height": 3 },
+            "When": {"Season": "Fall"}
+},
+{
+            "Action": "EditMap",
+            "Target": "Maps/Lizzie.Stoffton_Cafe",
+            "FromFile": "assets/NewMaps/Stoffton/Stof_Cafe_Options.tmx",
+            "FromArea": { "X": 7, "Y": 13, "Width": 5, "Height": 3 },
+            "ToArea": { "X": 16, "Y": 11, "Width": 5, "Height": 3 },
+            "When": {"Season": "Winter"}
+},
+//Map Edits for Mac's Quest to Repair House
+{
+            "Action": "EditMap",
+            "Target": "Maps/Lizzie.Stoffton_RockyFord",
+            "FromFile": "assets/NewMaps/NewPastureEdits.tmx",
+            "FromArea": { "X": 38, "Y": 6, "Width": 9, "Height": 10 },
+            "ToArea": { "X": 38, "Y": 3, "Width": 9, "Height": 10 },
+            "When": {"HasSeenEvent": "11666001"}
+},
+//Map Edits when Mac's House is Repaired
+{
+            "Action": "EditMap",
+            "Target": "Maps/Lizzie.Stoffton_RockyFord",
+            "FromFile": "assets/NewMaps/NewPastureComplete.tmx",
+            "FromArea": { "X": 38, "Y": 6, "Width": 8, "Height": 8 },
+            "ToArea": { "X": 38, "Y": 3, "Width": 8, "Height": 8 },
+            "When": {"HasFlag": "FS_MacRepair"}
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/Lizzie.Stoffton_MacHouse",
+         "FromFile": "assets/NewMaps/MacHouse.tmx",
+         "When": {"HasFlag": "FS_MacRepair"}
+      },
+      {
+         "Action": "EditMap",
+         "Target": "Maps/Lizzie.Stoffton_MacHouse",
+         "FromFile": "assets/NewMaps/MacHouseMarried.tmx",
+         "When": {"HasFlag": "FS_MacMarried"}
+      },
+//Map Edits when Josef's House is Repaired
+{
+            "Action": "EditMap",
+            "Target": "Maps/Lizzie.Stoffton_RockyFord",
+            "FromFile": "assets/NewMaps/NewPastureComplete.tmx",
+            "FromArea": { "X": 110, "Y": 0, "Width": 7, "Height": 9 },
+            "ToArea": { "X": 110, "Y": 0, "Width": 7, "Height": 9 },
+            "When": {"HasFlag": "FS_JosefRepair"}
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/Lizzie.Stoffton_JosefHouse",
+         "FromFile": "assets/NewMaps/JosefHouse.tmx",
+         "When": {"HasFlag": "FS_JosefRepair"}
+},
+//Map Edits Adding Odo's Plane
+{
+            "Action": "EditMap",
+            "Target": "Maps/Lizzie.Stoffton_RockyFord",
+            "FromFile": "assets/NewMaps/NewPastureSilas8_1.tmx",
+            "FromArea": { "X": 17, "Y": 5, "Width": 8, "Height": 4 },
+            "ToArea": { "X": 17, "Y": 5, "Width": 8, "Height": 4 },
+            "When": {"HasFlag": "FS_OdoPlane"}
+},  
+//Map Edits Adding Rolf's Field
+{
+            "Action": "EditMap",
+            "Target": "Maps/Lizzie.Stoffton_RockyFord",
+            "FromFile": "assets/NewMaps/NewPastureRolf3.tmx",
+            "FromArea": { "X": 31, "Y": 28, "Width": 18, "Height": 8 },
+            "ToArea": { "X": 31, "Y": 28, "Width": 18, "Height": 8 },
+            "When": {"HasFlag": "FS_RolfField"}
+},
+{
+            "Action": "EditMap",
+            "Target": "Maps/Lizzie.Stoffton_RockyFord",
+            "FromFile": "assets/NewMaps/NewPastureRolf3.tmx",
+            "FromArea": { "X": 28, "Y": 32, "Width": 1, "Height": 1 },
+            "ToArea": { "X": 28, "Y": 32, "Width": 1, "Height": 1 },
+            "When": {"HasFlag": "FS_RolfField"}
+},
+//Map Edits for Rolf's established field
+{
+            "Action": "EditMap",
+            "Target": "Maps/Lizzie.Stoffton_RockyFord",
+            "FromFile": "assets/NewMaps/NewPastureRolf.tmx",
+            "FromArea": { "X": 31, "Y": 28, "Width": 18, "Height": 8 },
+            "ToArea": { "X": 31, "Y": 28, "Width": 18, "Height": 8 },
+            "When": {"HasFlag": "FS_RolfFieldGrow"}
+},
+{
+            "Action": "EditMap",
+            "Target": "Maps/Lizzie.Stoffton_RockyFord",
+            "FromFile": "assets/NewMaps/NewPastureRolf.tmx",
+            "FromArea": { "X": 28, "Y": 32, "Width": 1, "Height": 1 },
+            "ToArea": { "X": 28, "Y": 32, "Width": 1, "Height": 1 },
+            "When": {"HasFlag": "FS_RolfFieldGrow"}
+},
+//Map Edits if Rolf abandons farming
+{
+            "Action": "EditMap",
+            "Target": "Maps/Lizzie.Stoffton_RockyFord",
+            "FromFile": "assets/NewMaps/NewPastureRolf2.tmx",
+            "FromArea": { "X": 31, "Y": 28, "Width": 18, "Height": 8 },
+            "ToArea": { "X": 31, "Y": 28, "Width": 18, "Height": 8 },
+            "When": {"HasFlag": "FS_RolfFieldAbandon"}
+},
+//room edits after Rolf's explosion
+{
+            "Action": "EditMap",
+            "Target": "Maps/Lizzie.Stoffton_ShepherdSecond",
+            "FromFile": "assets/NewMaps/F_ShepherdSecondRolf.tmx",
+            "FromArea": { "X": 15, "Y": 7, "Width": 3, "Height": 3 },
+            "ToArea": { "X": 15, "Y": 7, "Width": 3, "Height": 3 },
+            "When": {"HasSeenEvent": "11666227"}
+},
+//Map Edits when Rolf's House is Repaired
+{
+            "Action": "EditMap",
+            "Target": "Maps/Lizzie.Stoffton_RockyFord",
+            "FromFile": "assets/NewMaps/NewPastureRolf2.tmx",
+            "FromArea": { "X": 26, "Y": 27, "Width": 5, "Height": 7 },
+            "ToArea": { "X": 26, "Y": 27, "Width": 5, "Height": 7 },
+            "When": {"HasFlag": "FS_RolfRepair"}
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/Lizzie.Stoffton_RolfHouse",
+         "FromFile": "assets/NewMaps/RolfHouseRepaired.tmx",
+         "When": {"HasFlag": "FS_RolfRepair"}
+},     
+ //Adding Purchasable NewFarm
+{
+    "LogName": "Adding Purchasable Farm",
+    "Action": "Include",
+    "FromFile": "Assets/data/StofftonNewFarm.json"
+},
+
+
+//Making my chairs function
+{ 
+	"Action": "EditData",
+	"Target": "Data/ChairTiles",
+	"Entries": {
+	"z_furniture/0/1": "1/1/down/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/1/1": "1/1/right/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/2/1": "1/1/left/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/3/1": "1/1/down/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/4/1": "1/1/right/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/5/1": "1/1/left/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/6/1": "1/1/down/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/7/1": "1/1/right/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/8/1": "1/1/left/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/9/1": "1/1/down/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/10/1": "1/1/right/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/11/1": "1/1/left/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/12/1": "1/1/down/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/13/1": "1/1/right/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/14/1": "1/1/left/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/15/1": "1/1/down/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/16/1": "1/1/right/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/17/1": "1/1/left/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/18/1": "1/1/down/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/19/1": "1/1/right/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/20/1": "1/1/left/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/21/1": "1/1/down/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/22/1": "1/1/right/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/23/1": "1/1/left/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/24/1": "1/1/down/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/25/1": "1/1/right/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/26/1": "1/1/left/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/27/1": "1/1/down/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/28/1": "1/1/right/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/29/1": "1/1/left/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/30/1": "1/1/default/stool/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/31/1": "1/1/default/stool/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/0/3": "1/1/down/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/1/3": "1/1/right/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/2/3": "1/1/left/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/3/3": "1/1/down/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/4/3": "1/1/right/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/5/3": "1/1/left/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/6/3": "1/1/down/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/7/3": "1/1/right/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/8/3": "1/1/left/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/9/3": "1/1/down/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/10/3": "1/1/right/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/11/3": "1/1/left/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/12/3": "1/1/down/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/13/3": "1/1/right/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/14/3": "1/1/left/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/15/3": "1/1/down/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/16/3": "1/1/right/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/17/3": "1/1/left/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/18/3": "1/1/down/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/19/3": "1/1/right/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/20/3": "1/1/left/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/21/3": "1/1/down/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/22/3": "1/1/right/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/23/3": "1/1/left/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/24/3": "1/1/down/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/25/3": "1/1/right/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/26/3": "1/1/left/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/27/3": "1/1/down/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/28/3": "1/1/right/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/29/3": "1/1/left/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/30/3": "1/1/default/stool/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/31/3": "1/1/default/stool/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/0/5": "1/1/down/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/1/5": "1/1/right/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/2/5": "1/1/left/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/3/5": "1/1/down/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/4/5": "1/1/right/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/5/5": "1/1/left/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/6/5": "1/1/down/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/7/5": "1/1/right/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/8/5": "1/1/left/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/0/7": "2/1/down/bench/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/5/7": "2/1/down/bench/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/10/7": "2/1/down/bench/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/15/7": "2/1/down/bench/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/20/7": "2/1/down/bench/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/1/10": "1/1/down/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/7/10": "1/1/down/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/13/10": "1/1/down/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/19/10": "1/1/down/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/25/10": "1/1/down/chair/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/1/14": "1/1/down/couch/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/9/14": "1/1/down/couch/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/17/14": "1/1/down/couch/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/25/14": "1/1/down/couch/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/1/17": "1/1/down/couch/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/9/17": "1/1/down/couch/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/17/17": "1/1/down/couch/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/25/17": "1/1/down/couch/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/1/86": "2/1/down/couch/-1/-1/false/Assets\\ImagineChairTiles",
+
+"z_furniture/5/86": "1/3/right/chair/8/11/false/Assets\\ImagineChairTiles",
+"z_furniture/29/78": "1/3/left/chair/9/11/false/Assets\\ImagineChairTiles",
+
+"z_furniture/30/39": "2/1/down/booth/6/15/false/Assets\\ImagineChairTiles",
+"z_furniture/30/40": "1/1/up/booth/3/15/false/Assets\\ImagineChairTiles",
+"z_furniture/31/40": "1/1/up/booth/4/15/false/Assets\\ImagineChairTiles",
+"z_furniture/22/33": "2/1/down/booth/4/15/false/Assets\\ImagineChairTiles",
+"z_furniture/22/34": "1/1/up/booth/0/15/false/Assets\\ImagineChairTiles",
+"z_furniture/23/34": "1/1/up/booth/1/15/false/Assets\\ImagineChairTiles",
+
+"z_furniture/2/7": "1/2/right/bench/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/7/7": "1/2/right/bench/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/12/7": "1/2/right/bench/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/17/7": "1/2/right/bench/3/12/false/Assets\\ImagineChairTiles",
+"z_furniture/22/7": "1/2/right/bench/4/12/false/Assets\\ImagineChairTiles",
+
+"z_furniture/25/7": "1/2/left/bench/5/12/false/Assets\\ImagineChairTiles",
+"z_furniture/26/7": "1/2/left/bench/6/12/false/Assets\\ImagineChairTiles",
+"z_furniture/27/7": "1/2/left/bench/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/28/7": "1/2/left/bench/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/29/7": "1/2/left/bench/-1/-1/false/Assets\\ImagineChairTiles",
+
+"z_furniture/3/10": "1/2/left/couch/2/2/false/Assets\\ImagineChairTiles",
+"z_furniture/9/10": "1/2/left/couch/3/2/false/Assets\\ImagineChairTiles",
+"z_furniture/15/10": "1/2/left/couch/4/2/false/Assets\\ImagineChairTiles",
+"z_furniture/21/10": "1/2/left/couch/5/2/false/Assets\\ImagineChairTiles",
+"z_furniture/27/10": "1/2/left/couch/6/2/false/Assets\\ImagineChairTiles",
+
+"z_furniture/0/20": "1/2/left/couch/0/12/false/Assets\\ImagineChairTiles",
+"z_furniture/2/20": "1/2/left/couch/1/12/false/Assets\\ImagineChairTiles",
+"z_furniture/4/20": "1/2/left/couch/2/12/false/Assets\\ImagineChairTiles",
+
+"z_furniture/4/14": "1/2/right/couch/7/2/false/Assets\\ImagineChairTiles",
+"z_furniture/12/14": "1/2/right/couch/8/2/false/Assets\\ImagineChairTiles",
+"z_furniture/20/14": "1/2/right/couch/9/2/false/Assets\\ImagineChairTiles",
+"z_furniture/28/14": "1/2/right/couch/10/2/false/Assets\\ImagineChairTiles",
+
+"z_furniture/4/17": "1/2/right/couch/11/2/false/Assets\\ImagineChairTiles",
+"z_furniture/12/17": "1/2/right/couch/13/2/false/Assets\\ImagineChairTiles",
+"z_furniture/20/17": "1/2/right/couch/12/2/false/Assets\\ImagineChairTiles",
+"z_furniture/28/17": "1/2/right/couch/14/2/false/Assets\\ImagineChairTiles",
+
+"z_furniture/9/5": "1/1/up/highback_chair/0/9/false/Assets\\ImagineChairTiles",
+"z_furniture/10/5": "1/1/up/highback_chair/1/9/false/Assets\\ImagineChairTiles",
+"z_furniture/11/5": "1/1/up/highback_chair/2/9/false/Assets\\ImagineChairTiles",
+"z_furniture/12/5": "1/1/up/highback_chair/3/9/false/Assets\\ImagineChairTiles",
+"z_furniture/13/5": "1/1/up/highback_chair/4/9/false/Assets\\ImagineChairTiles",
+"z_furniture/14/5": "1/1/up/highback_chair/5/9/false/Assets\\ImagineChairTiles",
+"z_furniture/15/5": "1/1/up/highback_chair/6/9/false/Assets\\ImagineChairTiles",
+"z_furniture/16/5": "1/1/up/highback_chair/7/9/false/Assets\\ImagineChairTiles",
+"z_furniture/17/5": "1/1/up/highback_chair/8/9/false/Assets\\ImagineChairTiles",
+"z_furniture/18/5": "1/1/up/highback_chair/9/9/false/Assets\\ImagineChairTiles",
+"z_furniture/19/5": "1/1/up/highback_chair/10/9/false/Assets\\ImagineChairTiles",
+"z_furniture/20/5": "1/1/up/highback_chair/11/9/false/Assets\\ImagineChairTiles",
+"z_furniture/21/5": "1/1/up/highback_chair/12/9/false/Assets\\ImagineChairTiles",
+"z_furniture/22/5": "1/1/up/highback_chair/13/9/false/Assets\\ImagineChairTiles",
+"z_furniture/23/5": "1/1/up/highback_chair/14/9/false/Assets\\ImagineChairTiles",
+"z_furniture/24/5": "1/1/up/highback_chair/0/11/false/Assets\\ImagineChairTiles",
+"z_furniture/25/5": "1/1/up/highback_chair/1/11/false/Assets\\ImagineChairTiles",
+"z_furniture/26/5": "1/1/up/highback_chair/2/11/false/Assets\\ImagineChairTiles",
+"z_furniture/27/5": "1/1/up/highback_chair/3/11/false/Assets\\ImagineChairTiles",
+"z_furniture/28/5": "1/1/up/highback_chair/4/11/false/Assets\\ImagineChairTiles",
+"z_furniture/29/5": "1/1/up/highback_chair/5/11/false/Assets\\ImagineChairTiles",
+"z_furniture/30/5": "1/1/up/highback_chair/6/11/false/Assets\\ImagineChairTiles",
+"z_furniture/31/5": "1/1/up/highback_chair/7/11/false/Assets\\ImagineChairTiles",
+
+"z_furniture/3/7": "2/1/up/bench/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/8/7": "2/1/up/bench/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/13/7": "2/1/up/bench/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/18/7": "2/1/up/bench/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/23/7": "2/1/up/bench/-1/-1/false/Assets\\ImagineChairTiles",
+
+"z_furniture/6/14": "1/1/up/couch/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/14/14": "1/1/up/couch/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/22/14": "1/1/up/couch/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/30/14": "1/1/up/couch/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/6/17": "1/1/up/couch/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/14/17": "1/1/up/couch/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/22/17": "1/1/up/couch/-1/-1/false/Assets\\ImagineChairTiles",
+"z_furniture/30/17": "1/1/up/couch/-1/-1/false/Assets\\ImagineChairTiles",
+	}
+},
+
+{ //Editing Object Descriptions for Storyline Continuity
+	"Action": "EditData",
+	"Target": "Strings/StringsFromMaps",
+	"Entries": {
+  "AirplaneShed.1": "{{i18n:StringsFromMaps.AirplaneShed.1.1}}",
+  "AirplaneShed.2": "{{i18n:StringsFromMaps.AirplaneShed.2.1}}",
+  "AirplaneShed.3": "{{i18n:StringsFromMaps.AirplaneShed.3.1}}",
+  "AirplaneShed.4": "{{i18n:StringsFromMaps.AirplaneShed.4.1}}",
+  "AirplaneShed.5": "{{i18n:StringsFromMaps.AirplaneShed.5.1}}",
+  "Drinks.1": "{{i18n:StringsFromMaps.Drinks.1.1}}",
+  "Fish.1": "{{i18n:StringsFromMaps.Fish.1.1}}",
+  "Flower.1": "{{i18n:StringsFromMaps.Flower.1.1}}",
+  "Gems.1": "{{i18n:StringsFromMaps.Gems.1.1}}",
+  "Gems.2": "{{i18n:StringsFromMaps.Gems.2.1}}",
+  "Gems.3": "{{i18n:StringsFromMaps.Gems.3.1}}",
+  "Gems.4": "{{i18n:StringsFromMaps.Gems.4.1}}",
+  "Grocery.1": "{{i18n:StringsFromMaps.Grocery.1.1}}",
+  "Grocery.2": "{{i18n:StringsFromMaps.Grocery.2.1}}",
+  "Grocery.3": "{{i18n:StringsFromMaps.Grocery.3.1}}",
+  "Grocery.4": "{{i18n:StringsFromMaps.Grocery.4.1}}",
+  "Grocery.5": "{{i18n:StringsFromMaps.Grocery.5.1}}",
+  "Grocery.6": "{{i18n:StringsFromMaps.Grocery.6.1}}",
+  "Hotel.1": "{{i18n:StringsFromMaps.Hotel.1.1}}",
+  "Hotel.4": "{{i18n:StringsFromMaps.Hotel.4.1}}",
+  "Hotel.5": "{{i18n:StringsFromMaps.Hotel.5.1}}",
+  "Hotel.6": "{{i18n:StringsFromMaps.Hotel.6.1}}",
+  "NewPasture.1": "{{i18n:StringsFromMaps.NewPasture.1.1}}",
+  "NewPasture.2": "{{i18n:StringsFromMaps.NewPasture.2.1}}",
+  "NewPasture.3": "{{i18n:StringsFromMaps.NewPasture.3.1}}",
+  "NewPasture.4": "{{i18n:StringsFromMaps.NewPasture.4.1}}",
+  "NewPasture.5": "{{i18n:StringsFromMaps.NewPasture.5.1}}",
+  "NewPasture.6": "{{i18n:StringsFromMaps.NewPasture.6.1}}",
+  "Old.1": "{{i18n:StringsFromMaps.Old.1.1}}",
+  "Shepherd.1": "{{i18n:StringsFromMaps.Shepherd.1.1}}",
+  "Shepherd.2": "{{i18n:StringsFromMaps.Shepherd.2.1}}",
+  "Shepherd.3": "{{i18n:StringsFromMaps.Shepherd.3.1}}",
+  "Shepherd.4": "{{i18n:StringsFromMaps.Shepherd.4.1}}",
+  "Shepherd.5": "{{i18n:StringsFromMaps.Shepherd.5.1}}",
+  "Shepherd.6": "{{i18n:StringsFromMaps.Shepherd.6.1}}",
+  "Shepherd.7": "{{i18n:StringsFromMaps.Shepherd.7.1}}",
+  "Shepherd.8": "{{i18n:StringsFromMaps.Shepherd.8.1}}",
+  "Stof_Blacksmith.1": "{{i18n:StringsFromMaps.Stof_Blacksmith.1.1}}",
+  "Stoffton.Locked": "{{i18n:StringsFromMaps.Stoffton.Locked.1}}",
+  "Silas.1": "{{i18n:StringsFromMaps.Silas.1.1}}",
+  "Silas.2": "{{i18n:StringsFromMaps.Silas.2.1}}",
+  "Silas.3": "{{i18n:StringsFromMaps.Silas.3.1}}",
+  "Silas.4": "{{i18n:StringsFromMaps.Silas.4.1}}",
+  "Crossroads.1": "{{i18n:StringsFromMaps.Crossroads.1.1}}",
+	}
+},
+//Excluding NPCs from various festivals, events, requests, etc.
+{
+         "Action": "EditData",
+         "Target": "Data/CustomNPCExclusions",
+         "Entries": {
+"AlFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"AlexandriaFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"AlunaFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"BrinaFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"ClayFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"DahliaFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"EbbeFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"ErikFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"FabianaFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend", 
+"FelixFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"FionaFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"GarthFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"GerhardFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"GretaFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"UniceFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"HelmutFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"IgnasFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"IslaFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"YosefFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"JohannaFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"JosefFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",  
+"JulianaFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"KendriaFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"LeanderFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"LexiFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"MacFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"MakenaFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"MarinaFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"MatiusFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"NadiaFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"OdoFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"OliveFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"OttoFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"QuinnFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"RhysFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"RolfFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"SeleneFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"SilasFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"TomasFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"VashaFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"WillFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"XenFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"GoblinWifeFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"GreenBabyFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"DwarfAFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"DwarfBFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"DwarfCFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"DwarfDFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+"DwarfEFS": "ShopDialog WinterStar ItemDelivery Socialize IslandVisit PerfectFriend",
+         },
+},
+//NPC Data
+//Adding NPCs
+{
+    "LogName": "Including NPC file",
+    "Action": "Include",
+    "FromFile": "Assets/data/StofftonNPCs.json"
+},
+    
+//NPC Gift Data
+
+	{
+      "LogName": "Gift tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+
+"AlFS": "{{i18n:FSLovedGift.AlFS}}/198/{{i18n:FSLikedGift.AlFS}}/296 410/{{i18n:FSDislikeGift.AlFS}}//{{i18n:FSHatedGift.AlFS}}//{{i18n:FSNeutralGift.AlFS}}// ",
+"AlexandriaFS": "{{i18n:FSLovedGift.AlexandriaFS}}/283 608 651/{{i18n:FSLikedGift.AlexandriaFS}}/221 904 612 296 410/{{i18n:FSDislikeGift.AlexandriaFS}}/196/{{i18n:FSHatedGift.AlexandriaFS}}/239 22 244/{{i18n:FSNeutralGift.AlexandriaFS}}// ",
+"AlunaFS": "{{i18n:FSLovedGift.AlunaFS}}/196 296 410/{{i18n:FSLikedGift.AlunaFS}}/207 266/{{i18n:FSDislikeGift.AlunaFS}}//{{i18n:FSHatedGift.AlunaFS}}//{{i18n:FSNeutralGift.AlunaFS}}// ",
+"BrinaFS": "{{i18n:FSLovedGift.BrinaFS}}/266 419 459/{{i18n:FSLikedGift.BrinaFS}}/648 230 199 346 303 340/{{i18n:FSDislikeGift.BrinaFS}}/428/{{i18n:FSHatedGift.BrinaFS}}/342/{{i18n:FSNeutralGift.BrinaFS}}/348 213 296 410/ ",
+"ClayFS": "{{i18n:FSLovedGift.ClayFS}}/395 634 257 417 406 20 399/{{i18n:FSLikedGift.ClayFS}}/252 278 404 222 237/{{i18n:FSDislikeGift.ClayFS}}/412 194/{{i18n:FSHatedGift.ClayFS}}/113 162/{{i18n:FSNeutralGift.ClayFS}}/296 410/ ",
+"DahliaFS": "{{i18n:FSLovedGift.DahliaFS}}/194/{{i18n:FSLikedGift.DahliaFS}}/410/{{i18n:FSDislikeGift.DahliaFS}}//{{i18n:FSHatedGift.DahliaFS}}//{{i18n:FSNeutralGift.DahliaFS}}/296/ ",
+"EbbeFS": "{{i18n:FSLovedGift.EbbeFS}}/199 731 66/{{i18n:FSLikedGift.EbbeFS}}/410 216/{{i18n:FSDislikeGift.EbbeFS}}/-16/{{i18n:FSHatedGift.EbbeFS}}/342/{{i18n:FSNeutralGift.EbbeFS}}/296/ ",
+"ErikFS": "{{i18n:FSLovedGift.ErikFS}}/259 274 442 410/{{i18n:FSLikedGift.ErikFS}}/610 436 186 296/{{i18n:FSDislikeGift.ErikFS}}/308 271 432/{{i18n:FSHatedGift.ErikFS}}//{{i18n:FSNeutralGift.ErikFS}}// ",
+"FabianaFS": "{{i18n:FSLovedGift.FabianaFS}}/309 310 311 292/{{i18n:FSLikedGift.FabianaFS}}/726 724 725 731/{{i18n:FSDislikeGift.FabianaFS}}/720 717/{{i18n:FSHatedGift.FabianaFS}}/733 732/{{i18n:FSNeutralGift.FabianaFS}}/92 296 410/ ",
+"FelixFS": "{{i18n:FSLovedGift.FelixFS}}/421 728 270 410/{{i18n:FSLikedGift.FelixFS}}/300 418 461 296/{{i18n:FSDislikeGift.FelixFS}}/22 153 369/{{i18n:FSHatedGift.FelixFS}}//{{i18n:FSNeutralGift.FelixFS}}// ",
+"FionaFS": "{{i18n:FSLovedGift.FionaFS}}/454 107 100 101 119/{{i18n:FSLikedGift.FionaFS}}/815 614 376 651 283/{{i18n:FSDislikeGift.FionaFS}}/638/{{i18n:FSHatedGift.FionaFS}}/637/{{i18n:FSNeutralGift.FionaFS}}/569 576 296 410/ ",
+"GarthFS": "{{i18n:FSLovedGift.GarthFS}}/680 279 582 296 410/{{i18n:FSLikedGift.GarthFS}}/731 437 608/{{i18n:FSDislikeGift.GarthFS}}//{{i18n:FSHatedGift.GarthFS}}/250 439 264/{{i18n:FSNeutralGift.GarthFS}}// ",
+"GerhardFS": "{{i18n:FSLovedGift.GerhardFS}}/432 730 348 296 410/{{i18n:FSLikedGift.GerhardFS}}/286 921 289/{{i18n:FSDislikeGift.GerhardFS}}/172 111 167/{{i18n:FSHatedGift.GerhardFS}}//{{i18n:FSNeutralGift.GerhardFS}}// ",
+"GretaFS": "{{i18n:FSLovedGift.GretaFS}}/197 618 231 244 410/{{i18n:FSLikedGift.GretaFS}}/195 634 199 296/{{i18n:FSDislikeGift.GretaFS}}//{{i18n:FSHatedGift.GretaFS}}//{{i18n:FSNeutralGift.GretaFS}}// ",
+"UniceFS": "{{i18n:FSLovedGift.UniceFS}}/197 618 231 244 410/{{i18n:FSLikedGift.UniceFS}}/296/{{i18n:FSDislikeGift.UniceFS}}//{{i18n:FSHatedGift.UniceFS}}//{{i18n:FSNeutralGift.UniceFS}}// ",
+"HelmutFS": "{{i18n:FSLovedGift.HelmutFS}}/248 829 155 296 410/{{i18n:FSLikedGift.HelmutFS}}/129 190 772/{{i18n:FSDislikeGift.HelmutFS}}/812 154/{{i18n:FSHatedGift.HelmutFS}}//{{i18n:FSNeutralGift.HelmutFS}}// ",
+"IgnasFS": "{{i18n:FSLovedGift.IgnasFS}}/382 278 80 82 380 384 386 909/{{i18n:FSLikedGift.IgnasFS}}/330 394 410/{{i18n:FSDislikeGift.IgnasFS}}/184 306 186/{{i18n:FSHatedGift.IgnasFS}}/715 730 717/{{i18n:FSNeutralGift.IgnasFS}}/296/ ",
+"IslaFS": "{{i18n:FSLovedGift.IslaFS}}/613 206 253 421 583 579 580 581 584 107 296 410/{{i18n:FSLikedGift.IslaFS}}//{{i18n:FSDislikeGift.IslaFS}}/16 330 80 152/{{i18n:FSHatedGift.IslaFS}}/80 306 307 342/{{i18n:FSNeutralGift.IslaFS}}// ",
+"YosefFS": "{{i18n:FSLovedGift.YosefFS}}/206 207 426 424 72/{{i18n:FSLikedGift.YosefFS}}/296 410/{{i18n:FSDislikeGift.YosefFS}}//{{i18n:FSHatedGift.YosefFS}}//{{i18n:FSNeutralGift.YosefFS}}// ",
+"JohannaFS": "{{i18n:FSLovedGift.JohannaFS}}/473 188 207 259 649/{{i18n:FSLikedGift.JohannaFS}}/276 608 236/{{i18n:FSDislikeGift.JohannaFS}}//{{i18n:FSHatedGift.JohannaFS}}/746/{{i18n:FSNeutralGift.JohannaFS}}/92 309 310 311 292 296 410/ ",
+"JosefFS": "{{i18n:FSLovedGift.JosefFS}}/80 122 196 410/{{i18n:FSLikedGift.JosefFS}}/296/{{i18n:FSDislikeGift.JosefFS}}//{{i18n:FSHatedGift.JosefFS}}//{{i18n:FSNeutralGift.JosefFS}}// ",
+"JulianaFS": "{{i18n:FSLovedGift.JulianaFS}}/207 730 230 237 218 94 201 349/{{i18n:FSLikedGift.JulianaFS}}/215 226 395 253 410/{{i18n:FSDislikeGift.JulianaFS}}//{{i18n:FSHatedGift.JulianaFS}}//{{i18n:FSNeutralGift.JulianaFS}}/296/ ",
+"KendriaFS": "{{i18n:FSLovedGift.KendriaFS}}/296 410/{{i18n:FSLikedGift.KendriaFS}}//{{i18n:FSDislikeGift.KendriaFS}}//{{i18n:FSHatedGift.KendriaFS}}//{{i18n:FSNeutralGift.KendriaFS}}// ",
+"LeanderFS": "{{i18n:FSLovedGift.LeanderFS}}/334 296/{{i18n:FSLikedGift.LeanderFS}}/410/{{i18n:FSDislikeGift.LeanderFS}}//{{i18n:FSHatedGift.LeanderFS}}//{{i18n:FSNeutralGift.LeanderFS}}// ",
+"LexiFS": "{{i18n:FSLovedGift.LexiFS}}/296 410 88 254/{{i18n:FSLikedGift.LexiFS}}/-75 -5 -79/{{i18n:FSDislikeGift.LexiFS}}//{{i18n:FSHatedGift.LexiFS}}//{{i18n:FSNeutralGift.LexiFS}}// ",
+"MacFS": "{{i18n:FSLovedGift.MacFS}}/66 235 215 236/{{i18n:FSLikedGift.MacFS}}/296 410/{{i18n:FSDislikeGift.MacFS}}//{{i18n:FSHatedGift.MacFS}}//{{i18n:FSNeutralGift.MacFS}}// ",
+"MakenaFS": "{{i18n:FSLovedGift.MakenaFS}}/421 400 410 611/{{i18n:FSLikedGift.MakenaFS}}/296/{{i18n:FSDislikeGift.MakenaFS}}//{{i18n:FSHatedGift.MakenaFS}}//{{i18n:FSNeutralGift.MakenaFS}}// ",
+"MarinaFS": "{{i18n:FSLovedGift.MarinaFS}}/717 394 152 393/{{i18n:FSLikedGift.MarinaFS}}/392 397 372 718 719 723/{{i18n:FSDislikeGift.MarinaFS}}/242 728 730 265/{{i18n:FSHatedGift.MarinaFS}}/168 228 227 732/{{i18n:FSNeutralGift.MarinaFS}}/296 410/ ",
+"MatiusFS": "{{i18n:FSLovedGift.MatiusFS}}/101 340 828 410/{{i18n:FSLikedGift.MatiusFS}}/721 233 167 296/{{i18n:FSDislikeGift.MatiusFS}}/342/{{i18n:FSHatedGift.MatiusFS}}/200 419/{{i18n:FSNeutralGift.MatiusFS}}// ",
+"NadiaFS": "{{i18n:FSLovedGift.NadiaFS}}/250 296 410/{{i18n:FSLikedGift.NadiaFS}}//{{i18n:FSDislikeGift.NadiaFS}}//{{i18n:FSHatedGift.NadiaFS}}//{{i18n:FSNeutralGift.NadiaFS}}// ",
+"OdoFS": "{{i18n:FSLovedGift.OdoFS}}/62 190 424 197 410/{{i18n:FSLikedGift.OdoFS}}/296/{{i18n:FSDislikeGift.OdoFS}}//{{i18n:FSHatedGift.OdoFS}}//{{i18n:FSNeutralGift.OdoFS}}// ",
+"OliveFS": "{{i18n:FSLovedGift.OliveFS}}/342/{{i18n:FSLikedGift.OliveFS}}/296 410/{{i18n:FSDislikeGift.OliveFS}}//{{i18n:FSHatedGift.OliveFS}}/195 -5/{{i18n:FSNeutralGift.OliveFS}}// ",
+"OttoFS": "{{i18n:FSLovedGift.OttoFS}}/399 270 927 296 410/{{i18n:FSLikedGift.OttoFS}}/395 276 323/{{i18n:FSDislikeGift.OttoFS}}//{{i18n:FSHatedGift.OttoFS}}/733 218 729/{{i18n:FSNeutralGift.OttoFS}}// ",
+"QuinnFS": "{{i18n:FSLovedGift.QuinnFS}}/78 153 157 410 404 257/{{i18n:FSLikedGift.QuinnFS}}/412 719 248 408/{{i18n:FSDislikeGift.QuinnFS}}//{{i18n:FSHatedGift.QuinnFS}}/92 283/{{i18n:FSNeutralGift.QuinnFS}}/296/ ",
+"RhysFS": "{{i18n:FSLovedGift.RhysFS}}/220 20 296 410/{{i18n:FSLikedGift.RhysFS}}/348 346 279/{{i18n:FSDislikeGift.RhysFS}}//{{i18n:FSHatedGift.RhysFS}}/253 608 350/{{i18n:FSNeutralGift.RhysFS}}// ",
+"RolfFS": "{{i18n:FSLovedGift.RolfFS}}/64 233 296 410 611 608 222 232 611 903/{{i18n:FSLikedGift.RolfFS}}//{{i18n:FSDislikeGift.RolfFS}}//{{i18n:FSHatedGift.RolfFS}}//{{i18n:FSNeutralGift.RolfFS}}// ",
+"SeleneFS": "{{i18n:FSLovedGift.SeleneFS}}/428 296 410/{{i18n:FSLikedGift.SeleneFS}}//{{i18n:FSDislikeGift.SeleneFS}}//{{i18n:FSHatedGift.SeleneFS}}//{{i18n:FSNeutralGift.SeleneFS}}// ",
+"SilasFS": "{{i18n:FSLovedGift.SilasFS}}/282 612 239 237/{{i18n:FSLikedGift.SilasFS}}/424 426 296 410/{{i18n:FSDislikeGift.SilasFS}}//{{i18n:FSHatedGift.SilasFS}}/207 730 196 206/{{i18n:FSNeutralGift.SilasFS}}// ",
+"TomasFS": "{{i18n:FSLovedGift.TomasFS}}/227 593 815/{{i18n:FSLikedGift.TomasFS}}/651 71 200 410/{{i18n:FSDislikeGift.TomasFS}}/126 105 612/{{i18n:FSHatedGift.TomasFS}}//{{i18n:FSNeutralGift.TomasFS}}/296/ ",
+"VashaFS": "{{i18n:FSLovedGift.VashaFS}}/64 68 72 96 97 98 99/{{i18n:FSLikedGift.VashaFS}}/296 410/{{i18n:FSDislikeGift.VashaFS}}//{{i18n:FSHatedGift.VashaFS}}//{{i18n:FSNeutralGift.VashaFS}}// ",
+"WillFS": "{{i18n:FSLovedGift.WillFS}}/254 221 612 410/{{i18n:FSLikedGift.WillFS}}/296/{{i18n:FSDislikeGift.WillFS}}/404 205/{{i18n:FSHatedGift.WillFS}}/346 348 459/{{i18n:FSNeutralGift.WillFS}}// ",
+"XenFS": "{{i18n:FSLovedGift.XenFS}}/276 608 410/{{i18n:FSLikedGift.XenFS}}/296/{{i18n:FSDislikeGift.XenFS}}//{{i18n:FSHatedGift.XenFS}}//{{i18n:FSNeutralGift.XenFS}}// ",
+"GoblinWifeFS": "{{i18n:FSLovedGift.GoblinWifeFS}}/547/{{i18n:FSLikedGift.GoblinWifeFS}}//{{i18n:FSDislikeGift.GoblinWifeFS}}//{{i18n:FSHatedGift.GoblinWifeFS}}//{{i18n:FSNeutralGift.GoblinWifeFS}}// ",
+"GreenBabyFS": "{{i18n:FSLovedGift.GreenBabyFS}}/547/{{i18n:FSLikedGift.GreenBabyFS}}//{{i18n:FSDislikeGift.GreenBabyFS}}//{{i18n:FSHatedGift.GreenBabyFS}}//{{i18n:FSNeutralGift.GreenBabyFS}}// ",
+"DwarfAFS": "{{i18n:FSLovedGift.DwarfAFS}}/543 254/{{i18n:FSLikedGift.DwarfAFS}}/78 80/{{i18n:FSDislikeGift.DwarfAFS}}//{{i18n:FSHatedGift.DwarfAFS}}//{{i18n:FSNeutralGift.DwarfAFS}}// ",
+"DwarfBFS": "{{i18n:FSLovedGift.DwarfBFS}}/402 418 18 22 283/{{i18n:FSLikedGift.DwarfBFS}}/78 80/{{i18n:FSDislikeGift.DwarfBFS}}//{{i18n:FSHatedGift.DwarfBFS}}//{{i18n:FSNeutralGift.DwarfBFS}}// ",
+"DwarfCFS": "{{i18n:FSLovedGift.DwarfCFS}}/274 60/{{i18n:FSLikedGift.DwarfCFS}}/78 80/{{i18n:FSDislikeGift.DwarfCFS}}//{{i18n:FSHatedGift.DwarfCFS}}//{{i18n:FSNeutralGift.DwarfCFS}}// ",
+"DwarfDFS": "{{i18n:FSLovedGift.DwarfDFS}}/535 536 537 749/{{i18n:FSLikedGift.DwarfDFS}}/78 80/{{i18n:FSDislikeGift.DwarfDFS}}//{{i18n:FSHatedGift.DwarfDFS}}//{{i18n:FSNeutralGift.DwarfDFS}}// ",
+"DwarfEFS": "{{i18n:FSLovedGift.DwarfEFS}}/300 66/{{i18n:FSLikedGift.DwarfEFS}}/78 80/{{i18n:FSDislikeGift.DwarfEFS}}//{{i18n:FSHatedGift.DwarfEFS}}//{{i18n:FSNeutralGift.DwarfEFS}}// ",
+      	},
+},
+
+
+
+
+
+//Adding animation descriptions for new NPCs
+{ 
+	"Action": "EditData",
+	"Target": "Data/animationDescriptions",
+	"Entries": {
+"Al_sleep": "12/12/12",
+"Alexandria_sleep": "12/12/12",
+"Aluna_sleep": "12/12/12",
+"Brina_sleep": "12/12/12",
+"Clay_sleep": "12/12/12",
+"Dahlia_sleep": "12/12/12",
+"Ebbe_sleep": "12/12/12",
+"Erik_sleep": "12/12/12",
+"Fabiana_sleep": "12/12/12", 
+"Felix_sleep": "12/12/12",
+"Fiona_sleep": "12/12/12",
+"Garth_sleep": "12/12/12",
+"Gerhard_sleep": "12/12/12",
+"Greta_sleep": "12/12/12",
+"Unice_sleep": "12/12/12",
+"Helmut_sleep": "12/12/12",
+"Ignas_sleep": "12/12/12",
+"Isla_sleep": "12/12/12",
+"Yosef_sleep": "12/12/12",
+"Johanna_sleep": "12/12/12",
+"Josef_sleep": "12/12/12",  
+"Juliana_sleep": "12/12/12",
+"Kendria_sleep": "12/12/12",
+"Leander_sleep": "12/12/12",
+"Lexi_sleep": "12/12/12",
+"Mac_sleep": "12/12/12",
+"Makena_sleep": "12/12/12",
+"Marina_sleep": "12/12/12",
+"Matius_sleep": "12/12/12",
+"Nadia_sleep": "12/12/12",
+"Odo_sleep": "12/12/12",
+"Olive_sleep": "12/12/12",
+"Otto_sleep": "12/12/12",
+"Quinn_sleep": "12/12/12",
+"Rhys_sleep": "12/12/12",
+"Rolf_sleep": "12/12/12",
+"Selene_sleep": "12/12/12",
+"Silas_sleep": "12/12/12",
+"Tomas_sleep": "12/12/12",
+"Vasha_sleep": "12/12/12",
+"Will_sleep": "12/12/12",
+"Xen_sleep": "12/12/12",
+"GoblinWife_sleep": "12/12/12",
+"GreenBaby_sleep": "24/24 25 26 27 28 29 30 31/31",
+"DwarfA_sleep": "12/12/12",
+"DwarfB_sleep": "12/12/12",
+"DwarfC_sleep": "12/12/12",
+"DwarfD_sleep": "12/12/12",
+"DwarfE_sleep": "12/12/12",
+	  "Al_work": "20/20 20 21 21 22 22 21 21/20/Strings\\animationDescriptions:Al_work",
+	  "Al_read": "19/23/19/Strings\\animationDescriptions:Al_read",
+	  "isla_read": "22/22/22",
+      "isla_jumprope": "0/16 17 18 19/0",
+      "makena_read": "22/22/22",
+      "makena_jumprope": "0/16 17 18 19/0",
+      "ebbe_guitar": "16/16 16 16 17 17 17 16 16 16 17 17 17 16 16 16 17 17 17 16 16 16 17 17 17 16 16 16 17 17 17 16 16 16 17 17 17 16 16 16 17 17 17 16 16 16 17 17 17 18 18 18 19 19 19 18 18 18 19 19 19/16/Strings\\animationDescriptions:ebbe_guitar",
+      "ebbe_read": "24 25 27/26/27 25 24",
+      "silas_read": "16 17 19/18/19 17 16",
+      "silas_standread": "20 21 23/22/23 21 20",
+      "Juliana_rest": "16 17 18 19/16 16 17 17 18 18 19 19 16 17 18 19 16 16 17 17 18 18 19 19/16 17 18 19/Strings\\animationDescriptions:Juliana_rest",
+      "Fiona_rocks": "24/24 25 26 27 26 25/24",
+      "Gerhard_desk": "20/20 20 20 21 21 21 22 22 22 23 23 23/23",
+      "Yosef_work": "16/16 16 17 17 18 18 19 19/19",
+      "Will_bob": "16/16 16 17 17 18 18 19 19/19",
+      "Tomas_work": "16/16 16 17 17 18 18 19 19/19",
+      "Mac_eggs": "20/20 20 21 21 22 22 23 23 24 24 25 25 26 26 27 27/27",
+      "Mac_chicken": "16/16 16 17 17 18 18 19 19/19",
+      "Mac_propose": "28/28 28 29 29 30 30 31 31/31",
+      "Xen_gaming": "20/20 20 21 21 22 22 23 23/23",
+	}
+ },
+
+{ //Adding Animation Dialogue for new NPCs
+	"Action": "EditData",
+	"Target": "Strings/animationDescriptions",
+	"Entries": {
+  "Al_work": "{{i18n:animationDescriptions.Al_work.1}}",
+  "Al_read": "{{i18n:animationDescriptions.Al_read.1}}",
+  "ebbe_guitar": "{{i18n:animationDescriptions.ebbe_guitar.1}}",
+  "Juliana_rest": "{{i18n:animationDescriptions.Juliana_rest.1}}",
+	}
+},
+//Adding Warp Totems for Stoffton
+{
+			"LogName": "Register location with warp network",
+			"Action": "EditData",
+			"Target": "Data/WarpNetwork/Destinations",
+			"Entries": {
+				"Stoffton": {
+					"location": "Lizzie.Stoffton_Stoffton",
+					"x": 80,
+					"y": 69,
+					"enabled": true,
+					"label": "Stoffton",
+				},
+				"StofftonPasture": {
+					"location": "Lizzie.Stoffton_RockyFord",
+					"x": 59,
+					"y": 55,
+					"enabled": true,
+					"label": "Stoffton Pasture",
+				},
+			}
+},
+		{
+			"LogName": "Register warp item",
+			"Action": "EditData",
+			"Target": "Data/WarpNetwork/WarpItems",
+			"Entries": {
+			"{{spacechase0.JsonAssets/ObjectId:StofftonTotem}}": {
+					"Destination": "Stoffton",
+					"IgnoreDisabled": true,
+				},
+			"{{spacechase0.JsonAssets/ObjectId:RockyFordTotem}}": {
+					"Destination": "StofftonPasture",
+					"IgnoreDisabled": true,
+				}
+			},
+			"When":{
+				"HasMod":"spacechase0.JsonAssets"
+			}
+		},
+
+//Adding Schedule Strings for Stoffton
+	{
+      "LogName": "ScheduleStrings",
+      "Action": "Load",
+      "Target": "Strings/Schedules/AlFS",
+      "FromFile": "assets/ScheduleStrings/Al.json",
+    },
+	{
+      "LogName": "ScheduleStrings",
+      "Action": "Load",
+      "Target": "Strings/Schedules/AlexandriaFS",
+      "FromFile": "assets/ScheduleStrings/Alexandria.json",
+    },
+    {
+      "LogName": "ScheduleStrings",
+      "Action": "Load",
+      "Target": "Strings/Schedules/JulianaFS",
+      "FromFile": "assets/ScheduleStrings/Juliana.json",
+    },
+    {
+      "LogName": "ScheduleStrings",
+      "Action": "Load",
+      "Target": "Strings/Schedules/SilasFS",
+      "FromFile": "assets/ScheduleStrings/Silas.json",
+    },
+    {
+      "LogName": "ScheduleStrings",
+      "Action": "Load",
+      "Target": "Strings/Schedules/OdoFS",
+      "FromFile": "assets/ScheduleStrings/Odo.json",
+    },
+    {
+      "LogName": "ScheduleStrings",
+      "Action": "Load",
+      "Target": "Strings/Schedules/KendriaFS",
+      "FromFile": "assets/ScheduleStrings/Kendria.json",
+    },
+    
+{
+    "LogName": "i18n Stoffton Schedule Strings Files",
+    "Action": "Include",
+    "FromFile": "assets/ScheduleStrings/Al-newStrings.json, assets/ScheduleStrings/Alexandria-newStrings.json, assets/ScheduleStrings/Juliana-newStrings.json, assets/ScheduleStrings/Silas-newStrings.json, assets/ScheduleStrings/Odo-newStrings.json, assets/ScheduleStrings/Kendria-newStrings.json",
+},       
+
+//Adding AlFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/AlFS",
+      "FromFile": "assets/sprites/Al.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/AlFS",
+      "FromFile": "assets/portraits/Al.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/AlFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/AlFS",
+      "FromFile": "assets/schedules/Al.json",
+    },
+//Adding AlexandriaFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/AlexandriaFS",
+      "FromFile": "assets/sprites/Alexandria.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/AlexandriaFS",
+      "FromFile": "assets/portraits/Alexandria.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/AlexandriaFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueAlexandriaFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/AlexandriaFS",
+      "FromFile": "assets/schedules/Alexandria.json",
+    },
+//Adding AlunaFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/AlunaFS",
+      "FromFile": "assets/sprites/Aluna.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/AlunaFS",
+      "FromFile": "assets/portraits/Aluna.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/AlunaFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/AlunaFS",
+      "FromFile": "assets/schedules/Aluna.json",
+    },    
+ //Adding BrinaFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/BrinaFS",
+      "FromFile": "assets/sprites/Brina.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/BrinaFS",
+      "FromFile": "assets/portraits/Brina.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/BrinaFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueBrinaFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/BrinaFS",
+      "FromFile": "assets/schedules/Brina.json",
+    },
+//Adding ClayFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/ClayFS",
+      "FromFile": "assets/sprites/Clay.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/ClayFS",
+      "FromFile": "assets/portraits/Clay.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/ClayFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueClayFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/ClayFS",
+      "FromFile": "assets/schedules/Clay.json",
+    },
+//Adding DahliaFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/DahliaFS",
+      "FromFile": "assets/sprites/Dahlia.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/DahliaFS",
+      "FromFile": "assets/portraits/Dahlia.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/DahliaFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueDahliaFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/DahliaFS",
+      "FromFile": "assets/schedules/Dahlia.json",
+    }, 
+//Adding EbbeFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/EbbeFS",
+      "FromFile": "assets/sprites/Ebbe.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/EbbeFS",
+      "FromFile": "assets/portraits/Ebbe.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/EbbeFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueEbbeFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/EbbeFS",
+      "FromFile": "assets/schedules/Ebbe.json",
+    },
+//Adding ErikFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/ErikFS",
+      "FromFile": "assets/sprites/Erik.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/ErikFS",
+      "FromFile": "assets/portraits/Erik.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/ErikFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/ErikFS",
+      "FromFile": "assets/schedules/Erik.json",
+    },
+ //Adding FabianaFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/FabianaFS",
+      "FromFile": "assets/sprites/Fabiana.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/FabianaFS",
+      "FromFile": "assets/portraits/Fabiana.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/FabianaFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueFabianaFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/FabianaFS",
+      "FromFile": "assets/schedules/Fabiana.json",
+    },
+//Adding FelixFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/FelixFS",
+      "FromFile": "assets/sprites/Felix.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/FelixFS",
+      "FromFile": "assets/portraits/Felix.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/FelixFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/FelixFS",
+      "FromFile": "assets/schedules/Felix.json",
+    },
+//Adding FionaFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/FionaFS",
+      "FromFile": "assets/sprites/Fiona.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/FionaFS",
+      "FromFile": "assets/portraits/Fiona.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/FionaFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/FionaFS",
+      "FromFile": "assets/schedules/Fiona.json",
+    },
+//Adding GarthFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/GarthFS",
+      "FromFile": "assets/sprites/Garth.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/GarthFS",
+      "FromFile": "assets/portraits/Garth.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/GarthFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/GarthFS",
+      "FromFile": "assets/schedules/Garth.json",
+    },
+//Adding GerhardFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/GerhardFS",
+      "FromFile": "assets/sprites/Gerhard.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/GerhardFS",
+      "FromFile": "assets/portraits/Gerhard.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/GerhardFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/GerhardFS",
+      "FromFile": "assets/schedules/Gerhard.json",
+    },
+//Adding GretaFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/GretaFS",
+      "FromFile": "assets/sprites/Greta.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/GretaFS",
+      "FromFile": "assets/portraits/Greta.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/GretaFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/GretaFS",
+      "FromFile": "assets/schedules/Greta.json",
+    },
+//Adding UniceFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/UniceFS",
+      "FromFile": "assets/sprites/Unice.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/UniceFS",
+      "FromFile": "assets/portraits/Unice.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/UniceFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/UniceFS",
+      "FromFile": "assets/schedules/Unice.json",
+    },
+//Adding HelmutFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/HelmutFS",
+      "FromFile": "assets/sprites/Helmut.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/HelmutFS",
+      "FromFile": "assets/portraits/Helmut.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/HelmutFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/HelmutFS",
+      "FromFile": "assets/schedules/Helmut.json",
+    },
+//Adding IgnasFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/IgnasFS",
+      "FromFile": "assets/sprites/Ignas.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/IgnasFS",
+      "FromFile": "assets/portraits/Ignas.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/IgnasFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/IgnasFS",
+      "FromFile": "assets/schedules/Ignas.json",
+    },
+//Adding IslaFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/IslaFS",
+      "FromFile": "assets/sprites/Isla.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/IslaFS",
+      "FromFile": "assets/portraits/Isla.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/IslaFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/IslaFS",
+      "FromFile": "assets/schedules/Isla.json",
+    },
+//Adding YosefFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/YosefFS",
+      "FromFile": "assets/sprites/Yosef.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/YosefFS",
+      "FromFile": "assets/portraits/Yosef.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/YosefFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueYosefFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/YosefFS",
+      "FromFile": "assets/schedules/Yosef.json",
+    },
+//Adding JohannaFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/JohannaFS",
+      "FromFile": "assets/sprites/Johanna.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/JohannaFS",
+      "FromFile": "assets/portraits/Johanna.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/JohannaFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/JohannaFS",
+      "FromFile": "assets/schedules/Johanna.json",
+    },
+//Adding JosefFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/JosefFS",
+      "FromFile": "assets/sprites/Josef.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/JosefFS",
+      "FromFile": "assets/portraits/Josef.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/JosefFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "MarriageDialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueJosefFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/JosefFS",
+      "FromFile": "assets/schedules/Josef.json",
+    },
+//Adding JulianaFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/JulianaFS",
+      "FromFile": "assets/sprites/Juliana.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/JulianaFS",
+      "FromFile": "assets/portraits/Juliana.png",
+    },
+    {
+      "LogName": "MarriageDialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueJulianaFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/JulianaFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/JulianaFS",
+      "FromFile": "assets/schedules/Juliana.json",
+    },
+//Adding KendriaFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/KendriaFS",
+      "FromFile": "assets/sprites/Kendria.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/KendriaFS",
+      "FromFile": "assets/portraits/Kendria.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/KendriaFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/KendriaFS",
+      "FromFile": "assets/schedules/Kendria.json",
+    },
+//Adding LeanderFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/LeanderFS",
+      "FromFile": "assets/sprites/Leander.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/LeanderFS",
+      "FromFile": "assets/portraits/Leander.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/LeanderFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/LeanderFS",
+      "FromFile": "assets/schedules/Leander.json",
+    },
+//Adding LexiFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/LexiFS",
+      "FromFile": "assets/sprites/Lexi.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/LexiFS",
+      "FromFile": "assets/portraits/Lexi.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/LexiFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/LexiFS",
+      "FromFile": "assets/schedules/Lexi.json",
+    },
+//Adding MacFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/MacFS",
+      "FromFile": "assets/sprites/Mac.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/MacFS",
+      "FromFile": "assets/portraits/Mac.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MacFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueMacFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/MacFS",
+      "FromFile": "assets/schedules/Mac.json",
+    },
+//Adding MakenaFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/MakenaFS",
+      "FromFile": "assets/sprites/Makena.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/MakenaFS",
+      "FromFile": "assets/portraits/Makena.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MakenaFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/MakenaFS",
+      "FromFile": "assets/schedules/Makena.json",
+    },
+//Adding MarinaFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/MarinaFS",
+      "FromFile": "assets/sprites/Marina.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/MarinaFS",
+      "FromFile": "assets/portraits/Marina.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarinaFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/MarinaFS",
+      "FromFile": "assets/schedules/Marina.json",
+    },
+//Adding MatiusFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/MatiusFS",
+      "FromFile": "assets/sprites/Matius.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/MatiusFS",
+      "FromFile": "assets/portraits/Matius.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MatiusFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/MatiusFS",
+      "FromFile": "assets/schedules/Matius.json",
+    },
+//Adding NadiaFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/NadiaFS",
+      "FromFile": "assets/sprites/Nadia.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/NadiaFS",
+      "FromFile": "assets/portraits/Nadia.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/NadiaFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/NadiaFS",
+      "FromFile": "assets/schedules/Nadia.json",
+    },
+//Adding OdoFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/OdoFS",
+      "FromFile": "assets/sprites/Odo.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/OdoFS",
+      "FromFile": "assets/portraits/Odo.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/OdoFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueOdoFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/OdoFS",
+      "FromFile": "assets/schedules/Odo.json",
+    },
+//Adding OliveFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/OliveFS",
+      "FromFile": "assets/sprites/Olive.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/OliveFS",
+      "FromFile": "assets/portraits/Olive.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/OliveFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/OliveFS",
+      "FromFile": "assets/schedules/Olive.json",
+    },
+//Adding OttoFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/OttoFS",
+      "FromFile": "assets/sprites/Otto.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/OttoFS",
+      "FromFile": "assets/portraits/Otto.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/OttoFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/OttoFS",
+      "FromFile": "assets/schedules/Otto.json",
+    },
+//Adding QuinnFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/QuinnFS",
+      "FromFile": "assets/sprites/Quinn.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/QuinnFS",
+      "FromFile": "assets/portraits/Quinn.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/QuinnFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueQuinnFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/QuinnFS",
+      "FromFile": "assets/schedules/Quinn.json",
+    },
+//Adding RhysFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/RhysFS",
+      "FromFile": "assets/sprites/Rhys.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/RhysFS",
+      "FromFile": "assets/portraits/Rhys.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/RhysFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/RhysFS",
+      "FromFile": "assets/schedules/Rhys.json",
+    },
+//Adding RolfFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/RolfFS",
+      "FromFile": "assets/sprites/Rolf.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/RolfFS",
+      "FromFile": "assets/portraits/Rolf.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/RolfFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueRolfFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/RolfFS",
+      "FromFile": "assets/schedules/Rolf.json",
+    },
+//Adding SeleneFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/SeleneFS",
+      "FromFile": "assets/sprites/Selene.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/SeleneFS",
+      "FromFile": "assets/portraits/Selene.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/SeleneFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/SeleneFS",
+      "FromFile": "assets/schedules/Selene.json",
+    },
+//Adding SilasFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/SilasFS",
+      "FromFile": "assets/sprites/Silas.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/SilasFS",
+      "FromFile": "assets/portraits/Silas.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/SilasFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueSilasFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/SilasFS",
+      "FromFile": "assets/schedules/Silas.json",
+    },
+//Adding TomasFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/TomasFS",
+      "FromFile": "assets/sprites/Tomas.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/TomasFS",
+      "FromFile": "assets/portraits/Tomas.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/TomasFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/TomasFS",
+      "FromFile": "assets/schedules/Tomas.json",
+    },
+//Adding VashaFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/VashaFS",
+      "FromFile": "assets/sprites/Vasha.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/VashaFS",
+      "FromFile": "assets/portraits/Vasha.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/VashaFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueVashaFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/VashaFS",
+      "FromFile": "assets/schedules/Vasha.json",
+    },
+//Adding WillFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/WillFS",
+      "FromFile": "assets/sprites/Will.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/WillFS",
+      "FromFile": "assets/portraits/Will.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/WillFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueWillFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/WillFS",
+      "FromFile": "assets/schedules/Will.json",
+    },
+//Adding XenFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/XenFS",
+      "FromFile": "assets/sprites/Xen.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/XenFS",
+      "FromFile": "assets/portraits/Xen.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/XenFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueXenFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/XenFS",
+      "FromFile": "assets/schedules/Xen.json",
+    },
+//Adding GoblinWifeFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/GoblinWifeFS",
+      "FromFile": "assets/sprites/GoblinWife.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/GoblinWifeFS",
+      "FromFile": "assets/portraits/GoblinWife.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/GoblinWifeFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/GoblinWifeFS",
+      "FromFile": "assets/schedules/GoblinWife.json",
+    },
+    //Adding GreenBabyFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/GreenBabyFS",
+      "FromFile": "assets/sprites/GreenBaby.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/GreenBabyFS",
+      "FromFile": "assets/portraits/GreenBaby.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/GreenBabyFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/GreenBabyFS",
+      "FromFile": "assets/schedules/GreenBaby.json",
+    },
+//Adding DwarfAFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/DwarfAFS",
+      "FromFile": "assets/sprites/DwarfA.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/DwarfAFS",
+      "FromFile": "assets/portraits/DwarfA.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/DwarfAFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/DwarfAFS",
+      "FromFile": "assets/schedules/DwarfA.json",
+    },
+//Adding DwarfBFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/DwarfBFS",
+      "FromFile": "assets/sprites/DwarfB.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/DwarfBFS",
+      "FromFile": "assets/portraits/DwarfB.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/DwarfBFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/DwarfBFS",
+      "FromFile": "assets/schedules/DwarfB.json",
+    },
+//Adding DwarfCFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/DwarfCFS",
+      "FromFile": "assets/sprites/DwarfC.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/DwarfCFS",
+      "FromFile": "assets/portraits/DwarfC.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/DwarfCFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/DwarfCFS",
+      "FromFile": "assets/schedules/DwarfC.json",
+    },
+//Adding DwarfDFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/DwarfDFS",
+      "FromFile": "assets/sprites/DwarfD.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/DwarfDFS",
+      "FromFile": "assets/portraits/DwarfD.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/DwarfDFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/DwarfDFS",
+      "FromFile": "assets/schedules/DwarfD.json",
+    },
+//Adding DwarfEFS   
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/DwarfEFS",
+      "FromFile": "assets/sprites/DwarfE.png",
+	},
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/DwarfEFS",
+      "FromFile": "assets/portraits/DwarfE.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/DwarfEFS",
+      "FromFile": "assets/dialogue/blank.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/DwarfEFS",
+      "FromFile": "assets/schedules/DwarfE.json",
+    },
+//Adding i18n Dialogue files for all characters
+{
+    "LogName": "i18n Stoffton Dialogue Files",
+    "Action": "Include",
+    "FromFile": "assets/dialogue/DwarfE-newDialogue.json, assets/dialogue/DwarfD-newDialogue.json, assets/dialogue/DwarfC-newDialogue.json, assets/dialogue/DwarfB-newDialogue.json, assets/dialogue/DwarfA-newDialogue.json, assets/dialogue/GoblinWife-newDialogue.json,assets/dialogue/GreenBaby-newDialogue.json, assets/dialogue/Xen-newDialogue.json, assets/dialogue/Will-newDialogue.json, assets/dialogue/Vasha-newDialogue.json, assets/dialogue/Tomas-newDialogue.json, assets/dialogue/Silas-newDialogue.json, assets/dialogue/Selene-newDialogue.json, assets/dialogue/Rolf-newDialogue.json, assets/dialogue/Rhys-newDialogue.json, assets/dialogue/Quinn-newDialogue.json, assets/dialogue/Otto-newDialogue.json, assets/dialogue/Olive-newDialogue.json, assets/dialogue/Odo-newDialogue.json, assets/dialogue/Nadia-newDialogue.json, assets/dialogue/Matius-newDialogue.json, assets/dialogue/Marina-newDialogue.json, assets/dialogue/Makena-newDialogue.json, assets/dialogue/Mac-newDialogue.json, assets/dialogue/Lexi-newDialogue.json, assets/dialogue/Leander-newDialogue.json, assets/dialogue/Kendria-newDialogue.json, assets/dialogue/Juliana-newDialogue.json, assets/dialogue/Josef-newDialogue.json, assets/dialogue/Johanna-newDialogue.json, assets/dialogue/Yosef-newDialogue.json, assets/dialogue/Isla-newDialogue.json, assets/dialogue/Ignas-newDialogue.json, assets/dialogue/Helmut-newDialogue.json, assets/dialogue/Unice-newDialogue.json, assets/dialogue/Greta-newDialogue.json, assets/dialogue/Gerhard-newDialogue.json, assets/dialogue/Garth-newDialogue.json, assets/dialogue/Fiona-newDialogue.json, assets/dialogue/Felix-newDialogue.json, assets/dialogue/Fabiana-newDialogue.json, assets/dialogue/Erik-newDialogue.json, assets/dialogue/Ebbe-newDialogue.json, assets/dialogue/Dahlia-newDialogue.json, assets/dialogue/Clay-newDialogue.json, assets/dialogue/Brina-newDialogue.json, assets/dialogue/Aluna-newDialogue.json, assets/dialogue/Alexandria-newDialogue.json, assets/dialogue/Al-newDialogue.json",
+},
+//Adding i18n Marriage Dialogue files marriage candidates
+{
+    "LogName": "i18n Stoffton MarriageDialogue Files",
+    "Action": "Include",
+    "FromFile": "assets/dialogue/MarriageDialogueXen-newDialogue.json, assets/dialogue/MarriageDialogueWill-newDialogue.json, assets/dialogue/MarriageDialogueVasha-newDialogue.json, assets/dialogue/MarriageDialogueSilas-newDialogue.json, assets/dialogue/MarriageDialogueRolf-newDialogue.json, assets/dialogue/MarriageDialogueQuinn-newDialogue.json, assets/dialogue/MarriageDialogueOdo-newDialogue.json, assets/dialogue/MarriageDialogueMac-newDialogue.json, assets/dialogue/MarriageDialogueJuliana-newDialogue.json, assets/dialogue/MarriageDialogueJosef-newDialogue.json, assets/dialogue/MarriageDialogueYosef-newDialogue.json, assets/dialogue/MarriageDialogueFabiana-newDialogue.json, assets/dialogue/MarriageDialogueEbbe-newDialogue.json, assets/dialogue/MarriageDialogueDahlia-newDialogue.json, assets/dialogue/MarriageDialogueClay-newDialogue.json, assets/dialogue/MarriageDialogueBrina-newDialogue.json, assets/dialogue/MarriageDialogueAlexandria-newDialogue.json",
+},              
+
+        // load spouse room map
+        {
+            "Action": "Load",
+            "Target": "Maps/Lizzie_Stoffton_SpouseRoom",
+            "FromFile": "assets/NewMaps/Stoffton/Stoffton_spouseRooms.tmx"
+        },
+
+
+        // load spouse patio map
+        {
+            "Action": "Load",
+            "Target": "Maps/Lizzie_Stoffton_OutsideArea",
+            "FromFile": "assets/NewMaps/Stoffton/Stoffton_spousePatio.tmx"
+        },
+
+
+//Adding Mail for Stoffton
+{
+	"Action": "EditData",
+	"Target": "Data/mail",
+	"Entries": {
+"FS_AlexandriaMail1":"{{i18n:mail.FS_AlexandriaMail1.1}}^{{i18n:mail.FS_AlexandriaMail1.2}}^^{{i18n:mail.FS_AlexandriaMail1.3}}[#]{{i18n:mail.FS_AlexandriaMail1.Title}}",
+"FS_IslaMail4":"{{i18n:mail.FS_IslaMail4.1}}^^{{i18n:mail.FS_IslaMail4.2}}^^{{i18n:mail.FS_IslaMail4.3}}[#]{{i18n:mail.FS_IslaMail4.Title}}",
+"FS_MakenaMail8":"@!^^{{i18n:mail.FS_MakenaMail8.1}}^^{{i18n:mail.FS_MakenaMail8.2}}^^{{i18n:mail.FS_MakenaMail8.3}}[#]{{i18n:mail.FS_MakenaMail8.Title}}",
+"FS_MakenaMail10":"{{i18n:mail.FS_MakenaMail10.1}}@^^{{i18n:mail.FS_MakenaMail10.2}}^^{{i18n:mail.FS_MakenaMail10.3}}^{{i18n:mail.FS_MakenaMail10.4}}%item object 74 1 %%[#]{{i18n:mail.FS_MakenaMail10.Title}}",
+"FS_IslaMail10":"@,^^{{i18n:mail.FS_IslaMail10.1}}^{{i18n:mail.FS_IslaMail10.2}}^{{i18n:mail.FS_IslaMail10.3}}^^{{i18n:mail.FS_IslaMail10.4}}^^{{i18n:mail.FS_IslaMail10.5}}^^{{i18n:mail.FS_IslaMail10.6}}%item object 848 10 %%[#]{{i18n:mail.FS_IslaMail10.Title}}",
+"FS_FionaMail2":"{{i18n:mail.FS_FionaMail2.1}}^^{{i18n:mail.FS_FionaMail2.2}}^^{{i18n:mail.FS_FionaMail2.3}}%item object 569 1 %%[#]{{i18n:mail.FS_FionaMail2.Title}}",
+"FS_FionaMailSeeds":"{{i18n:mail.FS_FionaMailSeeds.1}}@!^^{{i18n:mail.FS_FionaMailSeeds.2}}^^{{i18n:mail.FS_FionaMailSeeds.3}}%item object 453 10 %%[#]{{i18n:mail.FS_FionaMailSeeds.Title}}",
+"FS_FionaMail8":"{{i18n:mail.FS_FionaMail8.1}}@{{i18n:mail.FS_FionaMail8.2}}^^{{i18n:mail.FS_FionaMail8.3}}^^{{i18n:mail.FS_FionaMail8.4}}%item object 454 1 %%[#]{{i18n:mail.FS_FionaMail8.Title}}",
+"FS_FionaMail10":"{{i18n:mail.FS_FionaMail10.1}}^^{{i18n:mail.FS_FionaMail10.2}}^^{{i18n:mail.FS_FionaMail10.3}}%item object 107 1 %%[#]{{i18n:mail.FS_FionaMail10.Title}}",
+"FS_MarinaMail2":"{{i18n:mail.FS_MarinaMail2.1}}^^{{i18n:mail.FS_MarinaMail2.2}}%item object 392 1 %%[#]{{i18n:mail.FS_MarinaMail2.Title}}",
+"FS_MarinaMail4":"{{i18n:mail.FS_MarinaMail4.1}}^^{{i18n:mail.FS_MarinaMail4.2}}%item object 394 1 %%[#]{{i18n:mail.FS_MarinaMail4.Title}}",
+"FS_HelmutMail4":"{{i18n:mail.FS_HelmutMail4.1}}^^{{i18n:mail.FS_HelmutMail4.2}}^^{{i18n:mail.FS_HelmutMail4.3}}%item object 342 1 %%[#]{{i18n:mail.FS_HelmutMail4.Title}}",
+"FS_HelmutMail8":"{{i18n:mail.FS_HelmutMail8.1}}^^{{i18n:mail.FS_HelmutMail8.2}}^^{{i18n:mail.FS_HelmutMail8.3}}%item object 342 1 %%[#]{{i18n:mail.FS_HelmutMail8.Title}}",
+"FS_FelixMail4":"{{i18n:mail.FS_FelixMail4.1}}@:^^{{i18n:mail.FS_FelixMail4.2}}^^{{i18n:mail.FS_FelixMail4.3}}%item object 722 3 %%[#]{{i18n:mail.FS_FelixMail4.Title}}",
+"FS_TomasMail8":"{{i18n:mail.FS_TomasMail8.1}}@:^^{{i18n:mail.FS_TomasMail8.2}}^^{{i18n:mail.FS_TomasMail8.3}}%item object 125 1 %%[#]{{i18n:mail.FS_TomasMail8.Title}}",
+"FS_RolfMail2":"{{i18n:mail.FS_RolfMail2.1}}@:^^{{i18n:mail.FS_RolfMail2.2}}^^{{i18n:mail.FS_RolfMail2.3}}%item bigobject 15 %%[#]{{i18n:mail.FS_RolfMail2.Title}}",
+"FS_RolfMail4":"{{i18n:mail.FS_RolfMail4.1}}@:^^{{i18n:mail.FS_RolfMail4.2}}^^{{i18n:mail.FS_RolfMail4.3}}%item bigobject 13 %%[#]{{i18n:mail.FS_RolfMail4.Title}}",
+"FS_RolfMail6":"{{i18n:mail.FS_RolfMail6.1}}@:^^{{i18n:mail.FS_RolfMail6.2}}^^{{i18n:mail.FS_RolfMail6.3}}%item bigobject 16 %%[#]{{i18n:mail.FS_RolfMail6.Title}}",
+"FS_RolfMail8":"{{i18n:mail.FS_RolfMail8.1}}@:^^{{i18n:mail.FS_RolfMail8.2}}^^{{i18n:mail.FS_RolfMail8.3}}%item bigobject 25 %%[#]{{i18n:mail.FS_RolfMail8.Title}}",
+"FS_XenMail10":"{{i18n:mail.FS_XenMail10.1}}@,^^{{i18n:mail.FS_XenMail10.2}}^^{{i18n:mail.FS_XenMail10.3}}^^{{i18n:mail.FS_XenMail10.4}}^^{{i18n:mail.FS_XenMail10.5}}^^{{i18n:mail.FS_XenMail10.6}}%item object 203 1 %%[#]{{i18n:mail.FS_XenMail10.Title}}",
+"FS_GerhardMail10":"{{i18n:mail.FS_GerhardMail10.1}}@:^^{{i18n:mail.FS_GerhardMail10.2}}^^{{i18n:mail.FS_GerhardMail10.3}}%item object 106 1 %%[#]{{i18n:mail.FS_GerhardMail10.Title}}",
+"FS_GerhardMail2":"@:^^{{i18n:mail.FS_GerhardMail2.1}}^^{{i18n:mail.FS_GerhardMail2.2}}^^{{i18n:mail.FS_GerhardMail2.3}}%item object 73 1 %%[#]{{i18n:mail.FS_GerhardMail2.Title}}",
+"FS_GerhardMail4":"@:^^{{i18n:mail.FS_GerhardMail4.1}}^^{{i18n:mail.FS_GerhardMail4.2}}%item object 564 1 %%[#]{{i18n:mail.FS_GerhardMail4.Title}}",
+"FS_OttoMail4":"@:^^{{i18n:mail.FS_OttoMail4.1}}^^{{i18n:mail.FS_OttoMail4.2}}%item object 369 10 %%[#]{{i18n:mail.FS_OttoMail4.Title}}",
+"FS_OttoMail10":"@:^^{{i18n:mail.FS_OttoMail10.1}}^^{{i18n:mail.FS_OttoMail10.2}}%item object 915 2 %%[#]{{i18n:mail.FS_OttoMail10.Title}}",
+"FS_FelixMail8":"{{i18n:mail.FS_FelixMail8.1}}@:^^{{i18n:mail.FS_FelixMail8.2}}^^{{i18n:mail.FS_FelixMail8.3}}%item object 458 1 %%[#]{{i18n:mail.FS_FelixMail8.Title}}",
+"FS_TomasMail4":"@,^^{{i18n:mail.FS_TomasMail4.1}}^^{{i18n:mail.FS_TomasMail4.2}}%item object 787 1 %%[#]{{i18n:mail.FS_TomasMail4.Title}}",
+"FS_TomasMail10":"@,^^{{i18n:mail.FS_TomasMail10.1}}^^{{i18n:mail.FS_TomasMail10.2}}%item bigobject 239 %%[#]{{i18n:mail.FS_TomasMail10.Title}}",
+"FS_LeanderMail2":"{{i18n:mail.FS_LeanderMail2.1}}@^^{{i18n:mail.FS_LeanderMail2.2}}^^{{i18n:mail.FS_LeanderMail2.3}}%item object 770 5 %%[#]{{i18n:mail.FS_LeanderMail2.Title}}",
+"FS_RhysMail4":"{{i18n:mail.FS_RhysMail4.1}}@,^^{{i18n:mail.FS_RhysMail4.2}}^^{{i18n:mail.FS_RhysMail4.3}}%item object 346 1 %%[#]{{i18n:mail.FS_RhysMail4.Title}}",
+"FS_ErikMail4":"{{i18n:mail.FS_ErikMail4.1}}^^{{i18n:mail.FS_ErikMail4.2}}%item object 681 1 %%[#]{{i18n:mail.FS_ErikMail4.Title}}",
+"FS_IgnasMail4":"{{i18n:mail.FS_IgnasMail4.1}}^^{{i18n:mail.FS_IgnasMail4.2}}^^{{i18n:mail.FS_IgnasMail4.3}}%item object 487 20 %%[#]{{i18n:mail.FS_IgnasMail4.Title}}",
+"FS_WillMail8":"{{i18n:mail.FS_WillMail8.1}}@,^^{{i18n:mail.FS_WillMail8.2}}^^{{i18n:mail.FS_WillMail8.3}}[#]{{i18n:mail.FS_WillMail8.Title}}",
+"FS_JulianaMail10":"@,^^{{i18n:mail.FS_JulianaMail10.1}}^^{{i18n:mail.FS_JulianaMail10.2}}[#]{{i18n:mail.FS_JulianaMail10.Title}}",
+"FS_LexiMail6":"@,^^{{i18n:mail.FS_LexiMail6.1}}^^{{i18n:mail.FS_LexiMail6.2}}%item object 236 1 %%[#]{{i18n:mail.FS_LexiMail6.Title}}",
+"FS_BrinaMail2":"{{i18n:mail.FS_BrinaMail2.1}}@{{i18n:mail.FS_BrinaMail2.2}}^^{{i18n:mail.FS_BrinaMail2.3}}^^{{i18n:mail.FS_BrinaMail2.4}}^^{{i18n:mail.FS_BrinaMail2.5}}%item object 419 1 %%[#]{{i18n:mail.FS_BrinaMail2.Title}}",
+"FS_BrinaMail4":"{{i18n:mail.FS_BrinaMail4.1}}@.^^{{i18n:mail.FS_BrinaMail4.2}}^^{{i18n:mail.FS_BrinaMail4.3}}^^{{i18n:mail.FS_BrinaMail4.4}}[#]{{i18n:mail.FS_BrinaMail4.Title}}",
+"FS_BrinaMail6":"{{i18n:mail.FS_BrinaMail6.1}}@.^^{{i18n:mail.FS_BrinaMail6.2}}^^{{i18n:mail.FS_BrinaMail6.3}}[#]{{i18n:mail.FS_BrinaMail6.Title}}",
+"FS_BrinaMail8":"{{i18n:mail.FS_BrinaMail8.1}}@.^^{{i18n:mail.FS_BrinaMail8.2}}^^{{i18n:mail.FS_BrinaMail8.3}}[#]{{i18n:mail.FS_BrinaMail8.Title}}",
+"FS_AlunaMail10":"@^^{{i18n:mail.FS_AlunaMail10.1}}^^{{i18n:mail.FS_AlunaMail10.2}}%item object 499 5 %%[#]{{i18n:mail.FS_AlunaMail10.Title}}",
+"FS_NadiaMail100":"{{i18n:mail.FS_NadiaMail100.1}}@,^^{{i18n:mail.FS_NadiaMail100.2}}^^{{i18n:mail.FS_NadiaMail100.3}}%item object 250 5 %%[#]{{i18n:mail.FS_NadiaMail100.Title}}",
+"FS_DahliaMail":"{{i18n:mail.FS_DahliaMail.1}}@,^^{{i18n:mail.FS_DahliaMail.2}}^^{{i18n:mail.FS_DahliaMail.3}}[#]{{i18n:mail.FS_DahliaMail.Title}}",
+"FS_DahliaMail8":"{{i18n:mail.FS_DahliaMail8.1}}@!^^{{i18n:mail.FS_DahliaMail8.2}}^^{{i18n:mail.FS_DahliaMail8.3}}[#]{{i18n:mail.FS_DahliaMail8.Title}}",
+"FS_YosefMailWrittenPlan":"@:^^{{i18n:mail.FS_YosefMailWrittenPlan.1}}^^{{i18n:mail.FS_YosefMailWrittenPlan.2}}[#]{{i18n:mail.FS_YosefMailWrittenPlan.Title}}",
+"FS_YosefMailMakeIt":"@:^^{{i18n:mail.FS_YosefMailMakeIt.1}}^^{{i18n:mail.FS_YosefMailMakeIt.2}}[#]{{i18n:mail.FS_YosefMailMakeIt.Title}}",
+"FS_YosefMail10":"@:^^{{i18n:mail.FS_YosefMail10.1}}^^{{i18n:mail.FS_YosefMail10.2}}[#]{{i18n:mail.FS_YosefMail10.Title}}",
+"FS_JosefHouse":"@,^^{{i18n:mail.FS_JosefHouse.1}}^^{{i18n:mail.FS_JosefHouse.2}}^^{{i18n:mail.FS_JosefHouse.3}}[#]{{i18n:mail.FS_JosefHouse.Title}}",
+"FS_FionaMail6":"{{i18n:mail.FS_FionaMail6.1}}[#]{{i18n:mail.FS_FionaMail6.Title}}",
+"FS_ErikMail6":"{{i18n:mail.FS_ErikMail6.1}}[#]{{i18n:mail.FS_ErikMail6.Title}}",
+"FS_QuinnMail10":"{{i18n:mail.FS_QuinnMail10.1}}@!^^{{i18n:mail.FS_QuinnMail10.2}}^^{{i18n:mail.FS_QuinnMail10.3}}[#]{{i18n:mail.FS_QuinnMail10.Title}}",
+"FS_SilasMail8":"@^^{{i18n:mail.FS_SilasMail8.1}}^^{{i18n:mail.FS_SilasMail8.2}}[#]{{i18n:mail.FS_SilasMail8.Title}}",
+"FS_UniceMail2":"{{i18n:mail.FS_UniceMail2.1}}@,^^{{i18n:mail.FS_UniceMail2.2}}^^{{i18n:mail.FS_UniceMail2.3}}%item object 84 1 554 1 560 1 %%[#]{{i18n:mail.FS_UniceMail2.Title}}",
+"FS_UniceMail4":"{{i18n:mail.FS_UniceMail4.1}}@,^^{{i18n:mail.FS_UniceMail4.2}}^^{{i18n:mail.FS_UniceMail4.3}}%item object 548 1 563 1 562 1 %%[#]{{i18n:mail.FS_UniceMail4.Title}}",
+"FS_UniceMail6":"{{i18n:mail.FS_UniceMail6.1}}@,^^{{i18n:mail.FS_UniceMail6.2}}^^{{i18n:mail.FS_UniceMail6.3}}%item object 66 1 60 1 564 1 %%[#]{{i18n:mail.FS_UniceMail6.Title}}",
+"FS_UniceMail10":"{{i18n:mail.FS_UniceMail10.1}}@,^^{{i18n:mail.FS_UniceMail10.2}}^^{{i18n:mail.FS_UniceMail10.3}}%item object 74 1 %%[#]{{i18n:mail.FS_UniceMail10.Title}}",
+"FS_MacMailRequest":"@,^^{{i18n:mail.FS_MacMailRequest.1}}^^{{i18n:mail.FS_MacMailRequest.2}}^{{i18n:mail.FS_MacMailRequest.3}}^{{i18n:mail.FS_MacMailRequest.4}}^^{{i18n:mail.FS_MacMailRequest.5}}[#]{{i18n:mail.FS_MacMailRequest.Title}}",
+"FS_MacRepair":"@,^^{{i18n:mail.FS_MacRepair.1}}^^{{i18n:mail.FS_MacRepair.2}}%item object 66 1 %%[#]{{i18n:mail.FS_MacRepair.Title}}",
+"FS_SilasMail10":"@^^{{i18n:mail.FS_SilasMail10.1}}^^{{i18n:mail.FS_SilasMail10.2}}[#]{{i18n:mail.FS_SilasMail10.Title}}",
+"FS_OdoMail10":"@:^^{{i18n:mail.FS_OdoMail10.1}}^^{{i18n:mail.FS_OdoMail10.2}}[#]{{i18n:mail.FS_OdoMail10.Title}}",
+"FS_JosefMailHouseRequest":"@,^^{{i18n:mail.FS_JosefMailHouseRequest.1}}^^{{i18n:mail.FS_JosefMailHouseRequest.2}}^{{i18n:mail.FS_JosefMailHouseRequest.3}}^{{i18n:mail.FS_JosefMailHouseRequest.4}}^^{{i18n:mail.FS_JosefMailHouseRequest.5}}[#]{{i18n:mail.FS_JosefMailHouseRequest.Title}}",
+"FS_JosefRepair":"@,^^{{i18n:mail.FS_JosefRepair.1}}^^{{i18n:mail.FS_JosefRepair.2}}%item object 60 1 %%[#]{{i18n:mail.FS_JosefRepair.Title}}",
+
+"FS_RolfField":"{{i18n:mail.FS_RolfFieldMail.1}}@:^^{{i18n:mail.FS_RolfFieldMail.2}}^^{{i18n:mail.FS_RolfFieldMail.3}}[#]{{i18n:mail.FS_RolfFieldMail.Title}}",
+"FS_RolfMailHouseRequest":"@,^^{{i18n:mail.FS_RolfMailHouseRequest.intro}}^^{{i18n:mail.FS_RolfMailHouseRequest.1}}^^{{i18n:mail.FS_RolfMailHouseRequest.2}}^{{i18n:mail.FS_RolfMailHouseRequest.3}}^{{i18n:mail.FS_RolfMailHouseRequest.4}}^^{{i18n:mail.FS_RolfMailHouseRequest.5}}[#]{{i18n:mail.FS_RolfMailHouseRequest.Title}}",
+"FS_RolfRepair":"@,^^{{i18n:mail.FS_RolfRepair.1}}^^{{i18n:mail.FS_RolfRepair.2}}%item object 64 1 %%[#]{{i18n:mail.FS_RolfRepair.Title}}",
+"FS_RolfFieldAbandon":"@,^^{{i18n:mail.FS_RolfFieldAbandon.1}}^^{{i18n:mail.FS_RolfFieldAbandon.2}}[#]{{i18n:mail.FS_RolfFieldAbandon.Title}}",
+"FS_RolfFieldGrow":"{{i18n:mail.FS_RolfFieldGrowMail.1}}@:^^{{i18n:mail.FS_RolfFieldGrowMail.2}}^^{{i18n:mail.FS_RolfFieldGrowMail.3}}[#]{{i18n:mail.FS_RolfFieldGrowMail.Title}}",
+"passedOut_FS_FoundByMac":"@,^^{{i18n:mail.FS_FoundByMac.1}}^^{{i18n:mail.FS_FoundByMac.2}}^^{{i18n:mail.FS_FoundByMac.3}}[#]{{i18n:mail.FS_FoundByMac.Title}}",
+"passedOut_FS_Stoffton":"@,^^{{i18n:mail.FS_passedOut_FS_Stoffton.1}}^^{{i18n:mail.FS_passedOut_FS_Stoffton.2}}^^{{i18n:mail.FS_passedOut_FS_Stoffton.3}}[#]{{i18n:mail.FS_passedOut_FS_Stoffton.Title}}",
+"FS_NoNewFarmDeed":"@,^^{{i18n:mail.FS_NoNewFarmDeed.1}}^^{{i18n:mail.FS_NoNewFarmDeed.2}}^^{{i18n:mail.FS_NoNewFarmDeed.3}}[#]{{i18n:mail.FS_NoNewFarmDeed.Title}}",
+"FS_NewFarmDeed":"@,^^{{i18n:mail.FS_NewFarmDeed.1}}^^{{i18n:mail.FS_NewFarmDeed.2}}^^{{i18n:mail.FS_NewFarmDeed.3}}^^{{i18n:mail.FS_NewFarmDeed.4}}%item bigobject 216 %%[#]{{i18n:mail.FS_NewFarmDeed.Title}}",
+
+
+
+
+
+	}
+},
+//Adding Mail that includes totems
+{
+    "Action": "EditData",
+	"Target": "Data/mail",
+	"Entries": {
+"FS_FionaMail6":"{{i18n:mail.FS_FionaMail6.1alt}}@!^^{{i18n:mail.FS_FionaMail6.2}}^^{{i18n:mail.FS_FionaMail6.3}}^^{{i18n:mail.FS_FionaMail6.4}}%item object {{spacechase0.JsonAssets/ObjectId:RockyFordTotem}} %%[#]{{i18n:mail.FS_FionaMail6.Title}}",
+"FS_ErikMail6":"{{i18n:mail.FS_ErikMail6.1alt}}@!^^{{i18n:mail.FS_ErikMail6.2}}^^{{i18n:mail.FS_ErikMail6.3}}%item object {{spacechase0.JsonAssets/ObjectId:StofftonTotem}} %%[#]{{i18n:mail.FS_ErikMail6.Title}}",
+	},
+    "When":{"HasMod":"spacechase0.JsonAssets"}
+},
+
+
+//Adding Events
+{
+     "Action": "Load",
+	 "Target": "Data/Events/Lizzie.Stoffton_RockyFord",
+	 "FromFile": "Assets/Events/blank.json"
+},
+{
+     "Action": "Load",
+	 "Target": "Data/Events/Lizzie.Stoffton_Pickles",
+	 "FromFile": "Assets/Events/blank.json"
+},
+{
+     "Action": "Load",
+	 "Target": "Data/Events/Lizzie.Stoffton_Stoffton",
+	 "FromFile": "Assets/Events/blank.json"
+},
+{
+     "Action": "Load",
+	 "Target": "Data/Events/Lizzie.Stoffton_Academy",
+	 "FromFile": "Assets/Events/blank.json"
+},
+{
+     "Action": "Load",
+	 "Target": "Data/Events/Lizzie.Stoffton_Cafe",
+	 "FromFile": "Assets/Events/blank.json"
+},
+{
+     "Action": "Load",
+	 "Target": "Data/Events/Lizzie.Stoffton_MillHouse",
+	 "FromFile": "Assets/Events/blank.json"
+},
+{
+     "Action": "Load",
+	 "Target": "Data/Events/Lizzie.Stoffton_Grocery",
+	 "FromFile": "Assets/Events/blank.json"
+},
+{
+     "Action": "Load",
+	 "Target": "Data/Events/Lizzie.Stoffton_Hotel",
+	 "FromFile": "Assets/Events/blank.json"
+},
+{
+     "Action": "Load",
+	 "Target": "Data/Events/Lizzie.Stoffton_Flower",
+	 "FromFile": "Assets/Events/blank.json"
+},
+{
+     "Action": "Load",
+	 "Target": "Data/Events/Lizzie.Stoffton_Clothes",
+	 "FromFile": "Assets/Events/blank.json"
+},
+{
+     "Action": "Load",
+	 "Target": "Data/Events/Lizzie.Stoffton_Blacksmith",
+	 "FromFile": "Assets/Events/blank.json"
+},
+{
+     "Action": "Load",
+	 "Target": "Data/Events/Lizzie.Stoffton_Drinks",
+	 "FromFile": "Assets/Events/blank.json"
+},
+{
+     "Action": "Load",
+	 "Target": "Data/Events/Lizzie.Stoffton_Dad",
+	 "FromFile": "Assets/Events/blank.json"
+},
+{
+     "Action": "Load",
+	 "Target": "Data/Events/Lizzie.Stoffton_Boarding",
+	 "FromFile": "Assets/Events/blank.json"
+},
+{
+     "Action": "Load",
+	 "Target": "Data/Events/Lizzie.Stoffton_AirplaneShed",
+	 "FromFile": "Assets/Events/blank.json"
+},
+{
+     "Action": "Load",
+	 "Target": "Data/Events/Lizzie.Stoffton_Shepherd",
+	 "FromFile": "Assets/Events/blank.json"
+},
+{
+     "Action": "Load",
+	 "Target": "Data/Events/Lizzie.Stoffton_Mill",
+	 "FromFile": "Assets/Events/blank.json"
+},
+{
+     "Action": "Load",
+	 "Target": "Data/Events/Lizzie.Stoffton_Dwarf",
+	 "FromFile": "Assets/Events/blank.json"
+},
+{
+     "Action": "Load",
+	 "Target": "Data/Events/Lizzie.Stoffton_Goblin",
+	 "FromFile": "Assets/Events/blank.json"
+},
+{
+     "Action": "Load",
+	 "Target": "Data/Events/Lizzie.Stoffton_ShepherdSecond",
+	 "FromFile": "Assets/Events/blank.json"
+},
+{
+     "Action": "Load",
+	 "Target": "Data/Events/Lizzie.Stoffton_FionaCabin",
+	 "FromFile": "Assets/Events/blank.json"
+},
+{
+     "Action": "Load",
+	 "Target": "Data/Events/Lizzie.Stoffton_MHSecond",
+	 "FromFile": "Assets/Events/blank.json"
+},
+{
+     "Action": "Load",
+	 "Target": "Data/Events/Lizzie.Stoffton_MacHouse",
+	 "FromFile": "Assets/Events/blank.json"
+},
+{
+     "Action": "Load",
+	 "Target": "Data/Events/Lizzie.Stoffton_JosefHouse",
+	 "FromFile": "Assets/Events/blank.json"
+},
+
+
+//adding i18n Event files
+{
+    "LogName": "i18n Stoffton Event Files",
+    "Action": "Include",
+    "FromFile": "Assets/Events/SchaferHouseEvents.json, Assets/Events/AirplaneShedEvents.json, Assets/Events/BoardingHouseEvents.json, Assets/Events/AlHouseEvents.json, Assets/Events/DrinksEvents.json, Assets/Events/BlacksmithEvents.json, Assets/Events/ClothingEvents.json, Assets/Events/FlowerEvents.json, Assets/Events/GroceryRoomsEvents.json, Assets/Events/GroceryEvents.json, Assets/Events/VictorianHouseEvents.json, Assets/Events/CafeEvents.json, Assets/Events/AcademyEvents.json, Assets/Events/StofftonEvents.json, Assets/Events/PicklesEvents.json, Assets/Events/NewPastureEvents.json, Assets/Events/MillEvents.json, Assets/Events/DwarfEvents.json, Assets/Events/GoblinEvents.json",
+},
+
+//adding event forks that happen in different locations
+{
+     "Action": "EditData",
+	 "Target": "Data/Events/Lizzie.Stoffton_ShepherdSecond",
+	 "Entries": {
+	 "fixHouse": "mail FS_JosefHouse/speak JosefFS \"Thanks for listening, @.\"/end",
+	 }
+},
+{
+     "Action": "EditData",
+	 "Target": "Data/Events/Lizzie.Stoffton_FionaCabin",
+	 "Entries": {
+	 "fixHouse": "mail FS_JosefHouse/speak JosefFS \"Thanks for listening, @.\"/end",
+	 }
+},
+
+
+//Adding events at BusStop
+{ 
+	"Action": "EditData",
+	"Target": "Data/Events/BusStop",
+	"Entries": {
+"11666006/f EbbeFS 2500": "spaceMusic/13 18/farmer 9 23 1 EbbeFS 13 17 2/skippable/pause 1000/speed farmer 3/move farmer 4 0 1 true/playSound grassyStep/pause 500/playSound grassyStep/pause 600/playSound grassyStep/pause 500/playSound grassyStep/pause 1000/move farmer 0 -4 0 true/playSound grassyStep/pause 300/playSound grassyStep/pause 600/playSound grassyStep/pause 500/playSound grassyStep/pause 1000/speak EbbeFS \"{{i18n:event-11666006.01}}\"/speak EbbeFS \"{{i18n:event-11666006.02}}\"/speak EbbeFS \"{{i18n:event-11666006.03}}\"/speak EbbeFS \"$q -1 null#{{i18n:event-11666006.04}}#$r -1 10 event10_ofCourse#{{i18n:event-11666006.05}}#$r -1 50 event10_always#{{i18n:event-11666006.06}}#$r -1 -250 event10_busy#{{i18n:event-11666006.07}}\"/fork noStarsEbbe/speak EbbeFS \"{{i18n:event-11666006.08}}\"/fade/message \"{{i18n:event-11666006.09}}\"/end",
+  "noStarsEbbe": "faceDirection EbbeFS 3/emote EbbeFS 12/end dialogue EbbeFS \"{{i18n:event-11666006.noStarsEbbe.01}}\"",
+  "11666011/f AlexandriaFS 2500": "tribal/13 18/farmer 9 23 1 AlexandriaFS 13 17 2/skippable/pause 1000/speed farmer 3/move farmer 4 0 1 true/playSound grassyStep/pause 500/playSound grassyStep/pause 600/playSound grassyStep/pause 500/playSound grassyStep/pause 1000/move farmer 0 -4 0 true/playSound grassyStep/pause 300/playSound grassyStep/pause 600/playSound grassyStep/pause 500/playSound grassyStep/pause 1000/speak AlexandriaFS \"{{i18n:event-11666011.01}}\"/emote farmer 8/speak AlexandriaFS \"{{i18n:event-11666011.02}}\"/speak AlexandriaFS \"{{i18n:event-11666011.03}}\"/speak AlexandriaFS \"{{i18n:event-11666011.04}}\"/speak AlexandriaFS \"$q -1 null#{{i18n:event-11666011.05}}#$r -1 50 event10_Totally#{{i18n:event-11666011.06}}#$r -1 0 event10_Thanks#{{i18n:event-11666011.07}}#$r -1 -500 event10_mean#{{i18n:event-11666011.08}}\"/fork noConcertAlexandria/fade/message \"{{i18n:event-11666011.09}}\"/end",
+  "noConcertAlexandria": "faceDirection AlexandriaFS 3/emote AlexandriaFS 12/end dialogue AlexandriaFS \"{{i18n:event-11666011.noConcertAlexandria.01}}\"",
+  "11666050/f VashaFS 2000": "SunRoom/13 18/farmer 9 23 1 VashaFS 13 17 2/skippable/pause 1000/speed farmer 3/move farmer 4 0 1 true/playSound grassyStep/pause 500/playSound grassyStep/pause 600/playSound grassyStep/pause 500/playSound grassyStep/pause 1000/move farmer 0 -4 0 true/playSound grassyStep/pause 300/playSound grassyStep/pause 600/playSound grassyStep/pause 500/playSound grassyStep/pause 1000/speak VashaFS \"{{i18n:event-11666050.01}}\"/speak VashaFS \"{{i18n:event-11666050.02}}\"/speak VashaFS \"{{i18n:event-11666050.03}}\"/speak VashaFS \"{{i18n:event-11666050.04}}\"/speak VashaFS \"$q -1 null#{{i18n:event-11666050.05}}#$r -1 50 event_OfCourse#{{i18n:event-11666050.06}}#$r -1 -10 event_RatherNot#{{i18n:event-11666050.07}}#$r -1 0 event_MaybeTomorrow#{{i18n:event-11666050.08}}\"/end",
+  "11666118/f BrinaFS 2500": "continue/13 18/farmer 9 23 1 BrinaFS 13 17 2/skippable/pause 1000/speed farmer 3/move farmer 4 0 1 true/playSound grassyStep/pause 500/playSound grassyStep/pause 600/playSound grassyStep/pause 500/playSound grassyStep/pause 1000/move farmer 0 -4 0 true/playSound grassyStep/pause 300/playSound grassyStep/pause 600/playSound grassyStep/pause 500/playSound grassyStep/pause 1000/speak BrinaFS \"$q -1 null#{{i18n:event-11666118.01}}#$r -1 100 event_letsGo#{{i18n:event-11666118.02}}#$r -1 -10 event_maybe#{{i18n:event-11666118.03}}#$r -1 -250 event_noThankYou#{{i18n:event-11666118.04}}\"/fork noObservatoryBrina/fade/message \"{{i18n:event-11666118.05}}\"/end",
+  "noObservatoryBrina": "end",
+  "11666200/f ClayFS 2500": "continue/13 18/farmer 9 23 1 ClayFS 13 17 2/skippable/pause 1000/speed farmer 3/move farmer 4 0 1 true/playSound grassyStep/pause 500/playSound grassyStep/pause 600/playSound grassyStep/pause 500/playSound grassyStep/pause 1000/move farmer 0 -4 0 true/playSound grassyStep/pause 300/playSound grassyStep/pause 600/playSound grassyStep/pause 500/playSound grassyStep/pause 1000/speak ClayFS \"$q -1 null#{{i18n:event-11666200.01}}#$r -1 100 event_letsGo#{{i18n:event-11666200.02}}#$r -1 20 event_maybe#{{i18n:event-11666200.03}}#$r -1 -250 event_noThankYou#{{i18n:event-11666200.04}}\"/fork noExibitClay/fade/message \"{{i18n:event-11666200.05}}\"/end",
+  "noExibitClay": "end",
+
+
+	  }
+},
+
+//Adding events at Beach
+{ 
+	"Action": "EditData",
+	"Target": "Data/Events/Beach",
+	"Entries": {
+"11666218/n FS_SilasMail10": "continue/32 10/farmer 38 10 2 SilasFS 32 10 2/skippable/pause 1000/speed farmer 3/move farmer -4 0 3 true/playSound sandyStep/pause 500/playSound sandyStep/pause 600/playSound sandyStep/pause 500/playSound sandyStep/pause 1000/jump SilasFS/faceDirection SilasFS 1/pause 500/emote SilasFS 20/pause 500/speak SilasFS \"{{i18n:event-11666218.01}}\"/speak SilasFS \"{{i18n:event-11666218.02}}\"/emote farmer 32/faceDirection SilasFS 2/pause 500/faceDirection SilasFS 3/pause 500/faceDirection SilasFS 1/pause 500/speak SilasFS \"{{i18n:event-11666218.03}}\"/emote farmer 60/pause 500/end",	
+	
+	
+	}
+},
+
+//Adding farm events (mostly letters to be sent)
+{ 
+	"Action": "EditData",
+	"Target": "Data/Events/farm",
+	"Entries": {
+  "11666012/f AlexandriaFS 2000/x FS_AlexandriaMail1": "null",
+  "11666014/f MakenaFS 2000/x FS_MakenaMail8": "null",
+  "11666016/f IslaFS 1000/x FS_IslaMail4": "null",
+  "11666021/f MakenaFS 2500/x FS_MakenaMail10": "null",
+  "11666022/f IslaFS 2500/x FS_IslaMail10": "null",
+  "11666023/f FionaFS 500/x FS_FionaMail2": "null",
+  "11666024/f FionaFS 1500/x FS_FionaMailSeeds": "null",
+  "11666025/f FionaFS 2000/x FS_FionaMail8": "null",
+  "11666026/f FionaFS 2500/x FS_FionaMail10": "null",
+  "11666027/f BrinaFS 500/x FS_BrinaMail2": "null",
+  "11666028/f MarinaFS 500/x FS_MarinaMail2": "null",
+  "11666029/f MarinaFS 1000/x FS_MarinaMail4": "null",
+  "11666033/f HelmutFS 1000/x FS_HelmutMail4": "null",
+  "11666035/f HelmutFS 2000/x FS_HelmutMail8": "null",
+  "11666038/f FelixFS 1000/x FS_FelixMail4": "null",
+  "11666055/f XenFS 2500/x FS_XenMail10": "null",
+  "11666067/f GerhardFS 2500/x FS_GerhardMail10": "null",
+  "11666068/e 11666036/x FS_GerhardMail2": "null",
+  "11666069/f GerhardFS 1000/x FS_GerhardMail4": "null",
+  "11666072/f OttoFS 2500/x FS_OttoMail10": "null",
+  "11666075/f FelixFS 2000/x FS_FelixMail8": "null",
+  "11666078/f TomasFS 1000/x FS_TomasMail4": "null",
+  "11666079/f TomasFS 2500/x FS_TomasMail10": "null",
+  "11666082/f RhysFS 1000/x FS_RhysMail4": "null",
+  "11666211/f UniceFS 500/x FS_UniceMail2": "null",
+  "11666212/f UniceFS 1000/x FS_UniceMail4": "null",
+  "11666213/f UniceFS 1500/x FS_UniceMail6": "null",
+  "11666214/f UniceFS 2500/x FS_UniceMail10": "null",
+  "11666086/f ErikFS 1000/x FS_ErikMail4": "null",
+  "11666088/f IgnasFS 1000/x FS_IgnasMail4": "null",
+  "11666095/f WillFS 2000/x FS_WillMail8": "null",
+  "11666098/f JulianaFS 1000": "null",
+  "11666102/f JulianaFS 2500/x FS_JulianaMail10": "null",
+  "11666112/f BrinaFS 1000/x FS_BrinaMail4": "null",
+  "11666114/f BrinaFS 1500/x FS_BrinaMail6": "null",
+  "11666116/f BrinaFS 2000/x FS_BrinaMail8": "null",
+  "11666127/f AlunaFS 2500/x FS_AlunaMail10": "null",
+  "11666150/f NadiaFS 2500/x FS_NadiaMail100": "null",
+  "11666167/e 11666166/e 11666163/x FS_DahliaMail": "null",
+  "11666169/e 11666168/x FS_DahliaMail8": "null",
+  "11666185/f FionaFS 1500/x FS_FionaMail6": "null",
+  "11666186/f ErikFS 1500/x FS_ErikMail6": "null",
+  "11666206/f QuinnFS 2500/x FS_QuinnMail10": "null",
+  "11666209/f SilasFS 2000/x FS_SilasMail8": "null",
+  "11666217/f SilasFS 2500/x FS_SilasMail10": "null",
+  "11666222/f OdoFS 2500/x FS_OdoMail10": "null",
+  "11666229/f RolfFS 2000/x FS_RolfField": "null",
+  "11666235/f RolfFS 2250/x FS_RolfFieldGrow": "null",
+
+
+
+	}
+},
+
+
+//Changes based on Mac's config settings
+{
+    "LogName": "Changes to make Mac a Marriage Candidate",
+    "Action": "Include",
+    "FromFile": "Assets/storylines/MacMarriageCandidate.json",
+    "When": {"MacMarriageCandidate": true}
+},
+{
+    "LogName": "Changes when Mac is not a Marriage Candidate",
+    "Action": "Include",
+    "FromFile": "Assets/storylines/MacPlatonicOption.json",
+    "When": {"MacMarriageCandidate": false}
+},
+
+//Changes based on Yosef's config settings
+{
+    "LogName": "Changes to make Yosef a Marriage Candidate",
+    "Action": "Include",
+    "FromFile": "Assets/storylines/YosefMarriageCandidate.json",
+    "When": {"YosefMarriageCandidate": true}
+},
+{
+    "LogName": "Changes when Yosef is not a Marriage Candidate",
+    "Action": "Include",
+    "FromFile": "Assets/storylines/YosefPlatonicOption.json",
+    "When": {"YosefMarriageCandidate": false}
+},
+
+//Changes based on Rolf's config settings
+{
+    "LogName": "Changes to make Rolf a Marriage Candidate",
+    "Action": "Include",
+    "FromFile": "Assets/storylines/RolfMarriageCandidate.json",
+    "When": {"RolfMarriageCandidate": true}
+},
+{
+    "LogName": "Changes when Rolf is not a Marriage Candidate",
+    "Action": "Include",
+    "FromFile": "Assets/storylines/RolfPlatonicOption.json",
+    "When": {"RolfMarriageCandidate": false}
+},
+
+//Josef's Storyline Files
+{
+    "LogName": "Changes when Josef is not a Marriage Candidate",
+    "Action": "Include",
+    "FromFile": "Assets/storylines/JosefPlatonicOption.json",
+    "When": {"HasFlag": "FS_JosefHouse"}
+},
+//Adding Shops for 1.6
+{
+    "LogName": "Adding Shops (1.6 compatible)",
+    "Action": "Include",
+    "FromFile": "Assets/data/StofftonShops.json"
+},
+
+]
+}

@@ -1,0 +1,1128 @@
+{
+"Changes": [
+{
+"Action": "EditData",
+	"Target": "Data/Shops",
+	"Entries": {
+		"Lizzie.Stoffton_Dwarf": {
+			"Owners": [
+				{
+					"Name": "DwarfBFS",
+					"Dialogues": [
+						{
+							"Id": "Lizzie.Stoffton_Dwarf_Default",
+							"Dialogue": "{{i18n:Dwarf_Default}}"
+						}
+					]
+				}
+			],
+
+			"Items": [
+				{
+					"Id": "Lizzie.Stoffton_Dwarf1",
+					"AvoidRepeat": "true",
+					"RandomItemId": ["(O)247", "(O)247"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_Dwarf2",
+					"AvoidRepeat": "true",
+					"RandomItemId": ["(O)766", "(O)93"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_Dwarf3",
+					"AvoidRepeat": "true",
+					"RandomItemId": ["(O)766", "(O)93"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_Dwarf4",
+					"AvoidRepeat": "true",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": [
+						"(O)770",
+						"(O)273",
+						"(O)891",
+						"(O)499"
+						]
+				},
+			]
+		}
+	}
+},
+//Adding Stoffton's Clothing Shop
+{
+"Action": "EditData",
+	"Target": "Data/Shops",
+	"Entries": {
+		"Lizzie.Stoffton_ClothesShop": {
+			"Owners": [
+				{
+					"Name": "LeanderFS",
+					"Dialogues": [
+						{
+							"Id": "Lizzie.Stoffton_ClothesShop_Default",
+							"Dialogue": "{{i18n:ClothingShop_Default}}"
+						}
+					]
+				}
+			],
+
+			"Items": [
+				{
+					"Id": "Lizzie.Stoffton_ClothesShop1",
+					"AvoidRepeat": "true",
+					"RandomItemId": ["(S)1136", "(S)1227", "(S)1009", "(S)1215", "(S)1196", "(P)10", "(S)1293", "(S)1176", "(S)1221", "(S)1134", "(S)1138", "(S)1172", "(S)1278", "(S)1161", "(S)1242", "(S)1245", "(S)1155", "(S)1265", "(S)1018", "(S)1266", "(S)1237", "(S)1247", "(S)1140", "(S)1274", "(S)1231", "(S)1239", "(S)1218", "(S)1250", "(S)1156", "(S)1213", "(S)1234", "(S)1000", "(S)1201", "(S)1248", "(S)1149", "(S)1131", "(S)1276", "(S)1132", "(S)1141", "(S)1262", "(S)1263", "(S)1211", "(S)1003", "(S)1194", "(S)1289", "(S)1163", "(P)5", "(S)1275", "(S)1229", "(P)2", "(S)1127", "(S)1208", "(S)1279", "(S)1153", "(S)1035", "(S)1158", "(S)1157", "(S)1226", "(S)1154", "(S)1235", "(S)1246", "(S)1283", "(S)1170", "(P)8", "(S)1292", "(S)1284", "(S)1150", "(S)1222", "(S)1238", "(S)1008", "(S)1188", "(P)6", "(S)1160", "(S)1183", "(S)1167", "(S)1281", "(S)1255", "(S)1270", "(S)1007", "(S)1205", "(S)1034", "(S)1020", "(S)1190", "(S)1225", "(S)1186", "(S)1295", "(S)1151", "(S)1179", "(S)1297", "(S)1192", "(S)1230", "(S)1168", "(S)1187", "(S)1137", "(S)1005", "(S)1026", "(S)1012", "(S)1042", "(P)7", "(S)1291", "(S)1997", "(S)1017", "(S)1285", "(S)1290", "(S)1002", "(S)1257", "(S)1185", "(S)1220", "(S)1016", "(S)1171", "(S)1193", "(S)1240", "(S)1256", "(S)1264", "(S)1267", "(S)1166", "(S)1015", "(S)1224", "(S)1027", "(S)1216", "(S)1038", "(P)4", "(S)1272", "(P)14", "(S)1269", "(P)999", "(P)998", "(S)1223", "(S)1998", "(S)1999", "(S)1197", "(S)1260", "(S)1241", "(S)1280", "(S)1251", "(S)1162", "(S)1013", "(S)1184", "(S)1243", "(P)12", "(P)13", "(S)1244", "(S)1039", "(S)1233", "(S)1236", "(S)1159", "(S)1123", "(S)1214", "(S)1191", "(S)1271", "(P)1", "(S)1286", "(S)1277", "(S)11", "(S)1014", "(P)3", "(S)1004", "(S)1217", "(S)1207", "(S)1228", "(S)1209", "(S)1258", "(S)1200", "(S)1148", "(S)1030", "(S)1139", "(S)1128", "(S)1169", "(S)1254", "(S)1010", "(S)1212", "(S)1006", "(S)1129", "(S)1287", "(P)9", "(S)1249", "(S)1199", "(S)1282", "(S)1252", "(S)1164", "(S)1232", "(P)15", "(S)1288", "(S)1296", "(S)1142", "(S)1180", "(S)1178", "(S)1143", "(S)1204", "(S)1198", "(S)1253", "(S)1273", "(S)1165", "(S)1268", "(S)1071", "(S)1029", "(S)1135", "(S)1021", "(S)1294", "(S)1219"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_ClothesShop2",
+					"AvoidRepeat": "true",
+					"RandomItemId": ["(S)1136", "(S)1227", "(S)1009", "(S)1215", "(S)1196", "(P)10", "(S)1293", "(S)1176", "(S)1221", "(S)1134", "(S)1138", "(S)1172", "(S)1278", "(S)1161", "(S)1242", "(S)1245", "(S)1155", "(S)1265", "(S)1018", "(S)1266", "(S)1237", "(S)1247", "(S)1140", "(S)1274", "(S)1231", "(S)1239", "(S)1218", "(S)1250", "(S)1156", "(S)1213", "(S)1234", "(S)1000", "(S)1201", "(S)1248", "(S)1149", "(S)1131", "(S)1276", "(S)1132", "(S)1141", "(S)1262", "(S)1263", "(S)1211", "(S)1003", "(S)1194", "(S)1289", "(S)1163", "(P)5", "(S)1275", "(S)1229", "(P)2", "(S)1127", "(S)1208", "(S)1279", "(S)1153", "(S)1035", "(S)1158", "(S)1157", "(S)1226", "(S)1154", "(S)1235", "(S)1246", "(S)1283", "(S)1170", "(P)8", "(S)1292", "(S)1284", "(S)1150", "(S)1222", "(S)1238", "(S)1008", "(S)1188", "(P)6", "(S)1160", "(S)1183", "(S)1167", "(S)1281", "(S)1255", "(S)1270", "(S)1007", "(S)1205", "(S)1034", "(S)1020", "(S)1190", "(S)1225", "(S)1186", "(S)1295", "(S)1151", "(S)1179", "(S)1297", "(S)1192", "(S)1230", "(S)1168", "(S)1187", "(S)1137", "(S)1005", "(S)1026", "(S)1012", "(S)1042", "(P)7", "(S)1291", "(S)1997", "(S)1017", "(S)1285", "(S)1290", "(S)1002", "(S)1257", "(S)1185", "(S)1220", "(S)1016", "(S)1171", "(S)1193", "(S)1240", "(S)1256", "(S)1264", "(S)1267", "(S)1166", "(S)1015", "(S)1224", "(S)1027", "(S)1216", "(S)1038", "(P)4", "(S)1272", "(P)14", "(S)1269", "(P)999", "(P)998", "(S)1223", "(S)1998", "(S)1999", "(S)1197", "(S)1260", "(S)1241", "(S)1280", "(S)1251", "(S)1162", "(S)1013", "(S)1184", "(S)1243", "(P)12", "(P)13", "(S)1244", "(S)1039", "(S)1233", "(S)1236", "(S)1159", "(S)1123", "(S)1214", "(S)1191", "(S)1271", "(P)1", "(S)1286", "(S)1277", "(S)11", "(S)1014", "(P)3", "(S)1004", "(S)1217", "(S)1207", "(S)1228", "(S)1209", "(S)1258", "(S)1200", "(S)1148", "(S)1030", "(S)1139", "(S)1128", "(S)1169", "(S)1254", "(S)1010", "(S)1212", "(S)1006", "(S)1129", "(S)1287", "(P)9", "(S)1249", "(S)1199", "(S)1282", "(S)1252", "(S)1164", "(S)1232", "(P)15", "(S)1288", "(S)1296", "(S)1142", "(S)1180", "(S)1178", "(S)1143", "(S)1204", "(S)1198", "(S)1253", "(S)1273", "(S)1165", "(S)1268", "(S)1071", "(S)1029", "(S)1135", "(S)1021", "(S)1294", "(S)1219"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_ClothesShop3",
+					"AvoidRepeat": "true",
+					"RandomItemId": ["(S)1136", "(S)1227", "(S)1009", "(S)1215", "(S)1196", "(P)10", "(S)1293", "(S)1176", "(S)1221", "(S)1134", "(S)1138", "(S)1172", "(S)1278", "(S)1161", "(S)1242", "(S)1245", "(S)1155", "(S)1265", "(S)1018", "(S)1266", "(S)1237", "(S)1247", "(S)1140", "(S)1274", "(S)1231", "(S)1239", "(S)1218", "(S)1250", "(S)1156", "(S)1213", "(S)1234", "(S)1000", "(S)1201", "(S)1248", "(S)1149", "(S)1131", "(S)1276", "(S)1132", "(S)1141", "(S)1262", "(S)1263", "(S)1211", "(S)1003", "(S)1194", "(S)1289", "(S)1163", "(P)5", "(S)1275", "(S)1229", "(P)2", "(S)1127", "(S)1208", "(S)1279", "(S)1153", "(S)1035", "(S)1158", "(S)1157", "(S)1226", "(S)1154", "(S)1235", "(S)1246", "(S)1283", "(S)1170", "(P)8", "(S)1292", "(S)1284", "(S)1150", "(S)1222", "(S)1238", "(S)1008", "(S)1188", "(P)6", "(S)1160", "(S)1183", "(S)1167", "(S)1281", "(S)1255", "(S)1270", "(S)1007", "(S)1205", "(S)1034", "(S)1020", "(S)1190", "(S)1225", "(S)1186", "(S)1295", "(S)1151", "(S)1179", "(S)1297", "(S)1192", "(S)1230", "(S)1168", "(S)1187", "(S)1137", "(S)1005", "(S)1026", "(S)1012", "(S)1042", "(P)7", "(S)1291", "(S)1997", "(S)1017", "(S)1285", "(S)1290", "(S)1002", "(S)1257", "(S)1185", "(S)1220", "(S)1016", "(S)1171", "(S)1193", "(S)1240", "(S)1256", "(S)1264", "(S)1267", "(S)1166", "(S)1015", "(S)1224", "(S)1027", "(S)1216", "(S)1038", "(P)4", "(S)1272", "(P)14", "(S)1269", "(P)999", "(P)998", "(S)1223", "(S)1998", "(S)1999", "(S)1197", "(S)1260", "(S)1241", "(S)1280", "(S)1251", "(S)1162", "(S)1013", "(S)1184", "(S)1243", "(P)12", "(P)13", "(S)1244", "(S)1039", "(S)1233", "(S)1236", "(S)1159", "(S)1123", "(S)1214", "(S)1191", "(S)1271", "(P)1", "(S)1286", "(S)1277", "(S)11", "(S)1014", "(P)3", "(S)1004", "(S)1217", "(S)1207", "(S)1228", "(S)1209", "(S)1258", "(S)1200", "(S)1148", "(S)1030", "(S)1139", "(S)1128", "(S)1169", "(S)1254", "(S)1010", "(S)1212", "(S)1006", "(S)1129", "(S)1287", "(P)9", "(S)1249", "(S)1199", "(S)1282", "(S)1252", "(S)1164", "(S)1232", "(P)15", "(S)1288", "(S)1296", "(S)1142", "(S)1180", "(S)1178", "(S)1143", "(S)1204", "(S)1198", "(S)1253", "(S)1273", "(S)1165", "(S)1268", "(S)1071", "(S)1029", "(S)1135", "(S)1021", "(S)1294", "(S)1219"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_ClothesShop4",
+					"AvoidRepeat": "true",
+					"RandomItemId": ["(S)1136", "(S)1227", "(S)1009", "(S)1215", "(S)1196", "(P)10", "(S)1293", "(S)1176", "(S)1221", "(S)1134", "(S)1138", "(S)1172", "(S)1278", "(S)1161", "(S)1242", "(S)1245", "(S)1155", "(S)1265", "(S)1018", "(S)1266", "(S)1237", "(S)1247", "(S)1140", "(S)1274", "(S)1231", "(S)1239", "(S)1218", "(S)1250", "(S)1156", "(S)1213", "(S)1234", "(S)1000", "(S)1201", "(S)1248", "(S)1149", "(S)1131", "(S)1276", "(S)1132", "(S)1141", "(S)1262", "(S)1263", "(S)1211", "(S)1003", "(S)1194", "(S)1289", "(S)1163", "(P)5", "(S)1275", "(S)1229", "(P)2", "(S)1127", "(S)1208", "(S)1279", "(S)1153", "(S)1035", "(S)1158", "(S)1157", "(S)1226", "(S)1154", "(S)1235", "(S)1246", "(S)1283", "(S)1170", "(P)8", "(S)1292", "(S)1284", "(S)1150", "(S)1222", "(S)1238", "(S)1008", "(S)1188", "(P)6", "(S)1160", "(S)1183", "(S)1167", "(S)1281", "(S)1255", "(S)1270", "(S)1007", "(S)1205", "(S)1034", "(S)1020", "(S)1190", "(S)1225", "(S)1186", "(S)1295", "(S)1151", "(S)1179", "(S)1297", "(S)1192", "(S)1230", "(S)1168", "(S)1187", "(S)1137", "(S)1005", "(S)1026", "(S)1012", "(S)1042", "(P)7", "(S)1291", "(S)1997", "(S)1017", "(S)1285", "(S)1290", "(S)1002", "(S)1257", "(S)1185", "(S)1220", "(S)1016", "(S)1171", "(S)1193", "(S)1240", "(S)1256", "(S)1264", "(S)1267", "(S)1166", "(S)1015", "(S)1224", "(S)1027", "(S)1216", "(S)1038", "(P)4", "(S)1272", "(P)14", "(S)1269", "(P)999", "(P)998", "(S)1223", "(S)1998", "(S)1999", "(S)1197", "(S)1260", "(S)1241", "(S)1280", "(S)1251", "(S)1162", "(S)1013", "(S)1184", "(S)1243", "(P)12", "(P)13", "(S)1244", "(S)1039", "(S)1233", "(S)1236", "(S)1159", "(S)1123", "(S)1214", "(S)1191", "(S)1271", "(P)1", "(S)1286", "(S)1277", "(S)11", "(S)1014", "(P)3", "(S)1004", "(S)1217", "(S)1207", "(S)1228", "(S)1209", "(S)1258", "(S)1200", "(S)1148", "(S)1030", "(S)1139", "(S)1128", "(S)1169", "(S)1254", "(S)1010", "(S)1212", "(S)1006", "(S)1129", "(S)1287", "(P)9", "(S)1249", "(S)1199", "(S)1282", "(S)1252", "(S)1164", "(S)1232", "(P)15", "(S)1288", "(S)1296", "(S)1142", "(S)1180", "(S)1178", "(S)1143", "(S)1204", "(S)1198", "(S)1253", "(S)1273", "(S)1165", "(S)1268", "(S)1071", "(S)1029", "(S)1135", "(S)1021", "(S)1294", "(S)1219"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_ClothesShop5",
+					"AvoidRepeat": "true",
+					"RandomItemId": ["(S)1136", "(S)1227", "(S)1009", "(S)1215", "(S)1196", "(P)10", "(S)1293", "(S)1176", "(S)1221", "(S)1134", "(S)1138", "(S)1172", "(S)1278", "(S)1161", "(S)1242", "(S)1245", "(S)1155", "(S)1265", "(S)1018", "(S)1266", "(S)1237", "(S)1247", "(S)1140", "(S)1274", "(S)1231", "(S)1239", "(S)1218", "(S)1250", "(S)1156", "(S)1213", "(S)1234", "(S)1000", "(S)1201", "(S)1248", "(S)1149", "(S)1131", "(S)1276", "(S)1132", "(S)1141", "(S)1262", "(S)1263", "(S)1211", "(S)1003", "(S)1194", "(S)1289", "(S)1163", "(P)5", "(S)1275", "(S)1229", "(P)2", "(S)1127", "(S)1208", "(S)1279", "(S)1153", "(S)1035", "(S)1158", "(S)1157", "(S)1226", "(S)1154", "(S)1235", "(S)1246", "(S)1283", "(S)1170", "(P)8", "(S)1292", "(S)1284", "(S)1150", "(S)1222", "(S)1238", "(S)1008", "(S)1188", "(P)6", "(S)1160", "(S)1183", "(S)1167", "(S)1281", "(S)1255", "(S)1270", "(S)1007", "(S)1205", "(S)1034", "(S)1020", "(S)1190", "(S)1225", "(S)1186", "(S)1295", "(S)1151", "(S)1179", "(S)1297", "(S)1192", "(S)1230", "(S)1168", "(S)1187", "(S)1137", "(S)1005", "(S)1026", "(S)1012", "(S)1042", "(P)7", "(S)1291", "(S)1997", "(S)1017", "(S)1285", "(S)1290", "(S)1002", "(S)1257", "(S)1185", "(S)1220", "(S)1016", "(S)1171", "(S)1193", "(S)1240", "(S)1256", "(S)1264", "(S)1267", "(S)1166", "(S)1015", "(S)1224", "(S)1027", "(S)1216", "(S)1038", "(P)4", "(S)1272", "(P)14", "(S)1269", "(P)999", "(P)998", "(S)1223", "(S)1998", "(S)1999", "(S)1197", "(S)1260", "(S)1241", "(S)1280", "(S)1251", "(S)1162", "(S)1013", "(S)1184", "(S)1243", "(P)12", "(P)13", "(S)1244", "(S)1039", "(S)1233", "(S)1236", "(S)1159", "(S)1123", "(S)1214", "(S)1191", "(S)1271", "(P)1", "(S)1286", "(S)1277", "(S)11", "(S)1014", "(P)3", "(S)1004", "(S)1217", "(S)1207", "(S)1228", "(S)1209", "(S)1258", "(S)1200", "(S)1148", "(S)1030", "(S)1139", "(S)1128", "(S)1169", "(S)1254", "(S)1010", "(S)1212", "(S)1006", "(S)1129", "(S)1287", "(P)9", "(S)1249", "(S)1199", "(S)1282", "(S)1252", "(S)1164", "(S)1232", "(P)15", "(S)1288", "(S)1296", "(S)1142", "(S)1180", "(S)1178", "(S)1143", "(S)1204", "(S)1198", "(S)1253", "(S)1273", "(S)1165", "(S)1268", "(S)1071", "(S)1029", "(S)1135", "(S)1021", "(S)1294", "(S)1219"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_ClothesShop6",
+					"AvoidRepeat": "true",
+					"RandomItemId": ["(S)1136", "(S)1227", "(S)1009", "(S)1215", "(S)1196", "(P)10", "(S)1293", "(S)1176", "(S)1221", "(S)1134", "(S)1138", "(S)1172", "(S)1278", "(S)1161", "(S)1242", "(S)1245", "(S)1155", "(S)1265", "(S)1018", "(S)1266", "(S)1237", "(S)1247", "(S)1140", "(S)1274", "(S)1231", "(S)1239", "(S)1218", "(S)1250", "(S)1156", "(S)1213", "(S)1234", "(S)1000", "(S)1201", "(S)1248", "(S)1149", "(S)1131", "(S)1276", "(S)1132", "(S)1141", "(S)1262", "(S)1263", "(S)1211", "(S)1003", "(S)1194", "(S)1289", "(S)1163", "(P)5", "(S)1275", "(S)1229", "(P)2", "(S)1127", "(S)1208", "(S)1279", "(S)1153", "(S)1035", "(S)1158", "(S)1157", "(S)1226", "(S)1154", "(S)1235", "(S)1246", "(S)1283", "(S)1170", "(P)8", "(S)1292", "(S)1284", "(S)1150", "(S)1222", "(S)1238", "(S)1008", "(S)1188", "(P)6", "(S)1160", "(S)1183", "(S)1167", "(S)1281", "(S)1255", "(S)1270", "(S)1007", "(S)1205", "(S)1034", "(S)1020", "(S)1190", "(S)1225", "(S)1186", "(S)1295", "(S)1151", "(S)1179", "(S)1297", "(S)1192", "(S)1230", "(S)1168", "(S)1187", "(S)1137", "(S)1005", "(S)1026", "(S)1012", "(S)1042", "(P)7", "(S)1291", "(S)1997", "(S)1017", "(S)1285", "(S)1290", "(S)1002", "(S)1257", "(S)1185", "(S)1220", "(S)1016", "(S)1171", "(S)1193", "(S)1240", "(S)1256", "(S)1264", "(S)1267", "(S)1166", "(S)1015", "(S)1224", "(S)1027", "(S)1216", "(S)1038", "(P)4", "(S)1272", "(P)14", "(S)1269", "(P)999", "(P)998", "(S)1223", "(S)1998", "(S)1999", "(S)1197", "(S)1260", "(S)1241", "(S)1280", "(S)1251", "(S)1162", "(S)1013", "(S)1184", "(S)1243", "(P)12", "(P)13", "(S)1244", "(S)1039", "(S)1233", "(S)1236", "(S)1159", "(S)1123", "(S)1214", "(S)1191", "(S)1271", "(P)1", "(S)1286", "(S)1277", "(S)11", "(S)1014", "(P)3", "(S)1004", "(S)1217", "(S)1207", "(S)1228", "(S)1209", "(S)1258", "(S)1200", "(S)1148", "(S)1030", "(S)1139", "(S)1128", "(S)1169", "(S)1254", "(S)1010", "(S)1212", "(S)1006", "(S)1129", "(S)1287", "(P)9", "(S)1249", "(S)1199", "(S)1282", "(S)1252", "(S)1164", "(S)1232", "(P)15", "(S)1288", "(S)1296", "(S)1142", "(S)1180", "(S)1178", "(S)1143", "(S)1204", "(S)1198", "(S)1253", "(S)1273", "(S)1165", "(S)1268", "(S)1071", "(S)1029", "(S)1135", "(S)1021", "(S)1294", "(S)1219"]
+				},
+				
+			]
+		}
+	}
+},
+//Adding Stoffton's Cafe
+{
+"Action": "EditData",
+	"Target": "Data/Shops",
+	"Entries": {
+		"Lizzie.Stoffton_Cafe": {
+			"Owners": [
+				{
+					"Name": "KendriaFS",
+					"Dialogues": [
+						{
+							"Id": "Lizzie.Stoffton_Cafe_Default",
+							"Dialogue": "{{i18n:Cafe_Default}}"
+						}
+					]
+				}
+			],
+			"Items": [
+				{
+					"Id": "Lizzie.Stoffton_CafeSpring1",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"Condition": "SEASON Spring",
+					"RandomItemId": ["(O)198", "(O)207", "(O)197", "(O)201", "(O)214", "(O)240", "(O)649", "(O)205", "(O)610", "(O)196"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeSpring2",
+					"Condition": "SEASON Spring",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)198", "(O)207", "(O)197", "(O)201", "(O)214", "(O)240", "(O)649", "(O)205", "(O)610", "(O)196"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeSpring3",
+					"Condition": "SEASON Spring",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)198", "(O)207", "(O)197", "(O)201", "(O)214", "(O)240", "(O)649", "(O)205", "(O)610", "(O)196"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeSpring4",
+					"Condition": "SEASON Spring",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)198", "(O)207", "(O)197", "(O)201", "(O)214", "(O)240", "(O)649", "(O)205", "(O)610", "(O)196"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeSpring5",
+					"Condition": "SEASON Spring",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)198", "(O)207", "(O)197", "(O)201", "(O)214", "(O)240", "(O)649", "(O)205", "(O)610", "(O)196"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeSpring6",
+					"Condition": "SEASON Spring",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)198", "(O)207", "(O)197", "(O)201", "(O)214", "(O)240", "(O)649", "(O)205", "(O)610", "(O)196"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeSpring7",
+					"Condition": "SEASON Spring",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)198", "(O)207", "(O)197", "(O)201", "(O)214", "(O)240", "(O)649", "(O)205", "(O)610", "(O)196"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeSpring8",
+					"Condition": "SEASON Spring",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)198", "(O)207", "(O)197", "(O)201", "(O)214", "(O)240", "(O)649", "(O)205", "(O)610", "(O)196"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeSpring9",
+					"Condition": "SEASON Spring",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)198", "(O)207", "(O)197", "(O)201", "(O)214", "(O)240", "(O)649", "(O)205", "(O)610", "(O)196"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeSpring10",
+					"Condition": "SEASON Spring",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)198", "(O)207", "(O)197", "(O)201", "(O)214", "(O)240", "(O)649", "(O)205", "(O)610", "(O)196"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeSummer1",
+					"Condition": "SEASON Summer",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)198", "(O)618", "(O)214", "(O)231", "(O)649", "(O)610", "(O)215", "(O)230", "(O)224", "(O)907"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeSummer11",
+					"Condition": "SEASON Summer",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)198", "(O)618", "(O)214", "(O)231", "(O)649", "(O)610", "(O)215", "(O)230", "(O)224", "(O)907"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeSummer2",
+					"Condition": "SEASON Summer",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)198", "(O)618", "(O)214", "(O)231", "(O)649", "(O)610", "(O)215", "(O)230", "(O)224", "(O)907"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeSummer3",
+					"Condition": "SEASON Summer",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)198", "(O)618", "(O)214", "(O)231", "(O)649", "(O)610", "(O)215", "(O)230", "(O)224", "(O)907"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeSummer4",
+					"Condition": "SEASON Summer",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)198", "(O)618", "(O)214", "(O)231", "(O)649", "(O)610", "(O)215", "(O)230", "(O)224", "(O)907"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeSummer5",
+					"Condition": "SEASON Summer",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)198", "(O)618", "(O)214", "(O)231", "(O)649", "(O)610", "(O)215", "(O)230", "(O)224", "(O)907"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeSummer6",
+					"Condition": "SEASON Summer",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)198", "(O)618", "(O)214", "(O)231", "(O)649", "(O)610", "(O)215", "(O)230", "(O)224", "(O)907"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeSummer7",
+					"Condition": "SEASON Summer",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)198", "(O)618", "(O)214", "(O)231", "(O)649", "(O)610", "(O)215", "(O)230", "(O)224", "(O)907"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeSummer8",
+					"Condition": "SEASON Summer",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)198", "(O)618", "(O)214", "(O)231", "(O)649", "(O)610", "(O)215", "(O)230", "(O)224", "(O)907"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeSummer9",
+					"Condition": "SEASON Summer",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)198", "(O)618", "(O)214", "(O)231", "(O)649", "(O)610", "(O)215", "(O)230", "(O)224", "(O)907"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeSummer10",
+					"Condition": "SEASON Summer",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)198", "(O)618", "(O)214", "(O)231", "(O)649", "(O)610", "(O)215", "(O)230", "(O)224", "(O)907"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeFall1",
+					"Condition": "SEASON Fall",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)235", "(O)207", "(O)214", "(O)231", "(O)240", "(O)208", "(O)236", "(O)239", "(O)237", "(O)240"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeFall2",
+					"Condition": "SEASON Fall",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)235", "(O)207", "(O)214", "(O)231", "(O)240", "(O)208", "(O)236", "(O)239", "(O)237", "(O)240"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeFall3",
+					"Condition": "SEASON Fall",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)235", "(O)207", "(O)214", "(O)231", "(O)240", "(O)208", "(O)236", "(O)239", "(O)237", "(O)240"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeFall4",
+					"Condition": "SEASON Fall",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)235", "(O)207", "(O)214", "(O)231", "(O)240", "(O)208", "(O)236", "(O)239", "(O)237", "(O)240"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeFall5",
+					"Condition": "SEASON Fall",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)235", "(O)207", "(O)214", "(O)231", "(O)240", "(O)208", "(O)236", "(O)239", "(O)237", "(O)240"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeFall6",
+					"Condition": "SEASON Fall",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)235", "(O)207", "(O)214", "(O)231", "(O)240", "(O)208", "(O)236", "(O)239", "(O)237", "(O)240"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeFall7",
+					"Condition": "SEASON Fall",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)235", "(O)207", "(O)214", "(O)231", "(O)240", "(O)208", "(O)236", "(O)239", "(O)237", "(O)240"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeFall8",
+					"Condition": "SEASON Fall",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)235", "(O)207", "(O)214", "(O)231", "(O)240", "(O)208", "(O)236", "(O)239", "(O)237", "(O)240"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeFall9",
+					"Condition": "SEASON Fall",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)235", "(O)207", "(O)214", "(O)231", "(O)240", "(O)208", "(O)236", "(O)239", "(O)237", "(O)240"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeFall10",
+					"Condition": "SEASON Fall",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)235", "(O)207", "(O)214", "(O)231", "(O)240", "(O)208", "(O)236", "(O)239", "(O)237", "(O)240"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeWinter1",
+					"Condition": "SEASON Winter",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)235", "(O)197", "(O)214", "(O)208", "(O)236", "(O)244", "(O)239", "(O)237", "(O)241"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeWinter2",
+					"Condition": "SEASON Winter",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)235", "(O)197", "(O)214", "(O)208", "(O)236", "(O)244", "(O)239", "(O)237", "(O)241"]				},
+				{
+					"Id": "Lizzie.Stoffton_CafeWinter3",
+					"Condition": "SEASON Winter",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)235", "(O)197", "(O)214", "(O)208", "(O)236", "(O)244", "(O)239", "(O)237", "(O)241"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeWinter4",
+					"Condition": "SEASON Winter",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)235", "(O)197", "(O)214", "(O)208", "(O)236", "(O)244", "(O)239", "(O)237", "(O)241"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeWinter5",
+					"Condition": "SEASON Winter",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)235", "(O)197", "(O)214", "(O)208", "(O)236", "(O)244", "(O)239", "(O)237", "(O)241"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeWinter6",
+					"Condition": "SEASON Winter",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)235", "(O)197", "(O)214", "(O)208", "(O)236", "(O)244", "(O)239", "(O)237", "(O)241"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeWinter7",
+					"Condition": "SEASON Winter",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)235", "(O)197", "(O)214", "(O)208", "(O)236", "(O)244", "(O)239", "(O)237", "(O)241"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeWinter8",
+					"Condition": "SEASON Winter",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)235", "(O)197", "(O)214", "(O)208", "(O)236", "(O)244", "(O)239", "(O)237", "(O)241"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_CafeWinter9",
+					"Condition": "SEASON Winter",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)235", "(O)197", "(O)214", "(O)208", "(O)236", "(O)244", "(O)239", "(O)237", "(O)241"]
+				},
+					
+			]
+		}
+	}
+},
+//Adding Stoffton's Bakery
+{
+"Action": "EditData",
+	"Target": "Data/Shops",
+	"Entries": {
+		"Lizzie.Stoffton_Bakery": {
+			"Owners": [
+				{
+					"Name": "LexiFS",
+					"Dialogues": [
+						{
+							"Id": "Lizzie.Stoffton_Bakery_Default",
+							"Dialogue": "{{i18n:Bakery_Default}}"
+						}
+					]
+				}
+			],
+
+			"Items": [
+				{
+					"Id": "Lizzie.Stoffton_Bakery1",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)904", "(O)220", "(O)194", "(O)905", "(O)731", "(O)211", "(O)221", "(O)604", "(O)608", "(O)232", "(O)607", "(O)265", "(O)203"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_Bakery2",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)904", "(O)220", "(O)194", "(O)905", "(O)731", "(O)211", "(O)221", "(O)604", "(O)608", "(O)232", "(O)607", "(O)265", "(O)203"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_Bakery3",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)904", "(O)220", "(O)194", "(O)905", "(O)731", "(O)211", "(O)221", "(O)604", "(O)608", "(O)232", "(O)607", "(O)265", "(O)203"]
+				},
+			]
+		}
+	}
+},
+//Adding Stoffton's Flower Shop
+{
+"Action": "EditData",
+	"Target": "Data/Shops",
+	"Entries": {
+		"Lizzie.Stoffton_FlowerShop": {
+			"Owners": [
+				{
+					"Name": "FelixFS",
+					"Dialogues": [
+						{
+							"Id": "Lizzie.Stoffton_FlowerShop_Default",
+							"Dialogue": "{{i18n:FlowerShop_Default}}"
+						}
+					]
+				}
+			],
+
+			"Items": [
+				{
+					"Id": "Lizzie.Stoffton_FlowerShop1",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)597", "(O)418", "(O)18", "(O)22", "(O)595", "(O)376", "(O)593", "(O)421", "(O)402", "(O)591"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_FlowerShop2",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)597", "(O)418", "(O)18", "(O)22", "(O)595", "(O)376", "(O)593", "(O)421", "(O)402", "(O)591"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_FlowerShop3",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)597", "(O)418", "(O)18", "(O)22", "(O)595", "(O)376", "(O)593", "(O)421", "(O)402", "(O)591"]
+				},
+				
+			]
+		}
+	}
+},
+//Adding Stoffton's Gem Shop
+{
+"Action": "EditData",
+	"Target": "Data/Shops",
+	"Entries": {
+		"Lizzie.Stoffton_GemShop": {
+			"Owners": [
+				{
+					"Name": "UniceFS",
+					"Dialogues": [
+						{
+							"Id": "Lizzie.Stoffton_GemShop_Default",
+							"Dialogue": "{{i18n:GemShop_Default}}"
+						}
+					]
+				}
+			],
+
+			"Items": [
+				{
+					"Id": "Lizzie.Stoffton_GemShop1",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)541", "(O)538", "(O)66", "(O)62", "(O)540", "(O)570", "(O)539", "(O)542", "(O)566", "(O)72", "(O)543", "(O)86", "(O)60", "(O)544", "(O)565", "(O)82", "(O)545", "(O)84", "(O)546", "(O)569", "(O)547", "(O)573", "(O)70", "(O)549", "(O)548", "(O)563", "(O)550", "(O)554", "(O)571", "(O)551", "(O)552", "(O)567", "(O)574", "(O)555", "(O)553", "(O)575", "(O)560", "(O)564", "(O)556", "(O)74", "(O)559", "(O)80", "(O)64", "(O)568", "(O)576", "(O)572", "(O)562", "(O)68"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_GemShop2",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)541", "(O)538", "(O)66", "(O)62", "(O)540", "(O)570", "(O)539", "(O)542", "(O)566", "(O)72", "(O)543", "(O)86", "(O)60", "(O)544", "(O)565", "(O)82", "(O)545", "(O)84", "(O)546", "(O)569", "(O)547", "(O)573", "(O)70", "(O)549", "(O)548", "(O)563", "(O)550", "(O)554", "(O)571", "(O)551", "(O)552", "(O)567", "(O)574", "(O)555", "(O)553", "(O)575", "(O)560", "(O)564", "(O)556", "(O)74", "(O)559", "(O)80", "(O)64", "(O)568", "(O)576", "(O)572", "(O)562", "(O)68"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_GemShop3",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)541", "(O)538", "(O)66", "(O)62", "(O)540", "(O)570", "(O)539", "(O)542", "(O)566", "(O)72", "(O)543", "(O)86", "(O)60", "(O)544", "(O)565", "(O)82", "(O)545", "(O)84", "(O)546", "(O)569", "(O)547", "(O)573", "(O)70", "(O)549", "(O)548", "(O)563", "(O)550", "(O)554", "(O)571", "(O)551", "(O)552", "(O)567", "(O)574", "(O)555", "(O)553", "(O)575", "(O)560", "(O)564", "(O)556", "(O)74", "(O)559", "(O)80", "(O)64", "(O)568", "(O)576", "(O)572", "(O)562", "(O)68"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_GemShop4",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)541", "(O)538", "(O)66", "(O)62", "(O)540", "(O)570", "(O)539", "(O)542", "(O)566", "(O)72", "(O)543", "(O)86", "(O)60", "(O)544", "(O)565", "(O)82", "(O)545", "(O)84", "(O)546", "(O)569", "(O)547", "(O)573", "(O)70", "(O)549", "(O)548", "(O)563", "(O)550", "(O)554", "(O)571", "(O)551", "(O)552", "(O)567", "(O)574", "(O)555", "(O)553", "(O)575", "(O)560", "(O)564", "(O)556", "(O)74", "(O)559", "(O)80", "(O)64", "(O)568", "(O)576", "(O)572", "(O)562", "(O)68"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_GemShop5",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)541", "(O)538", "(O)66", "(O)62", "(O)540", "(O)570", "(O)539", "(O)542", "(O)566", "(O)72", "(O)543", "(O)86", "(O)60", "(O)544", "(O)565", "(O)82", "(O)545", "(O)84", "(O)546", "(O)569", "(O)547", "(O)573", "(O)70", "(O)549", "(O)548", "(O)563", "(O)550", "(O)554", "(O)571", "(O)551", "(O)552", "(O)567", "(O)574", "(O)555", "(O)553", "(O)575", "(O)560", "(O)564", "(O)556", "(O)74", "(O)559", "(O)80", "(O)64", "(O)568", "(O)576", "(O)572", "(O)562", "(O)68"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_GemShop6",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)541", "(O)538", "(O)66", "(O)62", "(O)540", "(O)570", "(O)539", "(O)542", "(O)566", "(O)72", "(O)543", "(O)86", "(O)60", "(O)544", "(O)565", "(O)82", "(O)545", "(O)84", "(O)546", "(O)569", "(O)547", "(O)573", "(O)70", "(O)549", "(O)548", "(O)563", "(O)550", "(O)554", "(O)571", "(O)551", "(O)552", "(O)567", "(O)574", "(O)555", "(O)553", "(O)575", "(O)560", "(O)564", "(O)556", "(O)74", "(O)559", "(O)80", "(O)64", "(O)568", "(O)576", "(O)572", "(O)562", "(O)68"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_GemShop7",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)541", "(O)538", "(O)66", "(O)62", "(O)540", "(O)570", "(O)539", "(O)542", "(O)566", "(O)72", "(O)543", "(O)86", "(O)60", "(O)544", "(O)565", "(O)82", "(O)545", "(O)84", "(O)546", "(O)569", "(O)547", "(O)573", "(O)70", "(O)549", "(O)548", "(O)563", "(O)550", "(O)554", "(O)571", "(O)551", "(O)552", "(O)567", "(O)574", "(O)555", "(O)553", "(O)575", "(O)560", "(O)564", "(O)556", "(O)74", "(O)559", "(O)80", "(O)64", "(O)568", "(O)576", "(O)572", "(O)562", "(O)68"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_GemShop8",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)541", "(O)538", "(O)66", "(O)62", "(O)540", "(O)570", "(O)539", "(O)542", "(O)566", "(O)72", "(O)543", "(O)86", "(O)60", "(O)544", "(O)565", "(O)82", "(O)545", "(O)84", "(O)546", "(O)569", "(O)547", "(O)573", "(O)70", "(O)549", "(O)548", "(O)563", "(O)550", "(O)554", "(O)571", "(O)551", "(O)552", "(O)567", "(O)574", "(O)555", "(O)553", "(O)575", "(O)560", "(O)564", "(O)556", "(O)74", "(O)559", "(O)80", "(O)64", "(O)568", "(O)576", "(O)572", "(O)562", "(O)68"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_GemShop9",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)541", "(O)538", "(O)66", "(O)62", "(O)540", "(O)570", "(O)539", "(O)542", "(O)566", "(O)72", "(O)543", "(O)86", "(O)60", "(O)544", "(O)565", "(O)82", "(O)545", "(O)84", "(O)546", "(O)569", "(O)547", "(O)573", "(O)70", "(O)549", "(O)548", "(O)563", "(O)550", "(O)554", "(O)571", "(O)551", "(O)552", "(O)567", "(O)574", "(O)555", "(O)553", "(O)575", "(O)560", "(O)564", "(O)556", "(O)74", "(O)559", "(O)80", "(O)64", "(O)568", "(O)576", "(O)572", "(O)562", "(O)68"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_GemShop10",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)541", "(O)538", "(O)66", "(O)62", "(O)540", "(O)570", "(O)539", "(O)542", "(O)566", "(O)72", "(O)543", "(O)86", "(O)60", "(O)544", "(O)565", "(O)82", "(O)545", "(O)84", "(O)546", "(O)569", "(O)547", "(O)573", "(O)70", "(O)549", "(O)548", "(O)563", "(O)550", "(O)554", "(O)571", "(O)551", "(O)552", "(O)567", "(O)574", "(O)555", "(O)553", "(O)575", "(O)560", "(O)564", "(O)556", "(O)74", "(O)559", "(O)80", "(O)64", "(O)568", "(O)576", "(O)572", "(O)562", "(O)68"]
+				},		
+			]
+		}
+	}
+},
+//Adding Stoffton's Drink Shop
+{
+"Action": "EditData",
+	"Target": "Data/Shops",
+	"Entries": {
+		"Lizzie.Stoffton_DrinkShop": {
+			"Owners": [
+				{
+					"Name": "RhysFS",
+					"Dialogues": [
+						{
+							"Id": "Lizzie.Stoffton_DrinkShop_Default",
+							"Dialogue": "{{i18n:DrinkShop_Default}}"
+						}
+					]
+				}
+			],
+
+			"Items": [
+				{
+					"Id": "Lizzie.Stoffton_DrinkShop1",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)350", "(O)346", "(O)903", "(O)459", "(O)303", "(O)348"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_DrinkShop2",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)350", "(O)346", "(O)903", "(O)459", "(O)303", "(O)348"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_DrinkShop3",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)350", "(O)346", "(O)903", "(O)459", "(O)303", "(O)348"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_DrinkShop4",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)350", "(O)346", "(O)903", "(O)459", "(O)303", "(O)348"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_DrinkShop5",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)350", "(O)346", "(O)903", "(O)459", "(O)303", "(O)348"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_DrinkShop6",
+					"AvoidRepeat": "true",
+					"Price": "1500",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(BC)12", "(BC)163"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_DrinkShop7",
+					"AvoidRepeat": "true",
+					"Price": "1500",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(BC)12", "(BC)163"]
+				},
+						
+			]
+		}
+	}
+},
+//Adding Stoffton's Grocery Store (Greta's Spot)
+{
+"Action": "EditData",
+	"Target": "Data/Shops",
+	"Entries": {
+		"Lizzie.Stoffton_GroceryGreta": {
+			"Owners": [
+				{
+					"Name": "GretaFS",
+					"Dialogues": [
+						{
+							"Id": "Lizzie.Stoffton_GroceryGreta_Default",
+							"Dialogue": "{{i18n:GroceryGreta_Default}}"
+						}
+					]
+				}
+			],
+
+			"Items": [
+				{
+					"Id": "Lizzie.Stoffton_GroceryGreta1",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)613", "(O)634", "(O)91", "(O)258", "(O)90", "(O)638", "(O)88", "(O)282", "(O)398", "(O)834", "(O)254", "(O)199", "(O)832", "(O)268", "(O)400", "(O)256", "(O)274", "(O)190", "(O)270", "(O)272", "(O)248", "(O)304", "(O)250", "(O)247", "(O)24", "(O)192", "(O)276", "(O)264", "(O)266", "(O)252", "(O)830", "(O)419", "(O)262"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_GroceryGreta2",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)613", "(O)634", "(O)91", "(O)258", "(O)90", "(O)638", "(O)88", "(O)282", "(O)398", "(O)834", "(O)254", "(O)199", "(O)832", "(O)268", "(O)400", "(O)256", "(O)274", "(O)190", "(O)270", "(O)272", "(O)248", "(O)304", "(O)250", "(O)247", "(O)24", "(O)192", "(O)276", "(O)264", "(O)266", "(O)252", "(O)830", "(O)419", "(O)262"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_GroceryGreta3",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)613", "(O)634", "(O)91", "(O)258", "(O)90", "(O)638", "(O)88", "(O)282", "(O)398", "(O)834", "(O)254", "(O)199", "(O)832", "(O)268", "(O)400", "(O)256", "(O)274", "(O)190", "(O)270", "(O)272", "(O)248", "(O)304", "(O)250", "(O)247", "(O)24", "(O)192", "(O)276", "(O)264", "(O)266", "(O)252", "(O)830", "(O)419", "(O)262"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_GroceryGreta4",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)613", "(O)634", "(O)91", "(O)258", "(O)90", "(O)638", "(O)88", "(O)282", "(O)398", "(O)834", "(O)254", "(O)199", "(O)832", "(O)268", "(O)400", "(O)256", "(O)274", "(O)190", "(O)270", "(O)272", "(O)248", "(O)304", "(O)250", "(O)247", "(O)24", "(O)192", "(O)276", "(O)264", "(O)266", "(O)252", "(O)830", "(O)419", "(O)262"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_GroceryGreta5",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)613", "(O)634", "(O)91", "(O)258", "(O)90", "(O)638", "(O)88", "(O)282", "(O)398", "(O)834", "(O)254", "(O)199", "(O)832", "(O)268", "(O)400", "(O)256", "(O)274", "(O)190", "(O)270", "(O)272", "(O)248", "(O)304", "(O)250", "(O)247", "(O)24", "(O)192", "(O)276", "(O)264", "(O)266", "(O)252", "(O)830", "(O)419", "(O)262"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_GroceryGreta6",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)613", "(O)634", "(O)91", "(O)258", "(O)90", "(O)638", "(O)88", "(O)282", "(O)398", "(O)834", "(O)254", "(O)199", "(O)832", "(O)268", "(O)400", "(O)256", "(O)274", "(O)190", "(O)270", "(O)272", "(O)248", "(O)304", "(O)250", "(O)247", "(O)24", "(O)192", "(O)276", "(O)264", "(O)266", "(O)252", "(O)830", "(O)419", "(O)262"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_GroceryGreta7",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)613", "(O)634", "(O)91", "(O)258", "(O)90", "(O)638", "(O)88", "(O)282", "(O)398", "(O)834", "(O)254", "(O)199", "(O)832", "(O)268", "(O)400", "(O)256", "(O)274", "(O)190", "(O)270", "(O)272", "(O)248", "(O)304", "(O)250", "(O)247", "(O)24", "(O)192", "(O)276", "(O)264", "(O)266", "(O)252", "(O)830", "(O)419", "(O)262"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_GroceryGreta8",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)613", "(O)634", "(O)91", "(O)258", "(O)90", "(O)638", "(O)88", "(O)282", "(O)398", "(O)834", "(O)254", "(O)199", "(O)832", "(O)268", "(O)400", "(O)256", "(O)274", "(O)190", "(O)270", "(O)272", "(O)248", "(O)304", "(O)250", "(O)247", "(O)24", "(O)192", "(O)276", "(O)264", "(O)266", "(O)252", "(O)830", "(O)419", "(O)262"]
+				},			
+			]
+		}
+	}
+},
+//Adding Stoffton's Grocery Store (Erik's Spot)
+{
+"Action": "EditData",
+	"Target": "Data/Shops",
+	"Entries": {
+		"Lizzie.Stoffton_GroceryErik": {
+			"Owners": [
+				{
+					"Name": "ErikFS",
+					"Dialogues": [
+						{
+							"Id": "Lizzie.Stoffton_GroceryErik_Default",
+							"Dialogue": "{{i18n:GroceryErik_Default}}"
+						}
+					]
+				}
+			],
+
+			"Items": [
+				{
+					"Id": "Lizzie.Stoffton_GroceryErik1",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)613", "(O)634", "(O)91", "(O)258", "(O)90", "(O)638", "(O)88", "(O)282", "(O)398", "(O)834", "(O)254", "(O)199", "(O)832", "(O)268", "(O)400", "(O)256", "(O)274", "(O)190", "(O)270", "(O)272", "(O)248", "(O)304", "(O)250", "(O)247", "(O)24", "(O)192", "(O)276", "(O)264", "(O)266", "(O)252", "(O)830", "(O)419", "(O)262"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_GroceryErik2",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)613", "(O)634", "(O)91", "(O)258", "(O)90", "(O)638", "(O)88", "(O)282", "(O)398", "(O)834", "(O)254", "(O)199", "(O)832", "(O)268", "(O)400", "(O)256", "(O)274", "(O)190", "(O)270", "(O)272", "(O)248", "(O)304", "(O)250", "(O)247", "(O)24", "(O)192", "(O)276", "(O)264", "(O)266", "(O)252", "(O)830", "(O)419", "(O)262"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_GroceryErik3",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)613", "(O)634", "(O)91", "(O)258", "(O)90", "(O)638", "(O)88", "(O)282", "(O)398", "(O)834", "(O)254", "(O)199", "(O)832", "(O)268", "(O)400", "(O)256", "(O)274", "(O)190", "(O)270", "(O)272", "(O)248", "(O)304", "(O)250", "(O)247", "(O)24", "(O)192", "(O)276", "(O)264", "(O)266", "(O)252", "(O)830", "(O)419", "(O)262"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_GroceryErik4",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)613", "(O)634", "(O)91", "(O)258", "(O)90", "(O)638", "(O)88", "(O)282", "(O)398", "(O)834", "(O)254", "(O)199", "(O)832", "(O)268", "(O)400", "(O)256", "(O)274", "(O)190", "(O)270", "(O)272", "(O)248", "(O)304", "(O)250", "(O)247", "(O)24", "(O)192", "(O)276", "(O)264", "(O)266", "(O)252", "(O)830", "(O)419", "(O)262"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_GroceryErik5",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)613", "(O)634", "(O)91", "(O)258", "(O)90", "(O)638", "(O)88", "(O)282", "(O)398", "(O)834", "(O)254", "(O)199", "(O)832", "(O)268", "(O)400", "(O)256", "(O)274", "(O)190", "(O)270", "(O)272", "(O)248", "(O)304", "(O)250", "(O)247", "(O)24", "(O)192", "(O)276", "(O)264", "(O)266", "(O)252", "(O)830", "(O)419", "(O)262"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_GroceryErik6",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)613", "(O)634", "(O)91", "(O)258", "(O)90", "(O)638", "(O)88", "(O)282", "(O)398", "(O)834", "(O)254", "(O)199", "(O)832", "(O)268", "(O)400", "(O)256", "(O)274", "(O)190", "(O)270", "(O)272", "(O)248", "(O)304", "(O)250", "(O)247", "(O)24", "(O)192", "(O)276", "(O)264", "(O)266", "(O)252", "(O)830", "(O)419", "(O)262"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_GroceryErik7",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)613", "(O)634", "(O)91", "(O)258", "(O)90", "(O)638", "(O)88", "(O)282", "(O)398", "(O)834", "(O)254", "(O)199", "(O)832", "(O)268", "(O)400", "(O)256", "(O)274", "(O)190", "(O)270", "(O)272", "(O)248", "(O)304", "(O)250", "(O)247", "(O)24", "(O)192", "(O)276", "(O)264", "(O)266", "(O)252", "(O)830", "(O)419", "(O)262"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_GroceryErik8",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)613", "(O)634", "(O)91", "(O)258", "(O)90", "(O)638", "(O)88", "(O)282", "(O)398", "(O)834", "(O)254", "(O)199", "(O)832", "(O)268", "(O)400", "(O)256", "(O)274", "(O)190", "(O)270", "(O)272", "(O)248", "(O)304", "(O)250", "(O)247", "(O)24", "(O)192", "(O)276", "(O)264", "(O)266", "(O)252", "(O)830", "(O)419", "(O)262"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_GroceryErik9",
+					"Condition": "PLAYER_HAS_MAIL Current FS_NoNewFarmDeed Received",
+					"AvoidRepeat": "true",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Global",
+					"RandomItemId": ["(O)Lizzie.Stoffton_NewFarmDeed"],
+					"ActionsOnPurchase": [
+						"AddMail All FS_NewFarmDeed now",
+						"RemoveMail All FS_NoNewFarmDeed all"
+					 ]
+				},			
+			]
+		}
+	}
+},
+//Adding Stoffton's Farm Store
+{
+"Action": "EditData",
+	"Target": "Data/Shops",
+	"Entries": {
+		"Lizzie.Stoffton_FarmBoys": {
+			"Owners": [
+				{
+					"Name": "OttoFS",
+					"Dialogues": [
+						{
+							"Id": "Lizzie.Stoffton_FarmBoys_Default",
+							"Dialogue": "{{i18n:FarmBoys_Default}}"
+						}
+					]
+				}
+			],
+
+			"Items": [
+				{
+					"Id": "Lizzie.Stoffton_FarmBoys1",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)444", "(O)724", "(O)725", "(O)726", "(O)430", "(O)440", "(O)915"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_FarmBoys2",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)444", "(O)724", "(O)725", "(O)726", "(O)430", "(O)440", "(O)915"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_FarmBoys3",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)444", "(O)724", "(O)725", "(O)726", "(O)430", "(O)440", "(O)915"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_FarmBoys4",
+					"AvoidRepeat": "true",
+					"Price": "1500",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(BC)163", "(BC)12"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_FarmBoys5",
+					"AvoidRepeat": "true",
+					"Price": "3000",
+					"AvailableStock": 5,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(BC)104", "(BC)9", "(BC)24", "(BC)16", "(BC)10"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_FarmBoys6",
+					"AvoidRepeat": "true",
+					"Price": "5000",
+					"AvailableStock": 3,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(BC)105", "(BC)17", "(BC)167", "(BC)25", "(BC)19"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_FarmBoys7",
+					"AvoidRepeat": "true",
+					"Price": "25000",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(BC)264", "(BC)165"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_FarmBoys8",
+					"AvoidRepeat": "true",
+					"Price": "50000",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(BC)272", "(BC)272"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_FarmBoys9",
+					"Condition": "PLAYER_HAS_SEEN_EVENT Current 11666071",
+					"AvoidRepeat": "true",
+					"Price": "75000",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(BC)254", "(BC)254"]
+				},
+						
+			]
+		}
+	}
+},
+//Adding Stoffton's Blacksmith
+{
+"Action": "EditData",
+	"Target": "Data/Shops",
+	"Entries": {
+		"Lizzie.Stoffton_Blacksmith": {
+			"Owners": [
+				{
+					"Name": "IgnasFS",
+					"Dialogues": [
+						{
+							"Id": "Lizzie.Stoffton_Blacksmith_Default",
+							"Dialogue": "{{i18n:Blacksmith_Default}}"
+						}
+					]
+				}
+			],
+
+			"Items": [
+				{
+					"Id": "Lizzie.Stoffton_Blacksmith1",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)334", "(O)335", "(O)336", "(O)337", "(O)338"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_Blacksmith2",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)334", "(O)335", "(O)336", "(O)337", "(O)338"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_Blacksmith3",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)334", "(O)335", "(O)336", "(O)337", "(O)338"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_Blacksmith4",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)334", "(O)335", "(O)336", "(O)337", "(O)338"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_Blacksmith5",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)334", "(O)335", "(O)336", "(O)337", "(O)338"]
+				},		
+			]
+		}
+	}
+},
+//Adding Stoffton's Pickles Shop
+{
+"Action": "EditData",
+	"Target": "Data/Shops",
+	"Entries": {
+		"Lizzie.Stoffton_Pickles": {
+			"Owners": [
+				{
+					"Name": "HelmutFS",
+					"Dialogues": [
+						{
+							"Id": "Lizzie.Stoffton_Pickles_Default",
+							"Dialogue": "{{i18n:Pickles_Default}}"
+						}
+					]
+				}
+			],
+
+			"Items": [
+				{
+					"Id": "Lizzie.Stoffton_Pickles1",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)342", "(O)342"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_Pickles2",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"Price": "1500",
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(BC)15", "(BC)15"]
+				},
+					
+			]
+		}
+	}
+},
+//Adding Stoffton's Yosef Shop
+{
+"Action": "EditData",
+	"Target": "Data/Shops",
+	"Entries": {
+		"Lizzie.Stoffton_Yosef": {
+			"Owners": [
+				{
+					"Name": "YosefFS",
+					"Dialogues": [
+						{
+							"Id": "Lizzie.Stoffton_Yosef_Default",
+							"Dialogue": "{{i18n:Yosef_Default}}"
+						}
+					]
+				}
+			],
+
+			"Items": [
+				{
+					"Id": "Lizzie.Stoffton_Yosef1",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)612", "(O)903", "(O)253", "(O)906", "(O)395", "(O)614"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_Yosef2",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)612", "(O)903", "(O)253", "(O)906", "(O)395", "(O)614"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_Yosef3",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)612", "(O)903", "(O)253", "(O)906", "(O)395", "(O)614"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_Yosef4",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)612", "(O)903", "(O)253", "(O)906", "(O)395", "(O)614"]
+				},
+				{
+					"Id": "Lizzie.Stoffton_Yosef5",
+					"AvoidRepeat": "true",
+					"AvailableStock": 10,
+					"AvailableStockLimit": "Player",
+					"RandomItemId": ["(O)612", "(O)903", "(O)253", "(O)906", "(O)395", "(O)614"]
+				},
+				
+					
+			]
+		}
+	}
+},
+
+
+]}

@@ -1,0 +1,987 @@
+{ 
+"Changes": [ 
+{
+"Action": "EditData", 
+"Target": "Data/Shops", 
+"TargetField": [ 
+"FishShop", 
+"Items" 
+ ], 
+
+"Entries": { 
+
+//THIS IS A DIFFERENT ONE
+"Dulse_Seaweed": {
+"Id": "MAMAXDV3_FISH_Dulse_Seaweed", 
+"ItemId": "(O)FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed", 
+"Price": "140", 
+"AvailableStock": 5, 
+"AvailableStockLimit": "Global",
+"Condition": "SYNCED_RANDOM day willy_fish_Dulse_Seaweed 0.4 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+
+//REALLFISH
+//ALL SEASON
+"Bonefish": {
+"Id": "MAMAXDV3_FISH_Bonefish", 
+"ItemId": "(O)FlashShifter.StardewValleyExpandedCP_Bonefish", 
+"Price": "600",  
+"AvailableStock": 3, 
+"AvailableStockLimit": "Global",
+"Condition": "PLAYER_HAS_SEEN_EVENT Any 908072, SYNCED_RANDOM day willy_fish_Bonefish 0.2 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"Daggerfish": { 
+ "Id": "MAMAXDV3_FISH_Daggerfish", 
+ "ItemId": "(O)FlashShifter.StardewValleyExpandedCP_Daggerfish", 
+ "Price": "800",  
+"AvailableStock": 2, 
+"AvailableStockLimit": "Global",
+"Condition": "PLAYER_HEARTS Any MarlonFay 4, PLAYER_HEARTS Any Lance 2, SYNCED_RANDOM day willy_fish_Daggerfish 0.2 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+] , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"Gemfish": { 
+"Id": "MAMAXDV3_FISH_Gemfish", 
+"ItemId": "(O)FlashShifter.StardewValleyExpandedCP_Gemfish", 
+"Price": "3200",  
+"AvailableStock": 1, 
+"AvailableStockLimit": "Global",
+"Condition": "PLAYER_HEARTS Any MarlonFay 4, PLAYER_HEARTS Any Lance 2, SYNCED_RANDOM day willy_fish_Gemfish 0.05 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"Goldenfish": {
+"Id": "MAMAXDV3_FISH_Goldenfish", 
+"ItemId": "(O)FlashShifter.StardewValleyExpandedCP_Goldenfish", 
+"Price": "600",  
+"AvailableStock": 3, 
+"AvailableStockLimit": "Global",
+"Condition": "IS_COMMUNITY_CENTER_COMPLETE, SYNCED_RANDOM day willy_fish_Goldenfish 0.2 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+},
+"Meteor_Carp": {
+"Id": "MAMAXDV3_FISH_Meteor_Carp", 
+"ItemId": "(O)FlashShifter.StardewValleyExpandedCP_Goldenfish", 
+"Price": "700",  
+"AvailableStock": 3, 
+"AvailableStockLimit": "Global",
+"Condition": "IS_COMMUNITY_CENTER_COMPLETE, SYNCED_RANDOM day willy_fish_Meteor_Carp 0.2 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"Minnow": {
+"Id": "MAMAXDV3_FISH_Minnow", 
+"ItemId": "(O)FlashShifter.StardewValleyExpandedCP_Minnow", 
+"Price": "80",  
+"AvailableStock": 8, 
+"AvailableStockLimit": "Global",
+"Condition": "SYNCED_RANDOM day willy_fish_Minnow 0.8 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"Radioactive_Bass": {
+"Id": "MAMAXDV3_FISH_Radioactive_Bass", 
+"ItemId": "(O)FlashShifter.StardewValleyExpandedCP_Radioactive_Bass", 
+"Price": "2000",  
+"AvailableStock": 1, 
+"AvailableStockLimit": "Global",
+"Condition": "MUSEUM_DONATIONS 60, SYNCED_RANDOM day willy_fish_Radioactive_Bass 0.08 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+},
+"Razor_Trout": {
+"Id": "MAMAXDV3_FISH_Razor_Trout", 
+"ItemId": "(O)FlashShifter.StardewValleyExpandedCP_Razor_Trout", 
+"Price": "1600",  
+"AvailableStock": 1, 
+"AvailableStockLimit": "Global",
+"Condition": "IS_COMMUNITY_CENTER_COMPLETE, SYNCED_RANDOM day willy_fish_Razor_Trout 0.1 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"Snatcher_Worm": {
+"Id": "MAMAXDV3_FISH_Snatcher_Worm", 
+"ItemId": "(O)FlashShifter.StardewValleyExpandedCP_Snatcher_Worm", 
+"Price": "1120",  
+"AvailableStock": 3, 
+"AvailableStockLimit": "Global",
+"Condition": "PLAYER_HAS_MAIL Any hasPickedUpMagicInk, SYNCED_RANDOM day willy_fish_Snatcher_Worm 0.1 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"Void_Eel": {
+"Id": "MAMAXDV3_FISH_Void_Eel", 
+"ItemId": "(O)FlashShifter.StardewValleyExpandedCP_Void_Eel", 
+"Price": "1800",  
+"AvailableStock": 1, 
+"AvailableStockLimit": "Global",
+"Condition": "PLAYER_HAS_MAIL Any hasPickedUpMagicInk, SYNCED_RANDOM day willy_fish_Void_Eel 0.1 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"Water_Grub": {
+"Id": "MAMAXDV3_FISH_Water_Grub", 
+"ItemId": "(O)FlashShifter.StardewValleyExpandedCP_Water_Grub", 
+"Price": "680",  
+"AvailableStock": 3, 
+"AvailableStockLimit": "Global",
+"Condition": "PLAYER_HAS_MAIL Any hasPickedUpMagicInk, SYNCED_RANDOM day willy_fish_Water_Grub 0.2 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"Undeadfish": {
+"Id": "MAMAXDV3_FISH_Undeadfish", 
+"ItemId": "(O)FlashShifter.StardewValleyExpandedCP_Undeadfish", 
+"Price": "800",  
+"AvailableStock": 1, 
+"AvailableStockLimit": "Global",
+"Condition": "PLAYER_HAS_SEEN_EVENT Any 908072, SYNCED_RANDOM day willy_fish_Undeadfish 0.2 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"Starfish": {
+"Id": "MAMAXDV3_FISH_Starfish", 
+"ItemId": "(O)FlashShifter.StardewValleyExpandedCP_Starfish", 
+"Price": "600",  
+"AvailableStock": 5, 
+"AvailableStockLimit": "Global",
+"Condition": "SYNCED_RANDOM day willy_fish_Starfish 0.25 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"Torpedo_Trout": {
+"Id": "MAMAXDV3_FISH_Torpedo_Trout", 
+"ItemId": "(O)FlashShifter.StardewValleyExpandedCP_Torpedo_Trout", 
+"Price": "1200",  
+"AvailableStock": 2, 
+"AvailableStockLimit": "Global",
+"Condition": "PLAYER_HEARTS Current Lance 8, SYNCED_RANDOM day willy_fish_Torpedo_Trout 0.1 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+
+//SPRING
+"Butterfish": {
+"Id": "MAMAXDV3_FISH_Butterfish", 
+"ItemId": "(O)FlashShifter.StardewValleyExpandedCP_Butterfish", 
+"Price": "800",  
+"AvailableStock": 3, 
+"AvailableStockLimit": "Global",
+"Condition": "SEASON spring summer fall, SYNCED_RANDOM day willy_fish_Butterfish 0.3 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"Frog": {
+"Id": "MAMAXDV3_FISH_Frog", 
+"ItemId": "(O)FlashShifter.StardewValleyExpandedCP_Frog", 
+"Price": "600",  
+"AvailableStock": 3, 
+"AvailableStockLimit": "Global",
+"Condition": "SEASON spring summer, SYNCED_RANDOM day willy_fish_Frog 0.3 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"Grass_Carp": {
+"Id": "MAMAXDV3_FISH_Grass_Carp", 
+"ItemId": "(O)FlashShifter.StardewValleyExpandedCP_Grass_Carp", 
+"Price": "600",  
+"AvailableStock": 3, 
+"AvailableStockLimit": "Player",
+"Condition": "SEASON spring summer, SYNCED_RANDOM day willy_fish_Grass_Carp 0.3 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"King_Salmon": {
+"Id": "MAMAXDV3_FISH_King_Salmon", 
+"ItemId": "(O)FlashShifter.StardewValleyExpandedCP_King_Salmon", 
+"Price": "1280",  
+"AvailableStock": 1, 
+"AvailableStockLimit": "Global",
+"Condition": "SEASON spring summer, SYNCED_RANDOM day willy_fish_King_Salmon 0.15 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"Puppyfish": {
+"Id": "MAMAXDV3_FISH_Puppyfish", 
+"ItemId": "(O)FlashShifter.StardewValleyExpandedCP_Puppyfish", 
+"Price": "1000",  
+"AvailableStock": 3, 
+"AvailableStockLimit": "Player",
+"Condition": "SEASON spring summer fall, SYNCED_RANDOM day willy_fish_Puppyfish 0.2 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+},
+
+//FALL
+"Bull_Trout": {
+"Id": "MAMAXDV3_FISH_Bull_Trout", 
+"ItemId": "(O)FlashShifter.StardewValleyExpandedCP_Bull_Trout", 
+"Price": "740",  
+"AvailableStock": 3, 
+"AvailableStockLimit": "Global",
+"Condition": "SEASON fall winter, SYNCED_RANDOM day willy_fish_Bull_Trout 0.3 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"Kittyfish": {
+"Id": "MAMAXDV3_FISH_Kittyfish", 
+"ItemId": "(O)FlashShifter.StardewValleyExpandedCP_Kittyfish", 
+"Price": "1000",  
+"AvailableStock": 3, 
+"AvailableStockLimit": "Player",
+"Condition": "PLAYER_HAS_SEEN_EVENT Any 69069247, SEASON fall winter, SYNCED_RANDOM day willy_fish_Kittyfish 0.2 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+
+//GINGER ISLAND
+"Lunaloo": {
+"Id": "MAMAXDV3_FISH_Lunaloo", 
+"ItemId": "(O)FlashShifter.StardewValleyExpandedCP_Lunaloo", 
+"Price": "400",  
+"AvailableStock": 5, 
+"AvailableStockLimit": "Global",
+"Condition": "PLAYER_HAS_ACHIEVEMENT Any 40, SYNCED_RANDOM day willy_fish_Lunaloo 0.4 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"Baby_Lunaloo": {
+"Id": "MAMAXDV3_FISH_Baby_Lunaloo", 
+"ItemId": "(O)FlashShifter.StardewValleyExpandedCP_Baby_Lunaloo", 
+"Price": "140",  
+"AvailableStock": 6, 
+"AvailableStockLimit": "Global",
+"Condition": "PLAYER_HAS_ACHIEVEMENT Any 40, SYNCED_RANDOM day willy_fish_Baby_Lunaloo 0.7 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"Shiny_Lunaloo": {
+"Id": "MAMAXDV3_FISH_Red_Shiny_Lunaloo", 
+"ItemId": "(O)FlashShifter.StardewValleyExpandedCP_Shiny_Lunaloo", 
+"Price": "1600",  
+"AvailableStock": 1, 
+"AvailableStockLimit": "Player",
+"Condition": "PLAYER_HAS_ACHIEVEMENT Any 40, SYNCED_RANDOM day willy_fish_Red_Shiny_Lunaloo 0.1 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"Seahorse": {
+"Id": "MAMAXDV3_FISH_Seahorse", 
+"ItemId": "(O)FlashShifter.StardewValleyExpandedCP_Seahorse", 
+"Price": "240",  
+"AvailableStock": 5, 
+"AvailableStockLimit": "Global",
+"Condition": "PLAYER_HAS_ACHIEVEMENT Any 40, SYNCED_RANDOM day willy_fish_Seahorse 0.5 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"Sea_Sponge": {
+"Id": "MAMAXDV3_FISH_Red_Sea_Sponge", 
+"ItemId": "(O)FlashShifter.StardewValleyExpandedCP_Sea_Sponge", 
+"Price": "300",  
+"AvailableStock": 5, 
+"AvailableStockLimit": "Global",
+"Condition": "PLAYER_HAS_ACHIEVEMENT Any 40, SYNCED_RANDOM day willy_fish_Sea_Sponge 0.5 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+}, 
+"Clownfish": {
+"Id": "MAMAXDV3_FISH_Super_Clownfish", 
+"ItemId": "(O)FlashShifter.StardewValleyExpandedCP_Clownfish", 
+"Price": "280",  
+"AvailableStock": 5, 
+"AvailableStockLimit": "Global",
+"Condition": "PLAYER_HAS_ACHIEVEMENT Any 40, SYNCED_RANDOM day willy_fish_Super_Clownfish 0.5 @addDailyLuck", 
+"QualityModifierMode": "Maximum",
+"QualityModifiers": [
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1],
+ "Condition": "PLAYER_HEARTS Current Willy 3",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 2],
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+},
+{
+"Modification": "Set",
+ "RandomAmount": [0, 0.1, 0.2, 0.3, 0.4, 1, 1.1, 1.2, 1.3, 1.4, 2, 2.1, 2.2, 4],
+ "Condition": "PLAYER_HEARTS Current Willy 8",
+}
+], 
+"PriceModifiers": [
+{
+ "Modification": "Multiply",
+ "Amount": "0.5",
+ "Condition": "PLAYER_HEARTS Current Willy 6",
+}
+]  , 
+ "IgnoreShopPriceModifiers": true,
+},
+},
+
+"MoveEntries": [ 
+{ 
+"ID": "MAMAXDV3_FISH_Dulse_Seaweed", 
+"AfterID": "MAMAXDV3_FISH_Seaweed" 
+}, 
+],
+"When": { "Willy Sells SVE Fish": "limited" }
+
+}
+] 
+} 

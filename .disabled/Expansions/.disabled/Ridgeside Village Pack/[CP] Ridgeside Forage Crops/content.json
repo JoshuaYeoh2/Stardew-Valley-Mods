@@ -1,0 +1,139 @@
+{
+  "Format": "2.0.0",
+  "ConfigSchema": {
+    "AuroreanIrisCrop": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Adds a crop for growing Aurorean Iris.",
+      "Section": "FlowerCrops"
+    },
+    "ForestAmancayCrop": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Adds a crop for growing Forest Amancay.",
+      "Section": "FlowerCrops"
+    },
+    "HighlandButterwortCrop": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Adds a crop for growing Highland Butterwort.",
+      "Section": "FlowerCrops"
+    },
+    "LavaLilyCrop": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Adds a crop for growing Lava Lily.",
+      "Section": "FlowerCrops"
+    },
+    "MountainHokkaidoCrop": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Adds a crop for growing Mountain Hokkaido.",
+      "Section": "FlowerCrops"
+    },
+    "MountainMistbloomCrop": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Adds a crop for growing Mountain Mistbloom.",
+      "Section": "FlowerCrops"
+    },
+    "EasyMountainMistbloom": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Description": "Removes requirements to unlock Mountain Mistbloom at Krobus's shop.",
+      "Section": "FlowerCrops"
+    },
+    "RidgeAzoreanFlowerCrop": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Adds a crop for growing Ridge Azorean Flower.",
+      "Section": "FlowerCrops"
+    },
+    "RidgesideMonkshoodCrop": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Adds a crop for growing Ridgeside Monkshood.",
+      "Section": "FlowerCrops"
+    },
+    "SierraWintergreenCrop": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Adds a crop for growing Sierra Wintergreen.",
+      "Section": "FlowerCrops"
+    },
+    "SummitSnowbellCrop": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Adds a crop for growing Summit Snowbell.",
+      "Section": "FlowerCrops"
+    },
+    "VioletDevilsClawCrop": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Adds a crop for growing Violet Devil's Claw.",
+      "Section": "FlowerCrops"
+    },
+    "AutumnDropBerryCrop": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Adds a crop for growing Autumn Drop Berry.",
+      "Section": "Crops"
+    },
+    "FrostClumpBerryCrop": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Adds a crop for growing Frost Clump Berry.",
+      "Section": "Crops"
+    },
+    "HighlandChardCrop": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Adds a crop for growing Highland Chard.",
+      "Section": "Crops"
+    },
+    "MountainArugulaCrop": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Adds a crop for growing Mountain Arugula.",
+      "Section": "Crops"
+    },
+    "MountainChicoTree": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Adds a fruit tree for Mountain Chico.",
+      "Section": "FruitTrees"
+    },
+    "RidgeCherryTree": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Adds a fruit tree for Ridge Cherry.",
+      "Section": "FruitTrees"
+    },
+    "RidgeWildAppleTree": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Adds a fruit tree for Ridge Wild Apple.",
+      "Section": "FruitTrees"
+    },
+    "RidgesideClementineTree": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Adds a fruit tree for Ridgeside Clementine.",
+      "Section": "FruitTrees"
+    }
+
+  },
+
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "ZoeyHoshi.RSVForageCrop/Crops, ZoeyHoshi.RSVForageCrop/Objects, ZoeyHoshi.RSVForageCrop/FruitTrees",
+      "FromFile": "assets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "data/crops.json, data/fruittrees.json, data/objects.json, data/shop_festivals.json, data/shops.json"
+    }
+  ]
+}
+

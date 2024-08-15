@@ -1,0 +1,15 @@
+{
+    "Changes": [
+        
+    //////////////////
+	// ADD TEXTURES //
+	//////////////////
+    
+     {
+            "Action": "Load",
+            "Target": "Mods/wildflour.honeybees/Honeybee, Mods/wildflour.honeybees/Honeybee_Void, Mods/wildflour.honeybees/Honeybee_Golden, Mods/wildflour.honeybees/Honeybee_Faerie, Mods/wildflour.honeybees/Honeybee_Sugar, Mods/wildflour.honeybees/Objects, Mods/wildflour.honeybees/Icons,",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+    }
+       
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "Changes": [
+        {
+            "LogName": "String's for Special Orders",
+            "Action": "EditData",
+            "Target": "Strings/SpecialOrderStrings",
+            "Entries": {
+                "RaffieJohn.Reyla_SO_Boom_Name": "{{i18n: Reyla_Bomb_SO_Name}}",
+                "RaffieJohn.Reyla_SO_Boom_Text": "{{i18n: Reyla_Bomb_SO_Text}}",
+                "RaffieJohn.ReylaSOBoom_Objective_1_Text": "{{i18n: Reyla_Bomb_SO_Obj_1_Text}}",
+                "RaffieJohn.ReylaSOBoom_Objective_2_Text": "{{i18n: Reyla_Bomb_SO_Obj_2_Text}}",
+                "RaffieJohn.ReylaSOBoom_Objective_3_Text": "{{i18n: Reyla_Bomb_SO_Obj_3_Text}}"
+            }
+        }
+    ]
+}

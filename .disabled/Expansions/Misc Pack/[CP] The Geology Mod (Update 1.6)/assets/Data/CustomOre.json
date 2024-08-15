@@ -1,0 +1,2461 @@
+{
+    "Changes": [
+        {
+            "LogName": "Balanced Config",
+            "Action": "EditData",
+            "Target": "Mods/mistyspring.ItemExtensions/Resources",
+            "Entries": {
+                "CoalStone": {
+                    "SpriteIndex": 21,
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 7,
+                    "Exp": 7,
+                    "ItemDropped": "(O)382",
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 5, 
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 1.0,
+                            "MinStack": 1,
+                            "MaxStack": 7,
+                        }
+                    ],
+                    "MineSpawns": [
+                        {
+                            "Floors": "80/77376",
+                            "SpawnFrequency": 0.00474, 
+                            "AdditionalChancePerLevel": 0.0000474,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+
+                "Limestone": {
+                    "SpriteIndex": 16,
+                    "ItemDropped": "(O)571",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 3.5,
+                    "Exp": 4,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1, 
+                    "ExtraItems":
+                    [
+                        {
+                            "ItemId": "(O)542", //Calcite 75
+                            "Chance": 0.025,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 3 1",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O)881",//Bone Fragment 15
+                            "Chance": 1,
+                            "MinStack": 1,
+                            "MaxStack": 3,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 3 2",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O)552", //Malachite 100
+                            "Chance": 0.009,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 3 3",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 1.0,
+                            "MinStack": 0,
+                            "MaxStack": 3
+                        }
+                    ],
+                    "MineSpawns": [
+                        {
+                            "Floors": "20/100",
+                            "SpawnFrequency": 0.00735, 
+                            "AdditionalChancePerLevel": 0.0007353,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+
+                "MudStone": {
+                    "SpriteIndex": 22,
+                    "ItemDropped": "(O)574",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 2.5,
+                    "Exp": 4,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1, 
+
+                    "ExtraItems":
+                    [
+                        {
+                            "ItemId": "(O)330", //Clay
+                            "MinStack": 2,
+                            "MaxStack": 5
+                        },
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 1.0,
+                            "MinStack": 3,
+                            "MaxStack": 5
+                        }
+                    ],
+
+                    "MineSpawns": [
+                        {
+                            "Floors": "10/40",
+                            "SpawnFrequency": 0.00794, 
+                            "AdditionalChancePerLevel": 0.0007936,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+
+                "GneissStone": {
+                    "SpriteIndex": 7,
+                    "ItemDropped": "(O){{ModId}}_Gneiss",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 3.5,
+                    "Exp": 7,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1, 
+
+                    "ExtraItems":
+                    [
+                        {
+                            "ItemId": "(O)80", //Quartz
+                            "Chance": 0.25,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 2 1",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Hornblende",
+                            "Chance": 1,
+                            "MinStack": 2,
+                            "MaxStack": 5,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 2 2",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 1.0,
+                            "MinStack": 3,
+                            "MaxStack": 7
+                        }
+                    ],
+                    "MineSpawns": [
+                        {
+                            "Floors": "20/50, 120/77376",
+                            "SpawnFrequency": 0.00442, 
+                            "AdditionalChancePerLevel": 0.00004425,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+
+                "SchistStone": {
+                    "SpriteIndex": 15,
+                    "ItemDropped": "(O){{ModId}}_Schist",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 4.5,
+                    "Exp": 7,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1, 
+
+                    "ExtraItems":
+                    [
+                        {
+                            "ItemId": "(O)80", //Quartz
+                            "Chance": 0.25,
+                            "MinStack": 1,
+                            "MaxStack": 2,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 2 1",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Hornblende",
+                            "Chance": 1,
+                            "MinStack": 3,
+                            "MaxStack": 7,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 2 2",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 1.0,
+                            "MinStack": 3,
+                            "MaxStack": 5
+                        }
+                    ],
+                    "MineSpawns": [
+                        {
+                            "Floors": "70/100",
+                            "SpawnFrequency": 0.00498, 
+                            "AdditionalChancePerLevel": 0.00004975,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+                "OlivineStone": {
+                    "SpriteIndex": 3, 
+                    "ItemDropped": "(O){{ModId}}_Olivine",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 4.5,
+                    "Exp": 7,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1, 
+
+                    "MineSpawns": [
+                        {
+                            "Floors": "20/40, 120/77376",
+                            "SpawnFrequency": 0.00452, 
+                            "AdditionalChancePerLevel": 0.00004525,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+
+                "Sandstone": {
+                    "SpriteIndex": 11,
+                    "ItemDropped": "(O)568",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 4.5,
+                    "Exp": 7,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1, 
+
+                    "ExtraItems":
+                    [
+                        {
+                            "ItemId": "(O)80",
+                            "Chance": 0.25,
+                            "MinDrops": 2, 
+                            "MaxDrops": 5
+                        },
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 1.0,
+                            "MinStack": 1,
+                            "MaxStack": 2
+                        }
+                    ],
+                    "MineSpawns": [
+                        {
+                            "Floors": "40/50, 120/77376",
+                            "SpawnFrequency": 0.00552, 
+                            "AdditionalChancePerLevel": 0.00005525,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+                "GraniteStone": {
+                    "SpriteIndex": 20,
+                    "ItemDropped": "(O)569",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 2.5,
+                    "Exp": 11,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1, 
+                    "ExtraItems":
+                    [
+                        {
+                            "ItemId": "(O){{ModId}}_Hornblende",
+                            "Chance": 1,
+                            "MinStack": 2,
+                            "MaxStack": 4,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 2 1",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Hornblende",
+                            "Chance": 0.25,
+                            "MinStack": 5,
+                            "MaxStack": 7,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 2 2",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 1.0,
+                            "MinStack": 3,
+                            "MaxStack": 5
+                        }
+                    ],
+                    "MineSpawns": [
+                        {
+                            "Floors": "40/50, 120/77376",
+                            "SpawnFrequency": 0.00552, 
+                            "AdditionalChancePerLevel": 0.00005525,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+
+                "OnxyStone": {
+                    "SpriteIndex": 30, 
+                    "ItemDropped": "(O){{ModId}}_Onxy", 
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 5.5,
+                    "Exp": 14,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1, 
+                    "MineSpawns": [
+                        {
+                            "Floors": "30/50, 120/77376",
+                            "SpawnFrequency": 0.00266, 
+                            "AdditionalChancePerLevel": 0.0000266,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+
+                "SlateStone": {
+                    "SpriteIndex": 17,
+                    "ItemDropped": "(O)576",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 5.5,
+                    "Exp": 15,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1,
+                    "ExtraItems":
+                    [
+                        {
+                            "ItemId": "(O)84",
+                            "Chance": 0.25,
+                            "MinDrops": 2, 
+                            "MaxDrops": 5, 
+                        }
+                    ],
+                    "MineSpawns": [
+                        {
+                            "Floors": "40/50, 90/110",
+                            "SpawnFrequency": 0.00208, 
+                            "AdditionalChancePerLevel": 0.0002079,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+
+                "PeridotStone": {
+                    "SpriteIndex": 32, 
+                    "ItemDropped": "(O){{ModId}}_Peridot", 
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 4.5, 
+                    "Exp": 11,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1,
+
+                    "MineSpawns": [
+                        {
+                            "Floors": "10/30",
+                            "SpawnFrequency": 0.00277, 
+                            "AdditionalChancePerLevel": 0.0000277,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+
+                "HaliteStone": {
+                    "SpriteIndex": 13,
+                    "ItemDropped": "(O){{ModId}}_Halite",
+                    
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 5.5,
+                    "Exp": 17,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1,
+
+                    "MineSpawns": [
+                        {
+                            "Floors": "60/90",
+                            "SpawnFrequency": 0.00175, 
+                            "AdditionalChancePerLevel": 0.00001751,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+
+                "ZirconStone": {
+                    "SpriteIndex": 1,
+                    "ItemDropped": "(O){{ModId}}_Zircon",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 5.5,
+                    "Exp": 15,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1,
+
+                    "MineSpawns": [
+                        {
+                            "Floors": "90/110, 120/77376",
+                            "SpawnFrequency": 0.00181, 
+                            "AdditionalChancePerLevel": 0.00001815,
+                            "Type": "All" 
+                        }
+                    ]                
+                },
+                "MarbleStone": {
+                    "SpriteIndex": 10,
+                    "ItemDropped": "(O)567",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 6.5,
+                    "Exp": 17,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1,
+
+                    "ExtraItems":
+                    [
+                        {
+                            "ItemId": "(O)542", //Calcite
+                            "Chance": 1,
+                            "MinStack": 1,
+                            "MaxStack": 3,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 3 1",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O)543", //Dolomite 300
+                            "Chance": 0.01,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 3 2",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O)572", //Soapstone 120
+                            "Chance": 0.05,
+                            "MinStack": 1,
+                            "MaxStack": 2,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 3 3",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        }
+                    ],
+                    "MineSpawns": [
+                        {
+                            "Floors": "90/120",
+                            "SpawnFrequency": 0.00181, 
+                            "AdditionalChancePerLevel": 0.0000181,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+                "PrismaticStone": {
+                    "SpriteIndex": 9,
+                    "ItemDropped": "(O){{ModId}}_Prismatic_Pieces",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 6.5,
+                    "Exp": 4,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1,
+
+                    "MineSpawns": [
+                        {
+                            "Floors": "120/77376",
+                            "SpawnFrequency": 0.00181, 
+                            "AdditionalChancePerLevel": 0.00001815,
+                            "Type": "All" 
+                        },
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 1.0,
+                            "MinStack": 5,
+                            "MaxStack": 10
+                        }
+                    ]
+                },
+                "HematiteStone": {
+                    "SpriteIndex": 4,
+                    "ItemDropped": "(O)573",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 4.5,
+                    "Exp": 7,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1,
+
+                    "ExtraItems":
+                    [
+                        {
+                            "ItemId": "(O)538", //Alamite 150
+                            "Chance": 0.25,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 3 1",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O)544", //Esperite 100
+                            "Chance": 0.25,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 3 2",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O)572", //Aerinite 125
+                            "Chance": 0.25,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 3 3",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        }
+                    ],
+                    "MineSpawns": [
+                        {
+                            "Floors": "40/80",
+                            "SpawnFrequency": 0.00826, 
+                            "AdditionalChancePerLevel": 0.00008264,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+                "Vanadinite": {
+                    "SpriteIndex": 23,
+                    "ItemDropped": "(O){{ModId}}_Vanadinite", 
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 10,
+                    "Exp": 19,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1,
+
+                    "MineSpawns": [
+                        {
+                            "Floors": "0/20",
+                            "SpawnFrequency": 0.00161, 
+                            "AdditionalChancePerLevel": 0.0000161,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+                "BasaltStone": {
+                    "SpriteIndex": 19,
+                    "ItemDropped": "(O)570",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 7.5,
+                    "Exp": 8,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1,
+
+                    "ExtraItems":
+                    [
+                        {
+                            "ItemId": "(O)563", //Jasper 150
+                            "Chance": 0.75,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 2 1",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O)565", //Fire Opal 350
+                            "Chance": 0.075,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 2 2",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 1.0,
+                            "MinStack": 3,
+                            "MaxStack": 4
+                        }
+                    ],
+                    "MineSpawns": [
+                        {
+                            "Floors": "90/120, 120/77376",
+                            "SpawnFrequency": 0.00095, 
+                            "AdditionalChancePerLevel": 0.0000951,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+                "ObsidianStone": {
+                    "SpriteIndex": 5,
+                    "ItemDropped": "(O)576",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 1,
+                    "Exp": 24,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1,
+
+                    "MineSpawns": [
+                        {
+                            "Floors": "60/80",
+                            "SpawnFrequency": 0.00125, 
+                            "AdditionalChancePerLevel": 0.00001248,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+                "PinkStone": {
+                    "SpriteIndex": 28, 
+                    "ItemDropped": "(O){{ModId}}_Rhodochrosite", 
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 15,
+                    "Exp": 35,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1,
+
+                    "MineSpawns": [
+                        {
+                            "Floors": "90/77376",
+                            "SpawnFrequency": 0.00085, 
+                            "AdditionalChancePerLevel": 0.0000085,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+                "SappyLapStone": {
+                    "SpriteIndex": 25,
+                    "ItemDropped": "(O)390", 
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 17,
+                    "Exp": 25,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 3, 
+                    "MaxDrops": 10,
+                    
+                    "ExtraItems":
+                    [
+                        {
+                            "ItemId": "(O){{ModId}}_Lapis_Lazuli",
+                            "Chance": 1,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Sapphire",
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Condition": "RANDOM 0.6 @addDailyLuck", // 0.00074 = 0.6 x 0.00121
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                    ],
+
+                    "MineSpawns": [
+                        {
+                            "Floors": "70/80, 120/77376",
+                            "SpawnFrequency": 0.00121, 
+                            "AdditionalChancePerLevel": 0.00001211,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+                "SunStone": {
+                    "SpriteIndex": 34, 
+                    "ItemDropped": "(O){{ModId}}_Sunstone", 
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 20,
+                    "Exp": 16,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1,
+
+                    "MineSpawns": [
+                        {
+                            "Floors": "120/77376",
+                            "SpawnFrequency": 0.00088, 
+                            "AdditionalChancePerLevel": 0.0000088,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+            },
+            "When": {
+                "Spawn Rate Adjustment": "Balanced",
+            },
+        },
+        {
+            "LogName": "Hardcore Config",
+            "Action": "EditData",
+            "Target": "Mods/mistyspring.ItemExtensions/Resources",
+            "Entries": {
+                "CoalStone": {
+                    "SpriteIndex": 21,
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 7,
+                    "Exp": 7,
+                    "ItemDropped": "(O)382",
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 5, 
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 1.0,
+                            "MinStack": 1,
+                            "MaxStack": 7,
+                        }
+                    ],
+                    "MineSpawns": [
+                        {
+                            "Floors": "80/77376",
+                            "SpawnFrequency": 0.000474, 
+                            "AdditionalChancePerLevel": 0.00000474,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+
+                "Limestone": {
+                    "SpriteIndex": 16,
+                    "ItemDropped": "(O)571",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 3.5,
+                    "Exp": 4,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1, 
+                    "ExtraItems":
+                    [
+                        {
+                            "ItemId": "(O)542", //Calcite 75
+                            "Chance": 0.025,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 3 1",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O)881",//Bone Fragment 15
+                            "Chance": 1,
+                            "MinStack": 1,
+                            "MaxStack": 3,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 3 2",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O)552", //Malachite 100
+                            "Chance": 0.009,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 3 3",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 1.0,
+                            "MinStack": 2,
+                            "MaxStack": 3
+                        }
+                    ],
+                    "MineSpawns": [
+                        {
+                            "Floors": "20/100",
+                            "SpawnFrequency": 0.000735, 
+                            "AdditionalChancePerLevel": 0.00007353,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+
+                "MudStone": {
+                    "SpriteIndex": 22,
+                    "ItemDropped": "(O)574",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 2.5,
+                    "Exp": 4,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1, 
+
+                    "ExtraItems":
+                    [
+                        {
+                            "ItemId": "(O)330", //Clay
+                            "MinStack": 2,
+                            "MaxStack": 5
+                        },
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 1.0,
+                            "MinStack": 3,
+                            "MaxStack": 5
+                        }
+                    ],
+
+                    "MineSpawns": [
+                        {
+                            "Floors": "10/40",
+                            "SpawnFrequency": 0.000794, 
+                            "AdditionalChancePerLevel": 0.00007936,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+
+                "GneissStone": {
+                    "SpriteIndex": 7,
+                    "ItemDropped": "(O){{ModId}}_Gneiss",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 3.5,
+                    "Exp": 7,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1, 
+
+                    "ExtraItems":
+                    [
+                        {
+                            "ItemId": "(O)80", //Quartz
+                            "Chance": 0.25,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 2 1",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Hornblende",
+                            "Chance": 1,
+                            "MinStack": 2,
+                            "MaxStack": 5,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 2 2",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 1.0,
+                            "MinStack": 3,
+                            "MaxStack": 7
+                        }
+                    ],
+                    "MineSpawns": [
+                        {
+                            "Floors": "20/50, 120/77376",
+                            "SpawnFrequency": 0.000442, 
+                            "AdditionalChancePerLevel": 0.000004425,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+
+                "SchistStone": {
+                    "SpriteIndex": 15,
+                    "ItemDropped": "(O){{ModId}}_Schist",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 4.5,
+                    "Exp": 7,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1, 
+
+                    "ExtraItems":
+                    [
+                        {
+                            "ItemId": "(O)80", //Quartz
+                            "Chance": 0.25,
+                            "MinStack": 1,
+                            "MaxStack": 2,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 2 1",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Hornblende",
+                            "Chance": 1,
+                            "MinStack": 3,
+                            "MaxStack": 7,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 2 2",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 1.0,
+                            "MinStack": 3,
+                            "MaxStack": 5
+                        }
+                    ],
+                    "MineSpawns": [
+                        {
+                            "Floors": "70/100",
+                            "SpawnFrequency": 0.000498, 
+                            "AdditionalChancePerLevel": 0.000004975,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+                "OlivineStone": {
+                    "SpriteIndex": 3, 
+                    "ItemDropped": "(O){{ModId}}_Olivine",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 4.5,
+                    "Exp": 7,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1, 
+
+                    "MineSpawns": [
+                        {
+                            "Floors": "20/40, 120/77376",
+                            "SpawnFrequency": 0.000452, 
+                            "AdditionalChancePerLevel": 0.000004525,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+
+                "Sandstone": {
+                    "SpriteIndex": 11,
+                    "ItemDropped": "(O)568",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 4.5,
+                    "Exp": 7,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1, 
+
+                    "ExtraItems":
+                    [
+                        {
+                            "ItemId": "(O)80",
+                            "Chance": 0.25,
+                            "MinDrops": 2, 
+                            "MaxDrops": 5
+                        },
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 1.0,
+                            "MinStack": 1,
+                            "MaxStack": 2
+                        }
+                    ],
+                    "MineSpawns": [
+                        {
+                            "Floors": "40/50, 120/77376",
+                            "SpawnFrequency": 0.000552, 
+                            "AdditionalChancePerLevel": 0.000005525,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+                "GraniteStone": {
+                    "SpriteIndex": 20,
+                    "ItemDropped": "(O)569",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 2.5,
+                    "Exp": 11,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1, 
+                    "ExtraItems":
+                    [
+                        {
+                            "ItemId": "(O){{ModId}}_Hornblende",
+                            "Chance": 1,
+                            "MinStack": 2,
+                            "MaxStack": 4,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 2 1",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Hornblende",
+                            "Chance": 0.25,
+                            "MinStack": 5,
+                            "MaxStack": 7,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 2 2",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 1.0,
+                            "MinStack": 3,
+                            "MaxStack": 5
+                        }
+                    ],
+                    "MineSpawns": [
+                        {
+                            "Floors": "40/50, 120/77376",
+                            "SpawnFrequency": 0.000552, 
+                            "AdditionalChancePerLevel": 0.000005525,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+
+                "OnxyStone": {
+                    "SpriteIndex": 30, 
+                    "ItemDropped": "(O){{ModId}}_Onxy", 
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 5.5,
+                    "Exp": 14,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1, 
+                    "MineSpawns": [
+                        {
+                            "Floors": "30/50, 120/77376",
+                            "SpawnFrequency": 0.000266, 
+                            "AdditionalChancePerLevel": 0.00000266,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+
+                "SlateStone": {
+                    "SpriteIndex": 17,
+                    "ItemDropped": "(O)576",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 5.5,
+                    "Exp": 15,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1,
+                    "ExtraItems":
+                    [
+                        {
+                            "ItemId": "(O)84",
+                            "Chance": 0.25,
+                            "MinDrops": 2, 
+                            "MaxDrops": 5, 
+                        }
+                    ],
+                    "MineSpawns": [
+                        {
+                            "Floors": "40/50, 90/110",
+                            "SpawnFrequency": 0.000208, 
+                            "AdditionalChancePerLevel": 0.000002079,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+
+                "PeridotStone": {
+                    "SpriteIndex": 32, 
+                    "ItemDropped": "(O){{ModId}}_Peridot", 
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 4.5, 
+                    "Exp": 11,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1,
+
+                    "MineSpawns": [
+                        {
+                            "Floors": "10/30",
+                            "SpawnFrequency": 0.000277, 
+                            "AdditionalChancePerLevel": 0.0000277,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+
+                "HaliteStone": {
+                    "SpriteIndex": 13,
+                    "ItemDropped": "(O){{ModId}}_Halite",
+                    
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 5.5,
+                    "Exp": 17,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1,
+
+                    "MineSpawns": [
+                        {
+                            "Floors": "60/90",
+                            "SpawnFrequency": 0.000175, 
+                            "AdditionalChancePerLevel": 0.000001751,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+
+                "ZirconStone": {
+                    "SpriteIndex": 1,
+                    "ItemDropped": "(O){{ModId}}_Zircon",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 5.5,
+                    "Exp": 15,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1,
+
+                    "MineSpawns": [
+                        {
+                            "Floors": "90/110, 120/77376",
+                            "SpawnFrequency": 0.000181, 
+                            "AdditionalChancePerLevel": 0.00001815,
+                            "Type": "All" 
+                        }
+                    ]                
+                },
+                "MarbleStone": {
+                    "SpriteIndex": 10,
+                    "ItemDropped": "(O)567",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 6.5,
+                    "Exp": 17,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1,
+
+                    "ExtraItems":
+                    [
+                        {
+                            "ItemId": "(O)542", //Calcite
+                            "Chance": 1,
+                            "MinStack": 1,
+                            "MaxStack": 3,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 3 1",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O)543", //Dolomite 300
+                            "Chance": 0.01,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 3 2",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O)572", //Soapstone 120
+                            "Chance": 0.05,
+                            "MinStack": 1,
+                            "MaxStack": 2,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 3 3",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        }
+                    ],
+                    "MineSpawns": [
+                        {
+                            "Floors": "90/120",
+                            "SpawnFrequency": 0.0002, 
+                            "AdditionalChancePerLevel": 0.000001996,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+                "PrismaticStone": {
+                    "SpriteIndex": 9,
+                    "ItemDropped": "(O){{ModId}}_Prismatic_Pieces",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 6.5,
+                    "Exp": 4,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1,
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 1.0,
+                            "MinStack": 5,
+                            "MaxStack": 10
+                        }
+                    ],
+                    "MineSpawns": [
+                        {
+                            "Floors": "120/77376",
+                            "SpawnFrequency": 0.000181, 
+                            "AdditionalChancePerLevel": 0.000001815,
+                            "Type": "All" 
+                        },
+                    ]
+                },
+                "HematiteStone": {
+                    "SpriteIndex": 4,
+                    "ItemDropped": "(O)573",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 4.5,
+                    "Exp": 27,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1,
+
+                    "ExtraItems":
+                    [
+                        {
+                            "ItemId": "(O)538", //Alamite 150
+                            "Chance": 0.25,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 3 1",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O)544", //Esperite 100
+                            "Chance": 0.25,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 3 2",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O)572", //Aerinite 125
+                            "Chance": 0.25,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 3 3",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        }
+                    ],
+                    "MineSpawns": [
+                        {
+                            "Floors": "40/80",
+                            "SpawnFrequency": 0.000826, 
+                            "AdditionalChancePerLevel": 0.000008264,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+                "Vanadinite": {
+                    "SpriteIndex": 23,
+                    "ItemDropped": "(O){{ModId}}_Vanadinite", 
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 10,
+                    "Exp": 19,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1,
+
+                    "MineSpawns": [
+                        {
+                            "Floors": "0/20",
+                            "SpawnFrequency": 0.000161, 
+                            "AdditionalChancePerLevel": 0.00000161,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+                "BasaltStone": {
+                    "SpriteIndex": 19,
+                    "ItemDropped": "(O)570",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 7.5,
+                    "Exp": 32,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1,
+
+                    "ExtraItems":
+                    [
+                        {
+                            "ItemId": "(O)563", //Jasper 150
+                            "Chance": 0.75,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 2 1",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O)565", //Fire Opal 350
+                            "Chance": 0.075,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 2 2",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 1.0,
+                            "MinStack": 3,
+                            "MaxStack": 4
+                        }
+                    ],
+                    "MineSpawns": [
+                        {
+                            "Floors": "90/120, 120/77376",
+                            "SpawnFrequency": 0.000095, 
+                            "AdditionalChancePerLevel": 0.00000951,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+                "ObsidianStone": {
+                    "SpriteIndex": 5,
+                    "ItemDropped": "(O)576",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 1,
+                    "Exp": 24,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1,
+
+                    "MineSpawns": [
+                        {
+                            "Floors": "60/80",
+                            "SpawnFrequency": 0.000125, 
+                            "AdditionalChancePerLevel": 0.00001248,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+                "PinkStone": {
+                    "SpriteIndex": 28, 
+                    "ItemDropped": "(O){{ModId}}_Rhodochrosite", 
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 15,
+                    "Exp": 35,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1,
+
+                    "MineSpawns": [
+                        {
+                            "Floors": "90/77376",
+                            "SpawnFrequency": 0.000085, 
+                            "AdditionalChancePerLevel": 0.0000085,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+                "SappyLapStone": {
+                    "SpriteIndex": 25,
+                    "ItemDropped": "(O)390", 
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 17,
+                    "Exp": 25,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 3, 
+                    "MaxDrops": 10,
+                    
+                    "ExtraItems":
+                    [
+                        {
+                            "ItemId": "(O){{ModId}}_Lapis_Lazuli",
+                            "Chance": 1,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Sapphire",
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Condition": "RANDOM 0.6 @addDailyLuck", // 0.00074 = 0.6 x 0.00121
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                    ],
+
+                    "MineSpawns": [
+                        {
+                            "Floors": "70/80, 120/77376",
+                            "SpawnFrequency": 0.000121, 
+                            "AdditionalChancePerLevel": 0.00001211,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+                "SunStone": {
+                    "SpriteIndex": 34, 
+                    "ItemDropped": "(O){{ModId}}_Sunstone", 
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 20,
+                    "Exp": 16,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1,
+
+                    "MineSpawns": [
+                        {
+                            "Floors": "120/77376",
+                            "SpawnFrequency": 0.000088, 
+                            "AdditionalChancePerLevel": 0.0000088,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+            },
+            "When": {
+                "Spawn Rate Adjustment": "Hardcore",
+            },
+        },
+        {
+            "LogName": "Cheat Config",
+            "Action": "EditData",
+            "Target": "Mods/mistyspring.ItemExtensions/Resources",
+            "Entries": {
+                "CoalStone": {
+                    "SpriteIndex": 21,
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 7,
+                    "Exp": 7,
+                    "ItemDropped": "(O)382",
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 2, 
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 1.0,
+                            "MinStack": 1,
+                            "MaxStack": 7,
+                        }
+                    ],
+                    "MineSpawns": [
+                        {
+                            "Floors": "80/77376",
+                            "SpawnFrequency": 0.1, 
+                            "AdditionalChancePerLevel": 0.1,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+
+                "Limestone": {
+                    "SpriteIndex": 16,
+                    "ItemDropped": "(O)571",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 3.5,
+                    "Exp": 4,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1, 
+                    "ExtraItems":
+                    [
+                        {
+                            "ItemId": "(O)542", //Calcite 75
+                            "Chance": 1,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 3 1",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O)881",//Bone Fragment 15
+                            "Chance": 1,
+                            "MinStack": 1,
+                            "MaxStack": 3,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 3 2",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O)552", //Malachite 100
+                            "Chance": 1,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 3 3",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 1.0,
+                            "MinStack": 2,
+                            "MaxStack": 3
+                        }
+                    ],
+                    "MineSpawns": [
+                        {
+                            "Floors": "20/100",
+                            "SpawnFrequency": 0.1, 
+                            "AdditionalChancePerLevel": 0.1,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+
+                "MudStone": {
+                    "SpriteIndex": 22,
+                    "ItemDropped": "(O)574",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 2.5,
+                    "Exp": 4,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1, 
+
+                    "ExtraItems":
+                    [
+                        {
+                            "ItemId": "(O)330", //Clay
+                            "Chance": 1.0,
+                            "MinStack": 2,
+                            "MaxStack": 5
+                        },
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 1.0,
+                            "MinStack": 3,
+                            "MaxStack": 5
+                        }
+                    ],
+
+                    "MineSpawns": [
+                        {
+                            "Floors": "10/40",
+                            "SpawnFrequency": 0.1, 
+                            "AdditionalChancePerLevel": 0.1,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+
+                "GneissStone": {
+                    "SpriteIndex": 7,
+                    "ItemDropped": "(O){{ModId}}_Gneiss",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 3.5,
+                    "Exp": 7,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1, 
+
+                    "ExtraItems":
+                    [
+                        {
+                            "ItemId": "(O)80", //Quartz
+                            "Chance": 1,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 2 1",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Hornblende",
+                            "Chance": 1,
+                            "MinStack": 2,
+                            "MaxStack": 5,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 2 2",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 1,
+                            "MinStack": 3,
+                            "MaxStack": 7
+                        }
+                    ],
+                    "MineSpawns": [
+                        {
+                            "Floors": "20/50, 120/77376",
+                            "SpawnFrequency": 0.1, 
+                            "AdditionalChancePerLevel": 0.1,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+
+                "SchistStone": {
+                    "SpriteIndex": 15,
+                    "ItemDropped": "(O){{ModId}}_Schist",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 4.5,
+                    "Exp": 7,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1, 
+
+                    "ExtraItems":
+                    [
+                        {
+                            "ItemId": "(O)80", //Quartz
+                            "Chance": 1,
+                            "MinStack": 1,
+                            "MaxStack": 2,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 2 1",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Hornblende",
+                            "Chance": 1,
+                            "MinStack": 3,
+                            "MaxStack": 7,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 2 2",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 1.0,
+                            "MinStack": 3,
+                            "MaxStack": 5
+                        }
+                    ],
+                    "MineSpawns": [
+                        {
+                            "Floors": "70/100",
+                            "SpawnFrequency": 0.1, 
+                            "AdditionalChancePerLevel": 0.1,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+                "OlivineStone": {
+                    "SpriteIndex": 3, 
+                    "ItemDropped": "(O){{ModId}}_Olivine",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 4.5,
+                    "Exp": 7,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1, 
+
+                    "MineSpawns": [
+                        {
+                            "Floors": "20/40, 120/77376",
+                            "SpawnFrequency": 0.1, 
+                            "AdditionalChancePerLevel": 0.1,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+
+                "Sandstone": {
+                    "SpriteIndex": 11,
+                    "ItemDropped": "(O)568",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 4.5,
+                    "Exp": 7,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1, 
+
+                    "ExtraItems":
+                    [
+                        {
+                            "ItemId": "(O)80",
+                            "Chance": 1,
+                            "MinDrops": 2, 
+                            "MaxDrops": 5
+                        },
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 1,
+                            "MinStack": 1,
+                            "MaxStack": 2
+                        }
+                    ],
+                    "MineSpawns": [
+                        {
+                            "Floors": "40/50, 120/77376",
+                            "SpawnFrequency": 0.1, 
+                            "AdditionalChancePerLevel": 0.1,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+                "GraniteStone": {
+                    "SpriteIndex": 20,
+                    "ItemDropped": "(O)569",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 2.5,
+                    "Exp": 11,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1, 
+                    "ExtraItems":
+                    [
+                        {
+                            "ItemId": "(O){{ModId}}_Hornblende",
+                            "Chance": 1,
+                            "MinStack": 2,
+                            "MaxStack": 4,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 2 1",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Hornblende",
+                            "Chance": 1,
+                            "MinStack": 5,
+                            "MaxStack": 7,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 2 2",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 1,
+                            "MinStack": 3,
+                            "MaxStack": 5
+                        }
+                    ],
+                    "MineSpawns": [
+                        {
+                            "Floors": "40/50, 120/77376",
+                            "SpawnFrequency": 0.1, 
+                            "AdditionalChancePerLevel": 0.1,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+
+                "OnxyStone": {
+                    "SpriteIndex": 30, 
+                    "ItemDropped": "(O){{ModId}}_Onxy", 
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 5.5,
+                    "Exp": 14,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1, 
+                    "MineSpawns": [
+                        {
+                            "Floors": "30/50, 120/77376",
+                            "SpawnFrequency": 0.1, 
+                            "AdditionalChancePerLevel": 0.1,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+
+                "SlateStone": {
+                    "SpriteIndex": 17,
+                    "ItemDropped": "(O)576",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 5.5,
+                    "Exp": 15,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1,
+                    "ExtraItems":
+                    [
+                        {
+                            "ItemId": "(O)84",
+                            "Chance": 0.25,
+                            "MinDrops": 2, 
+                            "MaxDrops": 5, 
+                        }
+                    ],
+                    "MineSpawns": [
+                        {
+                            "Floors": "40/50, 90/110",
+                            "SpawnFrequency": 0.1, 
+                            "AdditionalChancePerLevel": 0.1,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+
+                "PeridotStone": {
+                    "SpriteIndex": 32, 
+                    "ItemDropped": "(O){{ModId}}_Peridot", 
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 4.5, 
+                    "Exp": 11,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1,
+
+                    "MineSpawns": [
+                        {
+                            "Floors": "10/30",
+                            "SpawnFrequency": 0.1, 
+                            "AdditionalChancePerLevel": 0.1,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+
+                "HaliteStone": {
+                    "SpriteIndex": 13,
+                    "ItemDropped": "(O){{ModId}}_Halite",
+                    
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 5.5,
+                    "Exp": 17,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1,
+
+                    "MineSpawns": [
+                        {
+                            "Floors": "60/90",
+                            "SpawnFrequency": 0.1, 
+                            "AdditionalChancePerLevel": 0.1,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+
+                "ZirconStone": {
+                    "SpriteIndex": 1,
+                    "ItemDropped": "(O){{ModId}}_Zircon",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 5.5,
+                    "Exp": 15,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1,
+
+                    "MineSpawns": [
+                        {
+                            "Floors": "90/110, 120/77376",
+                            "SpawnFrequency": 0.1, 
+                            "AdditionalChancePerLevel": 0.1,
+                            "Type": "All" 
+                        }
+                    ]                
+                },
+                "MarbleStone": {
+                    "SpriteIndex": 10,
+                    "ItemDropped": "(O)567",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 6.5,
+                    "Exp": 17,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1,
+
+                    "ExtraItems":
+                    [
+                        {
+                            "ItemId": "(O)542", //Calcite
+                            "Chance": 1,
+                            "MinStack": 1,
+                            "MaxStack": 3,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 3 1",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O)543", //Dolomite 300
+                            "Chance": 1,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 3 2",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O)572", //Soapstone 120
+                            "Chance": 1,
+                            "MinStack": 1,
+                            "MaxStack": 2,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 3 3",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        }
+                    ],
+                    "MineSpawns": [
+                        {
+                            "Floors": "90/120",
+                            "SpawnFrequency": 0.1, 
+                            "AdditionalChancePerLevel": 0.1,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+                "PrismaticStone": {
+                    "SpriteIndex": 9,
+                    "ItemDropped": "(O){{ModId}}_Prismatic_Pieces",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 6.5,
+                    "Exp": 4,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1,
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 1.0,
+                            "MinStack": 5,
+                            "MaxStack": 10
+                        }
+                    ],
+                    "MineSpawns": [
+                        {
+                            "Floors": "120/77376",
+                            "SpawnFrequency": 0.1, 
+                            "AdditionalChancePerLevel": 0.1,
+                            "Type": "All" 
+                        },
+                    ]
+                },
+                "HematiteStone": {
+                    "SpriteIndex": 4,
+                    "ItemDropped": "(O)573",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 4.5,
+                    "Exp": 27,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1,
+
+                    "ExtraItems":
+                    [
+                        {
+                            "ItemId": "(O)538", //Alamite 150
+                            "Chance": 1,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 3 1",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O)544", //Esperite 100
+                            "Chance": 1,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 3 2",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O)572", //Aerinite 125
+                            "Chance": 1,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 3 3",
+                            "Quality": 0,
+                            "IsRecipe": false
+                        }
+                    ],
+                    "MineSpawns": [
+                        {
+                            "Floors": "40/80",
+                            "SpawnFrequency": 0.1, 
+                            "AdditionalChancePerLevel": 0.1,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+                "Vanadinite": {
+                    "SpriteIndex": 23,
+                    "ItemDropped": "(O){{ModId}}_Vanadinite", 
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 10,
+                    "Exp": 19,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1,
+
+                    "MineSpawns": [
+                        {
+                            "Floors": "0/20",
+                            "SpawnFrequency": 0.1, 
+                            "AdditionalChancePerLevel": 0.1,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+                "BasaltStone": {
+                    "SpriteIndex": 19,
+                    "ItemDropped": "(O)570",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 7.5,
+                    "Exp": 32,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1,
+
+                    "ExtraItems":
+                    [
+                        {
+                            "ItemId": "(O)563", //Jasper 150
+                            "Chance": 1,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 2 1",
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O)565", //Fire Opal 350
+                            "Chance": 1,
+                            "Condition": "SYNCED_CHOICE tick itemChosen 1 2 2",
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O)390",
+                            "Chance": 1.0,
+                            "MinStack": 3,
+                            "MaxStack": 4
+                        }
+                    ],
+                    "MineSpawns": [
+                        {
+                            "Floors": "90/120, 120/77376",
+                            "SpawnFrequency": 0.1, 
+                            "AdditionalChancePerLevel": 0.1,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+                "ObsidianStone": {
+                    "SpriteIndex": 5,
+                    "ItemDropped": "(O)576",
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 1,
+                    "Exp": 24,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1,
+
+                    "MineSpawns": [
+                        {
+                            "Floors": "60/80",
+                            "SpawnFrequency": 0.1, 
+                            "AdditionalChancePerLevel": 0.1,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+                "PinkStone": {
+                    "SpriteIndex": 28, 
+                    "ItemDropped": "(O){{ModId}}_Rhodochrosite", 
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 15,
+                    "Exp": 35,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1,
+
+                    "MineSpawns": [
+                        {
+                            "Floors": "90/77376",
+                            "SpawnFrequency": 0.1, 
+                            "AdditionalChancePerLevel": 0.1,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+                "SappyLapStone": {
+                    "SpriteIndex": 25,
+                    "ItemDropped": "(O)390", 
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 17,
+                    "Exp": 25,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 3, 
+                    "MaxDrops": 10,
+                    
+                    "ExtraItems":
+                    [
+                        {
+                            "ItemId": "(O){{ModId}}_Lapis_Lazuli",
+                            "Chance": 1,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Sapphire",
+                            "Chance": 1,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Quality": 0,
+                            "IsRecipe": false
+                        },
+                    ],
+
+                    "MineSpawns": [
+                        {
+                            "Floors": "70/80, 120/77376",
+                            "SpawnFrequency": 0.1, 
+                            "AdditionalChancePerLevel": 0.1,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+                "SunStone": {
+                    "SpriteIndex": 34, 
+                    "ItemDropped": "(O){{ModId}}_Sunstone", 
+
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Debris": "stone",
+
+                    "Tool": "Pickaxe", 
+                    "Health": 20,
+                    "Exp": 16,
+
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1, 
+                    "MaxDrops": 1,
+
+                    "MineSpawns": [
+                        {
+                            "Floors": "120/77376",
+                            "SpawnFrequency": 0.1, 
+                            "AdditionalChancePerLevel": 0.1,
+                            "Type": "All" 
+                        }
+                    ]
+                },
+            },
+            "When": {
+                "Spawn Rate Adjustment": "Cheat",
+            },
+        },
+    ],
+}

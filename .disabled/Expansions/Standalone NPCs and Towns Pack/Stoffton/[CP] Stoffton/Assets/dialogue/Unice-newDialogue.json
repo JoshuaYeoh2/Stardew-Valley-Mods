@@ -1,0 +1,63 @@
+{
+"Changes": [
+{
+
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/UniceFS",
+  "Entries": {
+//0- neutral
+//1- smile
+//2- frown
+//3- suspicious, questioning
+//4- anger
+//5- shock
+    "Introduction": "{{i18n:Unice.Introduction.1}}#$b#{{i18n:Unice.Introduction.2}}",
+    "Mon": "{{i18n:Unice.Mon.1}}#$e#{{i18n:Unice.Mon.2}}$1",
+    "Mon_inlaw_AlexandriaFS": "{{i18n:Unice.Mon_inlaw_AlexandriaFS.1}}",
+    "Tue": "{{i18n:Unice.Tue.1}}",
+    "Wed": "{{i18n:Unice.Wed.1}}#$e#{{i18n:Unice.Wed.2}}$2",
+    "Thu": "{{i18n:Unice.Thu.1}}",
+    "Thu2": "{{i18n:Unice.Thu2.1}}",
+    "Thu4": "{{i18n:Unice.Thu4.1}}",
+    "Thu6": "{{i18n:Unice.Thu6.1}}",
+    "Fri": "#$c .5#{{i18n:Unice.Fri.1}}#$e#{{i18n:Unice.Fri.2}}",
+    "Sat": "{{i18n:Unice.Sat.1}}#$e#{{i18n:Unice.Sat.2}}",
+    "Sun": "{{i18n:Unice.Sun.1}}",
+    "summer_Mon": "{{i18n:Unice.summer_Mon.1}}#$b#{{i18n:Unice.summer_Mon.2}}",
+    "summer_Tue": "{{i18n:Unice.summer_Tue.1}}",
+    "summer_Tue2": "{{i18n:Unice.summer_Tue2.1}}#$e#{{i18n:Unice.summer_Tue2.2}}",
+    "summer_Tue4": "{{i18n:Unice.summer_Tue4.1}}",
+    "summer_Tue6": "{{i18n:Unice.summer_Tue6.1}}",
+    "summer_Wed": "{{i18n:Unice.summer_Wed.1}}",
+    "summer_Wed_inlaw_AlexandriaFS": "{{i18n:Unice.summer_Wed_inlaw_AlexandriaFS.1}}#$e#{{i18n:Unice.summer_Wed_inlaw_AlexandriaFS.2}}",
+    "summer_Thu": "{{i18n:Unice.summer_Thu.1}}",
+    "summer_Thu_inlaw_AlexandriaFS": "{{i18n:Unice.summer_Thu_inlaw_AlexandriaFS.1}}",
+    "summer_Fri": "{{i18n:Unice.summer_Fri.1}}",
+    "summer_Sat": "{{i18n:Unice.summer_Sat.1}}#$e#{{i18n:Unice.summer_Sat.2}}",
+    "summer_Sun": "{{i18n:Unice.summer_Sun.1}}",
+    "fall_Mon": "{{i18n:Unice.fall_Mon.1}}#$e#{{i18n:Unice.fall_Mon.2}}",
+    "fall_Tue": "{{i18n:Unice.fall_Tue.1}}",
+    "fall_Wed": "{{i18n:Unice.fall_Wed.1}}#$e#{{i18n:Unice.fall_Wed.2}}$3",
+    "fall_Wed_inlaw_AlexandriaFS": "{{i18n:Unice.fall_Wed_inlaw_AlexandriaFS.1}}$1^{{i18n:Unice.fall_Wed_inlaw_AlexandriaFS.2}}$1",
+    "fall_Thu": "{{i18n:Unice.fall_Thu.1}}#$b#{{i18n:Unice.fall_Thu.3}}$5#$b#{{i18n:Unice.fall_Thu.2}}$3",
+    "fall_Fri": "{{i18n:Unice.fall_Fri.1}}",
+    "fall_Fri4": "{{i18n:Unice.fall_Fri4.1}}#$b#{{i18n:Unice.fall_Fri4.2}}",
+    "fall_Fri6": "{{i18n:Unice.fall_Fri6.1}}",
+    "fall_Sat": "{{i18n:Unice.fall_Sat.1}}",
+    "fall_Sun": "{{i18n:Unice.fall_Sun.1}}",
+    "winter_Mon": "{{i18n:Unice.winter_Mon.1}}",
+    "winter_Tue": "{{i18n:Unice.winter_Tue.1}}",
+    "winter_Tue2": "{{i18n:Unice.winter_Tue2.1}}",
+    "winter_Tue4": "{{i18n:Unice.winter_Tue4.1}}",
+    "winter_Wed": "{{i18n:Unice.winter_Wed.1}}",
+    "winter_Thu": "{{i18n:Unice.winter_Thu.1}}$2#$b#{{i18n:Unice.winter_Thu.2}}",
+    "winter_Fri": "{{i18n:Unice.winter_Fri.1}}$1",
+    "winter_Sat": "{{i18n:Unice.winter_Sat.1}}",
+    "winter_Sat2": "{{i18n:Unice.winter_Sat2.1}}",
+    "winter_Sat4": "{{i18n:Unice.winter_Sat4.1}}$4#$b#{{i18n:Unice.winter_Sat4.2}}",
+    "winter_Sun": "{{i18n:Unice.winter_Sun.1}}",
+    "Lizzie.Stoffton_Yoba": "{{i18n:Unice.Lizzie.Stoffton_Yoba.1}}",
+  }
+}
+]
+}

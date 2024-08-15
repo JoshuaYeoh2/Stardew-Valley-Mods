@@ -1,0 +1,139 @@
+{
+
+    "Format": "2.0.0",
+    
+    
+    "Changes": [
+        
+/////////////////////////////Load Maps
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Town",
+            "FromFile": "Town_RC.tmx",
+            "FromArea": { "X": 61, "Y": 2, "Width": 7, "Height": 9 },
+            "ToArea": { "X": 61, "Y": 2, "Width": 7, "Height": 9 }
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Custom_RazorCrest",
+            "FromFile": "8592_RazorCrest.tmx",
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Custom_Cockpit",
+            "FromFile": "8592_Cockpit.tmx",
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Custom_CockpitEvent",
+            "FromFile": "8592_CockpitEvent.tmx",
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Custom_Stargaze",
+            "FromFile": "8592_Stargaze.tmx",
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Custom_Bed",
+            "FromFile": "8592_MarriedBed.tmx",
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Hospital",
+            "FromFile": "8592_Hospital.tmx",
+            "FromArea": { "X": 19, "Y": 4, "Width": 3, "Height": 2 },
+            "ToArea": { "X": 19, "Y": 4, "Width": 3, "Height": 2 }
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/spouseRooms_Mando",
+            "FromFile": "spouseRooms_Mando.tmx",
+        },
+        
+/////////////////////////////Map Strings
+        { 
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "RC.004": "It's... a lot of weapons.",
+                "RC.002": "Old carbonite slabs. It looks like they haven't been used in a while.",
+                "RC.003": "Grogu's stuffed bear. It's cute and well worn.",
+                "RC.001": "Space really is infinite, huh?",
+		      }
+        },
+        
+/////////////////////////////Location Data
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Entries": {
+        
+            "Custom_RazorCrest": {
+                    "DisplayName": "Custom_RazorCrest",
+                    "DefaultArrivalTile": {
+                        "X": 3,
+                        "Y": 10
+                    },
+                    "CreateOnLoad": {
+                        "MapPath": "Maps\\Custom_RazorCrest"
+                    },
+                    "MusicDefault": "none",
+                    "MusicIgnoredInRain": true,
+            },
+            "Custom_Cockpit": {
+                    "DisplayName": "Custom_Cockpit",
+                    "DefaultArrivalTile": {
+                        "X": 16,
+                        "Y": 31
+                    },
+                    "CreateOnLoad": {
+                        "MapPath": "Maps\\Custom_Cockpit"
+                    },
+                    "MusicDefault": "MandoTheme",
+                    "MusicIgnoredInRain": false,
+            },
+            "Custom_Stargaze": {
+                    "DisplayName": "Custom_Stargaze",
+                    "DefaultArrivalTile": {
+                        "X": 16,
+                        "Y": 31
+                    },
+                    "CreateOnLoad": {
+                        "MapPath": "Maps\\Custom_Stargaze"
+                    },
+                    "MusicDefault": "none",
+                    "MusicIgnoredInRain": false,
+            },
+            "Custom_CockpitEvent": {
+                    "DisplayName": "Custom_CockpitEvent",
+                    "DefaultArrivalTile": {
+                        "X": 16,
+                        "Y": 31
+                    },
+                    "CreateOnLoad": {
+                        "MapPath": "Maps\\Custom_CockpitEvent"
+                    },
+                    "MusicDefault": "none",
+                    "MusicIgnoredInRain": false,
+            },
+            "Custom_Bed": {
+                    "DisplayName": "Custom_Bed",
+                    "DefaultArrivalTile": {
+                        "X": 16,
+                        "Y": 31
+                    },
+                    "CreateOnLoad": {
+                        "MapPath": "Maps\\Custom_Bed"
+                    },
+                    "MusicDefault": "none",
+                    "MusicIgnoredInRain": false,
+            },
+            }
+        }
+    ]
+
+
+
+
+}

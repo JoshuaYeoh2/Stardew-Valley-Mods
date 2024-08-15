@@ -1,0 +1,28 @@
+{
+  "Format": "2.0.0",
+  "Changes": [
+    {
+      "LogName": "Fievel (Hat)",
+      "Action": "EditImage",
+      "Target": "Portraits/Fievel",
+      "FromFile": "Assets/Fievel/Fievel.png",
+      "When": {
+        "HasSeenEvent |contains=17315005": false
+      },
+    },
+    {
+      "LogName": "Fievel (No Hat)",
+      "Action": "EditImage",
+      "Target": "Portraits/Fievel",
+      "FromFile": "Assets/Fievel/Fievel_NoHat.png",
+      "When": {
+        "HasSeenEvent |contains=17315005": true
+      },
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/FievelFinale",
+      "FromFile": "Assets/Fievel/Fievel_NoHat.png",
+    },
+  ]
+}

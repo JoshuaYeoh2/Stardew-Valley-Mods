@@ -1,0 +1,250 @@
+{
+	"Format": "2.0.0",
+    "ConfigSchema":{
+    	"DiverseArt": {
+    		"AllowValues": "true, false",
+    		"Default": "false"
+    	}
+    },
+    "DynamicTokens": [
+        {
+            "Name": "IndoorVariant",
+            "Value": "Indoor",
+            "When":{
+                "Season": "Summer",
+            },
+        },
+        {
+            "Name": "IndoorVariant",
+            "Value": "Outdoor",
+            "When": {
+                "IsOutdoors": "true",
+                "Season": "Summer",
+            },
+        },
+        {
+            "Name": "FestivalVariant",
+            "Value": "SpiritsEve",
+            "When":
+            {
+                "DayEvent": "spirit's eve"
+            }
+        },
+		{
+            "Name": "FestivalVariant",
+            "Value": "FlowerDance",
+            "When":
+            {
+            	"DayEvent": "flower dance"
+            }
+        },
+        {
+        	"Name": "sprites",
+        	"Value": "sprites",
+        	"When": {
+        		"DiverseArt": false
+        	}
+        },
+        {
+        	"Name": "sprites",
+        	"Value": "spritesdiverse",
+        	"When": {
+        		"DiverseArt": true
+        	}
+        },
+        {
+        	"Name": "portraits",
+        	"Value": "portraits",
+        	"When": {
+        		"DiverseArt": false
+        	}
+        },
+        {
+        	"Name": "portraits",
+        	"Value": "portraitsdiverse",
+        	"When": {
+        		"DiverseArt": true
+        	}
+        },
+     ],
+    "Changes": [
+		//Sprites
+		{
+			"LogName": "Isla Spring Sprite",
+			"Action": "EditImage",
+			"Target": "Characters/Isla",
+			"FromFile": "assets/{{sprites}}/Isla_Spring.png",
+			"Update": "OnLocationChange",
+			"Priority": "Late"
+		},
+		{
+			"LogName": "Isla Fall Sprite",
+			"Action": "EditImage",
+			"Target": "Characters/Isla_Fall",
+			"FromFile": "assets/{{sprites}}/Isla_Fall.png",
+			"Update": "OnLocationChange",
+			"Priority": "Late"
+		},
+		{
+			"LogName": "Isla Summer Indoor Outdoor Sprite",
+			"Action": "EditImage",
+			"Target": "Characters/Isla_Summer",
+			"FromFile": "assets/{{sprites}}/Isla_Summer_{{IndoorVariant}}.png",
+			"Update": "OnLocationChange",
+			"Priority": "Late"
+		},
+		{
+			"LogName": "Isla Winter Indoor Sprite",
+			"Action": "EditImage",
+			"Target": "Characters/Isla_Winter_Indoor,",
+			"FromFile": "assets/{{sprites}}/Isla_Winter_Indoor.png",
+			"Update": "OnLocationChange",
+			"Priority": "Late"
+		},
+		{
+			"LogName": "Isla Winter Outdoor Sprite",
+			"Action": "EditImage",
+			"Target": "Characters/Isla_Winter_Outdoor,",
+			"Update": "OnLocationChange",
+			"FromFile": "assets/{{sprites}}/Isla_Winter_Outdoor.png",
+			"Priority": "Late"
+		},
+        {
+			"LogName": "Isla Spirits Eve Sprite",
+			"Action": "EditImage",
+			"Target": "Characters/Isla_SpiritsEve",
+			"Update": "OnLocationChange",
+			"FromFile": "assets/{{sprites}}/Isla_SpiritsEve.png",
+			"Priority": "Late"
+        },
+        {
+			"LogName": "Isla Flower Dance Sprite",
+			"Action": "EditImage",
+			"Target": "Characters/Isla",
+			"Update": "OnLocationChange",
+			"FromFile": "assets/{{sprites}}/Isla_FlowerDance.png",
+			"When":
+            {
+                "DayEvent": "flower dance"
+            },
+            "Priority": "Late"
+        },
+		{
+          "LogName": "Isla Mermaid Sprite",			
+          "Action": "EditImage",
+          "Target": "LooseSprites/temporary_sprites_1",
+          "FromFile": "assets/{{sprites}}/Isla_MermaidShow.png",
+          "ToArea": { "X": 68, "Y": 190, "Width": 70, "Height": 51 },
+          "PatchMode": "Replace",
+          "Priority": "Late"
+        },
+		{
+			"LogName": "Kelpie Sprite",
+			"Action": "EditImage",
+			"Target": "Characters/Kelpie",
+			"Update": "OnLocationChange",
+			"FromFile": "assets/{{sprites}}/Kelpie.png",
+			"Priority": "Late"
+        },
+		{
+			"LogName": "Soraya Sprite",
+			"Action": "EditImage",
+			"Target": "Characters/Soraya",
+			"Update": "OnLocationChange",
+			"FromFile": "assets/sprites/Soraya.png",
+			"Priority": "Late"
+        },
+		{
+			"LogName": "Marika Sprite",
+			"Action": "EditImage",
+			"Target": "Characters/Marika",
+			"Update": "OnLocationChange",
+			"FromFile": "assets/{{sprites}}/Marika.png",
+			"Priority": "Late"
+        },
+		{
+			"LogName": "Elysa Sprite",
+			"Action": "EditImage",
+			"Target": "Characters/Elysa",
+			"FromFile": "assets/{{sprites}}/Elysa.png",
+			"Priority": "Late"
+        },
+
+        //Portraits
+		{
+			"LogName": "Isla Spring Portrait",
+			"Action": "EditImage",
+			"Target": "Portraits/Isla",
+			"Update": "OnLocationChange",
+			"FromFile": "assets/{{portraits}}/Isla_Spring.png",
+			"Priority": "Late"
+		},
+		{
+			"LogName": "Isla Fall Portrait",
+			"Action": "EditImage",
+			"Target": "Portraits/Isla_Fall",
+			"Update": "OnLocationChange",
+			"FromFile": "assets/{{portraits}}/Isla_Fall.png",
+			"Priority": "Late"
+		},
+		{
+			"LogName": "Isla Summer Indoor Outdoor Portrait",
+			"Action": "EditImage",
+			"Target": "Portraits/Isla_Summer",
+			"FromFile": "assets/{{portraits}}/Isla_Summer_{{IndoorVariant}}.png",
+			"Update": "OnLocationChange",
+			"Priority": "Late"
+		},
+		{
+			"LogName": "Isla Winter Indoor Portrait",
+			"Action": "EditImage",
+			"Target": "Portraits/Isla_Winter_Indoor,",
+			"FromFile": "assets/{{portraits}}/Isla_Winter_Indoor.png",
+			"Update": "OnLocationChange",
+			"Priority": "Late"
+		},
+		{
+			"LogName": "Isla Winter Outdoor Portrait",
+			"Action": "EditImage",
+			"Target": "Portraits/Isla_Winter_Outdoor,",
+			"FromFile": "assets/{{portraits}}/Isla_Winter_Outdoor.png",
+			"Update": "OnLocationChange",
+			"Priority": "Late"
+		},
+        {
+			"LogName": "Isla Spirits Eve Portrait",
+			"Action": "EditImage",
+			"Target": "Portraits/Isla_SpiritsEve",
+			"Update": "OnLocationChange",
+			"FromFile": "assets/{{portraits}}/Isla_SpiritsEve.png",
+			"Priority": "Late"
+        },
+        {
+			"LogName": "Isla Flower Dance Portrait",
+			"Action": "EditImage",
+			"Target": "Portraits/Isla",
+			"Update": "OnLocationChange",
+			"FromFile": "assets/{{portraits}}/Isla_FlowerDance.png",
+			"When":
+            {
+                "DayEvent": "flower dance"
+            },
+            "Priority": "Late"
+        },
+		{
+			"LogName": "Soraya Portrait",
+			"Action": "EditImage",
+			"Target": "Portraits/Soraya",
+			"FromFile": "assets/portraits/Soraya.png",
+			"Update": "OnLocationChange",
+			"Priority": "Late"
+        },
+		{
+			"LogName": "Elysa Portrait",
+			"Action": "EditImage",
+			"Target": "Portraits/Elysa",
+			"FromFile": "assets/{{portraits}}/Elysa.png",
+			"Priority": "Late"
+        },
+	]
+}

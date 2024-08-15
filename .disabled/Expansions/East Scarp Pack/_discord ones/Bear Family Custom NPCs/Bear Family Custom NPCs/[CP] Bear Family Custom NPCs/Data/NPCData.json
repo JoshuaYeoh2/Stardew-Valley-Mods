@@ -1,0 +1,1463 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        //Sigurd 'Sig' Bear
+
+        "MadDog.HashtagBearFam.Sigurd": {
+          "DisplayName": "{{i18n:SigDisplayName}}",
+          "BirthSeason": "Fall",
+          "BirthDay": 19,
+          "HomeRegion": "Town",
+          "Gender": "Male",
+          "Age": "Adult",
+          "Manner": "Rude",
+          "SocialAnxiety": "Outgoing",
+          "Optimism": "Positive",
+          "CanBeRomanced": "{{SigurdRelationshipStatus}}",
+          "FlowerDanceCanDance": true,
+          "LoveInterest": "Nova.Dylan",
+          "PerfectionScore": false,
+          "EndSlideShow": "TrailingGroup",
+          "CanGreetNearbyCharacters": false,
+          "CanCommentOnPurchasedShopItems": false,
+          "CanVisitIsland": true,
+          "WinterStarParticipant": true,
+          "WinterStarGifts": [
+            {
+              "Id": "Sig Gifts",
+              "ItemId": null,
+              "RandomItemId": [
+                "(O)340", //honey
+                "(O)636", //peach
+                "(O)346" //beer
+              ]
+            }
+          ],
+          "FriendsAndFamily": {
+            "MadDog.HashtagBearFam.Gudrun": "{{i18n:GudrunSister}}",
+            "MadDog.HashtagBearFam.Gunnar": "{{i18n:GunBrother}}",
+            "MadDog.HashtagBearFam.Sondra": "{{i18n:SondraAunt}}",
+            "MadDog.HashtagBearFam.Teren": "{{i18n:TerenFriend}}"
+          },
+          "SpouseRoom": {
+            "MapAsset": "MadDog.Bearfam_SpouseRoom",
+            "MapSourceRect": {
+              "X": 0,
+              "Y": 0,
+              "Width": 6,
+              "Height": 9
+            }
+          },
+          "SpousePatio": {
+            "MapAsset": "MadDog.Bearfam_SpousePatio",
+            "MapSourceRect": {
+              "X": 0,
+              "Y": 0,
+              "Width": 4,
+              "Height": 4
+            },
+            "SpriteAnimationFrames": [
+              [ 16, 1000 ],
+              [ 17, 1000 ],
+              [ 18, 1000 ],
+              [ 19, 1000 ],
+              [ 20, 1000 ]
+            ],
+            "SpriteAnimationPixelOffset": {
+              "X": 0,
+              "Y": 0
+            }
+          },
+
+          "SpouseFloors": [
+            "12",
+            "15",
+            "34"
+          ],
+          "SpouseWallpapers": [
+            "37",
+            "46",
+            "94",
+            "104",
+            "21"
+          ],
+
+          "HiddenProfileEmoteSound": "drumkit4",
+          "HiddenProfileEmoteDuration": 4000,
+          "HiddenProfileEmoteStartFrame": 16,
+          "HiddenProfileEmoteFrameCount": 5,
+          "HiddenProfileEmoteFrameDuration": 400,
+
+          "DumpsterDiveFriendshipEffect": 0,
+          "DumpsterDiveEmote": 40,
+          "SpouseWantsChildren": true,
+          "SpouseGiftJealousy": true,
+          "SpouseGiftJealousyFriendshipChange": 0,
+          "FormerCharacterNames": [ "Sigurd" ],
+          "Appearance": [
+            //outfits 1
+            {
+              "Id": "Sigurd Spring 1",
+              "Condition": "SEASON Spring",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sigurd/spring_sigurd.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Sigurd/spring_sigurd.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            {
+              "Id": "Sigurd Summer 1",
+              "Condition": "SEASON Summer",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sigurd/summer_sigurd.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Sigurd/summer_sigurd.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            {
+              "Id": "Sigurd Fall 1",
+              "Condition": "SEASON Fall",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sigurd/fall_sigurd.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Sigurd/fall_sigurd.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            {
+              "Id": "Sigurd Winter 1",
+              "Condition": "SEASON Winter",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sigurd/winter_sigurd.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Sigurd/winter_sigurd.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            //outfits 2
+            {
+              "Id": "Sigurd Spring 2",
+              "Condition": "SEASON Spring",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sigurd/spring_sigurd1.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Sigurd/spring_sigurd1.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            {
+              "Id": "Sigurd Summer 2",
+              "Condition": "SEASON Summer",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sigurd/summer_sigurd1.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Sigurd/summer_sigurd1.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            {
+              "Id": "Sigurd Fall 2",
+              "Condition": "SEASON Fall",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sigurd/fall_sigurd1.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Sigurd/fall_sigurd1.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            {
+              "Id": "Sigurd Winter 2",
+              "Condition": "SEASON Winter",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sigurd/winter_sigurd1.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Sigurd/winter_sigurd1.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            //festivals
+            {
+              "Id": "Sig Egg Festival",
+              "Condition": "IS_EVENT festival_spring13",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sigurd/sigurd_eggfest.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Sigurd/sigurd_eggfest.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "Sig Flower Dance",
+              "Condition": "IS_EVENT festival_spring24",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sigurd/sigurd_flowerdance.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Sigurd/sigurd_flowerdance.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "Sig Luau", //no luau but surfing
+              "Condition": "IS_EVENT festival_summer4", //ANY "IS_EVENT festival_summer4, IS_EVENT festival_summer11
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sigurd/sigurd_moonlightjellies.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Sigurd/sigurd_moonlightjellies.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            /*{
+             "Id": "Sig Fireworks Fest", //custom festival
+             "Condition": "IS_EVENT festival_summer20", // ANY "IS_EVENT festival_fall16, IS_EVENT festival_fall20"
+             "Portrait": "{{InternalAssetKey: assets/Portraits/Sigurd/sigurd_fireworksfestival.png}}",
+             "Sprite": "{{InternalAssetKey: assets/Characters/Sigurd/sigurd_fireworksfestival.png}}",
+             "IsIslandAttire": false,
+             "Precedence": -100,
+             "Weight": 0
+            },*/
+            {
+              "Id": "Sig Moonlight Jellies",
+              "Condition": "IS_EVENT festival_summer28",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sigurd/sigurd_moonlightjellies.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Sigurd/sigurd_moonlightjellies.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "Sig SDV Fair", //and RSV Concert Fair thing
+              "Condition": "IS_EVENT festival_fall16", // ANY "IS_EVENT festival_fall16, IS_EVENT festival_fall20"
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sigurd/sigurd_sdvfair.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Sigurd/sigurd_sdvfair.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "Sig Spirit Eve",
+              "Condition": "IS_EVENT festival_fall27, {{Query: {{Year}} % 2 = 1 }}",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sigurd/sigurd_spiritseve.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Sigurd/sigurd_spiritseve.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "ID": "Sig at ES Inn Spirit Eve",
+              "Condition": "LOCATION_NAME Target EastScarp_VillageInn_SpiritEve, SEASON_DAY fall 27, {{Query: {{Year}} % 2 = 1 }}",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sigurd/sigurd_spiritseve.png}}",
+              "Sprite": "{{InternalAssetKey: assets/CHaracters/Sigurd/sigurd_spiritseve.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "Sig Spirit Eve Alt Year",
+              "Condition": "IS_EVENT festival_fall27, {{Query: {{Year}} % 2 = 0 }}",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sigurd/sigurd_spiritseve1.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Sigurd/sigurd_spiritseve1.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -125,
+              "Weight": 0
+            },
+            {
+              "ID": "Sig at ES Inn Spirit Eve Alt Year",
+              "Condition": "LOCATION_NAME Target EastScarp_VillageInn_SpiritEve, SEASON_DAY fall 27, {{Query: {{Year}} % 2 = 0 }}",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sigurd/sigurd_spiritseve1.png}}",
+              "Sprite": "{{InternalAssetKey: assets/CHaracters/Sigurd/sigurd_spiritseve1.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -125,
+              "Weight": 0
+            },
+            {
+              "Id": "Sig Festival Of Ice",
+              "Condition": "IS_EVENT festival_winter8",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sigurd/sigurd_icefestival.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Sigurd/sigurd_icefestival.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "Sig Winter Star", //and RSV Ember
+              "Condition": "IS_EVENT festival_winter25", // ANY "IS_EVENT festival_winter25, IS_EVENT festival_winter28"
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sigurd/sigurd_winterfeast.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Sigurd/sigurd_winterfeast.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            }
+          ],
+          /*"BreathChestRect": {
+            "X": 5,
+            "Y": 14,
+            "Width": 6,
+            "Height": 5
+          },*/
+          "SpawnIfMissing": true,
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "MadDog.BearFam.Custom_BearLodge",
+              "Tile": {
+                "X": 22,
+                "Y": 7
+              },
+              "Direction": "Down"
+            }
+          ]
+        },
+
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        //Sondra Brazier-Bear
+
+        "MadDog.HashtagBearFam.Sondra": {
+          "DisplayName": "{{i18n:SondraDisplayName}}",
+          "BirthSeason": "Spring",
+          "BirthDay": 19,
+          "HomeRegion": "Town",
+          "Gender": "Female",
+          "Age": "Adult",
+          "Manner": "Polite",
+          "SocialAnxiety": "Neutral",
+          "Optimism": "Positive",
+          "CanBeRomanced": false,
+          "FlowerDanceCanDance": false,
+          "PerfectionScore": false,
+          "EndSlideShow": "TrailingGroup",
+          "CanCommentOnPurchasedShopItems": false,
+          "CanVisitIsland": true,
+          "WinterStarParticipant": true,
+          "WinterStarGifts": [
+            {
+              "Id": "Sondra Gifts",
+              "ItemId": null,
+              "RandomItemId": [
+                "(O)731", //maple bar
+                "(O)220", //chocolate cake
+                "(O)100" //chipped amphora
+              ]
+            }
+          ],
+          "FriendsAndFamily": {
+            "MadDog.HashtagBearFam.Sigurd": "{{i18n:SigNephew}}",
+            "MadDog.HashtagBearFam.Gunnar": "{{i18n:GunNephew}}",
+            "MadDog.HashtagBearFam.Gudrun": "{{i18n:GudrunNiece}}",
+            "MadDog.HashtagBearFam.Teren": "{{i18n:TerenNephew}}"
+          },
+          "DumpsterDiveFriendshipEffect": 0,
+          "DumpsterDiveEmote": 60,
+          "FormerCharacterNames": [ "Sondra" ],
+          "Appearance": [
+            //outfits 1
+            {
+              "Id": "Sondra Spring 1",
+              "Condition": "SEASON Spring",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sondra/spring_sondra.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Sondra/spring_sondra.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            {
+              "Id": "Sondra Summer 1",
+              "Condition": "SEASON Summer",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sondra/summer_sondra.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Sondra/summer_sondra.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            {
+              "Id": "Sondra Fall 1",
+              "Condition": "SEASON Fall",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sondra/fall_sondra.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Sondra/fall_sondra.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            {
+              "Id": "Sondra Winter 1",
+              "Condition": "SEASON Winter",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sondra/winter_sondra.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Sondra/winter_sondra.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            //outfits 2
+            {
+              "Id": "Sondra Spring 2",
+              "Condition": "SEASON Spring",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sondra/spring_sondra1.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Sondra/spring_sondra1.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            {
+              "Id": "Sondra Summer 2",
+              "Condition": "SEASON Summer",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sondra/summer_sondra1.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Sondra/summer_sondra1.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            {
+              "Id": "Sondra Fall 2",
+              "Condition": "SEASON Fall",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sondra/fall_sondra1.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Sondra/fall_sondra1.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            {
+              "Id": "Sondra Winter 2",
+              "Condition": "SEASON Winter",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sondra/winter_sondra1.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Sondra/winter_sondra1.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            //festivals
+            {
+              "Id": "Sondra Egg Festival",
+              "Condition": "IS_EVENT festival_spring13",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sondra/sondra_eggfest.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Sondra/sondra_eggfest.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "Sondra Flower Dance",
+              "Condition": "IS_EVENT festival_spring24",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sondra/sondra_flowerdance.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Sondra/sondra_flowerdance.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "Sondra Luau", //add surfing
+              "Condition": "IS_EVENT festival_summer11", //ANY "IS_EVENT festival_summer4, IS_EVENT festival_summer11
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sondra/sondra_luau.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Sondra/sondra_luau.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            /*{
+             "Id": "Sondra Fireworks Fest", //custom festival
+             "Condition": "IS_EVENT festival_summer20", // ANY "IS_EVENT festival_fall16, IS_EVENT festival_fall20"
+             "Portrait": "{{InternalAssetKey: assets/Portraits/Sondra/sondra_fireworksfestival.png}}",
+             "Sprite": "{{InternalAssetKey: assets/Characters/Sondra/sondra_fireworksfestival.png}}",
+             "IsIslandAttire": false,
+             "Precedence": -100,
+             "Weight": 0
+            },*/
+            {
+              "Id": "Sondra Moonlight Jellies",
+              "Condition": "IS_EVENT festival_summer28",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sondra/sondra_moonlightjellies.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Sondra/sondra_moonlightjellies.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "Sondra SDV Fair", //and RSV Concert Fair thing
+              "Condition": "IS_EVENT festival_fall16", // ANY "IS_EVENT festival_fall16, IS_EVENT festival_fall20"
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sondra/sondra_sdvfair.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Sondra/sondra_sdvfair.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "Sondra Spirit Eve",
+              "Condition": "IS_EVENT festival_fall27, {{Query: {{Year}} % 2 = 1 }}",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sondra/sondra_spiritseve.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Sondra/sondra_spiritseve.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "ID": "Sondra at ES Inn Spirit Eve",
+              "Condition": "LOCATION_NAME Target EastScarp_VillageInn_SpiritEve, SEASON_DAY fall 27, {{Query: {{Year}} % 2 = 1 }}",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sondra/sondra_spiritseve.png}}",
+              "Sprite": "{{InternalAssetKey: assets/CHaracters/Sondra/sondra_spiritseve.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "Sondra Spirit Eve Alt Year",
+              "Condition": "IS_EVENT festival_fall27, {{Query: {{Year}} % 2 = 0 }}",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sondra/sondra_spiritseve1.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Sondra/sondra_spiritseve1.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -125,
+              "Weight": 0
+            },
+            {
+              "ID": "Sondra at ES Inn Spirit Eve Alt Year",
+              "Condition": "LOCATION_NAME Target EastScarp_VillageInn_SpiritEve, SEASON_DAY fall 27, {{Query: {{Year}} % 2 = 0 }}",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sondra/sondra_spiritseve1.png}}",
+              "Sprite": "{{InternalAssetKey: assets/CHaracters/Sondra/sondra_spiritseve1.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -125,
+              "Weight": 0
+            },
+            /*{
+              "Id": "Sondra Festival Of Ice", 
+              "Condition": "IS_EVENT festival_winter8",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sondra/sondra_icefestival.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Sondra/sondra_icefestival.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },*/
+            {
+              "Id": "Sondra Winter Star", //and RSV Ember
+              "Condition": "IS_EVENT festival_winter25", // ANY "IS_EVENT festival_winter25, IS_EVENT festival_winter28"
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Sondra/sondra_winterfeast.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Sondra/sondra_winterfeast.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            }
+          ],
+
+          "SpawnIfMissing": true,
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "MadDog.BearFam.Custom_BearLodge",
+              "Tile": {
+                "X": 7,
+                "Y": 7
+              },
+              "Direction": "Down"
+            }
+          ]
+        },
+
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        //Gunnar Bear, 'Gun'
+
+        "MadDog.HashtagBearFam.Gunnar": {
+          "DisplayName": "{{i18n:GunnarDisplayName}}",
+          "BirthSeason": "Fall",
+          "BirthDay": 19,
+          "HomeRegion": "Town",
+          "Gender": "Male",
+          "Age": "Adult",
+          "Manner": "Neutral",
+          "SocialAnxiety": "Shy",
+          "Optimism": "Negative",
+          "CanBeRomanced": "{{GunnarRelationshipStatus}}",
+          "FlowerDanceCanDance": true,
+          "PerfectionScore": false,
+          "EndSlideShow": "TrailingGroup",
+          "Calendar": "HiddenUntilMet",
+          "SocialTab": "HiddenUntilMet",
+          "CanSocialize": "PLAYER_HAS_MAIL Any BearFamExtraMembers received",
+          "CanCommentOnPurchasedShopItems": false,
+          "CanVisitIsland": true,
+          "WinterStarParticipant": true,
+          "WinterStarGifts": [
+            {
+              "Id": "Gunnar Gifts",
+              "ItemId": null,
+              "RandomItemId": [
+                "(O)80", //quartz
+                "(O)552", //malachite
+                "(O)444" //duck feather
+              ]
+            }
+          ],
+          "IntroductionsQuest": false,
+          "FriendsAndFamily": {
+            "MadDog.HashtagBearFam.Sigurd": "{{i18n:SigBrother}}",
+            "MadDog.HashtagBearFam.Gudrun": "{{i18n:GudrunSister}}",
+            "MadDog.HashtagBearFam.Sondra": "{{i18n:SondraAunt}}",
+            "MadDog.HashtagBearFam.Teren": "{{i18n:TerenFriend}}"
+          },
+          "SpouseRoom": {
+            "MapAsset": "MadDog.Bearfam_SpouseRoom",
+            "MapSourceRect": {
+              "X": 6,
+              "Y": 0,
+              "Width": 6,
+              "Height": 9
+            }
+          },
+          "SpousePatio": {
+            "MapAsset": "MadDog.Bearfam_SpousePatio",
+            "MapSourceRect": {
+              "X": 4,
+              "Y": 0,
+              "Width": 4,
+              "Height": 4
+            },
+            "SpriteAnimationFrames": [
+              [ 16, 1000 ],
+              [ 17, 1000 ],
+              [ 18, 1000 ],
+              [ 19, 1000 ],
+              [ 20, 1000 ],
+              [ 21, 1000 ]
+            ],
+            "SpriteAnimationPixelOffset": {
+              "X": 0,
+              "Y": 0
+            }
+          },
+
+          "SpouseFloors": [
+            "3",
+            "36",
+            "38"
+          ],
+          "SpouseWallpapers": [
+            "47",
+            "21",
+            "85",
+            "54",
+            "78"
+          ],
+
+          "HiddenProfileEmoteSound": null,
+          "HiddenProfileEmoteDuration": 3600,
+          "HiddenProfileEmoteStartFrame": 16,
+          "HiddenProfileEmoteFrameCount": 6,
+          "HiddenProfileEmoteFrameDuration": 600,
+
+          "DumpsterDiveFriendshipEffect": 0,
+          "DumpsterDiveEmote": 28,
+          "SpouseWantsChildren": true,
+          "SpouseGiftJealousy": true,
+          "SpouseGiftJealousyFriendshipChange": 0,
+          "FormerCharacterNames": [ "Gunnar" ],
+          "Appearance": [
+            //outfits 1
+            {
+              "Id": "Gunnar Spring 1",
+              "Condition": "SEASON Spring",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gunnar/spring_gunnar.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gunnar/spring_gunnar.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            {
+              "Id": "Gunnar Summer 1",
+              "Condition": "SEASON Summer",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gunnar/summer_gunnar.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gunnar/summer_gunnar.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            {
+              "Id": "Gunnar Fall 1",
+              "Condition": "SEASON Fall",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gunnar/fall_gunnar.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gunnar/fall_gunnar.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            {
+              "Id": "Gunnar Winter 1",
+              "Condition": "SEASON Winter",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gunnar/winter_gunnar.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gunnar/winter_gunnar.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            //outfits 2
+            {
+              "Id": "Gunnar Spring 2",
+              "Condition": "SEASON Spring",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gunnar/spring_gunnar1.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gunnar/spring_gunnar1.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            {
+              "Id": "Gunnar Summer 2",
+              "Condition": "SEASON Summer",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gunnar/summer_gunnar1.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gunnar/summer_gunnar1.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            {
+              "Id": "Gunnar Fall 2",
+              "Condition": "SEASON Fall",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gunnar/fall_gunnar1.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gunnar/fall_gunnar1.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            {
+              "Id": "Gunnar Winter 2",
+              "Condition": "SEASON Winter",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gunnar/winter_gunnar1.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gunnar/winter_gunnar1.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            //festivals
+            {
+              "Id": "Gunnar Egg Festival",
+              "Condition": "IS_EVENT festival_spring13",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gunnar/gunnar_eggfest.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gunnar/gunnar_eggfest.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "Gunnar Flower Dance",
+              "Condition": "IS_EVENT festival_spring24",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gunnar/gunnar_flowerdance.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gunnar/gunnar_flowerdance.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "Gunnar Luau", //surfing
+              "Condition": "IS_EVENT festival_summer11", //ANY "IS_EVENT festival_summer4, IS_EVENT festival_summer11
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gunnar/gunnar_luau.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gunnar/gunnar_luau.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "Gunnar Fireworks Fest", //custom festival
+              "Condition": "IS_EVENT festival_summer20", // 
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gunnar/gunnar_fireworksfestival.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gunnar/gunnar_fireworksfestival.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "Gunnar Moonlight Jellies",
+              "Condition": "IS_EVENT festival_summer28",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gunnar/gunnar_moonlightjellies.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gunnar/gunnar_moonlightjellies.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "Gunnar SDV Fair", //and RSV Concert Fair thing
+              "Condition": "IS_EVENT festival_fall16", // ANY "IS_EVENT festival_fall16, IS_EVENT festival_fall20"
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gunnar/gunnar_sdvfair.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gunnar/gunnar_sdvfair.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "Gunnar Spirit Eve",
+              "Condition": "IS_EVENT festival_fall27, {{Query: {{Year}} % 2 = 1 }}",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gunnar/gunnar_spiritseve.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gunnar/gunnar_spiritseve.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "ID": "Gunnar at ES Inn Spirit Eve",
+              "Condition": "LOCATION_NAME Target EastScarp_VillageInn_SpiritEve, SEASON_DAY fall 27, {{Query: {{Year}} % 2 = 1 }}",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gunnar/gunnar_spiritseve.png}}",
+              "Sprite": "{{InternalAssetKey: assets/CHaracters/Gunnar/gunnar_spiritseve.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "Gunnar Spirit Eve Alt Year",
+              "Condition": "IS_EVENT festival_fall27, {{Query: {{Year}} % 2 = 0 }}",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gunnar/gunnar_spiritseve1.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gunnar/gunnar_spiritseve1.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -125,
+              "Weight": 0
+            },
+            {
+              "ID": "Gunnar at ES Inn Spirit Eve Alt Year",
+              "Condition": "LOCATION_NAME Target EastScarp_VillageInn_SpiritEve, SEASON_DAY fall 27, {{Query: {{Year}} % 2 = 0 }}",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gunnar/gunnar_spiritseve1.png}}",
+              "Sprite": "{{InternalAssetKey: assets/CHaracters/Gunnar/gunnar_spiritseve1.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -125,
+              "Weight": 0
+            },
+            {
+              "Id": "Gunnar Festival Of Ice",
+              "Condition": "IS_EVENT festival_winter8",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gunnar/gunnar_icefestival.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gunnar/gunnar_icefestival.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "Gunnar Winter Star", //and RSV Ember
+              "Condition": "IS_EVENT festival_winter25", // ANY "IS_EVENT festival_winter25, IS_EVENT festival_winter28"
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gunnar/gunnar_winterfeast.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gunnar/gunnar_winterfeast.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            //special
+            {
+              "ID": "Gunnar Armor",
+              "Condition": "Any \"LOCATION_NAME Target Mine\" \"LOCATION_NAME Target AdventureGuild\" \"IS_EVENT MadDog.BearFam.16193005\" \"IS_EVENT MadDog.BearFam.16193008\" \"IS_EVENT MadDog.BearFam.16193009\" \"IS_EVENT MadDog.BearFam.16191005\" \"IS_EVENT MadDog.BearFam.16193011\"",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gunnar/gunnar_armored.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gunnar/gunnar_armored.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -250,
+              "Weight": 1
+            },
+            {
+              "ID": "Gunnar Armor",
+              "Condition": "Any \"LOCATION_NAME Target Mine\" \"LOCATION_NAME Target AdventureGuild\" \"IS_EVENT MadDog.BearFam.16193005\" \"IS_EVENT MadDog.BearFam.16193008\" \"IS_EVENT MadDog.BearFam.16193009\" \"IS_EVENT MadDog.BearFam.16191005\" \"IS_EVENT MadDog.BearFam.16193011\"",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gunnar/gunnar_armored1.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gunnar/gunnar_armored1.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -250,
+              "Weight": 1
+            }
+          ],
+
+          "SpawnIfMissing": true,
+          "Home": [
+            {
+              "Id": "Gunnar Arrives",
+              "Location": "MadDog.BearFam.Custom_BearLodge",
+              "Tile": {
+                "X": "53",
+                "Y": "7"
+              },
+              "Direction": "Down",
+              "Condition": "PLAYER_HAS_MAIL Any BearFamExtraMembers received"
+            },
+            {
+              "Id": "Default",
+              "Location": "MadDog.BearFam.Custom_BearFamLoadingZone",
+              "Tile": {
+                "X": "2",
+                "Y": "5"
+              },
+              "Direction": "Down"
+            }
+          ]
+        },
+
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        //Gudrun Bear
+
+        "MadDog.HashtagBearFam.Gudrun": {
+          "DisplayName": "{{i18n:GudrunDisplayName}}",
+          "BirthSeason": "Winter",
+          "BirthDay": 24,
+          "HomeRegion": "Town",
+          "Gender": "Female",
+          "Age": "Teen",
+          "Manner": "Polite",
+          "SocialAnxiety": "Outgoing",
+          "Optimism": "Positive",
+          "CanBeRomanced": false,
+          "FlowerDanceCanDance": false,
+          "PerfectionScore": false,
+          "EndSlideShow": "TrailingGroup",
+          "Calendar": "HiddenUntilMet",
+          "SocialTab": "HiddenUntilMet",
+          "CanSocialize": "PLAYER_HAS_MAIL Any BearFamExtraMembers received",
+          "CanCommentOnPurchasedShopItems": false,
+          "CanVisitIsland": true,
+          "WinterStarParticipant": true,
+          "WinterStarGifts": [
+            {
+              "Id": "Gudrun Gifts",
+              "ItemId": null,
+              "RandomItemId": [
+                "(O)253", //triple shot
+                "(O)394", //rainbow shell
+                "(O)392" //nautilus shell
+              ]
+            }
+          ],
+          "IntroductionsQuest": false,
+          "FriendsAndFamily": {
+            "MadDog.HashtagBearFam.Sigurd": "{{i18n:SigBrother}}",
+            "MadDog.HashtagBearFam.Gunnar": "{{i18n:GunnarBrother}}",
+            "MadDog.HashtagBearFam.Sondra": "{{i18n:SondraAunt}}",
+            "MadDog.HashtagBearFam.Teren": "{{i18n:TerenFriend}}"
+          },
+          "DumpsterDiveFriendshipEffect": 10,
+          "DumpsterDiveEmote": 32,
+          "FormerCharacterNames": [ "Gudrun" ],
+          "Appearance": [
+            //oufits 1
+            {
+              "Id": "Gudrun Spring 1",
+              "Condition": "SEASON Spring",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gudrun/spring_gudrun.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gudrun/spring_gudrun.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            {
+              "Id": "Gudrun Summer 1",
+              "Condition": "SEASON Summer",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gudrun/summer_gudrun.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gudrun/summer_gudrun.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            {
+              "Id": "Gudrun Fall 1",
+              "Condition": "SEASON Fall",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gudrun/fall_gudrun.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gudrun/fall_gudrun.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            {
+              "Id": "Gudrun Winter 1",
+              "Condition": "SEASON Winter",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gudrun/winter_gudrun.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gudrun/winter_gudrun.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            //outfits 2
+            {
+              "Id": "Gudrun Spring 2",
+              "Condition": "SEASON Spring",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gudrun/spring_gudrun1.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gudrun/spring_gudrun1.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            {
+              "Id": "Gudrun Summer 2",
+              "Condition": "SEASON Summer",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gudrun/summer_gudrun1.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gudrun/summer_gudrun1.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            {
+              "Id": "Gudrun Fall 2",
+              "Condition": "SEASON Fall",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gudrun/fall_gudrun1.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gudrun/fall_gudrun1.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            {
+              "Id": "Gudrun Winter 2",
+              "Condition": "SEASON Winter",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gudrun/winter_gudrun1.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gudrun/winter_gudrun1.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            //festivals
+            {
+              "Id": "Gudrun Egg Festival",
+              "Condition": "IS_EVENT festival_spring13",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gudrun/gudrun_eggfest.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gudrun/gudrun_eggfest.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "Gudrun Flower Dance",
+              "Condition": "IS_EVENT festival_spring24",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gudrun/gudrun_flowerdance.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gudrun/gudrun_flowerdance.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "Gudrun Luau", //and surfing
+              "Condition": "IS_EVENT festival_summer11", //ANY "IS_EVENT festival_summer4, IS_EVENT festival_summer11
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gudrun/gudrun_luau.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gudrun/gudrun_luau.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "Gudrun Fireworks Fest", //custom festival
+              "Condition": "IS_EVENT festival_summer20", // 
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gudrun/gudrun_luau.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gudrun/gudrun_luau.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+
+            {
+              "Id": "Gudrun Moonlight Jellies",
+              "Condition": "IS_EVENT festival_summer28",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gudrun/gudrun_moonlightjellies.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gudrun/gudrun_moonlightjellies.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "Gudrun SDV Fair", //and RSV Concert Fair thing
+              "Condition": "IS_EVENT festival_fall16", // ANY "IS_EVENT festival_fall16, IS_EVENT festival_fall20"
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gudrun/gudrun_sdvfair.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gudrun/gudrun_sdvfair.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "Gudrun Spirit Eve",
+              "Condition": "IS_EVENT festival_fall27, {{Query: {{Year}} % 2 = 1 }}",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gudrun/gudrun_spiritseve.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gudrun/gudrun_spiritseve.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "ID": "Gudrun at ES Inn Spirit Eve",
+              "Condition": "LOCATION_NAME Target EastScarp_VillageInn_SpiritEve, SEASON_DAY fall 27, {{Query: {{Year}} % 2 = 1 }}",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gudrun/gudrun_spiritseve.png}}",
+              "Sprite": "{{InternalAssetKey: assets/CHaracters/Gudrun/gudrun_spiritseve.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "Gudrun Spirit Eve Alt Year",
+              "Condition": "IS_EVENT festival_fall27, {{Query: {{Year}} % 2 = 0 }}",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gudrun/gudrun_spiritseve1.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gudrun/gudrun_spiritseve1.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -125,
+              "Weight": 0
+            },
+            {
+              "ID": "Gudrun at ES Inn Spirit Eve Alt Year",
+              "Condition": "LOCATION_NAME Target EastScarp_VillageInn_SpiritEve, SEASON_DAY fall 27, {{Query: {{Year}} % 2 = 0 }}",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gudrun/gudrun_spiritseve1.png}}",
+              "Sprite": "{{InternalAssetKey: assets/CHaracters/Gudrun/gudrun_spiritseve1.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -125,
+              "Weight": 0
+            },
+            /*{
+              "Id": "Gudrun Festival Of Ice",
+              "Condition": "IS_EVENT festival_winter8",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gudrun/gudrun_icefestival.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gudrun/gudrun_icefestival.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },*/
+            {
+              "Id": "Gudrun Winter Star", //and RSV Ember
+              "Condition": "IS_EVENT festival_winter25", // ANY "IS_EVENT festival_winter25, IS_EVENT festival_winter28"
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Gudrun/gudrun_winterfeast.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Gudrun/gudrun_winterfeast.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            }
+          ],
+
+          "SpawnIfMissing": true,
+          "Home": [
+            {
+              "Id": "Gudrun Arrives",
+              "Location": "MadDog.BearFam.Custom_BearLodge",
+              "Tile": {
+                "X": "35",
+                "Y": "7"
+              },
+              "Direction": "Down",
+              "Condition": "PLAYER_HAS_MAIL Any BearFamExtraMembers received"
+            },
+            {
+              "Id": "Default",
+              "Location": "MadDog.BearFam.Custom_BearFamLoadingZone",
+              "Tile": {
+                "X": "5",
+                "Y": "4"
+              },
+              "Direction": "Down"
+            }
+          ]
+        },
+
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        //Teren Barnes, 'Tere'
+
+        "MadDog.HashtagBearFam.Teren": {
+          "DisplayName": "{{i18n:TerenDisplayName}}",
+          "BirthSeason": "Spring",
+          "BirthDay": 28,
+          "HomeRegion": "Town",
+          "Gender": "Male",
+          "Age": "Adult",
+          "Manner": "Polite",
+          "SocialAnxiety": "Outgoing",
+          "Optimism": "Positive",
+          "CanBeRomanced": "{{TerenRelationshipStatus}}",
+          "FlowerDanceCanDance": true,
+          "PerfectionScore": false,
+          "EndSlideShow": "TrailingGroup",
+          "LoveInterest": "Nova.Eli",
+          "Calendar": "HiddenUntilMet",
+          "SocialTab": "HiddenUntilMet",
+          "CanSocialize": "PLAYER_HAS_MAIL Any TerenMysteryMail received",
+          "CanCommentOnPurchasedShopItems": false,
+          "CanVisitIsland": true,
+          "WinterStarParticipant": true,
+          "WinterStarGifts": [
+            {
+              "Id": "Teren Gifts",
+              "ItemId": null,
+              "RandomItemId": [
+                "(O)346", //beer
+                "(O)206", //pizza
+                "(O)240" //farmer's lunch
+              ]
+            }
+          ],
+          "IntroductionsQuest": false,
+          "FriendsAndFamily": {
+            "MadDog.HashtagBearFam.Sigurd": "{{i18n:SigFriend}}",
+            "MadDog.HashtagBearFam.Gunnar": "{{i18n:GunFriend}}",
+            "MadDog.HashtagBearFam.Sondra": "{{i18n:SondraAunt}}",
+            "MadDog.HashtagBearFam.Gudrun": "{{i18n:GudrunFriend}}"
+          },
+          "SpouseRoom": {
+            "MapAsset": "MadDog.Bearfam_SpouseRoom",
+            "MapSourceRect": {
+              "X": 12,
+              "Y": 0,
+              "Width": 6,
+              "Height": 9
+            }
+          },
+          "SpousePatio": {
+            "MapAsset": "MadDog.Bearfam_SpousePatio",
+            "MapSourceRect": {
+              "X": 8,
+              "Y": 0,
+              "Width": 4,
+              "Height": 4
+            },
+            "SpriteAnimationFrames": [
+              [ 16, 1000 ],
+              [ 17, 1000 ],
+              [ 18, 1000 ],
+              [ 19, 1000 ]
+            ],
+            "SpriteAnimationPixelOffset": {
+              "X": 0,
+              "Y": 0
+            }
+          },
+
+          "SpouseFloors": [
+            "2",
+            "28",
+            "34"
+          ],
+          "SpouseWallpapers": [
+            "105",
+            "92",
+            "37",
+            "43",
+            "95"
+          ],
+
+          "HiddenProfileEmoteSound": null,
+          "HiddenProfileEmoteDuration": 4000,
+          "HiddenProfileEmoteStartFrame": 16,
+          "HiddenProfileEmoteFrameCount": 4,
+          "HiddenProfileEmoteFrameDuration": 500,
+
+          "DumpsterDiveFriendshipEffect": 0,
+          "DumpsterDiveEmote": 40,
+          "SpouseWantsChildren": false,
+          "SpouseGiftJealousy": true,
+          "SpouseGiftJealousyFriendshipChange": 0,
+          "FormerCharacterNames": [ "Teren" ],
+          "Appearance": [
+            //oufits 1
+            {
+              "Id": "Teren Spring 1",
+              "Condition": "SEASON Spring",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Teren/spring_teren.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Teren/spring_teren.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            {
+              "Id": "Teren Summer 1",
+              "Condition": "SEASON Summer",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Teren/summer_teren.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Teren/summer_teren.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            {
+              "Id": "Teren Fall 1",
+              "Condition": "SEASON Fall",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Teren/fall_teren.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Teren/fall_teren.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            {
+              "Id": "Teren Winter 1",
+              "Condition": "SEASON Winter",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Teren/winter_teren.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Teren/winter_teren.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            //outfits 2
+            {
+              "Id": "Teren Spring 2",
+              "Condition": "SEASON Spring",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Teren/spring_teren1.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Teren/spring_teren1.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            {
+              "Id": "Teren Summer 2",
+              "Condition": "SEASON Summer",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Teren/summer_teren1.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Teren/summer_teren1.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            {
+              "Id": "Teren Fall 2",
+              "Condition": "SEASON Fall",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Teren/fall_teren1.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Teren/fall_teren1.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            {
+              "Id": "Teren Winter 2",
+              "Condition": "SEASON Winter",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Teren/winter_teren1.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Teren/winter_teren1.png}}",
+              "IsIslandAttire": false,
+              "Precedence": 0,
+              "Weight": 1
+            },
+            //festivals
+            {
+              "Id": "Teren Egg Festival",
+              "Condition": "IS_EVENT festival_spring13",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Teren/teren_eggfest.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Teren/teren_eggfest.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "Teren Flower Dance",
+              "Condition": "IS_EVENT festival_spring24",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Teren/teren_flowerdance.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Teren/teren_flowerdance.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "Teren Luau", //no luau but surfing
+              "Condition": "IS_EVENT festival_summer11", //ANY "IS_EVENT festival_summer4, IS_EVENT festival_summer11
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Teren/teren_luau.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Teren/teren_luau.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            /*{
+              "Id": "Teren Fireworks Fest", //custom festival
+              "Condition": "IS_EVENT festival_summer20", // 
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Teren/teren_fireworksfestival.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Teren/teren_fireworksfestival.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },*/
+
+            {
+              "Id": "Teren Moonlight Jellies",
+              "Condition": "IS_EVENT festival_summer28",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Teren/teren_moonlightjellies.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Teren/teren_moonlightjellies.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "Teren SDV Fair", //and RSV Concert Fair thing
+              "Condition": "IS_EVENT festival_fall16", // ANY "IS_EVENT festival_fall16, IS_EVENT festival_fall20"
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Teren/teren_sdvfair.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Teren/teren_sdvfair.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "Teren Spirit Eve",
+              "Condition": "IS_EVENT festival_fall27, {{Query: {{Year}} % 2 = 1 }}",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Teren/teren_spiritseve.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Teren/teren_spiritseve.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "ID": "Teren at ES Inn Spirit Eve",
+              "Condition": "LOCATION_NAME Target EastScarp_VillageInn_SpiritEve, SEASON_DAY fall 27, {{Query: {{Year}} % 2 = 1 }}",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Teren/teren_spiritseve.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Teren/teren_spiritseve.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "Teren Spirit Eve Alt Year",
+              "Condition": "IS_EVENT festival_fall27, {{Query: {{Year}} % 2 = 0 }}",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Teren/teren_spiritseve1.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Teren/teren_spiritseve1.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -125,
+              "Weight": 0
+            },
+            {
+              "ID": "Teren at ES Inn Spirit Eve Alt Year",
+              "Condition": "LOCATION_NAME Target EastScarp_VillageInn_SpiritEve, SEASON_DAY fall 27, {{Query: {{Year}} % 2 = 0 }}",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Teren/teren_spiritseve1.png}}",
+              "Sprite": "{{InternalAssetKey: assets/CHaracters/Teren/teren_spiritseve1.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -125,
+              "Weight": 0
+            },
+            {
+              "Id": "Teren Festival Of Ice",
+              "Condition": "IS_EVENT festival_winter8",
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Teren/teren_icefestival.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Teren/teren_icefestival.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "Teren Winter Star", //and RSV Ember
+              "Condition": "IS_EVENT festival_winter25", // ANY "IS_EVENT festival_winter25, IS_EVENT festival_winter28"
+              "Portrait": "{{InternalAssetKey: assets/Portraits/Teren/teren_winterfeast.png}}",
+              "Sprite": "{{InternalAssetKey: assets/Characters/Teren/teren_winterfeast.png}}",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            }
+          ],
+
+          "SpawnIfMissing": true,
+          "Home": [
+            {
+              "Id": "Teren Arrives",
+              "Location": "MadDog.BearFam.Custom_BearLodge",
+              "Tile": {
+                "X": "45",
+                "Y": "26"
+              },
+              "Direction": "Down",
+              "Condition": "PLAYER_HAS_SEEN_EVENT Any MadDog.BearFam.16199000"
+            },
+            {
+              "Id": "Default",
+              "Location": "MadDog.BearFam.Custom_BearFamLoadingZone",
+              "Tile": {
+                "X": "6",
+                "Y": "6"
+              },
+              "Direction": "Down"
+            }
+          ]
+        }
+      }
+    },
+
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    
+    //Gift Tastes
+
+    {
+      "LogName": "Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "MadDog.HashtagBearFam.Sigurd": "{{i18n:GiftsSigGiftReactionLove}}/70 74 106 167 459 223 233 276 340 346 612 636 797 787 417 260 226 215 304 MadDog.HashtagBearfam.BrazierSecretAlfredo MadDog.HashtagBearfam.SondraAutumnCookie MadDog.HashtagBearfam.SigurdPerfectRamen MadDog.HashtagBearfam.PeachJoja MadDog.HashtagBearfam.PumpkinJoja MadDog.HashtagBearfam.FerskenPeach MadDog.HashtagBearfam.FerskenPeachCobbler MadDog.HashtagBearfam.SlicedPeaches MadDog.HashtagBearfam.HoneyWheatBread MadDog.HashtagBearfam.RoseCupcakes MadDog.HashtagBearfam.TTBrownies MadDog.HashtagBearfam.FerskenPeach_Mead MadDog.HashtagBearfam.FerskenPeach_Mead_Tankard MadDog.HashtagBearfam.FerskenPeach_Honey MadDog.HashtagBearfam.HoneyCakes WWWA.GenuineAutograph WWWA.Book.TheBookOfYoba sapphicsaph_pitv.PridePop sapphicsaph_pitv.GaylacticCookie Cornucopia_BellPepper Cornucopia_Habanero Cornucopia_Jalapeno Cornucopia_JuniperBerries Cornucopia_DarkAle Cornucopia_Porter Cornucopia_SparklingWine Cornucopia_Stout Cornucopia_BeeBalm Cornucopia_Freesia Cornucopia_Honeysuckle Cornucopia_Hydrangea Cornucopia_ChiliPowder Cornucopia_PeachSchnapps Cornucopia_Kefir Cornucopia_Kumis Cornucopia_Lassi Cornucopia_Porter Cornucopia_Sake Cornucopia_PrismaticWine Cornucopia_RoastedGarlic Cornucopia_RoastedSunflowerSeeds Cornucopia_SpicyMayonnaise Cornucopia_ChiliOil Cornucopia_FruitSoap Cornucopia_HabaneroExtract Cornucopia_JalapenoExtract Cornucopia_Bitter Cornucopia_Bourbon Cornucopia_Brandy Cornucopia_Campari Cornucopia_Cointreau Cornucopia_Frangelico Cornucopia_Moonshine Cornucopia_Vermouth Cornucopia_Vodka Cornucopia_Whiskey Cornucopia_Cauim Cornucopia_FramboiseLambic Cornucopia_Perry Cornucopia_Pulque Cornucopia_Umeshu Cornucopia_BlueberrySorbet Cornucopia_PineappleSorbet Cornucopia_HoneyLavenderIceCream Cornucopia_Amaretto Cornucopia_Chambord Cornucopia_CremedeCacao Cornucopia_Gin Cornucopia_Mezcal Cornucopia_Rum Cornucopia_Scotch Cornucopia_Shochu Cornucopia_Tequila Cornucopia_MintSchnapps Cornucopia_Absinthe Cornucopia_HardAppleCider Cornucopia_Schnapps Cornucopia_AppleSchnapps Cornucopia_MintSchnapps DN.SnS_salishburbon DN.SnS_zuzustylepizza DN.SnS_zuzustylebagelwithlox DN.SnS_zuzustylecheesecake Lumisteria.MtVapius_Fan_GreenFan Lumisteria.MtVapius_Fan_PinkFan Lumisteria.MtVapius_Fan_ClassicFan Lumisteria.MtVapius_Fan_GooseFan Lumisteria.MtVapius_Tourmaline_Polished Lumisteria.MtVapius_Tourmaline Lumisteria.MtVapius_Treasures_DahuStatuette Lumisteria.MtVapius_StarShapedFlower Lumisteria.MtVapius_ArtisanGoods_MyriadinTea Lumisteria.MtVapius_Cooking_JamPie Lumisteria.MtVapius_Cooking_FishCurry Lumisteria.MtVapius_Candy_HoneyDrop TenebrousNova.EnD.DragonEye DTZ.DowntownZuzuCP_BigBurger DTZ.DowntownZuzuCP_ChocolateSlice DTZ.DowntownZuzuCP_LemonDrizzleCheesecake DTZ.DowntownZuzuCP_MozzarellaSlice DTZ.DowntownZuzuCP_ZuzuIceCream DTZ.DowntownZuzuCP_ZuzuMilkshake DTZ.DowntownZuzuCP_Cider DTZ.DowntownZuzuCP_ZuzuSignatureCocktail DTZ.DowntownZuzuCP_IceDelight DTZ.DowntownZuzuCP_JojaCocktail DTZ.DowntownZuzuCP_StrawberryDaiquiri DTZ.DowntownZuzuCP_ZuzuChampagne DTZ.DowntownZuzuCP_JojaFries DTZ.DowntownZuzuCP_JojaSoda Suushiico.PeachyKeenRecipes_Peach_Pie yourdorkbrains_ConiferInfusedVodka/{{i18n:GiftsSigGiftReactionLike}}/149 344 -26 -6 -7 -79 MadDog.HashtagBearfam.SondraSpringtimeShortbread MadDog.HashtagBearfam.SondraWinterBar MadDog.HashtagBearfam.SondraSummerCake MadDog.HashtagBearfam.TriangleGrilledCheese MadDog.HashtagBearfam.SesameBrownBread MadDog.HashtagBearfam.BananaBread WWWA.Book.DeferenceArlington WWWA.Book.FishingForDumbDumbs WWWA.Book.MysteriesOfTheDwarves WWWA.Book.TheTarotRevealed WWWA.Book.Goblins WWWA.Book.ArtifactOrCutlery WWWA.Book.TheGreatBookOfSlimes WWWA.Book.HerpetologyOfFerngill Cornucopia_Beeswax Cornucopia_Salt Cornucopia_TeaSoap Cornucopia_HerbalSoap sapphicsaph_pitv.BiBerryMuffin sapphicsaph_pitv.LesbianLollipop sapphicsaph_pitv.EnbyEclair sapphicsaph_pitv.TastyAceCookie sapphicsaph_pitv.ARomanticCookie sapphicsaph_pitv.TransTart Fellowclown.AND_HotCereal Fellowclown.AND_GemBirdPatties Fellowclown.AND_FrostedCake Fellowclown.AND_CheesyWhiteRisotto Fellowclown.AND_TastyPastry Fellowclown.ClownCore_FrenchDodoEgg EastScarp_Rosas_Baklava DN.SnS_mushroomsredsauce DN.SnS_autumnalstew DN.SnS_dandeliongreens DN.SnS_ferngreensandpineapple DN.SnS_ancienthuckleberryicecream DN.SnS_lavaeelandstirfriedancientbottlegourd DN.SnS_zuzustyleclamchowder DTZ.DowntownZuzuCP_BLT DTZ.DowntownZuzuCP_ChickenDrumstick DTZ.DowntownZuzuCP_DowntownDog DTZ.DowntownZuzuCP_GranaryStack DTZ.DowntownZuzuCP_SpanishLime DTZ.DowntownZuzuCP_Jackfruit DTZ.DowntownZuzuCP_Araza DTZ.DowntownZuzuCP_Ackee DTZ.DowntownZuzuCP_Cherimoya candycreation_hotpepper/{{i18n:GiftsSigGiftReactionDislike}}/117 -5 -80 WWWA.Book.TheGreatTomeOfMayo Cornucopia_Chamomile Cornucopia_HotWhiskeyCoffee Cornucopia_FloralSoap Cornucopia_WaxMelts Cornucopia_NuttySoap Cornucopia_Candles Fellowclown.AND_VoidJuice Fellowclown.AND_GemBirdMeat/{{i18n:GiftsSigGiftReactionHate}}/109 120 -20 -28 WWWA.Book.TheJojaConspiracy Cornucopia_CaffeLatte Cornucopia_CaffePelicano Cornucopia_Cappuccino Cornucopia_Macchiato Cornucopia_MapleMacchiato Cornucopia_PumpkinSpiceLatte Cornucopia_ToastedCoconutMocha Cornucopia_CoffeeLiqueur Cornucopia_CaffeMocha Cornucopia_Affogato Cornucopia_VanillaLatte Cornucopia_PeppermintMocha Cornucopia_SaltedCaramelMocha Lumisteria.MtVapius_Treasures_FossilisedMoth TenebrousNova.EnD.MandrakeRoot/{{i18n:GiftsSigGiftReactionNeutral}}/-81 -75 -2 -4 -12 -27 MadDog.HashtagBearfam.GudrunPerfectRamen MadDog.HashtagBearfam.GunnarPerfectRamen MadDog.HashtagBearfam.SondraPerfectRamen MadDog.HashtagBearfam.GunnarBadPotion MadDog.HashtagBearfam.GunnarFirstPotion MadDog.HashtagBearfam.GunnarMysteryPotion MadDog.HashtagBearfam.GunnarSecondPotion MadDog.HashtagBearfam.GunnarWeirdPotion MadDog.HashtagBearfam.GunnarThirdPotion MadDog.HashtagBearfam.GunnarPerfectPotion MadDog.HashtagBearfam.GunnarPhoenixDown MadDog.HashtagBearfam.GunnarRemedyAll MadDog.HashtagBearfam.NineHerbsCharm WWWA.AutographedPhoto Book_Friendship SkillBook_4 Book_Void Book_Marlon Book_Defense Book_Grass WWWA.Book.WhyPepperRexesAreTheBest WWWA.Book.ArcanaCatcherPrunus WWWA.Book.CrabsAndWhyIHateThem WWWA.Book.GettingChicksToLoveYou WWWA.Book.PepperRexes WWWA.Book.GuideToSculptingWithGold WWWA.Book.LunarkinTrollTales MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab TenebrousNova.EnD.LambentHyphafin TenebrousNova.EnD.Junimeel MadDog.HashtagBearfam.KingoftheForest_Whiskey Fellowclown.ClownCore_IficusFish Fellowclown.ClownCore_BoneyHeadedGraveFish Fellowclown.ClownCore_SpeedFruit EastScarp_Toast MysteriesOfTheDwarves TenebrousNova.EnD.SanguineHeart TenebrousNova.EnD.BeholderFruit TenebrousNova.EnD.Marimo TenebrousNova.EnD.FrogspawnCoral TenebrousNova.EnD.TorchCoral TenebrousNova.EnD.DuncanCoral TenebrousNova.EnD.Trachyphyllia TenebrousNova.EnD.Scolymia TenebrousNova.EnD.AcanCoral TenebrousNova.EnD.ToadstoolCoral TenebrousNova.EnD.CandyCaneCoral TenebrousNova.EnD.AcroporaCoral TenebrousNova.EnD.EleganceCoral TenebrousNova.EnD.Gorgonian TenebrousNova.EnD.CrystallineLily TenebrousNova.EnD.PixieBloom TenebrousNova.EnD.Bluffshroom 7thAxis.DitR.CP.Items.VoidLavaSnailMayonnaise 7thAxis.DitR.CP.Items.VoidLavaSnailEgg 7thAxis.DitR.CP.Items.VoidLavaSnail 7thAxis.DitR.CP.Items.ValleyLily 7thAxis.DitR.CP.Items.GoldenValleyLily 7thAxis.DitR.CP.Items.SensCrocus DTZ.DowntownZuzuCP_SapphireStarfish DTZ.DowntownZuzuCP_ZuzuCarp DTZ.DowntownZuzuCP_Angelfish DTZ.DowntownZuzuCP_Clownfish DTZ.DowntownZuzuCP_FireJellyfish DTZ.DowntownZuzuCP_MarineDragon DTZ.DowntownZuzuCP_MarineGold DTZ.DowntownZuzuCP_VampireSquid DTZ.DowntownZuzuCP_QiCrystal DTZ.DowntownZuzuCP_SerpentFragment DTZ.DowntownZuzuCP_Earth'sEssence DTZ.DowntownZuzuCP_LotusCrystal DTZ.DowntownZuzuCP_Moonstone DTZ.DowntownZuzuCP_Stargazer'sOre DTZ.DowntownZuzuCP_SunsetFragment/",
+
+        "MadDog.HashtagBearFam.Gunnar": "{{i18n:GiftsGunnarGiftReactionLove}}/-4 -22 62 109 459 167 279 344 349 557 684 685 732 121 874 260 226 215 276 421 838 799 MadDog.HashtagBearfam.BrazierSecretAlfredo MadDog.HashtagBearfam.SondraWinterBar MadDog.HashtagBearfam.GunnarPerfectRamen MadDog.HashtagBearfam.PeachJoja MadDog.HashtagBearfam.PumpkinJoja MadDog.HashtagBearfam.FerskenPeachCobbler MadDog.HashtagBearfam.BananaBread MadDog.HashtagBearfam.FerskenPeach_Mead MadDog.HashtagBearfam.FerskenPeach_Mead_Tankard MadDog.HashtagBearfam.HoneyCakes WWWA.GenuineAutograph WWWA.Book.FishingForDumbDumbs WWWA.Book.HerpetologyOfFerngill MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab TenebrousNova.EnD.LambentHyphafin TenebrousNova.EnD.Junimeel TenebrousNova.EnD.Marimo TenebrousNova.EnD.FrogspawnCoral TenebrousNova.EnD.TorchCoral TenebrousNova.EnD.DuncanCoral TenebrousNova.EnD.Trachyphyllia TenebrousNova.EnD.Scolymia TenebrousNova.EnD.AcanCoral TenebrousNova.EnD.ToadstoolCoral TenebrousNova.EnD.CandyCaneCoral TenebrousNova.EnD.AcroporaCoral TenebrousNova.EnD.EleganceCoral TenebrousNova.EnD.Gorgonian sapphicsaph_pitv.PridePop sapphicsaph_pitv.BiBerryMuffin Cornucopia_JuniperBerries Cornucopia_CottonBoll Cornucopia_Agave Cornucopia_BlueAgave Cornucopia_CanolaFlower Cornucopia_Elderberries Cornucopia_Ginseng, Cornucopia_Peppercorn Cornucopia_Vanilla Cornucopia_Aloe Cornucopia_BayLeaves Cornucopia_Catnip Cornucopia_Chives Cornucopia_Cilantro Cornucopia_CuminSeeds Cornucopia_Dill Cornucopia_Fennel Cornucopia_Fenugreek Cornucopia_Lemongrass Cornucopia_LicoriceRoot Cornucopia_Marjoram Cornucopia_Mint Cornucopia_Oregano Cornucopia_Parsley Cornucopia_PerillaLeaves Cornucopia_Rosemary Cornucopia_Sage Cornucopia_Tarragon Cornucopia_Thyme Cornucopia_Turmeric Cornucopia_Wormwood Cornucopia_CocoaPod Cornucopia_CamphorLeaves Cornucopia_CinnamonSticks Cornucopia_EucalyptusLeaves Cornucopia_MelaleucaLeaves Cornucopia_Nutmeg Cornucopia_DarkAle Cornucopia_Porter Cornucopia_SparklingWine Cornucopia_Stout Cornucopia_Chamomile Cornucopia_Daisy Cornucopia_Lavender Cornucopia_Wolfsbane Cornucopia_Jasmine Cornucopia_YlangYlang Cornucopia_Wisteria Cornucopia_SunflowerButter Cornucopia_DriedFlower Cornucopia_Beeswax Cornucopia_Kefir Cornucopia_Kumis Cornucopia_Lassi Cornucopia_Porter Cornucopia_Sake Cornucopia_CopperThread Cornucopia_GoldThread Cornucopia_IridiumThread Cornucopia_SilveryThread Cornucopia_Twine Cornucopia_PrismaticWine Cornucopia_SpicyMayonnaise Cornucopia_ChiliOil Cornucopia_FishOil Cornucopia_SesameOil Cornucopia_HabaneroExtract Cornucopia_JalapenoExtract Cornucopia_Bitter Cornucopia_Bourbon Cornucopia_Brandy Cornucopia_Campari Cornucopia_Cointreau Cornucopia_Frangelico Cornucopia_Moonshine Cornucopia_Vermouth Cornucopia_Vodka Cornucopia_Whiskey Cornucopia_Cauim Cornucopia_FramboiseLambic Cornucopia_Perry Cornucopia_Pulque Cornucopia_Umeshu Cornucopia_NuttySoap Cornucopia_OrangeSorbet Cornucopia_GroundTurmeric Cornucopia_GroundNutmeg Cornucopia_GroundCumin Cornucopia_GroundHerb Cornucopia_BlueMoonIceCream Cornucopia_Amaretto Cornucopia_Chambord Cornucopia_CremedeCacao Cornucopia_Gin Cornucopia_Mezcal Cornucopia_Rum Cornucopia_Scotch Cornucopia_Shochu Cornucopia_Tequila Cornucopia_MintSchnapps Cornucopia_Absinthe Cornucopia_HardAppleCider Cornucopia_Schnapps Cornucopia_AppleSchnapps Cornucopia_MintSchnapps Cornucopia_PeachSchnapps DN.SnS_salishburbon DN.SnS_zuzustylepizza DN.SnS_zuzustylebagelwithlox DN.SnS_zuzustylecheesecake Lumisteria.MtVapius_BlueAgathe_Polished Lumisteria.MtVapius_BlueAgathe Lumisteria.MtVapius_Treasures_GiantTusk Lumisteria.MtVapius_Treasures_OldMinerLamp Lumisteria.MtVapius_Treasures_OldShield Lumisteria.MtVapius_GalaxyFruit Lumisteria.MtVapius_Basil Lumisteria.MtVapius_GoblinGentian Lumisteria.MtVapius_BlackChanterelle Lumisteria.MtVapius_Porchini Lumisteria.MtVapius_BirchSap Lumisteria.MtVapius_WoodgoatMushroom Lumisteria.MtVapius_ArtisanGoods_VoidOliveOil Lumisteria.MtVapius_Cooking_FishCurry TenebrousNova.EnD.SanguineHeart TenebrousNova.EnD.DragonEye DTZ.DowntownZuzuCP_BigBurger DTZ.DowntownZuzuCP_ChickenDrumstick DTZ.DowntownZuzuCP_MozzarellaSlice DTZ.DowntownZuzuCP_Cider DTZ.DowntownZuzuCP_ZuzuSignatureCocktail DTZ.DowntownZuzuCP_JojaCocktail DTZ.DowntownZuzuCP_StrawberryDaiquiri DTZ.DowntownZuzuCP_ZuzuChampagne DTZ.DowntownZuzuCP_JojaFries DTZ.DowntownZuzuCP_JojaSoda DTZ.DowntownZuzuCP_SapphireStarfish DTZ.DowntownZuzuCP_ZuzuCarp DTZ.DowntownZuzuCP_Angelfish DTZ.DowntownZuzuCP_Clownfish DTZ.DowntownZuzuCP_FireJellyfish DTZ.DowntownZuzuCP_MarineDragon DTZ.DowntownZuzuCP_MarineGold DTZ.DowntownZuzuCP_VampireSquid DTZ.DowntownZuzuCP_QiCrystal DTZ.DowntownZuzuCP_SerpentFragment DTZ.DowntownZuzuCP_Earth'sEssence DTZ.DowntownZuzuCP_LotusCrystal DTZ.DowntownZuzuCP_Moonstone DTZ.DowntownZuzuCP_Stargazer'sOre DTZ.DowntownZuzuCP_SunsetFragment yourdorkbrains_ConiferInfusedVodka yourdorkbrains_PineNeedleTincture/{{i18n:GiftsGunnarGiftReactionLike}}/-7 -26 -79 105 -2 MadDog.HashtagBearfam.SondraAutumnCookie MadDog.HashtagBearfam.SondraSpringtimeShortbread MadDog.HashtagBearfam.SondraSummerCake MadDog.HashtagBearfam.TriangleGrilledCheese MadDog.HashtagBearfam.FerskenPeach MadDog.HashtagBearfam.SlicedPeaches MadDog.HashtagBearfam.HoneyWheatBread MadDog.HashtagBearfam.CornbreadMuffins MadDog.HashtagBearfam.RoseCupcakes MadDog.HashtagBearfam.TTBrownies WWWA.Book.WhyPepperRexesAreTheBest WWWA.Book.CrabsAndWhyIHateThem WWWA.Book.MysteriesOfTheDwarves WWWA.Book.TheTarotRevealed WWWA.Book.Goblins Cornucopia_ChickenoftheWoods Cornucopia_Shiitake Cornucopia_FruitSoap Cornucopia_Candles Cornucopia_HerbalSoap sapphicsaph_pitv.GaylacticCookie sapphicsaph_pitv.LesbianLollipop sapphicsaph_pitv.EnbyEclair sapphicsaph_pitv.TastyAceCookie sapphicsaph_pitv.ARomanticCookie sapphicsaph_pitv.TransTart Fellowclown.AND_HotCereal Fellowclown.AND_GemBirdPatties Fellowclown.AND_FrostedCake Fellowclown.AND_CheesyWhiteRisotto Fellowclown.AND_TastyPastry Fellowclown.AND_WhiteTruffle Fellowclown.ClownCore_SpeedFruit Fellowclown.ClownCore_FrenchDodoEgg Fellowclown.AND_WhiteTruffle Fellowclown.ClownCore_IficusFish Fellowclown.ClownCore_BoneyHeadedGraveFish EastScarp_Rosas_Spanakopita EastScarp_Toast DN.SnS_mushroomsredsauce DN.SnS_autumnalstew DN.SnS_dandeliongreens DN.SnS_ferngreensandpineapple DN.SnS_ancienthuckleberryicecream DN.SnS_lavaeelandstirfriedancientbottlegourd DN.SnS_zuzustyleclamchowder DTZ.DowntownZuzuCP_BLT DTZ.DowntownZuzuCP_ChocolateSlice DTZ.DowntownZuzuCP_DowntownDog DTZ.DowntownZuzuCP_GranaryStack DTZ.DowntownZuzuCP_LemonDrizzleCheesecake DTZ.DowntownZuzuCP_ZuzuIceCream DTZ.DowntownZuzuCP_ZuzuMilkshake DTZ.DowntownZuzuCP_SpanishLime DTZ.DowntownZuzuCP_Jackfruit DTZ.DowntownZuzuCP_Araza DTZ.DowntownZuzuCP_Ackee DTZ.DowntownZuzuCP_Cherimoya DTZ.DowntownZuzuCP_IceDelight DN.SnS_Arrow DN.SnS_FirestormArrow DN.SnS_IcicleArrow DN.SnS_RicochetArrow DN.SnS_WindwakerArrow DN.SnS_LightbringerArrow candycreation_hotpepper/{{i18n:GiftsGunnarGiftReactionDislike}}/-75 651 MadDog.HashtagBearfam.SesameBrownBread WWWA.Book.TheJojaConspiracy WWWA.Book.TheGreatTomeOfMayo Cornucopia_CaffeLatte Cornucopia_CaffePelicano Cornucopia_Cappuccino Cornucopia_Macchiato Cornucopia_MapleMacchiato Cornucopia_PumpkinSpiceLatte Cornucopia_ToastedCoconutMocha Cornucopia_WaxMelts Cornucopia_CaffeMocha Cornucopia_Affogato Cornucopia_VanillaLatte Cornucopia_PeppermintMocha Cornucopia_SaltedCaramelMocha Fellowclown.AND_VoidJuice Fellowclown.AND_GemBirdMeat EastScarp_Rosas_Baklava wildflour.atelierfrozen_coconut_popsicle/{{i18n:GiftsGunnarGiftReactionHate}}/-20 -81 766 413 437 439 680 857 WWWA.Book.TheGreatBookOfSlimes Cornucopia_Peanut Cornucopia_Pistachio Cornucopia_Almond Cornucopia_Cashew Cornucopia_Durian Cornucopia_Pecan Cornucopia_Walnut Cornucopia_EssentialOil Cornucopia_Raisins Cornucopia_RoastedSunflowerSeeds Cornucopia_SesameSeeds Cornucopia_MintChipIceCream Lumisteria.MtVapius_Treasures_FossilisedMoth/{{i18n:GiftsGunnarGiftReactionNeutral}}/-5 -6 -12 -80 -27 MadDog.HashtagBearfam.GudrunPerfectRamen MadDog.HashtagBearfam.SondraPerfectRamen MadDog.HashtagBearfam.SigurdPerfectRamen MadDog.HashtagBearfam.GunnarBadPotion MadDog.HashtagBearfam.GunnarFirstPotion MadDog.HashtagBearfam.GunnarMysteryPotion MadDog.HashtagBearfam.GunnarSecondPotion MadDog.HashtagBearfam.GunnarWeirdPotion MadDog.HashtagBearfam.GunnarThirdPotion MadDog.HashtagBearfam.GunnarPerfectPotion MadDog.HashtagBearfam.GunnarPhoenixDown MadDog.HashtagBearfam.GunnarRemedyAll MadDog.HashtagBearfam.NineHerbsCharm MadDog.HashtagBearfam.FerskenPeach_Honey WWWA.AutographedPhoto SkillBook_1 Book_Bombs SkillBook_4 Book_Defense Book_Void Book_Marlon WWWA.Book.TheBookOfYoba WWWA.Book.ArcanaCatcherPrunus WWWA.Book.DeferenceArlington WWWA.Book.GettingChicksToLoveYou WWWA.Book.PepperRexes WWWA.Book.GuideToSculptingWithGold WWWA.Book.ArtifactOrCutlery WWWA.Book.LunarkinTrollTales Cornucopia_HotWhiskeyCoffee Cornucopia_FloralSoap Cornucopia_TeaSoap MysteriesOfTheDwarves TenebrousNova.EnD.BeholderFruit TenebrousNova.EnD.CrystallineLily TenebrousNova.EnD.PixieBloom TenebrousNova.EnD.Bluffshroom TenebrousNova.EnD.MandrakeRoot 7thAxis.DitR.CP.Items.VoidLavaSnailMayonnaise 7thAxis.DitR.CP.Items.VoidLavaSnailEgg 7thAxis.DitR.CP.Items.VoidLavaSnail 7thAxis.DitR.CP.Items.ValleyLily 7thAxis.DitR.CP.Items.GoldenValleyLily 7thAxis.DitR.CP.Items.SensCrocus/",
+
+        "MadDog.HashtagBearFam.Sondra": "{{i18n:GiftsSondraGiftReactionLove}}/-2 -7 410 104 231 618 344 395 253 421 593 Carrot MadDog.HashtagBearfam.BrazierSecretAlfredo MadDog.HashtagBearfam.SondraPerfectRamen MadDog.HashtagBearfam.SlicedPeaches MadDog.HashtagBearfam.CornbreadMuffins MadDog.HashtagBearfam.RoseCupcakes WWWA.GenuineAutograph WWWA.Book.ArtifactOrCutlery sapphicsaph_pitv.PridePop sapphicsaph_pitv.TransTart Cornucopia_JuniperBerries Cornucopia_Grapefruit Cornucopia_Walnut Cornucopia_SparklingWine Cornucopia_Rose Cornucopia_Dahlia Cornucopia_RoseWinter Cornucopia_RoseSummer Cornucopia_RoseSpring Cornucopia_RosePrismatic Cornucopia_RoseFall Cornucopia_DriedFlower Cornucopia_CaffeLatte Cornucopia_CaffePelicano Cornucopia_Cappuccino Cornucopia_Macchiato Cornucopia_MapleMacchiato Cornucopia_PumpkinSpiceLatte Cornucopia_ToastedCoconutMocha Cornucopia_OrangeJuice Cornucopia_PrismaticWine Cornucopia_RoastedGarlic Cornucopia_RoastedSunflowerSeeds Cornucopia_FloralSoap Cornucopia_WaxMelts Cornucopia_CaffeMocha Cornucopia_Candles Cornucopia_Affogato Cornucopia_VanillaLatte Cornucopia_PeppermintMocha Cornucopia_BlueMoonIceCream Cornucopia_SaltedCaramelMocha DN.SnS_zuzustylebagelwithlox DN.SnS_zuzustylecheesecake Lumisteria.MtVapius_Garnet Lumisteria.MtVapius_Garnet_Polished Lumisteria.MtVapius_Diamond_Polished Lumisteria.MtVapius_Treasures_PetrifiedFlower Lumisteria.MtVapius_Treasures_FaiencePlate Lumisteria.MtVapius_Primrose Lumisteria.MtVapius_Cooking_PomegranateCake Lumisteria.MtVapius_Candy_CandiedFlower Lumisteria.MtVapius_Earrings_EmeraldEarrings Lumisteria.MtVapius_Jewel_FlowerGlobe Lumisteria.MtVapius_Jewel_CraftedCameo Lumisteria.MtVapius_Fan_GreenFan Lumisteria.MtVapius_Fan_PinkFan Lumisteria.MtVapius_Fan_ClassicFan Lumisteria.MtVapius_Fan_GooseFan TenebrousNova.EnD.CrystallineLily TenebrousNova.EnD.PixieBloom 7thAxis.DitR.CP.Items.ValleyLily 7thAxis.DitR.CP.Items.GoldenValleyLily 7thAxis.DitR.CP.Items.SensCrocus DTZ.DowntownZuzuCP_ChocolateSlice DTZ.DowntownZuzuCP_BLT DTZ.DowntownZuzuCP_ZuzuIceCream/{{i18n:GiftsSondraGiftReactionLike}}/-12 -80 -26 -79 348 MadDog.HashtagBearfam.SondraAutumnCookie MadDog.HashtagBearfam.SondraSpringtimeShortbread MadDog.HashtagBearfam.SondraWinterBar MadDog.HashtagBearfam.TriangleGrilledCheese MadDog.HashtagBearfam.SondraSummerCake MadDog.HashtagBearfam.FerskenPeachCobbler MadDog.HashtagBearfam.HoneyWheatBread MadDog.HashtagBearfam.SesameBrownBread MadDog.HashtagBearfam.BananaBread MadDog.HashtagBearfam.TTBrownies MadDog.HashtagBearfam.FerskenPeach_Honey MadDog.HashtagBearfam.HoneyCakes WWWA.Book.TheBookOfYoba WWWA.Book.ArcanaCatcherPrunus WWWA.Book.DeferenceArlington WWWA.Book.LunarkinTrollTales WWWA.Book.HerpetologyOfFerngill Cornucopia_FruitSoap sapphicsaph_pitv.GaylacticCookie sapphicsaph_pitv.LesbianLollipop sapphicsaph_pitv.EnbyEclair sapphicsaph_pitv.TastyAceCookie sapphicsaph_pitv.ARomanticCookie sapphicsaph_pitv.BiBerryMuffin Fellowclown.AND_HotCereal Fellowclown.AND_GemBirdPatties Fellowclown.AND_FrostedCake Fellowclown.AND_CheesyWhiteRisotto Fellowclown.AND_TastyPastry Fellowclown.ClownCore_FrenchDodoEgg EastScarp_Rosas_Baklava EastScarp_Rosas_Spanakopita DN.SnS_portfiredrakesparkler DN.SnS_mushroomsredsauce DN.SnS_autumnalstew DN.SnS_dandeliongreens DN.SnS_ferngreensandpineapple DN.SnS_ancienthuckleberryicecream DN.SnS_lavaeelandstirfriedancientbottlegourd DN.SnS_zuzustyleclamchowder DTZ.DowntownZuzuCP_BigBurger DTZ.DowntownZuzuCP_ChickenDrumstick DTZ.DowntownZuzuCP_DowntownDog DTZ.DowntownZuzuCP_GranaryStack DTZ.DowntownZuzuCP_LemonDrizzleCheesecake DTZ.DowntownZuzuCP_MozzarellaSlice DTZ.DowntownZuzuCP_ZuzuMilkshake DTZ.DowntownZuzuCP_SpanishLime DTZ.DowntownZuzuCP_Jackfruit DTZ.DowntownZuzuCP_Araza DTZ.DowntownZuzuCP_Ackee DTZ.DowntownZuzuCP_Cherimoya DTZ.DowntownZuzuCP_IceDelight/{{i18n:GiftsSondraGiftReactionDislike}}/-4 -81 WWWA.Book.TheGreatTomeOfMayo WWWA.Book.GuideToSculptingWithGold MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab TenebrousNova.EnD.LambentHyphafin TenebrousNova.EnD.Junimeel Cornucopia_ChewingGum Cornucopia_TeaSoap Cornucopia_HerbalSoap Fellowclown.AND_VoidJuice Fellowclown.AND_GemBirdMeat DN.SnS_salishburbon/{{i18n:GiftsSondraGiftReactionHate}}/-20 459 346 303 Cornucopia_DarkAle Cornucopia_Porter Cornucopia_Stout Cornucopia_HotWhiskeyCoffee Cornucopia_Kefir Cornucopia_Kumis Cornucopia_Lassi Cornucopia_Porter Cornucopia_Sake Cornucopia_Bitter Cornucopia_Bourbon Cornucopia_Brandy Cornucopia_Campari Cornucopia_Cointreau Cornucopia_Frangelico Cornucopia_Moonshine Cornucopia_Vermouth Cornucopia_Vodka Cornucopia_Whiskey Cornucopia_Cauim Cornucopia_FramboiseLambic Cornucopia_Perry Cornucopia_Pulque Cornucopia_Umeshu Cornucopia_NuttySoap Cornucopia_Amaretto Cornucopia_Chambord Cornucopia_CremedeCacao Cornucopia_Gin Cornucopia_Mezcal Cornucopia_Rum Cornucopia_Scotch Cornucopia_Shochu Cornucopia_Tequila Cornucopia_MintSchnapps Cornucopia_Absinthe Cornucopia_HardAppleCider Cornucopia_Schnapps Cornucopia_AppleSchnapps Cornucopia_MintSchnapps Cornucopia_PeachSchnapps Lumisteria.MtVapius_Treasures_FossilisedMoth DTZ.DowntownZuzuCP_Cider DTZ.DowntownZuzuCP_ZuzuSignatureCocktail DTZ.DowntownZuzuCP_JojaCocktail DTZ.DowntownZuzuCP_StrawberryDaiquiri/{{i18n:GiftsSondraGiftReactionNeutral}}/-5 -6 -75 -27 167 MadDog.HashtagBearfam.GudrunPerfectRamen MadDog.HashtagBearfam.GunnarPerfectRamen MadDog.HashtagBearfam.SigurdPerfectRamen MadDog.HashtagBearfam.PeachJoja MadDog.HashtagBearfam.PumpkinJoja MadDog.HashtagBearfam.FerskenPeach MadDog.HashtagBearfam.GunnarBadPotion MadDog.HashtagBearfam.GunnarFirstPotion MadDog.HashtagBearfam.GunnarMysteryPotion MadDog.HashtagBearfam.GunnarSecondPotion MadDog.HashtagBearfam.GunnarWeirdPotion MadDog.HashtagBearfam.GunnarThirdPotion MadDog.HashtagBearfam.GunnarPerfectPotion MadDog.HashtagBearfam.GunnarPhoenixDown MadDog.HashtagBearfam.GunnarRemedyAll MadDog.HashtagBearfam.NineHerbsCharm WWWA.AutographedPhoto Book_QueenOfSauce Book_Diamonds Book_Mystery WWWA.Book.TheJojaConspiracy WWWA.Book.WhyPepperRexesAreTheBest WWWA.Book.CrabsAndWhyIHateThem WWWA.Book.FishingForDumbDumbs WWWA.Book.GettingChicksToLoveYou WWWA.Book.MysteriesOfTheDwarves WWWA.Book.PepperRexes WWWA.Book.TheTarotRevealed WWWA.Book.Goblins WWWA.Book.TheGreatBookOfSlimes Fellowclown.ClownCore_IficusFish Fellowclown.ClownCore_BoneyHeadedGraveFish Fellowclown.ClownCore_SpeedFruit EastScarp_Toast MysteriesOfTheDwarves TenebrousNova.EnD.SanguineHeart TenebrousNova.EnD.BeholderFruit TenebrousNova.EnD.Bluffshroom TenebrousNova.EnD.MandrakeRoot TenebrousNova.EnD.DragonEye TenebrousNova.EnD.Marimo TenebrousNova.EnD.FrogspawnCoral TenebrousNova.EnD.TorchCoral TenebrousNova.EnD.DuncanCoral TenebrousNova.EnD.Trachyphyllia TenebrousNova.EnD.Scolymia TenebrousNova.EnD.AcanCoral TenebrousNova.EnD.ToadstoolCoral TenebrousNova.EnD.CandyCaneCoral TenebrousNova.EnD.AcroporaCoral TenebrousNova.EnD.EleganceCoral TenebrousNova.EnD.Gorgonian 7thAxis.DitR.CP.Items.VoidLavaSnailMayonnaise 7thAxis.DitR.CP.Items.VoidLavaSnailEgg 7thAxis.DitR.CP.Items.VoidLavaSnail DTZ.DowntownZuzuCP_ZuzuChampagne DTZ.DowntownZuzuCP_JojaFries DTZ.DowntownZuzuCP_JojaSoda DTZ.DowntownZuzuCP_SapphireStarfish DTZ.DowntownZuzuCP_ZuzuCarp DTZ.DowntownZuzuCP_Angelfish DTZ.DowntownZuzuCP_Clownfish DTZ.DowntownZuzuCP_FireJellyfish DTZ.DowntownZuzuCP_MarineDragon DTZ.DowntownZuzuCP_MarineGold DTZ.DowntownZuzuCP_VampireSquid DTZ.DowntownZuzuCP_QiCrystal DTZ.DowntownZuzuCP_SerpentFragment DTZ.DowntownZuzuCP_Earth'sEssence DTZ.DowntownZuzuCP_LotusCrystal DTZ.DowntownZuzuCP_Moonstone DTZ.DowntownZuzuCP_Stargazer'sOre DTZ.DowntownZuzuCP_SunsetFragment/", //Lumisteria.MtVapius_Earrings_AquamarineEarrings Lumisteria.MtVapius_Earrings_RubyEarrings Lumisteria.MtVapius_Earrings_AmethystEarrings Lumisteria.MtVapius_Earrings_TopazEarrings Lumisteria.MtVapius_Earrings_JadeEarrings Lumisteria.MtVapius_Earrings_DiamondEarrings Lumisteria.MtVapius_Earrings_SweetGemBerryEarrings - add to loved eventually
+
+        "MadDog.HashtagBearFam.Gudrun": "{{i18n:GiftsGudrunGiftReactionLove}}/-20 -81 -80 392 395 253 279 394 560 586 206 814 117 116 66 276 MadDog.HashtagBearfam.BrazierSecretAlfredo MadDog.HashtagBearfam.SondraSpringtimeShortbread MadDog.HashtagBearfam.TriangleGrilledCheese MadDog.HashtagBearfam.GudrunPerfectRamen MadDog.HashtagBearfam.SlicedPeaches MadDog.HashtagBearfam.SesameBrownBread MadDog.HashtagBearfam.RoseCupcakes WWWA.Book.TheJojaConspiracy WWWA.Book.WhyPepperRexesAreTheBest WWWA.Book.LunarkinTrollTales WWWA.Book.HerpetologyOfFerngill sapphicsaph_pitv.PridePop sapphicsaph_pitv.TransTart Cornucopia_JuniperBerries Cornucopia_Avocado Cornucopia_Orchid Cornucopia_Rose Cornucopia_Lavender Cornucopia_RoseWinter Cornucopia_RoseSummer Cornucopia_RoseSpring Cornucopia_RosePrismatic Cornucopia_RoseFall Cornucopia_CookieButter Cornucopia_CaffeLatte Cornucopia_CaffePelicano Cornucopia_Cappuccino Cornucopia_Macchiato Cornucopia_MapleMacchiato Cornucopia_PumpkinSpiceLatte Cornucopia_ToastedCoconutMocha Cornucopia_ChewingGum Cornucopia_RoastedSunflowerSeeds Cornucopia_FloralSoap Cornucopia_WaxMelts Cornucopia_CaffeMocha Cornucopia_StrawberrySorbet Cornucopia_Candles Cornucopia_Affogato Cornucopia_VanillaLatte Cornucopia_PeppermintMocha Cornucopia_MintChipIceCream Cornucopia_SaltedCaramelMocha DN.SnS_portfiredrakesparkler DN.SnS_zuzustylepizza DN.SnS_zuzustylecheesecake Lumisteria.MtVapius_Labradorite Lumisteria.MtVapius_Labradorite_Polished Lumisteria.MtVapius_Aquamarine_Polished Lumisteria.MtVapius_Treasures_FossilisedStarfish Lumisteria.MtVapius_Treasures_FossilisedFish Lumisteria.MtVapius_Treasures_FossilisedAmmonites Lumisteria.MtVapius_Treasures_Cyanotype Lumisteria.MtVapius_VelvetIris Lumisteria.MtVapius_Cooking_GemOrangeade Lumisteria.MtVapius_Candy_CandiedFruit Lumisteria.MtVapius_Candy_CoffeeCandy Lumisteria.MtVapius_Trash_BrokenBottle DTZ.DowntownZuzuCP_GranaryStack DTZ.DowntownZuzuCP_LemonDrizzleCheesecake DTZ.DowntownZuzuCP_MozzarellaSlice/{{i18n:GiftsGudrunGiftReactionLike}}/-2 -7 -12 -79 MadDog.HashtagBearfam.SondraAutumnCookie MadDog.HashtagBearfam.SondraWinterBar MadDog.HashtagBearfam.SondraSummerCake MadDog.HashtagBearfam.FerskenPeach MadDog.HashtagBearfam.FerskenPeachCobbler MadDog.HashtagBearfam.HoneyWheatBread MadDog.HashtagBearfam.CornbreadMuffins MadDog.HashtagBearfam.BananaBread MadDog.HashtagBearfam.TTBrownies MadDog.HashtagBearfam.FerskenPeach_Honey MadDog.HashtagBearfam.HoneyCakes WWWA.Book.ArcanaCatcherPrunus WWWA.Book.CrabsAndWhyIHateThem WWWA.Book.PepperRexes sapphicsaph_pitv.GaylacticCookie sapphicsaph_pitv.LesbianLollipop sapphicsaph_pitv.EnbyEclair sapphicsaph_pitv.TastyAceCookie sapphicsaph_pitv.ARomanticCookie sapphicsaph_pitv.BiBerryMuffin Fellowclown.AND_HotCereal Fellowclown.AND_GemBirdPatties Fellowclown.AND_FrostedCake Fellowclown.AND_TastyPastry Fellowclown.ClownCore_FrenchDodoEgg EastScarp_Rosas_Baklava  DN.SnS_mushroomsredsauce DN.SnS_autumnalstew DN.SnS_dandeliongreens DN.SnS_ferngreensandpineapple DN.SnS_ancienthuckleberryicecream DN.SnS_lavaeelandstirfriedancientbottlegourd Lumisteria.MtVapius_Earrings_EmeraldEarrings Lumisteria.MtVapius_Jewel_FlowerGlobe Lumisteria.MtVapius_Jewel_CraftedCameo Lumisteria.MtVapius_Fan_GreenFan Lumisteria.MtVapius_Fan_PinkFan Lumisteria.MtVapius_Fan_ClassicFan Lumisteria.MtVapius_Fan_GooseFan TenebrousNova.EnD.CrystallineLily TenebrousNova.EnD.PixieBloom DTZ.DowntownZuzuCP_BigBurger DTZ.DowntownZuzuCP_BLT DTZ.DowntownZuzuCP_ChickenDrumstick DTZ.DowntownZuzuCP_ChocolateSlice DTZ.DowntownZuzuCP_DowntownDog DTZ.DowntownZuzuCP_ZuzuIceCream DTZ.DowntownZuzuCP_ZuzuMilkshake DTZ.DowntownZuzuCP_SpanishLime DTZ.DowntownZuzuCP_Jackfruit DTZ.DowntownZuzuCP_Araza DTZ.DowntownZuzuCP_Ackee DTZ.DowntownZuzuCP_Cherimoya DTZ.DowntownZuzuCP_IceDelight/{{i18n:GiftsGudrunGiftReactionDislike}}/-26 198 WWWA.GenuineAutograph WWWA.Book.TheGreatTomeOfMayo Fellowclown.AND_CheesyWhiteRisotto Fellowclown.AND_VoidJuice Fellowclown.AND_GemBirdMeat/{{i18n:GiftsGudrunGiftReactionHate}}/-4 -22 202 209 212 213 214 218 219 225 226 227 228 242 265 456 727 728 729 730 732 733 167 190 MadDog.HashtagBearfam.PeachJoja MadDog.HashtagBearfam.PumpkinJoja WWWA.AutographedPhoto SmokedFish SkillBook_1 Book_Crabbing Book_Roe Broccoli WWWA.Book.FishingForDumbDumbs WWWA.Book.GuideToSculptingWithGold MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab TenebrousNova.EnD.LambentHyphafin TenebrousNova.EnD.Junimeel TenebrousNova.EnD.Marimo TenebrousNova.EnD.FrogspawnCoral TenebrousNova.EnD.TorchCoral TenebrousNova.EnD.DuncanCoral TenebrousNova.EnD.Trachyphyllia TenebrousNova.EnD.Scolymia TenebrousNova.EnD.AcanCoral TenebrousNova.EnD.ToadstoolCoral TenebrousNova.EnD.CandyCaneCoral TenebrousNova.EnD.AcroporaCoral TenebrousNova.EnD.EleganceCoral TenebrousNova.EnD.Gorgonian Cornucopia_Broccoli Cornucopia_Asparagus Cornucopia_Spinach Cornucopia_Durian Cornucopia_DarkAle Cornucopia_Porter Cornucopia_SparklingWine Cornucopia_Stout Cornucopia_CannedFish Cornucopia_CannedMollusc Cornucopia_CannedTuna Cornucopia_HotWhiskeyCoffee Cornucopia_FishSauce Cornucopia_ShrimpPaste Cornucopia_Kefir Cornucopia_Kumis Cornucopia_Lassi Cornucopia_Porter Cornucopia_Sake Cornucopia_PrismaticWine Cornucopia_FishOil Cornucopia_SmokedFish Cornucopia_SmokedSalmon Cornucopia_TeaSoap Cornucopia_Bitter Cornucopia_Bourbon Cornucopia_Brandy Cornucopia_Campari Cornucopia_Cointreau Cornucopia_Frangelico Cornucopia_Moonshine Cornucopia_Vermouth Cornucopia_Vodka Cornucopia_Whiskey Cornucopia_Cauim Cornucopia_FramboiseLambic Cornucopia_Perry Cornucopia_Pulque Cornucopia_Umeshu Cornucopia_NuttySoap Cornucopia_HerbalSoap Cornucopia_Amaretto Cornucopia_Chambord Cornucopia_CremedeCacao Cornucopia_Gin Cornucopia_Mezcal Cornucopia_Rum Cornucopia_Scotch Cornucopia_Shochu Cornucopia_Tequila Cornucopia_MintSchnapps Cornucopia_Absinthe Cornucopia_HardAppleCider Cornucopia_Schnapps Cornucopia_AppleSchnapps Cornucopia_MintSchnapps Cornucopia_PeachSchnapps Fellowclown.ClownCore_IficusFish Fellowclown.ClownCore_BoneyHeadedGraveFish DN.SnS_salishburbon DN.SnS_zuzustyleclamchowder DN.SnS_zuzustylebagelwithlox Lumisteria.MtVapius_ArtisanGoods_VendaceCaviar Lumisteria.MtVapius_Cooking_TroutAndMushrooms Lumisteria.MtVapius_Cooking_UrchinSouffle Lumisteria.MtVapius_Cooking_TroutAndToast Lumisteria.MtVapius_Cooking_FishCurry Lumisteria.MtVapius_Cooking_Tapenade Lumisteria.MtVapius_Treasures_FossilisedMoth 7thAxis.DitR.CP.Items.VoidLavaSnailMayonnaise 7thAxis.DitR.CP.Items.VoidLavaSnailEgg 7thAxis.DitR.CP.Items.VoidLavaSnail 7thAxis.DitR.CP.Items.GoldenVoidLavaSnail 7thAxis.DitR.CP.Items.GoldenVoidLavaSnailEgg 7thAxis.DitR.CP.Items.GoldenVoidLavaMayonnaise DTZ.DowntownZuzuCP_Cider DTZ.DowntownZuzuCP_ZuzuSignatureCocktail DTZ.DowntownZuzuCP_JojaCocktail DTZ.DowntownZuzuCP_StrawberryDaiquiri DTZ.DowntownZuzuCP_ZuzuChampagne DTZ.DowntownZuzuCP_JojaFries DTZ.DowntownZuzuCP_JojaSoda DTZ.DowntownZuzuCP_SapphireStarfish DTZ.DowntownZuzuCP_ZuzuCarp DTZ.DowntownZuzuCP_Angelfish DTZ.DowntownZuzuCP_Clownfish DTZ.DowntownZuzuCP_FireJellyfish DTZ.DowntownZuzuCP_MarineDragon DTZ.DowntownZuzuCP_MarineGold DTZ.DowntownZuzuCP_VampireSquid Suushiico.PeachyKeenRecipes_Peach_Crab_Cakes yourdorkbrains_ConiferInfusedVodka/{{i18n:GiftsGudrunGiftReactionNeutral}}/-5 -6 -75 -27 MadDog.HashtagBearfam.GunnarPerfectRamen MadDog.HashtagBearfam.SondraPerfectRamen MadDog.HashtagBearfam.SigurdPerfectRamen MadDog.HashtagBearfam.GunnarBadPotion MadDog.HashtagBearfam.GunnarFirstPotion MadDog.HashtagBearfam.GunnarMysteryPotion MadDog.HashtagBearfam.GunnarSecondPotion MadDog.HashtagBearfam.GunnarWeirdPotion MadDog.HashtagBearfam.GunnarThirdPotion MadDog.HashtagBearfam.GunnarPerfectPotion MadDog.HashtagBearfam.GunnarPhoenixDown MadDog.HashtagBearfam.GunnarRemedyAll MadDog.HashtagBearfam.NineHerbsCharm Book_Trash Book_Mystery Book_WildSeeds PurpleBook WWWA.Book.TheBookOfYoba WWWA.Book.DeferenceArlington WWWA.Book.GettingChicksToLoveYou WWWA.Book.MysteriesOfTheDwarves WWWA.Book.TheTarotRevealed WWWA.Book.Goblin WWWA.Book.ArtifactOrCutlery WWWA.Book.TheGreatBookOfSlimes WWWA.Book.Goblins Fellowclown.ClownCore_SpeedFruit EastScarp_Toast MysteriesOfTheDwarves TenebrousNova.EnD.SanguineHeart TenebrousNova.EnD.BeholderFruit TenebrousNova.EnD.Bluffshroom TenebrousNova.EnD.MandrakeRoot TenebrousNova.EnD.DragonEye 7thAxis.DitR.CP.Items.ValleyLily 7thAxis.DitR.CP.Items.GoldenValleyLily 7thAxis.DitR.CP.Items.SensCrocus DTZ.DowntownZuzuCP_QiCrystal DTZ.DowntownZuzuCP_SerpentFragment DTZ.DowntownZuzuCP_Earth'sEssence DTZ.DowntownZuzuCP_LotusCrystal DTZ.DowntownZuzuCP_Moonstone DTZ.DowntownZuzuCP_Stargazer'sOre DTZ.DowntownZuzuCP_SunsetFragment/", //Lumisteria.MtVapius_Earrings_AquamarineEarrings Lumisteria.MtVapius_Earrings_RubyEarrings Lumisteria.MtVapius_Earrings_AmethystEarrings Lumisteria.MtVapius_Earrings_TopazEarrings Lumisteria.MtVapius_Earrings_JadeEarrings Lumisteria.MtVapius_Earrings_DiamondEarrings Lumisteria.MtVapius_Earrings_SweetGemBerryEarrings - add to liked eventually
+
+        "MadDog.HashtagBearFam.Teren": "{{i18n:GiftsTerenGiftReactionLove}}/797 651 636 611 606 560 554 376 346 303 233 211 62 74 88 105 724 235 216 220 221 222 223 276 304 MadDog.HashtagBearfam.SondraSummerCake MadDog.HashtagBearfam.FerskenPeachCobbler MadDog.HashtagBearfam.FerskenPeach_Mead MadDog.HashtagBearfam.FerskenPeach_Mead_Tankard MadDog.HashtagBearfam.HoneyCakes WWWA.GenuineAutograph WWWA.Book.TheTarotRevealed sapphicsaph_pitv.PridePop sapphicsaph_pitv.BiBerryMuffin Cornucopia_Peanut Cornucopia_Shallot Cornucopia_Vanilla Cornucopia_CocoaPod Cornucopia_Pistachio Cornucopia_Almond Cornucopia_Cashew Cornucopia_Pecan Cornucopia_Walnut Cornucopia_OliveOil Cornucopia_DarkAle Cornucopia_Porter Cornucopia_SparklingWine Cornucopia_Stout Cornucopia_Hydrangea Cornucopia_Lilac Cornucopia_Hibiscus Cornucopia_CookieButter Cornucopia_CaffeLatte Cornucopia_CaffePelicano Cornucopia_Cappuccino Cornucopia_Macchiato Cornucopia_MapleMacchiato Cornucopia_PumpkinSpiceLatte Cornucopia_ToastedCoconutMocha Cornucopia_HotWhiskeyCoffee Cornucopia_CoffeeLiqueur Cornucopia_Saffron Cornucopia_Kefir Cornucopia_Kumis Cornucopia_Lassi Cornucopia_Porter Cornucopia_Sake Cornucopia_PrismaticWine Cornucopia_RoastedGarlic Cornucopia_RoastedSunflowerSeeds Cornucopia_TeaSoap Cornucopia_Bitter Cornucopia_Bourbon Cornucopia_Brandy Cornucopia_Campari Cornucopia_Cointreau Cornucopia_Frangelico Cornucopia_Moonshine Cornucopia_Vermouth Cornucopia_Vodka Cornucopia_Whiskey Cornucopia_CaffeMocha Cornucopia_RumRaisinIceCream Cornucopia_Cauim Cornucopia_FramboiseLambic Cornucopia_Perry Cornucopia_Pulque Cornucopia_Umeshu Cornucopia_RaspberrySorbet Cornucopia_VanillaExtract Cornucopia_Affogato Cornucopia_VanillaLatte Cornucopia_PeppermintMocha Cornucopia_SaltedCaramelMocha Cornucopia_Amaretto Cornucopia_Chambord Cornucopia_CremedeCacao Cornucopia_Gin Cornucopia_Mezcal Cornucopia_Rum Cornucopia_Scotch Cornucopia_Shochu Cornucopia_Tequila Cornucopia_MintSchnapps Cornucopia_Absinthe Cornucopia_HardAppleCider Cornucopia_Schnapps Cornucopia_AppleSchnapps Cornucopia_MintSchnapps Cornucopia_PeachSchnapps DN.SnS_salishburbon DN.SnS_zuzustylepizza DN.SnS_zuzustylebagelwithlox DN.SnS_zuzustylecheesecake Lumisteria.MtVapius_Turquoise Lumisteria.MtVapius_Turquoise_Polished Lumisteria.MtVapius_Aquamarine_Polished Lumisteria.MtVapius_Treasures_BrokenTeaCup Lumisteria.MtVapius_SweetMyriadin Lumisteria.MtVapius_SaltspringCheese Lumisteria.MtVapius_Cooking_Empanadas DTZ.DowntownZuzuCP_DowntownDog DTZ.DowntownZuzuCP_MozzarellaSlice DTZ.DowntownZuzuCP_Cider DTZ.DowntownZuzuCP_ZuzuSignatureCocktail DTZ.DowntownZuzuCP_JojaCocktail DTZ.DowntownZuzuCP_StrawberryDaiquiri DTZ.DowntownZuzuCP_ZuzuChampagne yourdorkbrains_Pineconejam/{{i18n:GiftsTerenGiftReactionLike}}/-79 -26 -12 -7 -2 MadDog.HashtagBearfam.SondraAutumnCookie MadDog.HashtagBearfam.SondraSpringtimeShortbread MadDog.HashtagBearfam.SondraWinterBar MadDog.HashtagBearfam.TriangleGrilledCheese MadDog.HashtagBearfam.PeachJoja MadDog.HashtagBearfam.PumpkinJoja MadDog.HashtagBearfam.SlicedPeaches MadDog.HashtagBearfam.HoneyWheatBread MadDog.HashtagBearfam.SesameBrownBread MadDog.HashtagBearfam.CornbreadMuffins MadDog.HashtagBearfam.BananaBread MadDog.HashtagBearfam.RoseCupcakes MadDog.HashtagBearfam.TTBrownies WWWA.Book.FishingForDumbDumbs WWWA.Book.GettingChicksToLoveYou WWWA.Book.MysteriesOfTheDwarves WWWA.Book.TheGreatTomeOfMayo WWWA.Book.Goblins WWWA.Book.TheGreatBookOfSlimes WWWA.Book.HerpetologyOfFerngill sapphicsaph_pitv.GaylacticCookie sapphicsaph_pitv.LesbianLollipop sapphicsaph_pitv.EnbyEclair sapphicsaph_pitv.TastyAceCookie sapphicsaph_pitv.ARomanticCookie sapphicsaph_pitv.TransTart Fellowclown.AND_HotCereal Fellowclown.AND_GemBirdPatties Fellowclown.AND_FrostedCake Fellowclown.AND_CheesyWhiteRisotto Fellowclown.AND_TastyPastry Fellowclown.ClownCore_FrenchDodoEgg EastScarp_Rosas_Spanakopita DN.SnS_mushroomsredsauce DN.SnS_autumnalstew DN.SnS_dandeliongreens DN.SnS_ferngreensandpineapple DN.SnS_ancienthuckleberryicecream DN.SnS_lavaeelandstirfriedancientbottlegourd DN.SnS_zuzustyleclamchowder DTZ.DowntownZuzuCP_BigBurger DTZ.DowntownZuzuCP_BLT DTZ.DowntownZuzuCP_ChickenDrumstick DTZ.DowntownZuzuCP_ChocolateSlice DTZ.DowntownZuzuCP_GranaryStack DTZ.DowntownZuzuCP_LemonDrizzleCheesecake DTZ.DowntownZuzuCP_ZuzuIceCream DTZ.DowntownZuzuCP_ZuzuMilkshake DTZ.DowntownZuzuCP_SpanishLime DTZ.DowntownZuzuCP_Jackfruit DTZ.DowntownZuzuCP_Araza DTZ.DowntownZuzuCP_Ackee DTZ.DowntownZuzuCP_Cherimoya DTZ.DowntownZuzuCP_IceDelight/{{i18n:GiftsTerenGiftReactionDislike}}/-27 -20 124 125 110 101 92 78 WWWA.Book.GuideToSculptingWithGold Cornucopia_FloralSoap Cornucopia_FruitSoap Cornucopia_WaxMelts Cornucopia_NuttySoap Cornucopia_Candles Cornucopia_HerbalSoap Fellowclown.AND_VoidJuice Fellowclown.AND_GemBirdMeat/{{i18n:GiftsTerenGiftReactionHate}}/446 129 154 155 16 226 260 215 MadDog.HashtagBearfam.SigurdPerfectRamen Cornucopia_Habanero Cornucopia_Jalapeno Cornucopia_Durian Cornucopia_Plantain Cornucopia_ChiliPowder Cornucopia_SpicyMayonnaise Cornucopia_ChiliOil Cornucopia_HabaneroExtract Cornucopia_JalapenoExtract Cornucopia_BananaIceCream Lumisteria.MtVapius_Treasures_FossilisedMoth TenebrousNova.EnD.DragonEye HXW.Mixology_young_love HXW.Mixology_passion_punch wildflour.gourmetpantry_banana_yogurt wildflour.gourmetpantry_banana_syrup wildflour.ateliercrops_banana wildflour.atelierjuicebar_banana_boba wildflour.atelierjuicebar_berrybanana_smoothie candycreation_hotpepper/{{i18n:GiftsTerenGiftReactionNeutral}}/-81 -80 -75 -6 -5 -4 167 91 904 MadDog.HashtagBearfam.GudrunPerfectRamen MadDog.HashtagBearfam.GunnarPerfectRamen MadDog.HashtagBearfam.SondraPerfectRamen MadDog.HashtagBearfam.FerskenPeach MadDog.HashtagBearfam.GunnarBadPotion MadDog.HashtagBearfam.GunnarFirstPotion MadDog.HashtagBearfam.GunnarMysteryPotion MadDog.HashtagBearfam.GunnarSecondPotion MadDog.HashtagBearfam.GunnarWeirdPotion MadDog.HashtagBearfam.GunnarThirdPotion MadDog.HashtagBearfam.GunnarPerfectPotion MadDog.HashtagBearfam.GunnarPhoenixDown MadDog.HashtagBearfam.GunnarRemedyAll MadDog.HashtagBearfam.NineHerbsCharm WWWA.AutographedPhoto Book_Marlon Book_QueenOfSauce Book_Defense SkillBook_4 WWWA.Book.TheJojaConspiracy WWWA.Book.TheBookOfYoba WWWA.Book.WhyPepperRexesAreTheBest WWWA.Book.ArcanaCatcherPrunus WWWA.Book.CrabsAndWhyIHateThem WWWA.Book.DeferenceArlington WWWA.Book.PepperRexes WWWA.Book.ArtifactOrCutlery WWWA.Book.LunarkinTrollTales MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab TenebrousNova.EnD.LambentHyphafin TenebrousNova.EnD.Junimeel MadDog.HashtagBearfam.Teren_Book Fellowclown.ClownCore_IficusFish Fellowclown.ClownCore_BoneyHeadedGraveFish Fellowclown.ClownCore_SpeedFruit EastScarp_Toast MysteriesOfTheDwarves TenebrousNova.EnD.SanguineHeart TenebrousNova.EnD.BeholderFruit TenebrousNova.EnD.CrystallineLily TenebrousNova.EnD.PixieBloom TenebrousNova.EnD.Marimo TenebrousNova.EnD.FrogspawnCoral TenebrousNova.EnD.TorchCoral TenebrousNova.EnD.DuncanCoral TenebrousNova.EnD.Trachyphyllia TenebrousNova.EnD.Scolymia TenebrousNova.EnD.AcanCoral TenebrousNova.EnD.ToadstoolCoral TenebrousNova.EnD.CandyCaneCoral TenebrousNova.EnD.AcroporaCoral TenebrousNova.EnD.EleganceCoral TenebrousNova.EnD.Gorgonian TenebrousNova.EnD.Bluffshroom TenebrousNova.EnD.MandrakeRoot 7thAxis.DitR.CP.Items.VoidLavaSnailMayonnaise 7thAxis.DitR.CP.Items.VoidLavaSnailEgg 7thAxis.DitR.CP.Items.VoidLavaSnail 7thAxis.DitR.CP.Items.ValleyLily 7thAxis.DitR.CP.Items.GoldenValleyLily 7thAxis.DitR.CP.Items.SensCrocus DTZ.DowntownZuzuCP_JojaFries DTZ.DowntownZuzuCP_JojaSoda DTZ.DowntownZuzuCP_SapphireStarfish DTZ.DowntownZuzuCP_ZuzuCarp DTZ.DowntownZuzuCP_Angelfish DTZ.DowntownZuzuCP_Clownfish DTZ.DowntownZuzuCP_FireJellyfish DTZ.DowntownZuzuCP_MarineDragon DTZ.DowntownZuzuCP_MarineGold DTZ.DowntownZuzuCP_VampireSquid DTZ.DowntownZuzuCP_QiCrystal DTZ.DowntownZuzuCP_SerpentFragment DTZ.DowntownZuzuCP_Earth'sEssence DTZ.DowntownZuzuCP_LotusCrystal DTZ.DowntownZuzuCP_Moonstone DTZ.DowntownZuzuCP_Stargazer'sOre DTZ.DowntownZuzuCP_SunsetFragment/"
+      }
+    }
+  ]
+}  

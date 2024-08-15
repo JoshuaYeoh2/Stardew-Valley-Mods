@@ -1,0 +1,251 @@
+{
+	"Changes": [
+		//************************************
+		//      Seeds
+		//************************************
+		{
+			"LogName": "Dulse Seaweed Cuttings",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"ZoeyHoshi.SVEForageCrops_Dulse_SeaweedSeeds": {
+					"Name": "ZoeyHoshi.SVEForageCrops_Dulse_SeaweedSeeds",
+					"Displayname": "{{i18n:Dulse_SeaweedSeeds_name}}",
+					"Description": "{{i18n:Dulse_SeaweedSeeds_description}}",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 30,
+					"Texture": "ZoeyHoshi.SVEForageCrops/objects",
+					"SpriteIndex": 0
+				}
+			},
+			"When": {
+				"HasMod": "selph.CustomTapperFramework",
+				"DulseSeaweedCrop": true
+			}
+		},
+		{
+			"LogName": "Ferngill Primrose Seeds",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"ZoeyHoshi.SVEForageCrops_Ferngill_PrimroseSeeds": {
+					"Name": "ZoeyHoshi.SVEForageCrops_Ferngill_PrimroseSeeds",
+					"Displayname": "{{i18n:Ferngill_PrimroseSeeds_name}}",
+					"Description": "{{i18n:Ferngill_PrimroseSeeds_description}}",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 45,
+					"Texture": "ZoeyHoshi.SVEForageCrops/objects",
+					"SpriteIndex": 1
+				}
+			},
+			"When": {
+				"PrimroseCrop": true
+			}
+		},
+		{
+			"LogName": "Goldenrod Seeds",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"ZoeyHoshi.SVEForageCrops_GoldenrodSeed": {
+					"Name": "ZoeyHoshi.SVEForageCrops_GoldenrodSeed",
+					"Displayname": "{{i18n:GoldenrodSeeds_name}}",
+					"Description": "{{i18n:GoldenrodSeeds_description}}",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 55,
+					"Texture": "ZoeyHoshi.SVEForageCrops/objects",
+					"SpriteIndex": 2
+				}
+			},
+			"When": {
+				"GoldenrodCrop": true
+			}
+		},
+		{
+			"LogName": "Four Leaf Clover Seeds",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"ZoeyHoshi.SVEForageCrops_Four_Leaf_CloverSeed": {
+					"Name": "ZoeyHoshi.SVEForageCrops_Four_Leaf_CloverSeed",
+					"Displayname": "{{i18n:Four_Leaf_CloverSeeds_name}}",
+					"Description": "{{i18n:Four_Leaf_CloverSeeds_description}}",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 140,
+					"Texture": "ZoeyHoshi.SVEForageCrops/objects",
+					"SpriteIndex": 3
+				}
+			},
+			"When": {
+				"4LeafCloverCrop": true
+			}
+		},
+		{
+			"LogName": "Red Baneberry Seeds",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"ZoeyHoshi.SVEForageCrops_Red_BaneberrySeeds": {
+					"Name": "ZoeyHoshi.SVEForageCrops_Red_BaneberrySeeds",
+					"Displayname": "{{i18n:Red_BaneberrySeeds_name}}",
+					"Description": "{{i18n:Red_BaneberrySeeds_description}}",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 15,
+					"Texture": "ZoeyHoshi.SVEForageCrops/objects",
+					"SpriteIndex": 4
+				}
+			},
+			"When": {
+				"RedBaneberryCrop": true
+			}
+		},
+		{
+			"LogName": "Rafflesia Cutting",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"ZoeyHoshi.SVEForageCrops_RafflesiaSeeds": {
+					"Name": "ZoeyHoshi.SVEForageCrops_RafflesiaSeeds",
+					"Displayname": "{{i18n:RafflesiaSeeds_name}}",
+					"Description": "{{i18n:RafflesiaSeeds_description}}",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 75,
+					"Texture": "ZoeyHoshi.SVEForageCrops/objects",
+					"SpriteIndex": 5
+				}
+			},
+			"When": {
+				"RafflesiaCrop": true
+			}
+		},
+		{
+			"LogName": "Thistle Seeds",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"ZoeyHoshi.SVEForageCrops_ThistleSeeds": {
+					"Name": "ZoeyHoshi.SVEForageCrops_ThistleSeeds",
+					"Displayname": "{{i18n:ThistleSeeds_name}}",
+					"Description": "{{i18n:ThistleSeeds_description}}",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 45,
+					"Texture": "ZoeyHoshi.SVEForageCrops/objects",
+					"SpriteIndex": 6
+				}
+			},
+			"When": {
+				"ThistleCrop": true
+			}
+		},
+		{
+			"LogName": "Winter Star Rose Seeds",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"ZoeyHoshi.SVEForageCropsWinter_Star_Rose_Seeds": {
+					"Name": "ZoeyHoshi.SVEForageCropsWinter_Star_Rose_Seeds",
+					"Displayname": "{{i18n:Winter_Star_RoseSeeds_name}}",
+					"Description": "{{i18n:Winter_Star_RoseSeeds_description}}",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 65,
+					"Texture": "ZoeyHoshi.SVEForageCrops/objects",
+					"SpriteIndex": 7
+				}
+			},
+			"When": {
+				"WinterRoseCrop": true
+			}
+		},
+		{
+			"LogName": "Poison Mushroom Spawn",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"ZoeyHoshi.SVEForageCrops_Poison_MushroomSeeds": {
+					"Name": "ZoeyHoshi.SVEForageCrops_Poison_MushroomSeeds",
+					"Displayname": "{{i18n:Poison_MushroomSeeds_name}}",
+					"Description": "{{i18n:Poison_MushroomSeeds_description}}",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 12,
+					"Texture": "ZoeyHoshi.SVEForageCrops/objects",
+					"SpriteIndex": 8
+				}
+			},
+			"When": {
+				"PoisonMushroomCrop": true
+			}
+		},
+		{
+			"LogName": "Mushroom Colony Spawn",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"ZoeyHoshi.SVEForageCrops_Mushroom_ColonySeeds": {
+					"Name": "ZoeyHoshi.SVEForageCrops_Mushroom_ColonySeeds",
+					"Displayname": "{{i18n:Mushroom_ColonySeeds_name}}",
+					"Description": "{{i18n:Mushroom_ColonySeeds_description}}",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 25,
+					"Texture": "ZoeyHoshi.SVEForageCrops/objects",
+					"SpriteIndex": 9
+				}
+			},
+			"When": {
+				"MushroomColonyCrop": true
+			}
+		},
+
+		{
+			"LogName": "Bearberry Sapling",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"ZoeyHoshi.SVEForageCrops_BearberrySeeds": {
+					"Name": "ZoeyHoshi.SVEForageCrops_BearberrySeeds",
+					"Displayname": "{{i18n:BearberrySeeds_name}}",
+					"Description": "{{i18n:BearberrySeeds_description}}",
+					"Type": "Basic",
+					"Category": -74,
+					"Price": 0,
+					"Texture": "ZoeyHoshi.SVEForageCrops/objects",
+					"SpriteIndex": 10
+				}
+			},
+			"When": {
+				"HasMod": "furyx639.CustomBush",
+				"BearberryCrop": true
+			}
+		},
+		{
+			"LogName": "Dewdrop Sapling",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"ZoeyHoshi.SVEForageCrops_Dewdrop_BerrySeeds": {
+					"Name": "ZoeyHoshi.SVEForageCrops_Dewdrop_BerrySeeds",
+					"Displayname": "{{i18n:Dewdrop_BerrySeeds_name}}",
+					"Description": "{{i18n:Dewdrop_BerrySeeds_description}}",
+					"Type": "Basic",
+					"Category": -74,
+					"Price": 0,
+					"Texture": "ZoeyHoshi.SVEForageCrops/objects",
+					"SpriteIndex": 11
+				}
+			},
+			"When": {
+				"HasMod": "furyx639.CustomBush",
+				"DewdropBerryCrop": true
+			}
+		}
+	]
+}

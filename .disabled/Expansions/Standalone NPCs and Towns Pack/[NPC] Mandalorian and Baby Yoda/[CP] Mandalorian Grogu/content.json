@@ -1,0 +1,249 @@
+{
+"Format": "2.0.0",
+//////Config
+    
+"ConfigSchema": {
+        "GroguPet": {
+            "AllowValues": "yes, no",
+            "Default": "yes"
+        },
+        "Lightsabers": {
+            "AllowValues": "yes, no",
+            "Default": "yes"
+        }
+},
+    
+//////Repeat Events
+    "RepeatEvents": [
+     "85925014",
+     "85926000", "85926001", "85926004", "85926005", "85926008", "85926009", "85926012", "85926013", 
+   ],
+    
+    
+    
+"Changes": [
+
+    
+//////Include
+    {"Action": "Include", "FromFile": "assets/Mando.json"},
+    {"Action": "Include", "FromFile": "assets/Grogu.json"},
+    {"Action": "Include", "FromFile": "assets/Festivals.json"},
+    {"Action": "Include", "FromFile": "assets/Events.json"},
+    {"Action": "Include", "FromFile": "assets/data/MarriageEvents.json"},
+    {"Action": "Include", "FromFile": "assets/data/MovieTastes.json"},
+
+
+
+//////Items
+    
+    {
+
+      "LogName": "Weapons",
+      "Action": "Load",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/images/weapons.png",
+      "When": { "Lightsabers": "yes" },
+
+    },
+
+    {
+      "LogName": "Weapons Data",
+      "Action": "EditData",
+      "Target": "Data/weapons",
+      "When": { "Lightsabers": "yes" },
+      "Entries": {
+	       "0": {
+               "Name": "Lightsaber",
+               "DisplayName": "Lightsaber",
+               "Description": "Your trusty lightsaber.",
+                "MinDamage": 2,
+                "MaxDamage": 5,
+                "Knockback": 1.0,
+                "Speed": 0,
+                "Precision": 0,
+                "Defense": 0,
+                "Type": 3,
+                "MineBaseLevel": -1,
+                "MineMinLevel": -1,
+                "AreaOfEffect": 0,
+                "CritChance": 0.02,
+                "CritMultiplier": 3.0,
+                "CanBeLostOnDeath": true,
+                "Texture": "TileSheets/weapons",
+                "SpriteIndex": 0,
+                "Projectiles": null,
+                "CustomFields": null
+                },
+	       "4": {
+               "Name": "Darksaber",
+               "DisplayName": "Darksaber",
+               "Description": "The darksaber of Mandalore.",
+               "MinDamage": 60,
+                "MaxDamage": 80,
+                "Knockback": 1.0,
+                "Speed": 8,
+                "Precision": 0,
+                "Defense": 0,
+                "Type": 0,
+                "MineBaseLevel": -1,
+                "MineMinLevel": -1,
+                "AreaOfEffect": 0,
+                "CritChance": 0.02,
+                "CritMultiplier": 3.0,
+                "CanBeLostOnDeath": false,
+                "Texture": "TileSheets/weapons",
+                "SpriteIndex": 4,
+                "Projectiles": null,
+                "CustomFields": null
+           }
+   	 },}, 
+    
+    {
+      "LogName": "Weapons Data",
+      "Action": "EditData",
+      "Target": "Strings/StringsFromCSFiles",
+      "When": { "Lightsabers": "yes" },
+       "Entries": {
+		"Event.cs.1205": "Lightsaber",
+		"Event.cs.1206": "A green, glowing saber.",
+		"Event.cs.1209": "You got a lightsaber! It is the weapon of a Jedi Knight.",
+		"MeleeWeapon.cs.14122": "The prismatic shard changes shape before your very eyes! This power is tremendous.^^     You've found the =Darksaber=  ^",
+		"Sword.cs.14296": "Darksaber",
+		"Sword.cs.14297": "The darksaber of Mandalore.",
+   	 },},
+    
+//////Sounds
+    { "Action": "EditData",
+      "Target": "Data/AudioChanges",
+      "Entries": {
+          "MandoTheme": {
+              "ID": "MandoTheme",
+              "FilePaths": ["{{AbsoluteFilePath: assets/sounds/MandalorianTheme.wav}}"],
+              "StreamedVorbis": true },
+          "Grogu": {
+              "ID": "Grogu",
+              "FilePaths": ["{{AbsoluteFilePath: assets/sounds/Grogu1.wav}}","{{AbsoluteFilePath: assets/sounds/Grogu1.wav}}"],
+              "StreamedVorbis": false },
+      } },
+
+//////Event Props
+    
+    {
+      "LogName": "Frog",
+      "Action": "Load",
+      "Target": "Animals/Frog",
+      "FromFile": "assets/images/Frog.png",
+    },
+    {
+      "LogName": "Tent",
+      "Action": "Load",
+      "Target": "Characters/Tent",
+      "FromFile": "assets/images/Tent.png",
+    },
+    {
+      "LogName": "Fire",
+      "Action": "Load",
+      "Target": "Characters/Fire",
+      "FromFile": "assets/images/Fire.png",
+    },
+
+/////Armor
+
+    {
+         "Action": "EditImage",
+         "Target": "Characters/Farmer/hats",
+         "FromFile": "assets/images/hats.png",
+         "ToArea": { "X": 100, "Y": 240, "Width": 20, "Height": 80 },
+      },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/hats",
+       "Entries": {
+ 	      "41": "Mandalorian Buy'ce/Never take it off. This is the way./hide/true//Mandalorian Buy'ce",
+   	 },
+    },
+    {
+         "Action": "EditImage",
+         "Target": "Characters/Farmer/shirts",
+         "FromFile": "assets/images/shirts.png",
+         "ToArea": { "X": 120, "Y": 224, "Width": 8, "Height": 32 }
+      },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Shirts",
+       "Entries": {
+           "1127": {
+            "Name": "Beskar'gam",
+            "DisplayName": "Beskar'gam",
+            "Description": "Mandalorian armor.",
+            "Price": 500,
+            "Texture": null,
+            "SpriteIndex": 127,
+            "DefaultColor": "255 235 203",
+            "CanBeDyed": false,
+            "IsPrismatic": false,
+            "HasSleeves": true,
+            "CanChooseDuringCharacterCustomization": false,
+            "CustomFields": null
+           }
+       }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Pants",
+       "Entries": {
+          "8": {
+            "Name": "Lightweight Pants",
+            "DisplayName": "Lightweight Pants",
+            "Description": "Lightweight Pants",
+            "Price": 50,
+            "Texture": null,
+            "SpriteIndex": 0,
+            "DefaultColor": "43 27 3",
+            "CanBeDyed": true,
+            "IsPrismatic": false,
+            "CanChooseDuringCharacterCustomization": false,
+            "CustomFields": null
+          },
+   	 },
+    },
+
+      {
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/images/springobjects_boots.png",
+         "ToArea": { "X": 192, "Y": 528, "Width": 16, "Height": 16 },
+      },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Boots",
+       "Entries": {
+	  "804": "Leather Boots/A gift from Din./250/4/4/12/Leather Boots",
+   	 },
+    },
+
+
+    
+    
+/////Move Invite
+    
+    {
+      "Action": "EditData",
+      "Target": "Strings/Characters",
+       "Entries": {
+ 	      "MovieInvite_Spouse_Mando": "A date night? Of course, mesh'la.#$b#You go ahead, and I will meet you there.",
+	       "MovieInvite_Invited_Grogu": "Patu? Ee ba!",
+	       "MovieInvite_Invited_Mando": "You're inviting... me?#$b#I would be happy to accompany you, @. I'll meet you there.",
+		}
+    },
+    
+    
+    
+    ],
+    
+    
+}
