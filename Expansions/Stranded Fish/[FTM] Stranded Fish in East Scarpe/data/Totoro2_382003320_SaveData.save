@@ -1,6 +1,29 @@
 {
-  "WeatherForYesterday": "Sunny",
+  "WeatherForYesterday": "Storm",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
-  "SavedObjects": []
+  "SavedObjects": [
+    {
+      "MapName": "EastScarp_Village",
+      "Name": "Pike",
+      "Tile": "35, 116",
+      "Type": "Forage",
+      "ID": "144",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_Village",
+      "Name": "Flounder",
+      "Tile": "62, 113",
+      "Type": "Forage",
+      "ID": "267",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
 }

@@ -1,6 +1,18 @@
 {
-  "WeatherForYesterday": "Sunny",
+  "WeatherForYesterday": "Storm",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
-  "SavedObjects": []
+  "SavedObjects": [
+    {
+      "MapName": "Town",
+      "Name": "Bream",
+      "Tile": "71, 101",
+      "Type": "Forage",
+      "ID": "132",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
 }

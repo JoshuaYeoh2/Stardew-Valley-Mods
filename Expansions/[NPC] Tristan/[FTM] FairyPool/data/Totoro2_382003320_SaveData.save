@@ -1,6 +1,29 @@
 {
-  "WeatherForYesterday": "Sunny",
-  "LNOSCounter": {},
+  "WeatherForYesterday": "Storm",
+  "LNOSCounter": {
+    "Secret Cave": 1
+  },
   "ExistingObjectLocations": {},
-  "SavedObjects": []
+  "SavedObjects": [
+    {
+      "MapName": "Lemurkat_SecretCave",
+      "Name": null,
+      "Tile": "6, 10",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "crate",
+        "Contents": [
+          {
+            "Category": "Object",
+            "Name": "Fairy Stone",
+            "Stack": 1
+          }
+        ]
+      },
+      "MonType": null
+    }
+  ]
 }

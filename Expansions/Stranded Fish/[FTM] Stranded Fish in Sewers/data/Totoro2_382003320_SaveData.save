@@ -1,6 +1,18 @@
 {
-  "WeatherForYesterday": "Sunny",
+  "WeatherForYesterday": "Storm",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
-  "SavedObjects": []
+  "SavedObjects": [
+    {
+      "MapName": "Sewer",
+      "Name": "Carp",
+      "Tile": "4, 24",
+      "Type": "Forage",
+      "ID": "142",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
 }
