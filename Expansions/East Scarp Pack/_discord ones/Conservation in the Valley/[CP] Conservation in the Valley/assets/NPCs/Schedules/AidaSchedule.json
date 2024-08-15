@@ -1,0 +1,262 @@
+{
+  "Changes": [
+    {
+      "LogName": "Default Schedules",
+      "Action": "EditData",
+      "Target": "Characters/Schedules/AidaSaura",
+      "Entries": {
+		"spring": "
+			630 CasaEstrada 9 24 0/
+			800 RanchoEstrada 28 12 2/
+			1630 EstradaBarnLower 13 18 3/
+			1830 CasaEstrada 7 26 2/
+			2000 CasaEstrada 30 24 2/
+			2130 CasaEstrada 12 7 1
+		",
+		"rain": "
+			730 CasaEstrada 26 10 0/
+			930 CasaEstrada 9 24 0/
+			1200 ArchaeologyHouse 22 4 2/
+			1830 EstradaBarnLower 13 18 3/
+			1930 CasaEstrada 7 26 2/
+			2030 CasaEstrada 30 24 2/
+			2130 CasaEstrada 12 7 1
+		",
+		"spring_Mon": "
+			630 CasaEstrada 9 24 0/
+			800 RanchoEstrada 28 12 2/
+			1730 EastScarp_Village 21 102 0/
+			1800 EastScarp_Village 25 104 2/
+			2030 CasaEstrada 7 26 2/
+			2130 CasaEstrada 12 7 1
+		",
+		"spring_Tue": "
+			630 CasaEstrada 9 24 0/
+			800 RanchoEstrada 28 12 2/
+			1630 EstradaBarnLower 13 18 3/
+			1830 CasaEstrada 7 26 2/
+			2000 CasaEstrada 30 24 2/
+			2130 CasaEstrada 12 7 1
+		",
+		"spring_Wed": "
+			630 CasaEstrada 9 24 0/
+			800 RanchoEstrada 28 12 2/
+			1630 EstradaBarnLower 13 18 3/
+			1830 CasaEstrada 7 26 2/
+			2000 CasaEstrada 30 24 2/
+			2130 CasaEstrada 12 7 1
+		",
+		"spring_Thu": "
+			800 CasaEstrada 9 24 0/
+			1100 SeedShop 12 28 3/
+			1400 AnimalShop 11 16 1/
+			1930 CasaEstrada 7 26 2/
+			2130 CasaEstrada 12 7 1
+		",
+		"spring_Fri": "
+			630 CasaEstrada 9 24 0/
+			800 RanchoEstrada 28 12 2/
+			1530 Town 89 100 3/
+			1830 CasaEstrada 7 26 2/
+			2000 CasaEstrada 30 24 2/
+			2130 CasaEstrada 12 7 1
+		",
+		"spring_Sat": "
+			630 CasaEstrada 9 24 0/
+			800 RanchoEstrada 28 12 2/
+			1730 EastScarp_Village 21 102 0/
+			1800 EastScarp_Village 25 104 2/
+			2030 CasaEstrada 7 26 2/
+			2130 CasaEstrada 12 7 1
+		",
+		"spring_Sun": "
+			730 CasaEstrada 9 24 0/
+			930 SeedShop 35 17 1/
+			1000 SeedShop 37 18 0/
+			1030 SeedShop 39 17 3/
+			1100 SeedShop 37 22 0/
+			1630 Saloon 8 20 1/
+			1730 Saloon 27 21 2/
+			2030 CasaEstrada 30 24 2/
+			2130 CasaEstrada 12 7 1
+		",
+		"summer_Mon": "
+			630 CasaEstrada 9 24 0/
+			800 RanchoEstrada 28 12 2/
+			1730 EastScarp_Village 21 102 0/
+			1800 EastScarp_Village 25 104 2/
+			2030 CasaEstrada 7 26 2/
+			2130 CasaEstrada 12 7 1
+		",
+		"summer_Tue": "
+			630 CasaEstrada 9 24 0/
+			800 RanchoEstrada 28 12 2/
+			1630 EstradaBarnLower 13 18 3/
+			1830 RanchoEstrada 26 5 1/
+			2000 CasaEstrada 30 24 2/
+			2130 CasaEstrada 12 7 1
+		",
+		"summer_Wed": "
+			630 CasaEstrada 9 24 0/
+			800 RanchoEstrada 28 12 2/
+			1630 EstradaBarnLower 13 18 3/
+			1830 RanchoEstrada 26 5 1/
+			2000 CasaEstrada 30 24 2/
+			2130 CasaEstrada 12 7 1
+		",
+		"summer_Thu": "
+			800 CasaEstrada 9 24 0/
+			1100 SeedShop 12 28 3/
+			1400 AnimalShop 11 16 1/
+			1930 CasaEstrada 7 26 2/
+			2130 CasaEstrada 12 7 1
+		",
+		"summer_Fri": "
+			630 CasaEstrada 9 24 0/
+			800 RanchoEstrada 28 12 2/
+			1530 Town 89 100 3/
+			1830 RanchoEstrada 26 5 1/
+			2000 CasaEstrada 30 24 2/
+			2130 CasaEstrada 12 7 1
+		",
+		"summer_Sat": "
+			630 CasaEstrada 9 24 0/
+			800 RanchoEstrada 28 12 2/
+			1730 EastScarp_Village 21 102 0/
+			1800 EastScarp_Village 25 104 2/
+			2030 CasaEstrada 7 26 2/
+			2130 CasaEstrada 12 7 1
+		",
+		"summer_Sun": "
+			730 CasaEstrada 9 24 0/
+			930 SeedShop 35 17 1/
+			1000 SeedShop 37 18 0/
+			1030 SeedShop 39 17 3/
+			1100 SeedShop 37 22 0/
+			1630 Saloon 8 20 1/
+			1730 Saloon 27 21 2/
+			2030 CasaEstrada 30 24 2/
+			2130 CasaEstrada 12 7 1
+		",
+		"fall_Mon": "
+			630 CasaEstrada 9 24 0/
+			800 RanchoEstrada 28 12 2/
+			1730 CasaEstrada 30 24 2/
+			2030 CasaEstrada 7 26 2/
+			2130 CasaEstrada 12 7 1
+		",
+		"fall_Tue": "
+			630 CasaEstrada 9 24 0/
+			800 RanchoEstrada 28 12 2/
+			1630 EstradaBarnLower 13 18 3/
+			1830 CasaEstrada 7 26 2/
+			2000 CasaEstrada 30 24 2/
+			2130 CasaEstrada 12 7 1
+		",
+		"fall_Wed": "
+			630 CasaEstrada 9 24 0/
+			800 RanchoEstrada 28 12 2/
+			1630 EstradaBarnLower 13 18 3/
+			1830 CasaEstrada 7 26 2/
+			2000 CasaEstrada 30 24 2/
+			2130 CasaEstrada 12 7 1
+		",
+		"fall_Thu": "
+			800 CasaEstrada 9 24 0/
+			1100 SeedShop 12 28 3/
+			1400 AnimalShop 11 16 1/
+			1930 CasaEstrada 7 26 2/
+			2130 CasaEstrada 12 7 1
+		",
+		"fall_Fri": "
+			630 CasaEstrada 9 24 0/
+			800 RanchoEstrada 28 12 2/
+			1530 Town 89 100 3/
+			1830 CasaEstrada 7 26 2/
+			2000 CasaEstrada 30 24 2/
+			2130 CasaEstrada 12 7 1
+		",
+		"fall_Sat": "
+			630 CasaEstrada 9 24 0/
+			800 RanchoEstrada 28 12 2/
+			1730 CasaEstrada 30 24 2/
+			2030 CasaEstrada 7 26 2/
+			2130 CasaEstrada 12 7 1
+		",
+		"fall_Sun": "
+			730 CasaEstrada 9 24 0/
+			930 SeedShop 35 17 1/
+			1000 SeedShop 37 18 0/
+			1030 SeedShop 39 17 3/
+			1100 SeedShop 37 22 0/
+			1630 Saloon 8 20 1/
+			1730 Saloon 27 21 2/
+			2030 CasaEstrada 30 24 2/
+			2130 CasaEstrada 12 7 1
+		",
+		"winter_Mon": "
+			630 CasaEstrada 9 24 0/
+			800 RanchoEstrada 28 12 2/
+			1730 CasaEstrada 30 24 2/
+			2030 CasaEstrada 7 26 2/
+			2130 CasaEstrada 12 7 1
+		",
+		"winter_Tue": "
+			630 CasaEstrada 9 24 0/
+			800 RanchoEstrada 28 12 2/
+			1630 EstradaBarnLower 13 18 3/
+			1830 CasaEstrada 7 26 2/
+			2000 CasaEstrada 30 24 2/
+			2130 CasaEstrada 12 7 1
+		",
+		"winter_Wed": "
+			630 CasaEstrada 9 24 0/
+			800 RanchoEstrada 28 12 2/
+			1630 EstradaBarnLower 13 18 3/
+			1830 CasaEstrada 7 26 2/
+			2000 CasaEstrada 30 24 2/
+			2130 CasaEstrada 12 7 1
+		",
+		"winter_Thu": "
+			800 CasaEstrada 9 24 0/
+			1100 SeedShop 12 28 3/
+			1400 AnimalShop 11 16 1/
+			1930 CasaEstrada 7 26 2/
+			2130 CasaEstrada 12 7 1
+		",
+		"winter_Fri": "
+			630 CasaEstrada 9 24 0/
+			800 RanchoEstrada 28 12 2/
+			1530 Town 89 100 3/
+			1830 CasaEstrada 7 26 2/
+			2000 CasaEstrada 30 24 2/
+			2130 CasaEstrada 12 7 1
+		",
+		"winter_Sat": "
+			630 CasaEstrada 9 24 0/
+			800 RanchoEstrada 28 12 2/
+			1730 CasaEstrada 30 24 2/
+			2030 CasaEstrada 7 26 2/
+			2130 CasaEstrada 12 7 1
+		",
+		"winter_Sun": "
+			730 CasaEstrada 9 24 0/
+			930 SeedShop 35 17 1/
+			1000 SeedShop 37 18 0/
+			1030 SeedShop 39 17 3/
+			1100 SeedShop 37 22 0/
+			1630 Saloon 8 20 1/
+			1730 Saloon 27 21 2/
+			2030 CasaEstrada 30 24 2/
+			2130 CasaEstrada 12 7 1
+		",
+		"winter_17": "
+			630 CasaEstrada 9 24 0/
+			800 RanchoEstrada 28 12 2/
+			1730 Beach 24 28 3/
+			2200 CasaEstrada 12 7 1
+		",
+      },
+    },
+  ],
+}

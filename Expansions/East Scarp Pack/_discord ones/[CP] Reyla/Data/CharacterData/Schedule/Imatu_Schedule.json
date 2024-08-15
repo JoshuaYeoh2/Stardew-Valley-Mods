@@ -1,0 +1,39 @@
+{
+    "Changes": [
+        {
+         "LogName": "Imatu's Vanilla Schedule",
+         "Action": "EditData",
+         "Target": "Characters/schedules/RaffieJohn.Imatu",
+         "Entries":
+            {
+          //(0 = Back turned to you (up), 1 = facing right, 2 = Facing you (down), 3 = facing left)
+          //"730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening THEN 1400 RaffieJohn.Reyla_Home 25 21 1 THEN 2100 RaffieJohn.Reyla_Home 16 10 0 THEN 2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep" REPLACE "THEN" WITH "/"
+
+                "rain": "630 RaffieJohn.Reyla_Indoor_House {{Random: 26 10 0, 4 11 1, 24 10 0, 29 20 3, 25 24 2}}/730 RaffieJohn.Reyla_Home 25 31 2 Imatu_Meditate/2100 RaffieJohn.Reyla_Indoor_House 17 19 2 imatu_sleep",
+
+                "spring": "630 RaffieJohn.Reyla_Indoor_House {{Random: 26 10 0, 4 11 1, 24 10 0, 29 20 3, 25 24 2}}/730 RaffieJohn.Reyla_Home 25 31 2 Imatu_Meditate/2100 RaffieJohn.Reyla_Indoor_House 17 19 2 imatu_sleep",
+
+                "summer": "630 RaffieJohn.Reyla_Indoor_House {{Random: 26 10 0, 4 11 1, 24 10 0, 29 20 3, 25 24 2}}/730 RaffieJohn.Reyla_Home 25 31 2 Imatu_Meditate/2100 RaffieJohn.Reyla_Indoor_House 17 19 2 imatu_sleep",
+
+                "fall": "630 RaffieJohn.Reyla_Indoor_House {{Random: 26 10 0, 4 11 1, 24 10 0, 29 20 3, 25 24 2}}/730 RaffieJohn.Reyla_Home 25 31 2 Imatu_Meditate/2100 RaffieJohn.Reyla_Indoor_House 17 19 2 imatu_sleep",
+
+                "winter": "630 RaffieJohn.Reyla_Indoor_House {{Random: 26 10 0, 4 11 1, 24 10 0, 29 20 3, 25 24 2}}/730 RaffieJohn.Reyla_Home 25 31 2 Imatu_Meditate/2100 RaffieJohn.Reyla_Indoor_House 17 19 2 imatu_sleep",
+
+
+                /*"spring_mon": "630 RaffieJohn.Reyla_Indoor_House {{Random: 26 10 0, 4 11 1, 24 10 0, 29 20 3, 25 24 2}}/730 RaffieJohn.Reyla_Home 25 31 2 Imatu_Meditate/2100 RaffieJohn.Reyla_Indoor_House 17 19 2 imatu_sleep",
+
+                "spring_tues": "630 RaffieJohn.Reyla_Indoor_House {{Random: 26 10 0, 4 11 1, 24 10 0, 29 20 3, 25 24 2}}/730 RaffieJohn.Reyla_Home 25 31 2 Imatu_Meditate/2100 RaffieJohn.Reyla_Indoor_House 17 19 2 imatu_sleep",
+
+                "spring_wed": "630 RaffieJohn.Reyla_Indoor_House {{Random: 26 10 0, 4 11 1, 24 10 0, 29 20 3, 25 24 2}}/730 RaffieJohn.Reyla_Home 25 31 2 Imatu_Meditate/2100 RaffieJohn.Reyla_Indoor_House 17 19 2 imatu_sleep",
+
+                "spring_thrus": "630 RaffieJohn.Reyla_Indoor_House {{Random: 26 10 0, 4 11 1, 24 10 0, 29 20 3, 25 24 2}}/730 RaffieJohn.Reyla_Home 25 31 2 Imatu_Meditate/2100 RaffieJohn.Reyla_Indoor_House 17 19 2 imatu_sleep",
+
+                "spring_fri": "630 RaffieJohn.Reyla_Indoor_House {{Random: 26 10 0, 4 11 1, 24 10 0, 29 20 3, 25 24 2}}/730 RaffieJohn.Reyla_Home 25 31 2 Imatu_Meditate/2100 RaffieJohn.Reyla_Indoor_House 17 19 2 imatu_sleep",
+
+                "spring_sat": "630 RaffieJohn.Reyla_Indoor_House {{Random: 26 10 0, 4 11 1, 24 10 0, 29 20 3, 25 24 2}}/730 RaffieJohn.Reyla_Home 25 31 2 Imatu_Meditate/2100 RaffieJohn.Reyla_Indoor_House 17 19 2 imatu_sleep",
+
+                "spring_sun": "630 RaffieJohn.Reyla_Indoor_House {{Random: 26 10 0, 4 11 1, 24 10 0, 29 20 3, 25 24 2}}/730 RaffieJohn.Reyla_Home 25 31 2 Imatu_Meditate/2100 RaffieJohn.Reyla_Indoor_House 17 19 2 imatu_sleep",*/
+            }
+        }
+    ]
+}

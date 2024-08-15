@@ -1,0 +1,28 @@
+{
+  "Changes": [
+    //Farm
+    {
+      "LogName": "Aida Introduction",
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+      "Entries": {
+        "Sauri.CITV_AidaIntro/w sunny/t 600 1000": "continue/64 15/farmer 64 16 2 AidaSaura 64 18 0/pause 500/speak AidaSaura \"{{i18n:AidaIntro.01}}\"/pause 1200/emote farmer 40/pause 1200/speak AidaSaura \"{{i18n:AidaIntro.03}}\"/quickQuestion #{{i18n:AidaIntro.05}}#{{i18n:AidaIntro.06}}#{{i18n:AidaIntro.07}}(break)speak AidaSaura \"{{i18n:AidaIntro.08}}\"(break)speak AidaSaura \"{{i18n:AidaIntro.09}}\"(break)speak AidaSaura \"{{i18n:AidaIntro.10}}\"/pause 1000/speak AidaSaura \"{{i18n:AidaIntro.11}}\"/pause 100/message \"{{i18n:AidaIntro.12}}\"/action AddItem (O)CITV_MinersLettuceSeeds 5/pause 100/message \"{{i18n:AidaIntro.13}}\"/action AddItem (O)CITV_ValleySalad 3/speak AidaSaura \"{{i18n:AidaIntro.14}}\"/pause 100/message \"{{i18n:AidaIntro.15}}\"/action AddItem (BC)CITV_MiniScarecrow/speak AidaSaura \"{{i18n:AidaIntro.16}}\"/pause 100/message \"{{i18n:AidaIntro.17}}\"/action AddItem (BC)130/speak AidaSaura \"{{i18n:AidaIntro.18}}\"/pause 1000/speak AidaSaura \"{{i18n:AidaIntro.19}}\"/emote farmer 32/speak AidaSaura \"{{i18n:AidaIntro.20}}\"/end"
+    }
+},
+	//Casa Estrada
+    {
+      "LogName": "Maggi 2 Hearts",
+      "Action": "Load",
+      "Target": "Data/Events/CasaEstrada",
+      "FromFile": "assets/Data/Blank.json"
+    },
+    {
+      "LogName": "Events Edit",
+      "Action": "EditData",
+      "Target": "Data/Events/CasaEstrada",
+      "Entries": {
+        "Sauri.CITV_MaggiJunimos/f MaggiSaura 500/t 1100 1500": "continue/4 10/farmer 6 16 3 MaggiSaura 4 7 2/speak MaggiSaura \"{{i18n:maggijunimos.01}}\"/emote farmer 8/move farmer 4 9 0/waitForAllStationary/jump MaggiSaura 8/emote MaggiSaura 16/speak MaggiSaura \"{{i18n:maggijunimos.03}}\"/quickQuestion #{{i18n:maggijunimos.04}}#{{i18n:maggijunimos.05}}(break)speak MaggiSaura \"{{i18n:maggijunimos.06}}\"(break)speak MaggiSaura \"{{i18n:maggijunimos.07}}\"/pause 1000/emote MaggiSaura 40/pause 200/speak MaggiSaura \"{{i18n:maggijunimos.09}}\"/pause 200/speak MaggiSaura \"{{i18n:maggijunimos.10}}\"/pause 200/speak MaggiSaura \"{{i18n:maggijunimos.11}}\"/pause 1000/speak MaggiSaura \"{{i18n:maggijunimos.12}}\"/pause 500/speak MaggiSaura \"{{i18n:maggijunimos.13}}\"/pause 100/move farmer 4 17 2/textAboveHead MaggiSaura \"{{i18n:maggijunimos.14}}\"/globalFade/end"
+      }
+	}
+  ]
+}

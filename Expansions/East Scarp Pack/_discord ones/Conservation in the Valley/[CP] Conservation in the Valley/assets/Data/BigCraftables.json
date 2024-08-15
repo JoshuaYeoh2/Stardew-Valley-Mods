@@ -1,0 +1,35 @@
+{
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Mods/SauriConservationintheValley/CITVMiniScarecrow",
+			"FromFile": "assets/Items/CITVMiniScarecrow.png"
+		},
+		{
+			"LogName": "CITVMachines",
+			"Action": "EditData",
+			"Target": "Data/BigCraftables",
+			"Entries": {
+				"CITV_MiniScarecrow": {
+					"Name": "(BC)CITV_MiniScarecrow",
+					"DisplayName": "{{i18n:CITV_MiniScarecrow}}",
+					"Description": "{{i18n:CITV_MiniScarecrow_Description}}",
+					"Type": "Crafting",
+					"Category": -9,
+					"ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
+					"Price": 0,
+					"Fragility": 0,
+					"CanBePlacedOutdoors": true,
+					"CanBePlacedIndoors": true,
+					"IsLamp": false,
+					"Texture": "Mods/SauriConservationintheValley/CITVMiniScarecrow",
+					"SpriteIndex": 0,
+					"ContextTags": [
+						"crow_scare"
+						]
+				},
+			},
+		},
+	],
+}

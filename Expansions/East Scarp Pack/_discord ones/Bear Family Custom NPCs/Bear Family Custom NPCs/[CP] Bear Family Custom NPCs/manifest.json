@@ -1,0 +1,59 @@
+{
+  "Name": "[CP] Bear Family Custom NPCs",
+  "Author": "Mad Dog",
+  "Version": "0.1.0",
+  "Description": "Small expansion mod concerning the story of the Bear family and their life in the Valley. Story by Mad Dog, House + Additional Assets by Yri, Art Advice by AmbreaNoNaMe, Music by TheFrenchDodo, Very Patient Coding Tutorials and Repairs by DestyNOVA and TenebrousNova, Map Repair by TenebrousNova, Even More Event Repair by DestyNOVA, Even More Event Repair by TenebrousNova, Additional Item Sprites by DestyNOVA, C# Content by KittyCatCasey, Art Advice by FellowClown, Encouragement and Advice by the East Scarp Discord",
+
+  /*
+
+  Forest background for Teren's letterhead is from https://opengameart.org/content/mountain-at-dusk-background by author/user: ansimuz used under CC0 license.
+  Modified assets for potions (and tankard) is from https://opengameart.org/content/16x16-assorted-rpg-icons by author/user: Shade used under CC0 license.
+  */
+
+  /* Quoted materials include: 
+  
+  poetry -
+  Paterson - William Carlos Williams; A Song of the Rolling Earth - Walt Whitman; Valentine - Carol Ann Duffy, Home They Brought Her Warrior Dead - Alfred Lord Tennyson; In Possum Land - Henry Lawson; Sir Lancelot and Queen Guinevere - Alfred Lord Tennyson; Lily Pond - Vicki Feaver; Stopping by Woods on a Snowy Evening - Robert Lee Frost; Summer Heat - Eugene Field, Heat - W. M. MacKeracher, Student-Song - John Milton May; Give Me The Splendid, Silent Sun - Walt Whitman; As I Lay With My Head in Your Lap, Camerado - Walt Whitman; Ecclesiastes 4:11 - the Christian Bible; In the Summer - Nizar Qabbani
+
+  songs -
+  Middle Finger - Dropkick Murphies; Take Me Home Country Roads - John Denver; Nightcall - Kavinsky; R�n - SK�LD; Can't Fight This Feeling - REO Speedwagon; West Coast - Lana del Rey, Lover I Don't Have to Love - Bright Eyes, Din Skugga - Kent, Messidona - Driver Friendly, Twin Skeleton�s (Hotel in NYC) - Fall Out Boy, The Taste of Ink - The Used, Midnight Train to Georgia - Gladys Knight & the Pips; Long Train Runnin' - The Doobie Brothers; Downbound Train - Bruce Springsteen; Folsom Prison Blues - Johnny Cash
+
+ 
+  No copyright infringement intended.*/
+
+  "UniqueID": "MadDog.HashtagBearFam",
+  "UpdateKeys": [
+    "Nexus:???" //16197
+  ],
+
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "DH.MEEP": "2.0.0",
+  "DH.MEEP.CloseupInteractions": "",
+  "DH.MEEP.AddConversationTopic": "",
+  "DH.MEEP.FarmAnimalSpawns": "",
+  "DH.MEEP.FakeNPCs": "",
+  "Dependencies": [
+    {
+      "UniqueID": "LemurKat.EastScarpe.CP",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "spacechase0.SpaceCore",
+      "IsRequired": true
+    },
+    /*{
+      "UniqueID": "PeacefulEnd.CustomCompanions",
+      "IsRequired": true
+    },*/
+    {
+      "UniqueID": "DecidedlyHuman.MappingExtensionsAndExtraProperties",
+      "IsRequired": true
+    }
+    /*{
+      "UniqueID": "spacechase0.JsonAssets",
+      "IsRequired": true
+    }*/
+  ]
+}

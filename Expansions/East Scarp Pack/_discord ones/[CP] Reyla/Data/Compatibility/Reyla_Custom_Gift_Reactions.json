@@ -1,0 +1,70 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Reyla",
+
+      "Entries": {
+        //Loved, Non-Birthday
+        "GiftReaction_Tomato": "{{i18n:Reyla.Tomato.00}}",
+        "GiftReaction_Strawberry": "{{i18n:Reyla.Strawberry.00}}",
+        "GiftReaction_Spaghetti": "{{i18n:Reyla.Spaghetti.00}}",
+        "GiftReaction_Mango": "{{i18n:Reyla.mago_sticky_rice.00}}",
+        "GiftReaction_Elvish_Jewelry": "{{i18n:Reyla.Elvish_Jewelry.00}}",
+        "GiftReaction_Stuffing": "{{i18n:Reyla.Stuffing.00}}",
+        "GiftReaction_Sashimi": "{{i18n:Reyla.Sashimi.00}}",
+
+        //Loved, Birthday
+        "GiftReaction_Tomato_Birthday": "{{i18n:Reyla.Tomato.01}}",
+        "GiftReaction_Strawberry_Birthday": "{{i18n:Reyla.Strawberry.01}}",
+        "GiftReaction_Spaghetti_Birthday": "{{i18n:Reyla.Spaghetti.01}}",
+        "GiftReaction_Mango_Birthday": "{{i18n:Reyla.Mango.01}}",
+        "GiftReaction_Elvish_Jewelry_Birthday": "{{i18n:Reyla.Elvish_Jewelry.01}}",
+        "GiftReaction_Stuffing_Birthday": "{{i18n:Reyla.Stuffing.01}}",
+        "GiftReaction_Sashimi_Birthday": "{{i18n:Reyla.Sashimi.01}}",
+
+        //Liked, Non-Birthday
+        "GiftReaction_Cloth": "{{i18n:Reyla.Cloth.00}}",
+        "GiftReaction_Maki_Roll": "{{i18n:Reyla.Maki_Roll.00}}",
+        "GiftReaction_Truffle": "{{i18n:Reyla.Truffle.00}}",
+        "GiftReaction_Chocolate_Cake": "{{i18n:Reyla.Chocolate_Cake.00}}",
+        "GiftReaction_Ruby": "{{i18n:Reyla.Ruby.00}}",
+        "GiftReaction_Coconut": "{{i18n:Reyla.Coconut.00}}",
+        "GiftReaction_Rainbow_Shell": "{{i18n:Reyla.Rainbow_Shell.00}}",
+        "GiftReaction_Pumpkin_Soup": "{{i18n:Reyla.Pumpkin_Soup.00}}",
+        "GiftReaction_Blueberry_Tart": "{{i18n:Reyla.Blueberry_Tart.00}}",
+
+        //Liked, Birthday
+        "GiftReaction_Cloth_Birthday": "{{i18n:Reyla.Cloth.01}}",
+        "GiftReaction_Maki_Roll_Birthday": "{{i18n:Reyla.Maki_Roll.01}}",
+        "GiftReaction_Truffle_Birthday": "{{i18n:Reyla.Truffle.01}}",
+        "GiftReaction_Chocolate_Cake_Birthday": "{{i18n:Reyla.Chocolate_Cake.01}}",
+        "GiftReaction_Ruby_Birthday": "{{i18n:Reyla.Ruby.01}}",
+        "GiftReaction_Coconut_Birthday": "{{i18n:Reyla.Coconut.01}}",
+        "GiftReaction_Rainbow_Shell_Birthday": "{{i18n:Reyla.Rainbow_Shell.01}}",
+        "GiftReaction_Pumpkin_Soup_Birthday": "{{i18n:Reyla.Pumpkin_Soup.01}}",
+        "GiftReaction_Blueberry_Tart_Birthday": "{{i18n:Reyla.Blueberry_Tart.01}}",
+
+        //Hate, Non-Birthday
+        "GiftReaction_Cheese": "{{i18n:Reyla.Cheese.00}}",
+        "GiftReaction_Wine": "{{i18n:Reyla.Wine.00}}",
+        "GiftReaction_Miner's_Treat": "{{i18n:Reyla.Miner's_Treat.00}}",
+        "GiftReaction_Clay": "{{i18n:Reyla.Clay.00}}",
+        "GiftReaction_Cheese_Cauliflower": "{{i18n:Reyla.Cheese_Cauliflower.00}}",
+        "Reyla.Goat_Cheese": "{{i18n:Reyla.Goat_Cheese.00}}",
+
+        //Hate, Birthday
+        "GiftReaction_Cheese_Birthday": "{{i18n:Reyla.Cheese.01}}",
+        "GiftReaction_Wine_Birthday": "{{i18n:Reyla.Wine.01}}",
+        "GiftReaction_Miner's_Treat_Birthday": "{{i18n:Reyla.Miner's_Treat.01}}",
+        "GiftReaction_Clay_Birthday": "{{i18n:Reyla.Clay.01}}",
+        "GiftReaction_Cheese_Cauliflower_Birthday": "{{i18n:Reyla.Cheese_Cauliflower.01}}",
+        "Reyla.Goat_Cheese_Birthday": "{{i18n:Reyla.Goat_Cheese.01}}"
+      },
+      "When": {
+        "Hearts:Reyla": "{{Range: 0, 8}}",
+        "Relationship:Reyla |contains=Dating, Engaged, Married": false
+      }
+    }
+  ]
+}

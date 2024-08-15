@@ -1,0 +1,78 @@
+{
+  "Name": "DollyBison",
+  "Type": "Walking", 
+  "EnableFarmerCollision": true, 
+  "EnableShadow": false, 
+  "TravelSpeed": 1, 
+  "SpawnDirection": 1, 
+  "SpawnOffsetX": 0, 
+  "SpawnOffsetY": 0,
+  "MaxIdleDistance": -1, 
+  "MaxDistanceBeforeTeleport": -1, 
+ //"TileSheetPath": "Critters\\DollyBisonRevised",
+  "InspectionDialogue": "Dolly sidles up to you for scritches. Her fur is impressively fluffy.",
+  "IdleBehavior": "Wander",
+
+  "Sounds": [
+    {
+      "SoundName": "cow",
+      "WhenToPlay": "Idle",
+      "Pitch": 1200,
+      "MinPitchRandomness": -200,
+      "MaxPitchRandomness": 201,
+      "TimeBetweenSound": 5000,
+      "ChanceOfPlaying": 0.10
+    }
+  ],
+
+  "FrameSizeWidth": 32, 
+  "FrameSizeHeight": 32, 
+
+  "UpAnimation": {
+    "StartingFrame": 8,
+    "NumberOfFrames": 4,
+    "Duration": 100,
+
+    "IdleAnimation": {
+      "StartingFrame": 8,
+      "NumberOfFrames": 1,
+      "Duration": 500
+    }
+  },
+
+  "DownAnimation": {
+    "StartingFrame": 0,
+    "NumberOfFrames": 4,
+    "Duration": 100,
+
+    "IdleAnimation": {
+      "StartingFrame": 0,
+      "NumberOfFrames": 1,
+      "Duration": 500
+    }
+  },
+
+  "LeftAnimation": {
+    "StartingFrame": 12,
+    "NumberOfFrames": 4,
+    "Duration": 100,
+
+    "IdleAnimation": {
+      "StartingFrame": 4,
+      "NumberOfFrames": 1,
+      "Duration": 500
+    }
+  },
+
+  "RightAnimation": {
+    "StartingFrame": 4,
+    "NumberOfFrames": 4,
+    "Duration": 100,
+
+    "IdleAnimation": {
+      "StartingFrame": 4,
+      "NumberOfFrames": 1,
+      "Duration": 500
+    }
+  }
+}

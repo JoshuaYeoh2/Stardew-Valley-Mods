@@ -1,0 +1,40 @@
+{
+    "Changes": [
+        {
+            "LogName": "Carrie in Barn",
+            "Action": "EditMap",
+            "Target": "Maps/EstradaBarnLower",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": "7",
+                        "Y": "6"
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 SauriConservationintheValleyCC.CarrieBison"
+                    },
+                },
+            ],
+            "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "Carrie Out Grazing",
+            "Action": "EditMap",
+            "Target": "Maps/RanchoEstrada",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": "31",
+                        "Y": "35"
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 SauriConservationintheValleyCC.CarrieBison"
+                    },
+                },
+            ],
+            "Update": "OnLocationChange"
+        },
+    ]
+}

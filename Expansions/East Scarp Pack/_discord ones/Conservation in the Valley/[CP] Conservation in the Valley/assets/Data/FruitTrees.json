@@ -1,0 +1,37 @@
+{
+	"Changes": [
+		{
+            "LogName": "Tree textures",
+            "Action": "Load",
+            "Target": "Mods/SauriConservationInTheValley/CITVEstradaTrees",
+            "FromFile": "assets/Items/CITVEstradaTrees.png"
+        },
+		{
+			"Action": "EditData",
+			"Target": "Data/FruitTrees",
+			"Entries": {
+				"CITV_BlackWalnutSapling": {
+					"DisplayName": "{{i18n:CITV_BlackWalnut}}",
+					"Seasons": [ "spring" ],
+					"Fruit": [{"ItemId": "CITV_BlackWalnut"}],
+					"Texture": "Mods\\SauriConservationintheValley\\CITVEstradaTrees",
+					"TextureSpriteRow": 0
+				},
+				"CITV_BlackHawthornSapling": {
+					"DisplayName": "{{i18n:CITV_BlackHawthorn}}",
+					"Seasons": [ "spring" ],
+					"Fruit": [{"ItemId": "CITV_BlackHawthorn"}],
+					"Texture": "Mods\\SauriConservationintheValley\\CITVEstradaTrees",
+					"TextureSpriteRow": 1
+				},
+				"CITV_ValleyPlumSapling": {
+					"DisplayName": "{{i18n:CITV_ValleyPlum}}",
+					"Seasons": [ "spring" ],
+					"Fruit": [{"ItemId": "CITV_ValleyPlum"}],
+					"Texture": "Mods\\SauriConservationintheValley\\CITVEstradaTrees",
+					"TextureSpriteRow": 2
+				},
+			}
+		}
+	]
+}

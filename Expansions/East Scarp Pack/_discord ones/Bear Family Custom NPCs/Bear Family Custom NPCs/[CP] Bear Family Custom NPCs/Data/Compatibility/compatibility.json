@@ -1,0 +1,92 @@
+{
+  "Changes": [
+
+    //event lookup - get to this eventually
+
+    //gift tastes
+    
+    //Rodney auto
+    {
+      "LogName": "An autographed photo",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Sigurd",
+            "9"
+          ],
+          "Value": "{{spacechase0.jsonAssets/ObjectId:An autographed photo}}",
+          "Delimiter": " "
+        }
+      ],
+      "When": {
+        "HasMod": "TheFrenchDodo.RodneyOBrien"
+      }
+    },
+    {
+      "LogName": "An autographed photo",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Sondra",
+            "3"
+          ],
+          "Value": "{{spacechase0.jsonAssets/ObjectId:An autographed photo}}",
+          "Delimiter": " "
+        }
+      ],
+      "When": {
+        "HasMod": "TheFrenchDodo.RodneyOBrien"
+      }
+    },
+    {
+      "LogName": "An autographed photo",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Gunnar",
+            "9"
+          ],
+          "Value": "{{spacechase0.jsonAssets/ObjectId:An autographed photo}}",
+          "Delimiter": " "
+        }
+      ],
+      "When": {
+        "HasMod": "TheFrenchDodo.RodneyOBrien"
+      }
+    },
+    {
+      "LogName": "An autographed photo",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Gudrun",
+            "5"
+          ],
+          "Value": "{{spacechase0.jsonAssets/ObjectId:An autographed photo}}",
+          "Delimiter": " "
+        }
+      ],
+      "When": {
+        "HasMod": "TheFrenchDodo.RodneyOBrien"
+      }
+    }
+
+
+  ]
+}

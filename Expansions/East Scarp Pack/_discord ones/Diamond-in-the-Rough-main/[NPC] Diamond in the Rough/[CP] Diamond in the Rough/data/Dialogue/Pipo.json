@@ -1,0 +1,81 @@
+{
+    "Changes": [
+        {
+            "LogName": "Pipo Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/PipoP",
+            "Entries": 	{ 
+                "{{WeekDay}}": "{{i18n:Core.PipoP.{{Random:Sound, Action|key=PAB}}.{{Random:{{Range: 1, 20}}}}}}"
+            }
+        },
+        { 
+            "LogName": "Pipo Static Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/PipoP",
+            "Entries":{
+
+            //Locations
+            "Town_48_33": "{{i18n:Core.PipoP.Locations.Town.PrideFest}}",
+            "Town_50_21": "{{i18n:Core.PipoP.Locations.Town.PrideFest.{{Random:{{Range: 1, 2}}}}}}",
+
+            //Gifts
+            "AcceptGift_category_milk": "{{i18n:Gifts.PipoP.Milk}}", //Milk
+            "AcceptGift_(O)139": "{{i18n:Gifts.PipoP.Salmon}}",
+            "AcceptGift_(O)212": "{{i18n:Gifts.PipoP.Salmon}}",
+            "AcceptGift_(O)795": "{{i18n:Gifts.PipoP.Salmon}}",
+            "AcceptGift_(O)130": "{{i18n:Gifts.PipoP.Tuna}}",
+            "AcceptGift_(O)444": "{{i18n:Gifts.PipoP.DuckFeather}}",
+            "AcceptGift_(O)728": "{{i18n:Gifts.PipoP.FishSoup}}",
+            "AcceptGift_(O)727": "{{i18n:Gifts.PipoP.FishSoup}}",
+            "AcceptGift_(O)219": "{{i18n:Gifts.PipoP.FishSoup}}",
+            "AcceptGift_(O)769": "{{i18n:Gifts.PipoP.VoidEssence}}",
+            "AcceptGift_(O)422": "{{i18n:Gifts.PipoP.PurpleMushroom}}",
+            "AcceptGift_(O)216": "{{i18n:Gifts.PipoP.Bread}}",
+            "AcceptGift_(O)618": "{{i18n:Gifts.PipoP.Bread}}",
+            "AcceptGift_(O)22": "{{i18n:Gifts.PipoP.Dandelion}}",
+
+            "AcceptGift_category_meat": "{{i18n:Gifts.PipoP.Meat}}", //Meat
+            "AcceptGift_category_fish": "{{i18n:Gifts.PipoP.Fish}}", //Fish
+            "AcceptGift_category_egg": "{{i18n:Gifts.PipoP.Egg}}", //Egg
+            "AcceptGift_(O)198": "{{i18n:Gifts.PipoP.FishMeal}}",
+            "AcceptGift_(O)203": "{{i18n:Gifts.PipoP.FishMeal}}",
+            "AcceptGift_(O)213": "{{i18n:Gifts.PipoP.FishMeal}}",
+            "AcceptGift_(O)214": "{{i18n:Gifts.PipoP.FishMeal}}",
+            "AcceptGift_(O)225": "{{i18n:Gifts.PipoP.FishMeal}}",
+            "AcceptGift_(O)227": "{{i18n:Gifts.PipoP.FishMeal}}",
+            "AcceptGift_(O)228": "{{i18n:Gifts.PipoP.FishMeal}}",
+            "AcceptGift_(O)732": "{{i18n:Gifts.PipoP.FishMeal}}",
+            "AcceptGift_(O)733": "{{i18n:Gifts.PipoP.FishMeal}}",
+            "AcceptGift_(O)812": "{{i18n:Gifts.PipoP.FishEggs}}",
+            "AcceptGift_(O)447": "{{i18n:Gifts.PipoP.FishEggs}}",
+            "AcceptGift_(O)445": "{{i18n:Gifts.PipoP.FishEggs}}",
+            "AcceptGift_(O)771": "{{i18n:Gifts.PipoP.Fiber}}",
+            "AcceptGift_(O)sapphicsaph_pitv.EnbyEclair": "{{i18n:Gifts.PipoP.EnbyEclair}}",
+
+            "RejectItem_category_vegetable": "{{i18n:Gifts.PipoP.Vegetables}}", //Vegetable
+            "AcceptGift_category_greens": "{{i18n:Gifts.PipoP.Forage}}", //Forage
+
+            "RejectItem_(O)768": "{{i18n:Gifts.PipoP.SolarEssence}}",
+            "RejectItem_(O)248": "{{i18n:Gifts.PipoP.Garlic}}",
+            "RejectItem_(O)772": "{{i18n:Gifts.PipoP.Garlic}}",
+            "RejectItem_(O)220": "{{i18n:Gifts.PipoP.ChocolateCake}}",
+            "RejectItem_(O)69": "{{i18n:Gifts.PipoP.Banana}}",
+            "RejectItem_(O)226": "{{i18n:Gifts.PipoP.SpicyEel}}",
+            "RejectItem_(O)420": "{{i18n:Gifts.PipoP.RedMushroom}}",
+            
+            "AcceptGift_category_junk": "{{i18n:Gifts.PipoP.Trash}}",
+            "AcceptGift_(O)16": "{{i18n:Gifts.PipoP.WildHorseradish}}",
+
+            "RejectItem_(O)809": "{{i18n:Movies.PipoP.RejectMovieTicket}}",
+
+            //Purple Shorts Easter Egg
+            "RejectItem_(O){{ModID}}_Items.UnluckyPurpleShorts": "{{i18n:Gifts.PipoP.UnluckyPurpleShorts}}", 
+            "RejectItem_(O)686": "{{i18n:Gifts.PipoP.UnluckyPurpleShorts.Revocation}}", //Spinner
+            "RejectItem_(O)687": "{{i18n:Gifts.PipoP.UnluckyPurpleShorts.Revocation}}", //Dressed Spinner
+            "RejectItem_(O)691": "{{i18n:Gifts.PipoP.UnluckyPurpleShorts.Revocation}}", //Barbed Hook
+            "RejectItem_(O)856": "{{i18n:Gifts.PipoP.UnluckyPurpleShorts.Revocation}}", //Curiosity Lure
+            "RejectItem_(O)877": "{{i18n:Gifts.PipoP.UnluckyPurpleShorts.Revocation}}" //Quality Bobber
+        }
+    }
+        ]
+}

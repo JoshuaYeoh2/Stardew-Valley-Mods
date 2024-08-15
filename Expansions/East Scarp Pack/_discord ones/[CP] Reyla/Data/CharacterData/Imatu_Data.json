@@ -1,0 +1,104 @@
+{
+    "Changes": [
+        {
+            "LogName": "Disposition Data Imatu",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+              "RaffieJohn.Imatu": {
+                "DisplayName": "{{i18n: RaffieJohn.Imatu}}",
+                "BirthSeason": "Fall",
+                "BirthDay": 25,
+                "HomeRegion": "Town",
+                "Gender": "Male",
+                "Age": "Adult",
+                "Manner": "Polite",
+                "SocialAnxiety": "Shy",
+                "Optimism": "Negative",
+                "CanBeRomanced": false,
+                "Calender": "HiddenUntilMet",
+                "SocialTab": "HiddenUntilMet",
+                "SocializeConditions": null,
+                "CanVisitIslandCondition": null,
+                "ExcludeFromIntroductionsQuest": true,
+                "ExcludeFromPerfectionScore": false,
+                "EndSlideShow": "MainGroup",
+                "UnlockConditions": "PLAYER_HAS_SEEN_EVENT All RaffieJohn.Imatu_Intro",
+                "SpawnIfMissing": true,
+                "IsDarkSkinned": true,
+                "LoveInterest": "Reyla",
+                "Home": [
+                {
+                    "Id": "Default",
+                    "Condition": null,
+                    "Location": "RaffieJohn.Reyla_Indoor_House",
+                    "Tile": {
+                        "X": 17,
+                        "Y": 19
+                    },
+                    "Direction": "Left"
+                }
+                ],
+                "TextureName": "Imatu",
+                "Appearance": [],
+                "Size": {
+                    "X": 16,
+                    "Y": 32
+                  },
+                "Breather": true
+              }
+            }
+        },
+            //Loading empty json's so the i18n can be loaded 
+    {
+        "LogName": "Imatu Dialogue Load",
+        "Action": "Load",
+        "Target": "Characters/Dialogue/RaffieJohn.Imatu",
+        "FromFile": "Assets/empty.json"
+      },
+      {
+        "LogName": "Schedule Inclusion - Imatu",
+        "Action": "Load",
+        "Target": "Characters/schedules/RaffieJohn.Imatu",
+        "FromFile": "Assets/empty.json"
+      },
+      {
+        "LogName": "Movie Inclusion - Imatu",
+        "Action": "Load",
+        "Target": "Characters/MoviesReaction/RaffieJohn.Imatu",
+        "FromFile": "Assets/empty.json"
+      },
+      //General Gift Taste Reactions
+      {
+        "LogName": "Gift Taste Data",
+        "Action": "EditData",
+        "Target": "Data/NPCGiftTastes",
+        "Entries": {
+          "RaffieJohn.Imatu": "{{i18n: Gift_Taste_Data.Love}}/90 104 109 115 163 268 446 206/{{i18n: Gift_Taste_Data.Like}}/561 567 618 636 731 814 834 873/{{i18n: Gift_Taste_Data.Dislike}}/457 396 286 252 /{{i18n: Gift_Taste_Data.Hate}}/110 111 232 278/{{i18n: Gift_Taste_Data.Neutral}}/143/"
+        }
+      },
+      {
+        "LogName": "Imatu Animation Data",
+        "Action": "EditData",
+        "Target": "Data/AnimationDescriptions",
+        "Update": "OnLocationChange",
+        "Entries": {
+          "imatu_sleep": "31/31/31",
+          "Imatu_Meditate": "18/18 18 18 18 19 19 19 19/19"
+        }
+      },
+    //Basic outfit if seasonal is turned off
+    {
+      "LogName": "Imatu Sprites Load",
+      "Action": "Load",
+      "Target": "Characters/Imatu",
+      "FromFile": "assets/Characters/Imatu/Imatu_Sprites.png"
+    },
+    {
+      "LogName": "Imatu Portraits Load",
+      "Action": "Load",
+      "Target": "Portraits/Imatu",
+      "FromFile": "assets/Portraits/Imatu/Imatu_Base_Portraits.png"
+    }
+  ]
+}

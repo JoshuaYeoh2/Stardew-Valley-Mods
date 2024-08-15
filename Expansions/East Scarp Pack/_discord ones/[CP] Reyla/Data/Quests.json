@@ -1,0 +1,21 @@
+{
+    "Changes": [
+    {
+        "LogName": "Quests for Reyla",
+        "Action": "EditData",
+        "Target": "Data/Quests",
+        "Entries":
+                    {
+                        "RaffieJohn.Reyla_MeetTheGuild": "ItemDelivery/{{i18n: Reyla.Quest_01_Title}}/{{i18n: Reyla.Quest_01_Desc}}/{{i18n: Reyla.Quest_01_Hint}}/RaffieJohn.Reyla 86/-1/500/-1/true/{{i18n: Reyla.Quest_01_Reaction}}",
+
+                        "RaffieJohn.Reyla_Photo": "LostItem/{{i18n:Reyla.Quest_Photo_Title}}/{{i18n:Reyla.Quest_Photo_Desc}}/{{i18n:Reyla.Quest_Photo_Hint}}/RaffieJohn.Reyla RaffieJohn.PhotoMom Beach {{Random: 78 23, 66 6, 88 18}}/-1/1500/-1/true/{{i18n:Reyla.Quest_Photo_Reaction}}"
+
+                        /*"RaffieJohn.Reyla_MakeABoomP1": "ItemDelivery/{{i18n: Reyla.Quest_MakeABoomP1_Title}}/{{i18n: Reyla.Quest_MakeABoomP1_Desc}}/{{i18n: Reyla.Quest_MakeABoomP1_Hint}}/RaffieJohn.Reyla 388 300/RaffieJohn.Reyla_MakeABoomP2/1000/false/false/{{i18n: Reyla.Quest_MakeABoomP1_Reaction}}",
+
+                        "RaffieJohn.Reyla_MakeABoomP2": "ItemDelivery/{{i18n: Reyla.Quest_MakeABoomP2_Title}}/{{i18n: Reyla.Quest_MakeABoomP2_Desc}}/{{i18n: Reyla.Quest_MakeABoomP2_Hint}}/RaffieJohn.Reyla 287 50/RaffieJohn.Reyla_MakeABoomP3/1000/false/false/{{i18n: Reyla.Quest_MakeABoomP2_Reaction}}",
+                        
+                        "RaffieJohn.Reyla_MakeABoomP3": "ItemDelivery/{{i18n: Reyla.Quest_MakeABoomP3_Title}}/{{i18n: Reyla.Quest_MakeABoomP3_Desc}}/{{i18n: Reyla.Quest_MakeABoomP3_Hint}}/RaffieJohn.Reyla 288 30/-1/1000/false/false/{{i18n: Reyla.Quest_MakeABoomP3_Reaction}}"*/
+            }
+        }
+    ]   
+}

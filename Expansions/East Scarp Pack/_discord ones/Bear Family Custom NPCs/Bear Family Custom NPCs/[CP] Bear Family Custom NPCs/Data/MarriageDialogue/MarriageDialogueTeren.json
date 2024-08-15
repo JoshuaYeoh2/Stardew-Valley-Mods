@@ -1,0 +1,123 @@
+{
+    "Changes": 
+    [
+        {
+        
+            "LogName": "Normal Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialogueTeren",
+          "Entries": {
+
+            //this gets renamed back to MarriageDialogueTeren    
+
+            /*"patio_Teren": "{{Random:{{i18n:patioTeren1}} ++ {{i18n:patioTeren2}} ++ {{i18n:patioTeren3}}|inputSeparator=++}}",
+            "spouseRoom_Teren": "{{Random:{{i18n:spouseroomTeren1}} ++ {{i18n:spouseroomTeren2}} ++ {{i18n:spouseroomTeren3}}|inputSeparator=++}}",*/
+
+
+            "funLeave_Teren": "{{i18n:funLeaveMarriedTeren}}",
+            "funReturn_Teren": "{{18n:funReturnMarriedTeren}}",
+            //dates
+            "spring_Teren": "{{i18n:springMarriedTeren}}",
+            "spring_24": "{{i18n:springMarriedTeren24}",
+            "spring_19": "{{i18n:springMarriedTeren19}}",
+            "summer_Teren": "{{i18n:summerMarriedTeren}}",
+            "summer_11": "{{i18n:summerMarriedTeren11}}",
+            "fall_Teren": "{{i18n:fallMarriedTeren}}",
+            "fall_19": "{{i18n:fallMarriedTeren19}}",
+            "winter_Teren": "{{i18n:winterMarriedTeren}}",
+            "winter_24": "{{i18n:winterMarriedTeren24}}",
+
+
+            //GENERIC DIALOGUE
+            //rainyday 
+            "Rainy_Day_0": "{{i18n:RainyDayTeren0}}",
+            "Rainy_Day_1": "{{i18n:RainyDayTeren1}}",
+            "Rainy_Day_2": "{{i18n:RainyDayTeren2}}",
+            "Rainy_Day_3": "{{i18n:RainyDayTeren3}}",
+            "Rainy_Day_4": "{{i18n:RainyDayTeren4}}",
+            "Rainy_Day_5": "{{i18n:RainyDayTeren5}}",
+            "Rainy_Day_6": "{{i18n:RainyDayTeren6}}",
+
+            //rainynight
+            "Rainy_Night_0": "{{i18n:RainyNightTeren0}}", //Ecclesiastes 4:11
+            "Rainy_Night_1": "{{i18n:RainyNightTeren1}}",
+            "Rainy_Night_2": "{{i18n:RainyNightTeren2}}",
+            "Rainy_Night_3": "{{i18n:RainyNightTeren3}}", //Jojaflix = Netflix
+            "Rainy_Night_4": "{{i18n:RainyNightTeren4}}", //Student-Song - John Milton May
+            "Rainy_Night_5": "{{i18n:RainyNightTeren5}}",
+            "Rainy_Night_6": "{{i18n:RainyNightTeren6}}",
+            "Rainy_Night_Teren": "{{i18n:RainyNightTeren}}",
+
+            //indoorday
+            "Indoor_Day_0": "{{i18n:IndoorDayTeren0}}",
+            "Indoor_Day_1": "{{i18n:IndoorDayTeren1}}",
+            "Indoor_Day_2": "{{i18n:IndoorDayTeren2}}",
+            "Indoor_Day_3": "{{i18n:IndoorDayTeren3}}",
+            "Indoor_Day_4": "{{i18n:IndoorDayTeren4}}",
+            "Indoor_Day_5": "{{i18n:IndoorDayTeren5}}",
+            "Indoor_Day_Teren": "{{i18n:IndoorDayTeren}}",
+
+            //indoornight
+            "Indoor_Night_0": "{{i18n:IndoorNightTeren0}}",
+            "Indoor_Night_1": "{{i18n:IndoorNightTeren1}}",
+            "Indoor_Night_2": "{{i18n:IndoorNightTeren2}}",
+            "Indoor_Night_3": "{{i18n:IndoorNightTeren3}}",
+            "Indoor_Night_4": "{{i18n:IndoorNightTeren4}}",
+            "Indoor_Night_5": "{{i18n:IndoorNightTeren5}}",
+
+            //outdoor
+            "Outdoor_0": "{{i18n:OutdoorTeren0}}", //Give Me The Splendid, Silent Sun - Walt Whitman
+            "Outdoor_1": "{{i18n:OutdoorTeren1}}",
+            "Outdoor_2": "{{i18n:OutdoorTeren2}}",
+            "Outdoor_3": "{{i18n:OutdoorTeren3}}",
+            "Outdoor_4": "{{i18n:OutdoorTeren4}}",
+            "Outdoor_Teren": "{{i18n:OutdoorTeren}}",
+
+            //kids
+
+            "OneKid_0": "{{i18n:OneKidTeren0}}",
+            "OneKid_1": "{{i18n:OneKidTeren1}}",
+            "OneKid_2": "{{i18n:OneKidTeren2}}",
+            "OneKid_3": "{{i18n:OneKidTeren3}}",
+            "OneKid_4": "{{i18n:OneKidTeren4}}",
+            "TwoKids_0": "{{i18n:TwoKidsTeren0}}",
+            "TwoKids_1": "{{i18n:TwoKidsTeren1}}",
+            "TwoKids_2": "{{i18n:TwoKidsTeren2}}",
+            "TwoKids_3": "{{i18n:TwoKidsTeren3}}",
+            "TwoKids_4": "{{i18n:TwoKidsTeren4}}",
+
+            //AFFECTION DIALOGUE
+
+            "Good_0": "{{i18n:GoodTeren0}}",
+            "Good_1": "{{i18n:GoodTeren1}}",
+            "Good_2": "{{i18n:GoodTeren2}}",
+            "Good_3": "{{i18n:GoodTeren3}}",
+            "Good_4": "{{i18n:GoodTeren4}}",
+            "Good_5": "{{i18n:GoodTeren5}}",
+            "Good_6": "{{i18n:GoodTeren6}}",
+            "Good_7": "{{i18n:GoodTeren7}}",
+            "Good_8": "{{i18n:GoodTeren8}}", //Paterson - William Carlos Williams
+
+            "Neutral_0": "{{i18n:NeutralTeren0}}",
+            "Neutral_1": "{{i18n:NeutralTeren1}}",
+            "Neutral_2": "{{i18n:NeutralTeren2}}",
+            "Neutral_3": "{{i18n:NeutralTeren3}}",
+            "Neutral_4": "{{i18n:NeutralTeren4}}",
+            "Neutral_5": "{{i18n:NeutralTeren5}}",
+            "Neutral_6": "{{i18n:NeutralTeren6}}",
+            "Neutral_7": "{{i18n:NeutralTeren7}}",
+
+            "Bad_0": "{{i18n:BadTeren0}}",
+            "Bad_1": "{{i18n:BadTeren1}}",
+            "Bad_2": "{{i18n:BadTeren2}}",
+            "Bad_3": "{{i18n:BadTeren3}}",
+            "Bad_4": "{{i18n:BadTeren4}}",
+            "Bad_5": "{{i18n:BadTeren5}}",
+            "Bad_6": "{{i18n:BadTeren6}}",
+            "Bad_7": "{{i18n:BadTeren7}}",
+            "Bad_8": "{{i18n:BadTeren8}}"
+
+          }            
+        }
+    ]
+}

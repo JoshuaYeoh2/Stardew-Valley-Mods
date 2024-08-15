@@ -1,0 +1,28 @@
+{
+    "Name": "Conservation in the Valley",
+    "Author": "saurianne",
+    "Version": "0.0.1",
+    "Description": "Adds crops, livestock, and some nerds, broadly centered around ecology work.",
+    "UniqueID": "SauriConservationintheValley",
+    "MinimumApiVersion": "1.0.0",
+    "UpdateKeys": [			//someday i will figure out how to write one of these. today is not that day.
+    ],
+    "Dependencies": [
+        {
+            "UniqueID": "LemurKat.EastScarpe.CP",
+            "IsRequired": true
+        },
+        {
+            "UniqueID": "Lumisteria.LumiTilesheetsIndoor"
+        },
+        {
+            "UniqueID": "Lumisteria.TtilesheetsOutdoor"
+        },
+		{
+            "UniqueID": "hxw.tilesheets"
+        },
+	   ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

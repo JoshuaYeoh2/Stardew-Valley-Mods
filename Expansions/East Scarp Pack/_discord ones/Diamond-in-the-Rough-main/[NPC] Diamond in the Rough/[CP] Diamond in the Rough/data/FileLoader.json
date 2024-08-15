@@ -1,0 +1,199 @@
+{
+    "Changes": [
+//---------------------------- BLANK LOADS ------------------------------------------//
+        {
+            "Action": "Load",
+            "Target": "Characters/Dialogue/EveT, Characters/schedules/EveT, Characters/Dialogue/TraceV, Characters/schedules/TraceV, Characters/Dialogue/WaffleW, Characters/schedules/WaffleW, Characters/Dialogue/PipoP, Characters/schedules/PipoP, Characters/Dialogue/SenS, Characters/schedules/SenS, Characters/Dialogue/MarriageDialogueSenS, Characters/Dialogue/MarriageDialogueSenSRoommate, Characters/Dialogue/SkrellS, Characters/Dialogue/EbbS, Characters/Dialogue/DiamondS, Characters/Dialogue/ClyricT, Characters/Dialogue/CowD, Characters/Dialogue/JeremyTSnail, Characters/schedules/JeremyTSnail, Data/Events/{{ModID}}_Maps.Jeremy_Room",
+            "FromFile": "data/blank.json"
+        },
+//---------------------------- TILESHEET LOADS ------------------------------------------//
+    //Homes
+        {
+            "Action": "Load",
+            "Target": "maps/spring_DitR_Tilesheet, maps/summer_DitR_Tilesheet, maps/fall_DitR_Tilesheet, maps/winter_DitR_Tilesheet",
+            "FromFile": "assets/Tilesheets/Homes/{{TargetWithoutPath}}.png"
+        },
+    //Caves
+        {
+            "Action": "Load",
+            "Target": "maps/DitR_Dark_Mine, maps/DitR_Desert_Mine",
+            "FromFile": "assets/Tilesheets/Caves/{{TargetWithoutPath}}.png"
+        },
+    //CGs
+        {
+            "Action": "Load",
+            "Target": "maps/DitR_CG_Sen_Ocean",
+            "FromFile": "assets/Tilesheets/CGs/{{TargetWithoutPath}}.png"
+        },
+//---------------------------- ITEM TILESHEETS ------------------------------------------//
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/Aquarium_Fish, Mods/{{ModID}}/Hats",
+            "FromFile": "assets/Items/{{TargetWithoutPath}}.png"
+        },
+//---------------------------- FARM ANIMALS ------------------------------------------//
+        {
+            "Action": "Load",
+            "Target": "Animals/Giant_Void_Lava_Snail, Animals/Baby_Giant_Void_Lava_Snail, Animals/Golden_Void_Lava_Snail, Animals/Baby_Golden_Void_Lava_Snail, Animals/Giant_Void_Lava_Snail_Caldera, Animals/Baby_Giant_Void_Lava_Snail_Caldera",
+            "FromFile": "assets/Animals/{{TargetWithoutPath}}.png"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "data/Animals/Giant_Void_Lava_Snail.json, data/Animals/Golden_Void_Lava_Snail.json"
+        },
+//---------------------------- BUILDING FILES ------------------------------------------//
+        {
+            "Action": "Load",
+            "Target": "Buildings/DitR_Animal_Tree_House",
+            "FromFile": "assets/Tilesheets/Buildings/spring_DitR_Animal_Tree_House.png"
+        },
+        {
+            "Action":"EditImage",
+            "Target":"Buildings/DitR_Animal_Tree_House",
+            "FromFile": "assets/Tilesheets/Buildings/{{Season}}_DitR_Animal_Tree_House.png"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "data/Buildings/Animal_Tree_House.json"
+        },
+//---------------------------- GENERAL FILES ------------------------------------------//
+        {
+            "Action": "Include",
+            "FromFile": "data/MiscData.json, data/Dialogue/Townie.json, data/Dialogue/Universal.json, data/Audio/Music.json, data/Audio/Sound_Effects.json"
+        },
+//---------------------------- FESTIVAL FILES ------------------------------------------//
+        {
+            "Action": "Include",
+            "FromFile": "data/Festivals/Festival_Dialogue.json, data/Festivals/Extra_Data.json, data/Festivals/Modded.json, data/Festivals/Spring.json, data/Festivals/Summer.json, data/Festivals/Fall.json, data/Festivals/Winter.json"
+        },
+//---------------------------- LOCATION FILES ------------------------------------------//
+        {
+            "Action": "Include",
+            "FromFile": "data/Locations/Trace_House.json, data/Locations/Jeremy_Room.json, data/Locations/Sen_Room.json, data/Locations/Eve_House.json, data/Locations/Caldera_Snails.json, data/Locations/World_Map.json"
+        },
+//---------------------------- QUEST FILES ------------------------------------------//
+        {
+            "Action": "Include",
+            "FromFile": "data/Quests/A_Garden_For_Sen.json, data/Quests/Void_Lava_Snail_Round_Up.json"
+        },
+//---------------------------- ITEM FILES ------------------------------------------//
+        {
+            "Action": "Include",
+            "FromFile": "data/Items/Valley_Lily.json, data/Items/Sens_Crocus.json, data/Items/Void_Lava_Snail.json, data/Items/Void_Lava_Snail_Egg.json, data/Items/Void_Lava_Snail_Mayonnaise.json, data/Items/Unlucky_Purple_Shorts.json, data/Items/Expired_Mega_Bomb.json"
+        },
+//---------------------------- MONSTER FILES ------------------------------------------//
+        {
+            "Action": "Include",
+            "FromFile": "data/Monsters/Stat_Changes.json, data/Monsters/Misc_Data.json"
+        },
+//---------------------------- NPC DATA FILES ------------------------------------------//
+    //Sprite data loaded in NPC's specific files in data/NPCs
+        //Eve
+        {
+            "Action": "Include",
+            "FromFile": "data/NPCs/Eve.json, data/Dialogue/Eve.json, data/Schedules/{{NPC Schedule Type}}/Eve.json, data/Schedules/Default/Eve.json, data/Events/Eve/0h.json, data/Events/Eve/2h.json"
+        },
+        //Trace
+        {
+            "Action": "Include",
+            "FromFile": "data/NPCs/Trace.json, data/Dialogue/Trace.json, data/Schedules/{{NPC Schedule Type}}/Trace.json, data/Schedules/Default/Trace.json"
+        },
+        //Sen
+		{
+			"Action": "Include",
+			"FromFile": "data/NPCs/Sen.json, data/Dialogue/Sen.json, data/Dialogue/Sen_Partner.json, data/Movies/Sen.json, data/Events/Sen/0h.json, data/Events/Sen/2h.json,data/Events/Sen/4h.json, data/Events/Sen/6h.json,data/Events/Sen/8h.json, data/Events/Sen/10h.json, data/Events/Sen/14h.json, data/Events/Sen/React_To_Death.json"
+		},
+        {
+			"Action": "Include",
+			"FromFile": "data/Schedules/{{NPC Schedule Type}}/Sen.json, data/Schedules/Default/Sen.json",
+            "When": { "HasSeenEvent: |contains={{ModID}}_Events.SenS.0h": true }
+		},
+        //Waffle
+        {
+            "Action": "Include",
+            "FromFile": "data/NPCs/Waffle.json, data/Dialogue/Waffle.json, data/Schedules/{{NPC Schedule Type}}/Waffle.json, data/Schedules/Default/Waffle.json"
+        },
+        //Pipo
+        {
+            "Action": "Include",
+            "FromFile": "data/NPCs/Pipo.json, data/Dialogue/Pipo.json, data/Schedules/{{NPC Schedule Type}}/Pipo_{{PipoAdoptionStatus}}.json, data/Schedules/Default/Pipo_{{PipoAdoptionStatus}}.json"
+        },
+        //Jeremy
+        {
+            "Action": "Include",
+            "FromFile": "data/NPCs/Jeremy.json, data/Dialogue/Jeremy.json, data/Schedules/{{NPC Schedule Type}}/Jeremy.json, data/Schedules/Default/Jeremy.json"
+        },
+        //Skrell
+        {
+            "Action": "Include",
+            "FromFile": "data/NPCs/Skrell.json"
+        },
+        //Ebb
+        {
+            "Action": "Include",
+            "FromFile": "data/NPCs/Ebb.json"
+        },
+        //Diamond
+        {
+            "Action": "Include",
+            "FromFile": "data/NPCs/Diamond.json"
+        },
+        //Clyric
+        {
+            "Action": "Include",
+            "FromFile": "data/NPCs/Clyric.json"
+        },
+        //Cow
+        {
+            "Action": "Include",
+            "FromFile": "data/NPCs/Cow.json"
+        },
+        //TempActors
+        {
+            "Action": "Include",
+            "FromFile": "data/NPCs/TempActors.json"
+        },
+    //---------------------------- TEMP MAP LOADS ------------------------------------------//
+        {
+            "Action": "Load",
+            "Target": "Maps/CG_Sen_Ocean, Maps/Sen_Flashback, Maps/Animal_Tree_House",
+            "FromFile": "assets/Maps/{{TargetWithoutPath}}.tmx"
+        },
+    //---------------------------- MEEP FILES ------------------------------------------//
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}_Images/Drawer_Photo.1, Mods/{{ModID}}_Images/Drawer_Photo.2",
+            "FromFile": "assets/Images/{{TargetWithoutPath}}.png"
+        },
+    //---------------------------- SHADOW BABY FILES ------------------------------------------//
+        {           
+            "Action": "Load",
+            "Target": "Characters/Baby, Characters/Baby_dark",
+            "FromFile": "assets/{{TargetPathOnly}}/ShadowKids/The_Baby.png",
+            "When": 
+            { "Spouse": "SenS", "Have Shadow Kids": true }
+        },
+        {           
+            "Action": "Load",
+            "Target": "Characters/Toddler_girl, Characters/Toddler_girl_Dark",
+            "FromFile": "assets/{{TargetPathOnly}}/ShadowKids/Toddler_Freya.png",
+            "When": 
+            { "Spouse": "SenS", "Have Shadow Kids": true }
+        },
+        {           
+            "Action": "Load",
+            "Target": "Characters/Toddler, Characters/Toddler_Dark",
+            "FromFile": "assets/{{TargetPathOnly}}/ShadowKids/Toddler_Loki.png",
+            "When": 
+            { "Spouse": "SenS", "Have Shadow Kids": true }
+        },
+   //---------------------------- RESHADE FILES ------------------------------------------//
+        {           
+            "Action": "Load",
+            "Target": "Characters/Krobus, Characters/SeaMonsterKrobus, Characters/Monsters/Shadow Brute, Characters/Monsters/Shadow Brute_dangerous, Characters/Monsters/Shadow Shaman, Characters/Monsters/Shadow Sniper",
+            "FromFile": "assets/Reshade/{{TargetWithoutPath}}.png",
+            "When": 
+            { "Reshade Existing Shadows":true }
+        }       
+]
+}

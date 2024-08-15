@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="18" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="12" nextobjectid="29">
+ <tileset firstgid="1" name="p" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths" width="64" height="144"/>
+ </tileset>
+ <tileset firstgid="37" name="z_maddogfurniture" tilewidth="16" tileheight="16" tilecount="2205" columns="45">
+  <image source="z_maddogfurniture.png" width="720" height="784"/>
+  <tile id="1834">
+   <animation>
+    <frame tileid="1834" duration="1500"/>
+    <frame tileid="1924" duration="1500"/>
+   </animation>
+  </tile>
+  <tile id="1835">
+   <animation>
+    <frame tileid="1835" duration="1500"/>
+    <frame tileid="1925" duration="1500"/>
+   </animation>
+  </tile>
+  <tile id="1836">
+   <animation>
+    <frame tileid="1836" duration="1500"/>
+    <frame tileid="1926" duration="1500"/>
+   </animation>
+  </tile>
+  <tile id="1879">
+   <animation>
+    <frame tileid="1879" duration="1500"/>
+    <frame tileid="1969" duration="1500"/>
+   </animation>
+  </tile>
+  <tile id="1880">
+   <animation>
+    <frame tileid="1880" duration="1500"/>
+    <frame tileid="1970" duration="1500"/>
+   </animation>
+  </tile>
+  <tile id="1881">
+   <animation>
+    <frame tileid="1881" duration="1500"/>
+    <frame tileid="1971" duration="1500"/>
+   </animation>
+  </tile>
+  <tile id="2070">
+   <animation>
+    <frame tileid="2070" duration="125"/>
+    <frame tileid="2074" duration="125"/>
+    <frame tileid="2119" duration="125"/>
+    <frame tileid="2164" duration="125"/>
+   </animation>
+  </tile>
+  <tile id="2071">
+   <animation>
+    <frame tileid="2071" duration="125"/>
+    <frame tileid="2075" duration="125"/>
+    <frame tileid="2120" duration="125"/>
+    <frame tileid="2165" duration="125"/>
+   </animation>
+  </tile>
+  <tile id="2072">
+   <animation>
+    <frame tileid="2072" duration="125"/>
+    <frame tileid="2076" duration="125"/>
+    <frame tileid="2121" duration="125"/>
+    <frame tileid="2166" duration="125"/>
+   </animation>
+  </tile>
+  <tile id="2077">
+   <animation>
+    <frame tileid="2077" duration="250"/>
+    <frame tileid="2079" duration="250"/>
+    <frame tileid="2081" duration="250"/>
+    <frame tileid="2083" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="2078">
+   <animation>
+    <frame tileid="2078" duration="250"/>
+    <frame tileid="2080" duration="250"/>
+    <frame tileid="2082" duration="250"/>
+    <frame tileid="2084" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="2122">
+   <animation>
+    <frame tileid="2122" duration="250"/>
+    <frame tileid="2124" duration="250"/>
+    <frame tileid="2126" duration="250"/>
+    <frame tileid="2128" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="2123">
+   <animation>
+    <frame tileid="2123" duration="250"/>
+    <frame tileid="2125" duration="250"/>
+    <frame tileid="2127" duration="250"/>
+    <frame tileid="2129" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="2167">
+   <animation>
+    <frame tileid="2167" duration="250"/>
+    <frame tileid="2169" duration="250"/>
+    <frame tileid="2171" duration="250"/>
+    <frame tileid="2173" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="2168">
+   <animation>
+    <frame tileid="2168" duration="250"/>
+    <frame tileid="2170" duration="250"/>
+    <frame tileid="2172" duration="250"/>
+    <frame tileid="2174" duration="250"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="2242" name="3" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <layer id="1" name="Back" width="18" height="9">
+  <data encoding="csv">
+1958,1958,1958,1958,1958,1958,1959,1959,1959,1959,1959,1959,1960,1960,1960,1960,1960,1960,
+2003,2003,2003,2003,2003,2003,2004,2004,2004,2004,2004,2004,2005,2005,2005,2005,2005,2005,
+2048,2048,2048,2048,2048,2048,2049,2049,2049,2049,2049,2049,699,700,701,702,703,704,
+1104,1105,1106,1107,1108,1109,1466,1467,1468,1469,1470,1471,429,430,431,432,433,434,
+1149,1150,1151,1152,1153,1154,1511,1512,1513,1514,1515,1516,474,475,476,477,478,479,
+1194,1195,1196,1197,1198,1199,1556,1557,1558,1559,1560,1561,519,520,521,522,523,524,
+1239,1240,1241,1242,1243,1244,1601,1602,1603,1604,1605,1606,564,565,566,567,568,569,
+1284,1285,1286,1287,1288,1289,1646,1647,1648,1649,1650,1651,609,610,611,612,613,614,
+1329,1330,1331,1332,1333,1334,0,0,0,0,0,0,654,655,656,657,658,659
+</data>
+ </layer>
+ <layer id="9" name="Back 2" width="18" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1730,1731,1732,1733,1734,1735,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,2049,2049,2049,1469,1470,1471,2050,2050,2050,2050,2050,2050,
+0,0,0,0,0,1825,0,0,0,0,0,0,0,0,0,1924,1925,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1596,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,932,933,0,0,0,0,
+0,0,0,0,0,0,1466,1467,1468,1469,1470,1471,977,978,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="18" height="9">
+  <data encoding="csv">
+1806,1642,1807,0,0,383,0,561,0,1125,0,513,1429,1430,1960,1427,1428,1960,
+1730,1687,1732,1733,1734,1735,1871,1872,1873,0,0,558,1474,1475,2005,1472,1473,2005,
+1775,1776,1777,1778,1779,1780,1916,1917,1918,2049,2049,2049,2011,2012,2013,1879,1880,1881,
+1820,1821,1822,1823,1824,464,2051,2052,2053,0,3612,0,2056,2057,2058,0,0,1926,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1596,0,1971,
+0,0,0,0,0,0,1951,1952,1953,0,0,0,1936,1937,1938,0,0,678,
+0,0,2046,2047,0,0,0,0,1477,0,0,1480,0,0,0,0,0,0,
+0,0,0,0,0,2044,0,0,1522,1523,0,1525,0,0,0,0,0,0,
+0,2041,2042,2043,0,378,0,0,1567,1568,1569,559,0,0,979,0,114,115
+</data>
+ </layer>
+ <layer id="3" name="Paths" width="18" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,8,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,1067,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="Front" width="18" height="9">
+  <data encoding="csv">
+0,0,0,0,606,0,0,0,0,0,0,0,0,1922,1923,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,1967,1968,0,0,0,
+0,0,0,0,0,419,0,0,0,0,3580,0,0,0,0,1869,1870,1654,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147485300,
+0,0,1956,1957,0,0,1906,1907,1908,0,0,0,1891,1892,1893,0,1970,0,
+0,0,2001,2002,0,1954,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,1999,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1996,1997,1998,0,333,0,0,0,0,0,0,0,0,934,0,69,70,
+0,0,0,0,0,0,0,0,0,0,0,1570,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="10" name="Front 2" width="18" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,1807,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1806,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1729,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1774,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,1478,1479,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,1524,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="5" name="Back"/>
+ <objectgroup id="6" name="Buildings">
+  <object id="1" name="TileData" x="0" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SigSpousePhotosOld&quot;"/>
+   </properties>
+  </object>
+  <object id="2" name="TileData" x="16" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SigSpousePoetry&quot;"/>
+   </properties>
+  </object>
+  <object id="3" name="TileData" x="80" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SigSpouseAxe&quot;"/>
+   </properties>
+  </object>
+  <object id="4" name="TileData" x="64" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SigSpouseVideoGames&quot;"/>
+   </properties>
+  </object>
+  <object id="5" name="TileData" x="48" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SigSpouseBooks&quot;"/>
+   </properties>
+  </object>
+  <object id="6" name="TileData" x="32" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SigSpousePhotosNew&quot;"/>
+   </properties>
+  </object>
+  <object id="7" name="TileData" x="80" y="128" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SigSpouseFootlocker&quot;"/>
+   </properties>
+  </object>
+  <object id="8" name="TileData" x="32" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SigSpouseOldTVComfy&quot;"/>
+   </properties>
+  </object>
+  <object id="9" name="TileData" x="96" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;GunnarSpouseGameConsole&quot;"/>
+   </properties>
+  </object>
+  <object id="10" name="TileData" x="112" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;GunnarSpouseGameTime&quot;"/>
+   </properties>
+  </object>
+  <object id="11" name="TileData" x="128" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;GunnarSpouseVideoGames&quot;"/>
+   </properties>
+  </object>
+  <object id="12" name="TileData" x="160" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;GunnarSpouseSword&quot;"/>
+   </properties>
+  </object>
+  <object id="13" name="TileData" x="144" y="32" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;GunnarSpouseWeapons&quot;"/>
+   </properties>
+  </object>
+  <object id="14" name="TileData" x="176" y="32" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;GunnarSpouseZuzuExpress&quot;"/>
+   </properties>
+  </object>
+  <object id="15" name="TileData" x="176" y="128" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;GunnarSpouseBoots&quot;"/>
+   </properties>
+  </object>
+  <object id="16" name="TileData" x="137" y="126.875" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;GunnarSpouseExperiments&quot;"/>
+   </properties>
+  </object>
+  <object id="17" name="TileData" x="192" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;TerenSpouseFavoriteRecords&quot;"/>
+   </properties>
+  </object>
+  <object id="18" name="TileData" x="208" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;TerenSpouseMusicTastes&quot;"/>
+   </properties>
+  </object>
+  <object id="19" name="TileData" x="224" y="128" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;TerenSpouseYogaMat&quot;"/>
+   </properties>
+  </object>
+  <object id="20" name="TileData" x="240" y="32" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;TerenSpouseAssortedPhotos&quot;"/>
+   </properties>
+  </object>
+  <object id="21" name="TileData" x="256" y="32" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;TerenSpouseRecipeBook&quot;"/>
+   </properties>
+  </object>
+  <object id="22" name="TileData" x="272" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;TerenSpouseWorkLaptop&quot;"/>
+   </properties>
+  </object>
+  <object id="23" name="TileData" x="272" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;TerenSpouseTidyUp&quot;"/>
+   </properties>
+  </object>
+  <object id="24" name="TileData" x="48" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SigSpouseOldTVOptions&quot;"/>
+   </properties>
+  </object>
+  <object id="26" name="TileData" x="96" y="80" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;GunnarSpouseCouch&quot;"/>
+   </properties>
+  </object>
+  <object id="27" name="TileData" x="224" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;TerenSpouseRecordPlayer&quot;"/>
+   </properties>
+  </object>
+  <object id="28" name="TileData" x="256" y="128" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;TerenSpouseSassyBed&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="Paths"/>
+ <objectgroup id="8" name="Front"/>
+</map>

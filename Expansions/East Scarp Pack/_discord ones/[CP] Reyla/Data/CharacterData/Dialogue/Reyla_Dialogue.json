@@ -1,0 +1,368 @@
+{
+  "Changes": [
+    {
+      "LogName":"Reyla's Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/RaffieJohn.Reyla",
+      "Entries": {
+
+        //One time interactions
+        "Introduction": "{{i18n: Reyla.Introduction}}",
+        "pamHouseUpgrade": "{{i18n: Reyla.pamHouseUpgrade}}",
+        "pamHouseUpgradeAnonymous": "{{i18n: Reyla.pamHouseUpgradeAnonymous}}",
+        "danceRejection": "{{i18n: Reyla.danceRejection}}",
+        "BreakUp": "{{i18n: Reyla.BreakUp}}",
+        "dumped_Girls": "{{i18n: Reyla.dumped_Girls}}",
+        "secondchance_Girls": "{{i18n: Reyla.secondchance_Girls}}",
+        "divorced": "{{i18n: Reyla.divorced}}",
+        "cc_Begin": "{{i18n: Reyla.cc_Begin}}",
+        "cc_Bus": "{{i18n: Reyla.cc_Bus}}",
+        "cc_Boulder": "{{i18n: Reyla.cc_Boulder}}",
+        "cc_Complete": "{{i18n: Reyla.cc_Complete}}",
+        "movieTheater": "{{i18n: Reyla.movieTheater}}",
+
+        //Location Specific
+        "Saloon": "{{i18n: Reyla.Saloon}}",
+        "Saloon2": "{{i18n: Reyla.Saloon2}}",
+        "Saloon4": "{{i18n: Reyla.Saloon4}}",
+        "Saloon8": "{{i18n: Reyla.Saloon8}}",
+
+        "Resort_Entering": "{{i18n: Reyla.Resort_Entering}}",
+        "Resort_Leaving": "{{i18n: Reyla.Resort_Leaving}}",
+        "Resort_Shore": "{{i18n: Reyla.Resort_Shore}}",
+        "Resort_Umbrella": "{{i18n: Resort_Umbrella}}",
+        "Resort_Wander": "{{i18n: Resort_Wander}}",
+        "Resort_Chair": "{{i18n: Reyla.Resort_Chair}}",
+        "Resort_Bar": "{{i18n: Reyla.Resort_Bar}}",
+        "Resort_Towel": "{{i18n: Reyla.Resort_Towel}}",
+        "Resort_Towel_2": "{{i18n: Reyla.Resort_Towel_2}}",
+        "Resort": "{{i18n: Reyla.Resort}}",
+
+        "Hospital_3_7": "{{i18n: Reyla.DoctorVisit}}",
+
+        //Conversation Topics - Reyla's Reactions
+        "MeetReyla": "{{i18n: MeetReyla}}",
+
+        //RSV
+        "keahi_prank": "{{i18n: Reyla.keahi_prank}}",
+
+        //Jorts and Jean
+        "MeetTheCats": "{{i18n: Reyla.MeetTheCats}}",
+        "ButteredJorts": "{{i18n: Reyla.ButteredJorts}}",
+        "JortsZoomies": "{{i18n: Reyla.JortsZoomies}}",
+
+        //Vanilla
+        "luauBest": "{{i18n: Reyla.luauBest}}",
+        "luauShorts": "{{i18n: Reyla.luauShorts}}",
+        "luauPoisoned": "{{i18n: Reyla.luauPoisoned}}",
+        "wedding": "{{i18n: Reyla.wedding}}",
+        "babyBoy": "{{i18n: Reyla.Baby}}",
+        "babyGirl": "{{i18n: Reyla.Baby}}",
+        "jojaMartStruckByLightning": "{{i18n: Reyla.jojaMartStruckByLightning}}",
+        "willyBoatRepaired": "{{i18n: Reyla.willyBoatRepaired}}",
+        "islandResortUnlocked": "{{i18n: Reyla.IslandResortUnlocked}}",
+        "leoValleyArrival": "{{i18n: Reyla.leoValleyArrival}}",
+        "railroadEarthquake": "{{i18n: Reyla.railroadEarthquake}}",
+        "AfterProposal": "{{i18n: Reyla.AfterProposal}}", 
+
+        //Nora
+        "NoraIntro": "{{i18n: Reyla.NoraIntro}}",
+        "NoraProud": "{{i18n: Reyla.NoraProud}}",
+        "NoraChameleon": "{{i18n: Reyla.NoraChameleon}}",
+
+        //STARDEW VALLEY EXPANDED
+       /*"EnchantedGroveHint":"{{i18n: Reyla.EnchantedGroveHint}}",
+       "WizardEnchantedGrove":"{{i18n: Reyla.WizardEnchantedGrove}}",
+       "railroadBoulder":"{{i18n: Reyla.railroadBoulder}}",
+       "VineyardOvergrown":"{{i18n: Reyla.VineyardOvergrown}}",
+       "DeweyIsOkay":"{{i18n: Reyla.DeweyIsOkay}}",
+       "ShearwaterBridgeRenovationStart":"{{i18n: Reyla.ShearwaterBridgeRenovationStart}}",
+       "ShearwaterBridgeRenovationComplete":"{{i18n: Reyla.ShearwaterBridgeRenovationComplete}}",
+       "ApplesLeaving":"{{i18n: Reyla.ApplesLeaving}}",
+       "highlandsDwarf":"{{i18n: Reyla.highlandsDwarf}}",
+       "claireSaloon ":"{{i18n: Reyla.claireSaloon }}",
+       "claireSaloonPaid":"{{i18n: Reyla.claireSaloonPaid}}",
+       "clairAerobics":"{{i18n: Reyla.clairAerobics}}",
+       "claireApplyFlail":"{{i18n: Reyla.claireApplyFlail}}",
+       "clairApplySuccess":"{{i18n: Reyla.clairApplySuccess}}",
+       "ClaireMovie":"{{i18n: Reyla.ClaireMovie}}",
+       "LanceMetKrobus":"{{i18n: Reyla.LanceMetKrobus}}",
+       "ScarlettFarmhand":"{{i18n: Reyla.ScarlettFarmhand}}",
+       "ScarlettFairhavenFarm":"{{i18n: Reyla.ScarlettFairhavenFarm}}",
+       "ScarlettEmeraldFarm":"{{i18n: Reyla.ScarlettEmeraldFarm}}",
+       "stompedGrapes":"{{i18n: Reyla.stompedGrapes}}",
+       "guntherEscortDenied":"{{i18n: Reyla.guntherEscortDenied}}",
+       "museumCompleted":"{{i18n: Reyla.museumCompleted}}",
+       "ClaireSick":"{{i18n: Reyla.ClaireSick}}",
+       "MartinConfession":"{{i18n: Reyla.MartinConfession}}",
+       "election":"{{i18n: Reyla.election}}",
+       "jojaEmporium":"{{i18n: Reyla.jojaEmporium}}",
+       "AuroraVineyardPurchased":"{{i18n: Reyla.AuroraVineyardPurchased}}",
+       "wizardsComplicatedRelationship":"{{i18n: Reyla.wizardsComplicatedRelationship}}",
+       "ClintandEmily":"{{i18n: Reyla.ClintandEmily}}",
+       "kentAdventurer":"{{i18n: Reyla.kentAdventurer}}",
+       "PeaceWithShadowPeople":"{{i18n: Reyla.PeaceWithShadowPeople}}",
+       "PeaceWithShadowPeopleLance":"{{i18n: Reyla.PeaceWithShadowPeopleLance}}",
+       "leoChickens":"{{i18n: Reyla.leoChickens}}",
+       "sewer":"{{i18n: Reyla.sewer}}",
+       "shaneSaloon":"{{i18n: Reyla.}}",*/
+
+       // ARV
+       "SterlingDrugs": "{{i18n: Reyla.SterlingDrugs}}",
+       "SterlingRelapse": "{{i18n: Reyla.SterlingRelapse}}",
+       "SterlingApology": "{{i18n: Reyla.SterlingApology}}",
+       "SterlingRiver": "{{i18n: Reyla.SterlingRiver}}",
+
+       // JUNA
+       "JunaBeachBallet": "{{i18n: Reyla.JunaBeachBallet}}",
+
+       // LUCIKIEL
+       "LucikielArrives": "{{i18n: Reyla.LucikielArrives}}",
+       "ReputationIncreased": "{{i18n: Reyla.ReputationIncreased}}",
+
+       // JASPER
+       "JasperGone2": "{{i18n: Reyla.JasperGone2}}",
+       "JasperHomeA": "{{i18n: Reyla.JasperHomeA}}",
+
+       // CRABS?
+       "PTJ03": "{{i18n: Reyla.PTJ03}}",
+
+       // SUNBERRY VILLAGE
+       "MeetDND":"{{i18n: Reyla.MeetDND}}",
+       "DiscoveringMoon":"{{i18n: Reyla.DiscoveringMoon}}",
+       "DialaConfesses":"{{i18n: Reyla.DialaConfesses}}",
+       "DeryaConfesses":"{{i18n: Reyla.DeryaConfesses}}",
+       "DDFinalConfession":"{{i18n: Reyla.DDFinalConfession}}",
+       "ReihanaIntro":"{{i18n: Reyla.ReihanaIntro}}",
+       "DDEngaged":"{{i18n: Reyla.DDEngaged}}",
+       "MoonberryShopUnlock":"{{i18n: Reyla.MoonberryShopUnlock}}",
+       "GSBCheck1":"{{i18n: Reyla.GSBCheck1}}",
+       "GSBStageGood":"{{i18n: Reyla.GSBStageGood}}",
+       "GSBStageBad":"{{i18n: Reyla.GSBStageBad}}",
+       "GSBAcquired":"{{i18n: Reyla.GSBAcquired}}",
+
+        // ELI AND DYLAN
+       "EliIntro": "{{i18n: Reyla.EliIntro}}",
+       "EliJunimo2": "{{i18n: Reyla.EliJunimo2}}",
+       "DylanIntro": "{{i18n: Reyla.DylanIntro}}",
+       "DylanBeach": "{{i18n: Reyla.DylanBeach}}",
+       "DylanTown": "{{i18n: Reyla.DylanTown}}",
+       "DylanSaloon": "{{i18n: Reyla.DylanSaloon}}",
+
+       // EAST SCARP
+       "Aideen_Garden": "{{i18n: Reyla.AideenGarden}}",
+
+       // DIAMOND IN THE ROUGH 
+       "LitD_CT_ShadowPlay": "{{i18n: Reyla.ShadowPlay}}",
+       "LitD_CT_SensFlowers": "{{i18n: Reyla.SensFlowers}}",
+
+       // BEAR FAMILY 
+       "BearFamTimeForBees": "{{i18n: Reyla.BearFamTimeForBees}}",
+       "SigLowBattery": "{{i18n: Reyla.SigLowBattery}}",
+       "SigAndCigarettes": "{{i18n: Reyla.SigAndCigarettes}}",
+       "SigHatesCrowds": "{{i18n: Reyla.SigHatesCrowds}}",
+       "SigVersusCrabs": "{{i18n: Reyla.SigVersusCrabs}}",
+       "SondraAgingGracefully": "{{i18n: Reyla.SondraAgingGracefully}}",
+       "SondraRememberWulfram": "{{i18n: Reyla.SondraRememberWulfram}}",
+       "GunnarOpenForBusiness": "{{i18n: Reyla.GunnarOpenForBusiness}}",
+       "GunnarBuildsaBomb": "{{i18n: Reyla.GunnarBuildsaBomb}}",
+       "GunnarBreaksaSword": "{{i18n: Reyla.GunnarBreaksaSword}}",
+       "GunnarGuildTryout": "{{i18n: Reyla.GunnarGuildTryout}}",
+       "GunnarGetsaLecture": "{{i18n: Reyla.GunnarGetsaLecture}}",
+       "GudrunQinstagram": "{{i18n: Reyla.GudrunQinstagram}}",
+       "GudrunEcoFriendly": "{{i18n: Reyla.GudrunEcoFriendly}}",
+       "BearFamFullHouse": "{{i18n: Reyla.BearFamFullHouse}}",
+       "BearFamFireDrill": "{{i18n: Reyla.BearFamFireDrill}}",
+       "BearFamAttacked": "{{i18n: Reyla.BearFamAttacked}}",
+       "WelcomeSergeantBarnes": "{{i18n: Reyla.WelcomeSergeantBarnes}}",
+       
+       // SWORD & SORCERY
+       // CH1
+       /* "MateoCaution":"{{i18n: Reyla.MateoCaution}}",
+        "MateoRescue":"{{i18n: Reyla.MateoRescue}}",
+        "MateoLibrary":"{{i18n: Reyla.MateoLibrary}}",
+        "MateoAdmission":"{{i18n: Reyla.MateoAdmission}}",
+        "MateoConfrontation": "{{i18n: Reyla.MateoConfrontation}}",
+        "MateoWyatt": "{{i18n: Reyla.MateoWyatt}}",
+        "MateoAcceptance":"{{i18n: Reyla.MateoAcceptance}}",
+        "MateoPain": "{{i18n: Reyla.MateoPain}}",
+        "MateoRecovery": "{{i18n: Reyla.MateoRecovery}}",
+        "CGuildConstruction": "{{i18n: Reyla.CGuildConstruction}}",
+        "CGuildComplete": "{{i18n: Reyla.CGuildComplete}}",
+        "MateoIntegrity": "{{i18n: Reyla.MateoIntegrity}}",
+        "MateoRomance": "{{i18n: Reyla.MateoRomance}}",
+        "MateoForest": "{{i18n: Reyla.MateoForest}}",
+        "MateoDate": "{{i18n: Reyla.MateoDate}}",
+        "MateoDeclaration": "{{i18n: Reyla.MateoDeclaration}}",
+        "MateoEngaged": "{{i18n: Reyla.MateoEngaged}}",
+        "AdventurerArrival": "{{i18n: Reyla.AdventurerArrival}}",
+        // CH 2
+        "HectorIntro":"{{i18n: Reyla.HectorIntro}}",
+        "HectorBookIntro":"{{i18n: Reyla.HectorBookIntro}}",
+        "HectorShapeshift":"{{i18n: Reyla.HectorShapeshift}}",
+        "HectorBookQuest": "{{i18n: Reyla.HectorBookQuest}}",
+        "HectorVet": "{{i18n: Reyla.HectorVet}}",
+        "HectorVet2":"{{i18n: Reyla.HectorVet2}}",
+        "HectorGender": "{{i18n: Reyla.HectorGender}}",
+        "HectorVet3": "{{i18n: Reyla.HectorVet3}}",
+        "HectorDND": "{{i18n: Reyla.HectorDND}}",
+        "HectorRiver1": "{{i18n: Reyla.HectorRiver1}}",
+        "HectorDinner": "{{i18n: Reyla.HectorDinner}}",
+        "HectorRiver2": "{{i18n: Reyla.HectorRiver2}}",
+        "HectorRiver3": "{{i18n: Reyla.HectorRiver3}}",
+        "HectorHeal": "{{i18n: Reyla.HectorHeal}}",
+        "HectorHeal2": "{{i18n: Reyla.HectorHeal2}}",
+        "HectorTrueGrove": "{{i18n: Reyla.HectorTrueGrove}}",
+        "HectorEngaged": "{{i18n: Reyla.HectorEngaged}}",
+        "QuestionableAdventurers": "{{i18n: Reyla.QuestionableAdventurers}}",
+        // CH 3
+        "CirrusArrives":"{{i18n: Reyla.CirrusArrives}}",
+        "CirrusWoods":"{{i18n: Reyla.CirrusWoods}}",
+        "CirrusGuild":"{{i18n: Reyla.CirrusGuild}}",
+        "CirrusMom":"{{i18n: Reyla.CirrusMom}}",
+        "CirrusJJ1":"{{i18n: Reyla.CirrusJJ1}}",
+        "CirrusRain":"{{i18n: Reyla.CirrusRain}}",
+        "CirrusWoods2":"{{i18n: Reyla.CirrusWoods2}}",
+        "CirrusJJ2":"{{i18n: Reyla.CirrusJJ2}}",
+        "CirrusDnD":"{{i18n: Reyla.CirrusDnD}}",
+        "CirrusLionsMane":"{{i18n: Reyla.CirrusLionsMane}}",
+        "CirrusConcert":"{{i18n: Reyla.CirrusConcert}}",
+        "CirrusLionsMane2":"{{i18n: Reyla.CirrusLionsMane2}}",
+        "CirrusLionsMane3":"{{i18n: Reyla.CirrusLionsMane3}}",
+        "CirrusEngaged":"{{i18n: Reyla.CirrusEngaged}}",
+        "CirrusOvercomingFear":"{{i18n: Reyla.CirrusOvercomingFear}}",
+        "CirrusPlanetarium":"{{i18n: Reyla.CirrusPlanetarium}}",
+        "DandelionLeaves":"{{i18n: Reyla.DandelionLeaves}}",*/
+
+        //Spring Dialogue
+        "spring_2_1": "{{i18n: Reyla.Spring_2_1}}",
+        "spring_3": "{{i18n: Reyla.Spring_3}}",
+        "spring_Mon": "{{i18n: Reyla.Spring_Mon}}",
+        "spring_Tue": "{{i18n: Reyla.Spring_Tue}}",
+        "spring_Wed": "{{i18n: Reyla.Spring_Wed}}",
+        "spring_Thru": "{{i18n: Reyla.Spring_Thru}}",
+        "spring_Fri": "{{i18n: Reyla.Spring_Fri}}",
+        "spring_Sat": "{{i18n: Reyla.Spring_Sat}}",
+        "spring_Sun": "{{i18n: Reyla.Spring_Sun}}",
+        "spring_25": "{{i18n: Reyla.Spring_25}}",
+
+        //Summer Dialogue
+        "summer_1": "{{i18n: Reyla.Summer_1}}",
+        "summer_Mon": "{{i18n: Reyla.Summer_Mon}}",
+        "summer_Tue": "{{i18n: Reyla.Summer_Tue}}",
+        "summer_Wed": "{{i18n: Reyla.Summer_Wed}}",
+        "summer_Thru": "{{i18n: Reyla.Summer_Thru}}",
+        "summer_Fri": "{{i18n: Reyla.Summer_Fri}}",
+        "summer_Sat": "{{i18n: Reyla.Summer_Sat}}",
+        "summer_Sun": "{{i18n: Reyla.Summer_Sun}}",
+        "summer_28": "{{i18n: Reyla.Summer_28}}",
+
+        //Fall Dialogue
+        "fall_Mon": "{{i18n: Reyla.Fall_Mon}}",
+        "fall_Tue": "{{i18n: Reyla.Fall_Tue}}",
+        "fall_Wed": "{{i18n: Reyla.Fall_Wed}}",
+        "fall_Thru": "{{i18n: Reyla.Fall_Thru}}",
+        "fall_Fri": "{{i18n: Reyla.Fall_Fri}}",
+        "fall_Sat": "{{i18n: Reyla.Fall_Sat}}",
+        "fall_Sun": "{{i18n: Reyla.Fall_Sun}}",
+        "fall_28": "{{i18n: Reyla.Fall_28}}",
+
+        //Winter Dialogue
+        "winter_1": "{{i18n: Reyla.Winter_1}}",
+        "winter_Mon": "{{i18n: Reyla.Winter_Mon}}",
+        "winter_Tue": "{{i18n: Reyla.Winter_Tue}}",
+        "winter_Wed": "{{i18n: Reyla.Winter_Wed}}",
+        "winter_Thru": "{{i18n: Reyla.Winter_Thru}}",
+        "winter_Fri": "{{i18n: Reyla.Winter_Fri}}",
+        "winter_Sat": "{{i18n: Reyla.Winter_Sat}}",
+        "winter_Sun": "{{i18n: Reyla.Winter_Sun}}",
+
+        //Rain and Snow Dialogue
+        "rain": "{{i18n: Reyla.rain}}",
+        "rain_1": "{{i18n: Reyla.rain_1}}",
+
+        //Green Rain Dialogue
+        "GreenRain": "{{i18n: Reyla.GreenRain}}",
+        "GreenRain_2": "{{i18n: Reyla.GreenRain_2}}",
+
+        //Dialogue Gifts to accept and reject
+        "AcceptGift_(O)256": "{{i18n: Reyla.Tomato.00}}",
+        "AcceptGift_(O)400": "{{i18n: Reyla.Strawberry.00}}",
+        "AcceptGift_(O)224": "{{i18n: Reyla.Spaghetti.00}}",
+        "AcceptGift_(O)834": "{{i18n: Reyla.Mango.00}}",
+        "AcceptGift_(O)104": "{{i18n: Reyla.Elvish_Jewelry.00}}",
+        "AcceptGift_(O)239": "{{i18n: Reyla.Stuffing.00}}",
+        "AcceptGift_(O)227": "{{i18n: Reyla.Sashimi.00}}",
+        "AcceptGift_(O)393": "{{i18n: Reyla.Coral.00}}",
+        "AcceptGift_(O)428": "{{i18n: Reyla.Cloth.00}}",
+        "AcceptGift_(O)420": "{{i18n: Reyla.Truffle.00}}",
+        "AcceptGift_(O)228": "{{i18n: Reyla.Maki_Roll.00}}",
+        "AcceptGift_(O)220": "{{i18n: Reyla.Chocolate_Cake.00}}",
+        "AcceptGift_(O)064": "{{i18n: Reyla.Ruby.00}}",
+        "AcceptGift_(O)236": "{{i18n: Reyla.Pumpkin_Soup.00}}",
+        "AcceptGift_(O)088": "{{i18n: Reyla.Coconut.00}}",
+        "AcceptGift_(O)394": "{{i18n: Reyla.rainbow_shell.00}}",
+        "AcceptGift_(O)234": "{{i18n: Reyla.Blueberry_Tart.00}}",
+
+        "RejectItem_(O)424": "{{i18n: Reyla.Cheese.00}}",
+        "RejectItem_(O)384": "{{i18n: Reyla.Wine.00}}",
+        "RejectItem_(O)243": "{{i18n: Reyla.Miner's_Treat.00}}",
+        "RejectItem_(O)330": "{{i18n: Reyla.Clay.00}}",
+        "RejectItem_(O)197": "{{i18n: Reyla.Cheese_Cauliflower.00}}",
+        "RejectItem_(O)426": "{{i18n: Reyla.Goat_Cheese.00}}",
+
+        //Birthday Accept (positive and neg reaction) Dialogue
+        "AcceptBirthdayGift_(O)256": "{{i18n: Reyla.Tomato.01}}",
+        "AcceptBirthdayGift_(O)400": "{{i18n: Reyla.Strawberry.01}}",
+        "AcceptBirthdayGift_(O)224": "{{i18n: Reyla.Spaghetti.01}}",
+        "AcceptBirthdayGift_(O)834": "{{i18n: Reyla.Mango.01}}",
+        "AcceptBirthdayGift_(O)104": "{{i18n: Reyla.Elvish_Jewelry.01}}",
+        "AcceptBirthdayGift_(O)239": "{{i18n: Reyla.Stuffing.01}}",
+        "AcceptBirthdayGift_(O)227": "{{i18n: Reyla.Sashimi.01}}",
+        "AcceptBirthdayGift_(O)393": "{{i18n: Reyla.Coral.01}}",
+        "AcceptBirthdayGift_(O)428": "{{i18n: Reyla.Cloth.01}}",
+        "AcceptBirthdayGift_(O)420": "{{i18n: Reyla.Truffle.01}}",
+        "AcceptBirthdayGift_(O)228": "{{i18n: Reyla.Maki_Roll.01}}",
+        "AcceptBirthdayGift_(O)220": "{{i18n: Reyla.Chocolate_Cake.01}}",
+        "AcceptBirthdayGift_(O)064": "{{i18n: Reyla.Ruby.01}}",
+        "AcceptBirthdayGift_(O)236": "{{i18n: Reyla.Pumpkin_Soup.01}}",
+        "AcceptBirthdayGift_(O)088": "{{i18n: Reyla.Coconut.01}}",
+        "AcceptBirthdayGift_(O)394": "{{i18n: Reyla.rainbow_shell.01}}",
+        "AcceptBirthdayGift_(O)234": "{{i18n: Reyla.Blueberry_Tart.01}}"
+      }
+    },
+    //CONVERSATION TOPICS FOR VILLAGERS
+    {
+        "LogName": "Alex",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Alex",
+        "Entries": {
+            "MeetReyla": "{{i18n:MeetReyla.{{TargetWithoutPath}}}}"
+      }
+    },
+    {
+      "LogName": "Pierre",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Pierre",
+      "Entries": {
+          "MeetReyla": "{{i18n:MeetReyla.{{TargetWithoutPath}}}}"
+      }
+    },
+    {
+      "LogName": "Robin",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Robin",
+      "Entries": {
+          "MeetReyla": "{{i18n:MeetReyla.{{TargetWithoutPath}}}}"
+      }
+    },    
+    {
+      "LogName": "Abigail",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Abigail",
+      "Entries": {
+          "MeetReyla": "{{i18n:MeetReyla.{{TargetWithoutPath}}}}"
+      }
+    }
+  ]
+}

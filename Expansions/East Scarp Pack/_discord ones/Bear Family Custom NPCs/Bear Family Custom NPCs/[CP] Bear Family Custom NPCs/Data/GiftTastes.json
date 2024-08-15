@@ -1,0 +1,682 @@
+{
+  "Changes": [
+    {
+      "LogName": "Gift Tastes for Vanilla",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "TextOperations": [
+
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Universal_Hate"
+          ],
+          "Value": "MadDog.HashtagBearfam.PumpkinJoja MadDog.HashtagBearfam.PeachJoja, MadDog.HashtagBearfam.FerskenPeach_PotentMead",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Universal_Dislike"
+          ],
+          "Value": "MadDog.HashtagBearfam.GunnarThirdPotion MadDog.HashtagBearfam.GunnarPerfectPotion MadDog.HashtagBearfam.GunnarPhoenixDown MadDog.HashtagBearfam.GunnarRemedyAll MadDog.HashtagBearfam.NineHerbsCharm MadDog.HashtagBearfam.GunnarBadPotion MadDog.HashtagBearfam.GunnarFirstPotion MadDog.HashtagBearfam.GunnarMysteryPotion MadDog.HashtagBearfam.GunnarSecondPotion MadDog.HashtagBearfam.GunnarWeirdPotion MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Universal_Neutral"
+          ],
+          "Value": "MadDog.HashtagBearfam.HoneyWheatBread MadDog.HashtagBearfam.SesameBrownBread MadDog.HashtagBearfam.TerenRecipes MadDog.HashtagBearfam.BearRecipes MadDog.HashtagBearfam.GunnarRecipes MadDog.HashtagBearfam.SondraRecipes",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Universal_Like"
+          ],
+          "Value": "MadDog.HashtagBearfam.FerskenPeach_Honey MadDog.HashtagBearfam.FerskenPeach_Mead_Tankard MadDog.HashtagBearfam.FerskenPeach_Mead MadDog.HashtagBearfam.BrazierSecretAlfredo MadDog.HashtagBearfam.SondraAutumnCookie MadDog.HashtagBearfam.SondraSpringtimeShortbread MadDog.HashtagBearfam.SondraWinterBar MadDog.HashtagBearfam.SondraSummerCake MadDog.HashtagBearfam.TriangleGrilledCheese MadDog.HashtagBearfam.GudrunPerfectRamen MadDog.HashtagBearfam.GunnarPerfectRamen MadDog.HashtagBearfam.SondraPerfectRamen MadDog.HashtagBearfam.SigurdPerfectRamen MadDog.HashtagBearfam.FerskenPeachCobbler MadDog.HashtagBearfam.SlicedPeaches MadDog.HashtagBearfam.CornbreadMuffins MadDog.HashtagBearfam.BananaBread MadDog.HashtagBearfam.RoseCupcakes MadDog.HashtagBearfam.TTBrownies MadDog.HashtagBearfam.FerskenPeach MadDog.HashtagBearfam.HoneyCakes ",
+          "Delimiter": " "
+        },
+
+
+        //specifics
+
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Sam",
+            3 //like
+          ],
+          "Value": "MadDog.HashtagBearfam.PumpkinJoja MadDog.HashtagBearfam.PeachJoja",
+          "Delimiter": " "
+        },
+
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Wizard",
+            3 //like
+          ],
+          "Value": "MadDog.HashtagBearfam.GunnarPerfectPotion MadDog.HashtagBearfam.GunnarPhoenixDown MadDog.HashtagBearfam.GunnarRemedyAll MadDog.HashtagBearfam.NineHerbsCharm",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Leah",
+            7 //hate
+          ],
+          "Value": "MadDog.HashtagBearfam.HoneyWheatBread MadDog.HashtagBearfam.SesameBrownBread",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Harvey",
+            5 //dislike
+          ],
+          "Value": "MadDog.HashtagBearfam.HoneyWheatBread MadDog.HashtagBearfam.SesameBrownBread MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab MadDog.HashtagBearfam.BrazierSecretAlfredo MadDog.HashtagBearfam.SondraAutumnCookie MadDog.HashtagBearfam.SondraSpringtimeShortbread MadDog.HashtagBearfam.SondraWinterBar MadDog.HashtagBearfam.SondraSummerCake MadDog.HashtagBearfam.TriangleGrilledCheese MadDog.HashtagBearfam.GunnarPerfectRamen MadDog.HashtagBearfam.SigurdPerfectRamen MadDog.HashtagBearfam.FerskenPeachCobbler MadDog.HashtagBearfam.SlicedPeaches MadDog.HashtagBearfam.CornbreadMuffins MadDog.HashtagBearfam.BananaBread MadDog.HashtagBearfam.RoseCupcakes MadDog.HashtagBearfam.TTBrownies MadDog.HashtagBearfam.HoneyCakes",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Willy",
+            9 //neutral
+          ],
+          "Value": "MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Demetrius",
+            9 //neutral
+          ],
+          "Value": "MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Demetrius",
+            1 //like
+          ],
+          "Value": "MadDog.HashtagBearfam.GunnarRecipes",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Sebastian",
+            9 //neutral
+          ],
+          "Value": "MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Leo",
+            9 //neutral
+          ],
+          "Value": "MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Linus",
+            9 //neutral
+          ],
+          "Value": "MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Elliott",
+            9 //neutral
+          ],
+          "Value": "MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Elliott",
+            3 //like
+          ],
+          "Value": "MadDog.BearFam.Krakenling",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Pam",
+            9 //neutral
+          ],
+          "Value": "MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab",
+          "Delimiter": " "
+        },
+
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Evelyn",
+            7 //hate
+          ],
+          "Value": "MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Haley",
+            7 //hate
+          ],
+          "Value": "MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Pierre",
+            7 //hate
+          ],
+          "Value": "MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Abigail",
+            5 //dislike
+          ],
+          "Value": "MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Alex",
+            5 //dislike
+          ],
+          "Value": "MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Caroline",
+            5 //dislike
+          ],
+          "Value": "MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Clint",
+            5 //dislike
+          ],
+          "Value": "MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Clint",
+            1 //like
+          ],
+          "Value": "MadDog.HashtagBearfam.GunnarRecipes",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Dwarf",
+            5 //dislike
+          ],
+          "Value": "MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Emily",
+            5 //dislike
+          ],
+          "Value": "MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Emily",
+            1 //like
+          ],
+          "Value": "MadDog.HashtagBearfam.GunnarRecipes",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "George",
+            5 //dislike
+          ],
+          "Value": "MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Gus",
+            5 //dislike
+          ],
+          "Value": "MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Jas",
+            5 //dislike
+          ],
+          "Value": "MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Jodi",
+            5 //dislike
+          ],
+          "Value": "MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Kent",
+            5 //dislike
+          ],
+          "Value": "MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab MadDog.HashtagBearfam.GudrunPerfectRamen MadDog.HashtagBearfam.GunnarPerfectRamen MadDog.HashtagBearfam.SondraPerfectRamen MadDog.HashtagBearfam.SigurdPerfectRamen",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Krobus",
+            5 //dislike
+          ],
+          "Value": "MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab MadDog.HashtagBearfam.BrazierSecretAlfredo MadDog.HashtagBearfam.SondraAutumnCookie MadDog.HashtagBearfam.SondraSpringtimeShortbread MadDog.HashtagBearfam.SondraWinterBar MadDog.HashtagBearfam.SondraSummerCake MadDog.HashtagBearfam.TriangleGrilledCheese MadDog.HashtagBearfam.GunnarPerfectRamen MadDog.HashtagBearfam.SigurdPerfectRamen MadDog.HashtagBearfam.FerskenPeachCobbler MadDog.HashtagBearfam.SlicedPeaches MadDog.HashtagBearfam.CornbreadMuffins MadDog.HashtagBearfam.BananaBread MadDog.HashtagBearfam.RoseCupcakes MadDog.HashtagBearfam.TTBrownies",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Leah",
+            5 //dislike
+          ],
+          "Value": "MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab MadDog.HashtagBearfam.SondraAutumnCookie MadDog.HashtagBearfam.SondraSpringtimeShortbread MadDog.HashtagBearfam.SondraWinterBar MadDog.HashtagBearfam.SondraSummerCake MadDog.HashtagBearfam.CornbreadMuffins MadDog.HashtagBearfam.BananaBread MadDog.HashtagBearfam.RoseCupcakes MadDog.HashtagBearfam.TTBrownies MadDog.HashtagBearfam.HoneyCakes",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Lewis",
+            5 //dislike
+          ],
+          "Value": "MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Marnie",
+            5 //dislike
+          ],
+          "Value": "MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Maru",
+            5 //dislike
+          ],
+          "Value": "MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Penny",
+            5 //dislike
+          ],
+          "Value": "MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Robin",
+            3 //like
+          ],
+          "Value": "MadDog.HashtagBearfam.FerskenPeach_PotentMead",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Robin",
+            5 //dislike
+          ],
+          "Value": "MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Sam",
+            5 //dislike
+          ],
+          "Value": "MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Sandy",
+            5 //dislike
+          ],
+          "Value": "MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Shane",
+            5 //dislike
+          ],
+          "Value": "MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Vincent",
+            5 //dislike
+          ],
+          "Value": "MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Wizard",
+            5 //dislike
+          ],
+          "Value": "MadDog.BearFam.Krakenling MadDog.BearFam.Lyngbakr MadDog.BearFam.Hafgufa MadDog.BearFam.Jojellyfish MadDog.BearFam.Colacrab",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Sebastian",
+            7 //hate
+          ],
+          "Value": "MadDog.HashtagBearfam.FerskenPeach_Honey MadDog.HashtagBearfam.FerskenPeach_Mead_Tankard MadDog.HashtagBearfam.FerskenPeach_Mead",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Maru",
+            7 //hate
+          ],
+          "Value": "MadDog.HashtagBearfam.FerskenPeach_Honey",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Gus",
+            1 //love
+          ],
+          "Value": "MadDog.HashtagBearfam.TerenRecipes MadDog.HashtagBearfam.BearRecipes MadDog.HashtagBearfam.SondraRecipes",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Pam",
+            1 //love
+          ],
+          "Value": "MadDog.HashtagBearfam.FerskenPeach_Mead_Tankard MadDog.HashtagBearfam.FerskenPeach_Mead",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Willy",
+            1 //love
+          ],
+          "Value": "MadDog.HashtagBearfam.FerskenPeach_Mead_Tankard MadDog.HashtagBearfam.FerskenPeach_Mead",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Jas",
+            7 //hate
+          ],
+          "Value": "MadDog.HashtagBearfam.FerskenPeach_Mead_Tankard MadDog.HashtagBearfam.FerskenPeach_Mead",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Penny",
+            7 //hate
+          ],
+          "Value": "MadDog.HashtagBearfam.FerskenPeach_Mead_Tankard MadDog.HashtagBearfam.FerskenPeach_Mead",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Leo",
+            7 //hate
+          ],
+          "Value": "MadDog.HashtagBearfam.FerskenPeach_Mead_Tankard MadDog.HashtagBearfam.FerskenPeach_Mead",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Vincent",
+            7 //hate
+          ],
+          "Value": "MadDog.HashtagBearfam.FerskenPeach_Mead_Tankard MadDog.HashtagBearfam.FerskenPeach_Mead",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "George",
+            1 //love
+          ],
+          "Value": "MadDog.HashtagBearfam.SigurdPerfectRamen",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Shane",
+            1 //love
+          ],
+          "Value": "MadDog.HashtagBearfam.SigurdPerfectRamen",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Abigail",
+            1 //love
+          ],
+          "Value": "MadDog.HashtagBearfam.TTBrownies",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Evelyn",
+            1 //love
+          ],
+          "Value": "MadDog.HashtagBearfam.TTBrownies",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Jodi",
+            1 //love
+          ],
+          "Value": "MadDog.HashtagBearfam.TTBrownies MadDog.HashtagBearfam.TerenRecipes",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Caroline",
+            1 //love
+          ],
+          "Value": "MadDog.HashtagBearfam.TTBrownies MadDog.HashtagBearfam.TerenRecipes",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Haley",
+            1 //love
+          ],
+          "Value": "MadDog.HashtagBearfam.RoseCupcakes",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Jas",
+            1 //love
+          ],
+          "Value": "MadDog.HashtagBearfam.RoseCupcakes",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Marnie",
+            1 //love
+          ],
+          "Value": "MadDog.HashtagBearfam.RoseCupcakes",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Vincent",
+            1 //love
+          ],
+          "Value": "MadDog.HashtagBearfam.RoseCupcakes",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Leo",
+            5 //dislike
+          ],
+          "Value": "MadDog.HashtagBearfam.BrazierSecretAlfredo MadDog.HashtagBearfam.SondraAutumnCookie MadDog.HashtagBearfam.SondraSpringtimeShortbread MadDog.HashtagBearfam.SondraWinterBar MadDog.HashtagBearfam.SondraSummerCake MadDog.HashtagBearfam.TriangleGrilledCheese MadDog.HashtagBearfam.GunnarPerfectRamen MadDog.HashtagBearfam.SigurdPerfectRamen MadDog.HashtagBearfam.FerskenPeachCobbler MadDog.HashtagBearfam.SlicedPeaches MadDog.HashtagBearfam.CornbreadMuffins MadDog.HashtagBearfam.BananaBread MadDog.HashtagBearfam.RoseCupcakes MadDog.HashtagBearfam.TTBrownies",
+          "Delimiter": " "
+        }
+      ]
+    },
+    {
+      "LogName": "Robin",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Robin",
+      "Entries": {
+        "AcceptGift_(O)MadDog.HashtagBearfam.FerskenPeach_PotentMead": "{{i18n:RobinLikeFPPotentMead}}"
+      }
+    }
+  ]
+}

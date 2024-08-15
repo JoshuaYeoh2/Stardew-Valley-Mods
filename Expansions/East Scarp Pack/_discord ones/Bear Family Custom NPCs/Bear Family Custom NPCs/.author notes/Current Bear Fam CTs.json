@@ -1,0 +1,81 @@
+{
+  //thought it would be easier to describe my CTs in here (and also format it for people)
+  "LogName": "NPCNAME",
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/NPCNAME",
+  "Entries": {
+
+    //bear fam
+    "BearFamTimeForBees": "{{i18n:}}", //Sondra and Sig have arrived and they brought BEES. Sondra/Sig arrived technically fall of the previous year, so your NPC could have gotten to know them or not. Sondra's nice and bakes for people, Sig's grumpy but not rude.
+    "BearFamFullHouse": "{{i18n:}}", //Gunnar and Gudrun have arrived and they brought TROUBLE. Gunnar's a just-barely graduated college kid striking it out 'his own' and Gudrun's a high schooler who would probably pull a knife on you if she sees you litter.
+    "BearFamFireDrill": "{{i18n:}}", //Gudrun tried to burn the lodge down. Your ES NPC probably heard the smoke detector or the window breaking (after Sig launched a flaming bowl of ramen through it) and might complain. Barring that, everyone rushed out in their pajamas, so your NPC could comment on how that might be embarrassing (Gunnar how are your PJs so wrinkled when you haven't even gone to bed yet). (Also Sig's topless and showing off his ink in this scene and as his creator I just think he's handsome (he has abs! he has tattoos! him tall! (just put a bag over his head)).
+    "BearFamAttacked": "{{i18n:}}", //man those rock crabs suck. a great time to complain about the rock crabs, mention that your NPC may have been troubled by them, or even comment on how terrifying it is to see a 6'5" man lumber down the sidewalk and slice a rock-crab in half in one blow. 
+
+    //sig
+    "SigLowBattery": "{{i18n:}}", //Sig is deaf. He doesn't hide it (but I couldn't begin to figure out how to portrait a hearing aid so it's on the side you can't see. :P) but he might've accidentally ignored your NPC a time or two. If your NPC is magic of some sort, beware that magic makes his hearing aid get very staticky/annoying
+    "SigAndCigarettes": "{{i18n:}}", //Sig chain-smokes when he's stressed. Good news! He doesn't do it around people (that's rude) and he doesn't leave the butts around. Bad news, he does smoke.
+    "SigHatesCrowds": "{{i18n:}}", //Sig doesn't actually hate crowds as much as he hates enclosed spaces/spaces without natural light. Yes it pertains to his final deployment/the accident that took his hearing and scarred up his face. Feel free to have your NPC mention seeing Sig be uncomfortable or antsy in places with minimal windows/closed in walls.
+    "SigVersusCrabs": "{{i18n:}}", //Instead of y'know, drawing his axe and defending himself, Sig kind of just let the rock crabs run wild. Who would get hurt by it? Himself? Pfft. Anyway, Sig's biggest gripe about his military discharge is that he was making a career out of it and now he's got nothing. Feel free to comment on how aimless Sig seems or how he may be adjusting terribly to civilian life (because he is)
+    "SigtheHero": "{{i18n:}}", //Sig rescued his kid brother, he's so cool. Sig's kind of going through a bit of a crisis right now with who he is outside of the military, but he's 
+
+    //son
+    "SondraAgingGracefully": "{{i18n:}}", //Look before you ask, Sondra is 54. But if ANYONE asks, she's fifty. Also, she's an academic who married into money, she never exactly worried about healthy living until her age caught up to her. Don't be too mean if you comment on her little ol' lady-ness. Barring that, you can comment on Sondra's deep appreciation for music and if your NPC is a musician themselves, they could mention that Sondra that requested to hear them play or perform sometime (if they'd be comfortable sharing their talent with her)
+    "SondraRememberWulfram": "{{i18n:}}", //Torsten Bear = Sondra's father in law and the kids grand-dad. Probably would have lived in the Lodge if he hadn't married Frida. Arne = Sig/Gun/Gud's dad, Yrsa = their other aunt. Older NPCs might remember the three siblings as children (Wulf was trouble, Arne was boring, Yrsa was mostly small). Even older NPCs might know Torsten and Frida or have attended their wedding - they had it in the Town Square (as part of Torsten's farewell to the Valley.)
+
+    //gun
+    "GunnarBoxShop": "{{i18n:}}", //Gunnar opened a shop by the mines. It's what it says on the tin. Adventurous NPCs might buy stuff from him, anyone who could do math might point out he's way under-selling things. He intentionally leaves the stand un-manned so you can call him out for being too trusting. He sells Sondra's cooking and grilled cheeses sometimes. 
+    "GunnarBuildsaBomb": "{{i18n:}}", //He didn't ACTUALLY build a bomb. It was a potion from a book, he swears. If your NPC was on the mountain they might've heard the boom. Otherwise maybe your NPC has seen him eyeball the most questionable concoction on earth before drinking it and instantly regretting it, as he's a bit too carefree when it comes following potion recipes.
+    "GunnarBreaksaSword": "{{i18n:}}", //Gunnar learns smithing. He did break a sword I just didn't animate one yet because I hate making assets. People can comment on how irritated Clint seems with Gun lurking about and making a mess of things or how well they think he's progressing on his task list from Gil and Marlon.
+    "GunnarGuildTryout": "{{i18n:}}", //Gunnar's shot at joining the Guild. Here's a good time to chime in on his odds and whether or not your NPC thinks he should quit while he's ahead. Also a good time to talk about monsters/monster eradication/pacifism route options.
+    "GunnarGetsaLecture": "{{i18n:}}", //Gunnar's antics have received government attention! Here's another good time chime in on how much trouble Gunnar seems to be, or maybe your NPC has a different perspective. This could also be a chance to talk about Lewis - how they get along with your NPC, if Lewis has ever done something that impacted them, etc. etc.
+    "GunnartheLost": "{{i18n:}}", //Gunnar went missing for about seven-ish days and the farmer and Sig went down after him. Great time to talk about how dangerous the mines might be, how dumb Gunnar might be, a time your NPC got lost in the mines or somewhere else or helped someone else who got lost.
+    "": "{{i18n:}}", //the second part of Gunnar the lost, a few days after he's been at rest in the family home, Gunnar comes to find that despite everything, he's a part of Pelican Town. This is a good event to piggyback off for a time where the village maybe came together for your NPC or when someone specific made them feel at home, or they can express relief that Gun's up and about and not giving up. 
+    "x": "{{i18n:}}", //Gunnar has exploded something in the basement. GREAT. ES NPCs can feel free to comment on the explosions, the wellbeing of Sig's bees, or the fact that Gunnar may not have learned much.
+    //part 2 of the basement. THERE's A WHAT IN THE BASEMENT?
+    //part 3 of the basement. 
+
+    //gud
+    "GudrunQinstagram": "{{i18n:}}", //Gudrun runs a Qinstagram where she educates people about aquatic creatures and water habitats and a blog where she complains about pollution and corporations ruining everything. NPCs could comment on social media (However you may think it appears in SDV), how annoying Gudrun is, or how she actually knows a thing or two about fish/etc. Maybe your NPC got her talking about her favorite creatures - squids and/or whales and couldn't get her to shut up. (If so, I am sorry.)
+    "GudrunEcoFriendly": "{{i18n:}}" //Gudrun's heart was in the right place but Pierre's got a business to run, kid. Gudrun might've nagged your NPC about recycling or maybe they've seen her wade into the river/lake/pond/etc to fish out something. Regardless, she was probably very annoying about it. (You could also gripe about capitalism/Pierre's brand of capitalism if you were so inclined).
+
+  }
+
+  /*
+  //non gross edition
+  { 
+  "LogName": "NPCNAME",
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/NPCName",
+  "Entries": {
+
+    //bear fam
+    "BearFamTimeForBees": "{{i18n:}}",
+    "BearFamFullHouse": "{{i18n:}}",
+    "BearFamAttacked": "{{i18n:}}",
+    "BearFamFireDrill": "{{i18n:}}",
+
+    //sig
+    "SigLowBattery": "{{i18n:}}",
+    "SigAndCigarettes": "{{i18n:}}", 
+    "SigHatesCrowds": "{{i18n:}}",
+    "SigVersusCrabs": "{{i18n:}}",
+
+
+    //son
+    "SondraAgingGracefully": "{{i18n:}}",
+    "SondraRememberWulfram": "{{i18n:}}",
+
+    //gun
+    "GunnarBoxShop": "{{i18n:}}",
+    "GunnarBuildsaBomb": "{{i18n:}}",
+    "GunnarBreaksaSword": "{{i18n:}}",
+    "GunnarGuildTryout": "{{i18n:}}",
+
+    //gud
+    "GudrunQinstagram": "{{i18n:}}",
+    "GudrunEcoFriendly": "{{i18n:}}"
+
+  }
+},
+  */
+}

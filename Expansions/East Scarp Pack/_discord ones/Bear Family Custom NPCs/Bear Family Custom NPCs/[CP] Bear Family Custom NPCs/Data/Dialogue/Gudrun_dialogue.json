@@ -1,0 +1,539 @@
+{
+	"Changes": [
+
+		{
+			"LogName": "Gudrun Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gudrun",
+			"Entries": {
+
+				"Introduction": "{{i18n:GudrunIntroduction}}",
+				"WinterStar_GiveGift_Before": "{{i18n:GudrunWinterStarBefore}}",
+				"WinterStar_GiveGift_After": "{{i18n:GudrunWinterStarAfter}}",
+				"WinterStar_ReceiveGift": "{{i18n:GudrunWinterStarReceiveGift}}",
+				"Fair_Judging": "{{i18n:GudrunFairJudging}}",
+				"Fair_Judged_PlayerLost_PurpleShorts": "{{i18n:GudrunFairPurpleShorts}}",
+				"Fair_Judged_PlayerLost_Skipped": "{{i18n:GudrunFairSkipped}}",
+				"Fair_Judged_PlayerLost": "{{i18n:GudrunFairLost}}",
+				"Fair_Judged_PlayerWon": "{{i18n:GudrunFairWon}}",
+				"RejectBouquet_NotDatable": "{{i18n:GudrunRejectBouquet}}",
+				"DumpsterDiveComment": "{{i18n:GudrunDumpsterDiveComment}}",
+				"HitBySlingshot": "{{i18n:GudrunHitBySlingshot}}",
+				"GreenRain": "{{i18n:GudrunGreenRain}}",
+				"GreenRainFinished": "{{i18n:GudrunGreenRainFinished}}",
+				"GreenRain_2": "{{i18n:GudrunGreenRain2}}",
+				"HitBySlingshot_(O)388": "{{i18n:GudrunHitbySlingShotWood}}",
+				"HitBySlingshot_(O)390": "{{i18n:GudrunHitbySlingShotStone}}",
+				"HitBySlingshot_category_fish": "{{i18n:GudrunHitbySlingShotFishes}}",
+				"HitBySlingshot_arrow_item": "{{i18n:GudrunHitbySlingShotArrow}}",
+				"HitBySlingshot_(O)Cornucopia_Durian": "{{i18n:GudrunHitbySlingShotCornucopiaDurian}}",
+				"HitBySlingshot_(O)TenebrousNova.EnD.SanguineHeart": "{{i18n:GudrunHitbySlingShotEnDSanguineHeart}}",
+
+				"ArchaeologyHouse_Entry": "{{i18n:GudrunMuseumEntry1}}/{{i18n:GudrunMuseumEntry2}}/{{i18n:GudrunMuseumEntry3}}/{{i18n:GudrunMuseumEntry4}}",
+				"Town_Entry": "{{i18n:GudrunTownEntry1}}/{{i18n:GudrunTownEntry2}}/{{i18n:GudrunTownEntry3}}/{{i18n:GudrunTownEntry4}}",
+				"Beach_Entry": "{{i18n:GudrunBeachEntry1}}/{{i18n:GudrunBeachEntry2}}/{{i18n:GudrunBeachEntry3}}/{{i18n:GudrunBeachEntry4}}",
+				"Mountain_Entry": "{{i18n:GudrunMountainEntry1}}/{{i18n:GudrunMountainEntry2}}/{{i18n:GudrunMountainEntry3}}/{{i18n:GudrunMountainEntry4}}",
+				"EastScarp_Village_Entry": "{{i18n:GudrunESVillageEntry1}}/{{i18n:GudrunESVillageEntry2}}/{{i18n:GudrunESVillageEntry3}}/{{i18n:GudrunESVillageEntry4}}",
+
+				"RejectMermaidPendant_NotDatable": "{{i18n:GudrunRejectMermaidPendantNotDatable}}",
+				"RejectMermaidPendant": "{{i18n:GudrunRejectMermaidPendantDefault}}",
+
+				"RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:GudrunRejectMovieTicketAlreadyInvited}}",
+				"RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:GudrunRejectMovieTicketAlreadyWatched}}",
+				"RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n:GudrunRejectMovieTicketNotInterested}}",
+				"RejectMovieTicket": "{{i18n:GudrunRejectMovieTicketDefault}}",
+
+				"dating_MadDog.BearFam.Gunnar": "{{i18n:GudrundatingGunnar}}",
+				"married_MadDog.BearFam.Gunnar": "{{i18n:GudrunmarriedGunnar}}",
+				"divorced_MadDog.BearFam.Gunnar": "{{i18n:GudrundivorcedGunnar}}",
+
+				"dating_MadDog.BearFam.Sigurd": "{{i18n:GudrundatingSig}}",
+				"married_MadDog.BearFam.Sigurd": "{{i18n:GudrunmarriedSig}}",
+				"divorced_MadDog.BearFam.Sigurd": "{{i18n:GudrundivorcedSig}}",
+
+				"dating_MadDog.BearFam.Teren": "{{i18n:GudrundatingTeren}}",
+				"married_MadDog.BearFam.Teren": "{{i18n:GudrunmarriedTeren}}",
+				"divorced_MadDog.BearFam.Teren": "{{i18n:GudrundivorcedTeren}}",
+
+				"married_memory_oneweek": "{{i18n:Gudrunfarmermarriedoneweek}}",
+				"firstVisit_Railroad": "{{i18n:Gudrunfirstrailroad}}",
+				"firstVisit_Sewer": "{{i18n:Gudrunfirstsewer}}",
+				"gotPet": "{{i18n:GudrungotPet}}",
+				"SquidFest": "{{i18n:GudrunSquidfest}}",
+				"married": "{{i18n:Gudrunfarmermarried}}",
+				"houseUpgrade_1": "{{i18n:Gudrunhouseupgradefirst}}",
+				"achievement_21": "{{i18n:Gudrunachievementmorecrafting}}", //very crafty  Gud
+				"achievement_25": "{{i18n:Gudrunachievementlotsfish}}", //catch a lot of fish   Gud
+				"wonIceFishing": "{{i18n:Gudrunwonicefishing}}", //Gud 
+				"structureBuilt_Fish Pond": "{{i18n:GudrunbuiltFishPond}}", //Gud 
+				"cropMatured_276": "{{i18n:GudrungrewPumpkin}}",
+				"cropMatured_190": "{{i18n:GudrungrewCauliflower}}", //gud
+				"cropMatured_Broccoli": "{{i18n:GudrungrewBroccoli}}", //gud
+				"fishCaught_798": "{{i18n:GudruncaughtMidnightSquid}}", // gud
+				"fishCaught_151": "{{i18n:GudruncaughtSquid}}", //gud
+
+
+				// Resort Lines //done
+				"Resort_Entering": "{{i18n:GudrunResEnter}}",
+				"Resort_Leaving": "{{i18n:GudrunResLeave}}",
+				"Resort_Shore": "{{i18n:GudrunResShore}}",
+				"Resort_Umbrella": "{{i18n:GudrunResUmbrella}}",
+				"Resort_Wander": "{{i18n:GudrunResWander}}",
+				"Resort_Wander_2": "{{i18n:GudrunResWander2}}",
+				"Resort_Chair": "{{i18n:GudrunResChair}}",
+				"Resort_Bar": "{{i18n:GudrunResBar}}",
+				"Resort_Towel": "{{i18n:GudrunResTowel}}",
+				"Resort": "{{i18n:GudrunResort}}",
+
+				//Specific Dialogue
+
+				"spring_18_2": "{{i18n:GudrunSpring18year2}}",
+				"fall_18_1": "{{i18n:GudrunFall18year1}}",
+				"winter_24_1": "{{i18n:GudrunWinter24year1}}",
+				"spring_12": "{{i18n:GudrunSpring12}}",
+				"spring_23": "{{i18n:GudrunSpring23}}",
+				"summer_10": "{{i18n:GudrunSummer10}}",
+				"summer_27": "{{i18n:GudrunSummer27}}",
+				"fall_15": "{{i18n:GudrunFall15}}",
+				"fall_26": "{{i18n:GudrunFall26}}",
+				"winter_7": "{{i18n:GudrunWinter7}}",
+				"winter_15": "{{i18n:GudrunWinter15}}",
+				"winter_16": "{{i18n:GudrunWinter16}}",
+				"winter_17": "{{i18n:GudrunWinter17}}",
+				"winter_24": "{{i18n:GudrunWinter24}}",
+				"winter_28": "{{i18n:GudrunWinter28}}"
+			}
+		},
+
+		//daily
+		{
+			"LogName": "Dialogue - 0-4",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gudrun",
+			"Update": "OnLocationChange",
+			"Entries": {
+				"Mon": "{{i18n:GudrunDialogue04.{{Random:{{Range: 1, 30}}}}}}",
+				"Tue": "{{i18n:GudrunDialogue04.{{Random:{{Range: 1, 30}}}}}}",
+				"Wed": "{{i18n:GudrunDialogue04.{{Random:{{Range: 1, 30}}}}}}",
+				"Thu": "{{i18n:GudrunDialogue04.{{Random:{{Range: 1, 30}}}}}}",
+				"Fri": "{{i18n:GudrunDialogue04.{{Random:{{Range: 1, 30}}}}}}",
+				"Sat": "{{i18n:GudrunDialogue04.{{Random:{{Range: 1, 30}}}}}}",
+				"Sun": "{{i18n:GudrunDialogue04.{{Random:{{Range: 1, 30}}}}}}"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGudrun_OverrideSeenToday": false,
+				"Hearts:MadDog.HashtagBearFam.Gudrun": "{{Range: 0, 4}}"
+			}
+		},
+		{
+			"LogName": "Dialogue - 0-4 - Seasonal",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gudrun",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GudrunDialogue04.{{season}}.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current MadDogGudrun_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGudrun_OverrideSeenToday": false,
+				"Query: {{Random: {{Range: 1, 10}}|key=GudrunSeasonA}} = 1": true,
+				"Hearts:MadDog.HashtagBearFam.Gudrun": "{{Range: 0, 4}}"
+			}
+		},
+		{
+			"LogName": "Dialogue - 6-10",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gudrun",
+			"Update": "OnLocationChange",
+			"Entries": {
+				"Mon": "{{i18n:GudrunDialogue610.{{Random:{{Range: 1, 60}}}}}}",
+				"Tue": "{{i18n:GudrunDialogue610.{{Random:{{Range: 1, 60}}}}}}",
+				"Wed": "{{i18n:GudrunDialogue610.{{Random:{{Range: 1, 60}}}}}}",
+				"Thu": "{{i18n:GudrunDialogue610.{{Random:{{Range: 1, 60}}}}}}",
+				"Fri": "{{i18n:GudrunDialogue610.{{Random:{{Range: 1, 60}}}}}}",
+				"Sat": "{{i18n:GudrunDialogue610.{{Random:{{Range: 1, 60}}}}}}",
+				"Sun": "{{i18n:GudrunDialogue610.{{Random:{{Range: 1, 60}}}}}}"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGudrun_OverrideSeenToday": false,
+				"Hearts:MadDog.HashtagBearFam.Gudrun": "{{Range: 5, 10}}"
+			}
+		},
+		{
+			"LogName": "Dialogue - 6 - 10 Seasonal Platonic - Seasonal",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gudrun",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GudrunDialogue610.{{season}}.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current MadDogGudrun_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGudrun_OverrideSeenToday": false,
+				"Query: {{Random: {{Range: 1, 10}}|key=GudrunSeasonB}} = 1": true,
+				"Hearts:MadDog.HashtagBearFam.Gudrun": "{{Range: 5, 10}}"
+			}
+		},
+
+		//crossover dialogue
+		//Eli and Dylan
+		{
+			"LogName": "Gudrun ED Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gudrun",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GudrunDialogueED.{{Random:{{Range: 1, 10}}|key={{Time}}}}}}#$action AddMail Current MadDogGudrun_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGudrun_OverrideSeenToday": false,
+				"HasMod: |contains=TenebrousNova.EliDylan.CP": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=EDgud}} = 1": true //key needs differentiating per mod
+			}
+		},
+		//Rodney O'Brien (later include Edwina, Meredith)
+		{
+			"LogName": "Gudrun Rodney O'Brien Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gudrun",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GudrunDialogueROB.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGudrun_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGudrun_OverrideSeenToday": false,
+				"HasMod: |contains=TheFrenchDodo.RodneyOBrien": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=ROBgud}} = 1": true //key needs differentiating per mod
+			}
+		},
+		//Nora the Herpetologist
+		{
+			"LogName": "Gudrun Nora Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gudrun",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GudrunDialogueNtH.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGudrun_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGudrun_OverrideSeenToday": false,
+				"HasMod: |contains=Bagi.Nora.CP": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=NtHgud}} = 1": true //key needs differentiating per mod
+			}
+		},
+		//Diamond in the Rough
+		{
+			"LogName": "Gudrun DitR Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gudrun",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GudrunDialogueDitR.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGudrun_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGudrun_OverrideSeenToday": false,
+				"HasMod: |contains=7thAxis.DitR.CP": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=DitRgud}} = 1": true //key needs differentiating per mod
+			}
+		},
+		//Sword and Sorcery
+		{
+			"LogName": "Gudrun SnS Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gudrun",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GudrunDialogueSnS.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGudrun_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGudrun_OverrideSeenToday": false,
+				"HasMod: |contains=DN.SnS.CP": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=SnSgud}} = 1": true //key needs differentiating per mod
+			}
+		},
+	/*	//Plum Forrest + Family
+		{
+			"LogName": "Gudrun Plum Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gudrun",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GudrunDialoguePFAF.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGudrun_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGudrun_OverrideSeenToday": false,
+				"HasMod: |contains=AgentPhoenixCupcake.cp.PlumForrest": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=PFAFgud}} = 1": true //key needs differentiating per mod
+			}
+		},
+		//Metalcore Goes Cottagecore
+		{
+			"LogName": "Gudrun MGC Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gudrun",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GudrunDialogueMGC.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGudrun_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGudrun_OverrideSeenToday": false,
+				"HasMod: |contains=Squeaks.MGC.CP": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=MGCgud}} = 1": true //key needs differentiating per mod
+			}
+		},*/
+		//Clown Cinematic Universe Zone
+		//Traveling Dreamer - A New Dream
+		{
+			"LogName": "Gudrun Barron & John Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gudrun",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GudrunDialogueFCAND.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGudrun_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGudrun_OverrideSeenToday": false,
+				"HasMod: |contains=Fellowclown.AND": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=FCTDgud}} = 1": true //key needs differentiating per mod
+			}
+		},
+		/*//The Wayfarer
+		{
+			"LogName": "Gudrun Lyell Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gudrun",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GudrunDialogueFCTW.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGudrun_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGudrun_OverrideSeenToday": false,
+				"HasMod: |contains=Fellowclown.Lyell": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=FCTWgud}} = 1": true //key needs differentiating per mod
+			}
+		},
+		//Magical Family
+		{
+			"LogName": "Gudrun Valerie Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gudrun",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GudrunDialogueFCMF.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGudrun_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGudrun_OverrideSeenToday": false,
+				"HasMod: |contains=Fellowclown.MagicalFamily": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=FCMFgud}} = 1": true //key needs differentiating per mod
+			}
+		},
+		//Settling Waters
+		{
+			"LogName": "Gudrun Nikolai Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gudrun",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GudrunDialogueFCSW.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGudrun_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGudrun_OverrideSeenToday": false,
+				"HasMod: |contains=Fellowclown.Nikolai": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=FCSWgud}} = 1": true //key needs differentiating per mod
+			}
+		},
+		{
+			"LogName": "Gudrun YtA Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gudrun",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GudrunDialogueYtA.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGudrun_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGudrun_OverrideSeenToday": false,
+				"HasMod: |contains=yri.yri": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=YtAgud}} = 1": true //key needs differentiating per mod
+			}
+		},
+		{
+			"LogName": "Gudrun ARV Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gudrun",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GudrunDialogueARV.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGudrun_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGudrun_OverrideSeenToday": false,
+				"HasMod: |contains=Himetarts.ARV.CP": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=ARVgud}} = 1": true //key needs differentiating per mod
+			}
+		},
+		{
+			"LogName": "Gudrun Lucikiel Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gudrun",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GudrunDialogueLuc.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGudrun_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGudrun_OverrideSeenToday": false,
+				"HasMod: |contains=Arknir.Lucikiel": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=Lucgud}} = 1": true //key needs differentiating per mod
+			}
+		},
+		{
+			"LogName": "Gudrun Lavril Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gudrun",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GudrunDialogueLav.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGudrun_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGudrun_OverrideSeenToday": false,
+				"HasMod: |contains=Arknir27.Lavril": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=Lavgud}} = 1": true //key needs differentiating per mod
+			}
+		}
+		//standalone NPCs - TBD on 1.6 versions of Ayeisha, Stray Catfe, Delores, Sorren, Shiko, Paul, Mike, Wilford, Lunna, Denver, ARV, Aspen, Alecto, Riley, Constance/The Fish{{WeekDay}}ger, Sydney (and more these are just me skimming my old 1.5 mods folder lmao)
+		/* place holder template
+     {
+      "LogName": "Gudrun XXXXX Commentary", //mod name here
+      "Action": "EditData",
+      "Priority": "Late",
+		"Update": "OnLocationChange",
+      "Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gudrun",
+      "Entries": {
+        "{{WeekDay}}": "{{i18n:GudrunDialogueXXXXX.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGudrun_OverrideSeenToday received"
+      },
+      "When": { 
+		"HasFlag |contains=MadDogGudrun_OverrideSeenToday": false,
+        "HasMod: |contains=X": true, //MOD ID HERE
+        "Query: {{Random: {{Range: 1, 20}}|key=XXXXXgud}} = 1": true //key needs differentiating per mod    //Abbreviation for key here
+      }
+    }
+     */
+
+		//expansions
+		//DTZ
+		{
+      "LogName": "Gudrun DTZ Commentary", //mod name here
+      "Action": "EditData",
+      "Priority": "Late",
+		  "Update": "OnLocationChange",
+      "Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gudrun",
+      "Entries": {
+        "{{WeekDay}}": "{{i18n:GudrunDialogueDTZ.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current MadDogGudrun_OverrideSeenToday received"
+      },
+      "When": { 
+		  "HasFlag |contains=MadDogGudrun_OverrideSeenToday": false,
+        "HasMod: |contains=DTZ.DowntownZuzuCP": true, //MOD ID HERE
+        "Query: {{Random: {{Range: 1, 20}}|key=DTZgud}} = 1": true //key needs differentiating per mod    //Abbreviation for key here
+      }
+    }
+		/*//Stardew Valley Expanded
+		{
+			"LogName": "Gudrun SVE Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gudrun",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GudrunDialogueSVE.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGudrun_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGudrun_OverrideSeenToday": false,
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=SVEgud}} = 1": true //key needs differentiating per mod
+			}
+		},
+		//Ridgeside Village
+		{
+			"LogName": "Gudrun RSV Commentary",
+			"Action": "EditData",
+			"Priority": "Late",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gudrun",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:GudrunDialogueRSV.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGudrun_OverrideSeenToday received"
+			},
+			"When": {
+				"HasFlag |contains=MadDogGudrun_OverrideSeenToday": false,
+				"HasMod: |contains=Rafseazz.RSVCP": true,
+				"Query: {{Random: {{Range: 1, 20}}|key=RSVgud}} = 1": true //key needs differentiating per mod
+			}
+		}
+		//Visit Mount Vapius VMV
+		/* {
+      "LogName": "Gudrun VMV Commentary", 
+      "Action": "EditData",
+      "Priority": "Late",
+		"Update": "OnLocationChange",
+      "Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gudrun",
+      "Entries": {
+        "{{WeekDay}}": "{{i18n:GudrunDialogueVMV.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGudrun_OverrideSeenToday received"
+      },
+      "When": { 
+		"HasFlag |contains=MadDogGudrun_OverrideSeenToday": false,
+        "HasMod: |contains=Lumisteria.MtVapius": true, 
+        "Query: {{Random: {{Range: 1, 20}}|key=VMVgud}} = 1": true //key needs differentiating per mod   
+      }
+    }
+  
+		//Sunberry Village SBV
+		/* {
+      "LogName": "Gudrun SBV Commentary", 
+      "Action": "EditData",
+      "Priority": "Late",
+		"Update": "OnLocationChange",
+      "Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gudrun",
+      "Entries": {
+        "{{WeekDay}}": "{{i18n:GudrunDialogueSBV.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGudrun_OverrideSeenToday received"
+      },
+      "When": { 
+		"HasFlag |contains=MadDogGudrun_OverrideSeenToday": false,
+        "HasMod: |contains=skellady.SBVCP": true, //MOD ID HERE - TBD (no public alpha or release yet!!!!!!!!!!!!)
+        "Query: {{Random: {{Range: 1, 20}}|key=SBVgud}} = 1": true //key needs differentiating per mod    
+      }
+    }
+    */
+
+		//TBD Expansions depending on 1.6 - Cape Stardew, Adventurer Guild Expanded, Defense Division, Boarding House
+
+		/* place holder template
+     {
+      "LogName": "Gudrun XXXXX Commentary", //mod name here
+      "Action": "EditData",
+      "Priority": "Late",
+		"Update": "OnLocationChange",
+      "Target": "Characters/Dialogue/MadDog.HashtagBearFam.Gudrun",
+      "Entries": {
+        "{{WeekDay}}": "{{i18n:GudrunDialogueXXXXX.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}#$action AddMail Current MadDogGudrun_OverrideSeenToday received"
+      },
+      "When": { 
+		"HasFlag |contains=MadDogGudrun_OverrideSeenToday": false,
+        "HasMod: |contains=X": true, //MOD ID HERE
+        "Query: {{Random: {{Range: 1, 20}}|key=XXXXXgud}} = 1": true //key needs differentiating per mod    //Abbreviation for key here
+      }
+    }
+     */
+	]
+}

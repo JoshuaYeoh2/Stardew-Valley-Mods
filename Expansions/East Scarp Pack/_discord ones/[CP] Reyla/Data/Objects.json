@@ -1,0 +1,312 @@
+{
+    "Changes":[
+         {
+      "LogName": " Loading in Objects",
+      "Action": "Load",
+      "Target": "Mods/{{ModID}}/Objects",
+      "FromFile": "Assets/Objects/Objects.png"
+    },
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "RaffieJohn.Tteokbokki": {
+                    "Name": "RaffieJohn.Tteokbokki",
+                    "DisplayName": "{{i18n: RaffieJohn.Tteokbokki}}",
+                    "Description": "{{i18n: RaffieJohn.Tteokbokki.Desc}}",
+                    "Type": "Artisan Goods",
+                    "Category": -26,
+                    "Price": 150,
+                    "Edibility": 10,
+                    "IsDrink": false,
+                    "ExcludeFromPerfectionShipping": true,
+                    "Buffs":[
+                        {
+                        "Id": "{{i18n: RaffieJohn.Tteokbokki.Buff}}",
+                        "Duration": 7,
+                        "CustomAttributes": {
+                            "FarmingLevel": 3,
+                            "FishingLevel": 0,
+                            "MiningLevel":0,
+                            "LuckLevel": 1,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 3,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 0
+                        }
+                    }
+                ],
+                    "Texture": "Mods/{{ModID}}/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "RaffieJohn.BeefBroth": {
+                    "Name": "RaffieJohn.BeefBroth",
+                    "DisplayName": "{{i18n: RaffieJohn.BeefBroth}}",
+                    "Description": "{{i18n: RaffieJohn.BeefBroth.Desc}}",
+                    "Type": "Artisan Goods",
+                    "Category": -26,
+                    "Price": 150,
+                    "Edibility": 10,
+                    "IsDrink": false,
+                    "ExcludeFromPerfectionShipping": true,
+                    "Buffs":[
+                        {
+                        "Id": "{{i18n: RaffieJohn.BeefBroth.Buff}}",
+                        "Duration": 7,
+                        "CustomAttributes": {
+                            "FarmingLevel": 3,
+                            "FishingLevel": 0,
+                            "MiningLevel":0,
+                            "LuckLevel": 1,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 3,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 0
+                        }
+                    }
+                ],
+                    "Texture": "Mods/{{ModID}}/Objects",
+                    "SpriteIndex": 1
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "RaffieJohn.PorkTamale": {
+                    "Name": "RaffieJohn.PorkTamale",
+                    "DisplayName": "{{i18n: RaffieJohn.PorkTamale}}",
+                    "Description": "{{i18n: RaffieJohn.PorkTamale.Desc}}",
+                    "Type": "Artisan Goods",
+                    "Category": -26,
+                    "Price": 150,
+                    "Edibility": 10,
+                    "IsDrink": false,
+                    "ExcludeFromPerfectionShipping": true,
+                    "Buffs":[
+                        {
+                        "Id": "{{i18n: RaffieJohn.PorkTamale.Buff}}",
+                        "Duration": 7,
+                        "CustomAttributes": {
+                            "FarmingLevel": 3,
+                            "FishingLevel": 0,
+                            "MiningLevel":0,
+                            "LuckLevel": 1,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 3,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 0
+                        }
+                    }
+                ],
+                    "Texture": "Mods/{{ModID}}/Objects",
+                    "SpriteIndex": 2
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "RaffieJohn.BeefTamale": {
+                    "Name": "RaffieJohn.BeefTamale",
+                    "DisplayName": "{{i18n: RaffieJohn.BeefTamale}}",
+                    "Description": "{{i18n: RaffieJohn.BeefTamale.Desc}}",
+                    "Type": "Artisan Goods",
+                    "Category": -26,
+                    "Price": 150,
+                    "Edibility": 10,
+                    "IsDrink": false,
+                    "ExcludeFromPerfectionShipping": true,
+                    "Buffs":[
+                        {
+                        "Id": "{{i18n: RaffieJohn.BeefTamale.Buff}}",
+                        "Duration": 7,
+                        "CustomAttributes": {
+                            "FarmingLevel": 3,
+                            "FishingLevel": 0,
+                            "MiningLevel":0,
+                            "LuckLevel": 1,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 3,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 0
+                        }
+                    }
+                ],
+                    "Texture": "Mods/{{ModID}}/Objects",
+                    "SpriteIndex": 3
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "RaffieJohn.BobaTea": {
+                    "Name": "RaffieJohn.BobaTea",
+                    "DisplayName": "{{i18n: RaffieJohn.BobaTea}}",
+                    "Description": "{{i18n: RaffieJohn.BobaTea.Desc}}",
+                    "Type": "Artisan Goods",
+                    "Category": -26,
+                    "Price": 150,
+                    "Edibility": 10,
+                    "IsDrink": false,
+                    "ExcludeFromPerfectionShipping": true,
+                    "Buffs":[
+                        {
+                        "Id": "{{i18n: RaffieJohn.BobaTea.Buff}}",
+                        "Duration": 7,
+                        "CustomAttributes": {
+                            "FarmingLevel": 3,
+                            "FishingLevel": 0,
+                            "MiningLevel":0,
+                            "LuckLevel": 1,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 3,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 0
+                        }
+                    }
+                ],
+                    "Texture": "Mods/{{ModID}}/Objects",
+                    "SpriteIndex": 4
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "RaffieJohn.Kenpeito": {
+                    "Name": "RaffieJohn.Kenpeito",
+                    "DisplayName": "{{i18n: RaffieJohn.Kenpeito}}",
+                    "Description": "{{i18n: RaffieJohn.Kenpeito.Desc}}",
+                    "Type": "Artisan Goods",
+                    "Category": -26,
+                    "Price": 150,
+                    "Edibility": 10,
+                    "IsDrink": false,
+                    "ExcludeFromPerfectionShipping": true,
+                    "Buffs":[
+                        {
+                        "Id": "{{i18n: RaffieJohn.Kenpeito.Buff}}",
+                        "Duration": 7,
+                        "CustomAttributes": {
+                            "FarmingLevel": 3,
+                            "FishingLevel": 0,
+                            "MiningLevel":0,
+                            "LuckLevel": 1,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 3,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 0
+                        }
+                    }
+                ],
+                    "Texture": "Mods/{{ModID}}/Objects",
+                    "SpriteIndex": 5
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "RaffieJohn.SpaghettiSquash": {
+                    "Name": "RaffieJohn.SpaghettiSquash",
+                    "DisplayName": "{{i18n: RaffieJohn.SpaghettiSquash}}",
+                    "Description": "{{i18n: RaffieJohn.SpaghettiSquash.Desc}}",
+                    "Type": "Artisan Goods",
+                    "Category": -26,
+                    "Price": 150,
+                    "Edibility": 10,
+                    "IsDrink": false,
+                    "ExcludeFromPerfectionShipping": true,
+                    "Buffs":[
+                        {
+                        "Id": "{{i18n: RaffieJohn.SpaghettiSquash.Buff}}",
+                        "Duration": 7,
+                        "CustomAttributes": {
+                            "FarmingLevel": 3,
+                            "FishingLevel": 0,
+                            "MiningLevel":0,
+                            "LuckLevel": 1,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 3,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 0
+                        }
+                    }
+                ],
+                    "Texture": "Mods/{{ModID}}/Objects",
+                    "SpriteIndex": 6
+                }
+            }
+        },
+        //Quest Items
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "RaffieJohn.PhotoMom": {
+                    "Name": "RaffieJohn.PhotoMom",
+                    "DisplayName": "{{i18n: RaffieJohn.PhotoMom}}",
+                    "Description": "{{i18n: RaffieJohn.PhotoMom.Desc}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 0,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromPerfectionShipping": true,
+                    "ExcludeFromRandomSale": true,
+                    "CanBeTrashed": false,
+                    "Buffs":[
+                        {
+                        "Id": null,
+                        "Duration": 0,
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+                            "FishingLevel": 0,
+                            "MiningLevel":0,
+                            "LuckLevel": 0,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 0,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 0
+                        }
+                    }
+                ],
+                    "Texture": "Mods/{{ModID}}/Objects",
+                    "SpriteIndex": 7
+                }
+            }
+        }
+    ]
+}

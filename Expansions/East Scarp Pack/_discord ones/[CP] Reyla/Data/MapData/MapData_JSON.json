@@ -1,0 +1,254 @@
+{
+  "Changes": [
+    //======================================================================================================
+    //IF CLOWNCORE IS INSTALLED
+    //======================================================================================================
+    {
+      "LogName": "Marketpalooza Stall Edit",
+      "Action": "EditMap",
+      "Target": "Maps/Fellowclown.PC_Marketpalooza",
+      "FromFile": "Assets/Maps/Custom_Reyla_Marketpalooza_stall.tbin",
+   
+      "ToArea": { "X": 12, "Y": 0, "Width": 5, "Height": 4},
+      "When": {
+        "HasMod|contains=Fellowclown.PC": "true"
+      }
+    },
+    {
+      "LogName": "PC Entrance Patch Edit",
+      "Action": "EditMap",
+      "Target": "Maps/Fellowclown.PC_OldGraveYard",
+      "FromFile": "Assets/Maps/RaffieJohn.Reyla_PasserbyEntrancePatch.tbin",
+   
+      "ToArea": { "X": 47, "Y": 67, "Width": 3, "Height": 10},
+         "TextOperations": [
+        {
+         "Operation": "Append",
+         "Target": ["MapProperties", "Warp"],
+         "Value": "49 70 RaffieJohn.Reyla_Home 1 22 49 71 RaffieJohn.Reyla_Home 1 22",
+         "Delimiter": " "
+        }
+      ],
+      "When": {
+        "HasMod|contains=Fellowclown.PC": "true"
+      }
+    },
+    //0 21 Fellowclown.PC_OldGraveYard 48 70 0 22 Fellowclown.PC_OldGraveYard 48 71 0 23 Fellowclown.PC_OldGraveYard 48 72 
+    {
+      "LogName": "Reyla Alt Entrance if PC isn't isnt installed Edit",
+      "Action": "EditMap",
+      "Target": "Maps/RaffieJohn.Reyla_Home",
+      "FromFile": "Assets/Maps/RaffieJohn.Reyla_Home_Alt_Entrance_PC.tbin",
+   
+      "ToArea": { "X": 0, "Y": 17, "Width": 3, "Height": 11},
+         "TextOperations": [
+        {
+         "Operation": "Append",
+         "Target": ["MapProperties", "Warp"],
+         "Value": "0 21 Fellowclown.PC_OldGraveYard 48 70 0 22 Fellowclown.PC_OldGraveYard 48 71 0 23 Fellowclown.PC_OldGraveYard 48 72",
+         "Delimiter": " "
+        }
+      ],
+      "When": {
+        "HasMod|contains=Fellowclown.PC": "true"
+      }
+    },
+    {
+      "LogName": "Reyla's Map Edit",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+      "RaffieJohn.Reyla_Home": {
+      "DisplayName": "{{i18n: RaffieJohn.MapName.Home}}",
+      "CreateOnLoad": {
+      "MapPath": "Maps/RaffieJohn.Reyla_Home"
+      },
+      "DefaultArrivalTile": {
+      "X": 1,
+      "Y": 22
+      },
+      "ExcludeFromNpcPathfinding": false,
+      "ArtifactSpots": [],
+      "FishAreas": {},
+      "Fish": [],
+      "Forage":  [],
+      "CustomFields": {}
+          }
+        },
+        "When": {
+          "HasMod|contains=Fellowclown.PC": "true"
+        }
+      },
+
+    //======================================================================================================
+    //IF CLOWNCORE ISN'T INSTALLED
+    //======================================================================================================
+    {
+      "LogName": "Reyla Alt Entrance if PC isn't isnt installed Edit",
+      "Action": "EditMap",
+      "Target": "Maps/RaffieJohn.Reyla_Home",
+      "FromFile": "Assets/Maps/RaffieJohn.Reyla_Home_Alt_Entrance.tbin",
+   
+      "ToArea": { "X": 13, "Y": 37, "Width": 6, "Height": 2},
+         "TextOperations": [
+        {
+         "Operation": "Append",
+         "Target": ["MapProperties", "Warp"],
+         "Value": "14 38 Mountain 37 1 15 38 Mountain 38 1 16 38 Mountain 39 1",
+         "Delimiter": " "
+        }
+      ],
+      "When": {
+        "HasMod|contains=Fellowclown.PC": "false"
+      }
+    },
+    {
+      "LogName": "Reyla Mountain Entrance Edit",
+      "Action": "EditMap",
+      "Target": "Maps/Mountain",
+      "FromFile": "Assets/Maps/RaffieJohn.Reyla_Mountain_Entrance.tbin",
+   
+      "ToArea": { "X": 34, "Y": 0, "Width": 7, "Height": 5},
+         "TextOperations": [
+        {
+         "Operation": "Append",
+         "Target": ["MapProperties", "Warp"],
+         "Value": "37 0 RaffieJohn.Reyla_Home 14 37 38 0 RaffieJohn.Reyla_Home 15 37 39 0 RaffieJohn.Reyla_Home 16 37",
+         "Delimiter": " "
+        }
+      ],
+      "When": {
+        "HasMod|contains=Fellowclown.PC": "false"
+      }
+    },
+        {
+      "LogName": "Reyla Mountain Entrance Edit",
+      "Action": "EditMap",
+      "Target": "Maps/RaffieJohn.Reyla_Home",
+      "FromFile": "Assets/Maps/RaffieJohn.Reyla_Home_Closed_Original_Entrance.tbin",
+   
+      "ToArea": { "X": 0, "Y": 17, "Width": 3, "Height": 11},
+      "When": {
+        "HasMod|contains=Fellowclown.PC": "false"
+      }
+    },
+      {
+        "LogName": "Reyla's Map Edit",
+        "Action": "EditData",
+        "Target": "Data/Locations",
+        "Entries": {
+        "RaffieJohn.Reyla_Home": {
+        "DisplayName": "{{i18n: RaffieJohn.MapName.Home}}",
+        "CreateOnLoad": {
+        "MapPath": "Maps/RaffieJohn.Reyla_Home"
+        },
+        "DefaultArrivalTile": {
+        "X": 15,
+        "Y": 37
+        },
+        "ExcludeFromNpcPathfinding": false,
+        "ArtifactSpots": [],
+        "FishAreas": {},
+        "Fish": [],
+        "Forage":  [],
+        "CustomFields": {}
+            }
+          },
+          "When": {
+            "HasMod|contains=Fellowclown.PC": "false"
+          }
+        },
+      //======================================================================================================
+      // NOT AFFECTED BY ANYTHING
+      //======================================================================================================
+      {
+        "LogName": "Reyla's Mines Edit",
+        "Action": "EditData",
+        "Target": "Data/Locations",
+        "Entries": {
+        "RaffieJohn.Reyla_MineEntrance": {
+        "DisplayName": "{{i18n: RaffieJohn.MapName.MineEntrance}}",
+        "CreateOnLoad": {
+        "MapPath": "Maps/RaffieJohn.Reyla_MineEntrance"
+        },
+        "DefaultArrivalTile": {
+        "X": 8,
+        "Y": 16
+        },
+        "ExcludeFromNpcPathfinding": false,
+        "ArtifactSpots": [],
+        "FishAreas": {},
+        "Fish": [],
+        "Forage":  [],
+        "CustomFields": {}
+            }
+          }
+        },
+        {
+          "LogName": "Reyla's Mines Level 1",
+          "Action": "EditData",
+          "Target": "Data/Locations",
+          "Entries": {
+          "RaffieJohn.Reyla_MineLevel1": {
+          "DisplayName": "{{i18n: RaffieJohn.MapName.MineLevel1}}",
+          "CreateOnLoad": {
+          "MapPath": "Maps/RaffieJohn.Reyla_MineLevel1"
+          },
+          "DefaultArrivalTile": {
+          "X": 4,
+          "Y": 33
+          },
+          "ExcludeFromNpcPathfinding": false,
+          "ArtifactSpots": [],
+          "FishAreas": {},
+          "Fish": [],
+          "Forage":  [],
+          "CustomFields": {}
+              }
+            }
+          },
+          {
+            "LogName": "Reyla's Sealed Land",
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Entries": {
+            "RaffieJohn.Reyla_SealedLand": {
+            "DisplayName": "{{i18n: RaffieJohn.MapName.SealedLand}}",
+            "CreateOnLoad": {
+            "MapPath": "Maps/RaffieJohn.Reyla_SealedLand"
+            },
+            "DefaultArrivalTile": {
+            "X": 16,
+            "Y": 38
+            },
+            "ExcludeFromNpcPathfinding": false,
+            "ArtifactSpots": [],
+            "FishAreas": {},
+            "Fish": [],
+            "Forage":  [],
+            "CustomFields": {}
+                }
+              }
+            },
+            {
+              "LogName": "Reyla Mine Entrance Edit",
+              "Action": "EditMap",
+              "Target": "Maps/RaffieJohn.Reyla_MineEntrance",
+              "FromFile": "Assets/Maps/RaffieJohn.Reyla_MineEntrance_NewDoor.tbin",
+           
+              "ToArea": { "X": 6, "Y": 0, "Width": 4, "Height": 4},
+                 "TextOperations": [
+                {
+                 "Operation": "Append",
+                 "Target": ["MapProperties", "Warp"],
+                 "Value": "6 2 RaffieJohn.Reyla_MineLevel1 4 33 7 2 RaffieJohn.Reyla_MineLevel1 4 33",
+                 "Delimiter": " "
+                }
+              ],
+              "Conditions": "PLAYER_SPECIAL_ORDER_COMPLETE All RaffieJohn.Reyla_SO_Boom, PLAYER_HAS_MAIL All Reyla.MineOpened",
+              "When": {
+                "HasSeenEvent |contains=RaffieJohn.ReylaCave": true
+              }
+            }
+  ]
+}
