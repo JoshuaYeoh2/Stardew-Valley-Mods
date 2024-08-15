@@ -1,0 +1,19 @@
+﻿{
+  "Name": "Animated Fish SVE",
+  "Author": "Gervig91",
+  "Version": "1.8.1",
+  "Description": "Animates the fish in Stardew Valley Expanded",
+  "UniqueID": "Gervig91.AnimatedFishSVE",
+  "MinimumApiVersion": "4.0.1",
+  "UpdateKeys": [ "Nexus:6089" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "2.0.1"
+  },
+   "Dependencies": [
+   {
+      "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+      "IsRequired": true
+   },
+  ]
+}
