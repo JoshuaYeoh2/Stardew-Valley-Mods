@@ -1,5 +1,5 @@
 {
-  "WeatherForYesterday": "Rain",
+  "WeatherForYesterday": "Sun",
   "LNOSCounter": {
     "AreaSecretBoss Diamond Big Craftable": 3,
     "UnlockSecretBase Ring": 1,
@@ -15,162 +15,35 @@
     "Custom_SeaCavernDepths4 forage area 1": 3,
     "SeaCavernEggs": 3,
     "SeaCavern4Treasure": 1,
-    "Custom_SCD5Dig": 3,
-    "SCD6ITEM": 3,
+    "Custom_SCD5Dig": 5,
+    "SCD6ITEM": 4,
     "RockSecretBlocked2": 1,
     "RockSecretBlocked": 1,
     "StairRock": 1,
-    "Custom_RealSecretBase ENEMY": 3,
+    "Custom_RealSecretBase ENEMY": 10,
     "Custom_Pirate Key Keepers": 2,
-    "Custom_DarkCave2 Pirates": 3,
-    "Custom_DarkCave2 shadow 2": 3,
-    "CapeCavingDuggy": 3,
-    "AreaSecretBossLvl2 Enemies Armor": 3,
-    "altCustom_RealSecretBase ENEMY": 3,
-    "altCustom_DarkCave2 Pirates alt": 3,
-    "altCustom_DarkCave2 alt 2": 3,
-    "altAreaSecretBossLvl2 Enemies Armor": 3,
-    "SecretBaseTreasureTrove": 2,
-    "AreaLuckyChest": 2,
+    "Custom_DarkCave2 Pirates": 10,
+    "Custom_DarkCave2 shadow 2": 10,
+    "CapeCavingDuggy": 5,
+    "AreaSecretBossLvl2 Enemies Armor": 10,
+    "altCustom_RealSecretBase ENEMY": 10,
+    "altCustom_DarkCave2 Pirates alt": 10,
+    "altCustom_DarkCave2 alt 2": 10,
+    "altAreaSecretBossLvl2 Enemies Armor": 10,
+    "SecretBaseTreasureTrove": 3,
+    "AreaLuckyChest": 4,
     "TreasureChestBuriedAreaSecret": 1,
     "TreasureChestBuried1": 1,
     "Custom_CapeTreasureRoom forage area 1": 1,
-    "Custom_SCD4Dig": 1
+    "Custom_SCD4Dig": 1,
+    "AreaSecretTrapRoomChest": 2,
+    "Custom_LVl2 alt chest": 1,
+    "Custom_AreaSecretCalibur forage area 1": 1,
+    "MeadowMonsters": 2,
+    "altMeadowMonsters": 2
   },
   "ExistingObjectLocations": {},
   "SavedObjects": [
-    {
-      "MapName": "Custom_SeaCavernDepths5",
-      "Name": "Stone",
-      "Tile": "26, 30",
-      "Type": "Ore",
-      "ID": 668,
-      "DaysUntilExpire": 4,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths5",
-      "Name": "Stone",
-      "Tile": "24, 30",
-      "Type": "Ore",
-      "ID": 670,
-      "DaysUntilExpire": 4,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths4",
-      "Name": "Copper",
-      "Tile": "75, 22",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths4",
-      "Name": "Stone",
-      "Tile": "44, 32",
-      "Type": "Ore",
-      "ID": 668,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths4",
-      "Name": "Stone",
-      "Tile": "51, 34",
-      "Type": "Ore",
-      "ID": 668,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths3",
-      "Name": "Radioactive",
-      "Tile": "27, 70",
-      "Type": "Ore",
-      "ID": 95,
-      "DaysUntilExpire": 4,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths3",
-      "Name": "Radioactive",
-      "Tile": "12, 78",
-      "Type": "Ore",
-      "ID": 95,
-      "DaysUntilExpire": 4,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths3",
-      "Name": "Geode",
-      "Tile": "71, 6",
-      "Type": "Ore",
-      "ID": 75,
-      "DaysUntilExpire": 4,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_DarkCave2",
-      "Name": "Copper",
-      "Tile": "29, 33",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 2,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_DarkCave",
-      "Name": "Copper",
-      "Tile": "8, 23",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_DarkCave",
-      "Name": "Stone",
-      "Tile": "8, 38",
-      "Type": "Ore",
-      "ID": 668,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretBoss",
-      "Name": null,
-      "Tile": "46, 10",
-      "Type": "ResourceClump",
-      "ID": "758",
-      "DaysUntilExpire": 0,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
     {
       "MapName": "Custom_CapeCavingArea3",
       "Name": null,
@@ -199,99 +72,6 @@
       "Tile": "23, 37",
       "Type": "Forage",
       "ID": "Cape.kimberliteblue",
-      "DaysUntilExpire": 11,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths5",
-      "Name": null,
-      "Tile": "7, 47",
-      "Type": "Container",
-      "ID": null,
-      "DaysUntilExpire": 0,
-      "SpawnTime": 600,
-      "ConfigItem": {
-        "Category": "Buried",
-        "Contents": [
-          422
-        ]
-      },
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretBossLvl4",
-      "Name": "320",
-      "Tile": "12, 12",
-      "Type": "Forage",
-      "ID": "320",
-      "DaysUntilExpire": 7,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretBossLvl4",
-      "Name": "320",
-      "Tile": "8, 10",
-      "Type": "Forage",
-      "ID": "320",
-      "DaysUntilExpire": 7,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretBossLvl4",
-      "Name": "321",
-      "Tile": "2, 12",
-      "Type": "Forage",
-      "ID": "321",
-      "DaysUntilExpire": 7,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretBossLvl4",
-      "Name": "319",
-      "Tile": "19, 76",
-      "Type": "Forage",
-      "ID": "319",
-      "DaysUntilExpire": 7,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCape",
-      "Name": "372",
-      "Tile": "2, 20",
-      "Type": "Forage",
-      "ID": "372",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCaveSecrets",
-      "Name": "343",
-      "Tile": "23, 16",
-      "Type": "Forage",
-      "ID": "343",
-      "DaysUntilExpire": 4,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCaveSecrets",
-      "Name": "668",
-      "Tile": "14, 11",
-      "Type": "Forage",
-      "ID": "668",
       "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -309,42 +89,6 @@
       "MonType": null
     },
     {
-      "MapName": "Custom_AnnettaForest",
-      "Name": "Weeds",
-      "Tile": "12, 36",
-      "Type": "Forage",
-      "ID": "0",
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_CapeBusStop",
-      "Name": "Twig",
-      "Tile": "27, 31",
-      "Type": "Forage",
-      "ID": "294",
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_DarkCave2",
-      "Name": "Object:Secret Cave Key",
-      "Tile": "20, 28",
-      "Type": "Forage",
-      "ID": "Cape.SecretCaveKey",
-      "DaysUntilExpire": 0,
-      "SpawnTime": 600,
-      "ConfigItem": {
-        "Category": "Object",
-        "Name": "Secret Cave Key"
-      },
-      "MonType": null
-    },
-    {
       "MapName": "Custom_CapeCavingArea3",
       "Name": null,
       "Tile": "2, 8",
@@ -358,119 +102,6 @@
           {
             "Category": "Weapon",
             "Name": "Golden Obsidian Blade"
-          }
-        ]
-      },
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_CapeCavingArea3",
-      "Name": "751",
-      "Tile": "10, 5",
-      "Type": "Forage",
-      "ID": "751",
-      "DaysUntilExpire": 4,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_CapeCavingArea3",
-      "Name": "751",
-      "Tile": "3, 8",
-      "Type": "Forage",
-      "ID": "751",
-      "DaysUntilExpire": 4,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretCalibur",
-      "Name": "319",
-      "Tile": "5, 8",
-      "Type": "Forage",
-      "ID": "319",
-      "DaysUntilExpire": 4,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretBossLvl3",
-      "Name": "Object:Kimberlitefire",
-      "Tile": "12, 19",
-      "Type": "Forage",
-      "ID": "Cape.kimberlitefire",
-      "DaysUntilExpire": 4,
-      "SpawnTime": 600,
-      "ConfigItem": {
-        "Category": "Object",
-        "Name": "Kimberlitefire"
-      },
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretBossLvl3",
-      "Name": "321",
-      "Tile": "3, 12",
-      "Type": "Forage",
-      "ID": "321",
-      "DaysUntilExpire": 4,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretBossLvl3",
-      "Name": "319",
-      "Tile": "33, 9",
-      "Type": "Forage",
-      "ID": "319",
-      "DaysUntilExpire": 4,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretTrapRoom",
-      "Name": "319",
-      "Tile": "61, 15",
-      "Type": "Forage",
-      "ID": "319",
-      "DaysUntilExpire": 4,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretBossLvl4",
-      "Name": "Object:Kimberliteheart",
-      "Tile": "12, 1",
-      "Type": "Forage",
-      "ID": "Cape.kimberliteheart",
-      "DaysUntilExpire": 4,
-      "SpawnTime": 600,
-      "ConfigItem": {
-        "Category": "Object",
-        "Name": "Kimberliteheart"
-      },
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths4",
-      "Name": null,
-      "Tile": "43, 24",
-      "Type": "Container",
-      "ID": null,
-      "DaysUntilExpire": 0,
-      "SpawnTime": 610,
-      "ConfigItem": {
-        "Category": "Chest",
-        "Contents": [
-          {
-            "Category": "Object",
-            "Name": "Cape Warp Totem"
           }
         ]
       },
@@ -515,39 +146,6 @@
             "Name": "Potato"
           }
         ]
-      },
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretBossLvl2",
-      "Name": null,
-      "Tile": "19, 3",
-      "Type": "Container",
-      "ID": null,
-      "DaysUntilExpire": 0,
-      "SpawnTime": 610,
-      "ConfigItem": {
-        "Category": "Chest",
-        "Contents": [
-          {
-            "Category": "Weapon",
-            "Name": "Shadow Strike Blade"
-          }
-        ]
-      },
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretCalibur",
-      "Name": "Hat:Captains Seafarer Hat",
-      "Tile": "22, 14",
-      "Type": "Item",
-      "ID": "Cape.1463511",
-      "DaysUntilExpire": 0,
-      "SpawnTime": 610,
-      "ConfigItem": {
-        "Category": "Hat",
-        "Name": "Captains Seafarer Hat"
       },
       "MonType": null
     },
@@ -601,356 +199,12 @@
       "MonType": null
     },
     {
-      "MapName": "Custom_CapeCavingArea3",
-      "Name": "450",
-      "Tile": "6, 9",
-      "Type": "Forage",
-      "ID": "450",
-      "DaysUntilExpire": 4,
-      "SpawnTime": 610,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_CapeCavingArea3",
-      "Name": "450",
-      "Tile": "8, 9",
-      "Type": "Forage",
-      "ID": "450",
-      "DaysUntilExpire": 4,
-      "SpawnTime": 610,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretCalibur",
-      "Name": "321",
-      "Tile": "13, 16",
-      "Type": "Forage",
-      "ID": "321",
-      "DaysUntilExpire": 4,
-      "SpawnTime": 610,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretCalibur",
-      "Name": "319",
-      "Tile": "14, 8",
-      "Type": "Forage",
-      "ID": "319",
-      "DaysUntilExpire": 4,
-      "SpawnTime": 610,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretBossLvl3",
-      "Name": "Object:Kimberlitefire",
-      "Tile": "34, 11",
-      "Type": "Forage",
-      "ID": "Cape.kimberlitefire",
-      "DaysUntilExpire": 4,
-      "SpawnTime": 610,
-      "ConfigItem": {
-        "Category": "Object",
-        "Name": "Kimberlitefire"
-      },
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretTrapRoom",
-      "Name": "319",
-      "Tile": "23, 8",
-      "Type": "Forage",
-      "ID": "319",
-      "DaysUntilExpire": 4,
-      "SpawnTime": 610,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretTrapRoom",
-      "Name": "320",
-      "Tile": "33, 6",
-      "Type": "Forage",
-      "ID": "320",
-      "DaysUntilExpire": 4,
-      "SpawnTime": 610,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretTrapRoom",
-      "Name": "319",
-      "Tile": "11, 10",
-      "Type": "Forage",
-      "ID": "319",
-      "DaysUntilExpire": 4,
-      "SpawnTime": 610,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths6",
-      "Name": "Stone",
-      "Tile": "14, 18",
-      "Type": "Ore",
-      "ID": 670,
-      "DaysUntilExpire": 5,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths6",
-      "Name": "Stone",
-      "Tile": "16, 11",
-      "Type": "Ore",
-      "ID": 670,
-      "DaysUntilExpire": 5,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths6",
-      "Name": "Stone",
-      "Tile": "5, 11",
-      "Type": "Ore",
-      "ID": 670,
-      "DaysUntilExpire": 5,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths5",
-      "Name": "Stone",
-      "Tile": "10, 36",
-      "Type": "Ore",
-      "ID": 670,
-      "DaysUntilExpire": 5,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths4",
-      "Name": "Stone",
-      "Tile": "27, 26",
-      "Type": "Ore",
-      "ID": 670,
-      "DaysUntilExpire": 2,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths4",
-      "Name": "Copper",
-      "Tile": "46, 20",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 2,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths4",
-      "Name": "Stone",
-      "Tile": "64, 17",
-      "Type": "Ore",
-      "ID": 668,
-      "DaysUntilExpire": 2,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths3",
-      "Name": "Geode",
-      "Tile": "23, 38",
-      "Type": "Ore",
-      "ID": 75,
-      "DaysUntilExpire": 5,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths3",
-      "Name": "Geode",
-      "Tile": "79, 73",
-      "Type": "Ore",
-      "ID": 75,
-      "DaysUntilExpire": 5,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths3",
-      "Name": "Geode",
-      "Tile": "6, 78",
-      "Type": "Ore",
-      "ID": 75,
-      "DaysUntilExpire": 5,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths3",
-      "Name": "Copper",
-      "Tile": "59, 61",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 5,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretCalibur",
-      "Name": "Stone",
-      "Tile": "21, 15",
-      "Type": "Ore",
-      "ID": 668,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretCalibur",
-      "Name": "Stone",
-      "Tile": "25, 15",
-      "Type": "Ore",
-      "ID": 670,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretCalibur",
-      "Name": "Stone",
-      "Tile": "10, 17",
-      "Type": "Ore",
-      "ID": 668,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretCalibur",
-      "Name": "Clay",
-      "Tile": "11, 15",
-      "Type": "Ore",
-      "ID": 818,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretCalibur",
-      "Name": "Clay",
-      "Tile": "13, 17",
-      "Type": "Ore",
-      "ID": 818,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_DarkCave2",
-      "Name": "Stone",
-      "Tile": "66, 26",
-      "Type": "Ore",
-      "ID": 668,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_DarkCave2",
-      "Name": "Copper",
-      "Tile": "54, 32",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_DarkCave2",
-      "Name": "Stone",
-      "Tile": "56, 31",
-      "Type": "Ore",
-      "ID": 670,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_DarkCave2",
-      "Name": "Copper",
-      "Tile": "67, 28",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_DarkCave2",
-      "Name": "Stone",
-      "Tile": "11, 27",
-      "Type": "Ore",
-      "ID": 668,
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_DarkCave",
-      "Name": "Stone",
-      "Tile": "9, 49",
-      "Type": "Ore",
-      "ID": 670,
-      "DaysUntilExpire": 2,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_DarkCave",
-      "Name": "Copper",
-      "Tile": "11, 43",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 2,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
       "MapName": "Custom_SeaCavernDepths5",
       "Name": "kimberliteblue",
       "Tile": "21, 10",
       "Type": "Forage",
       "ID": "Cape.kimberliteblue",
-      "DaysUntilExpire": 12,
+      "DaysUntilExpire": 5,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -961,72 +215,7 @@
       "Tile": "22, 37",
       "Type": "Forage",
       "ID": "Cape.kimberliteheart",
-      "DaysUntilExpire": 12,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths5",
-      "Name": null,
-      "Tile": "7, 44",
-      "Type": "Container",
-      "ID": null,
-      "DaysUntilExpire": 0,
-      "SpawnTime": 600,
-      "ConfigItem": {
-        "Category": "Buried",
-        "Contents": [
-          422
-        ]
-      },
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths4",
-      "Name": null,
-      "Tile": "44, 35",
-      "Type": "Container",
-      "ID": null,
-      "DaysUntilExpire": 0,
-      "SpawnTime": 600,
-      "ConfigItem": {
-        "Category": "Buried",
-        "Contents": [
-          422
-        ]
-      },
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths4",
-      "Name": "259",
-      "Tile": "29, 29",
-      "Type": "Forage",
-      "ID": "259",
-      "DaysUntilExpire": 2,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths4",
-      "Name": "259",
-      "Tile": "11, 48",
-      "Type": "Forage",
-      "ID": "259",
-      "DaysUntilExpire": 2,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths3",
-      "Name": "259",
-      "Tile": "16, 12",
-      "Type": "Forage",
-      "ID": "259",
-      "DaysUntilExpire": 1,
+      "DaysUntilExpire": 5,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1037,62 +226,7 @@
       "Tile": "5, 69",
       "Type": "Forage",
       "ID": "321",
-      "DaysUntilExpire": 8,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretBossLvl4",
-      "Name": "321",
-      "Tile": "24, 11",
-      "Type": "Forage",
-      "ID": "321",
-      "DaysUntilExpire": 8,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretBossLvl4",
-      "Name": "320",
-      "Tile": "26, 11",
-      "Type": "Forage",
-      "ID": "320",
-      "DaysUntilExpire": 8,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretBossLvl4",
-      "Name": "320",
-      "Tile": "26, 2",
-      "Type": "Forage",
-      "ID": "320",
-      "DaysUntilExpire": 8,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCape",
-      "Name": "372",
-      "Tile": "3, 20",
-      "Type": "Forage",
-      "ID": "372",
-      "DaysUntilExpire": 2,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCaveSecrets",
-      "Name": "668",
-      "Tile": "9, 23",
-      "Type": "Forage",
-      "ID": "668",
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1109,125 +243,6 @@
         "Category": "Buried",
         "Contents": [
           125
-        ]
-      },
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SecretBaseRoom",
-      "Name": null,
-      "Tile": "3, 38",
-      "Type": "Container",
-      "ID": null,
-      "DaysUntilExpire": 0,
-      "SpawnTime": 600,
-      "ConfigItem": {
-        "Category": "Buried",
-        "Contents": [
-          80
-        ]
-      },
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretBossLvl2",
-      "Name": null,
-      "Tile": "28, 17",
-      "Type": "Container",
-      "ID": null,
-      "DaysUntilExpire": 0,
-      "SpawnTime": 600,
-      "ConfigItem": {
-        "Category": "Buried",
-        "Contents": [
-          78
-        ]
-      },
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretBoss",
-      "Name": null,
-      "Tile": "38, 7",
-      "Type": "Container",
-      "ID": null,
-      "DaysUntilExpire": 0,
-      "SpawnTime": 600,
-      "ConfigItem": {
-        "Category": "Buried",
-        "Contents": [
-          80
-        ]
-      },
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AnnettaForest",
-      "Name": "Common Mushroom",
-      "Tile": "12, 35",
-      "Type": "Forage",
-      "ID": "404",
-      "DaysUntilExpire": 4,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_CapeBusStop",
-      "Name": "Wild Horseradish",
-      "Tile": "23, 14",
-      "Type": "Forage",
-      "ID": "16",
-      "DaysUntilExpire": 4,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_CapeBusStop",
-      "Name": "Daffodil",
-      "Tile": "24, 13",
-      "Type": "Forage",
-      "ID": "18",
-      "DaysUntilExpire": 4,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretBoss",
-      "Name": null,
-      "Tile": "51, 7",
-      "Type": "Container",
-      "ID": null,
-      "DaysUntilExpire": 5,
-      "SpawnTime": 600,
-      "ConfigItem": {
-        "Category": "Chest",
-        "Contents": [
-          {
-            "Category": "Object",
-            "Name": "Iridium Bar"
-          }
-        ]
-      },
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SecretBaseRoom",
-      "Name": null,
-      "Tile": "43, 31",
-      "Type": "Container",
-      "ID": null,
-      "DaysUntilExpire": 5,
-      "SpawnTime": 600,
-      "ConfigItem": {
-        "Category": "Chest",
-        "Contents": [
-          {
-            "Category": "Object",
-            "Name": "Gold Bar"
-          }
         ]
       },
       "MonType": null
@@ -1271,128 +286,6 @@
       "MonType": null
     },
     {
-      "MapName": "Custom_AreaSecretCalibur",
-      "Name": "Object:Kimberliteprisma",
-      "Tile": "19, 20",
-      "Type": "Forage",
-      "ID": "Cape.kimberlitecelestial",
-      "DaysUntilExpire": 5,
-      "SpawnTime": 600,
-      "ConfigItem": {
-        "Category": "Object",
-        "Name": "Kimberliteprisma"
-      },
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretTrapRoom",
-      "Name": "Object:Kimberliteprisma",
-      "Tile": "52, 14",
-      "Type": "Forage",
-      "ID": "Cape.kimberlitecelestial",
-      "DaysUntilExpire": 5,
-      "SpawnTime": 600,
-      "ConfigItem": {
-        "Category": "Object",
-        "Name": "Kimberliteprisma"
-      },
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretTrapRoom",
-      "Name": "Object:Kimberliteprisma",
-      "Tile": "12, 16",
-      "Type": "Forage",
-      "ID": "Cape.kimberlitecelestial",
-      "DaysUntilExpire": 5,
-      "SpawnTime": 600,
-      "ConfigItem": {
-        "Category": "Object",
-        "Name": "Kimberliteprisma"
-      },
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths4",
-      "Name": "Object:Kimberliteheart",
-      "Tile": "46, 34",
-      "Type": "Forage",
-      "ID": "Cape.kimberliteheart",
-      "DaysUntilExpire": 5,
-      "SpawnTime": 600,
-      "ConfigItem": {
-        "Category": "Object",
-        "Name": "Kimberliteheart"
-      },
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths4",
-      "Name": "Object:Kimberliteheart",
-      "Tile": "36, 43",
-      "Type": "Forage",
-      "ID": "Cape.kimberliteheart",
-      "DaysUntilExpire": 5,
-      "SpawnTime": 600,
-      "ConfigItem": {
-        "Category": "Object",
-        "Name": "Kimberliteheart"
-      },
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_CapeTreasureRoom",
-      "Name": "Gem",
-      "Tile": "19, 13",
-      "Type": "Ore",
-      "ID": 8,
-      "DaysUntilExpire": 2,
-      "SpawnTime": 610,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths4",
-      "Name": "107",
-      "Tile": "20, 25",
-      "Type": "Forage",
-      "ID": "107",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 610,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_CapeBusStop",
-      "Name": "Leek",
-      "Tile": "30, 32",
-      "Type": "Forage",
-      "ID": "20",
-      "DaysUntilExpire": 4,
-      "SpawnTime": 610,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SecretBase2",
-      "Name": null,
-      "Tile": "43, 8",
-      "Type": "Container",
-      "ID": null,
-      "DaysUntilExpire": 5,
-      "SpawnTime": 610,
-      "ConfigItem": {
-        "Category": "Chest",
-        "Contents": [
-          {
-            "Category": "Object",
-            "Name": "Gold Bar"
-          }
-        ]
-      },
-      "MonType": null
-    },
-    {
       "MapName": "Custom_CapeCavingArea3",
       "Name": null,
       "Tile": "3, 10",
@@ -1412,12 +305,158 @@
       "MonType": null
     },
     {
+      "MapName": "Custom_SeaCavernDepths5",
+      "Name": "kimberliteblue",
+      "Tile": "24, 39",
+      "Type": "Forage",
+      "ID": "Cape.kimberliteblue",
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl4",
+      "Name": "319",
+      "Tile": "26, 18",
+      "Type": "Forage",
+      "ID": "319",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl4",
+      "Name": "320",
+      "Tile": "6, 4",
+      "Type": "Forage",
+      "ID": "320",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths5",
+      "Name": "kimberliteheart",
+      "Tile": "20, 38",
+      "Type": "Forage",
+      "ID": "Cape.kimberliteheart",
+      "DaysUntilExpire": 7,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths5",
+      "Name": "kimberliteheart",
+      "Tile": "26, 17",
+      "Type": "Forage",
+      "ID": "Cape.kimberliteheart",
+      "DaysUntilExpire": 7,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl4",
+      "Name": "319",
+      "Tile": "3, 15",
+      "Type": "Forage",
+      "ID": "319",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths3",
+      "Name": "Radioactive",
+      "Tile": "56, 34",
+      "Type": "Ore",
+      "ID": 95,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths3",
+      "Name": "Geode",
+      "Tile": "73, 61",
+      "Type": "Ore",
+      "ID": 75,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl4",
+      "Name": "320",
+      "Tile": "19, 73",
+      "Type": "Forage",
+      "ID": "320",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_CapeMineCart",
+      "Name": "Shavegrass",
+      "Tile": "26, 14",
+      "Type": "Forage",
+      "ID": "Cape.Shavegrass",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
       "MapName": "Custom_CapeCavingArea3",
       "Name": "670",
-      "Tile": "5, 4",
+      "Tile": "25, 6",
       "Type": "Forage",
       "ID": "670",
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl3",
+      "Name": "320",
+      "Tile": "14, 5",
+      "Type": "Forage",
+      "ID": "320",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths4",
+      "Name": "Object:Kimberliteprisma",
+      "Tile": "46, 33",
+      "Type": "Forage",
+      "ID": "Cape.kimberlitecelestial",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "Object",
+        "Name": "Kimberliteprisma"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_CapeCavingArea3",
+      "Name": "751",
+      "Tile": "4, 8",
+      "Type": "Forage",
+      "ID": "751",
+      "DaysUntilExpire": 1,
       "SpawnTime": 610,
       "ConfigItem": null,
       "MonType": null
@@ -1425,10 +464,906 @@
     {
       "MapName": "Custom_SeaCaveSecrets",
       "Name": null,
-      "Tile": "9, 3",
+      "Tile": "5, 4",
       "Type": "Container",
       "ID": null,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 610,
+      "ConfigItem": {
+        "Category": "Crate",
+        "Contents": [
+          {
+            "Category": "Object",
+            "Name": "Cherry Bomb"
+          },
+          {
+            "Category": "Object",
+            "Name": "Cherry Bomb"
+          },
+          {
+            "Category": "Object",
+            "Name": "Cherry Bomb"
+          }
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl3",
+      "Name": "Object:Kimberliteblue",
+      "Tile": "13, 19",
+      "Type": "Forage",
+      "ID": "Cape.kimberliteblue",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 610,
+      "ConfigItem": {
+        "Category": "Object",
+        "Name": "Kimberliteblue"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths4",
+      "Name": "319",
+      "Tile": "63, 11",
+      "Type": "Forage",
+      "ID": "319",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 610,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths4",
+      "Name": "Object:Kimberliteblue",
+      "Tile": "8, 28",
+      "Type": "Forage",
+      "ID": "Cape.kimberliteblue",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 610,
+      "ConfigItem": {
+        "Category": "Object",
+        "Name": "Kimberliteblue"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl4",
+      "Name": "Object:Kimberliteblue",
+      "Tile": "8, 17",
+      "Type": "Forage",
+      "ID": "Cape.kimberliteblue",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 610,
+      "ConfigItem": {
+        "Category": "Object",
+        "Name": "Kimberliteblue"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl4",
+      "Name": "319",
+      "Tile": "15, 68",
+      "Type": "Forage",
+      "ID": "319",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 610,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl2",
+      "Name": "Object:Kimberliteblue",
+      "Tile": "20, 17",
+      "Type": "Forage",
+      "ID": "Cape.kimberliteblue",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 610,
+      "ConfigItem": {
+        "Category": "Object",
+        "Name": "Kimberliteblue"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths3",
+      "Name": "Radioactive",
+      "Tile": "59, 4",
+      "Type": "Ore",
+      "ID": 95,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths3",
+      "Name": "Geode",
+      "Tile": "72, 7",
+      "Type": "Ore",
+      "ID": 75,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths3",
+      "Name": "Geode",
+      "Tile": "53, 53",
+      "Type": "Ore",
+      "ID": 75,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths3",
+      "Name": "Stone",
+      "Tile": "30, 20",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths3",
+      "Name": "Geode",
+      "Tile": "60, 51",
+      "Type": "Ore",
+      "ID": 75,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths3",
+      "Name": "Radioactive",
+      "Tile": "59, 3",
+      "Type": "Ore",
+      "ID": 95,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths3",
+      "Name": "Radioactive",
+      "Tile": "60, 3",
+      "Type": "Ore",
+      "ID": 95,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths5",
+      "Name": "kimberliteprisma",
+      "Tile": "24, 16",
+      "Type": "Forage",
+      "ID": "Cape.kimberlitecelestial",
+      "DaysUntilExpire": 9,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCaveSecrets",
+      "Name": null,
+      "Tile": "6, 3",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "Crate",
+        "Contents": [
+          {
+            "Category": "Object",
+            "Name": "Cherry Bomb"
+          },
+          {
+            "Category": "Object",
+            "Name": "Cherry Bomb"
+          },
+          {
+            "Category": "Object",
+            "Name": "Cherry Bomb"
+          }
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretCalibur",
+      "Name": "Object:Kimberlitefire",
+      "Tile": "23, 10",
+      "Type": "Forage",
+      "ID": "Cape.kimberlitefire",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "Object",
+        "Name": "Kimberlitefire"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl3",
+      "Name": "Object:Kimberlitefire",
+      "Tile": "2, 9",
+      "Type": "Forage",
+      "ID": "Cape.kimberlitefire",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "Object",
+        "Name": "Kimberlitefire"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_CapeBusStop",
+      "Name": "Morel",
+      "Tile": "33, 31",
+      "Type": "Forage",
+      "ID": "257",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 610,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_CapeCavingArea3",
+      "Name": "343",
+      "Tile": "2, 9",
+      "Type": "Forage",
+      "ID": "343",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 610,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl3",
+      "Name": "321",
+      "Tile": "23, 14",
+      "Type": "Forage",
+      "ID": "321",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 610,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl3",
+      "Name": "321",
+      "Tile": "36, 10",
+      "Type": "Forage",
+      "ID": "321",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 610,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths5",
+      "Name": "Stone",
+      "Tile": "20, 20",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths5",
+      "Name": "Stone",
+      "Tile": "24, 15",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths5",
+      "Name": "Stone",
+      "Tile": "29, 6",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths3",
+      "Name": "Geode",
+      "Tile": "91, 60",
+      "Type": "Ore",
+      "ID": 75,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths3",
+      "Name": "Radioactive",
+      "Tile": "52, 52",
+      "Type": "Ore",
+      "ID": 95,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths3",
+      "Name": "Geode",
+      "Tile": "59, 73",
+      "Type": "Ore",
+      "ID": 75,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths3",
+      "Name": "Radioactive",
+      "Tile": "98, 46",
+      "Type": "Ore",
+      "ID": 95,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths3",
+      "Name": "Radioactive",
+      "Tile": "73, 41",
+      "Type": "Ore",
+      "ID": 95,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths5",
+      "Name": "kimberliteheart",
+      "Tile": "33, 16",
+      "Type": "Forage",
+      "ID": "Cape.kimberliteheart",
+      "DaysUntilExpire": 10,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths5",
+      "Name": "kimberliteprisma",
+      "Tile": "35, 16",
+      "Type": "Forage",
+      "ID": "Cape.kimberlitecelestial",
+      "DaysUntilExpire": 10,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl4",
+      "Name": "320",
+      "Tile": "22, 20",
+      "Type": "Forage",
+      "ID": "320",
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl4",
+      "Name": "321",
+      "Tile": "3, 19",
+      "Type": "Forage",
+      "ID": "321",
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCaveSecrets",
+      "Name": "751",
+      "Tile": "7, 6",
+      "Type": "Forage",
+      "ID": "751",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_CapeBusStop",
+      "Name": "Wild Horseradish",
+      "Tile": "15, 29",
+      "Type": "Forage",
+      "ID": "16",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_CapeBusStop",
+      "Name": "Shavegrass",
+      "Tile": "20, 14",
+      "Type": "Forage",
+      "ID": "Cape.Shavegrass",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_CapeBusStop",
+      "Name": "Weeds",
+      "Tile": "16, 16",
+      "Type": "Forage",
+      "ID": "0",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCaveSecrets",
+      "Name": null,
+      "Tile": "7, 3",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "Crate",
+        "Contents": [
+          {
+            "Category": "Object",
+            "Name": "Cherry Bomb"
+          },
+          {
+            "Category": "Object",
+            "Name": "Cherry Bomb"
+          },
+          {
+            "Category": "Object",
+            "Name": "Cherry Bomb"
+          }
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl3",
+      "Name": "Object:Kimberliteblue",
+      "Tile": "15, 14",
+      "Type": "Forage",
+      "ID": "Cape.kimberliteblue",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "Object",
+        "Name": "Kimberliteblue"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl3",
+      "Name": "Object:Kimberlitefire",
+      "Tile": "23, 4",
+      "Type": "Forage",
+      "ID": "Cape.kimberlitefire",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "Object",
+        "Name": "Kimberlitefire"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_CapeCavingArea3",
+      "Name": "751",
+      "Tile": "3, 9",
+      "Type": "Forage",
+      "ID": "751",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 610,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_CapeCavingArea3",
+      "Name": "670",
+      "Tile": "20, 6",
+      "Type": "Forage",
+      "ID": "670",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 610,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretCalibur",
+      "Name": "Object:Kimberliteprisma",
+      "Tile": "25, 5",
+      "Type": "Forage",
+      "ID": "Cape.kimberlitecelestial",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 610,
+      "ConfigItem": {
+        "Category": "Object",
+        "Name": "Kimberliteprisma"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl3",
+      "Name": "Object:Kimberliteblue",
+      "Tile": "23, 19",
+      "Type": "Forage",
+      "ID": "Cape.kimberliteblue",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 610,
+      "ConfigItem": {
+        "Category": "Object",
+        "Name": "Kimberliteblue"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl3",
+      "Name": "Object:Kimberlitefire",
+      "Tile": "10, 16",
+      "Type": "Forage",
+      "ID": "Cape.kimberlitefire",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 610,
+      "ConfigItem": {
+        "Category": "Object",
+        "Name": "Kimberlitefire"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl4",
+      "Name": "320",
+      "Tile": "9, 76",
+      "Type": "Forage",
+      "ID": "320",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 610,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl4",
+      "Name": "321",
+      "Tile": "27, 18",
+      "Type": "Forage",
+      "ID": "321",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 610,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl4",
+      "Name": "Object:Kimberliteblue",
+      "Tile": "21, 69",
+      "Type": "Forage",
+      "ID": "Cape.kimberliteblue",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 610,
+      "ConfigItem": {
+        "Category": "Object",
+        "Name": "Kimberliteblue"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths5",
+      "Name": "Stone",
+      "Tile": "29, 13",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths4",
+      "Name": "Stone",
+      "Tile": "39, 18",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths4",
+      "Name": "Stone",
+      "Tile": "37, 26",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths4",
+      "Name": "Stone",
+      "Tile": "26, 24",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths3",
+      "Name": "Mussel",
+      "Tile": "86, 7",
+      "Type": "Ore",
+      "ID": 25,
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths3",
+      "Name": "Radioactive",
+      "Tile": "80, 10",
+      "Type": "Ore",
+      "ID": 95,
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths3",
+      "Name": "Geode",
+      "Tile": "71, 6",
+      "Type": "Ore",
+      "ID": 75,
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_DarkCave",
+      "Name": "Stone",
+      "Tile": "13, 23",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths5",
+      "Name": "kimberliteprisma",
+      "Tile": "27, 9",
+      "Type": "Forage",
+      "ID": "Cape.kimberlitecelestial",
+      "DaysUntilExpire": 11,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths5",
+      "Name": "kimberliteblue",
+      "Tile": "21, 14",
+      "Type": "Forage",
+      "ID": "Cape.kimberliteblue",
+      "DaysUntilExpire": 11,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCape",
+      "Name": "372",
+      "Tile": "3, 20",
+      "Type": "Forage",
+      "ID": "372",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_CapeBusStop",
+      "Name": "Salmonberry",
+      "Tile": "25, 14",
+      "Type": "Forage",
+      "ID": "296",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_CapeMineCart",
+      "Name": "Shavegrass",
+      "Tile": "22, 11",
+      "Type": "Forage",
+      "ID": "Cape.Shavegrass",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_CapeCavingArea3",
+      "Name": "751",
+      "Tile": "3, 8",
+      "Type": "Forage",
+      "ID": "751",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_CapeCavingArea3",
+      "Name": "450",
+      "Tile": "26, 6",
+      "Type": "Forage",
+      "ID": "450",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl3",
+      "Name": "319",
+      "Tile": "8, 3",
+      "Type": "Forage",
+      "ID": "319",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl3",
+      "Name": "321",
+      "Tile": "8, 17",
+      "Type": "Forage",
+      "ID": "321",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl3",
+      "Name": "319",
+      "Tile": "9, 5",
+      "Type": "Forage",
+      "ID": "319",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths4",
+      "Name": "Object:Kimberliteblue",
+      "Tile": "50, 31",
+      "Type": "Forage",
+      "ID": "Cape.kimberliteblue",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "Object",
+        "Name": "Kimberliteblue"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths4",
+      "Name": "Object:Kimberlitefire",
+      "Tile": "65, 11",
+      "Type": "Forage",
+      "ID": "Cape.kimberlitefire",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "Object",
+        "Name": "Kimberlitefire"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths4",
+      "Name": "320",
+      "Tile": "64, 13",
+      "Type": "Forage",
+      "ID": "320",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl4",
+      "Name": "Object:Kimberliteheart",
+      "Tile": "24, 20",
+      "Type": "Forage",
+      "ID": "Cape.kimberliteheart",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "Object",
+        "Name": "Kimberliteheart"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl4",
+      "Name": "319",
+      "Tile": "20, 20",
+      "Type": "Forage",
+      "ID": "319",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_CapeBusStop",
+      "Name": "450",
+      "Tile": "15, 28",
+      "Type": "Forage",
+      "ID": "450",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 610,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCaveSecrets",
+      "Name": null,
+      "Tile": "8, 3",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 4,
       "SpawnTime": 610,
       "ConfigItem": {
         "Category": "Crate",
@@ -1451,19 +1386,449 @@
     },
     {
       "MapName": "Custom_AreaSecretCalibur",
-      "Name": "320",
-      "Tile": "7, 16",
+      "Name": "321",
+      "Tile": "22, 19",
       "Type": "Forage",
-      "ID": "320",
-      "DaysUntilExpire": 5,
+      "ID": "321",
+      "DaysUntilExpire": 4,
       "SpawnTime": 610,
       "ConfigItem": null,
       "MonType": null
     },
     {
+      "MapName": "Custom_AreaSecretCalibur",
+      "Name": "Object:Kimberlitefire",
+      "Tile": "19, 9",
+      "Type": "Forage",
+      "ID": "Cape.kimberlitefire",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 610,
+      "ConfigItem": {
+        "Category": "Object",
+        "Name": "Kimberlitefire"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl4",
+      "Name": "Object:Kimberlitefire",
+      "Tile": "13, 69",
+      "Type": "Forage",
+      "ID": "Cape.kimberlitefire",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 610,
+      "ConfigItem": {
+        "Category": "Object",
+        "Name": "Kimberlitefire"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_CapeTreasureRoom",
+      "Name": "Gold",
+      "Tile": "2, 18",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 650,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths4",
+      "Name": "Stone",
+      "Tile": "64, 17",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths4",
+      "Name": "Stone",
+      "Tile": "75, 25",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths3",
+      "Name": "Diamond",
+      "Tile": "65, 4",
+      "Type": "Ore",
+      "ID": 2,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths3",
+      "Name": "Diamond",
+      "Tile": "101, 36",
+      "Type": "Ore",
+      "ID": 2,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths3",
+      "Name": "Clay",
+      "Tile": "61, 4",
+      "Type": "Ore",
+      "ID": 818,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths3",
+      "Name": "Radioactive",
+      "Tile": "64, 36",
+      "Type": "Ore",
+      "ID": 95,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths3",
+      "Name": "Diamond",
+      "Tile": "28, 43",
+      "Type": "Ore",
+      "ID": 2,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths3",
+      "Name": "Ruby",
+      "Tile": "67, 25",
+      "Type": "Ore",
+      "ID": 4,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_CapeSecretBaseDropArea",
+      "Name": "Stone",
+      "Tile": "11, 17",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_DarkCave2",
+      "Name": "Stone",
+      "Tile": "51, 24",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_DarkCave2",
+      "Name": "Stone",
+      "Tile": "53, 24",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths5",
+      "Name": "kimberliteheart",
+      "Tile": "24, 12",
+      "Type": "Forage",
+      "ID": "Cape.kimberliteheart",
+      "DaysUntilExpire": 12,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl4",
+      "Name": "321",
+      "Tile": "19, 67",
+      "Type": "Forage",
+      "ID": "321",
+      "DaysUntilExpire": 8,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl4",
+      "Name": "321",
+      "Tile": "26, 66",
+      "Type": "Forage",
+      "ID": "321",
+      "DaysUntilExpire": 8,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl4",
+      "Name": "321",
+      "Tile": "23, 68",
+      "Type": "Forage",
+      "ID": "321",
+      "DaysUntilExpire": 8,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCape",
+      "Name": "372",
+      "Tile": "2, 20",
+      "Type": "Forage",
+      "ID": "372",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCaveSecrets",
+      "Name": "668",
+      "Tile": "9, 9",
+      "Type": "Forage",
+      "ID": "668",
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCaveSecrets",
+      "Name": "343",
+      "Tile": "22, 5",
+      "Type": "Forage",
+      "ID": "343",
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_CapeBusStop",
+      "Name": "Weeds",
+      "Tile": "15, 27",
+      "Type": "Forage",
+      "ID": "0",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_CapeBusStop",
+      "Name": "Common Mushroom",
+      "Tile": "22, 13",
+      "Type": "Forage",
+      "ID": "404",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_CapeCavingArea3",
+      "Name": "343",
+      "Tile": "12, 7",
+      "Type": "Forage",
+      "ID": "343",
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCaveSecrets",
+      "Name": null,
+      "Tile": "9, 4",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "Crate",
+        "Contents": [
+          {
+            "Category": "Object",
+            "Name": "Cherry Bomb"
+          },
+          {
+            "Category": "Object",
+            "Name": "Cherry Bomb"
+          },
+          {
+            "Category": "Object",
+            "Name": "Cherry Bomb"
+          }
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretCalibur",
+      "Name": "319",
+      "Tile": "3, 6",
+      "Type": "Forage",
+      "ID": "319",
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
       "MapName": "Custom_AreaSecretTrapRoom",
+      "Name": "Object:Kimberlitefire",
+      "Tile": "57, 15",
+      "Type": "Forage",
+      "ID": "Cape.kimberlitefire",
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "Object",
+        "Name": "Kimberlitefire"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths4",
+      "Name": "321",
+      "Tile": "36, 43",
+      "Type": "Forage",
+      "ID": "321",
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths4",
+      "Name": "Object:Kimberliteheart",
+      "Tile": "67, 10",
+      "Type": "Forage",
+      "ID": "Cape.kimberliteheart",
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "Object",
+        "Name": "Kimberliteheart"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl2",
+      "Name": "320",
+      "Tile": "1, 18",
+      "Type": "Forage",
+      "ID": "320",
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretCalibur",
+      "Name": "Stone",
+      "Tile": "10, 17",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 610,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretCalibur",
+      "Name": "Stone",
+      "Tile": "16, 19",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 610,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_CapeTreasureRoom",
+      "Name": "Gold",
+      "Tile": "19, 15",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 610,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_CapeBusStop",
+      "Name": "Morel",
+      "Tile": "26, 15",
+      "Type": "Forage",
+      "ID": "257",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 610,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SecretBase2",
+      "Name": null,
+      "Tile": "46, 9",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 610,
+      "ConfigItem": {
+        "Category": "Chest",
+        "Contents": []
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretCalibur",
+      "Name": "Object:Kimberlitefire",
+      "Tile": "10, 16",
+      "Type": "Forage",
+      "ID": "Cape.kimberlitefire",
+      "DaysUntilExpire": 5,
+      "SpawnTime": 610,
+      "ConfigItem": {
+        "Category": "Object",
+        "Name": "Kimberlitefire"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl3",
       "Name": "Object:Kimberliteprisma",
-      "Tile": "63, 10",
+      "Tile": "12, 11",
       "Type": "Forage",
       "ID": "Cape.kimberlitecelestial",
       "DaysUntilExpire": 5,
@@ -1475,11 +1840,72 @@
       "MonType": null
     },
     {
-      "MapName": "Custom_AreaSecretTrapRoom",
-      "Name": "321",
-      "Tile": "26, 21",
+      "MapName": "Custom_AreaSecretBossLvl3",
+      "Name": "Object:Kimberlitefire",
+      "Tile": "27, 12",
       "Type": "Forage",
-      "ID": "321",
+      "ID": "Cape.kimberlitefire",
+      "DaysUntilExpire": 5,
+      "SpawnTime": 610,
+      "ConfigItem": {
+        "Category": "Object",
+        "Name": "Kimberlitefire"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl3",
+      "Name": "320",
+      "Tile": "3, 10",
+      "Type": "Forage",
+      "ID": "320",
+      "DaysUntilExpire": 5,
+      "SpawnTime": 610,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl3",
+      "Name": "320",
+      "Tile": "11, 12",
+      "Type": "Forage",
+      "ID": "320",
+      "DaysUntilExpire": 5,
+      "SpawnTime": 610,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretTrapRoom",
+      "Name": "319",
+      "Tile": "23, 14",
+      "Type": "Forage",
+      "ID": "319",
+      "DaysUntilExpire": 5,
+      "SpawnTime": 610,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretTrapRoom",
+      "Name": "Object:Kimberliteblue",
+      "Tile": "27, 7",
+      "Type": "Forage",
+      "ID": "Cape.kimberliteblue",
+      "DaysUntilExpire": 5,
+      "SpawnTime": 610,
+      "ConfigItem": {
+        "Category": "Object",
+        "Name": "Kimberliteblue"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl2",
+      "Name": "319",
+      "Tile": "2, 20",
+      "Type": "Forage",
+      "ID": "319",
       "DaysUntilExpire": 5,
       "SpawnTime": 610,
       "ConfigItem": null,
@@ -1487,19 +1913,30 @@
     },
     {
       "MapName": "Custom_CapeTreasureRoom",
-      "Name": "Stone",
-      "Tile": "9, 16",
+      "Name": "Gold",
+      "Tile": "11, 17",
       "Type": "Ore",
-      "ID": 670,
+      "ID": 764,
       "DaysUntilExpire": 1,
-      "SpawnTime": 700,
+      "SpawnTime": 630,
       "ConfigItem": null,
       "MonType": null
     },
     {
-      "MapName": "Custom_SeaCavernDepths6",
+      "MapName": "Custom_SecretBase",
       "Name": "Stone",
-      "Tile": "22, 12",
+      "Tile": "23, 14",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 640,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths5",
+      "Name": "Stone",
+      "Tile": "17, 35",
       "Type": "Ore",
       "ID": 668,
       "DaysUntilExpire": 6,
@@ -1508,99 +1945,11 @@
       "MonType": null
     },
     {
-      "MapName": "Custom_SeaCavernDepths5",
-      "Name": "Stone",
-      "Tile": "14, 40",
-      "Type": "Ore",
-      "ID": 668,
-      "DaysUntilExpire": 6,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths5",
-      "Name": "Clay",
-      "Tile": "29, 14",
-      "Type": "Ore",
-      "ID": 818,
-      "DaysUntilExpire": 6,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths5",
-      "Name": "Stone",
-      "Tile": "38, 22",
-      "Type": "Ore",
-      "ID": 670,
-      "DaysUntilExpire": 6,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths5",
-      "Name": "Stone",
-      "Tile": "13, 26",
-      "Type": "Ore",
-      "ID": 670,
-      "DaysUntilExpire": 6,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths4",
-      "Name": "Copper",
-      "Tile": "50, 32",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths4",
-      "Name": "Stone",
-      "Tile": "66, 15",
-      "Type": "Ore",
-      "ID": 668,
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths4",
-      "Name": "Geode",
-      "Tile": "39, 18",
-      "Type": "Ore",
-      "ID": 75,
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths4",
-      "Name": "Stone",
-      "Tile": "52, 37",
-      "Type": "Ore",
-      "ID": 670,
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
       "MapName": "Custom_SeaCavernDepths3",
-      "Name": "Radioactive",
-      "Tile": "47, 21",
+      "Name": "Diamond",
+      "Tile": "90, 60",
       "Type": "Ore",
-      "ID": 95,
+      "ID": 2,
       "DaysUntilExpire": 6,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -1608,76 +1957,10 @@
     },
     {
       "MapName": "Custom_SeaCavernDepths3",
-      "Name": "Radioactive",
-      "Tile": "91, 28",
+      "Name": "Diamond",
+      "Tile": "97, 42",
       "Type": "Ore",
-      "ID": 95,
-      "DaysUntilExpire": 6,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths3",
-      "Name": "Geode",
-      "Tile": "102, 34",
-      "Type": "Ore",
-      "ID": 75,
-      "DaysUntilExpire": 6,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths3",
-      "Name": "Radioactive",
-      "Tile": "74, 8",
-      "Type": "Ore",
-      "ID": 95,
-      "DaysUntilExpire": 6,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths3",
-      "Name": "Geode",
-      "Tile": "95, 70",
-      "Type": "Ore",
-      "ID": 75,
-      "DaysUntilExpire": 6,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths3",
-      "Name": "Geode",
-      "Tile": "22, 83",
-      "Type": "Ore",
-      "ID": 75,
-      "DaysUntilExpire": 6,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths3",
-      "Name": "Radioactive",
-      "Tile": "74, 74",
-      "Type": "Ore",
-      "ID": 95,
-      "DaysUntilExpire": 6,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths3",
-      "Name": "Geode",
-      "Tile": "92, 70",
-      "Type": "Ore",
-      "ID": 75,
+      "ID": 2,
       "DaysUntilExpire": 6,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -1685,10 +1968,10 @@
     },
     {
       "MapName": "Custom_AreaSecretCalibur",
-      "Name": "Copper",
-      "Tile": "5, 18",
+      "Name": "Stone",
+      "Tile": "17, 15",
       "Type": "Ore",
-      "ID": 751,
+      "ID": 668,
       "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -1697,7 +1980,7 @@
     {
       "MapName": "Custom_AreaSecretCalibur",
       "Name": "Stone",
-      "Tile": "14, 20",
+      "Tile": "7, 15",
       "Type": "Ore",
       "ID": 668,
       "DaysUntilExpire": 2,
@@ -1708,40 +1991,7 @@
     {
       "MapName": "Custom_AreaSecretTrapRoom",
       "Name": "Stone",
-      "Tile": "58, 13",
-      "Type": "Ore",
-      "ID": 670,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretTrapRoom",
-      "Name": "Stone",
-      "Tile": "64, 14",
-      "Type": "Ore",
-      "ID": 670,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretTrapRoom",
-      "Name": "Copper",
-      "Tile": "50, 8",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretTrapRoom",
-      "Name": "Stone",
-      "Tile": "59, 21",
+      "Tile": "42, 14",
       "Type": "Ore",
       "ID": 670,
       "DaysUntilExpire": 1,
@@ -1752,7 +2002,40 @@
     {
       "MapName": "Custom_DarkCave3",
       "Name": "Stone",
-      "Tile": "10, 33",
+      "Tile": "29, 24",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_DarkCave3",
+      "Name": "Stone",
+      "Tile": "19, 24",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_CapeSecretBaseDropArea",
+      "Name": "Stone",
+      "Tile": "8, 13",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl2",
+      "Name": "Stone",
+      "Tile": "27, 17",
       "Type": "Ore",
       "ID": 670,
       "DaysUntilExpire": 1,
@@ -1761,20 +2044,9 @@
       "MonType": null
     },
     {
-      "MapName": "Custom_DarkCave3",
+      "MapName": "Custom_AreaSecretBossLvl2",
       "Name": "Stone",
-      "Tile": "29, 28",
-      "Type": "Ore",
-      "ID": 668,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_DarkCave3",
-      "Name": "Stone",
-      "Tile": "23, 27",
+      "Tile": "32, 11",
       "Type": "Ore",
       "ID": 670,
       "DaysUntilExpire": 1,
@@ -1783,22 +2055,11 @@
       "MonType": null
     },
     {
-      "MapName": "Custom_DarkCave3",
-      "Name": "Fossil",
-      "Tile": "31, 27",
-      "Type": "Ore",
-      "ID": 817,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
       "MapName": "Custom_AreaSecretBossLvl2",
-      "Name": "Clay",
-      "Tile": "7, 7",
+      "Name": "Stone",
+      "Tile": "27, 18",
       "Type": "Ore",
-      "ID": 818,
+      "ID": 670,
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -1807,64 +2068,9 @@
     {
       "MapName": "Custom_AreaSecretBossLvl2",
       "Name": "Stone",
-      "Tile": "9, 11",
+      "Tile": "30, 6",
       "Type": "Ore",
-      "ID": 668,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretBossLvl2",
-      "Name": "Copper",
-      "Tile": "17, 12",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretBossLvl2",
-      "Name": "Stone",
-      "Tile": "28, 21",
-      "Type": "Ore",
-      "ID": 668,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretBossLvl2",
-      "Name": "Copper",
-      "Tile": "30, 16",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretBossLvl2",
-      "Name": "Copper",
-      "Tile": "24, 17",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretBossLvl2",
-      "Name": "Stone",
-      "Tile": "4, 18",
-      "Type": "Ore",
-      "ID": 668,
+      "ID": 670,
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -1873,7 +2079,29 @@
     {
       "MapName": "Custom_DarkCave2",
       "Name": "Stone",
-      "Tile": "60, 30",
+      "Tile": "61, 37",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_DarkCave2",
+      "Name": "Stone",
+      "Tile": "67, 31",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_DarkCave2",
+      "Name": "Stone",
+      "Tile": "64, 28",
       "Type": "Ore",
       "ID": 670,
       "DaysUntilExpire": 2,
@@ -1884,21 +2112,21 @@
     {
       "MapName": "Custom_AreaSecretBossLvl2",
       "Name": "Stone",
-      "Tile": "34, 4",
+      "Tile": "32, 20",
       "Type": "Ore",
-      "ID": 668,
+      "ID": 670,
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
     },
     {
-      "MapName": "Custom_AreaSecretBossLvl2",
+      "MapName": "Custom_DarkCave2",
       "Name": "Stone",
-      "Tile": "10, 21",
+      "Tile": "6, 10",
       "Type": "Ore",
-      "ID": 668,
-      "DaysUntilExpire": 1,
+      "ID": 670,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1906,201 +2134,29 @@
     {
       "MapName": "Custom_DarkCave",
       "Name": "Stone",
-      "Tile": "12, 22",
+      "Tile": "6, 31",
       "Type": "Ore",
-      "ID": 668,
+      "ID": 670,
       "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
     },
     {
-      "MapName": "Custom_AreaSecretBoss",
-      "Name": "Gold",
-      "Tile": "18, 4",
-      "Type": "Ore",
-      "ID": 764,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretBoss",
-      "Name": "Gold",
-      "Tile": "17, 20",
-      "Type": "Ore",
-      "ID": 764,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretBoss",
-      "Name": "Gold",
-      "Tile": "41, 14",
-      "Type": "Ore",
-      "ID": 764,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretBoss",
-      "Name": "Gold",
-      "Tile": "48, 11",
-      "Type": "Ore",
-      "ID": 764,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
       "MapName": "Custom_SeaCavernDepths5",
-      "Name": "kimberliteblue",
-      "Tile": "24, 39",
+      "Name": "kimberliteheart",
+      "Tile": "22, 14",
       "Type": "Forage",
-      "ID": "Cape.kimberliteblue",
+      "ID": "Cape.kimberliteheart",
       "DaysUntilExpire": 13,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
     },
     {
-      "MapName": "Custom_SeaCavernDepths5",
+      "MapName": "Custom_SeaCaveSecrets",
       "Name": null,
-      "Tile": "22, 12",
-      "Type": "Container",
-      "ID": null,
-      "DaysUntilExpire": 0,
-      "SpawnTime": 600,
-      "ConfigItem": {
-        "Category": "Buried",
-        "Contents": [
-          588
-        ]
-      },
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths4",
-      "Name": "107",
-      "Tile": "69, 38",
-      "Type": "Forage",
-      "ID": "107",
-      "DaysUntilExpire": 2,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretBossLvl4",
-      "Name": "320",
-      "Tile": "26, 3",
-      "Type": "Forage",
-      "ID": "320",
-      "DaysUntilExpire": 9,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretBossLvl4",
-      "Name": "319",
-      "Tile": "26, 18",
-      "Type": "Forage",
-      "ID": "319",
-      "DaysUntilExpire": 9,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretBossLvl4",
-      "Name": "320",
-      "Tile": "6, 4",
-      "Type": "Forage",
-      "ID": "320",
-      "DaysUntilExpire": 9,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretBossLvl4",
-      "Name": "320",
-      "Tile": "19, 13",
-      "Type": "Forage",
-      "ID": "320",
-      "DaysUntilExpire": 9,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretBossLvl2",
-      "Name": null,
-      "Tile": "31, 17",
-      "Type": "Container",
-      "ID": null,
-      "DaysUntilExpire": 0,
-      "SpawnTime": 600,
-      "ConfigItem": {
-        "Category": "Buried",
-        "Contents": [
-          84
-        ]
-      },
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_CapeBusStop",
-      "Name": "Shavegrass",
-      "Tile": "31, 12",
-      "Type": "Forage",
-      "ID": "Cape.Shavegrass",
-      "DaysUntilExpire": 5,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretBoss",
-      "Name": null,
-      "Tile": "46, 8",
-      "Type": "Container",
-      "ID": null,
-      "DaysUntilExpire": 6,
-      "SpawnTime": 600,
-      "ConfigItem": {
-        "Category": "Chest",
-        "Contents": [
-          {
-            "Category": "Object",
-            "Name": "Iridium Bar"
-          }
-        ]
-      },
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_CapeStardew",
-      "Name": "Rosa Rugosa",
-      "Tile": "18, 24",
-      "Type": "Forage",
-      "ID": "Cape.RosaRugosa",
-      "DaysUntilExpire": 2,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_CapeSecretBaseDropArea",
-      "Name": null,
-      "Tile": "3, 9",
+      "Tile": "5, 3",
       "Type": "Container",
       "ID": null,
       "DaysUntilExpire": 6,
@@ -2126,33 +2182,22 @@
     },
     {
       "MapName": "Custom_AreaSecretCalibur",
-      "Name": "Object:Kimberlitefire",
-      "Tile": "14, 7",
+      "Name": "Object:Kimberliteprisma",
+      "Tile": "9, 9",
       "Type": "Forage",
-      "ID": "Cape.kimberlitefire",
+      "ID": "Cape.kimberlitecelestial",
       "DaysUntilExpire": 6,
       "SpawnTime": 600,
       "ConfigItem": {
         "Category": "Object",
-        "Name": "Kimberlitefire"
+        "Name": "Kimberliteprisma"
       },
       "MonType": null
     },
     {
-      "MapName": "Custom_AreaSecretCalibur",
-      "Name": "319",
-      "Tile": "11, 16",
-      "Type": "Forage",
-      "ID": "319",
-      "DaysUntilExpire": 6,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretCalibur",
+      "MapName": "Custom_AreaSecretBossLvl3",
       "Name": "Object:Kimberlitefire",
-      "Tile": "9, 3",
+      "Tile": "29, 16",
       "Type": "Forage",
       "ID": "Cape.kimberlitefire",
       "DaysUntilExpire": 6,
@@ -2165,44 +2210,36 @@
     },
     {
       "MapName": "Custom_AreaSecretBossLvl3",
-      "Name": "Object:Kimberliteprisma",
-      "Tile": "1, 10",
+      "Name": "Object:Kimberlitefire",
+      "Tile": "17, 3",
       "Type": "Forage",
-      "ID": "Cape.kimberlitecelestial",
+      "ID": "Cape.kimberlitefire",
       "DaysUntilExpire": 6,
       "SpawnTime": 600,
       "ConfigItem": {
         "Category": "Object",
-        "Name": "Kimberliteprisma"
+        "Name": "Kimberlitefire"
       },
       "MonType": null
     },
     {
       "MapName": "Custom_AreaSecretTrapRoom",
-      "Name": "320",
-      "Tile": "10, 8",
+      "Name": "Object:Kimberliteblue",
+      "Tile": "17, 22",
       "Type": "Forage",
-      "ID": "320",
+      "ID": "Cape.kimberliteblue",
       "DaysUntilExpire": 6,
       "SpawnTime": 600,
-      "ConfigItem": null,
+      "ConfigItem": {
+        "Category": "Object",
+        "Name": "Kimberliteblue"
+      },
       "MonType": null
     },
     {
-      "MapName": "Custom_AreaSecretBossLvl2",
-      "Name": "319",
-      "Tile": "5, 7",
-      "Type": "Forage",
-      "ID": "319",
-      "DaysUntilExpire": 6,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretBossLvl2",
+      "MapName": "Custom_SeaCavernDepths4",
       "Name": "Object:Kimberliteheart",
-      "Tile": "2, 9",
+      "Tile": "68, 12",
       "Type": "Forage",
       "ID": "Cape.kimberliteheart",
       "DaysUntilExpire": 6,
@@ -2214,9 +2251,48 @@
       "MonType": null
     },
     {
+      "MapName": "Custom_AreaSecretBossLvl4",
+      "Name": "Object:Kimberliteprisma",
+      "Tile": "26, 5",
+      "Type": "Forage",
+      "ID": "Cape.kimberlitecelestial",
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "Object",
+        "Name": "Kimberliteprisma"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl4",
+      "Name": "Object:Kimberliteheart",
+      "Tile": "3, 5",
+      "Type": "Forage",
+      "ID": "Cape.kimberliteheart",
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "Object",
+        "Name": "Kimberliteheart"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl2",
+      "Name": "320",
+      "Tile": "10, 20",
+      "Type": "Forage",
+      "ID": "320",
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
       "MapName": "Custom_AreaSecretCalibur",
       "Name": "Stone",
-      "Tile": "22, 17",
+      "Tile": "17, 16",
       "Type": "Ore",
       "ID": 670,
       "DaysUntilExpire": 2,
@@ -2226,131 +2302,32 @@
     },
     {
       "MapName": "Custom_AreaSecretCalibur",
-      "Name": "Clay",
-      "Tile": "3, 16",
-      "Type": "Ore",
-      "ID": 818,
-      "DaysUntilExpire": 2,
-      "SpawnTime": 610,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretCalibur",
       "Name": "Stone",
-      "Tile": "16, 17",
+      "Tile": "1, 16",
       "Type": "Ore",
       "ID": 670,
       "DaysUntilExpire": 2,
-      "SpawnTime": 610,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretCalibur",
-      "Name": "Clay",
-      "Tile": "21, 19",
-      "Type": "Ore",
-      "ID": 818,
-      "DaysUntilExpire": 2,
-      "SpawnTime": 610,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretCalibur",
-      "Name": "Stone",
-      "Tile": "20, 15",
-      "Type": "Ore",
-      "ID": 668,
-      "DaysUntilExpire": 2,
-      "SpawnTime": 610,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_CapeSecretBaseDropArea",
-      "Name": "Stone",
-      "Tile": "12, 17",
-      "Type": "Ore",
-      "ID": 668,
-      "DaysUntilExpire": 3,
-      "SpawnTime": 610,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_CapeSecretBaseDropArea",
-      "Name": "Stone",
-      "Tile": "5, 14",
-      "Type": "Ore",
-      "ID": 670,
-      "DaysUntilExpire": 3,
       "SpawnTime": 610,
       "ConfigItem": null,
       "MonType": null
     },
     {
       "MapName": "Custom_CapeTreasureRoom",
-      "Name": "Aquamarine",
-      "Tile": "25, 13",
+      "Name": "Gold",
+      "Tile": "18, 13",
       "Type": "Ore",
-      "ID": 14,
+      "ID": 764,
       "DaysUntilExpire": 2,
       "SpawnTime": 610,
       "ConfigItem": null,
       "MonType": null
     },
     {
-      "MapName": "Custom_SecretBase",
-      "Name": "Copper",
-      "Tile": "8, 11",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 6,
-      "SpawnTime": 610,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths4",
-      "Name": "107",
-      "Tile": "67, 43",
-      "Type": "Forage",
-      "ID": "107",
-      "DaysUntilExpire": 2,
-      "SpawnTime": 610,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AnnettaForest",
-      "Name": "Leek",
-      "Tile": "20, 15",
-      "Type": "Forage",
-      "ID": "20",
-      "DaysUntilExpire": 5,
-      "SpawnTime": 610,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
       "MapName": "Custom_CapeBusStop",
-      "Name": "Spring Onion",
-      "Tile": "32, 14",
+      "Name": "Wild Horseradish",
+      "Tile": "42, 32",
       "Type": "Forage",
-      "ID": "399",
-      "DaysUntilExpire": 5,
-      "SpawnTime": 610,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_CapeBusStop",
-      "Name": "Spring Onion",
-      "Tile": "17, 15",
-      "Type": "Forage",
-      "ID": "399",
+      "ID": "16",
       "DaysUntilExpire": 5,
       "SpawnTime": 610,
       "ConfigItem": null,
@@ -2359,144 +2336,21 @@
     {
       "MapName": "Custom_SecretBase2",
       "Name": null,
-      "Tile": "45, 10",
+      "Tile": "43, 8",
       "Type": "Container",
       "ID": null,
       "DaysUntilExpire": 6,
       "SpawnTime": 610,
       "ConfigItem": {
         "Category": "Chest",
-        "Contents": [
-          {
-            "Category": "Object",
-            "Name": "Gold Bar"
-          }
-        ]
+        "Contents": []
       },
       "MonType": null
     },
     {
-      "MapName": "Custom_SecretBaseRoom",
-      "Name": null,
-      "Tile": "44, 28",
-      "Type": "Container",
-      "ID": null,
-      "DaysUntilExpire": 6,
-      "SpawnTime": 610,
-      "ConfigItem": {
-        "Category": "Chest",
-        "Contents": [
-          {
-            "Category": "Object",
-            "Name": "Gold Bar"
-          }
-        ]
-      },
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_CapeMineCart",
-      "Name": "Uva Ursi",
-      "Tile": "17, 4",
-      "Type": "Forage",
-      "ID": "Cape.UvaUrsi",
-      "DaysUntilExpire": 6,
-      "SpawnTime": 610,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_CapeCavingArea3",
-      "Name": "751",
-      "Tile": "6, 10",
-      "Type": "Forage",
-      "ID": "751",
-      "DaysUntilExpire": 6,
-      "SpawnTime": 610,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCaveSecrets",
-      "Name": null,
-      "Tile": "7, 4",
-      "Type": "Container",
-      "ID": null,
-      "DaysUntilExpire": 6,
-      "SpawnTime": 610,
-      "ConfigItem": {
-        "Category": "Crate",
-        "Contents": [
-          {
-            "Category": "Object",
-            "Name": "Cherry Bomb"
-          },
-          {
-            "Category": "Object",
-            "Name": "Cherry Bomb"
-          },
-          {
-            "Category": "Object",
-            "Name": "Cherry Bomb"
-          }
-        ]
-      },
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretCalibur",
-      "Name": "Object:Kimberlitefire",
-      "Tile": "6, 5",
-      "Type": "Forage",
-      "ID": "Cape.kimberlitefire",
-      "DaysUntilExpire": 6,
-      "SpawnTime": 610,
-      "ConfigItem": {
-        "Category": "Object",
-        "Name": "Kimberlitefire"
-      },
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretCalibur",
-      "Name": "321",
-      "Tile": "7, 18",
-      "Type": "Forage",
-      "ID": "321",
-      "DaysUntilExpire": 6,
-      "SpawnTime": 610,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths4",
-      "Name": "319",
-      "Tile": "11, 30",
-      "Type": "Forage",
-      "ID": "319",
-      "DaysUntilExpire": 6,
-      "SpawnTime": 610,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SeaCavernDepths4",
-      "Name": "Object:Kimberliteblue",
-      "Tile": "46, 26",
-      "Type": "Forage",
-      "ID": "Cape.kimberliteblue",
-      "DaysUntilExpire": 6,
-      "SpawnTime": 610,
-      "ConfigItem": {
-        "Category": "Object",
-        "Name": "Kimberliteblue"
-      },
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_AreaSecretBossLvl4",
+      "MapName": "Custom_AreaSecretBossLvl3",
       "Name": "Object:Kimberliteprisma",
-      "Tile": "24, 4",
+      "Tile": "29, 8",
       "Type": "Forage",
       "ID": "Cape.kimberlitecelestial",
       "DaysUntilExpire": 6,
@@ -2508,9 +2362,73 @@
       "MonType": null
     },
     {
+      "MapName": "Custom_AreaSecretBossLvl3",
+      "Name": "Object:Kimberlitefire",
+      "Tile": "20, 7",
+      "Type": "Forage",
+      "ID": "Cape.kimberlitefire",
+      "DaysUntilExpire": 6,
+      "SpawnTime": 610,
+      "ConfigItem": {
+        "Category": "Object",
+        "Name": "Kimberlitefire"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretTrapRoom",
+      "Name": "Object:Kimberlitefire",
+      "Tile": "56, 24",
+      "Type": "Forage",
+      "ID": "Cape.kimberlitefire",
+      "DaysUntilExpire": 6,
+      "SpawnTime": 610,
+      "ConfigItem": {
+        "Category": "Object",
+        "Name": "Kimberlitefire"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths4",
+      "Name": "320",
+      "Tile": "34, 44",
+      "Type": "Forage",
+      "ID": "320",
+      "DaysUntilExpire": 6,
+      "SpawnTime": 610,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SeaCavernDepths4",
+      "Name": "Object:Kimberlitefire",
+      "Tile": "7, 29",
+      "Type": "Forage",
+      "ID": "Cape.kimberlitefire",
+      "DaysUntilExpire": 6,
+      "SpawnTime": 610,
+      "ConfigItem": {
+        "Category": "Object",
+        "Name": "Kimberlitefire"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_AreaSecretBossLvl4",
+      "Name": "320",
+      "Tile": "23, 76",
+      "Type": "Forage",
+      "ID": "320",
+      "DaysUntilExpire": 6,
+      "SpawnTime": 610,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
       "MapName": "Custom_AreaSecretBossLvl4",
       "Name": "Object:Kimberliteblue",
-      "Tile": "18, 21",
+      "Tile": "21, 3",
       "Type": "Forage",
       "ID": "Cape.kimberliteblue",
       "DaysUntilExpire": 6,
@@ -2522,35 +2440,35 @@
       "MonType": null
     },
     {
-      "MapName": "Custom_RealSecretBase",
-      "Name": "Aquamarine",
-      "Tile": "8, 15",
-      "Type": "Ore",
-      "ID": 14,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 620,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
       "MapName": "Custom_CapeTreasureRoom",
-      "Name": "Mystic",
-      "Tile": "24, 13",
+      "Name": "Copper",
+      "Tile": "5, 19",
       "Type": "Ore",
-      "ID": 46,
-      "DaysUntilExpire": 2,
-      "SpawnTime": 630,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_CapeTreasureRoom",
-      "Name": "Diamond",
-      "Tile": "9, 21",
-      "Type": "Ore",
-      "ID": 2,
+      "ID": 751,
       "DaysUntilExpire": 3,
       "SpawnTime": 640,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_CapeTreasureRoom",
+      "Name": "Gold",
+      "Tile": "4, 13",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 640,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_CapeTreasureRoom",
+      "Name": "Gold",
+      "Tile": "9, 15",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 700,
       "ConfigItem": null,
       "MonType": null
     }

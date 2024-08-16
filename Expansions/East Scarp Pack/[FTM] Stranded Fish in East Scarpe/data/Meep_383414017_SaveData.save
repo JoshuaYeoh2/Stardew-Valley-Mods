@@ -1,37 +1,15 @@
 {
-  "WeatherForYesterday": "Rain",
+  "WeatherForYesterday": "Sun",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
     {
       "MapName": "EastScarp_Village",
-      "Name": "Seaweed",
-      "Tile": "31, 118",
+      "Name": "Flounder",
+      "Tile": "59, 113",
       "Type": "Forage",
-      "ID": "152",
-      "DaysUntilExpire": 2,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "EastScarp_Village",
-      "Name": "Halibut",
-      "Tile": "43, 113",
-      "Type": "Forage",
-      "ID": "708",
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "EastScarp_Village",
-      "Name": "Halibut",
-      "Tile": "45, 115",
-      "Type": "Forage",
-      "ID": "708",
-      "DaysUntilExpire": 3,
+      "ID": "267",
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -39,9 +17,42 @@
     {
       "MapName": "EastScarp_Village",
       "Name": "Anchovy",
-      "Tile": "27, 118",
+      "Tile": "53, 114",
       "Type": "Forage",
       "ID": "129",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_Village",
+      "Name": "Flounder",
+      "Tile": "61, 113",
+      "Type": "Forage",
+      "ID": "267",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_Village",
+      "Name": "Sardine",
+      "Tile": "9, 128",
+      "Type": "Forage",
+      "ID": "131",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_Village",
+      "Name": "Carp",
+      "Tile": "60, 112",
+      "Type": "Forage",
+      "ID": "142",
       "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,

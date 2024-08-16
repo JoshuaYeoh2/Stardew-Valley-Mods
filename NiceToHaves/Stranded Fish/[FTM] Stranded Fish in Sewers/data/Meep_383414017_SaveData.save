@@ -1,12 +1,34 @@
 {
-  "WeatherForYesterday": "Rain",
+  "WeatherForYesterday": "Sun",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
     {
       "MapName": "Sewer",
+      "Name": "Green Algae",
+      "Tile": "23, 22",
+      "Type": "Forage",
+      "ID": "153",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Sewer",
+      "Name": "Green Algae",
+      "Tile": "4, 22",
+      "Type": "Forage",
+      "ID": "153",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Sewer",
       "Name": "Carp",
-      "Tile": "20, 22",
+      "Tile": "4, 26",
       "Type": "Forage",
       "ID": "142",
       "DaysUntilExpire": 2,
@@ -16,33 +38,11 @@
     },
     {
       "MapName": "Sewer",
-      "Name": "Radioactive Bass",
-      "Tile": "19, 22",
+      "Name": "Green Algae",
+      "Tile": "34, 22",
       "Type": "Forage",
-      "ID": "FlashShifter.StardewValleyExpandedCP_Radioactive_Bass",
-      "DaysUntilExpire": 2,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Sewer",
-      "Name": "Carp",
-      "Tile": "18, 23",
-      "Type": "Forage",
-      "ID": "142",
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Sewer",
-      "Name": "Radioactive Bass",
-      "Tile": "15, 22",
-      "Type": "Forage",
-      "ID": "FlashShifter.StardewValleyExpandedCP_Radioactive_Bass",
-      "DaysUntilExpire": 3,
+      "ID": "153",
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null

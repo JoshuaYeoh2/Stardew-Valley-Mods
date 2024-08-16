@@ -1,15 +1,59 @@
 {
-  "WeatherForYesterday": "Rain",
+  "WeatherForYesterday": "Sun",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
     {
       "MapName": "Custom_Ridgeside_RidgesideVillage",
-      "Name": "Mountain Redbelly Dace",
-      "Tile": "122, 123",
+      "Name": "Ridgeside Bass",
+      "Tile": "29, 56",
       "Type": "Forage",
-      "ID": "Rafseazz.RSVCP_Mountain_Redbelly_Dace",
-      "DaysUntilExpire": 3,
+      "ID": "Rafseazz.RSVCP_Ridgeside_Bass",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgesideVillage",
+      "Name": "Ridgeside Bass",
+      "Tile": "121, 97",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Ridgeside_Bass",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgesideVillage",
+      "Name": "Ridgeside Bass",
+      "Tile": "73, 80",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Ridgeside_Bass",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgesideVillage",
+      "Name": "Ridgeside Bass",
+      "Tile": "80, 88",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Ridgeside_Bass",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgesideVillage",
+      "Name": "Harvester Trout",
+      "Tile": "53, 87",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Harvester_Trout",
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -17,7 +61,7 @@
     {
       "MapName": "Custom_Ridgeside_RidgesideVillage",
       "Name": "Mountain Redbelly Dace",
-      "Tile": "71, 80",
+      "Tile": "67, 97",
       "Type": "Forage",
       "ID": "Rafseazz.RSVCP_Mountain_Redbelly_Dace",
       "DaysUntilExpire": 4,
