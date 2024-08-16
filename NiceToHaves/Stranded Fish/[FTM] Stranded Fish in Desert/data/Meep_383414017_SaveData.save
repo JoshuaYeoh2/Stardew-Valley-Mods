@@ -1,5 +1,5 @@
 {
-  "WeatherForYesterday": "Sun",
+  "WeatherForYesterday": "Rain",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
@@ -9,7 +9,7 @@
       "Tile": "14, 10",
       "Type": "Forage",
       "ID": "164",
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -20,6 +20,28 @@
       "Tile": "11, 16",
       "Type": "Forage",
       "ID": "153",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Desert",
+      "Name": "Scorpion Carp",
+      "Tile": "25, 40",
+      "Type": "Forage",
+      "ID": "165",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Desert",
+      "Name": "Sandfish",
+      "Tile": "14, 12",
+      "Type": "Forage",
+      "ID": "164",
       "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,

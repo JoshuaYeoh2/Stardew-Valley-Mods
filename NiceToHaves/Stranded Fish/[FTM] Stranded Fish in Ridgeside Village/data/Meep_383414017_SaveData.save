@@ -1,6 +1,29 @@
 {
-  "WeatherForYesterday": "Sun",
+  "WeatherForYesterday": "Rain",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
-  "SavedObjects": []
+  "SavedObjects": [
+    {
+      "MapName": "Custom_Ridgeside_RidgesideVillage",
+      "Name": "Mountain Redbelly Dace",
+      "Tile": "122, 123",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Mountain_Redbelly_Dace",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgesideVillage",
+      "Name": "Mountain Redbelly Dace",
+      "Tile": "71, 80",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Mountain_Redbelly_Dace",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
 }

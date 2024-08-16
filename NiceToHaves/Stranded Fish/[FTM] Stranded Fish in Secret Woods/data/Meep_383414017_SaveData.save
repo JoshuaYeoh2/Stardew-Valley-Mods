@@ -1,6 +1,29 @@
 {
-  "WeatherForYesterday": "Sun",
+  "WeatherForYesterday": "Rain",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
-  "SavedObjects": []
+  "SavedObjects": [
+    {
+      "MapName": "Woods",
+      "Name": "Carp",
+      "Tile": "16, 22",
+      "Type": "Forage",
+      "ID": "142",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Woods",
+      "Name": "Catfish",
+      "Tile": "6, 27",
+      "Type": "Forage",
+      "ID": "143",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
 }

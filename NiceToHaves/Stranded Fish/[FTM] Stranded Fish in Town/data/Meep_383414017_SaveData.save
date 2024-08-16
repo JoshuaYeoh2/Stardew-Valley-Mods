@@ -1,5 +1,5 @@
 {
-  "WeatherForYesterday": "Sun",
+  "WeatherForYesterday": "Rain",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
@@ -9,7 +9,7 @@
       "Tile": "90, 38",
       "Type": "Forage",
       "ID": "153",
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -20,7 +20,18 @@
       "Tile": "84, 73",
       "Type": "Forage",
       "ID": "137",
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Town",
+      "Name": "Bream",
+      "Tile": "71, 99",
+      "Type": "Forage",
+      "ID": "132",
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null

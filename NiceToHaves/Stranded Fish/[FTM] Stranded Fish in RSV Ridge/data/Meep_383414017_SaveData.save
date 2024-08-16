@@ -1,5 +1,5 @@
 {
-  "WeatherForYesterday": "Sun",
+  "WeatherForYesterday": "Rain",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
@@ -9,6 +9,28 @@
       "Tile": "19, 41",
       "Type": "Forage",
       "ID": "Rafseazz.RSVCP_Ridgeside_Bass",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_Ridge",
+      "Name": "Caped Tree Frog",
+      "Tile": "26, 35",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Caped_Tree_Frog",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_Ridge",
+      "Name": "Mountain Whitefish",
+      "Tile": "18, 41",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Mountain_Whitefish",
       "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
