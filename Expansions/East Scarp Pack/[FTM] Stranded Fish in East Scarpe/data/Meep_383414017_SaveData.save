@@ -1,48 +1,15 @@
 {
-  "WeatherForYesterday": "Sun",
+  "WeatherForYesterday": "Rain",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
     {
       "MapName": "EastScarp_Village",
-      "Name": "Flounder",
-      "Tile": "59, 113",
+      "Name": "Green Algae",
+      "Tile": "24, 120",
       "Type": "Forage",
-      "ID": "267",
+      "ID": "153",
       "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "EastScarp_Village",
-      "Name": "Anchovy",
-      "Tile": "53, 114",
-      "Type": "Forage",
-      "ID": "129",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "EastScarp_Village",
-      "Name": "Flounder",
-      "Tile": "61, 113",
-      "Type": "Forage",
-      "ID": "267",
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "EastScarp_Village",
-      "Name": "Sardine",
-      "Tile": "9, 128",
-      "Type": "Forage",
-      "ID": "131",
-      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -50,10 +17,32 @@
     {
       "MapName": "EastScarp_Village",
       "Name": "Carp",
-      "Tile": "60, 112",
+      "Tile": "54, 113",
       "Type": "Forage",
       "ID": "142",
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_Village",
+      "Name": "Flounder",
+      "Tile": "22, 120",
+      "Type": "Forage",
+      "ID": "267",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_Village",
+      "Name": "Green Algae",
+      "Tile": "61, 112",
+      "Type": "Forage",
+      "ID": "153",
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null

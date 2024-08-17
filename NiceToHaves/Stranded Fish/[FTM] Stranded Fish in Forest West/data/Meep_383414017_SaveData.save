@@ -1,26 +1,37 @@
 {
-  "WeatherForYesterday": "Sun",
+  "WeatherForYesterday": "Rain",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
     {
       "MapName": "Custom_ForestWest",
-      "Name": "Sunfish",
-      "Tile": "35, 142",
+      "Name": "Pike",
+      "Tile": "37, 146",
       "Type": "Forage",
-      "ID": "145",
-      "DaysUntilExpire": 3,
+      "ID": "144",
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
     },
     {
       "MapName": "Custom_ForestWest",
-      "Name": "Sunfish",
-      "Tile": "21, 129",
+      "Name": "Bream",
+      "Tile": "13, 128",
       "Type": "Forage",
-      "ID": "145",
-      "DaysUntilExpire": 3,
+      "ID": "132",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ForestWest",
+      "Name": "Largemouth Bass",
+      "Tile": "32, 137",
+      "Type": "Forage",
+      "ID": "136",
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
