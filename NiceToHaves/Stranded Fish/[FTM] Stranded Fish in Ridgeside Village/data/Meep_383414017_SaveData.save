@@ -9,7 +9,7 @@
       "Tile": "51, 86",
       "Type": "Forage",
       "ID": "Rafseazz.RSVCP_Harvester_Trout",
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -20,7 +20,29 @@
       "Tile": "53, 88",
       "Type": "Forage",
       "ID": "Rafseazz.RSVCP_Cutthroat_Trout",
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgesideVillage",
+      "Name": "Cutthroat Trout",
+      "Tile": "25, 57",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Cutthroat_Trout",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgesideVillage",
+      "Name": "Harvester Trout",
+      "Tile": "117, 97",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Harvester_Trout",
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null

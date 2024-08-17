@@ -9,7 +9,7 @@
       "Tile": "25, 6",
       "Type": "Forage",
       "ID": "164",
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -20,7 +20,29 @@
       "Tile": "3, 35",
       "Type": "Forage",
       "ID": "153",
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Desert",
+      "Name": "Green Algae",
+      "Tile": "13, 16",
+      "Type": "Forage",
+      "ID": "153",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Desert",
+      "Name": "Green Algae",
+      "Tile": "9, 9",
+      "Type": "Forage",
+      "ID": "153",
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null

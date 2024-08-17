@@ -5,22 +5,11 @@
   "SavedObjects": [
     {
       "MapName": "Custom_ForestWest",
-      "Name": "Pike",
-      "Tile": "37, 146",
-      "Type": "Forage",
-      "ID": "144",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_ForestWest",
       "Name": "Bream",
       "Tile": "13, 128",
       "Type": "Forage",
       "ID": "132",
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -31,7 +20,18 @@
       "Tile": "32, 137",
       "Type": "Forage",
       "ID": "136",
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ForestWest",
+      "Name": "Pike",
+      "Tile": "27, 134",
+      "Type": "Forage",
+      "ID": "144",
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
