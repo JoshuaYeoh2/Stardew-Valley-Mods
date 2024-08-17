@@ -1,5 +1,5 @@
 {
-  "WeatherForYesterday": "Rain",
+  "WeatherForYesterday": "Sun",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
@@ -9,7 +9,29 @@
       "Tile": "34, 22",
       "Type": "Forage",
       "ID": "142",
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Sewer",
+      "Name": "Carp",
+      "Tile": "4, 31",
+      "Type": "Forage",
+      "ID": "142",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Sewer",
+      "Name": "Carp",
+      "Tile": "16, 28",
+      "Type": "Forage",
+      "ID": "142",
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null

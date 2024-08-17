@@ -1,12 +1,23 @@
 {
-  "WeatherForYesterday": "Rain",
+  "WeatherForYesterday": "Sun",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
     {
       "MapName": "Custom_Ridgeside_RidgesideVillage",
+      "Name": "Cutthroat Trout",
+      "Tile": "25, 57",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Cutthroat_Trout",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgesideVillage",
       "Name": "Harvester Trout",
-      "Tile": "51, 86",
+      "Tile": "117, 97",
       "Type": "Forage",
       "ID": "Rafseazz.RSVCP_Harvester_Trout",
       "DaysUntilExpire": 2,
@@ -16,30 +27,8 @@
     },
     {
       "MapName": "Custom_Ridgeside_RidgesideVillage",
-      "Name": "Cutthroat Trout",
-      "Tile": "53, 88",
-      "Type": "Forage",
-      "ID": "Rafseazz.RSVCP_Cutthroat_Trout",
-      "DaysUntilExpire": 2,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Ridgeside_RidgesideVillage",
-      "Name": "Cutthroat Trout",
-      "Tile": "25, 57",
-      "Type": "Forage",
-      "ID": "Rafseazz.RSVCP_Cutthroat_Trout",
-      "DaysUntilExpire": 4,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Ridgeside_RidgesideVillage",
       "Name": "Harvester Trout",
-      "Tile": "117, 97",
+      "Tile": "94, 91",
       "Type": "Forage",
       "ID": "Rafseazz.RSVCP_Harvester_Trout",
       "DaysUntilExpire": 4,
