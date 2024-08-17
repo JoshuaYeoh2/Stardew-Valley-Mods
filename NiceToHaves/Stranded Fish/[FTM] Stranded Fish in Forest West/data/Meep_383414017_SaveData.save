@@ -1,6 +1,51 @@
 {
-  "WeatherForYesterday": "Rain",
+  "WeatherForYesterday": "Sun",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
-  "SavedObjects": []
+  "SavedObjects": [
+    {
+      "MapName": "Custom_ForestWest",
+      "Name": "Pike",
+      "Tile": "27, 134",
+      "Type": "Forage",
+      "ID": "144",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ForestWest",
+      "Name": "Bream",
+      "Tile": "22, 129",
+      "Type": "Forage",
+      "ID": "132",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ForestWest",
+      "Name": "King Salmon",
+      "Tile": "30, 137",
+      "Type": "Forage",
+      "ID": "FlashShifter.StardewValleyExpandedCP_King_Salmon",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ForestWest",
+      "Name": "Largemouth Bass",
+      "Tile": "30, 138",
+      "Type": "Forage",
+      "ID": "136",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
 }
