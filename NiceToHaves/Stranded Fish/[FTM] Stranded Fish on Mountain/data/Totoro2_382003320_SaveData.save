@@ -1,15 +1,26 @@
 {
-  "WeatherForYesterday": "Sun",
+  "WeatherForYesterday": "Wind",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
     {
       "MapName": "Mountain",
       "Name": "Bullhead",
-      "Tile": "78, 15",
+      "Tile": "57, 17",
       "Type": "Forage",
       "ID": "700",
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Mountain",
+      "Name": "Bullhead",
+      "Tile": "67, 19",
+      "Type": "Forage",
+      "ID": "700",
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
