@@ -161,7 +161,10 @@
 					"Trigger": "DayEnding",				
 					"Condition": "PLAYER_HAS_SEEN_EVENT Current 1116022",
 					"HostOnly": false, 
-					"Action": "MarkEventSeen Current 1116022 false",
+					"Actions": [
+						"MarkEventSeen Current 1116022 false",
+						"RemoveMail Current swimmingDateFix received",
+					],
 					"MarkActionApplied": false,
 				},
 				
@@ -195,9 +198,9 @@
 					"MarkActionApplied": false,
 				},
 				
-				//Reset Maru Initiation
-				"{{ModId}}_MaruInitiation": {
-					"Id": "{{ModId}}_MaruInitiation",
+				//Reset Camping Initiation
+				"{{ModId}}_CampingInitiation": {
+					"Id": "{{ModId}}_CampingInitiation",
 					"Trigger": "DayEnding",				
 					"Condition": "PLAYER_HAS_SEEN_EVENT Current 1116025",
 					"HostOnly": false, 
@@ -205,19 +208,19 @@
 					"MarkActionApplied": false,
 				},
 				
-				//Reset Maru Mail
-				"{{ModId}}_MaruMail": {
-					"Id": "{{ModId}}_MaruMail",
+				//Reset Camping Mail
+				"{{ModId}}_CampingMail": {
+					"Id": "{{ModId}}_CampingMail",
 					"Trigger": "DayEnding",				
-					"Condition": "PLAYER_HAS_MAIL Current MaruDateAgree",
+					"Condition": "PLAYER_HAS_MAIL Current campingDateAgree",
 					"HostOnly": false, 
-					"Action": "RemoveMail Current MaruDateAgree",
+					"Action": "RemoveMail Current campingDateAgree",
 					"MarkActionApplied": false,
 				},
 				
-				//Reset Maru Date
-				"{{ModId}}_MaruDate": {
-					"Id": "{{ModId}}_MaruDate",
+				//Reset Camping Date
+				"{{ModId}}_CampingDate": {
+					"Id": "{{ModId}}_CampingDate",
 					"Trigger": "DayEnding",				
 					"Condition": "PLAYER_HAS_SEEN_EVENT Current 1116026",
 					"HostOnly": false, 
@@ -406,7 +409,6 @@
 					"Trigger": "DayEnding",				
 					"Condition": "PLAYER_HAS_RUN_TRIGGER_ACTION Current {{ModId}}_PicnicReminder",
 					"HostOnly": false, 
-					"Action": "MarkActionApplied Current {{ModId}}_PicnicReminder false",
 					"Actions": [
 						"MarkActionApplied Current {{ModId}}_PicnicReminder false",
 						"MarkActionApplied Current {{ModId}}_PicnicMissed false",
@@ -457,7 +459,6 @@
 					"Trigger": "DayEnding",				
 					"Condition": "PLAYER_HAS_RUN_TRIGGER_ACTION Current {{ModId}}_BeachReminder",
 					"HostOnly": false, 
-					"Action": "MarkActionApplied Current {{ModId}}_BeachReminder false",
 					"Actions": [
 						"MarkActionApplied Current {{ModId}}_BeachReminder false",
 						"MarkActionApplied Current {{ModId}}_BeachMissed false",
@@ -488,8 +489,7 @@
 					"Id": "{{ModId}}_GroceryReset",
 					"Trigger": "DayEnding",				
 					"Condition": "PLAYER_HAS_RUN_TRIGGER_ACTION Current {{ModId}}_GroceryReminder",
-					"HostOnly": false, 
-					"Action": "MarkActionApplied Current {{ModId}}_GroceryReminder false",
+					"HostOnly": false,
 					"Actions": [
 						"MarkActionApplied Current {{ModId}}_GroceryReminder false",
 						"MarkActionApplied Current {{ModId}}_GroceryMissed false",
@@ -559,7 +559,6 @@
 					"Trigger": "DayEnding",				
 					"Condition": "PLAYER_HAS_RUN_TRIGGER_ACTION Current {{ModId}}_HaleyReminder",
 					"HostOnly": false, 
-					"Action": "MarkActionApplied Current {{ModId}}_HaleyReminder false",
 					"Actions": [
 						"MarkActionApplied Current {{ModId}}_HaleyReminder false",
 						"MarkActionApplied Current {{ModId}}_HaleyMissed false",
@@ -591,7 +590,6 @@
 					"Trigger": "DayEnding",				
 					"Condition": "PLAYER_HAS_RUN_TRIGGER_ACTION Current {{ModId}}_AlexReminder",
 					"HostOnly": false, 
-					"Action": "MarkActionApplied Current {{ModId}}_AlexReminder false",
 					"Actions": [
 						"MarkActionApplied Current {{ModId}}_AlexReminder false",
 						"MarkActionApplied Current {{ModId}}_AlexMissed false",
@@ -621,6 +619,7 @@
 			"When": {
 				"HasMod": "spacechase0.SpaceCore",
 				"DateReminders": "enabled",
+				"HasValue:{{Date}}": "true", //If no date, token not ready
 			},
 		},
 		
@@ -678,7 +677,29 @@
 			"When": {
 				"HasMod": "spacechase0.SpaceCore",
 				"DateReminders": "enabled",
+				"HasValue:{{Date}}": "true", //If no date, token not ready
 			},
 		},
+		
+		/*{
+			"LogName": "Elliott HUD Message for if a date would have happened, but he's on tour",
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				
+				//Elliott Tour Message
+				"{{ModId}}_ElliottTour": {
+					"Id": "{{ModId}}_ElliottTour",
+					"Trigger": "DayStarted",				
+					"Condition": "{{Date |contains=Elliott}}, PLAYER_HAS_CONVERSATION_TOPIC Current elliottGone, {{DateEvaluate}}", //Currently commented out because the mechanic to make Elliott go on a date screws the evaluation check and this would add a translation, which I try to only keep to major content updates. Will reconsider this eventually.
+					"HostOnly": false, 
+					"Action": "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:ElliottTour |Date={{Date}} }}\" (O)102",
+				},
+			},
+			"When": {
+				"HasMod": "spacechase0.SpaceCore",
+				"HasValue:{{Date}}": "true", //If no date, token not ready
+			},
+		},*/
 	]
 }
