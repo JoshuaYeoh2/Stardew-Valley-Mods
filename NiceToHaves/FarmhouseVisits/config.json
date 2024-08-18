@@ -1,6 +1,6 @@
 {
   "CustomChance": 20,
-  "GiftChance": 50,
+  "GiftChance": 80,
   "MaxVisitsPerDay": 3,
   "Blacklist": "",
   "StartingHours": 800,
@@ -8,15 +8,15 @@
   "Duration": 6,
   "Verbose": false,
   "Debug": false,
-  "InLawComments": "VanillaAndMod",
-  "ReplacerCompat": true,
-  "NeedsConfirmation": true,
+  "InLawComments": "VanillaOnly",
+  "ReplacerCompat": false,
+  "NeedsConfirmation": false,
   "RejectionDialogue": true,
   "WalkOnFarm": true,
   "Shed": true,
   "Greenhouse": true,
   "UniqueDialogue": true,
-  "Sleepover": true,
-  "SleepoverMinHearts": 6,
+  "Sleepover": false,
+  "SleepoverMinHearts": 3,
   "SleepoverChance": 10
 }
