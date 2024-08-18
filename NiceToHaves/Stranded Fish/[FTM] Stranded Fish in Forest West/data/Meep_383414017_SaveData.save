@@ -5,10 +5,21 @@
   "SavedObjects": [
     {
       "MapName": "Custom_ForestWest",
-      "Name": "Pike",
-      "Tile": "27, 134",
+      "Name": "Bream",
+      "Tile": "35, 143",
       "Type": "Forage",
-      "ID": "144",
+      "ID": "132",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ForestWest",
+      "Name": "Catfish",
+      "Tile": "37, 147",
+      "Type": "Forage",
+      "ID": "143",
       "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -16,33 +27,11 @@
     },
     {
       "MapName": "Custom_ForestWest",
-      "Name": "Bream",
-      "Tile": "22, 129",
-      "Type": "Forage",
-      "ID": "132",
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_ForestWest",
       "Name": "King Salmon",
-      "Tile": "30, 137",
+      "Tile": "38, 146",
       "Type": "Forage",
       "ID": "FlashShifter.StardewValleyExpandedCP_King_Salmon",
-      "DaysUntilExpire": 4,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_ForestWest",
-      "Name": "Largemouth Bass",
-      "Tile": "30, 138",
-      "Type": "Forage",
-      "ID": "136",
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null

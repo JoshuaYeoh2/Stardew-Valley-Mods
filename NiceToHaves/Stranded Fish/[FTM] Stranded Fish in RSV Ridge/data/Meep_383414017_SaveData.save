@@ -5,11 +5,33 @@
   "SavedObjects": [
     {
       "MapName": "Custom_Ridgeside_Ridge",
+      "Name": "Mountain Whitefish",
+      "Tile": "22, 38",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Mountain_Whitefish",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_Ridge",
       "Name": "Ridgeside Bass",
-      "Tile": "18, 29",
+      "Tile": "20, 41",
       "Type": "Forage",
       "ID": "Rafseazz.RSVCP_Ridgeside_Bass",
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_Ridge",
+      "Name": "Ridgeside Bass",
+      "Tile": "27, 34",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Ridgeside_Bass",
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -17,7 +39,7 @@
     {
       "MapName": "Custom_Ridgeside_Ridge",
       "Name": "Mountain Whitefish",
-      "Tile": "19, 31",
+      "Tile": "18, 29",
       "Type": "Forage",
       "ID": "Rafseazz.RSVCP_Mountain_Whitefish",
       "DaysUntilExpire": 3,
@@ -27,30 +49,8 @@
     },
     {
       "MapName": "Custom_Ridgeside_Ridge",
-      "Name": "Ridgeside Bass",
-      "Tile": "15, 43",
-      "Type": "Forage",
-      "ID": "Rafseazz.RSVCP_Ridgeside_Bass",
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Ridgeside_Ridge",
-      "Name": "Ridgeside Bass",
-      "Tile": "25, 37",
-      "Type": "Forage",
-      "ID": "Rafseazz.RSVCP_Ridgeside_Bass",
-      "DaysUntilExpire": 4,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Ridgeside_Ridge",
       "Name": "Cutthroat Trout",
-      "Tile": "17, 28",
+      "Tile": "14, 43",
       "Type": "Forage",
       "ID": "Rafseazz.RSVCP_Cutthroat_Trout",
       "DaysUntilExpire": 4,
