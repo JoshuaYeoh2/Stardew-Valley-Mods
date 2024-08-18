@@ -70,6 +70,15 @@
                         "IgnoreShopPriceModifiers": true,
                         "TradeItemId": "499", 
                         "TradeItemAmount": 1,
+                      },
+                      {
+                        "Id": "{{ModId}}_Ancient_Bean_Seeds",
+                        "ItemId": "{{ModId}}_Ancient_Bean_Seeds",
+                        "Price": 0,
+                        "IsRecipe": false,
+                        "IgnoreShopPriceModifiers": true,
+                        "TradeItemId": "499", 
+                        "TradeItemAmount": 1,
                       }
                     ]
                 }

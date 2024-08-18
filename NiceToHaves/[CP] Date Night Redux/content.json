@@ -1003,6 +1003,16 @@
 				"HasMod": "LenneDalben.PelicanTownPotluck",
 			},
 		},
+		
+		//Elliott Tour Date Prevention
+		{
+			"Name": "DateInterest",
+			"Value": "101",
+			"When": {
+				"Date": "Elliott",
+				"HasConversationTopic": "elliottGone", //Removes Elliott dates if he's on tour
+			},
+		},
 
 	//FRIENDSHIP BONUS CONFIG DATA
 		{
@@ -2447,22 +2457,38 @@
 			},
 		},
 		
-	//Mod Compat Tokens
-	
-	{
-		"Name": "Ornithologist",
-		"Value": "pause 1",
-	},
-	
-	{
-		"Name": "Ornithologist",
-		"Value": "changeToTemporaryMap Forest_DNR false",
-		"When": {
-			"HasMod": "Ivy.OrnithologistsGuild.CP",
+		//Mod Compat Tokens
+		
+		{
+			"Name": "Ornithologist",
+			"Value": "pause 1",
 		},
-	},
+		
+		{
+			"Name": "Ornithologist",
+			"Value": "changeToTemporaryMap Forest_DNR false",
+			"When": {
+				"HasMod": "Ivy.OrnithologistsGuild.CP",
+			},
+		},
+		
+		//Token Check for if a date will happen that day - put in for forward notice
 
-   ],
+		{
+			"Name": "DateEvaluate",
+			"Value": "false",
+		},
+		
+		{
+			"Name": "DateEvaluate",
+			"Value": "true",
+			"When": {
+				"Query: {{DateInterest}} <= {{DateAskPercentChance}}": true,
+			},
+		},
+
+	],
+	
    "Changes": [
 	
 		//Load Invisible Actors For Certain Events
