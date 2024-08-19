@@ -135,6 +135,25 @@
 "Hearts:FC.John": "{{Range: 9, 10}}" 
 }
 },
+  {
+            "LogName": "Dialogue - Dating",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/FC.John",
+            "Entries":     { 
+              ///Main Dialogue
+"Mon": "{{i18n:Mon.John.Highheart.{{season}}}}",
+"Tue": "{{i18n:Tue.John.Highheart.{{season}}}}",
+"Wed": "{{i18n:Wed.John.Highheart.{{season}}}}",
+"Thu": "{{i18n:Thu.John.Highheart.{{season}}}}",
+"Fri": "{{i18n:Fri.John.Highheart.{{season}}}}",
+"Sat": "{{i18n:Sat.John.Highheart.{{season}}}}",
+"Sun": "{{i18n:Sun.John.Highheart.{{season}}}}",
+"Saloon":"{{i18n:Saloon.Phoebe.HighHeart.{{season}}}}",
+},
+"When": {
+"Relationship:FC.John": "Dating" 
+}
+},
         //Marriage Dialogue
 {
   "Action": "EditData",

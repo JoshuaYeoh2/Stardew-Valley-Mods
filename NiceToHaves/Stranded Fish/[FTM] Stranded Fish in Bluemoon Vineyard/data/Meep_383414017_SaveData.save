@@ -1,14 +1,14 @@
 {
-  "WeatherForYesterday": "Sun",
+  "WeatherForYesterday": "Rain",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
     {
       "MapName": "Custom_BlueMoonVineyard",
-      "Name": "Anchovy",
-      "Tile": "51, 65",
+      "Name": "Sardine",
+      "Tile": "52, 64",
       "Type": "Forage",
-      "ID": "129",
+      "ID": "131",
       "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -16,11 +16,22 @@
     },
     {
       "MapName": "Custom_BlueMoonVineyard",
-      "Name": "Seaweed",
-      "Tile": "46, 65",
+      "Name": "Anchovy",
+      "Tile": "53, 64",
       "Type": "Forage",
-      "ID": "152",
-      "DaysUntilExpire": 3,
+      "ID": "129",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BlueMoonVineyard",
+      "Name": "Herring",
+      "Tile": "52, 65",
+      "Type": "Forage",
+      "ID": "147",
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null

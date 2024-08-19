@@ -1,23 +1,66 @@
 {
-  "WeatherForYesterday": "Sun",
+  "WeatherForYesterday": "Rain",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
     {
-      "MapName": "WitchSwamp",
-      "Name": "wildflour.ateliercrops_dawn_trumpet",
-      "Tile": "11, 42",
+      "MapName": "Railroad",
+      "Name": null,
+      "Tile": "5, 35",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "Buried",
+        "Contents": [
+          "wildflour.ateliercrops_redonion"
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_CapeBusStop",
+      "Name": "wildflour.ateliercrops_mint",
+      "Tile": "55, 20",
       "Type": "Forage",
-      "ID": "wildflour.ateliercrops_dawn_trumpet",
+      "ID": "wildflour.ateliercrops_mint",
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
     },
     {
-      "MapName": "Beach",
+      "MapName": "BusStop",
+      "Name": null,
+      "Tile": "22, 18",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "Buried",
+        "Contents": [
+          "wildflour.ateliercrops_redonion"
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "IslandNorth",
+      "Name": "wildflour.ateliercrops_ice_dragon_scale",
+      "Tile": "22, 86",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_ice_dragon_scale",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "IslandNorth",
       "Name": "wildflour.ateliercrops_olive",
-      "Tile": "48, 13",
+      "Tile": "53, 51",
       "Type": "Forage",
       "ID": "wildflour.ateliercrops_olive",
       "DaysUntilExpire": 1,
@@ -26,44 +69,11 @@
       "MonType": null
     },
     {
-      "MapName": "Railroad",
-      "Name": "wildflour.ateliercrops_daisy",
-      "Tile": "52, 41",
+      "MapName": "IslandNorth",
+      "Name": "wildflour.ateliercrops_cilantro",
+      "Tile": "43, 27",
       "Type": "Forage",
-      "ID": "wildflour.ateliercrops_daisy",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_CapeBusStop",
-      "Name": "wildflour.ateliercrops_mint",
-      "Tile": "49, 3",
-      "Type": "Forage",
-      "ID": "wildflour.ateliercrops_mint",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "BusStop",
-      "Name": "wildflour.ateliercrops_mint",
-      "Tile": "29, 14",
-      "Type": "Forage",
-      "ID": "wildflour.ateliercrops_mint",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "BusStop",
-      "Name": "wildflour.ateliercrops_mint",
-      "Tile": "11, 25",
-      "Type": "Forage",
-      "ID": "wildflour.ateliercrops_mint",
+      "ID": "wildflour.ateliercrops_cilantro",
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -71,21 +81,10 @@
     },
     {
       "MapName": "IslandNorth",
-      "Name": "wildflour.ateliercrops_geranium",
-      "Tile": "53, 89",
+      "Name": "wildflour.ateliercrops_olive",
+      "Tile": "2, 56",
       "Type": "Forage",
-      "ID": "wildflour.ateliercrops_geranium",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "IslandNorth",
-      "Name": "wildflour.ateliercrops_geranium",
-      "Tile": "48, 54",
-      "Type": "Forage",
-      "ID": "wildflour.ateliercrops_geranium",
+      "ID": "wildflour.ateliercrops_olive",
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -94,7 +93,7 @@
     {
       "MapName": "Custom_CapeStardew",
       "Name": "wildflour.ateliercrops_wormwood",
-      "Tile": "14, 89",
+      "Tile": "17, 95",
       "Type": "Forage",
       "ID": "wildflour.ateliercrops_wormwood",
       "DaysUntilExpire": 1,
@@ -104,21 +103,98 @@
     },
     {
       "MapName": "Mountain",
-      "Name": "wildflour.ateliercrops_lime",
-      "Tile": "44, 20",
+      "Name": "wildflour.ateliercrops_wormwood",
+      "Tile": "113, 23",
       "Type": "Forage",
-      "ID": "wildflour.ateliercrops_lime",
+      "ID": "wildflour.ateliercrops_wormwood",
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
     },
     {
-      "MapName": "Desert",
-      "Name": "wildflour.ateliercrops_pomegranate",
-      "Tile": "25, 127",
+      "MapName": "Custom_AnnettaForest",
+      "Name": "wildflour.ateliercrops_almond",
+      "Tile": "28, 13",
       "Type": "Forage",
-      "ID": "wildflour.ateliercrops_pomegranate",
+      "ID": "wildflour.ateliercrops_almond",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "IslandWest",
+      "Name": "wildflour.ateliercrops_cilantro",
+      "Tile": "34, 89",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_cilantro",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Woods",
+      "Name": "wildflour.ateliercrops_mysteria",
+      "Tile": "8, 36",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_mysteria",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Woods",
+      "Name": "wildflour.ateliercrops_clover",
+      "Tile": "25, 62",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_clover",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Woods",
+      "Name": "wildflour.ateliercrops_puffball",
+      "Tile": "67, 31",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_puffball",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Woods",
+      "Name": "wildflour.ateliercrops_lavender",
+      "Tile": "46, 62",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_lavender",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Woods",
+      "Name": "wildflour.ateliercrops_strawberry",
+      "Tile": "33, 21",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_strawberry",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Woods",
+      "Name": "wildflour.ateliercrops_strawberry",
+      "Tile": "38, 13",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_strawberry",
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -127,9 +203,42 @@
     {
       "MapName": "Desert",
       "Name": "wildflour.ateliercrops_geranium",
-      "Tile": "37, 137",
+      "Tile": "12, 109",
       "Type": "Forage",
       "ID": "wildflour.ateliercrops_geranium",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Desert",
+      "Name": "wildflour.ateliercrops_rose_cacao",
+      "Tile": "42, 77",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_rose_cacao",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Desert",
+      "Name": "wildflour.ateliercrops_cacaopod",
+      "Tile": "8, 16",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_cacaopod",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Desert",
+      "Name": "wildflour.ateliercrops_cacaopod",
+      "Tile": "48, 91",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_cacaopod",
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
