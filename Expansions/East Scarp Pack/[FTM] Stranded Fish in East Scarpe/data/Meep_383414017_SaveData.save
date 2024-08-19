@@ -1,5 +1,5 @@
 {
-  "WeatherForYesterday": "Rain",
+  "WeatherForYesterday": "Wind",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
@@ -9,7 +9,7 @@
       "Tile": "24, 120",
       "Type": "Forage",
       "ID": "129",
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -20,7 +20,7 @@
       "Tile": "53, 113",
       "Type": "Forage",
       "ID": "153",
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -31,6 +31,17 @@
       "Tile": "55, 114",
       "Type": "Forage",
       "ID": "153",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_Village",
+      "Name": "Seaweed",
+      "Tile": "35, 116",
+      "Type": "Forage",
+      "ID": "152",
       "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,

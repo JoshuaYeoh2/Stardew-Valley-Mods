@@ -1,5 +1,5 @@
 {
-  "WeatherForYesterday": "Rain",
+  "WeatherForYesterday": "Wind",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
@@ -9,7 +9,7 @@
       "Tile": "7, 18",
       "Type": "Forage",
       "ID": "142",
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -20,7 +20,7 @@
       "Tile": "5, 18",
       "Type": "Forage",
       "ID": "143",
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -31,7 +31,7 @@
       "Tile": "12, 28",
       "Type": "Forage",
       "ID": "143",
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -42,6 +42,28 @@
       "Tile": "15, 24",
       "Type": "Forage",
       "ID": "142",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Woods",
+      "Name": "Carp",
+      "Tile": "15, 22",
+      "Type": "Forage",
+      "ID": "142",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Woods",
+      "Name": "Woodskip",
+      "Tile": "15, 20",
+      "Type": "Forage",
+      "ID": "734",
       "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,

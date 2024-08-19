@@ -1,5 +1,5 @@
 {
-  "WeatherForYesterday": "Rain",
+  "WeatherForYesterday": "Wind",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
@@ -9,7 +9,7 @@
       "Tile": "39, 150",
       "Type": "Forage",
       "ID": "704",
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -20,6 +20,17 @@
       "Tile": "35, 142",
       "Type": "Forage",
       "ID": "143",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ForestWest",
+      "Name": "Sunfish",
+      "Tile": "21, 130",
+      "Type": "Forage",
+      "ID": "145",
       "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,

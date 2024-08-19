@@ -1,0 +1,19 @@
+/*Vanilla Penny has lines for "ancient items" (a specific set of artifacts tagged with ContextTags ancient_item), and all books.
+She has a line for loved birthday gifts, liked-and-neutral birthday gifts, and disliked-and-hated birthday gifts. That last one kind of goes harsh...*/
+
+{"Changes": [
+  {
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Penny",
+
+    "Entries": {
+
+      "AcceptGift_(O)60": "{{i18n:UGDE.Penny_(O)60}}", //Emerald
+      "AcceptGift_alcohol_item": "{{i18n:UGDE.Penny_alcohol_item}}", //All alcohols
+      "AcceptGift_(O)398": "{{i18n:UGDE.Penny_(O)398}}", //Grape
+      "AcceptGift_(O)304": "{{i18n:UGDE.Penny_(O)304}}", //Hops
+      "AcceptGift_(O)446": "{{i18n:UGDE.Penny_(O)446_1}}#$e#{{i18n:UGDE.Penny_(O)446_2}}#$action AddFriendshipPoints Penny -20", //Rabbit's Foot
+
+    }
+  }
+]}

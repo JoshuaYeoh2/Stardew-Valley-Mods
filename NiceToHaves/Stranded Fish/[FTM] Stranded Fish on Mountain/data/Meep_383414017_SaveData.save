@@ -1,14 +1,14 @@
 {
-  "WeatherForYesterday": "Rain",
+  "WeatherForYesterday": "Wind",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
     {
       "MapName": "Mountain",
-      "Name": "Largemouth Bass",
-      "Tile": "67, 18",
+      "Name": "Bullhead",
+      "Tile": "56, 21",
       "Type": "Forage",
-      "ID": "136",
+      "ID": "700",
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -16,11 +16,11 @@
     },
     {
       "MapName": "Mountain",
-      "Name": "Bullhead",
-      "Tile": "56, 21",
+      "Name": "Chub",
+      "Tile": "80, 19",
       "Type": "Forage",
-      "ID": "700",
-      "DaysUntilExpire": 2,
+      "ID": "702",
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
