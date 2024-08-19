@@ -1,25 +1,14 @@
 {
-  "WeatherForYesterday": "Sun",
+  "WeatherForYesterday": "Rain",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
     {
       "MapName": "Custom_ForestWest",
-      "Name": "Bream",
-      "Tile": "35, 143",
+      "Name": "Dorado",
+      "Tile": "39, 150",
       "Type": "Forage",
-      "ID": "132",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_ForestWest",
-      "Name": "Catfish",
-      "Tile": "37, 147",
-      "Type": "Forage",
-      "ID": "143",
+      "ID": "704",
       "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -27,11 +16,11 @@
     },
     {
       "MapName": "Custom_ForestWest",
-      "Name": "King Salmon",
-      "Tile": "38, 146",
+      "Name": "Catfish",
+      "Tile": "35, 142",
       "Type": "Forage",
-      "ID": "FlashShifter.StardewValleyExpandedCP_King_Salmon",
-      "DaysUntilExpire": 3,
+      "ID": "143",
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null

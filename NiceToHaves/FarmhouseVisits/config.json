@@ -1,10 +1,10 @@
 {
   "CustomChance": 20,
   "GiftChance": 80,
-  "MaxVisitsPerDay": 3,
+  "MaxVisitsPerDay": 24,
   "Blacklist": "",
-  "StartingHours": 800,
-  "EndingHours": 2000,
+  "StartingHours": 600,
+  "EndingHours": 2400,
   "Duration": 6,
   "Verbose": false,
   "Debug": false,
@@ -16,7 +16,7 @@
   "Shed": true,
   "Greenhouse": true,
   "UniqueDialogue": true,
-  "Sleepover": false,
-  "SleepoverMinHearts": 3,
+  "Sleepover": true,
+  "SleepoverMinHearts": 8,
   "SleepoverChance": 10
 }
