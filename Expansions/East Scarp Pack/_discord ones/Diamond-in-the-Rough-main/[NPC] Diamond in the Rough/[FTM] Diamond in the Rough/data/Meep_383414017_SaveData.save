@@ -1,5 +1,5 @@
 {
-  "WeatherForYesterday": "Rain",
+  "WeatherForYesterday": "Wind",
   "LNOSCounter": {
     "DitR - Sewer Shorts Spawn": 1
   },
@@ -20,9 +20,9 @@
       "MonType": null
     },
     {
-      "MapName": "Custom_GrandpasShedOutside",
+      "MapName": "EastScarp_DeepMountains",
       "Name": "7thAxis.DitR_Items.ValleyLily",
-      "Tile": "22, 8",
+      "Tile": "23, 25",
       "Type": "Forage",
       "ID": "7thAxis.DitR_Items.ValleyLily",
       "DaysUntilExpire": 1,
@@ -31,9 +31,9 @@
       "MonType": null
     },
     {
-      "MapName": "Custom_ShearwaterBridge",
+      "MapName": "EastScarp_DeepMountains",
       "Name": "7thAxis.DitR_Items.ValleyLily",
-      "Tile": "14, 3",
+      "Tile": "36, 60",
       "Type": "Forage",
       "ID": "7thAxis.DitR_Items.ValleyLily",
       "DaysUntilExpire": 1,
@@ -42,9 +42,31 @@
       "MonType": null
     },
     {
-      "MapName": "Custom_ShearwaterBridge",
+      "MapName": "EastScarp_Village",
       "Name": "7thAxis.DitR_Items.ValleyLily",
-      "Tile": "12, 8",
+      "Tile": "14, 49",
+      "Type": "Forage",
+      "ID": "7thAxis.DitR_Items.ValleyLily",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Forest",
+      "Name": "7thAxis.DitR_Items.ValleyLily",
+      "Tile": "7, 111",
+      "Type": "Forage",
+      "ID": "7thAxis.DitR_Items.ValleyLily",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Mountain",
+      "Name": "7thAxis.DitR_Items.ValleyLily",
+      "Tile": "91, 32",
       "Type": "Forage",
       "ID": "7thAxis.DitR_Items.ValleyLily",
       "DaysUntilExpire": 1,
@@ -55,7 +77,18 @@
     {
       "MapName": "Farm",
       "Name": "7thAxis.DitR_Items.ValleyLily",
-      "Tile": "60, 9",
+      "Tile": "40, 34",
+      "Type": "Forage",
+      "ID": "7thAxis.DitR_Items.ValleyLily",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Farm",
+      "Name": "7thAxis.DitR_Items.ValleyLily",
+      "Tile": "85, 49",
       "Type": "Forage",
       "ID": "7thAxis.DitR_Items.ValleyLily",
       "DaysUntilExpire": 1,

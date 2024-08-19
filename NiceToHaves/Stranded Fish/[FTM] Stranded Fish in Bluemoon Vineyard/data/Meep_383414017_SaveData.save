@@ -1,5 +1,5 @@
 {
-  "WeatherForYesterday": "Rain",
+  "WeatherForYesterday": "Wind",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
@@ -9,7 +9,7 @@
       "Tile": "52, 64",
       "Type": "Forage",
       "ID": "131",
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -20,7 +20,7 @@
       "Tile": "53, 64",
       "Type": "Forage",
       "ID": "129",
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -31,6 +31,17 @@
       "Tile": "52, 65",
       "Type": "Forage",
       "ID": "147",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BlueMoonVineyard",
+      "Name": "Bream",
+      "Tile": "54, 64",
+      "Type": "Forage",
+      "ID": "132",
       "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
