@@ -44,6 +44,11 @@
         {   
             //Load Seed Transformer
             "Action": "Include",
+            "FromFile": "assets/Ancient_Bean/Ancient_Bean.json"
+        },
+        {   
+            //Load Seed Transformer
+            "Action": "Include",
             "FromFile": "assets/Food/Bowl_of_plenty.json"
         },
         {   
@@ -54,7 +59,22 @@
         {   
             //Load Seed Transformer
             "Action": "Include",
-            "FromFile": "assets/Seed_Transformer/STR.json"
+            "FromFile": "assets/Food/Compote.json"
         },
+        {   
+            //Load Seed Transformer
+            "Action": "Include",
+            "FromFile": "assets/Food/Immortal_Potion.json"
+        },
+        {   
+            //Load Seed Transformer
+            "Action": "Include",
+            "FromFile": "assets/Food/Ancient_Coffee.json"
+        },
+        {   
+            //Load Seed Transformer
+            "Action": "Include",
+            "FromFile": "assets/Seed_Transformer/STR.json"
+        }
     ]
 }

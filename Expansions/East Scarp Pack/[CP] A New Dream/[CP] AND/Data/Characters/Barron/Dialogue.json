@@ -127,7 +127,26 @@
 "Saloon":"{{i18n:Saloon.Barron.HighHeart.{{season}}}}",
 },
 "When": {
-"Hearts:FC.John": "{{Range: 9, 10}}" 
+"Hearts:FC.Barron": "{{Range: 9, 10}}" 
+}
+},
+  {
+            "LogName": "Dialogue - Dating",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/FC.Barron",
+            "Entries":     { 
+              ///Main Dialogue
+"Mon": "{{i18n:Mon.Barron.Highheart.{{season}}}}",
+"Tue": "{{i18n:Tue.Barron.Highheart.{{season}}}}",
+"Wed": "{{i18n:Wed.Barron.Highheart.{{season}}}}",
+"Thu": "{{i18n:Thu.Barron.Highheart.{{season}}}}",
+"Fri": "{{i18n:Fri.Barron.Highheart.{{season}}}}",
+"Sat": "{{i18n:Sat.Barron.Highheart.{{season}}}}",
+"Sun": "{{i18n:Sun.Barron.Highheart.{{season}}}}",
+"Saloon":"{{i18n:Saloon.Barron.HighHeart.{{season}}}}",
+},
+"When": {
+"Relationship:FC.Barron": "Dating" 
 }
 },
 {

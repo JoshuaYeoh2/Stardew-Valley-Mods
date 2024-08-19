@@ -1,0 +1,16 @@
+/*Vanilla Lewis has no extra lines. Poor mayor.
+He has a line for loved-to-neutral birthday gifts and disliked-and-hated birthday gifts.*/
+
+{"Changes": [
+  {
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Lewis",
+
+    "Entries": {
+
+      "AcceptGift_(O)200": "{{i18n:UDGE.Lewis_(O)200}}", //Vegetable Medley
+      //TODO Truffle Oil
+
+    }
+  }
+]}

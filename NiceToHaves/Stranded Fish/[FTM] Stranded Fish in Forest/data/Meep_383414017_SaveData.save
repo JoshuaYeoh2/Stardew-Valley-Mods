@@ -1,6 +1,18 @@
 {
-  "WeatherForYesterday": "Sun",
+  "WeatherForYesterday": "Wind",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
-  "SavedObjects": []
+  "SavedObjects": [
+    {
+      "MapName": "Forest",
+      "Name": "Green Algae",
+      "Tile": "44, 90",
+      "Type": "Forage",
+      "ID": "153",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
 }
