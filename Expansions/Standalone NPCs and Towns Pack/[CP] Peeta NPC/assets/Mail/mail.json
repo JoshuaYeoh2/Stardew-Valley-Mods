@@ -1,0 +1,44 @@
+{
+  "Changes": [
+	{
+		"LogName": "Mail Trigger Actions",
+		"Action": "EditData",
+		"Target": "Data/TriggerActions",
+		"Entries": {
+			"Wem.Peeta_RecipeMail": {
+				"Id": "Wem.Peeta_RecipeMail",
+				"Condition": "PLAYER_FRIENDSHIP_POINTS Current Peeta 500",
+				"Trigger": "DayEnding",
+				"HostOnly": false,
+				"Action": "AddMail Current PeetaCooking",
+				"Actions": null,
+				"MarkActionApplied": true,
+			},
+			"Wem.Peeta_Baking": {
+				"Id": "Wem.Peeta_Baking",
+				"Condition": "PLAYER_FRIENDSHIP_POINTS Current Peeta 1250",
+				"Trigger": "DayEnding",
+				"HostOnly": false,
+				"Action": "AddMail Current PeetaBaking",
+				"Actions": null,
+				"MarkActionApplied": true,
+			},
+		}
+	},
+	
+	{
+		"LogName": "Mail Strings",
+		"Action": "EditData",
+		"Target": "Data/mail",
+		"Entries": {
+			"PeetaCooking": "Dear @,^^I was leafing through my recipe book and I thought you might enjoy this. If you make any, please share a bite with me!^^-Peeta%item cookingRecipe%%[#]Peeta's Recipe",
+			//"PeetaCooking": "Dear @,^^I was leafing through my recipe book and I thought you might enjoy this. If you make any, please share a bite with me!^^-Peeta%item cookingRecipe Wem.Peeta_RaisinAndNutBread%%[#]Peeta's Recipe",
+			//"PeetaCooking": "Dear @,^^I've just tested out a new cinnamon bun recipe and thought I would share it with you. Take care!^^-Peeta%item cookingRecipe Wem.Peeta_CinnamonBun%%[#]Cinnamon Bunanza",
+			//"PeetaCooking": "Dear @,^^Cheese Buns are a Mellark Bakery specialty! But you're pretty special too, so I'm going to share it with you. Don't tell anyone, okay? :)^^-Peeta%item cookingRecipe Wem.Peeta_CheeseBun%%[#]Peeta's Secret Recipe #1",
+			//"PeetaCooking": "Dear @,^^This is the second Mellark Bakery specialty...it used to be a hit with the Mayor of 12. And if you ever want to send some goat cheese my way, I'd love to bake tarts with it!^^-Peeta%item cookingRecipe Wem.Peeta_AppleTart%%[#]Peeta's Secret Recipe #2",
+			//"PeetaCooking": "Dear @,^^I once made this cake for two friends at their wedding. It's always held a special place in my heart...and the townspeople really seem to like it. I hope one day you will make it for your special someone.^^-Peeta%item cookingRecipe Wem.Peeta_SeaFoamCake%%[#]Cake is the Key to the Heart",
+			"PeetaBaking": "@,^^I had some free time this week, and I wanted to bake with you! It'll be really fun. Promise! Please come by any time you're free.^^-Peeta[#]Peeta's Invitation",
+		}
+	},
+  ]
+}

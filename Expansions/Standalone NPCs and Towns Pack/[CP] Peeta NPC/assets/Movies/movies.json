@@ -1,0 +1,232 @@
+{
+  "Changes": [
+    { //Invite Movie Dialogue
+      "Action": "EditData",
+      "Target": "strings/Characters",
+	  "Entries": {
+		"MovieInvite_Peeta": "$1Thanks for inviting me @! A movie sounds great. See you there!",
+		"MovieInvite_Spouse_Peeta": "$1A movie date? Sounds like a plan babe. You think we can sneak in some peppermints?"
+	  }
+    },
+	{
+		"LogName": "Concessions Tastes",
+		"Action": "EditData",
+		"Target": "Data/ConcessionTastes",
+		"Entries": {
+			"Peeta": {
+				"Name": "Peeta",
+				"LovedTags": [ "Apple Slices", "Cappuccino Mouse Cake", "Jasmine Tea", "Salted Peanuts", "Stardrop Sorbet" ],
+				"LikedTags": [ "Chocolate Popcorn", "Cotton Candy", "Hummus Snack Pack", "Star Cookie", "Sour Slimes", "Truffle Popcorn", "Fries" ],
+				"DislikedTags": [ "Black Licorice", "Jawbreaker", "Joja Cola", "Joja Corn", "Kale Smoothie", "Rock Candy" ]
+			}
+		}
+	},
+	{
+		"LogName": "Movie Tastes",
+		"Action": "EditData",
+		"Target": "Data/MoviesReactions",
+		"Entries": {
+			"Peeta": {
+				"NPCName": "Peeta",
+				"Reactions": [
+				// Brave Little Sapling
+				{
+				  "Tag": "spring_movie_0",
+				  "Response": "like",
+				  "Whitelist": [],
+				  "SpecialResponses": {
+					"BeforeMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "$3Do you think I'm too old for this movie?"
+					},
+					"DuringMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "$2This movie is pretty cute!"
+					},
+					"AfterMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "$7You know, I think I learned a little something today. Not sure what, but let's say I did."
+					}
+              },
+              "ID": "reaction_0"
+            },
+			
+			// Journey Of The Prairie King: The Motion Picture
+			{
+				  "Tag": "summer_movie_0",
+				  "Response": "dislike",
+				  "Whitelist": [],
+				  "SpecialResponses": {
+					"BeforeMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "$23There's guns in this movie, you said?"
+					},
+					"DuringMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "%Peeta is gripping the armrests so tight his knuckles have turned white."
+					},
+					"AfterMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "$26Ah...that brought up some bad memories. Sorry."
+					}
+              },
+              "ID": "reaction_1"
+            },
+			
+			// Mysterium
+			{
+				  "Tag": "fall_movie_0",
+				  "Response": "dislike",
+				  "Whitelist": [],
+				  "SpecialResponses": {
+					"BeforeMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "$2The poster gives me the creeps."
+					},
+					"DuringMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "$2Do you feel that chill down your spine? I don't like it...."
+					},
+					"AfterMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "$27I swear I don't get creeped out by much...but that was something else."
+					}
+              },
+              "ID": "reaction_2"
+            },
+			// Miracle of Coldstar Ranch
+			{
+				  "Tag": "winter_movie_0",
+				  "Response": "love",
+				  "Whitelist": [],
+				  "SpecialResponses": {
+					"BeforeMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "$1I didn't know there were holiday movies in Pelican Town."
+					},
+					"DuringMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "$2I know what that feels like..."
+					},
+					"AfterMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "$21That was a beautiful story. Thanks for inviting me."
+					}
+              },
+              "ID": "reaction_3"
+            },
+			// Natural Wonders
+			{
+				  "Tag": "spring_movie_1",
+				  "Response": "love",
+				  "Whitelist": [],
+				  "SpecialResponses": {
+					"BeforeMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "I'm ready to learn about the rest of the world!"
+					},
+					"DuringMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "$1I'd love to visit the Ferngill Islands."
+					},
+					"AfterMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "$1Who knew all of this was out there? I'm glad I moved here."
+					}
+              },
+              "ID": "reaction_4"
+            },
+			// Wumbus 
+			{
+				  "Tag": "summer_movie_1",
+				  "Response": "dislike",
+				  "Whitelist": [],
+				  "SpecialResponses": {
+					"BeforeMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "$2What was that on the poster? Wumbus....?"
+					},
+					"DuringMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "%Peeta's eyes are closed. It looks he's shaking a bit."
+					},
+					"AfterMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "$2Wumbus...mutts....#$e#Sorry. Bad memories."
+					}
+              },
+              "ID": "reaction_5"
+            },
+			// It Howls in the Rain
+			{
+				  "Tag": "fall_movie_1",
+				  "Response": "dislike",
+				  "Whitelist": [],
+				  "SpecialResponses": {
+					"BeforeMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "$2Another creepy movie..."
+					},
+					"DuringMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "$16W-watch out! Run away!"
+					},
+					"AfterMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "%Peeta shudders.#$e#$2Sometimes I have nightmares like that." 
+					}
+              },
+              "ID": "reaction_6"
+            },
+			// The Zuzu City Express
+			{
+				  "Tag": "fall_movie_1",
+				  "Response": "love",
+				  "Whitelist": [],
+				  "SpecialResponses": {
+					"BeforeMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "$1I don't love trains, but I do love a good romance."
+					},
+					"DuringMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "$13Do you think there's a happy ending for them?"
+					},
+					"AfterMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "$12I hope the main character followed her heart. I would have." 
+					}
+              },
+              "ID": "reaction_6"
+            },
+		  ]
+		}
+	  }
+	}
+	
+  ]
+}

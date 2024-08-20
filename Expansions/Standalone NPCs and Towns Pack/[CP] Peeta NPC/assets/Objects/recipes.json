@@ -1,0 +1,57 @@
+{
+   "Changes": [
+        {
+            "LogName": "Mellark Bakery Recipes",
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                "Wem.Peeta_CheeseBun": "246 1 -6 1 424 1/25 25/Wem.Peeta_CheeseBun/f Peeta 4",
+				"Wem.Peeta_AppleTart": "613 1 246 1 -6 1 426 1 245 1/25 25/Wem.Peeta_AppleTart/f Peeta 6",
+				"Wem.Peeta_MellarkCroissant": "246 1 -6 1 247 1 245 1/25 25/Wem.Peeta_MellarkCroissant/null",
+				"Wem.Peeta_CinnamonBun": "246 1 -6 1 247 1 -5 1 245 2/25 25/Wem.Peeta_CinnamonBun/f Peeta 3",
+				"Wem.Peeta_RaisinAndNutBread": "246 1 -6 1 247 1 -5 1 245 1 408 1 Raisins 1/25 25/Wem.Peeta_RaisinAndNutBread/f Peeta 2",
+				"Wem.Peeta_BerryDanish": "246 1 -6 1 -5 1 245 1 258 2/25 25/Wem.Peeta_BerryDanish/null",
+				"Wem.Peeta_HoneyOatLoaf": "246 1 -6 1 340 1/25 25/Wem.Peeta_HoneyOatLoaf/null",
+				"Wem.Peeta_SeaFoamCake": "246 1 -6 1 -5 1 245 2/25 25/Wem.Peeta_SeaFoamCake/f Peeta 8",
+				"Wem.Peeta_SpicedMilk": "-6 1 340 1/25 25/Wem.Peeta_SpicedMilk/null",
+              }
+        },
+		{
+			"LogName": "Add Recipes to Saloon",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "Saloon", "Items" ],
+			"Entries": {
+				// Honey Oat Loaf Recipe
+				"Wem.Peeta_HoneyOatLoaf_Recipe": {
+					"Id": "Wem.Peeta_HoneyOatLoaf Recipe",
+					"ItemId": "Wem.Peeta_HoneyOatLoaf",
+					"Price": 2000,
+					"IsRecipe": true,
+				},
+				// Mellark Croissant Recipe
+				"Wem.Peeta_MellarkCroissant_Recipe": {
+					"Price": 1500,
+					"Id": "Wem.Peeta_MellarkCroissant Recipe",
+					"ItemId": "Wem.Peeta_MellarkCroissant",
+					"IsRecipe": true,
+				},
+				// Spiced Milk with Honey Recipe
+				"Wem.Peeta_SpicedMilk_Recipe": {
+					"Price": 1000,
+					"Id": "Wem.Peeta_SpicedMilk Recipe",
+					"ItemId": "Wem.Peeta_SpicedMilk",
+					"IsRecipe": true,
+				},
+				// Blueberry Danish Recipe
+				"Wem.Peeta_BerryDanish_Recipe": {
+					"Price": 850,
+					"Id": "Wem.Peeta_BerryDanish Recipe",
+					"ItemId": "Wem.Peeta_BerryDanish",
+					"IsRecipe": true,
+				},
+			}
+		},
+		
+    ]
+}

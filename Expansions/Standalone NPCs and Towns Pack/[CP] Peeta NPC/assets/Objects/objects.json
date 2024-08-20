@@ -1,0 +1,761 @@
+{
+  "Changes": [
+	
+	{ // Add Black Pearl
+	  "Action": "EditData",
+	  "Target": "Data/Objects",
+	  "Entries": {
+		  "Wem.Peeta_BlackPearl": {
+			  "Name": "Wem_BlackPearl",
+			  "DisplayName": "Black Pearl",
+			  "Description": "It's a little misshapen, but it's beautiful nonetheless.",
+			  "Type": "Gem",
+			  "Category": 0,
+			  "Texture": "Wem.Peeta/Objects",
+			  "SpriteIndex": 0,
+			  "Edibility": -300,
+			  "IsDrink": false,
+		  }
+	  }
+	},
+	{ // Add Peppermint
+	  "Action": "EditData",
+	  "Target": "Data/Objects",
+	  "Entries": {
+		  "Wem.Peeta_Peppermint": {
+			  "Name": "Wem.Peeta_Peppermint",
+			  "DisplayName": "Peppermint",
+			  "Description": "A sweet hard candy with a little spice!",
+			  "Type": "Cooking",
+			  "Category": -7,
+			  "Texture": "Wem.Peeta/Objects",
+			  "SpriteIndex": 1,
+			  "Edibility": 0,
+			  "IsDrink": false,
+			  "CanBeGivenAsGift": false,
+		  }
+	  }
+	},
+	{ // Add Cheese Bun
+	  "Action": "EditData",
+	  "Target": "Data/Objects",
+	  "Entries": {
+		  "Wem.Peeta_CheeseBun": {
+			  "Name": "Wem.Peeta_CheeseBun",
+			  "DisplayName": "Cheese Bun",
+			  "Description": "Mellark Bakery specialty. Soft bread with cheese baked on top. A bit greasy.",
+			  "Type": "Cooking",
+			  "Category": -7,
+			  "Texture": "Wem.Peeta/Objects",
+			  "SpriteIndex": 2,
+			  "Edibility": 25,
+			  "IsDrink": false,
+			  "Buff": {
+				  "BuffId": null,
+					  "IconTexture": null,
+					  "IconSpriteIndex": 0,
+					  "Duration": 250,
+					  "IsDebuff": false,
+					  "GlowColor": null,
+					  "CustomAttributes": {
+						"FarmingLevel": 0,
+						"FishingLevel": 0,
+						"MiningLevel": 0,
+						"LuckLevel": 0,
+						"ForagingLevel": 0,
+						"MaxStamina": 25,
+						"MagneticRadius": 0,
+						"Speed": 0,
+						"Defense": 0,
+						"Attack": 0
+					  }
+			  },
+		  }
+	  }
+	},
+	{ // Add Goat Cheese and Apple Tart
+	  "Action": "EditData",
+	  "Target": "Data/Objects",
+	  "Entries": {
+		  "Wem.Peeta_AppleTart": {
+			  "Name": "Wem.Peeta_AppleTart",
+			  "DisplayName": "Goat Cheese and Apple Tart",
+			  "Description": "Mellark Bakery Speciality. Personal tartlets made with soft goat cheese and tangy apples.",
+			  "Type": "Cooking",
+			  "Category": -7,
+			  "Texture": "Wem.Peeta/Objects",
+			  "SpriteIndex": 3,
+			  "Edibility": 20,
+			  "IsDrink": false,
+			  "Buff": {
+				  "BuffId": null,
+					  "IconTexture": null,
+					  "IconSpriteIndex": 0,
+					  "Duration": 250,
+					  "IsDebuff": false,
+					  "GlowColor": null,
+					  "CustomAttributes": {
+						"FarmingLevel": 0,
+						"FishingLevel": 0,
+						"MiningLevel": 0,
+						"LuckLevel": 0,
+						"ForagingLevel": 0,
+						"MaxStamina": 25,
+						"MagneticRadius": 0,
+						"Speed": 0,
+						"Defense": 0,
+						"Attack": 0
+					  }
+			  },
+		  }
+	  }
+	},
+	{ // Add Mellark Croissant
+	  "Action": "EditData",
+	  "Target": "Data/Objects",
+	  "Entries": {
+		  "Wem.Peeta_MellarkCroissant": {
+			  "Name": "Wem.Peeta_MellarkCroissant",
+			  "DisplayName": "Mellark Croissant",
+			  "Description": "Puffy pastry shaped into a crescent.",
+			  "Type": "Cooking",
+			  "Category": -7,
+			  "Texture": "Wem.Peeta/Objects",
+			  "SpriteIndex": 4,
+			  "Edibility": 15,
+			  "IsDrink": false,
+			  "Buff": {
+				  "BuffId": null,
+					  "IconTexture": null,
+					  "IconSpriteIndex": 0,
+					  "Duration": 250,
+					  "IsDebuff": false,
+					  "GlowColor": null,
+					  "CustomAttributes": {
+						"FarmingLevel": 0,
+						"FishingLevel": 0,
+						"MiningLevel": 0,
+						"LuckLevel": 0,
+						"ForagingLevel": 0,
+						"MaxStamina": 10,
+						"MagneticRadius": 0,
+						"Speed": 0,
+						"Defense": 0,
+						"Attack": 0
+					  }
+			  },
+		  }
+	  }
+	},
+	{ // Add Cinnamon Bun
+	  "Action": "EditData",
+	  "Target": "Data/Objects",
+	  "Entries": {
+		  "Wem.Peeta_CinnamonBun": {
+			  "Name": "Wem.Peeta_CinnamonBun",
+			  "DisplayName": "Cinnamon Bun",
+			  "Description": "Soft cinnamon rolls with gooey frosting.",
+			  "Type": "Cooking",
+			  "Category": -7,
+			  "Texture": "Wem.Peeta/Objects",
+			  "SpriteIndex": 5,
+			  "Edibility": 20,
+			  "IsDrink": false,
+			  "Buff": {
+				  "BuffId": null,
+					  "IconTexture": null,
+					  "IconSpriteIndex": 0,
+					  "Duration": 250,
+					  "IsDebuff": false,
+					  "GlowColor": null,
+					  "CustomAttributes": {
+						"FarmingLevel": 0,
+						"FishingLevel": 0,
+						"MiningLevel": 0,
+						"LuckLevel": 0,
+						"ForagingLevel": 0,
+						"MaxStamina": 25,
+						"MagneticRadius": 0,
+						"Speed": 0,
+						"Defense": 0,
+						"Attack": 0
+					  }
+			  },
+		  }
+	  }
+	},
+	{ // Add Raisin and Nut Bread
+	  "Action": "EditData",
+	  "Target": "Data/Objects",
+	  "Entries": {
+		  "Wem.Peeta_RaisinAndNutBread": {
+			  "Name": "Wem.Peeta_RaisinAndNutBread",
+			  "DisplayName": "Raisin and Nut Bread",
+			  "Description": "Crusty loaf with a variety of nuts and raisin.",
+			  "Type": "Cooking",
+			  "Category": -7,
+			  "Texture": "Wem.Peeta/Objects",
+			  "SpriteIndex": 6,
+			  "Edibility": 35,
+			  "IsDrink": false,
+			  "Buff": {
+				  "BuffId": null,
+					  "IconTexture": null,
+					  "IconSpriteIndex": 0,
+					  "Duration": 250,
+					  "IsDebuff": false,
+					  "GlowColor": null,
+					  "CustomAttributes": {
+						"FarmingLevel": 0,
+						"FishingLevel": 0,
+						"MiningLevel": 0,
+						"LuckLevel": 0,
+						"ForagingLevel": 0,
+						"MaxStamina": 15,
+						"MagneticRadius": 0,
+						"Speed": 0,
+						"Defense": 0,
+						"Attack": 0
+					  }
+			  },
+		  }
+	  }
+	},
+	{ // Add Honey Oat Loaf
+	  "Action": "EditData",
+	  "Target": "Data/Objects",
+	  "Entries": {
+		  "Wem.Peeta_HoneyOatLoaf": {
+			  "Name": "Wem.Peeta_HoneyOatLoaf",
+			  "DisplayName": "Honey Oat Loaf",
+			  "Description": "Crusty honey bread sprinkled with oats.",
+			  "Type": "Cooking",
+			  "Category": -7,
+			  "Texture": "Wem.Peeta/Objects",
+			  "SpriteIndex": 7,
+			  "Edibility": 25,
+			  "IsDrink": false,
+			  "Buff": {
+				  "BuffId": null,
+					  "IconTexture": null,
+					  "IconSpriteIndex": 0,
+					  "Duration": 250,
+					  "IsDebuff": false,
+					  "GlowColor": null,
+					  "CustomAttributes": {
+						"FarmingLevel": 0,
+						"FishingLevel": 0,
+						"MiningLevel": 0,
+						"LuckLevel": 0,
+						"ForagingLevel": 0,
+						"MaxStamina": 10,
+						"MagneticRadius": 0,
+						"Speed": 0,
+						"Defense": 0,
+						"Attack": 0
+					  }
+			  },
+		  }
+	  }
+	},
+	{ // Add Blueberry Danish
+	  "Action": "EditData",
+	  "Target": "Data/Objects",
+	  "Entries": {
+		  "Wem.Peeta_BerryDanish": {
+			  "Name": "Wem.Peeta_BerryDanish",
+			  "DisplayName": "Blueberry Danish",
+			  "Description": "Fluffy pastry topped with homemade blueberry compote and sugary icing.",
+			  "Type": "Cooking",
+			  "Category": -7,
+			  "Texture": "Wem.Peeta/Objects",
+			  "SpriteIndex": 8,
+			  "Edibility": 15,
+			  "IsDrink": false,
+			  "Buff": {
+				  "BuffId": null,
+					  "IconTexture": null,
+					  "IconSpriteIndex": 0,
+					  "Duration": 250,
+					  "IsDebuff": false,
+					  "GlowColor": null,
+					  "CustomAttributes": {
+						"FarmingLevel": 0,
+						"FishingLevel": 0,
+						"MiningLevel": 0,
+						"LuckLevel": 0,
+						"ForagingLevel": 0,
+						"MaxStamina": 25,
+						"MagneticRadius": 0,
+						"Speed": 0,
+						"Defense": 0,
+						"Attack": 0
+					  }
+			  },
+		  }
+	  }
+	},
+	{ // Add Sea Foam Cake
+	  "Action": "EditData",
+	  "Target": "Data/Objects",
+	  "Entries": {
+		  "Wem.Peeta_SeaFoamCake": {
+			  "Name": "Wem.Peeta_SeaFoamCake",
+			  "DisplayName": "Sea Foam Cake",
+			  "Description": "A beautiful cake painstakingly decorated by hand. It mimics sea foam-tipped ocean waves.",
+			  "Type": "Cooking",
+			  "Category": -7,
+			  "Texture": "Wem.Peeta/Objects",
+			  "SpriteIndex": 9,
+			  "Edibility": 55,
+			  "IsDrink": false,
+			  "Buff": {
+				  "BuffId": null,
+					  "IconTexture": null,
+					  "IconSpriteIndex": 0,
+					  "Duration": 250,
+					  "IsDebuff": false,
+					  "GlowColor": null,
+					  "CustomAttributes": {
+						"FarmingLevel": 0,
+						"FishingLevel": 0,
+						"MiningLevel": 0,
+						"LuckLevel": 0,
+						"ForagingLevel": 0,
+						"MaxStamina": 75,
+						"MagneticRadius": 0,
+						"Speed": 0,
+						"Defense": 0,
+						"Attack": 0
+					  }
+			  },
+		  }
+	  }
+	},
+	{ // Add Spiced Milk with Honey
+	  "Action": "EditData",
+	  "Target": "Data/Objects",
+	  "Entries": {
+		  "Wem.Peeta_SpicedMilk": {
+			  "Name": "Wem.Peeta_SpicedMilk",
+			  "DisplayName": "Spiced Milk with Honey",
+			  "Description": "Warm milk steeped in spices with a dash of honey.",
+			  "Type": "Cooking",
+			  "Category": -7,
+			  "Texture": "Wem.Peeta/Objects",
+			  "SpriteIndex": 10,
+			  "Edibility": 10,
+			  "IsDrink": true,
+			  "Buff": {
+				  "BuffId": null,
+					  "IconTexture": null,
+					  "IconSpriteIndex": 0,
+					  "Duration": 250,
+					  "IsDebuff": false,
+					  "GlowColor": null,
+					  "CustomAttributes": {
+						"FarmingLevel": 0,
+						"FishingLevel": 0,
+						"MiningLevel": 0,
+						"LuckLevel": 0,
+						"ForagingLevel": 0,
+						"MaxStamina": 10,
+						"MagneticRadius": 0,
+						"Speed": 0,
+						"Defense": 0,
+						"Attack": 0
+					  }
+			  },
+		  }
+	  }
+	},
+	{ // Add Mellark Bread
+	  "Action": "EditData",
+	  "Target": "Data/Objects",
+	  "Entries": {
+		  "Wem.Peeta_MellarkBread": {
+			  "Name": "Wem.Peeta_MellarkBread",
+			  "DisplayName": "Mellark Bread",
+			  "Description": "A nice crusty loaf of bread, baked by Peeta Mellark.",
+			  "Type": "Cooking",
+			  "Category": -7,
+			  "Texture": "Wem.Peeta/Objects",
+			  "SpriteIndex": 11,
+			  "Edibility": 10,
+			  "IsDrink": false,
+			  "Buff": {
+				  "BuffId": null,
+					  "IconTexture": null,
+					  "IconSpriteIndex": 0,
+					  "Duration": 250,
+					  "IsDebuff": false,
+					  "GlowColor": null,
+					  "CustomAttributes": {
+						"FarmingLevel": 0,
+						"FishingLevel": 0,
+						"MiningLevel": 0,
+						"LuckLevel": 0,
+						"ForagingLevel": 0,
+						"MaxStamina": 20,
+						"MagneticRadius": 0,
+						"Speed": 0,
+						"Defense": 0,
+						"Attack": 0
+					  }
+			  },
+		  }
+	  }
+	},
+	{ // Add Mellark Bread to Saloon Stock
+			"LogName": "Add Recipes to Saloon",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "Saloon", "Items" ],
+			"Entries": {
+				"Wem.Peeta_MellarkBread_Sell": {
+					"Id": "Wem.Peeta_MellarkBread Sell",
+					"ItemId": "Wem.Peeta_MellarkBread",
+					"Price": 200,
+					"AvailableStock": 1,
+					"IsRecipe": false,
+				},
+				"Wem.Peeta_SpicedMilk_Sell": {
+					"Id": "Wem.Peeta_SpicedMilk_Sell",
+					"ItemId": "Wem.Peeta_SpicedMilk",
+					"Price": 150,
+					"AvailableStock": 1,
+					"IsRecipe": false,
+				},
+			}
+		},
+	
+	// All Peeta Gift Tastes
+		{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Peeta", 1],
+				"Value": "Wem.Peeta_MellarkBread",
+				"Delimiter": " "
+			}
+		]
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Peeta", 1],
+				"Value": "Wem.Peeta_AppleTart",
+				"Delimiter": " "
+			}
+		]
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Peeta", 1],
+				"Value": "Wem.Peeta_BlackPearl",
+				"Delimiter": " "
+			}
+		]
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Peeta", 1],
+				"Value": "Wem.Peeta_Peppermint",
+				"Delimiter": " "
+			}
+		]
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Peeta", 1],
+				"Value": "Wem.Peeta_CheeseBun",
+				"Delimiter": " "
+			}
+		]
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Peeta", 1],
+				"Value": "Wem.Peeta_MellarkCroissant",
+				"Delimiter": " "
+			}
+		]
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Peeta", 1],
+				"Value": "Wem.Peeta_CinnamonBun",
+				"Delimiter": " "
+			}
+		]
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Peeta", 1],
+				"Value": "Wem.Peeta_RaisinAndNutBread",
+				"Delimiter": " "
+			}
+		]
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Peeta", 1],
+				"Value": "Wem.Peeta_HoneyOatLoaf",
+				"Delimiter": " "
+			}
+		]
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Peeta", 1],
+				"Value": "Wem.Peeta_BerryDanish",
+				"Delimiter": " "
+			}
+		]
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Peeta", 1],
+				"Value": "Wem.Peeta_SeaFoamCake",
+				"Delimiter": " "
+			}
+		]
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Peeta", 1],
+				"Value": "Wem.Peeta_SpicedMilk",
+				"Delimiter": " "
+			}
+		]
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Peeta", 1],
+				"Value": "Wem.Peeta_MellarkBread",
+				"Delimiter": " "
+			}
+		]
+	},
+	
+	// NPC Gift Tastes
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Haley", 1],
+				"Value": "Wem.Peeta_SeaFoamCake",
+				"Delimiter": " "
+			}
+		]
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Leah", 1],
+				"Value": "Wem.Peeta_AppleTart",
+				"Delimiter": " "
+			}
+		]
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Harvey", 5],
+				"Value": "Wem.Peeta_MellarkCroissant",
+				"Delimiter": " "
+			}
+		]
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Vincent", 1],
+				"Value": "Wem.Peeta_CinnamonBun",
+				"Delimiter": " "
+			}
+		]
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Linus", 1],
+				"Value": "Wem.Peeta_BerryDanish",
+				"Delimiter": " "
+			}
+		]
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Jas", 1],
+				"Value": "Wem.Peeta_SeaFoamCake",
+				"Delimiter": " "
+			}
+		]
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Marnie", 1],
+				"Value": "Wem.Peeta_SeaFoamCake",
+				"Delimiter": " "
+			}
+		]
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Shane", 1],
+				"Value": "Wem.Peeta_CheeseBun",
+				"Delimiter": " "
+			}
+		]
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Kent", 1],
+				"Value": "Wem.Peeta_RaisinAndNutBread",
+				"Delimiter": " "
+			}
+		]
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Lewis", 3],
+				"Value": "Wem.Peeta_BerryDanish",
+				"Delimiter": " "
+			}
+		]
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Robin", 1],
+				"Value": "Wem.Peeta_AppleTart",
+				"Delimiter": " "
+			}
+		]
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Maru", 1],
+				"Value": "Wem.Peeta_CheeseBun",
+				"Delimiter": " "
+			}
+		]
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Marnie", 1],
+				"Value": "Wem.Peeta_SpicedMilk",
+				"Delimiter": " "
+			}
+		]
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Evelyn", 1],
+				"Value": "Wem.Peeta_SpicedMilk",
+				"Delimiter": " "
+			}
+		]
+	},
+	
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "Changes": [
+	{
+	  "LogName": "Peeta's Egg Hunt Dialogue",
+	  "Action": "EditData",
+	  "Target": "Data/Festivals/spring13",
+	  "Entries": {
+		"Peeta": "$1I painted a bunch of the eggs. Hope you like them.",
+		"Peeta_y2": "$1I love painting eggs with the kids. Their patterns are so funky.",
+		"Peeta_spouse": "$1I painted an egg just for you babe. See if you can find it!",
+	  }
+	},
+	{
+	  "LogName": "Peeta's Flower Dance Dialogue",
+	  "Action": "EditData",
+	  "Target": "Data/Festivals/spring24",
+	  "Entries": {
+		"Peeta": "Hey @! I've never been to something like this. Honestly, I don't have great memories of dancing...",
+		"Peeta_y2": "I'm kind of glad I don't have to dance. Stuffy suits and an audience? No thanks.",
+		"Peeta_spouse": "$13Want me to spin you around babe?#$e#$14We can have our own dance, just the two of us.",
+	  }
+	},
+	{
+	  "LogName": "Peeta's Luau Dialogue",
+	  "Action": "EditData",
+	  "Target": "Data/Festivals/summer11",
+	  "Entries": {
+		"Peeta": "$17I put a Cheese Bun in there....will that taste good? They're good on their own.",
+		"Peeta_y2": "$17I still don't understand this festival. I just put in some Spiced Milk this time.",
+		"Peeta_spouse": "$1I put in a whole loaf of Raisin and Nut Bread. I hope the Governor likes soggy bread!",
+	  }
+	},
+	{
+	  "LogName": "Peeta's Moonlight Jellies Dialogue",
+	  "Action": "EditData",
+	  "Target": "Data/Festivals/summer28",
+	  "Entries": { 
+		"Peeta": "$16Moonlight jellies?#$b#$17Sounds like something the Capitol would cook up...",
+		"Peeta_y2": "$1I can't wait for the jellies. They're so pretty. Nothing to be afraid of!",
+		"Peeta_spouse": "$8Hey sweetheart. I named one of the jellies after you.#$e#$1Of course I can tell which one it is!",
+	  }
+	},
+	{
+	  "LogName": "Peeta's Fair Dialogue",
+	  "Action": "EditData",
+	  "Target": "Data/Festivals/fall16",
+	  "Entries": { 
+		"Peeta": "I put some pastries in Gus's display.#$e#$1He said he'll split the profits with me if we win!",
+		"Peeta_y2": "$11I hope Mayor Lewis lets me have my own display sometime.",
+		"Peeta_spouse": "$1Can I put my cake in your display?#$b#$1Pleeease?#$e#$7Kidding love. You don't need my help to win.",
+	  }
+	},
+	{
+	  "LogName": "Peeta's Spirit's Eve Dialogue",
+	  "Action": "EditData",
+	  "Target": "Data/Festivals/fall27",
+	  "Entries": { 
+		"Peeta": "$23*Gulp*. I'm not sure if I'm a fan of this festival.#$b#$24Some of these...things...really look like mutts.",
+		"Peeta_y2": "$2I tried to dress up this year cause Jas and Vincent wanted to play 'renaissance'.#$b#Penny's teaching them a lot!#$e#$1How did I do?",
+		"Peeta_spouse": "$3Promise you'll hold my hand if I try the maze?",
+	  }
+	},
+	{
+	  "LogName": "Peeta's Festival of Ice Dialogue",
+	  "Action": "EditData",
+	  "Target": "Data/Festivals/winter8",
+	  "Entries": { 
+		"Peeta": "$1Smells funky. I don't mind though.",
+		"Peeta_y2": "$17You think Pam will sell me one of her fish?#$e#This is making me hungry, honestly.",
+		"Peeta_spouse": "$1I'll be in charge of dinner tonight. Kick some fish ass!",
+	  }
+	},
+	{
+	  "LogName": "Peeta's Feast Dialogue",
+	  "Action": "EditData",
+	  "Target": "Data/Festivals/winter25",
+	  "Entries": { 
+		"Peeta": "$1Want a Winter Star cookie? Baked by yours truly!",
+		"Peeta_y2": "$1Jodi gave me a new set of cookie cutters, and Evelyn knitted me oven mitts!",
+		"Peeta_spouse": "$14All I want is a kiss from you babe.",
+	  }
+	},
+  ]
+}

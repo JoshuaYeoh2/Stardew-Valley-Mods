@@ -1,0 +1,47 @@
+{
+  "Changes": [
+	{ // 2 Hearts and 6 Hearts
+		"LogName": "Peeta's 2 Heart and 6 Heart Events",
+		"Action": "EditData",
+		"Target": "Data/Events/Beach",
+		"Entries": {
+			"Wem.Peeta_2Hearts/w sunny/z winter/f Peeta 500": "echos/44 21/farmer 43 17 2 Peeta 44 20 2/skippable/showFrame Peeta 21/pause 3000/move farmer 0 3 2/pause 1500/emote farmer 8/pause 1000/speak Peeta \"$1Hey @! I had some time before dinner, so I thought I’d come watch the sunset.\"/pause 500/message \"Peeta gazes at the horizon, mesmerized by the colours of the setting sun.\"/pause 1000/faceDirection farmer 1/pause 600/emote farmer 8/pause 800/speak Peeta \"$3Oh this?\"/pause 500/message \"Peeta pops a small, striped candy in his mouth.\"/pause 500/speak Peeta \"$1Peppermints. They're my favourite.\"/pause 400/speak Peeta \"$3Do you want one?\"/shake Peeta 500/pause 2000/emote farmer 32/pause 2000/faceDirection farmer 2/pause 1000/farmerEat Wem.Peeta_Peppermint/pause 5000/speak Peeta \"$13The sunset is beautiful...\"/pause 4000/end",
+			"Wem.Peeta_6Hearts/w sunny/z winter/f Peeta 1500": "echos/20 10/farmer 19 5 2 Peeta 20 10 2/skippable/showFrame Peeta 21/pause 3000/move farmer 0 5 2/pause 1500/emote farmer 8/pause 1000/speak Peeta \"$1Hey @. I'm collecting oysters for dinner.\"/pause 500/message \"You know how to collect oysters?\"/pause 1000/speak Peeta \"$6It's just a skill I picked up back home. Let's see here...\"/shake Peeta 700/pause 1000/showFrame Peeta 0/pause 1000/faceDirection Peeta 3/pause 1000/faceDirection farmer 1/pause 1000/speak Peeta \"$3For you. [Wem.Peeta_BlackPearl]\"/pause 1000/message \"Peeta hands you a shiny black pearl. It's slightly misshapen, but beautiful nonetheless.\"/pause 800/jump farmer 8/emote farmer 16/pause 1400/speak Peeta \"$1Do you want to come over? We can grill up these oysters.\"/pause 600/emote farmer 32/pause 2000/end",
+		}
+	},
+	{ // 8 Hearts and 9 Hearts
+		"LogName": "Peeta's 8 Heart and 9 Heart Events",
+		"Action": "EditData",
+		"Target": "Data/Events/Town",
+		"Entries": {
+			"Wem.Peeta_8Hearts/w sunny/d Mon/d Tue/d Wed/d Fri/d Sat/d Sun/t 900 1300/f Peeta 2000": "desolate/45 59/farmer 52 59 3 Peeta 45 57 2/skippable/showFrame Peeta 0/pause 1000/move Peeta 0 2 2/jump Peeta 5/showFrame Peeta 35/pause 300/showFrame Peeta 36/animate Peeta false true 1400 37 36/pause 800/move farmer -6 0 3/pause 500/jump farmer 5/pause 800/message \"Peeta! Are you okay?\"/pause 800/stopAnimation Peeta/pause 200/showFrame Peeta 0/pause 800/emote Peeta 12/pause 800/speak Peeta \"$15Ugh, yeah...I'm fine.\"/pause 600/shake Peeta 1000/message \"Peeta dusts himself off.\"/pause 600/speak Peeta \"$15Just tripped. I've become more prone to it since I got my prosthetic.\"/pause 800/message \"Let me help you with those groceries.\"/pause 800/speak Peeta \"$29Thanks, @.\"/pause 2000/globalFade/viewPort -1000 -1000/changeLocation Saloon/warp Peeta 15 21/warp farmer 14 21/faceDirection Peeta 2/faceDirection farmer 1/globalFadeToClear/viewPort 14 19 true/pause 2000/speak Peeta \"$29Thanks for helping me. It always takes some time for my leg to recover after things like this.\"/pause 600/message \"Does it hurt?\"/pause 800/speak Peeta \"$1Don't worry about me! I barely notice the pain.\"/pause 800/emote farmer 60/pause 1000/message \"...how did you get your prosthetic?\"/pause 1000/speak Peeta \"$1I guess I never did tell you, huh?\"/speak Peeta \"$29It's not a happy story. But then again, how would it be right?\"/pause 1000/speak Peeta \"Before I came to Pelican Town, I lived in Panem. And every year, something called the Hunger Games was held....\"/globalFade/viewport -1000 -1000/pause 800/message \"You listen to Peeta's story about his home.\"/pause 800/message \"It was an unhappy tale, and Peeta had a faraway look in his eyes the entire time.\"/pause 1000/speak Peeta \"$29So that's the story. Sorry if it brought you down.\"/pause 800/message \"It's okay. I'm glad you told me. I hope Pelican Town helps you heal from everything.\"/pause 1500/end",
+			"Wem.Peeta_9Hearts/w sunny/z winter/f Peeta 2250": "playful/64 22/farmer 65 24 0 Peeta 64 22 2/skippable/showFrame Peeta 18/animate Peeta false true 1700 17 18/pause 4000/speak Peeta \"$1Stand still!\"/pause 4000/message \"I'm trying, but it's hard!\"/pause 3000/message \"How much longer is it gonna take?\"/pause 3000/speak Peeta \"$14I'm almost done babe...I just want to perfectly capture your beauty!\"/pause 2000/emote farmer 60/pause 4200/stopAnimation Peeta 17/pause 1000/speak Peeta \"Alright sweetie. I'm done!\"/pause 2000/move farmer 0 -2 2/faceDirection farmer 3/pause 1000/message \"Wow...that looks just like me!\"/pause 800/emote Peeta 20/pause 500/speak Peeta \"$13You're my favourite subject to paint.\"/pause 500/emote farmer 60/speak Peeta \"$13My sketchbook is full of drawings of you.\"/speak Peeta \"$14Let's go home and I'll show you how much I adore you.\"/pause 500/showFrame Peeta 4/emote Peeta 20/emote farmer 20/pause 2500/end",
+		}
+	},
+	{ // 7 Hearts
+		"LogName": "Peeta's 7 Heart Event",
+		"Action": "EditData",
+		"Target": "Data/Events/Mountain",
+		"Entries": {
+			"Wem.Peeta_7Hearts/d Mon/d Tue/d Wed/d Thu/d Sat/d Sun/w sunny/z winter/t 1900 2000/f Peeta 1750": "AbigailFlute/54 6/farmer 59 6 3 Peeta 54 6 0/skippable/showFrame Peeta 8/pause 2000/move farmer -4 0 3/pause 800/emote farmer 8/pause 500/speak Peeta \"@, hey.\"/pause 500/speak Peeta \"You probably think it's weird that I'm here, huh?$1\"/pause 500/emote farmer 40/pause 500/faceDirection farmer 0/pause 500/speak Peeta \"Yeah, I don't really like coming to the mines.\"/pause 500/speak Peeta \"$17I mean, I don't usually have a reason to be here anyway. It usually makes me anxious.\"/pause 1500/speak Peeta \"$2I used to live in a coal mining district. It was...bleak and dangerous.\"/pause 500/speak Peeta \"$25But that was all...destroyed.\"/pause 500/speak Peeta \"$2I just finished my deliveries and was about to go back, but I just stopped here.\"/pause 500/speak Peeta \"$24I guess I felt homesick. Even though there's nothing left to miss.\"/pause 1000/message \"What about your family? Don't you miss them?\"/pause 1000/emote Peeta 28/pause 1000/message \"Oh. I see. I'm sorry Peeta.\"/pause 500/speak Peeta \"$29It's alright.\"/pause 500/speak Peeta \"$2We weren't the happiest family, but I miss them.\"/pause 1000/speak Peeta \"$29I still have the family recipe book to remember them, though.\"/pause 500/emote farmer 32/pause 800/faceDirection farmer 3/faceDirection Peeta 1/pause 800/speak Peeta \"$29Come on. Enough of this. Do you want to come over and have a snack? Courtesy of my family.\"/pause 500/emote farmer 32/pause 2500/end",			
+
+		}
+	},
+	{ // 11 Hearts
+		"LogName": "Peeta's 11 Heart Event",
+		"Action": "EditData",
+		"Target": "Data/Events/Farmhouse",
+		"Entries": {
+			"Wem.Peeta_11Hearts/L/t 800 2600/f Peeta 2750": "desolate/50 24/farmer 40 25 1 Peeta 50 24 0/skippable/showFrame Peeta 0/addBigProp 52 25 27/pause 2000/shake Peeta 4000/pause 1000/speak Peeta \"$26Urg...\"/pause 500/move Peeta 0 1 1/move Peeta 1 0 1/positionOffset Peeta 10 0/pause 500/showFrame Peeta 34/pause 500/move farmer 9 0 1/pause 500/speak Peeta \"$26No...wait.\"/pause 1000/message \"Peeta is gripping the chair so tight his knuckles have turned white.\"/pause 3000/showFrame Peeta 4/faceDirection Peeta 3/pause 1000/speak Peeta \"$2Sorry...just a small episode.\"/pause 500/speak Peeta \"$24If you see me having one, just wait until it passes okay?\"/pause 500/speak Peeta \"$23I don't want to accidentally hurt you.\"/pause 500/emote farmer 28/pause 500/message \"Are you okay?\"/pause 1000/emote Peeta 60/pause 500/speak Peeta \"$29Yeah...I'm alright sweetheart.\"/pause 500/speak Peeta \"$29I don't want to worry you, but as you know, I'm a bit of a mess.\"/pause 500/move farmer 1 0 1/pause 1000/emote farmer 32/pause 500/speak Peeta \"$14You don't mind?\"/pause 1000/speak Peeta \"$13I am so lucky to have you my love.\"/pause 1000/emote farmer 20/pause 500/speak Peeta \"$12I'll make us some tea...let's go relax for a bit.\"/pause 2500/end",
+		}
+	},
+	{ // Ginger Island Event
+		"LogName": "Peeta's Ginger Island Event",
+		"Action": "EditData",
+		"Target": "Data/Events/IslandSouth",
+		"Entries": {
+			"Wem.Peeta_Island/w sunny/p Peeta/f Peeta 1500": "jaunty/13 34/farmer 14 30 2 Peeta 13 34 2/skippable/showFrame Peeta 19/pause 2000/message \"Peeta stands at the shore, watching as the waves lap at his feet. He looks conflicted.\"/move farmer 0 4 2/pause 500/emote farmer 8/pause 1000/speak Peeta \"$32Oh hey @.\"/pause 500/speak Peeta \"$34Well this is embarrassing but....\"/speak Peeta \"$34I don't know how to swim.\"/pause 1000/emote farmer 56/showFrame Peeta 38/pause 1000/speak Peeta \"$33Don't laugh!\"/pause 600/emote farmer 32/pause 1000/message \"Don't worry. I'll stay on shore with you.\"/pause 1000/emote Peeta 32/pause 1000/speak Peeta \"$35Hey, how about I buy you a piña colada?\"/pause 400/emote farmer 32/pause 2500/end",
+		}
+	},
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "Changes": [
+  // Adding Patched Saloon Entrance
+  {
+	"Action": "EditMap",
+	"Target": "Maps/Saloon",
+	"FromFile": "assets/Maps/KitchenEntrance.tmx",
+	"ToArea": { "X": 1, "Y": 10, "Width": 2, "Height": 3 }
+  },
+  // Adding Map Strings
+  {
+		"Action": "EditData",
+		"Target": "Strings/StringsFromMaps",
+		"Entries": {
+			// Peeta Area
+			"PeetaArea.1": "A painting in progress.",
+			"PeetaArea.2": "A couple finished paintings of a lake and a delapidated town being rebuilt.",
+			"PeetaArea.3": "Peeta's watercolours.",
+			"PeetaArea.4": "A locked box. Better not touch it.",
+			"PeetaArea.5": "A few notes. Looks like it lists his favourite colour, how he takes his tea, and some other personal details.",
+			"PeetaArea.6": "A framed photograph of a sunset.",
+			"PeetaArea.7": "When you flip through the book, there are drawings of people and harrowing stories of a dystopian society.",
+			"PeetaArea.8": "A small tea set. There's no sugar pot.",
+			"PeetaArea.9": "A glass of spiced milk with honey. It smells fragant and of cinnamon.",
+			"PeetaArea.10": "A loaf of freshly baked Mellark Bakery bread.",
+			"PeetaArea.11": "The smell of baked goods is strong in front of the oven.",
+			"PeetaArea.12": "A huge sack of flour.",
+			"PeetaArea.13": "Looks like a stepstool to reach the recipe books.",
+			"PeetaArea.14": "A Sea Foam Cake iced to perfection.",
+			"PeetaArea.15": "A small loaf of Raisin and Nut Bread.",
+			"PeetaArea.16": "Full of scraps.",
+			"PeetaArea.17": "Croissants, ready to bake.",
+			"PeetaArea.18": "Dough ready to be made into cinnamon buns and danishes.",
+			"PeetaArea.19": "The Mellark family recipe book. You see an entry labelled Goat Cheese and Apple Tart.",
+			"PeetaArea.20": "Cheese buns in the making.",
+			"PeetaArea.21": "Various breads ready to bake.",
+			"PeetaArea.22": "It's open.",
+			"PeetaSpouseRoom.1": "A half-finished portrait of you.",
+			"PeetaSpouseRoom.2": "A couple finished paintings of the beach and Cindersap Forest.",
+			"PeetaSpouseRoom.3": "A small box filled with personal trinkets. Above it, a list of personal factoids and framed portraits of his family.",
+			"PeetaSpouseRoom.4": "The original copy of the memory book of the Hunger Games.",
+			"PeetaSpouseRoom.5": "Peeta's watercolours.",
+			"PeetaSpouseRoom.6": "Peeta's tea set. There's no sugar pot.",
+			"PeetaSpouseRoom.7": "A stepstool. Just in case.",
+			"PeetaSpouseRoom.8": "A loaf of Mellark Bakery bread.",
+			"PeetaPatio.1": "Peeta's potted primroses."
+		}
+	},
+  ]
+}

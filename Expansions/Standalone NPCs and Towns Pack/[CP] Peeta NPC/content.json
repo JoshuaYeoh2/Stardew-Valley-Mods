@@ -1,0 +1,361 @@
+{
+  "Format": "2.0.0",
+  "Changes": [
+    {
+	  // Loading Image Assets 
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Peeta",
+      "FromFile": "assets/img/spritesheet.png"
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Peeta",
+      "FromFile": "assets/img/portrait.png"
+    },
+	{ // Kitchen Sprites
+      "LogName": "Kitchen Sprites",
+      "Action": "Load",
+      "Target": "Characters/Peeta_Kitchen",
+      "FromFile": "assets/img/Peeta_KitchenSpritesheet.png"
+    },
+	{ // Kitchen Portraits
+      "LogName": "Kitchen Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Peeta_Kitchen",
+      "FromFile": "assets/img/Peeta_KitchenPortraits.png"
+    },
+	{ // Winter Sprites
+		"LogName": "Peeta Winter Sprites",
+		"Action": "Load",
+		"Target": "Characters/Peeta_Winter",
+		"FromFile": "assets/img/Peeta_WinterSpritesheet.png"
+	},
+	{ // Winter Portraits
+		"LogName": "Peeta Winter Portraits",
+		"Action": "Load",
+		"Target": "Portraits/Peeta_Winter",
+		"FromFile": "assets/img/Peeta_WinterPortraits.png"
+	},
+	{ // Island Sprites
+		"LogName": "Peeta Island Sprites",
+		"Action": "Load",
+		"Target": "Characters/Peeta_Beach",
+		"FromFile": "assets/img/Peeta_BeachSpritesheet.png"
+	},
+	{ // Island Portraits
+		"LogName": "Peeta Island Portraits",
+		"Action": "Load",
+		"Target": "Portraits/Peeta_Beach",
+		"FromFile": "assets/img/Peeta_BeachPortraits.png"
+	},
+	{ // Spirit's Eve Portraits
+		"LogName": "Peeta Spirit's Eve Y2 Portraits",
+		"Action": "Load",
+		"Target": "Portraits/Peeta_SEY2",
+		"FromFile": "assets/img/Peeta_SEY2Portraits.png"
+	},
+	{ // Spirit's Eve Sprites
+		"LogName": "Peeta Spirit's Eve Y2 Portraits",
+		"Action": "Load",
+		"Target": "Characters/Peeta_SEY2",
+		"FromFile": "assets/img/Peeta_SEY2Spritesheet.png"
+	},
+	
+	// Load Animations
+	{
+		"LogName": "Load Animation Descriptions",
+		"Action": "Include",
+		"FromFile": "assets/anim/anims.json"
+	},
+	// Load Custom Location
+	{
+		"LogName": "Load Map Asset",
+		"Action": "Load",
+		"Target": "Maps/Custom_NPCPeeta_PeetaArea",
+		"FromFile": "assets/Maps/PeetaArea.tmx",
+	},
+	{
+		"LogName": "Add Custom Location",
+		"Action": "EditData",
+		"Target": "Data/Locations",
+		"Entries": {
+			"Custom_NPCPeeta_PeetaArea": {
+				"DisplayName": "Peeta's Kitchen",
+				"DefaultArrivalTile": {
+					"X": 12,
+					"Y": 16,
+				},
+				"ExcludeFromPathfinding": false,
+				"CreateOnLoad": {
+					"MapPath": "Maps/Custom_NPCPeeta_PeetaArea",
+					"Type": null,
+					"AlwaysActive": false,
+				},
+				"FormerLocationNames": [],
+				"CanPlantHere": null,
+				"ArtifactSpots": [],
+				"FishAreas": {},
+				"Fish": [],
+				"Forage": [],
+				"Music": [
+					{
+						"Id": "KitchenTrack",
+						"Track": "playful",
+					}
+				],
+				
+			},
+		}
+	},
+	// Maps Things
+	{
+		"LogName": "Add Custom Saloon Entrance",
+		"Action": "Include",
+		"FromFile": "assets/Maps/maps.json",
+	},
+	{
+		"LogName": "Add Warp in Saloon",
+		"Action": "EditMap",
+		"Target": "Maps/Saloon",
+		"AddWarps": [
+			"1 12 Custom_NPCPeeta_PeetaArea 12 16"
+		]
+	},
+	{
+		"LogName": "Add Warp in Peeta's Kitchen",
+		"Action": "EditMap",
+		"Target": "Maps/Custom_NPCPeeta_PeetaArea",
+		"AddWarps": [
+			"14 16 Saloon 2 12"
+		]
+	},
+	{ // Spouse Room
+		"Action": "EditData",
+		"Target": "Data/SpouseRooms",
+		"Entries": {
+			"Peeta": "PeetaSpouseRoom/0"
+		}
+	},
+	{ 
+		"Action": "Load",
+		"Target": "Maps/PeetaSpouseRoom",
+		"FromFile": "assets/Maps/PeetaSpouseRoom.tmx"
+	},
+	{ // Spouse Patio
+		"Action": "EditData",
+		"Target": "Data/SpousePatios",
+		"Entries": {
+			"Peeta": "PeetaPatio/0"
+		}
+	},
+	{ 
+		"Action": "Load",
+		"Target": "Maps/PeetaPatio",
+		"FromFile": "assets/Maps/PeetaPatio.tmx"
+	},
+	
+	{ // Manifest NPC
+	  "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "Peeta": {
+			"DisplayName": "Peeta",
+			"BirthSeason": "Fall",
+			"BirthDay": 12,
+			"HomeRegion": "Town",
+			"Gender": "Male",
+			"Age": "Adult",
+			"Manner": "Polite",
+			"SocialAnxiety": "Neutral",
+			"Optimism": "Positive",
+			"CanSocialize": true,
+			"CanBeRomanced": true,
+			"CanReceiveGifts": true,
+			"Calendar": "HiddenUntilMet",
+			"SocialTab": "UnknownUntilMet",
+			"IntroductionsQuest": false,
+			"FlowerDanceCanDance": true,
+			"WinterStarParticipant": true,
+			"CanVisitIsland": true,
+			"SpouseRoom": {
+                "MapAsset": "PeetaSpouseRoom",
+                "MapSourceRect": {
+                  "X": 0,
+                  "Y": 0,
+                  "Width": 6,
+                  "Height": 9
+                }
+              },
+			 "SpousePatio": {
+                "MapAsset": "PeetaPatio",
+                "MapSourceRect": {
+                  "X": 0,
+                  "Y": 0,
+                  "Width": 4,
+                  "Height": 4
+                }
+              },
+			"Home": [
+			{
+				"Id": "Default",
+				"Location": "Custom_NPCPeeta_PeetaArea",
+				"Tile": { "X": 7, "Y": 4 },
+				"Direction": "Right"
+			}
+			],
+			
+			"Appearance": [
+			{ // Collared Shirt for Spring
+				"Id": "Default",
+				"Portrait": "Portraits/Peeta",
+				"Sprite": "Characters/Peeta",
+				"Precedence": 1
+			},
+			{ // Apron for Inside Kitchen
+				"Id": "Kitchen_Attire",
+				"Condition": "LOCATION_NAME Target Custom_NPCPeeta_PeetaArea",
+				"Portrait": "Portraits/Peeta_Kitchen",
+				"Sprite": "Characters/Peeta_Kitchen",
+				"Precedence": 0
+			},
+			{ // Must be named _Beach
+				"Id": "Ginger_Island_Attire",
+				"Portrait": "Portraits/Peeta_Beach",
+				"Sprite": "Characters/Peeta_Beach",
+				"IsIslandAttire": true,
+				"Precedence": 0		
+			},
+			{ // Spirit's Eve Appearance Y2
+				"Id": "SEY2_Attire",
+				"Condition": "IS_EVENT festival_fall27, YEAR 2",
+				"Portrait": "Portraits/Peeta_SEY2",
+				"Sprite": "Characters/Peeta_SEY2",
+				"Precedence": 0,
+				
+			},
+			{ // Winter Appearance
+				"Id": "Winter_Attire",
+				"Season": "winter",
+				"Portrait": "Portraits/Peeta_Winter",
+				"Sprite": "Characters/Peeta_Winter",
+				"Precedence": 0,
+				
+			}
+			]
+		}
+      }
+    },
+    {
+	  // Gift Tastes 
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Peeta": "$1Hey this is my favourite. Thanks!/340 223 220 221 216 192 196 202 201 233 635 651 724 731 730/$3This is pretty cool. Thanks!/614 611 608 48 436 312 428 88 184 186 206 212 215 234 239 240 236 342 344 430 444 595 733/$24Oh...thanks for thinking of me./307 346 348 732/$17Ah...I'm sure I can use this somewhere./167 303/Neat. Thanks./433 174 176 180 182 432 442 "
+      }
+    },
+    {
+	  // Schedule 
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Peeta",
+      "FromFile": "assets/schedules/schedule.json"
+    },
+	{
+	  // Include Schedule Strings
+	  "LogName": "Schedule Strings",
+	  "Action": "Load",
+	  "Target": "Strings/schedules/Peeta",
+	  "FromFile": "assets/schedules/PeetaScheduleStrings.json"
+	},
+    {
+	  // Dialogue 
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Peeta",
+      "FromFile": "assets/dialogue/Dialogue.json"
+    },
+    {
+      "LogName": "Marriage Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialoguePeeta",
+      "FromFile": "assets/dialogue/MarriageDialogue.json"
+    },
+	{
+		"LogName": "Pendant Dialogue",
+		"Action": "EditData",
+		"Target": "Strings/StringsFromCSFiles",
+		"Entries": {
+			"Peeta_Engaged": "$4@?#$b#$14Of course I'll marry you!#$b#$13Leave everything up to me. We'll have the ceremony in 3 days my love.",
+		}
+	},
+    {
+      "LogName": "Engagement Dialogue",
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "Entries": {
+        "Peeta0": "$14I can't believe you asked me, honestly! I'll bake the most beautiful cake for us.",
+        "Peeta1": "$13Are you ready? I'm nervous...but excited."
+      }
+    },
+	// Load Events for Custom Area
+	{
+		"LogName": "Load Custom Area Events",
+		"Action": "Load",
+		"Target": "Data/Events/Custom_NPCPeeta_PeetaArea",
+		"FromFile": "assets/Events/kitchenEvents.json",
+		
+	},
+	{
+	  // Festival Data and Dialogue
+	  "LogName": "Peeta Festival Data",
+	  "Action": "Include",
+	  "FromFile": "assets/Festivals/festivals.json"
+	},
+	{
+      "LogName": "Peeta Festival Dialogue",
+      "Action": "Include",
+      "FromFile": "assets/Festivals/festivalsdialogue.json"
+    },
+	{ // Events
+	  "LogName": "Include Events",
+	  "Action": "Include",
+	  "FromFile": "assets/Events/events.json"
+	},
+	{
+	// Load Custom Items
+	  "LogName": "Load Custom Items",
+	  "Action": "Load",
+	  "Target": "Wem.Peeta/Objects",
+	  "FromFile": "assets/Objects/objects.png"
+	},
+	{
+	// Include Custom Items
+	  "LogName": "Include Custom Items",
+	  "Action": "Include",
+	  "FromFile": "assets/Objects/objects.json",
+	},
+	{
+	// Include Custom Recipes
+	  "LogName": "Include Custom Recipes",
+	  "Action": "Include",
+	  "FromFile": "assets/Objects/recipes.json",
+    },
+	{ // Include Mail Data
+	  "LogName": "Include Mail",
+	  "Action": "Include",
+	  "FromFile": "assets/Mail/mail.json",
+	},
+	
+	// Include Movie Data
+	{
+	  "LogName": "Include Movie Data",
+	  "Action": "Include",
+	  "FromFile": "assets/Movies/movies.json",
+	},
+	
+  ]
+}

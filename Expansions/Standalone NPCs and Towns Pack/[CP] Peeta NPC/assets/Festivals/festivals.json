@@ -1,0 +1,169 @@
+{
+  "Changes": [
+    { // Egg Hunt
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring13",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "Peeta 26 62 2",
+		  "Delimiter": "/",
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "Peeta 35 67 3",
+		  "Delimiter": "/",
+        },
+      ]
+    },
+	{ // Flower Dance
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring24",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "Peeta 4 29 1",
+		  "Delimiter": "/",
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "Peeta 5 29 1",
+		  "Delimiter": "/",
+        },
+      ]
+    },
+	{ // Luau
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "Peeta 40 22 2",
+		  "Delimiter": "/",
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "Peeta 41 18 0",
+		  "Delimiter": "/",
+        }
+      ]
+    },
+	{ // Moonlight Jellies
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer28",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "Peeta 25 36 2",
+		  "Delimiter": "/",
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "Peeta 26 36 2",
+		  "Delimiter": "/",
+        }
+      ]
+    },
+	{ // Fair
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall16",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "Peeta 67 70 3",
+		  "Delimiter": "/",
+        },
+      ]
+    },
+	{ // Spirit's Eve
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall27",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "Peeta 32 68 2",
+		  "Delimiter": "/",
+        },
+      ]
+    },
+	{ // Festival of Ice
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter8",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "Peeta 64 33 1",
+		  "Delimiter": "/",
+        },
+		{
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Main-Event_additionalCharacters"
+          ],
+          "Value": "Peeta 65 39 1",
+		  "Delimiter": "/",
+        }
+      ]
+    },
+	{ // Feast of the Winter Star
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter25",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "Peeta 35 74 0",
+		  "Delimiter": "/",
+        },
+      ]
+    },
+  ]
+}
