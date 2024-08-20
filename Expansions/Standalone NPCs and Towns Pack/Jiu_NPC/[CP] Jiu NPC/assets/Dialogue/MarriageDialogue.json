@@ -1,0 +1,102 @@
+{
+  "Changes": [
+{
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueJiu",
+      "Entries": {
+  "Rainy_Day_0": "{{i18n:Jiu_Rainy_Day_0}}",
+  "Rainy_Day_1": "{{i18n:Jiu_Rainy_Day_1}}",
+  "Rainy_Day_2": "{{i18n:Jiu_Rainy_Day_2}}",
+  "Rainy_Day_3": "{{i18n:Jiu_Rainy_Day_3}}",
+  "Rainy_Day_4": "{{i18n:Jiu_Rainy_Day_4}}",
+  "Rainy_Night_0": "{{i18n:Jiu_Rainy_Night_0}}",
+  "Rainy_Night_1": "{{i18n:Jiu_Rainy_Night_1}}",
+  "Rainy_Night_2": "{{i18n:Jiu_Rainy_Night_2}}",
+  "Rainy_Night_3": "{{i18n:Jiu_Rainy_Night_3}}",
+  "Rainy_Night_4": "{{i18n:Jiu_Rainy_Night_4}}",
+
+  "Indoor_Day_0": "{{i18n:Jiu_Indoor_Day_0}}",
+  "Indoor_Day_1": "{{i18n:Jiu_Indoor_Day_1}}",
+  "Indoor_Day_2": "{{i18n:Jiu_Indoor_Day_2}}",
+  "Indoor_Day_3": "{{i18n:Jiu_Indoor_Day_3}}",
+  "Indoor_Day_4": "{{i18n:Jiu_Indoor_Day_4}}",
+  "Indoor_Night_0": "{{i18n:Jiu_Indoor_Night_0}}",
+  "Indoor_Night_1": "{{i18n:Jiu_Indoor_Night_1}}",
+  "Indoor_Night_2": "{{i18n:Jiu_Indoor_Night_2}}",
+  "Indoor_Night_3": "{{i18n:Jiu_Indoor_Night_3}}",
+  "Indoor_Night_4": "{{i18n:Jiu_Indoor_Night_4}}",
+
+  "Outdoor_0": "{{i18n:Jiu_Outdoor_0}}",
+  "Outdoor_1": "{{i18n:Jiu_Outdoor_1}}",
+  "Outdoor_2": "{{i18n:Jiu_Outdoor_2}}",
+  "Outdoor_3": "{{i18n:Jiu_Outdoor_3}}",
+  "Outdoor_4": "{{i18n:Jiu_Outdoor_4}}",
+
+  "patio_Jiu": "{{i18n:Jiu_patio_Jiu}}",
+  "spouseRoom_Jiu": "{{i18n:Jiu_spouseRoom_Jiu}}",
+  "funLeave_Jiu": "{{i18n:Jiu_funLeave_Jiu}}",
+  "funReturn_Jiu": "{{i18n:Jiu_funReturn_Jiu}}",
+
+  "OneKid_0": "{{i18n:Jiu_OneKid_0}}",
+  "OneKid_1": "{{i18n:Jiu_OneKid_1}}",
+  "OneKid_2": "{{i18n:Jiu_OneKid_2}}",
+  "OneKid_3": "{{i18n:Jiu_OneKid_3}}",
+  "TwoKids_0": "{{i18n:Jiu_TwoKids_0}}",
+  "TwoKids_1": "{{i18n:Jiu_TwoKids_1}}",
+  "TwoKids_2": "{{i18n:Jiu_TwoKids_2}}",
+  "TwoKids_3": "{{i18n:Jiu_TwoKids_3}}",
+
+  "Good_0": "{{i18n:Jiu_Good_0}}",
+  "Good_1": "{{i18n:Jiu_Good_1}}",
+  "Good_2": "{{i18n:Jiu_Good_2}}",
+  "Good_3": "{{i18n:Jiu_Good_3}}",
+  "Good_4": "{{i18n:Jiu_Good_4}}",
+  "Good_5": "{{i18n:Jiu_Good_5}}",
+  "Good_6": "{{i18n:Jiu_Good_6}}",
+  "Good_7": "{{i18n:Jiu_Good_7}}",
+  "Good_8": "{{i18n:Jiu_Good_8}}",
+
+  "Neutral_0": "{{i18n:Jiu_Neutral_0}}",
+  "Neutral_1": "{{i18n:Jiu_Neutral_1}}",
+  "Neutral_2": "{{i18n:Jiu_Neutral_2}}",
+  "Neutral_3": "{{i18n:Jiu_Neutral_3}}",
+  "Neutral_4": "{{i18n:Jiu_Neutral_4}}",
+  "Neutral_5": "{{i18n:Jiu_Neutral_5}}",
+  "Neutral_6": "{{i18n:Jiu_Neutral_6}}",
+  "Neutral_7": "{{i18n:Jiu_Neutral_7}}",
+  "Neutral_8": "{{i18n:Jiu_Neutral_8}}",
+  "Neutral_9": "{{i18n:Jiu_Neutral_9}}",
+
+  "Bad_0": "{{i18n:Jiu_Bad_0}}",
+  "Bad_1": "{{i18n:Jiu_Bad_1}}",
+  "Bad_2": "{{i18n:Jiu_Bad_2}}",
+  "Bad_3": "{{i18n:Jiu_Bad_3}}",
+  "Bad_4": "{{i18n:Jiu_Bad_4}}",
+  "Bad_5": "{{i18n:Jiu_Bad_5}}",
+  "Bad_6": "{{i18n:Jiu_Bad_6}}",
+  "Bad_7": "{{i18n:Jiu_Bad_7}}",
+  "Bad_8": "{{i18n:Jiu_Bad_8}}",
+  "Bad_9": "{{i18n:Jiu_Bad_9}}",
+
+  "spring_1": "{{i18n:Jiu_spring_1M}}",
+  "spring_12": "{{i18n:Jiu_spring_12M}}",
+  "spring_20": "{{i18n:Jiu_spring_20M}}",
+  "spring_23": "{{i18n:Jiu_spring_23M}}",
+
+  "summer_1": "{{i18n:Jiu_summer_1M}}",
+  "summer_10": "{{i18n:Jiu_summer_10M}}",
+  "summer_19": "{{i18n:Jiu_summer_19M}}",
+
+  "fall_1": "{{i18n:Jiu_fall_1M}}",
+  "fall_15": "{{i18n:Jiu_fall_15M}}",
+  "fall_25": "{{i18n:Jiu_fall_25M}}",
+  "fall_26": "{{i18n:Jiu_fall_26M}}",
+
+  "winter_1": "{{i18n:Jiu_winter_1M}}",
+  "winter_7": "{{i18n:Jiu_winter_7M}}",
+  "winter_28": "{{i18n:Jiu_winter_28M}}",
+
+}
+}
+]
+}

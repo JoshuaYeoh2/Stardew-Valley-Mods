@@ -1,0 +1,252 @@
+{
+  "Format": "2.0.0",
+
+  
+  "Changes": [
+
+    {
+      "Action": "Load",
+      "Target": "Maps/Custom_CopiaHouse",
+      "FromFile": "assets/Maps/Custom_CopiaHouse.tmx"
+        },
+
+        {
+          "Action": "EditData",
+          "Target": "Data/Locations",
+          "Entries": {"Custom_CopiaHouse": {
+            "CreateOnLoad": { "MapPath": "Maps/Custom_CopiaHouse" }
+          }
+        
+        }
+        
+        },
+        {
+          "Action": "EditMap",
+          "Target": "Maps/Town",
+          "FromFile": "assets/Maps/Custom_Town.tmx",
+          "FromArea": { "X": 44, "Y": 25, "Width": 11, "Height": 12 },
+          "ToArea": { "X": 44, "Y": 25, "Width": 11, "Height": 12 }
+    
+      },
+        
+    {
+      "LogName": "NPC Manifestation",
+      "Action": "Include",
+      "FromFile": "assets/disposition/Disposition.json"
+    },
+    {
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Copia": "Seriously? This is for me? I... I can't thank you enough, honestly!/62 156 167 206 220 223 224 232 253 276 395 618 767/Oh, super cool! Thank you, kindly/18 22 64 66 68 70/Eh... You sure this was for me?/16 20 24 60 78 90 92 100 103/Is this some kind of sick joke? It's... Not funny/772 110 111 112 129 130 131 168 169 202 213 219 239 238 248 256 282 445 446 684 682 728 729/Thank you for this./74 80 82 86 96 97 98 99 104 105 106 108 124 125 132 140 141 142 146 147 144 145 157 163 164 160 159 158 161 165 188 190 194 196 240 242 243 244 250 252 257 259 260 262 264 266 268 278 280 281 296 300 283 284 334 335 336 337 338 394 396 397 399 403 404 408 414 416 412 406 410 417 418 420 447 454 457 456 423 422 538 539 540 541 542 543 545 546 549 544 547 548 550 552 553 554 555 557 556 559 562 563 565 566 567 568 569 570 571 572 573 576 593 597 595 574 577 578 579 591 604 605 607 609 608 611 612 635 636 638 701 700 704 699 705 706 707 715 708 637 651 685 698 716 702 718 719 722 731 730 732 733 723 724 725 726 727 734 766 769 768 773 774 814 815 -2 775 787 796 795 797 812 -4 -81 -75 -27 -20 -12// "
+      }
+    },
+    {
+      "LogName": "Copia Spring",
+      "Action": "Load",
+      "Target": "Characters/Copia",
+      "FromFile": "assets/img/spritesheet.png",
+      "Update": "OnLocationChange",
+      "When": {
+        "Season": "Spring"
+      }
+    },
+    {
+      "LogName": "Copia Summer",
+      "Action": "Load",
+      "Target": "Characters/Copia",
+      "FromFile": "assets/img/Copia_Summer.png",
+      "Update": "OnLocationChange",
+      "When": {
+        "Season": "Summer"
+      }
+    },
+    {
+      "LogName": "Copia Fall",
+      "Action": "Load",
+      "Target": "Characters/Copia",
+      "FromFile": "assets/img/Copia_Fall.png",
+      "Update": "OnLocationChange",
+      "When": {
+        "Season": "Fall"
+      }
+    },
+    {
+      "LogName": "Copia Winter",
+      "Action": "Load",
+      "Target": "Characters/Copia",
+      "FromFile": "assets/img/Copia_Winter.png",
+      "Update": "OnLocationChange",
+      "When": {
+        "Season": "Winter"
+      }
+    },
+    {
+      "LogName": "Copia Spring Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Copia",
+      "FromFile": "assets/img/portrait.png",
+      "Update": "OnLocationChange",
+      "When": {
+        "Season": "Spring"
+      }
+    },
+    {
+      "LogName": "Copia Summer Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Copia",
+      "FromFile": "assets/img/Copia_Summer_Portraits.png",
+      "Update": "OnLocationChange",
+      "When": {
+        "Season": "Summer"
+      }
+    },
+    {
+      "LogName": "Copia Fall Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Copia",
+      "FromFile": "assets/img/Copia_Fall_Portraits.png",
+      "Update": "OnLocationChange",
+      "When": {
+        "Season": "Fall"
+      }
+    },
+    {
+      "LogName": "Copia Winter Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Copia",
+      "FromFile": "assets/img/Copia_Winter_Portraits.png",
+      "Update": "OnLocationChange",
+      "When": {
+        "Season": "Winter"
+      }
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Copia",
+      "FromFile": "assets/schedules/schedule.json"
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Copia",
+      "FromFile": "assets/dialogue/Dialogue.json"
+    },
+    {
+      "LogName": "MarriageDialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueCopia",
+      "FromFile": "assets/dialogue/MarriageDialogue.json"
+    },
+    {
+      "LogName": "Animation Frames",
+      "Action": "Include",
+      "FromFile": "assets/anim/Animations.json"
+    },
+    {
+      "LogName": "Schedule Dialogue",
+      "Action": "Load",
+      "Target": "Strings/schedules/Copia",
+      "FromFile": "assets/schedules/scheduleDialogue.json"
+    },
+  
+    {
+      "LogName": "Engagement Dialogue",
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "Entries": {
+        "Copia0": "I'm so excited for our big day! I eh, I can't quite believe it...$1",
+        "Copia1": "I can't believe that you're mine, tesoro.$4"
+      }
+    },
+    {
+      "LogName": "Festival Include",
+      "Action": "Include",
+      "FromFile": "assets/Festivals/Festivals.json"
+    },
+
+   
+
+    {
+      
+
+        "LogName": "2HeartEvent",
+        "Action": "EditData",
+        "Target": "Data/Events/Town",
+        "Entries": {
+          "157901/f Copia 500": "playful/10 54/farmer 6 54 1 Copia 12 54 3/emote Copia 16/move Copia -4 0 3 true/speak Copia \"Oh, it's you @! Just the person I wanted to see. Yes.$h#$b#I've been reading some uh, scary stories and I would like to know what kind of books you like!#$b#Fiction or Non-Fiction...?\"/pause 500/quickQuestion #Fiction#Non-Fiction (break) speak Copia \"Awesome! Me too, I'm uh, reading one about a werewolf right now... Very scary... Maybe you can come read with me sometime, eh?\"(break)speak Copia \"That is not really my thing... But! Maybe you'd still like to come read with me sometime, eh? Bet we could learn a lot from each other's tastes in, uh, books, uh... Mmhm.\"(break)/pause 2000/globalFade/viewport -1000 -1000/end" 
+        }
+      
+    
+    },
+    {
+      
+
+      "LogName": "3HeartEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Beach",
+      "Entries": {
+        "157902/f Copia 750": "breezy/20 15/farmer 22 11 3 Copia 12 11 3/animate Copia false true 100 31 31 32 33 31 33 30 31/move farmer -9 0 3 true/pause 500/emote Copia 16/pause 500/stopAnimation Copia 31/pause 500/speak Copia \"Ah!! I'm sorry, @, I... I didn't hear you. I could've hit you accidentally...$7#$b#I'm doing some boxing, eh, 'techniques' y'see...#$b#I was taught it as a way for me to let go of all my... Stresses of being Papa for my clergy.$2#$b#It is quite hard work spreading the word of the dark lord.$2#$b#Say... Have you heard of the Ghost project, friend?\"/pause 500/quickQuestion #I have, yes#Can't say that I have (break) speak Copia \"I'm glad to meet a fan! I see you, uh, appreciate good music if I do say so myself... Ehehe.$1\"(break)speak Copia \"That's okay! You should take a listen sometime, it's uh, hopefully music you'll like...$3\"(break)/pause 500/globalFade/viewport -1000 -1000/end" 
+      }
+      
+    
+  
+  },
+
+  {
+      
+
+    "LogName": "4HeartEvent",
+    "Action": "EditData",
+    "Target": "Data/Events/BusStop",
+    "Entries": {
+      "157903/f Copia 1000/t 2000 2200": "desolate/29 13/farmer 35 16 0 Copia 35 11 2/move farmer 0 -3 0 true/pause 1000/emote Copia 40/pause 500/speak Copia \"*Copia tries not to meet your eyes and attempts to wipe his tears from his face*$8#$b#Eh, f-fancy seeing you here this time of night...$8\"/pause 500/quickQuestion #What's wrong, Copia?#I... I'm just gonna leave now (break) speak Copia \"Forgive me, my friend. Just. Under a lot of stress. The... My Mom, the Ministry... They all expect so much of me!$8#$b#I-I'm working so... Dilligently and it almost feels like... For naught. Nothing. One wrong move and I'm done. I am serious. They will... They can end me.$8#$b#But, that's enough feeling sorry for myself... Thank you. For listening.$8#$b#Have a nice night, @.$8\"(break)speak Copia \"Goodbye, @. See you around.$8\"(break)/pause 500/globalFade/viewport -1000 -1000/end" 
+    }
+  },
+
+  {
+      
+
+    "LogName": "6HeartEvent",
+    "Action": "EditData",
+    "Target": "Data/Events/Town",
+    "Entries": {
+      "157904/f Copia 1500/t 1200 1600": "CloudCountry/30 66/farmer 30 62 1 Copia 28 66 1 Lewis 33 66 3/move farmer 0 5 0 true/pause 1000/emote Lewis 12/pause 500/speak Lewis \"Excuse me? Mr... Ghost? $a#$b#I'd like to talk to you a moment.$a\"/pause 500/speak Copia \"Yes? What seems to be the matter?$6\"/pause 500/speak Lewis \"I've had some... Complaints from the townsfolk here. You can't keep bringing your... Vermin. Into town. $5#$b#Not to mention that you're starting to creep people out with your... 'Rituals'#$b#Or whatever you seem to be skulking about doing in the graveyard.#$b#Say, @, since you're here - Can't you say that Mr Ghost is unbefitting of a resident of Pelican Town?\"/pause 500/quickQuestion #Absolutely not, he has every right to be a part of this community as others#He's certainly a weirdo and he definitely creeps me out (break) speak Lewis \"I. Well. Hmph...\"(break)speak Copia \"I... I do apologise. Greatly... To you both and to the community...$2\"(break)/pause 500/globalFade/viewport -1000 -1000/end" 
+    }
+  },
+
+  {
+      
+
+    "LogName": "8HeartEvent",
+    "Action": "EditData",
+    "Target": "Data/Events/Farm",
+    "Entries": {
+      "157905/f Copia 2000/t 1600 2000": "Cyclops/64 16/farmer 64 15 0 Copia 64 17 1/pause 500/emote Copia 40/pause 500/speak Copia \"@. I wanted to talk to you.$2#$b#I know it's getting late but, I just have to tell you...$2#$b#I'm really struggling here.$8#$b#I feel like such an outcast, like. I won't ever get along with people here. That I truly won't have the peaceful life I wish for.$8#$b#People don't like my beliefs. Hey, I'm sure the Ministry is in chaos now I'm not there.$8#$b#Maybe it's time for me to head on back and face the music? You know? Face my... My demise$8#$b#What do you think, @?$8\"/pause 500/quickQuestion #You should probably go#No! You should stay, I would miss you so much (break) speak Copia \"You're right... Maybe this life isn't for me. This happy little town. Our friendship.$8#$b#I'll still think about it, but I truly am having doubts... And fears. Over everything.$8\"(break)speak Copia \"You. You truly think so? Shit... I may... Eat my words soon enough but... Maybe this is truly the life for me.$2#$b#Away from the stage - I'm safe here, as long as I'm not hunted down. Thank you, @...$2\"(break)/pause 500/globalFade/viewport -1000 -1000/end"  
+    }
+  },
+
+  {
+      
+
+    "LogName": "10HeartEvent",
+    "Action": "EditData",
+    "Target": "Data/Events/Town",
+    "Entries": {
+      "157906/f Copia 2500": "Cavern/17 54/farmer 16 54 1 Copia 21 48 0/move farmer 4 0 0/move Copia 0 4 2/pause 500/speak Copia \"I can't wait any longer. I truly can't$2#$b#You see, @, out of everyone here you've made me feel...$3#$b#Like I belong, @. You've seen me at, eh, my worst...$4#$b#You walk into my life and the clouds of doubt which permeate my vision disippate.$4#$b#I can see. You make me believe there's another life I could lead.$4#$b#What I... Mean to say is - I adore you, I-I love you, @. I understand if you do not feel the same way but...$4#$b#I'd abandon my duties as Papa for you. The dark lord set us together for me to worship you. And I do.$4\"/pause 500/quickQuestion #I really don't think I feel the same way, Copia, sorry.#I do feel the same way Copia. I think I love you too. (break) speak Copia \"I-I understand, @ - believe me - I shall not forget this in a hurry but things will go... Back to normal... Yes? If that's what you wish.$8\"(break)speak Copia \"You... You do? I... Am speechless. Whatever comes next I. It's all up to you. The power is in your hands, dolcezza.$4\"(break)/pause 500/globalFade/viewport -1000 -1000/end"  
+    }
+  },
+  {
+      
+
+    "LogName": "PromoEvent",
+    "Action": "EditData",
+    "Target": "Data/Events/Town",
+    "Entries": {
+      "157907/f Copia 2500": "Cavern/17 54/farmer 59 70 1 Copia 16 54 1/move Copia 7 0 0/pause 500/globalFade/viewport -1000 -1000/end"  
+    }
+  }
+]
+}

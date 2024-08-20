@@ -1,0 +1,282 @@
+{
+    "Changes": [
+        {
+            "LogName": "Masahi's Movies Reactions",
+            "Action": "EditData",
+            "Target": "Data/MoviesReactions",
+            "Entries": {
+                "Masahi": {
+                    "NPCName": "Masahi",
+                    "Reactions": [
+                        {
+                            "Tag": "*",
+                            "Response": "love",
+                            "Whitelist": ["Gus"],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Didn't expect to see Gus here. I'm excited already.$u"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/message \"(Gus and Masahi are watching intently...)\"",
+                                    "Text": ""
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "That movie was quite exciting, wasn't it? Especially with you and Gus here.$u"
+                                }
+                            },
+                            "ID": "reaction_0"
+                        },
+                        {
+                            "Tag": "spring_movie_0",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "The sapling on the poster looks so adorable.$u#$b#Are you looking forward to the movie, @?"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/emote Masahi 60/pause 500",
+                                    "Text": ""
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "The sapling and I do share some similarities. I'm glad that it has found its own happy ending.$u"
+                                }
+                            },
+                            "ID": "reaction_1"
+                        },
+                        {
+                            "Tag": "summer_movie_0",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "I'm not a fan of action movie, but I'm happy doing anything with you, @.$u"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": "PK_Villain",
+                                    "Script": "/emote Masahi 40/pause 500",
+                                    "Text": ""
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Can we watch another movie next time, @?"
+                                }
+                            },
+                            "ID": "reaction_2"
+                        },
+                        {
+                            "Tag": "fall_movie_0",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Hey, @. If you are scared, you can lean on my shoulder.$u"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Are you doing okay, @? Let me hold your hand."
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "That was quite unique. I like it."
+                                }
+                            },
+                            "ID": "reaction_3"
+                        },
+                        {
+                            "Tag": "winter_movie_0",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Watching movies at the theater during winter is a genius idea, @. It's so warm in here.$u"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/emote Masahi 24/pause 500/message \"Masahi is dozing off...\"",
+                                    "Text": ""
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Sorry, I did not remember much. Did you enjoy yourself, @?"
+                                }
+                            },
+                            "ID": "reaction_4"
+                        },
+                        {
+                            "Tag": "spring_movie_1",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "I typically don't watch documentaries, but if it's your invitation, I'll be up for it.$u"
+                                },
+                                "DuringMovie": null,
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Hmmm, the town sure has more depth to it than I thought. That was an interesting experience.$u"
+                                }
+                            },
+                            "ID": "reaction_5"
+                        },
+                        {
+                            "Tag": "summer_movie_1",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Thanks for the ticket, @. I will treat you to dessert after this.$u"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/emote Masahi 8/pause 500/message \"Masahi looks confused...\"",
+                                    "Text": ""
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "The movie was alright. I just didn't quite grasp its meaning.$6#$b#Still, are you up for some ice cream?"
+                                }
+                            },
+                            "ID": "reaction_6"
+                        },
+                        {
+                            "Tag": "fall_movie_1",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "I'm happy that you want to see a movie with me, @. Shall we get some snacks?$u"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/emote Masahi 32/pause 500/message \"Masahi is enjoying himself...\"",
+                                    "Text": "Are you scared, @? I'm right here."
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "I usually don't fall for horror tricks, but the movie got me quite a few today.#$b#Thanks for inviting me, @.$u"
+                                }
+                            },
+                            "ID": "reaction_7"
+                        },
+                        {
+                            "Tag": "winter_movie_1",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Romance movie, huh?$6#$b#I guess checking it out doesn't hurt."
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/emote Masahi 24/pause 500/message \"Masahi is dozing off...\"",
+                                    "Text": ""
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Romance movie is not really for me...$6#$b#I can still be romantic when the occasion calls for it, though."
+                                }
+                            },
+                            "ID": "reaction_8"
+                        },
+                        {
+                            "Tag": "seen_dislike",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "This poster looks familiar... Have we already seen this?$6"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/emote Masahi 24/pause 500/message \"Masahi is dozing off...\"",
+                                    "Text": ""
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "I think I fell asleep last time too. Sorry about it, @.$6"
+                                }
+                            },
+                            "ID": "reaction_9"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Masahi's Concession Tastes",
+            "Action": "EditData",
+            "Target": "Data/ConcessionTastes",
+            "Entries": {
+                "Masahi": {
+                    "Name": "Masahi",
+                    "LovedTags": [
+                        "Jasmine Tea",
+                        "Cotton Candy",
+                        "Stardrop Sorbet"
+                    ],
+                    "LikedTags": [
+                        "Apple Slices",
+                        "Black Licorice",
+                        "Chocolate Popcorn",
+                        "Cappuccino Mousse Cake",
+                        "Ice Cream Sandwich",
+                        "Kale Smoothie",
+                        "Panzanella Salad",
+                        "Rock Candy",
+                        "Salted Peanut",
+                        "Star Cookie",
+                        "Truffle Popcorn"
+                    ],
+                    "DislikedTags": [
+                        "Fries",
+                        "Hummus Snack Pack",
+                        "Jawbreaker",
+                        "Joja Cola",
+                        "JojaCorn",
+                        "Nachos",
+                        "Popcorn",
+                        "Personal Pizza",
+                        "Salmon Burger",
+                        "Sour Slimes"
+                    ]
+                }
+            }
+        }
+    ]
+}

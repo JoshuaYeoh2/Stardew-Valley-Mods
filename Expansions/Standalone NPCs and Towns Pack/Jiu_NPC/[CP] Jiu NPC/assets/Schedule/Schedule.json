@@ -1,0 +1,67 @@
+// "Strings\\schedules\\Jiu:x.000\"								
+{
+  "Changes": [
+{
+      "Action": "EditData",
+      "Target": "Characters/schedules/Jiu",
+      "Entries": {
+"rain": "610 Forest 38 17 jiu_onlycup \"Strings\\schedules\\Jiu:rain.000\"/800 Custom_jiuhouse 4 4 jiu_music \"Strings\\schedules\\Jiu:music.000\"/1200 Custom_jiuhouse 4 4 2/1700 Saloon 18 18 jiu_shake/2300 Forest 39 11 2 \"Strings\\schedules\\Jiu:night.000\"/2430 Custom_jiuhouse 2 4 jiu_sleep",
+
+"GreenRain": "610 Custom_jiuhouse 4 4 2/2430 Custom_jiuhouse 2 4 jiu_sleep",
+
+"Sun": "610 Forest 38 17 jiu_write \"Strings\\schedules\\Jiu:write.000\"/900 Forest 95 23 0/1200 Beach 32 18 2/1700 Saloon 23 18 jiu_cup \"Strings\\schedules\\Jiu:cup.000\"/2300 Forest 39 11 2 \"Strings\\schedules\\Jiu:night.000\"/2430 Custom_jiuhouse 2 4 jiu_sleep",
+
+"spring": "610 Forest 38 17 jiu_write \"Strings\\schedules\\Jiu:write.000\"/900 Forest 96 23 0/1200 Beach 32 18 2/1700 Saloon 18 18 jiu_shake/2300 Forest 39 11 2/2430 Custom_jiuhouse 2 4 jiu_sleep",
+
+"summer": "610 Forest 38 17 jiu_write/1500 Town 56 67 1/1800 Saloon 18 18 jiu_shake/2300 Forest 39 11 2/2430 Custom_jiuhouse 2 4 jiu_sleep",
+
+"fall": "610 Town 8 93 jiu_write/1200 SeedShop 16 29 3 \"Strings\\schedules\\Jiu:seedshop.000\"/1500 Town 79 58 jiu_write/1800 Saloon 18 18 jiu_shake/2300 Forest 39 11 2 \"Strings\\schedules\\Jiu:night.000\"/2430 Custom_jiuhouse 2 4 jiu_sleep",
+
+"winter": "800 Forest 38 17 2/1200 AnimalShop 31 16 3/1800 Saloon 18 18 jiu_shake/2300 Forest 38 17 2 \"Strings\\schedules\\Jiu:nightw.000\"/2430 Custom_jiuhouse 2 4 jiu_sleep",
+
+"fall_Sun": "610 Forest 38 17 jiu_drunk/2200 Forest 38 17 2 \"Strings\\schedules\\Jiu:much.000\"/2430 Custom_jiuhouse 2 4 jiu_sleep",
+
+"spring_20": "610 Custom_jiuhouse 10 4 0/1000 AnimalShop 24 17 1 \"Strings\\schedules\\Jiu:shanebd.000\"/2000 Custom_jiuhouse 2 4 jiu_sleep",
+
+//"DesertFestival_1": "610 Forest 38 17 jiu_write \"Strings\\schedules\\Jiu:write.000\"/900 Desert 34 64 3 \"Strings\\schedules\\Jiu:desert.001\"/2410 Custom_jiuhouse 2 4 jiu_sleep",
+"DesertFestival_2": "610 Forest 38 17 jiu_write \"Strings\\schedules\\Jiu:write.000\"/900 Desert 40 55 2 \"Strings\\schedules\\Jiu:desert.002\"/2410 Custom_jiuhouse 2 4 jiu_sleep",
+"DesertFestival_3": "610 Forest 38 17 jiu_write \"Strings\\schedules\\Jiu:write.000\"/900 Desert 5 39 2 \"Strings\\schedules\\Jiu:desert.003\"/2410 Custom_jiuhouse 2 4 jiu_sleep",
+
+//"marriage_DesertFestival_1": "/900 Desert 34 64 3 \"Strings\\schedules\\Jiu:desert.004\"/2410 bed",
+"marriage_DesertFestival_2": "/900 Desert 40 55 2 \"Strings\\schedules\\Jiu:desert.005\"/2410 bed",
+"marriage_DesertFestival_3": "/900 Desert 5 39 0 \"Strings\\schedules\\Jiu:desert.006\"/2410 bed",
+
+//结婚
+"marriage_Mon": "830 SeedShop 4 20 2 \"Strings\\schedules\\Jiu:seed.000\"/1200 Beach 56 8 1 \"Strings\\schedules\\Jiu:beach.000\"/2200 bed",
+"marriage_Fri": "830 Town 76 95 2 \"Strings\\schedules\\Jiu:town.000\"/1200 Forest 41 10 2 \"Strings\\schedules\\Jiu:forest.000\"/2200 bed",
+"marriage_spring_20": "1000 AnimalShop 24 17 1 \"Strings\\schedules\\Jiu:shanebd.000\"/2000 bed"
+      }
+    },
+]
+}
+
+
+
+
+
+//(0 = 后面, 1 = 右边, 2 = 前面, 3 = 左边)
+
+
+
+//湖边写信/看玛妮牧场的小牛/海边看鱼/去酒吧/树下发呆/睡大觉
+
+//湖边看看/湖边写字/看狗窝/去酒吧/树下发呆/睡大觉
+
+//镇上河边/种子商店/镇上河边看鱼/去酒吧/回树下发呆/睡大觉
+
+//发呆/看花/湖边看看/去酒吧/回去看看/睡大觉
+
+//秋天周日喝酒
+
+//沙漠节只有第二天和第三天会去
+
+//结婚后周一
+//种子店/沙滩旁边
+//结婚后周五
+//小镇桥上/树下乘凉
+//23 18 酗酒

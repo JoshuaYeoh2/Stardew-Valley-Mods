@@ -1,0 +1,68 @@
+{
+  "Changes": [
+    {
+      "LogName": "SpecialOrder",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "Jiu_Name": "{{i18n:Jiu_SpecialOrder.1.1}}",
+        "Jiu_Text": "{{i18n:Jiu_SpecialOrder.1.2}}",
+        "Jiu_Objective_Text": "{{i18n:Jiu_SpecialOrder.1.3}}",
+      }
+    },
+
+{
+    "Action":"EditData",
+    "Target":"Data/SpecialOrders",
+    "Entries":{
+        "Jiu":{
+            "Name":"[Jiu_Name]",
+            "Requester":"Jiu",
+            "Duration":"Week",//可以改成Month或者TwoWeeks 时限
+            "Repeatable":"False",//是否能重复出现
+            "RequiredTags":"knows_Jiu",
+            "OrderType":"",
+            "SpecialRule":"",
+            "Text":"[Jiu_Text]",
+            "ItemToRemoveOnEnd":null,
+            "MailToRemoveOnEnd":null,
+            "RandomizedElements":null,
+            "Objectives":[
+                {
+                    "Type":"Deliver",
+                    "Text":"[Jiu_Objective_Text]",
+                    "RequiredCount":"7",//数量
+                    "Data":{
+                        "AcceptedContextTags":"id_o_142",
+                        "TargetName":"Jiu"
+                    }
+                }
+                
+            ],
+            "Rewards":[//奖励
+                {
+                    "Type":"Money",//钱
+                    "Data":{
+                        "Amount":"1000"
+                    }
+                },
+                {
+                    "Type": "Friendship",//加好感度
+                    "Data": {
+                        "Amount": "100", 
+                        "TargetName": "Jiu" 
+                }
+		},
+            	{
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "Jiufish",
+                "NoLetter": "false"
+              	}
+		}
+            ]
+        }
+    }
+}
+]
+}

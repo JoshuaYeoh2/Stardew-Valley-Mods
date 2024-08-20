@@ -1,0 +1,784 @@
+﻿{
+  "Format": "2.0.0",
+  "Changes": [ 
+//New content
+         {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "Feliciano": {
+                    "DisplayName": "Feliciano", 
+	  "Gender": "Male",
+	  "Manner": "Polite",
+	  "SocialAnxiety": "outgoing",
+	  "Optimism": "Positive",
+	  "BirthSeason": "spring",
+	  "BirthDay": 17,
+	  "CanBeRomanced": true,
+	  "HomeRegion": "Town",
+                   "FlowerDanceCanDance": null,
+	  "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "Forest",
+                            "Tile": { "X": 11, "Y": 10 },
+                            "Direction": "up"
+                        }
+                                    ],	
+		        "SpouseRoom": {
+                        "MapAsset": "Feliciano_SpouseRoom",
+                        "MapSourceRect": { "X": 0, "Y": 0, "Width": 6, "Height": 9  }
+                                       },
+                        "SpousePatio": {
+                        "MapAsset": "Feliciano_SpousePatio",
+                        "MapSourceRect": { "X": 0, "Y": 0, "Width": 4, "Height": 4  }
+                                       },
+                         },
+            },
+        }, 
+
+        {
+		"Action": "Load",
+		"Target": "Maps/Feliciano_SpouseRoom",
+		"FromFile": "assets/Maps/FelicianoSpouseRoom.tmx"
+         },
+      {
+      "Action": "Load",
+      "Target": "Maps/Feliciano_SpousePatio",
+      "FromFile": "assets/Maps/FelicianoSpousePatio.tbin",
+         },    
+
+    {
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",     
+      "Entries": {
+        "Feliciano": "Oh - honey, you're always so sweet!#$b#%Feliciano stands on tiptoe to give you a light kiss./618 649 253 18 256 196 62 68 202 206 212 224 593 649 921 395 430 348 459 /Grazie，Honey! I love this gift!/393 305 308 169 22 192 176 174 180 182 184 186 442 438 436 88 265/Well ...... I don't remember it being April Fool's Day .$8/90/ve……*sob*/832/ve……In the words of you humans, ''It's the thought that counts,'' right?$6/-4/"
+      },
+      "When": {
+        "Relationship:Feliciano": "Married"
+      }
+    },
+
+{
+  "Action": "EditData",
+  "Target": "Data/Festivals/spring13",
+  "TextOperations": [
+      {
+       "Operation": "Append",
+       "Target": [ "Entries", "Set-Up_additionalCharacters"],
+        "Value": "Feliciano 25 59 1",
+        "Delimiter": "/"
+         }
+     ]
+ },
+{
+  "Action": "EditData",
+  "Target": "Data/Festivals/spring13",
+  "TextOperations": [
+      {
+       "Operation": "Append",
+       "Target": [ "Entries", "Set-Up_additionalCharacters_y2"],
+        "Value": "Feliciano 30 57 1",
+        "Delimiter": "/"
+         }
+     ]
+ },
+  {
+    "Action": "EditData",
+    "Target": "Data/Festivals/spring24",
+    "TextOperations": [
+        {
+         "Operation": "Append",
+         "Target": [ "Entries", "Set-Up_additionalCharacters"],
+          "Value": "Feliciano 21 39 2",
+          "Delimiter": "/"
+           },
+        {
+         "Operation": "Append",
+         "Target": [ "Entries", "MainEvent_additionalCharacters"],
+          "Value": "Feliciano 21 39 2",
+          "Delimiter": "/"
+           }
+       ]
+   },
+  {
+    "Action": "EditData",
+    "Target": "Data/Festivals/summer11",
+    "TextOperations": [
+        {
+         "Operation": "Append",
+         "Target": [ "Entries", "Set-Up_additionalCharacters"],
+          "Value": "Feliciano 41 21 0",
+          "Delimiter": "/"
+           }
+       ]
+   },
+  {
+    "Action": "EditData",
+    "Target": "Data/Festivals/summer28",
+    "TextOperations": [
+        {
+         "Operation": "Append",
+         "Target": [ "Entries", "Set-Up_additionalCharacters"],
+          "Value": "Feliciano 38 24 2",
+          "Delimiter": "/"
+           }
+       ]
+   },
+ {
+    "Action": "EditData",
+    "Target": "Data/Festivals/fall16",
+    "TextOperations": [
+        {
+         "Operation": "Append",
+         "Target": [ "Entries", "Set-Up_additionalCharacters"],
+          "Value": "Feliciano 39 60 0",
+          "Delimiter": "/"
+           }
+       ]
+   },
+  {
+    "Action": "EditData",
+    "Target": "Data/Festivals/fall27",
+    "TextOperations": [
+        {
+         "Operation": "Append",
+         "Target": [ "Entries", "Set-Up_additionalCharacters"],
+          "Value": "Feliciano 29 23 2",
+          "Delimiter": "/"
+           }
+       ]
+   },
+  {
+    "Action": "EditData",
+    "Target": "Data/Festivals/fall27",
+    "TextOperations": [
+        {
+         "Operation": "Append",
+         "Target": [ "Entries", "Set-Up_additionalCharacters_y2"],
+          "Value": "Feliciano 20 25 2",
+          "Delimiter": "/"
+           }
+       ]
+   },
+  {
+    "Action": "EditData",
+    "Target": "Data/Festivals/winter8",
+    "TextOperations": [
+        {
+         "Operation": "Append",
+         "Target": [ "Entries", "Set-Up_additionalCharacters"],
+          "Value": "Feliciano 62 30 1",
+          "Delimiter": "/"
+           }
+       ]
+   },
+  {
+    "Action": "EditData",
+    "Target": "Data/Festivals/winter25",
+    "TextOperations": [
+        {
+         "Operation": "Append",
+         "Target": [ "Entries", "Set-Up_additionalCharacters"],
+          "Value": "Feliciano 24 67 2",
+          "Delimiter": "/"
+           }
+       ]
+   },
+  {
+    "Action": "EditData",
+    "Target": "Data/Festivals/winter25",
+    "TextOperations": [
+        {
+         "Operation": "Append",
+         "Target": [ "Entries", "Set-Up_additionalCharacters_y2"],
+          "Value": "Feliciano 24 68 2",
+          "Delimiter": "/"
+           }
+       ]
+   },
+
+   {
+      "Action": "EditData",
+      "Target": "Data/ExtraDialogue",
+      "Entries": {
+      "SummitEvent_Dialogue3_Feliciano": "I can't believe how far we've come. It seems like only yesterday that I met you.#$b#You've cried and laughed and stumbled along the way, but in the end you came to me and stood here together with all the courage and love you have, holding my hand.$4#$b#My dear, I am so proud of you, and more importantly, please be proud of yourself too, you are an amazing person and your very existence is a miracle.$1#$b#Will you promise me one last thing?$0\"/faceDirection Feliciano 3/faceDirection farmer 1/pause 500/speak Feliciano \"Please don't forget me. Wherever you are, I wish you the courage to start over, and to love yourself.$1#$b#It's the luck of my life to have met you. And, I love you.$4\"/",
+      },
+    },
+
+    {
+    "Action": "EditData",
+    "Target": "Strings/StringsFromCSFiles",
+    "Entries": {
+      "NPC.cs.3980": "Ve...@......*sob*I've been dreaming of this day since I was a little wolf......$6#$b#I mean - yes, I will !$4#$e#Three days from now will be the happiest day of my life!$1",
+    },
+      "When": {"Relationship:Feliciano": "Dating"}
+    },
+
+
+    {
+      "LogName": "Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Feliciano",
+      "Entries":{
+"AcceptGift_(O)253": "Wow - more coffee flavor than coffee! Thank you dear! *drinks it all in one go* *wags his tail in contentment*$1",
+"AcceptGift_(O)256": "It's so fresh! This is going to be so good in a tomato dish! Honey, you'll be back for dinner tonight, right?$1",
+"AcceptGift_(O)192": "Oh ...... this reminds me of a friend who is very good at making mashed potatoes. How about I get him to make them for you too when you get a chance?",
+"AcceptGift_(O)62": "It's so pretty, shimmering like the shards of the sea ......$1",
+"AcceptGift_(O)88": "Coconut! Thank you, dear. How did you know I wanted coconut water?$1",
+"AcceptGift_(O)873": "Oh! Coconut milk! It smells so good. Thank you sweetie, you're so sweet!$1",
+"AcceptGift_(O)797": "Oh - this is so precious, dear, are you really going to give it to me? Thank you. I'm so happy!$1 ",
+"AcceptGift_(O)68": "Thanks! Its color matches my eyes so well, I love it! Did you pick it out just for me?$4",
+"AcceptGift_(O)206": "Pizza——！I so love the cheese on top, it can be stretched - so long! * Exaggeratedly gesticulating* $1",
+"AcceptGift_(O)224": "Spaghetti - *chews* Oh ...... is this heaven?$4",
+"AcceptGift_(O)293": "Like little stars, so pretty! Thank you sweetie - *kiss on the cheek*$1",
+"AcceptGift_(O)395": "*sniff* Mmmm - just the smell makes me happy! Thank you sweetie!$1",
+"AcceptGift_(O)169": "Wanna play fetch with me, honey?$4", 
+"AcceptGift_category_cooking": "Oh - did you make this yourself? Thank you dear! You're so sweet!$4", 
+"AcceptGift_(O)279": "Honey, what is this? It's like a rainbow. I can't even eat it!$1",  
+"AcceptGift_(O)203": "Uh ...... I don't quite get it honey, what is it?$2", 
+"AcceptGift_(O)430": "*sniff* It smells so good ...... Thank you sweetie!$1", 
+"AcceptGift_(O)StardropTea": "Hmmm ...... my first tea like this, sweet and with a flavor I can't quite put my finger on ...... I love it dear!$4",
+"AcceptGift_(O)348": "Oh ...... honey, you are always so romantic.$4#$b#Would you like to have a candlelight dinner tonight? Just me and you, sharing a bottle of this rare wine.……$3",
+"AcceptGift_(O)459": "Oh ...... honey, you are always so romantic.$4#$b#Would you like to have a candlelight dinner tonight? Just me and you, sharing a bottle of this rare wine.……$3",
+"WinterStar_ReceiveGift": "Dear, thank you, I'm really happy to receive your gift ......$4",
+"MovieInvitation": "Oh - honey, you're so nice!$4#$b#I can't wait to see you at the movies!$1",
+  "Resort_Entering": "Honey, you're here too!",
+  "Resort_Leaving": "I'll be waiting for you at home, dear!",
+
+},
+      "When": {
+      	"Relationship:Feliciano": "Married",
+
+}
+    },
+
+
+
+
+
+//Old content
+
+    {
+      "LogName": "Feliciano Mail",
+      "Action": "EditData",
+      "Target": "Data/mail",
+      "Entries": {
+        "spring_19_1": "To @,^Hello, new farmer! Spring is here again, have you seen the dandelions on the ground? I'd like one for my dandelion coffee, and I'd be glad if you could help. ^That's how humans write letters, isn't it? I'm not quite used to it yet. ^ (Crooked handwriting and typos, it seems the letter writer isn't used to this method of writing) . ^-Feliciano%item quest 03171007 %%[#]Feliciano needs a dandelion",
+      }
+    },
+	
+  {
+    "LogName": "Feliciano Quest",
+    "Action": "EditData",
+    "Target": "Data/Quests",
+    "Entries": {
+      
+      "03171007": "ItemDelivery/Dandelion Coffee/Feliciano needs a dandelion./Bring Feliciano a dandelion./Feliciano 22/-1/200/-1/true/VE-!Thank you so much! Of course spring starts with a steaming cup of dandelion coffee ......$1",
+    }
+  },
+
+    {
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      
+      "Entries": {
+        "Feliciano": "Wowah - how did you know this was my favorite?GRAZIE！/618 649 253 18 256 196 62 68 202 206 212 224 593 649 921 395 430/GRAZIE！I like it!/393 305 308 169 22 192 176 174 180 182 184 186 442 438 436 88 265 /Uh ...... is this considered a human ritual ......?$6/90/……ve/832/ve……In the words of you humans, 'it's the thought that counts', right?/-4/"
+      },
+      "When": {
+        "Relationship:Feliciano |contains=Married": false,
+
+      }
+    },
+
+    {
+      "LogName": "NPC Concession Tastes",
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+        "Name": "Feliciano",
+        
+        "LovedTags": [
+                  "Sweet"
+        ],
+        "LikedTags": [
+          "Salty",
+          "Popcorn"
+        ],
+        "DislikedTags": [
+          "Kale Smoothie"
+        ]
+      }
+    },
+
+    
+    {
+     "LogName": "Feliciano Animations",
+"Action": "EditData",
+"Target": "Data/animationDescriptions",
+"Entries": {
+       "Feliciano_sleep": "20/20 20 20 20 20 21 21 21 21 21 22 22 22 22 22 23 23 23 23 23 20 20 20 20 20 21 21 21 21 21/21", 
+        "Feliciano_sa": "20/20 20 20 20 20 21 21 21 21 21 22 22 22 22 22 23 23 23 23 23 20 20 20 20 20 21 21 21 21 21/21", 
+"Feliciano_rest": "32/32 32 32 32 32 33 33 33 33 33 34 34 34 34 34 35 35 35 35 35 35 35 35 34 34 34 34 34 33 33 33 33 33 32 32 32 32 32/32",
+"Feliciano_eat": "16/16 16 16 16 16 17 17 17 17 17 18 18 18 18 18 19 19 19 19 19 16 16 16 16 16 17 17 17 17 17/17",
+"Feliciano_read": "40/40 40 40 40 40 40 40 40 40 40 41 41 41 41 41 41 41 41 41 41 42 42 42 42 42 42 42 42 42 42 43 43 43 43 43 43 43 43 43 43 40 40 40 40 40 40 40 40 40 40 41 41 41 41 41 41 41 41 41 41/41",
+}
+},
+ 
+  
+   
+    
+    {
+      "LogName": "Feliciano",
+      "Action": "Load",
+      "Target": "Characters/Feliciano",
+      "FromFile": "assets/Image/FelicianoSprites.png"
+    },
+
+    {
+      "LogName": "Feliciano2",
+      "Action": "Load",
+      "Target": "Portraits/Feliciano",
+      "FromFile": "assets/Image/FelicianoPortraits.png"
+    },
+
+
+    {
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueFeliciano",
+      "FromFile": "assets/Dialogue/FelicianoMarriageDialogue.json",
+    },
+ {
+      "LogName": "NPC Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Feliciano",
+      "FromFile": "assets/Dialogue/FelicianoDialogue.json"
+    },
+   
+    {
+      
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Feliciano",
+      "Entries": {
+       "AcceptBirthdayGift_Liked": "A birthday present? That's great!$1",
+        "AcceptBirthdayGift_Loved": "Oh - you remembered my birthday! I'm so happy!$4",
+        "AcceptBirthdayGift_Hated": "ve……Are you sick of me? *sob*",
+        "AcceptBirthdayGift_Disliked": "ve……In the words of you humans, 'it's the thought that counts', right?"
+      },
+      
+      "When": {
+        "Relationship:Feliciano |contains=Married": false,
+        "Season": "spring",
+        "Day": "17"
+      }
+    },
+    {
+      "Action": "EditData",
+        "Target": "Characters/Dialogue/Feliciano",
+        
+         "Entries": {
+          "AcceptBirthdayGift_Liked": "Oh - a birthday present! Thank you darling!$1#$b#%Feliciano took you in his arms and kissed you again and again.",
+          "AcceptBirthdayGift_Loved": "Oh - a birthday present! Honey, you're always so sweet!#$b#%Feliciano gives you a big hug with a wagging tail and an accompanying wet kiss on the cheek.#$b#@, I'm going to wish on a cake this year too right? But - my wish has already been granted a long time ago!$3",
+          "AcceptBirthdayGift_Hated": "ve……Are you sick of me? *sob*",
+          "AcceptBirthdayGift_Disliked": "Honey, I don't like this gift.$8"
+        },
+        
+        "When":{
+          "Relationship:Feliciano": "Married",
+          "Season": "spring",
+          "Day": "17"
+        }
+     },
+
+    {
+      "Action": "EditData",
+      "Target": "Strings/StringsFromCSFiles",
+      
+      "Entries": {
+        "NPC.cs.3985": "......@，I heard about that. You're giving gifts to other people.$5#$b#Next time, don't do that again......$6",
+        "NPC.cs.4440": "Oh @，You know what? I didn't even think at the time that this day would come so soon ......$1#$b#Do you think ...... I would be a good dad?",
+        "NPC.cs.4441": "Haha, what will our kids call me when they come home? I'd prefer to just call me by my name , after all I'm only an adult for a short while by our werewolf age.$1",
+        "NPC.cs.4447": "What would you like to eat today? Chowder, or shall I go to the forest and catch you a pheasant for soup? I heard Mr. Gus say that chicken soup will help your health!$0",
+        "NPC.cs.4448": "You don't look so good. I'm sure you're tired from work, aren't you? Don't work anymore today, okay?$8",
+      },
+      "When": {
+        "Relationship:Feliciano": "Engaged, Married"
+      }
+      
+      
+    },
+    
+    {
+      "LogName": "NPC Schedules",
+      "Action": "Load",
+      "Target": "Characters/schedules/Feliciano",
+      "FromFile": "assets/Schedules/schedule.json",
+    },
+	{
+      "Action": "Load",
+      "Target": "Strings/schedules/Feliciano",
+      "FromFile": "assets/Schedules/ScheduleDialogue.json"
+	  },    
+
+
+    
+
+
+
+    
+    {
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Entries": {
+      "Feliciano": {
+        "NPCName": "Feliciano",
+        "Reactions": [
+        {
+            "Tag": "spring_movie_0",
+            "Response": "like",
+            "Whitelist": [],
+            "SpecialResponses": {
+              "BeforeMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "Look at the poster. It's a movie about spring. It's so nice--"
+              },
+              "DuringMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+          "Text": "It's raining so hard, the little tree will be fine, right...?$8"
+              },
+              "AfterMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "It reminds me of the bedtime stories my grandfather told me, which I'd like to watch next time!$1"
+              }
+            },
+            "ID": "reaction_2"
+          },
+        {
+            "Tag": "summer_movie_0",
+            "Response": "hate",
+            "Whitelist": [],
+            "SpecialResponses": {
+              "BeforeMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "Is this ...... the same console that was in the saloon?"
+              },
+              "DuringMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "……Is the guy ...... who just died?$9"
+              },
+              "AfterMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "I appreciate your willingness to bring me to the movies, but ...... Next time, don't watch a movie like this.$2"
+              }
+            },
+            "ID": "reaction_3"
+          },
+        {
+            "Tag": "fall_movie_0",
+            "Response": "dislike",
+            "Whitelist": [],
+            "SpecialResponses": {
+              "BeforeMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "Will there be - in your words - supernatural creatures like me in this movie?"
+              },
+              "DuringMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "*yawn*$9"
+              },
+              "AfterMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "Hmmm ...... So supernatural beings are bad guys to you humans?$7"
+              }
+            },
+            "ID": "reaction_4"
+          },
+        {
+            "Tag": "winter_movie_0",
+            "Response": "love",
+            "Whitelist": [],
+            "SpecialResponses": {
+              "BeforeMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "''Miracle'', I love that word."
+              },
+              "DuringMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "%You notice Feliciano sobbing secretly."
+              },
+              "AfterMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "A family stays together no matter what, right?$8#$b#No no! I love this movie, it's just ...... it makes me feel a little sad ......"
+              }
+            },
+            "ID": "reaction_5"
+          },
+          {
+            "Tag": "spring_movie_1",
+            "Response": "love",
+            "Whitelist": [],
+            "SpecialResponses": {
+              "BeforeMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "Oooooh! That's the forest we pass through when we migrate!"
+              },
+              "DuringMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "%Feliciano keeps gabbing away at you about the various flora and fauna that appear in the movie, but in all fairness, he's a great tour guide."
+              },
+              "AfterMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "I'll definitely take you for a walk in the countryside if you have the chance. It's a real wonderland there!"
+              }
+            },
+            "ID": "reaction_6"
+          },
+          {
+            "Tag": "summer_movie_1",
+            "Response": "like",
+            "Whitelist": [],
+            "SpecialResponses": {
+              "BeforeMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "This alien looks so cute, haha!$1"
+              },
+              "DuringMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "%Feliciano's laughter doesn't stop throughout the entire movie, it's just a difference in volume."
+              },
+              "AfterMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "Oh - it's really too cute!$1"
+              }
+            },
+            "ID": "reaction_7"
+          },
+        {
+            "Tag": "fall_movie_1",
+            "Response": "hate",
+            "Whitelist": [],
+            "SpecialResponses": {
+              "BeforeMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "Is this a horror movie? Ooo ......"
+              },
+              "DuringMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "%Wrapped in a movie theater blanket, Feliciano cowered low in his seat, clutching his tail, his ears drooping listlessly."
+              },
+              "AfterMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "Wish I could sleep tonight ......$2"
+              }
+            },
+            "ID": "reaction_8"
+          },
+        {
+            "Tag": "winter_movie_1",
+            "Response": "like",
+            "Whitelist": [],
+            "SpecialResponses": {
+              "BeforeMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "A black and white movie? Why doesn't it have color?$7"
+              },
+              "DuringMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "%Feliciano was humming along to a movie interlude."
+              },
+              "AfterMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "Getting on a train for a journey that never ends sounds romantic, right?"
+              }
+            },
+            "ID": "reaction_9"
+           }
+         ]
+      }
+      }
+      },
+
+
+    
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Feliciano": "I want to play egg hunts too ......$6"
+      }
+    },
+    
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Feliciano": "Have fun, honey!"
+      },
+      "When": {
+        "Relationship:Feliciano": "Married"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "Feliciano": "I wonder if anyone will dance with me this year?"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "Feliciano": "Don't worry, I won't let my nails scratch you. *Stroke the palm of your hand*"
+      },
+      "When": {
+        "Relationship:Feliciano": "Married"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "Feliciano": "*sniff* it smells so good ...... I wish I could put pasta in it and cook it ......"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "Feliciano": "All right, darling, don't make a bitter face.#$b#%Feliciano pinched your cheek.#$b#It's a party now! Forget about that pesky diet!$1"
+      },
+      "When": {
+        "Relationship:Feliciano": "Married"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+         "Feliciano": "Jellyfish come from far away like me, and I hope I can return to my homeland someday too.$8",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Feliciano": "It's weird ...... still the same jellyfish, but I'm less homesick.#$b#Maybe it's because you're here with me,@!$1"
+      },
+      "When": {
+        "Relationship:Feliciano": "Married"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Feliciano": "I love Marnie's booth! It would have been nice if she would have let me try a bite of the cheese after the fair, haha."
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Feliciano": "Lalala~$1#$b#%Feliciano is putting colorful flowers in your booth."
+      },
+      "When": {
+        "Relationship:Feliciano": "Married"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall27",
+      "Entries": {
+        "Feliciano": "The mayor thought about putting me in a maze to scare people, but I got bored going around there and I'm so hungry ......$6"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall27",
+      "Entries": {
+        "Feliciano": "Ha! Trick or treat!#$b#%Feliciano pretends to flash his fangs and claws at you openly, and you hand him a long-prepared candy.#$e#*chews lollipop* I love Spirit's Eve!$1"
+      },
+      "When": {
+        "Relationship:Feliciano": "Married"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Feliciano": "I can't fish, it's a little more for me to just dive in and catch."
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Feliciano": "Go for it ,@！$1#$b#%Feliciano gives you a big hug and rubs his nose against your cheek.#$b#If you catch a big fish, I'll be able to make fish soup tonight."
+      },
+      "When": {
+        "Relationship:Feliciano": "Married"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "Feliciano": "VE！I love gifts!$1"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "Feliciano": "*whispers* ......@, I'm getting my own 'present' tonight, right?$3"
+      },
+      "When": {
+        "Relationship:Feliciano": "Married"
+      }
+    },
+
+{
+      "Action": "Load",
+      "Target": "Characters/Feliciano_Beach",
+      "FromFile": "assets/Image/FelicianoSprites_Beach.png"
+    },
+
+{
+      "Action": "Load",
+      "Target": "Portraits/Feliciano_Beach",
+      "FromFile": "assets/Image/FelicianoPortraits_Beach.png"
+    },
+
+
+   
+    
+    
+  ]
+}

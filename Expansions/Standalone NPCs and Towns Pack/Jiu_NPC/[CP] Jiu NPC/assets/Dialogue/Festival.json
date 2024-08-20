@@ -1,0 +1,511 @@
+{
+  "Changes": [
+{//添加角色进节日
+        "LogName": "Egg Festival",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "TextOperations": [
+        {
+            "Operation": "Append",
+            "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+            "Value": "Jiu 23 62 2",
+                        "Delimiter": "/"
+        },//22 69 1 备用位置
+        {
+            "Operation": "Append",
+            "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+            "Value": "Jiu 36 26 2",
+                        "Delimiter": "/"
+        },//37 66 3 备用位置
+],
+},
+
+{
+        "LogName": "Egg Festival_2",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "TextOperations": [
+        {
+            "Operation": "Append",
+            "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+            "Value": "Jiu 30 56 2",
+                        "Delimiter": "/"
+        },//14 53 2 备用位置
+        {
+            "Operation": "Append",
+            "Target": [ "Entries", "MainEvent_additionalCharacters_y2" ],
+            "Value": "Jiu 27 59 2",
+                        "Delimiter": "/"
+        },//27 72 0 备用位置
+],
+},
+
+{
+        "LogName": "Flower Dance_1",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "TextOperations": [
+        {
+            "Operation": "Append",
+            "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+            "Value": "Jiu 9 34 2",
+                        "Delimiter": "/"
+        },   
+        {
+            "Operation": "Append",
+            "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+            "Value": "Jiu 6 30 0",
+                        "Delimiter": "/"
+        },
+],
+},
+
+{
+        "LogName": "Flower Dance_2",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "TextOperations": [
+        {
+            "Operation": "Append",
+            "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+            "Value": "Jiu 16 34 2",
+                        "Delimiter": "/"
+        },
+        {
+            "Operation": "Append",
+            "Target": [ "Entries", "MainEvent_additionalCharacters_y2" ],
+            "Value": "Jiu 8 21 2",
+                        "Delimiter": "/"
+        },
+],
+},
+
+{
+        "LogName": "Luau_1",
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "TextOperations": [
+        {
+            "Operation": "Append",
+            "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+            "Value": "Jiu 29 36 2",
+                        "Delimiter": "/"
+        },
+        {
+            "Operation": "Append",
+            "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+            "Value": "Jiu 44 11 3",
+                        "Delimiter": "/"
+        },
+],
+},
+
+{
+        "LogName": "Luau_2",
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "TextOperations": [
+        {
+            "Operation": "Append",
+            "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+            "Value": "Jiu 13 27 1",
+                        "Delimiter": "/"
+        },
+        {//还没适配
+            "Operation": "Append",
+            "Target": [ "Entries", "MainEvent_additionalCharacters_y2" ],
+            "Value": "Jiu 30 15 0",
+                        "Delimiter": "/"
+        },
+],
+},
+
+{
+        "LogName": "Jellies_1",
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer28",
+        "TextOperations": [
+        {
+            "Operation": "Append",
+            "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+            "Value": "Jiu 30 20 2",
+                        "Delimiter": "/"
+        },
+        {
+            "Operation": "Append",
+            "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+            "Value": "Jiu 30 20 2",
+                        "Delimiter": "/"
+        },
+],
+},
+
+{
+        "LogName": "Jellies_2",
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer28",
+        "TextOperations": [
+        {
+            "Operation": "Append",
+            "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+            "Value": "Jiu 39 31 1",
+                        "Delimiter": "/"
+        },
+        {
+            "Operation": "Append",
+            "Target": [ "Entries", "MainEvent_additionalCharacters_y2" ],
+            "Value": "Jiu 39 31 2",
+                        "Delimiter": "/"
+        },
+],
+},
+
+{
+        "LogName": "Fair_1",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+        "TextOperations": [
+        {
+            "Operation": "Append",
+            "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+            "Value": "Jiu 62 100 2",
+                        "Delimiter": "/"
+        },
+],
+},
+
+{
+        "LogName": "Fair_2",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+        "TextOperations": [
+        {
+            "Operation": "Append",
+            "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+            "Value": "Jiu 18 40 1",
+                        "Delimiter": "/"
+        },
+],
+},
+
+{
+        "LogName": "Spirits_eve_1",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+        "TextOperations": [
+        {
+            "Operation": "Append",
+            "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+            "Value": "Jiu 24 69 2",
+                        "Delimiter": "/"
+        },
+
+],
+},
+
+{
+        "LogName": "Spirits_eve_2",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+        "TextOperations": [
+        {
+            "Operation": "Append",
+            "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+            "Value": "Jiu 60 22 1",
+                        "Delimiter": "/"
+        },
+],
+},
+
+{//Sve你别改地图了，求你了。
+        "LogName": "Spirits_eve_3",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+        "When": {
+                "Year": "3, 7, 11, 15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 57, 61, 65, 69, 73, 77, 81, 85, 89, 93, 97",
+        	"HasMod": "FlashShifter.StardewValleyExpandedCP"
+            },
+        "TextOperations": [
+        {
+            "Operation": "Append",
+            "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+            "Value": "Jiu 25 57 1",
+                        "Delimiter": "/"
+        },
+],
+},
+
+{
+        "LogName": "IceFestival_1",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+        "When": {
+        	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            },
+        "TextOperations": [
+        {
+            "Operation": "Append",
+            "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+            "Value": "Jiu 78 43 1",
+                        "Delimiter": "/"
+        },
+        {
+            "Operation": "Append",
+            "Target": [ "Entries", "Main-Event_additionalCharacters" ],
+            "Value": "Jiu 67 42 0",
+                        "Delimiter": "/"
+        },
+],
+},
+
+{
+        "LogName": "IceFestival_2",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+        "When": {
+        	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            },
+        "TextOperations": [
+        {
+            "Operation": "Append",
+            "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+            "Value": "Jiu 80 15 2",
+                        "Delimiter": "/"
+        },
+        {
+            "Operation": "Append",
+            "Target": [ "Entries", "Main-Event_additionalCharacters_y2" ],
+            "Value": "Jiu 78 27 2",
+                        "Delimiter": "/"
+        },
+],
+},
+
+{//Sve你知道你有多难适配吗
+        "LogName": "IceFestival_1",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+        "When": {
+        	"HasMod": "FlashShifter.StardewValleyExpandedCP"
+            },
+        "TextOperations": [
+        {
+            "Operation": "Append",
+            "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+            "Value": "Jiu 83 38 3",
+                        "Delimiter": "/"
+        },
+        {
+            "Operation": "Append",
+            "Target": [ "Entries", "Main-Event_additionalCharacters" ],
+            "Value": "Jiu 83 38 3",
+                        "Delimiter": "/"
+        },
+],
+},
+
+{//Sve我快写秃了
+        "LogName": "IceFestival_2",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+        "When": {
+        	"HasMod": "FlashShifter.StardewValleyExpandedCP"
+            },
+        "TextOperations": [
+        {
+            "Operation": "Append",
+            "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+            "Value": "Jiu 80 15 2",
+                        "Delimiter": "/"
+        },
+        {
+            "Operation": "Append",
+            "Target": [ "Entries", "Main-Event_additionalCharacters_y2" ],
+            "Value": "Jiu 72 43 0",
+                        "Delimiter": "/"
+        },
+],
+},
+
+{
+        "LogName": "Christmas_1",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+        "When": {
+        	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            },
+        "TextOperations": [
+        {
+            "Operation": "Append",
+            "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+            "Value": "Jiu 25 67 0",
+                        "Delimiter": "/"
+        },
+],
+},
+
+{//sve放过我
+        "LogName": "Christmas_1_Sve",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+        "When": {
+        	"HasMod": "FlashShifter.StardewValleyExpandedCP"
+            },
+        "TextOperations": [
+        {
+            "Operation": "Append",
+            "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+            "Value": "Jiu 24 67 0",
+                        "Delimiter": "/"
+        },
+],
+},
+
+{
+        "LogName": "Christmas_2",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+        "TextOperations": [
+        {
+            "Operation": "Append",
+            "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+            "Value": "Jiu 23 76 2",
+                        "Delimiter": "/"
+        },
+],
+},
+
+{ //节日对话
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring13",
+      "Entries": {
+        "Jiu": "{{i18n:Jiu_EggFestival.1}}",
+	"Jiu_spouse": "{{i18n:Jiu_EggFestival.1.spouse}}",
+        "Jiu_y2": "{{i18n:Jiu_EggFestival.2}}",
+        "Jiu_spouse_y2": "{{i18n:Jiu_EggFestival.2.spouse}}"
+      }
+    },
+
+{
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring24",
+      "Entries": {
+        "Jiu": "{{i18n:Jiu_FlowerDance.1}}",
+	"Jiu_spouse": "{{i18n:Jiu_FlowerDance.1.spouse}}",
+        "Jiu_y2": "{{i18n:Jiu_FlowerDance.2}}",
+        "Jiu_spouse_y2": "{{i18n:Jiu_FlowerDance.2.spouse}}"
+      }
+    },
+
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11",
+      "Entries": {
+        "Jiu": "{{i18n:Jiu_Luau.1}}",
+	"Jiu_spouse": "{{i18n:Jiu_Luau.1.spouse}}",
+        "Jiu_y2": "{{i18n:Jiu_Luau.2}}",
+        "Jiu_spouse_y2": "{{i18n:Jiu_Luau.2.spouse}}",
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer28",
+      "Entries": {
+        "Jiu": "{{i18n:Jiu_Jellies.1}}",
+	"Jiu_spouse": "{{i18n:Jiu_Jellies.1.spouse}}",
+        "Jiu_y2": "{{i18n:Jiu_Jellies.2.spouse}}",
+        "Jiu_spouse_y2": "{{i18n:Jiu_Jellies.2.spouse}}"
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall16",
+      "Entries": {
+        "Jiu": "{{i18n:Jiu_Fair.1}}",
+        "Jiu_spouse": "{{i18n:Jiu_Fair.1.spouse}}",//你可以在评前和评后刷，一共两个。因为我不知道怎么改它。
+        "Jiu_y2": "{{i18n:Jiu_Fair.2}}",
+        "Jiu_spouse_y2": "{{i18n:Jiu_Fair.2.spouse}}"
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall27",
+      "When": {
+        	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            },
+      "Entries": {
+	"Jiu": "{{i18n:Jiu_Spiritseve.1}}",
+	"Jiu_spouse": "{{i18n:Jiu_Spiritseve.1.spouse}}",
+	"Jiu_y2": "{{i18n:Jiu_Spiritseve.2}}",
+	"Jiu_spouse_y2": "{{i18n:Jiu_Spiritseve.2.spouse}}"
+      }
+    },
+
+{//Sve我真的很累
+        "LogName": "Spirits_eve_3_dialog1",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+        "When": {
+                "Year": "1, 5, 9, 13, 17, 21, 25,  29, 33, 37, 41, 45, 49, 53, 56, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99",
+        	"HasMod": "FlashShifter.StardewValleyExpandedCP"
+            },
+      "Entries": {
+	"Jiu": "{{i18n:Jiu_Spiritseve.1}}",
+	"Jiu_spouse": "{{i18n:Jiu_Spiritseve.1.spouse}}",
+      }
+},
+
+{//Sve我真的对你无语
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall27",
+      "When": {
+        	"HasMod": "FlashShifter.StardewValleyExpandedCP"
+            },
+      "Entries": {
+	"Jiu_y2": "{{i18n:Jiu_Spiritseve.2}}",
+	"Jiu_spouse_y2": "{{i18n:Jiu_Spiritseve.2.spouse}}"
+      }
+},
+
+{//Sve还有你那冰雪节。
+        "LogName": "Spirits_eve_3_dialog2",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+        "When": {
+                "Year": "3, 7, 11, 15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 57, 61, 65, 69, 73, 77, 81, 85, 89, 93, 97",
+        	"HasMod": "FlashShifter.StardewValleyExpandedCP"
+            },
+      "Entries": {
+	"Jiu": "{{i18n:Jiu_Spiritseve.3.sve}}",
+	"Jiu_spouse": "{{i18n:Jiu_Spiritseve.3.spouse.sve}}",
+      }
+},
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter8",
+      "Entries": {
+	"Jiu": "{{i18n:Jiu_IceFestival.1}}",
+	"Jiu_spouse": "{{i18n:Jiu_IceFestival.1.spouse}}",
+	"Jiu_y2": "{{i18n:Jiu_IceFestival.2}}",
+	"Jiu_spouse_y2": "{{i18n:Jiu_IceFestival.2.spouse}}"
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter25",
+      "Entries": {
+	"Jiu": "{{i18n:Jiu_Christmas.1}}",
+	"Jiu_spouse": "{{i18n:Jiu_Christmas.1.spouse}}",
+	"Jiu_y2": "{{i18n:Jiu_Christmas.2}}",
+	"Jiu_spouse_y2": "{{i18n:Jiu_Christmas.2.spouse}}"
+      }
+    },
+
+     ]
+}

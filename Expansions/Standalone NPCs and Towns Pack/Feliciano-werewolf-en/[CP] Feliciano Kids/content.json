@@ -1,0 +1,61 @@
+{
+  "Format": "1.5",
+  
+  "Changes": [
+       // Babies
+      {
+          "Action": "EditImage",
+          "Target": "Characters/Baby",
+          "FromFile": "assets/baby.png",
+      "When": {
+       "Relationship:Feliciano": "Married"
+      }
+      },
+
+	  {
+	      "Action": "EditImage",
+		  "Target": "Characters/Baby_dark",
+		  "FromFile": "assets/baby_dark.png",
+      "When": {
+       "Relationship:Feliciano": "Married"
+     }
+	 },
+
+	   //Toddlers
+	 {
+	      "Action": "EditImage",
+		  "Target": "Characters/Toddler",
+		  "FromFile": "assets/toddler.png",
+      "When": {
+       "Relationship:Feliciano": "Married"
+     }
+	 },
+
+	 {
+	      "Action": "EditImage",
+		  "Target": "Characters/Toddler_dark",
+		  "FromFile": "assets/toddler_dark.png",
+      "When": {
+       "Relationship:Feliciano": "Married"
+     }
+	 },
+
+	 {
+	      "Action": "EditImage",
+		  "Target": "Characters/Toddler_girl",
+		  "FromFile": "assets/toddler_girl.png",
+      "When": {
+       "Relationship:Feliciano": "Married"
+     }
+	 },
+
+	 {
+	      "Action": "EditImage",
+		  "Target": "Characters/Toddler_girl_dark",
+		  "FromFile": "assets/toddler_girl_dark.png",
+      "When": {
+       "Relationship:Feliciano": "Married"
+     }
+	   }
+    ]
+}

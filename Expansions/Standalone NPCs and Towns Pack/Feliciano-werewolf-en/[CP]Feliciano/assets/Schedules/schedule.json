@@ -1,0 +1,42 @@
+﻿//0上，1右，2下，3左
+{
+"rain": "610 Forest 11 10 2 Feliciano_sa \"Strings\\schedules\\Feliciano:intro.001\"/800 Forest 97 23 0/1200 ArchaeologyHouse 15 9 2 Feliciano_read \"Strings\\schedules\\Feliciano:intro.004\"/1500 ArchaeologyHouse 18 12 2 Feliciano_rest \"Strings\\schedules\\Feliciano:intro.002\"/1830 Saloon 7 20 2 Feliciano_eat \"Strings\\schedules\\Feliciano:intro.003\"/2130 Forest 11 10 2 Feliciano_sleep",
+"Sat": "GOTO rain",
+
+"GreenRain": "610 Forest 11 10 2 Feliciano_sa \"Strings\\schedules\\Feliciano:intro.001\"/800 ArchaeologyHouse 15 9 2 Feliciano_read \"Strings\\schedules\\Feliciano:intro.022\"/1500 ArchaeologyHouse 18 12 2 Feliciano_rest \"Strings\\schedules\\Feliciano:intro.002\"/1830 Saloon 7 20 2 Feliciano_eat \"Strings\\schedules\\Feliciano:intro.003\"/2130 Saloon 23 18 2 Feliciano_sleep",
+
+
+"default": "610 Forest 11 10 2 Feliciano_sa \"Strings\\schedules\\Feliciano:intro.001\"/800 Forest 97 23 0/1200 Forest 48 30 2 Feliciano_rest \"Strings\\schedules\\Feliciano:intro.002\"/1430 Beach 48 25 2 \"Strings\\schedules\\Feliciano:intro.000\"/1830 Saloon 7 20 2 Feliciano_eat \"Strings\\schedules\\Feliciano:intro.003\"/2130 Forest 11 10 2 Feliciano_sleep",
+"Mon": "GOTO default",
+"Tue": "GOTO default",
+"Wed": "GOTO default",
+"Thu": "GOTO default",
+"Fri": "GOTO default",
+"Sun": "GOTO default",
+
+"DesertFestival_1": "610 Forest 11 10 2 Feliciano_sa \"Strings\\schedules\\Feliciano:intro.001\"/800 Desert 7 24 0 \"Strings\\schedules\\Feliciano:intro.018\"/1300 Desert 25 62 1 \"Strings\\schedules\\Feliciano:intro.019\"/2130 Forest 11 10 2 Feliciano_sleep",
+"DesertFestival_2": "610 Forest 11 10 2 Feliciano_sa \"Strings\\schedules\\Feliciano:intro.001\"/800 Desert 7 24 0 \"Strings\\schedules\\Feliciano:intro.018\"/1300 Desert 27 52 2 \"Strings\\schedules\\Feliciano:intro.020\"/2130 Forest 11 10 2 Feliciano_sleep",
+"DesertFestival_3": "610 Forest 11 10 2 Feliciano_sa \"Strings\\schedules\\Feliciano:intro.001\"/800 Desert 7 24 0 \"Strings\\schedules\\Feliciano:intro.014\"/1300 Desert 6 12 2 \"Strings\\schedules\\Feliciano:intro.017\"/2130 Forest 11 10 2 Feliciano_sleep",
+
+"winter_15": "610 Forest 11 10 2 Feliciano_sa \"Strings\\schedules\\Feliciano:intro.001\"/800 Forest 97 23 0/1200 Forest 48 30 2 Feliciano_rest \"Strings\\schedules\\Feliciano:intro.008\"1500 SeedShop 2 24 3\"Strings\\schedules\\Feliciano:intro.012\"/1730 Beach 27 34 2 \"Strings\\schedules\\Feliciano:intro.013\"/2200 Forest 11 10 2 Feliciano_sleep",
+"winter_16": "610 Forest 11 10 2 Feliciano_sa \"Strings\\schedules\\Feliciano:intro.001\"/800 Forest 97 23 0/1200 Forest 48 30 2 Feliciano_rest \"Strings\\schedules\\Feliciano:intro.008\"1500 SeedShop 2 24 3\"Strings\\schedules\\Feliciano:intro.012\"/1730 Beach 27 34 2 \"Strings\\schedules\\Feliciano:intro.013\"/2200 Forest 11 10 2 Feliciano_sleep",
+"winter_17": "610 Forest 11 10 2 Feliciano_sa \"Strings\\schedules\\Feliciano:intro.001\"/800 Forest 97 23 0/1200 Forest 48 30 2 Feliciano_rest \"Strings\\schedules\\Feliciano:intro.008\"1500 SeedShop 2 24 3\"Strings\\schedules\\Feliciano:intro.012\"/1730 Beach 27 34 2 \"Strings\\schedules\\Feliciano:intro.013\"/2200 Forest 11 10 2 Feliciano_sleep",
+
+
+"marriage_Mon": "1200 Beach 48 25 2 Feliciano_rest \"Strings\\schedules\\Feliciano:intro.005\"/1730 Saloon 7 20 2 Feliciano_eat \"Strings\\schedules\\Feliciano:intro.006\"/2000 bed",
+"marriage_Fri": "1200 Forest 48 30 2 Feliciano_rest \"Strings\\schedules\\Feliciano:intro.008\"/1630 Saloon 7 20 2 Feliciano_eat \"Strings\\schedules\\Feliciano:intro.006\"/2000 bed",
+"marriage_Sat": "1200 ArchaeologyHouse 15 9 2 Feliciano_read \"Strings\\schedules\\Feliciano:intro.007\"/1500 ArchaeologyHouse 18 12 2 Feliciano_rest \"Strings\\schedules\\Feliciano:intro.008\"/1730 Saloon 7 20 2 Feliciano_eat \"Strings\\schedules\\Feliciano:intro.006\"/2000 bed",
+
+"marriage_DesertFestival_1": "1000 Desert 7 24 0 \"Strings\\schedules\\Feliciano:intro.014\"/1300 Desert 25 62 1 \"Strings\\schedules\\Feliciano:intro.015\"/2000 bed",
+"marriage_DesertFestival_2": "1000 Desert 7 24 0 \"Strings\\schedules\\Feliciano:intro.014\"/1300 Desert 27 52 2 \"Strings\\schedules\\Feliciano:intro.016\"/2000 bed",
+"marriage_DesertFestival_3": "1000 Desert 7 24 0 \"Strings\\schedules\\Feliciano:intro.014\"/1300 Desert 6 12 2 \"Strings\\schedules\\Feliciano:intro.017\"/2000 bed",
+
+"marriage_winter_15": "1200 Forest 48 30 2 Feliciano_rest \"Strings\\schedules\\Feliciano:intro.009\"/1500 SeedShop 2 25 2 \"Strings\\schedules\\Feliciano:intro.010\"/1630 Beach 13 36 2 \"Strings\\schedules\\Feliciano:intro.011\"/2000 bed",
+"marriage_winter_16": "1200 Forest 48 30 2 Feliciano_rest \"Strings\\schedules\\Feliciano:intro.009\"/1500 SeedShop 2 25 2 \"Strings\\schedules\\Feliciano:intro.010\"/1630 Beach 13 36 2 \"Strings\\schedules\\Feliciano:intro.011\"/2000 bed",
+"marriage_winter_17": "1200 Forest 48 30 2 Feliciano_rest \"Strings\\schedules\\Feliciano:intro.009\"/1500 SeedShop 2 25 2 \"Strings\\schedules\\Feliciano:intro.010\"/1630 Beach 13 36 2 \"Strings\\schedules\\Feliciano:intro.011\"/2000 bed",
+
+
+
+
+	
+	}

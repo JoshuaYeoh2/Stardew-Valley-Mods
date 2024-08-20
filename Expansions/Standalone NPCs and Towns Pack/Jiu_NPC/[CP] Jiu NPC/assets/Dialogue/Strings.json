@@ -1,0 +1,208 @@
+{
+"Changes": [    
+
+ {
+        "Action": "EditData",
+        "Target": "Strings/StringsFromCSFiles",
+        "Entries":
+          {
+        "NPC.cs.3985": "{{i18n:Jiu_Strings.3985}}",//嫉妒
+          },  
+        "When": {
+	"Spouse": "Jiu"
+           }
+      },
+
+//1.6增加的沙漠节
+    {
+      "Action": "EditData",
+      "Target": "Strings/1_6_Strings",
+      "Entries": 
+      {
+        "Shop_Jiu": "{{i18n:Jiu_Strings.calicoshops}}"
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "Entries": 
+      {
+        "DesertFestival_Jiu": {
+          "Currency": 0,
+          "StackSizeVisibility": null,
+          "OpenSound": null,
+          "PurchaseSound": null,
+          "PurchaseRepeatSound": null,
+          "PriceModifiers": null,
+          "PriceModifierMode": "Stack",
+          "Owners": [
+            {
+              "Condition": null,
+              "Portrait": null,
+              "Dialogues": [
+                {
+                  "Id": "Default",
+                  "Condition": null,
+                  "Dialogue": "[LocalizedText Strings\\1_6_Strings:Shop_Jiu]",
+                  "RandomDialogue": null
+                }
+              ],
+              "RandomizeDialogueOnOpen": true,
+              "ClosedMessage": null,
+              "Id": "Jiu",
+              "Name": "Jiu"
+            }
+          ],
+          "VisualTheme": null,
+          "SalableItemTags": null,
+          "Items": [
+            {
+              "ActionsOnPurchase": null,
+              "CustomFields": null,
+              "TradeItemId": "CalicoEgg",
+              "TradeItemAmount": 70,
+              "Price": -1,
+              "ApplyProfitMargins": null,
+              "AvailableStock": 1,
+              "AvailableStockLimit": "Player",
+              "AvoidRepeat": false,
+              "UseObjectDataPrice": false,
+              "IgnoreShopPriceModifiers": false,
+              "PriceModifiers": null,
+              "PriceModifierMode": "Stack",
+              "AvailableStockModifiers": null,
+              "AvailableStockModifierMode": "Stack",
+              "Condition": null,
+              "Id": "Jiufeather",
+              "ItemId": "Jiufeather",
+              "RandomItemId": null,
+              "MaxItems": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack",
+              "ModData": null,
+              "PerItemCondition": null
+            },
+            {
+              "ActionsOnPurchase": null,
+              "CustomFields": null,
+              "TradeItemId": "CalicoEgg",
+              "TradeItemAmount": 15,
+              "Price": -1,
+              "ApplyProfitMargins": null,
+              "AvailableStock": 5,
+              "AvailableStockLimit": "Player",
+              "AvoidRepeat": false,
+              "UseObjectDataPrice": false,
+              "IgnoreShopPriceModifiers": false,
+              "PriceModifiers": null,
+              "PriceModifierMode": "Stack",
+              "AvailableStockModifiers": null,
+              "AvailableStockModifierMode": "Stack",
+              "Condition": null,
+              "Id": "(O)732",
+              "ItemId": "(O)732",
+              "RandomItemId": null,
+              "MaxItems": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack",
+              "ModData": null,
+              "PerItemCondition": null
+            },
+            {
+              "ActionsOnPurchase": null,
+              "CustomFields": null,
+              "TradeItemId": "CalicoEgg",
+              "TradeItemAmount": 50,
+              "Price": -1,
+              "ApplyProfitMargins": null,
+              "AvailableStock": 1,
+              "AvailableStockLimit": "Player",
+              "AvoidRepeat": false,
+              "UseObjectDataPrice": false,
+              "IgnoreShopPriceModifiers": false,
+              "PriceModifiers": null,
+              "PriceModifierMode": "Stack",
+              "AvailableStockModifiers": null,
+              "AvailableStockModifierMode": "Stack",
+              "Condition": null,
+              "Id": "(O)810",
+              "ItemId": "(O)810",
+              "RandomItemId": null,
+              "MaxItems": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack",
+              "ModData": null,
+              "PerItemCondition": null
+            },
+            {
+              "ActionsOnPurchase": null,
+              "CustomFields": null,
+              "TradeItemId": "CalicoEgg",
+              "TradeItemAmount": 20,
+              "Price": -1,
+              "ApplyProfitMargins": null,
+              "AvailableStock": 5,
+              "AvailableStockLimit": "Player",
+              "AvoidRepeat": false,
+              "UseObjectDataPrice": false,
+              "IgnoreShopPriceModifiers": false,
+              "PriceModifiers": null,
+              "PriceModifierMode": "Stack",
+              "AvailableStockModifiers": null,
+              "AvailableStockModifierMode": "Stack",
+              "Condition": null,
+              "Id": "Jiu_Fried_Crab",
+              "ItemId": "Jiu_Fried_Crab",
+              "RandomItemId": null,
+              "MaxItems": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack",
+              "ModData": null,
+              "PerItemCondition": null
+            }
+          ],
+          "CustomFields": null,
+          "ApplyProfitMargins": null
+        }
+      }
+    },
+
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "Changes": [
+{
+   "Action": "EditData",
+   "Target": "Data/Characters",
+   "Entries": {
+
+    "Jiu": {//这里改英文变量名
+     "DisplayName": "{{i18n:Jiu_Name}}",//这里改中文名字
+     "BirthSeason": 2,//出生季节，0是春天，1是夏天，2是秋天，3是冬天
+     "BirthDay": 26,//生日，1-28
+     "HomeRegion": "Town",//是处于镇上，姜岛还是沙漠（一般不用改）
+     "Language": "Default",//无视
+     "Gender": "Male",//性别，男0，女1，其他2
+     "Age": "Adult",//年龄，不用动，非要改的话0是成人，1是青少年，2是小孩
+     "Manner": "Polite",//行为举止
+     "SocialAnxiety": "Outgoing",//社交
+     "Optimism": "Negative",//心情
+     "IsDarkSkinned": false,//黑皮改成true
+     "CanBeRomanced": true,//是否可结婚，true是 false否
+     "LoveInterest": "",//官配名字，没必要改
+     "Calendar": "AlwaysShown",//是否在日历
+     "SocialTab": "UnknownUntilMet",//问号直到相遇
+     "SocializeConditions": null,//不要动
+     "CanSocialize": true,
+     "CanReceiveGifts": true,
+     "CanGreetNearbyCharacters": true,
+     "CanCommentOnPurchasedShopItems": true,
+     "CanVisitIsland": true,
+     "IntroductionsQuest": true,
+     "ItemDeliveryQuests": true,
+     "PerfectionScore": true,
+     "EndSlideShow": "MainGroup",
+     "FriendsAndFamily": {"Shane": "","Gus": "",},//朋友和家人
+     "UnlockConditions": null,//不要动
+     "SpawnIfMissing": true,//不要动
+     "FlowerDanceCanDance": true,
+     "SpouseAdopts": true,
+     "SpouseWantsChildren": true,
+     "SpouseGiftJealousy": true,
+     "TextureName": null,
+     "Appearance": [
+        {
+         "Id": "JiuWinter",
+         "Season": "Winter",
+         "Portrait": "Portraits/Jiu_winter",
+         "Sprite": "Characters/Jiu_winter",
+         "Precedence": -100,
+         "Weight": 0
+        },
+            {
+         "Id": "JiuBeach",
+         "Portrait": "Portraits/Jiu_beach",
+         "Sprite": "Characters/Jiu_beach",
+         "IsIslandAttire": true,
+         "Precedence": -120,
+         "Weight": 0
+            },
+],
+	//家
+     "Home": [
+      {
+       "Id": "JiuHome",
+       "Condition": null,
+       "Location": "Custom_jiuhouse",//出生点
+       "Tile": {
+        "X": 4,//X坐标
+        "Y": 4//Y坐标
+       },
+       "Direction": "down"//面朝向
+      }
+     ],
+//应该是精灵大小
+     "Size": {
+      "X": 16,
+      "Y": 32
+     },
+	//配偶房
+     "SpouseRoom": {
+     "MapAsset": "Jiu_SpouseRoom",
+     "MapSourceRect": {
+      "X": 0,
+      "Y": 0,
+      "Width": 6,
+      "Height": 9
+     }
+     },
+	//配偶露台
+      "SpousePatio": {
+      "MapAsset": "Jiu_SpousePatio",
+      "MapSourceRect": {
+       "X": 0,
+       "Y": 0,
+       "Width": 4,
+       "Height": 4
+      },
+	"SpriteAnimationFrames": [],
+      },
+          "SpouseFloors": [],
+          "SpouseWallpapers": [],
+	//翻垃圾桶
+     "DumpsterDiveFriendshipEffect": -25,
+     "DumpsterDiveEmote": 40,
+
+	//冬日星盛宴礼物
+     "WinterStarGifts": [
+{
+      "Condition": null,
+      "Id": "Default",
+      "ItemId": null,
+      "RandomItemId": [
+         "(O)348",
+         "(O)346",
+         "(O)341",
+         "(O)253",
+         "Jiu_Fried_Crab",
+	 "Jiu_Ramen",
+         "(O)773"
+         ],
+      "MaxItems": null,
+      "MinStack": -1,
+      "MaxStack": -1,
+      "Quality": -1,
+      "ObjectInternalName": null,
+      "ObjectDisplayName": null,
+      "ToolUpgradeLevel": -1,
+      "IsRecipe": false,
+      "StackModifiers": null,
+      "StackModifierMode": "Stack",
+      "QualityModifiers": null,
+      "QualityModifierMode": "Stack",
+      "ModData": null,
+      "PerItemCondition": null
+}
+      ],
+      "WinterStarParticipant": null,
+	//喘息
+      "Breather": true,
+      "BreathChestRect": null,
+      "BreathChestPosition": null,
+      "Shadow": null,
+      "EmoteOffset": {
+        "X": 0,
+        "Y": 0
+      },
+
+     "ShakePortraits": [],
+     "KissSpriteIndex": 28,
+     "KissSpriteFacingRight": true,
+     "HiddenProfileEmoteSound": null,
+     "HiddenProfileEmoteDuration": -1,
+     "HiddenProfileEmoteStartFrame": 16,
+     "HiddenProfileEmoteFrameCount": 4,
+     "HiddenProfileEmoteFrameDuration": 200.0,
+     "FormerCharacterNames": [],
+     "CustomFields": {}
+
+    }
+   }
+  }
+  ]
+}

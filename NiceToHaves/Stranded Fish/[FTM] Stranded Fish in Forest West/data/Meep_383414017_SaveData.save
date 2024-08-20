@@ -1,26 +1,15 @@
 {
-  "WeatherForYesterday": "Wind",
+  "WeatherForYesterday": "Sun",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
-    {
-      "MapName": "Custom_ForestWest",
-      "Name": "Dorado",
-      "Tile": "39, 150",
-      "Type": "Forage",
-      "ID": "704",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
     {
       "MapName": "Custom_ForestWest",
       "Name": "Catfish",
       "Tile": "35, 142",
       "Type": "Forage",
       "ID": "143",
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -31,7 +20,7 @@
       "Tile": "21, 130",
       "Type": "Forage",
       "ID": "145",
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null

@@ -1,0 +1,76 @@
+{
+  "Changes": [
+{
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+      "Entries": {
+	"142343/f Jiu 600/x songli1": "null",
+	"142344/f Jiu 1050/x songli1": "null",
+	"142345/f Jiu 1450/x songli2": "null",
+	"142346/f Jiu 2250/x songli3": "null",
+	"142347/f Jiu 2500/x Jiuyaoqing": "null",
+
+      },
+    },
+
+{
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "Entries": {
+        "songli1": "{{i18n:Jiu_Mail.1}}%item object (O)198 1 (O)202 1 (O)212 1 %%[#]{{i18n:Jiu_Mail.Gift}}",
+	"songli2": "{{i18n:Jiu_Mail.2}}%item object (O)198 1 (O)202 1 (O)212 1 %%[#]{{i18n:Jiu_Mail.Gift}}",
+        "songli3": "{{i18n:Jiu_Mail.3}}%item object (O)198 1 (O)202 1 (O)212 1 (O)213 1 (O)214 1 %%[#]{{i18n:Jiu_Mail.Gift}}",
+
+        "Jiuyaoqing": "{{i18n:Jiu_Mail.event10}}[#]{{i18n:Jiu_Mail.Invite}}",
+
+        "JiuCooking": "{{i18n:Jiu_Mail.Cook}}%item cookingRecipe %%[#]{{i18n:Jiu_Mail.Cooking}}",
+
+        "spring_20_1": "{{i18n:Jiu_Mail.Quest.1}}%item quest 2312631 %%[#]{{i18n:Jiu_Mail.pizza}}",
+        "winter_1_1": "{{i18n:Jiu_Mail.Quest.2}}%item quest 2312633 %%[#]{{i18n:Jiu_Mail.coffee}}",
+
+	"Jiufish": "{{i18n:Jiu_Mail_Fish}}",
+	"Jiuxiexieni": "{{i18n:Jiu_Mail.Xiexieni}}%item object (O)Jiu_Fried_Crab 1 (O)198 1 (O)253 1 (O)732 1 %%[#]{{i18n:Jiu_Mail.Gift}}",
+
+      },
+    },
+
+    {//婚后任务信件修改
+      "LogName": "Mail but Marriage",
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "Entries": {
+        "spring_20_1": "{{i18n:Jiu_Mail.Quest.1M}}%item quest 2312631 %%[#]{{i18n:Jiu_Mail.pizza}}",
+        "winter_1_1": "{{i18n:Jiu_Mail.Quest.2M}}%item quest 2312633 %%[#]{{i18n:Jiu_Mail.coffee}}",
+      },
+	"When": {
+      	"Relationship:Jiu": "Married",
+	}
+    },
+
+  {//任务
+    "LogName": "NPC Quest",
+    "Action": "EditData",
+    "Target": "Data/Quests",
+    "Entries": {
+      "2312631": "ItemDelivery/{{i18n:Jiu_Quest.1.1}}/{{i18n:Jiu_Quest.1.2}}/{{i18n:Jiu_Quest.1.3}}/Jiu 206/-1/1000/-1/true/{{i18n:Jiu_Quest.1.4}}",
+      "2312633": "ItemDelivery/{{i18n:Jiu_Quest.2.1}}/{{i18n:Jiu_Quest.2.2}}/{{i18n:Jiu_Quest.2.3}}/Jiu 395/-1/250/-1/true/{{i18n:Jiu_Quest.2.4}}",
+    }
+  },
+
+  {//任务但是结婚后
+    "LogName": "NPC Quest",
+    "Action": "EditData",
+    "Target": "Data/Quests",
+    "Entries": {
+      "2312631": "ItemDelivery/{{i18n:Jiu_Quest.1.1}}/{{i18n:Jiu_Quest.1.2}}/{{i18n:Jiu_Quest.1.3}}/Jiu 206/-1/1000/-1/true/{{i18n:Jiu_Quest.1.4M}}",
+      "2312633": "ItemDelivery/{{i18n:Jiu_Quest.2.1}}/{{i18n:Jiu_Quest.2.2}}/{{i18n:Jiu_Quest.2.3}}/Jiu 395/-1/250/-1/true/{{i18n:Jiu_Quest.2.4M}}",
+    },
+	"When": {
+      	"Relationship:Jiu": "Married",
+	}
+  },
+
+
+
+      ]
+}

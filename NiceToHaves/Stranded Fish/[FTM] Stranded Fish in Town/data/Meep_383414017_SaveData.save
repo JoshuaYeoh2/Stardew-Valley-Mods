@@ -1,26 +1,15 @@
 {
-  "WeatherForYesterday": "Wind",
+  "WeatherForYesterday": "Sun",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
-    {
-      "MapName": "Town",
-      "Name": "Green Algae",
-      "Tile": "81, 87",
-      "Type": "Forage",
-      "ID": "153",
-      "DaysUntilExpire": 2,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
     {
       "MapName": "Town",
       "Name": "Catfish",
       "Tile": "95, 21",
       "Type": "Forage",
       "ID": "143",
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -31,6 +20,17 @@
       "Tile": "82, 77",
       "Type": "Forage",
       "ID": "153",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Town",
+      "Name": "Shad",
+      "Tile": "83, 101",
+      "Type": "Forage",
+      "ID": "706",
       "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,

@@ -1,37 +1,15 @@
 {
-  "WeatherForYesterday": "Wind",
+  "WeatherForYesterday": "Sun",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
-    {
-      "MapName": "Woods",
-      "Name": "Carp",
-      "Tile": "7, 18",
-      "Type": "Forage",
-      "ID": "142",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Woods",
-      "Name": "Catfish",
-      "Tile": "5, 18",
-      "Type": "Forage",
-      "ID": "143",
-      "DaysUntilExpire": 2,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
     {
       "MapName": "Woods",
       "Name": "Catfish",
       "Tile": "12, 28",
       "Type": "Forage",
       "ID": "143",
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -42,7 +20,7 @@
       "Tile": "15, 24",
       "Type": "Forage",
       "ID": "142",
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -53,7 +31,7 @@
       "Tile": "15, 22",
       "Type": "Forage",
       "ID": "142",
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -64,6 +42,39 @@
       "Tile": "15, 20",
       "Type": "Forage",
       "ID": "734",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Woods",
+      "Name": "Carp",
+      "Tile": "5, 17",
+      "Type": "Forage",
+      "ID": "142",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Woods",
+      "Name": "Woodskip",
+      "Tile": "13, 27",
+      "Type": "Forage",
+      "ID": "734",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Woods",
+      "Name": "Carp",
+      "Tile": "16, 21",
+      "Type": "Forage",
+      "ID": "142",
       "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
