@@ -5,21 +5,10 @@
   "SavedObjects": [
     {
       "MapName": "Desert",
-      "Name": "Green Algae",
-      "Tile": "14, 46",
+      "Name": "Sandfish",
+      "Tile": "13, 9",
       "Type": "Forage",
-      "ID": "153",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Desert",
-      "Name": "Green Algae",
-      "Tile": "26, 10",
-      "Type": "Forage",
-      "ID": "153",
+      "ID": "164",
       "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -27,11 +16,22 @@
     },
     {
       "MapName": "Desert",
+      "Name": "Scorpion Carp",
+      "Tile": "25, 9",
+      "Type": "Forage",
+      "ID": "165",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Desert",
       "Name": "Sandfish",
-      "Tile": "13, 9",
+      "Tile": "5, 46",
       "Type": "Forage",
       "ID": "164",
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
