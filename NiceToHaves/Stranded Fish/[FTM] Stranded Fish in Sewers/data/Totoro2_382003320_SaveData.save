@@ -5,19 +5,8 @@
   "SavedObjects": [
     {
       "MapName": "Sewer",
-      "Name": "Carp",
-      "Tile": "25, 22",
-      "Type": "Forage",
-      "ID": "142",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Sewer",
       "Name": "White Algae",
-      "Tile": "12, 17",
+      "Tile": "20, 22",
       "Type": "Forage",
       "ID": "157",
       "DaysUntilExpire": 1,
@@ -28,7 +17,29 @@
     {
       "MapName": "Sewer",
       "Name": "White Algae",
-      "Tile": "18, 24",
+      "Tile": "5, 22",
+      "Type": "Forage",
+      "ID": "157",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Sewer",
+      "Name": "Green Algae",
+      "Tile": "18, 23",
+      "Type": "Forage",
+      "ID": "153",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Sewer",
+      "Name": "White Algae",
+      "Tile": "29, 22",
       "Type": "Forage",
       "ID": "157",
       "DaysUntilExpire": 3,
@@ -38,11 +49,11 @@
     },
     {
       "MapName": "Sewer",
-      "Name": "Carp",
-      "Tile": "13, 22",
+      "Name": "Green Algae",
+      "Tile": "4, 22",
       "Type": "Forage",
-      "ID": "142",
-      "DaysUntilExpire": 4,
+      "ID": "153",
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -50,9 +61,20 @@
     {
       "MapName": "Sewer",
       "Name": "Green Algae",
-      "Tile": "18, 22",
+      "Tile": "23, 22",
       "Type": "Forage",
       "ID": "153",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Sewer",
+      "Name": "White Algae",
+      "Tile": "21, 22",
+      "Type": "Forage",
+      "ID": "157",
       "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
