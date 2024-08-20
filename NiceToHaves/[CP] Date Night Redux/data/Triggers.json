@@ -151,7 +151,10 @@
 					"Trigger": "DayEnding",				
 					"Condition": "PLAYER_HAS_SEEN_EVENT Current 1116021",
 					"HostOnly": false, 
-					"Action": "MarkEventSeen Current 1116021 false",
+					"Actions": [
+						"MarkEventSeen Current 1116021 false",
+						"RemoveMail Current swimmingDateFix received", //Gets set regardless
+					],
 					"MarkActionApplied": false,
 				},
 				
@@ -160,11 +163,8 @@
 					"Id": "{{ModId}}_SwimmingFix",
 					"Trigger": "DayEnding",				
 					"Condition": "PLAYER_HAS_SEEN_EVENT Current 1116022",
-					"HostOnly": false, 
-					"Actions": [
-						"MarkEventSeen Current 1116022 false",
-						"RemoveMail Current swimmingDateFix received",
-					],
+					"HostOnly": false,
+					"Action": "MarkEventSeen Current 1116022 false",
 					"MarkActionApplied": false,
 				},
 				
