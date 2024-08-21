@@ -7,8 +7,8 @@
       "Entries":{
         "{{ModId}}_Ancient_Melon_Seeds":{
           "Name": "Ancient Melon Seeds",
-          "DisplayName": "Ancient Melon Seeds",
-          "Description": "Seeds for a long-lost melon variety. Plant these to grow a fruit that was once cherished by ancient civilizations. Thrives in spring, summer, and fall.",
+          "DisplayName": "{{i18n:Ancient_Melon_Seeds.DisplayName}}",
+          "Description": "{{i18n:Ancient_Melon_Seeds.Description}}",
           "Type": "Seeds",
           "Category": -74,
           "Price" : 35,
@@ -24,8 +24,8 @@
       "Entries":{
         "{{ModId}}_Ancient_Melon":{
           "Name": "{{ModID}}_Ancient_Melon",
-          "DisplayName": "Ancient Melon",
-          "Description": "A long-lost variety of melon, cherished by ancient civilizations. Its sweet and refreshing taste, along with its rich nutritional value, makes it a prized fruit. Regrows every 7 days.",
+          "DisplayName": "{{i18n:Ancient_Melon.DisplayName}}",
+          "Description": "{{i18n:Ancient_Melon.Description}}",
           "Type": "Fruit",
           "Category": -79,
           "Price" : 550,

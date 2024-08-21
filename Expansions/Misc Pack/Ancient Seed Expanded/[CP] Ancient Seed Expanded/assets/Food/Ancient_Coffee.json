@@ -7,8 +7,8 @@
       "Entries":{
         "{{ModId}}_Ancient_Coffee":{
           "Name": "Ancient Coffee",
-          "DisplayName": "Ancient Coffee",
-          "Description": "A coffee brewed with strange ancient beans, whats a strange aroma...",
+          "DisplayName": "{{i18n:Ancient_Coffee.DisplayName}}",
+          "Description": "{{i18n:Ancient_Coffee.Description}}",
           "Type": "Cooking",
           "Category": -7,
           "Price" : 1700,

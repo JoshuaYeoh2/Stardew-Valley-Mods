@@ -7,8 +7,8 @@
       "Entries": {
         "{{ModId}}_Ancient_Popberry_Seeds": {
           "Name": "Ancient Popberry Seeds",
-          "DisplayName": "Ancient Popberry Seeds",
-          "Description": "It's a strange seed, it's hard to say what will grow out of it.",
+          "DisplayName": "{{i18n:Ancient_Popberry_Seeds.DisplayName}}",
+          "Description": "{{i18n:Ancient_Popberry_Seeds.Description}}",
           "Type": "Seeds",
           "Category": -74,
           "Price": 35,
@@ -24,9 +24,8 @@
       "Entries": {
         "{{ModId}}_Ancient_Popberry": {
           "Name": "{{ModID}}_Ancient_Popberry",
-          "DisplayName": "Ancient Popberry",
-          "Description": "It looks very mysterious, it is a very nutritious fruit, properly prepared can provide a lot of vitality",
-          "Type": "Fruit",
+          "DisplayName": "{{i18n:Ancient_Popberry.DisplayName}}",
+          "Description": "{{i18n:Ancient_Popberry.Description}}",
           "Category": -79,
           "Price": 550,
           "IsDrink": false,

@@ -8,11 +8,11 @@
       "Entries":{
         "{{ModId}}_Ancient_Bean_Seeds":{
           "Name": "Ancient Bean Seeds",
-          "DisplayName": "Ancient Bean Seeds",
-          "Description": "They resemble coffee seeds in appearance, structure and smell, but something seems different about them, maybe they can be used to make coffee.",
+          "DisplayName": "{{i18n:Ancient_Bean_Seeds.DisplayName}}",
+          "Description": "{{i18n:Ancient_Bean_Seeds.Description}}",
           "Type": "Seed",
           "Category": -74,
-          "Price" : 200,
+          "Price" : 100,
           "Texture": "Mods/{{ModId}}/Ancient_Bean",
           "SpriteIndex": 0,
           "ContextTags": [

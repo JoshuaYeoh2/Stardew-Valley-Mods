@@ -1,5 +1,5 @@
 {
-  "WeatherForYesterday": "Sun",
+  "WeatherForYesterday": "Rain",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
@@ -9,7 +9,7 @@
       "Tile": "23, 131",
       "Type": "Forage",
       "ID": "FlashShifter.StardewValleyExpandedCP_Butterfish",
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -20,6 +20,17 @@
       "Tile": "9, 127",
       "Type": "Forage",
       "ID": "FlashShifter.StardewValleyExpandedCP_Butterfish",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ForestWest",
+      "Name": "Rainbow Trout",
+      "Tile": "34, 142",
+      "Type": "Forage",
+      "ID": "138",
       "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,

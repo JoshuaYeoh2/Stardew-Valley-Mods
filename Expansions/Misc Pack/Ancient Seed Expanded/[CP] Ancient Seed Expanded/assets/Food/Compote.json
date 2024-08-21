@@ -7,8 +7,8 @@
       "Entries":{
         "{{ModId}}_Ancient_Orange_Compote":{
           "Name": "Ancient Orange Compote",
-          "DisplayName": "Ancient Orange Compote",
-          "Description": "Compote make from Ancient Orange",
+          "DisplayName": "{{i18n:Ancient_Orange_Compote.DisplayName}}",
+          "Description": "{{i18n:Ancient_Orange_Compote.Description}}",
           "Type": "Cooking",
           "Category": -7,
           "Price" : 1200,

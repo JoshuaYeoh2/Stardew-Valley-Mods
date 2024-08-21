@@ -6,8 +6,8 @@
             "Entries": {
                 "{{ModId}}_Ancient_Researcher": {
                     "Name": "{{ModId}}_Ancient_Researcher",
-                    "DisplayName": "Ancient Researcher",
-                    "Description": "???" ,
+                    "DisplayName": "{{i18n:Ancient_Researcher.DisplayName}}",
+                    "Description": "{{i18n:Ancient_Researcher.Description}}",
                     "Texture": "Mods/{{ModId}}/Ancient_Researcher",
                     "Price": 5000
                 }

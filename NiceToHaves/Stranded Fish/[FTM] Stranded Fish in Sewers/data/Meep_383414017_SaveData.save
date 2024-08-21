@@ -1,37 +1,15 @@
 {
-  "WeatherForYesterday": "Sun",
+  "WeatherForYesterday": "Rain",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
-    {
-      "MapName": "Sewer",
-      "Name": "Carp",
-      "Tile": "14, 22",
-      "Type": "Forage",
-      "ID": "142",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Sewer",
-      "Name": "Carp",
-      "Tile": "15, 26",
-      "Type": "Forage",
-      "ID": "142",
-      "DaysUntilExpire": 2,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
     {
       "MapName": "Sewer",
       "Name": "Radioactive Bass",
       "Tile": "11, 22",
       "Type": "Forage",
       "ID": "FlashShifter.StardewValleyExpandedCP_Radioactive_Bass",
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -42,7 +20,7 @@
       "Tile": "11, 19",
       "Type": "Forage",
       "ID": "157",
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -53,6 +31,50 @@
       "Tile": "27, 22",
       "Type": "Forage",
       "ID": "157",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Sewer",
+      "Name": "Green Algae",
+      "Tile": "28, 22",
+      "Type": "Forage",
+      "ID": "153",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Sewer",
+      "Name": "Carp",
+      "Tile": "12, 13",
+      "Type": "Forage",
+      "ID": "142",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Sewer",
+      "Name": "White Algae",
+      "Tile": "15, 22",
+      "Type": "Forage",
+      "ID": "157",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Sewer",
+      "Name": "Carp",
+      "Tile": "23, 22",
+      "Type": "Forage",
+      "ID": "142",
       "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,

@@ -7,8 +7,8 @@
       "Entries":{
         "{{ModId}}_Bowl_of_plenty":{
           "Name": "Bowl of plenty",
-          "DisplayName": "Bowl of plenty",
-          "Description": "The fruits used to prepare this meal have a surprisingly positive effect on the strength and physical abilities. However, they are too sweet to be consumed without first preparing them",
+          "DisplayName": "{{i18n:Bowl_of_plenty.DisplayName}}",
+          "Description": "{{i18n:Bowl_of_plenty.Description}}",
           "Type": "Cooking",
           "Category": -7,
           "Price" : 1800,

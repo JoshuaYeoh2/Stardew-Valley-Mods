@@ -7,8 +7,8 @@
       "Entries":{
         "{{ModId}}_Purple_Ancient_Fruit_Seeds":{
           "Name": "Purple Ancient Fruit Seeds",
-          "DisplayName": "Purple Ancient Fruit Seeds",
-          "Description": "A mixture of a purple grape and an ancient fruit. Some say it is sweeter than grapes while being a more subdued in taste fruit. Thrives in spring, summer, and fall.",
+          "DisplayName": "{{i18n:Purple_Ancient_Fruit_Seeds.DisplayNamen}}",
+          "Description": "{{i18n:Purple_Ancient_Fruit_Seeds.Description}}",
           "Type": "Seeds",
           "Category": -74,
           "Price" : 35,
@@ -24,8 +24,8 @@
       "Entries":{
         "{{ModId}}_Purple_Ancient_Fruit":{
           "Name": "{{ModID}}_Purple_Ancient_Fruit",
-          "DisplayName": "Purple Ancient Fruit",
-          "Description": "A mixture of a purple grape and an ancient fruit has given birth to a strange but delicious fruit.",
+          "DisplayName": "{{i18n:Purple_Ancient_Fruit.DisplayName}}",
+          "Description": "{{i18n:Purple_Ancient_Fruit.Description}}",
           "Type": "Fruit",
           "Category": -79,
           "Price" : 550,

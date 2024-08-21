@@ -7,8 +7,8 @@
       "Entries":{
         "{{ModId}}_Ancient_Squash_Seeds":{
           "Name": "Ancient Squash Seeds",
-          "DisplayName": "Ancient Squash Seeds",
-          "Description": "Seeds for a long-forgotten squash variety. Plant these to grow a hardy and nutritious vegetable once revered by ancient civilizations. Thrives in spring, summer, and fall.",
+          "DisplayName": "{{i18n:Ancient_Squash_Seeds.DisplayName}}",
+          "Description": "{{i18n:Ancient_Squash_Seeds.Description}}",
           "Type": "Seeds",
           "Category": -74,
           "Price" : 35,
@@ -24,8 +24,8 @@
       "Entries":{
         "{{ModId}}_Ancient_Squash":{
           "Name": "{{ModID}}_Ancient_Squash",
-          "DisplayName": "Ancient Squash",
-          "Description": "A long-forgotten variety of squash, revered by ancient civilizations. Its robust flavor and rich nutrients make it a valuable addition to any meal.",
+          "DisplayName": "{{i18n:Ancient_Squash.DisplayName}}",
+          "Description": "{{i18n:Ancient_Squash.Description}}",
           "Type": "Vegetable",
           "Category": -75,
           "Price" : 550,

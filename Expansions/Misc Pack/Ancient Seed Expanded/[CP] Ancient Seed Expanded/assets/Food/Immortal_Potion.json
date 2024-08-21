@@ -7,8 +7,8 @@
       "Entries":{
         "{{ModId}}_Immortal_Potion":{
           "Name": "Immortal Potion",
-          "DisplayName": "Immortal Potion",
-          "Description": "It smells terrible and I feel afraid to drink it",
+          "DisplayName": "{{i18n:Immortal_Potion.DisplayName}}",
+          "Description": "{{i18n:Immortal_Potion.Description}}",
           "Type": "Crafting",
           "Category": -8,
           "Price" : 7000,
@@ -55,7 +55,7 @@
             "Action": "EditData",
             "Target": "Data/CraftingRecipes",
             "Entries": {
-                "Immortal Potion": "{{ModId}}_Ancient_Garlic 2 {{ModId}}_Ancient_Melon 2 {{ModId}}_Ancient_Orange 2 {{ModId}}_Ancient_Popberry 2 {{ModId}}_Ancient_Squash 2 {{ModId}}_Purple_Ancient_Fruit 2 {{ModId}}_Wild_Ancient_Berry 2 {{ModId}}_Ancient_Bean 2 155 2/25 5/{{ModId}}_Immortal_Potion/null/Immortal Potion",
+                "Immortal Potion": "{{ModId}}_Ancient_Garlic 2 {{ModId}}_Ancient_Melon 2 {{ModId}}_Ancient_Orange 2 {{ModId}}_Ancient_Popberry 2 {{ModId}}_Ancient_Squash 2 {{ModId}}_Purple_Ancient_Fruit 2 {{ModId}}_Wild_Ancient_Berry 2 {{ModId}}_Ancient_Bean_Seeds 2 155 2/25 5/{{ModId}}_Immortal_Potion/null/Immortal Potion",
             }
     },
     {

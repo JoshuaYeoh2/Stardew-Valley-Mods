@@ -7,8 +7,8 @@
       "Entries":{
         "{{ModId}}_Ancient_Garlic_Seeds":{
           "Name": "Ancient Garlic Seeds",
-          "DisplayName": "Ancient Garlic",
-          "Description": "Seeds for a long-lost garlic variety. Plant these to grow a pungent and powerful garlic once used by ancient healers. Its aroma alone is strong enough to knock you off your feet. Thrives in spring, summer, and fall.",
+          "DisplayName": "{{i18n:Ancient_Garlic_Seeds.DisplayName}}",
+          "Description": "{{i18n:Ancient_Garlic_Seeds.Description}}",
           "Type": "Seeds",
           "Category": -74,
           "Price" : 35,
@@ -24,8 +24,8 @@
       "Entries":{
         "{{ModId}}_Ancient_Garlic":{
           "Name": "{{ModID}}_Ancient_Garlic",
-          "DisplayName": "Ancient Garlic",
-          "Description": "A long-lost variety of garlic, used by ancient healers for its potent flavor and medicinal properties. Its aroma alone is strong enough to knock you off your feet. Adds a rich and aromatic touch to any dish. Regrows every 7 days.",
+          "DisplayName": "{{i18n:Ancient_Garlic.DisplayName}}",
+          "Description": "{{i18n:Ancient_Garlic.Description}}",
           "Type": "Vegetable",
           "Category": -75,
           "Price" : 550,
