@@ -5,22 +5,11 @@
   "SavedObjects": [
     {
       "MapName": "EastScarp_Village",
-      "Name": "Sea Cucumber",
-      "Tile": "6, 131",
-      "Type": "Forage",
-      "ID": "154",
-      "DaysUntilExpire": 2,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "EastScarp_Village",
       "Name": "Pike",
       "Tile": "44, 113",
       "Type": "Forage",
       "ID": "144",
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -31,7 +20,7 @@
       "Tile": "63, 111",
       "Type": "Forage",
       "ID": "153",
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -42,7 +31,7 @@
       "Tile": "60, 112",
       "Type": "Forage",
       "ID": "150",
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -53,6 +42,17 @@
       "Tile": "59, 113",
       "Type": "Forage",
       "ID": "150",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_Village",
+      "Name": "Flounder",
+      "Tile": "19, 121",
+      "Type": "Forage",
+      "ID": "267",
       "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
