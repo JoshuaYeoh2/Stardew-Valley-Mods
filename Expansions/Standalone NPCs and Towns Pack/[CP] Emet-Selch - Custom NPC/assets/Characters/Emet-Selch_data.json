@@ -1,0 +1,335 @@
+{
+  "Changes": [
+    //Loads character over world sprite
+    {
+      "LogName": "Emet-Selch's Sprite",
+      "Action": "Load",
+      "Target": "Characters/Visorlights.EmetSelch",
+      "FromFile": "assets/Characters/{{Emet Appearance}}.png"
+    },
+
+    //Loads portrait
+    {
+      "LogName": "Emet-Selch's Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Visorlights.EmetSelch",
+      "FromFile": "assets/Portraits/{{Emet Appearance}}.png"
+    },
+
+
+    //loads beach sprites and portraits
+    {
+      "Action": "Load",
+      "Target": "Characters/Visorlights.EmetSelch_Beach",
+      "FromFile": "assets/Characters/{{Emet Appearance}}_Beach.png"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Portraits/Visorlights.EmetSelch_Beach",
+      "FromFile": "assets/Portraits/{{Emet Appearance}}_Beach.png"
+    },
+
+    //load Hades winter portrait & sprites
+    {
+      "Action": "Load",
+      "Target": "Portraits/Hades_Winter, Characters/Hades_Winter",
+      "FromFile": "assets/{{Target}}.png"
+    },
+
+    //Load Map assets for spouse room and patio
+    {
+      "LogName": "Emet-Selch load spouse room",
+      "Action": "Load",
+      "Target": "Maps/{{ModId}}_Emet_Spouseroom",
+      "FromFile": "assets/Maps/Emet_Spouseroom.tmx"
+    },
+
+    {
+      "LogName": "Emet-Selch load spouse room",
+      "Action": "Load",
+      "Target": "Maps/{{ModId}}_Emet_Patio",
+      "FromFile": "assets/Maps/Emet_Patio.tmx"
+    },
+
+    //edit NPC data
+    {
+      "LogName": "Emet-Selch NPC Disposition",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "Visorlights.EmetSelch": {
+          //basic info
+          "DisplayName": "Emet-Selch",
+          "BirthSeason": "Spring",
+          "BirthDay": 25,
+          "HomeRegion": "Other",
+          "Gender": "Male",
+          "Age": "Adult",
+          "Manner": "Rude",
+          "SocialAnxiety": "Neutral",
+          "Optimism": "Negative",
+
+          //social features
+          "CanBeRomanced": "{{EmetDateable}}",
+          "ExcludeFromPerfectionScore": false,
+          "EndSlideShow": "TrailingGroup",
+          "CanCommentOnPurchasedShopItems": true,
+          "Calendar": "HiddenUntilMet",
+          //TODO: see if I can set 'wantschildren' to false until 14 heart event mention of retirement, once that is implemented
+          "SpouseWantsChildren": true,
+          "SpouseGiftJealousy": false,
+          "SpouseRoom": { "MapAsset": "{{ModId}}_Emet_SpouseRoom" },
+          "SpousePatio": {
+            "MapAsset": "{{ModId}}_Emet_Patio",
+            "SpriteAnimationFrames": [
+              [ 40, 1000 ],
+              [ 41, 1000 ],
+              [ 42, 1000 ]
+            ],
+            "SpriteAnimationPixelOffset": {
+              "X": 8,
+              "Y": 24
+            }
+          },
+
+          "SpouseFloors": "",
+          "SpouseWallpapers": "",
+          "IntroductionsQuest": false,
+          //TODO: see if I can lock deliveries until after event 2-2. FALSE for now until i give him custom dialogue
+          "ItemDeliveryQuests": false,
+          "PerfectionScore": false,
+          //TODO: maybe edit friendsandfamily if I put in hythportal elsewhere, or amaurot folks
+          "DumpsterDiveEmote": 12,
+          "DumpsterDiveFriendshipEffect": 0,
+
+          //Festivals
+          "FlowerDanceCanDance": false,
+          "WinterStarPartcipant": false,
+
+          //Spawn rules
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "{{ModId}}_Emet_House",
+              "Tile": {
+                "X": 18,
+                "Y": 7
+              },
+              "Direction": "Down"
+            }
+          ],
+          //Appearance & sprite
+          "Appearance": [
+            {
+              "Id": "Default",
+              "Portrait": "Portraits/Visorlights.EmetSelch",
+              "Sprite": "Characters/Visorlights.EmetSelch"
+            },
+            {
+              "Id": "Hades_Winter",
+              "Portrait": "Portraits/Hades_Winter",
+              "Sprite": "Characters/Hades_Winter",
+              "Season": "Winter",
+              "Condition": "{{Emet Appearance |contains=Hades}}",
+              "Precedence": "-10"
+            }
+          ],
+          // "ShakePortraits": "5" TODO: see how that is. supposed to look lol
+          "FormerCharacterNames": [ "Emet-Selch", "Visorlights.Emet-Selch" ]
+        }
+      }
+    },
+
+    //gift tastes
+    {
+      "LogName": "Emet-Selch's Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Visorlights.EmetSelch": "Well, isn't this exceptional, @.$h#/348 428 768 253 637/Hm, I may yet find a use for this.#/275 338 18 80 430 769 848 -12 -79/And just what am I to do with this?$6#/535 536 537 749/...It is a gift given by an idiot, signifying nothing.$6#/279 372/Remove yourself and this insult of a gift from my sight.$10#/22 807/Interesting. I suppose I can take this off your hands.$0#//"
+      }
+    },
+
+    //schedule
+    //uses EmetMapStatus to only load full schedule when his map is unlocked. uses placeholder before that to avoid SpaceCore pathing errors
+    {
+      "LogName": "Emet-Selch schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Visorlights.EmetSelch",
+      "FromFile": "assets/Characters/schedules/Emet-Selch_Schedule_{{EmetMapStatus}}.json"
+    },
+
+
+    //animations
+    {
+      "LogName": "Emet-Selch Animations",
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "emet-selch_peruse": "29/29/29",
+        "emet-selch_snap": "0/0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 17 18 19 20 21 22 23 23 23 23 23 23 23 23 19 18 17/0",
+        "emet-selch_warp_in": "63/63 63 63 63 63 63 63 63 63 63 24 25 24 25 24 25 26 27 0/0",
+        "emet-selch_sleep": "51/51/51",
+        "emet-selch_doze": "51/51/51"
+      }
+    },
+
+    //load dialogue based on emetstorystatus dynamic token
+    {
+      "LogName": "Emet-Selch single dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Visorlights.EmetSelch",
+      "FromFile": "assets/Dialogue/Emet-Selch_single_dialogue_{{EmetStoryStatus}}.json"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Visorlights.EmetSelch",
+      "Entries": {
+        "spring_14": "...You may stay, if you wish.$9#$b#But do forgive me if I am rather... absent.$s", //buhh apparently i cant do day of month + hearts as a key 
+        //so this is now a conditional edit after seeing 10-2 >:L
+        "winter_21": "...You may stay, if you wish.$9#$b#But do forgive me if I am rather... absent.$s"
+      },
+      "When": {
+        "HasSeenEvent": "{{ModId}}_10_2"
+      }
+    },
+
+    //GO GO GADGET REFUSE MARRIAGE
+    {
+      "LogName": "Block Mermaid Pendant before 10-1", //between 10-1 and 10-2 is handled in the drama edits file
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Visorlights.EmetSelch",
+      "Entries": {
+        "RejectItem_(O)460": "How amusing.$u#$b#That was a 'no', if that wasn't clear.$6"
+      },
+      "When": {
+        "HasSeenEvent |contains=Visorlights.EmetSelchCustomNPC_10_1": false
+      }
+    },
+
+    //load marriage Dialogue
+    {
+      "LogName": "Marriage Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueVisorlights.EmetSelch",
+      "FromFile": "assets/Dialogue/Emet-Selch_married_dialogue.json"
+    },
+
+    //location-based dialogue, for use when specifying the line during the schedule listing for the days
+    {
+      "LogName": "location-based dialogue",
+      "Action": "Load",
+      "Target": "Strings/Schedules/Visorlights.EmetSelch",
+      "FromFile": "assets/Dialogue/Emet-Selch_location_dialogue.json"
+    },
+
+    //rainy dialogue, why is this in a different file to the dialogue ConcernedApe i have questions
+    {
+      "LogName": "Rainy Dialogue",
+      "Action": "EditData",
+      "Target": "Dialogue/rainy",
+      "Entries": {
+        "Visorlights.EmetSelch": "Mayhap I'll take the weather as a sign to relax. I do so love a nap to the sound of rain...$8"
+      }
+    },
+
+    //Engagement dialogue
+    {
+      "LogName": "Engagement Dialogue",
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "Entries": {
+        "Visorlights.EmetSelch0": "I never though I'd be here again, awaiting my own wedding.$9#$b#But now that I am, with you, I find myself... content.$1",
+        "Visorlights.EmetSelch1": "It has been an age since I've moved, never mind to a home of someone else's design. I hope you've gotten your things in order for my arrival.$1#$b#And that you're prepared for me to make a few changes to the decor.$3"
+      }
+    },
+
+    //TODO: looks like some of this has been moved to the dialogue file? so see what I gotta move
+    //ExtraDialogue edits: dumpster diving maybe add purchaseditem and mines playerkilled stuff?
+    {
+      "LogName": "ExtraDialogue edits",
+      "Action": "EditData",
+      "Target": "Data/ExtraDialogue",
+      "Entries": {
+        "SummitEvent_Dialogue3_Visorlights.EmetSelch": "Ever am I thankful you came to this valley.#$b#And I suspect I am not alone in that sentiment.$h\"/pause 500/speak Emet-Selch \"Truly, were I to try to imagine a gift to bring to the valley...#$b#There is no shape it would take, but you.$15",
+        "Attic_Locket_Emet-Selch": "",
+        "Attic_Journal_Emet-Selch": ""
+      }
+    },
+
+    //movie theater invite dialogue WHY IS THIS SEPARATE FROM EVERYTHING ELSE
+    {
+      "Action": "EditData",
+      "Target": "Strings/Characters",
+      "Entries": {
+        "MovieInvite_Invited_Emet-Selch": "Well, I haven't got anything better to do with myself.$#b$Lead the way, farmer.$u",
+        "MovieInvite_Spouse_Emet-Selch": "A show? Yes, I could do for an evening out.$u"
+      }
+    },
+
+    //movie theater concession Tastes
+    {
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+        "Visorlights.EmetSelch": {
+          "Name": "Visorlights.EmetSelch",
+          "LovedTags": [ "Truffle Popcorn" ],
+          "LikedTags": [ "Gourmet, Sweet" ],
+          "DislikedTags": [ "Fatty, Candy, Joja" ]
+        }
+      }
+    },
+
+    //movie theater dialogue
+    {
+      "Action": "Include",
+      "FromFile": "assets/Dialogue/Emet-Selch_movie_dialogue.json"
+    },
+
+    //GENERIC DIALOGUE OVERRIDE EDITS
+    {
+      "LogName": "Relationship Dialogue Override",
+      "Action": "Include",
+      "FromFile": "assets/Dialogue/Emet-Selch_replace_relationship_dialogue.json",
+      "When": {
+        "Replace Relationship Dialogue": true,
+        "HasMod: |contains=datamancer.CustomFixedDialogue": false
+      }
+    },
+
+    //Generic Dialogue override, CustomFixedDialogue ver.
+    {
+      "LogName": "CustomFixedDialogue patch",
+      "Action": "Include",
+      "FromFile": "assets/Dialogue/Emet-Selch_CustomFixedDialogue_Patch.json",
+      "When": {
+        "HasMod": "datamancer.CustomFixedDialogue"
+      }
+    },
+
+    //edits to dialogue to match Transformed portraits outside of Drama
+    {
+      "LogName": "Transformed dialogue tweaks",
+      "Action": "Include",
+      "FromFile": "assets/Dialogue/Emet-Selch_transformed_edits.json",
+      "When": {
+        "Emet Appearance": "Transformed",
+        "EmetStoryStatus": "Normal"
+      }
+    },
+
+    //PLATONIC VER. EDITS --MUST STAY AFTER TRANSFORMED EDITS--
+    //lest people get faced with slightly-horny monster shit on accident
+    {
+      "LogName": "Load Platonic tweaks",
+      "Action": "Include",
+      "FromFile": "assets/Dialogue/Emet-Selch_platonic_edits.json",
+      "When": {
+        "Platonic Relationship": true
+      }
+    }
+  ]
+
+}

@@ -1,0 +1,17 @@
+{
+"Name": "Delores - Seasonal Outfits",
+"Author":"IdiotSpree",
+"Description": "Now she changes her clothes every once in a while.",
+"UpdateKeys": ["Nexus:11010"],
+"Version": "1.0.2",
+"UniqueID": "DSO.idotspree",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+"Dependencies": [
+{"UniqueID": "blaaze6.Delores",
+"IsRequired": true}
+]
+
+}
+

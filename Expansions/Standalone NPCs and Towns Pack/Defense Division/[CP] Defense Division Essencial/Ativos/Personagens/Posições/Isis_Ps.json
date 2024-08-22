@@ -1,0 +1,45 @@
+{
+  "Changes": [
+	{	// Isis Fora da Vila
+        "Action": "EditData",
+        "Target": "Data/Characters",
+		"Update": "OnDayStart",
+        "Entries": {
+			"Isis": { "DisplayName": "{{i18n:Isis.Display.Name}}", "Age": "teen", "Manner": "rude", "SocialAnxiety": "neutral", "Optimism": "Positive", "Gender": "female", "CanBeRomanced": false, "LoveInterest": "null", "BirthSeason": "fall", "BirthDay": 7, "Calendar": "HiddenAlways", "WinterStarParticipant": "false", "CanVisitIsland": "false",
+            "Home": [ { "Id": "Ilha", "Location": "Ilha", "Tile": { "X": 4, "Y": 5 }, "Direction": "Down" }, ], "SpouseRoom": { "MapAsset": "Casada.Quarto_Isis" }, "SpousePatio": { "MapAsset": "Casada.Patio_Isis" },
+			"Appearance": [ 
+			{ "Condition": "EVENT_ID festival_spring13", "Sprite": "Characters/Is.Boneco_EggFest", "Portrait": "Portraits/Is.Retrato_EggFest", },
+			{ "Condition": "EVENT_ID festival_spring24", "Sprite": "Characters/Is.Boneco_FlowerDance", "Portrait": "Portraits/Is.Retrato_FlowerDance", },
+			{ "Condition": "EVENT_ID festival_summer11", "Sprite": "Characters/Is.Boneco_Luau", "Portrait": "Portraits/Is.Retrato_Luau", },
+			{ "Condition": "EVENT_ID festival_summer28", "Sprite": "Characters/Is.Boneco_DanceMoonlight", "Portrait": "Portraits/Is.Retrato_DanceMoonlight", },
+			{ "Condition": "EVENT_ID festival_fall16", "Sprite": "Characters/Is.Boneco_Fair", "Portrait": "Portraits/Is.Retrato_Fair", },
+			{ "Condition": "EVENT_ID festival_fall27", "Sprite": "Characters/Is.Boneco_SpiritsEve", "Portrait": "Portraits/Is.Retrato_SpiritsEve", },
+			{ "Condition": "EVENT_ID festival_winter8", "Sprite": "Characters/Is.Boneco_IceFest", "Portrait": "Portraits/Is.Retrato_IceFest", },
+			{ "Condition": "EVENT_ID festival_winter25", "Sprite": "Characters/Is.Boneco_WinterStart", "Portrait": "Portraits/Is.Retrato_WinterStart", },
+				],
+			},
+        },
+    },
+	{
+		"Action": "EditData",
+        "Target": "Data/Characters",
+        "Update": "OnDayStart",
+        "Fields": { "Isis": { "Calendar": "HiddenUntilMet", "WinterStarParticipant": "true", "CanVisitIsland": "true", "Home": [ { "Id": "Casa.Interior", "Location": "Casa.Interior", "Tile": { "X": 3, "Y": 17 }, "Direction": "Down" } ] } },
+        "When": { "HasSeenEvent: anyPlayer|contains=90105264": "true", "HasSeenEvent: anyPlayer|contains=99805264": "false" }
+    },
+	{
+		"Action": "EditData",
+        "Target": "Data/Characters",
+        "Update": "OnLocationChange",
+        "Fields": { "Isis": { "Calendar": "HiddenUntilMet", "WinterStarParticipant": "true", "CanVisitIsland": "true", "adult": "teen", "CanBeRomanced": true, "FlowerDanceCanDance": true, "Home": [ { "Id": "Casa.Interior", "Location": "Casa.Interior", "Tile": { "X": 3, "Y": 17 }, "Direction": "Down" } ] } },
+        "When": { "HasSeenEvent: anyPlayer|contains=91205264": "true", "HasSeenEvent: anyPlayer|contains=37918100": "false" }
+    },
+	{
+		"Action": "EditData",
+        "Target": "Data/Characters",
+        "Update": "OnLocationChange",
+        "Fields": { "Isis": { "Home": [ { "Id": "Ilha", "Location": "Ilha", "Tile": { "X": 4, "Y": 5 }, "Direction": "Down" }, ], } },
+        "When": { "HasSeenEvent: anyPlayer|contains=91705264": "true", },
+    },
+  ]
+}

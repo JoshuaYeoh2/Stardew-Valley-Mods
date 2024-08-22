@@ -1,0 +1,45 @@
+{
+  "Changes": [
+	{	// Edward Fora da Vila
+        "Action": "EditData",
+        "Target": "Data/Characters",
+		"Update": "OnDayStart",
+        "Entries": {
+			"Edward": { "DisplayName": "{{i18n:Edward.Display.Name}}", "Age": "adult", "Manner": "neutral", "SocialAnxiety": "neutral", "Optimism": "Positive", "Gender": "male", "CanBeRomanced": false, "LoveInterest": "null", "BirthSeason": "fall", "BirthDay": 22, "Calendar": "HiddenAlways", "WinterStarParticipant": "false", "CanVisitIsland": "false",
+            "Home": [ { "Id": "Ilha", "Location": "Ilha", "Tile": { "X": 5, "Y": 5 }, "Direction": "Down" }, ], "SpouseRoom": { "MapAsset": "Casado.Quarto_Edward", }, "SpousePatio": { "MapAsset": "Casado.Patio_Edward" },
+			"Appearance": [ 
+			{ "Condition": "EVENT_ID festival_spring13", "Sprite": "Characters/Ed.Boneco_EggFest", "Portrait": "Portraits/Ed.Retrato_EggFest", },
+			{ "Condition": "EVENT_ID festival_spring24", "Sprite": "Characters/Ed.Boneco_FlowerDance", "Portrait": "Portraits/Ed.Retrato_FlowerDance", },
+			{ "Condition": "EVENT_ID festival_summer11", "Sprite": "Characters/Ed.Boneco_Luau", "Portrait": "Portraits/Ed.Retrato_Luau", },
+			{ "Condition": "EVENT_ID festival_summer28", "Sprite": "Characters/Ed.Boneco_DanceMoonlight", "Portrait": "Portraits/Ed.Retrato_DanceMoonlight", },
+			{ "Condition": "EVENT_ID festival_fall16", "Sprite": "Characters/Ed.Boneco_Fair", "Portrait": "Portraits/Ed.Retrato_Fair", },
+			{ "Condition": "EVENT_ID festival_fall27", "Sprite": "Characters/Ed.Boneco_SpiritsEve", "Portrait": "Portraits/Ed.Retrato_SpiritsEve", },
+			{ "Condition": "EVENT_ID festival_winter8", "Sprite": "Characters/Ed.Boneco_IceFest", "Portrait": "Portraits/Ed.Retrato_IceFest", },
+			{ "Condition": "EVENT_ID festival_winter25", "Sprite": "Characters/Ed.Boneco_WinterStart", "Portrait": "Portraits/Ed.Retrato_WinterStart", },
+				],
+			},
+        },
+    },
+	{
+		"Action": "EditData",
+        "Target": "Data/Characters",
+        "Update": "OnDayStart",
+        "Fields": { "Edward": { "Calendar": "HiddenUntilMet", "WinterStarParticipant": "true", "CanVisitIsland": "true", "Home": [ { "Id": "Casa.Sótão", "Location": "Casa.Sótão", "Tile": { "X": 5, "Y": 6 }, "Direction": "Down" } ] } },
+        "When": { "HasSeenEvent: anyPlayer|contains=90105264": "true", "HasSeenEvent: anyPlayer|contains=58614300": "false" }
+    },
+	{
+		"Action": "EditData",
+        "Target": "Data/Characters",
+        "Update": "OnLocationChange",
+        "Fields": { "Edward": { "CanBeRomanced": true, "FlowerDanceCanDance": true, } },
+        "When": { "HasDialogueAnswer": "759907", "HasSeenEvent |contains=58614300": "false" }
+    },
+	{
+		"Action": "EditData",
+        "Target": "Data/Characters",
+        "Update": "OnLocationChange",
+        "Fields": { "Edward": { "Home": [ { "Id": "Ilha", "Location": "Ilha", "Tile": { "X": 5, "Y": 5 }, "Direction": "Down" }, ], } },
+        "When": { "HasSeenEvent: anyPlayer|contains=91105264": "true", },
+    },
+  ]
+}

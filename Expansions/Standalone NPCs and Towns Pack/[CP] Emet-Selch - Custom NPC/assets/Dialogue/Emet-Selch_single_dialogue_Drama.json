@@ -1,0 +1,71 @@
+{
+  //no talk him he angy
+  //TODO: update all the new got damn data keys I need to in here. sobs.
+
+  //GO GO GADGET BLOCK PROPOSING
+  "RejectItem_(O)460": "You would dare ask this of me?$a#$b#Get out of my sight.$10",
+
+  // UCR Additions
+  "stardrop_gift": "Here. A stardrop; a rare fruit said to boost vitality.$9#$b#I thought it might prove useful, with all you do.$1",
+  "give_flowersA": "Ah, I had thought you might be interested...$3#$b#I suppose I have time for such a dalliance.$3#$b#Very well; I accept. I do rather enjoy your company.$3#$b#You're welcome to grace me with it this evening, if you like.$4",
+  "give_flowersB": "Ah, I had thought you might be interested...$3#$b#I suppose I have time for such a dalliance.$3#$b#Very well; I accept. I do rather enjoy your company.$3#$b#You're welcome to grace me with it this evening, if you like.$4",
+  "give_pendant": "This is-!$11#$b#After that embarrassing display I put you through, you'd still seek a life with me?$0#$b#Really, you are ridiculous.$9#$b#If you truly wish for it, then I would be glad for all the time you'd deign to spend with me.$0#$b#That is a 'yes', if you must hear it said. Nothing would make me happier.$1",
+  "rejectNPCA": "No.$6",
+  "rejectNPCB": "Absolutely not.$6",
+  "reject_two_heartA": "Your presence is taxing enough already.$6#$b#Take your romantic overtures to an interested party.",
+  "reject_two_heartB": "Your presence is taxing enough already.$6#$b#Take your romantic overtures to an interested party.",
+  "reject_four_heartA": "Yes, hilarious.$7#$b#Now what is it you actually want?",
+  "reject_four_heartB": "Yes, hilarious.$7#$b#Now what is it you actually want?",
+  "engageA": "Perhaps resolve your standing engagements before proposing all willy-nilly.",
+  "engageB": "Perhaps resolve your standing engagements before proposing all willy-nilly.",
+  "marriedA": "I do not have time to deal with the ire of a jealous spouse, thank you.",
+  "marriedB": "I've little interest in being a part of your relationship.$6",
+  "refusal_knownA": "Is this your idea of a joke?$6",
+  "refusal_knownB": "Do you think me waiting to leap into the arms of whomever will have me?$6",
+  "refusal_botherA": "If you believe your persistence to be charming, it is not.$6",
+  "refusal_botherB": "If you believe your persistence to be charming, it is not.$6",
+  "refusal_no_heartsA": "I can scarcely stand your visits, but no, I would love to entwine my life with yours.$7#$b#Is that honestly what you were expecting?",
+  "refusal_no_heartsB": "I can scarcely stand your visits, but no, I would love to entwine my life with yours.$7#$b#Is that honestly what you were expecting?",
+  "birthdayLoveA": "How many times must I tell you; you will not change my mind with your gifts.$2",
+  "birthdayLoveB": "How many times must I tell you; you will not change my mind with your gifts.$2",
+  "birthdayLikeA": "How many times must I tell you; you will not change my mind with your gifts.$6",
+  "birthdayLikeB": "How many times must I tell you; you will not change my mind with your gifts.$6",
+  "birthdayDislikeA": "If you seek to insult me, your presence does far more than any awful 'gift'.$6",
+  "birthdayDislikeB": "If you seek to insult me, your presence does far more than any awful 'gift'.$6",
+  "birthdayNeutralA": "...#$b#Am I intended to be grateful for this?$6",
+  "birthdayNeutralB": "...#$b#Am I intended to be grateful for this?$6",
+
+  //default daily text
+  "Sun": "Cease these visits, @.$6#$b#I did not ask for nor do I desire your presence.$6",
+  "Mon": "Did I not make myself clear? I wish to be left alone.$6",
+  "Tue": "If you were hoping to catch me in some state of regret, you will be sorely disappointed.$6",
+  "Wed": "...$2",
+  "Thu": "Are you willfully ignoring my ultimatum, or are you just daft?$10",
+  "Fri": "I have work to do. Goodbye.$6",
+  "Sat": "Do you think to win me over with persistence? I assure you, I want nothing more to do with you.$6",
+  "Visorlights.EmetSelchCustomNPC_Emet_House_18_7": "%Emet-Selch is dead asleep.", //bed
+
+  //specific dates
+  "spring_14": "I'm in no mood for this. Leave.$6",
+  "winter_21": "I'm in no mood for this. Leave.$6",
+  "Visorlights.EmetSelch_Emet_Attic_Open": "I'm in no mood for this. Leave.$6",
+
+  //special Dialogue
+  "AcceptBirthdayGift_Positive": "How many times must I tell you; you will not change my mind with your gifts.$2",
+  "AcceptBirthdayGift_Negative": "Either you are singularly terrible at getting gifts, or rather good at spiting me. It's almost commendable.'$6",
+  "MovieInvitation": "And *why* would I go anywhere with you?$10",
+  "breakUp": "...$2#$b#It is for the best.$6",
+  "divorced": "Do you truly think I wish to speak with you?$10",
+  "Resort_Entering": "Of course you pick today to visit the island as well.$6",
+  "Resort_Leaving": "*Sigh*$9",
+  "Resort_Leaving_2": "Perhaps it's time I take my leave.",
+  "Resort_Shore": "%Emet-Selch ignores you.",
+  "Resort_Shore_2": "Ruin my day and you will learn I am not above ending you.$6",
+  "Resort_Umbrella": "%Emet-Selch waves you away dismissively.",
+  "Resort": "The point of a vacation is to enjoy oneself.#$b#So why would I desire your company?$6",
+  "Resort_2": "...$6",
+  "Resort_Chair": "%Emet-Selch appears to be asleep in the chair.",
+  "Resort_Wander": "What is the point of a 'getaway' if I must be surrounded by half the town?$6#$b#I'm off to find a more secluded area, thank you.",
+  "Resort_Bar": "I do not recall asking you to join me.$6"
+
+}

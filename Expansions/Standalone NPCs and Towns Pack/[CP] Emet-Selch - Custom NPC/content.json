@@ -1,0 +1,269 @@
+{
+  "Format": "2.0.0",
+  "ConfigSchema": {
+    //Note: all changes dependent on these toggles are in the Emet-Selch_data.json file.
+    "Emet Appearance": {
+      "AllowValues": "Solus, Hades, Transformed",
+      "Default": "Solus",
+      "Description": "Portrait and character sprite appearance of Emet-Selch."
+    },
+    "Replace Relationship Dialogue": {
+      "AllowValues": "true, false",
+      "Default": true,
+      "Description": "Overrides generic bouquet, proposal, and married dialogue. Note: will use custom Emet-Selch dialogue regardless of romanced NPC. [ignored if Custom Fixed Dialogue is installed.]"
+    },
+    "World Map Edit": {
+      "AllowValues": "true, false",
+      "Default": true,
+      "Description": "Toggles patching of world map to add his location. Currently supports Vanilla, NPCMapLocations, and SVE."
+    },
+    "Platonic Relationship": {
+      "AllowValues": "true, false",
+      "Default": false,
+      "Description": "[BETA] Edits events and dialogue to be platonic, and marks him as non-romanceable. All pre-marriage events will be accessible without dating."
+    }
+  },
+
+  //WIP TODO: variable tracking, implement in character data
+  "DynamicTokens": [
+    //unlocked when any player has seen event 0-3
+    {
+      "Name": "EmetMapStatus",
+      "value": "Locked",
+      "When": {
+        "HasSeenEvent: anyPlayer |contains={{ModId}}_0_3": false
+      }
+    },
+
+    {
+      "Name": "EmetMapStatus",
+      "Value": "Unlocked",
+      "When": {
+        "HasSeenEvent: anyPlayer": "{{ModId}}_0_3"
+      }
+    },
+
+    //type of map edit to apply based on installed maps/expansions. currently supports default, SVE, and SVR3.
+    {
+      "Name": "MapEditType",
+      "Value": "Default",
+      "When": {
+        "HasMod |contains=DaisyNiko.SVR3": false,
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+      }
+    },
+
+    {
+      "Name": "MapEditType",
+      "Value": "SVE",
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+      }
+    },
+
+    {
+      "Name": "MapEditType",
+      "Value": "SVR3",
+      "When": {
+        "HasMod |contains=DaisyNiko.SVR3": true
+      }
+    },
+
+    {
+      "Name": "EmetDateable", //changes what his CanBeRomanced entry in characters/data is set to
+      "Value": true,
+      "When": {
+        "Platonic Relationship": false
+      }
+    },
+    {
+      "Name": "EmetDateable",
+      "Value": false,
+      "When": {
+        "Platonic Relationship": true
+      }
+    },
+    //loads his normal data and dialogue
+    {
+      "Name": "EmetStoryStatus",
+      "Value": "Normal",
+      "When": {
+        "Query: (NOT {{HasSeenEvent |contains=Visorlights.EmetSelchCustomNPC_10_1}}) OR {{HasSeenEvent |contains=Visorlights.EmetSelchCustomNPC_10_2}}": true
+      }
+    },
+    //controls loading all his drama data between 10-1 and 10-2
+    {
+      "Name": "EmetStoryStatus",
+      "Value": "Drama",
+      "When": {
+        "HasSeenEvent": "{{ModId}}_10_1",
+        "HasSeenEvent |contains={{ModId}}_10_2": false
+      }
+    },
+
+    { //this is a surprise tool that will help us later
+      "Name": "WantsKids",
+      "Value": "",
+      "When": {} //false when not seen 14-heart event
+    },
+    {
+      "Name": "WantsKids",
+      "Value": "",
+      "When": {} //true when seen 14-heart event
+    }
+  ],
+  //loads custom maps & locations
+  "Changes": [
+    //load Events //KEEP BEFORE CHARACTER DATA so Transformed or Platonic edits apply after
+    {
+      "LogName": "Emet-Selch Events",
+      "Action": "Include",
+      "FromFile": "assets/Events/EventData_edits.json"
+    },
+
+    //load emet character data
+    {
+      "LogName": "Emet-Selch Character Data",
+      "Action": "Include",
+      "FromFile": "assets/Characters/Emet-Selch_data.json"
+    },
+
+    //load hyth character data
+    {
+      "LogName": "Hythlodaeus Character Data",
+      "Action": "Include",
+      "FromFile": "assets/Characters/Hythlodaeus_data.json"
+    },
+
+    //shiny new map file to separate all that out
+    {
+      "LogName": "Map changes",
+      "Action": "Include",
+      "FromFile": "assets/Maps/Maps.json"
+    },
+
+    //load inspection strings for new maps
+    {
+      "LogName": "Emet-Selch StringsFromMaps edits",
+      "Action": "EditData",
+      "Target": "Strings/StringsFromMaps",
+      "Entries": {
+        "{{ModId}}_Emet_House.1": "On the desk is a neat and very tall stack of notes. They appear to mostly be about 'aetheric findings'.",
+        "{{ModId}}_Emet_House.2": "These shelves hold many dense-looking tomes.",
+        "{{ModId}}_Emet_House.3": "This plant seems to be prospering.",
+        "{{ModId}}_Emet_House.4": "This window looks out to the front of the house. Somehow.",
+        "{{ModId}}_Emet_House.5": "Sitting in this chair feels like it would be a lot of work.",
+        "{{ModId}}_Emet_Attic.1": "In the box is a board game labeled 'Scurry and Scattergories.'",
+        "{{ModId}}_Emet_Attic.2": "Strangely, some invisible force prevents you from touching the chest.",
+        "{{ModId}}_Emet_Attic.3": "A very large and ornate sword hangs against the wall.",
+        "{{ModId}}_Emet_Attic.4": "A well-worn journal. Each entry is about a different place.",
+        "{{ModId}}_Emet_Attic.5": "A locket on a chain. A lock of lavender hair is clipped inside."
+      }
+    },
+
+    //load Rift sprite
+    {
+      "LogName": "Rift Character Sprite",
+      "Action": "Load",
+      "Target": "Characters/Visorlights.Rift",
+      "FromFile": "assets/Characters/Rift.png"
+    },
+
+    //loads transformed sprite
+    {
+      "LogName": "Emet Transformed Sprite",
+      "Action": "Load",
+      "Target": "Characters/Visorlights.EmetSelch_Transformed",
+      "FromFile": "assets/Characters/Emet-Selch-Transformed.png"
+    },
+
+    //load Beaft sprite
+    {
+      "LogName": "Creature Character Sprite",
+      "Action": "Load",
+      "Target": "Characters/Visorlights.Beaft",
+      "FromFile": "assets/Characters/Beaft.png"
+    },
+
+    //Festival data
+    {
+      "LogName": "Emet-Selch Festival Data",
+      "Action": "Include",
+      "FromFile": "assets/Characters/Emet-Selch_Festival_Edits.json"
+    },
+
+    //add quest for unlocking his house + one sent after two heart event in mine
+    //TODO: edit entries and their references in events file 
+    {
+      "LogName": "Emet-Selch add quests",
+      "Action": "EditData",
+      "Target": "Data/Quests",
+      "Entries": {
+        //added in event 134360001, leads to following quest in event 134360003
+        "Visorlights.Emet_Unlock_Quest": "Basic/Dropped Note/Find who dropped the note./It reads: 'While quartz in the local mines may sometimes exhibit aether-absorption qualities and disrupt enchantments, this alone cannot explain the thinning of the local ambient aether'./-1/13436002/0/-1/false",
+        //added in event 134360003, removed in event 134360004
+        "Visorlights.Emet_Unlock2_Quest": "Basic/Check on Crystal/Investigate the quartz left in the backwoods path after a time./Leave the quartz overnight./-1/-1/0/-1/false",
+        //started after talking to emet in mines
+        "Visorlights.Emet_Geode_Quest": "ItemDelivery/Mine Sample/Emet-Selch has tasked you with retrieving a frozen geode./Bring Emet-Selch a frozen geode./Visorlights.EmetSelch (O)536/-1/500/-1/true/This will do for my analysis. Satisfactory work, farmer.",
+        //sent at eight hearts event
+        "Visorlights.Emet_FireQuartz_Quest": "ItemDelivery/Deep Mine Sample/Emet-Selch has tasked you with finding crystals of fire quartz./Bring Emet-Selch three fire quartz./Visorlights.EmetSelch (O)82 3/-1/2000/-1/true/Well, aren't you surprisingly useful? Good work, farmer."
+      }
+    },
+
+    //Mail data. adds letter for two heart quest and to ask pls, wait for all ten-heart events to play out before marriage. pwetty pwease :(
+    {
+      "LogName": "Emet-Selch mail data",
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "Entries": {
+        "Visorlights.Emet_2hearts": "Farmer,^ I have need of a frozen geode, and I dislike the colder floors. Fetch one for me. ^ -Emet-Selch %item quest Visorlights.Emet_Geode_Quest %%[#]Emet-Selch's Request",
+        "Visorlights.Emet_quartz": "Farmer,^ I must examine the aetheric density of crystals from deep within the mine. Three samples of fire quartz should do. ^ -Emet-Selch %item quest Visorlights.Emet_FireQuartz_Quest %%[#]Emet-Selch's Next Request"
+      }
+    },
+
+    //wepon 
+    {
+      "LogName": "weapons changes",
+      "Action": "Include",
+      "FromFile": "assets/Items/Weapons/Weapons.json"
+    },
+
+    //gives a few NPCs lines after you marry him
+    {
+      "LogName": "Town wedding commentary",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Abigail",
+      "Entries": {
+        "married_Visorlights.EmetSelch": "When we ran into that Emet guy, I remember thinking that even if he was kind of a jerk, it did seem like he liked you.#$b#Never thought you'd end up marrying him, though!$h"
+      }
+    },
+
+    {
+      "LogName": "Town wedding commentary lewis",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Lewis",
+      "Entries": {
+        "married_Visorlights.EmetSelch": "I can't say I know what you see in Mr. Selch...$3#$b#But I hope your marriage is a happy one."
+      }
+    },
+
+    //Trigger action to check if events and mail were seen under the original event IDs
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "{{ModId}}_Old_Id_Update": {
+          "Id": "{{ModId}}_Old_Id_Update",
+          "Trigger": "DayStarted",
+          "Actions": [
+            "Pathoschild.ContentPatcher_MigrateIds Events 134360001 {{ModId}}_0_1 134360002 {{ModId}}_0_2 134360003 {{ModId}}_0_3 134360004 {{ModId}}_0_4 134360021 {{ModId}}_2_1 134360022 {{ModId}}_2_2 134360041 {{ModId}}_4_1 134360061 {{ModId}}_6_1 134360071 {{ModId}}_7_1 134360081 {{ModId}}_8_1 134360091 {{ModId}}_9_1 134360101 {{ModId}}_10_1 134360102 {{ModId}}_10_2 134360103 {{ModId}}_10_3",
+            "Pathoschild.ContentPatcher_MigrateIds Mail 13436_Emet_2hearts Visorlights.Emet_2hearts 13436_Emet_quartz Visorlights.Emet_quartz 13436_Emet_8hearts Visorlights.Emet_8hearts"
+          ],
+          "HostOnly": true
+        }
+      }
+    }
+
+
+  ]
+}

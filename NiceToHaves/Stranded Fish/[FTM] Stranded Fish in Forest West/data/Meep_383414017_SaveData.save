@@ -1,36 +1,47 @@
 {
-  "WeatherForYesterday": "Rain",
+  "WeatherForYesterday": "Sun",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
-    {
-      "MapName": "Custom_ForestWest",
-      "Name": "Butterfish",
-      "Tile": "23, 131",
-      "Type": "Forage",
-      "ID": "FlashShifter.StardewValleyExpandedCP_Butterfish",
-      "DaysUntilExpire": 2,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_ForestWest",
-      "Name": "Butterfish",
-      "Tile": "9, 127",
-      "Type": "Forage",
-      "ID": "FlashShifter.StardewValleyExpandedCP_Butterfish",
-      "DaysUntilExpire": 2,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
     {
       "MapName": "Custom_ForestWest",
       "Name": "Rainbow Trout",
       "Tile": "34, 142",
       "Type": "Forage",
       "ID": "138",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ForestWest",
+      "Name": "Catfish",
+      "Tile": "15, 128",
+      "Type": "Forage",
+      "ID": "143",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ForestWest",
+      "Name": "Dorado",
+      "Tile": "26, 131",
+      "Type": "Forage",
+      "ID": "704",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ForestWest",
+      "Name": "King Salmon",
+      "Tile": "25, 131",
+      "Type": "Forage",
+      "ID": "FlashShifter.StardewValleyExpandedCP_King_Salmon",
       "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,

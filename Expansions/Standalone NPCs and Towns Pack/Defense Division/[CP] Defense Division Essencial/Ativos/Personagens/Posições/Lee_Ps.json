@@ -1,0 +1,20 @@
+{
+  "Changes": [
+	{	// Lee Fora da Vila
+        "Action": "EditData",
+        "Target": "Data/Characters",
+		"Update": "OnDayStart",
+        "Entries": {
+			"Lee": { "DisplayName": "{{i18n:Lee.Display.Name}}", "Age": "child", "Manner": "polite", "SocialAnxiety": "neutral", "Optimism": "Positive", "Gender": "male", "CanBeRomanced": false, "CanGreetNearbyCharacters": false, "LoveInterest": "null", "BirthSeason": "summer", "BirthDay": 20, "Calendar": "HiddenAlways", "WinterStarParticipant": "false", "CanVisitIsland": "false",
+            "Home": [ { "Id": "Ilha", "Location": "Ilha", "Tile": { "X": 5, "Y": 6 }, "Direction": "Down" } ] }
+            }
+    },
+	{
+		"Action": "EditData",
+        "Target": "Data/Characters",
+        "Update": "OnDayStart",
+        "Fields": { "Lee": { "Calendar": "HiddenUntilMet", "Home": [ { "Id": "Casa.Interior", "Location": "Casa.Interior", "Tile": { "X": 18, "Y": 5 }, "Direction": "Down" } ] } },
+        "When": { "HasSeenEvent: anyPlayer|contains=90105264": "true", "HasSeenEvent: anyPlayer|contains=58614300": "false", "HasSeenEvent: anyPlayer|contains=91105264": "false" }
+    },
+  ]
+}

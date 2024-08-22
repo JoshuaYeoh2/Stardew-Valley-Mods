@@ -1,0 +1,198 @@
+{
+  "Changes": [
+    { 	// Isis Dentro ou Fora
+      "LogName": "Fora da Vila",
+      "Action": "Include",
+      "FromFile": "Ativos/Personagens/Posições/Isis_Ps.json,	Ativos/Personagens/Agenda/Is_Agenda.json",
+	},
+    {	//Artes Jovem
+      "LogName": "Corpo Jovem",
+      "Action": "Load",
+      "Target": "Characters/Isis",
+      "FromFile": "Ativos/Personagens/Artes/Isis/Comum.V1/Boneco_{{season}}_Sun.png",
+	  "When": { "HasSeenEvent: anyPlayer|contains=58614000": false, },
+    },
+    {
+      "LogName": "Retrato Jovem",
+      "Action": "Load",
+      "Target": "Portraits/Isis",
+      "FromFile": "Ativos/Personagens/Artes/Isis/Comum.V1/Retrato_{{season}}_Sun.png",
+	  "When": { "HasSeenEvent: anyPlayer|contains=58614000": false, },
+    },
+	{
+      "LogName": "Corpo Casual Jovem",
+      "Action": "EditImage",
+      "Target": "Characters/Isis",
+      "FromFile": "Ativos/Personagens/Artes/Isis/Casual.V1/Boneco_{{season}}.png",
+      "When":{ "HasSeenEvent: anyPlayer|contains=58614000": false,
+	  "LocationName": "Casa.Interior, Casa.Sótão, FarmHouse, FarmHouse1, FarmHouse1_marriage, FarmHouse2, FarmHouse2_marriage, IslandFarmHouse, MovieTheater, MovieTheaterScreen" },   
+      "Update": "OnLocationChange"
+    },
+	{
+      "LogName": "Corpo Chuva ou Neve Jovem",
+      "Action": "EditImage",
+      "Target": "Characters/Isis",
+      "FromFile": "Ativos/Personagens/Artes/Isis/Comum.V1/Boneco_{{season}}_{{WeatherVariant}}.png",
+      "When": { "HasSeenEvent: anyPlayer|contains=58614000": false,
+	  "LocationName": "Town,	Mountain,	Railroad,	BusStop,	Backwoods,	Forest,	Woods,	Beach,	Desert,	Farm,	Farm_Combat,	Farm_Fishing,	Farm_Foraging,	Farm_FourCorners,	Farm_Mining,	Farm_Island,	Custom_Ridgeside_RidgesideVillage,	EastScarp_Village" },
+      "Update": "OnLocationChange"
+    },
+	{
+      "LogName": "Retrato Chuva ou Neve Jovem",
+      "Action": "EditImage",
+      "Target": "Portraits/Isis",
+      "FromFile": "Ativos/Personagens/Artes/Isis/Comum.V1/Retrato_{{season}}_{{WeatherVariant}}.png",
+      "When": { "HasSeenEvent: anyPlayer|contains=58614000": false,
+      "LocationName": "Town,	Mountain,	Railroad,	BusStop,	Backwoods,	Forest,	Woods,	Beach,	Desert,	Farm,	Farm_Combat,	Farm_Fishing,	Farm_Foraging,	Farm_FourCorners,	Farm_Mining,	Farm_Island,	Custom_Ridgeside_RidgesideVillage,	EastScarp_Village" },
+      "Update": "OnLocationChange"
+    },
+	{
+      "LogName": "Corpo Praia Jovem",
+      "Action": "EditImage",
+      "Target": "Characters/Isis",
+      "FromFile": "Ativos/Personagens/Artes/Isis/Praia.V1/Boneco.png",
+      "When":{ "HasSeenEvent: anyPlayer|contains=58614000": false, "Time": "{{Range: 1130, 1820}}",
+      "LocationName": "IslandSouth, IslandWest, IslandEast, IslandNorth, Island_E, Island_N, Island_Resort, Island_N_Trader, Island_S, Island_SE, Island_Secret, Island_Shrine, Island_W, Island_House_Restored" },
+      "Update": "OnLocationChange"
+    },
+	{
+      "LogName": "Retrato Praia Jovem",
+      "Action": "EditImage",
+      "Target": "Portraits/Isis",
+      "FromFile": "Ativos/Personagens/Artes/Isis/Praia.V1/Retrato.png",
+      "When": { "HasSeenEvent: anyPlayer|contains=58614000": false, "Time": "{{Range: 1130, 1820}}",
+      "LocationName": "IslandSouth, IslandWest, IslandEast, IslandNorth, Island_E, Island_N, Island_Resort, Island_N_Trader, Island_S, Island_SE, Island_Secret, Island_Shrine, Island_W, Island_House_Restored" },
+      "Update": "OnLocationChange"
+    },
+	{	//Artes Adulta
+      "LogName": "Corpo Adulta",
+      "Action": "Load",
+      "Target": "Characters/Isis",
+      "FromFile": "Ativos/Personagens/Artes/Isis/Comum.V2/Boneco_{{season}}_Sun.png",
+	  "When": { "HasSeenEvent: anyPlayer|contains=58614000": true, },
+    },
+    {
+      "LogName": "Retrato Adulta",
+      "Action": "Load",
+      "Target": "Portraits/Isis",
+      "FromFile": "Ativos/Personagens/Artes/Isis/Comum.V2/Retrato_{{season}}_Sun.png",
+	  "When": { "HasSeenEvent: anyPlayer|contains=58614000": true, },
+    },
+	{
+      "LogName": "Corpo Casual Adulta",
+      "Action": "EditImage",
+      "Target": "Characters/Isis",
+      "FromFile": "Ativos/Personagens/Artes/Isis/Casual.V2/Boneco_{{season}}.png",
+      "When": { "HasSeenEvent: anyPlayer|contains=58614000": true,
+      "LocationName": "Casa.Interior, Casa.Sótão, FarmHouse, FarmHouse1, FarmHouse1_marriage, FarmHouse2, FarmHouse2_marriage, IslandFarmHouse, MovieTheater, MovieTheaterScreen" },
+      "Update": "OnLocationChange"
+    },
+	{
+      "LogName": "Corpo Chuva ou Neve Adulta",
+      "Action": "EditImage",
+      "Target": "Characters/Isis",
+      "FromFile": "Ativos/Personagens/Artes/Isis/Comum.V2/Boneco_{{season}}_{{WeatherVariant}}.png",
+      "When": { "HasSeenEvent: anyPlayer|contains=58614000": true,
+      "LocationName": "Town,	Mountain,	Railroad,	BusStop,	Backwoods,	Forest,	Woods,	Beach,	Desert,	Farm,	Farm_Combat,	Farm_Fishing,	Farm_Foraging,	Farm_FourCorners,	Farm_Mining,	Farm_Island,	Custom_Ridgeside_RidgesideVillage,	EastScarp_Village" },
+      "Update": "OnLocationChange"
+    },
+	{
+      "LogName": "Retrato Chuva ou Neve Adulta",
+      "Action": "EditImage",
+      "Target": "Portraits/Isis",
+      "FromFile": "Ativos/Personagens/Artes/Isis/Comum.V2/Retrato_{{season}}_{{WeatherVariant}}.png",
+      "When": { "HasSeenEvent: anyPlayer|contains=58614000": true,
+      "LocationName": "Town,	Mountain,	Railroad,	BusStop,	Backwoods,	Forest,	Woods,	Beach,	Desert,	Farm,	Farm_Combat,	Farm_Fishing,	Farm_Foraging,	Farm_FourCorners,	Farm_Mining,	Farm_Island,	Custom_Ridgeside_RidgesideVillage,	EastScarp_Village" },
+      "Update": "OnLocationChange"
+    },
+	{
+      "LogName": "Corpo Praia Adulta",
+      "Action": "EditImage",
+      "Target": "Characters/Isis",
+      "FromFile": "Ativos/Personagens/Artes/Isis/Praia.V2/Boneco.png",
+      "When": { "HasSeenEvent: anyPlayer|contains=58614000": true, "Time": "{{Range: 1130, 1820}}",
+      "LocationName": "IslandSouth, IslandWest, IslandEast, IslandNorth, Island_E, Island_N, Island_Resort, Island_N_Trader, Island_S, Island_SE, Island_Secret, Island_Shrine, Island_W, Island_House_Restored" },
+      "Update": "OnLocationChange"
+    },
+	{
+      "LogName": "Retrato Praia Adulta",
+      "Action": "EditImage",
+      "Target": "Portraits/Isis",
+      "FromFile": "Ativos/Personagens/Artes/Isis/Praia.V2/Retrato.png",
+      "When": { "HasSeenEvent: anyPlayer|contains=58614000": true, "Time": "{{Range: 1130, 1820}}",
+      "LocationName": "IslandSouth, IslandWest, IslandEast, IslandNorth, Island_E, Island_N, Island_Resort, Island_N_Trader, Island_S, Island_SE, Island_Secret, Island_Shrine, Island_W, Island_House_Restored" },
+      "Update": "OnLocationChange"
+    },
+	{	//Festival Arte
+      "Action": "Load",
+	  "When": { "HasSeenEvent: anyPlayer|contains=58614000": false, },
+      "Target": "Characters/Is.Boneco_EggFest, Portraits/Is.Retrato_EggFest, Characters/Is.Boneco_FlowerDance, Portraits/Is.Retrato_FlowerDance, Characters/Is.Boneco_Luau, Portraits/Is.Retrato_Luau, Characters/Is.Boneco_DanceMoonlight, Portraits/Is.Retrato_DanceMoonlight, Characters/Is.Boneco_Fair, Portraits/Is.Retrato_Fair, Characters/Is.Boneco_SpiritsEve, Portraits/Is.Retrato_SpiritsEve, Characters/Is.Boneco_IceFest, Portraits/Is.Retrato_IceFest, Characters/Is.Boneco_WinterStart, Portraits/Is.Retrato_WinterStart",
+      "FromFile": "Ativos/Personagens/Artes/Isis/Festival.V1/{{TargetWithoutPath}}.png"
+    },
+	{
+      "Action": "Load",
+	  "When": { "HasSeenEvent: anyPlayer|contains=58614000": true, },
+      "Target": "Characters/Is.Boneco_EggFest, Portraits/Is.Retrato_EggFest, Characters/Is.Boneco_FlowerDance, Portraits/Is.Retrato_FlowerDance, Characters/Is.Boneco_Luau, Portraits/Is.Retrato_Luau, Characters/Is.Boneco_DanceMoonlight, Portraits/Is.Retrato_DanceMoonlight, Characters/Is.Boneco_Fair, Portraits/Is.Retrato_Fair, Characters/Is.Boneco_SpiritsEve, Portraits/Is.Retrato_SpiritsEve, Characters/Is.Boneco_IceFest, Portraits/Is.Retrato_IceFest, Characters/Is.Boneco_WinterStart, Portraits/Is.Retrato_WinterStart",
+      "FromFile": "Ativos/Personagens/Artes/Isis/Festival.V2/{{TargetWithoutPath}}.png"
+    },
+    { 	//Branco e Incluir
+      "LogName": "Arquivo Branco",
+      "Action": "Load",
+      "Target": "Characters/Schedules/Isis, Characters/Dialogue/Isis, Characters/Dialogue/MarriageDialogueIsis",
+      "FromFile": "Ativos/Personagens/Vazio.json"
+    },
+	{
+	  "LogName": "Textos, Animações, Eventos",
+      "Action": "Include",
+      "FromFile": "Ativos/Personagens/Textos/Is_Dialogos.json,	Ativos/Personagens/Textos/Is_Casada.json,	Ativos/Personagens/Animações/Animações.json,	Ativos/Personagens/Eventos/Is_Eventos.json"
+    },
+	{	//Festivais
+      "LogName": "Festivais Não Casavel",
+      "Action": "Include",
+      "FromFile": "Ativos/Personagens/Festivais/Is_Festival.01.json",
+	  "When": {	"HasSeenEvent: anyPlayer|contains=90305264": true,	"HasSeenEvent: anyPlayer|contains=90805264": false },
+    },
+	{
+      "LogName": "Festivais Volta ou Casavel",
+      "Action": "Include",
+      "FromFile": "Ativos/Personagens/Festivais/Is_Festival.01.json",
+	  "When": {	"HasSeenEvent: anyPlayer|contains=91205264": true, 	"HasSeenEvent: anyPlayer|contains=91605264": false },
+    },
+    { 	//Presentes e Lixo
+      "LogName": "Presentes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Isis": "{{i18n:Is.gift.love}}/350 223 243 611 612 201 595 -6/{{i18n:Is.gift.like}}/206 233 241 288 287 395 -2 -7 -27 -79/{{i18n:Is.gift.dislike}}/648 393 397 226 196 346 -75 -81 -12/{{i18n:Is.gift.hate}}/721 154 155 215 128 418 167 -20 -4 459/{{i18n:Is.gift.neutral}}/421 348 245 286 423 -26 -5 -80 395/ "
+      }
+    },
+	{
+	  "LogName": "Lixo",
+	  "Action": "EditData",
+	  "Target": "Characters/Dialogue/Isis",
+	  "Entries": {
+	  	"DumpsterDiveComment": "{{i18n:Isis.DumpsterDive}}"
+	  }
+	},
+	{	// Dialogo Pré Casamento
+		"LogName": "Isis Engagement Dialogue",
+		"Action": "EditData",
+		"Target": "Data/EngagementDialogue",
+		"Entries": 
+		{	
+		"Isis0": "{{i18n:Is.PréCas.01}}",
+		"Isis1": "{{i18n:Is.PréCas.02}}",
+		},
+	},
+	{	// Quarto e Patio de Casado
+      "Action": "Load",
+      "Target": "Maps/Casada.Quarto_Isis",
+      "FromFile": "Ativos/Mapas/Casada.Quarto_Isis.tmx"
+    }, 
+	{
+	  "Action": "Load",
+      "Target": "Maps/Casada.Patio_Isis",
+      "FromFile": "Ativos/Mapas/Casada.Patio_Isis.tmx"
+	},
+  ]
+}

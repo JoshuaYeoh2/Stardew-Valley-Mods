@@ -1,0 +1,197 @@
+{
+
+  // Universal Courtship Response Additions
+  "stardrop_gift": "Here. A stardrop; a rare fruit said to boost vitality.$9#$b#I thought it might prove useful, with all you do.$1",
+  "give_flowersA": "Ah, I had thought you might be interested...$3#$b#I suppose I have time for such a dalliance.$3#$b#Very well; I accept. I do rather enjoy your company.$3#$b#You're welcome to grace me with it this evening, if you like.$4",
+  "give_flowersB": "Ah, I had thought you might be interested...$3#$b#I suppose I have time for such a dalliance.$3#$b#Very well; I accept. I do rather enjoy your company.$3#$b#You're welcome to grace me with it this evening, if you like.$4",
+  "give_pendant": "This is-!$11#$b#After that embarrassing display I put you through, you'd still seek a life with me?$0#$b#Really, you are ridiculous.$9#$b#If you truly wish for it, then I would be glad for all the time you'd deign to spend with me.$0#$b#That is a 'yes', if you must hear it said. Nothing would make me happier.$1",
+  "rejectNPCA": "No.$6",
+  "rejectNPCB": "Absolutely not.$6",
+  "reject_two_heartA": "Your presence is taxing enough already.$6#$b#Take your romantic overtures to an interested party.",
+  "reject_two_heartB": "Your presence is taxing enough already.$6#$b#Take your romantic overtures to an interested party.",
+  "reject_four_heartA": "Yes, hilarious.$7#$b#Now what is it you actually want?",
+  "reject_four_heartB": "Yes, hilarious.$7#$b#Now what is it you actually want?",
+  "engageA": "Perhaps resolve your standing engagements before proposing all willy-nilly.",
+  "engageB": "Perhaps resolve your standing engagements before proposing all willy-nilly.",
+  "marriedA": "I do not have time to deal with the ire of a jealous spouse, thank you.",
+  "marriedB": "I've little interest in being a part of your relationship.$6",
+  "refusal_knownA": "Is this your idea of a joke?$6",
+  "refusal_knownB": "Do you think me waiting to leap into the arms of whomever will have me?$6",
+  "refusal_botherA": "If you believe your persistence to be charming, it is not.$6",
+  "refusal_botherB": "If you believe your persistence to be charming, it is not.$6",
+  "refusal_no_heartsA": "I can scarcely stand your visits, but no, I would love to entwine my life with yours.$7#$b#Is that honestly what you were expecting?",
+  "refusal_no_heartsB": "I can scarcely stand your visits, but no, I would love to entwine my life with yours.$7#$b#Is that honestly what you were expecting?",
+  "birthdayLoveA": "Is it my nameday already? I confess I hardly bother to keep track, after so many.#$b#...My thanks for the gift, regardless.$1",
+  "birthdayLoveB": "Is it my nameday already? I confess I hardly bother to keep track, after so many.#$b#...My thanks for the gift, regardless.$1",
+  "birthdayLikeA": "Thanks are in order, I suppose; it is an acceptable nameday gift.",
+  "birthdayLikeB": "Thanks are in order, I suppose; it is an acceptable nameday gift.",
+  "birthdayDislikeA": "Either you are singularly terrible at getting gifts, or rather good at spiting me.$6",
+  "birthdayDislikeB": "Either you are singularly terrible at getting gifts, or rather good at spiting me.$6",
+  "birthdayNeutralA": "...#$b#Am I intended to be grateful for this?$6",
+  "birthdayNeutralB": "...#$b#Am I intended to be grateful for this?$6",
+
+
+  //Start with default for every day of week ----------------------------------------------------------------------
+  //then update 4ish days a week with each heart level
+
+  //Sun and Mon are his weekend days
+  "Sun": "%He motions for you to shuffle away.",
+  "Sun2": "Oh, to return to the blessed days before your town encroached on this valley.$0#$b#The days without people trudging through these woods.$6",
+  "Sun4": "In case you haven't noticed, I have a very busy schedule of napping to attend to.$0",
+  "Sun10": "I've a good many cozy areas in the house.$u#$b#Pick whichever you like, just leave room for me.$u",
+
+  "Mon": "Despite what you seem to think, we are not friends, and I do not enjoy you hovering about while I'm trying to relax.$6",
+  "Mon4": "If you insist on staying, find something to entertain yourself with rather than bother me.$0#$b#I'm sure there's something in my library that can hold your interest, if you've any taste.$0#$e#Fiction and leisure reads are in the living room; my office has many informational tomes, if that interests you.$0",
+  "Mon6": "Inviting yourself over again, I see. Yes, just make yourself at home!$7#$e#Your dedication to taking up my time would be impressive if it weren't so tiring.",
+  "Mon8": "Yes, yes, make yourself at home.$7#$b#As usual.$h",
+
+  //work week beginning
+  "Tue": "That I could 'bring ruin to you' was not an idle threat, you know.$0#$e#Do not underestimate my willingness to make this a regrettable experience for us both.$6",
+  "Tue2": "Don't you have a farm to look after? Surely there is something that requires your attention.$6",
+  "Tue6": "Another day of reviewing aetheric measurements that are almost certainly unremarkable.#$b#Perhaps I will make a pot of coffee after all...$8",
+
+  "Wed": "Whatever petty matter you intend to bring up: don't.$6",
+  "Wed4": "Dare I ask what it is you want this time?",
+  "Wed6": "Ah, you again. Sending anything in particular to the market this time of year?$0#$b#The produce of that farm is certainly a benefit of living here.",
+  "Wed8": "Why did I put the chaise lounge in my office of all places...$9#$b#Ever does it tempt me.$6",
+
+  "Thu": "Do you enjoy testing my patience? Unless you have business, leave me be.$6",
+  "Thu2": "Would some manner of beast deter your visits?#$b#Perhaps it is time to summon forth a guard Cubus$6.",
+  "Thu4": "Hang about much longer and I will find something useful for you to do.",
+  "Thu6": "I'm preparing for a meeting at the moment.#$b#Rare as they are, there's quite a bit to report.#$e#Most people would have taken the hint not to interrupt me further.$6",
+
+  //Fri is his work day out
+  "Fri": "Oh, for the love of... Save your chatter for someone who is at all interested. I have observations to make.$7",
+  "Fri4": "I pass through the surrounding towns only to access their passages into the earth.#$b#I am not here to socialize$6.",
+  "Fri6": "As little as I care to be involved in the lives of you townsfolk, I admit the drama can be amusing to watch.$u",
+  "Fri8": "Don't you dare try and rope me into a 'fun night out'.#$b#I've heard every possible attempt to goad me into such before.$6",
+
+  "Sat": "If I've done something to make you think your visits are wanted, tell me so I can stop it immediately.$6",
+  "Sat4": "Congratulations, I've acknowledged you are here. Now begone with you.$7",
+  "Sat6": "I do try to be productive on Saturdays.$0#b#Then I can be blessedly unconscious for the better part of two days.$6",
+  "Sat10": "Allow me to attend to my duties today, will you.$7#$b#Then you may command my attention for as long as you wish.$u",
+
+  //------------------------------------------------------------------------------------------------
+  //Season_<dayofweek>, or Season_<dayofmonth>-specific lines (or season_)
+  //overwrites generic day of week dialogue
+
+  //you have two hearts in spring year one, quite frankly I'm impressed. wonder if this is even possible without getting a Loved gift for his nameday
+  "spring_27_1": "Just what is it you want? The moment you start asking for favors, I'm unmaking that pathway.$6",
+
+  //special day one
+  "spring_14": "I often put up with your visits, but I will not suffer you today of all days.#$b#I will be left alone, is that clear?$6",
+  //spring peony time
+  "springVisorlights.EmetSelchCustomNPC_Naples_30_23": "The paeonias have started blooming, so I'll be staking them to support the stems.$0#$e#And yes, I could simply enchant them; I choose not to.$7",
+  "springVisorlights.EmetSelchCustomNPC_Naples_32_23": "Enjoying the flowers? This particular variety of paeonia is the 'Festiva Maxima'.$u",
+
+  "summer_13_1": "With how much effort you put into getting my attention, one might get the wrong idea.$u", //farmer are you coming onto me, i have 6 hearts in summer year one
+  "summer_Mon": "The long light of summer may benefit your line of work, but I've spared no effort in making curtains to block it out.$6",
+  "summer_Wed4": "So many creatures about the woods this time of year. Yet none here match the majesty of the Cubus.",
+  "summer_Thu4": "Uninterested in joining a summer's day out with the rest of the townspeople? I can hardly say I don't understand.",
+  //statement one if community center is around, two if it's not
+  "summer_27_1": "$d cc#I've seen you running about with the Junimo in the community center. I hope you're doing something about all that, it's just pathetic as it stands.|Finally given up on the town, have they? I would've almost called the community center nice, at one point.",
+
+  "fall_Mon2": "Spacial rifts are tricky things, but they do make for convenient points of travel. I've attuned the aetheryte outside to one such portal.$8#$b#Should you seek it out, I'll note that it does deposit you nearly unto oncoming traffic.$6",
+  "fall_Thu6": "I do try not to hoard possessions, lest my home be overrun.%revealtasteVisorlights.EmetSelch428#$b#I've never regretted a purchase of soft fabrics, however.",
+  "fall_Sun8": "The mistake with the kitchen window irks me, but I find it difficult to unmake it.$6#$b#They were so very amused with their 'little fix'...$7",
+
+  "winter_Mon4": "At least greenery may survive indoors these frigid months. The vibrant purples of the prospero autumnale are welcome company this time of year.$0#$e#Its name is Ariel.",
+  "winter_Wed6": "Wandering about, are we? I suppose there's little to do on a farm in winter.",
+  "winter_Sat10": "About now there's nothing I'd like better than to forgo work and laze about.$6#$b# Would you care to join me?$1",
+  "winterTown_Fri": "Ugh, how I loathe the cold. I'm teleporting inside the moment I'm finished here, and I'm not coming out until this horrid season is over.$6",
+  "winterMountain_Fri": "Ugh, how I loathe the cold. I'm teleporting inside the moment I'm finished here, and I'm not coming out until this horrid season is over.$6",
+
+  //early fall clematis blooming
+  "Visorlights.EmetSelchCustomNPC_Naples_25_23": "Just taking in the clematis blooms. I enjoy the regal purples and reds of the 'horn of plenty' variety.$h",
+
+
+  //special day two
+  "winter_21": "I often put up with your visits, but I will not suffer you today of all days.#$b#I will be left alone, is that clear?$6",
+  "winter_21_6": "...I would prefer to be alone. Please.$s",
+  //---------------------------------------------------------------------
+  //location-based dialogue
+  "Visorlights.EmetSelchCustomNPC_Emet_House_18_7": "%Emet-Selch is dead asleep.", //bed
+  "springVisorlights.EmetSelchCustomNPC_Naples_25_23": "This crystalline structure is an aetheryte, to facilitate teleportation. A magick largely lost to time, it would seem.",
+  //in front of kitchen window
+  "summerVisorlights.EmetSelchCustomNPC_Emet_House_3_21": "Yes, the window should only show the living room; there was an error in the room's creation. It has been enchanted to show the view of the front yard rather than the wall.$0#$e#It wasn't my error, mind you. *I* take pride in my work.$6",
+  "summerVisorlights.EmetSelchCustomNPC_Naples_20_28": "This tree may shed leaves all over my hammock come fall, but blocking out the accursed summer sun is worth it.",
+
+  //special dialogue-----------------------------------------------------
+  "Introduction": "%Emet-Selch ignores you.",
+  "MovieInvitation": "This better be good, you know. I have quite the taste in theatre.",
+  "breakUp": "Done with me, are you? Hmph. It was inevitable that one of us would get bored of this, though I admit I thought I would be first.$6",
+  "divorced": "What is it that you want.$6",
+
+  //resort dialogue
+  "Resort_Entering": "Why did I not simply teleport...$6",
+  "Resort_Leaving": "*Sigh*$9#$b#Back to the realities of life I go.",
+  "Resort_Leaving_2": "If I must leave, I may as well take the scenic route.",
+  "Resort_Shore": "...Hm?#$b#The waves on the white sands are ever a sight...",
+  "Resort_Shore_2": "Kick sand at me and you will learn I am not above ending you.$6",
+  "Resort_Umbrella": "You can play about all you like, I've no intention of frying in the sun.",
+  "Resort": "Come to get away from work as well, have you?#$e#Yet I would not be surprised to find you've found some task to chase even here.",
+  "Resort_2": "I may have to observe the aether of the volcano, but I can at least pretend to be here for pleasure.#$e#I need the relaxation, simply recalling the last time the volcano became volatile is enough to raise my ire.$6",
+  "Resort_Chair": "If you're looking for further errands, fetch me a drink.#$b#My refreshment will be its own reward.",
+  "Resort_Wander": "What is the point of a 'getaway' if I must be surrounded by half the town?$6#$b#I'm off to find a more secluded area, thank you.",
+  "Resort_Bar": "A drink, if you will. Preferably with a little umbrella in it.",
+
+  //1.6 dialogue keys. TODO:
+  "AcceptBirthdayGift_Neutral": "If you're going to bother handing me a gift, do better than handing me whatever it is you had lying around.",
+  "AcceptBirthdayGift_Positive": "Thanks are in order, I suppose; it is an acceptable nameday gift.",
+  "AcceptBirthdayGift_Negative": "Either you are singularly terrible at getting gifts, or rather good at spiting me.$6",
+  "AcceptGift_(O)253": "Is that espresso you have? Not a terrible idea...$8", //triple espresso
+  "AcceptGift_(O)395": "%Emet-Selch takes the coffee off your hands and sips contentedly.", //coffee
+  "AcceptGift_(O)637": "Ah, the only fruit whose delectability is nearly eclipsed by the difficulty of actually eating it. Nearly.$1", //pomeygrant :)
+  "RejectGift_Divorced": "You've made it clear I am not wanted in your life. Let it be known I intend to return the favor.$10",
+  "AcceptGift_(O)StardropTea": "Is this stardrop tea?#$b#Excellent taste, farmer.$1",
+  "AcceptGift_(O)348": "Well, I can be tempted with a good bottle of wine. Is it one of your making?$1", //wine
+
+  "AcceptBouquet": "Ah, I had thought you might be interested...$3#$b#I suppose I have time for such a dalliance.$3#$b#Very well; I accept. I do rather enjoy your company.$3#$b#You're welcome to grace me with it this evening, if you like.$4",
+  "RejectBouquet_Divorced": "Feeling regretful, are we?#$b#Unfortunately for you, *I* do not.$6",
+  "RejectBouquet_NotDatable": "Go find another to gaze longingly at, I am busy.$7",
+  "RejectBouquet_NpcAlreadyMarried": "I've little interest in being a part of your relationship.$6",
+  "RejectBouquet_VeryLowHearts": "Your presence is taxing enough already.#$b#Take your romantic overtures to an interested party.$6", // < 4 hearts
+  "RejectBouquet_LowHearts": "Yes, hilarious.$7#$b#Now what is it you actually want?", // < 8 hearts
+  "RejectBouquet": "Absolutely not.$6",
+
+  "RejectMermaidPendant_Divorced": "%Emet-Selch looks aside and scoffs at the pendant.",
+  "RejectMermaidPendant_NeedHouseUpgrade": "!!$11#$b#If you truly wish for it, then I would be glad for it.$1#$b#I do not think you presently have room for another, however, and I refuse to sleep on a couch.",
+  "RejectMermaidPendant_NotDatable": "Go find another to gaze longingly at, I am busy.$7", //only used if Platonic version is on
+  "RejectMermaidPendant_NpcWithSomeoneElse": "Perhaps if you impressed us both, we might be amenable to your advances...$8#$b#...But, no.$1",
+  "RejectMermaidPendant_PlayerWithSomeoneElse": "I do not have time to deal with the ire of a jealous spouse, thank you.",
+  "RejectMermaidPendant_Under8Hearts": "Do you think me waiting to leap into the arms of whomever will have me?$6",
+  "RejectMermaidPendant_Under10Hearts": "That is rather more than either of us agreed to, no?$1",
+  "RejectMermaidPendant_Under10Hearts_AskedAgain": "If you believe your persistence to be charming, it is not.$6",
+  "RejectMermaidPendant": "I have no such interest in you, thank you.$6",
+
+  "RejectMovieTicket_AlreadyInvitedBySomeoneElse": "I've already made plans for the theatre, thank you.",
+  "RejectMovieTicket_AlreadyWatchedThisWeek": "I only have so much time I may devote to theatre, though I wish it were otherwise.",
+  "RejectMovieTicket_Divorced": "Do you really think I'd want to go anywhere with you?$6",
+  "RejectMovieTicket": "Hmm...$8#$b#...No.$3",
+
+  "Fair_Judged_PlayerLost_PurpleShorts": "You may have lost in the judge's eyes, but I daresay you claimed the spiritual victory.$1",
+  "Fair_Judged_PlayerLost_Skipped": "Above all this 'town fair' business, are you? I can hardly say I don't understand.",
+  "Fair_Judged_PlayerLost": "Tsk tsk, and here I thought you took pride in your work here.$9#$b#Perhaps next year, hm?$1",
+  "Fair_Judged_PlayerWon": "Decent work, farmer.$1#$b#Not that you had any particularly strong competition.",
+  "Fair_Judged": "At last, this wretched affair is over.$7",
+
+  "FlowerDance_Decline": "Oh, no. Do NOT get any ideas.#$b#Absolutely not.$6",
+  "WipedMemory": "So the new farmer comes to waste my time.$8#$e#Yet you seem terribly familiar... where have I seen that soul before?$6",
+  "DumpserDiveComment": "Are you seriously digging through the garbage!? Disgusting.$6",
+  "HitBySlingshot": "Aim that in my direction again and you will be made to regret it.$6",
+
+  "GreenRain": "The townsfolk in a panic, hunkering down as if it is the end of days... Do they not remember the last time it rained so?$7#$b#Twas only some decades past.#$e#Or was it centuries...$8",
+  "GreenRain_2": "'Tis merely an overabundance of earth and water-aspected energies, but I will not be going out and getting coated in moss, thank you.#$b#Though I see that does naught to deter you... as is usual.$7#$e#My thanks for the generous trail of muck you've left on my floors, farmer.$6",
+  "GreenRainFinished": "Harmless though the rain may be, I do despise the layer of moss it leaves on every available surface.$6",
+  "cc_Complete": "I see you've been running errands for the Junimo as well, farmer.$1#$b#At last someone has done *something* about that eyesore of a building.#$e#And it is not as if any of the rest of the townsfolk were interested in contributing.$6",
+
+  //dialogue topics
+  "Visorlights.EmetClosure": "Back to shadowing me already? I commend your quick return to form.$u#$b#Thank you, @.$h#$e#And... I suppose it is only right I tell you, even if Hythlodaeus might have given as much away:$9#$b#My true name is Hades.#$q Visorlights.Closure1/Visorlights.Closure2 ClosureFollowup#My true name is Hades.#$r Visorlights.EmetClosureSweet 20 ClosureNice#Hades...It's nice. Suits you.,#$r Visorlights.EmetClosureFunny 20 ClosureTitle#It's still pretty funny when people use Emet-Selch like it's your name.#$r Visorlights.EmetClosureSweet 20 ClosureTease#Hades, Hades, Hades! I like saying it.#$r Visorlights.EmetClosureFunny 20 ClosureFarmer#Does this mean you'll use my actual name, instead of 'farmer'?",
+
+  "ClosureNice": "I admit, hearing you say it is... also nice.$1#$e#Perhaps I would not mind if you had cause to say it further...$4",
+  "ClosureTitle": "Well, whether you correct them or not is up to you.#$b#I do admit it can be amusing...$3",
+  "ClosureTease": "Why do I feel as though I've only given you more fodder to torment me with.$7#$b#...$1",
+  "ClosureFarmer": "I suppose that is also a courtesy I should extend to you, @...$9#$b#...Most of the time.$1",
+  "ClosureFollowup": "$p Visorlights.EmetClosureSweet#Perhaps I would not mind if you had cause to say it further...$4|Yes, @?$1"
+
+}

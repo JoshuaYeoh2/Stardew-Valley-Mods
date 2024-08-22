@@ -1,0 +1,42 @@
+{
+    "Changes": [
+      {
+        "Action": "Load",
+        "Target": "Characters/Visorlights.Hythlodaeus",
+        "FromFile": "assets/Characters/Hythlodaeus.png"
+      },
+
+      {
+        "Action": "Load",
+        "Target": "Portraits/Visorlights.Hythlodaeus",
+        "FromFile": "assets/Portraits/Hythlodaeus.png"
+      },
+
+      {
+        "Action": "EditData",
+        "Target": "Data/Characters",
+        "Entries": {
+          "Visorlights.Hythlodaeus": {
+            "DisplayName": "Hythlodaeus",
+            "CanSocialize": false,
+            "SocialTab": "HiddenAlways",
+            "IntroductionsQuest": false,
+            "PerfectionScore": false,
+            "EndSlideShow": false,
+            "SpawnIfMIssing": false,
+            "Home": [
+              {
+                "Id": "Default",
+                "Location": "{{ModId}}_Naples",
+                "Tile": {
+                  "X": 1,
+                  "Y": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+
+    ]
+}

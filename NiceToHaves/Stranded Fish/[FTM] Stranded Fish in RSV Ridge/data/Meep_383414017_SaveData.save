@@ -1,37 +1,15 @@
 {
-  "WeatherForYesterday": "Rain",
+  "WeatherForYesterday": "Sun",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
     {
       "MapName": "Custom_Ridgeside_Ridge",
       "Name": "Cutthroat Trout",
-      "Tile": "26, 35",
-      "Type": "Forage",
-      "ID": "Rafseazz.RSVCP_Cutthroat_Trout",
-      "DaysUntilExpire": 2,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Ridgeside_Ridge",
-      "Name": "Ridgeside Bass",
-      "Tile": "23, 29",
-      "Type": "Forage",
-      "ID": "Rafseazz.RSVCP_Ridgeside_Bass",
-      "DaysUntilExpire": 2,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Ridgeside_Ridge",
-      "Name": "Cutthroat Trout",
       "Tile": "23, 39",
       "Type": "Forage",
       "ID": "Rafseazz.RSVCP_Cutthroat_Trout",
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -42,7 +20,7 @@
       "Tile": "19, 41",
       "Type": "Forage",
       "ID": "Rafseazz.RSVCP_Cutthroat_Trout",
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -53,7 +31,18 @@
       "Tile": "26, 34",
       "Type": "Forage",
       "ID": "Rafseazz.RSVCP_Mountain_Redbelly_Dace",
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_Ridge",
+      "Name": "Caped Tree Frog",
+      "Tile": "15, 29",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Caped_Tree_Frog",
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null

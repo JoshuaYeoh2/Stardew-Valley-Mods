@@ -1,0 +1,128 @@
+{
+  "Changes": [
+	{ 	// Edward Dentro ou Fora
+      "LogName": "Fora da Vila",
+      "Action": "Include",
+      "FromFile": "Ativos/Personagens/Posições/Edward_Ps.json,	Ativos/Personagens/Agenda/Ed_Agenda.json",
+	},
+    {	//Artes
+      "LogName": "Corpo",
+      "Action": "Load",
+      "Target": "Characters/Edward",
+      "FromFile": "Ativos/Personagens/Artes/Edward/Comum/Boneco_{{season}}_Sun.png"
+    },
+    {
+      "LogName": "Retrato",
+      "Action": "Load",
+      "Target": "Portraits/Edward",
+      "FromFile": "Ativos/Personagens/Artes/Edward/Comum/Retrato_{{season}}_Sun.png"
+    },
+	{
+      "LogName": "Corpo Casual",
+      "Action": "EditImage",
+      "Target": "Characters/Edward",
+      "FromFile": "Ativos/Personagens/Artes/Edward/Casual/Boneco_{{season}}.png",
+      "When": { "LocationName": "Casa.Interior, Casa.Sótão, FarmHouse, FarmHouse1, FarmHouse1_marriage, FarmHouse2, FarmHouse2_marriage, IslandFarmHouse, MovieTheater, MovieTheaterScreen" },
+      "Update": "OnLocationChange"
+    },
+	{
+      "LogName": "Corpo Chuva ou Neve",
+      "Action": "EditImage",
+      "Target": "Characters/Edward",
+      "FromFile": "Ativos/Personagens/Artes/Edward/Comum/Boneco_{{season}}_{{WeatherVariant}}.png",
+      "When": { "LocationName": "Town,	Mountain,	Railroad,	BusStop,	Backwoods,	Forest,	Woods,	Beach,	Desert,	Farm,	Farm_Combat,	Farm_Fishing,	Farm_Foraging,	Farm_FourCorners,	Farm_Mining,	Farm_Island,	Custom_Ridgeside_RidgesideVillage,	EastScarp_Village" },
+      "Update": "OnLocationChange"
+    },
+	{
+      "LogName": "Retrato Chuva ou Neve",
+      "Action": "EditImage",
+      "Target": "Portraits/Edward",
+      "FromFile": "Ativos/Personagens/Artes/Edward/Comum/Retrato_{{season}}_{{WeatherVariant}}.png",
+      "When": { "LocationName": "Town,	Mountain,	Railroad,	BusStop,	Backwoods,	Forest,	Woods,	Beach,	Desert,	Farm,	Farm_Combat,	Farm_Fishing,	Farm_Foraging,	Farm_FourCorners,	Farm_Mining,	Farm_Island,	Custom_Ridgeside_RidgesideVillage,	EastScarp_Village" },
+      "Update": "OnLocationChange"
+    },
+	{
+      "LogName": "Corpo Praia",
+      "Action": "EditImage",
+      "Target": "Characters/Edward",
+      "FromFile": "Ativos/Personagens/Artes/Edward/Praia/Boneco.png",
+      "When": { "Time": "{{Range: 1130, 1820}}",
+      "LocationName": "IslandSouth, IslandWest, IslandEast, IslandNorth, Island_E, Island_N, Island_Resort, Island_N_Trader, Island_S, Island_SE, Island_Secret, Island_Shrine, Island_W, Island_House_Restored" },
+      "Update": "OnLocationChange"
+    },
+	{
+      "LogName": "Retrato Praia",
+      "Action": "EditImage",
+      "Target": "Portraits/Edward",
+      "FromFile": "Ativos/Personagens/Artes/Edward/Praia/Retrato.png",
+      "When": { "Time": "{{Range: 1130, 1820}}",
+      "LocationName": "IslandSouth, IslandWest, IslandEast, IslandNorth, Island_E, Island_N, Island_Resort, Island_N_Trader, Island_S, Island_SE, Island_Secret, Island_Shrine, Island_W, Island_House_Restored" },
+      "Update": "OnLocationChange"
+    }, 
+	{	//Festival Arte
+      "Action": "Load",
+	  "When": { "IsEvenYear": false },
+      "Target": "Characters/Ed.Boneco_EggFest, Portraits/Ed.Retrato_EggFest, Characters/Ed.Boneco_FlowerDance, Portraits/Ed.Retrato_FlowerDance, Characters/Ed.Boneco_Luau, Portraits/Ed.Retrato_Luau, Characters/Ed.Boneco_DanceMoonlight, Portraits/Ed.Retrato_DanceMoonlight, Characters/Ed.Boneco_Fair, Portraits/Ed.Retrato_Fair, Characters/Ed.Boneco_SpiritsEve, Portraits/Ed.Retrato_SpiritsEve, Characters/Ed.Boneco_IceFest, Portraits/Ed.Retrato_IceFest, Characters/Ed.Boneco_WinterStart, Portraits/Ed.Retrato_WinterStart",
+      "FromFile": "Ativos/Personagens/Artes/Edward/Festival.V1/{{TargetWithoutPath}}.png"
+    },
+	{
+      "Action": "Load",
+	  "When": { "IsEvenYear": true },
+      "Target": "Characters/Ed.Boneco_EggFest, Portraits/Ed.Retrato_EggFest, Characters/Ed.Boneco_FlowerDance, Portraits/Ed.Retrato_FlowerDance, Characters/Ed.Boneco_Luau, Portraits/Ed.Retrato_Luau, Characters/Ed.Boneco_DanceMoonlight, Portraits/Ed.Retrato_DanceMoonlight, Characters/Ed.Boneco_Fair, Portraits/Ed.Retrato_Fair, Characters/Ed.Boneco_SpiritsEve, Portraits/Ed.Retrato_SpiritsEve, Characters/Ed.Boneco_IceFest, Portraits/Ed.Retrato_IceFest, Characters/Ed.Boneco_WinterStart, Portraits/Ed.Retrato_WinterStart",
+      "FromFile": "Ativos/Personagens/Artes/Edward/Festival.V2/{{TargetWithoutPath}}.png"
+    },
+    { 	//Branco e Incluir
+      "LogName": "Arquivo Branco",
+      "Action": "Load",
+      "Target": "Characters/Schedules/Edward, Characters/Dialogue/Edward, Characters/Dialogue/MarriageDialogueEdward",
+      "FromFile": "Ativos/Personagens/Vazio.json"
+    },
+	{
+      "LogName": "Textos, Animações, Eventos",
+      "Action": "Include",
+      "FromFile": "Ativos/Personagens/Textos/Ed_Dialogos.json,	Ativos/Personagens/Textos/Ed_Casado.json,	Ativos/Personagens/Animações/Animações.json,	Ativos/Personagens/Eventos/Ed_Eventos.json",
+    },
+	{	//Festivais
+      "LogName": "Festivais",
+      "Action": "Include",
+      "FromFile": "Ativos/Personagens/Festivais/Ed_Festival.01.json",
+	  "When": { "HasSeenEvent: anyPlayer|contains=90305264": true, "HasSeenEvent: anyPlayer|contains=61743008": false, "HasSeenEvent: anyPlayer|contains=61743010": false, "HasSeenEvent: anyPlayer|contains=58614300": false },
+    },
+	{	//Presentes e Lixo
+      "LogName": "Presentes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Edward": "{{i18n:Ed.gift.love}}/426 459 348 226 215 197 206 241 303 346 424 732 787 -7/{{i18n:gift.like}}/413 288 287 286 773 -6 -5 -2/{{i18n:Ed.gift.dislike}}/682 393 397 148 154 155 158 162 245 -80/{{i18n:Ed.gift.hate}}/721 648 128 -75 -20/{{i18n:Ed.gift.neutral}}/350 223 167 91 196 201 243 395 -26 -81 -79 -12 -27 -4/ "
+      }
+    },
+	{
+	  "LogName": "Lixo",
+	  "Action": "EditData",
+	  "Target": "Characters/Dialogue/Edward",
+	  "Entries": {
+	  	"DumpsterDiveComment": "{{i18n:Edward.DumpsterDive}}"
+	  }
+	},
+	{	// Dialogo Pré Casamento
+		"LogName": "Edward Engagement Dialogue",
+		"Action": "EditData",
+		"Target": "Data/EngagementDialogue",
+		"Entries": 
+		{	
+		"Edward0": "{{i18n:Ed.PréCas.01}}",
+		"Edward1": "{{i18n:Ed.PréCas.02}}",
+		},
+	},
+	{	// Quarto e Patio de Casado
+      "Action": "Load",
+      "Target": "Maps/Casado.Quarto_Edward",
+      "FromFile": "Ativos/Mapas/Casado.Quarto_Edward.tmx"
+    }, 
+	{
+	  "Action": "Load",
+	  "Target": "Maps/Casado.Patio_Edward",
+	  "FromFile": "Ativos/Mapas/Casado.Patio_Edward.tmx"
+	},
+  ]
+}

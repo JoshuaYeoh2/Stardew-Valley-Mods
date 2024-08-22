@@ -1,0 +1,17 @@
+{
+    "Format": "2.0.0",
+    "Changes": [
+        {
+            "Action": "Include",
+            "FromFile": "Assets/Data/FestivalData_Sydney.json"
+        },
+        {
+            "LogName": "Sydney Location Fix Egg Festival Y1",
+            "Action": "EditData",
+            "Target": "Data/Festivals/SydneyLex",
+            "Entries": {
+                "Set-Up": "SydneyLex 28 56 2"
+            }
+        }
+    ]
+}

@@ -1,12 +1,12 @@
 {
-  "WeatherForYesterday": "Rain",
+  "WeatherForYesterday": "Sun",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
     {
       "MapName": "EastScarp_Village",
       "Name": "Sea Cucumber",
-      "Tile": "4, 134",
+      "Tile": "6, 131",
       "Type": "Forage",
       "ID": "154",
       "DaysUntilExpire": 2,
@@ -16,10 +16,43 @@
     },
     {
       "MapName": "EastScarp_Village",
-      "Name": "Sea Cucumber",
-      "Tile": "6, 131",
+      "Name": "Pike",
+      "Tile": "44, 113",
       "Type": "Forage",
-      "ID": "154",
+      "ID": "144",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_Village",
+      "Name": "Green Algae",
+      "Tile": "63, 111",
+      "Type": "Forage",
+      "ID": "153",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_Village",
+      "Name": "Red Snapper",
+      "Tile": "60, 112",
+      "Type": "Forage",
+      "ID": "150",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_Village",
+      "Name": "Red Snapper",
+      "Tile": "59, 113",
+      "Type": "Forage",
+      "ID": "150",
       "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,

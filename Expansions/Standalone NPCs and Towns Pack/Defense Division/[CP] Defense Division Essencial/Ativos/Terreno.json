@@ -1,0 +1,1002 @@
+{
+	"Changes": [
+		{	//Loads Unicos
+		"LogName": "Carregar Mapas Unicos",
+		"Action":"Load",
+		"Target":"Maps/Ilha,Maps/Casa.Sótão.Abandonado,Maps/Casa.Sótão.Vazio,Maps/Casa.Sótão,Maps/Casa.Interior.Abandonado,Maps/Casa.Interior.Vazio,Maps/Casa.Interior.V3,Maps/Casa.Interior,Maps/Fix.Cerca,Maps/Fix.Cerca.Sve,Maps/Fix.Floresta,Maps/Casa.Bonus.Isis,Maps/Casa.Bonus.Miranda,Maps/Casa.Interior.V2,Maps/Casa.Sótão.V2",
+		"FromFile":"Ativos/Mapas/{{TargetWithoutPath}}.tmx"
+		},
+		{	//Loads - Vanilla
+		"LogName": "Carregar Mapas Vanilla",
+		"Action":"Load",
+		"Target":"Maps/Antes.Casa,Maps/Casa,Maps/Muda.Casa,Maps/Casa.Vazia,Maps/Casa.Loja_Comunitario,Maps/Casa.Loja_Joja",
+		"FromFile":"Ativos/Mapas/{{TargetWithoutPath}}.tmx"
+		},
+		{	//Loads - SVE Expanded
+		"LogName": "Carregar Mapas SVE Expanded",
+		"Action":"Load",
+		"Target":"Maps/Antes.Casa.SVE,Maps/Casa.SVE,Maps/Muda.Casa.SVE,Maps/Casa.Vazia.SVE,Maps/Casa.Loja_Comunitario.SVE,Maps/Casa.Loja_Joja.SVE",
+		"FromFile":"Ativos/Mapas/{{TargetWithoutPath}}.tmx"
+		},
+		{	//Loads - Eventos
+		"LogName": "Carregar Mapas SVE Expanded",
+		"Action":"Load",
+		"Target":"Maps/Evento.Casa,Maps/Evento.Final_Edward,Maps/Evento.Final_Isis,Maps/Evento.Final_Miranda.A,Maps/Evento.Final_Miranda.B,Maps/Evento.Final_Lee,Maps/Evento.Vizinhança,Maps/Evento.Visita,Maps/Evento.Hospital,Maps/Evento.Guilda,Maps/Evento.Morte,Maps/Evento.Morte.B,Maps/Evento.Onibus,Maps/Evento.Problema_Cristal,Maps/Evento.Problema_Montanha,Maps/Evento.Caminhos,Maps/Evento.Problema_Grifo,Maps/Evento.Problema_Grifo.B,Maps/Evento.Final_Grifo,Maps/Evento.Final_Grifo.B,Maps/Evento.Corrida,Maps/Casa.Final_Comunitario,Maps/Casa.Final_Joja",
+		"FromFile":"Ativos/Mapas/{{TargetWithoutPath}}.tmx"
+		},	
+		{	//Eventos em Mapa Personalizado
+		"Action": "Load",
+		"Target": "Data/Events/Casa.Interior,Data/Events/Casa.Sótão,Data/Events/AdventureGuild",
+		"FromFile": "Ativos/Mapas/Vazio.json"
+		},
+		{	//Identificando Mapas
+        "Action": "EditData",
+        "Target": "Data/Locations",
+        "Entries": { 
+			"Casa.Interior": { "CreateOnLoad": { "MapPath": "Maps\\Casa.Interior"	}, "FormerLocationNames": [ "Custom_Casa.Interior"], },
+			"Casa.Sótão": { "CreateOnLoad": { "MapPath": "Maps\\Casa.Sótão"	}, "FormerLocationNames": [ "Custom_Casa.Sótão"], },
+			"Ilha": { "CreateOnLoad": { "MapPath": "Maps\\Ilha"	}, "FormerLocationNames": [ "Custom_Ilha"], },
+			
+			"Casa.Interior.Vazio": { "CreateOnLoad": { "MapPath": "Maps\\Casa.Interior.Vazio"	}, },
+			"Casa.Final_Comunitario": { "CreateOnLoad": { "MapPath": "Maps\\Casa.Final_Comunitario"	}, },
+			"Casa.Final_Joja": { "CreateOnLoad": { "MapPath": "Maps\\Casa.Final_Joja"	}, },
+			"Casa.Interior.V2": { "CreateOnLoad": { "MapPath": "Maps\\Casa.Interior.V2"	}, },
+			"Casa.Interior.V3": { "CreateOnLoad": { "MapPath": "Maps\\Casa.Interior.V3"	}, },
+			"Casa.Sótão.Abandonado": { "CreateOnLoad": { "MapPath": "Maps\\Casa.Sótão.Abandonado"	}, },
+			"Casa.Sótão.V2": { "CreateOnLoad": { "MapPath": "Maps\\Casa.Sótão.V2"	}, },
+			"Casa.Sótão.Vazio": { "CreateOnLoad": { "MapPath": "Maps\\Casa.Sótão.Vazio"	}, },
+			"Evento.Caminhos": { "CreateOnLoad": { "MapPath": "Maps\\Evento.Caminhos"	}, },
+			"Evento.Casa": { "CreateOnLoad": { "MapPath": "Maps\\Evento.Casa"	}, },
+			"Evento.Corrida": { "CreateOnLoad": { "MapPath": "Maps\\Evento.Corrida"	}, },
+			"Evento.Final_Edward": { "CreateOnLoad": { "MapPath": "Maps\\Evento.Final_Edward"	}, },
+			"Evento.Final_Grifo.B": { "CreateOnLoad": { "MapPath": "Maps\\Evento.Final_Grifo.B"	}, },
+			"Evento.Final_Grifo": { "CreateOnLoad": { "MapPath": "Maps\\Evento.Final_Grifo"	}, },
+			"Evento.Final_Isis": { "CreateOnLoad": { "MapPath": "Maps\\Evento.Final_Isis"	}, },
+			"Evento.Final_Lee": { "CreateOnLoad": { "MapPath": "Maps\\Evento.Final_Lee"	}, },
+			"Evento.Final_Miranda.A": { "CreateOnLoad": { "MapPath": "Maps\\Evento.Final_Miranda.A"	}, },
+			"Evento.Final_Miranda.B": { "CreateOnLoad": { "MapPath": "Maps\\Evento.Final_Miranda.B"	}, },
+			"Evento.Guilda": { "CreateOnLoad": { "MapPath": "Maps\\Evento.Guilda"	}, },
+			"Evento.Hospital": { "CreateOnLoad": { "MapPath": "Maps\\Evento.Hospital"	}, },
+			"Evento.Morte.B": { "CreateOnLoad": { "MapPath": "Maps\\Evento.Morte.B"	}, },
+			"Evento.Morte": { "CreateOnLoad": { "MapPath": "Maps\\Evento.Morte"	}, },
+			"Evento.Onibus": { "CreateOnLoad": { "MapPath": "Maps\\Evento.Onibus"	}, },
+			"Evento.Problema_Cristal": { "CreateOnLoad": { "MapPath": "Maps\\Evento.Problema_Cristal"	}, },
+			"Evento.Problema_Grifo.B": { "CreateOnLoad": { "MapPath": "Maps\\Evento.Problema_Grifo.B"	}, },
+			"Evento.Problema_Grifo": { "CreateOnLoad": { "MapPath": "Maps\\Evento.Problema_Grifo"	}, },
+			"Evento.Problema_Montanha": { "CreateOnLoad": { "MapPath": "Maps\\Evento.Problema_Montanha"	}, },
+			"Evento.Visita": { "CreateOnLoad": { "MapPath": "Maps\\Evento.Visita"	}, },
+			"Evento.Vizinhança": { "CreateOnLoad": { "MapPath": "Maps\\Evento.Vizinhança"	}, },
+			}
+		},
+		{	// Edição de Propiedades Vanilla dos Mapas
+        "Action": "EditMap",
+        "Target": "Maps/Desert",
+        "TextOperations": [ { "Operation": "Append", "Target": [ "MapProperties", "Warp" ], "Value": "1 1 Ilha 3 4",	"Delimiter": " " } ]
+        },
+		{
+        "Action": "EditMap",
+        "Target": "Maps/Town",
+		"When": { "HasSeenEvent: anyPlayer|contains=90205264": true, },
+        "TextOperations": [ { "Operation": "Append", "Target": [ "MapProperties", "Light" ], "Value": "9 48 4",	"Delimiter": " " } ]
+        },
+		{
+        "Action": "EditMap",
+        "Target": "Maps/Town",
+		"When": { "HasSeenEvent: anyPlayer|contains=90205264": true, },
+        "TextOperations": [ { "Operation": "Append", "Target": [ "MapProperties", "DayTiles" ], "Value": "Front 9 47 84",	"Delimiter": " " } ]
+        },
+		{
+        "Action": "EditMap",
+        "Target": "Maps/Town",
+		"When": { "HasSeenEvent: anyPlayer|contains=90205264": true, },
+        "TextOperations": [ { "Operation": "Append", "Target": [ "MapProperties", "NightTiles" ], "Value": "Front 9 47 83",	"Delimiter": " " } ]
+        },
+		{	//Mapa Para Eventos
+		"Action" : "EditMap", 
+		"Target" : "Maps/Casa.Interior.Vazio", 
+		"FromFile" : "Ativos/Mapas/Casa.Interior.Vazio.tmx", 
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Casa.Final_Comunitario", 
+		"FromFile" : "Ativos/Mapas/Casa.Final_Comunitario.tmx", 
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Casa.Final_Joja", 
+		"FromFile" : "Ativos/Mapas/Casa.Final_Joja.tmx", 
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Casa.Interior.V2", 
+		"FromFile" : "Ativos/Mapas/Casa.Interior.V2.tmx", 
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Casa.Interior.V3", 
+		"FromFile" : "Ativos/Mapas/Casa.Interior.V3.tmx", 
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Casa.Sótão.Abandonado", 
+		"FromFile" : "Ativos/Mapas/Casa.Sótão.Abandonado.tmx", 
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Casa.Sótão.V2", 
+		"FromFile" : "Ativos/Mapas/Casa.Sótão.V2.tmx", 
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Casa.Sótão.Vazio", 
+		"FromFile" : "Ativos/Mapas/Casa.Sótão.Vazio.tmx", 
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Evento.Caminhos", 
+		"FromFile" : "Ativos/Mapas/Evento.Caminhos.tmx", 
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Evento.Casa", 
+		"FromFile" : "Ativos/Mapas/Evento.Casa.tmx", 
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Evento.Corrida", 
+		"FromFile" : "Ativos/Mapas/Evento.Corrida.tmx", 
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Evento.Final_Edward", 
+		"FromFile" : "Ativos/Mapas/Evento.Final_Edward.tmx", 
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Evento.Final_Grifo.B", 
+		"FromFile" : "Ativos/Mapas/Evento.Final_Grifo.B.tmx", 
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Evento.Final_Grifo", 
+		"FromFile" : "Ativos/Mapas/Evento.Final_Grifo.tmx", 
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Evento.Final_Isis", 
+		"FromFile" : "Ativos/Mapas/Evento.Final_Isis.tmx", 
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Evento.Final_Lee", 
+		"FromFile" : "Ativos/Mapas/Evento.Final_Lee.tmx", 
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Evento.Final_Miranda.A", 
+		"FromFile" : "Ativos/Mapas/Evento.Final_Miranda.A.tmx", 
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Evento.Final_Miranda.B", 
+		"FromFile" : "Ativos/Mapas/Evento.Final_Miranda.B.tmx", 
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Evento.Guilda", 
+		"FromFile" : "Ativos/Mapas/Evento.Guilda.tmx", 
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Evento.Hospital", 
+		"FromFile" : "Ativos/Mapas/Evento.Hospital.tmx", 
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Evento.Morte.B", 
+		"FromFile" : "Ativos/Mapas/Evento.Morte.B.tmx", 
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Evento.Morte", 
+		"FromFile" : "Ativos/Mapas/Evento.Morte.tmx", 
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Evento.Onibus", 
+		"FromFile" : "Ativos/Mapas/Evento.Onibus.tmx", 
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Evento.Problema_Cristal", 
+		"FromFile" : "Ativos/Mapas/Evento.Problema_Cristal.tmx", 
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Evento.Problema_Grifo.B", 
+		"FromFile" : "Ativos/Mapas/Evento.Problema_Grifo.B.tmx", 
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Evento.Problema_Grifo", 
+		"FromFile" : "Ativos/Mapas/Evento.Problema_Grifo.tmx", 
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Evento.Problema_Montanha", 
+		"FromFile" : "Ativos/Mapas/Evento.Problema_Montanha.tmx", 
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Evento.Visita", 
+		"FromFile" : "Ativos/Mapas/Evento.Visita.tmx", 
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Evento.Vizinhança", 
+		"FromFile" : "Ativos/Mapas/Evento.Vizinhança.tmx", 
+		},
+			//Posições no Mapa
+		
+		{	//Fix
+		"Action" : "EditMap", 
+		"Target" : "Maps/Forest", 
+		"FromFile" : "Ativos/Mapas/Fix.Cerca.tmx",
+		"PatchMode" : "Replace",
+		"ToArea" : {  "X" : 99 ,  "Y" : 21 ,  "Width" : 1,  "Height" : 2	},
+			"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+			}
+		},	
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Forest", 
+		"FromFile" : "Ativos/Mapas/Fix.Cerca.Sve.tmx",
+		"PatchMode" : "Replace",
+		"ToArea" : {  "X" : 99 ,  "Y" : 21 ,  "Width" : 1,  "Height" : 2	},
+			"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+			}
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Forest", 
+		"FromFile" : "Ativos/Mapas/Fix.Floresta.tmx",
+		"PatchMode" : "Replace",
+		"ToArea" : {  "X" : 67 ,  "Y" : 40 ,  "Width" : 9,  "Height" : 7	},
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Forest", 
+		"FromFile" : "Ativos/Mapas/Fix.Floresta.B.tmx",
+		"ToArea" : {  "X" : 67 ,  "Y" : 40 ,  "Width" : 9,  "Height" : 7	},
+		"When": {	"HasSeenEvent: anyPlayer|contains=90505264": true,
+					"HasSeenEvent: anyPlayer|contains=90805264": false,
+				},
+			"Update": "OnLocationChange"
+		},
+		{	//Vanilla
+		"Action" : "EditMap", 
+		"Target" : "Maps/Town", 
+		"FromFile" : "Ativos/Mapas/Casa.tmx",
+		"PatchMode" : "Replace",
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+			"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+			}
+		},	
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Town", 
+		"FromFile" : "Ativos/Mapas/Muda.Casa.tmx" ,
+		"PatchMode" : "Replace",
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+			"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+						"HasSeenEvent: anyPlayer|contains=90205264": false,
+			},
+			"Update": "OnDayStart",
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Town", 
+		"FromFile" : "Ativos/Mapas/Antes.Casa.tmx",
+		"PatchMode" : "Replace",
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+			"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+						"HasSeenEvent: anyPlayer|contains=90105264": false,
+			},
+			"Update": "OnDayStart",
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Town", 
+		"FromFile" : "Ativos/Mapas/Casa.Vazia.tmx" ,
+		"PatchMode" : "Replace",
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+			"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+						"HasSeenEvent: anyPlayer|contains=58614000": true,
+			}
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Town", 
+		"FromFile" : "Ativos/Mapas/Casa.Vazia.tmx" ,
+		"PatchMode" : "Replace",
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+			"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+						"HasSeenEvent: anyPlayer|contains=91105264": true,
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Town", 
+		"FromFile" : "Ativos/Mapas/Casa.Loja_Comunitario.tmx" ,
+		"PatchMode" : "Replace",
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+			"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+						"HasSeenEvent: anyPlayer|contains=91805264": true,
+						"IsCommunityCenterComplete": "true",
+			},
+			"Update": "OnDayStart",
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Town", 
+		"FromFile" : "Ativos/Mapas/Casa.Loja_Joja.tmx" ,
+		"PatchMode" : "Replace",
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+			"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+						"HasSeenEvent: anyPlayer|contains=91805264": true,
+						"IsJojaMartComplete": "true",
+			},
+			"Update": "OnDayStart"
+		},
+		{	//SVE Expanded
+		"Action" : "EditMap", 
+		"Target" : "Maps/Town", 
+		"FromFile" : "Ativos/Mapas/Casa.SVE.tmx",
+		"PatchMode" : "Replace",
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+			"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+			}
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Town", 
+		"FromFile" : "Ativos/Mapas/Muda.Casa.SVE.tmx",
+		"PatchMode" : "Replace",
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+			"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+						"HasSeenEvent: anyPlayer|contains=90205264": false,
+			},
+			"Update": "OnDayStart",
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Town", 
+		"FromFile" : "Ativos/Mapas/Antes.Casa.SVE.tmx",
+		"PatchMode" : "Replace",
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+			"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+						"HasSeenEvent: anyPlayer|contains=90105264": false,
+			},
+			"Update": "OnDayStart",
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Town", 
+		"FromFile" : "Ativos/Mapas/Casa.Vazia.SVE.tmx",
+		"PatchMode" : "Replace",
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+			"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+						"HasSeenEvent: anyPlayer|contains=58614000": true,
+			}
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Town", 
+		"FromFile" : "Ativos/Mapas/Casa.Vazia.SVE.tmx",
+		"PatchMode" : "Replace",
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+			"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+						"HasSeenEvent: anyPlayer|contains=91105264": true,
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Town", 
+		"FromFile" : "Ativos/Mapas/Casa.Loja_Comunitario.SVE.tmx",
+		"PatchMode" : "Replace",
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+			"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+						"HasSeenEvent: anyPlayer|contains=91805264": true,
+						"IsCommunityCenterComplete": "true",
+			},
+			"Update": "OnDayStart"
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Town", 
+		"FromFile" : "Ativos/Mapas/Casa.Loja_Joja.SVE.tmx",
+		"PatchMode" : "Replace",
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+			"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+						"HasSeenEvent: anyPlayer|contains=91805264": true,
+						"IsJojaMartComplete": "true",
+			},
+			"Update": "OnDayStart"
+		},
+			//Interiores da Casa
+		
+		{	//Mudanças 1° Andar
+		"Action" : "EditMap", 
+		"Target" : "Maps/Casa.Interior", 
+		"FromFile" : "Ativos/Mapas/Casa.Interior.tmx", 
+		"ToArea" : {  "X" : 0 ,  "Y" : 0 ,  "Width" : 25,  "Height" : 25	},
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Casa.Interior", 
+		"FromFile" : "Ativos/Mapas/Casa.Bonus.Isis.tmx", 
+		"ToArea" : {  "X" : 6 ,  "Y" : 3 ,  "Width" : 1,  "Height" : 3	},
+			"When": {	"HasSeenEvent: anyPlayer|contains=37918010": true,		"HasSeenEvent: anyPlayer|contains=90805264": false,	},
+		"Update": "OnLocationChange"
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Casa.Interior", 
+		"FromFile" : "Ativos/Mapas/Casa.Bonus.Miranda.tmx",
+		"ToArea" : {  "X" : 11 ,  "Y" : 7 ,  "Width" : 1,  "Height" : 2	},
+			"When": {	"HasSeenEvent: anyPlayer|contains=76142007": true,		"HasSeenEvent: anyPlayer|contains=90805264": false,	},
+		"Update": "OnLocationChange"
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Casa.Interior", 
+		"FromFile" : "Ativos/Mapas/Casa.Interior.Abandonado.tmx",
+		"FromArea": {	"X": 0,	"Y": 0,	"Width": 24,	"Height": 24	},
+		"ToArea" : {  "X" : 0 ,  "Y" : 0 ,  "Width" : 24,  "Height" : 24	},
+			"When": {	"HasSeenEvent: anyPlayer|contains=90105264": false,	},
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Casa.Interior", 
+		"FromFile" : "Ativos/Mapas/Casa.Interior.V2.tmx",
+		"FromArea": {	"X": 0,	"Y": 0,	"Width": 24,	"Height": 24	},
+		"ToArea" : {  "X" : 0 ,  "Y" : 0 ,  "Width" : 24,  "Height" : 24	},
+			"When": { "HasSeenEvent: anyPlayer|contains=90805264": true },
+		"Update": "OnDayStart"
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Casa.Interior", 
+		"FromFile" : "Ativos/Mapas/Casa.Interior.Vazio.tmx",
+		"FromArea": {	"X": 0,	"Y": 0,	"Width": 24,	"Height": 24	},
+		"ToArea" : {  "X" : 0 ,  "Y" : 0 ,  "Width" : 24,  "Height" : 24	},
+			"When": { "HasSeenEvent: anyPlayer|contains=58614100": true },
+		"Update": "OnLocationChange"
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Casa.Interior", 
+		"FromFile" : "Ativos/Mapas/Casa.Interior.Vazio.tmx",
+		"FromArea": {	"X": 0,	"Y": 0,	"Width": 24,	"Height": 24	},
+		"ToArea" : {  "X" : 0 ,  "Y" : 0 ,  "Width" : 24,  "Height" : 24	},
+			"When": { "HasSeenEvent: anyPlayer|contains=91105264": true },
+		"Update": "OnLocationChange"
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Casa.Interior", 
+		"FromFile" : "Ativos/Mapas/Casa.Interior.V3.tmx",
+		"FromArea": {	"X": 0,	"Y": 0,	"Width": 24,	"Height": 24	},
+		"ToArea" : {  "X" : 0 ,  "Y" : 0 ,  "Width" : 24,  "Height" : 24	},
+			"When": { "HasSeenEvent: anyPlayer|contains=91305264": true, "HasSeenEvent: anyPlayer|contains=37918000": false, "HasSeenEvent: anyPlayer|contains=91705264": false },
+		"Update": "OnLocationChange"
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Casa.Interior", 
+		"FromFile" : "Ativos/Mapas/Casa.Interior.Vazio.tmx",
+		"FromArea": {	"X": 0,	"Y": 0,	"Width": 24,	"Height": 24	},
+		"ToArea" : {  "X" : 0 ,  "Y" : 0 ,  "Width" : 24,  "Height" : 24	},
+			"When": { "HasSeenEvent: anyPlayer|contains=37918000": true },
+		"Update": "OnLocationChange"
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Casa.Interior", 
+		"FromFile" : "Ativos/Mapas/Casa.Interior.Vazio.tmx",
+		"FromArea": {	"X": 0,	"Y": 0,	"Width": 24,	"Height": 24	},
+		"ToArea" : {  "X" : 0 ,  "Y" : 0 ,  "Width" : 24,  "Height" : 24	},
+			"When": { "HasSeenEvent: anyPlayer|contains=91705264": true },
+		"Update": "OnLocationChange"
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Casa.Interior", 
+		"FromFile" : "Ativos/Mapas/Casa.Final_Comunitario.tmx",
+		"FromArea": {	"X": 0,	"Y": 0,	"Width": 24,	"Height": 24	},
+		"ToArea" : {  "X" : 0 ,  "Y" : 0 ,  "Width" : 24,  "Height" : 24	},
+			"When": {	"HasSeenEvent: anyPlayer|contains=61743015": true,
+						"IsCommunityCenterComplete": true,	
+				},
+			"Update": "OnLocationChange"
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Casa.Interior", 
+		"FromFile" : "Ativos/Mapas/Casa.Final_Joja.tmx",
+		"FromArea": {	"X": 0,	"Y": 0,	"Width": 24,	"Height": 24	},
+		"ToArea" : {  "X" : 0 ,  "Y" : 0 ,  "Width" : 24,  "Height" : 24	},
+			"When": {	"HasSeenEvent: anyPlayer|contains=61743017": true,
+						"IsJojaMartComplete": true,	
+				},
+			"Update": "OnLocationChange"
+		},
+		{	//Mudanças 2° Andar
+		"Action" : "EditMap", 
+		"Target" : "Maps/Casa.Sótão", 
+		"FromFile" : "Ativos/Mapas/Casa.Sótão.tmx", 
+		"ToArea" : {  "X" : 0 ,  "Y" : 0 ,  "Width" : 25,  "Height" : 25	},
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Casa.Sótão", 
+		"FromFile" : "Ativos/Mapas/Casa.Sótão.Abandonado.tmx",
+		"FromArea": {	"X": 0,	"Y": 0,	"Width": 24,	"Height": 24	},
+		"ToArea" : {  "X" : 0 ,  "Y" : 0 ,  "Width" : 24,  "Height" : 24	},
+			"When": {	"HasSeenEvent: anyPlayer|contains=90105264": false,	},
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Casa.Sótão", 
+		"FromFile" : "Ativos/Mapas/Casa.Sótão.V2.tmx",
+		"FromArea": {	"X": 0,	"Y": 0,	"Width": 24,	"Height": 24	},
+		"ToArea" : {  "X" : 0 ,  "Y" : 0 ,  "Width" : 24,  "Height" : 24	},
+			"When": {	"HasSeenEvent: anyPlayer|contains=90805264": true,	},
+		"Update": "OnDayStart"
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Casa.Sótão", 
+		"FromFile" : "Ativos/Mapas/Casa.Sótão.Vazio.tmx",
+		"FromArea": {	"X": 0,	"Y": 0,	"Width": 24,	"Height": 24	},
+		"ToArea" : {  "X" : 0 ,  "Y" : 0 ,  "Width" : 24,  "Height" : 24	},
+			"When": {	"HasSeenEvent: anyPlayer|contains=58614100": true,	},
+		"Update": "OnLocationChange"
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Casa.Sótão", 
+		"FromFile" : "Ativos/Mapas/Casa.Sótão.Vazio.tmx",
+		"FromArea": {	"X": 0,	"Y": 0,	"Width": 24,	"Height": 24	},
+		"ToArea" : {  "X" : 0 ,  "Y" : 0 ,  "Width" : 24,  "Height" : 24	},
+			"When": {	"HasSeenEvent: anyPlayer|contains=91105264": true,	},
+		"Update": "OnLocationChange"
+		},
+			// Defense Division - Festival Maps
+	  
+		{	//Vanilla
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-EggFestival" , 
+		"FromFile" : "Ativos/Mapas/Festa.Pri.Ovo.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false	}
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-EggFestival2" , 
+		"FromFile" : "Ativos/Mapas/Festa.Pri.Ovo.2.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false	}
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-EggFestival" , 
+		"FromFile" : "Ativos/Mapas/Fest.Pri.Ovo.Loja_Comunitario.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false, "HasSeenEvent: anyPlayer|contains=61743015": true }
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-EggFestival2" , 
+		"FromFile" : "Ativos/Mapas/Fest.Pri.Ovo.Loja_Comunitario.2.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false, "HasSeenEvent: anyPlayer|contains=61743015": true }
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-EggFestival" , 
+		"FromFile" : "Ativos/Mapas/Fest.Pri.Ovo.Loja_Joja.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false, "HasSeenEvent: anyPlayer|contains=61743017": true }
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-EggFestival2" , 
+		"FromFile" : "Ativos/Mapas/Fest.Pri.Ovo.Loja_Joja.2.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false, "HasSeenEvent: anyPlayer|contains=61743017": true }
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Fair" , 
+		"FromFile" : "Ativos/Mapas/Festa.Out.Feira.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false	}
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Fair2" , 
+		"FromFile" : "Ativos/Mapas/Festa.Out.Feira.2.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false	}
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Fair" , 
+		"FromFile" : "Ativos/Mapas/Festa.Out.Feira.Loja_Comunitario.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false, "HasSeenEvent: anyPlayer|contains=61743015": true }
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Fair2" , 
+		"FromFile" : "Ativos/Mapas/Festa.Out.Feira.Loja_Comunitario.2.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false, "HasSeenEvent: anyPlayer|contains=61743015": true }
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Fair" , 
+		"FromFile" : "Ativos/Mapas/Festa.Out.Feira.Loja_Joja.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false, "HasSeenEvent: anyPlayer|contains=61743017": true }
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Fair2" , 
+		"FromFile" : "Ativos/Mapas/Festa.Out.Feira.Loja_Joja.2.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false, "HasSeenEvent: anyPlayer|contains=61743017": true }
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Halloween" , 
+		"FromFile" : "Ativos/Mapas/Festa.Out.Espiritos.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false	}
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Halloween2" , 
+		"FromFile" : "Ativos/Mapas/Festa.Out.Espiritos.2.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false	}
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Halloween" , 
+		"FromFile" : "Ativos/Mapas/Fest.Out.Espiritos.Loja_Comunitario.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false, "HasSeenEvent: anyPlayer|contains=61743015": true }
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Halloween2" , 
+		"FromFile" : "Ativos/Mapas/Fest.Out.Espiritos.Loja_Comunitario.2.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false, "HasSeenEvent: anyPlayer|contains=61743015": true }
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Halloween" , 
+		"FromFile" : "Ativos/Mapas/Fest.Out.Espiritos.Loja_Joja.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false, "HasSeenEvent: anyPlayer|contains=61743017": true }
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Halloween2" , 
+		"FromFile" : "Ativos/Mapas/Fest.Out.Espiritos.Loja_Joja.2.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false, "HasSeenEvent: anyPlayer|contains=61743017": true }
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Forest-IceFestival" , 
+		"FromFile" : "Ativos/Mapas/Fix.Fest.Gelo.tmx" ,
+		"ToArea" : {  "X" : 4 ,  "Y" : 35 ,  "Width" : 4,  "Height" : 4	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false, "HasSeenEvent: anyPlayer|contains=58614000": false }
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Christmas" , 
+		"FromFile" : "Ativos/Mapas/Festa.Inv.Estrela.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false	}
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Christmas2" , 
+		"FromFile" : "Ativos/Mapas/Festa.Inv.Estrela.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false	}
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Christmas" , 
+		"FromFile" : "Ativos/Mapas/Festa.Inv.Estrela.Loja_Comunitario.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false, "HasSeenEvent: anyPlayer|contains=61743015": true }
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Christmas2" , 
+		"FromFile" : "Ativos/Mapas/Festa.Inv.Estrela.Loja_Comunitario.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false, "HasSeenEvent: anyPlayer|contains=61743015": true }
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Christmas" , 
+		"FromFile" : "Ativos/Mapas/Festa.Inv.Estrela.Loja_Joja.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false, "HasSeenEvent: anyPlayer|contains=61743017": true }
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Christmas2" , 
+		"FromFile" : "Ativos/Mapas/Festa.Inv.Estrela.Loja_Joja.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false, "HasSeenEvent: anyPlayer|contains=61743017": true }
+		},
+		{	//Fix Boarding House
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-EggFestival" , 
+		"FromFile" : "Ativos/Mapas/Fix.Fest.Ovo.tmx" ,
+		"ToArea" : {  "X" : 40 ,  "Y" : 57 ,  "Width" : 1,  "Height" : 2	},
+		"When": {	"HasMod |contains=CPBoardingHouse": true,
+					"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false	
+			}
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-EggFestival" , 
+		"FromFile" : "Ativos/Mapas/Fix.Fest.Ovo.SVE.tmx" ,
+		"ToArea" : {  "X" : 40 ,  "Y" : 57 ,  "Width" : 1,  "Height" : 2	},
+		"When": {	"HasMod |contains=CPBoardingHouse": true,
+					"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true	
+			}
+		},
+		{	//SVE Expanded
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-EggFestival" , 
+		"FromFile" : "Ativos/Mapas/Festa.Pri.Ovo.SVE.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true	}
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-EggFestival2" , 
+		"FromFile" : "Ativos/Mapas/Festa.Pri.Ovo.SVE.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true	}
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-EggFestival" , 
+		"FromFile" : "Ativos/Mapas/Fest.Pri.Ovo.Loja_Comunitario.SVE.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: anyPlayer|contains=61743015": true }
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-EggFestival2" , 
+		"FromFile" : "Ativos/Mapas/Fest.Pri.Ovo.Loja_Comunitario.SVE.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: anyPlayer|contains=61743015": true }
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-EggFestival" , 
+		"FromFile" : "Ativos/Mapas/Fest.Pri.Ovo.Loja_Joja.SVE.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: anyPlayer|contains=61743017": true }
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-EggFestival2" , 
+		"FromFile" : "Ativos/Mapas/Fest.Pri.Ovo.Loja_Joja.SVE.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: anyPlayer|contains=61743017": true }
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Fair" , 
+		"FromFile" : "Ativos/Mapas/Festa.Out.Feira.SVE.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true	}
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Fair2" , 
+		"FromFile" : "Ativos/Mapas/Festa.Out.Feira.SVE.2.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true	}
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Fair" , 
+		"FromFile" : "Ativos/Mapas/Festa.Out.Feira.Loja_Comunitario.SVE.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: anyPlayer|contains=61743015": true }
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Fair2" , 
+		"FromFile" : "Ativos/Mapas/Festa.Out.Feira.Loja_Comunitario.SVE.2.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: anyPlayer|contains=61743015": true }
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Fair" , 
+		"FromFile" : "Ativos/Mapas/Festa.Out.Feira.Loja_Joja.SVE.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: anyPlayer|contains=61743017": true }
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Fair2" , 
+		"FromFile" : "Ativos/Mapas/Festa.Out.Feira.Loja_Joja.SVE.2.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: anyPlayer|contains=61743017": true }
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Halloween" , 
+		"FromFile" : "Ativos/Mapas/Festa.Out.Espiritos.SVE.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true	}
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Halloween2" , 
+		"FromFile" : "Ativos/Mapas/Festa.Out.Espiritos.SVE.2.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true	}
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Halloween" , 
+		"FromFile" : "Ativos/Mapas/Festa.Out.Espiritos.SVE.3.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true, "Year": "3, 7, 11, 15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 57, 61, 65, 69, 73, 77, 81, 85, 89, 93, 97" }
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Halloween" , 
+		"FromFile" : "Ativos/Mapas/Fest.Out.Espiritos.Loja_Comunitario.SVE.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: anyPlayer|contains=61743015": true }
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Halloween2" , 
+		"FromFile" : "Ativos/Mapas/Fest.Out.Espiritos.Loja_Comunitario.SVE.2.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: anyPlayer|contains=61743015": true }
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Halloween" , 
+		"FromFile" : "Ativos/Mapas/Fest.Out.Espiritos.Loja_Comunitario.SVE.3.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: anyPlayer|contains=61743015": true, "Year": "3, 7, 11, 15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 57, 61, 65, 69, 73, 77, 81, 85, 89, 93, 97" }
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Halloween" , 
+		"FromFile" : "Ativos/Mapas/Fest.Out.Espiritos.Loja_Joja.SVE.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: anyPlayer|contains=61743017": true }
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Halloween2" , 
+		"FromFile" : "Ativos/Mapas/Fest.Out.Espiritos.Loja_Joja.SVE.2.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: anyPlayer|contains=61743017": true }
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Halloween" , 
+		"FromFile" : "Ativos/Mapas/Fest.Out.Espiritos.Loja_Joja.SVE.3.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: anyPlayer|contains=61743017": true, "Year": "3, 7, 11, 15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 57, 61, 65, 69, 73, 77, 81, 85, 89, 93, 97" }
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Forest-IceFestival" , 
+		"FromFile" : "Ativos/Mapas/Fix.Fest.Gelo.SVE.tmx" ,
+		"ToArea" : {  "X" : 38 ,  "Y" : 5 ,  "Width" : 4,  "Height" : 4	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: anyPlayer|contains=58614000": false }
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Christmas" , 
+		"FromFile" : "Ativos/Mapas/Festa.Inv.Estrela.SVE.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true	}
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Christmas2" , 
+		"FromFile" : "Ativos/Mapas/Festa.Inv.Estrela.SVE.2.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true	}
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Christmas" , 
+		"FromFile" : "Ativos/Mapas/Festa.Inv.Estrela.Loja_Comunitario.SVE.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: anyPlayer|contains=61743015": true }
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Christmas2" , 
+		"FromFile" : "Ativos/Mapas/Festa.Inv.Estrela.Loja_Comunitario.SVE.2.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: anyPlayer|contains=61743015": true }
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Christmas" , 
+		"FromFile" : "Ativos/Mapas/Festa.Inv.Estrela.Loja_Joja.SVE.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: anyPlayer|contains=61743017": true }
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/Town-Christmas2" , 
+		"FromFile" : "Ativos/Mapas/Festa.Inv.Estrela.Loja_Joja.SVE.2.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": {	"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: anyPlayer|contains=61743017": true }
+		},
+		{	//Mods Festivais
+		"Action" : "EditMap" , 
+		"Target" : "Maps/FF_FashionShow" , 
+		"FromFile" : "Ativos/Mapas/Mod.Festa.Fashion.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/FF_FashionShow" , 
+		"FromFile" : "Ativos/Mapas/Mod.Festa.Fashion.Loja_Comunitario.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": { "HasSeenEvent: anyPlayer|contains=61743015": true }
+		},
+		{
+		"Action" : "EditMap" , 
+		"Target" : "Maps/FF_FashionShow" , 
+		"FromFile" : "Ativos/Mapas/Mod.Festa.Fashion.Loja_Joja.tmx" ,
+		"ToArea" : {  "X" : 1 ,  "Y" : 39 ,  "Width" : 12,  "Height" : 15	},
+		"When": { "HasSeenEvent: anyPlayer|contains=61743017": true }
+		},
+		{	//Correção de Mapa Pré Fabriado
+		"Action": "EditMap",
+		"Target": "Maps/Backwoods",
+		"MapTiles": [ { "Position": { "X": 37, "Y": 16 }, "Layer": "Paths", "Remove": true }, ],
+		},
+		{
+		"Action": "EditMap",
+		"Target": "Maps/Town",
+		"MapTiles": [ { "Position": { "X": 8, "Y": 51 }, "Layer": "Paths", "Remove": true }, ],
+		"MapTiles": [ { "Position": { "X": 7, "Y": 51 }, "Layer": "Paths", "Remove": true }, ],
+		"MapTiles": [ { "Position": { "X": 4, "Y": 52 }, "Layer": "Paths", "Remove": true }, ],
+		},
+	]
+}
+

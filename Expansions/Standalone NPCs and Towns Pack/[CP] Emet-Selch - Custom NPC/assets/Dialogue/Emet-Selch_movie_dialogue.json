@@ -1,0 +1,262 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Entries": {
+        "Visorlights.EmetSelch": {
+            "NPCName": "Visorlights.EmetSelch",
+            "Reactions": [
+              {
+                "Tag":"dislike",
+                "Response": "dislike",
+                "Whitelist": [],
+                "SpecialResponses": {
+                      "BeforeMovie": {
+                          "ResponsePoint": null,
+                          "Script": "",
+                          "Text": "I do hope you've selected your movie well, @. I am a hard man to impress."
+                      },
+                      "DuringMovie": {
+                          "ResponsePoint": null,
+                          "Script": "/message \"Emet-Selch is boredly staring at the screen.\"",
+                          "Text": "Ugh..."
+                      },
+                      "AfterMovie": {
+                          "ResponsePoint": null,
+                          "Script": "",
+                          "Text": "There is at least a joy in tearing apart a truly terrible film, but little redeems a mediocre one.$6"
+                      }
+                },
+                "ID": "reaction_0"
+              },
+
+              //classic tag
+              {
+                "Tag":"classic",
+                "Response": "like",
+                "Whitelist": [],
+                "SpecialResponses": {
+                      "BeforeMovie": {
+                          "ResponsePoint": null,
+                          "Script": "",
+                          "Text": "Popularity does not a piece of true art make, but I admit that I am interested to see what many deem a 'classic'."
+                      },
+                      "DuringMovie": {
+                          "ResponsePoint": null,
+                          "Script": "/message \"Emet-Selch watches with an appraising eye.\"",
+                          "Text": ""
+                      },
+                      "AfterMovie": {
+                          "ResponsePoint": null,
+                          "Script": "",
+                          "Text": "My highest expectations were not met, but that was enjoyable nonetheless. Thank you for the movie, @."
+                      }
+                },
+                "ID": "reaction_1"
+              },
+
+              //Zuzu express
+              {
+                "Tag":"winter_movie_1",
+                "Response": "love",
+                "Whitelist": [],
+                "SpecialResponses": {
+                      "BeforeMovie": {
+                          "ResponsePoint": null,
+                          "Script": "",
+                          "Text": "This is not the first time I've seen this film, but its foundational status is well-earned."
+                      },
+                      "DuringMovie": {
+                          "ResponsePoint": null,
+                          "Script": "/message\"Emet-Selch watches with a soft expression.\"",
+                          "Text": ""
+                      },
+                      "AfterMovie": {
+                          "ResponsePoint": null,
+                          "Script": "",
+                          "Text": "As good as ever, and quite a restoration in fact.#$b#I hope you enjoyed yourself, @, but I am rather sure you did."
+                      }
+                },
+                "ID": "reaction_2"
+              },
+
+              //action tag
+              {
+                "Tag":"action",
+                "Response": "dislike",
+                "Whitelist": [],
+                "SpecialResponses": {
+                      "BeforeMovie": {
+                          "ResponsePoint": null,
+                          "Script": "",
+                          "Text": "It is rare to find an 'action' film worthy of praise, but perhaps this shall prove an exception."
+                      },
+                      "DuringMovie": {
+                          "ResponsePoint": null,
+                          "Script": "",
+                          "Text": "Certainly plenty of spectacle..."
+                      },
+                      "AfterMovie": {
+                          "ResponsePoint": null,
+                          "Script": "",
+                          "Text": "Every bit of the thin plot served only as a contrived set-up for whatever action they wanted to do next!$6#$b#A mockery of the art form."
+                      }
+                },
+                "ID": "reaction_3"
+              },
+              //Family tag
+              {
+                "Tag":"family",
+                "Response": "dislike",
+                "Whitelist": [],
+                "SpecialResponses": {
+                      "BeforeMovie": {
+                          "ResponsePoint": null,
+                          "Script": "",
+                          "Text": "I admit this is not the sort of film I would have chosen to see on my own, but I will bend to your interests just this once."
+                      },
+                      "DuringMovie": {
+                          "ResponsePoint": null,
+                          "Script": "/message \"Emet-Selch is fighting to stay awake.\"",
+                          "Text": ""
+                      },
+                      "AfterMovie": {
+                          "ResponsePoint": null,
+                          "Script": "",
+                          "Text": "It was decently put-together, but I was certainly not its intended audience."
+                      }
+                },
+                "ID": "reaction_4"
+              },
+
+              //horror tag
+              {
+                "Tag":"horror",
+                "Response": "dislike",
+                "Whitelist": [],
+                "SpecialResponses": {
+                      "BeforeMovie": {
+                          "ResponsePoint": null,
+                          "Script": "",
+                          "Text": "I rarely see previews of any kind outside of the theater itself, so I admit I'm not sure what to expect."
+                      },
+                      "DuringMovie": {
+                          "ResponsePoint": null,
+                          "Script": "",
+                          "Text": "I'm sure we all know how this will go from here. I'm amenable to leaving early if you are."
+                      },
+                      "AfterMovie": {
+                          "ResponsePoint": null,
+                          "Script": "",
+                          "Text": "If nothing else, that is one more thing I've seen.#$b#And I've gained the wisdom to pass over this director's works henceforth.$6"
+                      }
+                },
+                "ID": "reaction_5"
+              },
+
+              //Documentary Tag
+              {
+                "Tag":"documentary",
+                "Response": "like",
+                "Whitelist": [],
+                "SpecialResponses": {
+                      "BeforeMovie": {
+                          "ResponsePoint": null,
+                          "Script": "",
+                          "Text": "I did not know you were interested in learning about such a topic."
+                      },
+                      "DuringMovie": {
+                          "ResponsePoint": null,
+                          "Script": "",
+                          "Text": "That, I did not actually know."
+                      },
+                      "AfterMovie": {
+                          "ResponsePoint": null,
+                          "Script": "",
+                          "Text": "Decently informative, if dry. Did you learn all you wished to?"
+                      }
+                },
+                "ID": "reaction_6"
+              },
+              //art tag
+              {
+                "Tag":"art",
+                "Response": "like",
+                "Whitelist": [],
+                "SpecialResponses": {
+                      "BeforeMovie": {
+                          "ResponsePoint": null,
+                          "Script": "",
+                          "Text": "I recall seeing a preview for this the last time I visited a theater. Of the previews, it was the only to stick within my mind. "
+                      },
+                      "DuringMovie": {
+                          "ResponsePoint": null,
+                          "Script": "",
+                          "Text": "An intriguing turn..."
+                      },
+                      "AfterMovie": {
+                          "ResponsePoint": null,
+                          "Script": "",
+                          "Text": "It is rare that a film keeps me on my toes, ever-guessing its next move, yet is so very obvious after the fact.$#b#An enjoyable day out, in all.$h"
+                      }
+                },
+                "ID": "reaction_7"
+              },
+
+              //seen before, dislike
+              {
+                "Tag":"seen_dislike",
+                "Response": "like",
+                "Whitelist": [],
+                "SpecialResponses": {
+                      "BeforeMovie": {
+                          "ResponsePoint": null,
+                          "Script": "",
+                          "Text": "And why, exactly, did you see fit to take me to this again?$6 I promise you, I will not suddenly sing its praises after another viewing."
+                      },
+                      "DuringMovie": {
+                          "ResponsePoint": null,
+                          "Script": "/message \"Emet-Selch is mumbling criticisms of the plot to himself.\"",
+                          "Text": ""
+                      },
+                      "AfterMovie": {
+                          "ResponsePoint": null,
+                          "Script": "",
+                          "Text": "Wasn't that a waste of time. Next time I will choose the movie, thank you.$6"
+                      }
+                },
+                "ID": "reaction_8"
+              },
+
+              //seen before, like
+              {
+                "Tag":"seen_like",
+                "Response": "like",
+                "Whitelist": [],
+                "SpecialResponses": {
+                      "BeforeMovie": {
+                          "ResponsePoint": null,
+                          "Script": "",
+                          "Text": "Revisiting old favorites, are we?$1"
+                      },
+                      "DuringMovie": {
+                          "ResponsePoint": null,
+                          "Script": "/message \"Emet-Selch is watching contentedly.\"",
+                          "Text": ""
+                      },
+                      "AfterMovie": {
+                          "ResponsePoint": null,
+                          "Script": "",
+                          "Text": "It held up decently well, I suppose. My thanks for the invitation.$1"
+                      }
+                },
+                "ID": "reaction_8"
+              },
+
+            ]
+        }
+      },
+    }
+  ]
+}

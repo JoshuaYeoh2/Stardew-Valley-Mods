@@ -1,0 +1,70 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+
+  //SPECIAL DAYS - leave at top of page
+  //special day one. custom dialogue for attic is....somewhere
+  "spring_14": "610 Visorlights.EmetSelchCustomNPC_Emet_House 3 21 3/700 Visorlights.EmetSelchCustomNPC_Emet_Attic_Open 9 10 0/930 Visorlights.EmetSelchCustomNPC_Emet_Attic_Open 8 12 2/1600 Visorlights.EmetSelchCustomNPC_Emet_Attic_Open 3 10 3/1800 Visorlights.EmetSelchCustomNPC_Emet_Attic_Open 8 12 2/2200 Visorlights.EmetSelchCustomNPC_Naples 26 26 2/2500 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 2 emet-selch_sleep",
+  //special day TWO
+  "winter_21": "610 Visorlights.EmetSelchCustomNPC_Emet_House 3 21 3/700 Visorlights.EmetSelchCustomNPC_Emet_Attic_Open 9 10 0/930 Visorlights.EmetSelchCustomNPC_Emet_Attic_Open 7 12 2/1600 Visorlights.EmetSelchCustomNPC_Emet_Attic_Open 3 10 3/1800 Visorlights.EmetSelchCustomNPC_Emet_Attic_Open 7 12 2/2200 Visorlights.EmetSelchCustomNPC_Naples 26 26 2/2500 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 2 emet-selch_sleep",
+
+  "rain": "610 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 2 emet-selch_doze/1200 Visorlights.EmetSelchCustomNPC_Emet_House 5 21 0/1300 Visorlights.EmetSelchCustomNPC_Emet_House 8 11 1/1400 Visorlights.EmetSelchCustomNPC_Emet_House 5 7 0/1900 Visorlights.EmetSelchCustomNPC_Emet_House 6 14 3/2100 Visorlights.EmetSelchCustomNPC_Emet_House 19 10 1/2200 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 2 emet-selch_sleep",
+  "rain2": "610 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 2 emet-selch_doze/900 Visorlights.EmetSelchCustomNPC_Emet_House 5 21 0/1000 Visorlights.EmetSelchCustomNPC_Emet_House 18 18 0 emet-selch_peruse/1300 Visorlights.EmetSelchCustomNPC_Emet_House 16 18 0/2200 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 2 emet-selch_sleep",
+  "GreenRain": "610 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 2 emet-selch_doze/800 Visorlights.EmetSelchCustomNPC_Emet_House 5 7 0/2400 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 2 emet-selch_sleep",
+  //
+  //SPRING
+  //
+  //spring default
+  "spring": "610 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 2 emet-selch_doze/900 Visorlights.EmetSelchCustomNPC_Emet_House 7 21 1/1200 Visorlights.EmetSelchCustomNPC_Emet_House 16 18 1 emet-selch_peruse/1600 Visorlights.EmetSelchCustomNPC_Emet_House 20 20 3/1800 Visorlights.EmetSelchCustomNPC_Emet_House 4 12 2/2300 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 0 emet-selch_sleep",
+  //his 'weekend', spring edition. sunday is lake day, monday is hammock day
+  "spring_Sun": "610 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 2 emet-selch_doze/900 Visorlights.EmetSelchCustomNPC_Emet_House 3 21 3/1000 Visorlights.EmetSelchCustomNPC_Emet_House 6 14 1/1100 Visorlights.EmetSelchCustomNPC_Naples 24 25 2/1300 Visorlights.EmetSelchCustomNPC_Naples 12 41 2/1800 Visorlights.EmetSelchCustomNPC_Emet_House 8 11 1/2300 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 0 emet-selch_sleep",
+  "spring_Mon": "610 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 2 emet-selch_doze/1000 Visorlights.EmetSelchCustomNPC_Emet_House 3 21 2/1030 Visorlights.EmetSelchCustomNPC_Naples 25 23 1/1200 Visorlights.EmetSelchCustomNPC_Naples 20 28 1/1800 Visorlights.EmetSelchCustomNPC_Emet_House 3 9 3/2300 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 0 emet-selch_sleep",
+  //friday is his work day outttt
+  "spring_Fri": "610 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 2 emet-selch_doze/810 Visorlights.EmetSelchCustomNPC_Emet_House 5 21 0/900 Mountain 42 13 1/1500 Mine 15 7 1/1800 Visorlights.EmetSelchCustomNPC_Emet_House 8 7 0 emet-selch_peruse/2400 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 0 emet-selch_sleep",
+  //late spring peony time
+  "spring_26": "610 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 2 emet-selch_doze/900 Visorlights.EmetSelchCustomNPC_Naples 30 23 0/1000 Visorlights.EmetSelchCustomNPC_Naples 26 26 0/1100 Visorlights.EmetSelchCustomNPC_Naples 30 23 1/1400 Visorlights.EmetSelchCustomNPC_Naples 32 23 3/1830 Visorlights.EmetSelchCustomNPC_Emet_House 8 7 3/2300 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 0 emet-selch_sleep",
+  "spring_27": "GOTO spring_26",
+  "spring_28": "GOTO spring_26",
+  //
+  //SUMMER
+  //outside in the morning, sometimes evening. awake a bit later than spring, naps during day sometimes.
+  //summer default
+  "summer": "610 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 2 emet-selch_doze/730 Visorlights.EmetSelchCustomNPC_Emet_House 6 21 0/900 Visorlights.EmetSelchCustomNPC_Naples 26 26 3/1200 Visorlights.EmetSelchCustomNPC_Emet_House 16 18 1 emet-selch_peruse/1600 Visorlights.EmetSelchCustomNPC_Emet_House 20 20 3/1900 Visorlights.EmetSelchCustomNPC_Emet_House 4 12 2/2100 Visorlights.EmetSelchCustomNPC_Naples 25 30 2/2400 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 0 emet-selch_sleep",
+  "summer_Tue": "610 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 2 emet-selch_doze/730 Visorlights.EmetSelchCustomNPC_Emet_House 6 21 0/930 Visorlights.EmetSelchCustomNPC_Naples 24 45 2/1100 Visorlights.EmetSelchCustomNPC_Emet_House 18 18 0 emet-selch_peruse/1400 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 2 emet-selch_doze/1600 Visorlights.EmetSelchCustomNPC_Emet_House 20 20 1/2000 Visorlights.EmetSelchCustomNPC_Naples 23 27 2/2400 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 0 emet-selch_sleep",
+  "summer_Thu": "GOTO summer_Tue",
+  //sun + mon 'weekend'
+  "summer_Sun": "610 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 2 emet-selch_doze/1000 Visorlights.EmetSelchCustomNPC_Emet_House 3 21 0/1200 Visorlights.EmetSelchCustomNPC_Naples 20 28 2/1400 Visorlights.EmetSelchCustomNPC_Emet_House 6 14 3/2100 Visorlights.EmetSelchCustomNPC_Naples 23 27 2/2400 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 0 emet-selch_sleep",
+  "summer_Mon": "610 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 2 emet-selch_doze/1000 Visorlights.EmetSelchCustomNPC_Naples 17 43 2/1200 Visorlights.EmetSelchCustomNPC_Emet_House 5 21 0/1400 Visorlights.EmetSelchCustomNPC_Emet_House 8 11 3/2100 Visorlights.EmetSelchCustomNPC_Naples 25 30 2/2400 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 0 emet-selch_sleep",
+  //day out
+  "summer_Fri": "610 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 2 emet-selch_doze/810 Visorlights.EmetSelchCustomNPC_Emet_House 5 21 0/900 Mountain 42 13 1/1500 Mine 15 7 1/2000 Visorlights.EmetSelchCustomNPC_Emet_House 6 14 3/2400 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 0 emet-selch_sleep",
+
+  //FALL
+  "fall": "610 Visorlights.EmetSelchCustomNPC_Emet_House 5 21 0/900 Visorlights.EmetSelchCustomNPC_Naples 26 26 3/1200 Visorlights.EmetSelchCustomNPC_Emet_House 16 18 1 emet-selch_peruse/1600 Visorlights.EmetSelchCustomNPC_Emet_House 20 20 3/1800 Visorlights.EmetSelchCustomNPC_Emet_House 4 12 2/2300 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 0 emet-selch_sleep",
+  //his 'weekend' lake dayss
+  "fall_Sun": "610 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 2 emet-selch_doze/900 Visorlights.EmetSelchCustomNPC_Emet_House 3 21 3/1000 Visorlights.EmetSelchCustomNPC_Emet_House 6 14 1/1100 Visorlights.EmetSelchCustomNPC_Naples 24 25 2/1300 Visorlights.EmetSelchCustomNPC_Naples 12 41 3/1700 Visorlights.EmetSelchCustomNPC_Emet_House 8 11 1/2300 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 0 emet-selch_sleep",
+  "fall_Mon": "610 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 2 emet-selch_doze/1000 Visorlights.EmetSelchCustomNPC_Emet_House 3 21 3/1030 Visorlights.EmetSelchCustomNPC_Emet_House 6 14 1/1200 Visorlights.EmetSelchCustomNPC_Naples 24 25 2/1300 Visorlights.EmetSelchCustomNPC_Naples 12 41 3/1700 Visorlights.EmetSelchCustomNPC_Emet_House 8 11 1/2300 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 0 emet-selch_sleep",
+  //friday is his work day outttt
+  "fall_Fri": "610 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 2 emet-selch_doze/810 Visorlights.EmetSelchCustomNPC_Emet_House 5 21 0/900 Mountain 42 13 1/1500 Mine 15 7 1/1800 Visorlights.EmetSelchCustomNPC_Emet_House 8 7 0 emet-selch_peruse/2400 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 0 emet-selch_sleep",
+  //TO DO fall clematis days
+  "fall_2": "610 Visorlights.EmetSelchCustomNPC_Emet_House 5 21 0/1000 Visorlights.EmetSelchCustomNPC_Naples 27 23 0/1300 Visorlights.EmetSelchCustomNPC_Naples 26 26 0/1700 Visorlights.EmetSelchCustomNPC_Naples 25 23 0/1800 Visorlights.EmetSelchCustomNPC_Emet_House 3 9 1/2200 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 0 emet-selch_sleep",
+  "fall_3": "GOTO fall_2",
+  "fall_4": "GOTO fall_2",
+
+  //
+  //WINTER
+  //no naps, but wakes up later/sleeps earlier
+  "winter": "610 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 2 emet-selch_doze/1000 Visorlights.EmetSelchCustomNPC_Emet_House 5 21 1/1130 Visorlights.EmetSelchCustomNPC_Emet_House 18 18 2/1500 Visorlights.EmetSelchCustomNPC_Emet_House 20 20 1/1900 Visorlights.EmetSelchCustomNPC_Emet_House 4 12 2/2200 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 2 emet-selch_sleep",
+  //winter monday have him to right of prospero plant for a time
+  "winter_Sun": "610 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 2 emet-selch_doze/1100 Visorlights.EmetSelchCustomNPC_Emet_House 3 21 2/1300 Visorlights.EmetSelchCustomNPC_Emet_House 8 7 2/1700 Visorlights.EmetSelchCustomNPC_Emet_House 6 14 3/1900 Visorlights.EmetSelchCustomNPC_Emet_House 4 12 2/2200 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 2 emet-selch_sleep",
+  "winter_Mon": "610 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 2 emet-selch_doze/1030 Visorlights.EmetSelchCustomNPC_Emet_House 5 21 2/1200 Visorlights.EmetSelchCustomNPC_Emet_House 6 6 3/1700 Visorlights.EmetSelchCustomNPC_Emet_House 8 11 1/2000 Visorlights.EmetSelchCustomNPC_Emet_House 19 10 1/2200 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 2 emet-selch_sleep",
+  "winter_Fri": "610 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 2 emet-selch_doze/900 Visorlights.EmetSelchCustomNPC_Emet_House 5 21 0/1000 Mountain 42 13 1/1300 Mine 15 7 1/1800 Visorlights.EmetSelchCustomNPC_Emet_House 8 7 0 emet-selch_peruse/2200 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 0 emet-selch_sleep",
+  //night market
+  "winter_17": "610 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 2 emet-selch_doze/1000 Visorlights.EmetSelchCustomNPC_Emet_House 5 21 1/1130 Visorlights.EmetSelchCustomNPC_Emet_House 18 18 2/1500 Visorlights.EmetSelchCustomNPC_Emet_House 20 20 1/1800 Beach 13 18 2 \"Strings\\schedules\\Visorlights.EmetSelch:winter_17.000\"/2500 Visorlights.EmetSelchCustomNPC_Emet_House 18 7 2 emet-selch_sleep",
+
+  //MARRIED
+  "marriage_spring_14": "1000 Visorlights.EmetSelchCustomNPC_Emet_Attic_Open 8 12 2 \"Strings\\schedules\\Visorlights.EmetSelch:spring_14_married.000\"/2100 bed",
+  "marriage_winter_21": "1000 Visorlights.EmetSelchCustomNPC_Emet_Attic_Open 7 12 2 \"Strings\\schedules\\Visorlights.EmetSelch:winter_21_married.000\"/2100 bed",
+  "marriage_winter_17": "1700 Beach 13 18 2 \"Strings\\schedules\\Visorlights.EmetSelch:winter_17.000\"/2500 bed",
+  "marriage_Mon": "1200 Visorlights.EmetSelchCustomNPC_Naples 24 45 2 \"Strings\\schedules\\Visorlights.EmetSelch:garden_married.000\"/1500 Visorlights.EmetSelchCustomNPC_Naples 20 28 1 \"Strings\\schedules\\Visorlights.EmetSelch:garden_married.000\"/1700 bed",
+  "marriage_Wed": "900 Visorlights.EmetSelchCustomNPC_Emet_House 16 18 1 \"Strings\\schedules\\Visorlights.EmetSelch:desk_married.000\"/1400 bed",
+  "marriage_Fri": "1100 Mountain 42 13 1 \"Strings\\schedules\\Visorlights.EmetSelch:town_married.000\"/1500 Mine 15 7 1 \"Strings\\schedules\\Visorlights.EmetSelch:town_married.000\"/1600 bed"
+}
