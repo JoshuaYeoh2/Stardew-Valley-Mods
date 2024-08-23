@@ -89,6 +89,96 @@
                 "CustomFields": {}
             }
           }
+        },
+        {
+          "LogName": "Pepper",
+          "Action": "EditData",
+          "Target": "Data/FarmAnimals",
+          "Entries": {
+            "RaffieJohn.PepperSprites": {
+                "DisplayName": "{{i18n: RaffieJohn.Gouud}}",
+                "House": "Coop",
+                "Gender": "Female",
+                "PurchasePrice": -1,
+                "SellPrice": -1,
+                "ShopTexture": null,
+                "ShopSourceRect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 0,
+                "Height": 0
+                },
+                "ShopDisplayName": "{{i18n: RaffieJohn.Gouud}}",
+                "ShopDescription": "{{i18n: RaffieJohn.Gouud.Desc}}",
+                "ShopMissingBuildingDescription": null,
+                "RequiredBuilding": "Coop",
+                "UnlockCondition": null,
+                "AlternatePurchaseTypes": null,
+                "EggItemIds": null,
+                "IncubatorParentSheetOffset": 1,
+                "BirthText": "{{i18n: RaffieJohn.GouudBirth}}",
+                "DaysToMature": 0,
+                "CanGetPregnant": true,
+                "DaysToProduce": 0,
+                "HarvestType": "DropOvernight",
+                "HarvestTool": null,
+                "ProduceItemIds": [
+                  {
+                    "Id": "Default",
+                    "Condition": null,
+                    "MinimumFriendship": 0,
+                    "ItemId": null
+                  }
+                ],
+                "DeluxeProduceItemIds": null,
+                "ProduceOnMature": false,
+                "FriendshipForFasterProduce": 0,
+                "DeluxeProduceMinimumFriendship": 0,
+                "DeluxeProduceCareDivisor": 0,
+                "DeluxeProduceLuckMultiplier": 0,
+                "ProfessionForHappinessBoost":0,
+                "ProfessionForQualityBoost":0,
+                "ProfessionForFasterProduce":0,
+                "Sound": "GouudNoise",
+                "BabySound": "GouudNoise",
+                "Texture": "Animals\\RaffieJohn.Gouud_Adult_Grey",
+                "HarvestedTexture": null,
+                "BabyTexture": "Animals\\RaffieJohn.Gouud_Adult_Grey",
+                "UseFlippedRightForLeft": false,
+                "SpriteWidth": 32,
+                "SpriteHeight": 32,
+                "EmoteOffset": {
+                  "X": 0,
+                  "Y": 0
+                },
+                 "Skins": [
+                      ],
+                 "ShadowWhenBaby" :
+               {
+              "Visible" : false // not actually needed, is true if omitted
+            },
+              "ShadowWhenAdult" : {
+              "Visible" : false // not actually needed, is true if omitted
+            },
+              "ShadowWhenBabySwims" : {
+              "Visible" : false // not actually needed, is true if omitted
+            },
+              "ShadowWhenAdultSwims" : {
+              "Visible" : false // not actually needed, is true if omitted
+            },
+                "CanSwim": false,
+                "BabiesFollowAdults": true,
+                "GrassEatAmount": -1,
+                "HappinessDrain": 0,
+                "UpDownPetHitboxTileSize": "2.5, 2.75",
+                "LeftRightPetHitboxTileSize": "2.75, 2.25",
+                "BabyUpDownPetHitboxTileSize": "1, 1.75",
+                "BabyLeftRightPetHitboxTileSize": "1.75, 1",
+                "StatToIncrementOnProduce": null,
+                "ShowInSummitCredits": false,
+                "CustomFields": {}
+            }
+          }
         }
     ]
 }

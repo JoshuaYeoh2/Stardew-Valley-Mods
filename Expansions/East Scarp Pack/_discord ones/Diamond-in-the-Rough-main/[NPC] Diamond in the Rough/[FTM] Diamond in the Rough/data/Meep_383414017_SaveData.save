@@ -1,25 +1,28 @@
 {
-  "WeatherForYesterday": "Sun",
+  "WeatherForYesterday": "Rain",
   "LNOSCounter": {
     "DitR - Sewer Shorts Spawn": 1
   },
   "ExistingObjectLocations": {},
   "SavedObjects": [
     {
-      "MapName": "Custom_ShearwaterBridge",
-      "Name": "7thAxis.DitR_Items.ValleyLily",
-      "Tile": "53, 23",
+      "MapName": "Sewer",
+      "Name": "Object:7thAxis.DitR_Items.UnluckyPurpleShorts",
+      "Tile": "16, 27",
       "Type": "Forage",
-      "ID": "7thAxis.DitR_Items.ValleyLily",
-      "DaysUntilExpire": 1,
+      "ID": "7thAxis.DitR_Items.UnluckyPurpleShorts",
+      "DaysUntilExpire": 0,
       "SpawnTime": 600,
-      "ConfigItem": null,
+      "ConfigItem": {
+        "Category": "Object",
+        "Name": "7thAxis.DitR_Items.UnluckyPurpleShorts"
+      },
       "MonType": null
     },
     {
       "MapName": "Town",
       "Name": "7thAxis.DitR_Items.ValleyLily",
-      "Tile": "65, 18",
+      "Tile": "12, 26",
       "Type": "Forage",
       "ID": "7thAxis.DitR_Items.ValleyLily",
       "DaysUntilExpire": 1,
@@ -28,9 +31,9 @@
       "MonType": null
     },
     {
-      "MapName": "EastScarp_DeepMountains",
+      "MapName": "Forest",
       "Name": "7thAxis.DitR_Items.ValleyLily",
-      "Tile": "64, 5",
+      "Tile": "101, 81",
       "Type": "Forage",
       "ID": "7thAxis.DitR_Items.ValleyLily",
       "DaysUntilExpire": 1,
@@ -39,12 +42,12 @@
       "MonType": null
     },
     {
-      "MapName": "Custom_GrandpasShedOutside",
-      "Name": "7thAxis.DitR_Items.GoldenVoidLavaSnail",
-      "Tile": "12, 25",
+      "MapName": "Backwoods",
+      "Name": "7thAxis.DitR_Items.ValleyLily",
+      "Tile": "24, 34",
       "Type": "Forage",
-      "ID": "7thAxis.DitR_Items.GoldenVoidLavaSnail",
-      "DaysUntilExpire": 0,
+      "ID": "7thAxis.DitR_Items.ValleyLily",
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null

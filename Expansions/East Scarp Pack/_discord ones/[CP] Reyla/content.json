@@ -187,22 +187,28 @@
     },
     //Loading the animals
     {
-      "LogName": "Farmanimals Adult",
+      "LogName": "Farmanimals Red-Capped Adult",
       "Action": "Load",
       "Target": "Animals/RaffieJohn.RedCappedZuzu_Adult_Norm",
       "FromFile": "Assets/Animals/RaffieJohn.RedCappedZuzu_Adult_Norm.png"
     },
     {
-      "LogName": "Farmanimals Baby",
+      "LogName": "Farmanimals Red-Capped Baby",
       "Action": "Load",
       "Target": "Animals/RaffieJohn.RedCappedZuzu_Baby_Norm",
       "FromFile": "Assets/Animals/RaffieJohn.RedCappedZuzu_Baby_Norm.png"
     },
     {
-      "LogName": "Farmanimals Icon",
+      "LogName": "Farmanimals Red-Capped Icon",
       "Action": "Load",
       "Target": "LooseSprites/RaffieJohn.RedCappedZuzu_Icon",
       "FromFile": "Assets/Animals/RaffieJohn.RedCappedZuzu_Icon.png"
+    },
+    {
+      "LogName": "Farmanimals Gouud Adult",
+      "Action": "Load",
+      "Target": "Animals/RaffieJohn.Gouud_Adult_Grey",
+      "FromFile": "Assets/Animals/RaffieJohn.Gouud_Adult_Grey.png"
     },
     {
       "LogName": "Fire ball",
@@ -266,7 +272,20 @@
                   "Looped": false
               }
             }
-          }
+          },
+          {
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "GouudNoise": {
+                    "ID": "GouudNoise",
+                    "Category": "Sound",
+                    "FilePaths": [ "{{AbsoluteFilePath: Assets/Music/goat-sound.ogg}}" ],
+                    "StreamedVorbis": true,
+                    "Looped": false
+                }
+              }
+            }
   ],
   "DynamicTokens": [
     //TOKENS

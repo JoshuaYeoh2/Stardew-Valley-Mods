@@ -26,6 +26,7 @@
         "Saloon2": "{{i18n: Reyla.Saloon2}}",
         "Saloon4": "{{i18n: Reyla.Saloon4}}",
         "Saloon8": "{{i18n: Reyla.Saloon8}}",
+        "Saloon_Fri": "{{i18n: Reyla.Saloon_Fri}}",
 
         "Resort_Entering": "{{i18n: Reyla.Resort_Entering}}",
         "Resort_Leaving": "{{i18n: Reyla.Resort_Leaving}}",
@@ -38,6 +39,7 @@
         "Resort_Towel_2": "{{i18n: Reyla.Resort_Towel_2}}",
         "Resort": "{{i18n: Reyla.Resort}}",
 
+        "SeedShop_23_19": "{{i18n: Reyla.Workout}}",
         "Hospital_3_7": "{{i18n: Reyla.DoctorVisit}}",
 
         //Conversation Topics - Reyla's Reactions
@@ -234,6 +236,12 @@
         "CirrusPlanetarium":"{{i18n: Reyla.CirrusPlanetarium}}",
         "DandelionLeaves":"{{i18n: Reyla.DandelionLeaves}}",*/
 
+        //Dialogue on speific days
+
+        "9": "{{i18n: Reyla.9}}",
+        "9_2": "{{i18n: Reyla.9}}",
+
+
         //Spring Dialogue
         "spring_2_1": "{{i18n: Reyla.Spring_2_1}}",
         "spring_3": "{{i18n: Reyla.Spring_3}}",
@@ -360,6 +368,38 @@
       "LogName": "Abigail",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Abigail",
+      "Entries": {
+          "MeetReyla": "{{i18n:MeetReyla.{{TargetWithoutPath}}}}"
+      }
+    },
+    {
+      "LogName": "Marine",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Marine",
+      "Entries": {
+          "MeetReyla": "{{i18n:MeetReyla.{{TargetWithoutPath}}}}"
+      }
+    },    
+    {
+      "LogName": "Lewis",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Lewis",
+      "Entries": {
+          "MeetReyla": "{{i18n:MeetReyla.{{TargetWithoutPath}}}}"
+      }
+    },
+    {
+      "LogName": "Emily",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Emily",
+      "Entries": {
+          "MeetReyla": "{{i18n:MeetReyla.{{TargetWithoutPath}}}}"
+      }
+    },    
+    {
+      "LogName": "Haley",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Haley",
       "Entries": {
           "MeetReyla": "{{i18n:MeetReyla.{{TargetWithoutPath}}}}"
       }

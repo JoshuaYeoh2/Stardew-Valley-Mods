@@ -1,25 +1,14 @@
 {
-  "WeatherForYesterday": "Sun",
+  "WeatherForYesterday": "Rain",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
     {
       "MapName": "Custom_Ridgeside_RidgesideVillage",
-      "Name": "Fixer Eel",
-      "Tile": "52, 89",
+      "Name": "Ridgeside Bass",
+      "Tile": "46, 72",
       "Type": "Forage",
-      "ID": "Rafseazz.RSVCP_Fixer_Eel",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Ridgeside_RidgesideVillage",
-      "Name": "Mountain Redbelly Dace",
-      "Tile": "63, 97",
-      "Type": "Forage",
-      "ID": "Rafseazz.RSVCP_Mountain_Redbelly_Dace",
+      "ID": "Rafseazz.RSVCP_Ridgeside_Bass",
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -28,10 +17,21 @@
     {
       "MapName": "Custom_Ridgeside_RidgesideVillage",
       "Name": "Ridgeside Bass",
-      "Tile": "46, 72",
+      "Tile": "118, 96",
       "Type": "Forage",
       "ID": "Rafseazz.RSVCP_Ridgeside_Bass",
       "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgesideVillage",
+      "Name": "Skulpin Fish",
+      "Tile": "117, 120",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Skulpin_Fish",
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null

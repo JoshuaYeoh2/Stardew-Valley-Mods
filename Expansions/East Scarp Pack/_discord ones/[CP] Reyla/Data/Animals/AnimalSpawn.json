@@ -15,6 +15,22 @@
                         "HometileY":27
                     }
             }
+        },
+        {
+            "Action": "EditData",
+            "Target": "MEEP/FarmAnimals/SpawnData",
+            "Entries": {
+                    "RaffieJohn.PepperNPC": {
+                        "AnimalId": "RaffieJohn.PepperSprites",
+                        "LocationId": "RaffieJohn.Reyla_Home",
+                        "DisplayName": "{{i18n: RaffieJohn.Pepper}}",
+                        "PetMessage": [
+                            "{{i18n: RaffieJohn.Pepper.{{Random:{{Range: 01, 08}}}}}}"
+                        ],
+                        "HomeTileX": 9,
+                        "HometileY": 14
+                    }
+            }
         }
     ]
 }

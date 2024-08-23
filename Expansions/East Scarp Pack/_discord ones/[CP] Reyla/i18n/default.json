@@ -10,12 +10,18 @@
   "RaffieJohn.Reyla":"Reyla",
   "RaffieJohn.Imatu": "Imatu",
   "RaffieJohn.Saku": "Saku",
+  "RaffieJohn.Pepper": "Pepper",
 
 
   "RaffieJohn.RedCappedZuzu": "Red Capped Zuzu",
   "RaffieJohn.RedCappedZuzu.Desc": "Palamedea rufus, otherwise known as the Red-Capped Zuzu are native to the area around Zuzu City in mainland Ferngill, zuzu are members of the screamer family introduced to Arkania for pest control. They are best known for their vocalizations and elaborate mating dance, which has made them a symbol of love. As they are an introduced species the population is controlled by culling, but their docile nature and ready adaptation to farm life have popularized them with the locals, complicating this.",
   "RaffieJohn.RedCappedZuzuBirth": "A baby Red Capped Zuzu hatched!",
   "RaffieJohn.CoopMissing": "You're missing the coop for the Zuzu bird.",
+
+  "RaffieJohn.Gouud": "Gouud",
+  "RaffieJohn.Gouud.Desc": "Cervicapra muntiacoides, otherwise known as the gouud or Arkanian goat is a semi-domestic caprid kept for its wool and milk. Originally thought to be a relative of deer, genetics indicates they are more closely related to goats, and were domesticated independently on Arkania. Their aggressive temperament and picky diet have led to an increase in popularity of true goats over them, however, leading to concerns over their conservation status.",
+  "RaffieJohn.GouudBirth": "A baby Gouud was born!",
+  "RaffieJohn.BarnMissing": "You're missing the barn for the Zuzu bird.",
 
 
  
@@ -24,6 +30,7 @@
    "Reyla.Saloon2": "You know I'm glad people here are happy and safe here, that they can dance and drink their worries away!$1",
    "Reyla.Saloon4": "I wonder how long Clint is going to stare at Emily?$7",
    "Reyla.Saloon8": "Care to dance?$7",
+   "Reyla.Saloon_Fri": "It's great to see the saloon so busy on a Friday evening!$1",
  
    "Reyla.Resort_Entering": "Yay!$1Islands are so much fun to go to! I wonder if I can take some coconuts and wild fruit back home?$7",
    "Reyla.Resort_Leaving": "Noooooooooo. I don't want to leave!$2",
@@ -36,7 +43,9 @@
    "Reyla.Resort_Towel_2": "Getting a little sleepy.$2",
    "Reyla.Resort": "What a beautiful place to relax!$1",
 
-   "Reyla.DoctorVisit": "Hey @ I'm just here for my seasonal",
+   "Reyla.Workout": "Hold in the abs and then punch and now a deep breath.$0",
+
+   "Reyla.DoctorVisit": "Hey @ I'm just here for my seasonal check-up.",
 
    //Saku's interaction
    "RaffieJohn.Saku.1": "Saku looks happy.",
@@ -47,6 +56,17 @@
    "RaffieJohn.Saku.6": "You're convinced that Saku winked at you.",
    "RaffieJohn.Saku.7": "Saku is bobbing her head, and her red cap feathers are flopping around.",
    "RaffieJohn.Saku.8": "Saku is eating the bugs on the ground.",
+
+   //Pepper's interaction
+   "RaffieJohn.Pepper.1": "Pepper has an indifferent look about her.",
+   "RaffieJohn.Pepper.2": "Pepper bows her head acknowledging you.",
+   "RaffieJohn.Pepper.3": "Pepper shuffles her feet. Is she nervous or dancing?",
+   "RaffieJohn.Pepper.4": "Pepper is eating the grass around her.",
+   "RaffieJohn.Pepper.5": "You pat Peppers' head.",
+   "RaffieJohn.Pepper.6": "Pepper gives you puppy dog eyes.",
+   "RaffieJohn.Pepper.7": "Pepper looks sleepy.",
+   "RaffieJohn.Pepper.8": "Pepper sticks her tongue out at you.",
+   
  
   //====================================================================================================
   //Conversation Topics
@@ -57,11 +77,19 @@
 
    "MeetReyla.Alex": "That woman that lives in the cemetery? She's strong as heck! I saw her come to town and carry about six big bags of deluxe fertilizer like it was nothing!$1",
    "MeetReyla.Pierre": "Reyla? I would ban her from the store, but since she works for the adventurer's guild I can't.$2#$b#Why? Well, the adventure guild protects us, it would look bad if I banned someone who works hard to protect us.$0",
-   "MeerReyla.Robin": "Have you had a chance to Reyla? She and I made her house together. I offered to put in plumbing and electrical to her house, but she said that it wasn't a necessary thing at the moment.$0",
+   "MeetReyla.Robin": "Have you had a chance to Reyla? She and I made her house together. I offered to put in plumbing and electrical to her house, but she said that it wasn't a necessary thing at the moment.$0",
    "MeetReyla.Abigail": "Have you met Reyla? She's awesome! She's given me a few sword tips. Sadly, my dad and her have some beef with one another. My dad won't say why and Reyla just mumbles 'My crops are not yours...'$1",
 
+   "MeetReyla.Marine": "Reyla is such a sweetheart, she brings so much business to the ranch. Just last week she bought 100 wool!$1",
+
+   "MeetReyla.Lewis": "Have you had a chance to meet our villager, Reyla? A while ago she bought a lot of land up in the cemetery in the mountains.$0",
+
+   "MeetReyla.Emily": "Reyla? She's amazing! She showed me a lot of different fashion trends that other countries have! She even helped me figure out a dye color I've been struggling with!$1",
+
+   "MeetReyla.Haley": "Have you seen that woman Reyla? Her fashion choices are amazing!$1",
+
    //---------------------Vanilla CT----------------------------------------------------------
-   "Reyla.Introduction": "Hello! You must be the most famous farmer I've heard!$1#$b#I'm Reyla, and I just moved here too!$1#$b#I used to be an adventurer, but I now work at the Adventurer's Guild!$0#$b#Anyway I need to go! I'll see you around! Bye!$1",
+   "Reyla.Introduction": "Hello! You must be the most famous farmer I've ever heard!$1#$b#I'm Reyla, and I just moved here too!$1#$b#I used to be an adventurer, but I now work at the Adventurer's Guild!$0#$b#Anyway I need to go! I'll see you around! Bye!$1",
    "Reyla.luauBest": "That soup was the greatest I've had in a while!$1",
    "Reyla.luauShorts": "Hahaha, I couldn't stop laughing when those shorts came out of the Govnern's mouth!$1",
    "luauPoisoned": "Who would poison the soup like that?! Lewis is thinking of hiring the Adventurer Guild to do an investigation.$4",
@@ -214,7 +242,7 @@
    "Reyla.Spring_Tue": "Man, staring down a hole all day can be boring, but at least no monsters come out.$0",
    "Reyla.Spring_Wed": "Going to need some coffee today...$6",
    "Reyla.Spring_Thru": "Going to need to go to town and buy some stuff for this week.$0",
-   "Reyla.Spring_Fri": "Today is Friday! That means the weekend is here and I can relax a bit!$2",
+   "Reyla.Spring_Fri": "Today is Friday! That means the weekend is here and I can relax a bit!$1",
    "Reyla.Spring_Sat": "Need to remember to buy stuff from the store while I'm in town, or it's hunting season this week.$3",
    "Reyla.Spring_Sun": "Noooooooooo... I have to work tomorrow.$2#$b# That's what people say about jobs right?$7",
    "Reyla.Spring_25": "Today is my birthday!$1#$b#I wonder how Pelican Town celebrates birthdays? May need to ask Vincent and Jas.$1",
