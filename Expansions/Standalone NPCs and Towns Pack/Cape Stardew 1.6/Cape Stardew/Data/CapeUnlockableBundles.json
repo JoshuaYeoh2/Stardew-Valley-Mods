@@ -1,5 +1,33 @@
 {
   "Changes": [
+{
+      "Action": "EditData",
+      "Target": "UnlockableBundles/Bundles",
+      "Entries": {
+        "Cape.Secret": {
+          "Location": "Custom_RealSecretBase2",
+          "ShopEvent": "None",
+          "BundleName": "{{i18n:UB.RealSecretBase2}}",
+          "BundleSlots": 3,
+          "DrawQuestionMark": true,
+          "BundleReward": {
+            "money": 4000,
+          },
+          "ShopPosition": "9,4",
+          "ShopType": "CCMagicBook",
+          "EditMap": "Maps/Custom_RealSecretBase2Unlocked",
+          "EditMapPosition": "0,0",
+          "EditMapMode": "Replace",
+          "Price": {
+            "392": 1, //nautilusshell//
+            "393": 1, //coral//
+            "84": 1 //frozentear//
+          },
+           "RandomPriceEntries": 3,
+        }
+      }
+    },
+
    {
       "Action": "EditData",
       "Target": "UnlockableBundles/Bundles",

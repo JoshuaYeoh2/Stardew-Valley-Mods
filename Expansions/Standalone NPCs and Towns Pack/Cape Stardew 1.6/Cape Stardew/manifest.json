@@ -1,7 +1,7 @@
 {
     "Name": "CapeStardew",
     "Author": "Arony/DreamyGloom",
- "Version": "6.3.4",
+ "Version": "6.3.5",
     "Description": "SeasSideCapeExpansion",
     "UniqueID": "dreamy.kickitspot",
     "UpdateKeys": ["Nexus:14635"],
@@ -95,7 +95,11 @@
 {
       "UniqueID": "mistyspring.ItemExtensions",
       "IsRequired": true
-    }
+    },
+{
+	"UniqueID": "hootless.BusLocations",
+	"IsRequired": false,
+},
    
    
   ]

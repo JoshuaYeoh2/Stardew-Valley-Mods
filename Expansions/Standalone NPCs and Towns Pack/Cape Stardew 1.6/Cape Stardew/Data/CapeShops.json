@@ -252,6 +252,47 @@
                 },
             },
         },
+
+{
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "When": {
+            "HasSeenEvent |contains=14635124": "true",
+            },
+            "TargetField": [
+                "SeedShop",
+                "Items"
+            ],
+            "Entries": {
+                "Cape.StickyRiceFlourRecipe": {
+                    "Id": "Cape.StickyRiceFlourRecipe",
+                    "ItemId": "Cape.StickyRiceFlour",
+                    "Price": "300",
+                    "IsRecipe": "true",
+                },
+            },
+        },
+
+{
+            "Action": "EditData",
+            "Target": "Data/Shops",
+"When": {
+            "HasSeenEvent |contains=14635124": "true",
+            },
+            "TargetField": [
+                "SeedShop",
+                "Items"
+            ],
+            "Entries": {
+                "Cape.GumiSweetRice": {
+                    "Id": "Cape.GumiSweetRice",
+                    "ItemId": "Cape.GumiSweetRice",
+                    "Price": "150",
+                    "IsRecipe": "false",
+                },
+            },
+        },
+        
         
         {
             "Action": "EditData",

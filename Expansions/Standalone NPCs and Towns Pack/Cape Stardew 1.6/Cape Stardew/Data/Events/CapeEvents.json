@@ -51,31 +51,7 @@
       }
     },
     
-     {
-      "Action": "EditData",
-      "Target": "Data/Events/Custom_DarkCave2",
-      "Entries": {
-        "14635220/t 600 2600": "continue/-1000 -1000/farmer 11 39 0/fade unfade/viewport 13 30 true/skippable/addTemporaryActor pirateZombie 16 32 26 30 2 true/move farmer 0 -7 0/pause 200/emote farmer 8/addQuest CapeQuestA/move pirateZombie -2 0 2/viewport move 2 0 1000/viewport move 3 0 2000/viewport move 2 0 1000/viewport move 2 0 1000/viewport move 2 0 1000/viewport move 2 0 1000/viewport move 2 0 1000/move pirateZombie 1 0 2/pause 1000/addTemporaryActor pirateSkeleton 16 32 21 30 2 false/move pirateSkeleton 2 0 1/faceDirection pirateZombie 3/pause 200/beginSimultaneousCommand/emote pirateZombie 15/emote pirateSkeleton 12/move pirateZombie 3 0 1/move pirateSkeleton 4 0 1/endSimultaneousCommand/viewport move -3 0 1000/viewport move -2 0 1000/viewport move -2 0 1000/viewport move -2 0 1000/viewport move -2 0 1000/viewport move -2 0 1000/viewport move -2 0 1000/fade unfade/pause 500/end"
-      },
-      "When": {
-      "HasSeenEvent |contains=14635120": false,
-      "HasMod |contains=StravaJD.Pokefy": "false",
-      },
-      
-      },
-      
-         {
-      "Action": "EditData",
-      "Target": "Data/Events/Custom_DarkCave2",
-      "Entries": {
-        "14635220/t 600 2600": "darkCaveLoop/-1000 -1000/farmer 11 39 0/fade unfade/viewport 13 30 true/skippable/addTemporaryActor Skeleton 16 32 26 30 2 false monster/move farmer 0 -7 0/pause 200/playSound throwDownITem/pause 100/faceDirection farmer 1/addQuest CapeQuestA/emote farmer 8/move Skeleton -2 0 2/viewport move 2 0 1000/viewport move 3 0 2000/viewport move 2 0 1000/viewport move 2 0 1000/viewport move 2 0 1000/viewport move 2 0 1000/viewport move 2 0 1000/move Skeleton 1 0 2/pause 1000/addTemporaryActor Ghost 16 23 21 30 2 false monster/move Ghost 2 0 1/faceDirection Skeleton 3/pause 200/beginSimultaneousCommand/emote Ghost 15/emote Skeleton 12/move Skeleton 3 0 1/move Ghost 4 0 1/endSimultaneousCommand/viewport move -3 0 1000/viewport move -2 0 1000/viewport move -2 0 1000/viewport move -2 0 1000/viewport move -2 0 1000/viewport move -2 0 1000/viewport move -2 0 1000/fade unfade/pause 500/end"
-      },
-      "When": {
-      "HasSeenEvent |contains=14635120": false,
-      "HasMod |contains=StravaJD.Pokefy": "true",
-      },
-      
-      },
+   
     
        
     

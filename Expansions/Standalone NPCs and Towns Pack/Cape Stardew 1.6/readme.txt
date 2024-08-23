@@ -1,5 +1,14 @@
 Cape Stardew - for Stardew Valley 1.6
 
+New updates
+-added Sweet Rice item
+-added OrbOfTheTides item
+-altered the secret cave key location
+-altered Dark Cave areas
+-Fixed Custom Rings Buffs
+-Added CapeStardewCode
+-Fixed Annetta Schedule issues?
+
 **About:**
 Embark on an epic quest into a mysterious sea cavern, unearthing treasures and forming bonds with Annetta. Immerse yourself in a captivating narrative, seamlessly integrating with other mods. Unleash optional legendary weapons for a truly legendary farming adventure!
 

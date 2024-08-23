@@ -1,26 +1,15 @@
 {
-  "WeatherForYesterday": "Rain",
+  "WeatherForYesterday": "Sun",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
     {
       "MapName": "Custom_Ridgeside_RidgesideVillage",
       "Name": "Ridgeside Bass",
-      "Tile": "46, 72",
-      "Type": "Forage",
-      "ID": "Rafseazz.RSVCP_Ridgeside_Bass",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Ridgeside_RidgesideVillage",
-      "Name": "Ridgeside Bass",
       "Tile": "118, 96",
       "Type": "Forage",
       "ID": "Rafseazz.RSVCP_Ridgeside_Bass",
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -31,6 +20,39 @@
       "Tile": "117, 120",
       "Type": "Forage",
       "ID": "Rafseazz.RSVCP_Skulpin_Fish",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgesideVillage",
+      "Name": "Skulpin Fish",
+      "Tile": "143, 116",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Skulpin_Fish",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgesideVillage",
+      "Name": "Cutthroat Trout",
+      "Tile": "49, 74",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Cutthroat_Trout",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgesideVillage",
+      "Name": "Cutthroat Trout",
+      "Tile": "50, 73",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Cutthroat_Trout",
       "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,

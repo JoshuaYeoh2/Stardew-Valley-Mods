@@ -38,19 +38,6 @@
     },
 
 
-{
-			"Action": "EditData",
-			"Target": "spacechase0.SpaceCore/ObjectExtensionData",
-
-			"Entries": {
-				"{{ModId}}_SilverPetal": { // The object ID//
-					"UseForTriggerAction": true,
-				}
-			},
-			"When": {
-				"HasMod |contains=spacechase0.SpaceCore,PeacefulEnd.CustomCompanions": true,
-			}
-		},
 
 
   

@@ -1,5 +1,5 @@
 {
-  "WeatherForYesterday": "Rain",
+  "WeatherForYesterday": "Sun",
   "LNOSCounter": {
     "DitR - Sewer Shorts Spawn": 1
   },
@@ -20,9 +20,20 @@
       "MonType": null
     },
     {
-      "MapName": "Town",
+      "MapName": "EastScarp_DeepMountains",
       "Name": "7thAxis.DitR_Items.ValleyLily",
-      "Tile": "12, 26",
+      "Tile": "43, 19",
+      "Type": "Forage",
+      "ID": "7thAxis.DitR_Items.ValleyLily",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Woods",
+      "Name": "7thAxis.DitR_Items.ValleyLily",
+      "Tile": "67, 33",
       "Type": "Forage",
       "ID": "7thAxis.DitR_Items.ValleyLily",
       "DaysUntilExpire": 1,
@@ -33,18 +44,7 @@
     {
       "MapName": "Forest",
       "Name": "7thAxis.DitR_Items.ValleyLily",
-      "Tile": "101, 81",
-      "Type": "Forage",
-      "ID": "7thAxis.DitR_Items.ValleyLily",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Backwoods",
-      "Name": "7thAxis.DitR_Items.ValleyLily",
-      "Tile": "24, 34",
+      "Tile": "58, 80",
       "Type": "Forage",
       "ID": "7thAxis.DitR_Items.ValleyLily",
       "DaysUntilExpire": 1,

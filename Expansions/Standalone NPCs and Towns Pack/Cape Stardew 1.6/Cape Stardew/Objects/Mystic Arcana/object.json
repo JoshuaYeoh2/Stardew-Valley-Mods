@@ -38,18 +38,7 @@
     "FromFile": "Objects/{{TargetWithoutPath}}/object.png"
 },
 
-{
-			"Action": "EditData",
-			"Target": "spacechase0.SpaceCore/ObjectExtensionData",
-			"Entries": {
-				"{{ModId}}_MysticArcana": { // The object ID//
-					"UseForTriggerAction": true,
-				}
-			},
-			"When": {
-				"HasMod |contains=spacechase0.SpaceCore,PeacefulEnd.CustomCompanions": true,
-			}
-		},
+
   
 
 

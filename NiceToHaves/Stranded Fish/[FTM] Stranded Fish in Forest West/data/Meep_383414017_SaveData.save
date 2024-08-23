@@ -1,5 +1,5 @@
 {
-  "WeatherForYesterday": "Rain",
+  "WeatherForYesterday": "Sun",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
@@ -9,7 +9,7 @@
       "Tile": "29, 136",
       "Type": "Forage",
       "ID": "138",
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -20,7 +20,18 @@
       "Tile": "6, 127",
       "Type": "Forage",
       "ID": "132",
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ForestWest",
+      "Name": "Puppyfish",
+      "Tile": "15, 127",
+      "Type": "Forage",
+      "ID": "FlashShifter.StardewValleyExpandedCP_Puppyfish",
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null

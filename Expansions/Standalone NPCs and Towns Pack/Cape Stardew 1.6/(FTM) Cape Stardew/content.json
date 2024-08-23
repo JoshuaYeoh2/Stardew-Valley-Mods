@@ -2503,6 +2503,84 @@
       },
       {
         "SpringItemIndex": [
+          {
+            "Category": "Chest",
+            "Contents": [
+              {
+                "Category": "Object",
+                "Name": "OrbOfTheTides"
+              }
+            ]
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "Category": "Chest",
+            "Contents": [
+              {
+                "Category": "Object",
+                "Name": "OrbOfTheTides"
+              }
+            ]
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "Category": "Chest",
+            "Contents": [
+              {
+                "Category": "Object",
+                "Name": "OrbOfTheTides"
+              }
+            ]
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "Category": "Chest",
+            "Contents": [
+              {
+                "Category": "Object",
+                "Name": "OrbOfTheTides"
+              }
+            ]
+          }
+        ],
+        "UniqueAreaID": "CapeKeyMaze orb",
+        "MapName": "Custom_CapeKeyMaze",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "8,32;8,32"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 610,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 1,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": "clank"
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": 1
+        },
+        "DaysUntilSpawnsExpire": 0
+      },
+      {
+        "SpringItemIndex": [
           "Sea Crystal Flask"
         ],
         "SummerItemIndex": [
@@ -3292,14 +3370,13 @@
           }
         ],
         "UniqueAreaID": "Secret Cave Key Chest",
-        "MapName": "Custom_DarkCave2",
+        "MapName": "Custom_CapeKeyMaze",
         "MinimumSpawnsPerDay": 1,
         "MaximumSpawnsPerDay": 1,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
-          "20,29;20,29",
-          "20,28;20,28"
+          "18;6,18,6"
         ],
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
@@ -10160,6 +10237,115 @@
           "Clay": 0,
           "CinderShard": 1
         },
+        "UniqueAreaID": "DarkCave4 Ore",
+        "MapName": "Custom_DarkCave4",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "Stone"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 3
+      },
+      {
+        "MiningLevelRequired": {
+          "Stone": 0,
+          "Copper": 0,
+          "Iron": 0,
+          "Gold": 0,
+          "Iridium": 8,
+          "Geode": 0,
+          "FrozenGeode": 0,
+          "MagmaGeode": 0,
+          "OmniGeode": 0,
+          "Gem": 0,
+          "Mystic": 0,
+          "Radioactive": 0,
+          "Diamond": 0,
+          "Ruby": 0,
+          "Jade": 0,
+          "Amethyst": 0,
+          "Topaz": 0,
+          "Emerald": 0,
+          "Aquamarine": 0,
+          "Mussel": 0,
+          "Fossil": 0,
+          "Clay": 0,
+          "CinderShard": 0
+        },
+        "StartingSpawnChance": {
+          "Stone": 5,
+          "Copper": 0,
+          "Iron": 1,
+          "Gold": 0,
+          "Iridium": 8,
+          "Geode": 1,
+          "FrozenGeode": 0,
+          "MagmaGeode": 0,
+          "OmniGeode": 0,
+          "Gem": 0,
+          "Mystic": 0,
+          "Radioactive": 0,
+          "Diamond": 0,
+          "Ruby": 0,
+          "Jade": 0,
+          "Amethyst": 0,
+          "Topaz": 0,
+          "Emerald": 0,
+          "Aquamarine": 1,
+          "Mussel": 0,
+          "Fossil": 1,
+          "Clay": 0,
+          "CinderShard": 0
+        },
+        "LevelTenSpawnChance": {
+          "Stone": 5,
+          "Copper": 1,
+          "Iron": 0,
+          "Gold": 1,
+          "Iridium": 1,
+          "Geode": 1,
+          "FrozenGeode": 1,
+          "MagmaGeode": 0,
+          "OmniGeode": 1,
+          "Gem": 1,
+          "Mystic": 1,
+          "Radioactive": 0,
+          "Diamond": 1,
+          "Ruby": 2,
+          "Jade": 1,
+          "Amethyst": 2,
+          "Topaz": 2,
+          "Emerald": 1,
+          "Aquamarine": 4,
+          "Mussel": 0,
+          "Fossil": 2,
+          "Clay": 0,
+          "CinderShard": 1
+        },
         "UniqueAreaID": "DarkCave3 Ore",
         "MapName": "Custom_DarkCave3",
         "MinimumSpawnsPerDay": 1,
@@ -12786,6 +12972,70 @@
           "19,25/19,25",
           "19,27/19,27"
         ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 610,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Bat",
+            "Settings": {}
+          },
+          {
+            "MonsterName": "Iridium Bat",
+            "Settings": {}
+          },
+          {
+            "MonsterName": "Red Slime",
+            "Settings": {}
+          },
+          {
+            "MonsterName": "Iridium Crab",
+            "Settings": {}
+          },
+          {
+            "MonsterName": "Rock Crab",
+            "Settings": {}
+          },
+          {
+            "MonsterName": "Armored Bug",
+            "Settings": {}
+          },
+          {
+            "MonsterName": "Dust Sprite",
+            "Settings": {}
+          }
+        ],
+        "UniqueAreaID": "Custom_DarkCave4 baddies",
+        "MapName": "Custom_DarkCave4",
+        "MinimumSpawnsPerDay": 12,
+        "MaximumSpawnsPerDay": 14,
+        "IncludeTerrainTypes": [
+          "Stone"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
         "ExcludeCoordinates": [],
         "StrictTileChecking": "Maximum",
         "SpawnTiming": {
@@ -16905,6 +17155,241 @@
           "GameStateQueries": [
             "PLAYER_COMBAT_LEVEL Any 3 10"
           ],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Blue Squid",
+            "Settings": {}
+          },
+          {
+            "MonsterName": "Serpent",
+            "Settings": {}
+          },
+          {
+            "MonsterName": "Royal Serpent",
+            "Settings": {}
+          },
+          {
+            "MonsterName": "Cave Fly",
+            "Settings": {}
+          }
+        ],
+        "UniqueAreaID": "RealSecretBase2 Mons",
+        "MapName": "Custom_RealSecretBase2",
+        "MinimumSpawnsPerDay": 26,
+        "MaximumSpawnsPerDay": 51,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [
+          "Dirt"
+        ],
+        "IncludeCoordinates": [
+          "3,18/24,21"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2300,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": true,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Skeleton Mage",
+            "Settings": {}
+          },
+          {
+            "MonsterName": "Bat",
+            "Settings": {}
+          },
+          {
+            "MonsterName": "Iridium Bat",
+            "Settings": {}
+          },
+          {
+            "MonsterName": "Dust Sprite",
+            "Settings": {}
+          },
+          {
+            "MonsterName": "Skeleton",
+            "Settings": {}
+          },
+          {
+            "MonsterName": "Squid Kid",
+            "Settings": {}
+          },
+          {
+            "MonsterName": "Dwarvish Sentry",
+            "Settings": {}
+          }
+        ],
+        "UniqueAreaID": "CapeKeyMazeMons",
+        "MapName": "Custom_CapeKeyMaze",
+        "MinimumSpawnsPerDay": 42,
+        "MaximumSpawnsPerDay": 44,
+        "IncludeTerrainTypes": [
+          "Stone"
+        ],
+        "ExcludeTerrainTypes": [
+          "Dirt"
+        ],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [
+          "0,8/3,17",
+          "23,13/35,22",
+          "17,24/30,34",
+          "20,1/26,99"
+        ],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2400,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": true,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Stick Bug",
+            "Settings": {
+              "HP": 900,
+              "Damage": 30,
+              "Defense": 2,
+              "DodgeChance": 10,
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 2,
+              "SightRange": 1,
+              "Sprite": "Characters/Monsters/Treasure Spook",
+              "SpawnWeight": 3
+            }
+          },
+          {
+            "MonsterName": "Rock Crab",
+            "Settings": {}
+          },
+          {
+            "MonsterName": "Lava Crab",
+            "Settings": {}
+          },
+          {
+            "MonsterName": "Stone Golem",
+            "Settings": {}
+          },
+          {
+            "MonsterName": "Leaper",
+            "Settings": {}
+          }
+        ],
+        "UniqueAreaID": "CapeKeyMaze2Mons",
+        "MapName": "Custom_CapeKeyMaze2",
+        "MinimumSpawnsPerDay": 65,
+        "MaximumSpawnsPerDay": 80,
+        "IncludeTerrainTypes": [
+          "Stone"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2500,
+          "MinimumTimeBetweenSpawns": 20,
+          "MaximumSimultaneousSpawns": 35,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Duggy",
+            "Settings": {}
+          },
+          {
+            "MonsterName": "Mummy",
+            "Settings": {}
+          }
+        ],
+        "UniqueAreaID": "DarkCave4Duggies",
+        "MapName": "Custom_DarkCave4",
+        "MinimumSpawnsPerDay": 14,
+        "MaximumSpawnsPerDay": 34,
+        "IncludeTerrainTypes": [
+          "Dirt"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 14,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null

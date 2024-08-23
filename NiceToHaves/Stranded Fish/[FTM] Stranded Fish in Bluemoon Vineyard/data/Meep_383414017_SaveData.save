@@ -1,5 +1,5 @@
 {
-  "WeatherForYesterday": "Rain",
+  "WeatherForYesterday": "Sun",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
@@ -9,6 +9,17 @@
       "Tile": "46, 65",
       "Type": "Forage",
       "ID": "130",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BlueMoonVineyard",
+      "Name": "Minnow",
+      "Tile": "50, 65",
+      "Type": "Forage",
+      "ID": "FlashShifter.StardewValleyExpandedCP_Minnow",
       "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,

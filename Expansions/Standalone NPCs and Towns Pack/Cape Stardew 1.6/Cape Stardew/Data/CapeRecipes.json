@@ -1,5 +1,19 @@
 {
     "Changes": [
+{
+            "LogName": "CookingRecipes - Sticky Rice flour",
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "When": {
+            
+            "HasCookingRecipe |contains=Green Tea Mochi": true,
+            
+            },
+            "Entries": {
+                "Sticky Rice Flour": "Cape.GumiSweetRice 1/25 5/Cape.StickyRiceFlour/none/"
+            }
+        },
+
         {
             "LogName": "CookingRecipes - Annetta Recipe",
             "Action": "EditData",

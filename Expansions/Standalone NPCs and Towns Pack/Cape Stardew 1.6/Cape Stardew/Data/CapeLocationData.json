@@ -3069,6 +3069,138 @@
       }
     },
  
+ {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      
+      "Entries": {
+        "Custom_RealSecretBase2": {
+          "DisplayName": "Real Secret Base 2",
+          "DefaultArrivalTile": null,
+          "ExcludeFromNpcPathfinding": false,
+          "CreateOnLoad": {
+            "MapPath": "Maps\\Custom_RealSecretBase2"
+          },
+          "FormerLocationNames": [
+            "RealSecretBase2"
+          ],
+         "ArtifactSpots": [
+    {
+        "Chance": 0.15,
+        "Season": null,
+        "Id": "(O)102",
+        "ItemId": "(O)102"
+    },
+    {
+        "Chance": 0.25,
+        "Season": null,
+        "Id": "(O)390",
+        "ItemId": "(O)390"
+    },
+    {
+        "Chance": 1,
+        "Season": null,
+        "Id": "(O)330",
+        "ItemId": "(O)330"
+    }
+],
+          "FishAreas": {},
+          "Fish": [
+           {
+              "Chance": 1.0,
+              "Season": null,
+              "FishAreaId": null,
+              "BobberPosition": null,
+              "PlayerPosition": null,
+              "MinFishingLevel": 0,
+              "MinDistanceFromShore": 0,
+              "MaxDistanceFromShore": -1,
+              "ApplyDailyLuck": false,
+              "CuriosityLureBuff": -1.0,
+              "CatchLimit": -1,
+              "IsBossFish": false,
+              "SetFlagOnCatch": null,
+              "RequireMagicBait": false,
+              "Precedence": 0,
+              "IgnoreFishDataRequirements": false,
+              "CanBeInherited": true,
+              "ChanceModifiers": null,
+              "ChanceModifierMode": "Stack",
+              "Condition": "{{Enable Legendary Fish Cape |contains=True}},",
+              "Id": "(O)161",
+              "ItemId": "(O)161",
+              "RandomItemId": null,
+              "MaxItems": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack",
+              "PerItemCondition": null
+            },
+    {
+        "Chance": -1,
+        "Season": "Spring",
+        "Id": "(O)161",
+        "ItemId": "(O)161"
+    },
+    {
+        "Chance": -1,
+        "Season": "Spring",
+        "Id": "(O)156",
+        "ItemId": "(O)156"
+    },
+    {
+        "Chance": -1,
+        "Season": "Spring",
+        "Id": "(O)158",
+        "ItemId": "(O)158"
+    },
+    {
+        "Chance": -1,
+        "Season": "Spring",
+        "Id": "(O)153",
+        "ItemId": "(O)153"
+    },
+    {
+        "Chance": -1,
+        "Season": "Spring",
+        "Id": "(O)157",
+        "ItemId": "(O)157"
+    },
+
+],
+          "Forage": [],
+          "MinDailyWeeds": -1,
+          "MaxDailyWeeds": -1,
+          "FirstDayWeedMultiplier": -1,
+          "MinDailyForageSpawn": -1,
+          "MaxDailyForageSpawn": -1,
+          "MaxSpawnedForageAtOnce": -1,
+          "ChanceForClay": -1,
+          "Music": [],
+          "MusicDefault": null,
+          "MusicContext": "Default",
+          "MusicIgnoredInRain": false,
+          "MusicIgnoredInSpring": false,
+          "MusicIgnoredInSummer": false,
+          "MusicIgnoredInFall": false,
+          "MusicIgnoredInWinter": false,
+          "MusicIgnoredInFallDebris": false,
+          "MusicIsTownTheme": false,
+         "Advanced": {
+      "CustomFields": null,
+    }
+        }
+      }
+    },
+
 {
       "Action": "EditData",
       "Target": "Data/Locations",

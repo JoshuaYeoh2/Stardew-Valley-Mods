@@ -6,6 +6,13 @@
       "Default": "true",
       "Description": "unlock cape BusStop as builable area"
     },
+
+"UnequippedActiveRings": {
+"AllowValues": "true, false",
+"Default": "true",
+"Description": "Custom rings active even when unequipped"
+},
+
     "Custom_Ores": {
       "AllowValues": "true, false",
       "Default": "true",
@@ -250,6 +257,22 @@
       "Name": "Custom_RealSecretBase",
       "FromMapFile": "assets/RealSecretBase.tmx"
     },
+ {
+      "Name": "Custom_RealSecretBase2",
+      "FromMapFile": "assets/RealSecretBase2.tmx"
+    },
+{
+      "Name": "Custom_CapeKeyMaze",
+      "FromMapFile": "assets/CapeKeyMaze.tmx"
+    },
+{
+      "Name": "Custom_CapeKeyMaze2",
+      "FromMapFile": "assets/CapeKeyMaze2.tmx"
+    },
+{
+      "Name": "Custom_RealSecretBase2Unlocked",
+      "FromMapFile": "assets/RealSecretBase2Unlocked.tmx"
+    },
     {
       "Name": "Custom_AreaSecretBoss",
       "FromMapFile": "assets/AreaSecretBoss.tmx"
@@ -365,6 +388,10 @@
     {
       "Name": "Custom_DarkCave3",
       "FromMapFile": "assets/DarkCave3.tmx"
+    },
+{
+      "Name": "Custom_DarkCave4",
+      "FromMapFile": "assets/DarkCave4.tmx"
     },
     {
       "Name": "Custom_DarkCave3Unlock",
@@ -626,6 +653,18 @@
       }
     }
     /*/EventsBlanksJSON///*/,
+{
+      "LogName": "Load Blank RealSecretBase",
+      "Action": "Load",
+      "Target": "Data/Events/Custom_RealSecretBase",
+      "FromFile": "Data/LoadData/BlankRealSecretBase.json"
+    },
+{
+      "LogName": "Load Blank RealSecretBase2",
+      "Action": "Load",
+      "Target": "Data/Events/Custom_RealSecretBase2",
+      "FromFile": "Data/LoadData/BlankRealSecretBase2.json"
+    },
     {
       "LogName": "Load Blank CapeForest",
       "Action": "Load",
@@ -1141,6 +1180,10 @@
     {
       "Action": "Include",
       "FromFile": "Objects/Sky Oak/object.json"
+    },
+{
+      "Action": "Include",
+      "FromFile": "Objects/Gumi Sweet Rice/object.json"
     }
     /*includedata//*/,
     {

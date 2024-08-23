@@ -1,26 +1,15 @@
 {
-  "WeatherForYesterday": "Rain",
+  "WeatherForYesterday": "Sun",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
-    {
-      "MapName": "Mountain",
-      "Name": "Largemouth Bass",
-      "Tile": "43, 12",
-      "Type": "Forage",
-      "ID": "136",
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
     {
       "MapName": "Mountain",
       "Name": "Chub",
       "Tile": "58, 22",
       "Type": "Forage",
       "ID": "702",
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -31,7 +20,18 @@
       "Tile": "81, 33",
       "Type": "Forage",
       "ID": "702",
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Mountain",
+      "Name": "Green Algae",
+      "Tile": "68, 18",
+      "Type": "Forage",
+      "ID": "153",
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null

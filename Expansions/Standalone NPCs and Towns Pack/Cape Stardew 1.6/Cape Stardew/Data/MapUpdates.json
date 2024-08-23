@@ -466,181 +466,7 @@
       },
       "Update": "OnTimeChange"
     }
-    /*//TimerBusStop///*/
-    /*/open///*/,
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Custom_CapeBusStop",
-      "MapTiles": [
-        {
-          "Position": {
-            "X": 29,
-            "Y": 24
-          },
-          "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "MinecartTransport CapeBusStop"
-          }
-        }
-      ],
-      "When": {
-        "Time": "{{Range: 1000, 1700}}",
-        "HasFlag |contains=ccVault,jojaVault": true
-      },
-      "Update": "OnLocationChange,OnTimeChange"
-    }
-    /*/closedmorning///*/,
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Custom_CapeBusStop",
-      "MapTiles": [
-        {
-          "Position": {
-            "X": 29,
-            "Y": 24
-          },
-          "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "Message BusStopclosed.1"
-          }
-        }
-      ],
-      "When": {
-        "Time": "{{Range: 0600, 1000}}",
-        "HasFlag |contains=ccVault,jojaVault": true
-      },
-      "Update": "OnLocationChange,OnTimeChange"
-    }
-    /*/closednight//*/,
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Custom_CapeBusStop",
-      "MapTiles": [
-        {
-          "Position": {
-            "X": 29,
-            "Y": 24
-          },
-          "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "Message BusStopclosed.3"
-          }
-        }
-      ],
-      "When": {
-        "Time": "{{Range: 1700, 2600}}",
-        "HasFlag |contains=ccVault,jojaVault": true
-      },
-      "Update": "OnLocationChange,OnTimeChange"
-    },
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Custom_CapeBusStop",
-      "MapTiles": [
-        {
-          "Position": {
-            "X": 29,
-            "Y": 24
-          },
-          "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "Message BusStopclosed.2"
-          }
-        }
-      ],
-      "When": {
-        "HasFlag |contains=ccVault,jojaVault": false
-      },
-      "Update": "OnLocationChange"
-    },
-
-/*//TimerBusStop///*/
-    /*/open///*/,
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Custom_CapeBusStopBuildable",
-      "MapTiles": [
-        {
-          "Position": {
-            "X": 29,
-            "Y": 24
-          },
-          "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "MinecartTransport CapeBusStop"
-          }
-        }
-      ],
-      "When": {
-        "Time": "{{Range: 1000, 1700}}",
-        "HasFlag |contains=ccVault,jojaVault": true
-      },
-      "Update": "OnLocationChange,OnTimeChange"
-    }
-    /*/closedmorning///*/,
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Custom_CapeBusStopBuildable",
-      "MapTiles": [
-        {
-          "Position": {
-            "X": 29,
-            "Y": 24
-          },
-          "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "Message BusStopclosed.1"
-          }
-        }
-      ],
-      "When": {
-        "Time": "{{Range: 0600, 1000}}",
-        "HasFlag |contains=ccVault,jojaVault": true
-      },
-      "Update": "OnLocationChange,OnTimeChange"
-    }
-    /*/closednight//*/,
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Custom_CapeBusStopBuildable",
-      "MapTiles": [
-        {
-          "Position": {
-            "X": 29,
-            "Y": 24
-          },
-          "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "Message BusStopclosed.3"
-          }
-        }
-      ],
-      "When": {
-        "Time": "{{Range: 1700, 2600}}",
-        "HasFlag |contains=ccVault,jojaVault": true
-      },
-      "Update": "OnLocationChange,OnTimeChange"
-    },
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Custom_CapeBusStopBuildable",
-      "MapTiles": [
-        {
-          "Position": {
-            "X": 29,
-            "Y": 24
-          },
-          "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "Message BusStopclosed.2"
-          }
-        }
-      ],
-      "When": {
-        "HasFlag |contains=ccVault,jojaVault": false
-      },
-      "Update": "OnLocationChange"
-    }
+   
     /*BackupWarpsCapeStardew//*/,
     {
       "Action": "EditMap",
@@ -731,22 +557,7 @@
         }
       ]
     }
-    /*CapeStardewNPCWarpOut//*/,
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Custom_CapeStardew",
-      "TextOperations": [
-        {
-          "Operation": "Append",
-          "Target": [
-            "MapProperties",
-            "NPCWarp"
-          ],
-          "Value": "35 14 Custom_AnnettaHouse 25 24 50 0 Custom_AnnettaForest 8 37",
-          "Delimiter": " "
-        }
-      ]
-    }
+   
     /*yrisUpstairsPatch///*/,
     {
       "Action": "EditMap",
@@ -787,43 +598,7 @@
         }
       ]
     }
-    /*/newAnnettabusNPCWarpOut//*/,
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Custom_CapeBusStop",
-      "TextOperations": [
-        {
-          "Operation": "Append",
-          "Target": [
-            "MapProperties",
-            "NPCWarp"
-          ],
-          "Value": "29 25 BusStop 19 11 51 29 Custom_AnnettaForest 2 28",
-          "Delimiter": " "
-        }
-      ],
-      "When": {
-        "HasFlag |contains=ccVault,jojaVault": true
-      }
-    },
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Custom_CapeBusStop",
-      "TextOperations": [
-        {
-          "Operation": "Append",
-          "Target": [
-            "MapProperties",
-            "NPCWarp"
-          ],
-          "Value": "51 29 Custom_AnnettaForest 2 28",
-          "Delimiter": " "
-        }
-      ],
-      "When": {
-        "HasFlag |contains=ccVault,jojaVault": false
-      }
-    }
+    
     /*CapeBusStationedPatch//*/,
     {
       "Action": "EditMap",
@@ -1406,15 +1181,14 @@
       "Target": "Maps/Custom_AnnettaForest",
       "TextOperations": [
         {
-          "Operation": "RemoveDelimited",
+          "Operation": "Append",
           "Target": [
             "MapProperties",
             "NPCWarp"
           ],
-          "Value": "8 39 Custom_CapeStardew 50 2 18 0 Forest 6 109",
+          "Value": "18 0 Forest 6 109",
           "Delimiter": " ",
-          "Search": "8 39 Custom_CapeStardew 50 2 18 0 Forest 6 109",
-          "ReplaceMode": "All"
+         
         }
       ],
       "When": {
@@ -1429,20 +1203,19 @@
       "Target": "Maps/Custom_AnnettaForest",
       "TextOperations": [
         {
-          "Operation": "RemoveDelimited",
+          "Operation": "Append",
           "Target": [
             "MapProperties",
             "NPCWarp"
           ],
-          "Value": "8 39 Custom_CapeStardew 50 2 18 0 Forest 6 109",
+          "Value": "18 0 Forest 6 109",
           "Delimiter": " ",
-          "Search": "8 39 Custom_CapeStardew 50 2 18 0 Forest 6 109",
-          "ReplaceMode": "All"
+         
         }
       ],
       "When": {
         "Season": "Winter",
-        "Day": "6,13,20,27",
+        "Day |contains=6,13,20,27": true,
         "HasFlag |contains=ccVault,jojaVault": true
       }
     },
@@ -1452,20 +1225,19 @@
       "Target": "Maps/Custom_AnnettaForest",
       "TextOperations": [
         {
-          "Operation": "RemoveDelimited",
+          "Operation": "Append",
           "Target": [
             "MapProperties",
             "NPCWarp"
           ],
-          "Value": "8 39 Custom_CapeStardew 50 2 18 0 Forest 6 109",
+          "Value": "18 0 Forest 6 109",
           "Delimiter": " ",
-          "Search": "8 39 Custom_CapeStardew 50 2 18 0 Forest 6 109",
-          "ReplaceMode": "All"
         }
       ],
       "When": {
         "Season": "Winter",
-        "Day": "6,13,20,27"
+        "Day": "6,13,20,27",
+"HasFlag |contains=ccVault,jojaVault": false
       }
     }
     /*Tuesday/Spring/UnlockFalse//*/,
@@ -1474,15 +1246,13 @@
       "Target": "Maps/Custom_AnnettaForest",
       "TextOperations": [
         {
-          "Operation": "RemoveDelimited",
+          "Operation": "Append",
           "Target": [
             "MapProperties",
             "NPCWarp"
           ],
-          "Value": "8 39 Custom_CapeStardew 50 2 18 0 Forest 6 109",
+          "Value": "18 0 Forest 6 109",
           "Delimiter": " ",
-          "Search": "8 39 Custom_CapeStardew 50 2 18 0 Forest 6 109",
-          "ReplaceMode": "All"
         }
       ],
       "When": {
@@ -1497,15 +1267,13 @@
       "Target": "Maps/Custom_AnnettaForest",
       "TextOperations": [
         {
-          "Operation": "RemoveDelimited",
+          "Operation": "Append",
           "Target": [
             "MapProperties",
             "NPCWarp"
           ],
-          "Value": "8 39 Custom_CapeStardew 50 2 0 28 Custom_CapeBusStop 49 29",
+          "Value": "0 28 Custom_CapeBusStop 49 29",
           "Delimiter": " ",
-          "Search": "8 39 Custom_CapeStardew 50 2 18 0 Forest 6 109",
-          "ReplaceMode": "All"
         }
       ],
       "When": {
@@ -1520,15 +1288,14 @@
       "Target": "Maps/Custom_AnnettaForest",
       "TextOperations": [
         {
-          "Operation": "RemoveDelimited",
+          "Operation": "Append",
           "Target": [
             "MapProperties",
             "NPCWarp"
           ],
-          "Value": "8 39 Custom_CapeStardew 50 2 18 0 Forest 6 109",
+          "Value": "18 0 Forest 6 109",
           "Delimiter": " ",
-          "Search": "8 39 Custom_CapeStardew 50 2 18 0 Forest 6 109",
-          "ReplaceMode": "All"
+         
         }
       ],
       "When": {
@@ -1543,15 +1310,14 @@
       "Target": "Maps/Custom_AnnettaForest",
       "TextOperations": [
         {
-          "Operation": "RemoveDelimited",
+          "Operation": "Append",
           "Target": [
             "MapProperties",
             "NPCWarp"
           ],
-          "Value": "8 39 Custom_CapeStardew 50 2 18 0 Forest 6 109",
+          "Value": "18 0 Forest 6 109",
           "Delimiter": " ",
-          "Search": "8 39 Custom_CapeStardew 50 2 18 0 Forest 6 109",
-          "ReplaceMode": "All"
+          
         }
       ],
       "When": {
@@ -1565,15 +1331,14 @@
       "Target": "Maps/Custom_AnnettaForest",
       "TextOperations": [
         {
-          "Operation": "RemoveDelimited",
+          "Operation": "Append",
           "Target": [
             "MapProperties",
             "NPCWarp"
           ],
           "Value": "8 39 Custom_CapeStardew 50 2 0 28 Custom_CapeBusStop 49 29",
           "Delimiter": " ",
-          "Search": "8 39 Custom_CapeStardew 50 2 18 0 Forest 6 109",
-          "ReplaceMode": "All"
+         
         }
       ],
       "When": {
@@ -1588,15 +1353,14 @@
       "Target": "Maps/Custom_AnnettaForest",
       "TextOperations": [
         {
-          "Operation": "RemoveDelimited",
+          "Operation": "Append",
           "Target": [
             "MapProperties",
             "NPCWarp"
           ],
-          "Value": "8 39 Custom_CapeStardew 50 2 18 0 Forest 6 109",
+          "Value": "18 0 Forest 6 109",
           "Delimiter": " ",
-          "Search": "8 39 Custom_CapeStardew 50 2 18 0 Forest 6 109",
-          "ReplaceMode": "All"
+          
         }
       ],
       "When": {
@@ -1611,15 +1375,14 @@
       "Target": "Maps/Custom_AnnettaForest",
       "TextOperations": [
         {
-          "Operation": "RemoveDelimited",
+          "Operation": "Append",
           "Target": [
             "MapProperties",
             "NPCWarp"
           ],
-          "Value": "8 39 Custom_CapeStardew 50 2 18 0 Forest 6 109",
+          "Value": "18 0 Forest 6 109",
           "Delimiter": " ",
-          "Search": "8 39 Custom_CapeStardew 50 2 18 0 Forest 6 109",
-          "ReplaceMode": "All"
+         
         }
       ],
       "When": {
@@ -1634,21 +1397,248 @@
       "Target": "Maps/Custom_AnnettaForest",
       "TextOperations": [
         {
-          "Operation": "RemoveDelimited",
+          "Operation": "Append",
           "Target": [
             "MapProperties",
             "NPCWarp"
           ],
-          "Value": "8 39 Custom_CapeStardew 50 2 0 28 Custom_CapeBusStop 49 29",
+          "Value": "0 28 Custom_CapeBusStop 49 29",
           "Delimiter": " ",
-          "Search": "8 39 Custom_CapeStardew 50 2 18 0 Forest 6 109",
-          "ReplaceMode": "All"
+          
         }
       ],
       "When": {
         "Season": "Spring,Summer,Fall,Winter",
         "Day |contains=1,3,4,7,8,10,11,14,15,17,18,21,22,24,25,28": true,
         "HasFlag |contains=ccVault,jojaVault": true
+      }
+    },
+ /*//TimerBusStop///*/
+    /*/open///*/,
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_CapeBusStop",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 29,
+            "Y": 24
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "MinecartTransport CapeBusStop"
+          }
+        }
+      ],
+      "When": {
+        "Time": "{{Range: 1000, 1700}}",
+        "HasFlag |contains=ccVault,jojaVault": true
+      },
+      "Update": "OnLocationChange,OnTimeChange"
+    }
+    /*/closedmorning///*/,
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_CapeBusStop",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 29,
+            "Y": 24
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Message BusStopclosed.1"
+          }
+        }
+      ],
+      "When": {
+        "Time": "{{Range: 0600, 1000}}",
+        "HasFlag |contains=ccVault,jojaVault": true
+      },
+      "Update": "OnLocationChange,OnTimeChange"
+    }
+    /*/closednight//*/,
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_CapeBusStop",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 29,
+            "Y": 24
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Message BusStopclosed.3"
+          }
+        }
+      ],
+      "When": {
+        "Time": "{{Range: 1700, 2600}}",
+        "HasFlag |contains=ccVault,jojaVault": true
+      },
+      "Update": "OnLocationChange,OnTimeChange"
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_CapeBusStop",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 29,
+            "Y": 24
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Message BusStopclosed.2"
+          }
+        }
+      ],
+      "When": {
+        "HasFlag |contains=ccVault,jojaVault": false
+      },
+      "Update": "OnLocationChange"
+    },
+
+/*//TimerBusStop///*/
+    /*/open///*/,
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_CapeBusStopBuildable",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 29,
+            "Y": 24
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "MinecartTransport CapeBusStop"
+          }
+        }
+      ],
+      "When": {
+        "Time": "{{Range: 1000, 1700}}",
+        "HasFlag |contains=ccVault,jojaVault": true
+      },
+      "Update": "OnLocationChange,OnTimeChange"
+    }
+    /*/closedmorning///*/,
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_CapeBusStopBuildable",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 29,
+            "Y": 24
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Message BusStopclosed.1"
+          }
+        }
+      ],
+      "When": {
+        "Time": "{{Range: 0600, 1000}}",
+        "HasFlag |contains=ccVault,jojaVault": true
+      },
+      "Update": "OnLocationChange,OnTimeChange"
+    }
+    /*/closednight//*/,
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_CapeBusStopBuildable",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 29,
+            "Y": 24
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Message BusStopclosed.3"
+          }
+        }
+      ],
+      "When": {
+        "Time": "{{Range: 1700, 2600}}",
+        "HasFlag |contains=ccVault,jojaVault": true
+      },
+      "Update": "OnLocationChange,OnTimeChange"
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_CapeBusStopBuildable",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 29,
+            "Y": 24
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Message BusStopclosed.2"
+          }
+        }
+      ],
+      "When": {
+        "HasFlag |contains=ccVault,jojaVault": false
+      },
+      "Update": "OnLocationChange"
+    },
+ /*CapeStardewNPCWarpOut//*/,
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_CapeStardew",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "MapProperties",
+            "NPCWarp"
+          ],
+          "Value": "35 14 Custom_AnnettaHouse 25 24 50 0 Custom_AnnettaForest 8 37",
+          "Delimiter": " "
+        }
+      ]
+    },
+/*/newAnnettabusNPCWarpOut//*/,
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_CapeBusStop",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "MapProperties",
+            "NPCWarp"
+          ],
+          "Value": "29 25 BusStop 19 11 51 29 Custom_AnnettaForest 2 28",
+          "Delimiter": " "
+        }
+      ],
+      "When": {
+        "HasFlag |contains=ccVault,jojaVault": true
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_CapeBusStop",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "MapProperties",
+            "NPCWarp"
+          ],
+          "Value": "51 29 Custom_AnnettaForest 2 28",
+          "Delimiter": " "
+        }
+      ],
+      "When": {
+        "HasFlag |contains=ccVault,jojaVault": false
       }
     }
   ]
