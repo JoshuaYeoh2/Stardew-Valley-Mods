@@ -1,7 +1,7 @@
 {
     "Changes": [
         {
-            "LogName": "Add ore",
+            "LogName": "Add AlexNode",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -11,35 +11,25 @@
                     "Name": "Alexandrite Node",
                     "Description": "This stone shines like Topaz.",
                     "DisplayName": "Alexandrite Node",
-                    "Health": 10,
+                    "Health": 15,
                     "Sound": "hammer",
                     "BreakingSound": "stoneCrack",
                     "ItemDropped": "(O)Alexandrite",
                     "Tool": "Pickaxe",
-                    "MinToolLevel": 1,
+                    "MinToolLevel": 2,
                     "MinDrops": 1,
-                    "MaxDrops": 2,
+                    "MaxDrops": 4,
                     "Debris": "stone purple",
-                    "Exp": 16,
+                    "Exp": 20,
                     "MineSpawns": [
                         {
-                            "Floors": "31/79",
-                            "SpawnFrequency": 0.01,
+                            "Floors": "81/95",
+                            "SpawnFrequency": 0.02,
                             "Type": "Normal"
                         },
                         {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Normal"
-                        },
-                        {
-                            "Floors": "31/79",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Qi"
-                        },
-                        {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.05,
+                            "Floors": "81/95",
+                            "SpawnFrequency": 0.04,
                             "Type": "Qi"
                         },
                     ]
@@ -47,7 +37,7 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "Add AlexCrys",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
@@ -56,7 +46,7 @@
                     "Price": 250,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Gem",
+                    "Type": "Minerals",
                     "Category": -2,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
@@ -75,7 +65,7 @@
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add AmmoNode",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -85,35 +75,25 @@
                     "Name": "Ammolite Node",
                     "Description": "This stone is rich in gems.",
                     "DisplayName": "Ammolite Node",
-                    "Health": 10,
+                    "Health": 20,
                     "Sound": "hammer",
                     "BreakingSound": "stoneCrack",
                     "ItemDropped": "(O)Ammolite",
                     "Tool": "Pickaxe",
-                    "MinToolLevel": 1,
+                    "MinToolLevel": 3,
                     "MinDrops": 1,
-                    "MaxDrops": 2,
+                    "MaxDrops": 5,
                     "Debris": "stone red",
-                    "Exp": 16,
+                    "Exp": 25,
                     "MineSpawns": [
                         {
-                            "Floors": "60/79",
+                            "Floors": "121/-999",
                             "SpawnFrequency": 0.02,
                             "Type": "Normal"
                         },
                         {
-                            "Floors": "81/119",
+                            "Floors": "121/-999",
                             "SpawnFrequency": 0.04,
-                            "Type": "Normal"
-                        },
-                        {
-                            "Floors": "60/79",
-                            "SpawnFrequency": 0.04,
-                            "Type": "Qi"
-                        },
-                        {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.06,
                             "Type": "Qi"
                         }
                     ]
@@ -121,16 +101,16 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "Add AmmoCrys",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
                 "Ammolite": {
                     "Name": "Ammolite",
-                    "Price": 250,
+                    "Price": 150,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Gem",
+                    "Type": "Minerals",
                     "Category": -2,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
@@ -147,7 +127,7 @@
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add ApaNode",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -157,35 +137,25 @@
                     "Name": "Apatite Node",
                     "Description": "This stone is rich in gems.",
                     "DisplayName": "Apatite Node",
-                    "Health": 10,
+                    "Health":20,
                     "Sound": "hammer",
                     "BreakingSound": "stoneCrack",
                     "ItemDropped": "(O)Apatite",
                     "Tool": "Pickaxe",
-                    "MinToolLevel": 1,
+                    "MinToolLevel": 2,
                     "MinDrops": 1,
-                    "MaxDrops": 2,
+                    "MaxDrops": 5,
                     "Debris": "stone brown",
-                    "Exp": 16,
+                    "Exp": 25,
                     "MineSpawns": [
                         {
-                            "Floors": "31/79",
+                            "Floors": "11/25",
                             "SpawnFrequency": 0.02,
                             "Type": "Normal"
                         },
                         {
-                            "Floors": "81/119",
+                            "Floors": "11/25",
                             "SpawnFrequency": 0.04,
-                            "Type": "Normal"
-                        },
-                        {
-                            "Floors": "31/79",
-                            "SpawnFrequency": 0.04,
-                            "Type": "Qi"
-                        },
-                        {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.06,
                             "Type": "Qi"
                         },
                     ]
@@ -193,7 +163,7 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "Add ApaCrys",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
@@ -202,7 +172,7 @@
                     "Price": 150,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Mineral",
+                    "Type": "Minerals",
                     "Category": -12,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
@@ -218,7 +188,7 @@
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add AzurNode",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -228,7 +198,7 @@
                     "Name": "Azurite Node",
                     "Description": "This stone shines like Jade.",
                     "DisplayName": "Azurite Node",
-                    "Health": 10,
+                    "Health": 20,
                     "Sound": "hammer",
                     "BreakingSound": "stoneCrack",
                     "ItemDropped": "(O)Azurite",
@@ -240,23 +210,13 @@
                     "Exp": 40,
                     "MineSpawns": [
                         {
-                            "Floors": "41/79",
-                            "SpawnFrequency": 0.01,
+                            "Floors": "31/39",
+                            "SpawnFrequency": 0.02,
                             "Type": "Normal"
                         },
                         {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Normal"
-                        },
-                        {
-                            "Floors": "41/79",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Qi"
-                        },
-                        {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.05,
+                            "Floors": "31/39",
+                            "SpawnFrequency": 0.04,
                             "Type": "Qi"
                         },
                     ]
@@ -264,16 +224,16 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "Add AzuCrys",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
                 "Azurite": {
                     "Name": "Azurite",
-                    "Price": 280,
+                    "Price": 300,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Mineral",
+                    "Type": "Minerals",
                     "Category": -12,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
@@ -290,7 +250,7 @@
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add BloodNode",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -300,35 +260,25 @@
                     "Name": "Bloodstone Node",
                     "Description": "This stone contains Bloodstone.",
                     "DisplayName": "Bloodstone Node",
-                    "Health": 10,
+                    "Health": 15,
                     "Sound": "hammer",
                     "BreakingSound": "stoneCrack",
                     "ItemDropped": "(O)Bloodstone",
                     "Tool": "Pickaxe",
-                    "MinToolLevel": 1,
+                    "MinToolLevel": 2,
                     "MinDrops": 1,
                     "MaxDrops": 2,
                     "Debris": "stone black",
                     "Exp": 40,
                     "MineSpawns": [
                         {
-                            "Floors": "41/79",
-                            "SpawnFrequency": 0.01,
+                            "Floors": "31/39",
+                            "SpawnFrequency": 0.02,
                             "Type": "Normal"
                         },
                         {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Normal"
-                        },
-                        {
-                            "Floors": "41/79",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Qi"
-                        },
-                        {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.05,
+                            "Floors": "31/39",
+                            "SpawnFrequency": 0.04,
                             "Type": "Qi"
                         },
                     ]
@@ -336,16 +286,16 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "Add BloodCrys",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
                 "Bloodstone": {
                     "Name": "Bloodstone",
-                    "Price": 120,
+                    "Price": 150,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Mineral",
+                    "Type": "Minerals",
                     "Category": -12,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
@@ -360,7 +310,7 @@
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add BlueZircNode",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -370,35 +320,25 @@
                     "Name": "Blue Zircon Node",
                     "Description": "This stone shines like Topaz.",
                     "DisplayName": "Blue Zircon Node",
-                    "Health": 10,
+                    "Health": 15,
                     "Sound": "hammer",
                     "BreakingSound": "stoneCrack",
                     "ItemDropped": "(O)BlueZircon",
                     "Tool": "Pickaxe",
                     "MinToolLevel": 1,
                     "MinDrops": 1,
-                    "MaxDrops": 2,
+                    "MaxDrops": 4,
                     "Debris": "stone brown",
-                    "Exp": 16,
+                    "Exp": 20,
                     "MineSpawns": [
                         {
-                            "Floors": "31/79",
+                            "Floors": "21/29",
                             "SpawnFrequency": 0.01,
                             "Type": "Normal"
                         },
                         {
-                            "Floors": "81/119",
+                            "Floors": "21/29",
                             "SpawnFrequency": 0.03,
-                            "Type": "Normal"
-                        },
-                        {
-                            "Floors": "31/79",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Qi"
-                        },
-                        {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.05,
                             "Type": "Qi"
                         },
                     ]
@@ -406,21 +346,21 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "Add BluZircCrys",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
                 "BlueZircon": {
                     "Name": "Blue Zircon",
-                    "Price": 120,
+                    "Price": 100,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Gem",
+                    "Type": "Minerals",
                     "Category": -2,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
                     "DisplayName": "Blue Zircon",
-                    "Description": "Colorless specimens that show gem quality are a popular substitute for diamond and are also known as 'Matara Diamonds.'",
+                    "Description": "Colorless specimens that show gem quality are a popular substitute for diamond and are also known as 'Matara Diamonds.' Blue variant.",
                     "SpriteIndex": 10,
                     "Texture": "Mods\\[CP] More Custom Gems Conversion\\assets",
                     "ContextTags": [
@@ -431,7 +371,7 @@
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add BroZircNode",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -441,35 +381,25 @@
                     "Name": "Brown Zircon Node",
                     "Description": "This stone shines like Topaz.",
                     "DisplayName": "Brown Zircon Node",
-                    "Health": 10,
+                    "Health": 15,
                     "Sound": "hammer",
                     "BreakingSound": "stoneCrack",
                     "ItemDropped": "(O)BrownZircon",
                     "Tool": "Pickaxe",
                     "MinToolLevel": 1,
                     "MinDrops": 1,
-                    "MaxDrops": 2,
+                    "MaxDrops": 4,
                     "Debris": "stone brown",
-                    "Exp": 16,
+                    "Exp": 20,
                     "MineSpawns": [
                         {
-                            "Floors": "31/79",
+                            "Floors": "21/29",
                             "SpawnFrequency": 0.01,
                             "Type": "Normal"
                         },
                         {
-                            "Floors": "81/119",
+                            "Floors": "21/29",
                             "SpawnFrequency": 0.03,
-                            "Type": "Normal"
-                        },
-                        {
-                            "Floors": "31/79",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Qi"
-                        },
-                        {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.05,
                             "Type": "Qi"
                         },
                     ]
@@ -477,21 +407,21 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "Add BroZircCrys",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
                 "BrownZircon": {
                     "Name": "Brown Zircon",
-                    "Price": 120,
+                    "Price": 100,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Gem",
+                    "Type": "Minerals",
                     "Category": -2,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
                     "DisplayName": "Brown Zircon",
-                    "Description": "Colorless specimens that show gem quality are a popular substitute for diamonds and are also known as 'Matara Diamonds.'",
+                    "Description": "Colorless specimens that show gem quality are a popular substitute for diamonds and are also known as 'Matara Diamonds.' Brown variant.",
                     "SpriteIndex": 12,
                     "Texture": "Mods\\[CP] More Custom Gems Conversion\\assets",
                     "ContextTags": [
@@ -502,7 +432,7 @@
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add ChryNode",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -512,35 +442,25 @@
                     "Name": "Chryzokola Node",
                     "Description": "This stone contains Chryzokola.",
                     "DisplayName": "Chryzokola Node",
-                    "Health": 10,
+                    "Health": 30,
                     "Sound": "hammer",
                     "BreakingSound": "stoneCrack",
                     "ItemDropped": "(O)Chryzokola",
                     "Tool": "Pickaxe",
-                    "MinToolLevel": 1,
+                    "MinToolLevel": 3,
                     "MinDrops": 1,
-                    "MaxDrops": 2,
+                    "MaxDrops": 4,
                     "Debris": "stone cyan",
-                    "Exp": 40,
+                    "Exp": 50,
                     "MineSpawns": [
                         {
-                            "Floors": "41/79",
+                            "Floors": "71/79",
                             "SpawnFrequency": 0.01,
                             "Type": "Normal"
                         },
                         {
-                            "Floors": "81/119",
+                            "Floors": "71/79",
                             "SpawnFrequency": 0.03,
-                            "Type": "Normal"
-                        },
-                        {
-                            "Floors": "41/79",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Qi"
-                        },
-                        {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.05,
                             "Type": "Qi"
                         },
                     ]
@@ -548,16 +468,16 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "Add ChryCrys",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
                 "Chryzokola": {
                     "Name": "Chryzokola",
-                    "Price": 120,
+                    "Price": 200,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Mineral",
+                    "Type": "Minerals",
                     "Category": -12,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
@@ -572,7 +492,7 @@
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add ClinNode",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -582,34 +502,25 @@
                     "Name": "Clinohumite Node",
                     "Description": "This stone shines like Topaz.",
                     "DisplayName": "Clinohumite Node",
+                    "Health": 20,
                     "Sound": "hammer",
                     "BreakingSound": "stoneCrack",
                     "ItemDropped": "(O)Clinohumite",
                     "Tool": "Pickaxe",
-                    "MinToolLevel": 1,
+                    "MinToolLevel": 2,
                     "MinDrops": 1,
-                    "MaxDrops": 2,
+                    "MaxDrops": 4,
                     "Debris": "stone purple",
-                    "Exp": 16,
+                    "Exp": 25,
                     "MineSpawns": [
                         {
-                            "Floors": "31/39",
-                            "SpawnFrequency": 0.01,
+                            "Floors": "111/119",
+                            "SpawnFrequency": 0.02,
                             "Type": "Normal"
                         },
                         {
-                            "Floors": "41/79",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Normal"
-                        },
-                        {
-                            "Floors": "31/39",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Qi"
-                        },
-                        {
-                            "Floors": "41/79",
-                            "SpawnFrequency": 0.05,
+                            "Floors": "111/119",
+                            "SpawnFrequency": 0.04,
                             "Type": "Qi"
                         },
                     ]
@@ -617,16 +528,16 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "Add ClinCrys",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
                 "Clinohumite": {
                     "Name": "Clinohumite",
-                    "Price": 120,
+                    "Price": 150,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Gem",
+                    "Type": "Minerals",
                     "Category": -2,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
@@ -642,7 +553,7 @@
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add BluCorNode",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -664,13 +575,13 @@
                     "Exp": 12,
                     "MineSpawns": [
                         {
-                            "Floors": "1/29",
-                            "SpawnFrequency": 0.05,
+                            "Floors": "1/5",
+                            "SpawnFrequency": 0.03,
                             "Type": "Normal"
                         },
                         {
-                            "Floors": "1/29",
-                            "SpawnFrequency": 0.1,
+                            "Floors": "1/5",
+                            "SpawnFrequency": 0.05,
                             "Type": "Qi"
                         },
                     ]
@@ -678,7 +589,7 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "Add BluCorCrys",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
@@ -687,12 +598,12 @@
                     "Price": 150,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Gem",
+                    "Type": "Minerals",
                     "Category": -2,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
                     "DisplayName": "Blue Coral",
-                    "Description": "Jewel made by coral.",
+                    "Description": "Jewel made by coral. Blue variant.",
                     "SpriteIndex": 18,
                     "Texture": "Mods\\[CP] More Custom Gems Conversion\\assets",
                     "ContextTags": [
@@ -705,7 +616,7 @@
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add BroCorNode",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -727,13 +638,13 @@
                     "Exp": 12,
                     "MineSpawns": [
                         {
-                            "Floors": "1/29",
-                            "SpawnFrequency": 0.05,
+                            "Floors": "5/10",
+                            "SpawnFrequency": 0.03,
                             "Type": "Normal"
                         },
                         {
-                            "Floors": "1/29",
-                            "SpawnFrequency": 0.1,
+                            "Floors": "5/10",
+                            "SpawnFrequency": 0.05,
                             "Type": "Qi"
                         },
                     ]
@@ -741,7 +652,7 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "Add BroCorCrys",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
@@ -750,12 +661,12 @@
                     "Price": 150,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Gem",
+                    "Type": "Minerals",
                     "Category": -2,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
                     "DisplayName": "Brown Coral",
-                    "Description": "Jewel made by coral.",
+                    "Description": "Jewel made by coral. Brown variant.",
                     "SpriteIndex": 20,
                     "Texture": "Mods\\[CP] More Custom Gems Conversion\\assets",
                     "ContextTags": [
@@ -768,7 +679,7 @@
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add GreCorNode",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -790,13 +701,13 @@
                     "Exp": 12,
                     "MineSpawns": [
                         {
-                            "Floors": "1/29",
-                            "SpawnFrequency": 0.05,
+                            "Floors": "10/15",
+                            "SpawnFrequency": 0.03,
                             "Type": "Normal"
                         },
                         {
-                            "Floors": "1/29",
-                            "SpawnFrequency": 0.1,
+                            "Floors": "10/15",
+                            "SpawnFrequency": 0.05,
                             "Type": "Qi"
                         },
                     ]
@@ -804,7 +715,7 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "GreCorCrys",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
@@ -813,12 +724,12 @@
                     "Price": 150,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Gem",
+                    "Type": "Minerals",
                     "Category": -2,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
                     "DisplayName": "Green Coral",
-                    "Description": "Jewel made by coral.",
+                    "Description": "Jewel made by coral. Green variant.",
                     "SpriteIndex": 22,
                     "Texture": "Mods\\[CP] More Custom Gems Conversion\\assets",
                     "ContextTags": [
@@ -831,7 +742,7 @@
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add PurCorNode",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -853,13 +764,13 @@
                     "Exp": 12,
                     "MineSpawns": [
                         {
-                            "Floors": "1/29",
-                            "SpawnFrequency": 0.05,
+                            "Floors": "15/20",
+                            "SpawnFrequency": 0.03,
                             "Type": "Normal"
                         },
                         {
-                            "Floors": "1/29",
-                            "SpawnFrequency": 0.1,
+                            "Floors": "15/20",
+                            "SpawnFrequency": 0.05,
                             "Type": "Qi"
                         },
                     ]
@@ -867,7 +778,7 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "Add PurCorCrys",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
@@ -876,12 +787,12 @@
                     "Price": 150,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Gem",
+                    "Type": "Minerals",
                     "Category": -2,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
                     "DisplayName": "Purple Coral",
-                    "Description": "Jewel made by coral.",
+                    "Description": "Jewel made by coral. Purple variant.",
                     "SpriteIndex": 24,
                     "Texture": "Mods\\[CP] More Custom Gems Conversion\\assets",
                     "ContextTags": [
@@ -894,7 +805,7 @@
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add LifeNode",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -904,7 +815,7 @@
                     "Name": "Crystal of Life Node",
                     "Description": "This stone shines.",
                     "DisplayName": "Crystal of Life Node",
-                    "Health": 16,
+                    "Health": 40,
                     "Sound": "hammer",
                     "Light": {
                         "Size": 1.8,
@@ -916,8 +827,13 @@
                     "MinToolLevel": 2,
                     "MinDrops": 1,
                     "MaxDrops": 1,
+                    "ImmuneToBombs": true,
                     "Debris": "stone white",
                     "Exp": 250,
+                    "OnDestroy": {
+                        "TriggerAction": "AddBuff 21 500000",
+                        "Conditions": "TRUE",
+                        },
                     "MineSpawns": [
                         {
                             "Floors": "77377",
@@ -934,7 +850,7 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "Add LifeCrys",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
@@ -943,7 +859,7 @@
                     "Price": 25000,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Gem",
+                    "Type": "Minerals",
                     "Category": -2,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
@@ -961,7 +877,7 @@
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add DedNode",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -971,7 +887,7 @@
                     "Name": "Crystal of Death Node",
                     "Description": "This stone shines.",
                     "DisplayName": "Crystal of Death Node",
-                    "Health": 16,
+                    "Health": 40,
                     "Sound": "hammer",
                     "Light": {
                         "Size": 1.8,
@@ -983,8 +899,13 @@
                     "MinToolLevel": 2,
                     "MinDrops": 1,
                     "MaxDrops": 1,
+                    "ImmuneToBombs": true,
                     "Debris": "stone black",
                     "Exp": 250,
+                    "OnDestroy": {
+                        "TriggerAction": "AddBuff 12 -2",
+                        "Conditions": "TRUE",
+                        },
                     "MineSpawns": [
                         {
                             "Floors": "77377",
@@ -1001,7 +922,7 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "Add DedCrys",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
@@ -1010,7 +931,7 @@
                     "Price": 25000,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Gem",
+                    "Type": "Minerals",
                     "Category": -2,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
@@ -1028,7 +949,7 @@
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add LiDeNode",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -1038,7 +959,7 @@
                     "Name": "Crystal of Life and Death Node",
                     "Description": "This stone shines.",
                     "DisplayName": "Crystal of Life and Death Node",
-                    "Health": 16,
+                    "Health": 40,
                     "Sound": "hammer",
                     "Light": {
                         "Size": 1.8,
@@ -1050,8 +971,13 @@
                     "MinToolLevel": 2,
                     "MinDrops": 1,
                     "MaxDrops": 1,
+                    "ImmuneToBombs": true,
                     "Debris": "stone purple",
                     "Exp": 250,
+                    "OnDestroy": {
+                        "TriggerAction": "AddBuff 21 500000",
+                        "Conditions": "TRUE",
+                        },
                     "MineSpawns": [
                         {
                             "Floors": "77377",
@@ -1068,7 +994,7 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "Add LiDeCrys",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
@@ -1077,7 +1003,7 @@
                     "Price": 75000,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Gem",
+                    "Type": "Minerals",
                     "Category": -2,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
@@ -1095,7 +1021,7 @@
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add CymNode",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -1105,35 +1031,25 @@
                     "Name": "Cymophane Node",
                     "Description": "This stone shines like Topaz.",
                     "DisplayName": "Cymophane Node",
-                    "Health": 10,
+                    "Health": 15,
                     "Sound": "hammer",
                     "BreakingSound": "stoneCrack",
                     "ItemDropped": "(O)Cymophane",
                     "Tool": "Pickaxe",
-                    "MinToolLevel": 1,
+                    "MinToolLevel": 2,
                     "MinDrops": 1,
-                    "MaxDrops": 2,
+                    "MaxDrops": 4,
                     "Debris": "stone purple",
-                    "Exp": 16,
+                    "Exp": 25,
                     "MineSpawns": [
                         {
-                            "Floors": "31/79",
-                            "SpawnFrequency": 0.01,
+                            "Floors": "91/99",
+                            "SpawnFrequency": 0.02,
                             "Type": "Normal"
                         },
                         {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Normal"
-                        },
-                        {
-                            "Floors": "31/79",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Qi"
-                        },
-                        {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.05,
+                            "Floors": "91/99",
+                            "SpawnFrequency": 0.04,
                             "Type": "Qi"
                         },
                     ]
@@ -1141,16 +1057,16 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "Add CymCrys",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
                 "Cymophane": {
                     "Name": "Cymophane",
-                    "Price": 250,
+                    "Price": 200,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Gem",
+                    "Type": "Minerals",
                     "Category": -2,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
@@ -1167,7 +1083,7 @@
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add DanNode",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -1177,35 +1093,25 @@
                     "Name": "Danburite Node",
                     "Description": "This stone shines like Topaz.",
                     "DisplayName": "Danburite Node",
-                    "Health": 10,
+                    "Health": 30,
                     "Sound": "hammer",
                     "BreakingSound": "stoneCrack",
                     "ItemDropped": "(O)Danburite",
                     "Tool": "Pickaxe",
-                    "MinToolLevel": 1,
+                    "MinToolLevel": 3,
                     "MinDrops": 1,
-                    "MaxDrops": 2,
+                    "MaxDrops": 4,
                     "Debris": "stone",
-                    "Exp": 16,
+                    "Exp": 25,
                     "MineSpawns": [
                         {
-                            "Floors": "31/79",
-                            "SpawnFrequency": 0.01,
+                            "Floors": "121/-999",
+                            "SpawnFrequency": 0.02,
                             "Type": "Normal"
                         },
                         {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Normal"
-                        },
-                        {
-                            "Floors": "31/79",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Qi"
-                        },
-                        {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.05,
+                            "Floors": "121/-999",
+                            "SpawnFrequency": 0.04,
                             "Type": "Qi"
                         },
                     ]
@@ -1213,16 +1119,16 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "Add DanCrys",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
                 "Danburite": {
                     "Name": "Danburite",
-                    "Price": 120,
+                    "Price": 150,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Mineral",
+                    "Type": "Minerals",
                     "Category": -12,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
@@ -1238,7 +1144,7 @@
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add FireNode",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -1248,35 +1154,25 @@
                     "Name": "Fire Agate Node",
                     "Description": "This stone shines like Jade.",
                     "DisplayName": "Fire Agate Node",
-                    "Health": 10,
+                    "Health": 30,
                     "Sound": "hammer",
                     "BreakingSound": "stoneCrack",
                     "ItemDropped": "(O)FireAgate",
                     "Tool": "Pickaxe",
-                    "MinToolLevel": 1,
+                    "MinToolLevel": 3,
                     "MinDrops": 1,
-                    "MaxDrops": 2,
+                    "MaxDrops": 3,
                     "Debris": "stone orange",
-                    "Exp": 40,
+                    "Exp": 50,
                     "MineSpawns": [
                         {
-                            "Floors": "41/79",
-                            "SpawnFrequency": 0.01,
+                            "Floors": "121/-999",
+                            "SpawnFrequency": 0.02,
                             "Type": "Normal"
                         },
                         {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Normal"
-                        },
-                        {
-                            "Floors": "41/79",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Qi"
-                        },
-                        {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.05,
+                            "Floors": "121/-999",
+                            "SpawnFrequency": 0.04,
                             "Type": "Qi"
                         },
                     ]
@@ -1284,16 +1180,16 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "Add FireCrys",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
                 "FireAgate": {
                     "Name": "Fire Agate",
-                    "Price": 150,
+                    "Price": 300,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Gem",
+                    "Type": "Minerals",
                     "Category": -2,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
@@ -1310,7 +1206,7 @@
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add FluNode",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -1327,28 +1223,18 @@
                     "Tool": "Pickaxe",
                     "MinToolLevel": 1,
                     "MinDrops": 1,
-                    "MaxDrops": 2,
+                    "MaxDrops": 4,
                     "Debris": "stone purple",
                     "Exp": 16,
                     "MineSpawns": [
                         {
-                            "Floors": "31/79",
-                            "SpawnFrequency": 0.01,
+                            "Floors": "41/74",
+                            "SpawnFrequency": 0.02,
                             "Type": "Normal"
                         },
                         {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Normal"
-                        },
-                        {
-                            "Floors": "31/79",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Qi"
-                        },
-                        {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.05,
+                            "Floors": "4/74",
+                            "SpawnFrequency": 0.04,
                             "Type": "Qi"
                         },
                     ]
@@ -1356,16 +1242,16 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "Add FluCrys",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
                 "Fluorite": {
                     "Name": "Fluorite",
-                    "Price": 170,
+                    "Price": 200,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Gem",
+                    "Type": "Minerals",
                     "Category": -2,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
@@ -1383,7 +1269,7 @@
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add LabNode",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -1393,35 +1279,25 @@
                     "Name": "Labradorite Node",
                     "Description": "This stone shines like Jade.",
                     "DisplayName": "Labradorite Node",
-                    "Health": 10,
+                    "Health": 15,
                     "Sound": "hammer",
                     "BreakingSound": "stoneCrack",
                     "ItemDropped": "(O)Labradorite",
                     "Tool": "Pickaxe",
                     "MinToolLevel": 1,
                     "MinDrops": 1,
-                    "MaxDrops": 2,
+                    "MaxDrops": 5,
                     "Debris": "stone blue",
-                    "Exp": 40,
+                    "Exp": 20,
                     "MineSpawns": [
                         {
-                            "Floors": "41/79",
-                            "SpawnFrequency": 0.01,
+                            "Floors": "56/69",
+                            "SpawnFrequency": 0.02,
                             "Type": "Normal"
                         },
                         {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Normal"
-                        },
-                        {
-                            "Floors": "41/79",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Qi"
-                        },
-                        {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.05,
+                            "Floors": "56/69",
+                            "SpawnFrequency": 0.04,
                             "Type": "Qi"
                         },
                     ]
@@ -1429,16 +1305,16 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "Add LabCrys",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
                 "Labradorite": {
                     "Name": "Labradorite",
-                    "Price": 160,
+                    "Price": 200,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Mineral",
+                    "Type": "Minerals",
                     "Category": -12,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
@@ -1453,7 +1329,7 @@
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add Lava1Node",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -1463,7 +1339,7 @@
                     "Name": "Lava Crystal Node",
                     "Description": "A magic ingeous rock formed from rapidly cooling lava.",
                     "DisplayName": "Lava Crystal Node",
-                    "Health": 4,
+                    "Health": 30,
                     "Sound": "hammer",
                     "Light": {
                         "Size": 1.8,
@@ -1472,20 +1348,20 @@
                     "BreakingSound": "stoneCrack",
                     "ItemDropped": "(O)LavaCrystal",
                     "Tool": "Pickaxe",
-                    "MinToolLevel": 1,
+                    "MinToolLevel": 2,
                     "MinDrops": 1,
-                    "MaxDrops": 1,
+                    "MaxDrops": 4,
                     "Debris": "stone red",
-                    "Exp": 20,
+                    "Exp": 40,
                     "MineSpawns": [
                         {
                             "Floors": "80/119",
-                            "SpawnFrequency": 0.05,
+                            "SpawnFrequency": 0.03,
                             "Type": "Normal"
                         },
                         {
                             "Floors": "80/119",
-                            "SpawnFrequency": 0.08,
+                            "SpawnFrequency": 0.05,
                             "Type": "Qi"
                         },
                     ]
@@ -1493,16 +1369,16 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "Add LavaCrys",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
                 "LavaCrystal": {
                     "Name": "Lava Crystal",
-                    "Price": 400,
+                    "Price": 300,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Gem",
+                    "Type": "Minerals",
                     "Category": -2,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
@@ -1518,7 +1394,7 @@
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add Lava2Node",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -1528,7 +1404,7 @@
                     "Name": "Lava Crystal Node",
                     "Description": "A magic igneous rock formed from rapidly cooling lava.",
                     "DisplayName": "Lava Crystal Node",
-                    "Health": 4,
+                    "Health": 30,
                     "Sound": "hammer",
                     "Light": {
                         "Size": 1.8,
@@ -1537,20 +1413,20 @@
                     "BreakingSound": "stoneCrack",
                     "ItemDropped": "(O)LavaCrystal",
                     "Tool": "Pickaxe",
-                    "MinToolLevel": 1,
+                    "MinToolLevel": 2,
                     "MinDrops": 1,
                     "MaxDrops": 1,
                     "Debris": "stone red",
-                    "Exp": 20,
+                    "Exp": 40,
                     "MineSpawns": [
                         {
                             "Floors": "80/119",
-                            "SpawnFrequency": 0.05,
+                            "SpawnFrequency": 0.03,
                             "Type": "Normal"
                         },
                         {
                             "Floors": "80/119",
-                            "SpawnFrequency": 0.08,
+                            "SpawnFrequency": 0.05,
                             "Type": "Qi"
                         },
                     ]
@@ -1558,7 +1434,7 @@
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add MossNode",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -1604,7 +1480,7 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "Add MossCrys",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
@@ -1613,7 +1489,7 @@
                     "Price": 150,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Gem",
+                    "Type": "Minerals",
                     "Category": -2,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
@@ -1630,7 +1506,7 @@
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add PhosNode",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -1640,35 +1516,25 @@
                     "Name": "Phosphophyllite Node",
                     "Description": "This stone shines like Jade.",
                     "DisplayName": "Phosphophyllite Node",
-                    "Health": 10,
+                    "Health": 20,
                     "Sound": "hammer",
                     "BreakingSound": "stoneCrack",
                     "ItemDropped": "(O)Phosphophyllite",
                     "Tool": "Pickaxe",
-                    "MinToolLevel": 1,
+                    "MinToolLevel": 2,
                     "MinDrops": 1,
-                    "MaxDrops": 2,
+                    "MaxDrops": 3,
                     "Debris": "stone",
-                    "Exp": 40,
+                    "Exp": 50,
                     "MineSpawns": [
                         {
-                            "Floors": "41/79",
+                            "Floors": "71/79",
                             "SpawnFrequency": 0.01,
                             "Type": "Normal"
                         },
                         {
-                            "Floors": "81/119",
+                            "Floors": "71/79",
                             "SpawnFrequency": 0.03,
-                            "Type": "Normal"
-                        },
-                        {
-                            "Floors": "41/79",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Qi"
-                        },
-                        {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.05,
                             "Type": "Qi"
                         },
                     ]
@@ -1676,16 +1542,16 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "Add PhosCrys",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
                 "Phosphophyllite": {
                     "Name": "Phosphophyllite",
-                    "Price": 200,
+                    "Price": 250,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Mineral",
+                    "Type": "Minerals",
                     "Category": -12,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
@@ -1700,7 +1566,7 @@
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add AndNode",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -1715,30 +1581,20 @@
                     "BreakingSound": "stoneCrack",
                     "ItemDropped": "(O)Andesine",
                     "Tool": "Pickaxe",
-                    "MinToolLevel": 0,
+                    "MinToolLevel": 1,
                     "MinDrops": 1,
                     "MaxDrops": 2,
                     "Debris": "stone purple",
-                    "Exp": 12,
+                    "Exp": 15,
                     "MineSpawns": [
                         {
-                            "Floors": "1/29",
-                            "SpawnFrequency": 0.005,
-                            "Type": "Normal"
-                        },
-                        {
-                            "Floors": "41/79",
+                            "Floors": "81/89",
                             "SpawnFrequency": 0.01,
                             "Type": "Normal"
                         },
                         {
-                            "Floors": "1/29",
-                            "SpawnFrequency": 0.01,
-                            "Type": "Qi"
-                        },
-                        {
-                            "Floors": "41/79",
-                            "SpawnFrequency": 0.015,
+                            "Floors": "81/89",
+                            "SpawnFrequency": 0.02,
                             "Type": "Qi"
                         },
                     ]
@@ -1746,21 +1602,21 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "Add AndCrys",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
                 "Andesine": {
                     "Name": "Andesine",
-                    "Price": 120,
+                    "Price": 150,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Gem",
+                    "Type": "Minerals",
                     "Category": -2,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
                     "DisplayName": "Andesine",
-                    "Description": "A form of Quartz, characterized by its translucency.",
+                    "Description": "A form of Quartz, characterized by its translucency. Orange variant.",
                     "SpriteIndex": 51,
                     "Texture": "Mods\\[CP] More Custom Gems Conversion\\assets",
                     "ContextTags": [
@@ -1772,7 +1628,7 @@
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add AveNode",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -1787,30 +1643,20 @@
                     "BreakingSound": "stoneCrack",
                     "ItemDropped": "(O)Aventurine",
                     "Tool": "Pickaxe",
-                    "MinToolLevel": 0,
+                    "MinToolLevel": 1,
                     "MinDrops": 1,
                     "MaxDrops": 2,
                     "Debris": "stone purple",
-                    "Exp": 12,
+                    "Exp": 15,
                     "MineSpawns": [
                         {
-                            "Floors": "1/29",
-                            "SpawnFrequency": 0.005,
-                            "Type": "Normal"
-                        },
-                        {
-                            "Floors": "41/79",
+                            "Floors": "91/99",
                             "SpawnFrequency": 0.01,
                             "Type": "Normal"
                         },
                         {
-                            "Floors": "1/29",
-                            "SpawnFrequency": 0.01,
-                            "Type": "Qi"
-                        },
-                        {
-                            "Floors": "41/79",
-                            "SpawnFrequency": 0.015,
+                            "Floors": "91/99",
+                            "SpawnFrequency": 0.02,
                             "Type": "Qi"
                         },
                     ]
@@ -1818,21 +1664,21 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "Add AveCrys",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
                 "Aventurine": {
                     "Name": "Aventurine",
-                    "Price": 120,
+                    "Price": 150,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Gem",
+                    "Type": "Minerals",
                     "Category": -2,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
                     "DisplayName": "Aventurine",
-                    "Description": "A form of Quartz, characterized by its translucency.",
+                    "Description": "An opal-like organic gemstone known for its dragon-like texture. Green variant of Quartz.",
                     "SpriteIndex": 53,
                     "Texture": "Mods\\[CP] More Custom Gems Conversion\\assets",
                     "ContextTags": [
@@ -1844,7 +1690,7 @@
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add LavenderNode",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -1863,26 +1709,16 @@
                     "MinDrops": 1,
                     "MaxDrops": 2,
                     "Debris": "stone purple",
-                    "Exp": 12,
+                    "Exp": 15,
                     "MineSpawns": [
                         {
-                            "Floors": "31/79",
+                            "Floors": "101/109",
+                            "SpawnFrequency": 0.01,
+                            "Type": "Normal"
+                        },
+                        {
+                            "Floors": "101/109",
                             "SpawnFrequency": 0.02,
-                            "Type": "Normal"
-                        },
-                        {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.04,
-                            "Type": "Normal"
-                        },
-                        {
-                            "Floors": "31/79",
-                            "SpawnFrequency": 0.04,
-                            "Type": "Qi"
-                        },
-                        {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.06,
                             "Type": "Qi"
                         },
                     ]
@@ -1890,21 +1726,21 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "Add LavenderCrys",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
                 "LavenderQuartz": {
                     "Name": "Lavender Quartz",
-                    "Price": 100,
+                    "Price": 200,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Gem",
+                    "Type": "Minerals",
                     "Category": -2,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
                     "DisplayName": "Lavender Quartz",
-                    "Description": "A lavender crystal reminiscent of a rose.",
+                    "Description": "A lavender colored Quartz crytal reminiscent of a rose.",
                     "SpriteIndex": 55,
                     "Texture": "Mods\\[CP] More Custom Gems Conversion\\assets",
                     "ContextTags": [
@@ -1916,7 +1752,7 @@
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add RutNode",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -1935,26 +1771,16 @@
                     "MinDrops": 1,
                     "MaxDrops": 2,
                     "Debris": "stone purple",
-                    "Exp": 12,
+                    "Exp": 15,
                     "MineSpawns": [
                         {
-                            "Floors": "31/39",
+                            "Floors": "111/119",
+                            "SpawnFrequency": 0.01,
+                            "Type": "Normal"
+                        },
+                        {
+                            "Floors": "111/119",
                             "SpawnFrequency": 0.02,
-                            "Type": "Normal"
-                        },
-                        {
-                            "Floors": "41/119",
-                            "SpawnFrequency": 0.04,
-                            "Type": "Normal"
-                        },
-                        {
-                            "Floors": "31/39",
-                            "SpawnFrequency": 0.04,
-                            "Type": "Qi"
-                        },
-                        {
-                            "Floors": "41/119",
-                            "SpawnFrequency": 0.06,
                             "Type": "Qi"
                         },
                     ]
@@ -1962,21 +1788,21 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "Add RutCrys",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
                 "RutilatedQuartz": {
                     "Name": "Rutilated Quartz",
-                    "Price": 100,
+                    "Price": 200,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Gem",
+                    "Type": "Minerals",
                     "Category": -2,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
                     "DisplayName": "Rutilated Quartz",
-                    "Description": "A rutilated crystal reminiscent of a rose.",
+                    "Description": "A rutilated crystal reminiscent of a rose. Yellow variant of Quartz.",
                     "SpriteIndex": 57,
                     "Texture": "Mods\\[CP] More Custom Gems Conversion\\assets",
                     "ContextTags": [
@@ -1988,7 +1814,7 @@
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add RedZircNode",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -2005,28 +1831,18 @@
                     "Tool": "Pickaxe",
                     "MinToolLevel": 1,
                     "MinDrops": 1,
-                    "MaxDrops": 2,
+                    "MaxDrops": 4,
                     "Debris": "stone brown",
-                    "Exp": 16,
+                    "Exp": 20,
                     "MineSpawns": [
                         {
-                            "Floors": "31/79",
-                            "SpawnFrequency": 0.01,
+                            "Floors": "11/19",
+                            "SpawnFrequency": 0.02,
                             "Type": "Normal"
                         },
                         {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Normal"
-                        },
-                        {
-                            "Floors": "31/79",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Qi"
-                        },
-                        {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.05,
+                            "Floors": "11/19",
+                            "SpawnFrequency": 0.04,
                             "Type": "Qi"
                         },
                     ]
@@ -2034,32 +1850,32 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "Add RedZircCrys",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
                 "RedZircon": {
                     "Name": "Red Zircon",
-                    "Price": 120,
+                    "Price": 150,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Gem",
+                    "Type": "Minerals",
                     "Category": -2,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
                     "DisplayName": "Red Zircon",
-                    "Description": "Colorless specimens that show gem quality are a popular substitute for diamond and are also known as 'Matara Diamonds.'",
+                    "Description": "Colorless specimens that show gem quality are a popular substitute for diamond and are also known as 'Matara Diamonds.' Red variant.",
                     "SpriteIndex": 59,
                     "Texture": "Mods\\[CP] More Custom Gems Conversion\\assets",
                     "ContextTags": [
-                        "color_orange",
-                        "orange_gem",
+                        "color_red",
+                        "red_gem",
                     ]
                 }
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add PurSapNode",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -2074,30 +1890,20 @@
                     "BreakingSound": "stoneCrack",
                     "ItemDropped": "(O)PurpleSapphire",
                     "Tool": "Pickaxe",
-                    "MinToolLevel": 1,
+                    "MinToolLevel": 2,
                     "MinDrops": 1,
-                    "MaxDrops": 2,
+                    "MaxDrops": 4,
                     "Debris": "stone purple",
                     "Exp": 40,
                     "MineSpawns": [
                         {
-                            "Floors": "60/79",
-                            "SpawnFrequency": 0.01,
+                            "Floors": "121/-999",
+                            "SpawnFrequency": 0.02,
                             "Type": "Normal"
                         },
                         {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Normal"
-                        },
-                        {
-                            "Floors": "60/79",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Qi"
-                        },
-                        {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.05,
+                            "Floors": "121/-999",
+                            "SpawnFrequency": 0.04,
                             "Type": "Qi"
                         },
                     ]
@@ -2105,7 +1911,7 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "Add PurSapCrys",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
@@ -2114,7 +1920,7 @@
                     "Price": 250,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Gem",
+                    "Type": "Minerals",
                     "Category": -2,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
@@ -2131,7 +1937,7 @@
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add VioSapNode",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -2146,30 +1952,20 @@
                     "BreakingSound": "stoneCrack",
                     "ItemDropped": "(O)VioletSapphire",
                     "Tool": "Pickaxe",
-                    "MinToolLevel": 1,
+                    "MinToolLevel": 2,
                     "MinDrops": 1,
-                    "MaxDrops": 2,
+                    "MaxDrops": 4,
                     "Debris": "stone purple",
                     "Exp": 40,
                     "MineSpawns": [
                         {
-                            "Floors": "60/79",
-                            "SpawnFrequency": 0.01,
+                            "Floors": "121/-999",
+                            "SpawnFrequency": 0.02,
                             "Type": "Normal"
                         },
                         {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Normal"
-                        },
-                        {
-                            "Floors": "60/79",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Qi"
-                        },
-                        {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.05,
+                            "Floors": "121/-999",
+                            "SpawnFrequency": 0.04,
                             "Type": "Qi"
                         },
                     ]
@@ -2177,7 +1973,7 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "Add VioSapCrys",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
@@ -2186,7 +1982,7 @@
                     "Price": 250,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Gem",
+                    "Type": "Minerals",
                     "Category": -2,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
@@ -2203,7 +1999,7 @@
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add StrNode",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -2222,19 +2018,20 @@
                     "BreakingSound": "stoneCrack",
                     "ItemDropped": "(O)StarGarnet",
                     "Tool": "Pickaxe",
-                    "MinToolLevel": 2,
+                    "MinToolLevel": 3,
                     "MinDrops": 1,
                     "MaxDrops": 1,
+                    "ImmuneToBombs": true,
                     "Debris": "stone purple",
                     "Exp": 75,
                     "MineSpawns": [
                         {
-                            "Floors": "81/119",
+                            "Floors": "115/119",
                             "SpawnFrequency": 0.005,
                             "Type": "Normal"
                         },
                         {
-                            "Floors": "81/119",
+                            "Floors": "115/119",
                             "SpawnFrequency": 0.01,
                             "Type": "Qi"
                         },
@@ -2243,7 +2040,7 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "Add StarCrys",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
@@ -2252,7 +2049,7 @@
                     "Price": 500,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Gem",
+                    "Type": "Minerals",
                     "Category": -2,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
@@ -2269,7 +2066,7 @@
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add GoldTopNode",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -2279,35 +2076,25 @@
                     "Name": "Gold Topaz Node",
                     "Description": "This stone shines like Topaz.",
                     "DisplayName": "Gold Topaz Node",
-                    "Health": 10,
+                    "Health": 20,
                     "Sound": "hammer",
                     "BreakingSound": "stoneCrack",
                     "ItemDropped": "(O)GoldTopaz",
                     "Tool": "Pickaxe",
-                    "MinToolLevel": 1,
+                    "MinToolLevel": 2,
                     "MinDrops": 1,
-                    "MaxDrops": 2,
+                    "MaxDrops": 4,
                     "Debris": "stone purple",
-                    "Exp": 16,
+                    "Exp": 25,
                     "MineSpawns": [
                         {
-                            "Floors": "31/79",
-                            "SpawnFrequency": 0.01,
+                            "Floors": "81/109",
+                            "SpawnFrequency": 0.02,
                             "Type": "Normal"
                         },
                         {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Normal"
-                        },
-                        {
-                            "Floors": "31/79",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Qi"
-                        },
-                        {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.05,
+                            "Floors": "81/109",
+                            "SpawnFrequency": 0.04,
                             "Type": "Qi"
                         },
                     ]
@@ -2315,21 +2102,21 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "Add GoldTopCrys",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
                 "GoldTopaz": {
                     "Name": "Gold Topaz",
-                    "Price": 120,
+                    "Price": 150,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Gem",
+                    "Type": "Minerals",
                     "Category": -2,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
                     "DisplayName": "Gold Topaz",
-                    "Description": "Topaz of brilliant coloration, like fireworks. Much rarer than its regular counterpart.",
+                    "Description": "Topaz of brilliant coloration, like fireworks. Much rarer than its regular counterpart. Gold variant.",
                     "SpriteIndex": 65,
                     "Texture": "Mods\\[CP] More Custom Gems Conversion\\assets",
                     "ContextTags": [
@@ -2341,7 +2128,7 @@
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add SkyTopNode",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -2351,35 +2138,25 @@
                     "Name": "Sky Blue Topaz Node",
                     "Description": "This stone shines like Topaz.",
                     "DisplayName": "Sky Blue Topaz Node",
-                    "Health": 10,
+                    "Health": 20,
                     "Sound": "hammer",
                     "BreakingSound": "stoneCrack",
                     "ItemDropped": "(O)SkyBlueTopaz",
                     "Tool": "Pickaxe",
-                    "MinToolLevel": 1,
+                    "MinToolLevel": 2,
                     "MinDrops": 1,
-                    "MaxDrops": 2,
+                    "MaxDrops": 4,
                     "Debris": "stone purple",
-                    "Exp": 16,
+                    "Exp": 25,
                     "MineSpawns": [
                         {
-                            "Floors": "31/39",
-                            "SpawnFrequency": 0.01,
+                            "Floors": "41/59",
+                            "SpawnFrequency": 0.02,
                             "Type": "Normal"
                         },
                         {
-                            "Floors": "41/79",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Normal"
-                        },
-                        {
-                            "Floors": "31/39",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Qi"
-                        },
-                        {
-                            "Floors": "41/79",
-                            "SpawnFrequency": 0.05,
+                            "Floors": "41/59",
+                            "SpawnFrequency": 0.04,
                             "Type": "Qi"
                         },
                     ]
@@ -2387,16 +2164,16 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "Add SkyTopNode",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
                 "SkyBlueTopaz": {
                     "Name": "Sky Blue Topaz",
-                    "Price": 120,
+                    "Price": 150,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Gem",
+                    "Type": "Minerals",
                     "Category": -2,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
@@ -2413,7 +2190,7 @@
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add YelTopNode",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -2423,35 +2200,25 @@
                     "Name": "Yellow Topaz Node",
                     "Description": "This stone shines like Topaz.",
                     "DisplayName": "Yellow Topaz Node",
-                    "Health": 10,
+                    "Health": 20,
                     "Sound": "hammer",
                     "BreakingSound": "stoneCrack",
                     "ItemDropped": "(O)YellowTopaz",
                     "Tool": "Pickaxe",
-                    "MinToolLevel": 1,
+                    "MinToolLevel": 2,
                     "MinDrops": 1,
-                    "MaxDrops": 2,
+                    "MaxDrops": 4,
                     "Debris": "stone purple",
-                    "Exp": 16,
+                    "Exp": 25,
                     "MineSpawns": [
                         {
-                            "Floors": "31/79",
-                            "SpawnFrequency": 0.01,
+                            "Floors": "101/119",
+                            "SpawnFrequency": 0.02,
                             "Type": "Normal"
                         },
                         {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Normal"
-                        },
-                        {
-                            "Floors": "31/79",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Qi"
-                        },
-                        {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.05,
+                            "Floors": "101/119",
+                            "SpawnFrequency": 0.04,
                             "Type": "Qi"
                         },
                     ]
@@ -2459,16 +2226,16 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "Add YelTopCrys",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
                 "YellowTopaz": {
                     "Name": "Yellow Topaz",
-                    "Price": 120,
+                    "Price": 150,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Gem",
+                    "Type": "Minerals",
                     "Category": -2,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
@@ -2485,7 +2252,7 @@
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add YelZircNode",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -2502,28 +2269,18 @@
                     "Tool": "Pickaxe",
                     "MinToolLevel": 1,
                     "MinDrops": 1,
-                    "MaxDrops": 2,
+                    "MaxDrops": 4,
                     "Debris": "stone brown",
-                    "Exp": 16,
+                    "Exp": 20,
                     "MineSpawns": [
                         {
-                            "Floors": "31/79",
-                            "SpawnFrequency": 0.01,
+                            "Floors": "11/19",
+                            "SpawnFrequency": 0.02,
                             "Type": "Normal"
                         },
                         {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Normal"
-                        },
-                        {
-                            "Floors": "31/79",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Qi"
-                        },
-                        {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.05,
+                            "Floors": "11/19",
+                            "SpawnFrequency": 0.04,
                             "Type": "Qi"
                         },
                     ]
@@ -2531,21 +2288,21 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "Add YelZircCrys",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
                 "YellowZircon": {
                     "Name": "Yellow Zircon",
-                    "Price": 120,
+                    "Price": 150,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Gem",
+                    "Type": "Minerals",
                     "Category": -2,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
                     "DisplayName": "Yellow Zircon",
-                    "Description": "Colorless specimens that show gem quality are a popular substitute for diamond and are also known as 'Matara Diamonds.'",
+                    "Description": "Colorless specimens that show gem quality are a popular substitute for diamond and are also known as 'Matara Diamonds.' Yellow variant.",
                     "SpriteIndex": 71,
                     "Texture": "Mods\\[CP] More Custom Gems Conversion\\assets",
                     "ContextTags": [
@@ -2556,7 +2313,7 @@
             }
         },
         {
-            "LogName": "Add ore",
+            "LogName": "Add ZircNode",
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
@@ -2573,28 +2330,18 @@
                     "Tool": "Pickaxe",
                     "MinToolLevel": 1,
                     "MinDrops": 1,
-                    "MaxDrops": 2,
+                    "MaxDrops": 4,
                     "Debris": "stone brown",
-                    "Exp": 16,
+                    "Exp": 20,
                     "MineSpawns": [
                         {
-                            "Floors": "31/79",
-                            "SpawnFrequency": 0.01,
+                            "Floors": "1/9",
+                            "SpawnFrequency": 0.02,
                             "Type": "Normal"
                         },
                         {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Normal"
-                        },
-                        {
-                            "Floors": "31/79",
-                            "SpawnFrequency": 0.03,
-                            "Type": "Qi"
-                        },
-                        {
-                            "Floors": "81/119",
-                            "SpawnFrequency": 0.05,
+                            "Floors": "1/9",
+                            "SpawnFrequency": 0.04,
                             "Type": "Qi"
                         },
                     ]
@@ -2602,21 +2349,21 @@
             }
         },
         {
-            "LogName": "Add ore's gem",
+            "LogName": "Add ZircCrys",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
                 "Zircon": {
                     "Name": "Zircon",
-                    "Price": 120,
+                    "Price": 150,
                     "IsDrink": false,
                     "Edibility": -300,
-                    "Type": "Gem",
+                    "Type": "Minerals",
                     "Category": -2,
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
                     "DisplayName": "Zircon",
-                    "Description": "Colorless specimens that show gem quality are a popular substitute for diamond and are also known as 'Matara Diamonds.'",
+                    "Description": "Colorless specimens that show gem quality are a popular substitute for diamond and are also known as 'Matara Diamonds.' Normal variant.",
                     "SpriteIndex": 73,
                     "Texture": "Mods\\[CP] More Custom Gems Conversion\\assets",
                     "ContextTags": [

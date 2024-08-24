@@ -7,7 +7,10 @@ New updates
 -altered Dark Cave areas
 -Fixed Custom Rings Buffs
 -Added CapeStardewCode
--Fixed Annetta Schedule issues?
+-Fixed Annetta Schedule issues
+
+*Known Issues*
+Avoid holding the Orb when interacting with the UI or accessing doors.
 
 **About:**
 Embark on an epic quest into a mysterious sea cavern, unearthing treasures and forming bonds with Annetta. Immerse yourself in a captivating narrative, seamlessly integrating with other mods. Unleash optional legendary weapons for a truly legendary farming adventure!
