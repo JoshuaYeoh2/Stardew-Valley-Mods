@@ -6,23 +6,20 @@
   "ExistingObjectLocations": {},
   "SavedObjects": [
     {
-      "MapName": "Sewer",
-      "Name": "Object:7thAxis.DitR_Items.UnluckyPurpleShorts",
-      "Tile": "16, 27",
+      "MapName": "Custom_ForestWest",
+      "Name": "7thAxis.DitR_Items.ValleyLily",
+      "Tile": "101, 126",
       "Type": "Forage",
-      "ID": "7thAxis.DitR_Items.UnluckyPurpleShorts",
-      "DaysUntilExpire": 0,
+      "ID": "7thAxis.DitR_Items.ValleyLily",
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
-      "ConfigItem": {
-        "Category": "Object",
-        "Name": "7thAxis.DitR_Items.UnluckyPurpleShorts"
-      },
+      "ConfigItem": null,
       "MonType": null
     },
     {
-      "MapName": "EastScarp_DeepMountains",
+      "MapName": "EastScarp_Village",
       "Name": "7thAxis.DitR_Items.ValleyLily",
-      "Tile": "43, 19",
+      "Tile": "65, 2",
       "Type": "Forage",
       "ID": "7thAxis.DitR_Items.ValleyLily",
       "DaysUntilExpire": 1,
@@ -33,18 +30,7 @@
     {
       "MapName": "Woods",
       "Name": "7thAxis.DitR_Items.ValleyLily",
-      "Tile": "67, 33",
-      "Type": "Forage",
-      "ID": "7thAxis.DitR_Items.ValleyLily",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Forest",
-      "Name": "7thAxis.DitR_Items.ValleyLily",
-      "Tile": "58, 80",
+      "Tile": "42, 19",
       "Type": "Forage",
       "ID": "7thAxis.DitR_Items.ValleyLily",
       "DaysUntilExpire": 1,

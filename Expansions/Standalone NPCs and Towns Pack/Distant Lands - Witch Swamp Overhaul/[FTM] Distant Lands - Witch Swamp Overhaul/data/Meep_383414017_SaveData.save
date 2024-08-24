@@ -6,7 +6,18 @@
     {
       "MapName": "WitchSwamp",
       "Name": "Swamp Herb",
-      "Tile": "10, 30",
+      "Tile": "18, 42",
+      "Type": "Forage",
+      "ID": "Aimon111.WitchSwampOverhaulCP_Swamp_Herb",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "WitchSwamp",
+      "Name": "Swamp Herb",
+      "Tile": "34, 27",
       "Type": "Forage",
       "ID": "Aimon111.WitchSwampOverhaulCP_Swamp_Herb",
       "DaysUntilExpire": 1,
@@ -17,20 +28,9 @@
     {
       "MapName": "WitchSwamp",
       "Name": "Brown Amanita",
-      "Tile": "35, 34",
+      "Tile": "6, 30",
       "Type": "Forage",
       "ID": "Aimon111.WitchSwampOverhaulCP_Brown_Amanita",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "WitchSwamp",
-      "Name": "Swamp Herb",
-      "Tile": "35, 16",
-      "Type": "Forage",
-      "ID": "Aimon111.WitchSwampOverhaulCP_Swamp_Herb",
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
