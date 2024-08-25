@@ -1,5 +1,5 @@
 {
-  "WeatherForYesterday": "Sun",
+  "WeatherForYesterday": "Storm",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
@@ -9,6 +9,17 @@
       "Tile": "27, 22",
       "Type": "Forage",
       "ID": "157",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Sewer",
+      "Name": "Green Algae",
+      "Tile": "25, 22",
+      "Type": "Forage",
+      "ID": "153",
       "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,

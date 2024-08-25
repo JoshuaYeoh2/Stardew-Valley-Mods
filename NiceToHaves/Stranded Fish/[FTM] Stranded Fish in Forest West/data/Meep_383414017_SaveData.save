@@ -1,15 +1,37 @@
 {
-  "WeatherForYesterday": "Sun",
+  "WeatherForYesterday": "Storm",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
     {
       "MapName": "Custom_ForestWest",
       "Name": "Puppyfish",
-      "Tile": "15, 127",
+      "Tile": "22, 130",
       "Type": "Forage",
       "ID": "FlashShifter.StardewValleyExpandedCP_Puppyfish",
-      "DaysUntilExpire": 1,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ForestWest",
+      "Name": "Largemouth Bass",
+      "Tile": "34, 144",
+      "Type": "Forage",
+      "ID": "136",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_ForestWest",
+      "Name": "Largemouth Bass",
+      "Tile": "38, 145",
+      "Type": "Forage",
+      "ID": "136",
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -17,7 +39,7 @@
     {
       "MapName": "Custom_ForestWest",
       "Name": "Puppyfish",
-      "Tile": "22, 130",
+      "Tile": "32, 137",
       "Type": "Forage",
       "ID": "FlashShifter.StardewValleyExpandedCP_Puppyfish",
       "DaysUntilExpire": 4,
