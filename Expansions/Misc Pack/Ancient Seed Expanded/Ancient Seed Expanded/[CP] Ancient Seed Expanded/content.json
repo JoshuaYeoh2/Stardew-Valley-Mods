@@ -49,6 +49,11 @@
         {   
             //Load Seed Transformer
             "Action": "Include",
+            "FromFile": "assets/Luminaria_Fern/Luminaria_Fern.json"
+        },
+        {   
+            //Load Seed Transformer
+            "Action": "Include",
             "FromFile": "assets/Food/Bowl_of_plenty.json"
         },
         {   
@@ -70,6 +75,11 @@
             //Load Seed Transformer
             "Action": "Include",
             "FromFile": "assets/Food/Ancient_Coffee.json"
+        },
+        {   
+            //Load Seed Transformer
+            "Action": "Include",
+            "FromFile": "assets/BigCraftable/Luminaria_Fern_Fence.json"
         },
         {   
             //Load Seed Transformer

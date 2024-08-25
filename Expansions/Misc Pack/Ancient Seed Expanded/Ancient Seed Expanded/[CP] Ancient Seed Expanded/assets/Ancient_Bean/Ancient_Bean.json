@@ -32,7 +32,7 @@
                 "{{ModId}}_Ancient_Bean_Seeds": {
                     "Seasons": [ "spring", "summer", "fall" ],
                     "DaysInPhase": [ 2, 3, 4, 2, 3],
-                    "RegrowDays": 7,
+                    "RegrowDays": 3,
                     "HarvestItemId": "{{ModId}}_Ancient_Bean_Seeds",
                     "Texture": "Mods/{{ModId}}/Ancient_Bean_Planted",
                     "SpriteIndex": 0,

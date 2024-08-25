@@ -52,6 +52,15 @@
                         "IgnoreShopPriceModifiers": true,
                         "TradeItemId": "499", 
                         "TradeItemAmount": 1,
+                      },
+                      {
+                        "Id": "{{ModId}}_Luminaria_Fern_Seeds",
+                        "ItemId": "{{ModId}}_Luminaria_Fern_Seeds",
+                        "Price": 0,
+                        "IsRecipe": false,
+                        "IgnoreShopPriceModifiers": true,
+                        "TradeItemId": "499", 
+                        "TradeItemAmount": 1,
                       }
                     ]
                 }
