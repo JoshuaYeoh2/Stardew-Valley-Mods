@@ -11,7 +11,7 @@ https://stardewvalleywiki.com/Modding:Translations
 **Example:   "CFE_Abigail_fallSun8": "[Hmm... what should I do tonight?]#$q 27/28 fall_Sun_old#[I was thinking about dyeing my hair again... what do you think?]#$r 27 10 Sun_27#[Dye it black.]#$r 27 10 Sun_27#[Why not blonde?]#$r 27 20 Sun_WildColor#[How about bubblegum pink?]#$r 28 0 Sun_28#[I like your hair just the way it is!]", only translate the portions shown in [brackets] above, and not anything that looks like this: {{GenericNoun}} 
 
 How to upload your translation:
-**Publish your i18n file alone, please do not publish the full mod/Data files! Players will drag and drop your i18n file, with your language's i18n.json inside, into CFE's i18n folder. You can also reach out to Gizzymo to include your file in the base mod, and we will mention you as a translator in our credits! We encourage you to upload the file itself though so that you can get DP and manage bugs or translation errors directly. 
+**Publish your i18n file alone, please do not publish the full mod/Data files! Players will drag and drop your i18n file, with your language's i18n.json inside, into CFE's i18n folder. You can also reach out to Gizzymo to include your file in the base mod, and we will mention you as a translator in our credits! We encourage you to upload the file itself though so that you can get DP and manage bugs or translation errors directly. PLEASE DO NOT remove any lines, including compat lines, from your translation file! this creates No Translation errors for users. If a line can not be translated, please leave it in English in your file!
 
 List of changes made to keys used in this update:
 exact duplicates from the vanilla code have been removed across all files!

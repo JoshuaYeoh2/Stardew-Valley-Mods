@@ -171,7 +171,7 @@
 "Update": "OnTimeChange, OnLocationChange",
  "ToArea": { "X": 8, "Y": 2, "Width":5, "Height": 5 },
  "When": {
-            "HasSeenEvent |contains={{ModID}}_TheBridge": true,
+            "HasSeenEvent |contains={{ModID}}_CottonsIntro": true,
 }
         },
           {
@@ -206,10 +206,10 @@
  "ToArea": { "X": 30, "Y": 80, "Width":1, "Height": 2 },
  "When": {
             "HasSeenEvent |contains={{ModID}}_TheStatue": true,
-            "HasFlag |contains={{ModID}}_GemGive.Mail": true,
             "HasFlag |contains={{ModID}}_GotGem.Mail": false,
             "Time": "{{Range: 2000, 2600}}",
             "Weather": "Rain,Storm,GreenRain,Snow",
+             "HasMod |contains=Fellowclown.MSAJ": false,
 }
         },
                   {
@@ -224,6 +224,7 @@
               "HasSeenEvent |contains={{ModID}}_CaveBlockUnlock": true,
             "Time": "{{Range: 2000, 2600}}",
             "Weather": "Rain,Storm,GreenRain,Snow",
+              "HasMod |contains=Fellowclown.MSAJ": false,
 }
         },
 ///Graveyard Map Edits

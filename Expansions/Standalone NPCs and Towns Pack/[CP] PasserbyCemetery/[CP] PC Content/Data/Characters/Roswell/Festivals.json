@@ -71,7 +71,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Roswell 22 27 2",
+                    "Value": "FC.Roswell 21 28 2",
                     "Delimiter": "/"
                 },
                      {
@@ -80,9 +80,19 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Roswell 22 27 2",
+                    "Value": "FC.Roswell 21 28 2",
                     "Delimiter": "/"
-                },,
+                },
+                       {
+             "Operation": "Append",
+             "Target": ["Fields", "set-up{{YearCheck}}", 5],
+             "Value": "/positionOffset FC.Roswell -30 0"
+            },
+            {
+             "Operation": "Append",
+             "Target": ["Fields", "mainEvent{{YearCheck}}", 5],
+             "Value": "/positionOffset FC.Roswell -30 0"
+            },
         ]
     },  
             {

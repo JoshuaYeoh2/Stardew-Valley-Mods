@@ -1,5 +1,5 @@
 {
-  "WeatherForYesterday": "Storm",
+  "WeatherForYesterday": "Sun",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
@@ -9,7 +9,7 @@
       "Tile": "26, 28",
       "Type": "Forage",
       "ID": "Rafseazz.RSVCP_Skulpin_Fish",
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -20,6 +20,17 @@
       "Tile": "21, 40",
       "Type": "Forage",
       "ID": "Rafseazz.RSVCP_Mountain_Redbelly_Dace",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_Ridge",
+      "Name": "Mountain Whitefish",
+      "Tile": "19, 32",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Mountain_Whitefish",
       "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,

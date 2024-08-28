@@ -165,7 +165,7 @@
             "Target": "Characters/Dwarf",
             "FromFile": "assets/sprites/Dwarf.png"
         },
-       /* {
+        /* {
             "Action": "Load",
             "Target": "Characters/schedules/Dwarf",
             "FromFile": "assets/schedule.json"
@@ -455,9 +455,6 @@
             "LogName": "Event for setting Dwarf Roommate flag",
             "Action": "EditData",
             "Target": "Data/Events/FarmHouse",
-            "When": {
-                "HasMod |contains=spacechase0.jsonAssets": true
-            },
             "Entries": {
                 "96420015/O Dwarf/t 600 800/L": "none/-100 -100/farmer 35 15 1 Dwarf 38 14 0/ignoreCollisions farmer/viewport 36 15 clamp true/playSound crafting/pause 1250/emote farmer 8/playSound crafting/pause 1250/playSound crafting/pause 1250/speak Dwarf \"{{i18n:96420015.01}}\"/pause 1000/playSound crafting/pause 1250/move farmer 2 0 1/pause 1000/textAboveHead Dwarf \"{{i18n:96420015.02}}\"/pause 1000/faceDirection Dwarf 2/pause 500/speak Dwarf \"{{i18n:96420015.03}}\"/pause 500/addTemporaryActor SmoluanuFriendshipHelm 20 20 38 15 2 false/playSound achievement/pause 500/emote farmer 16/pause 500/speak Dwarf \"{{i18n:96420015.04}}\"/pause 500/emote farmer 20/quickQuestion #{{i18n:96420015.05}}#{{i18n:96420015.06}}#{{i18n:96420015.07}}#{{i18n:96420015.08}}(break)friendship Dwarf 500\\emote Dwarf 20\\speak Dwarf \"{{i18n:96420015.09}}\"(break)friendship Dwarf 500\\emote Dwarf 20\\speak Dwarf \"{{i18n:96420015.10}}\"(break)emote Dwarf 60\\speak Dwarf \"{{i18n:96420015.11}}\"(break)friendship Dwarf 250\\emote Dwarf 32\\speak Dwarf \"{{i18n:96420015.12}}\"/pause 500/fade/viewport -1000 -1000/giveHat Lemurkat_Smoluanu_Friendhelm/message \"{{i18n:96420015.13}}\"/pause 500/end"
             }
@@ -467,7 +464,6 @@
             "Action": "EditData",
             "Target": "Data/Events/FarmHouse",
             "When": {
-                "HasMod |contains=spacechase0.jsonAssets": true,
                 "FarmhouseUpgrade": "1"
             },
             "Entries": {

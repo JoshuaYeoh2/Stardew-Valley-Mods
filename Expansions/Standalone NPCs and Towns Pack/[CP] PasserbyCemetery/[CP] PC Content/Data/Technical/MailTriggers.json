@@ -77,7 +77,7 @@
 }
 },
 {
-"LogName": "UnlockTropaTree",
+"LogName": "ConfrontingRett",
 "Action": "EditData",
 "Target": "Data/TriggerActions",
 "Entries": {
@@ -304,12 +304,15 @@
 "LogName": "GiveGem",
 "Action": "EditData",
 "Target": "Data/TriggerActions",
+ "When": {
+              "HasMod |contains=Fellowclown.MSAJ": false,
+            },
 "Update": "OnTimeChange, OnLocationChange",
 "Entries": {
 "{{ModID}}_GemGive.Trigger":  {
 "Id": "{{ModID}}_GemGive.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_HAS_MAIL current {{ModID}}_Graveyard.Mail",
+"Condition": "PLAYER_HAS_SEEN_EVENT current Fellowclown.PC_TheStatue",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_GemGive.Mail",
 "Actions": null,
@@ -321,6 +324,9 @@
 "LogName": "GotGem",
 "Action": "EditData",
 "Target": "Data/TriggerActions",
+ "When": {
+              "HasMod |contains=Fellowclown.MSAJ": false,
+            },
 "Update": "OnTimeChange, OnLocationChange",
 "Entries": {
 "{{ModID}}_GotGem.Trigger":  {
@@ -392,7 +398,7 @@
 "{{ModID}}_NikolaisBirthday.Trigger":  {
 "Id": "{{ModID}}_NikolaisBirthday.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Nikolai 500,SEASON spring",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Nikolai 500,SEASON spring,PLAYER_HAS_MAIL Host ccVault Received",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_BirthdayInvite.Mail",
 "Actions": null,

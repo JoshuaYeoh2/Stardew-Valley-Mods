@@ -13,5 +13,47 @@
 "Query: {{Random: {{Range: 1,10}}}} = 1": true,
  }
 },
+   {
+"Action": "EditData",
+"Target": "strings/StringsFromCSFiles",
+"Entries": {
+"Utility.cs.5367": "{{i18n:Lyell.Utility.cs.5367}}",
+"Utility.cs.5369": "{{i18n:Lyell.Utility.cs.5369}}",
+"Utility.cs.5371": "{{i18n:Lyell.Utility.cs.5371}}",
+"Utility.cs.5377": "{{i18n:Lyell.Utility.cs.5377}}",
+},
+"When": {
+"Relationship:FC.Lyell": "Engaged, Married",
+"Relationship:FC.Nikolai": "Engaged, Married",
+"Relationship:FC.Valerie": "Engaged, Married",
+"Relationship:FC.Cotton": "Engaged, Married",
+"Relationship:FC.Thalia": "Engaged, Married",
+}
+},
+/************************************************
+NoneChangingDialogue
+************************************************/
+{
+"LogName": "Custom Conversation Topics",
+"Action":"EditData",
+"Target":"Characters/Dialogue/FC.Alan,Characters/Dialogue/FC.Cotton,Characters/Dialogue/FC.Dezerie,Characters/Dialogue/FC.Kaia,Characters/Dialogue/FC.Lyell,Characters/Dialogue/FC.Maverick,Characters/Dialogue/FC.Nikolai,Characters/Dialogue/FC.Thalia",
+"Entries":{
+//Vanilla
+"cc_Complete": "{{i18n:cc_Complete.{{TargetWithoutPath}}}}",
+"cc_Boulder": "{{i18n:cc_Boulder.{{TargetWithoutPath}}}}",
+"cc_Bridge": "{{i18n:cc_Bridge.{{TargetWithoutPath}}}}",
+"cc_Bus": "{{i18n:cc_Bus.{{TargetWithoutPath}}}}",
+"cc_Greenhouse": "{{i18n:cc_Greenhouse.{{TargetWithoutPath}}}}",
+"cc_Minecart": "{{i18n:cc_Minecart.{{TargetWithoutPath}}}}",
+"joja_Begin": "{{i18n:joja_Begin.{{TargetWithoutPath}}}}",
+"movieTheater": "{{i18n:movieTheater.{{TargetWithoutPath}}}}",
+"dumped_Guys": "{{i18n:dumped_Guys.{{TargetWithoutPath}}}}",
+"secondChance_Guys": "{{i18n:secondChance_Guys.{{TargetWithoutPath}}}}",
+"dumped_Girls": "{{i18n:dumped_Girls.{{TargetWithoutPath}}}}",
+"secondChance_Girls": "{{i18n:secondChance_Girls.{{TargetWithoutPath}}}}",
+"pamHouseUpgrade": "{{i18n:pamHouseUpgrade.{{TargetWithoutPath}}}}",
+"pamHouseUpgradeAnonymous": "{{i18n:pamHouseUpgradeAnonymous.{{TargetWithoutPath}}}}",
+}
+},
   ]
 }
