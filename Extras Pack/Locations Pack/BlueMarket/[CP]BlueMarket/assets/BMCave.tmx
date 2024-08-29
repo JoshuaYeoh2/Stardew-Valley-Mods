@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="30" height="16" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="21">
+ <properties>
+  <property name="AmbientLight" value="80 80 40"/>
+  <property name="LocationContext" value="Island"/>
+ </properties>
+ <tileset firstgid="1" name="paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths" width="64" height="144"/>
+ </tileset>
+ <tileset firstgid="37" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="288" columns="16">
+  <image source="Mines/mine" width="256" height="288"/>
+ </tileset>
+ <tileset firstgid="325" name="mine_dino" tilewidth="16" tileheight="16" tilecount="288" columns="16">
+  <image source="Mines/mine_dino.png" width="256" height="288"/>
+ </tileset>
+ <tileset firstgid="613" name="zbluemarket" tilewidth="16" tileheight="16" tilecount="2304" columns="32">
+  <image source="bluemarket.png" width="512" height="1152"/>
+  <tile id="31">
+   <animation>
+    <frame tileid="31" duration="150"/>
+    <frame tileid="95" duration="150"/>
+    <frame tileid="62" duration="150"/>
+    <frame tileid="94" duration="150"/>
+    <frame tileid="126" duration="150"/>
+    <frame tileid="127" duration="150"/>
+    <frame tileid="126" duration="150"/>
+    <frame tileid="94" duration="150"/>
+    <frame tileid="62" duration="150"/>
+    <frame tileid="95" duration="150"/>
+    <frame tileid="31" duration="150"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer id="1" name="Back" width="30" height="16">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,508,509,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,508,509,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,508,509,479,479,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,508,509,479,479,479,479,479,479,479,479,479,479,479,479,479,479,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,508,509,479,479,479,479,479,479,464,479,479,479,479,479,479,479,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,508,476,492,493,526,527,527,527,527,527,527,528,479,479,464,479,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,508,508,508,509,542,543,543,543,543,543,543,544,479,479,479,479,479,479,0,
+0,0,0,0,0,0,0,0,0,0,0,508,508,508,509,558,510,543,543,543,543,543,544,479,479,479,479,479,479,0,
+0,0,0,0,0,0,0,0,0,0,0,508,508,508,509,479,542,543,543,543,511,559,560,464,479,479,479,479,479,0,
+0,0,0,0,0,0,0,0,0,0,0,508,508,508,476,493,558,559,559,559,560,479,479,479,479,479,479,175,0,0,
+0,0,0,0,0,0,0,0,0,0,0,508,508,508,508,509,479,479,479,464,479,479,479,479,479,479,479,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,508,508,508,508,476,492,492,492,492,493,479,479,479,479,479,479,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,508,508,508,508,508,508,508,508,508,509,479,479,479,479,479,479,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,508,508,508,508,508,508,508,508,508,509,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,508,508,508,508,508,508,508,490,508,509,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="30" height="16">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,132,106,395,398,399,400,401,398,399,400,401,398,399,400,401,436,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,393,410,411,414,422,416,417,414,422,416,417,414,422,416,417,484,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,409,426,427,430,431,432,433,430,431,432,433,430,431,432,433,484,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,425,442,443,446,447,448,449,446,447,448,449,446,447,448,449,484,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,441,458,459,0,0,0,0,769,0,0,0,0,0,0,0,434,436,0,0,
+0,0,0,0,0,0,0,0,0,0,0,473,768,0,0,0,0,0,0,0,0,0,0,0,0,0,450,452,0,0,
+0,0,0,0,0,0,0,0,0,0,0,489,0,0,0,0,0,0,0,0,0,0,0,0,0,0,466,468,0,0,
+0,0,0,0,0,0,0,0,0,0,0,473,0,768,0,0,0,676,0,498,0,676,0,0,0,0,482,484,0,0,
+0,0,0,0,0,0,0,0,0,0,0,489,770,0,0,0,0,0,0,0,0,0,0,0,0,0,0,516,0,0,
+0,0,0,0,0,0,0,0,0,0,0,473,0,0,0,0,0,0,0,824,0,0,0,0,0,0,0,531,0,0,
+0,0,0,0,0,0,0,0,0,0,0,489,0,768,0,0,0,0,0,0,0,0,0,0,0,0,420,420,0,0,
+0,0,0,0,0,0,0,0,0,0,0,505,770,0,0,770,0,0,0,0,0,0,0,0,0,516,420,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,420,0,767,0,767,0,0,0,0,0,0,767,0,769,420,420,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,420,420,420,420,420,420,0,0,0,420,420,420,420,420,420,420,420,420,420,
+0,0,0,0,0,0,0,0,0,0,0,420,420,420,420,420,420,0,0,0,420,420,420,420,420,420,420,420,420,420,
+0,0,0,0,0,0,0,0,0,0,0,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420
+</data>
+ </layer>
+ <layer id="3" name="Front" width="30" height="16">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,114,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,114,114,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,114,114,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,737,0,0,0,0,0,0,0,0,114,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,736,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,114,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,114,114,
+0,0,0,0,0,0,0,0,0,0,0,0,0,736,0,0,0,644,0,0,0,644,0,0,0,0,0,0,114,114,
+0,0,0,0,0,0,0,0,0,0,0,0,738,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,114,114,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,792,0,0,0,0,0,0,0,0,114,114,
+0,0,0,0,0,0,0,0,0,0,0,0,0,736,0,0,0,0,0,0,0,0,0,0,0,0,530,531,114,114,
+0,0,0,0,0,0,0,0,0,0,0,0,738,0,0,738,0,0,0,0,0,0,0,0,0,530,531,114,114,114,
+0,0,0,0,0,0,0,0,0,0,0,505,0,735,0,735,0,0,0,0,0,0,735,0,737,516,114,114,114,114,
+0,0,0,0,0,0,0,0,0,0,0,521,539,540,539,540,540,541,0,545,539,540,539,540,540,531,114,114,114,114,
+0,0,0,0,0,0,0,0,0,0,0,114,114,114,114,114,114,557,0,561,114,114,114,114,114,114,114,114,114,114,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,114,114,114,521,540,546,114,114,114,114,114,114,114,114,114,114,
+0,0,0,0,0,0,0,0,0,0,0,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114
+</data>
+ </layer>
+ <layer id="4" name="Paths" width="30" height="16">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,9,0,0,0,9,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,9,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="5" name="Back"/>
+ <objectgroup id="6" name="Buildings">
+  <object id="6" name="TileData" x="208" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;bmccave1&quot;"/>
+   </properties>
+  </object>
+  <object id="8" name="TileData" x="208" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;bmccave2&quot;"/>
+   </properties>
+  </object>
+  <object id="12" name="TileData" x="208" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;bmbcave&quot;"/>
+   </properties>
+  </object>
+  <object id="13" name="TileData" x="240" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;bmbcave&quot;"/>
+   </properties>
+  </object>
+  <object id="14" name="TileData" x="352" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;bmbcave&quot;"/>
+   </properties>
+  </object>
+  <object id="15" name="TileData" x="384" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;bmbcave&quot;"/>
+   </properties>
+  </object>
+  <object id="16" name="TileData" x="288" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;bmbcave&quot;"/>
+   </properties>
+  </object>
+  <object id="17" name="TileData" x="272" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;bmantorcave&quot;"/>
+   </properties>
+  </object>
+  <object id="18" name="TileData" x="336" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;bmantorcave&quot;"/>
+   </properties>
+  </object>
+  <object id="19" name="TileData" x="304" y="144" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;bmcartelcave&quot;"/>
+   </properties>
+  </object>
+  <object id="9" name="TileData" x="192" y="128" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;bmccave3&quot;"/>
+   </properties>
+  </object>
+  <object id="10" name="TileData" x="192" y="176" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;bmccave3&quot;"/>
+   </properties>
+  </object>
+  <object id="11" name="TileData" x="240" y="176" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;bmccave3&quot;"/>
+   </properties>
+  </object>
+  <object id="7" name="TileData" x="192" y="80" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;bmccave1&quot;"/>
+   </properties>
+  </object>
+  <object id="20" name="TileData" x="304" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Warp 16 6 Custom_bpbmcaved"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="Front"/>
+ <objectgroup id="8" name="Paths"/>
+</map>

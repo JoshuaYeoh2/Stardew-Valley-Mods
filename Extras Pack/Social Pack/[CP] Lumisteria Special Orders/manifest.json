@@ -1,0 +1,12 @@
+{
+   "Name": "Lumisteria Special Orders",
+   "Author": "Lumisteria",
+   "Version": "1.0.4",
+   "Description": "A mod adding new Special Orders quests.",
+   "UniqueID": "Lumisteria.SpecialOrders",
+   "MinimumApiVersion": "3.8.0",      // Minimum SMAPI version, use whatever is current
+   "UpdateKeys": ["Nexus:7417"],
+   "ContentPackFor": {
+	  "UniqueID": "Pathoschild.ContentPatcher",
+	  }
+}

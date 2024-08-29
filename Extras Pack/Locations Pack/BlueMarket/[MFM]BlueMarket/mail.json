@@ -1,0 +1,40 @@
+[  
+    {
+     "id": "BMShopMail1",
+	 "Title": "BMShop.SlimeT",
+     "Text": "BMShop.Slime",
+     "WhichBG": 1,
+     "EventsSeen": [690006],
+	 "Repeatable": false
+    },
+	{
+     "id": "BMShopMail2",
+	 "Title": "BMShop.GiftT",
+     "Text": "BMShop.Gift",
+     "WhichBG": 1,
+	 "Attachments": [
+            {
+                "Type": "Object",
+                "Index": 454,
+                "Stack": 5
+            },
+        ],
+	 "RandomChance": 0.05,
+	 "Repeatable": true
+	 },
+	 	{
+     "id": "BMShopMail3",
+	 "Title": "BMShop.Gift2T",
+     "Text": "BMShop.Gift2",
+     "WhichBG": 1,
+	 "Attachments": [
+            {
+                "Type": "Object",
+                "Index": 382,
+                "Stack": 15
+            },
+        ],
+	 "RandomChance": 0.15,
+	 "Repeatable": true
+	 }
+]

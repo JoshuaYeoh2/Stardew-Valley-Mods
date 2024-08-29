@@ -1,0 +1,19 @@
+{
+ 	"Name": "Crystalberry Bushes in the Winter",
+ 	"Author": "Br1ghtEy3s",
+	"Version": "1.0",
+	"Description": "Adds a forageable bush fruit for the winter.",
+	"UniqueID": "Br1ghtEy3s.Crystalberry",
+	"UpdateKeys": [""],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+	"Dependencies": 
+	[
+		{
+			"UniqueID": "NCarigon.BushBloomMod",
+			"IsRequired": true,
+		},
+	]
+
+}

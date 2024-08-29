@@ -1,0 +1,84 @@
+{
+	"Format": "1.26.0",
+
+	"CustomLocations": [
+		//Location(s)
+		{
+			"Name": "Custom_BusInterior",
+			"FromMapFile": "assets/BusInterior.tmx"
+		},
+		{
+			"Name":"Custom_HaleyDarkRoom",
+			"FromMapFile":"assets/haleyDarkRoom.tmx"
+		},
+		{
+			"Name":"Custom_MaruBasement",
+			"FromMapFile":"assets/MaruBasement.tbin"
+			
+		},
+		{
+			"Name":"Custom_HarveyBalloon",
+			"FromMapFile":"assets/HarveyBalloon.tbin"
+		},
+		{
+			"Name":"Custom_ThePit",
+			"FromMapFile":"assets/SamShow.tbin"
+		}
+	],
+	"Changes":[
+		{
+			"Action":"EditMap",
+			"Target":"Maps/BusStop",
+			"When":{"HasMod |contains=Ophaneom.RenewedBus": "false"},
+			"AddWarps":[
+				"12 8 Custom_BusInterior 2 6"
+			]
+		},
+		
+		{
+			"Action":"EditMap",
+			"Target":"Maps/Custom_ThePit",
+			"AddWarps":[
+				"25 27 BusStop 11 11"
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/HaleyHouse",
+			"MapTiles":[
+					{
+						"Position":{"X":"4","Y":"3"},
+						"Layer":"Buildings",
+						"SetProperties":{"Action":"LockedDoorWarp 3 7 Custom_HaleyDarkRoom 900 2400 Haley 2000"}
+					}
+				]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/ScienceHouse",
+			"MapTiles":[
+					{
+						"Position":{"X":"1","Y":"6"},
+						"Layer":"Buildings",
+						"SetProperties":{"Action":"LockedDoorWarp 3 4 Custom_MaruBasement 900 2400 Maru 2000"}
+					}
+				]
+		},
+		{
+			"LogName":"Locational Strings",
+			"Action":"EditData",
+			"Target":"strings/StringsFromMaps",
+			"Entries":{
+				"Custom_MaruBasement.1":"It's Maru's diary.  There are notes on a project she's working on.",
+				"Custom_MaruBasement.2":"Maru should get a bookmark or memorize her spot.",
+				"Custom_MaruBasement.3":"It's Maru's notes and drawings.",
+				"Custom_HaleyDarkRoom.1":"They're some pictures of Haley at the beach."
+
+			}
+		}
+	]
+	//Warps
+	
+}
+		
+		

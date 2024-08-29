@@ -1,0 +1,83 @@
+{
+    "Format": "2.0",
+    "Changes": [
+        {
+            "LogName": "Load data for Onadagori Chicken (Onadagori Chicken)",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Onadagori Chicken": {
+                    "DisplayName": "Onadagori Chicken",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 2500,
+                    "ShopTexture": "Animals/balverines.onadagoribfav-Onadagori Chicken Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "Onadagori Chicken",
+                    "ShopDescription": "A rare and valuable chicken.",
+					"EggItemIds": [
+					  "176",
+					  "174"
+					],
+					"IncubationTime": 9000,
+					"IncubatorParentSheetOffset": 1,
+					"BirthText": "A new chick hatched!",
+                    "DaysToMature": "5",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "176"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "174"
+                        }
+                    ],
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "cluck",
+                    "BabySound": "cluck",
+                    "Texture": "Animals/balverines.onadagoribfav-Onadagori Chicken",
+                    "HarvestedTexture": "Animals/balverines.onadagoribfav-Onadagori Chicken",
+                    "BabyTexture": "Animals/balverines.onadagoribfav-Onadagori Chicken Baby",
+					"UseFlippedRightForLeft": true,
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+					"SellPrice": 1200,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        {
+            "LogName": "Load shopIcon for Onadagori Chicken",
+            "Action": "Load",
+            "Target": "Animals/balverines.onadagoribfav-Onadagori Chicken Icon",
+            "FromFile": "assets\\animal_shop_ona.png"
+        },
+        {
+            "LogName": "Load adultSprite for Onadagori Chicken",
+            "Action": "Load",
+            "Target": "Animals/balverines.onadagoribfav-Onadagori Chicken",
+            "FromFile": "assets/Onadagori.png"
+        },
+        {
+            "LogName": "Load babySprite for Onadagori Chicken",
+            "Action": "Load",
+            "Target": "Animals/balverines.onadagoribfav-Onadagori Chicken Baby",
+            "FromFile": "assets/bluechick.png"
+        }
+    ]
+}

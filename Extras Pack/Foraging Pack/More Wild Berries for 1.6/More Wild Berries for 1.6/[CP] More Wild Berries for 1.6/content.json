@@ -1,0 +1,58 @@
+{
+    "Format": "2.3.0",
+
+
+    
+
+
+    "Changes": [
+
+			
+		{
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/boysenberries,
+		Mods/{{ModId}}/marionberry,
+		Mods/{{ModId}}/wildblueberry",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        },
+
+			
+
+			
+
+{
+            
+            "Action": "Include",
+            "FromFile": "data/gifttastes.json, data/objects.json" 
+        }
+
+        
+        
+      
+        
+
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+
+        
+        
+        
+        
+        
+
+        
+    ]
+}

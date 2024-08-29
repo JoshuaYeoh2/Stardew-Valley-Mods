@@ -1,0 +1,18 @@
+{
+   "Name": "Blue Market Bus",
+   "Author": "BPsys",
+   "Version": "1.0.3",
+   "Description": "Buy a little of everything, mainly exotic objects",
+   "UniqueID": "bpsys.bluemarketbus",
+   "MinimumApiVersion": "3.15.1",
+   "UpdateKeys": [ "Nexus: 13512" ],
+   "ContentPackFor": {
+      "UniqueID": "hootless.BusLocations", // the ID of required mod
+   },
+   	"Dependencies": [
+		{
+			"UniqueID": "bpsys.bluemarketmap",
+				"IsRequired": true,
+		}
+	]
+}

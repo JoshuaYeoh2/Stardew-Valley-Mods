@@ -1,0 +1,19 @@
+{
+	"Format": "2.0.0",
+	"ConfigSchema": {
+		"GiftTastes":{
+			"AllowValues": "Original, Balanced",
+			"Default": "Balanced",
+		},
+		"EnergyHealth":{
+			"AllowValues": "10, 20, 30, 40, 50, 60, 70, 80, 90, 100",
+			"Default": "40",
+		}
+	},
+	"Changes": [
+		{
+			"Action": "Include",
+			"FromFile": "data/objects.json, data/NPCGiftTastes.json, data/bush.json",
+		}
+	]
+}

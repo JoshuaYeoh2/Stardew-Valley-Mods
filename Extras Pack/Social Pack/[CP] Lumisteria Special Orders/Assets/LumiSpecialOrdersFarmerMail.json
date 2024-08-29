@@ -1,0 +1,14 @@
+{
+    "Changes": [
+        {
+		"Action": "EditData",
+		"Target": "Data/Mail",
+			"Entries": {
+				"Lumisteria.SpecialOrders.HarveyVeggieProgramMail": "{{i18n: HarveyVeggieProgramMail_Translated}}%item bigobject 15 %%[#]{{i18n: HarveyVeggieProgramMail_Title_Translated}}",
+				"Lumisteria.SpecialOrders.GusHotPeppersMail": "{{i18n: GusHotPeppersMail_Translated}}%item bigobject 19 %%[#]{{i18n: GusHotPeppersMail_Title_Translated}}",
+
+			},
+	  
+        },
+    ]
+}

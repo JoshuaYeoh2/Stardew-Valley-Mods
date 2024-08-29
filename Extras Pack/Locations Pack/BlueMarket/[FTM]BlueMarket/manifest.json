@@ -1,0 +1,19 @@
+{
+  "Name": "Blue Market Cave",
+  "Author": "BPsys",
+  "Version": "1.0.3",
+  "Description": "Buy a little of everything, mainly exotic objects",
+  "UniqueID": "bpsys.bluemarketcave",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": [ "Nexus:13512" ],
+  "ContentPackFor": {
+    "UniqueID": "Esca.FarmTypeManager",
+    "MinimumVersion": "1.10.1"
+  },
+    "Dependencies": [
+	{
+	  "UniqueID": "bpsys.bluemarketmap",
+	  "IsRequired": true,
+	}
+  ]
+}

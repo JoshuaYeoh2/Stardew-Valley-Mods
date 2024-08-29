@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="7" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="12" nextobjectid="4">
+ <properties>
+  <property name="Music" value="Hospital_Ambient"/>
+  <property name="Warp" value="3 8 HaleyHouse 4 4"/>
+ </properties>
+ <tileset firstgid="1" name="darkroom_tiles" tilewidth="16" tileheight="16" tilecount="88" columns="11">
+  <image source="haleyDarkroomTiles.png" width="176" height="128"/>
+ </tileset>
+ <layer id="9" name="Back" width="7" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,47,70,70,70,0,
+0,58,58,0,0,0,0,
+0,68,69,70,71,72,0,
+0,0,0,81,0,0,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="11" name="Back"/>
+ <layer id="1" name="Buildings" width="7" height="9">
+  <properties>
+   <property name="Warp" value="3 8 HaleyHouse 4 4"/>
+  </properties>
+  <data encoding="csv">
+1,2,3,4,5,6,7,
+12,13,14,15,16,17,18,
+23,24,25,26,27,28,29,
+34,35,36,37,38,39,40,
+45,46,0,0,0,0,51,
+56,0,0,59,60,61,62,
+67,0,0,0,0,0,73,
+78,79,80,0,82,83,84,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="Buildings">
+  <object id="3" name="TileData" x="32" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Custom_HaleyDarkRoom.1&quot;"/>
+    <property name="Warp" value="3 8 HaleyHouse 4 4"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Front" width="7" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,41,42,43,0,
+0,0,0,52,53,54,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="4" name="Front"/>
+ <layer id="7" name="Paths" width="7" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="8" name="Paths"/>
+ <layer id="5" name="AlwaysFront" width="7" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="6" name="AlwaysFront"/>
+</map>

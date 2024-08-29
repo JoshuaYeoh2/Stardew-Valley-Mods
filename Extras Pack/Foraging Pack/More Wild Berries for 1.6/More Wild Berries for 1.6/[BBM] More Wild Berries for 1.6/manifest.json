@@ -1,0 +1,19 @@
+{
+	"Name": "[BBM] More Wild Berries for 1.6",
+	"Author": "MelindaC",
+    "Version": "1.0.1",
+	"Description": "Adds berry bushes in Stardew Valley.",
+	"UniqueID": "MelindaC.MoreWildBerriesBBM",
+	"MinimumApiVersion": "2.11.2",
+	"UpdateKeys": ["Nexus:25909"],
+	"Dependencies": [
+		
+		{"UniqueID": "MelindaC.MoreWildBerriesCP", "IsRequired": true}
+	  ],
+
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+
+
+	}
+}

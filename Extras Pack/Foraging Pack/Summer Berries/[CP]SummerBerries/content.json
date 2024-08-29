@@ -1,0 +1,96 @@
+{
+   "Format": "2.0.0", //use 2.0.0 for 1.6 version because 1.30.0 doesn't allow to add custom items into the game.
+   "Changes": [
+   
+   //----------------OBJECTS
+   
+
+        { 				
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "yourdorkbrains_cp.blackcurrantt": { 
+                    "Name": "{{ModId}}_blackcurrantt",
+                    "Displayname": "Black Currant",
+                    "Description": "Nutrient-rich berries known for their deep purple color and tart flavor.",
+                    "Type": "Fruit", 
+                    "Category": -79,
+                    "Price": 85,
+                    "Texture": "Mods/{{ModId}}/assets",
+                    "SpriteIndex": 0,
+					"Edibility": 11, 
+					"IsDrink": true,  
+					"ExcludeFromRandomSale": true,
+                    "ContextTags": [ "color_dark_purple", "category_fruits" ]
+            }
+        },
+	},
+
+    { 				
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "yourdorkbrains_cp.gooseberryy": {  
+                    "Name": "{{ModId}}_gooseberryy",
+                    "Displayname": "Gooseberry",
+                    "Description": " A tart juicy berries.",
+                    "Type": "Fruit",  
+                    "Category": -79,
+                    "Price": 75,
+                    "Texture": "Mods/{{ModId}}/assets",
+                    "SpriteIndex": 1,
+					"Edibility": 15,  
+					"IsDrink": false,  
+					"ExcludeFromRandomSale": true,
+                    "ContextTags": [ "color_green", "category_fruits" ]
+            }
+        },
+	},	
+    { 				
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "yourdorkbrains_cp.cloudberryy": {  
+                    "Name": "{{ModId}}cloudberryy",
+                    "Displayname": "Cloudberry",
+                    "Description": "Amber-colored berries prized for their sweet-tart flavor and high vitamin C content.",
+                    "Type": "Fruit",  
+                    "Category": -79,
+                    "Price": 65,
+                    "Texture": "Mods/{{ModId}}/assets",
+                    "SpriteIndex": 2,
+					"Edibility": 15,  
+					"IsDrink": false,  
+					"ExcludeFromRandomSale": true,
+                    "ContextTags": [ "color_copper", "category_fruits" ]
+            }
+        },
+	},	
+        { 				
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "yourdorkbrains_cp.redcurrantt": { 
+                    "Name": "{{ModId}}_redcurrantt",
+                    "Displayname": "Red Currant",
+                    "Description": "Nutrient-rich bright red berries with tart flavor.",
+                    "Type": "Fruit", 
+                    "Category": -79,
+                    "Price": 85,
+                    "Texture": "Mods/{{ModId}}/assets",
+                    "SpriteIndex": 3,
+					"Edibility": 11, 
+					"IsDrink": true,  
+					"ExcludeFromRandomSale": true,
+                    "ContextTags": [ "color_red", "category_fruits" ]
+            }
+        },
+	},
+	
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/assets",
+            "FromFile": "assets/berries1.png" 
+        },
+	]
+}

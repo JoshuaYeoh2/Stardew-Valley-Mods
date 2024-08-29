@@ -1,0 +1,44 @@
+﻿{
+	"Format": "2.0.0",
+	"ConfigSchema": {
+		"Color": {
+			"AllowValues": "black, blue, brown, dark green, gold, green, light blue, olive, orange, pink, red, white, yellow",
+			"Default": "green",
+		}
+	},
+	"Changes": [
+		{
+		"Action": "EditData",
+		"Target": "NCarigon.BushBloomMod/Schedules",
+		"Entries":
+			{
+			"LordDracon.MossyBushesBBM/spring_(O)Moss": {
+				"ShakeOff": "(O)Moss",
+				"StartSeason": "spring",
+				"StartDay": 1,
+				"EndSeason": "fall",
+				"EndDay": 28,
+				"Chance": 0.01
+				},
+			"LordDracon.MossyBushesBBM/spring_(O)MossySeed": {
+				"ShakeOff": "(O)MossySeed",
+				"StartSeason": "spring",
+				"StartDay": 1,
+				"EndSeason": "fall",
+				"EndDay": 28,
+				"Chance": 0.00001
+				}
+			}
+		},
+		{
+		"Action": "EditImage",
+		"Target": 		"NCarigon.BushBloomMod/Textures/LordDracon.MossyBushesBBM/spring_(O)Moss",
+		"FromFile": "assets/{{Color}}.png"
+		},
+		{
+		"Action": "EditImage",
+		"Target": 		"NCarigon.BushBloomMod/Textures/LordDracon.MossyBushesBBM/spring_(O)MossySeed",
+		"FromFile": "assets/{{Color}}.png"
+		}
+	]
+}

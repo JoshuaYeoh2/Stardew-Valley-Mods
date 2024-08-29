@@ -1,0 +1,81 @@
+{
+    "Format": "1.19.0",
+    "ConfigSchema": {
+        "Tina": {
+            "AllowValues": "new, original, off",
+            "Default": "new"
+        },
+        "Vanessa": {
+            "AllowValues": "on, off",
+            "Default": "on"
+        },
+        "Douglas": {
+            "AllowValues": "on, off",
+            "Default": "on"
+        },
+        "James": {
+            "AllowValues": "on, off",
+            "Default": "on"
+        },
+        "Adrian": {
+            "AllowValues": "on, off",
+            "Default": "on"
+        }
+    },
+    "Changes": [
+        {
+            "LogName": "Adrian",
+            "Action": "EditImage",
+            "Target": "Characters/Adrian, Portraits/Adrian",
+            "FromFile": "assets/{{target}}.png",
+            "When": {
+                "Adrian |contains= on": true,
+            }
+        },
+        {
+            "LogName": "Douglas",
+            "Action": "EditImage",
+            "Target": "Characters/Douglas, Portraits/Douglas",
+            "FromFile": "assets/{{target}}.png",
+            "When": {
+                "Douglas |contains= on": true,
+            }
+        },
+        {
+            "LogName": "Vanessa",
+            "Action": "EditImage",
+            "Target": "Characters/Vanessa, Portraits/Vanessa",
+            "FromFile": "assets/{{target}}.png",
+            "When": {
+                "Vanessa |contains= on": true,
+            }
+        },
+        {
+            "LogName": "James",
+            "Action": "EditImage",
+            "Target": "Characters/James, Portraits/James",
+            "FromFile": "assets/{{target}}.png",
+            "When": {
+                "James |contains= on": true,
+            }
+        },
+        {
+            "LogName": "Original Style Tina",
+            "Action": "EditImage",
+            "Target": "Characters/Tina, Portraits/Tina",
+            "FromFile": "assets/{{target}}_Orig.png",
+            "When": {
+                "Tina |contains= original": true,
+            }
+        },
+        { 
+            "LogName": "New Style Tina",
+            "Action": "EditImage",
+            "Target": "Characters/Tina, Portraits/Tina",
+            "FromFile": "assets/{{target}}_New.png",
+            "When": {
+                "Tina |contains= new": true,
+            }
+        },
+    ]
+}

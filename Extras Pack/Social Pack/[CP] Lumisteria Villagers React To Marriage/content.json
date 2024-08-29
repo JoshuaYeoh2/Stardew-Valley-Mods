@@ -1,0 +1,199 @@
+{
+  "Format": "1.23.0",
+  "ConfigSchema": {
+    "EnableLineFor": {
+      "AllowValues": "Demetrius, Jodi, Kent, Lewis, Marnie, Pam, Pierre, Robin",
+      "AllowMultiple": "true",
+      "Default": "Demetrius, Jodi, Kent, Lewis, Marnie, Pam, Pierre, Robin"
+    }
+  },
+  "Changes": [
+    /*Demetrius*/
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Demetrius",
+      "Entries": {
+        "wedding": "Marriage is an experience. You'll have a lot of discoveries waiting for you."
+      },
+      "When": {
+        "EnableLineFor": "Demetrius"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Demetrius",
+      "Entries": {
+        "wedding": "Maru was so happy during the ceremony.#$e#Marriage is an experience. You'll have a lot of discoveries waiting for you."
+      },
+      "When": {
+        "Spouse": "Maru",
+        "EnableLineFor": "Demetrius"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Demetrius",
+      "Entries": {
+        "wedding": "Sebastian was really unhappy here. Partly because of me...#$e#I hope his new situation will make him and you happy."
+      },
+      "When": {
+        "Spouse": "Sebastian",
+        "EnableLineFor": "Demetrius"
+      }
+    }
+    /*Jodi*/,
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Jodi",
+      "Entries": {
+        "wedding": "Congratulation on your wedding. Here's something i made for you. [220]"
+      },
+      "When": {
+        "EnableLineFor": "Jodi"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Jodi",
+      "Entries": {
+        "wedding": "Sam, married... It's hard to believe. Take this.[206]#$e#It's a pizza i made especially for both of you. It's not traditional, but he likes that so much."
+      },
+      "When": {
+        "Spouse": "Sam",
+        "EnableLineFor": "Jodi"
+      }
+    }
+    /*Kent*/,
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Kent",
+      "Entries": {
+        "wedding": "Marriage is a big change. But it can be one of the most beautiful."
+      },
+      "When": {
+        "EnableLineFor": "Kent"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Kent",
+      "Entries": {
+        "wedding": "I wasn't here for Sam for a lot of thing, but i'm happy i was here for the marriage.#$e#And i'll guide him if he needs me."
+      },
+      "When": {
+        "Spouse": "Sam",
+        "EnableLineFor": "Kent"
+      }
+    }
+    /*Lewis*/,
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Lewis",
+      "Entries": {
+        "wedding": "Each marriage we have here bring me joy. I like seeing this town full of life.$h"
+      },
+      "When": {
+        "EnableLineFor": "Lewis"
+      }
+    }
+    /*Marnie*/,
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Marnie",
+      "Entries": {
+        "wedding": "Ah, marriages are so romantic.*sigh*"
+      },
+      "When": {
+        "EnableLineFor": "Marnie"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Marnie",
+      "Entries": {
+        "wedding": "Ah, marriages are so romantic.*sigh*#$e#I hope Shane and you will be happy on your farm."
+      },
+      "When": {
+        "Spouse": "Shane",
+        "EnableLineFor": "Marnie"
+      }
+    }
+    /*Pam*/,
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Pam",
+      "Entries": {
+        "wedding": "Congrats on the marriage, kid. Hope it'll end better than my story."
+      },
+      "When": {
+        "EnableLineFor": "Pam"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Pam",
+      "Entries": {
+        "wedding": "Seeing my little girl being married is strange.#$e#Maybe things will be easier between us now."
+      },
+      "When": {
+        "Spouse": "Penny",
+        "EnableLineFor": "Pam"
+      }
+    }
+    /*Pierre*/,
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Pierre",
+      "Entries": {
+        "wedding": "This marriage will surely inspire some romantic purchases. Maybe i should put the bouquets in the front for some days.#$e#And i'll get one for Caroline."
+      },
+      "When": {
+        "EnableLineFor": "Pierre"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Pierre",
+      "Entries": {
+        "wedding": "The house will feel quieter without Abigail around, but i know she'll be happy on the farm."
+      },
+      "When": {
+        "Spouse": "Abigail",
+        "EnableLineFor": "Pierre"
+      }
+    }
+    /*Robin*/,
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Robin",
+      "Entries": {
+        "wedding": "Congratulation on the marriage.$h#$e#Remember that communication is important. Even on details.#$e#Especially on details maybe."
+      },
+      "When": {
+        "EnableLineFor": "Robin"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Robin",
+      "Entries": {
+        "wedding": "Maru looked so happy during the ceremony.#$e#I know this smile well. I had the same during my wedding."
+      },
+      "When": {
+        "Spouse": "Maru",
+        "EnableLineFor": "Robin"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Robin",
+      "Entries": {
+        "wedding": "Sebastian looked so cute on his suit during the ceremony.#$e#You seem to make him happy.$h"
+      },
+      "When": {
+        "Spouse": "Sebastian",
+        "EnableLineFor": "Robin"
+      }
+    }
+  ]
+}

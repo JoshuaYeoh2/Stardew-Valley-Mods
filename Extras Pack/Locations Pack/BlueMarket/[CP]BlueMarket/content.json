@@ -1,0 +1,92 @@
+{
+   "Format": "1.28.0",
+   
+   "CustomLocations": [
+      {
+         "Name": "Custom_bpbmcave",
+         "FromMapFile": "assets/BMCave.tmx"
+      },
+	  	  {
+         "Name": "Custom_bpbmcaved",
+         "FromMapFile": "assets/BMCavedown.tmx"
+      },
+	  {
+         "Name": "Custom_bpbmrutex",
+         "FromMapFile": "assets/BMRute.tmx"
+      },
+	  {
+         "Name": "Custom_bpbmshop",
+         "FromMapFile": "assets/BMShop.tmx"
+      },
+	  {
+         "Name": "Custom_bpbmshopup",
+         "FromMapFile": "assets/BMShopUP.tmx"
+      }
+   ],
+   "Changes": [
+      {
+        "Action": "Load",
+        "Target": "Maps/bluemarket",
+        "FromFile": "assets/bluemarket.png"
+      },
+	  {
+        "Action": "EditMap",
+        "Target": "Maps/Custom_bpbmcave",
+        "AddWarps": [
+            "18 14 Custom_bpbmrutex 24 6"
+        ]
+     },
+	 {
+        "Action": "EditMap",
+        "Target": "Maps/Custom_bpbmrutex",
+        "AddWarps": [
+            "24 5 Custom_bpbmcave 18 13",
+			"18 24 BusStop 12 11"
+        ]
+     },
+	 {
+        "Action": "EditMap",
+        "Target": "Maps/Custom_bpbmshop",
+        "AddWarps": [
+            "9 11 Custom_bpbmrutex 15 9",
+			"16 1 Custom_bpbmshopup 14 10",
+			"17 1 Custom_bpbmshopup 15 10"
+        ]
+     },
+	 {
+        "Action": "EditMap",
+        "Target": "Maps/Custom_bpbmshopup",
+        "AddWarps": [
+			"14 11 Custom_bpbmshop 16 6",
+			"15 11 Custom_bpbmshop 17 6"
+        ]
+     },
+	 {
+      "Action": "EditData",
+      "Target": "Strings/StringsFromMaps",
+      "Entries": {
+        "bmenvio": "{{i18n:bm.envio}}",
+        "bmcartelblue": "{{i18n:bm.cartelblue}}",
+        "bmcultivo": "{{i18n:bm.cultivo}}",
+        "bmespanta": "{{i18n:bm.espanta}}",
+        "bmcartelcalle": "{{i18n:bm.cartelcalle}}",
+        "bmchesfruta": "{{i18n:bm.chesfruta}}",
+		"bmchesverdura": "{{i18n:bm.chesverdura}}",
+		"bmchestint": "{{i18n:bm.chestint}}",
+		"bmestante": "{{i18n:bm.estante}}",
+		"bmlibros1": "{{i18n:bm.libros1}}",
+		"bmlibros2": "{{i18n:bm.libros2}}",
+		"bmlibros3": "{{i18n:bm.libros3}}",
+		"bmlibros4": "{{i18n:bm.libros4}}",
+		"bmsecreto": "{{i18n:bm.secreto}}",
+		"bmccave1": "{{i18n:bm.ccave1}}",
+		"bmccave2": "{{i18n:bm.ccave2}}",
+		"bmccave3": "{{i18n:bm.ccave3}}",
+		"bmbcave": "{{i18n:bm.bcave}}",
+		"bmantorcave": "{{i18n:bm.antorcave}}",
+		"bmcartelcave": "{{i18n:bm.cartelcave}}",
+      }
+    }
+   ]
+   
+}

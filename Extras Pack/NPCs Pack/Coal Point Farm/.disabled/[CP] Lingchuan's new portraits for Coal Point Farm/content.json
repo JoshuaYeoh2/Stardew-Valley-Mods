@@ -1,0 +1,19 @@
+{
+	"Format": "2.3.0",
+	"Changes":
+	[
+        {
+            "Action": "Load",
+            "Target": "Portraits/APTAshidaStandIn",
+            "FromFile": "assets/portraits/Ashida/AshidaPortraits{{Season}}.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Portraits/APTMoraStandIn",
+            "FromFile": "assets/portraits/Mora/MoraPortraits{{Season}}.png"
+        }
+	]
+}
+
+

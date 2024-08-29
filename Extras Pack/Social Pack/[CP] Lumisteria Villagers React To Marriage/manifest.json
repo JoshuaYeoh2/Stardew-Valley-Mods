@@ -1,0 +1,19 @@
+{
+   "Name": "Lumisteria Villagers React To Marriage",
+   "Author": "Lumisteria",
+  "Version": "1.0.0",
+   "Description": "A mod adding some custom reactions to marriage.",
+   "UniqueID": "Lumisteria.VillagersReactToMarriage",
+   "MinimumApiVersion": "3.12.2",      // Minimum SMAPI version, use whatever is current
+   "UpdateKeys": ["Nexus:10009"],
+   "ContentPackFor": {
+	  "UniqueID": "Pathoschild.ContentPatcher",
+	  "MinimumVersion": "1.23.0" // Minimum Content Patcher version, use whatever is current
+   },
+    "Dependencies": [
+           {
+              "UniqueID": "violetlizabet.MoreConvoTopics",
+              "IsRequired": true
+           },
+    ],
+}

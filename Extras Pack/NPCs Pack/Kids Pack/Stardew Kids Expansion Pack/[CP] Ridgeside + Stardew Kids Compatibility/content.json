@@ -1,0 +1,22 @@
+{
+	"Format": "2.0.0",
+	"Changes":	[
+		{
+			"Action": "Include",
+			"FromFile": "Assets/Schedules/Flor.json"
+		},
+		{
+			"LogName": "Flor Schedule Change",
+			"Action": "EditData",
+			"Target": "Characters/Schedules/Flor",
+			"Entries":  {
+				"spring": "610 Custom_Ridgeside_LogCabinHotel2ndFloor 6 5 2/800 Town 64 16 2/1300 Custom_Ridgeside_LogCabinHotelLobby 21 14 2/2000 Custom_Ridgeside_LogCabinHotel2ndFloor 2 9 1/2400 Custom_Ridgeside_LogCabinHotel2ndFloor 3 5 0 flor_sleep"
+						},
+			"When": 
+			{
+			"HasMod: |contains=Rafseazz.RSVCP": true,
+			"HasMod: |contains=BURAKMESE.SKE": true
+			}		
+		}	
+	]
+}

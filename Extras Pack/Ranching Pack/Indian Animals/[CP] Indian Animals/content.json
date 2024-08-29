@@ -1,0 +1,682 @@
+{
+    "Format": "2.0",
+    "Changes": [
+        {
+            "LogName": "Load data for Asil Chicken (Asil Chicken)",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Asil Chicken": {
+                    "DisplayName": "Asil Chicken",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 2500,
+                    "ShopTexture": "Animals/balverines.indianbfav-Asil Chicken Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "Asil Chicken",
+                    "ShopDescription": "The Asil or Aseel is a breed of chicken originating from Indian subcontinent.",
+					"EggItemIds": [
+					  "174",
+					  "176"
+					],
+					"IncubationTime": 9000,
+					"IncubatorParentSheetOffset": 1,
+					"BirthText": "A new chick hatched!",
+                    "DaysToMature": "5",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "176"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "174"
+                        }
+                    ],
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "cluck",
+                    "BabySound": "cluck",
+                    "Texture": "Animals/balverines.indianbfav-Asil Chicken",
+                    "HarvestedTexture": "Animals/balverines.indianbfav-Asil Chicken",
+                    "BabyTexture": "Animals/balverines.indianbfav-Asil Chicken Baby",
+					"UseFlippedRightForLeft": true,
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+					"SellPrice": 1200,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        {
+            "LogName": "Load data for White-Faced Black Spanish Chicken (White-Faced Black Spanish Chicken)",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "White-Faced Black Spanish Chicken": {
+                    "DisplayName": "White-Faced Black Spanish Chicken",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 2500,
+                    "ShopTexture": "Animals/balverines.indianbfav-White-Faced Black Spanish Chicken Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "White-Faced Black Spanish Chicken",
+                    "ShopDescription": "A breed of chicken originally from Spain.",
+					"EggItemIds": [
+					  "174",
+					  "176"
+					],
+					"IncubationTime": 9000,
+					"IncubatorParentSheetOffset": 1,
+					"BirthText": "A new chick hatched!",
+					"DaysToMature": "5",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "176"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "174"
+                        }
+                    ],
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "cluck",
+                    "BabySound": "cluck",
+                    "Texture": "Animals/balverines.indianbfav-White-Faced Black Spanish Chicken",
+                    "HarvestedTexture": "Animals/balverines.indianbfav-White-Faced Black Spanish Chicken",
+                    "BabyTexture": "Animals/balverines.indianbfav-White-Faced Black Spanish Chicken Baby",
+					"UseFlippedRightForLeft": true,
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+					"SellPrice": 1200,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        {
+            "LogName": "Load data for Dangi (Brown Dangi)",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Brown Dangi": {
+                    "DisplayName": "Brown Dangi",
+                    "House": "Barn",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 5000,
+                    "ShopTexture": "Animals/balverines.indianbfav-Dangi Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Barn",
+                    "ShopDisplayName": "Dangi",
+                    "ShopDescription": "A good drought cow.",
+     "AlternatePurchaseTypes": [
+      {
+        "Condition": null,
+        "AnimalIds": [
+          "Brown Dangi",
+		  "Black Dangi",
+        ]
+      }
+    ],
+                    "DaysToMature": "5",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "184"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "186"
+                        }
+                    ],
+                    "DaysToProduce": "1",
+                    "HarvestType": "HarvestWithTool",
+                    "HarvestTool": "Milk Pail",
+                    "Sound": "cow",
+                    "BabySound": "cow",
+                    "Texture": "Animals/balverines.indianbfav-Brown Dangi",
+                    "HarvestedTexture": "Animals/balverines.indianbfav-Brown Dangi",
+                    "BabyTexture": "Animals/balverines.indianbfav-Brown Dangi Baby",
+					"UseFlippedRightForLeft": true,
+                    "SpriteWidth": "32",
+                    "SpriteHeight": "32",
+					"SellPrice": 2500,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        {
+            "LogName": "Load data for Dangi (Black Dangi)",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Black Dangi": {
+                    "DisplayName": "Black Dangi",
+                    "House": "Barn",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": -1,
+                    "ShopTexture": "Animals/balverines.indianbfav-Black Dangi Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Barn",
+                    "ShopDisplayName": "Black Dangi",
+                    "ShopDescription": "A good drought cow.",
+                    "DaysToMature": "5",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "184"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "186"
+                        }
+                    ],
+                    "DaysToProduce": "1",
+                    "HarvestType": "HarvestWithTool",
+                    "HarvestTool": "Milk Pail",
+                    "Sound": "cow",
+                    "BabySound": "cow",
+                    "Texture": "Animals/balverines.indianbfav-Black Dangi",
+                    "HarvestedTexture": "Animals/balverines.indianbfav-Black Dangi",
+                    "BabyTexture": "Animals/balverines.indianbfav-Black Dangi Baby",
+					"UseFlippedRightForLeft": true,
+                    "SpriteWidth": "32",
+                    "SpriteHeight": "32",
+					"SellPrice": 2500,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        {
+            "LogName": "Load data for Domestic Guinea Fowl (Domestic Guinea Fowl)",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Domestic Guinea Fowl": {
+                    "DisplayName": "Domestic Guinea Fowl",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 3000,
+                    "ShopTexture": "Animals/balverines.indianbfav-Domestic Guinea Fowl Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "Domestic Guinea Fowl",
+                    "ShopDescription": "Closely related to turkeys and good at dealing with insects.",
+					"EggItemIds": [
+					  "174",
+					  "176"
+					],
+					"IncubationTime": 9000,
+					"IncubatorParentSheetOffset": 1,
+					"BirthText": "A new keet hatched!",
+                    "DaysToMature": "5",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "176"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "174"
+                        }
+                    ],
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "cluck",
+                    "BabySound": "cluck",
+                    "Texture": "Animals/balverines.indianbfav-Domestic Guinea Fowl",
+                    "HarvestedTexture": "Animals/balverines.indianbfav-Domestic Guinea Fowl",
+                    "BabyTexture": "Animals/balverines.indianbfav-Domestic Guinea Fowl Baby",
+					"UseFlippedRightForLeft": true,
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+					"SellPrice": 1500,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        {
+            "LogName": "Load data for Indian Wild Boar (Indian Wild Boar)",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Indian Wild Boar": {
+                    "DisplayName": "Indian Wild Boar",
+                    "House": "Barn",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 16000,
+                    "ShopTexture": "Animals/balverines.indianbfav-Indian Wild Boar Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Barn",
+                    "ShopDisplayName": "Indian Wild Boar",
+                    "ShopDescription": "A type of wild pig.",
+                    "DaysToMature": "10",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "430"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "430"
+                        }
+                    ],
+                    "DaysToProduce": "1",
+                    "HarvestType": "DigUp",
+                    "HarvestTool": "null",
+                    "Sound": "pig",
+                    "BabySound": "pig",
+                    "Texture": "Animals/balverines.indianbfav-Indian Wild Boar",
+                    "HarvestedTexture": "Animals/balverines.indianbfav-Indian Wild Boar",
+                    "BabyTexture": "Animals/balverines.indianbfav-Indian Wild Boar Baby",
+					"UseFlippedRightForLeft": true,
+                    "SpriteWidth": "32",
+                    "SpriteHeight": "32",
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        {
+            "LogName": "Load data for Runner Duck (Runner Duck)",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Runner Duck": {
+                    "DisplayName": "Runner Duck",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 2500,
+                    "ShopTexture": "Animals/balverines.indianbfav-Runner Duck Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "Runner Duck",
+                    "ShopDescription": "A type of water fowl.",
+					"EggItemIds": [
+					  "442",
+					],
+					"IncubationTime": 9000,
+					"IncubatorParentSheetOffset": 1,
+					"BirthText": "A new duckling hatched!",
+                    "DaysToMature": "5",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "442"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "444"
+                        }
+                    ],
+                    "DaysToProduce": "2",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "Duck",
+                    "BabySound": "Duck",
+                    "Texture": "Animals/balverines.indianbfav-Runner Duck",
+                    "HarvestedTexture": "Animals/balverines.indianbfav-Runner Duck",
+                    "BabyTexture": "Animals/balverines.indianbfav-Runner Duck Baby",
+					"UseFlippedRightForLeft": true,
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+					"SellPrice": 1200,
+					"CanSwim": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        {
+            "LogName": "Load data for Jamnapari (Jamnapari)",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Jamnapari": {
+                    "DisplayName": "Jamnapari",
+                    "House": "Barn",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 5000,
+                    "ShopTexture": "Animals/balverines.indianbfav-Jamnapari Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Barn",
+                    "ShopDisplayName": "Jamnapari",
+                    "ShopDescription": "A type of Asian goat that will produce milk.",
+                    "DaysToMature": "5",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "436"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "438"
+                        }
+                    ],
+                    "DaysToProduce": "2",
+                    "HarvestType": "HarvestWithTool",
+                    "HarvestTool": "Milk Pail",
+                    "Sound": "goat",
+                    "BabySound": "goat",
+                    "Texture": "Animals/balverines.indianbfav-Jamnapari",
+                    "HarvestedTexture": "Animals/balverines.indianbfav-Jamnapari",
+                    "BabyTexture": "Animals/balverines.indianbfav-Jamnapari Baby",
+					"UseFlippedRightForLeft": true,
+                    "SpriteWidth": "32",
+                    "SpriteHeight": "32",
+					"SellPrice": 2500,
+					"UseFlippedRightForLeft": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        {
+            "LogName": "Load data for Kadaknath Chicken (Kadaknath Chicken)",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Kadaknath Chicken": {
+                    "DisplayName": "Kadaknath Chicken",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 2500,
+                    "ShopTexture": "Animals/balverines.indianbfav-Kadaknath Chicken Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "Kadaknath Chicken",
+                    "ShopDescription": "A fancy type of chicken.",
+					"EggItemIds": [
+					  "174",
+					  "176"
+					],
+					"IncubationTime": 9000,
+					"IncubatorParentSheetOffset": 1,
+					"BirthText": "A new chick hatched!",
+                    "DaysToMature": "5",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "176"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "174"
+                        }
+                    ],
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "cluck",
+                    "BabySound": "cluck",
+                    "Texture": "Animals/balverines.indianbfav-Kadaknath Chicken",
+                    "HarvestedTexture": "Animals/balverines.indianbfav-Kadaknath Chicken",
+                    "BabyTexture": "Animals/balverines.indianbfav-Kadaknath Chicken Baby",
+					"UseFlippedRightForLeft": true,
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+					"SellPrice": 1200,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        {
+            "LogName": "Load shopIcon for Asil Chicken",
+            "Action": "Load",
+            "Target": "Animals/balverines.indianbfav-Asil Chicken Icon",
+            "FromFile": "assets\\animal_shop_asil.png"
+        },
+        {
+            "LogName": "Load adultSprite for Asil Chicken",
+            "Action": "Load",
+            "Target": "Animals/balverines.indianbfav-Asil Chicken",
+            "FromFile": "assets/whitechicken.png"
+        },
+        {
+            "LogName": "Load babySprite for Asil Chicken",
+            "Action": "Load",
+            "Target": "Animals/balverines.indianbfav-Asil Chicken Baby",
+            "FromFile": "assets/whitechick.png"
+        },
+        {
+            "LogName": "Load shopIcon for White-Faced Black Spanish Chicken",
+            "Action": "Load",
+            "Target": "Animals/balverines.indianbfav-White-Faced Black Spanish Chicken Icon",
+            "FromFile": "assets\\animal_shop_wfbs.png"
+        },
+        {
+            "LogName": "Load adultSprite for White-Faced Black Spanish Chicken",
+            "Action": "Load",
+            "Target": "Animals/balverines.indianbfav-White-Faced Black Spanish Chicken",
+            "FromFile": "assets/bluechicken.png"
+        },
+        {
+            "LogName": "Load babySprite for White-Faced Black Spanish Chicken",
+            "Action": "Load",
+            "Target": "Animals/balverines.indianbfav-White-Faced Black Spanish Chicken Baby",
+            "FromFile": "assets/bluechick.png"
+        },
+        {
+            "LogName": "Load shopIcon for Dangi",
+            "Action": "Load",
+            "Target": "Animals/balverines.indianbfav-Dangi Icon",
+            "FromFile": "assets\\animal_shop_dangi.png"
+        },
+        {
+            "LogName": "Load adultSprite for Brown Dangi",
+            "Action": "Load",
+            "Target": "Animals/balverines.indianbfav-Brown Dangi",
+            "FromFile": "assets/browndangi.png"
+        },
+        {
+            "LogName": "Load babySprite for Brown Dangi",
+            "Action": "Load",
+            "Target": "Animals/balverines.indianbfav-Brown Dangi Baby",
+            "FromFile": "assets/browncalf.png"
+        },
+        {
+            "LogName": "Load adultSprite for Black Dangi",
+            "Action": "Load",
+            "Target": "Animals/balverines.indianbfav-Black Dangi",
+            "FromFile": "assets/dangi.png"
+        },
+        {
+            "LogName": "Load babySprite for Black Dangi",
+            "Action": "Load",
+            "Target": "Animals/balverines.indianbfav-Black Dangi Baby",
+            "FromFile": "assets/calf.png"
+        },
+        {
+            "LogName": "Load shopIcon for Domestic Guinea Fowl",
+            "Action": "Load",
+            "Target": "Animals/balverines.indianbfav-Domestic Guinea Fowl Icon",
+            "FromFile": "assets\\animal_shop_guinea.png"
+        },
+        {
+            "LogName": "Load adultSprite for Domestic Guinea Fowl",
+            "Action": "Load",
+            "Target": "Animals/balverines.indianbfav-Domestic Guinea Fowl",
+            "FromFile": "assets/brownchicken.png"
+        },
+        {
+            "LogName": "Load babySprite for Domestic Guinea Fowl",
+            "Action": "Load",
+            "Target": "Animals/balverines.indianbfav-Domestic Guinea Fowl Baby",
+            "FromFile": "assets/brownchick.png"
+        },
+        {
+            "LogName": "Load shopIcon for Indian Wild Boar",
+            "Action": "Load",
+            "Target": "Animals/balverines.indianbfav-Indian Wild Boar Icon",
+            "FromFile": "assets\\animal_shop_boar.png"
+        },
+        {
+            "LogName": "Load adultSprite for Indian Wild Boar",
+            "Action": "Load",
+            "Target": "Animals/balverines.indianbfav-Indian Wild Boar",
+            "FromFile": "assets/boar.png"
+        },
+        {
+            "LogName": "Load babySprite for Indian Wild Boar",
+            "Action": "Load",
+            "Target": "Animals/balverines.indianbfav-Indian Wild Boar Baby",
+            "FromFile": "assets/boarlet.png"
+        },
+        {
+            "LogName": "Load shopIcon for Runner Duck",
+            "Action": "Load",
+            "Target": "Animals/balverines.indianbfav-Runner Duck Icon",
+            "FromFile": "assets\\animal_shop_runner.png"
+        },
+        {
+            "LogName": "Load adultSprite for Runner Duck",
+            "Action": "Load",
+            "Target": "Animals/balverines.indianbfav-Runner Duck",
+            "FromFile": "assets/duck.png"
+        },
+        {
+            "LogName": "Load babySprite for Runner Duck",
+            "Action": "Load",
+            "Target": "Animals/balverines.indianbfav-Runner Duck Baby",
+            "FromFile": "assets/duckling.png"
+        },
+        {
+            "LogName": "Load shopIcon for Jamnapari",
+            "Action": "Load",
+            "Target": "Animals/balverines.indianbfav-Jamnapari Icon",
+            "FromFile": "assets\\animal_shop_jamnapari.png"
+        },
+        {
+            "LogName": "Load adultSprite for Jamnapari",
+            "Action": "Load",
+            "Target": "Animals/balverines.indianbfav-Jamnapari",
+            "FromFile": "assets/goat.png"
+        },
+        {
+            "LogName": "Load babySprite for Jamnapari",
+            "Action": "Load",
+            "Target": "Animals/balverines.indianbfav-Jamnapari Baby",
+            "FromFile": "assets/kid.png"
+        },
+        {
+            "LogName": "Load shopIcon for Kadaknath Chicken",
+            "Action": "Load",
+            "Target": "Animals/balverines.indianbfav-Kadaknath Chicken Icon",
+            "FromFile": "assets\\animal_shop_kadaknath.png"
+        },
+        {
+            "LogName": "Load adultSprite for Kadaknath Chicken",
+            "Action": "Load",
+            "Target": "Animals/balverines.indianbfav-Kadaknath Chicken",
+            "FromFile": "assets/void.png"
+        },
+        {
+            "LogName": "Load babySprite for Kadaknath Chicken",
+            "Action": "Load",
+            "Target": "Animals/balverines.indianbfav-Kadaknath Chicken Baby",
+            "FromFile": "assets/voidchick.png"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "NCarigon.BushBloomMod/Schedules",
+			"Entries": {
+				"HuckleberrySeason/summer_Huckleberry": {
+					"ShakeOff": "{{ModID}}_Huckleberry",
+					"StartSeason": "summer",
+					"StartDay": 12,
+					"EndDay": 16,
+					"Chance": 0.4,
+				},
+			},			
+		},
+		{
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/HuckleberrySeason/summer_Huckleberry",
+			"FromFile": "assets/huckleberrybush.png"
+		}
+	]
+}

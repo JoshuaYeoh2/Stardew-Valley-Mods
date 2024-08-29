@@ -1,0 +1,873 @@
+{
+	"Format": "1.11",
+	
+    "DynamicTokens": [
+        {
+            "Name": "CarolineStand",
+            "Value": "01, 01, none | CarolineChanges",
+        },
+        {
+            "Name": "CarolineProducts",
+            "Value": "CaroFlowers01, CaroFlowers02",
+        },
+        {
+            "Name": "WillyStand",
+            "Value": "01, 02 | WillyChanges",
+        },
+        {
+            "Name": "MarnieStand",
+            "Value": "01, 02 | MarnieChanges",
+        },
+        {
+            "Name": "ClintStand",
+            "Value": "01, 02 | ClintChanges",
+        },
+	],
+
+	"ConfigSchema": {
+	
+    },
+	
+	
+	"Changes": [
+	
+	//Gus stand (guaranteed)
+	
+		{			
+			"LogName": "Barbecue",
+			"Action": "EditImage",
+			"Target": "Festivals,Maps/Festivals",
+			"FromFile": "assets/BarbecueVeggies.png",
+			"ToArea": { "X": 240, "Y": 63, "Width": 32, "Height": 33 },
+			"When": {
+			"Year": "{{Range: 2, 10}}",
+			"DayEvent": "stardew valley fair",
+			}
+		},		
+		
+		{			
+			"LogName": "Barbecue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": {
+						"Evelyn": "I'm glad Gus added a vegetarian option after all. It's not zucchinis, but it's still something.",
+						"Gus": "Eat as much as you like! It's all free today... compliments of Mayor Lewis.$h#$e#Oh! Make sure to dribble some of my secret sauce on there. Due to popular request, we also have eggplant steak now. Entirely vegetarians!",
+
+			},
+			"When": {
+			"Year": "{{Range: 2, 10}}",
+			"DayEvent": "stardew valley fair",
+			}
+		},
+	
+	
+		//willy Year 2	(guaranteed)
+		
+		{			
+			"LogName": "WillyStandY2Graphic",
+			"Action": "EditImage",
+			"Target": "Festivals,Maps/Festivals",
+			"FromFile": "assets/WillyFish.png",
+			"ToArea": { "X": 464, "Y": 55, "Width": 48, "Height": 57 },
+			"When": {
+			"Year": "2",
+			"DayEvent": "stardew valley fair",
+			}
+		},		
+		
+		
+		{			
+			"LogName": "WillyStandY2Fall16",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": {
+						"Caroline": "Pierre is very serious about his grange display. He's been setting aside the best-looking produce for weeks in preparation. But the competition is high this year.#$e#Hey, best of luck to you if you enter!",
+						"Willy": "What will you put in your grange display, @? It's your chance to show off all the good produce from %farm!#$b# I'm pretty proud of my catch this year.$h",
+						"Gus": "Eat as much as you like! It's all free today... compliments of Mayor Lewis.$h#$e#Oh! Make sure to dribble some of my secret sauce on there.#$e#Hey, you saw that fish on Willy's stand ? I'm so impatient to cook it. What a feast it will be.$h",
+						"Elliott": "I want to hear Willy's story about how he caught this fish. I'm sure it was epic.",
+
+			},
+			"When": {
+			"Year": "2",
+			"DayEvent": "stardew valley fair",
+			}
+		},
+		
+		{
+			"LogName": "WillyStandY2StringMaps",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+						"Town-Fair.4": "Tourist: I never saw a fish so big !",
+			},
+			"When": {
+			"Year": "2",
+			"DayEvent": "stardew valley fair",
+			}
+		},
+		
+		{
+			"LogName": "WillyStandY2StringCS",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"Entries": {
+						"Event.cs.1591": "I expected a better result...$s#$b#Did you saw this fish Willy caught ? I wonder how much this would sell for.",
+						"Event.cs.1597": "Lewis may not be into fishing but even he was impressed this year!$h",
+						"Event.cs.1606": "This fish was so big I had to ask for help to weigh it!.$h",
+			},
+			"When": {
+			"Year": "2",
+			"DayEvent": "stardew valley fair",
+			}
+		},
+			//SVE
+			
+		{
+			"LogName": "WillyStandY2SVE",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+						"Town-Fair.25": "This big fish is likely a sturgeon. They can have impressive size.",
+			},
+            "When":
+            {
+			"Year": "2",
+             "HasMod":"FlashShifter.StardewValleyExpandedCP",
+			"DayEvent": "stardew valley fair",
+            }
+		},
+		    
+			
+		//willy Repeat Year2	(year 3 and 5+)
+		
+		{			
+			"LogName": "WillyStandRY2Graphic",
+			"Action": "EditImage",
+			"Target": "Festivals,Maps/Festivals",
+			"FromFile": "assets/WillyFish.png",
+			"ToArea": { "X": 464, "Y": 55, "Width": 48, "Height": 57 },
+			"When": {
+			"Year": "3, {{Range: 5, 10}}",
+			"Random: {{WillyStand}}": "01",
+			"DayEvent": "stardew valley fair",
+			}
+		},		
+		
+		
+		{			
+			"LogName": "WillyStandRY2Fall16",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": {
+						"Caroline": "Pierre is very serious about his grange display. He's been setting aside the best-looking produce for weeks in preparation. But the competition is high this year.#$e#Hey, best of luck to you if you enter!",
+						"Willy": "What will you put in your grange display, @? It's your chance to show off all the good produce from %farm!#$b# I'm pretty proud of my catch this year.$h",
+						"Gus": "Eat as much as you like! It's all free today... compliments of Mayor Lewis.$h#$e#Oh! Make sure to dribble some of my secret sauce on there.#$e#Hey, you saw that fish on Willy's stand ? I'm so impatient to cook it. What a feast it will be.$h",
+						"Elliott": "I want to hear Willy's story about how he caught this fish. I'm sure it was epic.",
+
+			},
+			"When": {
+			"Year": "3, {{Range: 5, 10}}",
+			"Random: {{WillyStand}}": "01",
+			"DayEvent": "stardew valley fair",
+			}
+		},
+		
+		{
+			"LogName": "WillyStandRY2StringMaps",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+						"Town-Fair.4": "Tourist: I never saw a fish so big !",
+			},
+			"When": {
+			"Year": "3, {{Range: 5, 10}}",
+			"Random: {{WillyStand}}": "01",
+			"DayEvent": "stardew valley fair",
+			}
+		},
+		
+		{
+			"LogName": "WillyStandRY2StringCS",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"Entries": {
+						"Event.cs.1591": "I expected a better result...$s#$b#Did you saw this fish Willy caught ? I wonder how much this would sell for.",
+						"Event.cs.1597": "Lewis may not be into fishing but even he was impressed this year!$h",
+						"Event.cs.1606": "This fish was so big I had to ask for help to weigh it!.$h",
+			},
+			"When": {
+			"Year": "3, {{Range: 5, 10}}",
+			"Random: {{WillyStand}}": "01",
+			"DayEvent": "stardew valley fair",
+			}
+		},
+			//SVE
+			
+		{
+			"LogName": "WillyStandRY2SVE",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+						"Town-Fair.25": "This big fish is likely a sturgeon. They can have impressive size.",
+			},
+            "When":
+            {
+			"Year": "3, {{Range: 5, 10}}",
+             "HasMod":"FlashShifter.StardewValleyExpandedCP",
+			"Random: {{WillyStand}}": "01",
+			"DayEvent": "stardew valley fair",
+            }
+		},
+	
+		 
+		//willy year 4		 (guaranteed)
+			
+		
+		{			
+			"LogName": "WillyStandY4Graphic",
+			"Action": "EditImage",
+			"Target": "Festivals,Maps/Festivals",
+			"FromFile": "assets/WillyPearl.png",
+			"ToArea": { "X": 464, "Y": 55, "Width": 48, "Height": 57 },
+			"When": {
+			"Year": "4",
+			}
+		},
+		{			
+			"LogName": "WillyStandY4Fall16",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": {
+						"Caroline": "It's nice to see some new things each year.#$e#Hey, best of luck to you if you enter!",
+						"Willy": "Are you ready for this year, @?#$b#Today I wanted to show off the best treasures of the sea.$h",
+						"Elliott": "I like imagining stories for each item on Willy's stand. How did this chest end up in the sea??",
+
+			},
+			"When": {
+			"Year": "4",
+			"DayEvent": "stardew valley fair",
+			}
+		},		
+		{
+			"LogName": "WillyStandY4StringMaps",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+						"Town-Fair.4": "Tourist: These treasures are so shiny.",
+						"Town-Fair.5": "Tourist: This year the grange displays are amazing! Did you see all of those beautiful pearls?",
+			},
+			"When": {
+			"Year": "4",
+			"DayEvent": "stardew valley fair",
+			}
+		}, 
+		{
+			"LogName": "WillyStandY4StringCS",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"Entries": {
+						"Event.cs.1591": "I wasn't able to compete with Willy. Maybe I should change things up a bit next time.$s",
+						"Event.cs.1597": "All of this was very rewarding.$h",
+						"Event.cs.1606": "The sea can be generous in a lot of ways. Maybe Lewis will be too.$h",
+			},
+			"When": {
+			"Year": "4",
+			"DayEvent": "stardew valley fair",
+			}
+		},
+			//SVE
+			
+		{
+			"LogName": "WillyStandY4SVE",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+						"Town-Fair.25": "Those are amongst the finest pearls.",
+			},
+            "When":
+            {
+			"Year": "4",
+             "HasMod":"FlashShifter.StardewValleyExpandedCP",
+			"DayEvent": "stardew valley fair",
+            }
+		},
+		 
+		//willy Repeat year 4
+			
+		
+		{			
+			"LogName": "WillyStandRY4Graphic",
+			"Action": "EditImage",
+			"Target": "Festivals,Maps/Festivals",
+			"FromFile": "assets/WillyPearl.png",
+			"ToArea": { "X": 464, "Y": 55, "Width": 48, "Height": 57 },
+			"When": {
+			"Year": "3, {{Range: 5, 10}}",
+			"Random: {{WillyStand}}": "02",
+			"DayEvent": "stardew valley fair",
+			}
+		},
+		{			
+			"LogName": "WillyStandRY4Fall16",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": {
+						"Caroline": "It's nice to see some new things each year.#$e#I wish Pierre would change things a bit too...#$e#Hey, best of luck to you if you enter!",
+						"Willy": "Are you ready for this year, @?#$b#Today I wanted to show off the best treasures of the sea.$h",
+						"Elliott": "I like imagining stories for each item on Willy's stand. How did this chest end up in the sea??",
+
+			},
+			"When": {
+			"Year": "3, {{Range: 5, 10}}",
+			"Random: {{WillyStand}}": "02",
+			"DayEvent": "stardew valley fair",
+			}
+		},		
+		{
+			"LogName": "WillyStandRY4StringMaps",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+						"Town-Fair.4": "Tourist: These treasures are so shiny.",
+						"Town-Fair.5": "Tourist: This year the grange displays are amazing! Did you see all of those beautiful pearls?",
+			},
+			"When": {
+			"Year": "3, {{Range: 5, 10}}",
+			"Random: {{WillyStand}}": "02",
+			"DayEvent": "stardew valley fair",
+			}
+		}, 
+		{
+			"LogName": "WillyStandRY4StringCS",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"Entries": {
+						"Event.cs.1591": "I wasn't able to compete with Willy. Maybe I should change things up a bit next time.$s",
+						"Event.cs.1597": "All of this was very rewarding.$h",
+						"Event.cs.1606": "The sea can be generous in a lot of ways. Maybe Lewis will be too.$h",
+			},
+			"When": {
+			"Year": "3, {{Range: 5, 10}}",
+			"Random: {{WillyStand}}": "02",
+			"DayEvent": "stardew valley fair",
+			}
+		},
+			//SVE
+			
+		{
+			"LogName": "WillyStandRY4SVE",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+						"Town-Fair.25": "Those are amongst the finest pearls.",
+			},
+            "When":
+            {
+			"Year": "3, {{Range: 5, 10}}",
+             "HasMod":"FlashShifter.StardewValleyExpandedCP",
+			"Random: {{WillyStand}}": "02",
+			"DayEvent": "stardew valley fair",
+            }
+		},
+		
+		
+	//marnie
+	//marnie year 3		(guaranteed)
+		{			
+			"LogName": "MarnieStandY3Graphic",
+			"Action": "EditImage",
+			"Target": "Festivals,Maps/Festivals",
+			"FromFile": "assets/MarnieEggs.png",
+			"ToArea": { "X": 416, "Y": 55, "Width": 48, "Height": 57 },
+			"When": {
+			"Year": "3",
+			"DayEvent": "stardew valley fair",
+			}
+		},
+		
+		
+		{			
+			"LogName": "MarnieStandY3Fall16",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": {
+						"Caroline": "Pierre is very serious about his grange display. He's been setting aside the best-looking produce for weeks in preparation. But the competition is high this year.#$e#Hey, best of luck to you if you enter!",
+						"Marnie": "This year our hens laid some blue eggs. Those are pretty rare, you know?$h#$e#Shane did an amazing job.$h",
+						"Shane": "All these animals are friendly and love to get massaged.#$b#Hey, did you see the hens' work on Marnie's stand ? I'm so proud.$h",
+						"Shane_spouse": "All these animals are friendly and love to get massaged.#$b#How is your grange display ? Did you see the hens' work on Marnie's stand ? I'm so proud.$h",
+						"Jas": "Ow! A hen pecked my little finger!$u#$b#I prefer blue hens. They are prettier, and this year we even got blue eggs.$h",
+
+			},
+			"When": {
+			"Year": "3",
+			"DayEvent": "stardew valley fair",
+			}
+		},
+		
+		{
+			"LogName": "MarnieStandY3StringMaps",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+						"Town-Fair.4": "Tourist: Oh, look at these eggs. What a pretty color!",
+			},
+			"When": {
+			"Year": "3",
+			"DayEvent": "stardew valley fair",
+			}
+		},
+		
+		{
+			"LogName": "MarnieStandY3StringCS",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"Entries": {
+						"Event.cs.1591": "I'm disappointed, but I must admit Marnie did an amazing job this year.$s",
+						"Event.cs.1595": "I'm happy I was able to show off our work on the farm. I'm very proud of our hens!",
+			},
+			"When": {
+			"Year": "3",
+			"DayEvent": "stardew valley fair",
+			}
+		},
+			//SVE
+			
+		{
+			"LogName": "MarnieStandY3SVE",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+						"Town-Fair.13": "Tourist: I wonder, would the chickens be blue too ?",
+						"Town-Fair.24": "The blue eggs have little spots on them.",
+			},
+            "When":
+            {
+			"Year": "3",
+             "HasMod":"FlashShifter.StardewValleyExpandedCP",
+			"DayEvent": "stardew valley fair",
+            }
+		},
+		
+	//marnie repeat year 2 4+	
+		{			
+			"LogName": "MarnieStandRY3Graphic",
+			"Action": "EditImage",
+			"Target": "Festivals,Maps/Festivals",
+			"FromFile": "assets/MarnieEggs.png",
+			"ToArea": { "X": 416, "Y": 55, "Width": 48, "Height": 57 },
+			"When": {
+			"Year": "2, {{Range: 4, 10}}",
+			"Random: {{MarnieStand}}": "01",
+			"DayEvent": "stardew valley fair",
+			}
+		},
+		
+		
+		{			
+			"LogName": "MarnieStandRY3Fall16",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": {
+						"Caroline": "Pierre is very serious about his grange display. He's been setting aside the best-looking produce for weeks in preparation. But the competition is high this year.#$e#Hey, best of luck to you if you enter!",
+						"Marnie": "This year our hens laid some blue eggs. Those are pretty rare, you know?$h#$e#Shane did an amazing job.$h",
+						"Shane": "All these animals are friendly and love to get massaged.#$b#Hey, did you see the hens' work on Marnie's stand ? I'm so proud.$h",
+						"Shane_spouse": "All these animals are friendly and love to get massaged.#$b#How is your grange display ? Did you see the hens' work on Marnie's stand ? I'm so proud.$h",
+						"Jas": "Ow! A hen pecked my little finger!$u#$b#I prefer blue hens. They are prettier, and this year we even got blue eggs.$h",
+
+			},
+			"When": {
+			"Year": "2, {{Range: 4, 10}}",
+			"Random: {{MarnieStand}}": "01",
+			"DayEvent": "stardew valley fair",
+			}
+		},
+		
+		{
+			"LogName": "MarnieStandRY3StringMaps",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+						"Town-Fair.4": "Tourist: Oh, look at these eggs. What a pretty color!",
+			},
+			"When": {
+			"Year": "2, {{Range: 4, 10}}",
+			"Random: {{MarnieStand}}": "01",
+			"DayEvent": "stardew valley fair",
+			}
+		},
+		
+		{
+			"LogName": "MarnieStandRY3StringCS",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"Entries": {
+						"Event.cs.1591": "I'm disappointed, but I must admit Marnie did an amazing job this year.$s",
+						"Event.cs.1595": "I'm happy I was able to show off our work on the farm. I'm very proud of our hens!",
+			},
+			"When": {
+			"Year": "2, {{Range: 4, 10}}",
+			"Random: {{MarnieStand}}": "01",
+			"DayEvent": "stardew valley fair",
+			}
+		},
+			//SVE
+			
+		{
+			"LogName": "MarnieStandRY3SVE",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+						"Town-Fair.13": "Tourist: I wonder, would the chickens be blue too ?",
+						"Town-Fair.24": "The blue eggs have little spots on them.",
+			},
+            "When":
+            {
+			"Year": "2, {{Range: 4, 10}}",
+             "HasMod":"FlashShifter.StardewValleyExpandedCP",
+			"Random: {{MarnieStand}}": "01",
+			"DayEvent": "stardew valley fair",
+            }
+		},
+		
+		
+		//caroline
+		//caroline Year 2+	
+		
+		{			
+			"LogName": "CarolineStandY2Graphic",
+			"Action": "EditImage",
+			"Target": "Festivals,Maps/Festivals",
+			"FromFile": "assets/{{Random: {{CarolineProducts}}}}.png",
+			"ToArea": { "X": 368, "Y": 55, "Width": 48, "Height": 57 },
+			"When": {
+			"Year": "{{Range: 2, 4}},{{Range: 6, 10}}",
+			"Random: {{CarolineStand}}": "01",
+			"DayEvent": "stardew valley fair",
+			}
+		},		
+		
+		
+		{			
+			"LogName": "CarolineStandY2Fall16",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": {
+						"Caroline": "I'm so happy to have the opportunity to show my plants!#$e#Hey, best of luck to you if you enter!",
+						"Evelyn": "I'm glad to see Caroline having a stand this year.#$e#Some of her flowers are coming from seeds i gave her, it's such a pleasure to see them.",
+						"Jodi": "Well, this clown isn't very funny... I'll rather return seeing Caroline's stand.#$e#I wonder if i can have a cutting of one of these beautiful flowers.",
+						"Pierre": "This year, Caroline made this amazing display.",
+			},
+			"When": {
+			"Year": "{{Range: 2, 4}},{{Range: 6, 10}}",
+			"Random: {{CarolineStand}}": "01",
+			"DayEvent": "stardew valley fair",
+			}
+		},
+		{
+			"LogName": "CarolineStandY2StringMaps",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+						"Town-Fair.5": "Simon: Mom, look at the flowers. They are so pretty.",
+			},
+			"When": {
+			"Year": "{{Range: 2, 4}},{{Range: 6, 10}}",
+			"Random: {{CarolineStand}}": "01",
+			"DayEvent": "stardew valley fair",
+			}
+		}, 
+		{
+			"LogName": "CarolineStandY2StringCS",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"Entries": {
+						"Event.cs.1591": "It was a great experience, i'm glad Caroline convinced me.",
+						"Event.cs.1593": "It's a bit disappointing for Caroline, but she is still happy.#$e#We'll retry this for sure.",
+			},
+			"When": {
+			"Year": "{{Range: 2, 4}},{{Range: 6, 10}}",
+			"Random: {{CarolineStand}}": "01",
+			"DayEvent": "stardew valley fair",
+			}
+		},
+			//SVE
+			
+		{
+			"LogName": "CarolineStandY5SVE",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+						"Town-Fair.23": "Caroline has wonderful flowers coming from her sunroom.",
+			},
+            "When":
+            {
+			"Year": "2",
+             "HasMod":"FlashShifter.StardewValleyExpandedCP",
+			"Random: {{CarolineStand}}": "01",
+			"DayEvent": "stardew valley fair",
+            }
+		},
+		    
+		//caroline Year 5	(guaranteed)
+		
+		{			
+			"LogName": "CarolineStandY5Graphic",
+			"Action": "EditImage",
+			"Target": "Festivals,Maps/Festivals",
+			"FromFile": "assets/{{Random: {{CarolineProducts}}}}.png",
+			"ToArea": { "X": 368, "Y": 55, "Width": 48, "Height": 57 },
+			"When": {
+			"Year": "5",
+			"DayEvent": "stardew valley fair",
+			}
+		},		
+		
+		
+		{			
+			"LogName": "CarolineStandY5Fall16",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": {
+						"Caroline": "I'm so happy to have the opportunity to show my plants!#$e#Hey, best of luck to you if you enter!",
+						"Evelyn": "I'm glad to see Caroline having a stand this year.#$e#Some of her flowers are coming from seeds i gave her, it's such a pleasure to see them.",
+						"Jodi": "Well, this clown isn't very funny... I'll rather return seeing Caroline's stand.#$e#I wonder if i can have a cutting of one of these beautiful flowers.",
+						"Pierre": "This year, Caroline made this amazing display.",
+			},
+			"When": {
+			"Year": "5",
+			"DayEvent": "stardew valley fair",
+			}
+		},
+		{
+			"LogName": "CarolineStandY2StringMaps",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+						"Town-Fair.5": "Simon: Mom, look at the flowers. They are so pretty.",
+			},
+			"When": {
+			"Year": "5",
+			"DayEvent": "stardew valley fair",
+			}
+		},
+		{
+			"LogName": "CarolineStandY5StringCS",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"Entries": {
+						"Event.cs.1591": "It was a great experience, i'm glad Caroline convinced me.",
+						"Event.cs.1593": "It's a bit disappointing for Caroline, but she is still happy.#$e#We'll retry this for sure.",
+			},
+			"When": {
+			"Year": "5",
+			"DayEvent": "stardew valley fair",
+			}
+		},
+			//SVE
+			
+		{
+			"LogName": "CarolineStandY5SVE",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+						"Town-Fair.23": "Caroline has wonderful flowers coming from her sunroom.",
+			},
+            "When":
+            {
+			"Year": "5",
+             "HasMod":"FlashShifter.StardewValleyExpandedCP",
+			"DayEvent": "stardew valley fair",
+            }
+		},
+		
+		
+		//clint
+		//clint Year 2	(guaranteed)
+		
+		{			
+			"LogName": "ClintGeodeY2Graphics",
+			"Action": "EditImage",
+			"Target": "Festivals,Maps/Festivals",
+			"FromFile": "assets/ClintGeode.png",
+			"ToArea": { "X": 368, "Y": 121, "Width": 48, "Height": 55 },
+			"When": {
+			"Year": "2",
+			"DayEvent": "stardew valley fair",
+			}
+		},
+		{			
+			"LogName": "ClintGeodeY2Fall16",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": {
+						"Clint": "This is my collection of geodes. They contain a lot of things, some very precious.#$b#I can open them of course, but i like keeping a bit of mystery.#$b#Remember, i can open geodes for you.",
+						"Marlon": "Extracting the content of geodes without breaking it isn't easy, i can tell you.",
+			},
+			"When": {
+			"Year": "2",
+			"DayEvent": "stardew valley fair",
+			}
+		},
+		//Clint SVE 
+		{
+			"LogName": "ClintGeodeY2SVE",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+						"Town-Fair.34": "Clint is displaying high-quality bronze, iron, and gold bars. He also has some geodes to show!",
+			},
+            "When":
+            {
+			"Year": "2",
+             "HasMod":"FlashShifter.StardewValleyExpandedCP",
+			"DayEvent": "stardew valley fair",
+            }
+		},
+			
+		
+	
+		//clint Year 3	(guaranteed)
+		
+		
+		{			
+			"LogName": "ClintRingsY3Graphics",
+			"Action": "EditImage",
+			"Target": "Festivals,Maps/Festivals",
+			"FromFile": "assets/ClintRings.png",
+			"ToArea": { "X": 368, "Y": 121, "Width": 48, "Height": 55 },
+			"When": {
+			"Year": "3",
+			"DayEvent": "stardew valley fair",
+			}
+		},	
+		{			
+			"LogName": "ClintRingsY3Fall16",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": {
+						"Clint": "I make sharp weapons, but as you see, i can also make delicate pieces.",
+						"Marlon": "Clint's talent is precious.#$e#We wouldn't be able to protect the valley without it.",
+						"Robin": "I need solid tools for carving wood. Clint is providing high quality equipment.#$e#One of these iridium tools would be useful, but i can't afford them yet.",
+			},
+			"When": {
+			"Year": "3",
+			"DayEvent": "stardew valley fair",
+			}
+		},
+		//Clint SVE 
+		{
+			"LogName": "ClintRingsY3SVE",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+						"Town-Fair.34": "Clint is displaying high-quality bronze, iron, and gold bars. There's also some fine rings, a sharp sword, and an amazing iridium axe!",
+			},
+            "When":
+            {
+			"Year": "3",
+             "HasMod":"FlashShifter.StardewValleyExpandedCP",
+			"DayEvent": "stardew valley fair",
+            }
+		},
+		
+		//clint Repeat Year 2	
+		
+		{			
+			"LogName": "ClintGeodeRY2Graphics",
+			"Action": "EditImage",
+			"Target": "Festivals,Maps/Festivals",
+			"FromFile": "assets/ClintGeode.png",
+			"ToArea": { "X": 368, "Y": 121, "Width": 48, "Height": 55 },
+			"When": {
+			"Year": "{{Range: 4, 10}}",
+			"Random: {{ClintStand}}": "01",
+			"DayEvent": "stardew valley fair",
+			}
+		},
+		{			
+			"LogName": "ClintGeodeRY2Fall16",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": {
+						"Clint": "This is my collection of geodes. They contain a lot of things, some very precious.#$b#I can open them of course, but i like keeping a bit of mystery.#$b#Remember, i can open geodes for you.",
+						"Marlon": "Extracting the content of geodes without breaking it isn't easy, i can tell you.",
+			},
+			"When": {
+			"Year": "{{Range: 4, 10}}",
+			"Random: {{ClintStand}}": "01",
+			"DayEvent": "stardew valley fair",
+			}
+		},
+		//Clint SVE 
+		{
+			"LogName": "ClintGeodeRY2SVE",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+						"Town-Fair.34": "Clint is displaying high-quality bronze, iron, and gold bars. He also has some geodes to show!",
+			},
+            "When":
+            {
+			"Year": "{{Range: 4, 10}}",
+             "HasMod":"FlashShifter.StardewValleyExpandedCP",
+			"Random: {{ClintStand}}": "01",
+			"DayEvent": "stardew valley fair",
+            }
+		},
+			
+		
+	
+		//clint Repeat Year 3
+		
+		
+		{			
+			"LogName": "ClintRingsRY3Graphics",
+			"Action": "EditImage",
+			"Target": "Festivals,Maps/Festivals",
+			"FromFile": "assets/ClintRings.png",
+			"ToArea": { "X": 368, "Y": 121, "Width": 48, "Height": 55 },
+			"When": {
+			"Year": "{{Range: 4, 10}}",
+			"Random: {{ClintStand}}": "02",
+			"DayEvent": "stardew valley fair",
+			}
+		},	
+		{			
+			"LogName": "ClintRingsRY3Fall16",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": {
+						"Clint": "I make sharp weapons, but as you see, i can also make delicate pieces.",
+						"Marlon": "Clint's talent is precious.#$e#We wouldn't be able to protect the valley without it.",
+						"Robin": "I need solid tools for carving wood. Clint is providing high quality equipment.#$e#One of these iridium tools would be useful, but i can't afford them yet.",
+			},
+			"When": {
+			"Year": "{{Range: 4, 10}}",
+			"Random: {{ClintStand}}": "02",
+			"DayEvent": "stardew valley fair",
+			}
+		},
+		//Clint SVE 
+		{
+			"LogName": "ClintRingsRY3SVE",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+						"Town-Fair.34": "Clint is displaying high-quality bronze, iron, and gold bars. There's also some fine rings, a sharp sword, and an amazing iridium axe!",
+			},
+            "When":
+            {
+			"Year": "{{Range: 4, 10}}",
+             "HasMod":"FlashShifter.StardewValleyExpandedCP",
+			"Random: {{ClintStand}}": "02",
+			"DayEvent": "stardew valley fair",
+            }
+		},
+		
+		    
+		
+		    
+	
+
+	]
+}

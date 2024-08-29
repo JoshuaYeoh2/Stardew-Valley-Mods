@@ -1,0 +1,83 @@
+{
+    "Format": "2.0",
+    "Changes": [
+        {
+            "LogName": "Load data for Chabo Chicken (Chabo Chicken)",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Chabo Chicken": {
+                    "DisplayName": "Chabo Chicken",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 2500,
+                    "ShopTexture": "Animals/balverines.chabochickens-Chabo Chicken Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "Chabo Chicken",
+                    "ShopDescription": "A fancy type of chicken.",
+					"EggItemIds": [
+					  "174",
+					  "176",
+					],
+					"IncubationTime": 9000,
+					"IncubatorParentSheetOffset": 1,
+					"BirthText": "A new chick hatched!",
+					"DaysToMature": "5",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "176"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "174"
+                        }
+                    ],
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "cluck",
+                    "BabySound": "cluck",
+                    "Texture": "Animals/balverines.chabochickens-Chabo Chicken",
+                    "HarvestedTexture": "Animals/balverines.chabochickens-Chabo Chicken",
+                    "BabyTexture": "Animals/balverines.chabochickens-Chabo Chicken Baby",
+					"UseFlippedRightForLeft": true,
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+					"SellPrice": 1200,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        {
+            "LogName": "Load shopIcon for Chabo Chicken",
+            "Action": "Load",
+            "Target": "Animals/balverines.chabochickens-Chabo Chicken Icon",
+            "FromFile": "assets\\animal_shop_chabo.png"
+        },
+        {
+            "LogName": "Load adultSprite for Chabo Chicken",
+            "Action": "Load",
+            "Target": "Animals/balverines.chabochickens-Chabo Chicken",
+            "FromFile": "assets/Chabo.png"
+        },
+        {
+            "LogName": "Load babySprite for Chabo Chicken",
+            "Action": "Load",
+            "Target": "Animals/balverines.chabochickens-Chabo Chicken Baby",
+            "FromFile": "assets/whitechick.png"
+        }
+    ]
+}

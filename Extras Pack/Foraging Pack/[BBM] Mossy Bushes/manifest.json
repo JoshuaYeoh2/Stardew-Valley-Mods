@@ -1,0 +1,14 @@
+﻿{
+	"Name": "[BBM] Mossy Bushes",
+	"Author": "LordDracon",
+	"Version": "1.1",
+	"Description": "Mossy Bushes for Bush Bloom Mod.",
+	"UniqueID": "LordDracon.MossyBushesBBM",
+	"MinimumApiVersion": "4.0.0",
+	"UpdateKeys": ["Nexus: 21183"],
+	"ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" },
+	"Dependencies": [ {
+		"UniqueID": "NCarigon.BushBloomMod",
+		"IsRequired": true
+		} ],
+}
