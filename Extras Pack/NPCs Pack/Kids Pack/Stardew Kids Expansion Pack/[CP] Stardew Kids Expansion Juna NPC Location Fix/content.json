@@ -1,0 +1,18 @@
+{
+	"Format": "2.0.0",
+	"Changes": [
+		{
+			"LogName": "Douglas Schedule Change 1",
+			"Action": "EditData",
+			"Target": "Characters/Schedules/Douglas",
+			"Entries": {
+				"Tue": "630 Custom_DouglasRoom 2 5 0/1100 WizardHouse 10 29 0/1200 WizardHouse 11 36 1/1230 WizardHouse 12 21 0/1300 WizardHouse 10 17 2/1330 WizardHouse 10 5 0/1410 WizardHouse 7 32 2/1600 Forest 13 28 2/2030 Custom_DouglasRoom 2 5 0",
+				"spring": "600 Custom_DouglasRoom 2 5 2 /630 WizardHouse 1 20 1 /1000 WizardHouse 12 20 3 /1200 Forest 11 36 2 /1500 Forest 35 25 2 /1700 Forest 13 34 2 /1900 WizardHouse 9 5 0 /2400 Custom_DouglasRoom 2 5 2",
+				"summer": "600 Custom_DouglasRoom 2 5 2 /630 WizardHouse 1 20 1 /1000 WizardHouse 12 20 3 /1200 Forest 11 36 2 /1500 Forest 35 25 2 /1700 Forest 13 34 2 /1900 WizardHouse 9 5 0 /2400 WizardHouse 6 5 2",
+				"fall": "600 Custom_DouglasRoom 2 5 2 /630 WizardHouse 1 20 1 /1000 WizardHouse 12 20 3 /1200 Forest 11 36 2 /1500 Forest 35 25 2 /1700 Forest 13 34 2 /1900 WizardHouse 9 5 0 /2400 WizardHouse 6 5 2",
+				"winter": "600 Custom_DouglasRoom 2 5 2 /630 WizardHouse 1 20 1 /1000 WizardHouse 12 20 3 /1200 Forest 11 36 2 /1500 Forest 35 25 2 /1700 Forest 13 34 2 /1900 WizardHouse 9 5 0 /2400 WizardHouse 6 5 2",
+				"rain": "600 Custom_DouglasRoom 2 5 2 /630 WizardHouse 1 20 1 /1000 WizardHouse 12 20 3 /1200 Forest 11 36 2 /1500 Forest 35 25 2 /1700 Forest 13 34 2 /1900 WizardHouse 9 5 0 /2400 WizardHouse 6 5 2"
+			}
+		}
+	]
+}

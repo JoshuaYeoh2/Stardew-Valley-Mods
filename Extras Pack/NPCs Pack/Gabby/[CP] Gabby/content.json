@@ -1,0 +1,73 @@
+{
+    "Format": "2.0.0",
+
+    "Changes": [
+        {
+            "LogName":"Gabby Dispositions",
+            "Action":"EditData",
+            "Target":"Data/Characters",
+            "Entries": {
+                "Gabby": {
+                    "DisplayName":"Gabby",
+                    "BirthSeason":"Spring",
+                    "BirthDay":21,
+                    "HomeRegion":"Other",
+                    "Gender":"Female",
+                    "Age":"Adult",
+                    "Manner":"Polite",
+                    "SocialAnxiety":"Outgoing",
+                    "Optimism":"Positive",
+                    "CanBeRomanced":true,
+                    "LoveInterest":null,
+                    "SocialTab":"UnknownUntilMet",
+                    "ExcludeFromIntroductionsQuest":false,
+                    "ExcludeFromPerfectionScore":false,
+                    "EndSlideShow":"TrailingGroup",
+                    "FriendsAndFamily":{},
+                    "SpawnIfMissing":true,
+                    "Home": [
+                        {
+                            "Id": "Default",
+                                    "Location": "BusStop",
+                                    "Tile": { "X": 19, "Y": 14 },
+                                    "Direction": "Down"
+                        }
+                    ],
+                    "Breather":true
+                }
+            }
+        },
+        {
+            "LogName": "Gabby's Sprites",
+            "Action": "Load",
+            "Target": "Characters/Gabby",
+            "FromFile": "assets/GabbySprites.png"
+        },
+        {
+            "LogName": "Gabby's Portrait",
+            "Action": "Load",
+            "Target": "Portraits/Gabby",
+            "FromFile": "assets/GabbyPortraits.png"
+        },
+        {
+            "LogName": "Gabby's Dialogue",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Gabby",
+            "FromFile": "assets/GabbyDialogue.json"
+        },
+        {
+            "LogName": "Gabby's Schedule",
+            "Action": "Load",
+            "Target": "Characters/schedules/Gabby",
+            "FromFile": "assets/GabbySchedule.json"
+        },
+        {
+            "LogName": "Gabby Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "Gabby": "Woah! I like these a lot, thanks a lot!/60 62 64 66 68 70 72 88 562 211/For me? That's really nice of you, thanks!/223 340 350 -2/Oh, uh, sure I guess./22 -26/This is rank, no thanks./-20/Oh, that's nice of you./-4/ "
+            }
+        }
+    ]
+}

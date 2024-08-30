@@ -1,0 +1,145 @@
+{
+  //Universal Courtship Response Additions
+  "giftquestion_yes": "*sigh*$9#$b#I should not be surprised that you wish to befriend the whole town, after how doggedly you did so with me.$1",
+  "giftquestion_lie": "Innocuous gifting I can understand, but I would appreciate it if you did not lie to me.$6",
+  "baby_anxiety": "Just what will life look like with the new child...$9",
+  "adopt_excitedA": "I'm well familiar with the glacial pace of bureaucracy, but the adoption request had best be approved soon.$8",
+  "adopt_excitedB": "I've filed our adoption papers with the agency.#$b#I cannot imagine we would be refused, but the waiting has me restless all the same.$8",
+  "informPregnancyA": "...$1#$b#I love you, {0}. There is naught that would make me happier.$1",
+  "informPregnancyB": "...$1#$b#I love you, {0}. There is naught that would make me happier.$1",
+  "yourePregnantA": "We'll have a child soon... I can scarce believe it.$9",
+  "yourePregnantB": "Your soul...$11#$b#...I see another.$11#$b#To think you're with child, {0} ...wonderful.$1",
+  "annoyedParent": "The joys of having children: getting to wake up obscenely early.$0#$b#Perhaps I'll roll back into bed and leave the honor to you.$6",
+  "aloneTime": "Ugh, I have too much work to attend to.$7#$b#Please do not disturb me, for a time.",
+
+  //new 1.6 lines
+  "SpouseFarmhouseClutter": "That I *can* teleport into the kitchen does not mean I would like to be forced to do so.$6",
+  "SpouseGiftJealous": "I heard you have been showering {0} with gifts as of late?", //should be unused tho
+  "Spouse_MonstersInHouse": "I will not tolerate having an unruly beast in the house, @.$6",
+  "SpouseStardrop": "Here. A stardrop; a rare fruit said to boost vitality.$9#$b#I thought it might prove useful, with all you do.$1",
+  "GreenRain_2": "Off to hack and slash your way through the veritable jungle outside? Good luck.#$e#Try not to bring the mossy carnage inside on your return.$9",
+
+  //TODO: unpack 1.6 files, see new dialogue lines to fill in 
+  //morning, clear weather
+  "Indoor_Day_Visorlights.EmetSelch": "I've made breakfast. [195 201 610 651 731]#$b#Do try not to exhaust yourself into unconsciousness in the fields.$6",
+  "Indoor_Day_0": "I made plenty of my usual coffee, if you'd like some.[253]#$b#I'll warn you though, it's rather strong.#$b#Nothing less will drag my limp body into productivity this early.$6",
+  "Indoor_Day_1": "I'll leave all the day-seizing to you, dear heart.#$b#I know, my generosity knows no bounds.",
+  "Indoor_Day_2": "I've thought of some possible alterations to the architecture; the design feels lacking.$8#$b#So run along now, the house shall be mine today to work my magicks.$9",
+  "Indoor_Day_3": "Must you farmers wake up so early?$7#$b#If you should ever doubt my devotion, remember that I wake up at six in the morning for you.$6",
+  "Indoor_Day_4": "Leaving me to languish here whilst the animals and fields monopolize your attention? I shall do my best not to waste away in the intervening hours.",
+  //farmhouse after 6pm
+  "Indoor_Night_Visorlights.EmetSelch": "I've committed to a quiet evening in. Enjoy yourself if you intend to 'hit the town', however.",
+  "Indoor_Night_0": "...Do take a shower before bed. I'll not go to sleep smelling like a farm.",
+  "Indoor_Night_1": "Welcome home. Did you have a productive day on the farm?#$b#I managed to finish an investigation, and with enough time left to pass out on the lounge. A solid day's work, in all.",
+  "Indoor_Night_2": "I've finished my work for the day. Might I avail you to join me on the lounge for the evening?$u",
+  "Indoor_Night_3": "I made enough dinner for the both of us, so don't let it go to waste.[208 212 231 618 649]",
+  "Indoor_Night_4": "Ready to call it a day? You work tirelessly, so do get your rest, love.",
+
+  //morning, raining
+  "Rainy_Day_Visorlights.EmetSelch": "...You do not *have* to spend all day running around, you know. I could cheat and expend the effort to aid you, just this once.$4",
+  "Rainy_Day_0": "It promises to be miserable outside. Do take care working in such weather.",
+  "Rainy_Day_1": "Not a bad day to review reports, I suppose. As long as I can avoid observing aether in the field...",
+  "Rainy_Day_2": "Take this with you. I know days like this are often when you go adventuring.#$b#And I'd rather not have to search you out and drag you home.$6[(O)688 (O)688 (O)773 (O)231 (O)921 (O)236]", //give gift to keep u safe; farm totem, life elixir, eggplant parmesan, squid ink ravioli, pumpkin soup
+  "Rainy_Day_3": "With the weather taking care of the crops, might I convince you to spend a little longer in bed?#$b#It's never too late to fall back asleep, and you are so very good as a source of heat.",
+  "Rainy_Day_4": "If you trudge through the mud today, take care not to drag any of it indoors.",
+  //farmhouse after 6pm, raining
+  "Rainy_Night_Visorlights.EmetSelch": "Ah, how soothing it is, watching the weather from the window.#$b#Sights I have seen innumerable times are enchanting anew, here with you.$9",
+  "Rainy_Night_0": "You're soaked!$6#$b#Clean up and I'll get you something warm.$7",
+  "Rainy_Night_1": "@, welcome home.#$b#Come here, so I can know you are returned hale and whole, and quiet my doubts.$9",
+  "Rainy_Night_2": "I've had enough of today, and shall be cozying up in an elaborate assortment of blankets.#$b#You are permitted entry, at the cost of providing warmth.",
+  "Rainy_Night_3": "I trust the extra exertion of traipsing through the weather and muck was fulfilling? For whatever satisfaction it is you get from such things.#$b#Truly, it is a mystery to me.",
+  "Rainy_Night_4": "It was a trial, but I managed to survive a gloomy afternoon of toil and tedium. Do hold your applause.",
+  "Rainy_Night_5": "I thought a hot soup for dinner might be appreciated.[218 236 730]",
+
+  //outdoors
+  "Outdoor_Visorlights.EmetSelch": "Ah, a perfect day for a walk, followed by dozing off in the hammock.$1",
+  "Outdoor_0": "Simply watching you work has me tired.#$b#I think I'll create myself a nice, cold drink...$8#$e#How you manage to do this day in and day out mystifies me.",
+  "Outdoor_1": "How fares the farm?#$b#I may be persuaded to help with some errands, with suitable compensation.$u#$e#No amount of kisses will buy you hard labor, however.",
+  "Outdoor_2": "Don't mind me, I am simply observing. The hard work is all yours.",
+  "Outdoor_3": "Have you thought about growing more flowers? I've picked up a bit of botany over the years, as well as quite the appreciation for some varieties.",
+  "Outdoor_4": "As fun as it is to watch you run to and fro, do make sure not to overdo it.",
+
+  "patio_Visorlights.EmetSelch": "If you need anything, come back later. You're welcome to join, though.$9",
+  "spouseRoom_Visorlights.EmetSelch": "Looking to pick out a book and settle in on the lounge? You're welcome to it.$h",
+
+  "funLeave_Visorlights.EmetSelch": "I'm off to conduct my observations; try not to get into trouble while I'm gone.",
+  "funReturn_Visorlights.EmetSelch": "I see things haven't descended into chaos in my absence.",
+
+  //code red he has nowhere to seepy
+  "NoBed_0": "I may nap most anywhere, but I will only sleep in a bed, thank you.$6",
+  "NoBed_1": "If removing the bed is a ploy to force me to create a comfier one, you could simply ask.$10",
+  "NoBed_2": "If you seriously believe I am sleeping on the floor, you are mistaken.$10",
+  "NoBed_3": "And just what, exactly, has happened to our bed?$6",
+
+  //SEASONAL DIALOGUE
+  "spring_Visorlights.EmetSelch": "At long last, the sun deigns to produce conditions hospitable to life.#$b#A day spent in the garden is due, I think.$h",
+  "summer_Visorlights.EmetSelch": "Hmm, what fresh produce to sample first... Surely you won't mind if I help myself to the fruits of the season?$1",
+  "fall_Visorlights.EmetSelch": "Will you be growing any grapes to ferment this year? The wines of the valley are quite decadent.$1",
+  "winter_Visorlights.EmetSelch": "I still have to brave the elements on occasion, no matter the season.#$b#So I hope you will be willing to help me warm back up on my return.$4",
+
+  //<season>_<day> on day start TO DOOOOOOOOOOOOOOO
+  "spring_1": "Another new year comes. Do you have any plans for it?#$b#I have my aetheric observation work... but I would like to be a part of your plans, as well.",
+  "spring_8": "To see the aether of the land again stir and bloom... 'tis a sight I never tire of.",
+  "spring_13": "I respect the niche insects and such have in the environment, but their dormancy was the one good thing about winter.#$e#Remind me to create a net around the hammock.$6",
+  "spring_14": "It may have been brief, but I am glad you were able to meet Hythlodaeus.$9#$b#Now you have an idea of the meddling I was so often subjected to.$6#$b#...It was always a highlight of my days.$1",
+  "spring_23": "If you intend to ask me to the flower dance, it is a no.#$e#I much prefer a private waltz to prancing and shimmying around a meadow in front of the whole town.",
+  "summer_1": "Ugh. The instant I step into the sun, I can feel my clothes begin to stick to my back.$6#$b#I will take that as my cue to stick to the shade for the foreseeable future.$6",
+  "summer_8": "Do we have any fruits of the season in the fridge? If I am going to sweat all day in this humidity, I want to at least spend it concocting increasingly elaborate iced drinks.#$b#Hydration, and all that.",
+  "summer_12": "Another day in the endless siege of insects on this house.#$b#I swear, some of them are capable of teleportation!$6#$e#If one more fly manifests in this kitchen, I'm putting up wards.$0",
+  "summer_15": "Have you thought about taking a vacation?#$b#There are many destinations I could show you.$1",
+  "fall_1": "Ah, harvest season. I expect to have first pick of the crops when they're ready; I have a most discerning palate.$h",
+  "fall_8": "I heard you've been donating artifacts to the local museum.#$b#We could visit sometime; I can likely tell you about many of them.",
+  "fall_15": "Will you be making a grange display for the festival?#$b#It may hardly pose a challenge, but it is a good opportunity to show your wares without that wretched shopkeep taking credit.#$e#It may be time I persuade him to choose his words more wisely... Simply say the word, dear.$u",
+  "fall_21": "Should you discover a new mineral in one of the mines, be sure to learn its properties before naming it after yourself.#$e#I had an old colleague who leapt at the opportunity... by the name of Asbestos.$6",
+  "fall_27": "No, I will not transform as a 'Spirit's Eve' costume, no matter how effective it would be.$6#$b#The best you're getting is a classic costume; I do play a good villain.$h#$e$Ask nicely enough and I may transform for you privately, however.$15",
+  "winter_1": "And so the colors of fall inevitably fade to the bleakness of winter.#$b#If you need me, I will be attempting to force my body to adopt a state of dormancy.#$e#It is a flaw in design that we are not obligate hibernators, if you ask me.$8",
+  "winter_3": "At times I wonder if I could teach sorcery to some in the valley.#$b#But then I question the wisdom of teaching magick to the people of today.$6#$e#Yet there are those rare few such as the Wizard, and he hasn't yet caused a catastrophe...perhaps there is hope.$8",
+  "winter_7": "I'd consider entering the ice sculpture competition, were the use of magicks not likely considered 'cheating'.#$b#You all could simply bother to learn sorcery, yet it is I who must bear the burden of your lacking education.$7",
+  "winter_18": "Do you plan on visiting anywhere this season? I wouldn't mind seeing your old home.#$e#What was mine still exists, in a fashion...but it scarce resembles the home I knew.$9#$b#I'd like to see yours as you know it, while we have the chance.$h",
+  "winter_21": "...$9#$b#...Would you like to hear about Azem?#$b#There's no shortage of stories I could tell, each more ridiculous than the last.$1",
+  "winter_28": "And so the year comes to a close.#$b#I hope it was all you wished for.$h",
+
+  //Indoors 11 am - 6 pm, dependent on daily mood
+  "Good_0": "My work is far more enjoyable knowing you await at day's end.$h#$e#Your midday visits are just as appreciated, of course.$h",
+  "Good_1": "Very well, I suppose I can take a moment to dote upon you.#$b#If I must.$u",
+  "Good_2": "You have me eagerly awaiting every evening and new day, something I would not have thought possible.#$b#Perhaps you are the true sorcerer here, weaving such magicks.$h",
+  "Good_3": "How am I to get a thing done, when you present such a terrible distraction?$h#$b#You are lovely beyond words, @... but I would happily try to tell you, if you'd like.$h",
+  "Good_4": "Often am I grateful for the place you've allowed me in your life. You've done more for me than you could ever know.$h",
+  "Good_5": "Having a good day?#$b#Your soul always shines, but you have a particular radiance about you today.$h",
+  "Good_6": "...I can call it early today on work, I suppose.#$b#I would much rather have you on my desk.$15",
+  "Good_7": "Find another errand or two to finish; I should get a little more done ere I surrender to your doting for the evening.",
+  "Good_8": "If I have cause to use magicks in the near future, would you care to watch?$u",
+  "Good_9": "I intended on settling in with a book. But if you wish to sit with me, I could read it to you.",
+  "Neutral_0": "I have seen no significant anomalies in the aether since that soul was returned. Still, if you do encounter aught that seems amiss, allow me to investigate.",
+  "Neutral_1": "What to do... are any townsfolk embroiled in particularly interesting drama? I do like to stay abreast of developments.#$b#And, on occasion, make things worse.$u",
+  "Neutral_2": "Normally I enjoy having little to do, but today I find myself restless.",
+  "Neutral_3": "Taking a break? If you prepare a meal, make enough for two.",
+  "Neutral_4": "Passing through town once a week is enough of that. I'll happily remain right here.",
+  "Neutral_5": "Is all your equipment in good order? I know you've a habit of picking up weapons and such from the mines.#$b#Make sure they won't simply crumble if a monster so much as looks at them funny.",
+  "Neutral_6": "Would it be odd to ask you to continue bringing the occasional mine sample my way? Rewarding you the traditional way would be rather pointless, but it would assist in my work.$8",
+  "Neutral_7": "I may soon have to visit across the star to meet with the Convocation.$0#b#If I am lucky, I will not be gifted another crisis to solve.$6",
+  "Neutral_8": "I woke up terribly stiff today, and no amount of stretching has helped.$6#$e#I should like to inform my wretched physical form of the enchantment that preserves it, as it seems to have forgotten.$6",
+  "Neutral_9": "I am not *brooding*, I am reflecting.#$b#The topics of reflection just happen to somber my mood.$8",
+  "Bad_0": "...*sigh*$9",
+  "Bad_1": "If you no longer desire this arrangement, you should at least come forth and say so.$6",
+  "Bad_2": "At last, you care to speak with me. To what do I owe this rare honor?$10",
+  "Bad_3": "Finding married life tiresome, are we?#$b#I agree.$6",
+  "Bad_4": "Perhaps I was a fool to believe you would make me as happy as they did.$9",
+  "Bad_5": "Ugh. This house is stifling!$6",
+  "Bad_6": "%Emet-Selch sighs dramatically at your presence.",
+  "Bad_7": "I'm in no mood for your prodding. Leave me to my misery.$6",
+  "Bad_8": "Are you really done with the farmwork today? It is suspiciously early.$6",
+  "Bad_9": "To think you'd bore of me so quickly; I honestly thought better of you.$6",
+
+  //kitchen dialogue, if kids
+  "OneKid_0": "...Don't let %kid1 have any more sweets today. I've let them have too many as it is.",
+  "OneKid_1": "%kid1 and I shall enjoy some quality time today. We have a shared interest in growing tired and settling on the couch for a rest.$h",
+  "OneKid_2": "The more frustrated my expression, the more little %kid1 giggles in delight.$0#$e#This is hardly the first time someone has taken amusement in my annoyance, but that someone being a child is new.$6",
+  "OneKid_3": "I wonder what %kid1 will grow to be interested in...$8#$b#I'll support them regardless, but part of me does hope they show an affinity for sorcery.",
+  "OneKid_4": "%kid1 is stubbornly refusing the greener portions of their meal, despite my extolling the health virtues of a varied diet.#$b#Rhetoric honed in the debate chambers of Amaurot, powerless before a rudely extended tongue.",
+  "TwoKids_0": "Have you seen %kid1 and %kid2 playing together? They're terribly adorable.$h",
+  "TwoKids_1": "A life on this farm with you, raising two children...It may be time to retire after all.$h#$b#I'm certainly busy enough even before Convocation work; they can well find another accomplished soulseer.",
+  "TwoKids_2": "Any thoughts about education for the children?#$b#I mean no offense, but I'd rather they had more structured schooling than what is offered in the valley.#$e#There is much I can teach them, but I imagine they would like to meet other children.",
+  "TwoKids_3": "After an age of monotony, it feels as if all has changed in the blink of an eye.#$b#There is not a thing I would change.$h",
+  "TwoKids_4": "I've already given %kid1 and %kid2 their meals, though it took some doing.#$b#%kid2 Is feeling rather fussy today.$6"
+}

@@ -1,0 +1,513 @@
+{
+    "Changes": [
+        {
+            "LogName": "Masahi's Egg Festival --- Vanilla",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Masahi 29 62 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Main-Event_additionalCharacters"],
+                    "Value": "Masahi 19 63 1",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            }
+        },
+        {
+            "LogName": "Masahi's Egg Festival --- SVE",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Masahi 24 62 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Main-Event_additionalCharacters"],
+                    "Value": "Masahi 18 63 1",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+            }
+        },
+
+        {
+            "LogName": "Masahi's Flower Dance --- Vanilla",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Masahi 1 40 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Main-Event_additionalCharacters"],
+                    "Value": "Masahi 5 27 1",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP, Rafseazz.RSVCP": false
+            }
+        },
+        {
+            "LogName": "Masahi's Flower Dance --- SVE",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Masahi 1 40 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Main-Event_additionalCharacters"],
+                    "Value": "Masahi 10 21 2",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasMod |contains=Rafseazz.RSVCP": false
+            }
+        },
+        {
+            "LogName": "Masahi's Flower Dance --- RSV",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Masahi 1 40 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Main-Event_additionalCharacters"],
+                    "Value": "Masahi 10 21 2",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains=Rafseazz.RSVCP": true
+            }
+        },
+
+        {
+            "LogName": "Masahi's Luau Festival --- Vanilla",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Masahi 26 15 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Main-Event_additionalCharacters"],
+                    "Value": "Masahi 33 15 0",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            }
+        },
+        {
+            "LogName": "Masahi's Luau Festival --- SVE",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Masahi 26 15 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Main-Event_additionalCharacters"],
+                    "Value": "Masahi 31 15 0",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+            }
+        },
+
+        {
+            "LogName": "Masahi's Dance of the Moonlight Jellies --- Vanilla",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Masahi 11 29 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Main-Event_additionalCharacters"],
+                    "Value": "Masahi 11 29 3",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            }
+        },
+        {
+            "LogName": "Masahi's Dance of the Moonlight Jellies --- SVE",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Masahi 11 29 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Main-Event_additionalCharacters"],
+                    "Value": "Masahi 11 29 3",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+            }
+        },
+
+        {
+            "LogName": "Masahi's SV Fair --- Vanilla",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Masahi 26 63 3",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            }
+        },
+        {
+            "LogName": "Masahi's SV Fair --- SVE",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Masahi 26 63 3",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+            }
+        },
+
+        {
+            "LogName": "Masahi's Spirit's Eve --- Vanilla",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Masahi 32 69 2",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            }
+        },
+        {
+            "LogName": "Masahi's Spirit's Eve Y1 --- SVE",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Masahi 32 69 2",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+                "Year": "1"
+            }
+        },
+        {
+            "LogName": "Masahi's Spirit's Eve Y2 --- SVE",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Masahi 32 67 2",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Year": "2"
+            }
+        },
+
+        {
+            "LogName": "Masahi's Festival of Ice --- Vanilla",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Masahi 65 40 1",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Main-Event_additionalCharacters"],
+                    "Value": "Masahi 69 27 2",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            }
+        },
+        {
+            "LogName": "Masahi's Festival of Ice --- SVE",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Masahi 63 49 1",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Main-Event_additionalCharacters"],
+                    "Value": "Masahi 69 27 2",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+            }
+        },
+
+        {
+            "LogName": "Masahi's Feast of the Winter Star --- Vanilla",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Masahi 33 57 2",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            }
+        },
+        {
+            "LogName": "Masahi's Feast of the Winter Star --- SVE",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Masahi 33 57 2",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+            }
+        },
+
+        {
+            "LogName": "Masahi's Ember of Resolutions --- RSV",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter28",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Masahi 45 25 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "as"],
+                    "Value": "Masahi 44 54 0",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains=Rafseazz.RSVCP": true
+            }
+        },
+        {
+            "LogName": "Masahi's Gathering Festival --- RSV",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall20",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Masahi 99 38 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Main-Event_additionalCharacters"],
+                    "Value": "Masahi 74 45 0",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains=Rafseazz.RSVCP": true
+            }
+        },
+
+        {
+            "LogName": "Masahi's Egg Festival Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "Entries": {
+                "Masahi": "It's strangely heartwarming to see people so excited about the egg hunt.$u#$b#Maybe I will join in one day and show the kids how it should be done.",
+                "Masahi_spouse": "I still remember how excited you were yesterday... Should I join in and compete with you, honey?#$b#I'm quite confident I will win.$u"
+            }
+        },
+        {
+            "LogName": "Masahi's Flower Dance Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "Entries": {
+                "Masahi": "Spring is almost over, huh? The flowers here will wither soon. It's a bit sad.$6"
+            }
+        },
+
+        {
+            "LogName": "Masahi's Luau Festival Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "Entries": {
+                "Masahi": "I hope the soup turns out fine...$6#$b#Well, it's not my place to worry anyway. What ingredients do you put in, @?",
+                "Masahi_spouse": "Hey, babe. I added some secret ingredients just for you. Do you look forward to it?$u#$b#Wait... did I already tell you about it yesterday?$6"
+            }
+        },
+        {
+            "LogName": "Masahi's Dance of the Moonlight Jellies Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "Entries": {
+                "Masahi": "I wish summer would last longer, but everything has to come to an end, doesn't it?#$b#I hope the jellyfish will continue to visit every year, though.$u",
+                "Masahi_spouse": "The ocean is even more beautiful with you here today.$u#$b#Will you still love me if I'm a jellyfish, honey?$u"
+            }
+        },
+
+        {
+            "LogName": "Masahi's SV Fair Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "Entries": {
+                "Masahi": "What are you bringing for the display, @? Knowing you, they must be of excellent quality. Good luck!",
+                "Masahi_spouse": "This shooting game is too easy. I was hoping for more of a challenge...$6"
+            }
+        },
+        {
+            "LogName": "Masahi's Spirit's Eve Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "Entries": {
+                "Masahi": "How do you think of the foods, @? I put a lot of efforts into them.",
+                "Masahi_spouse": "Honey, why won't you let me explore the maze with you? I'm a little disappointed...$6#$b#I guess you probably don't want me to see you scared, huh?"
+            }
+        },
+
+        {
+            "LogName": "Masahi's Festival of Ice Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "Entries": {
+                "Masahi": "I'm curious what they're going to do with the fish. Roasting them over the campfire is not a bad idea actually.",
+                "Masahi_spouse": "I'm cold, @. Can I have your warm kiss?$u"
+            }
+        },
+        {
+            "LogName": "Masahi's Feast of the Winter Star Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "Entries": {
+                "Masahi": "Hi there, @. What do you think of the foods today? I'm quite proud of them.$u#$b#Oh, it's not just me, of course. Gus actually made most of them.",
+                "Masahi_spouse": "Are you excited for the gift-giving, honey?$u#$b#Well, it could be me, it could be someone else. Who knows?#$b#You must want me to be your secret gift-giver, huh?$u"
+            }
+        },
+
+        {
+            "LogName": "Masahi's Ember of Resolutions Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter28",
+            "Entries": {
+                "Masahi": "Happy New Year, @. I hope all the wonderful things will come your way in the year ahead.$u#$e#Pika and Gus shared some amazing recipes today. I'm planning to give them a try in the coming year.",
+                "Masahi_spouse": "Happy New Year, honey.$u#$e#We have indeed come a long way, haven't we?$u#$b#Before meeting you, my life was just a shade of dark... But now, you've become the family I needed and filled my future with hope.$u#$b#Thank you for coming into my life. I love you, @.$u"
+            },
+            "When": {
+                "HasMod |contains=Rafseazz.RSVCP": true
+            }
+        },
+        {
+            "LogName": "Masahi's Gathering Festival Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall20",
+            "Entries": {
+                "Masahi": "Oh, hey there @. I'm helping Pika with the stall. I'll catch you later.$u",
+                "Masahi_spouse": "Are you excited for the concert, baby? I'm sure this will be a great chance for you to relax.$u#$e#I'm helping Pika with the stall. I'll be back in a minute, okay?$u"
+            },
+            "When": {
+                "HasMod |contains=Rafseazz.RSVCP": true
+            }
+        }
+    ]
+}

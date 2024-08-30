@@ -1,0 +1,988 @@
+{
+  //====================================================================================================
+  //The i18n Data For Reyla
+  //====================================================================================================
+
+  //====================================================================================================
+  // NPC info
+  //====================================================================================================
+
+  "RaffieJohn.Reyla":"Reyla",
+  "RaffieJohn.Imatu": "Imatu",
+  "RaffieJohn.Saku": "Saku",
+  "RaffieJohn.Pepper": "Pepper",
+
+
+  "RaffieJohn.RedCappedZuzu": "Red Capped Zuzu",
+  "RaffieJohn.RedCappedZuzu.Desc": "Palamedea rufus, otherwise known as the Red-Capped Zuzu are native to the area around Zuzu City in mainland Ferngill, zuzu are members of the screamer family introduced to Arkania for pest control. They are best known for their vocalizations and elaborate mating dance, which has made them a symbol of love. As they are an introduced species the population is controlled by culling, but their docile nature and ready adaptation to farm life have popularized them with the locals, complicating this.",
+  "RaffieJohn.RedCappedZuzuBirth": "A baby Red Capped Zuzu hatched!",
+  "RaffieJohn.CoopMissing": "You're missing the coop for the Zuzu bird.",
+
+  "RaffieJohn.Gouud": "Gouud",
+  "RaffieJohn.Gouud.Desc": "Cervicapra muntiacoides, otherwise known as the gouud or Arkanian goat is a semi-domestic caprid kept for its wool and milk. Originally thought to be a relative of deer, genetics indicates they are more closely related to goats, and were domesticated independently on Arkania. Their aggressive temperament and picky diet have led to an increase in popularity of true goats over them, however, leading to concerns over their conservation status.",
+  "RaffieJohn.GouudBirth": "A baby Gouud was born!",
+  "RaffieJohn.BarnMissing": "You're missing the barn for the Zuzu bird.",
+
+
+ 
+   //Location Specific
+   "Reyla.Saloon": "Hahaha.$1#$b#Gus is at it again trying to get me to remember the ingredients of dishes I've had during my travels!$1#$b#I said I would tell him if I got a free meal for every recipe I gave him.$1",
+   "Reyla.Saloon2": "You know I'm glad people here are happy and safe here, that they can dance and drink their worries away!$1",
+   "Reyla.Saloon4": "I wonder how long Clint is going to stare at Emily?$7",
+   "Reyla.Saloon8": "Care to dance?$7",
+   "Reyla.Saloon_Fri": "It's great to see the saloon so busy on a Friday evening!$1",
+ 
+   "Reyla.Resort_Entering": "Yay!$1Islands are so much fun to go to! I wonder if I can take some coconuts and wild fruit back home?$7",
+   "Reyla.Resort_Leaving": "Noooooooooo. I don't want to leave!$2",
+   "Reyla.Resort_Shore": "Been thinking about going in the water, care to join me?$1",
+   "Reyla.Resort_Umbrella": "I think the sun is getting to me...$2#$b#Better stay under this umbrella for awhile.$0",
+   "Reyla.Resort_Wander": "Wonder if I can find anything cool.$1",
+   "Reyla.Resort_Chair": "Going to get such a cool tan!$1",
+   "Reyla.Resort_Bar": "Gus, my man! Get me the most fruity cocktail you got!$7",
+   "Reyla.Resort_Towel": "So glad I get to relax.$1",
+   "Reyla.Resort_Towel_2": "Getting a little sleepy.$2",
+   "Reyla.Resort": "What a beautiful place to relax!$1",
+
+   "Reyla.Workout": "Hold in the abs and then punch and now a deep breath.$0",
+
+   "Reyla.DoctorVisit": "Hey @ I'm just here for my seasonal check-up.",
+
+   //Saku's interaction
+   "RaffieJohn.Saku.1": "Saku looks happy.",
+   "RaffieJohn.Saku.2": "Saku is not in a good mood, she pecks at you.",
+   "RaffieJohn.Saku.3": "Saku chirps a song, that you have heard before.",
+   "RaffieJohn.Saku.4": "Saku is giving you the stink eye.",
+   "RaffieJohn.Saku.5": "Saku does a dance. A very flashy dance.",
+   "RaffieJohn.Saku.6": "You're convinced that Saku winked at you.",
+   "RaffieJohn.Saku.7": "Saku is bobbing her head, and her red cap feathers are flopping around.",
+   "RaffieJohn.Saku.8": "Saku is eating the bugs on the ground.",
+
+   //Pepper's interaction
+   "RaffieJohn.Pepper.1": "Pepper has an indifferent look about her.",
+   "RaffieJohn.Pepper.2": "Pepper bows her head acknowledging you.",
+   "RaffieJohn.Pepper.3": "Pepper shuffles her feet. Is she nervous or dancing?",
+   "RaffieJohn.Pepper.4": "Pepper is eating the grass around her.",
+   "RaffieJohn.Pepper.5": "You pat Peppers' head.",
+   "RaffieJohn.Pepper.6": "Pepper gives you puppy dog eyes.",
+   "RaffieJohn.Pepper.7": "Pepper looks sleepy.",
+   "RaffieJohn.Pepper.8": "Pepper sticks her tongue out at you.",
+   
+ 
+  //====================================================================================================
+  //Conversation Topics
+  //====================================================================================================
+
+  //------------------------REYLA------------------------------------------------
+   "MeetReyla": "It's so amazing that you used to live in the city, @!#1#$b#And not only that but you dropped everything to follow what made you happy! You remind me of when I was younger, giving up everything to follow your dreams...$0",
+
+   "MeetReyla.Alex": "That woman that lives in the cemetery? She's strong as heck! I saw her come to town and carry about six big bags of deluxe fertilizer like it was nothing!$1",
+   "MeetReyla.Pierre": "Reyla? I would ban her from the store, but since she works for the adventurer's guild I can't.$2#$b#Why? Well, the adventure guild protects us, it would look bad if I banned someone who works hard to protect us.$0",
+   "MeetReyla.Robin": "Have you had a chance to Reyla? She and I made her house together. I offered to put in plumbing and electrical to her house, but she said that it wasn't a necessary thing at the moment.$0",
+   "MeetReyla.Abigail": "Have you met Reyla? She's awesome! She's given me a few sword tips. Sadly, my dad and her have some beef with one another. My dad won't say why and Reyla just mumbles 'My crops are not yours...'$1",
+
+   "MeetReyla.Marine": "Reyla is such a sweetheart, she brings so much business to the ranch. Just last week she bought 100 wool!$1",
+
+   "MeetReyla.Lewis": "Have you had a chance to meet our villager, Reyla? A while ago she bought a lot of land up in the cemetery in the mountains.$0",
+
+   "MeetReyla.Emily": "Reyla? She's amazing! She showed me a lot of different fashion trends that other countries have! She even helped me figure out a dye color I've been struggling with!$1",
+
+   "MeetReyla.Haley": "Have you seen that woman Reyla? Her fashion choices are amazing!$1",
+
+   //---------------------Vanilla CT----------------------------------------------------------
+   "Reyla.Introduction": "Hello! You must be the most famous farmer I've ever heard!$1#$b#I'm Reyla, and I just moved here too!$1#$b#I used to be an adventurer, but I now work at the Adventurer's Guild!$0#$b#Anyway I need to go! I'll see you around! Bye!$1",
+   "Reyla.luauBest": "That soup was the greatest I've had in a while!$1",
+   "Reyla.luauShorts": "Hahaha, I couldn't stop laughing when those shorts came out of the Govnern's mouth!$1",
+   "luauPoisoned": "Who would poison the soup like that?! Lewis is thinking of hiring the Adventurer Guild to do an investigation.$4",
+   "Reyla.pamHouseUpgrade": "Wow! You gave Pam a house she can truly call home!&1#b#Karma is going to owe you big time!$1",
+   "Reyla.pamHouseUpgradeAnonymous": "Look how happy Pam is...$0#$b#We need more people like you.$1#$b#What? Do you think I won't notice?$3#b# Don't worry my lips are sealed.$7",
+   "Reyla.danceRejection": "Can you handle my dancing @?$0#$b#No?$0#$b#Next time then!$2",
+   "Reyla.BreakUp": "I...$6#b# Notice you were distant lately, but here I was hoping it was me overthinking it...$2",
+   "Reyla.dumped_Girls": "Don't. Just... don't.$5",
+   "Reyla.secondchance_Girls": "You want to what?!$6#b# I-I don't know @...$2#b#We can try and see where this leads to again...$2",
+   "Reyla.divorced": "I traveled around the world, I know ways to-$5#$b#...$6#b#excuse, me @. I have some cooking that I'll send to you later!$2",
+   "Reyla.cc_Begin": "Hey @!I see you working on the community center, let me know if you need help.$1#b#Those little guys always want the rare stuff!$7",
+   "Reyla.cc_Bus": "Awesome job @!$1#$b#Now I can travel for work now!$1#b#Not only that! I can get some boba tea in Zuzu!$1",
+   "Reyla.cc_Boulder": "Got rid of that nasty old boulder?$0#$b# I think Marlon is going to have me investigate the cavern it left now...$0",
+   "Reyla.cc_Complete": "Look at you go! Completing the community center!$1",
+   "Reyla.movieTheater": "Movie theater! Movie theater!$1#$b#I get to see movies again!~$1",
+   "Reyla.IslandResortUnlocked": "Is it true that there is a resort now!?$1",
+
+   //-------------------------Imatu--------------------------------------
+   "Imatu.Introduction": "So, you're the farmer that helped Reyla find me? I guess I should thank you. Thank you.$0",
+   "Imatu.pamHouseUpgrade": "From what Reyla told me the money you gave away to help build a house for Pam, was a lot. Though trying to figure out the conversion rate from my time till now was impossible so I'm going to believe what Reyla said.$1",
+   "Imatu.pamHouseUpgradeAnonymous": "Learning from today's generation, I'm told staying anonymous is a way for the other person to not feel indebted and just see the gift for what it is - a second chance.$1",
+   "Imatu.cc_Complete": "Congrats @. Bringing a community together is hard work, but with your skills, it must have been easy.",
+   "Imatu.movieTheater": "There's a place just for moving drawings? This is absurd! Next, you tell me your generation has a machine that gets you info from the whole world?!$0",
+
+   //-------------------------OTHET MODS CT------------------------------
+   //RSV CT
+   "Reyla.keahi_prank": "I know you work hard but take a bath once in a while?$3",
+   
+   //Jorts and Jeans CT
+   "Reyla.MeetTheCats": "Have you met Jorts and Jean? They are so dedicated to being pro-union for Joja workers! Not only that they talk! I wonder if they're willing to teach Saku how to talk?$1",
+   "Reyla.ButteredJorts": "It was hard to not laugh when I saw Jorts covered in butter.$1",
+   "Reyla.JortsZoomies": "Jorts seemed like he was having the time of his life, running around at Jojamart!$1",
+ 
+   //Nora's CT
+   "Reyla.NoraIntro": "Have you met Nora yet? She's studying Herpetology, the study of reptiles. When I told her some of the reptiles I've seen, she asked me if I could describe some of them! Hopefully, we can talk some more, maybe over coffee?$1",
+   "Reyla.NoraProud": "I'm so happy for Nora! She got her PhD!$1",
+   "Reyla.NoraChameleon": "Did you hear, Nora found the Chameleon, she is so excited!$1",
+
+   //Clown's CT
+   "Reyla.JohnsArrival": "Have you met the man that just arrived last night? Rosa was telling me that the poor man collapsed. I hope nothing serious happens in the future.$2",
+   "Reyla.FaintingIncident": "Good thing, Harvey was there when John collapsed, I worry the next time this happens and no one is around.$2",
+   "Reyla.HaleysGossip": "I said 'hi' to John the other day and he looked very irritated. I hope I'm not bothering him too much.$2",
+   "Reyla.JinxIllness": "I went to the bookmobile to see if Barron had any good foreign cookbooks, and she was telling me Jinx isn't feeling well. I hope she recovers..$8",
+   "Reyla.BusFire": "I heard there was a fire at the bookmobile. My first thought was 'NOT THE BOOKS!'$6",
+   "Reyla.ThePast": "",
+
+   //Eli and Dylan CT
+   "Reyla.EliIntro": "Eli is a cool dude! I wonder if he knows any of the cryptic things I've seen during my travels. I should ask him, I would love to know the official names of the things I've seen and fought!$1",
+   "Reyla.EliSaloon": "It's nice that Eli treated you to dinner! And that aquamarine he gave Emily is so pretty!",
+   "Reyla.EliJunimo2": "Seems like Eli is having interesting company around lately.$7",
+   "Reyla.DylanIntro": "Dylan is so focused on his work that it's inspiring, though I wish Eli would have told me not to mention the sea creatures. I felt like I was being interrogated with all the questions he asked.$1",
+   "Reyla.DylanBeach": "I heard what you did, by helping Dylan with the beach! I've seen a lot of places that don't take care of the beach and in the long term suffered.$2",
+   "Reyla.DylanTown": "Dang, remind me to not piss off Pam.$0",
+   "Reyla.DylanSaloon": "That's the first time I saw Dylan get drunk! I'm glad he's opening up to people!$1",
+   "Reyla.SootIntro": "Have you met the little dust sprite Soot? It's so cute! Eli doesn't believe anyone when we say Soot is mischievous, but then again people say the same thing about Saku stealing and having a store...$0",
+
+   //Sunberry CT
+   "Reyla.MeetDND": "Have you been to the cafe, over in Sunberry? It's so cute!$1#$b#I wish my cat greeted people like the cats do there. Instead, she acts like a couch potato, never leaving the bed...$2",
+   "Reyla.DiscoveringMoon": "Hey, have you seen a little blue Junimo? Last I saw it, it was over by Sunberry.$0",
+   "Reyla.DialaConfesses": "I've seen Diala looking down I hope everything is ok.$2",
+   "Reyla.DeryaConfesses": "Derya been a nervous wreck whenever she's around Diala, I wonder why?$7",
+   "Reyla.DDFinalConfession": "Finally, they confess!$1",
+   "Reyla.ReihanaIntro": "Demons!? Not again...$2",
+   "Reyla.DDEngaged": "I'm so happy for Diala and Derya!$1",
+   "Reyla.MoonberryShopUnlock": "Moon has a little shop? And it's looking for moonberries? I'll keep an eye out for you if I find any!$1",
+   "Reyla.GSBCheck1": "I hope that seed you found in the mines is doing ok.$0",
+   "Reyla.GSBStageGood": "I heard the good news that it's growing!$1",
+   "Reyla.GSBStageBad": "Oh no... I heard the seed hasn't grown at all...$2",
+   "Reyla.GSBAcquired": "I heard the good news! I hope the sunberries taste good or are you able to plant them!?$1",
+
+   //East Scarp
+   "Reyla.AideenGarden": "I heard you're making a community garden with Aideen",
+
+   //Diamond in the Rough
+   "Reyla.ShadowPlay": "I heard bears are messing with the trash, I have a feeling I'm going to have to hunt and scare the bears away.$2",
+   "Reyla.SensFlowers": "Have you seen all the beautiful flowers popping up!$1",
+
+   //Bear Family
+   "Reyla.BearFamTimeForBees": "I noticed Sig has been bringing bees to his house. I wonder what he plans on doing with them?$0",
+   "Reyla.SigLowBattery": "I didn't know Sig couldn't hear from one for his ears until I met him at Harveys one day.$0",
+   "Reyla.SigAndCigarettes": "Is it weird the smell of cigarettes reminds me of my mom?$2",
+   "Reyla.SigHatesCrowds": "I saw Sig almost run out the door. Was the place filling up fast? I hope one day he doesn't feel uncomfortable anymore.$2",
+   "Reyla.SigVersusCrabs": "Had to help Sig out with the crabs, but seeing Marlon lecturing Sig was a sight I didn't want to see. I know Sig has been dealing with things his way, I brought up once about therapy and he got upset and said it wasn't for him. I didn't push the topic further, but I do hope he considers talking to someone about what he went through.",
+   "Reyla.SondraAgingGracefully": "I saw Sam and Seb help Sondra with her groceries, that's so sweet of them!$1",
+   "Reyla.SondraRememberWulfram": "I didn't know Sondra's husband passed away.$2",
+   "Reyla.GunnarOpenForBusiness": "Gunnar opened up a little shop. I wonder what he is selling?$0",
+   "Reyla.GunnarBuildsaBomb": "Marlon had the book confiscated since the book contained recipes for bombs. I'm just glad the kids didn't get to first.$2",
+   "Reyla.GunnarBreaksaSword": "Gunnar? Oh, you want to know why we sent him to Clint?$6#&b#We hope that he develops some good skills?$2",
+   "Reyla.GunnarGuildTryout": "Gunnar wants to what?$6#&b#Hmmmm, I mean it's not a bad idea to find alternatives, but until then hunting is the only choice we have.$3",
+   "Reyla.GunnarGetsaLecture": "Oh no, Gunnar got chewed out again, didn't he?$3",
+   "Reyla.GudrunQinstagram": "'Qinstagram'? Never heard of it. I don't have a phone that takes pictures, mine is a throwaway phone. Maybe I should finally get an actual phone.$0",
+   "Reyla.GudrunEcoFriendly": "Gudrun, is trying to shut down JojaMart, huh?$0",
+   "Reyla.BearFamFullHouse": "Hahaha, from the look on your face you met the bear family! I hope one day I have a family that close and big!$1",
+   "Reyla.BearFamFireDrill": "I heard the latest fire accident was from the Bear family again?$3",
+   "Reyla.BearFamAttacked": "Gunnar and Sondra were in trouble?! I hope they didn't get hurt!$6",
+   "Reyla.WelcomeSergeantBarnes": "Have you met Sergeant Barnes? Pretty good looking and good in the kitchen!$1",
+
+   // LUCIKIEL
+   "Reyla.LucikielArrives": "@! Marlon said to keep an eye on that demon and to report if he does anything suspicious. Luckily no one was hurt.$2",
+   "Reyla.ReputationIncreased": "Abby told me what happened at the mines! I'm glad that she unlocked her mana, but she should know better than to go there. I have a feeling I'm going to be working the night shift for the next few weeks...$2",
+   
+   //Jasper
+   "Reyla.JasperGone2": "Have you seen Jasper?$2",
+   "Reyla.JasperHomeA": "I heard what happened to Jasper. I'm glad you found him in time.$8",
+
+   //ARV
+   "Reyla.SterlingDrugs": "Something feels off with Sterling...$2",
+   "Reyla.SterlingRelapse": "I'm glad Sterling has his family to support him with what he is going through. I'm sure it'll take some time, but he'll be back to his old self soon enough.$0",
+   "Reyla.SterlingApology": "I'm happy Pierre and Sterling were able to make up!$1",
+   "Reyla.SterlingRiver": "I haven't seen Sterling drinking like he normally does, I wonder if he quit?$0",
+
+   //Juna
+   "Reyla.JunaBeachBallet": "Have you seen Juna dance? It's beautiful but I can feel sadness radiating from the dance.$2",
+
+   //Sword and Sorcery Chapter 1
+   "Reyla.MateoCaution": "",
+   "Reyla.MateoRescue": "",
+   "Reyla.MateoLibrary": "",
+   "Reyla.MateoAdmission": "",
+   "Reyla.MateoConfrontation": "",
+   "Reyla.MateoWyatt": "",
+   "Reyla.MateoAcceptance": "",
+   "Reyla.MateoPain": "",
+   "Reyla.MateoRecovery": "",
+   "Reyla.CGuildConstruction": "",
+   "Reyla.CGuildComplete": "",
+   "Reyla.MateoIntegrity": "",
+   "Reyla.MateoRomance": "",
+   "Reyla.MateoForest": "",
+   "Reyla.MateoDate": "",
+   "Reyla.MateoDeclaration": "",
+   "Reyla.MateoEngaged": "",
+   "Reyla.AdventurerArrival": "",
+
+   //S&S Chapter 2
+   "": "",
+   "": "",
+
+  //====================================================================================================
+  //Dialogue
+  //====================================================================================================
+
+   //Repeat conversations 
+    "Reyla.9": "Hey @! What are you up to today? Me? Heading to Dr.Harvey's place for my seasonal checkup.$0",
+
+   //Spring Dialogue
+   "Reyla.Spring_2_1": "Hey! I forgot to ask, but what's your name?...'@?' Well it's nice to meet you @!$1",
+   "Reyla.Spring_3": "Finally it's raining!$1#$b#That's great for your crops and mine!$1",
+   "Reyla.Spring_Mon": "You know it's so weird, being in a town where no there is no looming danger in the air.$2#$b#OH!$6#$b#Don't get me wrong, amazingly, this town is safe, but on my travels so many towns weren't as lucky... $2",
+   "Reyla.Spring_Tue": "Man, staring down a hole all day can be boring, but at least no monsters come out.$0",
+   "Reyla.Spring_Wed": "Going to need some coffee today...$6",
+   "Reyla.Spring_Thru": "Going to need to go to town and buy some stuff for this week.$0",
+   "Reyla.Spring_Fri": "Today is Friday! That means the weekend is here and I can relax a bit!$1",
+   "Reyla.Spring_Sat": "Need to remember to buy stuff from the store while I'm in town, or it's hunting season this week.$3",
+   "Reyla.Spring_Sun": "Noooooooooo... I have to work tomorrow.$2#$b# That's what people say about jobs right?$7",
+   "Reyla.Spring_25": "Today is my birthday!$1#$b#I wonder how Pelican Town celebrates birthdays? May need to ask Vincent and Jas.$1",
+ 
+   //Summer Dialogue
+   "Reyla.Summer_1": "Summer! Now this is the weather I'm used to! But what's more important is that my favorite food is grown during this season - tomatoes!!!$1",
+   "Reyla.Summer_Mon": "Summer the best time to work on the beach body!$7",
+   "Reyla.Summer_Tue": "Is it true, Summer here has a lot of lightning storms?$6",
+   "Reyla.Summer_Wed": "Need to remember to bring a lot of water to the caves. It gets very hot and stuffy in there!$2",
+   "Reyla.Summer_Thru": "Hey it's a beautiful day in the nieghborhood~$1",
+   "Reyla.Summer_Fri": "For the love of Yoba! The humidity is going to be the death of me!$6",
+   "Reyla.Summer_Sat": "Need to go to Alex's ice cream shop and get me something nice and cold.$1",
+   "Reyla.Summer_Sun": "Maybe going to the library, will save me from the heat.$2",
+   "Reyla.Summer_28": "Sad that it's the last day of Summer. As much as I hate the heat, it was fun getting to go to the beach and eat ice cream.$2",
+ 
+   //Fall Dialogue
+   "Reyla.Fall_Mon": "Hey @!$1#$b#Must be busy during the fall season, huh?$7",
+   "Reyla.Fall_Tue": "I wonder if I can get a pumpkin spice latte somewhere?$0",
+   "Reyla.Fall_Wed": "Summer may be over but 'waterautumn' will be my favorite fruit!$2",
+   "Reyla.Fall_Thru": "When I see brown leaves everywhere, I can't help but fall in love...$4",
+   "Reyla.Fall_Fri": "The fall of leaves, The fall of Temperature, The fall of humanity$1",
+   "Reyla.Fall_Sat": "Hi @! I beleaf in you!$1",
+   "Reyla.Fall_Sun": "I love all the changes that are happening with nature! It's so dramatic!$1",
+   "Reyla.Fall_28": "Winter is coming.$0#$b#During my adventures, I rarely went to places with snow, so it's going to be an adjustment for me!$1",
+ 
+   //Winter Dialogue
+   "Reyla.Winter_1": "By Yoba! I can't believe how cold it is! Good thing Emily gave me some fabric that's meant for the cold!$6",
+   "Reyla.Winter_Mon": "It's freaking cold!$2",
+   "Reyla.Winter_Tue": "I need a nice hot drink, in this cold weather.$2",
+   "Reyla.Winter_Wed": "Going to need a lot of wood, it's getting colder up in the mountains.$0",
+   "Reyla.Winter_Thru": "Wish I had a heater at home.$2",
+   "Reyla.Winter_Fri": "Hey @, how you doing on this cold day?$0",
+   "Reyla.Winter_Sat": "What do you do when you don't have much to do this season?$1",
+   "Reyla.Winter_Sun": "Rarely been to areas where it snows, so it's a bit of an adjustment for me.$0",
+ 
+   //Rain and Snow Dialogue
+   "Reyla.rain": "It's coming down pretty hard isn't it?$3",
+   "Reyla.rain_1": "I love rain, it hides the tears I shed.$0",
+
+   //Green Rain Dialogue
+   "Reyla.GreenRain": "It's been a while since I've seen green rain, don't worry it's a good thing for Earth, without it all the greenery would die out.$0",
+   "Reyla.GreenRain_2": "Mother nature working today I see.$1",
+
+  //====================================================================================================
+  //Festival Dialogue
+  //====================================================================================================
+  "single.spring13": "Hey @!$1#$b#I 'convinced' Lewis to let me join in on the egg hunt!$0#$b#What do I mean by 'convinced'?$0#$b#Blackmail, my good friend. Blackmail...$7",
+  "relationship.spring13": "@!I'm glad you're here!$2#$b#Ready for the hunt?$1#$b#This brings me back to the jungle where I had to chase a poacher...$4#b#But don't worry the only thing I'll be after is you.$4",
+  "divorced.spring13": "Ugh!$a#$b#YOU'RE here?!$a#$b#What did you come here for? To ruin this event like you ruined my life!$s#$b# Get away from me!",
+
+  "single.spring24": "@! Ready to dance?$3",
+  "relationship.spring24": "Ready to show everyone what we've got?$7",
+  "divorced.spring24": "Hope you fall while dancing.$5",
+
+  "single.summer11": "Where I used to live a gathering like this, we would dance and sing to honor our ancestors and the spirits. Do fun activities, like making dreamcatchers, pottery, and even basket weaving!$1",
+  "relationship.summer11": "You didn't forget the item to bring? No? Great!$1",
+  "divorced.summer11": "What can you do to make this day worse?$2",
+
+  "single.summer28": "This scenery reminds of the story of how a woman waited for her love every day by the beach to return from his travels. One day while waiting she saw his ship and with joy she began to dance like a butterfly with the shawl being her wings. It later became a traditional dance among my people.$0",
+  "relationship.summer28": "I'm glad I get to see these little guys with the love of my life.$4",
+  "divorced.summer28": "Leave me alone...$2",
+
+  "single.fall16": "That slingshot booth person said I couldn't play anymore...$2#b#They said they never seen anyone look so deadly just to get stuff toy...$2",
+  "relationship.fall16": "I know you got this babe!$1#b#Win this and you're in for a 'treat' later!",
+  "divorced.fall16": "Why do you keep trying to talk to me?$2",
+
+  "single.fall27": "It takes a while to get these guys.$1#$b#They're incredibly smart, but dumb as heck when you put on a skull mask.$7",
+  "relationship.fall27": "I love your outfit, sweetheart! Next year we should go with the same theme!$1",
+  "divorced.fall27": "When I caught these guys, all I could think was how stupid I was for falling for you$2",
+
+  "single.winter8": "I love the cold! It gives me a reason to drink some hot cocoa!$1",
+  "relationship.winter8": "I got plenty of hot cocoa and a warm blanket to cover ourselves.$4",
+  "divorced.winter8": "I'm not getting you if you fall in the water.$5",
+
+  "single.winter25": "I miss spending this holiday with my mom...$2",
+  "relationship.winter25": "I'm glad I met you @.$4",
+  "divorced.winter25": "I hope you get coal.$5",
+
+  //Custom Festivals Reactions
+  "single.fall3": "What a great festival Nikki made.$1",
+  "relationship.fall3": "When I'm not working this stall let walk around, @.$4",
+  "divorced.fall3": "Buy something or leave.$5",
+
+  //====================================================================================================
+  //Movie reactions
+  //====================================================================================================
+  "Movies.Reyla.Wumbus.start": "Wumbus, you say?$1",
+  "Movies.Reyla.Horror.start": "I love horror movies!$1#$b#Don't get me started on how recent horror movies have been...$2",
+  "Movies.Reyla.BraveLittleSapling.start": "A movie where we get to kick back and relax!$1",
+  "Movies.Reyla.PrairieKing.start": "I hope this movie is good...A lot of comedy movies now aren't the same as they were in the past.$7",
+  "Movies.Reyla.Mysterium.start": "Don't be mad if I fall asleep...$2",
+  "Movies.Reyla.NaturalWonders.start": "Documentary? I love documentaries!$1",
+  "Movies.Reyla.ZuzuExpress.start": "What type of classic movies, are we talking about here?$7",
+  "Movies.Reyla.TheMiracleAtColdStartRanch.start": "This seems like it's going to be a sad movie...$2",
+
+  "Movies.Reyla.Wumbus.mid": "Reyla is too invested in the movie to talk.",
+  "Movies.Reyla.ItHowlsInTheRain.mid": "Reyla seems to be holding back a laugh.",
+  "Movies.Reyla.BraveLittleSapling.mid": "Awwwww, that's sweet.$0",
+  "Movies.Reyla.PrairieKing.mid": "Reyla is having a good time, it seems.",
+  "Movies.Reyla.Mysterium.mid": "Reyla, looks bored out of her mind.",
+  "Movies.Reyla.NaturalWonders.mid": "Wow, so that's how it works.$0",
+  "Movies.Reyla.ZuzuExpress.mid": "Reyla is having trouble opening her eyes.",
+  "Movies.Reyla.TheMiracleAtColdStartRanch.mid": "Looks like Reyla is tearing up.",
+
+  "Movies.Reyla.Wumbus.end": "Can you believe what happened?! I thought it was over for poor Wumbus!$1",
+  "Movies.Reyla.ItHowlsInTheRain.end": "Ha-ha-ha! That was more of a comedy than a horror fest!$1",
+  "Movies.Reyla.BraveLittleSapling.end": "Sometimes you need a family movie to get you feeling good about the world.$1",
+  "Movies.Reyla.PrairieKing.end": "Not bad.$0",
+  "Movies.Reyla.Mysterium.end": "Sorry, that movie made me sleepy...$2",
+  "Movies.Reyla.NaturalWonders.end": "Can you believe the useful stuff I just learned!$1",
+  "Movies.Reyla.ZuzuExpress.end": "And here I thought you meant a good classic...$2",
+  "Movies.Reyla.TheMiracleAtColdStartRanch.end": "Don't tell anyone that I cried please...$2",
+
+  //====================================================================================================
+  //Wedding
+  //====================================================================================================
+  "Wedding.5367": "When @ first arrived in Pelican Town, no one knew if he'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Reyla in the bonds of marriage.",
+  "Wedding.5369": "When @ first arrived in Pelican Town, no one knew if she'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Reyla in the bonds of marriage.",
+  "Wedding.5371": "@... Reyla... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and wife!$h",
+  "Wedding.5377": "@... Reyla... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you wife and wife!$h",
+
+  //Engagement
+  "Engagement.00": "Really?$6 I can't believe this is happening!$1",
+  "Engagement.01": "I love you @!$l",
+
+  //Pregnancy and Adoption reactions
+  "Reyla_Pregnancy_Adoption_One.4440": "{0}, Are we about to have a baby?!$1",
+  "Reyla_Pregnancy_Adoption_One.4442": "Ugh... where's the toilet.$2",
+  "Reyla_Pregnancy_Adoption_One.4443": "{0}, I hope our adoption request gets approved...$2",
+  "Reyla_Pregnancy_Adoption_One.4445": "{0}, I filed our adoption papers. Now we just sit and wait.$4",
+  "Reyla_Pregnancy_Adoption_Two.4440": "{0}, Baby number two, here we go!$1",
+  "Reyla_Pregnancy_Adoption_Two.4441": "{0}, I hope everything goes well with the delivery. I'll be here for you every step of the way honey.$1",
+  "Reyla_Pregnancy_Adoption_Two.4442": "Ugh... need the toilet again...$2",
+
+  //---------------------------------HAS MOD INSTALLED REYLA WILL REACT---------------------------
+
+  //Sunberry Installed
+  "Reyla.Sunberry.1": "Sunberry has such an awesome cat cafe!$1",
+
+  //Rodney Installed
+  "Reyla.Rodney.1": "Rodney is funny. He once asked me if the people I met during my adventures knew him. I was laughing hard, I couldn't breathe.$1",
+  "Reyla.Rodney.2": "Did you know Rodney does tarot card reading? Had mind done, it showed 'The World' for me, and Rodney looked confused.$0",
+  "Reyla.Rodney.3": "I once asked if he had any recommendations on which book I should read first of his, it took three hours for him to decide.$2",
+  "Reyla.Rodney.4": "Rodney is a funny guy, crazy about writing, but cool nonetheless. Just don't tell him I said that, ok?$0",
+  "Reyla.Rodney.5": "Rodney invited me to watch some sci-fi shows with him. It was a lot of fun!$1",
+
+  //A New Dream Installed
+
+  //Aspen Installed
+
+  //SVE Installed
+
+  //RSV Installed
+
+  //VMV Installed
+
+  //East Scarpe Installed
+
+  //Downtown Zuzu Installed
+
+  //Isla Installed
+
+  //ARV Installed
+
+  //Yri Installed
+
+  //Lavril Installed
+
+  //Jade Installed
+
+  //Mateo Installed
+
+  //Hector Installed
+
+  //Juliet and Jessie Installed
+
+  //====================================================================================================
+  //Shop Items
+  //====================================================================================================
+
+  "RaffieJohn.ReylaShop": "Come take a look at stuff I learned during my travels!",
+
+  "RaffieJohn.Tteokbokki": "Tteokbokki",
+  "RaffieJohn.Tteokbokki.Desc": "The dish is made with small rice cakes along with gochujang, fish cakes, and other ingredients.",
+  "RaffieJohn.Tteokbokki.Buff": "Chewy but sweet.",
+
+  "RaffieJohn.BeefBroth": "Beef Broth",
+  "RaffieJohn.BeefBroth.Desc": "Beef broth makes a rich base for many soups and stews from cuisines around the globe.",
+  "RaffieJohn.BeefBroth.Buff": "Just need a bit more ingredients.",
+
+  "RaffieJohn.PorkTamale": "Pork Tamale",
+  "RaffieJohn.PorkTamale.Desc": "A tamale, is a traditional Mesoamerican dish made of masa, a dough made from nixtamalized corn, which is steamed in a corn husk or banana leaves.",
+  "RaffieJohn.PorkTamale.Buff": "Comes in many flavors.",
+
+  "RaffieJohn.BeefTamale": "Beef Tamale",
+  "RaffieJohn.BeefTamale.Desc": "A tamale, is a traditional Mesoamerican dish made of masa, a dough made from nixtamalized corn, which is steamed in a corn husk or banana leaves.",
+  "RaffieJohn.BeefTamale.Buff": "Comes in many flavors.",
+
+  "RaffieJohn.BobaTea": "Boba Tea",
+  "RaffieJohn.BobaTea.Desc": "Bubble Tea, also known as boba milk tea, is a cold, frothy drink made with a tea base shaken with flavors, sweeteners, and/or milk with tapioca pearls at the base of the drink. Fat Straw Required.",
+  "RaffieJohn.BobaTea.Buff": "Can never go wrong with boba tea.",
+
+  "RaffieJohn.Kenpeito": "Kenpeito",
+  "RaffieJohn.Kenpeito.Desc": "A sugar candy that takes the form of a small sphere with a bumpy surface, and comes in a variety of colors and flavors.",
+  "RaffieJohn.Kenpeito.Buff": "Sweet and with flavor.",
+
+  "RaffieJohn.SpaghettiSquash": "Spaghetti Squash",
+  "RaffieJohn.SpaghettiSquash.Desc": "When raw, the flesh is solid, but when cooked, the flesh separates into strands that resemble spaghetti pasta.",
+  "RaffieJohn.SpaghettiSquash.Buff": "A healthy choice for sure.",
+
+    //====================================================================================================
+  //Quest Items
+  //====================================================================================================
+
+  "RaffieJohn.PhotoMom": "Photo of Mom",
+  "RaffieJohn.PhotoMom.Desc": "A photo of a woman and a young child. It looks a lot like Reyla.",
+
+  //====================================================================================================
+  //Quests
+  //====================================================================================================
+
+  "Reyla.Quest_01_Title": "Meet The Guild",
+  "Reyla.Quest_01_Desc": "Go to the Adventurer Guild and talk to Reyla. Don't forget the Earth Crystal to show proof.",
+  "Reyla.Quest_01_Hint": "Visit the Adventurer's Guild and talk to Reyla when she's there.",
+  "Reyla.Quest_01_Reaction": "Hey @! I'm glad you brought the Earth Crystal! Now let me give you a quick rundown. Marlon is the guild leader, Gil is in charge of Monster Tracking and I'm here to do the dirty work! Hahaha! I'm kidding!$1#$b#We do everything we can to keep the town safe from hostile monsters, glad you can join us!$1",
+
+  "Reyla.Quest_Photo_Title": "A Photo Of The Past",
+  "Reyla.Quest_Photo_Desc": "You found a picture of a young woman and her child. The mother looks a lot like Reyla?",
+  "Reyla.Quest_Photo_Hint": "Give it Reyla.",
+  "Reyla.Quest_Photo_Reaction": "Thank you so much!!! My mom didn't like to take photos, she thought that it was better to experience than have a photo of what you have seen.$1#$b#...mom...$8",
+
+  "Reyla.Quest_MakeABoomP1_Title": "Let's Make A Boom! Part 1",
+  "Reyla.Quest_MakeABoomP1_Desc": "Give Reyla 300 wood to create the support for the mines.",
+  "Reyla.Quest_MakeABoomP1_Hint": "Give Reyla 300 wood",
+  "Reyla.Quest_MakeABoomP1_Reaction": "Thank you! Now let's get the walls set up for that mine!$1",
+
+  "Reyla.Quest_MakeABoomP2_Title": "Let's Make A Boom! Part 2",
+  "Reyla.Quest_MakeABoomP2_Desc": "Give Reyla 50 bombs to help her make a dent in that collapsed mine.",
+  "Reyla.Quest_MakeABoomP2_Hint": "Give Reyla 50 Bombs",
+  "Reyla.Quest_MakeABoomP2_Reaction": "Thank you! Now let's see if these bombs can do the job!$1#$b#Hmmmm, maybe they're too small to do the job. Can you get me Mega bombs instead?$0",
+
+  "Reyla.Quest_MakeABoomP3_Title": "Let's Make A Boom! Part 2",
+  "Reyla.Quest_MakeABoomP3_Desc": "Give Reyla 30 bombs to help her make a dent in that collapsed mine.",
+  "Reyla.Quest_MakeABoomP3_Hint": "Give Reyla 30 Mega Bombs",
+  "Reyla.Quest_MakeABoomP3_Reaction": "Thank you! These babies should create a big enough blast! I'll send you a letter when it's open!$1",
+
+  //====================================================================================================
+  //Special Orders
+  //====================================================================================================
+  "Reyla_Bomb_SO_Name": "Let's Make A Boom",
+  "Reyla_Bomb_SO_Text": "Marlon gave us 30 days to open the Mine, let's blow it up!",
+  "Reyla_Bomb_SO_Obj_1_Text": "Let's get some wood so we can hold the interior of the mine and not have it collapse on us.",
+  "Reyla_Bomb_SO_Obj_2_Text": "We need 50 bombs.",
+  "Reyla_Bomb_SO_Obj_3_Text": "Just in case regular bombs don't work we bring out the bad boys - Mega Bombs!",
+
+  //====================================================================================================
+  // Mail
+  //====================================================================================================
+  "Reyla.Mail_Quest_01_Title": "Visiting the Guild",
+  "Reyla.Mail_Quest_01": "Hello!^^I heard you passed Marlon's little test! Come to the Adventurer's Guild to meet the guild!^^P.S. Marlon forgot to ask, but can you bring an Earth Crystal? We just need proof that you went into the mines. Thank you! See you soon!^^- Reyla%item quest RaffieJohn.Reyla_MeetTheGuild true %%",
+
+  "Reyla.test": "This is a test mail @",
+  "Reyla.test_title": "test mail.",
+
+  "Reyla.plushie": "Hello!^^Hey @! Guess what I had a lot of fabric left over, so I decided to make this little plushie of me! To protect you when you sleep or need someone to protect the house!^^ - Your bestie, Reyla%item furniture VWW.CP.PixelPalsPlushies_Reyla%%",
+  "Reyla.plushie_title": "Plushie Time",
+
+  "Reyla.Terms": "By opening this letter you have accepted the terms. ^^We will be watching for further instruction.^^-Mako KZ",
+  "Reyla.Terms_title": "Accepted the terms.",
+
+  "Reyla.MakeABoom": "Hello!^^Hey @! Marlon said that we could use bombs to get through the entrance! Can you help me collect some things for the mine? Thanks!^^-Reyla",
+  "Reyla.MakeABoom_Title": "Let's Make A Boom",
+
+  "Reyla.MineOpened": "Hello!^^I managed to get the mine opened! Enjoy mining there, I take a look at what is in there soon!^^ - Reyla",
+  "Reyla.MinedOpened_Title": "Mine Now Opened",
+
+  "Reyla.PhotoMom": "Hello,^^I really hate to ask this from you, but can you help me find a photo, that I hold dear to me? It's a photo of my mother and me.^^ - Reyla%item quest RaffieJohn.Reyla_Photo true %%",
+  "Reyla.PhotoMom_Title": "Mother From The Past",
+
+  "Reyla.ThankYou": "Hello @,^^Thank you for talking to me last night. It really made me happy to have someone to talk to about this stuff from time to time.^^ - Reyla",
+  "Reyla.ThankYou_Title": "Thank you For The Talk",
+  //====================================================================================================
+  //Custom Gift Reactions
+  //====================================================================================================
+
+  //non b-day gift reactions - love
+  "Reyla.Tomato.00": "TOMATOES!!!$1#$b#...$6#$b#Sorry...One of my favorite fruits/veggies of all time!$1",
+  "Reyla.Strawberry.00": "I used to pick strawberries in this huge field, in the middle of the night so I wouldn't get caught by the farmer.$1#b#Oops.$6#b#Ha-ha, I forgot you're a farmer also...$2",
+  "Reyla.Spaghetti.00": "Really? I love Spaghetti! Thank you @!$1",
+  "Reyla.Mango.00": "I love mangoes! Chop them up and add some sweet chili powder, and you're set!'$1",
+  "Reyla.Elvish_Jewelry.00": "Trying to doll me all up, I see?$7",
+  "Reyla.Stuffing.00": "Are you spying on me?$7#b# Just kidding, thanks for the meal!$1",
+  "Reyla.Sashimi.00": "I love Sashimi! Though don't ever eat the puffshimi...$7",
+  "Reyla.Coral.00": "For me?! Thank you I'll put it onto my shelf when I get home!$1",
+  //b-day gift reactions - love
+  "Reyla.Tomato.01": "A Tomato? This is amazing, @! I can't believe you remembered my birthday.$1",
+  "Reyla.Strawberry.01": "I can taste the sweetness already!$1",
+  "Reyla.Spaghetti.01": "It's a spaghetti for my birthday!'$1",
+  "Reyla.Mango.01": "I'm going to save the seed and try to grow my mango tree!$1",
+  "Reyla.Elvish_Jewelry.01": "It's not every day you get to celebrate your birthday *and* get to see a rare species.$1#$b#Thank you, @.$1",
+  "Reyla.Stuffing.01": "Seriously you're spying on me, right?$7",
+  "Reyla.Sashimi.01": "Thank you @!$1",
+  "Reyla.Coral.01": "Coral reminds me of when I was little and we would go to the beach! This is a great birthday present!$1",
+
+  //non b-day gift reactions - like
+  "Reyla.Cloth.00": "I can finally use my sewing machine now!$1",
+  "Reyla.Truffle.00": "Ooooo, I can make something fancy out of this!$1",
+  "Reyla.Maki_Roll.00": "Thank you, @.$1",
+  "Reyla.Chocolate_Cake.00": "Thank you, but what are we celebrating?$3",
+  "Reyla.Ruby.00": "One of my favorites! You know how to spoil a girl.$4",
+  "Reyla.Pumpkin_Soup.00": "This reminds me of when my mom tried to make pumpkin soup.$1",
+  "Reyla.Coconut.00": "You put the lime in the coconut and shake all around~!$2",
+  "Reyla.rainbow_shell.00": "These are hard to find! Thank you!$1",
+  "Reyla.Blueberry_Tart.00": "Yummy!$1",
+  //b-day gift reactions - like
+  "Reyla.Cloth.01": "I can make some nice clothes, with this, thank you!$1",
+  "Reyla.Truffle.01": "Fancy!$1",
+  "Reyla.Maki_Roll.01": "You're spoiling me...$7",
+  "Reyla.Chocolate_Cake.01": "The classic cake. I love it!$1",
+  "Reyla.Ruby.01": "It's beautiful! Look at it shine!$1",
+  "Reyla.Pumpkin_Soup.01": "Nice and tasty! Thank you @!$1",
+  "Reyla.Coconut.01": "I haven't had coconut since I was deserted on an island long ago!$1",
+  "Reyla.Rainbow_Shell.01": "So Pretty!$1",
+  "Reyla.Blueberry_Tart.01": "Nice and sweet!$1",
+
+  //non b-day gift reactions - hate
+  "Reyla.Cheese.00": "Good Yoba! Get that away from me!$5",
+  "Reyla.Wine.00": "Thank you, but I don't drink wine...'$2",
+  "Reyla.Miner's_Treat.00": "I get these at work all the time.$2",
+  "Reyla.Clay.00": "What? Why?$2",
+  "Reyla.Cheese_Cauliflower.00": "Like I said cheese is a no-go, even if you add something to it...$2",
+  "Reyla.Goat_Cheese.00": "It's still cheese...That 'DON'T' like...$2",
+  //b-day gift reactions - hate
+  "Reyla.Cheese.01": "Guess I can make street corn out of the cheese...$2",
+  "Reyla.Wine.01": "Sorry, but I don't like the smell wine gives...$2",
+  "Reyla.Miner's_Treat.01": "Thank you? I guess.",
+  "Reyla.Clay.01": "The heck do I do with this?!$2",
+  "Reyla.Cheese_Cauliflower.01": "You forget I don't like cheese, right? How is adding another ingredient going to change that?$2",
+  "Reyla.Goat_Cheese.01": "It's still cheese...$2",
+
+  //Her default reactions to gifts
+  "Gift_Taste_Data.Love": "Oooooooooooo you got THIS for ME?! Thank you, @!!!",
+  "Gift_Taste_Data.Like": "Awesome! I can use this! Thank you, @!",
+  "Gift_Taste_Data.Neutral": "Thank you, @. That's sweet of you!",
+  "Gift_Taste_Data.Dislike": "Thank you? @... Are you giving me things you don't like?$11",
+  "Gift_Taste_Data.Hate": "Just no...$11",
+
+  //------------------------------IMATU-------------------------------------
+  //Loved gift
+  "Imatu.Cactus_Fruit.Loved": "Cactus fruit, one of the few things that hasn't changed over 1000 years. A nice treat to eat when you are in the desert. Thank you.",
+  "Imatu.Elvish_Jewelry.Loved": "",
+  "Imatu.Ancient_Sword.Loved": "",
+  "Imatu.Prehistoric_Tool.Loved": "",
+  "Imatu.Legend_Fish.Loved": "",
+  "Imatu.Starfruit.Loved": "",
+  "Imatu.Rabbits_Foot.Loved": "",
+  "Imatu.Pizza.Loved": "",
+  //Liked gift
+  "Imatu.Ghost_Crystal.Liked": "",
+  "Imatu.Marble.Liked": "",
+  "Imatu.Bruschetta.Liked": "",
+  "Imatu.Peach.Liked": "",
+  "Imatu.Maple_Bar.Liked": "",
+  "Imatu.Squid_Ink.Liked": "",
+  "Imatu.Mango.Liked": "",
+  "Imatu.Pina_Colada.Liked": "",
+  //Disliked gift
+  "Imatu.Pale_Broth.Disliked": "",
+  "Imatu.Spice_Berry.Disliked": "",
+  "Imatu.Cherry_Bomb.Disliked": "",
+  "Imatu.Rhubarb.Disliked": "",
+  //Hate Gift
+  "Imatu.Rusty_Spoon.Hate": "",
+  "Imatu.Rusty_Spur.Hate": "",
+  "Imatu.Rice_Pudding.Hate": "",
+  "Imatu.Bok_Choy.Hate": "",
+  //His default reaction to gifts
+  "Imatu.Gift_Taste_Data.Love": "This is interesting",
+
+  //====================================================================================================
+  //Events
+  //====================================================================================================
+  //v= Vanilla, c= Compat, f= Fork, PC= Passerby Cemetery
+
+  //Intro event - When you walk to her house for the first time - PC is installed
+  "0heart.PC.00": "Hmmmm~$0",
+  "0heart.PC.01": "Hmmmm?$0",
+  "0heart.PC.02": "Oh! Hello! It's so nice to meet you!$1",
+  "0heart.PC.03": "Wait a sec...$6#$b#That must mean the debris is gone!$1",
+  "0heart.PC.04": "I can finally go to town!$1",
+  "0heart.PC.05": "Oooooo!!! I wonder what I should do!? Maybe I should go to Gus's place and order myself a meal and a drink to celebrate!$7",
+  "0heart.PC.06": "Oh! That's right! I forgot to ask your name!$0",
+  "0heart.PC.07": "@?$0",
+  "0heart.PC.08": "Well it's nice to meet you, @!$1",
+  "0heart.PC.09": "Say, I would love to get to know you better, would you like to join me at Gus's place and grab a bite to eat?$0",
+  "0heart.PC.10": "Perfect!$1",
+
+  //Intro event - When you walk to her house for the first time - PC is NOT installed
+  "0heart.v.00": "Hmmmm~$0",
+  "0heart.v.01": "Hmmmm?$0",
+  "0heart.v.02": "Oh! Hello! It's so nice to meet you!$1",
+  "0heart.v.03": "Wait a sec...$6#$b#You're the new farmer!$1",
+  "0heart.v.04": "I'm so glad I finally met you!$1",
+  "0heart.v.05": "Oooooo!!! Since I worked on my crops maybe I should go to Gus's place and order myself a meal and a drink to celebrate!$7",
+  "0heart.v.06": "Oh! That's right! I forgot to ask your name!$0",
+  "0heart.v.07": "@?$0",
+  "0heart.v.08": "Well it's nice to meet you, @!$1",
+  "0heart.v.09": "Say, I would love to get to know you better, would you like to join me at Gus's place and grab a bite to eat?$0",
+  "0heart.v.10": "Perfect!$1",
+
+  //Vanilla 2 Heart Adventure Guild
+  //Reyla telling Marlon about one of her adventures
+  "2heart.v.00": "Hahaha! Yup, that is how I was able to get the cargo of food back from the thieves!$1",
+  "2heart.v.01": "My my Reyla, you sure are the adventurous spirit.$0",
+  "2heart.v.02": "I'm glad to have you with us with your experience.$0",
+  "2heart.v.03": "Thank you, Marlon! I'm glad you gave me the chance.$0",
+  "2heart.v.04": "Anytime.$0",
+  "2heart.v.05": "Oh? @!$1",
+  "2heart.v.06": "Hello, farmer.$0",
+  "2heart.v.07": "What brings you here today?$0",
+  "2heart.v.08": "Oh? You just came to say 'hi'?$6#$b#Awwwww, that's so sweet!$4",
+  "2heart.v.09": "Well since you're here do you want to hear some stories of my adventures?$0",
+  "2heart.v.10": "No thank you.",
+  "2heart.v.11": "Sure.",
+  "2heart.v.12": "Awesome!$1",
+  "2heart.v.13": "Well there was this one time, I had to take a jewel back from a thief.$0",
+  "2heart.v.14": "It took me a few days to track him, he was good at hiding his tracks, but I was better.$0",
+  "2heart.v.15": "When I found him...$0",
+  "2heart.v.16": "He was in the middle of selling off the jewel, I managed to stop him and get the jewel back after fighting him, but I wasn't safe. No, not in the slightest.$0",
+  "2heart.v.17": "Not only did I have that thief but also the thugs after me. I couldn't lead them back to the village that asked for my help, so in a mad hurry I made traps every chance I got, slowly after a week the only person left was the thief.$0",
+  "2heart.v.18": "Sadly, I was at my limit, I needed rest and needed to heal myself.$2",
+  "2heart.v.19": "So I did what I do best - I improvised.$7",
+  "2heart.v.20": "I managed to hide and create an illusion of people using an old spellbook I found. At the right moment, I dropped down and told the man that if he didn't turn himself in, this would be his last day on Earth, with no other choice he gave up.$0",
+  "2heart.v.21": "I put him in cuffs and dragged him back to the village with the illusion of people around us. Once he was in the village hands I stopped the illusion and gave the jewel back to the village leader. Once I was healed enough the village celebrated the return of their jewel!$1",
+  "2heart.v.22": "Last I checked that man was still there in jail.$0",
+  "2heart.v.23": "That was boring.",
+  "2heart.v.24": "Wow! I'm glad you got the jewel back!",
+  "2heart.v.25": "Thanks! I'm glad you liked the story.$1",
+  "2heart.v.26": "Well I think it's time I get back to work, it was great seeing you @!$1",
+
+  //When you say no
+  "2heart.f.No.00": "Awww... well no worries then.$2",
+  "2heart.f.No.01": "Maybe next time!$7",
+
+  //When you that was boring
+  "2heart.f.Boring.00": "...$2",
+
+  //----------------------------------------------------------------------------------------------
+
+  //4 Heart Event
+  //Reyla Saves Maverick from a corrupt ghost
+  "4heart.v.00": "Dear Yoba please guide these souls into the heavens above.",
+  "4heart.v.01": "AAAAAAAAAAAH!!!$5",
+  "4heart.v.02": "What's wrong?!$2",
+  "4heart.v.03": "G-G-GHOST!$5",
+  "4heart.v.04": "Crap!$5",
+  "4heart.v.05": "That's not any ghost, it's a corrupt ghost!$5",
+  "4heart.v.06": "Yoba help me!$5",
+  "4heart.v.07": "ARRRRRAAAGH!$5",
+  "4heart.v.08": "Are you alright?!$2",
+  "4heart.v.09": "Th-thank you.$2",
+  "4heart.v.10": "I thought that was the end for me. That ghost didn't look like the others I've seen... You said 'corrupt ghost'?$2",
+  "4heart.v.11": "Yes, these are ghosts that have been abandoned and forgotten on Earth for so long that their soul has become corrupt and only want to cause harm to the living.$2",
+  "4heart.v.12": "Why was one here in the first place?$2",
+  "4heart.v.13": "I don't know...That soul must have been here for a while, maybe the soul of a lost hiker?$2",
+  "4heart.v.14": "You should stay in your house at night...you too @.$3",
+  "4heart.v.15": "Hello, @.$0",
+  "4heart.v.16": "@?!$3",
+  "4heart.v.17": "Yoba damn it, @! You saw me and you didn't do anything?!$3",
+  "4heart.v.18": "Calm down Maverick, everything happened so fast I'm sure @ didn't know what to do.$2",
+  "4heart.v.19": "Damn it, they are a guildmember, aren't they!?$2",
+  "4heart.v.20": "Maverick!$5",
+  "4heart.v.21": "Now's not the time to be mad at @. Breathe and be glad that you were saved!$5",
+  "4heart.v.22": "...I'm Sorry. Thank you Reyla.$2",
+  "4heart.v.23": "Sorry I wasn't much help.",
+  "4heart.v.24": "Why did you call me out like that?",
+  "4heart.v.25": "Call you out?$2",
+  "4heart.v.26": "Oh...$6",
+  "4heart.v.27": "@... I only did that, because you didn't come in to help. You may be a farmer but you DID agree to protect this valley from danger. Maverick is a civilian who needed help, but you did nothing. Honestly, I have half a mind to tell Marlon, that you froze up.$2",
+  "4heart.v.28": "But in the end, Maverick was saved and the ghost is gone. And as you senior I request that you learn from this little adventure, cause one day you may be in a situation where you won't have back up.",
+  "4heart.v.29": "Don't look so down, trust me you'll have another opportunity to save someone. So as they say turn that frown upside down!$1",
+  "4heart.v.30": "I going to check on Maverick real quick. I'll see you later.$2",
+  "4heart.v.31": "Maybe she's right, I am a guildmember who agreed to join their ranks after all...",
+
+  //when you say sorry for not helping
+  "4heart.f.Sorry.00": "No worries @.$0",
+  "4heart.f.Sorry.01": "Marlon sees potential in you, and I do too. Keep fighting the monsters that threaten this valley and one day you'll you won't freeze up like you did!$1",
+
+  //----------------------------------------------------------------------------------------------
+  "5heart.v.00": "Hmmmm...$2",
+  "5heart.v.01": "Oh?$0",
+  "5heart.v.02": "Hey @. I'm trying to figure out how to go about this collapsed mine...$0#$b#Marlon wants to see what is inside and what we need to deal with in there.$0",
+  "5heart.v.03": "It's better to leave it alone.",
+  "5heart.v.04": "What do you think will be in there?",
+  "5heart.v.05": "I don't know, maybe a new area for you do mine or it's filled to the brim with monsters? Whatever is in there the guild needs to assess the situation.",
+  "5heart.v.06": "I may need explosives, I'll see what Marlon can do about getting some...$0",
+
+  "5heart.f.00": "You may be right about leaving it alone, but it's our duty as guild members to make sure that the town is safe.$0",
+  "5heart.f.01": "What if whatever is in here manages to break out and hurt the townspeople? We need to prevent that from happening, even if it means poking the bears' nest.$2",
+  "5heart.f.02": "I may need explosives, I'll see what Marlon can do about getting some...$0",
+  //----------------------------------------------------------------------------------------------
+
+  //6 Heart Event
+  "6heart.v.00": "Mom...$8",
+  "6heart.v.01": "I miss you, it's been over ten years since you asked me to live the life I wanted to live...$8",
+  "6heart.v.02": "Over ten years since you...$8",
+  "6heart.v.03": "Since you...$8",
+  "6heart.v.04": "...$9",
+  "6heart.v.05": "Really not a good time, @...$8",
+  "6heart.v.06": "I sorta want to be alone...$8",
+  "6heart.v.07": "Wait before you go...$8",
+  "6heart.v.08": "Where did you find the photo of me and my mom?$8",
+  "6heart.v.09": "At the beach, by the tide pools?$8",
+  "6heart.v.10": "My mom loved the beach, she would take me and we would collect seashells and washed up coral.$0",
+  "6heart.v.11": "We were poor but she made sure there was always food on the table and a smile on my face.$0",
+  "6heart.v.12": "One day I told her I was going to be an adventurer and travel the world...$0",
+  "6heart.v.13": "She always supported me and loved me.$0",
+  "6heart.v.14": "When I was a teenager, she suddenly got sick. We were later told it was terminal and there was no way they could cure her...$8",
+  "6heart.v.15": "As I watched her get sicker and sicker, she told me to live out my dreams and live the life that would make me the happiest.$8",
+  "6heart.v.16": "Then the next day she...$9",
+  "6heart.v.17": "After that, I quit school and left to go and live my dreams...$10",
+  "6heart.v.18": "Traveling the world and experiencing new things was a lot of fun, but as I got older I realized I wanted a new dream.$0",
+  "6heart.v.19": "Hmmmm?",
+  "6heart.v.20": "You want to know what the dream is?$3",
+  "6heart.v.21": "Simple - have a family and a place to call home.$7",
+  "6heart.v.22": "It was hard at first. I don't have a high school diploma and I don't have work experience that would work in an office job. But I heard from a couple one day when I was still traveling that Stardew Valley Adventurer Guild was struggling and needed new members. And I took that as a sign and moved here.$0",
+  "6heart.v.23": "I'm sure I made the right choice coming here!$1",
+  "6heart.v.24": "...$10",
+  "6heart.v.25": "Thank you @ for talking to me and giving me my photo.$4",
+  "6heart.v.26": "You know my mom would have liked you, she would have treated like family!$1",
+  "6heart.v.27": "Is it ok if I have a bit of time to myself? Don't worry I won't be crying, just want to talk to my mom for a bit.",
+  "6heart.v.28": "Thank you, @.$1",
+
+  //----------------------------------------------------------------------------------------------
+
+  //8 Heart Event
+  "8heart.v.00": "no I don't want to date",
+  "8heart.v.01": "yes I want to date",
+  "8heart.v.02": "Great!",
+  "8heart.03": "",
+  "8heart.04": "",
+  "8heart.05": "",
+  "8heart.06": "",
+  "8heart.07": "",
+  "8heart.08": "",
+  "8heart.09": "",
+  "8heart.10": "",
+  "8heart.11": "",
+  "8heart.12": "",
+  "8heart.13": "",
+  "8heart.14": "",
+  "8heart.15": "",
+  "8heart.16": "",
+  "8heart.17": "",
+  "8heart.18": "",
+  "8heart.19": "",
+  "8heart.20": "",
+  "8heart.21": "",
+  "8heart.22": "",
+  "8heart.23": "",
+  "8heart.24": "",
+  "8heart.25": "",
+  "8heart.26": "",
+  "8heart.27": "",
+  "8heart.28": "",
+  "8heart.29": "",
+  "8heart.30": "",
+  "8heart.31": "",
+  "8heart.32": "",
+  "8heart.33": "",
+  "8heart.34": "",
+  "8heart.35": "",
+  "8heart.36": "",
+  "8heart.37": "",
+  "8heart.38": "",
+  "8heart.39": "",
+  "8heart.40": "",
+  "8heart.41": "",
+  "8heart.42": "",
+  "8heart.43": "",
+  "8heart.44": "",
+  "8heart.45": "",
+  "8heart.46": "",
+  "8heart.47": "",
+  "8heart.48": "",
+  "8heart.49": "",
+  "8heart.50": "",
+  "8heart.51": "",
+
+  "8heart.f.Reject.00": "Sorry I read the signs wrong.",
+
+  //----------------------------------------------------------------------------------------------
+
+  //10 Heart Event
+  "10heart.00": "",
+  "10heart.01": "",
+  "10heart.02": "",
+  "10heart.03": "",
+  "10heart.04": "",
+  "10heart.05": "",
+  "10heart.06": "",
+  "10heart.07": "",
+  "10heart.08": "",
+  "10heart.09": "",
+  "10heart.10": "",
+  "10heart.11": "",
+  "10heart.12": "",
+  "10heart.13": "",
+  "10heart.14": "",
+  "10heart.15": "",
+  "10heart.16": "",
+  "10heart.17": "",
+  "10heart.18": "",
+  "10heart.19": "",
+  "10heart.20": "",
+  "10heart.21": "",
+  "10heart.22": "",
+
+  "10heart.r.00": "",
+
+  //====================================================================================================
+  // Imatu Events
+  //====================================================================================================
+
+  //Intro event for Imatu
+  "1heart.I.v.00": "Who is that person?$10",
+  "1heart.I.v.01": "And what is this place?$2",
+  "1heart.I.v.02": "...$11",
+  "1heart.I.v.03": "It's too quiet. Keep your guard up @.$10",
+  "1heart.I.v.04": "What the - $6",
+  "1heart.I.v.05": "Watch out!$5",
+  "1heart.I.v.06": "Fireballs?! A Barrier?!$5",
+  "1heart.I.v.07": "@! We need to fight!$5",
+  "1heart.I.v.08": "You can do it @!$1",
+  "1heart.I.v.09": "huff huff $8",
+  "1heart.I.v.10": "You ok @?$3",
+  "1heart.I.v.11": "I'm good.$0",
+  "1heart.I.v.12": "What's going on in this place?$10",
+  "1heart.I.v.13": "Is that person protecting this place?$2",
+  "1heart.I.v.14": "Oh? Look that barrier is gone now.$6",
+  "1heart.I.v.15": "I wonder...$10",
+  "1heart.I.v.16": "Huh? I was wondering why the barrier didn't go up when I was close to him, but it did when the fireballs came. Maybe the barrier doesn't affect Humans?",
+  "1heart.I.v.17": "Don't do it.", //leads to the fork path
+  "1heart.I.v.18": "See if you can wake him.",
+  "1heart.I.v.19": "I was thinking the same thing.$10",
+  "1heart.I.v.20": "Well let's give this a try.$10",
+  "1heart.I.v.21": "Ummm, hello?$2",
+  "1heart.I.v.22": "Ouch! I touched his shoulder and I got zapped!$5",
+  "1heart.I.v.23": "Hmmmm -$8",
+  "1heart.I.v.24": "He's waking up!$6",
+  "1heart.I.v.25": "Where - $0",
+  "1heart.I.v.26": "Ugh...$0",
+  "1heart.I.v.27": "Are you ok?$2",
+  "1heart.I.v.28": "How long was I asleep?$0",
+  "1heart.I.v.29": "I'm not sure.$2",
+  "1heart.I.v.30": "The war - did we win?$2",
+  "1heart.I.v.31": "War? With the Goroto, you mean?$2",
+  "1heart.I.v.32": "Goroto? No, with the Shadow Empire.$0",
+  "1heart.I.v.33": "Shadow Empire? Never heard of them.$3",
+  "1heart.I.v.34": "What- what era are we in?$0",
+  "1heart.I.v.35": "Era? Well, I guess the era of technology. But if you want the year it's XXXX.$10",
+  "1heart.I.v.36": "XXXX?!$5",
+  "1heart.I.v.37": "It's been a thousand years?!$2",
+  "1heart.I.v.38": "I hate to ask this of you but can you escort me to the outside, I need to sense the change the world has had.$0",
+  "1heart.I.v.39": "Don't know what you mean but sure, we can show you the exit to the cave.$0",
+  "1heart.I.v.40": "Thank you...$2",
+
+  "1heart.I.f.00": "Hmmmm... I don't want to get hurt either, but we need to see what he knows about this place. I just hope those aren't my last words.$2",
+  "1heart.I.f.01": "Ummm, hello?$2",
+  "1heart.I.f.02": "Ouch! I touched his shoulder and I got zapped!$5",
+  "1heart.I.f.03": "Hmmmm -$8",
+  "1heart.I.f.04": "He's waking up!$6",
+  "1heart.I.f.05": "Where - $0",
+  "1heart.I.f.06": "Ugh...$0",
+  "1heart.I.f.07": "Are you ok?$2",
+  "1heart.I.f.08": "How long was I asleep?$0",
+  "1heart.I.f.09": "I'm not sure.$2",
+  "1heart.I.f.10": "The war - did we win?$2",
+  "1heart.I.f.11": "War? With the Goroto, you mean?$2",
+  "1heart.I.f.12": "Goroto? No, with the Shadow Empire.$0",
+  "1heart.I.f.13": "Shadow Empire? Never heard of them.$3",
+  "1heart.I.f.14": "What- what era are we in?$0",
+  "1heart.I.f.15": "Era? Well, I guess the era of technology. But if you want the year it's XXXX.$10",
+  "1heart.I.f.16": "XXXX?!$5",
+  "1heart.I.f.17": "It's been a thousand years?!$2",
+  "1heart.I.f.18": "I hate to ask this of you but can you escort me to the outside, I need to sense the change the world has had.$0",
+  "1heart.I.f.19": "Don't know what you mean but sure, we can show you the exit to the cave.$0",
+  "1heart.I.f.20": "Thank you...$2",
+  
+  //====================================================================================================
+  // Map Names for Map Data
+  //====================================================================================================
+  "RaffieJohn.MapName.Home": "Reyla's Home",
+  "RaffieJohn.MapName.MineEntrance": "Mine Entrance",
+  "RaffieJohn.MapName.IndoorHouse": "Reyla's House Inside",
+  "RaffieJohn.MapName.MineLevel1": "Level One",
+  
+  //====================================================================================================
+  //Map Strings
+  //====================================================================================================
+"Raffie.Address": "290 Passerby Lane",
+"Raffie.Garden": "How are these plants growing in this season?!",
+"Raffie.Bone.01": "I hope I don't have to call the police",
+"Raffie.Bone.02": "Why would someone use bones as decorations?",
+"Raffie.Bone.03": "Are these ribs moving?!",
+"Raffie.Grave": "Mother please come back..",
+"Raffie.Flowers.01": "These flowers are freshly watered.",
+"Raffie.Flowers.02": "These flowers smell sweet.",
+"Raffie.Telescope": "A makeshift telescope.",
+"RaffieJohn.Nest": "This is a pretty big bird nest.",
+"Raffie.Fire": "The flames are beautiful.",
+"Raffie.DroopyFlower": "This flower looks close to death...But it's petals feel healthy...",
+"Raffie.ArkaFruit": "They're ripe for the picking.",
+"Raffie.Motorcycle": "A motorcycle that has had its few shares of adventures, now lies dormant.",
+"Raffie.Journal.01": "Looks like a journal... One entry reads 'I'm badly hurt, the locals say that I'm a dead woman, but I'm not giving up until-' it cuts out.",
+"Raffie.Journal.02": "My time on that island was crazy! Mermaids and pirates fighting one another, I barely had time to get the necklace from the ship without being spotted!",
+"Raffie.Journal.03": "I did what mom asked me to do, I spent more than ten years traveling the world living my life to the fullest, but now... I don't know... maybe it's time to settle down? I heard of a place called 'Stardew Valley' from a traveler, they mention a guild there that is on hard times, maybe I can work there? Hope my experience and skills are a good enough resume.",
+"Raffie.Journal.04": "I got the job! I bought some land that is filled with nothing but trees and a cave I was tasked to venture in.",
+"Raffie.Journal.05": "I found a little bird, with a broken wing. From the looks of it, it won't fly anymore. I think I'm going to call her 'Saku', which means 'Bloom' in Japanese.",
+"Raffie.Journal.06": "My mom passed away last night... She told me before she 'slept' to live my life and be the adventurer I always wanted to be...",
+"Raffie.Altar": "An alter for Yoba, it looks used.",
+"Raffie.Book.01": "'How To Flamingo Dance'",
+"Raffie.Book.02": "The Five Stages of Moving On",
+"Raffie.Book.03": "'DIY: How To Repair Your Motorcyle'",
+"Raffie.Ouija": "As you get closer the ouija begins to shake. Best to avoid it for now.",
+"Raffie.Loom": "A loom that is broken, but put back together with resin. Fancy looking.",
+"Raffie.Bookshelf": "These books look old and well-used. Things she found during her adventures?",
+"Raffie.DresserShelf": "Books on combat, first-aid, travel guides, and learning new languages.",
+"Raffie.BoilingPot": "Food being cooked with just wood and fire.", // The pot that's boiling soup
+"Raffie.BearStatue": "Did Reyla get this during her travels?", //The Stuffed Bear Statue
+"Raffie.DiningTable": "Food collected fresh from the garden.", //The dining table full of food
+"Raffie.Trashcan": "Nothing in there it must be cleaned regularly.", //trashcan in the kitchen
+"Raffie.Painting": "A painting of a woman and child.", //Painting in bedroom
+"Raffie.WeaponTable": "Different weapon for different occasions?", //table full of weapons
+"Raffie.Closet": "Clothes filled to the brim of styles you've never seen.", //Bedroom closet
+"Raffie.BedCat": "The cat refuses to acknowledge you.", //cat on the bed
+"Raffie.HangingPainting": "'Desert In The Night'", //HAnging painting in bedroom
+"Raffie.BedroomBookcase": "Many books in languages", //bookcase with catus on it
+"Raffie.Hamper": "Freshly cleaned.", //clothing hamper
+"Raffie.Dumbell": "75 lb", ///exercise weight thingy in bedroom
+"RaffieJohn.Candy": "Candy you've never seen before.",
+"RaffieJohn.SakuJamming": "Saku is headbanging."
+}

@@ -1,0 +1,458 @@
+{
+	"Format": "2.3.0",
+	"Changes":
+	[
+		{	
+			"Action": "EditData",
+			"Target": "Data/AudioChanges",
+			"Entries":
+			{
+				"christmasTheme":
+				{
+					"Id": "christmasTheme",
+					"Category": "Music",
+					"FilePaths":
+					[
+						"{{AbsoluteFilePath: assets/christmas/gf_christmas.ogg}}",
+						"{{AbsoluteFilePath: assets/christmas/winter_festival.ogg}}"
+					],
+					"Looped": false,
+					"StreamedVorbis": true
+				},
+
+				"wavy":
+				{
+					"Id": "wavy",
+					"Category": "Music",
+					"FilePaths":
+					[
+						"{{AbsoluteFilePath: assets/desert/calico_desert.ogg}}",
+						"{{AbsoluteFilePath: assets/desert/gf_belcar_plateau.ogg}}",
+						"{{AbsoluteFilePath: assets/desert/gf_steam_mine_mountain.ogg}}",
+						"{{AbsoluteFilePath: assets/desert/terraria_desert.ogg}}",
+						"{{AbsoluteFilePath: assets/desert/the_sun_can_bend_an_orange_sky.ogg}}"
+					],
+					"Looped": false,
+					"StreamedVorbis": true
+				},
+
+				"fall1":
+				{
+					"Id": "fall1",
+					"Category": "Music",
+					"FilePaths":
+					[
+						"{{AbsoluteFilePath: assets/fall/gf_ilya.ogg}}",
+						"{{AbsoluteFilePath: assets/fall/ghost_synth.ogg}}",
+						"{{AbsoluteFilePath: assets/fall/ravens_descent.ogg}}",
+						"{{AbsoluteFilePath: assets/fall/the_smell_of_mushroom.ogg}}"
+					],
+					"Looped": false,
+					"StreamedVorbis": true
+				},
+
+				"fall2":
+				{
+					"Id": "fall2",
+					"Category": "Music",
+					"FilePaths":
+					[
+						"{{AbsoluteFilePath: assets/fall/gf_ilya.ogg}}",
+						"{{AbsoluteFilePath: assets/fall/ghost_synth.ogg}}",
+						"{{AbsoluteFilePath: assets/fall/ravens_descent.ogg}}",
+						"{{AbsoluteFilePath: assets/fall/the_smell_of_mushroom.ogg}}"
+					],
+					"Looped": false,
+					"StreamedVorbis": true
+				},
+
+				"fall3":
+				{
+					"Id": "fall3",
+					"Category": "Music",
+					"FilePaths":
+					[
+						"{{AbsoluteFilePath: assets/fall/gf_ilya.ogg}}",
+						"{{AbsoluteFilePath: assets/fall/ghost_synth.ogg}}",
+						"{{AbsoluteFilePath: assets/fall/ravens_descent.ogg}}",
+						"{{AbsoluteFilePath: assets/fall/the_smell_of_mushroom.ogg}}"
+					],
+					"Looped": false,
+					"StreamedVorbis": true
+				},
+
+				"Majestic":
+				{
+					"Id": "Majestic",
+					"Category": "Music",
+					"FilePaths":
+					[
+						"{{AbsoluteFilePath: assets/fall/gf_ilya.ogg}}",
+						"{{AbsoluteFilePath: assets/fall/ghost_synth.ogg}}",
+						"{{AbsoluteFilePath: assets/fall/ravens_descent.ogg}}",
+						"{{AbsoluteFilePath: assets/fall/the_smell_of_mushroom.ogg}}"
+					],
+					"Looped": false,
+					"StreamedVorbis": true
+				},
+
+				"Ghost Synth":
+				{
+					"Id": "Ghost Synth",
+					"Category": "Music",
+					"FilePaths":
+					[
+						"{{AbsoluteFilePath: assets/fall/gf_ilya.ogg}}",
+						"{{AbsoluteFilePath: assets/fall/ghost_synth.ogg}}",
+						"{{AbsoluteFilePath: assets/fall/ravens_descent.ogg}}",
+						"{{AbsoluteFilePath: assets/fall/the_smell_of_mushroom.ogg}}"
+					],
+					"Looped": false,
+					"StreamedVorbis": true
+				},
+
+				"Plums":
+				{
+					"Id": "Plums",
+					"Category": "Music",
+					"FilePaths":
+					[
+						"{{AbsoluteFilePath: assets/fall/gf_ilya.ogg}}",
+						"{{AbsoluteFilePath: assets/fall/ghost_synth.ogg}}",
+						"{{AbsoluteFilePath: assets/fall/ravens_descent.ogg}}",
+						"{{AbsoluteFilePath: assets/fall/the_smell_of_mushroom.ogg}}"
+					],
+					"Looped": false,
+					"StreamedVorbis": true
+				},
+
+				"IslandMusic":
+				{
+					"Id": "IslandMusic",
+					"Category": "Music",
+					"FilePaths":
+					[
+						"{{AbsoluteFilePath: assets/island/gf_angoya_island.ogg}}",
+						"{{AbsoluteFilePath: assets/island/gf_siwa_island.ogg}}",
+						"{{AbsoluteFilePath: assets/island/ginger_island.ogg}}"
+					],
+					"Looped": false,
+					"StreamedVorbis": true
+				},
+
+				"EarthMine":
+				{
+					"Id": "EarthMine",
+					"Category": "Music",
+					"FilePaths":
+					[
+						"{{AbsoluteFilePath: assets/mines1/a_flicker_in_the_deep.ogg}}",
+						"{{AbsoluteFilePath: assets/mines1/crystal_bells.ogg}}",
+						"{{AbsoluteFilePath: assets/mines1/cyberlords3.ogg}}",
+						"{{AbsoluteFilePath: assets/mines1/cyberlords4.ogg}}",
+						"{{AbsoluteFilePath: assets/mines1/cyberlords5.ogg}}",
+						"{{AbsoluteFilePath: assets/mines1/star_lumpy.ogg}}",
+						"{{AbsoluteFilePath: assets/mines1/terraria_underground.ogg}}",
+						"{{AbsoluteFilePath: assets/mines1/terraria_underground_alt.ogg}}"
+					],
+					"Looped": false,
+					"StreamedVorbis": true
+				},
+
+				"FrostMine":
+				{
+					"Id": "FrostMine",
+					"Category": "Music",
+					"FilePaths":
+					[
+						"{{AbsoluteFilePath: assets/mines2/cloth.ogg}}",
+						"{{AbsoluteFilePath: assets/mines2/icicles.ogg}}",
+						"{{AbsoluteFilePath: assets/mines2/marimba_of_frozen_bone.ogg}}",
+						"{{AbsoluteFilePath: assets/mines2/terraria_underground_snow_alt.ogg}}"
+					],
+					"Looped": false,
+					"StreamedVorbis": true
+				},
+
+				"LavaMine":
+				{
+					"Id": "LavaMine",
+					"Category": "Music",
+					"FilePaths":
+					[
+						"{{AbsoluteFilePath: assets/mines3/danger.ogg}}",
+						"{{AbsoluteFilePath: assets/mines3/gf_condemned_mine.ogg}}",
+						"{{AbsoluteFilePath: assets/mines3/gf_prairie_cave.ogg}}",
+						"{{AbsoluteFilePath: assets/mines3/magical_shoes.ogg}}",
+						"{{AbsoluteFilePath: assets/mines3/the_lava_dwellers.ogg}}",
+						"{{AbsoluteFilePath: assets/mines3/visitor_to_the_unknown.ogg}}"
+					],
+					"Looped": false,
+					"StreamedVorbis": true
+				},
+
+				"moonlightJellies":
+				{
+					"Id": "moonlightJellies",
+					"Category": "Music",
+					"FilePaths":
+					[
+						"{{AbsoluteFilePath: assets/moonlight_jellies/dance_of_the_moonlight_jellies.ogg}}",
+						"{{AbsoluteFilePath: assets/moonlight_jellies/moonlight_jellies_guitar.ogg}}"
+					],
+					"Looped": false,
+					"StreamedVorbis": true
+				},
+
+				"clubloop":
+				{
+					"Id": "clubloop",
+					"Category": "Music",
+					"FilePaths":
+					[
+						"{{AbsoluteFilePath: assets/qi/clubloop.ogg}}",
+						"{{AbsoluteFilePath: assets/qi/me_wards.ogg}}"
+					],
+					"Looped": true,
+					"StreamedVorbis": true
+				},
+
+				"woodsTheme":
+				{
+					"Id": "woodsTheme",
+					"Category": "Music",
+					"FilePaths":
+					[
+						"{{AbsoluteFilePath: assets/secret_woods/gf_moonlight_forest.ogg}}",
+						"{{AbsoluteFilePath: assets/secret_woods/in_the_deep_woods.ogg}}"
+					],
+					"Looped": false,
+					"StreamedVorbis": true
+				},
+
+				"spring1":
+				{
+					"Id": "spring1",
+					"Category": "Music",
+					"FilePaths":
+					[
+						"{{AbsoluteFilePath: assets/spring/gf_kaslow_plains.ogg}}",
+						"{{AbsoluteFilePath: assets/spring/its_a_big_world_outside.ogg}}",
+						"{{AbsoluteFilePath: assets/spring/terraria_day.ogg}}",
+						"{{AbsoluteFilePath: assets/spring/terraria_day_alt.ogg}}",
+						"{{AbsoluteFilePath: assets/spring/the_valley_comes_alive.ogg}}",
+						"{{AbsoluteFilePath: assets/spring/wild_horseradish_jam.ogg}}"
+					],
+					"Looped": false,
+					"StreamedVorbis": true
+				},
+
+				"spring2":
+				{
+					"Id": "spring2",
+					"Category": "Music",
+					"FilePaths":
+					[
+						"{{AbsoluteFilePath: assets/spring/gf_kaslow_plains.ogg}}",
+						"{{AbsoluteFilePath: assets/spring/its_a_big_world_outside.ogg}}",
+						"{{AbsoluteFilePath: assets/spring/terraria_day.ogg}}",
+						"{{AbsoluteFilePath: assets/spring/terraria_day_alt.ogg}}",
+						"{{AbsoluteFilePath: assets/spring/the_valley_comes_alive.ogg}}",
+						"{{AbsoluteFilePath: assets/spring/wild_horseradish_jam.ogg}}"
+					],
+					"Looped": false,
+					"StreamedVorbis": true
+				},
+
+				"spring3":
+				{
+					"Id": "spring3",
+					"Category": "Music",
+					"FilePaths":
+					[
+						"{{AbsoluteFilePath: assets/spring/gf_kaslow_plains.ogg}}",
+						"{{AbsoluteFilePath: assets/spring/its_a_big_world_outside.ogg}}",
+						"{{AbsoluteFilePath: assets/spring/terraria_day.ogg}}",
+						"{{AbsoluteFilePath: assets/spring/terraria_day_alt.ogg}}",
+						"{{AbsoluteFilePath: assets/spring/the_valley_comes_alive.ogg}}",
+						"{{AbsoluteFilePath: assets/spring/wild_horseradish_jam.ogg}}"
+					],
+					"Looped": false,
+					"StreamedVorbis": true
+				},
+
+				"Pink Petals":
+				{
+					"Id": "Pink Petals",
+					"Category": "Music",
+					"FilePaths":
+					[
+						"{{AbsoluteFilePath: assets/spring/gf_kaslow_plains.ogg}}",
+						"{{AbsoluteFilePath: assets/spring/its_a_big_world_outside.ogg}}",
+						"{{AbsoluteFilePath: assets/spring/terraria_day.ogg}}",
+						"{{AbsoluteFilePath: assets/spring/terraria_day_alt.ogg}}",
+						"{{AbsoluteFilePath: assets/spring/the_valley_comes_alive.ogg}}",
+						"{{AbsoluteFilePath: assets/spring/wild_horseradish_jam.ogg}}"
+					],
+					"Looped": false,
+					"StreamedVorbis": true
+				},
+
+				"submarine_song":
+				{
+					"Id": "submarine_song",
+					"Category": "Music",
+					"FilePaths":
+					[
+						"{{AbsoluteFilePath: assets/submarine/a_deeper_dream.ogg}}",
+						"{{AbsoluteFilePath: assets/submarine/submarine.ogg}}"
+					],
+					"Looped": false,
+					"StreamedVorbis": true
+				},
+
+				"springtown":
+				{
+					"Id": "springtown",
+					"Category": "Music",
+					"FilePaths":
+					[
+						"{{AbsoluteFilePath: assets/town/coc_village.ogg}}",
+						"{{AbsoluteFilePath: assets/town/pelican_town.ogg}}",
+						"{{AbsoluteFilePath: assets/town/terraria_town.ogg}}"
+					],
+					"Looped": false,
+					"StreamedVorbis": true
+				},
+
+				"VolcanoMines":
+				{
+					"Id": "VolcanoMines",
+					"Category": "Music",
+					"FilePaths":
+					[
+						"{{AbsoluteFilePath: assets/volcano/forgotten_world.ogg}}",
+						"{{AbsoluteFilePath: assets/volcano/gf_lost_highlands.ogg}}",
+						"{{AbsoluteFilePath: assets/volcano/gf_plague_forest.ogg}}",
+						"{{AbsoluteFilePath: assets/volcano/gf_pvp.ogg}}",
+						"{{AbsoluteFilePath: assets/volcano/gf_red_ridge.ogg}}",
+						"{{AbsoluteFilePath: assets/volcano/molten_jelly.ogg}}"
+					],
+					"Looped": false,
+					"StreamedVorbis": true
+				},
+
+				"VolcanoMines1":
+				{
+					"Id": "VolcanoMines1",
+					"Category": "Music",
+					"FilePaths":
+					[
+						"{{AbsoluteFilePath: assets/volcano/forgotten_world.ogg}}",
+						"{{AbsoluteFilePath: assets/volcano/gf_lost_highlands.ogg}}",
+						"{{AbsoluteFilePath: assets/volcano/gf_plague_forest.ogg}}",
+						"{{AbsoluteFilePath: assets/volcano/gf_pvp.ogg}}",
+						"{{AbsoluteFilePath: assets/volcano/gf_red_ridge.ogg}}",
+						"{{AbsoluteFilePath: assets/volcano/molten_jelly.ogg}}"
+					],
+					"Looped": false,
+					"StreamedVorbis": true
+				},
+
+				"VolcanoMines2":
+				{
+					"Id": "VolcanoMines2",
+					"Category": "Music",
+					"FilePaths":
+					[
+						"{{AbsoluteFilePath: assets/volcano/forgotten_world.ogg}}",
+						"{{AbsoluteFilePath: assets/volcano/gf_lost_highlands.ogg}}",
+						"{{AbsoluteFilePath: assets/volcano/gf_plague_forest.ogg}}",
+						"{{AbsoluteFilePath: assets/volcano/gf_pvp.ogg}}",
+						"{{AbsoluteFilePath: assets/volcano/gf_red_ridge.ogg}}",
+						"{{AbsoluteFilePath: assets/volcano/molten_jelly.ogg}}"
+					],
+					"Looped": false,
+					"StreamedVorbis": true
+				},
+
+				"winter1":
+				{
+					"Id": "winter1",
+					"Category": "Music",
+					"FilePaths":
+					[
+						"{{AbsoluteFilePath: assets/winter/ancient.ogg}}",
+						"{{AbsoluteFilePath: assets/winter/nocturne_of_ice.ogg}}",
+						"{{AbsoluteFilePath: assets/winter/terraria_snow_alt.ogg}}",
+						"{{AbsoluteFilePath: assets/winter/the_wind_can_be_still.ogg}}"
+					],
+					"Looped": false,
+					"StreamedVorbis": true
+				},
+
+				"winter2":
+				{
+					"Id": "winter2",
+					"Category": "Music",
+					"FilePaths":
+					[
+						"{{AbsoluteFilePath: assets/winter/ancient.ogg}}",
+						"{{AbsoluteFilePath: assets/winter/nocturne_of_ice.ogg}}",
+						"{{AbsoluteFilePath: assets/winter/terraria_snow_alt.ogg}}",
+						"{{AbsoluteFilePath: assets/winter/the_wind_can_be_still.ogg}}"
+					],
+					"Looped": false,
+					"StreamedVorbis": true
+				},
+
+				"winter3":
+				{
+					"Id": "winter3",
+					"Category": "Music",
+					"FilePaths":
+					[
+						"{{AbsoluteFilePath: assets/winter/ancient.ogg}}",
+						"{{AbsoluteFilePath: assets/winter/nocturne_of_ice.ogg}}",
+						"{{AbsoluteFilePath: assets/winter/terraria_snow_alt.ogg}}",
+						"{{AbsoluteFilePath: assets/winter/the_wind_can_be_still.ogg}}"
+					],
+					"Looped": false,
+					"StreamedVorbis": true
+				},
+
+				"New Snow":
+				{
+					"Id": "New Snow",
+					"Category": "Music",
+					"FilePaths":
+					[
+						"{{AbsoluteFilePath: assets/winter/ancient.ogg}}",
+						"{{AbsoluteFilePath: assets/winter/nocturne_of_ice.ogg}}",
+						"{{AbsoluteFilePath: assets/winter/terraria_snow_alt.ogg}}",
+						"{{AbsoluteFilePath: assets/winter/the_wind_can_be_still.ogg}}"
+					],
+					"Looped": false,
+					"StreamedVorbis": true
+				},
+
+				"Cyclops":
+				{
+					"Id": "Cyclops",
+					"Category": "Music",
+					"FilePaths":
+					[
+						"{{AbsoluteFilePath: assets/winter/ancient.ogg}}",
+						"{{AbsoluteFilePath: assets/winter/nocturne_of_ice.ogg}}",
+						"{{AbsoluteFilePath: assets/winter/terraria_snow_alt.ogg}}",
+						"{{AbsoluteFilePath: assets/winter/the_wind_can_be_still.ogg}}"
+					],
+					"Looped": false,
+					"StreamedVorbis": true
+				}
+			}
+		}
+	]
+}
+
+

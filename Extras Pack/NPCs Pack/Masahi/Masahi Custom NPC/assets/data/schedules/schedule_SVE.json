@@ -1,0 +1,34 @@
+{
+    "rain": "GOTO winter",
+    "marriage_Mon": "900 Town 36 78 3 \"Strings\\schedules\\Masahi:Town.000\"/1030 Town 29 54 1 \"Strings\\schedules\\Masahi:Town.001\"/1200 BusStop -1 23 3",
+    "marriage_Fri": "1200 Saloon 18 18 2/2200 BusStop -1 23 3",
+
+    "spring": "610 Saloon 26 18 2/900 Town 19 62 3/1200 Town 24 100 2/1500 Saloon 18 18 2/2400 Saloon 35 7 2",
+    "spring_Mon_6": "610 Saloon 26 18 2/900 Town 36 78 3 \"Strings\\schedules\\Masahi:Town.000\"/1030 Town 29 54 1 \"Strings\\schedules\\Masahi:Town.001\"/1200 Town 24 100 2/1500 Saloon 18 18 2/2400 Saloon 35 7 2",
+    "spring_Tue_6": "GOTO spring_Mon_6",
+    "spring_Wed_6": "GOTO spring_Mon_6",
+    "spring_Thu_6": "GOTO spring_Mon_6",
+    "spring_Fri_6": "GOTO spring_Mon_6",
+    "spring_Sat_6": "GOTO spring_Mon_6",
+    "spring_Sun_6": "GOTO spring_Mon_6",
+
+    "summer": "610 Saloon 26 18 2/900 Town 20 62 3/1200 Beach 46 19 2/1500 Saloon 18 18 2/2400 Saloon 35 7 2",
+    "summer_Mon_6": "610 Saloon 26 18 2/900 Town 36 78 3 \"Strings\\schedules\\Masahi:Town.000\"/1030 Town 29 54 1 \"Strings\\schedules\\Masahi:Town.001\"/1200 Beach 46 19 2/1500 Saloon 18 18 2/2400 Saloon 35 7 2",
+    "summer_Tue_6": "GOTO summer_Mon_6",
+    "summer_Wed_6": "GOTO summer_Mon_6",
+    "summer_Thu_6": "GOTO summer_Mon_6",
+    "summer_Fri_6": "GOTO summer_Mon_6",
+    "summer_Sat_6": "GOTO summer_Mon_6",
+    "summer_Sun_6": "GOTO summer_Mon_6",
+
+    "fall": "GOTO spring",
+    "fall_Mon_6": "610 Saloon 26 18 2/900 Town 29 54 1 \"Strings\\schedules\\Masahi:Town.001\"/1200 Town 24 100 2/1500 Saloon 18 18 2/2400 Saloon 35 7 2",
+    "fall_Tue_6": "GOTO fall_Mon_6",
+    "fall_Wed_6": "GOTO fall_Mon_6",
+    "fall_Thu_6": "GOTO fall_Mon_6",
+    "fall_Fri_6": "GOTO fall_Mon_6",
+    "fall_Sat_6": "GOTO fall_Mon_6",
+    "fall_Sun_6": "GOTO fall_Mon_6",
+
+    "winter": "610 Saloon 26 18 2/900 Saloon 18 18 2/2400 Saloon 35 7 2"
+}

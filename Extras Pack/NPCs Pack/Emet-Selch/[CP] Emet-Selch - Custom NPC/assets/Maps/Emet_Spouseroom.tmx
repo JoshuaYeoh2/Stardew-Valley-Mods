@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="6" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="2">
+ <tileset firstgid="1" name="z_tilesheet" tilewidth="16" tileheight="16" tilecount="625" columns="25">
+  <image source="z_tilesheet.png" width="400" height="400"/>
+ </tileset>
+ <tileset firstgid="626" name="walls_and_floors" tilewidth="16" tileheight="16" tilecount="560" columns="16">
+  <image source="walls_and_floors.png" width="256" height="560"/>
+ </tileset>
+ <tileset firstgid="1186" name="Paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source=".paths.png" width="64" height="144"/>
+ </tileset>
+ <layer id="1" name="Back" width="6" height="9">
+  <data encoding="csv">
+25,25,25,25,25,25,
+50,50,50,50,50,50,
+75,75,75,75,75,75,
+1132,305,306,307,1132,1132,
+1133,1133,1133,1148,1132,1133,
+193,194,195,196,197,1133,
+118,119,120,121,122,1149,
+143,144,145,146,147,1132,
+168,169,170,171,172,1148
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="6" height="9">
+  <data encoding="csv">
+0,0,0,0,1,2,
+0,0,0,0,26,27,
+74,74,74,74,51,52,
+132,308,309,310,76,77,
+0,0,0,0,0,0,
+0,177,178,179,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,5,
+0,0,180,181,182,55
+</data>
+ </layer>
+ <layer id="3" name="Paths" width="6" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,1193,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="Front" width="6" height="9">
+  <data encoding="csv">
+0,201,202,0,0,0,
+82,226,227,0,0,0,
+107,0,281,0,0,0,
+0,0,0,205,0,0,
+0,152,153,230,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,111,
+0,0,155,156,157,136,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="5" name="Back"/>
+ <objectgroup id="6" name="Buildings"/>
+ <objectgroup id="7" name="Paths">
+  <object id="1" name="TileData" x="32" y="64" width="16" height="16">
+   <properties>
+    <property name="direction" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Front"/>
+</map>

@@ -1,0 +1,18 @@
+{
+    "Name": "[CP] More Wild Berries for 1.6",
+    "Author": "MelindaC",
+    "Version": "1.0.1",
+    "Description": "New berry bushes and berries for Stardew Valley.",
+    "UniqueID": "MelindaC.MoreWildBerriesCP",
+    "UpdateKeys": [], 
+    "MinimumApiVersion": "4.0.0-alpha",
+"Dependencies": [
+        
+        {"UniqueID": "NCarigon.BushBloomMod", "IsRequired": true}
+],
+        
+
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher",
+},
+}

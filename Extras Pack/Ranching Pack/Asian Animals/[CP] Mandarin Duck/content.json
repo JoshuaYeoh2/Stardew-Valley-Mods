@@ -1,0 +1,164 @@
+{
+    "Format": "2.0",
+    "Changes": [
+        {
+            "LogName": "Load data for Mandarin Duck (Hen Mandarin Duck)",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Hen Mandarin Duck": {
+                    "DisplayName": "Hen Mandarin Duck",
+                    "House": "Coop",
+                    "Gender": "Female",
+                    "PurchasePrice": 2500,
+                    "ShopTexture": "Animals/balverines.mandarinbfav-Mandarin Duck Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "Mandarin Duck",
+                    "ShopDescription": "A beautiful water fowl.",
+     "AlternatePurchaseTypes": [
+      {
+        "Condition": null,
+        "AnimalIds": [
+          "Hen Mandarin Duck",
+          "Drake Mandarin Duck",
+        ]
+      }
+    ],
+                    "EggItemIds": [
+					  "442"
+					],
+					"IncubationTime": 9000,
+					"IncubatorParentSheetOffset": 1,
+					"BirthText": "A new duckling hatched!",
+					"DaysToMature": "5",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "442"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "444"
+                        }
+                    ],
+                    "DaysToProduce": "2",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "Duck",
+                    "BabySound": "Duck",
+                    "Texture": "Animals/balverines.mandarinbfav-Hen Mandarin Duck",
+                    "HarvestedTexture": "Animals/balverines.mandarinbfav-Hen Mandarin Duck",
+                    "BabyTexture": "Animals/balverines.mandarinbfav-Hen Mandarin Duck Baby",
+					"UseFlippedRightForLeft": true,
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+					"SellPrice": 1200,
+					"CanSwim": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        {
+            "LogName": "Load data for Mandarin Duck (Drake Mandarin Duck)",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Drake Mandarin Duck": {
+                    "DisplayName": "Drake Mandarin Duck",
+                    "House": "Coop",
+                    "Gender": "Male",
+                    "PurchasePrice": -1,
+                    "ShopTexture": "Animals/balverines.mandarinbfav-Drake Mandarin Duck Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "Drake Mandarin Duck",
+                    "ShopDescription": "A beautiful water fowl.",
+					"EggItemIds": [
+					  "442"
+					],
+					"IncubationTime": 9000,
+					"IncubatorParentSheetOffset": 1,
+					"BirthText": "A new duckling hatched!",
+                    "DaysToMature": "5",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "685"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "774"
+                        }
+                    ],
+                    "DaysToProduce": "2",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "Duck",
+                    "BabySound": "Duck",
+                    "Texture": "Animals/balverines.mandarinbfav-Drake Mandarin Duck",
+                    "HarvestedTexture": "Animals/balverines.mandarinbfav-Drake Mandarin Duck",
+                    "BabyTexture": "Animals/balverines.mandarinbfav-Drake Mandarin Duck Baby",
+					"UseFlippedRightForLeft": true,
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+					"SellPrice": 1200,
+					"CanSwim": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        {
+            "LogName": "Load shopIcon for Mandarin Duck",
+            "Action": "Load",
+            "Target": "Animals/balverines.mandarinbfav-Mandarin Duck Icon",
+            "FromFile": "assets\\animal_shop_mandarin.png"
+        },
+        {
+            "LogName": "Load adultSprite for Hen Mandarin Duck",
+            "Action": "Load",
+            "Target": "Animals/balverines.mandarinbfav-Hen Mandarin Duck",
+            "FromFile": "assets/female.png"
+        },
+        {
+            "LogName": "Load babySprite for Hen Mandarin Duck",
+            "Action": "Load",
+            "Target": "Animals/balverines.mandarinbfav-Hen Mandarin Duck Baby",
+            "FromFile": "assets/duckling.png"
+        },
+        {
+            "LogName": "Load adultSprite for Drake Mandarin Duck",
+            "Action": "Load",
+            "Target": "Animals/balverines.mandarinbfav-Drake Mandarin Duck",
+            "FromFile": "assets/male.png"
+        },
+        {
+            "LogName": "Load babySprite for Drake Mandarin Duck",
+            "Action": "Load",
+            "Target": "Animals/balverines.mandarinbfav-Drake Mandarin Duck Baby",
+            "FromFile": "assets/duckling.png"
+        }
+    ]
+}

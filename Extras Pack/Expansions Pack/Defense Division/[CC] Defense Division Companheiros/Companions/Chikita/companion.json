@@ -1,0 +1,66 @@
+{
+  "Name": "Chikita",
+  "Type": "Walking",
+  "TravelSpeed": 1,
+  "SpawnOffsetX": 0,
+  "SpawnOffsetY": 0,
+  "SpawnDirection": 2,
+  "IdleBehavior": "Wander",
+  "IsPrismatic": false,
+  "AppearUnderwater": false,
+  "EnableCharacterCollision": true,
+  "EnableFarmerCollision": true,
+  "MaxIdleDistance": -1,
+  "MaxDistanceBeforeTeleport": -1,
+  "InspectionDialogue": "...",
+		//Som da Criatura
+  
+		//Sombra da Criatura
+  "EnableShadow": true,
+  "Shadow": {
+    "OffsetX": 0,
+    "OffsetY": 0,
+    "Scale": 1,
+    "Alpha": 255
+  },
+		//Tamanho & Animações
+  "FrameSizeWidth": 16,
+  "FrameSizeHeight": 32,
+
+  "RightAnimation": {
+    "StartingFrame": 4,
+    "NumberOfFrames": 4,
+    "Duration": 180,
+
+  "IdleAnimation": {
+  "ManualFrames": [	{	"Frame": 4	}	]	
+   }
+  },
+  "DownAnimation": {
+    "StartingFrame": 4,
+    "NumberOfFrames": 2,
+    "Duration": 200,
+
+  "IdleAnimation": {
+  "ManualFrames": [	{	"Frame": 0	}	]	
+   }
+  },
+  "LeftAnimation": {
+    "StartingFrame": 6,
+    "NumberOfFrames": 2,
+    "Duration": 180,
+
+  "IdleAnimation": {
+  "ManualFrames": [	{	"Frame": 12	}	]	
+   }
+  },
+  "UpAnimation": {
+    "StartingFrame": 0,
+    "NumberOfFrames": 2,
+    "Duration": 200,
+
+  "IdleAnimation": {
+  "ManualFrames": [	{	"Frame": 8	}	]	
+   }
+  }
+}

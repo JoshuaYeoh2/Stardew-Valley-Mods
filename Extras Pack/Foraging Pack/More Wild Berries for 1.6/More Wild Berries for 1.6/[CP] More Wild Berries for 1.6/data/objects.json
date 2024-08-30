@@ -1,0 +1,95 @@
+{
+    "Changes": [
+	{
+				"Action": "EditData",
+				"Target": "Data/Objects",
+        
+				"Entries": 
+				{
+			"{{ModId}}_Boysenberries": {
+                    "Name": "Boysenberries",
+				
+                    "DisplayName": "{{i18n:Boysenberries.name}}",
+                    "Description": "{{i18n:Boysenberries.description}}",
+                    "Type": "Fruit",          
+                    "Category": -79,
+                    "Edibility": 18,
+                    "Price": 20,
+                    "Texture": "Mods/{{ModId}}/boysenberries",                    
+                    "ContextTags":
+                    [
+                    "berry_item",
+                    "fruit_item",
+                    "color_dark_red"],
+
+                    
+            },
+                "{{ModId}}_Marionberry": {
+                    "Name": "Marionberry",
+                    "DisplayName": "{{i18n:Marionberry.name}}",
+                    "Description": "{{i18n:Marionberry.description}}",
+                    "Type": "Fruit",          
+                    "Category": -79,
+                    "Edibility": 18,
+                    "Price": 25,
+                    "Texture": "Mods/{{ModId}}/marionberry",
+                    "ContextTags":
+                    [
+                    "berry_item",
+                    "fruit_item",
+                    "color_purple"],
+
+                    
+                    
+            },
+                "{{ModId}}_WildBlueberry": {
+                    "Name": "Wild Blueberry",
+                    "DisplayName": "{{i18n:WildBlueberry.name}}",
+                    "Description": "{{i18n:WildBlueberry.description}}",
+                    "Type": "Fruit",          
+                    "Category": -79,
+                    "Edibility": 15,
+                    "Price": 30,
+                    "Texture": "Mods/{{ModId}}/wildblueberry",
+                    "ContextTags":
+                    [
+                    "berry_item",
+                    "fruit_item",
+                    "color_dark_blue"],
+}
+}
+                    
+                    
+            },
+
+
+
+               
+            
+                    
+                    
+
+                    
+        
+                    
+        
+                    
+                
+                    
+                    
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+
+
+
+    ]
+}

@@ -1,0 +1,323 @@
+{
+  "Changes": [
+
+    {//更改食谱。
+      "Action": "EditData",
+      "Target": "Data/CookingRecipes",
+      "Entries": {
+        "Jiu Fried Crab": "717 1 260 1 247 1 -5 1/1 10/Jiu_Fried_Crab/f Jiu 3",
+        "Jiu Five times Espresso": "395 5/1 10/Jiu_Five_times_Espresso/f Jiu 7",
+        "Jiu Ramen": "246 1 -5 1 -4 1/1 10/Jiu_Ramen/default"
+      }
+    },
+
+   {//添加拉面到餐吧
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "TargetField": [ "Saloon", "Items" ],
+        "Entries": {
+           "Jiu_Ramen": {
+            "Id": "Jiu_Ramen",
+            "ItemId": "Jiu_Ramen",
+            "Price": 500
+       }
+    }
+},
+
+   {//添加肖像
+      "Action": "Load",
+      "Target": "TileSheets/Jiu_Portrait",
+      "FromFile": "assets/ExtraStuff/Image/JiuPortrait.png"
+    },
+
+   {//添加爱心事件的相框
+      "Action": "Load",
+      "Target": "TileSheets/Jiu_Beachfoto",
+      "FromFile": "assets/ExtraStuff/Image/JiuBeachfoto.png"
+    },
+
+   {//添加爱心事件的相框1
+      "Action": "Load",
+      "Target": "TileSheets/Jiu_Townfoto",
+      "FromFile": "assets/ExtraStuff/Image/JiuTownfoto.png"
+    },
+
+   {//添加爱心事件的相框2
+      "Action": "Load",
+      "Target": "TileSheets/Jiu_Forestfoto",
+      "FromFile": "assets/ExtraStuff/Image/JiuForestfoto.png"
+    },
+
+   {//添加爱心事件的相框3
+      "Action": "Load",
+      "Target": "TileSheets/Jiu_Killppl",
+      "FromFile": "assets/ExtraStuff/Image/JiuKillppl.png"
+    },
+
+    {//加入到家具
+      "Action": "EditData",
+      "Target": "Data/Furniture",
+      "Entries": {
+        "Jiu_Portrait": "JiuPortrait/painting/2 2/2 2/1/999/-1/[LocalizedText Strings\\Furniture:JiuPortrait]/0/TileSheets\\Jiu_Portrait/true",
+        "Jiu_Beachfoto": "JiuBeachfoto/painting/3 2/3 2/1/2000/-1/[LocalizedText Strings\\Furniture:JiuBeachfoto]/0/TileSheets\\Jiu_Beachfoto/true",
+        "Jiu_Townfoto": "JiuTownfoto/painting/3 2/3 2/1/2000/-1/[LocalizedText Strings\\Furniture:JiuTownfoto]/0/TileSheets\\Jiu_Townfoto/true",
+        "Jiu_Forestfoto": "JiuForestfoto/painting/3 2/3 2/1/2000/-1/[LocalizedText Strings\\Furniture:JiuForestfoto]/0/TileSheets\\Jiu_Forestfoto/true",
+        "Jiu_Killppl": "JiuKillppl/painting/3 2/3 2/1/2000/-1/[LocalizedText Strings\\Furniture:JiuKillppl]/0/TileSheets\\Jiu_Killppl/true"
+      }
+    },
+
+    {//描述
+      "Action": "EditData",
+      "Target": "Strings/Furniture",
+      "Entries": 
+      {
+        "JiuPortrait": "{{i18n:Jiu_Furniture.JiuPortrait}}",
+        "JiuBeachfoto": "{{i18n:Jiu_Furniture.JiuBeachfoto}}",
+        "JiuTownfoto": "{{i18n:Jiu_Furniture.JiuTownfoto}}",
+        "JiuForestfoto": "{{i18n:Jiu_Furniture.JiuForestfoto}}",
+        "JiuKillppl": "{{i18n:Jiu_Furniture.JiuKillppl}}"
+      }
+    },
+
+    {//添加猪车商品
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "Traveler",
+        "Items"
+      ],
+      "Entries": {
+        "Jiu_Portrait": {
+          "ActionsOnPurchase": null,
+            "CustomFields": null,
+            "TradeItemId": null,
+            "TradeItemAmount": 1,
+            "Price": 30000,
+            "ApplyProfitMargins": null,
+            "AvailableStock": 1,
+            "AvailableStockLimit": "Player",
+            "AvoidRepeat": false,
+            "UseObjectDataPrice": false,
+            "PriceModifiers": null,
+            "PriceModifierMode": "Stack",
+            "AvailableStockModifiers": null,
+            "AvailableStockModifierMode": "Stack",
+            "Condition": "PLAYER_HEARTS Current Jiu 14",
+            "Id": "(F)Jiu_Portrait",
+            "ItemId": "(F)Jiu_Portrait",
+            "RandomItemId": null,
+            "MaxItems": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ObjectInternalName": null,
+            "ObjectDisplayName": null,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+        }
+      }
+    },
+
+        {
+            "Action": "Load",
+            "Target": "Mods/[CP] Jiu NPC",
+            "FromFile": "Assets/ExtraStuff/Image/Jiufeather.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/weapons",
+            "Entries": {
+                "Jiufeather": {
+                    "Name": "Jiufeather",
+                    "DisplayName": "{{i18n:Jiu_Weapons.Jiufeather.Name}}",
+                    "Description": "{{i18n:Jiu_Weapons.Jiufeather.Des}}",
+                    "MinDamage": 40,
+                    "MaxDamage": 55,
+                    "Knockback": 2,
+                    "Speed": -4,
+                    "Precision": 0,
+                    "Defense": 0,
+                    "Type": 3,
+                    "MineBaseLevel": -1,
+                    "MineMinLevel": -1,
+                    "AreaOfEffect": 2,
+                    "CritChance": 0.1,
+                    "CritMultiplier": 0,
+                    "CanBeLostOnDeath": false,
+                    "Texture": "{{InternalAssetKey: Assets/ExtraStuff/Image/Jiufeather.png}}",
+                    "SpriteIndex": 0,
+                    "Projectiles": null,
+                    "CustomFields": null
+                }
+            }
+        },
+
+    {
+      "Action": "Load",
+      "Target": "TileSheets/Jiu_Fried_Crab",
+      "FromFile": "assets/ExtraStuff/Image/Fried_crab.png" 
+    },
+
+    {
+      "Action": "Load",
+      "Target": "TileSheets/Jiu_Five_times_Espresso",
+      "FromFile": "assets/ExtraStuff/Image/Five_times_Espresso.png" 
+    },
+
+    {
+      "Action": "Load",
+      "Target": "TileSheets/Jiu_Ramen",
+      "FromFile": "assets/ExtraStuff/Image/Ramen.png" 
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "Jiu_Fried_Crab": {
+          "Name": "Jiu_Fried_Crab",
+          "DisplayName": "{{i18n:Jiu_Objects.FC.Name}}",
+          "Description": "{{i18n:Jiu_Objects.FC.Dis}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 300,
+          "Texture": "TileSheets/Jiu_Fried_Crab",
+          "SpriteIndex": 0,
+          "Edibility": 90,
+          "IsDrink": false,
+          "Buffs": [
+            {
+              "Id": "Jiu_Fried_Crab",
+              "BuffId": null,
+              "IconTexture": null,
+              "IconSpriteIndex": 0,
+              "Duration": 1260,
+              "IsDebuff": false,
+              "GlowColor": null,
+              "CustomAttributes": {
+                "FarmingLevel": 0.0,
+                "FishingLevel": 0.0,
+                "MiningLevel": 0.0,
+                "LuckLevel": 0.0,
+                "ForagingLevel": 0.0,
+                "MaxStamina": 0.0,
+                "MagneticRadius": 0.0,
+                "Speed": 1.0,
+                "Defense": 1.0,
+                "Attack": 1.0
+              },
+              "CustomFields": null
+            }
+          ],
+          "GeodeDropsDefaultItems": false,
+          "GeodeDrops": null,
+          "ArtifactSpotChances": null,
+          "ExcludeFromFishingCollection": false,
+          "ExcludeFromShippingCollection": false,
+          "ExcludeFromRandomSale": false,
+          "ContextTags": [],
+          "CustomFields": null
+},
+
+        "Jiu_Five_times_Espresso": {
+          "Name": "Jiu_Five_times_Espresso",
+          "DisplayName": "{{i18n:Jiu_Objects.FTE.Name}}",
+          "Description": "{{i18n:Jiu_Objects.FTE.Dis}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 750,
+          "Texture": "TileSheets/Jiu_Five_times_Espresso",
+          "SpriteIndex": 0,
+          "Edibility": 10,
+          "IsDrink": true,
+          "Buffs": [
+            {
+              "Id": "Jiu_Five_times_Espresso",
+              "BuffId": null,
+              "IconTexture": null,
+              "IconSpriteIndex": 0,
+              "Duration": 415,
+              "IsDebuff": false,
+              "GlowColor": null,
+              "CustomAttributes": {
+                "FarmingLevel": 0.0,
+                "FishingLevel": 0.0,
+                "MiningLevel": 0.0,
+                "LuckLevel": 0.0,
+                "ForagingLevel": 0.0,
+                "MaxStamina": 0.0,
+                "MagneticRadius": 0.0,
+                "Speed": 1.0,
+                "Defense": 0.0,
+                "Attack": 1.0
+              },
+              "CustomFields": null
+            }
+          ],
+          "GeodeDropsDefaultItems": false,
+          "GeodeDrops": null,
+          "ArtifactSpotChances": null,
+          "ExcludeFromFishingCollection": false,
+          "ExcludeFromShippingCollection": false,
+          "ExcludeFromRandomSale": false,
+          "ContextTags": [],
+          "CustomFields": null
+},
+
+        "Jiu_Ramen": {
+          "Name": "Jiu_Ramen",
+          "DisplayName": "{{i18n:Jiu_Objects.Ramen.Name}}",
+          "Description": "{{i18n:Jiu_Objects.Ramen.Dis}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 200,
+          "Texture": "TileSheets/Jiu_Ramen",
+          "SpriteIndex": 0,
+          "Edibility": 50,
+          "IsDrink": false,
+          "Buffs": [
+            {
+              "Id": "Jiu_Ramen",
+              "BuffId": null,
+              "IconTexture": null,
+              "IconSpriteIndex": 0,
+              "Duration": 500,
+              "IsDebuff": false,
+              "GlowColor": null,
+              "CustomAttributes": {
+                "FarmingLevel": 0.0,
+                "FishingLevel": 1.0,
+                "MiningLevel": 0.0,
+                "LuckLevel": 1.0,
+                "ForagingLevel": 0.0,
+                "MaxStamina": 0.0,
+                "MagneticRadius": 0.0,
+                "Speed": 0.0,
+                "Defense": 0.0,
+                "Attack": 0.0
+              },
+              "CustomFields": null
+            }
+          ],
+          "GeodeDropsDefaultItems": false,
+          "GeodeDrops": null,
+          "ArtifactSpotChances": null,
+          "ExcludeFromFishingCollection": false,
+          "ExcludeFromShippingCollection": false,
+          "ExcludeFromRandomSale": false,
+          "ContextTags": [],
+          "CustomFields": null
+},
+        }
+
+      },
+
+
+  ]
+}

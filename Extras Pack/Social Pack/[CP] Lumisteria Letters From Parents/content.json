@@ -1,0 +1,146 @@
+{
+  "Format": "1.18.0",
+	
+	"ConfigSchema": {
+	
+	"Parents": {"AllowValues": "1, 2",
+				"Default": "2"},	
+	"ChangeMails": {"AllowValues": "True, False",
+				"Default": "True"},	
+	"MoreMails": {"AllowValues": "True, False",
+				"Default": "True"},
+	
+	"Parent1": {"Default": "Mom"},	
+	"Parent2": {"Default": "Mumsi"},	
+	},
+	
+	
+    "DynamicTokens": [
+        {
+            "Name": "GiftSeed",
+            "Value": "455",// Summer Spangle Seeds
+        },
+        {
+            "Name": "GiftSeed",
+            "Value": "{{spacechase0.jsonAssets/ObjectId:Blue Mist Seeds}}", // Blue Mist Seeds"
+			"When": {
+                "HasMod |contains=spacechase0.jsonAssets": true,
+                "HasMod |contains=mizu.flowers": true
+			}
+        },
+        {
+            "Name": "GiftSeed",
+            "Value": "431",// Sunflower seeds",
+			"When": {
+				"Relationship:Haley": "Dating, Engaged, Married",
+			}
+        },
+        {
+            "Name": "GiftSeed",
+            "Value": "453",// Poppy Seeds",
+			"When": {
+				"Relationship:Penny": "Dating, Engaged, Married",
+			}
+        },
+	],
+	
+	
+  "Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				"mom1": "Dear @,^  How are you doing, sweety? I've missed you so much since you left. I hope the farming life is everything you hoped for. ^  Love, {{Parent1}}.   ^   P.S. I sent your favorite cookies < %item object 223 1 %%",
+				"mom2": "Dear @,^  It's been so long since I heard from you, dear. Things are the same as ever back home. {{Parent1}} and I miss you very much. ^  Love, {{Parent2}} ^ P.S. Found an envelope with some money Grandpa left for you. %item money 500 501 %%",
+				"mom3": "Dear @,^  I saw an article about you in the local paper! It sounds like the country life is a good fit for you! I'm so proud of you. Take care, sweety.  ^  Love, {{Parent1}}",
+				"mom4": "Dear @,^ How are things going? You must really be making a fortune on that farm. Don't forget your dear old {{Parent2}} and {{Parent1}} when you're a millionaire! ^  Love, {{Parent2}}  ^   P.S. Enjoy the cake!%item object 221 1 %%",
+				"dad1": "Dear @,^  Have you settled into your new life yet? I can't believe you're all grown up now... Time sure flies. Now that you're gone I have all this extra money laying around, so I included a little gift.^  Love, {{Parent2}}.%item money 500 501 %%",
+				"dad2": "Dear @,^  How is the country life going for you? It's been lonely here without you, but {{Parent2}} and I are proud of what you're doing.^  Love, {{Parent1}}  ^  P.S. Found an envelope with some money Grandpa left for you. %item money 500 501 %%",
+				"dad3": "Dear @,^  I read an article about you in the local paper! I'm so impressed with your progress on the farm! Keep this up and dear old {{Parent2}} and {{Parent1}} might be retiring in a Fern Islands luxury bungalow after all ;).^  Love, {{Parent2}}",
+				"dad4": "Dear @,^ I know you're busy on the farm and that's why you can't visit. I understand. You've been working so hard... keep it up and you can accomplish anything! ^  Love, {{Parent1}}  ^  P.S. Included some quality stone %item object 390 30 %%",
+			},
+			"When": {
+				"Parents": "2",
+				"ChangeMails": "True",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				"mom1": "Dear @,^  How are you doing, sweety? I've missed you so much since you left. I hope the farming life is everything you hoped for. ^  Love, {{Parent1}}.   ^   P.S. I sent your favorite cookies < %item object 223 1 %%",
+				"mom2": "Dear @,^  It's been so long since I heard from you, dear. Things are the same as ever back home. I miss you very much. ^  Love, {{Parent1}} ^ P.S. Found an envelope with some money Grandpa left for you. %item money 500 501 %%",
+				"mom3": "Dear @,^  I saw an article about you in the local paper! It sounds like the country life is a good fit for you! I'm so proud of you. Take care, sweety. ^  Love, {{Parent1}}",
+				"mom4": "Dear @,^ How are things going? You must really be making a fortune on that farm. Don't forget your dear old {{Parent1}} when you're a millionaire! ^  Love, {{Parent1}}  ^   P.S. Enjoy the cake!%item object 221 1 %%",
+				"dad1": "Dear @,^  Have you settled into your new life yet? I can't believe you're all grown up now... Time sure flies. Now that you're gone I have all this extra money laying around, so I included a little gift.^  Love, {{Parent1}}.%item money 500 501 %%",
+				"dad2": "Dear @,^  How is the country life going for you? It's been lonely here without you, but I'm proud of what you're doing. ^  Love, {{Parent1}}  ^  P.S. Found an envelope with some money Grandpa left for you. %item money 500 501 %%",
+				"dad3": "Dear @,^  I read an article about you in the local paper! I'm so impressed with your progress on the farm! Keep this up and dear old {{Parent1}} might be retiring in a Fern Islands luxury bungalow after all ;). ^  Love, {{Parent1}}",
+				"dad4": "Dear @,^ I know you're busy on the farm and that's why you can't visit. I understand. You've been working so hard... keep it up and you can accomplish anything! ^  Love, {{Parent1}}  ^  P.S. Included some quality stone %item object 390 30 %%",
+			},
+			"When": {
+				"Parents": "1",
+				"ChangeMails": "True",
+			},
+		},
+		//new mails
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			"Entries": {
+			"ParentsEggFestivalY1": "Dear @,^ {{Parent1}} and I hope you are happy in the valley. Are you excited for today's festival ? I remember when we were painting eggs together when you were younger. Festivals are so much fun. ^  Love, {{Parent2}}.",
+			"ParentsMidsummerY1": "Dear @,^ It's midsummer. I remember how lovely the valley was during summer when i was young. But it can be hot here, so be careful. Here is a coconut for our recent travel. Did you know that coconut water is very refreshing ? ^  Love, {{Parent1}}. %item object 88 1 %% ",
+			"ParentsFallY1": "Dear @,^ I know you are always impatient for {{Parent1}} and I to make our homemade jellies like we do every year. Here are some for you to enjoy! I included your favorite flavours. Do you make jelly at {{farmname}} ? ^  Love, {{Parent2}}. %item object 344 4 %% ",
+			"ParentsWinterFeastY1": "Dear @,^ The house is a bit emtpy today without you, {{Parent2}} cooked too much for just two people. We both hope you are happy in the valley, and ready for the upcoming year. Merry Winter Feast! ^  Love, {{Parent1}}^ P.S. Here are some extra muffins made by {{Parent2}}. %item object 651 4 %% ",
+			"ParentsFlowerFestivalY2": "Dear @,^ How are you doing ? The Flower Dance is nearly here. It's a sweet moment, and the clearing is a beautiful place. I wish i could get some picture of you, especially if you dance.^ You know, for me Flower Dance is like a goodbye to spring and a welcome to summer. It's when i start rummage through my seed packets and choose the next flowers to plant. It's kinda relaxing. Do you still feel that way, with a farm as big as yours ?^ ^ Here are some seeds coming from my flowers of last year. The smell of flowers in the summer evening makes beautiful memories. Well, it was a long letter !   ^  Love, {{Parent1}}. %item object {{GiftSeed}} 5 %% ",
+			"ParentsLuauY2": "Dear @,^ In some days, the Luau will take place in the valley ! I wish we had such a custom here.^ Luau is a great opportunity to bond with other villagers, especially if you add something nice in the soup. But be careful if you don't !^ ^ Your grampa used to tell us how one year Lewis and he put carp in the soup, and all the dish tasted like mud. There were stories about the disappointing soup until winter this year, and some villagers weren't able to stand the sight of the fish even years after the incident. Your grampa felt so guilty that the next year, he brought his best cauliflower for the soup. At first, the villagers were a bit defiant, but the soup ended to be one of the best they ever had.^ ^ Now i wonder if i can organise such an event here in the future. Maybe i'll forbid people to bring carps however. Just in case.^  Love, {{Parent2}}",
+			"ParentsJelliesY2": "Dear @,^ {{Parent2}} and I are hoping you are ok. A farm doesn't let you a lot of opportunity to go on vacation, so we hope you find some moments to rest. Will you spend some time to watch the Moonlight Jellies before they migrate ? This is a soothing moment, just what you need before starting a new season.^ Here is a little something for you. It doesn't replace rest but i know how the first days of a season are busy. Take care of yourself.^  Love, {{Parent1}}. %item object 349 1 %%",
+			"ParentsSprititEveY2": "Dear @,^ I remember, when i was younger, my friends and I decided that we will disguise together for the Spirit's Eve. Somehow, the simple idea ended in a kind of contest between us. I wonder how we got this strange ideas of competing to be the Spirit of the Evening ? We invented a lot of challenges to do, and at the end the joy was more about finding fun things to do than the points themselves. I hope you can have such moments with your friends, they make precious memories.^ ^ Perfect to warm you when you are in a cold night with strange shadows around you...^  Love, {{Parent2}}.",
+			"ParentsNightMarketY2": "Dear @,^ The Night Market is such a lovely gathering ! I wish i would be able to come one year to do some shopping with you and share a cup of coffee that will keep the cold away.^ Here is some money, i want you to get yourself a sweet gift.^  Love, {{Parent1}}. %item money 500 501 %%",
+			"ParentsWinterFeastY2": "Dear @,^ We just saw the 'The Miracle At Coldstar Ranch' movie at our local theater. Distance is hard but we too keep the spirit of the Winter Star alive in our own way. There is a lot of way to be connected to others, writing is ours. Take care of yourself, dear. Here is a little gift for you.^  Love, {{Parent1}} & {{Parent2}}. %item object 578 1 %% ",
+		},
+			"When": {
+				"Parents": "2",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			"Entries": {
+			"ParentsEggFestivalY1": "Dear @,^ I hope you are happy in the valley. Are you excited for today's festival ? I remember when we were painting eggs together when you were younger. Festivals are so much fun. ^  Love, {{Parent1}}.",
+			"ParentsMidsummerY1": "Dear @,^ It's midsummer. I remember how lovely the valley was during summer when i was young. But it can be hot here, so be careful. Here is a coconut for a recent travel. Did you know that coconut water is very refreshing ? ^  Love, {{Parent1}}. %item object 88 1 %% ",
+			"ParentsFallY1": "Dear @,^ I know you are always impatient for my homemade jellies. Here are some for you to enjoy! I included your favorite flavours. Do you make jelly at {{farmname}} ? ^  Love, {{Parent1}}. %item object 344 4 %% ",
+			"ParentsWinterFeastY1": "Dear @,^ The house is a bit emtpy today without you, I cooked too much food. I hope you are happy in the valley, and ready for the upcoming year. Merry Winter Feast! ^  Love, {{Parent1}}^ P.S. Here are some extra muffins. %item object 651 4 %% ",
+			"ParentsFlowerFestivalY2": "Dear @,^ How are you doing ? The Flower Dance is nearly here. It's a sweet moment, and the clearing is a beautiful place. I wish i could get some picture of you, especially if you dance.^ You know, for me Flower Dance is like a goodbye to spring and a welcome to summer. It's when i start rummage through my seed packets and choose the next flowers to plant. It's kinda relaxing. Do you still feel that way, with a farm as big as yours ?^ ^ Here are some seeds coming from my flowers of last year. The smell of flowers in the summer evening makes beautiful memories. Well, it was a long letter !   ^  Love, {{Parent1}}. %item object {{GiftSeed}} 5 %% ",
+			"ParentsLuauY2": "Dear @,^ In some days, the Luau will take place in the valley ! I wish we had such a custom here.^ Luau is a great opportunity to bond with other villagers, especially if you add something nice in the soup. But be careful if you don't !^ ^ Your grampa used to tell me how one year Lewis and he put carp in the soup, and all the dish tasted like mud. There were stories about the disappointing soup until winter this year, and some villagers weren't able to stand the sight of the fish even years after the incident. Your grampa felt so guilty that the next year, he brought his best cauliflower for the soup. At first, the villagers were a bit defiant, but the soup ended to be one of the best they ever had.^ ^ Now i wonder if i can organise such an event here in the future. Maybe i'll forbid people to bring carps however. Just in case.^  Love, {{Parent1}}",
+			"ParentsJelliesY2": "Dear @,^ I am hoping you are ok. A farm doesn't let you a lot of opportunity to go on vacation, so i hope you find some moments to rest. Will you spend some time to watch the Moonlight Jellies before they migrate ? This is a soothing moment, just what you need before starting a new season.^ Here is a little something for you. It doesn't replace rest but i know how the first days of a season are busy. Take care of yourself.^  Love, {{Parent1}}. %item object 349 1 %%",
+			"ParentsSprititEveY2": "Dear @,^ I remember, when i was younger, my friends and I decided that we will disguise together for the Spirit's Eve. Somehow, the simple idea ended in a kind of contest between us. I wonder how we got this strange ideas of competing to be the Spirit of the Evening ? We invented a lot of challenges to do, and at the end the joy was more about finding fun things to do than the points themselves. I hope you can have such moments with your friends, they make precious memories.^ ^ Perfect to warm you when you are in a cold night with strange shadows around you...^  Love, {{Parent1}}.",
+			"ParentsNightMarketY2": "Dear @,^ The Night Market is such a lovely gathering ! I wish i would be able to come one year to do some shopping with you and share a cup of coffee that will keep the cold away.^ Here is some money, i want you to get yourself a sweet gift.^  Love, {{Parent1}}. %item money 500 501 %%",
+			"ParentsWinterFeastY2": "Dear @,^ I just saw the 'The Miracle At Coldstar Ranch' movie at my local theater. Distance is hard but we too keep the spirit of the Winter Star alive in our own way. There is a lot of way to be connected to others, writing is ours. Take care of yourself, dear. Here is a little gift for you.^  Love, {{Parent1}}. %item object 578 1 %% ",
+		},
+			"When": {
+				"Parents": "1",
+			},
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"Entries": {
+			"58440001/u 12/y 1/z summer/z winter/z fall/x ParentsEggFestivalY1": "null",
+			"58440002/u 14/y 1/z spring/z winter/z fall/x ParentsMidsummerY1": "null",
+			"58440003/u 8/y 1/z spring/z winter/z summer/x ParentsFallY1": "null",
+			"58440004/u 24/y 1/z spring/z fall/z summer/x ParentsWinterFeastY1": "null",
+			"58440005/u 21/y 2/z summer/z winter/z fall/x ParentsFlowerFestivalY2": "null",
+			"58440006/u 7/y 2/z spring/z winter/z fall/x ParentsLuauY2": "null",
+			"58440007/u 26/y 2/z spring/z winter/z fall/x ParentsJelliesY2": "null",
+			"58440008/u 26/y 2/z spring/z winter/z summer/x ParentsSprititEveY2": "null",
+			"58440009/u 14/y 2/z spring/z fall/z summer/x ParentsNightMarketY2": "null",
+			"58440010/u 24/y 2/z spring/z fall/z summer/x ParentsWinterFeastY2": "null",
+
+
+
+						},
+			"When": {"MoreMails": "True",},
+		},
+  ]
+}

@@ -1,0 +1,213 @@
+{
+    "Format": "1.29.0",
+    "Changes": [
+        {
+            "LogName": "Masahi's Character",
+            "Action": "Load",
+            "Target": "Characters/Masahi",
+            "FromFile": "assets/images/Character.png"
+        },
+        {
+            "LogName": "Masahi's Character --- Beach",
+            "Action": "Load",
+            "Target": "Characters/Masahi_Beach",
+            "FromFile": "assets/images/MasahiCharacter_Beach.png"
+        },
+        {
+            "LogName": "Masahi's Blue Jazz Pot",
+            "Action": "Load",
+            "Target": "Characters/JazzPot",
+            "FromFile": "assets/images/BlueJazzPot.png"
+        },
+        {
+            "LogName": "Masahi's Table",
+            "Action": "Load",
+            "Target": "Characters/Table",
+            "FromFile": "assets/images/Table.png"
+        },
+        {
+            "LogName": "Masahi's Tent",
+            "Action": "Load",
+            "Target": "Characters/Tent",
+            "FromFile": "assets/images/Tent.png"
+        },
+        {
+            "LogName": "Masahi's Portrait",
+            "Action": "Load",
+            "Target": "Portraits/Masahi",
+            "FromFile": "assets/images/Portrait.png"
+        },
+        {
+            "LogName": "Masahi's General Dialogue",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Masahi",
+            "FromFile": "assets/data/dialogues/dialogue.json"
+        },
+        {
+            "LogName": "Masahi's Marriage Dialogue",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/MarriageDialogueMasahi",
+            "FromFile": "assets/data/dialogues/marriageDialogue.json"
+        },
+
+        {
+            "LogName": "Masahi's Spouse Room Messages",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "MasahiRoom.0": "\"The Beginner's Guide to Floristry\"",
+                "MasahiRoom.1": "\"Japanese Patisserie\""
+            }
+        },
+
+        {
+            "LogName": "Masahi's Schedule",
+            "Action": "Load",
+            "Target": "Characters/schedules/Masahi",
+            "FromFile": "assets/data/schedules/schedule.json",
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            }
+        },
+        {
+            "LogName": "Masahi's Schedule",
+            "Action": "Load",
+            "Target": "Characters/schedules/Masahi",
+            "FromFile": "assets/data/schedules/schedule_SVE.json",
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+            }
+        },
+        {
+            "LogName": "Masahi's Schedule Strings",
+            "Action": "Load",
+            "Target": "Strings/schedules/Masahi",
+            "FromFile": "assets/data/schedules/scheduleDialogue.json"
+        },
+        {
+            "LogName": "Masahi's NPC Dispositions",
+            "Action": "EditData",
+            "Target": "Data/NPCDispositions",
+            "Entries": {
+                "Masahi": "adult/polite/neutral/neutral/male/datable//Town/summer 27//Saloon 35 7/Masahi"
+            }
+        },
+        {
+            "LogName": "Masahi's Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "Masahi": "Is this really for me, @? Thank you so much!/212 394 597/You really made my day, @. Thanks a lot./-7 -80/That looks interesting, @. I will take it.//I'm sorry, I don't really like this.//... What is this for, @?//"
+            }
+        },
+        {
+            "LogName": "Masahi's Gift Tastes --- Marriage",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "Masahi": "You always know my mind, @. I love you./212 394 597/You bought this for me, honey? It makes me happy./-7 -80/That looks interesting. Thanks, hun.//I'm sorry, I don't really like this.//... What is this for, @?//"
+            },
+            "When": {
+                "Relationship:Masahi": "Engaged, Married"
+            }
+        },
+        {
+            "LogName": "Masahi's Movie Reactions and Concession Tastes",
+            "Action": "Include",
+            "FromFile": "assets/data/movies.json"
+        },
+        {
+            "LogName": "Masahi's Festivals Data",
+            "Action": "Include",
+            "FromFile": "assets/data/festivals.json"
+        },
+        {
+            "LogName": "Masahi's Heart Events",
+            "Action": "Include",
+            "FromFile": "assets/data/events.json"
+        },
+        {
+            "LogName": "Masahi's Spouse Room",
+            "Action": "EditData",
+            "Target": "Data/SpouseRooms",
+            "Entries": {
+                "Masahi": "MasahiSpouseRoom/0"
+            }
+        },
+        {
+            "LogName": "Masahi's Spouse Room",
+            "Action": "Load",
+            "Target": "Maps/MasahiSpouseRoom",
+            "FromFile": "assets/maps/MasahiSpouseRoom.tmx"
+        },
+        {
+            "LogName": "Masahi's Spouse Patio",
+            "Action": "EditData",
+            "Target": "Data/SpousePatios",
+            "Entries": {
+                "Masahi": "MasahiSpousePatio/0"
+            }
+        },
+        {
+            "LogName": "Masahi's Spouse Patio",
+            "Action": "Load",
+            "Target": "Maps/MasahiSpousePatio",
+            "FromFile": "assets/maps/MasahiSpousePatio.tmx"
+        },
+
+        {
+            "LogName": "Masahi's Engagement Dialogue",
+            "Action": "EditData",
+            "Target": "Data/EngagementDialogue",
+            "Entries": {
+                "Masahi0": "There is only one last step before you finally belong to me.$u#$b#I won't let you go no matter what.$u",
+                "Masahi1": "I can't wait to introduce you as my husband, @.$u^I can't wait to introduce you as my wife, @.$u#$b#Don't be nervous, I'm here for you."
+            }
+        },
+        {
+            "LogName": "Masahi's Rain Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/rainy",
+            "Entries": {
+                "Masahi": "Rainy days like these are a little too depressing for me.$6#$b#It reminds me of the old days I wanted to forget.$6"
+            }
+        },
+        {
+            "LogName": "Masahi's Wedding Dialogue",
+            "Action": "EditData",
+            "Target": "strings/StringsFromCSFiles",
+            "Entries": {
+                "Utility.cs.5371": "@... Masahi... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and husband!$h",
+                "Utility.cs.5377": "@... Masahi... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you wife and husband!$h",
+                "Utility.cs.5367": "When @ first arrived in Pelican Town, no one knew if he'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Masahi in the bonds of marriage.",
+                "Utility.cs.5369": "When @ first arrived in Pelican Town, no one knew if she'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Masahi in the bonds of marriage."
+            },
+            "When": {
+                "Relationship:Masahi": "Engaged, Married"
+            }
+        },
+        {
+            "LogName": "Masahi's Birthday Gift Dialogue",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "NPC.cs.4275": "This is for my birthday? I didn't even remember...$6#$b#Thank you so much, @. I appreciate it.",
+                "NPC.cs.4277": "Is it for my birthday, @?#$b#Thanks, I love it a lot.",
+                "NPC.cs.4279": "Sorry, I don't know what to do with this...$6#$b#It's for my birthday? Then I suppose I can take it. Thanks anyway, @.",
+                "NPC.cs.4281": "Thanks for remembering my birthday, @.#$b#I will treat you to something nice on your birthday, too."
+            },
+            "When": {
+                "Season": "summer",
+                "Day": "27"
+            }
+        },
+        {
+            "LogName": "Masahi's Dance Acceptance --- spouse",
+            "Action": "EditData",
+            "Target": "Strings/Events",
+            "Entries": {
+                "SpouseFlowerDanceAccept_Masahi": "Of course, honey. I have been practicing all day for this.$u"
+            }
+        }
+    ]
+}

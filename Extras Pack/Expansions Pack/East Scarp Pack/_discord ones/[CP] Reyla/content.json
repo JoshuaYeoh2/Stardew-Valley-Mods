@@ -1,0 +1,299 @@
+{
+  "Format": "2.0.0",
+
+  "ConfigSchema": {
+    "SeasonalsLite": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "AllowBlank": false,
+      "Description": "Loads only the base outfit, with no seasonal changes."
+    },
+    "CustomToddlers":
+    {
+        "AllowValues": "true, false",
+        "Default": "true",
+        "AllowBlank": false,
+        "Description": "Custom Sprites of Reyla's children."
+    }
+  },
+  "CustomLocations": [
+    //Adds custom locations
+    {
+      "Name": "RaffieJohn.Reyla_Home",
+      "FromMapFile": "assets/Maps/RaffieJohn.Reyla_Home.tbin"
+    },
+    {
+      "Name": "RaffieJohn.Reyla_Indoor_House",
+      "FromMapFile": "assets/Maps/RaffieJohn.Reyla_Indoor_House.tbin"
+    },
+    {
+      "Name": "RaffieJohn.Reyla_MineEntrance",
+      "FromMapFile": "assets/Maps/RaffieJohn.Reyla_MineEntrance.tbin"
+    },
+    {
+      "Name": "RaffieJohn.Reyla_MineLevel1",
+      "FromMapFile": "assets/Maps/RaffieJohn.Reyla_MineLevel1.tbin"
+    },
+    {
+      "Name": "RaffieJohn.Reyla_MineEntrance_NewDoor",
+      "FromMapFile": "assets/Maps/RaffieJohn.Reyla_MineEntrance_NewDoor.tbin"
+    },
+    {
+      "Name": "RaffieJohn.Reyla_SealedLand",
+      "FromMapFile": "assets/Maps/RaffieJohn.Reyla_SealedLand.tmx"
+    }
+  ],
+  //creates the custom locations warp and makes them available
+  "Changes": [
+    //NPC Manifestation Inclusion (also used for i18n)
+    {
+      "LogName": "NPC Schedule Inclusion",
+      "Action": "Include",
+      "FromFile": "Data/CharacterData/Schedule/Reyla_Schedule.json"
+    },
+    {
+      "LogName": "NPC Schedule Inclusion",
+      "Action": "Include",
+      "FromFile": "Data/CharacterData/Schedule/Imatu_Schedule.json"
+    },
+    {
+      "LogName": "NPC Inclusion",
+      "Action": "Include",
+      "FromFile": "Data/CharacterData/Reyla_Data.json"
+    },
+    {
+      "LogName": "NPC Inclusion",
+      "Action": "Include",
+      "FromFile": "Data/CharacterData/Imatu_Data.json"
+    },
+    {
+      "LogName": "Map Data Inclusion",
+      "Action": "Include",
+      "FromFile": "Data/MapData/MapData_JSON.json",
+      "Update": "OnLocationChange, OnTimeChange"
+    },
+    {
+      "LogName": "Festival Data Inclusion",
+      "Action": "Include",
+      "FromFile": "Data/events/FestivalData_Reyla.json"
+    },
+    {
+      "LogName": "Heart Event Data Inclusion",
+      "Action": "Include",
+      "FromFile": "Data/events/Reyla_heart_event_data.json"
+    },
+    {
+      "LogName": "Heart Event Data Inclusion",
+      "Action": "Include",
+      "FromFile": "Data/events/Imatu_heart_event_data.json"
+    },
+    {
+      "LogName": "Dialogue For Reyla Data Inclusion",
+      "Action": "Include",
+      "FromFile": "Data/CharacterData/Dialogue/Reyla_Dialogue.json"
+    },
+    {
+      "LogName": "Dialogue For Reyla Data Inclusion",
+      "Action": "Include",
+      "FromFile": "Data/CharacterData/Dialogue/Imatu_Dialogue.json"
+    },
+    {
+      "LogName": "Movie Dialogue Data Inclusion",
+      "Action": "Include",
+      "FromFile": "Data/Movie_Data.json"
+    },
+    {
+      "LogName": "Quest Data Inclusion",
+      "Action": "Include",
+      "FromFile": "Data/Quests.json"
+    },
+    {
+      "LogName": "Special Orders Data Inclusion",
+      "Action": "Include",
+      "FromFile": "Data/SpecialOrders.json"
+    },
+    {
+      "LogName": "Special Orders Strings Data Inclusion",
+      "Action": "Include",
+      "FromFile": "Data/SpecialOrdersStrings.json"
+    },
+    {
+      "LogName": "Mail Data Inclusion",
+      "Action": "Include",
+      "FromFile": "Data/Mail.json"
+    },
+    {
+      "LogName": "Animal Data Inclusion",
+      "Action": "Include",
+      "FromFile": "Data/Animals/Animals.json"
+    },
+    {
+      "LogName": "Animal Spawn Data Inclusion",
+      "Action": "Include",
+      "FromFile": "Data/Animals/AnimalSpawn.json"
+    },
+    {
+      "LogName": "Farm Animals Data Inclusion",
+      "Action": "Include",
+      "FromFile": "Data/Animals/FarmAnimals.json"
+    },
+    {
+      "LogName": "Shops Data Inclusion",
+      "Action": "Include",
+      "FromFile": "Data/Shops.json"
+    },
+    {
+      "LogName": "Objects Data Inclusion",
+      "Action": "Include",
+      "FromFile": "Data/Objects.json"
+    },
+    {
+      "LogName": "Map Strings Edit",
+      "Action": "Include",
+      "FromFile": "Data/StringsFromMaps.json"
+    },
+    //Load tilesheets
+    {
+      "LogName": "Loads Tilesheets",
+      "Action": "Load",
+      "Target": "Maps/Fellowclown_Temp,Maps/spring_RaffieTileSheet,Maps/summer_RaffieTileSheet,Maps/fall_RaffieTileSheet,Maps/winter_RaffieTileSheet,Maps/Raffie_Crops, Maps/RaffieJohn.Water_animation",
+      "FromFile": "Assets/Tilesheets/{{TargetWithoutPath}}.png"
+    },
+
+    //Compat
+    {
+      "LogName": "Custom Gift Reaction Inclusion",
+      "Action": "Include",
+      "FromFile": "Data/Compatibility/Reyla_Custom_Gift_Reactions.json",
+      "When": {
+        "HasMod |contains=PurrplingCat.CustomGiftDialogue": "true"
+      }
+    },
+    //Loading empty jsons to edit for custom events at custom locations
+    {
+      "Action": "Load",
+      "Target": "Data/Events/RaffieJohn.Reyla_Indoor_House",
+      "FromFile": "Data/events/SMESRI_Events.json"
+    },
+    {
+      "Action": "Load",
+      "Target": "Data/Events/Custom_Reyla_Home",
+      "FromFile": "Data/events/CRH_Events.json"
+    },
+    {
+      "Action": "Load",
+      "Target": "Data/Events/Custom_Reyla_Home",
+      "FromFile": "Data/events/SMESVE_Events.json"
+    },
+    //Loading the animals
+    {
+      "LogName": "Farmanimals Red-Capped Adult",
+      "Action": "Load",
+      "Target": "Animals/RaffieJohn.RedCappedZuzu_Adult_Norm",
+      "FromFile": "Assets/Animals/RaffieJohn.RedCappedZuzu_Adult_Norm.png"
+    },
+    {
+      "LogName": "Farmanimals Red-Capped Baby",
+      "Action": "Load",
+      "Target": "Animals/RaffieJohn.RedCappedZuzu_Baby_Norm",
+      "FromFile": "Assets/Animals/RaffieJohn.RedCappedZuzu_Baby_Norm.png"
+    },
+    {
+      "LogName": "Farmanimals Red-Capped Icon",
+      "Action": "Load",
+      "Target": "LooseSprites/RaffieJohn.RedCappedZuzu_Icon",
+      "FromFile": "Assets/Animals/RaffieJohn.RedCappedZuzu_Icon.png"
+    },
+    {
+      "LogName": "Farmanimals Gouud Adult",
+      "Action": "Load",
+      "Target": "Animals/RaffieJohn.Gouud_Adult_Grey",
+      "FromFile": "Assets/Animals/RaffieJohn.Gouud_Adult_Grey.png"
+    },
+    {
+      "LogName": "Fire ball",
+      "Action": "Load",
+      "Target": "TileSheets/Fire_Animation",
+      "FromFile": "Assets/TileSheets/Fire_Animation.png"
+    },
+    {
+      "LogName": "Protection Seal",
+      "Action": "Load",
+      "Target": "TileSheets/Protection_Seal",
+      "FromFile": "Assets/TileSheets/Protection_Seal.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Fireball, Characters/Fireball2, Characters/Fireball3, Characters/Fireball4",
+      "FromFile": "assets/TempActors/Monsters/Fireball.png"
+  },
+    //Loading the FTM Monsters
+    {"LogName": "Monsters",
+    "Action": "Load",
+    "Target": "Characters/Monsters/RaffieJohn.Reyla_ShadowMonster",
+    "FromFile": "Assets/Monsters/RaffieJohn.Reyla_ShadowMonster.png"
+  },
+    //Music
+    {
+      "Action": "EditData",
+      "Target": "Data/AudioChanges",
+      "Entries": {
+          "Humming.Reyla_Music": {
+              "ID": "Humming.Reyla_Music",
+              "Category": "Music",
+              "FilePaths": [ "{{AbsoluteFilePath: Assets/Music/humming.ogg}}" ],
+              "StreamedVorbis": true,
+              "Looped": true
+          }
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Data/AudioChanges",
+        "Entries": {
+            "Worry.Reyla_Music": {
+                "ID": "Worry.Reyla_Music",
+                "Category": "Music",
+                "FilePaths": [ "{{AbsoluteFilePath: Assets/Music/beautiful_random_minor_arp.ogg}}" ],
+                "StreamedVorbis": true,
+                "Looped": true
+            }
+          }
+        },
+        {
+          "Action": "EditData",
+          "Target": "Data/AudioChanges",
+          "Entries": {
+              "ZuzuBirdNoise": {
+                  "ID": "ZuzuBirdNoise",
+                  "Category": "Sound",
+                  "FilePaths": [ "{{AbsoluteFilePath: Assets/Music/eagle-chirping.ogg}}" ],
+                  "StreamedVorbis": true,
+                  "Looped": false
+              }
+            }
+          },
+          {
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "GouudNoise": {
+                    "ID": "GouudNoise",
+                    "Category": "Sound",
+                    "FilePaths": [ "{{AbsoluteFilePath: Assets/Music/goat-sound.ogg}}" ],
+                    "StreamedVorbis": true,
+                    "Looped": false
+                }
+              }
+            }
+  ],
+  "DynamicTokens": [
+    //TOKENS
+    { "Name": "FestivalYearCheck", "Value": "" },
+            {
+                "Name": "FestivalYearCheck",
+                "Value": "_y2",
+                "When": { "Query: {{Year}} % 2 = 1": false } //Odd year false
+            }
+  ]
+}

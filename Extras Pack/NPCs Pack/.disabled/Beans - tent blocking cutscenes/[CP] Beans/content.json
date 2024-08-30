@@ -1,0 +1,232 @@
+{
+  "Format": "1.29.0",
+  "CustomLocations": [
+  {
+    "Name": "Custom_Beans_Tent",
+    "FromMapFile": "assets/map/Custom_Beans_Tent.tmx"
+  }
+                     ],
+  "Changes": [
+    {
+         "LogName": "Beans Tent Inside Warp",
+         "Action": "EditMap",
+         "Target": "Maps/Beach",
+         "AddWarps": [
+            "52 17 Custom_Beans_Tent 2 5"
+         ]
+    },
+    {
+      "LogName": "Beans Tent Outside",
+      "Action": "EditMap",
+      "Target": "Maps/Beach",
+      "FromFile": "assets/map/Custom_Beans_Beach.tmx",
+      "FromArea": { "X": 0, "Y": 0, "Width": 3, "Height": 5 },
+      "ToArea": { "X": 51, "Y": 14, "Width": 3, "Height": 5 },
+    },
+    {
+      "LogName": "NPC Creation",
+      "Action": "Include",
+      "FromFile": "data/disposition/beansdisposition.json"
+    },
+    {
+      "LogName": "Load BeansSprite",
+      "Action": "Load",
+      "Target": "Characters/Beans",
+      "FromFile": "data/images/BeansSprite.png"
+    },
+    {
+      "LogName": "Load BeansPortrait",
+      "Action": "Load",
+      "Target": "Portraits/Beans",
+      "FromFile": "data/images/BeansPortrait.png"
+    },
+    {
+      "LogName": "NPC GiftTaste",
+      "Action": "Include",
+      "FromFile": "data/disposition/beansgifts.json"
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/beans",
+      "FromFile": "data/dialogue/beansdialogue.json"
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Beans",
+      "FromFile": "data/schedules/beansschedule.json"
+    },
+    {
+      "LogName": "Animation Frames",
+      "Action": "Include",
+      "FromFile": "data/animations/beansanimations.json"
+    },
+    {
+      "LogName": "Schedule Dialogue",
+      "Action": "Load",
+      "Target": "Strings/schedules/Beans",
+      "FromFile": "data/schedules/beansscheduledialogue.json"
+    },
+    {
+      "LogName": "Marriage Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueBeans",
+      "FromFile": "data/dialogue/beansmarriagedialogue.json"
+    },
+    {
+      "LogName": "Engagement Dialogue",
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "Entries": {
+        "Beans0": "I can't believe we are going through with this...I must be the luckiest girl in all the valley!$3",
+        "Beans1": "Are you nervous? I know I'm nervous...but I'm glad we're going through with this.$4"
+      }
+    },
+      //FESTIVAL PATCHES
+    {
+      "LogName": "Egg Festival Patch",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+	"Entries": {
+                "Beans": "On Ferngill Island, we didnt really do any scavenger hunts like this.$1#$b#It's nice to see something so new and different$6"
+            },
+        "TextOperations": [
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters"],
+                "Value": "Beans 19 63 down", //tile 19, 63, looking down
+                "Delimiter": "/"
+            }
+                          ]
+    },
+    {
+      "LogName": "Luau Patch",
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+	"Entries": {
+                "Beans": "On Ferngill Island, we'd host the biggest luau's!!$6#$b#I'd make the best Fish Tacos!$6#$b#Maybe I'll make some next year.."
+            },
+        "TextOperations": [
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters"],
+                "Value": "Beans 40 36 down",
+                "Delimiter": "/"
+            }
+                          ]
+    },
+    {
+      "LogName": "Winter Star Patch",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+	"Entries": {
+                "Beans": "I love what this town does every year with its Winter Star decorations$6#$b#Since it never really snows on Ferngill, we can't decorate like this..#$b#But I bet our feasts are just as extrordinant!$1"
+            },
+        "TextOperations": [
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters"],
+                "Value": "Beans 29 61 down",
+                "Delimiter": "/"
+            }
+                          ]
+    },
+    {
+      "LogName": "Festival of Ice Patch",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+	"Entries": {
+                "Beans": "BRRR!$6#$b#It's cold out today!#$b#Hopefully that doesn't affect your ice fishing skills, hehe$11"
+            },
+        "TextOperations": [
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters"],
+                "Value": "Beans 41 10 down",
+                "Delimiter": "/"
+            },
+    {
+		"Operation": "Append",
+		"Target": ["Fields", "set-up", 5],
+		"Value": "/animate Beans false true 700 18"
+				},
+                          ]
+    },
+    {
+      "LogName": "Moonlight Jellies Patch",
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer28",
+	"Entries": {
+                "Beans": "I really hope I get to see one of the jellies up close..#$b#..that way I can have a *really* detailed sketch!$11"
+            },
+        "TextOperations": [
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters"],
+                "Value": "Beans 10 39 down",
+                "Delimiter": "/"
+            },
+    {
+		"Operation": "Append",
+		"Target": ["Fields", "set-up", 5],
+		"Value": "/animate Beans false true 700 18 17 18"
+				},
+                          ]
+    },
+    {
+      "LogName": "SDV Fair Patch",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+	"Entries": {
+                "Beans": "'Cmon Orange....$2"
+            },
+        "TextOperations": [
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters"],
+                "Value": "Beans 32 71 up",
+                "Delimiter": "/"
+            }
+                          ]
+    },
+    {
+      "LogName": "Spirit's Eve Patch",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+	"Entries": {
+                "Beans": "Don't worry, if you're scared of the skeletons, I'll protect you!$11#$b#After all..#$b#..they're just animatronics.$10"
+            },
+        "TextOperations": [
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters"],
+                "Value": "Beans 28 61 right",
+                "Delimiter": "/"
+            }
+                          ]
+    },
+    {
+      "LogName": "Flower Dance Patch",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+	"Entries": {
+                "Beans": "I absolutely love all of the flowers everywhere!!$11#$b#I wonder if this is where Evelyn gets all her insipration from?$6"
+            },
+        "TextOperations": [
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters"],
+                "Value": "Beans 26 37 down",
+                "Delimiter": "/"
+            },
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "MainEvent_additionalCharacters"],
+                "Value": "Beans 26 37 down",
+                "Delimiter": "/"
+            }
+                          ]
+    },
+  ]
+}

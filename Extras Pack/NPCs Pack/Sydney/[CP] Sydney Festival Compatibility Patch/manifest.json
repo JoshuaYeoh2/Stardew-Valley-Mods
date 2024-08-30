@@ -1,0 +1,11 @@
+{
+	"Name": "Sydney Lex Patches",
+	"Author": "aerinanxiety",
+	"Version": "2.0",
+	"Description": "Moves Sydney a few tiles over to no longer intersect with multiple custom NPCs",
+	"UniqueID": "aerinanxiety.K8SydneyPatch",
+	"UpdateKeys": [ "Nexus:23591" ],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+	},
+}

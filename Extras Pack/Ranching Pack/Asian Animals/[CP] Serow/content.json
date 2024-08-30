@@ -1,0 +1,76 @@
+{
+    "Format": "2.0",
+    "Changes": [
+        {
+            "LogName": "Load data for Serow (Serow)",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Serow": {
+                    "DisplayName": "Serow",
+                    "House": "Barn",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 5000,
+                    "ShopTexture": "Animals/balverines.serowbfav-Serow Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Barn",
+                    "ShopDisplayName": "Serow",
+                    "ShopDescription": "A type of Asian goat that will produce milk.",
+                    "DaysToMature": "5",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "436"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "438"
+                        }
+                    ],
+                    "DaysToProduce": "2",
+                    "HarvestType": "HarvestWithTool",
+                    "HarvestTool": "Milk Pail",
+                    "Sound": "goat",
+                    "BabySound": "goat",
+                    "Texture": "Animals/balverines.serowbfav-Serow",
+                    "HarvestedTexture": "Animals/balverines.serowbfav-Serow",
+                    "BabyTexture": "Animals/balverines.serowbfav-Serow Baby",
+					"UseFlippedRightForLeft": true,
+                    "SpriteWidth": "32",
+                    "SpriteHeight": "32",
+					"SellPrice": 2500,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        {
+            "LogName": "Load shopIcon for Serow",
+            "Action": "Load",
+            "Target": "Animals/balverines.serowbfav-Serow Icon",
+            "FromFile": "assets\\animal_shop_serow.png"
+        },
+        {
+            "LogName": "Load adultSprite for Serow",
+            "Action": "Load",
+            "Target": "Animals/balverines.serowbfav-Serow",
+            "FromFile": "assets/serow.png"
+        },
+        {
+            "LogName": "Load babySprite for Serow",
+            "Action": "Load",
+            "Target": "Animals/balverines.serowbfav-Serow Baby",
+            "FromFile": "assets/kid.png"
+        }
+    ]
+}

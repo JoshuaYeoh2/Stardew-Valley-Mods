@@ -1,0 +1,18 @@
+{
+    "Name": "SDV Kids Alt Portraits",
+    "Author": "starrybonns",
+    "Version": "1.0.0",
+    "Description": "",
+    "UniqueID": "sb.skealt",
+    "MinimumApiVersion": "2.5.2",
+    "UpdateKeys": [ "Nexus:11568" ],
+    "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher", 
+    },
+    "Dependencies": [
+        {
+            "UniqueID": "BURAKMESE.SKE",
+            "IsRequired": true
+        }
+    ]
+ }

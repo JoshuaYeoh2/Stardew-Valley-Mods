@@ -1,0 +1,335 @@
+{
+  "Shops":[
+  {
+    "ShopName": "BMShop",
+	"StoreCurrency": "Money",
+	"PortraitPath": "assets/BMShop.png",
+	"Quote": "Welcome to Blue Market, what do you want to buy?",
+	"ItemStocks": [
+// Seeds
+	   {
+		   "ItemType": "Object",
+           "StockPrice": "150",
+           "ItemNames": [
+	          "Garlic Seeds"
+           ],
+		   "When": [ "!z spring" ]
+	   },
+	   {
+		   "ItemType": "Object",
+           "StockPrice": "200",
+           "ItemNames": [
+	          "Strawberry Seeds"
+           ],
+		   "When": [ "!z spring" ]
+	   },
+	   {
+		   "ItemType": "Object",
+           "StockPrice": "200",
+           "ItemNames": [
+	          "Red Cabbage Seeds"
+           ],
+		   "When": [ "!z summer" ]
+	   },
+	   {
+		   "ItemType": "Object",
+           "StockPrice": "30",
+           "ItemNames": [
+	          "Mixed Seeds"
+           ],
+	   },
+	   	   {
+		   "ItemType": "Object",
+           "StockPrice": "80000",
+           "ItemNames": [
+	          "Mushroom Tree Seed"
+           ],
+	   },
+//Common Sales
+	   {
+		   "ItemType": "Object",
+           "StockPrice": "300",
+           "ItemNames": [
+	          "Hardwood"
+           ],
+	   },
+	   {
+		   "ItemType": "Object",
+           "StockPrice": "650",
+           "ItemNames": [
+	          "Maple Syrup"
+           ],
+	   },
+	   {
+		   "ItemType": "Object",
+           "StockPrice": "650",
+           "ItemNames": [
+	          "Oak Resin"
+           ],
+	   },
+	   {
+		   "ItemType": "Object",
+           "StockPrice": "300",
+           "ItemNames": [
+	          "Pine Tar"
+           ],
+	   },
+	   {
+		   "ItemType": "Object",
+           "StockPrice": "90",
+           "ItemNames": [
+	          "Basic Fertilizer"
+           ],
+	   },
+	   {
+		   "ItemType": "Object",
+           "StockPrice": "130",
+           "ItemNames": [
+	          "Quality Fertilizer"
+           ],
+	   },
+	   {
+		   "ItemType": "Object",
+           "StockPrice": "800",
+           "ItemNames": [
+	          "Deluxe Fertilizer"
+           ],
+	   },
+	   {
+		   "ItemType": "Object",
+           "StockPrice": "1500",
+           "ItemNames": [
+	          "Battery Pack"
+           ],
+	   },
+	   {
+		   "ItemType": "Object",
+           "StockPrice": "8500",
+           "ItemNames": [
+	          "Fairy Dust"
+           ],
+	   },
+//Sprinkler
+	   {
+		   "ItemType": "Object",
+           "StockPrice": "500",
+           "ItemNames": [
+	          "Sprinkler"
+           ],
+	   },
+	   {
+		   "ItemType": "Object",
+           "StockPrice": "800",
+           "ItemNames": [
+	          "Quality Sprinkler"
+           ],
+	   },
+	   {
+		   "ItemType": "Object",
+           "StockPrice": "1500",
+           "ItemNames": [
+	          "Iridium Sprinkler"
+           ],
+	   },
+//BigsCrafteables
+       {
+           "ItemType": "BigCraftable",
+           "StockPrice": "15000",
+           "ItemNames": [
+	         "Cask"
+           ],
+		   "When": [ 
+		             "HasMod bpsys.buildablecellarsf",
+		             "FarmHouseUpgradeLevel 3"
+		   ]
+       },
+       {
+           "ItemType": "BigCraftable",
+           "StockPrice": "25000",
+           "ItemNames": [
+	         "Crystalarium"
+           ]
+       },
+	   {
+           "ItemType": "BigCraftable",
+           "StockPrice": "55000",
+           "ItemNames": [
+	         "Deconstructor"
+           ]
+       },
+	   {
+           "ItemType": "BigCraftable",
+           "StockPrice": "64000",
+           "ItemNames": [
+	         "Auto-Petter"
+           ]
+       },
+//Slimes	   
+	   {
+		   "ItemType": "Object",
+           "StockPrice": "2000",
+           "ItemNames": [
+	          "Green Slime Egg"
+           ],
+		   "When": [ "e 690006" ]
+	   },
+	   {
+		   "ItemType": "Object",
+           "StockPrice": "2750",
+           "ItemNames": [
+	          "Blue Slime Egg"
+           ],
+		   "When": [ "e 690006" ]
+	   },
+	   {
+		   "ItemType": "Object",
+           "StockPrice": "3500",
+           "ItemNames": [
+	          "Red Slime Egg"
+           ],
+		   "When": [ "e 690006" ]
+	   },
+	   {
+		   "ItemType": "Object",
+           "StockPrice": "6000",
+           "ItemNames": [
+	          "Purple Slime Egg"
+           ],
+		   "When": [ "e 690006" ]
+	   },
+	   {
+		   "ItemType": "Object",
+           "StockPrice": "9000",
+           "ItemNames": [
+	          "Tiger Slime Egg"
+           ],
+		   "When": [ "e 690006" ]
+	   },
+       {
+           "ItemType": "BigCraftable",
+           "StockPrice": "16000",
+           "ItemNames": [
+	         "Slime Incubator"
+           ],
+		   "When": [ "e 690006" ]
+       },
+       {
+           "ItemType": "BigCraftable",
+           "StockPrice": "14000",
+           "ItemNames": [
+	           "Slime Egg-Press"
+           ],
+		   "When": [ "e 690006" ]
+       },
+
+	],
+	"When": [
+        "t 900 1800"
+      ],
+      "ClosedMessage": "I'm sorry but we're already closed",
+	  	"LocalizedQuote": {
+    	//remove the "//" from your language
+        "es": "Bienvenido a Blue Market, ¿qué quieres comprar?",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
+    	},
+	"LocalizedClosedMessage": {
+    	//remove the "//" from your language
+        "es": "lo siento pero ya estamos cerrados",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
+    	}
+  },
+  {
+    "ShopName": "BMBlack",
+	"StoreCurrency": "Money",
+	"PortraitPath": "assets/BMShop.png",
+	"Quote": "Thank you for visiting my blacksmith shop, what do you need?",
+	"ItemStocks": [
+	   {
+		   "ItemType": "Object",
+           "StockPrice": "110",
+           "ItemNames": [
+	          "Copper Bar"
+           ],
+	   },
+	   {
+		   "ItemType": "Object",
+           "StockPrice": "210",
+           "ItemNames": [
+	          "Iron Bar"
+           ],
+	   },
+	   {
+		   "ItemType": "Object",
+           "StockPrice": "500",
+           "ItemNames": [
+	          "Gold Bar"
+           ],
+	   },
+	   {
+		   "ItemType": "Object",
+           "StockPrice": "2000",
+           "ItemNames": [
+	          "Iridium Bar"
+           ],
+	   },
+	   {
+		   "ItemType": "Object",
+           "StockPrice": "150",
+           "ItemNames": [
+	          "Refined Quartz"
+           ],
+	   }	   
+	],
+	"When": [
+        "t 900 1800"
+      ],
+      "ClosedMessage": "I'm sorry but we're already closed",
+	  	"LocalizedQuote": {
+    	//remove the "//" from your language
+        "es": "Gracias por visitar mi herrería, ¿Qué necesitas?",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
+    	},
+	"LocalizedClosedMessage": {
+    	//remove the "//" from your language
+        "es": "lo siento pero ya estamos cerrados",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
+    	}
+  }
+  ]
+}

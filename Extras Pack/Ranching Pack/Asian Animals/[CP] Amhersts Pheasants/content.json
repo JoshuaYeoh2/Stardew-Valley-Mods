@@ -1,0 +1,83 @@
+{
+    "Format": "2.0",
+    "Changes": [
+        {
+            "LogName": "Load data for Lady Amherst's Pheasant (Lady Amherst's Pheasant)",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Lady Amherst's Pheasant": {
+                    "DisplayName": "Lady Amherst's Pheasant",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 3000,
+                    "ShopTexture": "Animals/balverines.pheasatbfav-Lady Amherst's Pheasant Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "Lady Amherst's Pheasant",
+                    "ShopDescription": "A beautiful game fowl.",
+					"EggItemIds": [
+					  "176",
+					  "174",
+					],
+					"IncubationTime": 9000,
+					"IncubatorParentSheetOffset": 1,
+					"BirthText": "A new pheasant chick hatched!",
+                    "DaysToMature": "5",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "176"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "174"
+                        }
+                    ],
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "cluck",
+                    "BabySound": "cluck",
+                    "Texture": "Animals/balverines.pheasatbfav-Lady Amherst's Pheasant",
+                    "HarvestedTexture": "Animals/balverines.pheasatbfav-Lady Amherst's Pheasant",
+                    "BabyTexture": "Animals/balverines.pheasatbfav-Lady Amherst's Pheasant Baby",
+					"UseFlippedRightForLeft": true,
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+					"SellPrice": 1500,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        {
+            "LogName": "Load shopIcon for Lady Amherst's Pheasant",
+            "Action": "Load",
+            "Target": "Animals/balverines.pheasatbfav-Lady Amherst's Pheasant Icon",
+            "FromFile": "assets\\animal_shop_pheasant.png"
+        },
+        {
+            "LogName": "Load adultSprite for Lady Amherst's Pheasant",
+            "Action": "Load",
+            "Target": "Animals/balverines.pheasatbfav-Lady Amherst's Pheasant",
+            "FromFile": "assets/pheasant.png"
+        },
+        {
+            "LogName": "Load babySprite for Lady Amherst's Pheasant",
+            "Action": "Load",
+            "Target": "Animals/balverines.pheasatbfav-Lady Amherst's Pheasant Baby",
+            "FromFile": "assets/voidchick.png"
+        }
+    ]
+}

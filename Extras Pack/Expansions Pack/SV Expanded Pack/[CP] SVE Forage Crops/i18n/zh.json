@@ -1,0 +1,91 @@
+{
+	//************************************
+	//      Config
+	//************************************
+	"config.DulseSeaweedCrop.name": "紫红藻",
+	"config.DulseSeaweedCrop.description": "添加一种水生作物以种植紫红藻",
+
+	"config.PrimroseCrop.name": "芬吉尔报春花",
+	"config.PrimroseCrop.description": "添加一种作物以种植芬吉尔报春花",
+
+	"config.GoldenrodCrop.name": "金色海洋花",
+	"config.GoldenrodCrop.description": "添加一种作物以种植金色海洋花",
+
+	"config.4LeafCloverCrop.name": "四叶草",
+	"config.4LeafCloverCrop.description": "添加一种作物以种植四叶草",
+
+	"config.RedBaneberryCrop.name": "类叶升麻红果",
+	"config.RedBaneberryCrop.description": "添加一种作物以种植类叶升麻红果",
+
+	"config.RafflesiaCrop.name": "大王花",
+	"config.RafflesiaCrop.description": "添加一种作物以种植大王花",
+	"config.RafflesiaCornucopia.name": "聚宝盆兼容性",
+	"config.RafflesiaCornucopia.description": "手动启用或禁用聚宝盆兼容性",
+
+	"config.ThistleCrop.name": "蓟",
+	"config.ThistleCrop.description": "添加一种作物以种植蓟",
+	"config.ThistleWAG.name": "Wildflour 的工作室兼容性",
+	"config.ThistleWAG.description": "手动启用或禁用 Wildflour 的 Atelier Goods Forage 兼容性",
+
+	"config.WinterRoseCrop.name": "冬日星玫瑰",
+	"config.WinterRoseCrop.description": "添加一种作物以种植冬日星玫瑰",
+
+	"config.PoisonMushroomCrop.name": "毒蘑菇",
+	"config.PoisonMushroomCrop.description": "添加一种作物以种植毒蘑菇",
+
+	"config.MushroomColonyCrop.name": "蘑菇菌落",
+	"config.MushroomColonyCrop.description": "添加一种作物以种植蘑菇菌落",
+
+	"config.BearberryCrop.name": "熊果",
+	"config.BearberryCrop.description": "添加一种灌木以种植熊果",
+
+	"config.DewdropBerryCrop.name": "露水浆果",
+	"config.DewdropBerryCrop.description": "添加一种灌木以种植露水浆果",
+
+	"config.section.Crops.name": "作物",
+	"config.section.Crops.description": "选择要启用或禁用的作物",
+
+	//************************************
+	//      Seeds
+	//************************************
+	"Dulse_SeaweedSeeds_name": "紫红藻扦插",
+	"Dulse_SeaweedSeeds_description": "冬、春、夏均可种植。需要 11 天才能成熟，之后继续生产。只能种植在水花盆或水盆中，在花盆中会生长得更快。",
+
+	"Ferngill_PrimroseSeeds_name": "芬吉尔报春花种子",
+	"Ferngill_PrimroseSeeds_description": "春天种植。需要 6 天才能长出一朵带有甜味但略带香料香味的花朵。",
+
+	"GoldenrodSeeds_name": "金色海洋花种子",
+	"GoldenrodSeeds_description": "在夏季或秋季种植。需要 8 天才能长出一朵甜美的金黄色花朵。",
+
+	"Four_Leaf_CloverSeeds_name": "四叶草种子",
+	"Four_Leaf_CloverSeeds_description": "在春季或夏季种植。需要 8 天才能成熟。",
+
+	"Red_BaneberrySeeds_name": "类叶升麻红果种子",
+	"Red_BaneberrySeeds_description": "在夏天种植这些。需要 10 天才能成熟，并在第一次收获后继续生产。",
+
+	"RafflesiaSeeds_name": "大王花扦插条",
+	"RafflesiaSeeds_description": "在春季、夏季或秋季种植。需要 20 天才能开花成一朵带有卵形的大花，令人振奋的恶臭...",
+	"SVEForage_RafflesiaSeedsPatch_name": "芬吉尔大王花插条",
+
+	"ThistleSeeds_name": "蓟种子",
+	"ThistleSeeds_description": "可全年种植。需要 9 天才能长出一株长满穗状花头、花头紫色的植物。",
+	"SVEForage_ThistleSeedsPatch_name": "山顶蓟种子",
+	"SVEForage_ThistlePatch_name": "山顶蓟",
+
+	"Winter_Star_RoseSeeds_name": "冬日星玫瑰种子",
+	"Winter_Star_RoseSeeds_description": "冬天种植。需要 9 天才能长出一朵美丽的星形花朵",
+
+	"Poison_MushroomSeeds_name": "毒蘑菇菌株",
+	"Poison_MushroomSeeds_description": "在夏季或秋季种植。需要 6 天才能成熟。",
+
+	"Mushroom_ColonySeeds_name": "蘑菇菌落菌株",
+	"Mushroom_ColonySeeds_description": "秋天种植。需要 7 天才能成熟。",
+
+	"BearberrySeeds_name": "熊果树苗",
+	"BearberrySeeds_description": "需要 15 天才能长成灌木。冬季每 4 天生产一次熊果。",
+	"Bearberry_name": "熊果",
+
+	"Dewdrop_BerrySeeds_name": "露水浆果树苗",
+	"Dewdrop_BerrySeeds_description": "需要 25 天才能长成灌木。每 2 周（第 7 天和第 21 天）产生一个露珠浆果。",
+	"Dewdrop_Berry_name": "露水浆果"
+}

@@ -1,0 +1,23 @@
+{
+   "Name": "Lumisteria Festival Additions",
+   "Author": "Lumisteria",
+   "Version": "1.0.0",
+   "Description": "Different stands to discover over years.",
+   "UniqueID": "lumisteria.festivaladditions",
+   "MinimumApiVersion": "3.0.1",      // Minimum SMAPI version, use whatever is current
+   "UpdateKeys": ["Nexus:4927"],
+   "ContentPackFor": {
+	  "UniqueID": "Pathoschild.ContentPatcher",
+	  "MinimumVersion": "1.11.0" // Minimum Content Patcher version, use whatever is current
+   },
+    "Dependencies": [
+           {
+              "UniqueID": "gizzymo.canonfriendlyexpansion",
+              "IsRequired": false
+           },
+           {
+              "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+              "IsRequired": false
+           },
+    ],
+}

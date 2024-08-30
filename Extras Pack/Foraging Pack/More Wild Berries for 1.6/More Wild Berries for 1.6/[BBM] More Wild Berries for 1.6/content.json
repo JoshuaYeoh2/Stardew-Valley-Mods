@@ -1,0 +1,91 @@
+{
+"Format": "2.3.0",
+    
+
+
+    
+
+
+    "Changes": [
+{
+			"Action": "EditData",
+			"Target": "NCarigon.BushBloomMod/Schedules",
+			"Entries": {
+					"{{ModId}}/spring_boysenberries":{
+					"ShakeOff": "Boysenberries",
+					"StartSeason": "spring",
+					"StartDay": 25,
+					"EndDay": 28,
+					
+					"Chance": 0.2,
+					"Locations": [ "Farm", "Forest", "Mountain", "Railroad", "Town", "Backwoods" ],
+					"Weather": [ "Rain", "Sun", "Wind" ],
+					
+				},
+					"{{ModId}}/summer_marionberry": {
+					"ShakeOff": "Marionberry",
+					"StartSeason": "summer",
+					"StartDay": 22,
+					"EndDay": 26,
+					
+					"Chance": 0.2,
+					"Locations": [ "Farm", "Forest", "Mountain", "Railroad", "Town", "Backwoods" ],
+					"Weather": [ "Rain", "Sun", "Wind" ],
+					"ExcludeWeather": ["GreenRain"],
+					
+				},
+				
+					
+					"{{ModId}}/fall_wildblueberry": {			
+					"ShakeOff": "Wild Blueberry",
+					"StartSeason": "fall",
+					"StartDay": 2,
+					"EndDay": 6,
+					
+
+					"Chance": 0.2,
+					"Locations": [ "Farm", "Forest", "Mountain", "Town", "Railroad", "Backwoods" ],
+					"Weather": [ "Rain", "Sun", "Wind" ],
+	},
+}				
+				
+},
+
+			
+		
+			{
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/{{ModId}}/spring_boysenberries",
+			"FromFile": "assets/boysenberries_bush.png"
+		},
+{
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/{{ModId}}/summer_marionberry",
+			"FromFile": "assets/marionberry_bush.png"
+		},
+{
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/{{ModId}}/fall_wildblueberry",
+			"FromFile": "assets/wildblueberry_bush.png"
+		},
+
+
+
+        
+      
+
+        
+        
+
+        
+
+        
+
+        
+        
+        
+        
+
+        
+    ]
+}

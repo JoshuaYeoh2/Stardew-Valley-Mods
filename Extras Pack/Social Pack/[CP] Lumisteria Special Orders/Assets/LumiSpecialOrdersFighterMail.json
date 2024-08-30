@@ -1,0 +1,17 @@
+{
+    "Changes": [
+        {
+		"Action": "EditData",
+		"Target": "Data/Mail",
+			"Entries": {
+				"Lumisteria.SpecialOrders.WizardMonsterArcaneStudyMail": "{{i18n: WizardMonsterArcaneStudyMail_Translated}}%item object 279 1 %%[#]{{i18n: WizardMonsterArcaneStudyMail_Title_Translated}}",
+				
+				"Lumisteria.SpecialOrders.WizardPepperRexStudyMail": "{{i18n: WizardPepperRexStudyMail_Translated}}%item object 773 3 %%[#]{{i18n: WizardPepperRexStudyMail_Title_Translated}}",
+
+				"Lumisteria.SpecialOrders.WillyMagmaVolcanoMail": "{{i18n: WillyMagmaVolcanoMail_Translated}}%item object 848 20 %%[#]{{i18n: WillyMagmaVolcanoMail_Title_Translated}}",
+
+			},
+	  
+        },
+    ]
+}

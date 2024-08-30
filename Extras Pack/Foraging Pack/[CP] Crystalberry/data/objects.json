@@ -1,0 +1,30 @@
+{
+	"Changes": [
+		{
+			"LogName": "Load Crystalberry Image",
+			"Action": "Load",
+			"Target": "{{ModId}}/assets/Crystalberry",
+			"FromFile": "assets/Crystalberry.png"
+
+		},
+		{
+			"LogName": "Load Crystalberry Data",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModID}}_Crystalberry":{
+					"Name": "{{ModID}}_Crystalberry",
+					"Type": "Fruit",
+					"DisplayName": "{{i18n: Crystalberry.name}}",
+					"Description": "{{i18n: Crystalberry.description}}",
+					"Category": -79,
+					"Texture": "{{ModId}}/assets/Crystalberry",
+					"SpriteIndex": 0,
+					"Price": 25,
+					"Edibility": "{{EnergyHealth}}",
+				}
+
+			},
+		},
+	]
+}

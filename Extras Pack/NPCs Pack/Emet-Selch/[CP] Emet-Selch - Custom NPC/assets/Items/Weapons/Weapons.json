@@ -1,0 +1,85 @@
+{
+	"Changes": [
+
+		//load weapon texture file
+		{
+			"LogName": "weapon textures",
+			"Action": "Load",
+			"Target": "TileSheets/Visorlights.EmetSelch_Weapons",
+			"FromFile": "assets/Items/Weapons/Weapons.png"
+		},
+
+		//Bad Faith projectile item
+		{
+			"LogName": "load bad faith projectile",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_BadFaith": {
+					"Name": "{{ModId}}_BadFaith",
+					"DisplayName": "Bad Faith projectile",
+					"Description": "The projectile launched by Hades's sword.",
+					"Type": "Basic",
+					"Category": "-28", //uhhhh i guess. monster loot for now?
+					"Price": 0,
+					"Texture": "TileSheets/Visorlights.EmetSelch_Weapons",
+					"SpriteIndex": 1,
+					"ExcludeFromShippingCollection": true,
+					"ExcludeFromRandomSale": true
+				}
+			}
+		},
+
+
+		{
+			"LogName": "load custom weapons",
+			"Action": "EditData",
+			"Target": "Data/Weapons",
+			"Entries": {
+				"Visorlights.EmetSelchCustomNPC_DrkSword": {
+					"Name": "Visorlights.EmetSelchCustomNPC_DrkSword",
+					"DisplayName": "Hades's Sword", //TODO: think of a fancy name for it... or just make it Gladiolus
+					"Description": "A more compact version of Emet-Selch's greatsword, but no less ornate.",
+					"Texture": "TileSheets/Visorlights.EmetSelch_Weapons",
+					"SpriteIndex": 0,
+					"Type": 3,
+					"CanBeLostOnDeath": false,
+					"ExcludeFromRandomSale": true,
+					//stats
+					"MinDamage": 60,
+					"MaxDamage": 80,
+					"Knockback": 1.3,
+					"Speed": -1,
+					"Precision": 0,
+					"Defense": 5,
+					"AreaOfEffect": 2,
+					"CritChance": 0.04,
+					"CritMultiplier": 3.0,
+					//Bad Faith projectile
+					"Projectiles": [
+						{
+							"Id": "{{ModId}}_BadFaithProjectile",
+							"Item": {
+								"Id": "{{ModId}}_BadFaith",
+								"ItemId": "{{ModId}}_BadFaith"
+							},
+							"Damage": 30,
+							"Explodes": false,
+							"Bounces": 1,
+							"MaxDistance": 12,
+							"Velocity": 10,
+							"RotationVelocity": 0,
+							"TailLength": 1,
+							"FireSound": "debuffSpell", //coldSpell?
+							"BounceSound": null,
+							"CollisionSound": "",
+							"MinAngleOffset": 45,
+							"MaxAngleOffset": -45
+						}
+					]
+
+				}
+			}
+		}
+	]
+}

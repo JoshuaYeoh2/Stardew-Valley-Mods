@@ -1,0 +1,70 @@
+{
+    "Format": "2.0",
+    "Changes": [
+        {
+            "LogName": "Load data for Central Asian Wild Boar (Central Asian Wild Boar)",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Central Asian Wild Boar": {
+                    "DisplayName": "Central Asian Wild Boar",
+                    "House": "Barn",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 16000,
+                    "ShopTexture": "Animals/balverines.caboarsbfav-Central Asian Wild Boar Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Barn",
+                    "ShopDisplayName": "Central Asian Wild Boar",
+                    "ShopDescription": "A type of wild pig.",
+                    "DaysToMature": "10",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "430"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                    ],
+                    "DaysToProduce": "1",
+                    "HarvestType": "DigUp",
+                    "HarvestTool": "null",
+                    "Sound": "pig",
+                    "BabySound": "pig",
+                    "Texture": "Animals/balverines.caboarsbfav-Central Asian Wild Boar",
+                    "HarvestedTexture": "Animals/balverines.caboarsbfav-Central Asian Wild Boar",
+                    "BabyTexture": "Animals/balverines.caboarsbfav-Central Asian Wild Boar Baby",
+					"UseFlippedRightForLeft": true,
+                    "SpriteWidth": "32",
+                    "SpriteHeight": "32",
+					"SellPrice": 8000,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        {
+            "LogName": "Load shopIcon for Central Asian Wild Boar",
+            "Action": "Load",
+            "Target": "Animals/balverines.caboarsbfav-Central Asian Wild Boar Icon",
+            "FromFile": "assets\\animal_shop_boar.png"
+        },
+        {
+            "LogName": "Load adultSprite for Central Asian Wild Boar",
+            "Action": "Load",
+            "Target": "Animals/balverines.caboarsbfav-Central Asian Wild Boar",
+            "FromFile": "assets/boar.png"
+        },
+        {
+            "LogName": "Load babySprite for Central Asian Wild Boar",
+            "Action": "Load",
+            "Target": "Animals/balverines.caboarsbfav-Central Asian Wild Boar Baby",
+            "FromFile": "assets/boarlet.png"
+        }
+    ]
+}

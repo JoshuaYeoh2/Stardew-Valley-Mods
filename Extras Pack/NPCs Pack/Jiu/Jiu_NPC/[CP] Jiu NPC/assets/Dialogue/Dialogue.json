@@ -1,0 +1,278 @@
+// 0 默认, 1 高兴, 2 伤心, 3 无表情, 4 害羞, 5 生气(注:这是固定的）
+// #$e#=对话后再次对话， #$b#=对话链接但是是新的窗口
+{
+  "Changes": [
+{
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Jiu",
+      "Entries": {
+  "Introduction": "{{i18n:Jiu_Introduction}}",//自我介绍
+  "AcceptBirthdayGift_Positive": "{{i18n:Jiu_AcceptBirthdayGift_Positive}}",//正向的生日礼物
+  "AcceptBirthdayGift_Negative": "{{i18n:Jiu_AcceptBirthdayGift_Negative}}",//负面的生日礼物
+  "breakUp": "{{i18n:Jiu_breakUp}}",//分手
+  "Divorced": "{{i18n:Jiu_Divorced}}",//离婚
+  "dumped_Guys": "{{i18n:Jiu_dumped_Guys}}",//冷战
+  "secondChance_Guys": "{{i18n:Jiu_secondChance_Guys}}",//原谅
+  "AcceptGift_book_item": "{{i18n:Jiu_AcceptGift_book_item}}",//送书类物品
+  "AcceptGift_(O)StardropTea": "{{i18n:Jiu_AcceptGift_StardropTea}}",//星之果实咖啡
+  "AcceptGift_(O)154": "{{i18n:Jiu_AcceptGift_154}}",
+  "AcceptGift_(O)346": "{{i18n:Jiu_AcceptGift_346}}",
+  "AcceptGift_(O)395": "{{i18n:Jiu_AcceptGift_395}}",
+  "AcceptGift_(O)390": "{{i18n:Jiu_AcceptGift_390}}",
+  "AcceptGift_(O)Jiu_Five_times_Espresso": "{{i18n:Jiu_AcceptGift_Jiu_Five_times_Espresso}}",
+  "reject_789": "{{i18n:Jiu_reject_789}}",
+  "reject_399": "{{i18n:Jiu_reject_399}}",
+  "reject_167": "{{i18n:Jiu_reject_167}}",
+  //"AcceptGift_(O)【礼物代码】": "【回应对话】",
+  "FlowerDance_Accept": "{{i18n:Jiu_FlowerDance_Accept}}",//花舞，答应了
+  "FlowerDance_Accept_Spouse": "{{i18n:Jiu_FlowerDance_Accept_Spouse}}",//花舞，结婚了，答应了
+  "FlowerDance_Decline": "{{i18n:Jiu_FlowerDance_Decline}}",//花舞，拒绝了
+  "GreenRain": "{{i18n:Jiu_GreenRain}}",//绿色的雨
+  "GreenRainFinished": "{{i18n:Jiu_GreenRainFinished}}",//绿色的雨结束了
+  "GreenRain_2": "{{i18n:Jiu_GreenRain_2}}",//绿色的雨第二年
+  "AcceptBouquet": "{{i18n:Jiu_AcceptBouquet}}",//送花
+  "dating_Jiu": "{{i18n:dating_Jiu}}",//约会第一天
+  "dating_Jiu_memory_oneday": "{{i18n:dating_Jiu_memory_oneday}}",//约会第二天
+  "married_Jiu": "{{i18n:married_Jiu}}",
+  "cc_Complete": "{{i18n:Jiu_cc_Complete}}",
+  "movieTheater": "{{i18n:Jiu_movieTheater}}",
+  "WipedMemory": "{{i18n:Jiu_WipedMemory}}",//消除记忆的第一次对话
+  "Divorced_gift": "{{i18n:Jiu_Divorced_gift}}",//离婚，送礼物
+  "DumpsterDiveComment": "{{i18n:Jiu_DumpsterDiveComment}}",
+  "firstVisit_Custom_jiuhouse": "{{i18n:Jiu_firstVisit_Custom_jiuhouse}}",
+  "SpouseFarmhouseClutter": "{{i18n:Jiu_SpouseFarmhouseClutter}}",
+  "Fair_Judged_PlayerLost_PurpleShorts": "{{i18n:Jiu_Fair_Judged_PlayerLost_PurpleShorts}}",
+  "Fair_Judged_PlayerLost_Skipped": "{{i18n:Jiu_Fair_Judged_PlayerLost_Skipped}}",
+  "Fair_Judged_PlayerLost": "{{i18n:Jiu_Fair_Judged_PlayerLost}}",
+  "Fair_Judged_PlayerWon": "{{i18n:Jiu_Fair_Judged_PlayerWon}}",
+  "MovieInvitation": "{{i18n:Jiu_MovieInvitation}}",
+
+//餐吧特殊对话
+ "Saloon": "{{i18n:Jiu_Saloon}}",
+ "Saloon2": "{{i18n:Jiu_Saloon2}}",
+ "Saloon4": "{{i18n:Jiu_Saloon4}}",
+ "Saloon6": "{{i18n:Jiu_Saloon6}}",
+ "Saloon8": "{{i18n:Jiu_Saloon8}}",
+ "Saloon10": "{{i18n:Jiu_Saloon10}}",
+
+ "Saloon_Sun": "{{i18n:Jiu_Saloon_Sun}}",
+
+ "Saloon_Entry": "{{i18n:Jiu_Saloon_Entry}}",
+
+
+
+//春季
+ "Mon": "{{i18n:Jiu_Mon}}",
+  "Mon2": "{{i18n:Jiu_Mon2}}",
+  "Mon4": "{{i18n:Jiu_Mon4}}",
+  "Mon6": "{{i18n:Jiu_Mon6}}",
+  "Mon8": "{{i18n:Jiu_Mon8}}",
+
+ "Tue": "{{i18n:Jiu_Tue}}",
+  "Tue2": "{{i18n:Jiu_Tue2}}",
+  "Tue4": "{{i18n:Jiu_Tue4}}",
+  "Tue8": "{{i18n:Jiu_Tue8}}",
+
+ "Wed": "{{i18n:Jiu_Wed}}",
+  "Wed4": "{{i18n:Jiu_Wed4}}",
+  "Wed8": "{{i18n:Jiu_Wed8}}",
+
+ "Thu": "{{i18n:Jiu_Thu}}",
+  "Thu2": "{{i18n:Jiu_Thu2}}",
+  "Thu4": "{{i18n:Jiu_Thu4}}",
+  "Thu8": "{{i18n:Jiu_Thu8}}",
+
+ "Fri": "{{i18n:Jiu_Fri}}",
+  "Fri2": "{{i18n:Jiu_Fri2}}",
+  "Fri4": "{{i18n:Jiu_Fri4}}",
+  "Fri6": "{{i18n:Jiu_Fri6}}",
+
+ "Sat": "{{i18n:Jiu_Sat}}",
+  "Sat6": "{{i18n:Jiu_Sat6}}",
+  "Sat8": "{{i18n:Jiu_Sat8}}",
+
+ "Sun": "{{i18n:Jiu_Sun}}",
+  "Sun2": "{{i18n:Jiu_Sun2}}",
+  "Sun4": "{{i18n:Jiu_Sun4}}",
+  "Sun8": "{{i18n:Jiu_Sun8}}",
+
+  "spring_1_2": "{{i18n:Jiu_spring_1_2}}",//新年
+  "spring_12": "{{i18n:Jiu_spring_12}}",//复活节
+  "spring_19": "{{i18n:Jiu_spring_19}}",//谢恩生日
+  "spring_23": "{{i18n:Jiu_spring_23}}",//花舞节
+  "spring_23_2": "{{i18n:Jiu_spring_23_2}}",//花舞节2
+
+
+//夏季
+ "summer_Mon": "{{i18n:Jiu_summer_Mon}}",
+  "summer_Mon2": "{{i18n:Jiu_summer_Mon2}}",
+  "summer_Mon4": "{{i18n:Jiu_summer_Mon4}}",
+  "summer_Mon8": "{{i18n:Jiu_summer_Mon8}}",
+
+ "summer_Tue": "{{i18n:Jiu_summer_Tue}}",
+  "summer_Tue2": "{{i18n:Jiu_summer_Tue2}}",
+  "summer_Tue4": "{{i18n:Jiu_summer_Tue4}}",
+  "summer_Tue8": "{{i18n:Jiu_summer_Tue8}}",
+
+ "summer_Wed": "{{i18n:Jiu_summer_Wed}}",
+  "summer_Wed2": "{{i18n:Jiu_summer_Wed2}}",
+  "summer_Wed4": "{{i18n:Jiu_summer_Wed4}}",
+
+ "summer_Thu": "{{i18n:Jiu_summer_Thu}}",
+  "summer_Thu8": "{{i18n:Jiu_summer_Thu8}}",
+
+ "summer_Fri": "{{i18n:Jiu_summer_Fri}}",
+  "summer_Fri2": "{{i18n:Jiu_summer_Fri2}}",
+  "summer_Fri6": "{{i18n:Jiu_summer_Fri6}}",
+
+ "summer_Sat": "{{i18n:Jiu_summer_Sat}}",
+  "summer_Sat2": "{{i18n:Jiu_summer_Sat2}}",
+  "summer_Sat6": "{{i18n:Jiu_summer_Sat6}}",
+
+ "summer_Sun": "{{i18n:Jiu_summer_Sun}}",
+  "summer_Sun2": "{{i18n:Jiu_summer_Sun2}}", 
+  "summer_Sun8": "{{i18n:Jiu_summer_Sun8}}",
+
+  "summer_10_1": "{{i18n:Jiu_summer_10_1}}",//夏威夷宴会
+  "summer_10_2": "{{i18n:Jiu_summer_10_2}}",//夏威夷宴会
+  "summer_19": "{{i18n:Jiu_summer_19}}",//鳟鱼大赛
+  "summer_20": "{{i18n:Jiu_summer_20}}",//鳟鱼大赛
+  "summer_27": "{{i18n:Jiu_summer_27}}",//月光水母起舞节
+
+//秋季
+ "fall_Mon": "{{i18n:Jiu_fall_Mon}}",
+  "fall_Mon2": "{{i18n:Jiu_fall_Mon2}}",
+  "fall_Mon4": "{{i18n:Jiu_fall_Mon4}}",
+  "fall_Mon10": "{{i18n:Jiu_fall_Mon10}}",
+
+ "fall_Tue": "{{i18n:Jiu_fall_Tue}}",
+  "fall_Tue6": "{{i18n:Jiu_fall_Tue6}}",
+
+ "fall_Wed": "{{i18n:Jiu_fall_Wed}}",
+  "fall_Wed2": "{{i18n:Jiu_fall_Wed2}}",
+  "fall_Wed4": "{{i18n:Jiu_fall_Wed4}}",
+
+ "fall_Thu": "{{i18n:Jiu_fall_Thu}}",
+  "fall_Thu2": "{{i18n:Jiu_fall_Thu2}}",
+  "fall_Thu4": "{{i18n:Jiu_fall_Thu4}}",
+
+ "fall_Fri": "{{i18n:Jiu_fall_Fri}}",
+  "fall_Fri8": "{{i18n:Jiu_fall_Fri8}}",
+  "fall_Fri10": "{{i18n:Jiu_fall_Fri10}}",
+
+ "fall_Sat": "{{i18n:Jiu_fall_Sat}}",
+  "fall_Sat4": "{{i18n:Jiu_fall_Sat4}}",
+
+ "fall_Sun": "{{i18n:Jiu_fall_Sun}}",
+  "fall_Sun2": "{{i18n:Jiu_fall_Sun2}}",
+  "fall_Sun4": "{{i18n:Jiu_fall_Sun4}}",
+  "fall_Sun6": "{{i18n:Jiu_fall_Sun6}}",
+  "fall_Sun8": "{{i18n:Jiu_fall_Sun8}}",
+  "fall_Sun10": "{{i18n:Jiu_fall_Sun10}}",
+
+  "fall_15": "{{i18n:Jiu_fall_15}}",//展览会
+  "fall_25": "{{i18n:Jiu_fall_25}}",//生日
+  "fall_26": "{{i18n:Jiu_fall_26}}",//万灵节
+
+//冬季
+  "winter_Mon": "{{i18n:Jiu_winter_Mon}}",
+  "winter_Mon8": "{{i18n:Jiu_winter_Mon8}}",
+
+  "winter_Tue": "{{i18n:Jiu_winter_Tue}}",
+  "winter_Tue2": "{{i18n:Jiu_winter_Tue2}}",
+  "winter_Tue8": "{{i18n:Jiu_winter_Tue8}}",
+
+  "winter_Wed": "{{i18n:Jiu_winter_Wed}}",
+  "winter_Wed4": "{{i18n:Jiu_winter_Wed4}}",
+  "winter_Wed8": "{{i18n:Jiu_winter_Wed8}}",
+
+  "winter_Thu": "{{i18n:Jiu_winter_Thu}}",
+  "winter_Thu2": "{{i18n:Jiu_winter_Thu4}}",
+
+  "winter_Fri": "{{i18n:Jiu_winter_Fri}}",
+  "winter_Fri4": "{{i18n:Jiu_winter_Fri4}}",
+
+  "winter_Sat": "{{i18n:Jiu_winter_Sat}}",
+  "winter_Sat4": "{{i18n:Jiu_winter_Sat4}}",
+
+  "winter_Sun": "{{i18n:Jiu_winter_Sun}}",
+
+  "winter_7": "{{i18n:Jiu_winter_7}}",//冰雪节
+  "winter_14": "{{i18n:Jiu_winter_14}}",//夜市
+
+  "stardrop_gift": "{{i18n:Jiu_stardrop_gift}}",//给你星之果实
+  "RejectBouquet_Divorced": "{{i18n:Jiu_RejectBouquet_Divorced}}",
+  "RejectBouquet_NpcAlreadyMarried": "{{i18n:Jiu_RejectBouquet_NpcAlreadyMarried}}",
+  "RejectBouquet_VeryLowHearts": "{{i18n:Jiu_RejectBouquet_VeryLowHearts}}",
+  "RejectBouquet_LowHearts": "{{i18n:Jiu_RejectBouquet_LowHearts}}",
+  "RejectBouquet": "{{i18n:Jiu_RejectBouquet}}",
+  "RejectMermaidPendant_Divorced": "{{i18n:Jiu_RejectMermaidPendant_Divorced}}",
+  "RejectMermaidPendant_NeedHouseUpgrade": "{{i18n:Jiu_RejectMermaidPendant_NeedHouseUpgrade}}",
+  "RejectMermaidPendant_NpcWithSomeoneElse": "{{i18n:Jiu_RejectMermaidPendant_NpcWithSomeoneElse}}",
+  "RejectMermaidPendant_PlayerWithSomeoneElse": "{{i18n:Jiu_RejectMermaidPendant_PlayerWithSomeoneElse}}",
+  "RejectMermaidPendant_Under8Hearts": "{{i18n:Jiu_RejectMermaidPendant_Under8Hearts}}",
+  "RejectMermaidPendant_Under10Hearts": "{{i18n:Jiu_RejectMermaidPendant_Under10Hearts}}",
+  "RejectMermaidPendant_Under10Hearts_AskedAgain": "{{i18n:Jiu_RejectMermaidPendant_Under10Hearts_AskedAgain}}",
+  "RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:Jiu_RejectMovieTicket_AlreadyInvitedBySomeoneElse}}",
+  "RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:Jiu_RejectMovieTicket_AlreadyWatchedThisWeek}}",
+  "RejectMovieTicket_Divorced": "{{i18n:Jiu_RejectMovieTicket_Divorced}}",
+  "SpouseFarmhouseClutter": "{{i18n:Jiu_SpouseFarmhouseClutter}}",
+  "WinterStar_ReceiveGift": "{{i18n:Jiu_WinterStar_ReceiveGift}}",
+  "Resort": "{{i18n:Jiu_Resort}}",
+  "Resort_Entering": "{{i18n:Jiu_Resort_Entering}}",
+  "Resort_Leaving": "{{i18n:Jiu_Resort_Leaving}}",
+  "Resort_Chair": "{{i18n:Jiu_Resort_Chair}}",
+  "Resort_Bar": "{{i18n:Jiu_Resort_Bar}}",
+  "HitBySlingshot": "{{i18n:Jiu_HitBySlingshot}}",
+
+  "eventSeen_9925646": "{{i18n:Jiu_eventSeen_9925646}}",
+  "eventSeen_Jiuxiuluochang": "{{i18n:Jiu_eventSeen_Jiuxiuluochang}}",
+
+//事件
+"nifashengsha": "{{i18n:Jiu_nifashengsha}}",
+"bushuohua": "{{i18n:Jiu_bushuohua}}",
+"luguo": "{{i18n:Jiu_luguo}}",
+
+"shenmeshi": "{{i18n:Jiu_shenmeshi}}",
+"meishi": "{{i18n:Jiu_meishi}}",
+"en": "{{i18n:Jiu_en}}",
+"bushi": "{{i18n:Jiu_bushi}}",
+
+"haitan": "{{i18n:Jiu_haitan}}",
+"senlin": "{{i18n:Jiu_senlin}}",
+"chengzhen": "{{i18n:Jiu_chengzhen}}",
+
+"henxihuan": "{{i18n:Jiu_henxihuan}}",
+"laji": "{{i18n:Jiu_laji}}",
+"yiban": "{{i18n:Jiu_yiban}}",
+
+"niyoushi": "{{i18n:Jiu_niyoushi}}",
+"queshi": "{{i18n:Jiu_queshi}}",
+
+"wohui": "{{i18n:Jiu_wohui}}",
+"chenmo": "{{i18n:Jiu_chenmo}}",
+"dangranbuhui": "{{i18n:Jiu_dangranbuhui}}",
+
+"muou": "{{i18n:Jiu_muou}}",
+"daima": "{{i18n:Jiu_daima}}",
+"zhuwojia": "{{i18n:Jiu_zhuwojia}}",
+"youba": "{{i18n:Jiu_youba}}",
+
+"yichuandaima": "{{i18n:Jiu_yichuandaima}}",
+"pengyou": "{{i18n:Jiu_pengyou}}",
+
+"geinide": "{{i18n:Jiu_geinide}}",
+"zheshiwode": "{{i18n:Jiu_zheshiwode}}",
+
+//"": "",
+
+//和谢恩有关的
+"married_Shane": "{{i18n:Jiu_married_Shane}}",
+"spring_Tue8_inlaw_Shane": "{{i18n:Jiu_spring_Tue8_inlaw_Shane}}",
+"summer_Sat8_inlaw_Shane": "{{i18n:Jiu_summer_Sat8_inlaw_Shane}}",
+"fall_Fri8_inlaw_Shane": "{{i18n:Jiu_fall_Fri8_inlaw_Shane}}",
+"winter_Sun8_inlaw_Shane": "{{i18n:Jiu_winter_Sun8_inlaw_Shane}}",
+}
+}
+]
+}

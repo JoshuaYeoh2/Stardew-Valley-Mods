@@ -1,0 +1,31 @@
+//edits to apply after ten hearts pt one event until ten hearts pt two
+{
+    "Changes": [
+        //gift dialogue
+        {
+          "LogName": "Emet-Selch's Drama Gift Tastes",
+          "Action": "EditData",
+          "Target": "Data/NPCGiftTastes",
+          "Entries": {
+              "Visorlights.EmetSelch": "An excellent gift. But no grand show of affection will sway me.$6#/348 428 768 253 637/...Leave it, if you want.$7#/275 338 18 80 430 769 848 -12 -79/I have no need of this, nor of you.$10#/535 536 537 749/Petty enough to deliver insults, are we?$6#/262/Good, the disgust is mutual.$10/807 22/...//"
+          }
+        },
+
+        //single Dialogue
+        {
+          "LogName": "Emet-Selch Drama single dialogue",
+          "Action": "Load",
+          "Target": "Characters/Dialogue/Visorlights.EmetSelch",
+          "FromFile": "assets/Dialogue/Emet-Selch_single_dialogue_drama.json"
+        },
+        //festival placement/dialogue?
+      {
+        "Logname": "Emet-Selch Drama location_dialogue edits",
+        "Action": "EditData",
+        "Target": "Strings/Schedules/Visorlights.EmetSelch.json",
+        "Entries": {
+          "winter_17.000": "My visiting the festival is not an invitation for your company.$6"
+        }
+      }
+    ]
+}

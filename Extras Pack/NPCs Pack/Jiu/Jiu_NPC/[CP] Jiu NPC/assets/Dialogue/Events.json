@@ -1,0 +1,277 @@
+{//如何测试 events? → debug ebi xxx
+  "Changes": [
+    { //1二心事件，晚上八点到十一点，煤矿森林，雨天
+      "LogName": "JiuEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Forest",
+      "Entries": {
+        "9825642/f Jiu 500/t 2000 2300/w rainy/k 9925646": "rain/34 25/farmer 34 18 2 Jiu 35 25 2/skippable/showFrame Jiu 16/pause 2000/speak Jiu \"{{i18n:Jiu_events1.1}}\"/emote Jiu 12/move farmer 0 7 2 true/textAboveHead Jiu \"{{i18n:Jiu_events1.2}}\"/pause 500/move farmer 0 0 1/emote farmer 8/pause 500/showFrame Jiu 18/jump Jiu 4/pause 1000/showFrame Jiu 19/pause 500 /speak Jiu \"{{i18n:Jiu_events1.3.1}}#$b#$q 435675 null#{{i18n:Jiu_events1.3.2}}#$r 435675 25 nifashengsha#{{i18n:Jiu_events1.4.1}}#$r 435675 0 bushuohua#{{i18n:Jiu_events1.4.2}}#$r 435675 -50 luguo#{{i18n:Jiu_events1.4.3}}\"/move farmer 0 0 2/pause 1000/showFrame Jiu 25/pause 500/speak Jiu \"{{i18n:Jiu_events1.5}}\"/pause 500/quickQuestion #{{i18n:Jiu_events1.6.1}}#{{i18n:Jiu_events1.6.2}}#{{i18n:Jiu_events1.6.3}}(break)speak Jiu \"{{i18n:Jiu_events1.7.1}}\"(break)speak Jiu \"{{i18n:Jiu_events1.7.2}}\"(break)speak Jiu \"{{i18n:Jiu_events1.7.3}}\"/move Jiu 0 0 2/pause 1500/speak Jiu \"{{i18n:Jiu_events1.8}}\"/move Jiu 0 -4 0/emote farmer 40/move Jiu 0 0 2/pause 1000/textAboveHead Jiu \"{{i18n:Jiu_events1.9}}\"/jump farmer 4/pause 1000/move farmer 0 -5 0/move Jiu 0 0 1/move farmer 0 -4 0/move Jiu 0 -5 0/globalFade/viewport -1000 -1000/end wedding"
+//事先说一下因为我不知道怎么传送回家所以用了结婚的代码能直接送门口。
+      }
+    },
+
+    { //2三心事件 早上出门八点-十二点在镇上触发
+      "LogName": "JiuEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Town",
+      "Entries": {
+        "9825643/f Jiu 750/t 800 1200/e 9825642": "springtown/14 90/farmer 0 91 1 Jiu 13 94 2/skippable/showFrame Jiu 20/move farmer 14 0 2/pause 500/emote farmer 40/pause 500/showFrame Jiu 25/pause 500/showFrame Jiu 0/pause 500/move Jiu 0 0 0/pause 500/jump Jiu 4/pause 1000/speak Jiu \"{{i18n:Jiu_events2.1}}\"/pause 1000/emote farmer 32/move farmer 0 3 2/pause 500/move Jiu 0 0 1/pause 1000/move Jiu 0 0 2/pause 2000/speak Jiu \"{{i18n:Jiu_events2.2}}\"/pause 1000/move farmer 0 0 3/emote farmer 8/pause 1000/emote Jiu 28/pause 1000/move Jiu 0 0 2/pause 500/speak Jiu \"$q 435677 null#{{i18n:Jiu_events2.3}}#$r 435677 10 en#{{i18n:Jiu_events2.4.1}}#$r 435678 -500 bushi#{{i18n:Jiu_events2.4.2}}\"/fork sadjiu/move Jiu 0 0 1/emote Jiu 60/pause 500/jump Jiu 4/pause 500/speak Jiu \"{{i18n:Jiu_events2.5.1}}\"/pause 1500/globalFade/viewport -1000 -1000/end invisible Jiu",
+"sadjiu": "stopMusic/emote Jiu 28/pause 500/speak Jiu \"{{i18n:Jiu_events2.5.2}}\"/emote Jiu 28/pause 1500/globalFade/viewport -1000 -1000/end invisible Jiu"
+      }//不管怎么样桕都会回老家一趟，消失一整天
+    },
+
+    { //3四心事件，早上八点到十二点，城镇
+      "LogName": "JiuEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Town",
+      "Entries": {
+        "9825644/f Jiu 1000/t 800 1200/e 9825643/k 9925646": "springtown/79 95/farmer 72 95 1 Jiu 79 95 2/skippable/move farmer 6 0 2/pause 500/move Jiu 0 0 3/pause 1000/move Jiu 0 0 2/pause 500/speak Jiu \"{{i18n:Jiu_events3.1}}#$b#$q 435679 null#{{i18n:Jiu_events3.2}}#$r 435679 50 henxihuan#{{i18n:Jiu_events3.3.1}}#$r 435679 10 laji#{{i18n:Jiu_events3.3.2}}#$r 435679 0 yiban#{{i18n:Jiu_events3.3.3}}\"/pause 500/emote Jiu 40/pause 1000/speak Jiu \"{{i18n:Jiu_events3.4}}#$b#$q 445670 null#{{i18n:Jiu_events3.5}}#$r 445670 0 haitan#{{i18n:Jiu_events3.6.1}}#$r 445671 0 senlin#{{i18n:Jiu_events3.6.2}}#$r 445672 0 chengzhen#{{i18n:Jiu_events3.6.3}}\"/pause 1000/showFrame Jiu 25/pause 500/showFrame Jiu 20/pause 500/speak Jiu \"{{i18n:Jiu_events3.7}}\"/move farmer 0 0 1/pause 500/playSound coin/pause 500/move farmer 0 0 2/showFrame 90/pause 1500/farmerEat 253/showFrame Jiu 27/pause 1000/textAboveHead Jiu \"{{i18n:Jiu_events3.8}}\"/pause 2000/showFrame Jiu 20/speak Jiu \"{{i18n:Jiu_events3.9}}\"/emote Jiu 40/pause 500/speak Jiu \"{{i18n:Jiu_events3.10}}\"/move farmer 0 0 1/pause 500/speak Jiu \"{{i18n:Jiu_events3.11}}\"/move Jiu 17 0 1 true/pause 1000/globalFade/viewport -1000 -1000/end"
+      }//没啥，锁定一下好结局的最后走向。
+    },
+
+    { //4六心事件，晚上八点到十二点，沙滩
+      "LogName": "JiuEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Beach",
+      "Entries": {
+        "9825645/f Jiu 1500/t 2000 2400/e 9825644": "ocean/26 36/farmer 26 28 2 Jiu 26 36 2/skippable/move farmer 0 3 2/emote farmer 16/pause 500/startJittering/faceDirection farmer 2 true/animate farmer false true 100 94/jump farmer/pause 2000/stopAnimation farmer/stopJittering/move farmer 0 4 2/showFrame Jiu 24/jump Jiu/pause 500/move Jiu 0 0 0/pause 500/question fork0 \"{{i18n:Jiu_events4.1}}\"/fork nizaiganshenme/emote Jiu 28/pause 500/switchEvent jiudefannao",
+	"nizaiganshenme": "emote Jiu 40/pause 500/switchEvent jiudefannao",
+	"jiudefannao": "move Jiu 0 0 2/move farmer -1 0 3/move farmer 0 1 2/pause 500/move farmer 0 0 1/pause 1000/move farmer 0 0 2/pause 500/move Jiu 0 0 3/pause 1000/move Jiu 0 0 2/speak Jiu \"$q 435680 null#{{i18n:Jiu_events4.2}}#$r 435680 -10 niyoushi#{{i18n:Jiu_events4.3.1}}#$r 435680 0 queshi#{{i18n:Jiu_events4.3.2}}\"/pause 1000/speak Jiu \"{{i18n:Jiu_events4.4}}\"/pause 1000/move farmer 0 0 1/pause 500/move Jiu 0 0 3/pause 1000/move Jiu 0 0 2/pause 500/speak Jiu \"{{i18n:Jiu_events4.5}}#$b#$q 435681 null#{{i18n:Jiu_events4.6}}#$r 435681 50 wohui#{{i18n:Jiu_events4.7.1}}#$r 435681 10 chenmo#{{i18n:Jiu_events4.7.2}}#$r 445681 -100 dangranbuhui#{{i18n:Jiu_events4.7.3}}\"/pause 1000/emote Jiu 40/pause 500/addTemporaryActor Willy 16 32 25 15 2 true/move Willy 0 16 2 true/speak Jiu \"{{i18n:Jiu_events4.8}}\"/pause 1000/move Jiu 0 0 3/move Jiu 0 0 0/pause 1000/move farmer 0 0 1/move farmer 0 0 0/emote Jiu 16/pause 500/move Jiu 0 0 3/move farmer 0 0 1/pause 500/textAboveHead Jiu \"{{i18n:Jiu_events4.9}}\"/pause 1000/move Jiu 0 -10 0 true/emote Willy 8/pause 1000/globalFade/viewport -1000 -1000/end"
+      }//想跳河但农场主来了
+    },
+
+    { //5八心事件，晚上八点到十点，煤炭森林
+      "LogName": "JiuEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Forest",
+      "Entries": {
+        "9825646/f Jiu 2000/t 2000 2200/e 9825645/k 9925646": "nightTime/41 10/farmer 47 13 3 Jiu 42 10 2/skippable/showFrame Jiu 32/move farmer -6 0 3/pause 1000/move farmer 0 0 0/jump farmer/pause 1000/move farmer 0 -3 0/move farmer 0 0 1/pause 500/speak Jiu \"{{i18n:Jiu_events5.1}}\"/pause 500/emote Jiu 28/pause 1000/animate Jiu false true 33 33 33 33 34 34 34 34/pause 1000/stopAnimation Jiu 33/emote Jiu 40/pause 1000/showFrame Jiu 35/pause 500/showFrame Jiu 0/pause 1000/move Jiu 0 0 3/pause 500/speak Jiu \"{{i18n:Jiu_events5.2}}\"/playMusic echos/pause 1000/emote Jiu 12/pause 500/speak Jiu \"{{i18n:Jiu_events5.3}}#$b#$q 435682 null#{{i18n:Jiu_events5.4}}#$r 435682 0 muou#{{i18n:Jiu_events5.5.1}}#$r 435682 0 daima#{{i18n:Jiu_events5.5.2}}#$r 435682 0 zhuwojia#{{i18n:Jiu_events5.5.3}}#$r 435682 0 youba#{{i18n:Jiu_events5.5.4}}\"/pause 500/move Jiu 0 0 2/pause 1000/speak Jiu \"{{i18n:Jiu_events5.6}}\"/pause 500/emote farmer 8/pause 1000/speak Jiu \"{{i18n:Jiu_events5.7}}\"/question fork1 \"#{{i18n:Jiu_events5.8.1}}#{{i18n:Jiu_events5.8.2}}\"/fork nihaoaita/pause 1000/move farmer 0 3 2/pause 500/textAboveHead Jiu \"{{i18n:Jiu_events5.8.1.1}}\"/pause 500/move farmer 0 0 0/pause 2000/speak Jiu \"{{i18n:Jiu_events5.8.1.2}}\"/move farmer 5 0 1/move farmer 8 0 1 true/move farmer 0 1 2 true/move farmer 4 0 1 true/pause 1000/emote Jiu 16/showFrame Jiu 32/pause 500/globalFade/viewport -1000 -1000/end",
+	"nihaoaita": "pause 1000/move Jiu 0 0 3/pause 1000/speak Jiu \"{{i18n:Jiu_events5.8.2.1}}\"/question fork1 \"{{i18n:Jiu_events5.8.2.2}}\"/fork woxiangbudao/pause 500/speak Jiu \"{{i18n:Jiu_events5.9.1}}\"/switchEvent zongyu",
+	"woxiangbudao": "pause 500/speak Jiu \"{{i18n:Jiu_events5.9.2}}\"/switchEvent zongyu",
+	"zongyu": "pause 1000/speak Jiu \"{{i18n:Jiu_events5.10}}\"/pause 1000/move Jiu 0 0 1/textAboveHead Jiu \"{{i18n:Jiu_events5.11}}\"/pause 3000/move Jiu 0 0 3/pause 1000/speak Jiu \"{{i18n:Jiu_events5.12}}\"/pause 500/emote Jiu 40/pause 1000/speak Jiu \"{{i18n:Jiu_events5.13}}\"/pause 1000/speak Jiu \"{{i18n:Jiu_events5.14}}\"/pause 1000/showFrame Jiu 37/textAboveHead Jiu \"{{i18n:Jiu_events5.15}}\"/pause 1000/globalFade/viewport -1000 -1000/end"
+      },//身体和精神很差但不想告诉别人即便是熟人
+	"When": {
+        "HasDialogueAnswer |contains=435678":"false",
+        "HasDialogueAnswer |contains=445681":"false"
+	}
+    },
+
+    { //5八心事件，晚上八点到十点，煤炭森林 判定1
+      "LogName": "JiuEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Forest",
+      "Entries": {
+        "9825646/f Jiu 2000/t 2000 2200/e 9825645/k 9925646": "nightTime/41 10/farmer 47 13 3 Jiu 42 10 2/skippable/showFrame Jiu 32/move farmer -6 0 3/pause 1000/move farmer 0 0 0/jump farmer/pause 1000/move farmer 0 -3 0/move farmer 0 0 1/pause 500/speak Jiu \"{{i18n:Jiu_events5.1}}\"/pause 500/emote Jiu 28/pause 1000/animate Jiu false true 33 33 33 33 34 34 34 34/pause 1000/stopAnimation Jiu 33/emote Jiu 40/pause 1000/showFrame Jiu 35/pause 500/showFrame Jiu 0/pause 1000/move Jiu 0 0 3/pause 500/speak Jiu \"{{i18n:Jiu_events5.2}}\"/playMusic echos/pause 1000/emote Jiu 12/pause 500/speak Jiu \"{{i18n:Jiu_events5.3}}#$b#$q 435682 null#{{i18n:Jiu_events5.4}}#$r 435682 0 muou#{{i18n:Jiu_events5.5.1}}#$r 435682 0 daima#{{i18n:Jiu_events5.5.2}}#$r 435682 0 zhuwojia#{{i18n:Jiu_events5.5.3}}#$r 435682 0 youba#{{i18n:Jiu_events5.5.4}}\"/pause 500/move Jiu 0 0 2/pause 1000/speak Jiu \"{{i18n:Jiu_events5.6}}\"/pause 500/emote farmer 8/pause 1000/speak Jiu \"{{i18n:Jiu_events5.7}}\"/question fork1 \"#{{i18n:Jiu_events5.8.1}}#{{i18n:Jiu_events5.8.2}}\"/fork nihaoaita/pause 1000/move farmer 0 3 2/pause 500/textAboveHead Jiu \"{{i18n:Jiu_events5.8.1.1}}\"/pause 500/move farmer 0 0 0/pause 2000/speak Jiu \"{{i18n:Jiu_events5.8.1.2}}\"/move farmer 5 0 1/move farmer 8 0 1 true/move farmer 0 1 2 true/move farmer 4 0 1 true/pause 1000/emote Jiu 16/showFrame Jiu 32/pause 500/globalFade/viewport -1000 -1000/end",
+	"nihaoaita": "pause 1000/move Jiu 0 0 3/pause 1000/speak Jiu \"{{i18n:Jiu_events5.8.2.1}}\"/question fork1 \"{{i18n:Jiu_events5.8.2.2}}\"/fork woxiangbudao/pause 500/speak Jiu \"{{i18n:Jiu_events5.9.1}}\"/switchEvent zongyu",
+	"woxiangbudao": "pause 500/speak Jiu \"{{i18n:Jiu_events5.9.2}}\"/switchEvent zongyu",
+	"zongyu": "pause 1000/speak Jiu \"{{i18n:Jiu_events5.10}}\"/pause 1000/move Jiu 0 0 1/textAboveHead Jiu \"{{i18n:Jiu_events5.11}}\"/pause 3000/move Jiu 0 0 3/pause 1000/speak Jiu \"{{i18n:Jiu_events5.12}}\"/pause 500/emote Jiu 40/pause 1000/speak Jiu \"{{i18n:Jiu_events5.13}}\"/pause 1000/speak Jiu \"{{i18n:Jiu_events5.14}}\"/pause 1000/showFrame Jiu 37/textAboveHead Jiu \"{{i18n:Jiu_events5.15}}\"/pause 1000/globalFade/viewport -1000 -1000/end"
+      },
+	"When": {
+        "HasDialogueAnswer |contains=435678":"true",
+        "HasDialogueAnswer |contains=445681":"false"
+	}
+    },
+
+    { //5八心事件，晚上八点到十点，煤炭森林 判定2
+      "LogName": "JiuEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Forest",
+      "Entries": {
+        "9825646/f Jiu 2000/t 2000 2200/e 9825645/k 9925646": "nightTime/41 10/farmer 47 13 3 Jiu 42 10 2/skippable/showFrame Jiu 32/move farmer -6 0 3/pause 1000/move farmer 0 0 0/jump farmer/pause 1000/move farmer 0 -3 0/move farmer 0 0 1/pause 500/speak Jiu \"{{i18n:Jiu_events5.1}}\"/pause 500/emote Jiu 28/pause 1000/animate Jiu false true 33 33 33 33 34 34 34 34/pause 1000/stopAnimation Jiu 33/emote Jiu 40/pause 1000/showFrame Jiu 35/pause 500/showFrame Jiu 0/pause 1000/move Jiu 0 0 3/pause 500/speak Jiu \"{{i18n:Jiu_events5.2}}\"/playMusic echos/pause 1000/emote Jiu 12/pause 500/speak Jiu \"{{i18n:Jiu_events5.3}}#$b#$q 435682 null#{{i18n:Jiu_events5.4}}#$r 435682 0 muou#{{i18n:Jiu_events5.5.1}}#$r 435682 0 daima#{{i18n:Jiu_events5.5.2}}#$r 435682 0 zhuwojia#{{i18n:Jiu_events5.5.3}}#$r 435682 0 youba#{{i18n:Jiu_events5.5.4}}\"/pause 500/move Jiu 0 0 2/pause 1000/speak Jiu \"{{i18n:Jiu_events5.6}}\"/pause 500/emote farmer 8/pause 1000/speak Jiu \"{{i18n:Jiu_events5.7}}\"/question fork1 \"#{{i18n:Jiu_events5.8.1}}#{{i18n:Jiu_events5.8.2}}\"/fork nihaoaita/pause 1000/move farmer 0 3 2/pause 500/textAboveHead Jiu \"{{i18n:Jiu_events5.8.1.1}}\"/pause 500/move farmer 0 0 0/pause 2000/speak Jiu \"{{i18n:Jiu_events5.8.1.2}}\"/move farmer 5 0 1/move farmer 8 0 1 true/move farmer 0 1 2 true/move farmer 4 0 1 true/pause 1000/emote Jiu 16/showFrame Jiu 32/pause 500/globalFade/viewport -1000 -1000/end",
+	"nihaoaita": "pause 1000/move Jiu 0 0 3/pause 1000/speak Jiu \"{{i18n:Jiu_events5.8.2.1}}\"/question fork1 \"{{i18n:Jiu_events5.8.2.2}}\"/fork woxiangbudao/pause 500/speak Jiu \"{{i18n:Jiu_events5.9.1}}\"/switchEvent zongyu",
+	"woxiangbudao": "pause 500/speak Jiu \"{{i18n:Jiu_events5.9.2}}\"/switchEvent zongyu",
+	"zongyu": "pause 1000/speak Jiu \"{{i18n:Jiu_events5.10}}\"/pause 1000/move Jiu 0 0 1/textAboveHead Jiu \"{{i18n:Jiu_events5.11}}\"/pause 3000/move Jiu 0 0 3/pause 1000/speak Jiu \"{{i18n:Jiu_events5.12}}\"/pause 500/emote Jiu 40/pause 1000/speak Jiu \"{{i18n:Jiu_events5.13}}\"/pause 1000/speak Jiu \"{{i18n:Jiu_events5.14}}\"/pause 1000/showFrame Jiu 37/textAboveHead Jiu \"{{i18n:Jiu_events5.15}}\"/pause 1000/globalFade/viewport -1000 -1000/end"
+      },
+	"When": {
+        "HasDialogueAnswer |contains=435678":"false",
+        "HasDialogueAnswer |contains=445681":"true"
+	}
+    },
+
+    { //6八心事件2 不结婚晚上十点到十二点前往秘密森林 
+      "LogName": "JiuEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Woods",
+      "Entries": {
+        "9825647/f Jiu 2000/t 2200 2400/e 9825646/o Abigail/o Penny/o Leah/o Emily/o Maru/o Haley/o Shane/o Harvey/o Sebastian/o Sam/o Elliott/o Alex/o Jiu": "echos/11 18/farmer 18 18 3 Jiu 11 18 2/skippable/pause 1000/emote farmer 16/pause 500/move farmer -6 0 3/pause 500/move farmer 0 0 2/pause 1000/move Jiu 0 0 1/pause 500/speak Jiu \"{{i18n:Jiu_events6.1}}\"/pause 500/emote Jiu 40/pause 1000/move Jiu 0 0 2/speak Jiu \"{{i18n:Jiu_events6.2}}\"/question fork1 \"{{i18n:Jiu_events6.3}}\"/fork jiangba/stopMusic/emote Jiu 40/pause 1000/speak Jiu \"{{i18n:Jiu_events6.3.1.1}}\"/pause 2000/speak Jiu \"{{i18n:Jiu_events6.3.1.2}}\"/pause 1000/globalFade/viewport -1000 -1000/end",
+	"jiangba": "pause 1000/speak Jiu \"{{i18n:Jiu_events6.3.2}}\"/quickQuestion {{i18n:Jiu_events6.4}}(break)speak Jiu \"{{i18n:Jiu_events6.5.1}}\"(break)speak Jiu \"{{i18n:Jiu_events6.5.2}}\"/pause 1000/speak Jiu \"{{i18n:Jiu_events6.6}}\"/pause 2000/speak Jiu \"{{i18n:Jiu_events6.7}}\"/pause 3000/emote Jiu 60/pause 1000/speak Jiu\"{{i18n:Jiu_events6.8}}\"/move farmer 0 0 3/emote farmer 8/pause 1000/move Jiu 0 0 1/pause 500/emote Jiu 56/pause 2000/speak Jiu \"{{i18n:Jiu_events6.9}}\"/move Jiu 0 -1 0/move Jiu 20 0 3 true/pause 1500/jump farmer/pause 500/move farmer 20 0 1 true/pause 500/globalFade/viewport -1000 -1000/end"
+      }//暗示喜欢农场主，我给了判定但是如果你跟其他模组npc结婚那我也没办法
+    },
+
+    { //7十心事件，晚上八点到十二点在沙滩（哇擦差点没写死我）
+      "LogName": "JiuEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Beach",
+      "Entries": {
+        "9825648/f Jiu 2500/t 2000 2400/e 9825646/n Jiuyaoqing": "ocean/-1000 -1000/farmer 28 10 2 Jiu 29 10 2/skippable/addLantern 390 18 9 1/addLantern 390 18 10 1/addLantern 390 18 11 1/addLantern 390 18 12 1/addLantern 390 18 13 1/addLantern 390 18 14 1/addLantern 390 20 9 1/addLantern 390 21 9 1/addLantern 390 22 10 1/addLantern 390 23 10 1/addLantern 390 24 9 1/addLantern 390 25 9 1/addLantern 390 20 10 1/addLantern 390 20 11 1/addLantern 390 21 12 1/addLantern 390 22 13 1/addLantern 390 23 13 1/addLantern 390 24 12 1/addLantern 390 25 11 1/addLantern 390 25 10 1/addLantern 390 27 9 1/addLantern 390 27 10 1/addLantern 390 27 11 1/addLantern 390 28 11 1/addLantern 390 28 12 1/addLantern 390 28 13 1/addLantern 390 28 14 1/addLantern 390 29 11 1/addLantern 390 29 12 1/addLantern 390 29 13 1/addLantern 390 29 14 1/addLantern 390 30 9 1/addLantern 390 30 10 1/addLantern 390 30 11 1/addLantern 390 32 9 1/addLantern 390 32 10 1/addLantern 390 32 11 1/addLantern 390 32 12 1/addLantern 390 32 13 1/addLantern 390 32 14 1/addLantern 390 33 9 1/addLantern 390 34 9 1/addLantern 390 33 14 1/addLantern 390 34 14 1/addLantern 390 35 9 1/addLantern 390 35 10 1/addLantern 390 35 11 1/addLantern 390 35 12 1/addLantern 390 35 13 1/addLantern 390 35 14 1/addLantern 390 37 9 1/addLantern 390 37 10 1/addLantern 390 37 11 1/addLantern 390 37 12 1/addLantern 390 37 13 1/addLantern 390 37 14 1/addLantern 390 38 14 1/addLantern 390 39 14 1/addLantern 390 40 9 1/addLantern 390 40 10 1/addLantern 390 40 11 1/addLantern 390 40 12 1/addLantern 390 40 13 1/addLantern 390 40 14 1/pause 1000/speak Jiu \"{{i18n:Jiu_events7.1}}\"/pause 1000/speak Jiu \"{{i18n:Jiu_events7.2}}\"/pause 2000/viewport 29 11 true/pause 1000/speak Jiu \"{{i18n:Jiu_events7.3}}\"/pause 3000/move Jiu 0 0 3/pause 1000/speak Jiu \"{{i18n:Jiu_events7.4}}\"/pause 1000/quickQuestion {{i18n:Jiu_events7.5}}(break)speak Jiu \"{{i18n:Jiu_events7.5.1}}\"(break)speak Jiu \"{{i18n:Jiu_events7.5.2}}\"/pause 2000/move farmer 0 0 1/pause 1000/jump Jiu/pause 1000/jump Jiu/pause 1000/jump Jiu/pause 1000/speak Jiu \"{{i18n:Jiu_events7.6}}\"/pause 2000/move Jiu 0 0 2/pause 1000/speak Jiu \"{{i18n:Jiu_events7.7}}\"/question fork1 \"{{i18n:Jiu_events7.8}}\"/fork chenmoshijin/pause 2000/animate farmer false true 100 101/positionOffset farmer 2 0/pause 10/positionOffset farmer 2 0/pause 10/positionOffset farmer 2 0/pause 10/positionOffset farmer 2 0/pause 10/showFrame Jiu 24/pause 2000/showFrame Jiu 0/pause 800/showFrame Jiu 40/pause 3000/viewport move 0 -1 5000/globalFade/viewport -1000 -1000/pause 1500/speak Jiu \"{{i18n:Jiu_events7.8.1}}\"/end",
+	"chenmoshijin": "pause 500/move farmer 0 0 2/pause 2000/speak Jiu \"{{i18n:Jiu_events7.8.2.1}}\"/pause 1000/showFrame Jiu 40/positionOffset Jiu -2 0/pause 10/positionOffset Jiu -2 0/pause 10/positionOffset Jiu -2 0/pause 10/positionOffset Jiu -2 0/pause 10/pause 500/faceDirection farmer 2 true/animate farmer false true 100 94/jump farmer/pause 2000/stopAnimation farmer/pause 1000/animate farmer false true 100 101/positionOffset farmer 2 0/pause 10/positionOffset farmer 2 0/pause 10/positionOffset farmer 2 0/pause 10/positionOffset farmer 2 0/pause 3000/viewport move 0 -1 5000/globalFade/viewport -1000 -1000/pause 1500/speak Jiu \"{{i18n:Jiu_events7.8.2.2}}\"/end"
+      }//这里就是小学生文笔了哥们，我很抱歉。
+    },
+
+    { //8十四心剧情，任意时间往沙滩
+      "LogName": "JiuEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Beach",
+      "Entries": {
+        "9825649/f Jiu 3500/e 9825648": "playful/41 24/farmer 41 16 2 Jiu 41 24 2/skippable/animate Jiu false true 16 16 16 16 16 16 16 16 16 17 17 17 17 17 17 17 17 17/move farmer 0 2 2 true/pause 2000/textAboveHead Jiu \"{{i18n:Jiu_events8.1}}\"/pause 3000/textAboveHead Jiu \"{{i18n:Jiu_events8.2}}\"/pause 2500/textAboveHead Jiu \"{{i18n:Jiu_events8.3}}\"/pause 5000/stopAnimation Jiu 2/pause 500/jump Jiu/pause 800/speak Jiu \"{{i18n:Jiu_events8.4}}\"/move Jiu 0 0 0/pause 1000/jump Jiu/speak Jiu \"{{i18n:Jiu_events8.5}}\"/pause 500/emote Jiu 28/pause 1000/move Jiu 0 0 2/move farmer -1 0 3/move farmer 0 6 2 true/pause 1000/speak Jiu \"{{i18n:Jiu_events8.6}}\"/pause 500/move farmer 0 0 1/emote farmer 8/pause 1000/speak Jiu \"{{i18n:Jiu_events8.7}}\"/pause 500/move Jiu 0 0 3/pause 500/itemAboveHead Jiu_Beachfoto/playSound getNewSpecialItem/pause 3300/addItem Jiu_Beachfoto 1 0/pause 200/message \"{{i18n:Jiu_events8.8.Beach}}\"/pause 800/move Jiu 0 0 2/speak Jiu \"{{i18n:Jiu_events8.9}}\"/pause 1000/showFrame Jiu 37/speak Jiu \"{{i18n:Jiu_events8.10}}\"/pause 500/jump Jiu/pause 1000/move Jiu 0 0 2/pause 500/speak Jiu \"{{i18n:Jiu_events8.11}}\"/pause 500/move farmer 0 0 2/pause 2000/speak Jiu \"{{i18n:Jiu_events8.12.Beach}}\"/pause 1000/speak Jiu \"{{i18n:Jiu_events8.13}}\"/pause 3000/speak Jiu \"{{i18n:Jiu_events8.14}}\"/globalFade/viewport -1000 -1000/end"
+      },//回收风景伏笔（？）
+	"When": {
+        "HasDialogueAnswer |contains=445671":"false",
+        "HasDialogueAnswer |contains=445672":"false"
+	}
+    },
+
+    { //8十四心剧情分支1，任意时间往森林
+      "LogName": "JiuEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Forest",
+      "Entries": {
+        "9825649/f Jiu 3500/e 9825648": "playful/35 25/farmer 35 17 2 Jiu 35 25 2/skippable/animate Jiu false true 16 16 16 16 16 16 16 16 16 17 17 17 17 17 17 17 17 17/move farmer 0 2 2 true/pause 2000/textAboveHead Jiu \"{{i18n:Jiu_events8.1}}\"/pause 3000/textAboveHead Jiu \"{{i18n:Jiu_events8.2}}\"/pause 2500/textAboveHead Jiu \"{{i18n:Jiu_events8.3}}\"/pause 5000/stopAnimation Jiu 2/pause 500/jump Jiu/pause 800/speak Jiu \"{{i18n:Jiu_events8.4}}\"/move Jiu 0 0 0/pause 1000/jump Jiu/speak Jiu \"{{i18n:Jiu_events8.5}}\"/pause 500/emote Jiu 28/pause 1000/move Jiu 0 0 2/move farmer -1 0 3/move farmer 0 6 2 true/pause 1000/speak Jiu \"{{i18n:Jiu_events8.6}}\"/pause 500/move farmer 0 0 1/emote farmer 8/pause 1000/speak Jiu \"{{i18n:Jiu_events8.7}}\"/pause 500/move Jiu 0 0 3/pause 500/itemAboveHead Jiu_Forestfoto/playSound getNewSpecialItem/pause 3300/addItem Jiu_Forestfoto 1 0/pause 200/message \"{{i18n:Jiu_events8.8.Forest}}\"/pause 800/move Jiu 0 0 2/speak Jiu \"{{i18n:Jiu_events8.9}}\"/pause 1000/showFrame Jiu 37/speak Jiu \"{{i18n:Jiu_events8.10}}\"/pause 500/jump Jiu/pause 1000/move Jiu 0 0 2/pause 500/speak Jiu \"{{i18n:Jiu_events8.11}}\"/pause 500/move farmer 0 0 2/pause 2000/speak Jiu \"{{i18n:Jiu_events8.12.Forest}}\"/pause 1000/speak Jiu \"{{i18n:Jiu_events8.13}}\"/pause 3000/speak Jiu \"{{i18n:Jiu_events8.14}}\"/globalFade/viewport -1000 -1000/end"
+      },//回收风景伏笔（？）
+	"When": {
+        "HasDialogueAnswer |contains=445671":"true"
+	}
+    },
+
+    { //8十四心剧情分支2，任意时间往城镇
+      "LogName": "JiuEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Town",
+      "Entries": {
+        "9825649/f Jiu 3500/e 9825648": "playful/23 100/farmer 23 92 2 Jiu 23 100 2/skippable/animate Jiu false true 16 16 16 16 16 16 16 16 16 17 17 17 17 17 17 17 17 17/move farmer 0 2 2 true/pause 2000/textAboveHead Jiu \"{{i18n:Jiu_events8.1}}\"/pause 3000/textAboveHead Jiu \"{{i18n:Jiu_events8.2}}\"/pause 2500/textAboveHead Jiu \"{{i18n:Jiu_events8.3}}\"/pause 5000/stopAnimation Jiu 2/pause 500/jump Jiu/pause 800/speak Jiu \"{{i18n:Jiu_events8.4}}\"/move Jiu 0 0 0/pause 1000/jump Jiu/speak Jiu \"{{i18n:Jiu_events8.5}}\"/pause 500/emote Jiu 28/pause 1000/move Jiu 0 0 2/move farmer -1 0 3/move farmer 0 6 2 true/pause 1000/speak Jiu \"{{i18n:Jiu_events8.6}}\"/pause 500/move farmer 0 0 1/emote farmer 8/pause 1000/speak Jiu \"{{i18n:Jiu_events8.7}}\"/pause 500/move Jiu 0 0 3/pause 500/itemAboveHead Jiu_Townfoto/playSound getNewSpecialItem/pause 3300/addItem Jiu_Townfoto 1 0/pause 200/message \"{{i18n:Jiu_events8.8.Town}}\"/pause 800/move Jiu 0 0 2/speak Jiu \"{{i18n:Jiu_events8.9}}\"/pause 1000/showFrame Jiu 37/speak Jiu \"{{i18n:Jiu_events8.10}}\"/pause 500/jump Jiu/pause 1000/move Jiu 0 0 2/pause 500/speak Jiu \"{{i18n:Jiu_events8.11}}\"/pause 500/move farmer 0 0 2/pause 2000/speak Jiu \"{{i18n:Jiu_events8.12.Town}}\"/pause 1000/speak Jiu \"{{i18n:Jiu_events8.13}}\"/pause 3000/speak Jiu \"{{i18n:Jiu_events8.14}}\"/globalFade/viewport -1000 -1000/end"
+      },//回收风景伏笔（？）
+	"When": {
+        "HasDialogueAnswer |contains=445672":"true"
+	}
+    },
+
+    { //9三心事件，前提是你选了不算朋友但仍然升回他的心，煤矿森林，早上八点到十二点
+      "LogName": "JiuEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Forest",
+      "Entries": {
+        "9925642/f Jiu 750/t 800 1200/e 9825643": "fall_day_ambient/34 25/farmer 34 18 2 Jiu 35 25 2/skippable/move farmer 0 7 2/pause 500/move Jiu 0 0 3/pause 1000/speak Jiu \"{{i18n:Jiu_events9.1}}\"/quickQuestion {{i18n:Jiu_events9.2}}(break)speak Jiu \"{{i18n:Jiu_events9.3.1}}\"(break)speak Jiu \"{{i18n:Jiu_events9.3.2}}\"/pause 2000/quickQuestion {{i18n:Jiu_events9.4}}(break)speak Jiu \"{{i18n:Jiu_events9.5.1}}\"(break)speak Jiu \"{{i18n:Jiu_events9.5.2}}\"/pause 2000/animate Jiu false true 38 38 38 38 39 39 39 39/pause 1000/stopAnimation Jiu 38/pause 1000/speak Jiu \"{{i18n:Jiu_events9.6}}\"/move Jiu 0 0 2/pause 1000/move Jiu 0 -5 0/pause 1000/move Jiu 0 0 2/pause 500/emote Jiu 40/pause 2000/move Jiu 0 -10 0 true/pause 1000/globalFade/viewport -1000 -1000/end"
+      },
+	"When": {
+        "HasDialogueAnswer |contains=435678":"true"
+	}//仍然忍受
+    },
+
+    { //10八心事件，前提是你在三心选了不算朋友还有在六心选择当然不会，晚上八点到十点，煤炭森林
+      "LogName": "JiuEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Forest",
+      "Entries": {
+        "9925646/f Jiu 2000/t 2000 2200/e 9925642 9825645": "nightTime/41 10/farmer 47 13 3 Jiu 42 10 2/skippable/showFrame Jiu 32/move farmer -6 0 3/pause 1000/move farmer 0 0 0/pause 1000/move farmer 0 -3 0/move farmer 0 0 1/pause 500/textAboveHead Jiu \"{{i18n:Jiu_events10.1}}\"/pause 3000/emote farmer 8/pause 1000/animate Jiu false true 33 33 33 33 34 34 34 34/pause 1000/stopAnimation Jiu 33/emote Jiu 40/pause 1000/showFrame Jiu 35/pause 500/showFrame Jiu 0/pause 1000/animate Jiu false true 38 38 38 38 39 39 39 39/pause 1000/stopAnimation Jiu 38/playMusic echos/emote Jiu 40/pause 1000/move Jiu 0 0 3/pause 1000/speak Jiu \"{{i18n:Jiu_events10.2}}\"/pause 1000/quickQuestion {{i18n:Jiu_events10.3}}(break)speak Jiu \"{{i18n:Jiu_events10.4.1}}\"(break)speak Jiu \"{{i18n:Jiu_events10.4.2}}\"/move Jiu 0 2 2/pause 500/move farmer 0 0 2/pause 1000/speak Jiu \"$q 445682 null#{{i18n:Jiu_events10.5}}#$r 445682 -500 yichuandaima#{{i18n:Jiu_events10.6.1}}#$r 445682 -500 pengyou#{{i18n:Jiu_events10.6.2}}\"/pause 1000/emote Jiu 40/pause 1000/globalFade/viewport -1000 -1000/end"
+      },
+	"When": {
+        "HasDialogueAnswer |contains=435678":"true",
+        "HasDialogueAnswer |contains=445681":"true"
+	}//受不了了哥们
+    },
+
+    { //11十心，前提是你选了不算朋友但仍然升回他的心，沙滩，晚上八点到十二点
+      "LogName": "JiuEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Beach",
+      "Entries": {
+        "9925648/f Jiu 2500/t 2000 2400/e 9925646": "ocean/29 11/farmer 37 4 2 Jiu 29 10 2/skippable/move farmer 0 4 2/move farmer -7 0 3/move farmer 0 2 2/pause 1500/move Jiu 0 0 1/pause 1000/move Jiu 0 0 2/pause 2000/speak Jiu \"{{i18n:Jiu_events11.1}}\"/pause 500/move farmer 0 0 3/emote farmer 8/pause 1500/speak Jiu \"{{i18n:Jiu_events11.2}}\"/pause 2000/speak Jiu \"{{i18n:Jiu_events11.3}}\"/pause 1000/emote Jiu 40/pause 1000/speak Jiu \"{{i18n:Jiu_events11.4}}\"/pause 1500/quickQuestion {{i18n:Jiu_events11.5}}(break)speak Jiu \"{{i18n:Jiu_events11.6.1}}\"(break)speak Jiu \"{{i18n:Jiu_events11.6.2}}\"/pause 2000/move Jiu 0 0 0/pause 500/textAboveHead Jiu \"{{i18n:Jiu_events11.7}}\"/pause 1500/move Jiu 0 -6 0 true/move Jiu 5 0 1 true/globalFade/viewport -1000 -1000/end"
+      }//不是，能触发这个实际上很矛盾。毕竟你又讨厌他又跟他在一起。
+    },
+
+    { //12十四心剧情，任意时间前往沙滩 但崩坏
+      "LogName": "JiuEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Beach",
+      "Entries": {
+        "9925649/f Jiu 3500/e 9925648": "playful/41 24/farmer 41 16 2 Jiu 41 24 2/skippable/animate Jiu false true 16 16 16 16 16 16 16 16 16 17 17 17 17 17 17 17 17 17/move farmer 0 2 2 true/pause 2000/textAboveHead Jiu \"{{i18n:Jiu_events12.1}}\"/pause 3000/textAboveHead Jiu \"{{i18n:Jiu_events12.2}}\"/pause 2500/textAboveHead Jiu \"{{i18n:Jiu_events12.3}}\"/pause 5000/stopAnimation Jiu 2/pause 800/speak Jiu \"{{i18n:Jiu_events12.4}}\"/move Jiu 0 0 0/pause 1000/jump Jiu/speak Jiu \"{{i18n:Jiu_events12.5}}\"/pause 500/emote Jiu 28/pause 1000/move Jiu 0 0 2/move farmer -1 0 3/move farmer 0 6 2 true/pause 1000/speak Jiu \"{{i18n:Jiu_events12.6}}\"/pause 500/move farmer 0 0 1/emote farmer 8/pause 1000/speak Jiu \"{{i18n:Jiu_events12.7}}\"/pause 500/move Jiu 0 0 3/pause 500/itemAboveHead Jiu_Killppl/playSound getNewSpecialItem/pause 3300/addItem Jiu_Killppl 1 0/pause 200/message \"{{i18n:Jiu_events12.8}}\"/pause 800/move Jiu 0 0 2/speak Jiu \"{{i18n:Jiu_events12.9}}\"/pause 1000/move Jiu 0 0 2/pause 500/speak Jiu \"{{i18n:Jiu_events12.10}}\"/pause 500/move farmer 0 0 2/pause 2000/speak Jiu \"{{i18n:Jiu_events12.11}}\"/globalFade/viewport -1000 -1000/end"
+      }//精神状态良好
+    },
+
+    { //13离婚事件，得雨天前往煤矿森林
+      "LogName": "JiuEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Forest",
+      "Entries": {
+        "9835640/w rainy/k 3910974": "rain/34 25/farmer 33 16 2 Jiu 34 25 2 Shane 35 25 2/skippable/showFrame Jiu 41/pause 3000/speak Shane \"{{i18n:Jiu_events13.1}}\"/pause 1000/speak Shane \"{{i18n:Jiu_events13.2}}\"/pause 1000/speak Jiu \"{{i18n:Jiu_events13.3}}\"/pause 1000/speak Shane \"{{i18n:Jiu_events13.4}}\"/pause 500/speak Jiu \"{{i18n:Jiu_events13.5}}\"/playMusic echos/pause 4000/speak Shane \"{{i18n:Jiu_events13.6}}\"/pause 500/emote Jiu 40/pause 1500/speak Shane \"{{i18n:Jiu_events13.7}}\"/pause 1500/emote Jiu 40/pause 1500/speak Shane \"{{i18n:Jiu_events13.8}}\"/pause 1500/speak Jiu \"{{i18n:Jiu_events13.9}}\"/viewport move 0 -1 10000/globalFade/viewport -1000 -1000/end"
+      },
+	"When": {
+      	"Relationship:Jiu": "Divorced",
+	"HasSeenEvent |contains=3910974":"false",
+	}
+    },//哥们，你真的忍心过这个事件？
+
+    { //14离婚事件，得雨天前往煤矿森林。但谢恩戒酒了。
+      "LogName": "JiuEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Forest",
+      "Entries": {
+        "9835641/w rainy/e 3910974": "rain/34 25/farmer 33 16 2 Jiu 34 25 2 Shane 35 25 2/skippable/showFrame Jiu 41/pause 3000/speak Shane \"{{i18n:Jiu_events14.1}}\"/pause 1000/speak Shane \"{{i18n:Jiu_events14.2}}\"/pause 1000/speak Jiu \"{{i18n:Jiu_events14.3}}\"/pause 1000/speak Shane \"{{i18n:Jiu_events14.4}}\"/pause 500/speak Jiu \"{{i18n:Jiu_events14.5}}\"/playMusic echos/pause 1500/emote Jiu 40/pause 1500/speak Jiu \"{{i18n:Jiu_events14.6}}\"/pause 1000/speak Shane \"{{i18n:Jiu_events14.7}}\"/pause 1500/speak Jiu \"{{i18n:Jiu_events14.8}}\"/viewport move 0 -1 10000/globalFade/viewport -1000 -1000/end"
+      },
+	"When": {
+      	"Relationship:Jiu": "Divorced",
+	"HasSeenEvent |contains=3910974":"true",
+	}
+    },//不是哥们，泥..
+
+    { //15特殊事件 谢恩需要7心以及看过谢恩的戒酒剧情，桕需要至少四心，来到餐吧
+      "LogName": "JiuEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Saloon",
+      "Entries": {
+        "9725650/f Jiu 1000 Shane 1750/t 2200 2400/e 3910974/o Jiu/k 9925646": "distantBanjo/14 20/farmer -1000 -1000 0 Jiu 17 20 3 Shane 16 20 1 Gus 14 18 2 Emily 16 18 3 Clint 18 22 2 Marnie 9 22 3 Pam 7 18 1 Lewis 8 22 1 Robin 4 22 2 Demetrius 3 23 1/pause 1000/warp farmer 14 24/skippable/playSound doorClose/pause 500/move farmer 0 -2 0 true/move farmer 3 0 1/move farmer 0 -1 0/pause 500/move Jiu 0 0 2/textAboveHead Jiu \"{{i18n:Jiu_events15.1}}\"/move Emily 0 -1 0 true/pause 500/move Shane 0 0 2/pause 500/speak Jiu \"{{i18n:Jiu_events15.2}}\"/pause 500/emote farmer 8/pause 1000/speak Jiu \"{{i18n:Jiu_events15.3}}\"/pause 500/emote farmer 32/pause 1000/speak Jiu \"{{i18n:Jiu_events15.4}}\"/pause 500/move Shane 0 0 1/pause 500/textAboveHead Shane \"{{i18n:Jiu_events15.5}}\"/move Emily -3 0 3 true/pause 2000/speak Jiu \"{{i18n:Jiu_events15.6}}\"/move Emily 0 0 0 true/pause 500/move Jiu 0 0 3/pause 500/move Shane 0 0 3/textAboveHead Shane \"{{i18n:Jiu_events15.7}}\"/pause 2000/speak Jiu \"{{i18n:Jiu_events15.8}}\"/pause 500/move Gus 0 0 1/textAboveHead Gus \"{{i18n:Jiu_events15.9}}\"/pause 1000/jump farmer/pause 500/move Shane 0 0 2/pause 500/quickQuestion {{i18n:Jiu_events15.10}}(break)speak Jiu \"{{i18n:Jiu_events15.11.1}}\"(break)speak Shane \"{{i18n:Jiu_events15.11.2}}\"/pause 1000/speak Jiu \"{{i18n:Jiu_events15.12}}\"/pause 500/emote Jiu 28/pause 1000/textAboveHead Jiu \"{{i18n:Jiu_events15.13}}\"/pause 2000/speak Gus \"{{i18n:Jiu_events15.14}}\"/pause 1500/move Gus 0 0 2/textAboveHead Jiu \"{{i18n:Jiu_events15.15}}\"/pause 1000/jump Jiu/speak Jiu \"{{i18n:Jiu_events15.16}}\"/pause 500/move Shane 0 0 1/pause 500/jump farmer/jump Shane/pause 1000/speak Shane \"{{i18n:Jiu_events15.17}}\"/pause 500/speak Jiu \"{{i18n:Jiu_events15.18}}\"/globalFade/viewport -1000 -1000/addItem 206 1 0/message \"{{i18n:Jiu_events15.19}}\"/message \"{{i18n:Jiu_events15.20}}\"/end"
+      },
+	"When": {
+	"HasSeenEvent |contains=3910974":"true",
+        "HasDialogueAnswer |contains=435678":"false",
+        "HasDialogueAnswer |contains=445681":"false"
+	}
+    },//谢恩可爱捏
+
+//New
+
+    { //16特殊事件 需要5心前往桕的家带着你的拉面
+      "LogName": "JiuEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_jiuhouse",
+      "Entries": {
+        "Jiuele/f Jiu 1250/i Jiu_Ramen": "playful/6 5/farmer -1000 -1000 0 Jiu 10 4 0/skippable/shake Jiu 1000/pause 1000/shake Jiu 1000/pause 2000/move Jiu 0 0 2/pause 1000/textAboveHead Jiu \"{{i18n:Jiu_events16.1}}\"/pause 3000/emote Jiu 12/pause 1000/warp farmer 6 9/playSound doorClose/pause 500/showFrame Jiu 24/jump Jiu/pause 1000/showFrame Jiu 0/speak Jiu \"{{i18n:Jiu_events16.2}}\"/move farmer 0 -4 0/move farmer 3 0 1 true/pause 500/textAboveHead Jiu \"{{i18n:Jiu_events16.3}}\"/pause 2000/move Jiu 0 1 3/jump Jiu/pause 1000/speak Jiu \"{{i18n:Jiu_events16.4}}\"/pause 1000/emote Jiu 28/pause 1500/itemAboveHead Jiu_Ramen/playSound getNewSpecialItem/pause 3300/move farmer 0 0 1/speak Jiu \"{{i18n:Jiu_events16.5}}#$b#$q 445683 null#{{i18n:Jiu_events16.6}}#$r 445683 50 geinide#{{i18n:Jiu_events16.7}}#$r 445683 0 zheshiwode#{{i18n:Jiu_events16.8}}\"/fork zoulezoule/removeItem Jiu_Ramen/pause 500/showFrame Jiu 37/jump Jiu/pause 1500/mail Jiuxiexieni/globalFade/viewport -1000 -1000/end",
+	"zoulezoule": "pause 500/emote Jiu 32/speak Jiu \"{{i18n:Jiu_events16.9.1}}\"/move Jiu 0 1 2/pause 2000/move Jiu 0 0 0/speak Jiu \"{{i18n:Jiu_events16.9.2}}\"/pause 1000/move Jiu -4 0 3 true/move Jiu 0 4 2 true/globalFade/viewport -1000 -1000/end"
+      },
+    },
+
+    { //17特殊事件 经历修罗场（没带兔脚）后并且桕也有10心
+      "LogName": "JiuEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Town",
+      "Entries": {
+        "Jiuxiuluochangbad/f Jiu 2500/o Jiu/e 195013/e 9825648": "playful/45 71/farmer -1000 -1000 2 Jiu 40 72 0/skippable/pause 1500/move Jiu 0 0 2/textAboveHead Jiu \"{{i18n:Jiu_events17.1}}\"/pause 2000/warp farmer 45 71/playSound doorClose/move farmer 0 1 2/pause 500/move farmer 0 0 3/pause 500/showFrame Jiu 24/jump Jiu/pause 500/showFrame Jiu 13/shake Jiu 1000/showFrame Jiu 12/emote Jiu 28/pause 1000/move Jiu 0 0 2/move Jiu 0 0 1/pause 1000/speak Jiu \"{{i18n:Jiu_events17.2}}\"/shake Jiu 2000/pause 2000/speed Jiu 8/move Jiu -20 0 3 true/emote farmer 40/pause 2000/globalFade/viewport -1000 -1000/end"
+      },
+    },
+
+    { //18特殊事件 经历修罗场（带兔脚）后并且桕也有10心
+      "LogName": "JiuEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Town",
+      "Entries": {
+        "Jiuxiuluochang/f Jiu 2500/o Jiu/e 195099/e 9825648": "playful/45 71/farmer -1000 -1000 2 Jiu 40 72 0/skippable/pause 1500/move Jiu 0 0 2/textAboveHead Jiu \"{{i18n:Jiu_events18.1}}\"/pause 2000/warp farmer 45 71/playSound doorClose/move farmer 0 1 2/pause 500/move farmer 0 0 3/pause 500/showFrame Jiu 24/jump Jiu/pause 500/showFrame Jiu 13/shake Jiu 1000/showFrame Jiu 12/emote Jiu 28/pause 1000/move Jiu 0 0 2/move Jiu 0 0 1/pause 1000/speak Jiu \"{{i18n:Jiu_events18.2}}\"/shake Jiu 2000/pause 2000/speed Jiu 8/move Jiu -20 0 3 true/emote farmer 8/pause 2000/globalFade/viewport -1000 -1000/end"
+      },
+    },
+
+    { //19特殊事件 当你完成桕的订单
+      "LogName": "JiuEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_jiuhouse",
+      "Entries": {
+        "Jiufishparty/n Jiufish": "playful/6 5/farmer -1000 -1000 0 Jiu 8 5 0/skippable/shake Jiu 1000/textAboveHead Jiu \"{{i18n:Jiu_events19.1}}\"/pause 500/pause 1500/move Jiu 0 0 2/pause 500/jump Jiu/pause 2000/speak Jiu \"{{i18n:Jiu_events19.2}}\"/pause 500/emote Jiu 56/pause 1000/move Jiu 0 0 0/playSound coin/pause 500/move Jiu -2 0 3/move Jiu 0 1 2/warp farmer 6 9/playSound doorClose/pause 500/showFrame Jiu 24/jump Jiu/pause 1000/showFrame Jiu 0/emote Jiu 28/pause 1000/speak Jiu \"{{i18n:Jiu_events19.3}}\"/move Jiu 0 -1 0 true/pause 500/move farmer 0 -3 0/move farmer 2 0 1 true/jump Jiu/addLantern 198 7 4 0/move farmer 0 -1 3/pause 500/move Jiu 0 0 1/speak Jiu \"$y '{{i18n:Jiu_events19.4}}'\"/pause 1000/removeTemporarySprites/playSound coin/move Jiu 1 0 1/speak Jiu \"{{i18n:Jiu_events19.5}}\"/pause 500/addItem 198 1 0/playSound coin/pause 1000/speak Jiu \"{{i18n:Jiu_events19.6}}\"/emote farmer 20/move Jiu 0 3 2 true/pause 500/move farmer 0 0 2/move Jiu -1 0 3 true/move Jiu 0 1 2/warp Jiu 1000 1000/playSound doorClose/globalFade/viewport -1000 -1000/end"
+      },
+    },
+
+
+
+//e 是指看过xx事件才能触发
+//F 不能在节日触发（绿雨也算节日就离谱
+//0是背面 1是右边 2是前面 3是左边 
+//-1000 -1000 是黑屏
+      ]
+}

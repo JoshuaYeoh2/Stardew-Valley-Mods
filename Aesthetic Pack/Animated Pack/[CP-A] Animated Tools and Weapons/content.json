@@ -1,0 +1,686 @@
+{
+	"Format": "1.20.0",	
+	"ConfigSchema": 
+		{
+			"DarkSword":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				}, 
+			"ForestSword":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				}, 
+			"InfinityBlade":
+				{
+				"AllowValues": "1,2,false",
+				"Default": "2",
+				"AllowMultiple": "false"
+				}, 
+			"InfinityDagger":
+				{
+				"AllowValues": "1,2,false",
+				"Default": "2",
+				"AllowMultiple": "false"
+				}, 
+			"InfinityHammer":
+				{
+				"AllowValues": "1,2,false",
+				"Default": "2",
+				"AllowMultiple": "false"
+				}, 
+			"InsectHead":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				}, 
+			"LavaKatana":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				}, 
+			"NeptunesGlaive":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				}, 
+			"ObsidianEdge":
+				{
+				"AllowValues": "1,2,false",
+				"Default": "1",
+				"AllowMultiple": "false"
+				}, 
+			"PrismaticGalaxyDagger":
+				{
+				"AllowValues": "true,false",
+				"Default": "false",
+				"AllowMultiple": "false"
+				}, 
+			"PrismaticGalaxyHammer":
+				{
+				"AllowValues": "true,false",
+				"Default": "false",
+				"AllowMultiple": "false"
+				}, 
+			"PrismaticGalaxySword":
+				{
+				"AllowValues": "true,false",
+				"Default": "false",
+				"AllowMultiple": "false"
+				}, 
+			"PrismaticPickaxe":
+				{
+				"AllowValues": "true,false",
+				"Default": "false",
+				"AllowMultiple": "false"
+				}, 
+			"PrismaticAxe":
+				{
+				"AllowValues": "true,false",
+				"Default": "false",
+				"AllowMultiple": "false"
+				}, 
+			"PrismaticHoe":
+				{
+				"AllowValues": "true,false",
+				"Default": "false",
+				"AllowMultiple": "false"
+				}, 
+			"PrismaticCan":
+				{
+				"AllowValues": "true,false",
+				"Default": "false",
+				"AllowMultiple": "false"
+				}, 
+			"PrismaticScythe":
+				{
+				"AllowValues": "true,false",
+				"Default": "false",
+				"AllowMultiple": "false"
+				}, 
+			"ReturnScepter":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				}, 
+			"SteelSmallsword":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				}, 
+			"TemplarsSword":
+				{
+				"AllowValues": "1,2,false",
+				"Default": "1",
+				"AllowMultiple": "false"
+				}, 
+			"PrismaticBar":
+				{
+				"AllowValues": "true,false",
+				"Default": "false",
+				"AllowMultiple": "false"
+				}, 
+			"PrismaticSprinkler":
+				{
+				"AllowValues": "true,false",
+				"Default": "false",
+				"AllowMultiple": "false"
+				}, 
+			"DragontoothCutlass":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				}, 
+			"DisablePrismaticToolsInventory":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				}, 				
+			"PrismaticScytheStatic":
+				{
+				"AllowValues": "true,false",
+				"Default": "false",
+				"AllowMultiple": "false"
+				}, 
+		},	
+	"Changes": [
+		{	 
+			"LogName": "Dark Sword",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "darksword.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 32, "Y": 0, "Width": 16, "Height": 16},
+			"AnimationFrameTime": 9,
+			"AnimationFrameCount": 24,
+			"When":
+				{
+				"DarkSword": "true"
+				},
+		},
+		{	 
+			"LogName": "Forest Sword",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "forestsword.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 112, "Y": 16, "Width": 16, "Height": 16},
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 30,
+			"When":
+				{
+				"ForestSword": "true"
+				},
+		},
+		{	 
+			"LogName": "Infinity Blade 1",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "infinityblade.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 96, "Y": 112, "Width": 16, "Height": 16},
+			"AnimationFrameTime": 9,
+			"AnimationFrameCount": 18,
+			"When":
+				{
+				"InfinityBlade": "1"
+				},
+		},
+		{	 
+			"LogName": "Infinity Blade 2",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "infinityblade2.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 96, "Y": 112, "Width": 16, "Height": 16},
+			"AnimationFrameTime": 9,
+			"AnimationFrameCount": 18,
+			"When":
+				{
+				"InfinityBlade": "2"
+				},
+		},
+		{	 
+			"LogName": "Infinity Dagger",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "infinitydagger.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 16, "Height": 16},
+			"AnimationFrameTime": 9,
+			"AnimationFrameCount": 18,
+			"When":
+				{
+				"InfinityDagger": "1"
+				},
+		},
+		{	 
+			"LogName": "Infinity Dagger 2",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "infinitydagger2.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 16, "Height": 16},
+			"AnimationFrameTime": 9,
+			"AnimationFrameCount": 18,
+			"When":
+				{
+				"InfinityDagger": "2"
+				},
+		},
+		{	 
+			"LogName": "Infinity Hammer 1",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "infinityhammer.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 112, "Y": 112, "Width": 16, "Height": 16},
+			"AnimationFrameTime": 9,
+			"AnimationFrameCount": 18,
+			"When":
+				{
+				"InfinityHammer": "1"
+				},
+		},
+		{	 
+			"LogName": "Infinity Hammer 2",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "infinityhammer2.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 112, "Y": 112, "Width": 16, "Height": 16},
+			"AnimationFrameTime": 9,
+			"AnimationFrameCount": 18,
+			"When":
+				{
+				"InfinityHammer": "2"
+				},
+		},
+		{
+			"LogName": "Insect Head",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "insecthead.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 80, "Y": 16, "Width": 16, "Height": 16},
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"InsectHead": "true"
+				},
+		},
+		{
+
+			"LogName": "Lava Katana",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "lavakatana.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 16, "Y": 16, "Width": 16, "Height": 16},
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"LavaKatana": "true"
+				},
+		},
+		{
+			"LogName": "Neptune's Glaive",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "neptunesglaive.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 96, "Y": 16, "Width": 16, "Height": 16},
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 20,
+			"When":
+				{
+				"NeptunesGlaive": "true"
+				},
+		},
+		{
+			"LogName": "Obsidian Edge 1",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "obsidianedge1.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 16, "Width": 16, "Height": 16},
+			"AnimationFrameTime": 12,
+			"AnimationFrameCount": 20,
+			"When":
+				{
+				"ObsidianEdge": "1"
+				},
+		},
+		{
+			"LogName": "Obsidian Edge 2",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "obsidianedge2.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 16, "Width": 16, "Height": 16},
+			"AnimationFrameTime": 12,
+			"AnimationFrameCount": 20,
+			"When":
+				{
+				"ObsidianEdge": "2"
+				},
+		},
+		{
+			"LogName": "Prismatic Galaxy Dagger",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "prismaticgalaxydagger.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 112, "Y": 32, "Width": 16, "Height": 16},
+			"AnimationFrameTime": 9,
+			"AnimationFrameCount": 18,
+			"When":
+				{
+				"PrismaticGalaxyDagger": "true"
+				},
+		},
+		{
+			"LogName": "Prismatic Galaxy Hammer",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "prismaticgalaxyhammer.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 80, "Y": 48, "Width": 16, "Height": 16},
+			"AnimationFrameTime": 9,
+			"AnimationFrameCount": 18,
+			"When":
+				{
+				"PrismaticGalaxyHammer": "true"
+				},
+		},
+		{
+			"LogName": "Prismatic Galaxy Sword",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "prismaticgalaxysword.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 64, "Y": 0, "Width": 16, "Height": 16},
+			"AnimationFrameTime": 9,
+			"AnimationFrameCount": 18,
+			"When":
+				{
+				"PrismaticGalaxySword": "true"
+				},
+		},
+		//stokastic's Prismatic Tools
+		{
+			"LogName": "Prismatic Pickaxe",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "prismaticpickaxe.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 32 },
+			"ToArea": { "X": 224, "Y": 112, "Width": 96, "Height": 32},
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 24,
+			"When":
+				{
+				"PrismaticPickaxe": "true",
+				"DisablePrismaticToolsInventory": "false",
+				"HasMod": "stokastic.PrismaticTools"
+				},
+		},
+		{
+			"LogName": "Prismatic Pickaxe 1",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "prismaticpickaxe1.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 32 },
+			"ToArea": { "X": 224, "Y": 112, "Width": 96, "Height": 32},
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 24,
+			"When":
+				{
+				"PrismaticPickaxe": "true",
+				"DisablePrismaticToolsInventory": "true",
+				"HasMod": "stokastic.PrismaticTools"
+				},
+		},
+		{
+			"LogName": "Prismatic Axe",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "prismaticaxe.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 32 },
+			"ToArea": { "X": 224, "Y": 176, "Width": 96, "Height": 32},
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 24,
+			"When":
+				{
+				"PrismaticAxe": "true",
+				"DisablePrismaticToolsInventory": "false",
+				"HasMod": "stokastic.PrismaticTools"
+				},
+		},
+		{
+			"LogName": "Prismatic Axe 1",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "prismaticaxe1.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 32 },
+			"ToArea": { "X": 224, "Y": 176, "Width": 96, "Height": 32},
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 24,
+			"When":
+				{
+				"PrismaticAxe": "true",
+				"DisablePrismaticToolsInventory": "true",
+				"HasMod": "stokastic.PrismaticTools"
+				},
+		},
+		{
+			"LogName": "Prismatic Hoe",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "prismatichoe.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 32 },
+			"ToArea": { "X": 224, "Y": 48, "Width": 96, "Height": 32},
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 24,
+			"When":
+				{
+				"PrismaticHoe": "true",
+				"DisablePrismaticToolsInventory": "false",
+				"HasMod": "stokastic.PrismaticTools"
+				},
+		},
+		{
+			"LogName": "Prismatic Hoe 1",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "prismatichoe1.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 32 },
+			"ToArea": { "X": 224, "Y": 48, "Width": 96, "Height": 32},
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 24,
+			"When":
+				{
+				"PrismaticHoe": "true",
+				"DisablePrismaticToolsInventory": "true",
+				"HasMod": "stokastic.PrismaticTools"
+				},
+		},
+		{
+			"LogName": "Prismatic Can",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "prismaticcan.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 32 },
+			"ToArea": { "X": 224, "Y": 240, "Width": 64, "Height": 32},
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 24,
+			"When":
+				{
+				"PrismaticCan": "true",
+				"DisablePrismaticToolsInventory": "false",
+				"HasMod": "stokastic.PrismaticTools"
+				},
+		},
+		{
+			"LogName": "Prismatic Can 1",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "prismaticcan1.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 32 },
+			"ToArea": { "X": 224, "Y": 240, "Width": 64, "Height": 32},
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 24,
+			"When":
+				{
+				"PrismaticCan": "true",
+				"DisablePrismaticToolsInventory": "true",
+				"HasMod": "stokastic.PrismaticTools"
+				},
+		},
+		{
+			"LogName": "Prismatic Scythe",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "prismaticscythe.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 80, "Y": 96, "Width": 16, "Height": 16},
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 24,
+			"When":
+				{
+				"PrismaticScythe": "true",
+				"PrismaticScytheStatic": "false",
+				"HasMod": "stokastic.PrismaticTools"
+				},
+		},
+		{			
+			"LogName": "Prismatic Scyhe Static",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "prismaticscythe1.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 80, "Y": 96, "Width": 16, "Height": 16},
+			"When":
+				{
+				"PrismaticScytheStatic": "true",
+				"HasMod": "stokastic.PrismaticTools"
+				},
+		},
+		{
+			"LogName": "Prismatic Scythe Map",
+			"Action": "EditImage",
+			"Target": "Maps/Mines/mine_quarryshaft",
+			"FromFile": "prismaticscythemap.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 },
+			"ToArea": { "X": 48, "Y": 240, "Width": 32, "Height": 32},
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 24,
+			"When":
+				{
+				"PrismaticScythe": "true",
+				"HasMod": "stokastic.PrismaticTools"
+				},
+		},
+      	{        
+		 "LogName": "Prismatic Scythe Name Change for English",
+         "Action": "EditData",
+         "Target": "Data/weapons",
+         "Fields": {
+            "53": {
+               0: "Prismatic Scythe"
+            }
+         },
+		 "When":
+			{
+				"PrismaticScythe": "true",
+				"Language|contains= en": true,
+			}
+       	},
+		{        
+			 "LogName": "Prismatic Scythe Name Change for other language",
+			 "Action": "EditData",
+			 "Target": "Data/weapons",
+			 "Fields": {
+				"53": {
+				   14: "{{i18n:Prismatic.Scythe}}",
+				}
+			 },
+		 "When": {
+			"PrismaticScythe": "true",
+			"Language|contains= en": false,
+			}
+		},
+		{
+			"LogName": "Prismatic Bar",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "prismaticbar.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 128, "Y": 736, "Width": 16, "Height": 16},
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 24,
+			"When":
+				{
+				"PrismaticBar": "true",
+				"HasMod": "stokastic.PrismaticTools"
+				},
+		},
+		{
+			"LogName": "Prismatic Sprinkler",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "prismaticsprinkler.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 144, "Y": 736, "Width": 16, "Height": 16},
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 24,
+			"When":
+				{
+				"PrismaticSprinkler": "true",
+				"HasMod": "stokastic.PrismaticTools"
+				},
+		},
+		//
+		{
+			"LogName": "Return Scepter",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "returnscepter.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 32, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 36,
+			"When":
+				{
+				"ReturnScepter": "true"
+				},
+		},
+		{			
+			"LogName": "Steel Smallsword",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "steelsmallsword.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 48, "Y": 16, "Width": 16, "Height": 16},
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 20,
+			"When":
+				{
+				"SteelSmallsword": "true"
+				},
+		},
+		{			
+			"LogName": "Templar's Sword 1",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "templarssword1.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 112, "Y": 0, "Width": 16, "Height": 16},
+			"AnimationFrameTime": 9,
+			"AnimationFrameCount": 18,
+			"When":
+				{
+				"TemplarsSword": "1"
+				},
+		},
+		{			
+			"LogName": "Templar's Sword 2",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "templarssword2.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 112, "Y": 0, "Width": 16, "Height": 16},
+			"AnimationFrameTime": 9,
+			"AnimationFrameCount": 18,
+			"When":
+				{
+				"TemplarsSword": "2"
+				},
+		},
+		{			
+			"LogName": "Dragontooth Cutlass",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "dragontoothcutlass.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 16, "Y": 112, "Width": 16, "Height": 16},
+			"AnimationFrameTime": 8,
+			"AnimationFrameCount": 20,
+			"When":
+				{
+				"DragontoothCutlass": "true"
+				},
+		}
+	]
+}

@@ -1,0 +1,722 @@
+{
+  "Format": "2.0.0",
+
+  "Changes": [
+
+    {//基础信息
+      "LogName": "NPC Manifestation",
+      "Action": "Include",
+      "FromFile": "assets/disposition/Disposition.json"
+    },
+
+    {//送礼反应
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Jiu": "{{i18n:Jiu_GiftTastes_Love}}/Jiu_Fried_Crab Jiu_Ramen 198 732 253 192/{{i18n:Jiu_GiftTastes_Like}}/Jiu_Five_times_Espresso -2 -4 -12 -23 -21 -22 346 260 395 390/{{i18n:Jiu_GiftTastes_Dislike}}/-28 -12 154/{{i18n:Jiu_GiftTastes_Hate}}/-16 -15 -20 768 399 342 167/{{i18n:Jiu_GiftTastes_Neutral}}/-5 -7 -6 -17 -18"
+      },
+	"When": {
+        "HasDialogueAnswer |contains=435678":"false",
+        "HasDialogueAnswer |contains=445681":"false"
+	}
+    },
+
+    {//送礼反应判定1
+      "LogName": "NPC Gift Tastes 1",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Jiu": "{{i18n:Jiu_GiftTastes_Love}}/Jiu_Fried_Crab Jiu_Ramen 198 732 253 192/{{i18n:Jiu_GiftTastes_Like}}/Jiu_Five_times_Espresso -2 -4 -12 -23 -21 -22 346 260 395 390/{{i18n:Jiu_GiftTastes_Dislike}}/-28 -12 154/{{i18n:Jiu_GiftTastes_Hate}}/-16 -15 -20 768 399 342 167/{{i18n:Jiu_GiftTastes_Neutral}}/-5 -7 -6 -17 -18"
+      },
+	"When": {
+        "HasDialogueAnswer |contains=435678":"true",
+        "HasDialogueAnswer |contains=445681":"false"
+	}
+    },
+
+    {//送礼反应判定2
+      "LogName": "NPC Gift Tastes 2",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Jiu": "{{i18n:Jiu_GiftTastes_Love}}/Jiu_Fried_Crab Jiu_Ramen 198 732 253 192/{{i18n:Jiu_GiftTastes_Like}}/Jiu_Five_times_Espresso -2 -4 -12 -23 -21 -22 346 260 395 390/{{i18n:Jiu_GiftTastes_Dislike}}/-28 -12 154/{{i18n:Jiu_GiftTastes_Hate}}/-16 -15 -20 768 399 342 167/{{i18n:Jiu_GiftTastes_Neutral}}/-5 -7 -6 -17 -18"
+      },
+	"When": {
+        "HasDialogueAnswer |contains=435678":"false",
+        "HasDialogueAnswer |contains=445681":"true"
+	}
+    },
+
+    {//送礼反应但崩坏
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Jiu": "{{i18n:Jiu_GiftTastes_Lovebad}}/Jiu_Five_times_Espresso 198 732 253 192 346/{{i18n:Jiu_GiftTastes_Likebad}}/-2 -4 -12 -23 -21 -22 260 395/{{i18n:Jiu_GiftTastes_Dislikebad}}/-28 -12 154/{{i18n:Jiu_GiftTastes_Hatebad}}/-16 -15 -20 768 399 342 167/{{i18n:Jiu_GiftTastes_Neutralbad}}/-5 -7 -6 -17 -18"
+      },
+	"When": {
+        "HasDialogueAnswer |contains=435678":"true",
+        "HasDialogueAnswer |contains=445681":"true"
+	}
+    },
+
+    {//肖像
+      "LogName": "NPC Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Jiu",
+      "FromFile": "assets/Portraits/Jiu.png"
+    },
+
+   {//行走图
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Jiu",
+      "FromFile": "assets/Characters/Jiu.png"
+    },
+
+    {//冬装和沙滩装
+      "LogName": "Jiu - Seasonal",
+      "Action": "Load",
+      "Target": "Portraits/Jiu_winter, Characters/Jiu_winter, Portraits/Jiu_beach, Characters/Jiu_beach",
+      "FromFile": "Assets/{{TargetPathOnly}}/{{TargetWithoutPath}}.png"
+    },
+
+     {//精灵鼻子
+	"LogName": "Jiu - Nose",
+	"Action": "EditImage",
+	"Target": "Characters/Jiu, Characters/Jiu_winter, Characters/Jiu_beach",
+            "FromFile": "assets/Characters/Nose.png",
+            "PatchMode": "Overlay",
+	"When":
+       {
+	"HasFile:{{FromFile}}": true,
+	"Nose": "true",
+       },
+     },
+
+     {//季节服装
+	"LogName": "Jiu - SeasonalClothes",
+	"Action": "Include",
+        "FromFile": "assets/SeasonalClothes/Seasonalclothes.json",
+	"When":
+       {
+	"SeasonalClothes": "true",
+       },
+     },
+
+    {//特殊动画
+      "LogName": "Animations",
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+	"jiu_write": "16/16 16 16 17 17 16 16 17 17 17/17",
+	"jiu_get": "25/25/25",
+	"jiu_shake": "21/21 21 21 21 21 21 21 22 22 22 22 22 22 23 23/23",
+	"jiu_cup": "20/20/20",
+	"jiu_faint": "24/24/24",
+	"jiu_drunk": "26/26/26",
+	"jiu_shock": "18/18/18",
+	"jiu_music": "29/29 29 30 30 30 30 31 31/31",
+	"jiu_sleep": "36/36/36"
+      }
+    },
+
+    {//创建项目
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Jiu, Characters/Dialogue/MarriageDialogueJiu, Strings/schedules/Jiu, Characters/schedules/Jiu",
+      "FromFile": "assets/Dialogue/Empty.json"   
+    },
+
+    {//行程文件
+      "LogName": "Schedule",
+      "Action": "Include",
+      "FromFile": "assets/Schedule/Schedule.json"
+    },
+
+    {//动画对话
+      "LogName": "Schedule Dialogue",
+      "Action": "Include",
+      "FromFile": "assets/Schedule/ScheduleDialogue.json"
+    },
+
+    {//信件
+      "Action": "Include",
+      "FromFile": "assets/Dialogue/Mail.json",
+	"When": {
+        "HasDialogueAnswer |contains=435678":"false",
+        "HasDialogueAnswer |contains=445681":"false"
+	}
+    },
+
+    {//信件判定1
+      "Action": "Include",
+      "FromFile": "assets/Dialogue/Mail.json",
+	"When": {
+        "HasDialogueAnswer |contains=435678":"true",
+        "HasDialogueAnswer |contains=445681":"false"
+	}
+    },
+
+    {//信件判定2
+      "Action": "Include",
+      "FromFile": "assets/Dialogue/Mail.json",
+	"When": {
+        "HasDialogueAnswer |contains=435678":"false",
+        "HasDialogueAnswer |contains=445681":"true"
+	}
+    },
+
+    {//信件但崩坏
+      "Action": "Include",
+      "FromFile": "assets/Dialogue/Mailbutbad.json",
+	"When": {
+        "HasDialogueAnswer |contains=435678":"true",
+        "HasDialogueAnswer |contains=445681":"true"
+	}
+    },
+
+    {//特殊订单（特别多要求巴拉巴拉的那个）
+      "Action": "Include",
+      "FromFile": "assets/Dialogue/SpecialOrder.json",
+	"When": {
+        "HasDialogueAnswer |contains=435678":"false",
+        "HasDialogueAnswer |contains=445681":"false"
+	}
+    },
+
+    {//事件
+      "Action": "Include",
+      "FromFile": "assets/Dialogue/Events.json",
+    },
+
+    {//改已有的npc对话 （但不建议因为一改就是全部npc改了
+      "Action": "Include",
+      "FromFile": "assets/Dialogue/Strings.json",
+    },
+
+    {//婚礼位置
+      "LogName": "Weddings",
+      "Action": "EditData",
+      "Target": "Data/Weddings",
+      "Fields": {
+        "Attendees": {
+          "Jiu": {
+            "Id": "Jiu",
+            "Condition": null,
+            "Setup": "Jiu 32 68 0",
+            "Celebration": null,
+            "IgnoreUnlockConditions": false
+          }
+        }
+      }
+    },
+
+    {//订婚对话
+      "LogName": "Engagement Dialogue",
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "Entries": {
+        "Jiu0": "{{i18n:Jiu_Engagement1}}",
+        "Jiu1": "{{i18n:Jiu_Engagement2}}"
+      },
+	"When": {
+        "HasDialogueAnswer |contains=435678":"false",
+        "HasDialogueAnswer |contains=445681":"false"
+	}
+    },
+
+    {//订婚对话判定1
+      "LogName": "Engagement Dialogue 1",
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "Entries": {
+        "Jiu0": "{{i18n:Jiu_Engagement1}}",
+        "Jiu1": "{{i18n:Jiu_Engagement2}}"
+      },
+	"When": {
+        "HasDialogueAnswer |contains=435678":"true",
+        "HasDialogueAnswer |contains=445681":"false"
+	}
+    },
+
+    {//订婚对话判定2
+      "LogName": "Engagement Dialogue 2",
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "Entries": {
+        "Jiu0": "{{i18n:Jiu_Engagement1}}",
+        "Jiu1": "{{i18n:Jiu_Engagement2}}"
+      },
+	"When": {
+        "HasDialogueAnswer |contains=435678":"false",
+        "HasDialogueAnswer |contains=445681":"true"
+	}
+    },
+
+    {//订婚对话但崩坏
+      "LogName": "Engagement Dialogue",
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "Entries": {
+        "Jiu0": "{{i18n:Jiu_Engagementbad1}}",
+        "Jiu1": "{{i18n:Jiu_Engagementbad2}}"
+      },
+	"When": {
+        "HasDialogueAnswer |contains=435678":"true",
+        "HasDialogueAnswer |contains=445681":"true"
+	}
+    },
+
+    {//电影票对话 配偶
+      "LogName": "MovieInvite Dialogue",
+      "Action": "EditData",
+      "Target": "Strings/Characters",
+      "Entries": {
+        "MovieInvite_Spouse_Jiu": "{{i18n:Jiu_MovieInvitation_Spouse}}",
+      },
+	"When": {
+        "HasDialogueAnswer |contains=435678":"false",
+        "HasDialogueAnswer |contains=445681":"false"
+	}
+    },
+
+    {//电影票对话 配偶 判定1
+      "LogName": "MovieInvite Dialogue",
+      "Action": "EditData",
+      "Target": "Strings/Characters",
+      "Entries": {
+        "MovieInvite_Spouse_Jiu": "{{i18n:Jiu_MovieInvitation_Spouse}}",
+      },
+	"When": {
+        "HasDialogueAnswer |contains=435678":"true",
+        "HasDialogueAnswer |contains=445681":"false"
+	}
+    },
+
+    {//电影票对话 配偶 判定2
+      "LogName": "MovieInvite Dialogue",
+      "Action": "EditData",
+      "Target": "Strings/Characters",
+      "Entries": {
+        "MovieInvite_Spouse_Jiu": "{{i18n:Jiu_MovieInvitation_Spouse}}",
+      },
+	"When": {
+        "HasDialogueAnswer |contains=435678":"false",
+        "HasDialogueAnswer |contains=445681":"true"
+	}
+    },
+
+    {//电影票对话 配偶但崩坏
+      "LogName": "MovieInvite Dialogue",
+      "Action": "EditData",
+      "Target": "Strings/Characters",
+      "Entries": {
+        "MovieInvite_Spouse_Jiu": "{{i18n:Jiu_MovieInvitation_Spousebad}}",
+      },
+	"When": {
+        "HasDialogueAnswer |contains=435678":"true",
+        "HasDialogueAnswer |contains=445681":"true"
+	}
+    },
+
+	//配偶房
+    {
+      "Action": "Load",
+      "Target": "Maps/Jiu_SpouseRoom",
+      "FromFile": "assets/Location/SpouseRoomJiu.tbin"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/Jiu_SpousePatio",
+      "FromFile": "assets/Location/SpousePatioJiu.tmx"
+    },
+
+    {//电影相关
+      "Action": "Include",
+      "FromFile": "assets/Dialogue/MoviesReactions.json",
+    },
+
+    {//结婚对话
+      "LogName": "Marriage Dialogue",
+      "Action": "Include",
+      "FromFile": "assets/Dialogue/MarriageDialogue.json",
+      "When": {
+        "HasDialogueAnswer |contains=435678":"false",
+        "HasDialogueAnswer |contains=445681":"false"
+	}
+    },
+
+    {//结婚对话判定1
+      "LogName": "Marriage Dialogue_1",
+      "Action": "Include",
+      "FromFile": "assets/Dialogue/MarriageDialogue.json",
+      "When": {
+        "HasDialogueAnswer |contains=435678":"false",
+        "HasDialogueAnswer |contains=445681":"true"
+	}
+    },
+
+    {//结婚对话判定2
+      "LogName": "Marriage Dialogue_2",
+      "Action": "Include",
+      "FromFile": "assets/Dialogue/MarriageDialogue.json",
+      "When": {
+        "HasDialogueAnswer |contains=435678":"true",
+        "HasDialogueAnswer |contains=445681":"false"
+	}
+    },
+
+    {//结婚对话但崩坏
+      "LogName": "Marriage Dialogue_Butbad",
+      "Action": "Include",
+      "FromFile": "assets/Dialogue/MarriageDialoguebutbad.json",
+      "When": {
+        "HasDialogueAnswer |contains=435678":"true",
+        "HasDialogueAnswer |contains=445681":"true"
+	}
+    },
+
+    {//雨天
+      "LogName": "Rainy Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/rainy",
+      "Entries": {
+        "Jiu": "{{i18n:Jiu_Rainy}}"
+      }
+    },
+
+    {//日常对话
+      "LogName": "Dialogue",
+      "Action": "Include",
+      "FromFile": "assets/Dialogue/Dialogue.json",
+	"When": {
+        "HasDialogueAnswer |contains=435678":"false",
+        "HasDialogueAnswer |contains=445681":"false"
+	}
+    },
+
+    {//日常对话判定1
+      "LogName": "Dialogue_1",
+      "Action": "Include",
+      "FromFile": "assets/Dialogue/Dialogue.json",
+	"When": {
+        "HasDialogueAnswer |contains=435678":"true",
+        "HasDialogueAnswer |contains=445681":"false"
+	}
+    },
+
+    {//日常对话判定2
+      "LogName": "Dialogue_2",
+      "Action": "Include",
+      "FromFile": "assets/Dialogue/Dialogue.json",
+	"When": {
+        "HasDialogueAnswer |contains=435678":"false",
+        "HasDialogueAnswer |contains=445681":"true"
+	}
+    },
+
+    {//日常对话但崩坏
+      "LogName": "Dialogue_butbad",
+      "Action": "Include",
+      "FromFile": "assets/Dialogue/Dialoguebutbad.json",
+	"When": {
+        "HasDialogueAnswer |contains=435678":"true",
+        "HasDialogueAnswer |contains=445681":"true"
+	}
+    },
+
+    {//更改一些日常对话如果结婚了
+      "LogName": "Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Jiu",
+      "Entries":{
+  "AcceptBirthdayGift_Positive": "{{i18n:Jiu_AcceptBirthdayGift_PositiveM}}",//正向的生日礼物
+  "AcceptBirthdayGift_Negative": "{{i18n:Jiu_AcceptBirthdayGift_NegativeM}}",//负面的生日礼物
+  "AcceptGift_(O)StardropTea": "{{i18n:Jiu_AcceptGift_StardropTeaM}}",//星之果实咖啡
+  "reject_399": "{{i18n:Jiu_reject_399M}}",
+  "AcceptGift_(O)346": null,
+  "reject_346": "{{i18n:Jiu_reject_346M}}",
+  "WinterStar_ReceiveGift": "{{i18n:Jiu_WinterStar_ReceiveGiftM}}",
+  "Resort": "{{i18n:Jiu_ResortM}}",
+  "Resort_Entering": "{{i18n:Jiu_Resort_EnteringM}}",
+  "Resort_Leaving": "{{i18n:Jiu_Resort_LeavingM}}",
+  "Resort_Chair": "{{i18n:Jiu_Resort_ChairM}}",
+  "Resort_Bar": "{{i18n:Jiu_Resort_BarM}}",
+  "HitBySlingshot": "{{i18n:Jiu_HitBySlingshotM}}",
+},
+      "When": {
+      	"Relationship:Jiu": "Married",
+        "HasDialogueAnswer |contains=435678":"false",
+        "HasDialogueAnswer |contains=445681":"false"
+}
+    },
+
+    {//更改一些日常对话如果结婚了判定1
+      "LogName": "Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Jiu",
+      "Entries":{
+  "AcceptBirthdayGift_Positive": "{{i18n:Jiu_AcceptBirthdayGift_PositiveM}}",//正向的生日礼物
+  "AcceptBirthdayGift_Negative": "{{i18n:Jiu_AcceptBirthdayGift_NegativeM}}",//负面的生日礼物
+  "AcceptGift_(O)StardropTea": "{{i18n:Jiu_AcceptGift_StardropTeaM}}",//星之果实咖啡
+  "reject_399": "{{i18n:Jiu_reject_399M}}",
+  "AcceptGift_(O)346": null,
+  "reject_346": "{{i18n:Jiu_reject_346M}}",
+  "WinterStar_ReceiveGift": "{{i18n:Jiu_WinterStar_ReceiveGiftM}}",
+  "Resort": "{{i18n:Jiu_ResortM}}",
+  "Resort_Entering": "{{i18n:Jiu_Resort_EnteringM}}",
+  "Resort_Leaving": "{{i18n:Jiu_Resort_LeavingM}}",
+  "Resort_Chair": "{{i18n:Jiu_Resort_ChairM}}",
+  "Resort_Bar": "{{i18n:Jiu_Resort_BarM}}",
+  "HitBySlingshot": "{{i18n:Jiu_HitBySlingshotM}}",
+},
+      "When": {
+      	"Relationship:Jiu": "Married",
+        "HasDialogueAnswer |contains=435678":"true",
+        "HasDialogueAnswer |contains=445681":"false"
+}
+    },
+
+    {//更改一些日常对话如果结婚了判定2
+      "LogName": "Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Jiu",
+      "Entries":{
+  "AcceptBirthdayGift_Positive": "{{i18n:Jiu_AcceptBirthdayGift_PositiveM}}",//正向的生日礼物
+  "AcceptBirthdayGift_Negative": "{{i18n:Jiu_AcceptBirthdayGift_NegativeM}}",//负面的生日礼物
+  "AcceptGift_(O)StardropTea": "{{i18n:Jiu_AcceptGift_StardropTeaM}}",//星之果实咖啡
+  "reject_399": "{{i18n:Jiu_reject_399M}}",
+  "AcceptGift_(O)346": null,
+  "reject_346": "{{i18n:Jiu_reject_346M}}",
+  "WinterStar_ReceiveGift": "{{i18n:Jiu_WinterStar_ReceiveGiftM}}",
+  "Resort": "{{i18n:Jiu_ResortM}}",
+  "Resort_Entering": "{{i18n:Jiu_Resort_EnteringM}}",
+  "Resort_Leaving": "{{i18n:Jiu_Resort_LeavingM}}",
+  "Resort_Chair": "{{i18n:Jiu_Resort_ChairM}}",
+  "Resort_Bar": "{{i18n:Jiu_Resort_BarM}}",
+  "HitBySlingshot": "{{i18n:Jiu_HitBySlingshotM}}",
+},
+      "When": {
+      	"Relationship:Jiu": "Married",
+        "HasDialogueAnswer |contains=435678":"false",
+        "HasDialogueAnswer |contains=445681":"true"
+}
+    },
+
+    {//更改一些日常对话如果结婚了但崩坏
+      "LogName": "Dialogue_Butbad",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Jiu",
+      "Entries":{
+  "AcceptBirthdayGift_Positive": "{{i18n:Jiu_AcceptBirthdayGift_PositiveMbad}}",//正向的生日礼物
+  "AcceptBirthdayGift_Negative": "{{i18n:Jiu_AcceptBirthdayGift_NegativeMbad}}",//负面的生日礼物
+  "AcceptGift_(O)StardropTea": "{{i18n:Jiu_AcceptGift_StardropTeaMbad}}",//星之果实咖啡
+  "reject_(O)399": "{{i18n:Jiu_reject_399Mbad}}",
+  "AcceptGift_(O)346": "{{i18n:Jiu_AcceptGift_346Mbad}}",
+  "HitBySlingshot": "{{i18n:Jiu_HitBySlingshotMbad}}",
+},
+      "When": {
+      	"Relationship:Jiu": "Married",
+        "HasDialogueAnswer |contains=435678":"true",
+        "HasDialogueAnswer |contains=445681":"true"
+}
+    },
+
+    //{//进门泡泡
+      //"LogName": "SpeechBubbles",
+      //"Action": "EditData",
+      //"Target": "Data/SpeechBubbles",
+     //"Entries":{
+        //"Saloon_Jiu_Greeting1": "{{i18n:Saloon_Jiu_Greeting1}}",
+        //"Saloon_Jiu_Greeting2": "{{i18n:Saloon_Jiu_Greeting2}}",
+        //"Saloon_Jiu_Greeting3": "{{i18n:Saloon_Jiu_Greeting3}}",
+//},
+      //"When": {
+        //"HasDialogueAnswer |contains=435678":"false",
+        //"HasDialogueAnswer |contains=445681":"false"
+//}
+    //},
+
+    {//进门泡泡，并没有实际测试过
+      "LogName": "SpeechBubbles",
+      "Action": "EditData",
+      "Target": "Data/SpeechBubbles",
+     "Entries":{
+        "bed_Jiu_Night1": "{{i18n:bed_Jiu_Night1}}",
+},
+      "When": {
+      	"Relationship:Jiu": "Married",
+        "HasDialogueAnswer |contains=435678":"false",
+        "HasDialogueAnswer |contains=445681":"false"
+}
+    },
+
+    {//地图，放大镜
+      "Action": "Include",
+      "FromFile": "assets/Dialogue/MapsStrings.json",
+    },
+
+    {//节日
+      "Action": "Include",
+      "FromFile": "assets/Dialogue/Festival.json",
+    },
+
+    {//若是开多结婚模组，这个对话只会在你最后结婚跟桕的时候启动。比方你跟桕结婚了但你又跟谢恩结婚了，那么这个对话将不会触发。
+	"LogName": "Married ExtraDialogue",
+	"Action": "EditData",
+	"Target": "Data/ExtraDialogue",
+	"Entries":{
+	"Mines_PlayerKilled_Spouse_PlayerFemale": "{{i18n:Jiu_Mines_PlayerKilled_Spouse_PlayerFemale}}",//结婚后战斗晕倒
+	"Mines_PlayerKilled_Spouse_PlayerMale": "{{i18n:Jiu_Mines_PlayerKilled_Spouse_PlayerMale}}",//结婚后战斗晕倒
+        "NewChild_FirstChild": "{{i18n:Jiu_NewChild_FirstChild}}",//第一个孩子
+        "NewChild_SecondChild1": "{{i18n:Jiu_NewChild_SecondChild1}}",//第二个孩子
+        "NewChild_SecondChild2": "{{i18n:Jiu_NewChild_SecondChild2}}",
+        "NewChild_Adoption": "{{i18n:Jiu_NewChild_Adoption}}",//收养孩子
+        "Spouse_KitchenBlocked": "{{i18n:Jiu_Spouse_KitchenBlocked}}",//厨房堵塞
+        "Spouse_MonstersInHouse": "{{i18n:Jiu_Spouse_MonstersInHouse}}"//怪物在家里
+      },
+      "When": {
+	"Spouse": "Jiu",
+        "HasDialogueAnswer |contains=435678":"false",
+        "HasDialogueAnswer |contains=445681":"false"
+	}
+     },
+
+    {//若是开多结婚模组，这个对话只会在你最后结婚跟桕的时候启动。比方你跟桕结婚了但你又跟谢恩结婚了，那么这个对话将不会触发。判定1
+	"LogName": "Married ExtraDialogue",
+	"Action": "EditData",
+	"Target": "Data/ExtraDialogue",
+	"Entries":{
+	"Mines_PlayerKilled_Spouse_PlayerFemale": "{{i18n:Jiu_Mines_PlayerKilled_Spouse_PlayerFemale}}",//结婚后战斗晕倒
+	"Mines_PlayerKilled_Spouse_PlayerMale": "{{i18n:Jiu_Mines_PlayerKilled_Spouse_PlayerMale}}",//结婚后战斗晕倒
+        "NewChild_FirstChild": "{{i18n:Jiu_NewChild_FirstChild}}",//第一个孩子
+        "NewChild_SecondChild1": "{{i18n:Jiu_NewChild_SecondChild1}}",//第二个孩子
+        "NewChild_SecondChild2": "{{i18n:Jiu_NewChild_SecondChild2}}",
+        "NewChild_Adoption": "{{i18n:Jiu_NewChild_Adoption}}",//收养孩子
+        "Spouse_KitchenBlocked": "{{i18n:Jiu_Spouse_KitchenBlocked}}",//厨房堵塞
+        "Spouse_MonstersInHouse": "{{i18n:Jiu_Spouse_MonstersInHouse}}"//怪物在家里
+      },
+      "When": {
+	"Spouse": "Jiu",
+        "HasDialogueAnswer |contains=435678":"true",
+        "HasDialogueAnswer |contains=445681":"false"
+	}
+     },
+
+    {//若是开多结婚模组，这个对话只会在你最后结婚跟桕的时候启动。比方你跟桕结婚了但你又跟谢恩结婚了，那么这个对话将不会触发。判定2
+	"LogName": "Married ExtraDialogue",
+	"Action": "EditData",
+	"Target": "Data/ExtraDialogue",
+	"Entries":{
+	"Mines_PlayerKilled_Spouse_PlayerFemale": "{{i18n:Jiu_Mines_PlayerKilled_Spouse_PlayerFemale}}",//结婚后战斗晕倒
+	"Mines_PlayerKilled_Spouse_PlayerMale": "{{i18n:Jiu_Mines_PlayerKilled_Spouse_PlayerMale}}",//结婚后战斗晕倒
+        "NewChild_FirstChild": "{{i18n:Jiu_NewChild_FirstChild}}",//第一个孩子
+        "NewChild_SecondChild1": "{{i18n:Jiu_NewChild_SecondChild1}}",//第二个孩子
+        "NewChild_SecondChild2": "{{i18n:Jiu_NewChild_SecondChild2}}",
+        "NewChild_Adoption": "{{i18n:Jiu_NewChild_Adoption}}",//收养孩子
+        "Spouse_KitchenBlocked": "{{i18n:Jiu_Spouse_KitchenBlocked}}",//厨房堵塞
+        "Spouse_MonstersInHouse": "{{i18n:Jiu_Spouse_MonstersInHouse}}"//怪物在家里
+      },
+      "When": {
+	"Spouse": "Jiu",
+        "HasDialogueAnswer |contains=435678":"false",
+        "HasDialogueAnswer |contains=445681":"true"
+	}
+     },
+
+    {//若是开多结婚模组，这个对话只会在你最后结婚跟桕的时候启动。比方你跟桕结婚了但你又跟谢恩结婚了，那么这个对话将不会触发。但是是崩坏
+	"LogName": "Married ExtraDialogue",
+	"Action": "EditData",
+	"Target": "Data/ExtraDialogue",
+	"Entries":{
+	"Mines_PlayerKilled_Spouse_PlayerFemale": "{{i18n:Jiu_Mines_PlayerKilled_Spouse_PlayerFemalebad}}",//结婚后战斗晕倒
+	"Mines_PlayerKilled_Spouse_PlayerMale": "{{i18n:Jiu_Mines_PlayerKilled_Spouse_PlayerMalebad}}",//结婚后战斗晕倒
+        "NewChild_FirstChild": "{{i18n:Jiu_NewChild_FirstChildbad}}",//第一个孩子
+        "NewChild_SecondChild1": "{{i18n:Jiu_NewChild_SecondChild1bad}}",//第二个孩子
+        "NewChild_SecondChild2": "{{i18n:Jiu_NewChild_SecondChild2bad}}",
+        "NewChild_Adoption": "{{i18n:Jiu_NewChild_Adoptionbad}}",//收养孩子
+        "Spouse_KitchenBlocked": "{{i18n:Jiu_Spouse_KitchenBlockedbad}}",//厨房堵塞
+        "Spouse_MonstersInHouse": "{{i18n:Jiu_Spouse_MonstersInHousebad}}"//怪物在家里
+      },
+      "When": {
+	"Spouse": "Jiu",
+        "HasDialogueAnswer |contains=435678":"true",
+        "HasDialogueAnswer |contains=445681":"true"
+	}
+     },
+
+ {//山顶对话
+      "Action": "EditData",
+      "Target": "Data/ExtraDialogue",
+      "Entries": {
+        "SummitEvent_Dialogue3_Jiu": "{{i18n:SummitEvent_Dialogue3_Jiu1}}\"/emote farmer 20/pause 500/emote Jiu 60/pause 500/speak Jiu \"{{i18n:SummitEvent_Dialogue3_Jiu2}}\"/pause 1000/emote Jiu 40/pause 1000/speak Jiu \"{{i18n:SummitEvent_Dialogue3_Jiu3}}\"",
+      },
+      "When": {
+        "HasDialogueAnswer |contains=435678":"false",
+        "HasDialogueAnswer |contains=445681":"false"
+	}
+    },
+
+ {//山顶对话判定1
+      "Action": "EditData",
+      "Target": "Data/ExtraDialogue",
+      "Entries": {
+        "SummitEvent_Dialogue3_Jiu": "{{i18n:SummitEvent_Dialogue3_Jiu1}}\"/emote farmer 20/pause 500/emote Jiu 60/pause 500/speak Jiu \"{{i18n:SummitEvent_Dialogue3_Jiu2}}\"/pause 1000/emote Jiu 40/pause 1000/speak Jiu \"{{i18n:SummitEvent_Dialogue3_Jiu3}}\"",
+      },
+      "When": {
+        "HasDialogueAnswer |contains=435678":"true",
+        "HasDialogueAnswer |contains=445681":"false"
+	}
+    },
+
+ {//山顶对话判定2
+      "Action": "EditData",
+      "Target": "Data/ExtraDialogue",
+      "Entries": {
+        "SummitEvent_Dialogue3_Jiu": "{{i18n:SummitEvent_Dialogue3_Jiu1}}\"/emote farmer 20/pause 500/emote Jiu 60/pause 500/speak Jiu \"{{i18n:SummitEvent_Dialogue3_Jiu2}}\"/pause 1000/emote Jiu 40/pause 1000/speak Jiu \"{{i18n:SummitEvent_Dialogue3_Jiu3}}\"",
+      },
+      "When": {
+        "HasDialogueAnswer |contains=435678":"false",
+        "HasDialogueAnswer |contains=445681":"true"
+	}
+    },
+
+ {//山顶对话但崩坏
+      "Action": "EditData",
+      "Target": "Data/ExtraDialogue",
+      "Entries": {
+        "SummitEvent_Dialogue3_Jiu": "{{i18n:SummitEvent_Dialogue3_Jiu1bad}}\"/emote farmer 8/pause 500/emote Jiu 40/pause 500/speak Jiu \"{{i18n:SummitEvent_Dialogue3_Jiu2bad}}\"/pause 1000/emote Jiu 40/pause 1000/speak Jiu \"{{i18n:SummitEvent_Dialogue3_Jiu3bad}}\"",
+      },
+      "When": {
+        "HasDialogueAnswer |contains=435678":"true",
+        "HasDialogueAnswer |contains=445681":"true"
+	}
+    },
+
+
+    {//添加物品
+      "Action": "Include",
+      "FromFile": "assets/ExtraStuff/Addmorestuff.json",
+    }
+
+  ],
+
+    "ConfigSchema":
+    	{
+        	"Nose":
+        	{
+            	"AllowValues": "True, False",
+            	"Default": "True"
+        	},
+        	"SeasonalClothes":
+        	{
+            	"AllowValues": "True, False",
+            	"Default": "True"
+        	},
+	}
+
+}
+
+		
+		

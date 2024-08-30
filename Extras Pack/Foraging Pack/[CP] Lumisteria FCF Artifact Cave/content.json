@@ -1,0 +1,114 @@
+{
+	"Format": "1.24.0",
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "farm_cave_choices",
+			"Entries": {
+				"ArtifactField": {
+					"id": "ArtifactField",
+					"choice": "Artifact Field",
+					"description": "I can set up the cave as an archeological field when worms are bringing up various things.",
+					"resources": [
+						{
+							"id": "78",//Cave Carrot
+							"weight": 30
+						},
+						{
+							"id": "567",//Marble
+							"weight": 20
+						},
+						{
+							"id": "568",//Sandstone
+							"weight": 20
+						},
+						{
+							"id": "569",//Granit
+							"weight": 20
+						},
+						{
+							"id": "80",//Quartz
+							"weight": 20
+						},
+						{
+							"id": "280",//Yam
+							"weight": 20
+						},
+						{
+							"id": "770",//Mixed Seeds
+							"weight": 20
+						},
+						{
+							"id": "96",//Scroll
+							"weight": 10
+						},
+						{
+							"id": "100",//Amphora
+							"weight": 10
+						},
+						{
+							"id": "110",
+							"weight": 10
+						},
+						{
+							"id": "112",
+							"weight": 10
+						},
+						{
+							"id": "585",//Skeletal Tail
+							"weight": 10
+						},
+						{
+							"id": "581",//Prehistoric Skull
+							"weight": 10
+						},
+						{
+							"id": "121",
+							"weight": 5
+						},
+						{
+							"id": "122",
+							"weight": 5
+						},
+						{
+							"id": "97",//Scroll
+							"weight": 5
+						},
+						{
+							"id": "98",//Scroll
+							"weight": 5
+						},
+						{
+							"id": "99",//Scroll
+							"weight": 5
+						},
+						{
+							"id": "108",//Rare Disk
+							"weight": 2
+						},
+						{
+							"id": "114",//Ancient Seed
+							"weight": 2
+						},
+						{
+							"id": "120",//Prehistoric HandAxe
+							"weight": 2
+						},
+						{
+							"id": "126",//Strange Doll
+							"weight": 2
+						},
+						{
+							"id": "127",//Strange Doll
+							"weight": 2
+						},
+						{
+							"id": "107",//Dinosaur Egg
+							"weight": 1
+						}
+					]
+				}
+			}
+		}
+	]
+}

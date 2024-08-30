@@ -1,0 +1,101 @@
+{
+  "Changes": [
+    { 	// Miranda Dentro ou Fora
+      "LogName": "Fora da Vila",
+      "Action": "Include",
+      "FromFile": "Ativos/Personagens/Posições/Miranda_Ps.json,	Ativos/Personagens/Agenda/Mi_Agenda.json",
+	},
+    {	//Artes
+      "LogName": "Corpo",
+      "Action": "Load",
+      "Target": "Characters/Miranda",
+      "FromFile": "Ativos/Personagens/Artes/Miranda/Comum/Boneco_{{season}}_Sun.png"
+    },
+    {
+      "LogName": "Retrato",
+      "Action": "Load",
+      "Target": "Portraits/Miranda",
+      "FromFile": "Ativos/Personagens/Artes/Miranda/Comum/Retrato_{{season}}_Sun.png"
+    },
+	{
+      "LogName": "Corpo Casual",
+      "Action": "EditImage",
+      "Target": "Characters/Miranda",
+      "FromFile": "Ativos/Personagens/Artes/Miranda/Casual/Boneco_{{season}}.png",
+      "When": { "LocationName": "Casa.Interior, Casa.Sótão, FarmHouse, FarmHouse1, FarmHouse1_marriage, FarmHouse2, FarmHouse2_marriage, IslandFarmHouse, MovieTheater, MovieTheaterScreen" },
+      "Update": "OnLocationChange"
+    },
+	{
+      "LogName": "Corpo Chuva ou Neve",
+      "Action": "EditImage",
+      "Target": "Characters/Miranda",
+      "FromFile": "Ativos/Personagens/Artes/Miranda/Comum/Boneco_{{season}}_{{WeatherVariant}}.png",
+      "When": { "LocationName": "Town,	Mountain,	Railroad,	BusStop,	Backwoods,	Forest,	Woods,	Beach,	Desert,	Farm,	Farm_Combat,	Farm_Fishing,	Farm_Foraging,	Farm_FourCorners,	Farm_Mining,	Farm_Island,	Custom_Ridgeside_RidgesideVillage,	EastScarp_Village" },
+      "Update": "OnLocationChange"
+    },
+	{
+      "LogName": "Retrato Chuva ou Neve",
+      "Action": "EditImage",
+      "Target": "Portraits/Miranda",
+      "FromFile": "Ativos/Personagens/Artes/Miranda/Comum/Retrato_{{season}}_{{WeatherVariant}}.png",
+      "When": { "LocationName": "Town,	Mountain,	Railroad,	BusStop,	Backwoods,	Forest,	Woods,	Beach,	Desert,	Farm,	Farm_Combat,	Farm_Fishing,	Farm_Foraging,	Farm_FourCorners,	Farm_Mining,	Farm_Island,	Custom_Ridgeside_RidgesideVillage,	EastScarp_Village" },
+      "Update": "OnLocationChange"
+    },
+	{
+      "LogName": "Corpo Praia",
+      "Action": "EditImage",
+      "Target": "Characters/Miranda",
+      "FromFile": "Ativos/Personagens/Artes/Miranda/Praia/Boneco.png",
+      "When": { "Time": "{{Range: 1130, 1820}}",
+      "LocationName": "IslandSouth, IslandWest, IslandEast, IslandNorth, Island_E, Island_N, Island_Resort, Island_N_Trader, Island_S, Island_SE, Island_Secret, Island_Shrine, Island_W, Island_House_Restored" },
+      "Update": "OnLocationChange"
+    },
+	{
+      "LogName": "Retrato Praia",
+      "Action": "EditImage",
+      "Target": "Portraits/Miranda",
+      "FromFile": "Ativos/Personagens/Artes/Miranda/Praia/Retrato.png",
+      "When": { "Time": "{{Range: 1130, 1820}}",
+      "LocationName": "IslandSouth, IslandWest, IslandEast, IslandNorth, Island_E, Island_N, Island_Resort, Island_N_Trader, Island_S, Island_SE, Island_Secret, Island_Shrine, Island_W, Island_House_Restored" },
+      "Update": "OnLocationChange"
+    },
+	{	//Festival Arte
+      "Action": "Load",
+      "Target": "Characters/Mi.Boneco_FlowerDance, Portraits/Mi.Retrato_FlowerDance, Characters/Mi.Boneco_Luau, Portraits/Mi.Retrato_Luau, Characters/Mi.Boneco_DanceMoonlight, Portraits/Mi.Retrato_DanceMoonlight, Characters/Mi.Boneco_Fair, Portraits/Mi.Retrato_Fair, Characters/Mi.Boneco_SpiritsEve, Portraits/Mi.Retrato_SpiritsEve, Characters/Mi.Boneco_WinterStart, Portraits/Mi.Retrato_WinterStart",
+      "FromFile": "Ativos/Personagens/Artes/Miranda/Festival/{{TargetWithoutPath}}.png"
+    },
+    { 	//Branco e Incluir
+      "LogName": "Arquivo Branco",
+      "Action": "Load",
+      "Target": "Characters/Schedules/Miranda,	Characters/Dialogue/Miranda",
+      "FromFile": "Ativos/Personagens/Vazio.json"
+    },
+	{
+	  "LogName": "Textos, Animações, Eventos",
+      "Action": "Include",
+      "FromFile": "Ativos/Personagens/Textos/Mi_Dialogos.json,	Ativos/Personagens/Animações/Animações.json,	Ativos/Personagens/Eventos/Mi_Eventos.json"
+    },
+	{	//Festivais
+      "LogName": "Festivais",
+      "Action": "Include",
+      "FromFile": "Ativos/Personagens/Festivais/Mi_Festival.01.json",
+	  "When": {	"HasSeenEvent: anyPlayer|contains=90305264": true,	"HasSeenEvent: anyPlayer|contains=90805264": false },
+    },
+    {	//Presentes e Lixo
+      "LogName": "Presentes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Miranda": "{{i18n:Mi.gift.love}}/421 350 196 232 421 613 614 638 815 -80/{{i18n:Mi.gift.like}}/648 348 244 18 418 -75 -27 -79 -7/{{i18n:Mi.gift.dislike}}/459 393 397 226 221 220 245 288 287 286 -81/{{i18n:Mi.gift.hate}}/721 445 442 154 155 215 107 128 182 180 174 176 195 194 201 289 346 928 -4 -20 -12 -5/{{i18n:Mi.gift.neutral}}/223 22 78 206 241 243 395 -26 -6 -7 -2/ "
+      }
+    },
+	{
+	  "LogName": "Lixo",
+	  "Action": "EditData",
+	  "Target": "Characters/Dialogue/Miranda",
+	  "Entries": {
+	  	"DumpsterDiveComment": "{{i18n:Miranda.DumpsterDive}}"
+	  }
+	},
+  ]
+}

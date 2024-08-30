@@ -1,0 +1,77 @@
+﻿{
+   "Format": "2.0.0", //use 2.0.0 for 1.6 version because 1.30.0 doesn't allow to add custom items into the game.
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "NCarigon.BushBloomMod/Schedules",
+			"Entries": {
+				"{{ModId}}/summer_blackcurrant": {
+					"ShakeOff": "yourdorkbrains_cp.blackcurrantt",
+					"StartSeason": "summer",
+					"StartDay": 1,
+					"EndDay": 28,
+					"Chance": 0.3,
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "NCarigon.BushBloomMod/Schedules",
+			"Entries": {
+				"{{ModId}}/summer_redcurrant": {
+					"ShakeOff": "yourdorkbrains_cp.redcurrantt",
+					"StartSeason": "summer",
+					"StartDay": 1,
+					"EndDay": 28,
+					"Chance": 0.3,
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "NCarigon.BushBloomMod/Schedules",
+			"Entries": {
+				"{{ModId}}/summer_gooseberry": {
+					"ShakeOff": "yourdorkbrains_cp.gooseberryy",
+					"StartSeason": "summer",
+					"StartDay": 1,
+					"EndDay": 28,
+					"Chance": 0.3,
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "NCarigon.BushBloomMod/Schedules",
+			"Entries": {
+				"{{ModId}}/summer_cloudberry": {
+					"ShakeOff": "yourdorkbrains_cp.cloudberryy",
+					"StartSeason": "summer",
+					"StartDay": 1,
+					"EndDay": 28,
+					"Chance": 0.3,
+				}
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/{{ModId}}/summer_blackcurrant",
+			"FromFile": "assets/blackcurrrant_bush.png"
+		},
+		{
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/{{ModId}}/summer_redcurrant",
+			"FromFile": "assets/redcurrrant_bush.png"
+		},
+		{
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/{{ModId}}/summer_cloudberry",
+			"FromFile": "assets/cloudberry_bush.png"
+		},
+		{
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/{{ModId}}/summer_gooseberry",
+			"FromFile": "assets/gooseberry_bush.png"
+		}
+	]
+}

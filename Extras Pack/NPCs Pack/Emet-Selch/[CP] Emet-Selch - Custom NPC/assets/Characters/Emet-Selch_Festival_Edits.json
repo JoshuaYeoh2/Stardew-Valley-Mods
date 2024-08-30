@@ -1,0 +1,162 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring13",
+      "Entries": {
+        "Visorlights.EmetSelch": "Do not try to drag me into festivities. I am here by coincidence, observing the aether.",
+        "Visorlights.EmetSelch_spouse": "Do you seriously intend to participate in that children's egg game?$6#$e#I don't know what is worse: to win against them, or lose."
+      }
+    },
+
+    {
+      "LogName": "Egg Festival Emet Placement",
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring13",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Visorlights.EmetSelch 10 57 2",
+          "Delimiter": "/"
+        }
+      ]
+    },
+
+    {
+      "LogName": "Flower dance dialogue",
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring24",
+      "Entries": {
+        "Visorlights.EmetSelch": "Oh, no. Do NOT get any ideas.#$b#Absolutely not.$6",
+        "Visorlights.EmetSelch_spouse": "...I suppose you may have a dance.#$b#When there isn't such a risk of getting stepped on in the course of the townspeople's' frolicking.$6"
+      }
+    },
+
+    {
+      "LogName": "Flower Dance Emet Placement",
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring24",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Visorlights.EmetSelch 43 31 2",
+          "Delimiter": "/"
+        }
+      ]
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11",
+      "Entries": {
+        "Visorlights.EmetSelch": "If you've brought something for the pot, it had best be delicious...#$b#Or be sure to make it a good show.$u"
+      }
+    },
+
+    {
+      "LogName": "Luau Emet Placement",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Visorlights.EmetSelch 15 4 2",
+          "Delimiter": "/"
+        }
+      ],
+      "When": {
+        "HasMod |contains=DaisyNiko.SVR3": false
+      }
+    },
+    {
+      "LogName": "Luau Emet Placement(SVR3)",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Visorlights.EmetSelch 15 5 2",
+          "Delimiter": "/"
+        }
+      ],
+      "When": {
+        "HasMod |contains=DaisyNiko.SVR3": true
+      }
+    },
+
+    //moonlight jelly festival, regardless of if married
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer28",
+      "Entries": {
+        "Visorlights.EmetSelch": "I'm sorry, did I invite you to speak to me? I am here to observe the migration of the Medusozoa, not mingle with the townsfolk.$6",
+        "Visorlights.EmetSelch_spouse": "They are beautiful, are they not? Yet I fear this will be one more sight lost to time.#$e#...Never mind my ramblings. I should be glad to share this with you.$9"
+      }
+    },
+
+    {
+      "LogName": "Moonlight Jelly Placement",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer28",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Visorlights.EmetSelch 83 13 2",
+          "Delimiter": "/"
+        }
+      ]
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall27",
+      "Entries": {
+        "Visorlights.EmetSelch": "If you're going to tempt fate and block off your only medical facility with a display of beasts, at least get something a little more exciting than this.",
+        "Visorlights.EmetSelch_spouse": "Indulging in the festivities? I may be convinced to share a taste.$u"
+      }
+    },
+
+    {
+      "LogName": "Spirit's Eve Emet Placement",
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall27",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Visorlights.EmetSelch 23 62 2",
+          "Delimiter": "/"
+        }
+      ]
+    },
+    //winter star, in case hes your gift recipient
+    {
+      "LogName": "Winter Star dialogue",
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter25",
+      "Entries": {
+        "Visorlights.EmetSelch": "Was entering my name into this little celebration your idea of a joke?",
+        "Visorlights.EmetSelch-spouse": "I hardly think my presence is required in this celebration. It is not as if I am considered 'part of the town'.#$b#But if I must make an appearance as your husband..."
+      }
+    },
+
+    {
+      "LogName": "Winter Star Placement",
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter25",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Visorlights.EmetSelch 7 65 2",
+          "Delimiter": "/"
+        }
+      ]
+    }
+  ]
+}

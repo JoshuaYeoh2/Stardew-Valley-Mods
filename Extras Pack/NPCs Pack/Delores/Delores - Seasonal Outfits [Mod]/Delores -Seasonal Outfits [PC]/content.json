@@ -1,0 +1,60 @@
+{
+"Format":"1.24",
+
+"ConfigSchema": {
+"Bean": {
+"AllowValues":"True,False",
+"Default":"False"
+},
+"AddBike":{
+"AllowValues":"True,False" ,
+"Default":"False"
+}
+},
+
+"Changes":[
+
+//Outfits
+
+//regular
+{"Action":"EditImage",
+"Target": "Portraits/Delores, Characters/Delores",
+"FromFile": "assets/{{TargetPathOnly}}/{{Season}}.png"
+},
+
+//sports
+{"Action":"EditImage",
+"Target":"Portraits/Delores, Characters/Delores",
+"FromFile":"assets/{{TargetPathOnly}}/workout_{{Season}}.png",
+"Update":"OnLocationChange",
+"When":{"LocationName":"Forest, Beach, Hospital", "Bean":"False"}
+},
+
+{"Action":"EditImage",
+"Target":"Characters/Delores",
+"FromFile":"assets/Characters/Other/{{Season}}bike.png",
+"When": {"AddBike":"True", "Query: {{Time}} >1750":true, "LocationName":"BusStop"}
+},
+
+
+//Other
+
+{"Action":"EditImage",
+"Target":"Portraits/Delores,Characters/Delores",
+"FromFile":"Outfits/{{TargetPathOnly}}/Other/bean.png",
+"When": {"Bean":"true"}
+},
+{"Action":"EditImage",
+"Target":"Characters/Delores",
+"FromFile":"Outfits/Characters/beanbike.png",
+"When": {"Bean":"true", "AddBike":"true", "Query: {{Time}} >1750":true, "LocationName":"BusStop"}
+},
+
+
+
+
+
+]
+
+
+}

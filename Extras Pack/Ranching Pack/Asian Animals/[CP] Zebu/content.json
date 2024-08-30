@@ -1,0 +1,150 @@
+{
+    "Format": "2.0",
+    "Changes": [
+        {
+            "LogName": "Load data for Zebu (Belted Zebu)",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Belted Zebu": {
+                    "DisplayName": "Belted Zebu",
+                    "House": "Barn",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 5000,
+                    "ShopTexture": "Animals/Stupiddullhans.silkiechickens-Zebu Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Barn",
+                    "ShopDisplayName": "Zebu",
+                    "ShopDescription": "A type of cow from Asia.",
+     "AlternatePurchaseTypes": [
+      {
+        "Condition": null,
+        "AnimalIds": [
+          "Belted Zebu",
+          "Freckled Zebu",
+        ]
+      }
+    ],
+                    "DaysToMature": "5",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "184"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "186"
+                        }
+                    ],
+                    "DaysToProduce": "1",
+                    "HarvestType": "HarvestWithTool",
+                    "HarvestTool": "Milk Pail",
+                    "Sound": "cow",
+                    "BabySound": "cow",
+                    "Texture": "Animals/Stupiddullhans.silkiechickens-Belted Zebu",
+                    "HarvestedTexture": "Animals/Stupiddullhans.silkiechickens-Belted Zebu",
+                    "BabyTexture": "Animals/Stupiddullhans.silkiechickens-Belted Zebu Baby",
+					"UseFlippedRightForLeft": true,
+                    "SpriteWidth": "32",
+                    "SpriteHeight": "32",
+					"SellPrice": 2500,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        {
+            "LogName": "Load data for Zebu (Freckled Zebu)",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Freckled Zebu": {
+                    "DisplayName": "Freckled Zebu",
+                    "House": "Barn",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": -1,
+                    "ShopTexture": "Animals/Stupiddullhans.silkiechickens-Freckled Zebu Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Barn",
+                    "ShopDisplayName": "Freckled Zebu",
+                    "ShopDescription": "A type of cow from Asia.",
+                    "DaysToMature": "5",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "184"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "186"
+                        }
+                    ],
+                    "DaysToProduce": "1",
+                    "HarvestType": "HarvestWithTool",
+                    "HarvestTool": "Milk Pail",
+                    "Sound": "cow",
+                    "BabySound": "cow",
+                    "Texture": "Animals/Stupiddullhans.silkiechickens-Freckled Zebu",
+                    "HarvestedTexture": "Animals/Stupiddullhans.silkiechickens-Freckled Zebu",
+                    "BabyTexture": "Animals/Stupiddullhans.silkiechickens-Freckled Zebu Baby",
+					"UseFlippedRightForLeft": true,
+                    "SpriteWidth": "32",
+                    "SpriteHeight": "32",
+					"SellPrice": 2500,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        {
+            "LogName": "Load shopIcon for Zebu",
+            "Action": "Load",
+            "Target": "Animals/Stupiddullhans.silkiechickens-Zebu Icon",
+            "FromFile": "assets\\animal_shop_zebu.png"
+        },
+        {
+            "LogName": "Load adultSprite for Belted Zebu",
+            "Action": "Load",
+            "Target": "Animals/Stupiddullhans.silkiechickens-Belted Zebu",
+            "FromFile": "assets/beltedzebu.png"
+        },
+        {
+            "LogName": "Load babySprite for Belted Zebu",
+            "Action": "Load",
+            "Target": "Animals/Stupiddullhans.silkiechickens-Belted Zebu Baby",
+            "FromFile": "assets/beltedcalf.png"
+        },
+        {
+            "LogName": "Load adultSprite for Freckled Zebu",
+            "Action": "Load",
+            "Target": "Animals/Stupiddullhans.silkiechickens-Freckled Zebu",
+            "FromFile": "assets/freckledzebu.png"
+        },
+        {
+            "LogName": "Load babySprite for Freckled Zebu",
+            "Action": "Load",
+            "Target": "Animals/Stupiddullhans.silkiechickens-Freckled Zebu Baby",
+            "FromFile": "assets/freckledcalf.png"
+        }
+    ]
+}

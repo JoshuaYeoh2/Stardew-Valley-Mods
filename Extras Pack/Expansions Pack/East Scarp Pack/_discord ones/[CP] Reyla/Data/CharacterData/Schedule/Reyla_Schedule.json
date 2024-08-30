@@ -1,0 +1,263 @@
+{
+  "Changes": [
+  {
+   "LogName": "Reyla's Vanilla Schedule",
+   "Action": "EditData",
+   "Target": "Characters/schedules/RaffieJohn.Reyla",
+   "Entries":
+{
+  //(0 = Back turned to you (up), 1 = facing right, 2 = Facing you (down), 3 = facing left)
+  //"730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening THEN 1400 RaffieJohn.Reyla_Home 25 21 1 THEN 2100 RaffieJohn.Reyla_Home 16 10 0 THEN 2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep" REPLACE "THEN" WITH "/"
+
+  //Reyla goes to the hospital every month on the 9th
+  "9": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 Hospital 2 17 0/1200 Hospital 3 7 1 /1500 Saloon {{Random: 14 20 0, 24 18 2}}/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+  //Rain & Snow
+
+  "rain": "GOTO rain_1",
+
+  "rain_1": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/900 ScienceHouse 5 19 1/1400 Mountain 77 9 2/1800 Mountain 84 16 2/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+  "rain_2": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/900 Beach {{Random:40 24 2, 16 6 0, 50 22 3}}/1400 Saloon {{Random: 14 20 0, 24 18 2}}/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+  //Spring
+
+  "spring": "GOTO spring_Mon",
+
+  "spring_1": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/1000 RaffieJohn.Reyla_Home 5 15 0/1500 RaffieJohn.Reyla_Home 8 4 0/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+      
+  "spring_2": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/1000 RaffieJohn.Reyla_Home 5 15 0/1500 RaffieJohn.Reyla_Home 8 4 0/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+  "spring_3": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/1000 RaffieJohn.Reyla_Home 5 15 0/1500 RaffieJohn.Reyla_Home 8 4 0/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+  "spring_4": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/1000 RaffieJohn.Reyla_Home 5 15 0/1500 RaffieJohn.Reyla_Home 8 4 0/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+  "spring_25": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 RaffieJohn.Reyla_Home 2 5 3/1100 Town 19 63 2/1400 ArchaeologyHouse 21 5 1/1800 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+  "spring_Mon": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 AdventureGuild 7 12 3/1200 AdventureGuild 9 16 2 /1400 AdventureGuild 9 12 0/1600 AdventureGuild 3 17 3/1800 AdventureGuild 7 12 3/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+  "spring_Tue": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/1000 SeedShop 23 19 2/1300 SeedShop 23 19 2 Reyla_Workout/1600 SeedShop 13 27 1/1730 Saloon {{Random: 14 20 0, 24 18 2}}/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+  "spring_Wed": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 Mine 24 9 3 Reyla_Kneeling_Protect/1300 12 8 1 Reyla_Standing_Protect/1600 Mine 24 9 3 Reyla_Kneeling_Protect/1800 AdventureGuild 7 12 3/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+  "spring_Thu": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 Mine 24 9 3 Reyla_Kneeling_Protect/1300 12 8 1 Reyla_Standing_Protect/1600 Mine 24 9 3 Reyla_Kneeling_Protect/1800 AdventureGuild 7 12 3/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+  "spring_Fri": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 AdventureGuild 7 12 3/1200 AdventureGuild 9 16 2 /1400 AdventureGuild 9 12 0/1500 Saloon {{Random: 14 20 0, 24 18 2}}/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+  "spring_Sat": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 JojaMart {{Random: 17 19 3, 2 19 1, 26 23 1, 8 8 0}}/1400 Saloon {{Random: 14 20 0, 24 18 2}}/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+  "spring_Sun": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 ScienceHouse 5 19 1/1200 Mountain 77 9 2/1400 Beach {{Random:40 24 2, 16 6 0, 50 22 3}}/1800 JojaMart {{Random: 16 19 3, 3 19 1, 26 23 1, 8 8 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+
+
+  //NEED TO REDO
+  //Summer
+  "summer": "GOTO summer_mon",
+
+  "summer_Mon": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 AdventureGuild 7 12 3/1200 AdventureGuild 9 16 2 /1400 AdventureGuild 9 12 0/1600 AdventureGuild 3 17 3/1800 AdventureGuild 7 12 3/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+  "summer_Tue": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/1000 SeedShop 23 19 2/1300 SeedShop 23 19 2 Reyla_Workout/1600 SeedShop 13 27 1/1730 Saloon {{Random: 14 20 0, 24 18 2}}/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+  "summer_Wed": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 Mine 24 9 3 Reyla_Kneeling_Protect/1300 12 8 1 Reyla_Standing_Protect/1600 Mine 24 9 3 Reyla_Kneeling_Protect/1800 AdventureGuild 7 12 3/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+  "summer_Thu": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 Mine 24 9 3 Reyla_Kneeling_Protect/1300 12 8 1 Reyla_Standing_Protect/1600 Mine 24 9 3 Reyla_Kneeling_Protect/1800 AdventureGuild 7 12 3/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+  "summer_Fri": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 AdventureGuild 7 12 3/1200 AdventureGuild 9 16 2 /1400 AdventureGuild 9 12 0/1500 Saloon {{Random: 14 20 0, 24 18 2}}/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+  "summer_Sat": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 JojaMart {{Random: 17 19 3, 2 19 1, 26 23 1, 8 8 0}}/1400 Saloon {{Random: 14 20 0, 24 18 2}}/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+  "summer_Sun": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 ScienceHouse 5 19 1/1200 Mountain 77 9 2/1400 Beach {{Random:40 24 2, 16 6 0, 50 22 3}}/1800 JojaMart {{Random: 16 19 3, 3 19 1, 26 23 1, 8 8 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+
+
+  //NEED TO REDO
+  //Fall
+  "Fall": "GOTO Fall_mon",
+  "Fall_Mon": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 AdventureGuild 7 12 3/1200 AdventureGuild 9 16 2 /1400 AdventureGuild 9 12 0/1600 AdventureGuild 3 17 3/1800 AdventureGuild 7 12 3/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+  "Fall_Tue": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/1000 SeedShop 23 19 2/1300 SeedShop 23 19 2 Reyla_Workout/1600 SeedShop 13 27 1/1730 Saloon {{Random: 14 20 0, 24 18 2}}/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+  "Fall_Wed": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 Blacksmith {{Random: 12 14 0, 9 18 0, 6 11 2}}/1600 AdventureGuild 7 12 3/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+  "Fall_Thu": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 Mine 24 9 3 Reyla_Kneeling_Protect/1300 12 8 1 Reyla_Standing_Protect/1600 Mine 24 9 3 Reyla_Kneeling_Protect/1800 AdventureGuild 7 12 3/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+  "Fall_Fri": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 AdventureGuild 7 12 3/1200 AdventureGuild 9 16 2 /1400 AdventureGuild 9 12 0/1500 Saloon {{Random: 14 20 0, 24 18 2}}/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+  "Fall_Sat": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 JojaMart {{Random: 17 19 3, 2 19 1, 26 23 1, 8 8 0}}/1400 Saloon {{Random: 14 20 0, 24 18 2}}/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+  "Fall_Sun": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 ScienceHouse 5 19 1/1200 Mountain 77 9 2/1400 Beach {{Random:40 24 2, 16 6 0, 50 22 3}}/1800 JojaMart {{Random: 16 19 3, 3 19 1, 26 23 1, 8 8 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+
+
+
+  //NEED TO REDO
+  //Winter
+  "Winter": "GOTO Winter_mon",
+  "Winter_Mon": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/900 ScienceHouse 5 19 1/1200 Mountain 77 9 2/1400 Beach {{Random:40 24 2, 16 6 0, 50 22 3}}/1800 JojaMart {{Random: 16 19 3, 3 19 1, 26 23 1, 8 8 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+  "Winter_Tue": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/1000 SeedShop 23 19 2/1300 SeedShop 23 19 2 Reyla_Workout/1600 SeedShop 13 27 1/1730 Saloon {{Random: 14 20 0, 24 18 2}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+  "Winter_Wed": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/900 AdventureGuild 7 12 3/1200 AdventureGuild 9 16 2 /1400 AdventureGuild 9 12 0/1600 AdventureGuild 3 17 3/1800 AdventureGuild 7 12 3/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+  "Winter_Thu": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/900 AdventureGuild 7 12 3/1200 AdventureGuild 9 16 2 /1400 AdventureGuild 9 12 0/1600 AdventureGuild 3 17 3/1800 AdventureGuild 7 12 3/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+  "Winter_Fri": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/900 AdventureGuild 7 12 3/1200 AdventureGuild 9 16 2 /1400 AdventureGuild 9 12 0/1600 AdventureGuild 3 17 3/1800 AdventureGuild 7 12 3/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+  "Winter_Sat": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/900 ScienceHouse 5 19 1/1200 Mountain 77 9 2/1400 Beach {{Random:40 24 2, 16 6 0, 50 22 3}}/1800 JojaMart {{Random: 16 19 3, 3 19 1, 26 23 1, 8 8 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+  "Winter_Sun": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/900 ScienceHouse 5 19 1/1200 Mountain 77 9 2/1400 Beach {{Random:40 24 2, 16 6 0, 50 22 3}}/1800 JojaMart {{Random: 16 19 3, 3 19 1, 26 23 1, 8 8 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep"
+
+  
+       },
+       "When": {
+        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
+      }
+     },
+
+  //===================================================================================================================================================================
+  //WHEN A CERTAIN MOD IS INSTALLED
+  //===================================================================================================================================================================
+
+//=======================================================================================================================================================
+//SVE 
+//=======================================================================================================================================================
+{
+  "LogName": "Reyla's SVE Schedule",
+  "Action": "EditData",
+  "Target": "Characters/schedules/RaffieJohn.Reyla",
+  "Entries":
+{
+ //(0 = Back turned to you (up), 1 = facing right, 2 = Facing you (down), 3 = facing left)
+ //"730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening THEN 1400 RaffieJohn.Reyla_Home 25 21 1 THEN 2100 RaffieJohn.Reyla_Home 16 10 0 THEN 2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep" REPLACE "THEN" WITH "/"
+
+ //Reyla goes to the hospital every month on the 9th
+ "9": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 Hospital 2 17 0/1200 Hospital 3 7 1/1500 Saloon {{Random: 14 20 0, 24 18 2}}/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+  //Rain & Snow
+
+  "rain": "GOTO rain_1",
+
+  "rain_1": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/900 ScienceHouse 5 19 1/1400 Mountain 75 7 2/1800 Mountain 64 14 2/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+ 
+  "rain_2": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/900 Beach {{Random:40 24 2, 16 6 0, 50 22 3}}/1400 Saloon {{Random: 14 20 0, 24 18 2}}/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+ //Spring
+
+ "spring": "GOTO spring_Mon",
+
+ "spring_1": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/1000 RaffieJohn.Reyla_Home 5 15 0/1500 RaffieJohn.Reyla_Home 8 4 0/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+      
+ "spring_2": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/1000 RaffieJohn.Reyla_Home 5 15 0/1500 RaffieJohn.Reyla_Home 8 4 0/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+ "spring_3": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/1000 RaffieJohn.Reyla_Home 5 15 0/1500 RaffieJohn.Reyla_Home 8 4 0/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+ "spring_4": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/1000 RaffieJohn.Reyla_Home 5 15 0/1500 RaffieJohn.Reyla_Home 8 4 0/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+ "spring_25": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 RaffieJohn.Reyla_Home 8 4 0/1100 Town 19 63 2/1400 ArchaeologyHouse 21 5 1/1800 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+ "spring_Mon": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 AdventureGuild 7 12 3/1200 AdventureGuild 10 18 0/1400 AdventureGuild 9 14 2/1600 AdventureGuild 1 16 1/1800 AdventureGuild 2 12 3/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+ "spring_Tue": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 Mountain 64 14 2/1000 SeedShop 23 19 2/1300 SeedShop 23 19 2 Reyla_Workout/1600 SeedShop 13 27 1/1730 Saloon {{Random: 14 20 0, 24 18 2}}/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+ "spring_Wed": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 Blacksmith {{Random: 12 14 0, 9 18 0, 6 11 2}}/1600 AdventureGuild 7 16 1/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+ "spring_Thu": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 Mine 24 9 3 Reyla_Kneeling_Protect/1300 12 8 1 Reyla_Standing_Protect/1600 Mine 24 9 3 Reyla_Kneeling_Protect/1800 AdventureGuild 7 16 1/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+ "spring_Fri": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 AdventureGuild 7 16 1/1200 AdventureGuild 9 14 2/1400 AdventureGuild 2 12 3/1500 Saloon {{Random: 14 20 0, 24 18 2}}/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+ "spring_Sat": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 JojaMart {{Random: 17 19 3, 2 19 1, 26 23 1, 8 8 0}}/1400 Saloon {{Random: 14 20 0, 24 18 2}}/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+ "spring_Sun": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 ScienceHouse 5 19 1/1200 Mountain 77 9 2/1400 Beach {{Random:40 24 2, 16 6 0, 50 22 3}}/1800 JojaMart {{Random: 16 19 3, 3 19 1, 26 23 1, 8 8 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+
+
+ //NEED TO REDO
+ //Summer
+ "summer": "GOTO summer_mon",
+
+ "summer_Mon": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 AdventureGuild 7 12 3/1200 AdventureGuild 10 18 0/1400 AdventureGuild 9 14 2/1600 AdventureGuild 1 16 1/1800 AdventureGuild 2 12 3/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+ "summer_Tue": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/1000 SeedShop 23 19 2/1300 SeedShop 23 19 2 Reyla_Workout/1600 SeedShop 13 27 1/1730 Saloon {{Random: 14 20 0, 24 18 2}}/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+ "summer_Wed": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 Blacksmith {{Random: 12 14 0, 9 18 0, 6 12 2}}/1600 AdventureGuild 7 16 1/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+ "summer_Thu": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 Mine 24 9 3 Reyla_Kneeling_Protect/1300 12 8 1 Reyla_Standing_Protect/1600 Mine 24 9 3 Reyla_Kneeling_Protect/1800 AdventureGuild 7 16 1/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+ "summer_Fri": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 AdventureGuild 7 16 1/1200 AdventureGuild 9 14 2/1400 AdventureGuild 2 12 3/1500 Saloon {{Random: 14 20 0, 24 18 2}}/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+ "summer_Sat": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 JojaMart {{Random: 17 19 3, 2 19 1, 26 23 1, 8 8 0}}/1400 Saloon {{Random: 14 20 0, 24 18 2}}/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+ "summer_Sun": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 ScienceHouse 5 19 1/1200 Mountain 77 9 2/1400 Beach {{Random:40 24 2, 16 6 0, 50 22 3}}/1800 JojaMart {{Random: 16 19 3, 3 19 1, 26 23 1, 8 8 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+
+
+ //NEED TO REDO
+ //Fall
+ "Fall": "GOTO Fall_mon",
+ "fall_Mon": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 AdventureGuild 7 12 3/1200 AdventureGuild 10 18 0/1400 AdventureGuild 9 14 2/1600 AdventureGuild 1 16 1/1800 AdventureGuild 2 12 3/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+ "fall_Tue": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/1000 SeedShop 23 19 2/1300 SeedShop 23 19 2 Reyla_Workout/1600 SeedShop 13 27 1/1730 Saloon {{Random: 14 20 0, 24 18 2}}/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+ "fall_Wed": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 Blacksmith {{Random: 12 14 0, 9 18 0, 6 12 2}}/1600 AdventureGuild 7 16 1/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+ "fall_Thu": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 Mine 24 9 3 Reyla_Kneeling_Protect/1300 12 8 1 Reyla_Standing_Protect/1600 Mine 24 9 3 Reyla_Kneeling_Protect/1800 AdventureGuild 7 16 1/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+ "fall_Fri": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 AdventureGuild 7 16 1/1200 AdventureGuild 9 14 2/1400 AdventureGuild 2 12 3/1500 Saloon {{Random: 14 20 0, 24 18 2}}/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+ "fall_Sat": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 JojaMart {{Random: 17 19 3, 2 19 1, 26 23 1, 8 8 0}}/1400 Saloon {{Random: 14 20 0, 24 18 2}}/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+ "fall_Sun": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 ScienceHouse 5 19 1/1200 Mountain 77 9 2/1400 Beach {{Random:40 24 2, 16 6 0, 50 22 3}}/1800 JojaMart {{Random: 16 19 3, 3 19 1, 26 23 1, 8 8 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+
+
+
+ //NEED TO REDO
+ //Winter
+ "Winter": "GOTO Winter_mon",
+ "Winter_Mon": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/900 ScienceHouse 5 19 1/1200 Mountain 77 9 2/1400 Beach {{Random:40 24 2, 16 6 0, 50 22 3}}/1800 JojaMart {{Random: 16 19 3, 3 19 1, 26 23 1, 8 8 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+ "Winter_Tue": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/1000 SeedShop 23 19 2/1300 SeedShop 23 19 2 Reyla_Workout/1600 SeedShop 13 27 1/1730 Saloon {{Random: 14 20 0, 24 18 2}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+ "Winter_Wed": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/900 AdventureGuild 7 12 3/1200 AdventureGuild 10 18 0/1400 AdventureGuild 9 14 2/1600 AdventureGuild 1 16 1/1800 AdventureGuild 2 12 3/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+ "Winter_Thu": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/900 AdventureGuild 7 12 3/1200 AdventureGuild 10 18 0/1400 AdventureGuild 9 14 2/1600 AdventureGuild 1 16 1/1800 AdventureGuild 2 12 3/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+ "Winter_Fri": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/900 AdventureGuild 7 12 3/1200 AdventureGuild 10 18 0/1400 AdventureGuild 9 14 2/1600 AdventureGuild 1 16 1/1800 AdventureGuild 2 12 3/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+ "Winter_Sat": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/900 JojaMart {{Random: 17 19 3, 2 19 1, 26 23 1, 8 8 0}}/1400 Saloon {{Random: 14 20 0, 24 18 2}}/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+
+ "Winter_Sun": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/900 ScienceHouse 5 19 1/1200 Mountain 77 9 2/1400 Beach {{Random:40 24 2, 16 6 0, 50 22 3}}/1800 JojaMart {{Random: 16 19 3, 3 19 1, 26 23 1, 8 8 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep"
+
+
+
+ 
+
+ 
+      },
+      "When": {
+        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+      }
+    },
+
+
+//==============================================================================================================================================================
+//VANILLA CONDITIONS ARE MET
+//==============================================================================================================================================================
+
+//When the bus get's unlocked
+     {
+      "LogName": "Reyla's Vanilla Schedule Once The Bus Is Unlocked",
+      "Action": "EditData",
+      "Target": "Characters/schedules/RaffieJohn.Reyla",
+      "Entries": {
+        "22": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 Desert 4 36 1/1100 Desert 9 7 2/1400 SandyHouse 7 8 0/1800 Desert 27 23 2/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+        "23": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 Desert 9 7 2/1200 Desert 35 13 3/1600 SandyHouse 7 8 0/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep",
+        "24": "630 RaffieJohn.Reyla_Indoor_House {{Random:18 18 0, 20 20 0, 23 9 0, 28 24 0, 11 9 0, 4 17 0, 7 10 3}}/730 RaffieJohn.Reyla_Home 25 21 1 Reyla_Gardening/900 Desert 4 36 1/1100 Desert 9 7 2/1400 SandyHouse 7 8 0/1800 Desert 27 23 2/2100 RaffieJohn.Reyla_Home {{Random: 24 32 3, 30 20 2, 15 15 0, 7 4 0, 5 15 0}}/2300 RaffieJohn.Reyla_Indoor_House 7 18 3 reyla_sleep"
+      },
+      "When": {
+        "HasFlag|contains=cc_Bus": true
+
+      }
+    }
+  ]
+}

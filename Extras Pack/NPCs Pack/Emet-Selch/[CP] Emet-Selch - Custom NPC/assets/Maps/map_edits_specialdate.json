@@ -1,0 +1,16 @@
+{
+
+  "Changes": [
+
+      //adds warp to special open attic; the warp back to his house is always active
+    {
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_Emet_House",
+      "AddWarps": [
+        "11 3 {{ModId}}_Emet_Attic_Open 5 16",
+        "12 3 {{ModId}}_Emet_Attic_Open 5 16"
+      ]
+    }
+
+  ]
+}

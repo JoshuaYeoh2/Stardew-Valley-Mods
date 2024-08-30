@@ -1,0 +1,106 @@
+{
+  "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Portraits/Jiu_Summer, Characters/Jiu_Summer, Portraits/Jiu_Fall, Characters/Jiu_Fall, Portraits/Jiu_EggF, Characters/Jiu_EggF, Portraits/Jiu_Fair, Characters/Jiu_Fair, Portraits/Jiu_FlowerDance, Characters/Jiu_FlowerDance, Portraits/Jiu_Jellies, Characters/Jiu_Jellies, Portraits/Jiu_Luau, Characters/Jiu_Luau, Portraits/Jiu_SpiritsEve, Characters/Jiu_SpiritsEve, Portraits/Jiu_Winter_IceF, Characters/Jiu_Winter_IceF, Portraits/Jiu_Winter_WinterStar, Characters/Jiu_Winter_WinterStar",
+            "FromFile": "assets/{{TargetPathOnly}}/Seasonal/Jiu/{{TargetWithoutPath}}.png",
+	"When":
+       {
+	"HasFile:{{FromFile}}": true,
+       },
+        },
+
+        {
+            "LogName": "Jiu - Festival Appearance",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Jiu", "Appearance" ],
+            "Entries": {
+                "Jiu.Summer": {
+                    "Id": "Jiu.Summer",
+                    "Portrait": "Portraits/Jiu_Summer",
+                    "Sprite": "Characters/Jiu_Summer",
+		    "Season": "Summer",
+                    "Precedence": -100
+                		},
+                "Jiu.Fall": {
+                    "Id": "Jiu.Fall",
+                    "Portrait": "Portraits/Jiu_Fall",
+                    "Sprite": "Characters/Jiu_Fall",
+		    "Season": "Fall",
+                    "Precedence": -100
+                		},
+                "Jiu.EggF": {
+                    "Id": "Jiu.EggF",
+                    "Portrait": "Portraits/Jiu_EggF",
+                    "Sprite": "Characters/Jiu_EggF",
+                    "Condition": "IS_EVENT festival_spring13",
+                    "Precedence": -200
+                		},
+                "Jiu.FlowerDance": {
+                    "Id": "Jiu.FlowerDance",
+                    "Portrait": "Portraits/Jiu_FlowerDance",
+                    "Sprite": "Characters/Jiu_FlowerDance",
+                    "Condition": "IS_EVENT festival_spring24",
+                    "Precedence": -200
+                		},
+                "Jiu.Luau": {
+                    "Id": "Jiu.Luau",
+                    "Portrait": "Portraits/Jiu_Luau",
+                    "Sprite": "Characters/Jiu_Luau",
+                    "Condition": "IS_EVENT festival_summer11",
+                    "Precedence": -200
+                		},
+                "Jiu.Jellies": {
+                    "Id": "Jiu.Jellies",
+                    "Portrait": "Portraits/Jiu_Jellies",
+                    "Sprite": "Characters/Jiu_Jellies",
+                    "Condition": "IS_EVENT festival_summer28",
+                    "Precedence": -200
+                		},
+                "Jiu.Fair": {
+                    "Id": "Jiu.Fair",
+                    "Portrait": "Portraits/Jiu_Fair",
+                    "Sprite": "Characters/Jiu_Fair",
+                    "Condition": "IS_EVENT festival_fall16",
+                    "Precedence": -200
+                		},
+                "Jiu.SpiritsEve": {
+                    "Id": "Jiu.SpiritsEve",
+                    "Portrait": "Portraits/Jiu_SpiritsEve",
+                    "Sprite": "Characters/Jiu_SpiritsEve",
+                    "Condition": "IS_EVENT festival_fall27",
+                    "Precedence": -200
+                		},
+                "Jiu.Winter_IceF": {
+                    "Id": "Jiu.Winter_IceF",
+                    "Portrait": "Portraits/Jiu_Winter_IceF",
+                    "Sprite": "Characters/Jiu_Winter_IceF",
+                    "Condition": "IS_EVENT festival_winter8",
+                    "Precedence": -200
+                		},
+                "Jiu._Winter_WinterStar": {
+                    "Id": "Jiu._Winter_WinterStar",
+                    "Portrait": "Portraits/Jiu_Winter_WinterStar",
+                    "Sprite": "Characters/Jiu_Winter_WinterStar",
+                    "Condition": "IS_EVENT festival_winter25",
+                    "Precedence": -200
+                		},
+	}
+},
+
+     {//精灵鼻子
+	"LogName": "Jiu - Nose",
+	"Action": "EditImage",
+	"Target": "Characters/Jiu_Summer, Characters/Jiu_Fall, Characters/Jiu_EggF, Characters/Jiu_Fair, Characters/Jiu_FlowerDance, Characters/Jiu_Jellies, Characters/Jiu_Luau, Characters/Jiu_SpiritsEve, Characters/Jiu_Winter_IceF, Characters/Jiu_Winter_WinterStar",
+            "FromFile": "assets/Characters/Nose.png",
+            "PatchMode": "Overlay",
+	"When":
+       {
+	"HasFile:{{FromFile}}": true,
+	"Nose": "true",
+       },
+     },
+
+]
+}

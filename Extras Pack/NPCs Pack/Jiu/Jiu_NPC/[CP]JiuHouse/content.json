@@ -1,0 +1,41 @@
+{
+"Format": "2.0.0",
+  "CustomLocations":
+  [
+    {
+      "Name": "Custom_jiuhouse",
+      "FromMapFile": "jiuhouse.tbin",
+    }, 
+  ],
+
+  "Changes": [
+        {
+         "Action": "EditMap",
+         "Target": "Maps/Forest",
+         "FromFile": "jiuForest.tbin",
+         "ToArea": { "X": 41, "Y": 5, "Width": 6, "Height": 6},
+           },
+
+        {
+         "Action": "Load",
+         "Target": "Data/Events/Custom_jiuhouse",
+         "FromFile": "Custom_jiuhouse.json",
+           },
+
+    {//家
+      "Action": "EditData",
+      "Target": "Strings/StringsFromMaps",
+      "Entries": {
+        "Jiuhouse.1": "{{i18n:Jiu_Jiuhouse.1}}",
+        "Jiuhouse.2": "{{i18n:Jiu_Jiuhouse.2}}",
+        "Jiuhouse.3": "{{i18n:Jiu_Jiuhouse.3}}",
+        "Jiuhouse.4": "{{i18n:Jiu_Jiuhouse.4}}",
+        "Jiuhouse.5": "{{i18n:Jiu_Jiuhouse.5}}",
+        "Jiuhouse.6": "{{i18n:Jiu_Jiuhouse.6}}",
+        "Jiuhouse.7": "{{i18n:Jiu_Jiuhouse.7}}",
+        "Jiuhouse.8": "{{i18n:Jiu_Jiuhouse.8}}"
+      }
+    }
+
+],
+}

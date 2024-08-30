@@ -1,0 +1,19 @@
+{
+ 	"Name": "Huckleberry Season for Content Patcher",
+ 	"Author": "MarsG4S",
+	"Version": "1.2.0",
+	"Description": "Adds huckleberries as in-game forage during summer.",
+	"UniqueID": "MarsCBG.HuckleberrySeason",
+	"UpdateKeys": ["nexus:23859"],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+	"Dependencies": 
+	[
+		{
+			"UniqueID": "NCarigon.BushBloomMod",
+			"IsRequired": true,
+		},
+	]
+
+}

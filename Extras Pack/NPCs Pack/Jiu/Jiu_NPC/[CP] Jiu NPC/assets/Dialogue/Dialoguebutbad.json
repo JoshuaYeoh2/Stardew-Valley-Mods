@@ -1,0 +1,231 @@
+// 0 默认, 1 高兴, 2 伤心, 3 无表情, 4 害羞, 5 生气(注:这是固定的）
+// #$e#=对话后再次对话， #$b#=对话链接但是是新的窗口
+{
+  "Changes": [
+{
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Jiu",
+      "Entries": {
+  "Introduction": "{{i18n:Jiu_Introductionbad}}",//自我介绍
+  "AcceptBirthdayGift_Positive": "{{i18n:Jiu_AcceptBirthdayGift_Positivebad}}",//正向的生日礼物
+  "AcceptBirthdayGift_Negative": "{{i18n:Jiu_AcceptBirthdayGift_Negativebad}}",//负面的生日礼物
+  "breakUp": "{{i18n:Jiu_breakUpbad}}",//分手
+  "Divorced": "{{i18n:Jiu_Divorcedbad}}",//离婚
+  "dumped_Guys": "{{i18n:Jiu_dumped_Guysbad}}",//冷战
+  "secondChance_Guys": "{{i18n:Jiu_secondChance_Guysbad}}",//原谅
+  "AcceptGift_book_item": "{{i18n:Jiu_AcceptGift_book_itembad}}",//送书类物品
+  "AcceptGift_(O)StardropTea": "{{i18n:Jiu_AcceptGift_StardropTeabad}}",//星之果实咖啡
+  "AcceptGift_(O)154": "{{i18n:Jiu_AcceptGift_154bad}}",
+  "AcceptGift_(O)346": "{{i18n:Jiu_AcceptGift_346bad}}",
+  "AcceptGift_(O)395": "{{i18n:Jiu_AcceptGift_395bad}}",
+  "AcceptGift_(O)Jiu_Five_times_Espresso": "{{i18n:Jiu_AcceptGift_Jiu_Five_times_Espressobad}}",
+  "reject_789": "{{i18n:Jiu_reject_789bad}}",
+  "reject_399": "{{i18n:Jiu_reject_399bad}}",
+  "reject_167": "{{i18n:Jiu_reject_167bad}}",
+  //"AcceptGift_(O)【礼物代码】": "【回应对话】",
+  "FlowerDance_Accept": "{{i18n:Jiu_FlowerDance_Acceptbad}}",//花舞，答应了
+  "FlowerDance_Accept_Spouse": "{{i18n:Jiu_FlowerDance_Accept_Spousebad}}",//花舞，结婚了，答应了
+  "FlowerDance_Decline": "{{i18n:Jiu_FlowerDance_Declinebad}}",//花舞，拒绝了
+  "GreenRain": "{{i18n:Jiu_GreenRainbad}}",//绿色的雨
+  "GreenRainFinished": "{{i18n:Jiu_GreenRainFinishedbad}}",//绿色的雨结束了
+  "GreenRain_2": "{{i18n:Jiu_GreenRain_2bad}}",//绿色的雨第二年
+  "AcceptBouquet": "{{i18n:Jiu_AcceptBouquetbad}}",
+  "dating_Jiu": "{{i18n:Jiu_dating_Jiubad}}",//约会第一天
+  "dating_Jiu_memory_oneday": "{{i18n:Jiu_dating_Jiu_memory_onedaybad}}",//约会第二天
+  "married_Jiu": "{{i18n:Jiu_married_Jiubad}}",
+  "WipedMemory": "{{i18n:Jiu_WipedMemorybad}}",//消除记忆的第一次对话
+  "Divorced_gift": "{{i18n:Jiu_Divorced_giftbad}}",//离婚，送礼物
+  "DumpsterDiveComment": "{{i18n:Jiu_DumpsterDiveCommentbad}}",
+  "firstVisit_Custom_jiuhouse": "{{i18n:Jiu_firstVisit_Custom_jiuhousebad}}",
+  "SpouseFarmhouseClutter": "{{i18n:Jiu_SpouseFarmhouseClutterbad}}",
+  "Fair_Judged_PlayerLost_PurpleShorts": "{{i18n:Jiu_Fair_Judged_PlayerLost_PurpleShortsbad}}",
+  "Fair_Judged_PlayerLost_Skipped": "{{i18n:Jiu_Fair_Judged_PlayerLost_Skippedbad}}",
+  "Fair_Judged_PlayerLost": "{{i18n:Jiu_Fair_Judged_PlayerLostbad}}",
+  "Fair_Judged_PlayerWon": "{{i18n:Jiu_Fair_Judged_PlayerWonbad}}",
+  "MovieInvitation": "{{i18n:Jiu_MovieInvitationbad}}",
+
+//餐吧特殊对话
+ "Saloon": "{{i18n:Jiu_Saloonbad}}",
+
+"Saloon_Entry": "{{i18n:Jiu_Saloon_Entrybad}}",
+
+//春季
+ "Mon": "{{i18n:Jiu_Monbad}}",
+  "Mon4": "{{i18n:Jiu_Mon4bad}}",
+  "Mon6": "{{i18n:Jiu_Mon6bad}}",
+  "Mon8": "{{i18n:Jiu_Mon8bad}}",
+
+ "Tue": "{{i18n:Jiu_Tuebad}}",
+  "Tue2": "{{i18n:Jiu_Tue2bad}}",
+  "Tue8": "{{i18n:Jiu_Tue8bad}}",
+
+ "Wed": "{{i18n:Jiu_Wedbad}}",
+  "Wed8": "{{i18n:Jiu_Wed8bad}}",
+
+ "Thu": "{{i18n:Jiu_Thubad}}",
+  "Thu2": "{{i18n:Jiu_Thu2bad}}",
+  "Thu8": "{{i18n:Jiu_Thu8bad}}",
+
+ "Fri": "{{i18n:Jiu_Fribad}}",
+  "Fri2": "{{i18n:Jiu_Fri2bad}}",
+  "Fri6": "{{i18n:Jiu_Fri6bad}}",
+
+ "Sat": "{{i18n:Jiu_Satbad}}",
+  "Sat8": "{{i18n:Jiu_Sat8bad}}",
+
+ "Sun": "{{i18n:Jiu_Sunbad}}",
+  "Sun2": "{{i18n:Jiu_Sun2bad}}",
+  "Sun6": "{{i18n:Jiu_Sun6bad}}",
+
+  "spring_1_2": "{{i18n:Jiu_spring_1_2bad}}",//新年
+  "spring_19": "{{i18n:Jiu_spring_19bad}}",//谢恩生日
+  "spring_23": "{{i18n:Jiu_spring_23bad}}",//花舞节
+  "spring_23_2": "{{i18n:Jiu_spring_23_2bad}}",//花舞节2
+
+
+//夏季
+ "summer_Mon": "{{i18n:Jiu_summer_Monbad}}",
+  "summer_Mon4": "{{i18n:Jiu_summer_Mon4bad}}",
+
+ "summer_Tue": "{{i18n:Jiu_summer_Tuebad}}",
+  "summer_Tue2": "{{i18n:Jiu_summer_Tue2bad}}",
+
+ "summer_Wed": "{{i18n:Jiu_summer_Wedbad}}",
+  "summer_Wed2": "{{i18n:Jiu_summer_Wed2bad}}",
+
+ "summer_Thu": "{{i18n:Jiu_summer_Thubad}}",
+  "summer_Thu4": "{{i18n:Jiu_summer_Thu4bad}}",
+
+ "summer_Fri": "{{i18n:Jiu_summer_Fribad}}",
+  "summer_Fri6": "{{i18n:Jiu_summer_Fri6bad}}",
+
+ "summer_Sat": "{{i18n:Jiu_summer_Satbad}}",
+  "summer_Sat4": "{{i18n:Jiu_summer_Sat4bad}}",
+  "summer_Sat6": "{{i18n:Jiu_summer_Sat6bad}}",
+
+ "summer_Sun": "{{i18n:Jiu_summer_Sunbad}}",
+  "summer_Sun2": "{{i18n:Jiu_summer_Sun2bad}}", 
+  "summer_Sun8": "{{i18n:Jiu_summer_Sun8bad}}",
+
+  "summer_10_1": "{{i18n:Jiu_summer_10_1bad}}",//夏威夷宴会
+  "summer_10_2": "{{i18n:Jiu_summer_10_2bad}}",//夏威夷宴会
+  "summer_19": "{{i18n:Jiu_summer_19bad}}",//鳟鱼大赛
+  "summer_27": "{{i18n:Jiu_summer_27bad}}",//月光水母起舞节
+
+//秋季
+ "fall_Mon": "{{i18n:Jiu_fall_Monbad}}",
+  "fall_Mon6": "{{i18n:Jiu_fall_Mon6bad}",
+
+ "fall_Tue2": "{{i18n:Jiu_fall_Tue2bad}}",
+
+ "fall_Wed": "{{i18n:Jiu_fall_Wedbad}}",
+
+ "fall_Thu4": "{{i18n:Jiu_fall_Thu4bad}}",
+
+ "fall_Fri4": "{{i18n:Jiu_fall_Fri4bad}}",
+
+ "fall_Sat": "{{i18n:Jiu_fall_Satbad}}",
+  "fall_Sat6": "{{i18n:Jiu_fall_Sat6bad}}",
+
+ "fall_Sun": "{{i18n:Jiu_fall_Sunbad}}",
+  "fall_Sun2": "{{i18n:Jiu_fall_Sun2bad}}",
+  "fall_Sun4": "{{i18n:Jiu_fall_Sun4bad}}",
+  "fall_Sun6": "{{i18n:Jiu_Sun6bad}}",
+  "fall_Sun8": "{{i18n:Jiu_fall_Sun8bad}}",
+  "fall_Sun10": "{{i18n:Jiu_fall_Sun10bad}}",
+
+  "fall_15": "{{i18n:Jiu_fall_15bad}}",//展览会
+  "fall_25": "{{i18n:Jiu_fall_25bad}}",//生日
+
+//冬季
+  "winter_Mon": "{{i18n:Jiu_winter_Monbad}}",
+  "winter_Mon8": "{{i18n:Jiu_winter_Mon8bad}}",
+
+  "winter_Tue": "{{i18n:Jiu_winter_Tuebad}}",
+  "winter_Tue2": "{{i18n:Jiu_winter_Tue2bad}}",
+  "winter_Tue8": "{{i18n:Jiu_winter_Tue8bad}}",
+
+  "winter_Wed": "{{i18n:Jiu_winter_Wedbad}}",
+  "winter_Wed4": "{{i18n:Jiu_winter_Wed4bad}}",
+  "winter_Wed8": "{{i18n:Jiu_winter_Wed8bad}}",
+
+  "winter_Thu": "{{i18n:Jiu_winter_Thubad}}",
+  "winter_Thu4": "{{i18n:Jiu_winter_Thu4bad}}",
+
+  "winter_Fri": "{{i18n:Jiu_winter_Fribad}}",
+  "winter_Fri4": "{{i18n:Jiu_winter_Fri4bad}}",
+
+  "winter_Sat6": "{{i18n:Jiu_winter_Sat6bad}}",
+
+  "winter_Sun4": "{{i18n:Jiu_winter_Sun4bad}}",
+
+  "stardrop_gift": "{{i18n:Jiu_stardrop_giftbad}}",//给你星之果实
+  "RejectBouquet_Divorced": "{{i18n:Jiu_RejectBouquet_Divorcedbad}}",
+  "RejectBouquet_NpcAlreadyMarried": "{{i18n:Jiu_RejectBouquet_NpcAlreadyMarriedbad}}",
+  "RejectBouquet_VeryLowHearts": "{{i18n:Jiu_RejectBouquet_VeryLowHeartsbad}}",
+  "RejectBouquet_LowHearts": "{{i18n:Jiu_RejectBouquet_LowHeartsbad}}",
+  "RejectBouquet": "{{i18n:Jiu_RejectBouquetbad}}",
+  "RejectMermaidPendant_Divorced": "{{i18n:Jiu_RejectMermaidPendant_Divorcedbad}}",
+  "RejectMermaidPendant_NeedHouseUpgrade": "{{i18n:Jiu_RejectMermaidPendant_NeedHouseUpgradebad}}",
+  "RejectMermaidPendant_NpcWithSomeoneElse": "{{i18n:Jiu_RejectMermaidPendant_NpcWithSomeoneElsebad}}",
+  "RejectMermaidPendant_PlayerWithSomeoneElse": "{{i18n:Jiu_RejectMermaidPendant_PlayerWithSomeoneElsebad}}",
+  "RejectMermaidPendant_Under8Hearts": "{{i18n:Jiu_RejectMermaidPendant_Under8Heartsbad}}",
+  "RejectMermaidPendant_Under10Hearts": "{{i18n:Jiu_RejectMermaidPendant_Under10Heartsbad}}",
+  "RejectMermaidPendant_Under10Hearts_AskedAgain": "{{i18n:Jiu_RejectMermaidPendant_Under10Hearts_AskedAgainbad}}",
+  "RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:Jiu_RejectMovieTicket_AlreadyInvitedBySomeoneElsebad}}",
+  "RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:Jiu_RejectMovieTicket_AlreadyWatchedThisWeekbad}}",
+  "RejectMovieTicket_Divorced": "{{i18n:Jiu_RejectMovieTicket_Divorcedbad}}",
+  "SpouseFarmhouseClutter": "{{i18n:Jiu_SpouseFarmhouseClutterbad}}",
+  "WinterStar_ReceiveGift": "{{i18n:Jiu_WinterStar_ReceiveGiftbad}}",
+  "Resort": "{{i18n:Jiu_Resortbad}}",
+  "Resort_Entering": "{{i18n:Jiu_Resort_Enteringbad}}",
+  "Resort_Leaving": "{{i18n:Jiu_Resort_Leavingbad}}",
+  "Resort_Chair": "{{i18n:Jiu_Resort_Chairbad}}",
+  "Resort_Bar": "{{i18n:Jiu_Resort_Barbad}}",
+  "HitBySlingshot": "{{i18n:Jiu_HitBySlingshotbad}}",
+
+  "eventSeen_9925646": "{{i18n:Jiu_eventSeen_9925646}}",
+  "eventSeen_Jiuxiuluochang": "{{i18n:Jiu_eventSeen_Jiuxiuluochang}}",
+
+//事件
+"nifashengsha": "{{i18n:Jiu_nifashengsha}}",
+"bushuohua": "{{i18n:Jiu_bushuohua}}",
+"luguo": "{{i18n:Jiu_luguo}}",
+
+"shenmeshi": "{{i18n:Jiu_shenmeshi}}",
+"meishi": "{{i18n:Jiu_meishi}}",
+"en": "{{i18n:Jiu_en}}",
+"bushi": "{{i18n:Jiu_bushi}}",
+
+"haitan": "{{i18n:Jiu_haitan}}",
+"senlin": "{{i18n:Jiu_senlin}}",
+"chengzhen": "{{i18n:Jiu_chengzhen}}",
+
+"henxihuan": "{{i18n:Jiu_henxihuan}}",
+"laji": "{{i18n:Jiu_laji}}",
+"yiban": "{{i18n:Jiu_yiban}}",
+
+"niyoushi": "{{i18n:Jiu_niyoushi}}",
+"queshi": "{{i18n:Jiu_queshi}}",
+
+"wohui": "{{i18n:Jiu_wohui}}",
+"chenmo": "{{i18n:Jiu_chenmo}}",
+"dangranbuhui": "{{i18n:Jiu_dangranbuhui}}",
+
+"muou": "{{i18n:Jiu_muou}}",
+"daima": "{{i18n:Jiu_daima}}",
+"zhuwojia": "{{i18n:Jiu_zhuwojia}}",
+"youba": "{{i18n:Jiu_youba}}",
+
+"yichuandaima": "{{i18n:Jiu_yichuandaima}}",
+"pengyou": "{{i18n:Jiu_pengyou}}",
+
+"geinide": "{{i18n:Jiu_geinide}}",
+"zheshiwode": "{{i18n:Jiu_zheshiwode}}",
+
+//"": "",
+
+}
+}
+]
+}

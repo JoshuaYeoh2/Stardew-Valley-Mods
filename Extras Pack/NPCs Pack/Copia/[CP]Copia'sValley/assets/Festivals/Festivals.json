@@ -1,0 +1,194 @@
+{
+  "Changes": [
+	{	
+			"LogName": "EggFestival",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"TextOperations":
+   			[
+   			
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters"],
+   				    "Value": "Copia 26 62 right",
+   				    "Delimiter": "/"
+				},
+				
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "MainEvent_additionalCharacters"],
+   				    "Value": "Copia 18 64 down",
+   				    "Delimiter": "/"
+				}
+			]
+		},
+		{	
+			"LogName": "Egg Festival - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"Entries": 
+			{ "Copia": "Hm... Not sure I understand the point of eh, the eggs..."
+			}
+		},
+    {	
+			"LogName": "Flower Dance",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"TextOperations":
+   			[
+   			
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters"],
+   				    "Value": "Copia 22 41 up",
+   				    "Delimiter": "/"
+				},
+				
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "MainEvent_additionalCharacters"],
+   				    "Value": "Copia 23 41 down",
+   				    "Delimiter": "/"
+				}
+			]
+		},
+		{	
+			"LogName": "Flower Dance - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": 
+			{ "Copia": "Spring - The time of love, new life blossoming... It's. I like it. Yes."
+			}
+		},
+		{	
+	"LogName": "Luau",
+	"Action": "EditData",
+	"Target": "Data/Festivals/summer11",
+	"TextOperations":
+	   [
+	   
+		{
+			   "Operation": "Append",
+			   "Target": ["Entries", "Set-Up_additionalCharacters"],
+			   "Value": "Copia 43 23 up",
+			   "Delimiter": "/"
+		},
+		
+		{
+			   "Operation": "Append",
+			   "Target": ["Entries", "MainEvent_additionalCharacters"],
+			   "Value": "Copia 44 25 down",
+			   "Delimiter": "/"
+		}
+	]
+},
+{	
+	"LogName": "Luau - Dialogue",
+	"Action": "EditData",
+	"Target": "Data/Festivals/summer11",
+	"Entries": 
+	{ "Copia": "It's a beautiful day today... Sun is shining, this feels good."
+	}
+},
+{	
+	"LogName": "Dance of the Moonlight Jellies",
+	"Action": "EditData",
+	"Target": "Data/Festivals/summer28",
+	"TextOperations":
+	   [
+	   
+		{
+			   "Operation": "Append",
+			   "Target": ["Entries", "Set-Up_additionalCharacters"],
+			   "Value": "Copia 43 25 down",
+			   "Delimiter": "/"
+		},
+		
+		{
+			   "Operation": "Append",
+			   "Target": ["Entries", "MainEvent_additionalCharacters"],
+			   "Value": "Copia 26 36 down",
+			   "Delimiter": "/"
+		}
+	]
+},
+{	
+	"LogName": "Dance of the Moonlight Jellies - Dialogue",
+	"Action": "EditData",
+	"Target": "Data/Festivals/summer28",
+	"Entries": 
+	{ "Copia": "These 'jellies' are quite special! Very... Jiggly - I've heard."
+	}
+},
+{	
+	"LogName": "Stardew Valley Fair",
+	"Action": "EditData",
+	"Target": "Data/Festivals/fall16",
+	"TextOperations":
+	   [
+	   
+		{
+			   "Operation": "Append",
+			   "Target": ["Entries", "Set-Up_additionalCharacters"],
+			   "Value": "Copia 23 48 down",
+			   "Delimiter": "/"
+		}
+	]
+},
+{	
+	"LogName": "Stardew Valley Fair - Dialogue",
+	"Action": "EditData",
+	"Target": "Data/Festivals/fall16",
+	"Entries": 
+	{ "Copia": "Hm... I can't wait for Spirit's Eve... It's just around the corner!"
+	}
+},
+{	
+	"LogName": "Spirit's Eve",
+	"Action": "EditData",
+	"Target": "Data/Festivals/fall27",
+	"TextOperations":
+	   [
+	   
+		{
+			   "Operation": "Append",
+			   "Target": ["Entries", "Set-Up_additionalCharacters"],
+			   "Value": "Copia 20 35 down",
+			   "Delimiter": "/"
+		}
+	]
+},
+{	
+	"LogName": "Spirit's Eve - Dialogue",
+	"Action": "EditData",
+	"Target": "Data/Festivals/fall27",
+	"Entries": 
+	{ "Copia": "It's great to see you here, @! The dark lord sure is happy on this night."
+	}
+},
+{	
+	"LogName": "Feast of the Winter Star",
+	"Action": "EditData",
+	"Target": "Data/Festivals/winter25",
+	"TextOperations":
+	   [
+	   
+		{
+			   "Operation": "Append",
+			   "Target": ["Entries", "Set-Up_additionalCharacters"],
+			   "Value": "Copia 24 56 right",
+			   "Delimiter": "/"
+		}
+	]
+},
+{	
+	"LogName": "Feast of the Winter Star - Dialogue",
+	"Action": "EditData",
+	"Target": "Data/Festivals/winter25",
+	"Entries": 
+	{ "Copia": "It's so cold out here! Ugh... What are we celebrating again...?"
+	}
+}
+  ]
+  
+}

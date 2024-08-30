@@ -1,0 +1,318 @@
+{
+  "Changes": [
+	{	//Ator 00 Vazio - 16 x 32
+      "Action": "Load",
+      "Target": "Characters/Vazio",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Vazio.png"
+    },
+	{	//Ator 01 Irla - 16 x 32
+      "Action": "Load",
+      "Target": "Characters/Irla",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/NPC.Irla.png"
+    },
+	{
+	  "Action": "Load",
+	  "Target": "Portraits/Irla",
+	  "FromFile": "Ativos/Personagens/Temporario/Retratos/NPC.Irla.png"
+	},{	//Ator 01 Irla B (Sentada) - 32 x 32
+      "Action": "Load",
+      "Target": "Characters/Irla.B",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/NPC.Irla.B.png"
+    },
+	{	//Ator 02 Willian - 16 x 32
+      "Action": "Load",
+      "Target": "Characters/Willian",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/NPC.Willian.png"
+    },
+	{
+	  "Action": "Load",
+	  "Target": "Portraits/Willian",
+	  "FromFile": "Ativos/Personagens/Temporario/Retratos/NPC.Willian.png"
+	},
+	{	//Ator 03 Vizinho - 16 x 32 (Não utilizado)
+      "Action": "Load",
+      "Target": "Characters/NPC.Vizinho",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/NPC.Vizinho.png"
+    },
+	{
+	  "Action": "Load",
+	  "Target": "Portraits/NPC.Vizinho",
+	  "FromFile": "Ativos/Personagens/Temporario/Retratos/NPC.Vizinho.png"
+	},
+	{	//Ator 02 Grifo - 48 x 64
+      "Action": "Load",
+      "Target": "Characters/Grifo",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Npc.Grifo.png"
+    },
+	{
+	  "Action": "Load",
+	  "Target": "Portraits/Grifo",
+	  "FromFile": "Ativos/Personagens/Temporario/Retratos/Npc.Grifo.png"
+	},
+	{	//Ator 02 Grifo.A - 48 x 64
+      "Action": "Load",
+      "Target": "Characters/Grifo.A",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Npc.Grifo.A.png"
+    },
+	{	//Ator 02 Grifo.B - 48 x 64
+      "Action": "Load",
+      "Target": "Characters/Grifo.B",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Npc.Grifo.B.png"
+    },
+	{	//Ator 02 Grifo.c - 48 x 64
+      "Action": "Load",
+      "Target": "Characters/Grifo.C",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Npc.Grifo.C.png"
+    },
+	{	//Ator 02 Vizinho - 16 x 32
+      "Action": "Load",
+      "Target": "Characters/Vizinho",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/NPC.Vizinho.png"
+    },
+	{
+	  "Action": "Load",
+	  "Target": "Portraits/Vizinho",
+	  "FromFile": "Ativos/Personagens/Temporario/Retratos/NPC.Vizinho.png"
+	},
+	{	//Ator 02 Celular - 16 x 32 (Corpo Vazio)
+      "Action": "Load",
+      "Target": "Characters/Celular",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Vazio.png"
+    },
+	{
+	  "Action": "Load",
+	  "Target": "Portraits/Celular",
+	  "FromFile": "Ativos/Personagens/Temporario/Retratos/Ob.Celular.png"
+	},
+	{	//Ator 02 Edward Jovem - 16 x 32
+      "Action": "Load",
+      "Target": "Characters/Edward.Extra",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Npc.Edward.B.png"
+    },
+	{
+	  "Action": "Load",
+	  "Target": "Portraits/Edward.Extra",
+	  "FromFile": "Ativos/Personagens/Temporario/Retratos/NPC.Edward.png"
+	},
+	{	//Ator 03 Carro - 80 x 48
+      "Action": "Load",
+      "Target": "Characters/Carro",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Ob.Carro.png"
+    },
+	{	//Ator 04 Trem - 384 x 80
+      "Action": "Load",
+      "Target": "Characters/Trem",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Ob.Trem.png"
+    },
+	{	//Ator 04 Onibus - 128 x 64
+      "Action": "Load",
+      "Target": "Characters/Onibus",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Ob.Onibus.png"
+    },
+	{	//Ator 04 Ovo - 32 x 32
+      "Action": "Load",
+      "Target": "Characters/Ovo",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Ob.Ovo.png"
+    },
+	{	//Ator 05 Marlon Fix - 16 x 32
+      "Action": "Load",
+      "Target": "Characters/MarlonFix",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/NPC.Marlon.png"
+    },
+	{	//Ator 06 Cena Adega Comunitaria - 75 x 54
+      "Action": "Load",
+      "Target": "Characters/Adega.Comu",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Cen.Ade.Com.png"
+    },
+	{	//Ator 07 Ator_I Lojista - 16 x 31
+      "Action": "Load",
+      "Target": "Characters/Ator.I",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Ator_I.png"
+    },
+	{	//Ator 08 Cena Adega Joja - 75 x 55
+      "Action": "Load",
+      "Target": "Characters/Adega.Joja",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Cen.Ade.Joj.png"
+    },
+	{	//Ator 09 Ator_A - 16 x 32
+      "Action": "Load",
+      "Target": "Characters/Ator.A",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Ator_A.png"
+    },
+	{	//Ator 09 Ator_B - 16 x 32
+      "Action": "Load",
+      "Target": "Characters/Ator.B",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Ator_B.png"
+    },
+	{	//Ator 09 Ator_C - 16 x 32
+      "Action": "Load",
+      "Target": "Characters/Ator.C",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Ator_C.png"
+    },
+	{	//Ator 09 Ator_D - 16 x 32
+      "Action": "Load",
+      "Target": "Characters/Ator.D",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Ator_D.png"
+    },
+	{	//Ator 09 Ator_E (Trabalhador) - 19 x 28
+      "Action": "Load",
+      "Target": "Characters/Ator.E",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Ator_E.png"
+    },
+	{	//Ator 09 Ator_F - 16 x 32
+      "Action": "Load",
+      "Target": "Characters/Ator.F",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Ator_F.png"
+    },
+	{	//Ator 09 Ator_G - 16 x 32
+      "Action": "Load",
+      "Target": "Characters/Ator.G",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Ator_G.png"
+    },
+	{	//Ator 09 Ator_H - 16 x 32
+      "Action": "Load",
+      "Target": "Characters/Ator.H",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Ator_H.png"
+    },
+	{	//Ator 09 Ator_I (Lojista Adega) - 16 x 32
+      "Action": "Load",
+      "Target": "Characters/Ator.I",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Ator_I.png"
+    },
+	{	//Ator 10 Ator_J (Trabalhador) - 28 x 27
+      "Action": "Load",
+      "Target": "Characters/Ator.J",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Ator_J.png"
+    },
+	{	//Ator 10 Ator_K - 16 x 32
+      "Action": "Load",
+      "Target": "Characters/Ator.K",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Ator_K.png"
+    },
+	{	//Ator 10 Ator_L - 16 x 32
+      "Action": "Load",
+      "Target": "Characters/Ator.L",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Ator_L.png"
+    },
+	{	//Ator 10 Ator_M - 16 x 32
+      "Action": "Load",
+      "Target": "Characters/Ator.M",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Ator_M.png"
+    },
+	{	//Ator 10 Ator_N - 17 x 32
+      "Action": "Load",
+      "Target": "Characters/Ator.N",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Ator_N.png"
+    },
+	{	//Ator 10 Ator_O - 16 x 32
+      "Action": "Load",
+      "Target": "Characters/Ator.O",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Ator_O.png"
+    },
+	{	//Ator 10 Ator_P - 16 x 32
+      "Action": "Load",
+      "Target": "Characters/Ator.P",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Ator_P.png"
+    },
+	{	//Ator 10 Npc.Master - 16 x 32
+      "Action": "Load",
+      "Target": "Characters/Npc.Master",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Npc.Master.png"
+    },
+	{	//Ator 10 NPC.Edward.A - 32 x 32
+      "Action": "Load",
+      "Target": "Characters/NPC.Edward.A",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/NPC.Edward.A_{{season}}.png"
+    },
+	{	//Ator 10 NPC.Edward.C - 16 x 80
+      "Action": "Load",
+      "Target": "Characters/NPC.Edward.C",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/NPC.Edward.C_{{season}}.png"
+    },
+	{	//Ator 10 NPC.Isis.A - 32 x 32
+      "Action": "Load",
+      "Target": "Characters/NPC.Isis.A",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/NPC.Isis.A_{{season}}.png"
+    },
+	{	//Ator 10 NPC.Miranda.A - 32 x 32
+      "Action": "Load",
+      "Target": "Characters/NPC.Miranda.A",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/NPC.Miranda.A_{{season}}.png"
+    },
+	{	//Ator 10 NPC.Miranda.B - 16 x 32
+      "Action": "Load",
+      "Target": "Characters/NPC.Miranda.B",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/NPC.Miranda.B.png"
+    },
+	{	//Ator 11 Morris Fix - 18 x 32
+      "Action": "Load",
+      "Target": "Characters/MorrisFix",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Npc.Morris.png"
+    },
+	{	//Ator 12 Ob.Entulho - 31 x 21
+      "Action": "Load",
+      "Target": "Characters/Ob.Entulho",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Ob.Entulho.png"
+    },
+	{	//Ator 13 Ob.Ferramentas - 21 x 21
+      "Action": "Load",
+      "Target": "Characters/Ob.Ferramentas",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Ob.Ferramentas.png"
+    },
+	{	//Ator 13 Ob.Pote - 16 x 16
+      "Action": "Load",
+      "Target": "Characters/Ob.Pote",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Ob.Pote.png"
+    },
+	{	//Ator 13 Ob.Pote - 16 x 16
+      "Action": "Load",
+      "Target": "Characters/Ob.Osso",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Ob.Osso.png"
+    },
+	{	//Ator 13 Entidade_A (Slime) - 16 x 24
+      "Action": "Load",
+      "Target": "Characters/Enti.A",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Enti_A.png"
+    },
+	{	//Ator 13 Entidade_B (Junimo) - 16 x 16
+      "Action": "Load",
+      "Target": "Characters/Enti.B",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Enti_B.png"
+    },
+	{	//Ator 13 Entidade_C (Slime) - 16 x 24
+      "Action": "Load",
+      "Target": "Characters/Enti.C",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Enti_C.png"
+    },
+	{	//Ator 13 Fig.Escudo - 48 x 48
+      "Action": "Load",
+      "Target": "Characters/Fig.Escudo",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Fig.Escudo.png"
+    },
+	{	//Ator 13 Fig.Espada - 48 x 48
+      "Action": "Load",
+      "Target": "Characters/Fig.Espada",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Fig.Espada.png"
+    },
+	{	//Ator 13 Fig.Lupa - 48 x 48
+      "Action": "Load",
+      "Target": "Characters/Fig.Lupa",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Fig.Lupa.png"
+    },
+	{	//Ator 13 Fig.Fumaça - 48 x 48
+      "Action": "Load",
+      "Target": "Characters/Fig.Fumaça",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/Fig.Fumaça.png"
+    },
+	{	//Ator 13 NPC.Shane - 32 x 32
+      "Action": "Load",
+      "Target": "Characters/NPC.Shane.Extra",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/NPC.Shane.png"
+    },
+	{	//Ator 13 NPC.Luta - 64 x 48
+      "Action": "Load",
+      "Target": "Characters/NPC.Luta",
+      "FromFile": "Ativos/Personagens/Temporario/Bonecos_Itens/NPC.Luta_{{season}}.png"
+    },
+  ]
+}

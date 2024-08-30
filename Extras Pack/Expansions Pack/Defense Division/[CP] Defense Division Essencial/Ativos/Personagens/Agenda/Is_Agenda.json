@@ -1,0 +1,135 @@
+{ 
+	"Changes":
+	[
+		{	// Tarefas Diarias Vanilla
+			"LogName":"Isis Agendamentos",
+			"Action":"EditData",
+			"Target":"Characters/Schedules/Isis",
+			"When": { "HasSeenEvent: anyPlayer|contains=90205264": true, "HasSeenEvent: anyPlayer|contains=90805264": false },
+			"Update": "OnDayStart",
+			"Entries":
+			{	
+			"rain": "610 Casa.Interior 3 17 2 Is.Dorme \"Strings\\schedules\\Isis:I.Dorme.00/900 Casa.Interior 5 8 1 Is.Se.Di.Caf \"Strings\\schedules\\Isis:I.Basico.02\"/1000 Casa.Sótão 20 15 1 Is.Se.Es.ler \"Strings\\schedules\\Isis:I.Chuva.00\"/1530 Saloon 7 20 3 Is.Café/1900 Casa.Interior 7 18 2 Is.Baixa.ler \"Strings\\schedules\\Isis:I.Chuva.01\"/2340 Casa.Interior 3 17 2 Is.Dorme",
+			"GreenRain": "610 Casa.Interior 3 17 2 Is.Dorme \"Strings\\schedules\\Isis:I.Dorme.00/900 Casa.Interior 5 8 1 Is.Se.Di.Caf \"Strings\\schedules\\Isis:I.Basico.02\"/1000 Casa.Sótão 20 15 1 Is.Se.Es.ler \"Strings\\schedules\\Isis:I.Chuva.00\"/1530 Saloon 7 20 3 Is.Café/1900 Casa.Interior 7 18 2 Is.Baixa.ler \"Strings\\schedules\\Isis:I.Chuva.01\"/2340 Casa.Interior 3 17 2 Is.Dorme",
+			
+			"spring_Mon": "610 Casa.Interior 3 17 2 Is.Dorme \"Strings\\schedules\\Isis:I.Dorme.00/800 Casa.Interior 5 8 1 Is.Se.Di.Caf /1000 BusStop 28 11 2 Is.Cabelo \"Strings\\schedules\\Isis:I.Basico.01\"/1400 Mountain 14 7 2 Is.Comer /1730 Casa.Interior 8 5 0 Is.Limpa /2100 Casa.Interior 4 21 3 Is.Celu \"Strings\\schedules\\Isis:I.DiasNor.01\"/2200 Casa.Interior 3 17 2 Is.Dorme",
+			"spring_Tue": "GOTO spring_Mon",
+			"spring_Wed": "GOTO spring_Mon",
+			"spring_Thu": "610 Casa.Interior 5 8 1 Is.Se.Di.Caf \"Strings\\schedules\\Isis:I.Basico.00\"/730 Casa.Interior 18 12 1 /800 Forest 73 45 1 Is.Celu \"Strings\\schedules\\Isis:I.Treino.00\"/1000 Forest 73 45 0 /1010 Forest 73 45 0 Is.Treina.2 /1100 Forest 73 45 0 Is.Treina.1 \"Strings\\schedules\\Isis:I.Treino.01\"/1400 Forest 73 45 3 /1430 Town 5 52 0 Is.Se.Fr.ler /1730 Casa.Interior 8 5 0 Is.Limpa /2000 Casa.Interior 17 5 1 Is.Baix.Di /2100 Casa.Interior 3 17 1 Is.Dorme",
+			"spring_Fri": "GOTO spring_Thu",
+			"spring_Sat": "610 Casa.Interior 3 17 2 Is.Dorme \"Strings\\schedules\\Isis:I.Dorme.00/800 Casa.Interior 5 6 2 Is.Comer /1000 ArchaeologyHouse 12 10 2 Is.Baixa.ler \"Strings\\schedules\\Isis:I.Basico.04\"/1400 Beach 16 24 2 Is.Cabelo /1800 Saloon 35 18 0 /2200 Casa.Interior 3 17 2 Is.Dorme",
+			"spring_Sun": "GOTO spring_Sat",
+			
+			"summer_Mon": "GOTO spring_Mon",
+			"summer_Tue": "GOTO spring_Mon",
+			"summer_Wed": "GOTO spring_Mon",
+			"summer_Thu": "GOTO spring_Thu",
+			"summer_Fri": "GOTO spring_Thu",
+			"summer_Sat": "GOTO spring_Sat",
+			"summer_Sun": "GOTO spring_Sat",
+			
+			"fall_Mon": "610 Casa.Interior 5 8 1 Is.Se.Di.Caf \"Strings\\schedules\\Isis:I.DiasFri.01\"/800 Forest 41 10 2 Is.Pisca /1230 Town 78 95 2 Is.Cabelo \"Strings\\schedules\\Isis:I.Basico.01\"/1800 Casa.Interior 8 5 0 Is.Limpa \"Strings\\schedules\\Isis:I.Basico.03\"/2130 Casa.Interior 3 17 2 Is.Dorme",
+			"fall_Tue": "GOTO fall_Mon",
+			"fall_Wed": "GOTO fall_Mon",
+			"fall_Thu": "610 Casa.Interior 5 8 1 Is.Se.Di.Caf /730 Casa.Interior 18 12 1 /800 Forest 72 45 3 \"Strings\\schedules\\Isis:I.Treino.00\"/1000 Forest 73 45 0 /1010 Forest 73 45 0 Is.Treina.2 /1100 Forest 73 45 0 Is.Treina.1 \"Strings\\schedules\\Isis:I.Treino.01\"/1400 Forest 73 45 3 /1430 Beach 42 34 0 Is.Senta.Fr /1900 Casa.Interior 17 5 1 Is.Baix.Di /2230 Casa.Interior 3 17 2 Is.Dorme",
+			"fall_Fri": "GOTO fall_Thu",
+			"fall_Sat": "610 Casa.Interior 3 17 2 Is.Dorme \"Strings\\schedules\\Isis:I.Dorme.00/800 Casa.Interior 4 21 3 Is.Musi /1200 Town 5 52 2 Is.Senta.Fr \"Strings\\schedules\\Isis:I.DiasFri.02\"/1400 AdventureGuild 4 13 0 /1900 Casa.Interior 3 17 2 Is.Dorme",
+			"fall_Sun": "GOTO fall_Sat",
+			
+			"winter_Mon": "GOTO fall_Mon",
+			"winter_Tue": "GOTO fall_Mon",
+			"winter_Wed": "GOTO fall_Mon",
+			"winter_Thu": "GOTO fall_Thu",
+			"winter_Fri": "GOTO fall_Thu",
+			"winter_Sat": "GOTO fall_Sat",
+			"winter_Sun": "GOTO fall_Sat",
+			
+			"winter_15": "610 Casa.Interior 5 8 1 Is.Se.Di.Caf \"Strings\\schedules\\Isis:I.DiasFri.01\"/800 Forest 41 10 2 Is.Pisca /1230 Town 78 95 2 Is.Cabelo \"Strings\\schedules\\Isis:I.Basico.01\"/1800 Beach 13 29 1 Is.Café \"Strings\\schedules\\Isis:I.MercNot.00\"/2130 Casa.Interior 3 17 2 Is.Dorme",
+			"winter_16": "GOTO winter_15",
+			"winter_17": "GOTO winter_15"
+			}
+		},
+		{	// Tarefas Diarias Ridgeside
+			"LogName": "Isis Agendamentos Ridgeside",
+			"Action": "EditData",
+			"Target": "Characters/schedules/Isis",
+			"When": { "HasSeenEvent: anyPlayer|contains=90205264": true, "HasMod |contains=Rafseazz.RSVCP": true, "HasSeenEvent: anyPlayer|contains=90805264": false, "Weather": "sun" },
+			"Update": "OnDayStart",
+			"Entries": 
+			{	
+			"summer_Mon": "610 Casa.Interior 3 17 2 Is.Dorme \"Strings\\schedules\\Isis:I.Dorme.00/800 Casa.Interior 5 8 1 Is.Se.Di.Caf /1000 Custom_Ridgeside_RidgesideVillage 94 85 2 Is.Senta.Fr /1500 Custom_Ridgeside_RidgesideVillage 90 44 2 Is.Comer \"Strings\\schedules\\Isis:I.Ridgside.Mod.00\"/1730 Casa.Interior 8 5 0 Is.Limpa /2100 Casa.Interior 4 21 3 Is.Celu \"Strings\\schedules\\Isis:I.DiasNor.01\"/2200 Casa.Interior 3 17 2 Is.Dorme",
+			"summer_Tue": "GOTO summer_Mon",
+			"summer_Wed": "GOTO summer_Mon"
+			}
+		},
+		{	// Tarefas Dinamicas 01
+			"LogName": "Isis Tarefas Dinamica 01",
+			"Action": "EditData",
+			"Target": "Characters/schedules/Isis",
+			"When": { "Query: '{{spouse}}' IN ('Abigail')": false, "HasSeenEvent: anyPlayer|contains=37918004": true, "HasSeenEvent: anyPlayer|contains=90805264": false, "Weather": "sun" },
+			"Update": "OnDayStart",
+			"Entries": 
+			{	
+			"summer_Sat": "610 Casa.Interior 3 17 2 Is.Dorme \"Strings\\schedules\\Isis:I.Dorme.00/1030 Casa.Interior 5 6 2 Is.Comer /1230 Town 5 52 2 Is.Senta.Fr /1540 SeedShop 4 5 2 Is.Se.Fr.ler /1800 Saloon 35 18 0 /2200 Casa.Interior 3 17 2 Is.Dorme",
+			"winter_Sat": "610 Casa.Interior 3 17 2 Is.Dorme \"Strings\\schedules\\Isis:I.Dorme.00/930 Casa.Interior 4 21 3 Is.Musi /1130 Casa.Interior 4 21 0 /1500 SeedShop 4 5 2 Is.Se.Fr.ler /1900 Casa.Interior 3 17 2 Is.Dorme"
+			}
+		},
+		{	// Tarefas Dinamicas 02
+			"LogName": "Isis Tarefas Dinamica 02",
+			"Action": "EditData",
+			"Target": "Characters/schedules/Isis",
+			"When": { "Query: '{{spouse}}' IN ('Leah')": false, "HasSeenEvent: anyPlayer|contains=37918005": true, "HasSeenEvent: anyPlayer|contains=90805264": false, "Weather": "sun" },
+			"Update": "OnDayStart",
+			"Entries": 
+			{
+			"spring_11": "610 Casa.Interior 5 8 1 Is.Se.Di.Caf /730 Casa.Interior 18 12 1 /800 Forest 73 45 1 Is.Celu /1000 Forest 73 45 0 /1010 Forest 73 45 0 Is.Treina.2 /1100 Forest 73 45 0 Is.Treina.1 /1400 Forest 73 45 3 /1430 Forest 68 46 2 /1700 Casa.Interior 8 5 0 Is.Limpa /2000 Casa.Interior 17 5 1 Is.Baix.Di /2100 Casa.Interior 3 17 1 Is.Dorme",
+			"summer_18": "GOTO spring_11",
+			"fall_11": "610 Casa.Interior 5 8 1 Is.Se.Di.Caf /730 Casa.Interior 18 12 1 /800 Forest 72 45 3 /1000 Forest 73 45 0 /1010 Forest 73 45 0 Is.Treina.2 /1100 Forest 73 45 0 Is.Treina.1 /1400 Forest 73 45 3 /1430 Casa.Interior 17 11 0 /1900 Casa.Interior 17 5 1 Is.Baix.Di /2230 Casa.Interior 3 17 2 Is.Dorme",
+			"winter_18": "GOTO fall_11"
+			}
+		},
+		{	// Tarefas Diarias Retorno
+			"LogName": "Isis Agendamentos Retorno",
+			"Action": "EditData",
+			"Target": "Characters/schedules/Isis",
+			"When": {	"HasSeenEvent: anyPlayer|contains=91205264": true, "HasSeenEvent: anyPlayer|contains=37918200": false, "HasSeenEvent: anyPlayer|contains=91705264": false },
+			"Update": "OnLocationChange",
+			"Entries": 
+			{
+			"rain": "610 Casa.Interior 3 17 2 Is.Dorme /900 Casa.Interior 5 8 1 Is.Se.Di.Caf /1000 Casa.Interio 4 20 3 Is.Celu /1630 Saloon 9 20 3 Is.Café /2000 Casa.Interior 3 17 2 Is.Dorme",	
+				
+			"spring": "610 Casa.Interior 3 17 2 Is.Dorme \"Strings\\schedules\\Isis:I.Dorme.00/800 Casa.Interior 5 6 2 Is.Comer /1000 ArchaeologyHouse 12 10 2 Is.Baixa.ler /1400 Beach 16 24 2 Is.Cabelo /1800 Saloon 35 18 0 /2200 Casa.Interior 3 17 2 Is.Dorme",
+			"summer": "GOTO spring",
+			"fall": "GOTO spring",
+			"winter": "GOTO spring"
+			}
+		},
+		{	// Tarefas Casada 01
+			"LogName": "Isis Agendamentos Casado 01",
+			"Action": "EditData",
+			"Target": "Characters/schedules/Isis",
+			"When": { "Season |contains=Spring, Summer": true, "Weather |contains=rain, storm": false },	
+			"Update": "OnDayStart",
+			"Entries": 
+			{
+			"marriage_Fri": "1000 ArchaeologyHouse 12 10 2 Is.Baixa.ler \"Strings\\schedules\\Isis:I.DiasNor.00\"/1700 Saloon 35 18 1 Is.Café \"Strings\\schedules\\Isis:I.DiasNor.01\"/2230 bed",
+			"marriage_9": "1000 Forest 71 43 2 Is.Treina.1 \"Strings\\schedules\\Isis:I.Treino.00\"/1500 Beach 22 24 0 Is.Pisca \"Strings\\schedules\\Isis:I.DiasNor.02\"/1800 bed",
+			
+			"marriage_DesertFestival_1": "900 Desert 14 22 2 Is.Comer \"Strings\\schedules\\Isis:I.DeseFes.00\"/2000 bed",
+			"marriage_DesertFestival_2": "900 Desert 11 7 2 Is.Brava \"Strings\\schedules\\Isis:I.DeseFes.01\"/2000 bed"
+			}
+		},
+		{	// Tarefas Casada 02
+			"LogName": "Isis Agendamentos Casado 02",
+			"Action": "EditData",
+			"Target": "Characters/schedules/Isis",
+			"When": { "Season |contains=Winter, Fall": true, "Weather |contains=rain, storm": false },	
+			"Update": "OnDayStart",
+			"Entries": 
+			{
+			"marriage_Fri": "1000 SeedShop 5 19 0 /1330 Town 46 32 2 Is.Comer \"Strings\\schedules\\Isis:I.DiasFri.00\"/1600 Town 5 52 2 Is.Senta.Fr \"Strings\\schedules\\Isis:I.DiasFri.01\"/1900 bed",
+			"marriage_16": "1500 Town 32 89 2 Is.Celu \"Strings\\schedules\\Isis:I.DiasFri.02\"/1800 Beach 13 29 1 Is.Café \"Strings\\schedules\\Isis:I.MercNot.00\"/2130 bed"
+			}
+		},
+	]
+}

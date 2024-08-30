@@ -1,0 +1,205 @@
+{
+  "Changes": [
+    /*Animal Data*/
+    {
+		"LogName": "Load assets",
+			"Action": "Load",
+			"Target": "assets/Animals/MuscovyDuck3Full, assets/Animals/MuscovyDuckPied3Full, assets/Animals/MuscovyDuckBronze3Full, assets/Animals/MuscovyDuckLavender3Full, assets/Animals/MuscovyDucklingFull, assets/Animals/muscovyicon",
+			"FromFile": "assets/Animals/{{TargetWithoutPath}}.png"
+		},
+	{
+		"LogName": "Load assets",
+			"Action": "Load",
+			"Target": "assets/Animals/TurkeyRevisedFull, assets/Animals/TurkeyRevisedRedBorbFull, assets/Animals/TurkeyRevisedBlackFull, assets/Animals/TurkeyRevisedWhiteFull, assets/Animals/TurkeyBaby2Full, assets/Animals/TurkeyBabyBlackRevisedFull, assets/Animals/TurkeyBabyWhite2Full, assets/Animals/turkeyicon",
+			"FromFile": "assets/Animals/{{TargetWithoutPath}}.png"
+		},
+		
+	{
+      "LogName": "New Farm Creatures",
+      "Action": "EditData",
+      "Target": "Data/FarmAnimals",
+      "Entries": {
+        "CITV_MuscovyDuck": {
+          "DisplayName": "{{i18n:CITV_MuscovyDuck}}",
+          "House": "Coop",
+          "Gender": "Female",
+          "PurchasePrice": 700,
+          "SellPrice": 3000,
+          "ShopTexture": "assets/Animals/muscovyicon",
+          "ShopSourceRect": {
+				"X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 16
+          },
+          "ShopDisplayName": "{{i18n:CITV_MuscovyDuck}}",
+          "ShopDescription": "{{i18n:CITV_MuscovyDuck_Description}}",
+          "ShopMissingBuildingDescription": "{{i18n:CITV_CritterNeedsBuilding}}",
+          "RequiredBuilding": "Big Coop",
+          "UnlockCondition": null,
+          "EggItemIds": [
+            "CITV_MuscovyEgg",
+          ],
+          "BirthText": "{{i18n:CITV_DucklingHatched}}",
+          "DaysToMature": 6,
+          "CanGetPregnant": false,
+          "DaysToProduce": 2,
+          "HarvestType": "DropOvernight",
+          "ProduceItemIds": [
+            {
+              "Id": "Default",
+              "MinimumFriendship": 0,
+              "ItemId": "CITV_MuscovyEgg"
+            }
+          ],
+          "DeluxeProduceItemIds": [
+            {
+              "Id": "CITV_MuscovyFeather",
+              "MinimumFriendship": 200,
+              "ItemId": "CITV_MuscovyFeather",
+              "Condition": "",
+            },
+          ],
+          "ProduceOnMature": true,
+          "FriendshipForFasterProduce": -1,
+          "DeluxeProduceMinimumFriendship": 200,
+          "DeluxeProduceCareDivisor": 1200.0,
+          "DeluxeProduceLuckMultiplier": 0.0,
+          "ProfessionForHappinessBoost": 2,
+          "ProfessionForQualityBoost": 2,
+          "ProfessionForFasterProduce": -1,
+          "Sound": "duck",
+          "Texture": "assets/Animals/MuscovyDuck3Full",
+          "BabyTexture": "assets/Animals/MuscovyDucklingFull",
+          "UseFlippedRightForLeft": false,
+          "SpriteWidth": 16,
+          "SpriteHeight": 16,
+          "EmoteOffset": {
+            "X": 0,
+            "Y": -16
+          },
+          "Skins": [
+            {
+              "Id": "CITV_MuscovyDuckPied",
+              "Weight": 0.5,
+              "Texture": "assets/Animals/MuscovyDuckPied3Full",
+              "BabyTexture": "assets/Animals/MuscovyDucklingFull",
+            },
+			 {
+              "Id": "CITV_MuscovyDuckBronze",
+              "Weight": 0.5,
+              "Texture": "assets/Animals/MuscovyDuckBronze3Full",
+              "BabyTexture": "assets/Animals/MuscovyDucklingFull",
+            },
+			 {
+              "Id": "CITV_MuscovyDuckLavender",
+              "Weight": 0.25,
+              "Texture": "assets/Animals/MuscovyDuckLavender3Full",
+              "BabyTexture": "assets/Animals/MuscovyDucklingFull",
+            },
+          ],
+          "CanSwim": true,
+          "BabiesFollowAdults": true,
+          "GrassEatAmount": 2,
+          "HappinessDrain": 2,
+          "UpDownPetHitboxTileSize": "1, 1",
+          "LeftRightPetHitboxTileSize": "1, 1",
+          "BabyUpDownPetHitboxTileSize": "1, 1",
+          "BabyLeftRightPetHitboxTileSize": "1, 1",
+          "ShowInSummitCredits": true,
+          "CustomFields": {}
+        },
+		"CITV_Turkey": {
+          "DisplayName": "{{i18n:CITV_Turkey}}",
+          "House": "Barn",
+          "Gender": "MaleorFemale",
+          "PurchasePrice": 700,
+          "SellPrice": 3500,
+          "ShopTexture": "assets/Animals/turkeyicon",
+          "ShopSourceRect": {
+				"X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 16
+          },
+          "ShopDisplayName": "{{i18n:CITV_Turkey}}",
+          "ShopDescription": "{{i18n:CITV_Turkey_Description}}",
+          "ShopMissingBuildingDescription": "{{i18n: CITV_CritterNeedsBuilding}}",
+          "RequiredBuilding": "Barn",
+          "UnlockCondition": null,
+          "EggItemIds": [
+            "CITV_TurkeyEgg",
+          ],
+          "BirthText": "{{i18n:CITV_TurkeyHatched}}",
+          "DaysToMature": 7,
+          "CanGetPregnant": false,
+          "DaysToProduce": 3,
+          "HarvestType": "DropOvernight",
+          "ProduceItemIds": [
+            {
+              "Id": "Default",
+              "MinimumFriendship": 0,
+              "ItemId": "CITV_TurkeyEgg"
+            }
+          ],
+          "DeluxeProduceItemIds": [
+            {
+              "Id": "CITV_TurkeyFeather",
+              "MinimumFriendship": 200,
+              "ItemId": "CITV_TurkeyFeather",
+              "Condition": "",
+            },
+          ],
+          "ProduceOnMature": true,
+          "FriendshipForFasterProduce": -1,
+          "DeluxeProduceMinimumFriendship": 200,
+          "DeluxeProduceCareDivisor": 1200.0,
+          "DeluxeProduceLuckMultiplier": 0.0,
+          "ProfessionForHappinessBoost": 2,
+          "ProfessionForQualityBoost": 2,
+          "ProfessionForFasterProduce": -1,
+          "Sound": "cluck",
+          "Texture": "assets/Animals/TurkeyRevisedFull",
+          "BabyTexture": "assets/Animals/TurkeyBaby2Full",
+          "UseFlippedRightForLeft": false,
+          "SpriteWidth": 32,
+          "SpriteHeight": 32,
+          "EmoteOffset": {
+            "X": 0,
+            "Y": -16
+          },
+          "Skins": [
+            {
+              "Id": "CITV_TurkeyRed",
+              "Weight": 0.5,
+              "Texture": "assets/Animals/TurkeyRevisedRedBorbFull",
+              "BabyTexture": "assets/Animals/TurkeyBaby2Full",
+            },
+			 {
+              "Id": "CITV_TurkeyBlack",
+              "Weight": 0.5,
+              "Texture": "assets/Animals/TurkeyRevisedBlackFull",
+              "BabyTexture": "assets/Animals/TurkeyBabyBlackRevisedFull",
+            },
+			 {
+              "Id": "CITV_TurkeyWhite",
+              "Weight": 0.25,
+              "Texture": "assets/Animals/TurkeyRevisedWhiteFull",
+              "BabyTexture": "assets/Animals/TurkeyBabyWhite2Full",
+            },
+          ],
+          "CanSwim": false,
+          "BabiesFollowAdults": true,
+          "GrassEatAmount": 2,
+          "HappinessDrain": 2,
+          "UpDownPetHitboxTileSize": "2, 2",
+          "LeftRightPetHitboxTileSize": "2, 2",
+          "BabyUpDownPetHitboxTileSize": "2, 2",
+          "BabyLeftRightPetHitboxTileSize": "2, 2",
+          "ShowInSummitCredits": true,
+          "CustomFields": {}
+        },
+	  },
+	},
+  ],
+}

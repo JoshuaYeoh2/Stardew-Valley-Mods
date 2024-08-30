@@ -1,0 +1,40 @@
+{
+  "Changes": [
+    
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "Copia": {
+          "DisplayName": "Copia",
+          "Gender": "Male", 
+          "Age": "Adult", 
+          "Manner": "Polite", 
+          "SocialAnxiety": "Shy", 
+          "Optimism": "Neutral", 
+          "BirthSeason": "spring", 
+          "BirthDay": "4", 
+          "HomeRegion": "Town", 
+          "CanBeRomanced": true, 
+          "CanVisitIsland": false, 
+          "SpouseAdopts": false, 
+          "IntroductionsQuest": true,
+          "ItemDeliveryQuests": true, 
+          "WinterStarParticipant": false, 
+          
+          "Home": [ 
+            {
+              "Id": "Default",
+              "Location": "Custom_CopiaHouse",
+              "Tile": {
+                "X": 7,
+                "Y": 9
+              },
+              "Direction": "down"
+            }
+          ]
+        }    
+      }
+    }
+  ]
+}

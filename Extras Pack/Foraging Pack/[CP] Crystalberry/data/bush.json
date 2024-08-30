@@ -1,0 +1,22 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "NCarigon.BushBloomMod/Schedules",
+			"Entries": {
+				"Crystalberry/winter_Crystalberry": {
+					"ShakeOff": "{{ModID}}_Crystalberry",
+					"StartSeason": "winter",
+					"StartDay": 1,
+					"EndDay": 28,
+					"Chance": 1.0,
+				},
+			},			
+		},
+		{
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/Crystalberry/winter_Crystalberry",
+			"FromFile": "assets/crystalberrybush.png"
+		}
+	]
+}

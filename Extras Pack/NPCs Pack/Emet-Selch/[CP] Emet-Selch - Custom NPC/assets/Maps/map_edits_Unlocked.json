@@ -1,0 +1,197 @@
+{
+
+  "Changes": [
+
+    //edits world map
+    {
+      "LogName": "World Map Edit",
+      "Action": "EditImage",
+      "Target": "LooseSprites/Map",
+      "FromFile": "assets/Maps/Worldmap/{{season}}_map.png",
+      "ToArea": {
+        "X": 91,
+        "Y": 0,
+        "Width": 48,
+        "Height": 54
+      },
+      "PatchMode": "Overlay",
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+        "World Map Edit": true
+      }
+    },
+
+    {
+      "LogName": "World Map Edit (SVE)",
+      "Action": "EditImage",
+      "Target": "LooseSprites/Map",
+      "FromFile": "assets/Maps/Worldmap/SVE/{{season}}_map_SVE.png",
+      "ToArea": {
+        "X": 97,
+        "Y": 0,
+        "Width": 36,
+        "Height": 42
+      },
+      "PatchMode": "Overlay",
+      "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP",
+        "World Map Edit": true
+      }
+    },
+
+    //Backwoods edit, default edition,
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Backwoods",
+      "FromFile": "assets/Maps/Backwoods_editonly_Default.tmx",
+      "ToArea": {
+        "X": 21,
+        "Y": 0,
+        "Width": 11,
+        "Height": 11
+      },
+      "When": {
+        "HasMod |contains=DaisyNiko.SVR3": false,
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+      }
+    },
+
+    //Backwoods edit, SVE edition
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Backwoods",
+      "FromFile": "assets/Maps/Backwoods_editonly_SVE.tmx",
+      "ToArea": {
+        "X": 23,
+        "Y": 0,
+        "Width": 12,
+        "Height": 11
+      },
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+      }
+    },
+
+    //backwoods edit, SVR3 edition,
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Backwoods",
+      "FromFile": "assets/Maps/Backwoods_editonly_SVR3.tmx",
+      "ToArea": {
+        "X": 21,
+        "Y": 0,
+        "Width": 11,
+        "Height": 11
+      },
+      "When": {
+        "HasMod |contains=DaisyNiko.SVR3": true
+      }
+    },
+
+    //adds temp warp between bus stop to naples
+    {
+      "Action": "EditMap",
+      "Target": "Maps/BusStop",
+      "PatchMode": "Overlay",
+      "FromFile": "assets/Maps/portal.tmx",
+      "ToArea": {
+        "X": 19,
+        "Y": 4,
+        "Width": 1,
+        "Height": 1
+      },
+      "MapProperties": {
+        "NPCWarp": "19 5 {{ModId}}_Naples 23 25"
+      },
+      "When": {
+        "HasSeenEvent: anyPlayer|contains={{ModId}}_0_4": false
+      }
+    },
+
+    //make that warp a normal warp after meeting him
+    {
+      "Action": "EditMap",
+      "Target": "Maps/BusStop",
+      "PatchMode": "Overlay",
+      "FromFile": "assets/Maps/portal.tmx",
+      "ToArea": {
+        "X": 19,
+        "Y": 4,
+        "Width": 1,
+        "Height": 1
+      },
+      "AddWarps": [
+        "19 5 {{ModId}}_Naples 23 25"
+      ],
+      "When": {
+        "HasSeenEvent: anyPlayer": "{{ModId}}_0_4"
+      }
+    },
+
+    //adds warp between backwoods to emet's map (Default)
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Backwoods",
+      "AddWarps": [
+        "24 -1 {{ModId}}_Naples 46 58",
+        "25 -1 {{ModId}}_Naples 46 58",
+        "26 -1 {{ModId}}_Naples 46 58",
+        "27 -1 {{ModId}}_Naples 46 58",
+        "28 -1 {{ModId}}_Naples 46 58"
+      ],
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+      }
+    },
+
+    //adds warp between backwoods to emet's map (SVE EDITION)
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Backwoods",
+      "AddWarps": [
+        "26 -1 {{ModId}}_Naples 46 58",
+        "27 -1 {{ModId}}_Naples 46 58",
+        "28 -1 {{ModId}}_Naples 46 58",
+        "29 -1 {{ModId}}_Naples 46 58",
+        "30 -1 {{ModId}}_Naples 46 58"
+      ],
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+      }
+    },
+
+    //adds warps between emet's map and Backwoods (DEFAULT)
+    {
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_Naples",
+      "AddWarps": [
+        "44 60 Backwoods 26 1",
+        "45 60 Backwoods 26 1",
+        "46 60 Backwoods 26 1",
+        "47 60 Backwoods 26 1",
+        "48 60 Backwoods 26 1",
+        "22 24 BusStop 19 6"
+      ],
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+      }
+    },
+
+    //adds warps between emet's map and Backwoods (SVE edition)
+    {
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_Naples",
+      "AddWarps": [
+        "44 60 Backwoods 28 1",
+        "45 60 Backwoods 28 1",
+        "46 60 Backwoods 28 1",
+        "47 60 Backwoods 28 1",
+        "48 60 Backwoods 28 1",
+        "22 24 BusStop 19 6"
+      ],
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+      }
+    }
+  ]
+}

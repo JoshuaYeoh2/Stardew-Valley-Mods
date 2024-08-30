@@ -1,0 +1,3432 @@
+{
+  "AreWaterReflectionsEnabled": true,
+  "AreMirrorReflectionsEnabled": true,
+  "ArePuddleReflectionsEnabled": true,
+  "AreNPCReflectionsEnabled": true,
+  "AreSkyReflectionsEnabled": true,
+  "WaterReflectionSettings": {
+    "AreReflectionsEnabled": true,
+    "ReflectionDirection": "South",
+    "ReflectionOverlay": {
+      "B": 255,
+      "G": 255,
+      "R": 255,
+      "A": 255
+    },
+    "PlayerReflectionOffset": "0, 1.5",
+    "NPCReflectionOffset": "0, 1.1",
+    "IsReflectionWavy": true,
+    "WaveSpeed": 1.0,
+    "WaveAmplitude": 0.01,
+    "WaveFrequency": 50.0,
+    "OverrideDefaultSettings": false
+  },
+  "PuddleReflectionSettings": {
+    "AreReflectionsEnabled": true,
+    "ShouldGeneratePuddles": true,
+    "ShouldPlaySplashSound": true,
+    "ShouldRainSplashPuddles": true,
+    "ReflectionOffset": "0, 0",
+    "NPCReflectionOffset": "0, 0.3",
+    "PuddlePercentageWhileRaining": 20,
+    "PuddlePercentageAfterRaining": 10,
+    "BigPuddleChance": 25,
+    "MillisecondsBetweenRaindropSplashes": 500,
+    "ReflectionOverlay": {
+      "B": 255,
+      "G": 255,
+      "R": 255,
+      "A": 155
+    },
+    "PuddleColor": {
+      "B": 91,
+      "G": 91,
+      "R": 91,
+      "A": 91
+    },
+    "RippleColor": {
+      "B": 255,
+      "G": 255,
+      "R": 255,
+      "A": 155
+    },
+    "OverrideDefaultSettings": false
+  },
+  "SkyReflectionSettings": {
+    "AreReflectionsEnabled": true,
+    "StarDensityPercentage": 55,
+    "AreShootingStarsEnabled": true,
+    "MillisecondsBetweenShootingStarAttempt": 5000,
+    "MaxShootingStarAttemptsPerInterval": 5,
+    "CometChance": 10,
+    "CometSegmentMin": 5,
+    "CometSegmentMax": 20,
+    "ShootingStarMinSpeed": 0.01,
+    "ShootingStarMaxSpeed": 1.0,
+    "CometMinSpeed": 0.04,
+    "CometMaxSpeed": 0.5,
+    "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+    "GettingDarkWaterAlpha": 0.35,
+    "HalfwayDarkWaterAlpha": 0.075,
+    "FinishedDarkWaterAlpha": 0.005,
+    "OverrideDefaultSettings": false
+  },
+  "MeteorShowerNightChance": 10,
+  "LocalWaterReflectionSettings": {
+    "Default": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": true,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "FarmHouse": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Farm": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "FC.TropicalAnimalHouseMapSmallfbd9f201-acb3-466e-84a4-e74614ec64d2": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "FarmCave": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Coop8239e646-f502-486f-949b-cbb3ed4c84b8": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Barn1d7b69c3-e2b6-4e93-93f5-9a1cee299d6e": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "BusStop": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Backwoods": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Visorlights.EmetSelchCustomNPC_Naples": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Custom_Ridgeside_RSVCableCar": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Custom_Ridgeside_RidgesideVillage": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Custom_Ridgeside_Ridge": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Town": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Beach": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1",
+      "NPCReflectionOffset": "0, 0.7",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": true
+    },
+    "Temp": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Mine": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Custom_AdventurerSummit": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "AdventureGuild": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Custom_GE_MonsterResearchWing": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Coop0c0296e7-4217-45de-95f0-1254be1b0d97": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Forest": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Custom_QingfengCourtyard": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Custom_FirstfloorofQingfengHouse": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Custom_SecondfloorofQingfengHouse": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Custom_ThirdfloorofQingfengHouse": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "AnimalShop": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Mountain": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "ScienceHouse": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "HaleyHouse": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "CommunityCenter": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Custom_CopiaHouse": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Blacksmith": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "ArchaeologyHouse": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Custom_Garden": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Custom_ShearwaterBridge": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "EastScarp_Village": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "EastScarp_DeepDark": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "EastScarp_SeaCave": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Saloon": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Custom_NPCPeeta_PeetaArea": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Casa.Interior": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Fellowclown.PC_OldGraveYard": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Fellowclown.PC_SecretCave": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Fellowclown.PC_LeslaHouse": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Visorlights.EmetSelchCustomNPC_Emet_House": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Visorlights.EmetSelchCustomNPC_Emet_Attic": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Custom_Ridgeside_RidgeForest": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Custom_Ridgeside_MysticFalls3": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Fellowclown.PC_NiksRoom": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    }
+  },
+  "LocalPuddleReflectionSettings": {
+    "Default": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "FarmHouse": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Farm": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "FC.TropicalAnimalHouseMapSmallfbd9f201-acb3-466e-84a4-e74614ec64d2": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "FarmCave": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Coop8239e646-f502-486f-949b-cbb3ed4c84b8": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Barn1d7b69c3-e2b6-4e93-93f5-9a1cee299d6e": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "BusStop": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Backwoods": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Visorlights.EmetSelchCustomNPC_Naples": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Custom_Ridgeside_RSVCableCar": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Custom_Ridgeside_RidgesideVillage": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Custom_Ridgeside_Ridge": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Town": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Beach": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Temp": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Mine": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Custom_AdventurerSummit": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "AdventureGuild": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Custom_GE_MonsterResearchWing": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Coop0c0296e7-4217-45de-95f0-1254be1b0d97": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Forest": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Custom_QingfengCourtyard": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Custom_FirstfloorofQingfengHouse": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Custom_SecondfloorofQingfengHouse": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Custom_ThirdfloorofQingfengHouse": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "AnimalShop": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Mountain": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "ScienceHouse": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "HaleyHouse": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "CommunityCenter": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Custom_CopiaHouse": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Blacksmith": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "ArchaeologyHouse": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Custom_Garden": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Custom_ShearwaterBridge": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "EastScarp_Village": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "EastScarp_DeepDark": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "EastScarp_SeaCave": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Saloon": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Custom_NPCPeeta_PeetaArea": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Casa.Interior": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Fellowclown.PC_OldGraveYard": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Fellowclown.PC_SecretCave": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Fellowclown.PC_LeslaHouse": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Visorlights.EmetSelchCustomNPC_Emet_House": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Visorlights.EmetSelchCustomNPC_Emet_Attic": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Custom_Ridgeside_RidgeForest": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Custom_Ridgeside_MysticFalls3": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Fellowclown.PC_NiksRoom": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    }
+  },
+  "LocalSkyReflectionSettings": {
+    "Default": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "FarmHouse": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "Farm": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "FC.TropicalAnimalHouseMapSmallfbd9f201-acb3-466e-84a4-e74614ec64d2": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "FarmCave": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "Coop8239e646-f502-486f-949b-cbb3ed4c84b8": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "Barn1d7b69c3-e2b6-4e93-93f5-9a1cee299d6e": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "BusStop": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "Backwoods": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "Visorlights.EmetSelchCustomNPC_Naples": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "Custom_Ridgeside_RSVCableCar": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "Custom_Ridgeside_RidgesideVillage": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "Custom_Ridgeside_Ridge": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "Town": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "Beach": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "Temp": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "Mine": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "Custom_AdventurerSummit": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "AdventureGuild": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "Custom_GE_MonsterResearchWing": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "Coop0c0296e7-4217-45de-95f0-1254be1b0d97": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "Forest": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "Custom_QingfengCourtyard": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "Custom_FirstfloorofQingfengHouse": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "Custom_SecondfloorofQingfengHouse": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "Custom_ThirdfloorofQingfengHouse": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "AnimalShop": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "Mountain": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "ScienceHouse": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "HaleyHouse": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "CommunityCenter": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "Custom_CopiaHouse": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "Blacksmith": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "ArchaeologyHouse": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "Custom_Garden": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "Custom_ShearwaterBridge": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "EastScarp_Village": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "EastScarp_DeepDark": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "EastScarp_SeaCave": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "Saloon": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "Custom_NPCPeeta_PeetaArea": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "Casa.Interior": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "Fellowclown.PC_OldGraveYard": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "Fellowclown.PC_SecretCave": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "Fellowclown.PC_LeslaHouse": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "Visorlights.EmetSelchCustomNPC_Emet_House": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "Visorlights.EmetSelchCustomNPC_Emet_Attic": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "Custom_Ridgeside_RidgeForest": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "Custom_Ridgeside_MysticFalls3": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    },
+    "Fellowclown.PC_NiksRoom": {
+      "AreReflectionsEnabled": true,
+      "StarDensityPercentage": 55,
+      "AreShootingStarsEnabled": true,
+      "MillisecondsBetweenShootingStarAttempt": 5000,
+      "MaxShootingStarAttemptsPerInterval": 5,
+      "CometChance": 10,
+      "CometSegmentMin": 5,
+      "CometSegmentMax": 20,
+      "ShootingStarMinSpeed": 0.01,
+      "ShootingStarMaxSpeed": 1.0,
+      "CometMinSpeed": 0.04,
+      "CometMaxSpeed": 0.5,
+      "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+      "GettingDarkWaterAlpha": 0.35,
+      "HalfwayDarkWaterAlpha": 0.075,
+      "FinishedDarkWaterAlpha": 0.005,
+      "OverrideDefaultSettings": false
+    }
+  },
+  "QuickMenuKey": "None"
+}

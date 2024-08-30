@@ -1,0 +1,227 @@
+{
+	"Changes": [
+
+		//emet's outdoor area
+		{
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_Naples",
+			"FromFile": "assets/Maps/Naples.tmx"
+		},
+
+		//emet's house
+		{
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_Emet_House",
+			"FromFile": "assets/Maps/Emet_house.tmx"
+		},
+
+		//emet's attic
+		{
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_Emet_Attic",
+			"FromFile": "assets/Maps/Emet_house_attic.tmx"
+		},
+
+		//emet's attic (special version oooo)
+		{
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_Emet_Attic_Open",
+			"FromFile": "assets/Maps/Emet_house_attic_open.tmx"
+		},
+
+		//mine level for shenanigans
+		{
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_Mine",
+			"FromFile": "assets/Maps/Deep_mine.tmx"
+		},
+
+		//mine level, crystal edition
+		{
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_Crystal_Mine",
+			"FromFile": "assets/Maps/Deep_mine_crystal.tmx"
+		},
+
+		//loads location data
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+
+				"{{ModId}}_Naples": {
+					"CreateOnLoad": { "MapPath": "Maps/{{ModId}}_Naples" },
+					"FormerLocationNames": [ "Custom_EmetSelchCustomNPC_Naples" ],
+					"DisplayName": "Hidden Clearing",
+					"DefaultArrivalTile": {
+						"X": 46,
+						"Y": 56
+					},
+					"Forage": [
+						{
+							"Id": "{{ModId}}_Naples_18",
+							"ItemID": "(O)18",
+							"Chance": 0.9,
+							"Condition": "Location_Season Here Spring"
+						},
+						{
+							"Id": "{{ModId}}_Naples_22",
+							"ItemID": "(O)22",
+							"Chance": 0.5,
+							"Condition": "Location_Season Here Spring"
+						},
+						{
+							"Id": "{{ModId}}_Naples_257",
+							"ItemID": "(O)257",
+							"Chance": 0.4,
+							"Condition": "Location_Season Here Spring"
+						},
+						{
+							"Id": "{{ModId}}_Naples_396",
+							"ItemID": "(O)396",
+							"Chance": 0.5,
+							"Condition": "Location_Season Here Summer"
+						},
+						{
+							"Id": "{{ModId}}_Naples_398",
+							"ItemID": "(O)398",
+							"Chance": 1,
+							"Condition": "Location_Season Here Summer"
+						},
+						{
+							"Id": "{{ModId}}_Naples_402",
+							"ItemID": "(O)402",
+							"Chance": 0.8,
+							"Condition": "Location_Season Here Summer"
+						},
+						{
+							"Id": "{{ModId}}_Naples_420",
+							"ItemID": "(O)420",
+							"Chance": 0.8,
+							"Condition": "Location_Season Here Fall"
+						},
+						{
+							"Id": "{{ModId}}_Naples_422",
+							"ItemID": "(O)422",
+							"Chance": 1,
+							"Condition": "Location_Season Here Fall"
+						},
+						{
+							"Id": "{{ModId}}_Naples_406",
+							"ItemID": "(O)406",
+							"Chance": 0.5,
+							"Condition": "Location_Season Here Fall"
+						},
+						{
+							"Id": "{{ModId}}_Naples_414",
+							"ItemID": "(O)414",
+							"Chance": 0.5,
+							"Condition": "Location_Season Here Winter"
+						},
+						{
+							"Id": "{{ModId}}_Naples_416",
+							"ItemID": "(O)416",
+							"Chance": 0.1,
+							"Condition": "Location_Season Here Winter"
+						},
+						{
+							"Id": "{{ModId}}_Naples_418",
+							"ItemID": "(O)418",
+							"Chance": 0.8,
+							"Condition": "Location_Season Here Winter"
+						}
+					]
+				},
+				"{{ModId}}_Emet_House": {
+					"CreateOnLoad": { "MapPath": "Maps/{{ModId}}_Emet_House" },
+					"FormerLocationNames": [ "Custom_EmetSelchCustomNPC_House" ],
+					"DisplayName": "Emet-Selch's House",
+					"DefaultArrivalTile": {
+						"X": 11,
+						"Y": 22
+					}
+				},
+				"{{ModId}}_Emet_Attic": {
+					"CreateOnLoad": { "MapPath": "Maps/{{ModId}}_Emet_Attic" },
+					"FormerLocationNames": [ "Custom_EmetSelchCustomNPC_Attic" ],
+					"DisplayName": "Emet-Selch's Attic",
+					"DefaultArrivalTile": {
+						"X": 6,
+						"Y": 15
+					}
+				},
+				"{{ModId}}_Emet_Attic_Open": {
+					"CreateOnLoad": { "MapPath": "Maps/{{ModId}}_Emet_Attic_Open" },
+					"FormerLocationNames": [ "Custom_EmetSelchCustomNPC_Attic_Open" ],
+					"DisplayName": "Emet-Selch's Attic",
+					"DefaultArrivalTile": {
+						"X": 6,
+						"Y": 15
+					}
+				},
+				"{{ModId}}_Mine": {
+					"CreateOnLoad": { "MapPath": "Maps/{{ModId}}_Mine" },
+					"FormerLocationNames": [ "Custom_EmetSelchCustomNPC_Mine" ],
+					"DisplayName": "Mine"
+				},
+				"{{ModId}}_Crystal_Mine": {
+					"CreateOnLoad": { "MapPath": "Maps/{{ModId}}_Crystal_Mine" },
+					"FormerLocationNames": [ "Custom_EmetSelchCustomNPC_Crystal_Mine" ],
+					"DisplayName": "Mine"
+				}
+			}
+		},
+
+		//adds warp to outside from emet's house, and warp to attic
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModId}}_Emet_House",
+			"AddWarps": [
+				"11 25 {{ModId}}_Naples 28 23",
+				"11 3 {{ModId}}_Emet_Attic 5 16",
+				"12 3 {{ModId}}_Emet_Attic 6 16"
+			],
+			"MapProperties": {
+				"NPCWarp": "12 4 {{ModId}}_Emet_Attic_Open 6 16" //lets him always reach the open attic, for NPC pathing calculation
+			}
+		},
+
+		//adds warp from emet's attic to rest of house
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModId}}_Emet_Attic",
+			"AddWarps": [
+				"5 18 {{ModId}}_Emet_House 11 4",
+				"6 18 {{ModId}}_Emet_House 12 4"
+			]
+		},
+		//adds warp from emet's (open) attic to rest of house--always active for NPC pathing purposes
+		//
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModId}}_Emet_Attic_Open",
+			"AddWarps": [
+				"5 18 {{ModId}}_Emet_House 11 4",
+				"6 18 {{ModId}}_Emet_House 12 4"
+			]
+		},
+		//CONDITIONAL MAP EDIT CONTROL 
+
+		//Uses EmetMapStatus token to control loading the edits for before any player sees 0-3, and after
+		{
+			"LogName": "Emet-Selch Map Changes",
+			"Action": "Include",
+			"FromFile": "assets/Maps/map_edits_{{EmetMapStatus}}.json"
+		},
+
+		//loads special attic on certain dates. seems to overwrite the attic warps in the normal map_edits just fine, if it's loaded after?
+		{
+			"LogName": "Emet-Selch Map Changes(special dates)",
+			"Action": "Include",
+			"FromFile": "assets/Maps/map_edits_specialdate.json",
+			"When": {
+				"Render:{{season}} {{day}}": "spring 14, winter 21"
+			}
+		}
+	]
+}

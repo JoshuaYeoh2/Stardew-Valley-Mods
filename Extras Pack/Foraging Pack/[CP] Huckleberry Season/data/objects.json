@@ -1,0 +1,33 @@
+{
+	"Changes": [
+		{
+			"LogName": "Load Huckleberry Image",
+			"Action": "Load",
+			"Target": "{{ModId}}/assets/huckleberry",
+			"FromFile": "assets/huckleberry.png"
+
+		},
+		{
+			"LogName": "Load Huckleberry Data",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModID}}_Huckleberry":{
+					"Name": "{{ModID}}_Huckleberry",
+					"Type": "Fruit",
+					"DisplayName": "{{i18n: Huckleberry.name}}",
+					"Description": "{{i18n: Huckleberry.description}}",
+					"Category": -79,
+					"Texture": "{{ModId}}/assets/huckleberry",
+					"SpriteIndex": 0,
+					"Price": 25,
+					"Edibility": "{{EnergyHealth}}",
+					"ContextTags":[
+						"color_dark_pink"
+					]
+				}
+
+			},
+		},
+	]
+}

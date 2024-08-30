@@ -1,0 +1,29 @@
+{
+  "Changes": [
+	{	// Miranda Fora da Vila
+        "Action": "EditData",
+        "Target": "Data/Characters",
+		"Update": "OnDayStart",
+        "Entries": {
+			"Miranda": { "DisplayName": "{{i18n:Miranda.Display.Name}}", "Age": "teen", "Manner": "neutral", "SocialAnxiety": "neutral", "Optimism": "Positive", "Gender": "female", "CanBeRomanced": false, "LoveInterest": "null", "BirthSeason": "summer", "BirthDay": 12, "Calendar": "HiddenAlways", "WinterStarParticipant": "false", "CanVisitIsland": "false",
+            "Home": [ { "Id": "Ilha", "Location": "Ilha", "Tile": { "X": 4, "Y": 6 }, "Direction": "Down" }, ],
+			"Appearance": [ 
+			{ "Condition": "EVENT_ID festival_spring24", "Sprite": "Characters/Mi.Boneco_FlowerDance", "Portrait": "Portraits/Mi.Retrato_FlowerDance", },
+			{ "Condition": "EVENT_ID festival_summer11", "Sprite": "Characters/Mi.Boneco_Luau", "Portrait": "Portraits/Mi.Retrato_Luau", },
+			{ "Condition": "EVENT_ID festival_summer28", "Sprite": "Characters/Mi.Boneco_DanceMoonlight", "Portrait": "Portraits/Mi.Retrato_DanceMoonlight", },
+			{ "Condition": "EVENT_ID festival_fall16", "Sprite": "Characters/Mi.Boneco_Fair", "Portrait": "Portraits/Mi.Retrato_Fair", },
+			{ "Condition": "EVENT_ID festival_fall27", "Sprite": "Characters/Mi.Boneco_SpiritsEve", "Portrait": "Portraits/Mi.Retrato_SpiritsEve", },
+			{ "Condition": "EVENT_ID festival_winter25", "Sprite": "Characters/Mi.Boneco_WinterStart", "Portrait": "Portraits/Mi.Retrato_WinterStart", },
+				],
+			},
+		},
+	},	
+	{
+		"Action": "EditData",
+        "Target": "Data/Characters",
+        "Update": "OnDayStart",
+        "Fields": { "Miranda": { "Calendar": "HiddenUntilMet", "WinterStarParticipant": "true", "CanVisitIsland": "true", "Home": [ { "Id": "Casa.Interior", "Location": "Casa.Interior", "Tile": { "X": 11, "Y": 17 }, "Direction": "Down" } ] } },
+        "When": { "HasSeenEvent: anyPlayer|contains=90105264": "true", "HasSeenEvent: anyPlayer|contains=99805264": "false", }
+    },
+  ]
+}
