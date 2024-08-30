@@ -9,7 +9,7 @@
       "Tile": "10, 9",
       "Type": "Forage",
       "ID": "153",
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -18,6 +18,17 @@
       "MapName": "Desert",
       "Name": "Sandfish",
       "Tile": "7, 16",
+      "Type": "Forage",
+      "ID": "164",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Desert",
+      "Name": "Sandfish",
+      "Tile": "29, 11",
       "Type": "Forage",
       "ID": "164",
       "DaysUntilExpire": 4,

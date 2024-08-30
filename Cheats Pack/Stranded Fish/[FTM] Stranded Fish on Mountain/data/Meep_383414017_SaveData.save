@@ -2,5 +2,28 @@
   "WeatherForYesterday": "Sun",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
-  "SavedObjects": []
+  "SavedObjects": [
+    {
+      "MapName": "Mountain",
+      "Name": "Rainbow Trout",
+      "Tile": "69, 14",
+      "Type": "Forage",
+      "ID": "138",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Mountain",
+      "Name": "Sturgeon",
+      "Tile": "42, 15",
+      "Type": "Forage",
+      "ID": "698",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
 }

@@ -154,8 +154,8 @@
             "Priority": "Late",
             "When": { "Field Crops": "Enabled", "= Disable Entire Mod": "false" }
         },
-        // CANDY ROASTER SQUASH
-        {
+         // CANDY ROASTER SQUASH
+         {
             "Action": "EditImage",
             "Target": "BFV.CropsCombined/Objects",
             "FromFile": "assets/field-crops.png",
@@ -169,7 +169,7 @@
             "Target": "BFV.CropsCombined/Crops",
             "FromFile": "assets/field-crops.png",
             "FromArea": { "X": 16, "Y": 224, "Width": 128, "Height": 32 },
-            "ToArea": { "X": 0, "Y": 64, "Width": 128, "Height": 32 },
+            "ToArea": { "X": 32, "Y": 64, "Width": 128, "Height": 32 },
             "Priority": "Late",
             "When": { "Field Crops": "Enabled", "= Disable Entire Mod": "false" }
         },

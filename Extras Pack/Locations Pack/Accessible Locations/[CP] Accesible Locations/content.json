@@ -26,14 +26,14 @@
 		}
 	],
 	"Changes":[
-		{
-			"Action":"EditMap",
-			"Target":"Maps/BusStop",
-			"When":{"HasMod |contains=Ophaneom.RenewedBus": "false"},
-			"AddWarps":[
-				"12 8 Custom_BusInterior 2 6"
-			]
-		},
+		//{
+		//	"Action":"EditMap",
+		//	"Target":"Maps/BusStop",
+		//	"When":{"HasMod |contains=Ophaneom.RenewedBus": "false"},
+		//	"AddWarps":[
+		//		"12 8 Custom_BusInterior 2 6"
+		//	]
+		//},
 		
 		{
 			"Action":"EditMap",

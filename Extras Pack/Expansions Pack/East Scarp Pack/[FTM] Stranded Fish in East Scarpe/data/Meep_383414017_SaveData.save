@@ -9,7 +9,29 @@
       "Tile": "4, 134",
       "Type": "Forage",
       "ID": "146",
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_Village",
+      "Name": "Green Algae",
+      "Tile": "16, 121",
+      "Type": "Forage",
+      "ID": "153",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_Village",
+      "Name": "Carp",
+      "Tile": "38, 114",
+      "Type": "Forage",
+      "ID": "142",
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null

@@ -9,7 +9,18 @@
       "Tile": "46, 65",
       "Type": "Forage",
       "ID": "708",
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BlueMoonVineyard",
+      "Name": "Octopus",
+      "Tile": "53, 64",
+      "Type": "Forage",
+      "ID": "149",
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
