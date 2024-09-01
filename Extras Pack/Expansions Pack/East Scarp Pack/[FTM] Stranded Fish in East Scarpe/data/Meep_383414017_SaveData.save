@@ -9,7 +9,7 @@
       "Tile": "4, 134",
       "Type": "Forage",
       "ID": "146",
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -20,7 +20,7 @@
       "Tile": "16, 121",
       "Type": "Forage",
       "ID": "153",
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -29,6 +29,17 @@
       "MapName": "EastScarp_Village",
       "Name": "Carp",
       "Tile": "38, 114",
+      "Type": "Forage",
+      "ID": "142",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_Village",
+      "Name": "Carp",
+      "Tile": "50, 113",
       "Type": "Forage",
       "ID": "142",
       "DaysUntilExpire": 4,

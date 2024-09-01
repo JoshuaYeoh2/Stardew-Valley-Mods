@@ -2,5 +2,28 @@
   "WeatherForYesterday": "Sun",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
-  "SavedObjects": []
+  "SavedObjects": [
+    {
+      "MapName": "Beach",
+      "Name": "Octopus",
+      "Tile": "1, 5",
+      "Type": "Forage",
+      "ID": "149",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Beach",
+      "Name": "Red Snapper",
+      "Tile": "18, 18",
+      "Type": "Forage",
+      "ID": "150",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
 }
