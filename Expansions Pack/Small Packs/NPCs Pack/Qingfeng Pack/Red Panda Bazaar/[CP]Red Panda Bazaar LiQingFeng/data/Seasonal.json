@@ -1,0 +1,556 @@
+{
+    "Changes": [
+      {
+        "LogName": "Portraits",
+        "Action": "EditImage",
+        "Target": "Portraits/LiQingFeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}.png"
+      },
+
+      {
+        "LogName": "IsOutdoors.spring.Portraits",
+        "Action": "EditImage",
+        "Target": "Portraits/LiQingFeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Outdoor.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": true,
+          "Season": "spring"
+        }
+      },
+      {
+        "LogName": "IsOutdoors.fall.Portraits",
+        "Action": "EditImage",
+        "Target": "Portraits/LiQingFeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Outdoor.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": true,
+          "Season": "fall"
+        }
+      },
+      {
+        "LogName": "IsOutdoors.summer.Portraits",
+        "Action": "EditImage",
+        "Target": "Portraits/LiQingFeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Outdoor.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": true,
+          "Season": "summer"
+        }
+      },
+      {
+        "LogName": "IsOutdoors.winter.Portraits",
+        "Action": "EditImage",
+        "Target": "Portraits/LiQingFeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Outdoor.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": true,
+          "Season": "winter"
+        }
+      },
+      {
+        "LogName": "Outdoors.rain.Portraits",
+        "Action": "EditImage",
+        "Target": "Portraits/LiQingFeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Rain.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": false,
+          "Season": "spring,summer,fall",
+          "Weather": "rain,"
+        }
+      },
+      {
+        "LogName": "IsOutdoors.storm.Portraits",
+        "Action": "EditImage",
+        "Target": "Portraits/LiQingFeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Outdoor_Rain.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": true,
+          "Season": "spring,summer,fall",
+          "Weather": "rain"
+        }
+      },
+      {
+        "LogName": "Outdoors.GreenRain.Portraits",
+        "Action": "EditImage",
+        "Target": "Portraits/LiQingFeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_GreenRain.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": false,
+          "Season": "summer",
+          "Weather": "GreenRain"
+        }
+      },
+      {
+        "LogName": "IsOutdoors.GreenRain.Portraits",
+        "Action": "EditImage",
+        "Target": "Portraits/LiQingFeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Outdoor_GreenRain.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": true,
+          "Season": "summer",
+          "Weather": "GreenRain"
+        }
+      },
+      {
+        "LogName": "Outdoors.Snow.Portraits",
+        "Action": "EditImage",
+        "Target": "Portraits/LiQingFeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Snow.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": false,
+          "Season": "winter",
+          "Weather": "Snow"
+        }
+      },
+      {
+        "LogName": "IsOutdoors.Snow.Portraits",
+        "Action": "EditImage",
+        "Target": "Portraits/LiQingFeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Outdoor_Snow.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": true,
+          "Season": "winter",
+          "Weather": "Snow"
+        }
+      },
+      {
+        "LogName": "Outdoors.Storm.Portraits",
+        "Action": "EditImage",
+        "Target": "Portraits/LiQingFeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Storm.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": false,
+          "Season": "spring,summer,fall",
+          "Weather": "Storm"
+        }
+      },
+      {
+        "LogName": "IsOutdoors.Storm.Portraits",
+        "Action": "EditImage",
+        "Target": "Portraits/LiQingFeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Outdoor_Storm.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": true,
+          "Season": "spring,summer,fall",
+          "Weather": "Storm"
+        }
+      },
+
+      {
+        "LogName": "Outdoors.Snow.Portraits",
+        "Action": "EditImage",
+        "Target": "Portraits/LiQingFeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Snow.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": false,
+          "Season": "winter",
+          "Weather": "Snow"
+        }
+      },
+      {
+        "LogName": "IsOutdoors.Snow.Portraits",
+        "Action": "EditImage",
+        "Target": "Portraits/LiQingFeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Outdoor_Snow.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": true,
+          "Season": "winter",
+          "Weather": "Snow"
+        }
+      },
+
+      {
+        "LogName": "Characters",
+        "Action": "EditImage",
+        "Target": "Characters/LiQingFeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}.png"
+      },
+
+      {
+        "LogName": "IsOutdoors.spring.Characters",
+        "Action": "EditImage",
+        "Target": "Characters/LiQingFeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Outdoor.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": true,
+          "Season": "spring"
+        }
+      },
+      {
+        "LogName": "IsOutdoors.fall.Characters",
+        "Action": "EditImage",
+        "Target": "Characters/LiQingFeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Outdoor.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": true,
+          "Season": "fall"
+        }
+      },
+      {
+        "LogName": "IsOutdoors.summer.Characters",
+        "Action": "EditImage",
+        "Target": "Characters/LiQingFeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Outdoor.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": true,
+          "Season": "summer"
+        }
+      },
+      {
+        "LogName": "IsOutdoors.winter.Characters",
+        "Action": "EditImage",
+        "Target": "Characters/LiQingFeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Outdoor.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": true,
+          "Season": "winter"
+        }
+      },
+      {
+        "LogName": "Outdoors.rain.Characters",
+        "Action": "EditImage",
+        "Target": "Characters/LiQingFeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Rain.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": false,
+          "Season": "spring,summer,fall",
+          "Weather": "rain,"
+        }
+      },
+      {
+        "LogName": "IsOutdoors.storm.Characters",
+        "Action": "EditImage",
+        "Target": "Characters/LiQingFeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Outdoor_Rain.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": true,
+          "Season": "spring,summer,fall",
+          "Weather": "rain"
+        }
+      },
+      {
+        "LogName": "Outdoors.GreenRain.Characters",
+        "Action": "EditImage",
+        "Target": "Characters/LiQingFeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_GreenRain.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": false,
+          "Season": "summer",
+          "Weather": "GreenRain"
+        }
+      },
+      {
+        "LogName": "IsOutdoors.GreenRain.Characters",
+        "Action": "EditImage",
+        "Target": "Characters/LiQingFeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Outdoor_GreenRain.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": true,
+          "Season": "summer",
+          "Weather": "GreenRain"
+        }
+      },
+      {
+        "LogName": "Outdoors.Snow.Characters",
+        "Action": "EditImage",
+        "Target": "Characters/LiQingFeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Snow.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": false,
+          "Season": "winter",
+          "Weather": "Snow"
+        }
+      },
+      {
+        "LogName": "IsOutdoors.Snow.Characters",
+        "Action": "EditImage",
+        "Target": "Characters/LiQingFeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Outdoor_Snow.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": true,
+          "Season": "winter",
+          "Weather": "Snow"
+        }
+      },
+      {
+        "LogName": "Outdoors.Storm.Characters",
+        "Action": "EditImage",
+        "Target": "Characters/LiQingFeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Storm.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": false,
+          "Season": "spring,summer,fall",
+          "Weather": "Storm"
+        }
+      },
+      {
+        "LogName": "IsOutdoors.Storm.Characters",
+        "Action": "EditImage",
+        "Target": "Characters/LiQingFeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Outdoor_Storm.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": true,
+          "Season": "spring,summer,fall",
+          "Weather": "Storm"
+        }
+      },
+
+      {
+        "LogName": "Outdoors.Snow.Characters",
+        "Action": "EditImage",
+        "Target": "Characters/LiQingFeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Snow.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": false,
+          "Season": "winter",
+          "Weather": "Snow"
+        }
+      },
+      {
+        "LogName": "IsOutdoors.Snow.Characters",
+        "Action": "EditImage",
+        "Target": "Characters/LiQingFeng",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}_Outdoor_Snow.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "IsOutdoors": true,
+          "Season": "winter",
+          "Weather": "Snow"
+        }
+      },
+
+      {
+        "Action": "Load",
+        "Target": "Portraits/LiQingFeng_Marriage_spring_Outdoor, Characters/LiQingFeng_Marriage_spring_Outdoor",
+        "FromFile": "assets/Seasonal Marriage/{{TargetPathOnly}}/LiQingFeng/{{TargetWithoutPath}}.png"
+      },
+      {
+        "Action": "Load",
+        "Target": "Portraits/LiQingFeng_Marriage_summer, Characters/LiQingFeng_Marriage_summer",
+        "FromFile": "assets/Seasonal Marriage/{{TargetPathOnly}}/LiQingFeng/{{TargetWithoutPath}}.png"
+      },
+
+      {
+        "LogName": "IsOutdoors.spring.Marriage.Portraits",
+        "Action": "EditImage",
+        "Target": "Portraits/LiQingFeng",
+        "FromFile": "assets/Seasonal Marriage/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_Marriage_{{Season}}_Outdoor.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "Spouse": "LiQingFeng",
+          "IsOutdoors": true,
+          "Season": "spring"
+        }
+      },
+
+      {
+        "LogName": "IsOutdoors.spring.Marriage.Characters",
+        "Action": "EditImage",
+        "Target": "Characters/LiQingFeng",
+        "FromFile": "assets/Seasonal Marriage/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_Marriage_{{Season}}_Outdoor.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "Spouse": "LiQingFeng",
+          "IsOutdoors": true,
+          "Season": "spring"
+        }
+      },
+      {
+        "LogName": "summer.Marriage.Portraits",
+        "Action": "EditImage",
+        "Target": "Portraits/LiQingFeng",
+        "FromFile": "assets/Seasonal Marriage/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_Marriage_{{Season}}.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "Spouse": "LiQingFeng",
+          "Season": "summer"
+        }
+      },
+
+      {
+        "LogName": "summer.Marriage.Characters",
+        "Action": "EditImage",
+        "Target": "Characters/LiQingFeng",
+        "FromFile": "assets/Seasonal Marriage/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_Marriage_{{Season}}.png",
+        "Update": "OnLocationChange",
+        "When":
+        {
+          "Spouse": "LiQingFeng",
+          "Season": "summer"
+        }
+      },
+
+      {
+        "Action": "Load",
+        "Target": "Portraits/LiQingFeng_spring, Characters/LiQingFeng_spring,Portraits/LiQingFeng_summer, Characters/LiQingFeng_summer,Portraits/LiQingFeng_fall, Characters/LiQingFeng_fall,Portraits/LiQingFeng_winter, Characters/LiQingFeng_winter",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/LiQingFeng/{{TargetWithoutPath}}.png"
+      },
+      {
+        "Action": "Load",
+        "Target": "Portraits/LiQingFeng_spring_Rain, Characters/LiQingFeng_spring_Rain,Portraits/LiQingFeng_summer_Rain, Characters/LiQingFeng_summer_Rain,Portraits/LiQingFeng_fall_Rain, Characters/LiQingFeng_fall_Rain,Portraits/LiQingFeng_winter_Snow, Characters/LiQingFeng_winter_Snow",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/LiQingFeng/{{TargetWithoutPath}}.png"
+      },
+      {
+        "Action": "Load",
+        "Target": "Portraits/LiQingFeng_spring_Outdoor, Characters/LiQingFeng_spring_Outdoor,Portraits/LiQingFeng_summer_Outdoor, Characters/LiQingFeng_summer_Outdoor,Portraits/LiQingFeng_fall_Outdoor, Characters/LiQingFeng_fall_Outdoor,Portraits/LiQingFeng_winter_Outdoor, Characters/LiQingFeng_winter_Outdoor",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/LiQingFeng/{{TargetWithoutPath}}.png"
+      },
+      {
+        "Action": "Load",
+        "Target": "Portraits/LiQingFeng_spring_Outdoor_Rain, Characters/LiQingFeng_spring_Outdoor_Rain,Portraits/LiQingFeng_summer_Outdoor_Rain, Characters/LiQingFeng_summer_Outdoor_Rain,Portraits/LiQingFeng_fall_Outdoor_Rain, Characters/LiQingFeng_fall_Outdoor_Rain,Portraits/LiQingFeng_winter_Outdoor_Snow, Characters/LiQingFeng_winter_Outdoor_Snow",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/LiQingFeng/{{TargetWithoutPath}}.png"
+      },
+      {
+        "Action": "Load",
+        "Target": "Portraits/LiQingFeng_EggFestival, Characters/LiQingFeng_EggFestival",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/LiQingFeng/{{TargetWithoutPath}}.png"
+      },
+      {
+        "Action": "Load",
+        "Target": "Portraits/LiQingFeng_FlowerDance, Characters/LiQingFeng_FlowerDance",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/LiQingFeng/{{TargetWithoutPath}}.png"
+      },
+      {
+        "Action": "Load",
+        "Target": "Portraits/LiQingFeng_Luau, Characters/LiQingFeng_Luau",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/LiQingFeng/{{TargetWithoutPath}}.png"
+      },
+      {
+        "Action": "Load",
+        "Target": "Portraits/LiQingFeng_MoonlightJellies, Characters/LiQingFeng_MoonlightJellies",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/LiQingFeng/{{TargetWithoutPath}}.png"
+      },
+      {
+        "Action": "Load",
+        "Target": "Portraits/LiQingFeng_Fair, Characters/LiQingFeng_Fair",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/LiQingFeng/{{TargetWithoutPath}}.png"
+      },
+      {
+        "Action": "Load",
+        "Target": "Portraits/LiQingFeng_SpiritsEve, Characters/LiQingFeng_SpiritsEve",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/LiQingFeng/{{TargetWithoutPath}}.png"
+      },
+      {
+        "Action": "Load",
+        "Target": "Portraits/LiQingFeng_WinterStar, Characters/LiQingFeng_WinterStar",
+        "FromFile": "assets/Seasonal/{{TargetPathOnly}}/LiQingFeng/{{TargetWithoutPath}}.png"
+      },
+      {
+        "Action": "EditData",
+        "Target": "Data/Characters",
+        "TargetField": [
+          "LiQingFeng",
+          "Appearance"
+        ],
+        "Entries": {
+          "LiQingFeng.EggFestival": {
+            "Id": "LiQingFeng_EggFestival",
+            "Portrait": "Portraits/LiQingFeng_EggFestival",
+            "Sprite": "Characters/LiQingFeng_EggFestival",
+            "Precedence": -160,
+            "Condition": "IS_EVENT festival_spring13,"
+          },
+          "LiQingFeng.FlowerDance": {
+            "Id": "LiQingFeng_FlowerDance",
+            "Portrait": "Portraits/LiQingFeng_FlowerDance",
+            "Sprite": "Characters/LiQingFeng_FlowerDance",
+            "Precedence": -160,
+            "Condition": "IS_EVENT festival_spring24,"
+          },
+          "LiQingFeng.Luau": {
+            "Id": "LiQingFeng_Luau",
+            "Portrait": "Portraits/LiQingFeng_Luau",
+            "Sprite": "Characters/LiQingFeng_Luau",
+            "Precedence": -160,
+            "Condition": "IS_EVENT festival_summer11,"
+          },
+          "LiQingFeng.MoonlightJellies": {
+            "Id": "LiQingFeng_MoonlightJellies",
+            "Portrait": "Portraits/LiQingFeng_MoonlightJellies",
+            "Sprite": "Characters/LiQingFeng_MoonlightJellies",
+            "Precedence": -160,
+            "Condition": "IS_EVENT festival_summer28,"
+          },
+          "LiQingFeng.Fair": {
+            "Id": "LiQingFeng_Fair",
+            "Portrait": "Portraits/LiQingFeng_Fair",
+            "Sprite": "Characters/LiQingFeng_Fair",
+            "Precedence": -160,
+            "Condition": "IS_EVENT festival_fall16,"
+          },
+          "LiQingFeng.SpiritsEve": {
+            "Id": "LiQingFeng_SpiritsEve",
+            "Portrait": "Portraits/LiQingFeng_SpiritsEve",
+            "Sprite": "Characters/LiQingFeng_SpiritsEve",
+            "Precedence": -160,
+            "Condition": "IS_EVENT festival_fall27,"
+          },
+          "LiQingFeng.WinterStar": {
+            "Id": "LiQingFeng_WinterStar",
+            "Portrait": "Portraits/LiQingFeng_WinterStar",
+            "Sprite": "Characters/LiQingFeng_WinterStar",
+            "Precedence": -160,
+            "Condition": "IS_EVENT festival_winter25,"
+          }
+        }
+      }
+    ]
+}

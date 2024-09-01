@@ -1,0 +1,229 @@
+﻿{
+    "Format": "2.0.0",
+    "CustomLocations": [
+        /*************   EditMap    *************/
+        {
+            "Name": "Custom_RedPandaBazaar.52.42",
+            "FromMapFile": "assets/Maps/EditMap/RedPandaBazaar.52.42.tmx"
+        },
+        /*************   Maps   IndoorsMaps  *************/
+        {
+            "Name": "Custom_ToolShop",
+            "FromMapFile": "assets/Maps/IndoorsMaps/ToolShop.tmx"
+        },
+        {
+            "Name": "Custom_ArtisanShop1",
+            "FromMapFile": "assets/Maps/IndoorsMaps/ArtisanShop1.tmx"
+        },
+        {
+            "Name": "Custom_ArtisanShop2",
+            "FromMapFile": "assets/Maps/IndoorsMaps/ArtisanShop2.tmx"
+        },
+        {
+            "Name": "Custom_LiQingFengCafe1",
+            "FromMapFile": "assets/Maps/IndoorsMaps/LiQingFengCafe1.tmx"
+        },
+        {
+            "Name": "Custom_LiQingFengCafe2",
+            "FromMapFile": "assets/Maps/IndoorsMaps/LiQingFengCafe2.tmx"
+        },
+        {
+            "Name": "Custom_LiQingFengHouse1",
+            "FromMapFile": "assets/Maps/IndoorsMaps/LiQingFengHouse1.tmx"
+        },
+        {
+            "Name": "Custom_LiQingFengHouse2",
+            "FromMapFile": "assets/Maps/IndoorsMaps/LiQingFengHouse2.tmx"
+        },
+        {
+            "Name": "Custom_LiQingFengHouse3",
+            "FromMapFile": "assets/Maps/IndoorsMaps/LiQingFengHouse3.tmx"
+        },
+        {
+            "Name": "Custom_ChenQiShop1",
+            "FromMapFile": "assets/Maps/IndoorsMaps/ChenQiShop1.tmx"
+        },
+        {
+            "Name": "Custom_ChenQiShop2",
+            "FromMapFile": "assets/Maps/IndoorsMaps/ChenQiShop2.tmx"
+        },
+        {
+            "Name": "Custom_LaoLiuGallery1",
+            "FromMapFile": "assets/Maps/IndoorsMaps/LaoLiuGallery1.tmx"
+        },
+        {
+            "Name": "Custom_LaoLiuGallery2",
+            "FromMapFile": "assets/Maps/IndoorsMaps/LaoLiuGallery2.tmx"
+        },
+        {
+            "Name": "Custom_MirrorLakeShop1",
+            "FromMapFile": "assets/Maps/IndoorsMaps/MirrorLakeShop1.tmx"
+        },
+        {
+            "Name": "Custom_MirrorLakeShop2",
+            "FromMapFile": "assets/Maps/IndoorsMaps/MirrorLakeShop2.tmx"
+        },
+        {
+            "Name": "Custom_Kataleplace",
+            "FromMapFile": "assets/Maps/IndoorsMaps/KatalePlace.tmx"
+        },
+        {
+            "Name": "Custom_Katalecave",
+            "FromMapFile": "assets/Maps/IndoorsMaps/KataleCave.tmx"
+        },
+        {
+            "Name": "Custom_Katalecave2",
+            "FromMapFile": "assets/Maps/IndoorsMaps/KataleCave2.tmx"
+        },
+        {
+            "Name": "Custom_KataleHouse",
+            "FromMapFile": "assets/Maps/IndoorsMaps/KataleHouse.tmx"
+        },
+        /*************   Maps   OutdoorsMaps  *************/
+        {
+            "Name": "Custom_RedPandaBazaar",
+            "FromMapFile": "assets/Maps/OutdoorsMaps/RedPandaBazaar.tmx"
+        },
+        {
+            "Name": "Custom_BazaarWest",
+            "FromMapFile": "assets/Maps/OutdoorsMaps/BazaarWest.tmx"
+        },
+
+        {
+            "Name": "Custom_RedPandaLake",
+            "FromMapFile": "assets/Maps/OutdoorsMaps/RedPandaLake.tmx"
+        },
+
+        {
+            "Name": "Custom_RedPandaBridge",
+            "FromMapFile": "assets/Maps/OutdoorsMaps/RedPandaBridge.tmx"
+        },
+        {
+            "Name": "Custom_MapleBridge",
+            "FromMapFile": "assets/Maps/OutdoorsMaps/MapleBridge.tmx"
+        },
+        {
+            "Name": "Custom_MirrorLake",
+            "FromMapFile": "assets/Maps/OutdoorsMaps/MirrorLake.tmx"
+        },
+        {
+            "Name": "Custom_LiQingFengCourtyard",
+            "FromMapFile": "assets/Maps/OutdoorsMaps/LiQingFengCourtyard.tmx"
+        },
+        {
+            "Name": "Custom_RPB.LiQingFengRoom",
+            "FromMapFile": "assets/Maps/LiQingFengRoom.tbin"
+        },
+        {
+            "Name": "Custom_LiQingFeng_Spouse_Area",
+            "FromMapFile": "assets/Maps/LiQingFeng_Spouse_Area.tbin"
+        }
+    ],
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Maps/Custom_LiQingFengRoom",
+            "FromFile": "assets/Maps/LiQingFengRoom.tbin"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/LiQingFeng_Spouse_Area",
+            "FromFile": "assets/Maps/LiQingFeng_Spouse_Area.tbin"
+        },
+        {
+            "LogName": "OutdoorsMaps.Locations",
+            "Action": "Include",
+            "FromFile": "data/Locations/OutdoorsMaps/Katale.json,data/Locations/OutdoorsMaps/MirrorLake.json,data/Locations/OutdoorsMaps/RedPandaBridge.json,data/Locations/OutdoorsMaps/RedPandaLake.json,data/Locations/OutdoorsMaps/LiQingFengCourtyard.json,data/Locations/OutdoorsMaps/MapleBridge.json,data/Locations/OutdoorsMaps/RedPandaBazaar.json"
+        },
+        {
+            "LogName": "IndoorsMaps.Locations",
+            "Action": "Include",
+            "FromFile": "data/Locations/IndoorsMaps/LiQingFengCafe1.json,data/Locations/IndoorsMaps/LiQingFengCafe2.json,data/Locations/IndoorsMaps/LiQingFengHouse1.json,data/Locations/IndoorsMaps/LiQingFengHouse2.json,data/Locations/IndoorsMaps/LiQingFengHouse3.json,data/Locations/IndoorsMaps/ArtisanShop1.json,data/Locations/IndoorsMaps/ArtisanShop2.json,data/Locations/IndoorsMaps/ChenQiShop1.json,data/Locations/IndoorsMaps/ChenQiShop2.json,data/Locations/IndoorsMaps/KataleCave.json,data/Locations/IndoorsMaps/KataleCave2.json,data/Locations/IndoorsMaps/KataleHouse.json,data/Locations/IndoorsMaps/KatalePlace.json,data/Locations/IndoorsMaps/LaoLiuGallery1.json,data/Locations/IndoorsMaps/LaoLiuGallery2.json,data/Locations/IndoorsMaps/MirrorLakeShop1.json,data/Locations/IndoorsMaps/MirrorLakeShop2.json,data/Locations/IndoorsMaps/ToolShop.json"
+        },
+        {
+            "LogName": "OutdoorsMaps.EditMap",
+            "Action": "Include",
+            "FromFile": "data/EditMap/OutdoorsMaps/RedPandaBazaar.json,data/EditMap/OutdoorsMaps/RPB.BusStop.json"
+        },
+        {
+            "LogName": "IndoorsMaps.EditMap",
+            "Action": "Include",
+            "FromFile": "data/EditMap/IndoorsMaps/ChenQiShop1.json"
+        },
+        {
+            "LogName": "StringsFromMaps",
+            "Action": "Include",
+            "FromFile": "data/StringsFromMaps.json"
+        },
+        {
+            "LogName": "GarbageCans",
+            "Action": "Include",
+            "FromFile": "data/GarbageCans.json"
+        },
+        {
+            "LogName": "CJBWarp",
+            "Action": "Include",
+            "FromFile": "data/CJBWarp.json"
+        },
+        {
+            "LogName": "Tilesheets",
+            "Action": "Include",
+            "FromFile": "data/Tilesheets.json"
+        },
+        {
+            "LogName": "XNBs",
+            "Action": "Include",
+            "FromFile": "data/XNBs.json"
+        },
+        {
+            "LogName": "Golden.Dwarf",
+            "Action": "Include",
+            "FromFile": "assets/Objects/Golden Cupcake.json,assets/Objects/Golden Delight.json,assets/Objects/Golden Flavor Popsicle.json,assets/Objects/Golden Flavor Joja Cola.json"
+        },
+        {
+            "LogName": "Food.Saloon",
+            "Action": "Include",
+            "FromFile": "assets/Objects/Milk Pudding.json,assets/Objects/Buttermilk Bake.json,assets/Objects/Custard Pie.json,assets/Objects/Fairy Rose Cake.json"
+        },
+        {
+            "LogName": "Food.FishShop",
+            "Action": "Include",
+            "FromFile": "assets/Objects/Pumpkin Popsicle.json"
+        },
+        {
+            "LogName": "Food.Hospital",
+            "Action": "Include",
+            "FromFile": "assets/Objects/Coffee Popsicle.json"
+        },
+        {
+            "LogName": "Food.Sandy",
+            "Action": "Include",
+            "FromFile": "assets/Objects/Mango Popsicle.json"
+        },
+        {
+            "LogName": "Food.Carpenter",
+            "Action": "Include",
+            "FromFile": "assets/Objects/Peach Popsicle.json"
+        },
+        {
+            "LogName": "Food.Blacksmith",
+            "Action": "Include",
+            "FromFile": "assets/Objects/Fern Popsicle.json"
+        },
+        {
+            "LogName": "Shops",
+            "Action": "Include",
+            "FromFile": "assets/Shops/ChenQiShop1.json,assets/Shops/Shops.json,assets/Shops/ArtisanShop1.json,assets/Shops/LiQingFengCafe.json,assets/Shops/LiQingFengCafe1.json,assets/Shops/Katale.json,"
+        },
+        {
+            "LogName": "NPCGiftTastes",
+            "Action": "Include",
+            "FromFile": "assets/NPCGiftTastes/NPCGift Pumpkin Popsicle.json,assets/NPCGiftTastes/NPCGift Coffee Popsicle.json,assets/NPCGiftTastes/NPCGift Mango Popsicle.json,assets/NPCGiftTastes/NPCGift Peach Popsicle.json,assets/NPCGiftTastes/NPCGift Fern Popsicle.json"
+        },
+        {
+            "LogName": "NPCGiftTastes",
+            "Action": "Include",
+            "FromFile": "assets/NPCGiftTastes/NPCGift Milk Pudding.json,assets/NPCGiftTastes/NPCGift Golden Flavor Popsicle.json,assets/NPCGiftTastes/NPCGift Golden Flavor Joja Cola.json,assets/NPCGiftTastes/NPCGift Golden Delight.json,assets/NPCGiftTastes/NPCGift Golden Cupcake.json"
+        }
+    ]
+}

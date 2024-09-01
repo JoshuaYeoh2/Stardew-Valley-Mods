@@ -1,0 +1,47 @@
+{
+  "Changes": [
+        {
+         "Action": "EditMap",
+         "Target": "Maps/Custom_Kataleplace",
+         "AddWarps": [
+                "15 4 Custom_Katalecave 12 18"
+         ]
+        },
+
+        {
+         "Action": "EditMap",
+         "Target": "Maps/Custom_Katalecave",
+         "AddWarps": [
+                "11 19 Custom_Kataleplace 15 5",
+                "12 19 Custom_Kataleplace 15 5",
+                "13 19 Custom_Kataleplace 15 5",
+                "14 19 Custom_Kataleplace 15 5"
+         ]
+        },
+
+        {
+         "Action": "EditMap",
+         "Target": "Maps/Custom_Katalecave",
+         "AddWarps": [
+                "19 17 Custom_Katalecave2 9 4"
+         ]
+        },
+
+        {
+         "Action": "EditMap",
+         "Target": "Maps/Custom_Katalecave2",
+         "AddWarps": [
+                "8 3 Custom_Katalecave 19 16",
+                "9 3 Custom_Katalecave 19 16",
+                "10 3 Custom_Katalecave 19 16"
+         ]
+        },
+    {
+      "Action": "EditData",
+      "Target": "Strings/StringsFromMaps",
+      "Entries": {
+        "Katalemessage.0": "{{i18n:Katale_Katalemessage.0}}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Custom_ArtisanShop1": {
+          "DisplayName": "{{i18n:ArtisanShop1}}",
+          "CreateOnLoad": {
+            "AlwaysActive": true,
+            "MapPath": "Maps\\Custom_ArtisanShop1"
+          },
+          "CanPlantHere": true,
+          "FormerLocationNames": [
+            "ArtisanShop1"
+          ]
+        }
+      }
+    }
+  ]
+}

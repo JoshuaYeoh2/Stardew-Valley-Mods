@@ -1,0 +1,55 @@
+{
+  "Changes": [
+        {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+          "Entries": {
+            "Coffee Popsicle": "395 1 245 1 -6 1/9999 9999/RedPandaBazaar_Coffee_Popsicle/null/{{i18n:RedPandaBazaar.object.Coffee.Popsicle.name}}"
+          }
+        },
+        {
+          "Action": "Load",
+          "Priority": "Low",
+          "Target": "Mods/RedPandaBazaar/Coffee Popsicle",
+          "FromFile": "assets/Png/Coffee Popsicle.png"
+        },
+        {
+          "Action": "EditData",
+          "Target": "Data/Objects",
+          "Entries": {
+            "RedPandaBazaar_Coffee_Popsicle": {
+              "Name": "Coffee Popsicle",
+              "DisplayName": "{{i18n:RedPandaBazaar.object.Coffee.Popsicle.name}}",
+              "Description": "{{i18n:RedPandaBazaar.object.Coffee.Popsicle.description}}",
+              "Type": "Cooking",
+              "Category": -7,
+              "Price": 200,
+              "Texture": "Mods\\RedPandaBazaar\\Coffee Popsicle",
+              "SpriteIndex": 0,
+              "Edibility": 50,
+              "IsDrink": false,
+              "ExcludeFromFishingCollection": true,
+              "ExcludeFromShippingCollection": true,
+              "ExcludeFromRandomSale": true,
+              "Buffs": [
+                {
+                  "Duration": 300,
+                  "CustomAttributes": {
+                    "FarmingLevel": 0,
+                    "FishingLevel": 0,
+                    "MiningLevel": 0,
+                    "LuckLevel": 0,
+                    "ForagingLevel": 0,
+                    "MaxStamina": 0,
+                    "MagneticRadius": 0,
+                    "Speed": 1,
+                    "Defense": 0,
+                    "Attack": 0
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+}

@@ -1,0 +1,55 @@
+{
+    "Changes": [
+        {
+            "Action": "Load",
+            "Priority": "Low",
+            "Target": "Mods/Lilaoliu.QingfengCP/Pearl.milk.tea",
+            "FromFile": "assets/Png/Pearl.milk.tea.png"
+        },
+      {
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+            "Pearl.milk.tea": "-6 1 245 1 614 1/9999 9999/Lilaoliu.QingfengCP_Pearl.milk.tea/null/{{i18n:Qingfeng.object.Pearl.milk.tea.name}}"
+        }
+      },
+      {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                    "Lilaoliu.QingfengCP_Pearl.milk.tea": {
+                    "Name": "Pearl.milk.tea",
+                    "DisplayName": "{{i18n:Qingfeng.object.Pearl.milk.tea.name}}",
+                    "Description": "{{i18n:Qingfeng.object.Pearl.milk.tea.description}}",
+                    "Type": "Cooking",
+                    "Category": 20,
+                    "Price": 300,
+                    "Texture": "Mods\\Lilaoliu.QingfengCP\\Pearl.milk.tea",
+                    "SpriteIndex": 0,
+                    "Edibility": 10,
+                    "IsDrink": true,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                      "Buffs": [
+                        {
+                          "Duration": 300,
+                          "CustomAttributes": {
+                            "FarmingLevel": 0,
+                            "FishingLevel": 0,
+                            "MiningLevel": 0,
+                            "LuckLevel": 2,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 0,
+                            "MagneticRadius": 0,
+                            "Speed": 1,
+                            "Defense": 0,
+                            "Attack": 0
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+        ]
+}

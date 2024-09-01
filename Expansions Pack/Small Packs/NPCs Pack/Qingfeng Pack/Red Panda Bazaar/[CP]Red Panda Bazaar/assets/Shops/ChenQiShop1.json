@@ -1,0 +1,1282 @@
+{
+    "Changes": [
+      {
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "Entries": {
+          "ChenQiShop1.5.7": {
+            "Owners": [
+              {
+                "Name": "None",
+                "Dialogues": [
+                  {
+                    "Id": "ChenQiShop1.5.7",
+                    "Dialogue": "{{i18n:Shops.ChenQiShop1.5.7}}"
+                  }
+                ]
+              }
+            ],
+            "Items": [
+              {
+                "Id": "ChenQiShop1.Cheese.1",
+                "ItemId": "424",
+                "Price": 300,
+                "AvailableStock": 3
+              },
+              {
+                "Id": "ChenQiShop1.Cheese.2",
+                "ItemId": "424",
+                "Price": 500
+              },
+              {
+                "Id": "ChenQiShop1.Egg.1",
+                "ItemId": "182",
+                "Price": 230,
+                "AvailableStock": 3
+              },
+              {
+                "Id": "ChenQiShop1.Egg.2",
+                "ItemId": "182",
+                "Price": 350
+              },
+              {
+                "Id": "ChenQiShop1.Milk.1",
+                "ItemId": "184",
+                "Price": 150,
+                "AvailableStock": 3
+              },
+              {
+                "Id": "ChenQiShop1.Milk.2",
+                "ItemId": "184",
+                "Price": 200
+              }
+            ]
+          },
+          "ChenQiShop1.6.7": {
+            "Owners": [
+              {
+                "Name": "None",
+                "Dialogues": [
+                  {
+                    "Id": "ChenQiShop1.6.7",
+                    "Dialogue": "{{i18n:Shops.ChenQiShop1.6.7}}"
+                  }
+                ]
+              }
+            ],
+            "Items": [
+              {
+                "Id": "ChenQiShop1.TruffleOil.1",
+                "ItemId": "432",
+                "Price": 3500,
+                "AvailableStock": 1
+              },
+              {
+                "Id": "ChenQiShop1.DuckEgg.1",
+                "ItemId": "442",
+                "Price": 500,
+                "AvailableStock": 3
+              },
+              {
+                "Id": "ChenQiShop1.DuckEgg.2",
+                "ItemId": "442",
+                "Price": 750
+              },
+              {
+                "Id": "ChenQiShop1.GoatCheese.1",
+                "ItemId": "426",
+                "Price": 550,
+                "AvailableStock": 3
+              },
+              {
+                "Id": "ChenQiShop1.GoatCheese.2",
+                "ItemId": "426",
+                "Price": 850
+              }
+            ]
+          },
+          "ChenQiShop1.11.7": {
+            "Owners": [
+              {
+                "Name": "None",
+                "Dialogues": [
+                  {
+                    "Id": "ChenQiShop1.11.7",
+                    "Dialogue": "{{i18n:Shops.ChenQiShop1.11.7}}"
+                  }
+                ]
+              }
+            ],
+            "Items": [
+              {
+                "Id": "ChenQiShop1.GoldBar.1",
+                "ItemId": "336",
+                "TradeItemId": "20",
+                "TradeItemAmount": 5,
+                "AvailableStock": 3
+              },
+              {
+                "Id": "ChenQiShop1.GoldBar.2",
+                "ItemId": "336",
+                "TradeItemId": "22",
+                "TradeItemAmount": 5,
+                "AvailableStock": 2
+              },
+              {
+                "Id": "ChenQiShop1.GoldBar.3",
+                "ItemId": "336",
+                "TradeItemId": "396",
+                "TradeItemAmount": 5,
+                "AvailableStock": 2
+              },
+              {
+                "Id": "ChenQiShop1.GoldBar.4",
+                "ItemId": "336",
+                "TradeItemId": "406",
+                "TradeItemAmount": 5,
+                "AvailableStock": 2
+              },
+              {
+                "Id": "ChenQiShop1.GoldBar.5",
+                "ItemId": "336",
+                "TradeItemId": "408",
+                "TradeItemAmount": 5,
+                "AvailableStock": 2
+              },
+              {
+                "Id": "ChenQiShop1.GoldBar.6",
+                "ItemId": "336",
+                "TradeItemId": "412",
+                "TradeItemAmount": 5,
+                "AvailableStock": 2
+              },
+              {
+                "Id": "ChenQiShop1.GoldBar.7",
+                "ItemId": "336",
+                "TradeItemId": "414",
+                "TradeItemAmount": 5,
+                "AvailableStock": 2
+              },
+              {
+                "Id": "ChenQiShop1.GoldOre.1",
+                "ItemId": "384",
+                "TradeItemId": "136",
+                "TradeItemAmount": 1,
+                "AvailableStock": 30
+              },
+              {
+                "Id": "ChenQiShop1.GoldOre.2",
+                "ItemId": "384",
+                "TradeItemId": "144",
+                "TradeItemAmount": 1,
+                "AvailableStock": 30
+              },
+              {
+                "Id": "ChenQiShop1.GoldOre.3",
+                "ItemId": "384",
+                "TradeItemId": "706",
+                "TradeItemAmount": 1,
+                "AvailableStock": 30
+              }
+            ]
+          },
+          "ChenQiShop1.12.7": {
+            "Owners": [
+              {
+                "Name": "None",
+                "Dialogues": [
+                  {
+                    "Id": "ChenQiShop1.12.7",
+                    "Dialogue": "{{i18n:Shops.ChenQiShop1.12.7}}"
+                  }
+                ]
+              }
+            ],
+            "Items": [
+              {
+                "Id": "ChenQiShop1.GoldBar.8",
+                "ItemId": "336",
+                "Price": 1500,
+                "AvailableStock": 5
+              },
+              {
+                "Id": "ChenQiShop1.GoldBar.9",
+                "ItemId": "336",
+                "Price": 2750,
+                "AvailableStock": 10
+              },
+              {
+                "Id": "ChenQiShop1.GoldBar.9",
+                "ItemId": "336",
+                "Price": 3750
+              }
+            ]
+          },
+          "ChenQiShop1.13.6": {
+            "Owners": [
+              {
+                "Name": "None",
+                "Dialogues": [
+                  {
+                    "Id": "ChenQiShop1.13.6",
+                    "Dialogue": "{{i18n:Shops.ChenQiShop1.13.6}}"
+                  }
+                ]
+              }
+            ],
+            "Items": [
+              {
+                "Id": "ChenQiShop1.GlowRing.1",
+                "ItemId": "517",
+                "Price": 1500,
+                "AvailableStock": 1
+              },
+              {
+                "Id": "ChenQiShop1.MagnetRing.1",
+                "ItemId": "519",
+                "Price": 1500,
+                "AvailableStock": 1
+              },
+              {
+                "Id": "ChenQiShop1.Bomb.1",
+                "ItemId": "287",
+                "TradeItemId": "16",
+                "TradeItemAmount": 1,
+                "AvailableStock": 50
+              },
+              {
+                "Id": "ChenQiShop1.Bomb.2",
+                "ItemId": "287",
+                "TradeItemId": "398",
+                "TradeItemAmount": 1,
+                "AvailableStock": 50
+              },
+              {
+                "Id": "ChenQiShop1.Bomb.3",
+                "ItemId": "287",
+                "TradeItemId": "404",
+                "TradeItemAmount": 1,
+                "AvailableStock": 50
+              },
+              {
+                "Id": "ChenQiShop1.Bomb.4",
+                "ItemId": "287",
+                "TradeItemId": "416",
+                "TradeItemAmount": 1,
+                "AvailableStock": 50
+              },
+              {
+                "Id": "ChenQiShop1.CopperBar.1",
+                "ItemId": "334",
+                "TradeItemId": "18",
+                "TradeItemAmount": 2,
+                "AvailableStock": 5
+              },
+              {
+                "Id": "ChenQiShop1.CopperBar.2",
+                "ItemId": "334",
+                "TradeItemId": "402",
+                "TradeItemAmount": 2,
+                "AvailableStock": 5
+              },
+              {
+                "Id": "ChenQiShop1.CopperBar.3",
+                "ItemId": "334",
+                "TradeItemId": "418",
+                "TradeItemAmount": 2,
+                "AvailableStock": 5
+              }
+            ]
+          },
+          "ChenQiShop1.14.6": {
+            "Owners": [
+              {
+                "Name": "None",
+                "Dialogues": [
+                  {
+                    "Id": "ChenQiShop1.14.6",
+                    "Dialogue": "{{i18n:Shops.ChenQiShop1.14.6}}"
+                  }
+                ]
+              }
+            ],
+            "Items": [
+              {
+                "Id": "ChenQiShop1.CopperBar.4",
+                "ItemId": "334",
+                "Price": 275,
+                "AvailableStock": 5
+              },
+              {
+                "Id": "ChenQiShop1.CopperBar.5",
+                "ItemId": "334",
+                "Price": 375,
+                "AvailableStock": 10
+              },
+              {
+                "Id": "ChenQiShop1.CopperBar.6",
+                "ItemId": "334",
+                "Price": 500
+              },
+              {
+                "Id": "ChenQiShop1.IronBar.1",
+                "ItemId": "335",
+                "Price": 500,
+                "AvailableStock": 5
+              },
+              {
+                "Id": "ChenQiShop1.IronBar.2",
+                "ItemId": "335",
+                "Price": 750,
+                "AvailableStock": 10
+              },
+              {
+                "Id": "ChenQiShop1.IronBar.3",
+                "ItemId": "335",
+                "Price": 950
+              }
+            ]
+          },
+          "ChenQiShop1.15.6": {
+            "Owners": [
+              {
+                "Name": "None",
+                "Dialogues": [
+                  {
+                    "Id": "ChenQiShop1.15.6",
+                    "Dialogue": "{{i18n:Shops.ChenQiShop1.15.6}}"
+                  }
+                ]
+              }
+            ],
+            "Items": [
+              {
+                "Id": "ChenQiShop1.CherryBomb.1",
+                "ItemId": "286",
+                "TradeItemId": "92",
+                "TradeItemAmount": 12,
+                "AvailableStock": 50
+              },
+              {
+                "Id": "ChenQiShop1.LuckyRing.1",
+                "ItemId": "859",
+                "TradeItemId": "204",
+                "TradeItemAmount": 21,
+                "AvailableStock": 1
+              },
+              {
+                "Id": "ChenQiShop1.IronBar.4",
+                "ItemId": "335",
+                "TradeItemId": "137",
+                "TradeItemAmount": 3,
+                "AvailableStock": 5
+              },
+              {
+                "Id": "ChenQiShop1.IronBar.5",
+                "ItemId": "335",
+                "TradeItemId": "142",
+                "TradeItemAmount": 3,
+                "AvailableStock": 5
+              },
+              {
+                "Id": "ChenQiShop1.IronBar.6",
+                "ItemId": "335",
+                "TradeItemId": "145",
+                "TradeItemAmount": 3,
+                "AvailableStock": 5
+              },
+              {
+                "Id": "ChenQiShop1.IronBar.7",
+                "ItemId": "335",
+                "TradeItemId": "147",
+                "TradeItemAmount": 3,
+                "AvailableStock": 5
+              },
+              {
+                "Id": "ChenQiShop1.IronBar.8",
+                "ItemId": "335",
+                "TradeItemId": "129",
+                "TradeItemAmount": 3,
+                "AvailableStock": 5
+              },
+              {
+                "Id": "ChenQiShop1.IronBar.9",
+                "ItemId": "335",
+                "TradeItemId": "131",
+                "TradeItemAmount": 3,
+                "AvailableStock": 5
+              }
+            ]
+          },
+          "ChenQiShop1.16.8": {
+            "Owners": [
+              {
+                "Name": "None",
+                "Dialogues": [
+                  {
+                    "Id": "ChenQiShop1.16.8",
+                    "Dialogue": "{{i18n:Shops.ChenQiShop1.16.8}}"
+                  }
+                ]
+              }
+            ],
+            "Items": [
+              {
+                "Id": "ChenQiShop1.Coal.1",
+                "ItemId": "382",
+                "Price": 50,
+                "AvailableStock": 15
+              },
+              {
+                "Id": "ChenQiShop1.Coal.2",
+                "ItemId": "382",
+                "Price": 100,
+                "AvailableStock": 30
+              },
+              {
+                "Id": "ChenQiShop1.Coal.3",
+                "ItemId": "382",
+                "Price": 150,
+                "AvailableStock": 30
+              },
+              {
+                "Id": "ChenQiShop1.Coal.4",
+                "ItemId": "382",
+                "Price": 250
+              },
+              {
+                "Id": "ChenQiShop1.Coal.5",
+                "ItemId": "382",
+                "TradeItemId": "372",
+                "TradeItemAmount": 1
+              },
+              {
+                "Id": "ChenQiShop1.Coal.6",
+                "ItemId": "382",
+                "TradeItemId": "715",
+                "TradeItemAmount": 1
+              },
+              {
+                "Id": "ChenQiShop1.Coal.7",
+                "ItemId": "382",
+                "TradeItemId": "716",
+                "TradeItemAmount": 1
+              },
+              {
+                "Id": "ChenQiShop1.Coal.8",
+                "ItemId": "382",
+                "TradeItemId": "717",
+                "TradeItemAmount": 1
+              },
+              {
+                "Id": "ChenQiShop1.Coal.9",
+                "ItemId": "382",
+                "TradeItemId": "718",
+                "TradeItemAmount": 1
+              },
+              {
+                "Id": "ChenQiShop1.Coal.10",
+                "ItemId": "382",
+                "TradeItemId": "719",
+                "TradeItemAmount": 1
+              },
+              {
+                "Id": "ChenQiShop1.Coal.11",
+                "ItemId": "382",
+                "TradeItemId": "720",
+                "TradeItemAmount": 1
+              },
+              {
+                "Id": "ChenQiShop1.Coal.12",
+                "ItemId": "382",
+                "TradeItemId": "721",
+                "TradeItemAmount": 1
+              },
+              {
+                "Id": "ChenQiShop1.Coal.13",
+                "ItemId": "382",
+                "TradeItemId": "722",
+                "TradeItemAmount": 1
+              },
+              {
+                "Id": "ChenQiShop1.Coal.14",
+                "ItemId": "382",
+                "TradeItemId": "723",
+                "TradeItemAmount": 1
+              }
+            ]
+          },
+          "ChenQiShop1.6.13": {
+            "Owners": [
+              {
+                "Name": "None",
+                "Dialogues": [
+                  {
+                    "Id": "ChenQiShop1.6.13",
+                    "Dialogue": "{{i18n:Shops.ChenQiShop1.6.13}}"
+                  }
+                ]
+              }
+            ],
+            "Items": [
+              {
+                "Id": "ChenQiShop1.Cookie.1",
+                "ItemId": "223",
+                "Price": 0,
+                "AvailableStock": 3
+              },
+              {
+                "Id": "ChenQiShop1.TentKit.1",
+                "ItemId": "TentKit",
+                "Price": 5000,
+                "AvailableStock": 1
+              },
+              {
+                "Id": "ChenQiShop1.MysteryBox.1",
+                "ItemId": "MysteryBox",
+                "Price": 0,
+                "AvailableStock": 1
+              },
+              {
+                "Id": "ChenQiShop1.MysteryBox.1",
+                "ItemId": "MysteryBox",
+                "Price": 1500
+              }
+            ]
+          },
+          "ChenQiShop1.8.9": {
+            "Owners": [
+              {
+                "Name": "None",
+                "Dialogues": [
+                  {
+                    "Id": "ChenQiShop1.8.9",
+                    "Dialogue": "{{i18n:Shops.ChenQiShop1.8.9}}"
+                  }
+                ]
+              }
+            ],
+            "Items": [
+              {
+                "Id": "ChenQiShop1.Auto-Petter.1",
+                "ItemId": "(BC)272",
+                "TradeItemId": "GoldenMysteryBox",
+                "TradeItemAmount": 15,
+                "AvailableStock": 1
+              }
+            ]
+          },
+          "ChenQiShop1.9.9": {
+            "Owners": [
+              {
+                "Name": "None",
+                "Dialogues": [
+                  {
+                    "Id": "ChenQiShop1.9.9",
+                    "Dialogue": "{{i18n:Shops.ChenQiShop1.9.9}}"
+                  }
+                ]
+              }
+            ],
+            "Items": [
+              {
+                "Id": "ChenQiShop1.Auto-Petter.1",
+                "ItemId": "(BC)272",
+                "Price": 75000,
+                "AvailableStock": 1
+              }
+            ]
+          },
+          "ChenQiShop1.11.13": {
+            "Owners": [
+              {
+                "Name": "None",
+                "Dialogues": [
+                  {
+                    "Id": "ChenQiShop1.11.13",
+                    "Dialogue": "{{i18n:Shops.ChenQiShop1.11.13}}"
+                  }
+                ]
+              }
+            ],
+            "Items": [
+              {
+                "Id": "ChenQiShop1.MapleSyrup.1",
+                "ItemId": "724",
+                "Price": 300,
+                "AvailableStock": 3
+              },
+              {
+                "Id": "ChenQiShop1.PineTar.1",
+                "ItemId": "726",
+                "Price": 450,
+                "AvailableStock": 3
+              },
+              {
+                "Id": "ChenQiShop1.TreeFertilizer.1",
+                "ItemId": "805",
+                "Price": 230
+              }
+            ]
+          },
+          "ChenQiShop1.12.14": {
+            "Owners": [
+              {
+                "Name": "None",
+                "Dialogues": [
+                  {
+                    "Id": "ChenQiShop1.12.14",
+                    "Dialogue": "{{i18n:Shops.ChenQiShop1.12.14}}"
+                  }
+                ]
+              }
+            ],
+            "Items": [
+              {
+                "Id": "ChenQiShop1.RainbowShell.1",
+                "ItemId": "394",
+                "TradeItemId": "393",
+                "TradeItemAmount": 9,
+                "AvailableStock": 1
+              },
+              {
+                "Id": "ChenQiShop1.MysticSyrup.1",
+                "ItemId": "MysticSyrup",
+                "TradeItemId": "872",
+                "TradeItemAmount": 1,
+                "AvailableStock": 1
+              },
+              {
+                "Id": "ChenQiShop1.OakResin.1",
+                "ItemId": "725",
+                "Price": 500,
+                "AvailableStock": 5
+              }
+            ]
+          },
+          "ChenQiShop1.13.14": {
+            "Owners": [
+              {
+                "Name": "None",
+                "Dialogues": [
+                  {
+                    "Id": "ChenQiShop1.13.14",
+                    "Dialogue": "{{i18n:Shops.ChenQiShop1.13.14}}"
+                  }
+                ]
+              }
+            ],
+            "Items": [
+              {
+                "Id": "ChenQiShop1.Pearl.1",
+                "ItemId": "797",
+                "TradeItemId": "800",
+                "TradeItemAmount": 9,
+                "AvailableStock": 1
+              },
+              {
+                "Id": "ChenQiShop1.RainTotem.1",
+                "ItemId": "681",
+                "TradeItemId": "432",
+                "TradeItemAmount": 3,
+                "AvailableStock": 1
+              },
+              {
+                "Id": "ChenQiShop1.PineTar.2",
+                "ItemId": "726",
+                "TradeItemId": "311",
+                "TradeItemAmount": 3
+              }
+            ]
+          },
+          "ChenQiShop1.15.14": {
+            "Owners": [
+              {
+                "Name": "None",
+                "Dialogues": [
+                  {
+                    "Id": "ChenQiShop1.15.14",
+                    "Dialogue": "{{i18n:Shops.ChenQiShop1.15.14}}"
+                  }
+                ]
+              }
+            ],
+            "Items": [
+              {
+                "Id": "ChenQiShop1.FishingGear.1",
+                "ItemId": "695",
+                "Price": 750
+              },
+              {
+                "Id": "ChenQiShop1.FishingGear.2",
+                "ItemId": "694",
+                "Price": 500
+              },
+              {
+                "Id": "ChenQiShop1.FishingGear.3",
+                "ItemId": "691",
+                "Price": 150,
+                "TradeItemAmount": 1
+              }
+            ]
+          },
+          "ChenQiShop1.13.21": {
+            "Owners": [
+              {
+                "Name": "None",
+                "Dialogues": [
+                  {
+                    "Id": "ChenQiShop1.13.21",
+                    "Dialogue": "{{i18n:Shops.ChenQiShop1.13.21}}"
+                  }
+                ]
+              }
+            ],
+            "Items": [
+              {
+                "Id": "ChenQiShop1.Apple.1",
+                "ItemId": "613",
+                "Price": 220,
+                "AvailableStock": 1
+              },
+              {
+                "Id": "ChenQiShop1.Peach.1",
+                "ItemId": "636",
+                "Price": 180,
+                "AvailableStock": 1
+              },
+              {
+                "Id": "ChenQiShop1.Pomegranate.1",
+                "ItemId": "637",
+                "Price": 300,
+                "AvailableStock": 1
+              }
+            ]
+          },
+          "ChenQiShop1.16.21": {
+            "Owners": [
+              {
+                "Name": "None",
+                "Dialogues": [
+                  {
+                    "Id": "ChenQiShop1.16.21",
+                    "Dialogue": "{{i18n:Shops.ChenQiShop1.16.21}}"
+                  }
+                ]
+              }
+            ],
+            "Items": [
+              {
+                "Id": "ChenQiShop1.Melon.1",
+                "ItemId": "254",
+                "Price": 300,
+                "AvailableStock": 1
+              },
+              {
+                "Id": "ChenQiShop1.Tomato.1",
+                "ItemId": "256",
+                "Price": 245,
+                "AvailableStock": 2
+              }
+            ]
+          },
+          "ChenQiShop1.15.23": {
+            "Owners": [
+              {
+                "Name": "None",
+                "Dialogues": [
+                  {
+                    "Id": "ChenQiShop1.15.23",
+                    "Dialogue": "{{i18n:Shops.ChenQiShop1.15.23}}"
+                  }
+                ]
+              }
+            ],
+            "Items": [
+              {
+                "Id": "ChenQiShop1.Carrot.1",
+                "ItemId": "Carrot",
+                "Price": 230,
+                "AvailableStock": 3
+              },
+              {
+                "Id": "ChenQiShop1.Potato.1",
+                "ItemId": "192",
+                "Price": 150,
+                "AvailableStock": 9
+              },
+              {
+                "Id": "ChenQiShop1.Corn.1",
+                "ItemId": "270",
+                "Price": 200,
+                "AvailableStock": 3
+              },
+              {
+                "Id": "ChenQiShop1.Broccoli.1",
+                "ItemId": "Broccoli",
+                "Price": 350,
+                "AvailableStock": 3
+              }
+            ]
+          },
+          "ChenQiShop1.7.6": {
+            "Owners": [
+              {
+                "Name": "None",
+                "Dialogues": [
+                  {
+                    "Id": "ChenQiShop1.7.6",
+                    "Dialogue": "{{i18n:Shops.ChenQiShop1.7.6}}"
+                  }
+                ]
+              }
+            ],
+            "Items": [
+              {
+                "Id": "ChenQiShop1.CinderShard.1",
+                "ItemId": "848",
+                "TradeItemId": "851",
+                "TradeItemAmount": 2,
+                "AvailableStock": 5
+              },
+              {
+                "Id": "ChenQiShop1.CinderShard.2",
+                "ItemId": "848",
+                "TradeItemId": "390",
+                "TradeItemAmount": 30,
+                "AvailableStock": 8
+              },
+              {
+                "Id": "ChenQiShop1.CinderShard.3",
+                "ItemId": "848",
+                "TradeItemId": "771",
+                "TradeItemAmount": 10,
+                "AvailableStock": 5
+              },
+              {
+                "Id": "ChenQiShop1.CinderShard.4",
+                "ItemId": "848",
+                "TradeItemId": "830",
+                "TradeItemAmount": 10,
+                "AvailableStock": 3
+              },
+              {
+                "Id": "ChenQiShop1.CinderShard.5",
+                "ItemId": "848",
+                "TradeItemId": "88",
+                "TradeItemAmount": 2,
+                "AvailableStock": 5
+              }
+            ]
+          },
+          "ChenQiShop1.8.6": {
+            "Owners": [
+              {
+                "Name": "None",
+                "Dialogues": [
+                  {
+                    "Id": "ChenQiShop1.8.6",
+                    "Dialogue": "{{i18n:Shops.ChenQiShop1.8.6}}"
+                  }
+                ]
+              }
+            ],
+            "Items": [
+              {
+                "Id": "ChenQiShop1.CinderShard.6",
+                "ItemId": "848",
+                "TradeItemId": "60",
+                "TradeItemAmount": 1,
+                "AvailableStock": 2
+              },
+              {
+                "Id": "ChenQiShop1.CinderShard.7",
+                "ItemId": "848",
+                "TradeItemId": "62",
+                "TradeItemAmount": 1,
+                "AvailableStock": 2
+              },
+              {
+                "Id": "ChenQiShop1.CinderShard.8",
+                "ItemId": "848",
+                "TradeItemId": "64",
+                "TradeItemAmount": 1,
+                "AvailableStock": 2
+              },
+              {
+                "Id": "ChenQiShop1.CinderShard.9",
+                "ItemId": "848",
+                "TradeItemId": "66",
+                "TradeItemAmount": 1,
+                "AvailableStock": 2
+              },
+              {
+                "Id": "ChenQiShop1.CinderShard.10",
+                "ItemId": "848",
+                "TradeItemId": "68",
+                "TradeItemAmount": 1,
+                "AvailableStock": 2
+              },
+              {
+                "Id": "ChenQiShop1.CinderShard.11",
+                "ItemId": "848",
+                "TradeItemId": "70",
+                "TradeItemAmount": 1,
+                "AvailableStock": 2
+              },
+              {
+                "Id": "ChenQiShop1.CinderShard.12",
+                "ItemId": "848",
+                "TradeItemId": "72",
+                "TradeItemAmount": 1,
+                "AvailableStock": 5
+              }
+            ]
+          },
+          "ChenQiShop1.9.6": {
+            "Owners": [
+              {
+                "Name": "None",
+                "Dialogues": [
+                  {
+                    "Id": "ChenQiShop1.9.6",
+                    "Dialogue": "{{i18n:Shops.ChenQiShop1.9.6}}"
+                  }
+                ]
+              }
+            ],
+            "Items": [
+              {
+                "Id": "ChenQiShop1.CinderShard.13",
+                "ItemId": "848",
+                "Price": 5000,
+                "AvailableStock": 3
+              },
+              {
+                "Id": "ChenQiShop1.CinderShard.14",
+                "ItemId": "848",
+                "Price": 12000,
+                "AvailableStock": 3
+              },
+              {
+                "Id": "ChenQiShop1.CinderShard..15",
+                "ItemId": "848",
+                "Price": 20000,
+                "AvailableStock": 5
+              },
+              {
+                "Id": "ChenQiShop1.CinderShard.16",
+                "ItemId": "848",
+                "Price": 28000,
+                "AvailableStock": 10
+              },
+              {
+                "Id": "ChenQiShop1.CinderShard.17",
+                "ItemId": "848",
+                "Price": 30000,
+                "AvailableStock": 10
+              }
+            ]
+          },
+          "ChenQiShop1.10.6": {
+            "Owners": [
+              {
+                "Name": "None",
+                "Dialogues": [
+                  {
+                    "Id": "ChenQiShop1.10.6",
+                    "Dialogue": "{{i18n:Shops.ChenQiShop1.10.6}}"
+                  }
+                ]
+              }
+            ],
+            "Items": [
+              {
+                "Id": "ChenQiShop1.DragonTooth.1",
+                "ItemId": "852",
+                "Price": 100000,
+                "AvailableStock": 1
+              },
+              {
+                "Id": "ChenQiShop1.DragonTooth.2",
+                "ItemId": "852",
+                "TradeItemId": "91",
+                "TradeItemAmount": 9,
+                "AvailableStock": 1
+              },
+              {
+                "Id": "ChenQiShop1.DragonTooth.3",
+                "ItemId": "852",
+                "TradeItemId": "834",
+                "TradeItemAmount": 21,
+                "AvailableStock": 1
+              },
+              {
+                "Id": "ChenQiShop1.DragonTooth.4",
+                "ItemId": "852",
+                "TradeItemId": "74",
+                "TradeItemAmount": 1,
+                "AvailableStock": 1
+              },
+              {
+                "Id": "ChenQiShop1.DragonTooth.5",
+                "ItemId": "852",
+                "TradeItemId": "851",
+                "TradeItemAmount": 12,
+                "AvailableStock": 1
+              }
+            ]
+          },
+          "ChenQiShop1.4.14": {
+            "Owners": [
+              {
+                "Name": "None",
+                "Dialogues": [
+                  {
+                    "Id": "ChenQiShop1.4.14",
+                    "Dialogue": "{{i18n:Shops.ChenQiShop1.4.14}}"
+                  }
+                ]
+              }
+            ],
+            "Items": [
+              {
+                "Id": "ChenQiShop1.GoldenAnimalCracker ",
+                "ItemId": "GoldenAnimalCracker",
+                "TradeItemId": "74",
+                "TradeItemAmount": 1,
+                "AvailableStock": 1
+              },
+              {
+                "Id": "ChenQiShop1.GoldenAnimalCracker.1",
+                "ItemId": "GoldenAnimalCracker",
+                "TradeItemId": "268",
+                "TradeItemAmount": 30,
+                "AvailableStock": 1
+              },
+              {
+                "Id": "ChenQiShop1.GoldenAnimalCracker.2",
+                "ItemId": "GoldenAnimalCracker",
+                "TradeItemId": "791",
+                "TradeItemAmount": 2,
+                "AvailableStock": 1
+              },
+              {
+                "Id": "ChenQiShop1.StardropTea.1",
+                "ItemId": "StardropTea",
+                "TradeItemId": "PrizeTicket",
+                "TradeItemAmount": 2,
+                "AvailableStock": 1
+              },
+              {
+                "Id": "ChenQiShop1.StardropTea.2",
+                "ItemId": "StardropTea",
+                "TradeItemId": "PrizeTicket",
+                "TradeItemAmount": 4,
+                "AvailableStock": 1
+              }
+            ]
+          },
+          "ChenQiShop1.5.14": {
+            "Owners": [
+              {
+                "Name": "None",
+                "Dialogues": [
+                  {
+                    "Id": "ChenQiShop1.5.14",
+                    "Dialogue": "{{i18n:Shops.ChenQiShop1.5.14}}"
+                  }
+                ]
+              }
+            ],
+            "Items": [
+              {
+                "Id": "ChenQiShop1.Coffee.1",
+                "ItemId": "395",
+                "Price": 0,
+                "AvailableStock": 1
+              },
+              {
+                "Id": "ChenQiShop1.GoldenAnimalCracker.3",
+                "ItemId": "GoldenAnimalCracker",
+                "Price": 80000,
+                "AvailableStock": 1
+              },
+              {
+                "Id": "ChenQiShop1.GoldenAnimalCracker.4",
+                "ItemId": "GoldenAnimalCracker",
+                "Price": 120000,
+                "AvailableStock": 1
+              },
+              {
+                "Id": "ChenQiShop1.StardropTea.3",
+                "ItemId": "StardropTea",
+                "Price": 200000,
+                "AvailableStock": 1
+              }
+            ]
+          },
+          "ChenQiShop1.9.22": {
+            "Owners": [
+              {
+                "Name": "None",
+                "Dialogues": [
+                  {
+                    "Id": "ChenQiShop1.5.7",
+                    "Dialogue": "{{i18n:Shops.ChenQiShop1.9.22}}"
+                  }
+                ]
+              }
+            ],
+            "Items": [
+              {
+                "Id": "ChenQiShop1.SpringSeeds.1",
+                "ItemId": "495",
+                "TradeItemId": "20",
+                "TradeItemAmount": 2
+              },
+              {
+                "Id": "ChenQiShop1.SpringSeeds.2",
+                "ItemId": "495",
+                "Price": 220
+              },
+              {
+                "Id": "ChenQiShop1.SummerSeeds.1",
+                "ItemId": "496",
+                "TradeItemId": "396",
+                "TradeItemAmount": 2
+              },
+              {
+                "Id": "ChenQiShop1.SummerSeeds.2",
+                "ItemId": "496",
+                "Price": 220
+              },
+              {
+                "Id": "ChenQiShop1.FallSeeds.1",
+                "ItemId": "497",
+                "TradeItemId": "408",
+                "TradeItemAmount": 2
+              },
+              {
+                "Id": "ChenQiShop1.FallSeeds.2",
+                "ItemId": "497",
+                "Price": 220
+              },
+              {
+                "Id": "ChenQiShop1.WinterSeeds.1",
+                "ItemId": "498",
+                "TradeItemId": "412",
+                "TradeItemAmount": 2
+              },
+              {
+                "Id": "ChenQiShop1.WinterSeeds.2",
+                "ItemId": "498",
+                "Price": 220
+              },
+              {
+                "Id": "ChenQiShop1.Sprinkler.1",
+                "ItemId": "599",
+                "TradeItemId": "334",
+                "TradeItemAmount": 3,
+                "AvailableStock": 10
+              },
+              {
+                "Id": "ChenQiShop1.QualitySprinkler.1",
+                "ItemId": "621",
+                "TradeItemId": "335",
+                "TradeItemAmount": 3,
+                "AvailableStock": 10
+              },
+              {
+                "Id": "ChenQiShop1.QualityFertilizer.1",
+                "ItemId": "369",
+                "Price": 100
+              },
+              {
+                "Id": "ChenQiShop1.QualityRetainingSoil.1",
+                "ItemId": "371",
+                "Price": 100
+              },
+              {
+                "Id": "ChenQiShop1.DeluxeSpeedGro.1",
+                "ItemId": "466",
+                "Price": 100
+              }
+            ]
+          },
+          "ChenQiShop1.15.20": {
+            "Owners": [
+              {
+                "Name": "None",
+                "Dialogues": [
+                  {
+                    "Id": "ChenQiShop1.15.20",
+                    "Dialogue": "{{i18n:Shops.ChenQiShop1.15.20}}"
+                  }
+                ]
+              }
+            ],
+            "Items": [
+              {
+                "Id": "ChenQiShop1.WheatFlour.1",
+                "ItemId": "246",
+                "Price": 20,
+                "AvailableStock": 5
+              },
+              {
+                "Id": "ChenQiShop1.WheatFlour.2",
+                "ItemId": "246",
+                "Price": 50,
+                "AvailableStock": 10
+              },
+              {
+                "Id": "ChenQiShop1.WheatFlour.3",
+                "ItemId": "246",
+                "Price": 100
+              },
+              {
+                "Id": "ChenQiShop1.Oil.1",
+                "ItemId": "247",
+                "Price": 50,
+                "AvailableStock": 5
+              },
+              {
+                "Id": "ChenQiShop1.Oil.2",
+                "ItemId": "247",
+                "Price": 120,
+                "AvailableStock": 10
+              },
+              {
+                "Id": "ChenQiShop1.Oil.3",
+                "ItemId": "247",
+                "Price": 200
+              },
+              {
+                "Id": "ChenQiShop1.Vinegar.1",
+                "ItemId": "419",
+                "Price": 50,
+                "AvailableStock": 5
+              },
+              {
+                "Id": "ChenQiShop1.Vinegar.2",
+                "ItemId": "419",
+                "Price": 120,
+                "AvailableStock": 10
+              },
+              {
+                "Id": "ChenQiShop1.Vinegar.3",
+                "ItemId": "419",
+                "Price": 200
+              },
+              {
+                "Id": "ChenQiShop1.Mayonnaise.1",
+                "ItemId": "306",
+                "Price": 230,
+                "AvailableStock": 10
+              }
+            ]
+          }
+        }
+      }
+    ]
+}

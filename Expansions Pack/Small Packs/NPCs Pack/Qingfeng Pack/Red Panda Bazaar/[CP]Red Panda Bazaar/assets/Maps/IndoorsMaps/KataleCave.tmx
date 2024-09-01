@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="23" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="3">
+ <properties>
+  <property name="AmbientLight" value="90 90 35"/>
+  <property name="Music" value="Upper_Ambient"/>
+  <property name="indoorWater" value="T"/>
+ </properties>
+ <tileset firstgid="1" name="cave" tilewidth="16" tileheight="16" tilecount="288" columns="16">
+  <image source="Vanillamine.png" width="256" height="288"/>
+  <tile id="246">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="247">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="248">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="260">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="262">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="263">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="264">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="265">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="266">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="275">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="276">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="277">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="281">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="282">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="289" name="paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths.png" width="64" height="144"/>
+ </tileset>
+ <layer id="1" name="Back" width="23" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzFlMFOAjEQhmdBI+hJEA5wU8/6CL6B4b3QK7gvIPgCKD6BXokn4SSehIv6Av6TTLPjOHUbYmKTL81Ou1+n3c4S/W/rGzZpPcfj8Rf5ecyF1PXKfAtQAVWwBZ4df5l3HmENGqAJDsAbWIF7NSfFvTKsZewQHIFjNd9bI+zHul/Ak7A0Y2PzPJLYjaxh/ST9wjnjmXm+A1fKl0tsGtlDcPO+dzKiGqhnhXssBM9Eeg2738EH+KTiO5PkzN4OaIGu+Nk9cFzMEDwIjyDD/AqoZj/du4hti5vZE3cunoHx8b4u1XnF3Nx3lLet3CGvsvv/m1vnrPNOqVNmH/MboOm4W477lYr7mMqS4u6Qf1f61Lz1vWX3ubj7Tt4W67B1FHP3Svz63QtwC66pqBmv3rRbcwJOTUy/n4s71Kj+B87oe7Nu5syJaW9gqnL02heSLsJE
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="3" name="Buildings" width="23" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzF0rtKA0EUxvERRPARfAQfwTaiAS8YFbFRQSxsvCKSIt5Axc67rff0iWAfBeuk0k62tQimUAtt/AfO4GHZzSazAQ/8YIbJfGdmsiljTOqfJDGAQfShX82nGsxp9+0fRwLdGFbjSSxgsY4eScnpwDZ2MINZjGAU02o8jw1sqh72PEuS2YsjHEtOJ05wihWksYZ1LCOj5vs4UD0m5D5bkt2DK1xLThducCv790x4neNC9ZiT+xxiCGPI4y4ip1bZHvY+l5K9igc8OuYGVU6yz5qYaasg2VmZf+ATX03ILkn2veR+q7W2lsbz3lGRsaeyW31ZLtkVNbbvvRvwO5dsXQUT/l/GzbbvnQ1Yi5vtmb/39tePife9FCX7KWS9mu/yTZYl13p2PaBU9ZxvMvZ82VFq1as634ua1yvs3UzEvl+tAmdA
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings">
+  <object id="1" name="TileData" x="176" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Katalemessage.0&quot;"/>
+   </properties>
+  </object>
+  <object id="2" name="TileData" x="288" y="176" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop KataleShop"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="5" name="Paths" width="23" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF5ABNRvz8UTAKRsEoGAXDCwAA+f0AVQ==
+  </data>
+ </layer>
+ <objectgroup id="6" name="Paths"/>
+ <layer id="7" name="Front" width="23" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDCS4P9AOGAVDCtxF4x+j0LxzQHwTj/x1IL6Bhb5BQN85Ct31Eoc4uv/JBdjC7S0BPQAbbA8v
+  </data>
+ </layer>
+ <objectgroup id="8" name="Front"/>
+</map>

@@ -1,0 +1,91 @@
+{
+    "Changes": [
+{
+    "LogName": "Warp",
+    "Action": "EditData",
+    "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+    "Entries": {
+        "{{ModId}}_RedPandaBazaar": {
+            "Id": "{{ModId}}_RedPandaBazaar",
+            "DisplayName": "{{i18n:CJBWarps.RedPandaBazaar}}",
+		"Order": -1
+        }
+    },
+    "When": {
+        "HasMod |contains=CJBok.CheatsMenu": true
+    }
+},
+        {
+            "Action": "EditData",
+            "Target": "Mods/CJBok.CheatsMenu/Warps",
+            "Entries": {
+                "{{ModId}}_RedPandaBazaar_KatalePlace": {
+                    "Id": "{{ModId}}_RedPandaBazaar_KatalePlace",
+                    "SectionId": "{{ModId}}_RedPandaBazaar",
+                    "DisplayName": "{{i18n:CJBWarps.RedPandaBazaar.KatalePlace}}",
+                    "Location": "Custom_KatalePlace",
+                    "Tile": "15, 7"
+                },
+                "{{ModId}}_RedPandaBazaar_ChenQiShop": {
+                    "Id": "{{ModId}}_RedPandaBazaar_ChenQiShop",
+                    "SectionId": "{{ModId}}_RedPandaBazaar",
+                    "DisplayName": "{{i18n:CJBWarps.RedPandaBazaar.ChenQiShop}}",
+                    "Location": "Custom_RedPandaBazaar",
+                    "Tile": "32, 42"
+                },
+                "{{ModId}}_RedPandaBazaar_ArtisanShop": {
+                    "Id": "{{ModId}}_RedPandaBazaar_ArtisanShop",
+                    "SectionId": "{{ModId}}_RedPandaBazaar",
+                    "DisplayName": "{{i18n:CJBWarps.RedPandaBazaar.ArtisanShop}}",
+                    "Location": "Custom_RedPandaBazaar",
+                    "Tile": "31, 40"
+                },
+                "{{ModId}}_RedPandaBazaar_LaoLiuGallery": {
+                    "Id": "{{ModId}}_RedPandaBazaar_LaoLiuGallery",
+                    "SectionId": "{{ModId}}_RedPandaBazaar",
+                    "DisplayName": "{{i18n:CJBWarps.RedPandaBazaar.LaoLiuGallery}}",
+                    "Location": "Custom_RedPandaBazaar",
+                    "Tile": "21, 34"
+                },
+                "{{ModId}}_RedPandaBazaar_LiQingFengCafe": {
+                    "Id": "{{ModId}}_RedPandaBazaar_LiQingFengCafe",
+                    "SectionId": "{{ModId}}_RedPandaBazaar",
+                    "DisplayName": "{{i18n:CJBWarps.RedPandaBazaar.LiQingFengCafe}}",
+                    "Location": "Custom_RedPandaBazaar",
+                    "Tile": "51, 42"
+                },
+                "{{ModId}}_RedPandaBazaar_RedPandaLake": {
+                    "Id": "{{ModId}}_RedPandaBazaar_RedPandaLake",
+                    "SectionId": "{{ModId}}_RedPandaBazaar",
+                    "DisplayName": "{{i18n:CJBWarps.RedPandaBazaar.RedPandaLake}}",
+                    "Location": "Custom_RedPandaLake",
+                    "Tile": "55, 33"
+                },
+                "{{ModId}}_RedPandaBazaar_MirrorLakeShop": {
+                    "Id": "{{ModId}}_RedPandaBazaar_MirrorLakeShop",
+                    "SectionId": "{{ModId}}_RedPandaBazaar",
+                    "DisplayName": "{{i18n:CJBWarps.RedPandaBazaar.MirrorLakeShop}}",
+                    "Location": "Custom_MirrorLake",
+                    "Tile": "39, 59"
+                },
+                "{{ModId}}_RedPandaBazaar_MapleBridge": {
+                    "Id": "{{ModId}}_RedPandaBazaar_MapleBridge",
+                    "SectionId": "{{ModId}}_RedPandaBazaar",
+                    "DisplayName": "{{i18n:CJBWarps.RedPandaBazaar.MapleBridge}}",
+                    "Location": "Custom_MapleBridge",
+                    "Tile": "14, 24"
+                },
+                "{{ModId}}_RedPandaBazaar_LiQingFengCourtyard": {
+                    "Id": "{{ModId}}_RedPandaBazaar_LiQingFengCourtyard",
+                    "SectionId": "{{ModId}}_RedPandaBazaar",
+                    "DisplayName": "{{i18n:CJBWarps.RedPandaBazaar.LiQingFengCourtyard}}",
+                    "Location": "Custom_LiQingFengCourtyard",
+                    "Tile": "39, 50"
+                }
+            },
+            "When": {
+                "HasMod |contains=CJBok.CheatsMenu": true
+            }
+        }
+    ]
+}

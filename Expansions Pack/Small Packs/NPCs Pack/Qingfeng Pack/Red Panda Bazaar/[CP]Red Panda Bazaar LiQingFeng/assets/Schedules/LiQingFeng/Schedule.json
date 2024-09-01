@@ -1,0 +1,27 @@
+{
+  "Changes": [
+    {
+      "LogName": "LiQingFeng Schedule",
+      "Action": "EditData",
+      "Target": "Characters/Schedules/LiQingFeng",
+      "Entries": {
+        "Mon": "800 Custom_RedPandaBazaar 47 41 0/1000 Custom_LiQingFengCafe1 9 23 2/1200 Custom_LiQingFengCafe1 9 23 2 LiQingFeng_drinking1/1700 Custom_RedPandaBazaar 53 46 2 LiQingFeng_drinking1/1800 Custom_RedPandaBazaar 72 32 0/2000 Custom_LiQingFengHouse2 16 11 1/2400 Custom_LiQingFengHouse2 25 6 3 LiQingFeng_sleep",
+        "Tue": "800 Custom_RedPandaBazaar 47 45 2/1010 Custom_LiQingFengCafe1 9 23 2/1210 Custom_LiQingFengCafe1 9 23 2 LiQingFeng_drinking1/1700 Custom_RedPandaBazaar 48 42 2 LiQingFeng_drinking1/1800 Custom_RedPandaBazaar 63 47 0/2000 Custom_LiQingFengHouse2 16 11 1/2400 Custom_LiQingFengHouse2 25 6 3 LiQingFeng_sleep",
+        "Wed": "800 Custom_RedPandaBazaar 56 42 0/950 Custom_LiQingFengCafe1 9 23 2/1200 Custom_LiQingFengCafe1 9 23 2 LiQingFeng_drinking1/1700 Custom_RedPandaBazaar 52 45 2 LiQingFeng_drinking1/1800 Custom_RedPandaBazaar 64 54 2/2000 Custom_LiQingFengHouse2 16 11 1/2400 Custom_LiQingFengHouse2 25 6 3 LiQingFeng_sleep",
+        "Thu": "800 Custom_RedPandaBazaar 20 50 0/1100 Custom_LiQingFengCafe1 9 23 2/1700 Custom_LiQingFengCafe1 13 22 0/1820 Custom_RedPandaBazaar 72 42 1/2000 Custom_LiQingFengHouse2 16 11 1/2400 Custom_LiQingFengHouse2 25 6 3 LiQingFeng_sleep",
+        "Fri": "800 Custom_LiQingFengCafe1 9 23 2/1100 Custom_LiQingFengCafe1 9 23 2 LiQingFeng_drinking1/1710 Custom_LiQingFengCafe1 10 21 0/1820 Custom_LiQingFengCafe1 11 25 0/2000 Custom_LiQingFengHouse2 16 11 1/2400 Custom_LiQingFengHouse2 25 6 3 LiQingFeng_sleep",
+        "Sat": "900 Custom_LiQingFengHouse2 5 16 0/1000 Custom_LiQingFengHouse1 7 8 1/1200 LiQingFengCourtyard 38 50 2 LiQingFeng_drinking1/1500 Custom_RedPandaBazaar 42 62 2 LiQingFeng_drinking1/1700 Custom_RedPandaBazaar 42 62 2 LiQingFeng_drinking1/2000 Custom_LiQingFengHouse2 16 11 1/2400 Custom_LiQingFengHouse2 25 6 3 LiQingFeng_sleep",
+        "Sun": "900 Custom_LiQingFengHouse2 5 16 0/1000 Custom_LiQingFengHouse1 7 8 1/1200 LiQingFengCourtyard 38 50 2 LiQingFeng_drinking1/1500 Custom_RedPandaBazaar 42 62 2 LiQingFeng_drinking1/1700 Custom_RedPandaBazaar 42 62 2 LiQingFeng_drinking1/2000 Custom_LiQingFengHouse2 16 11 1/2400 Custom_LiQingFengHouse2 25 6 3 LiQingFeng_sleep" ,
+
+        "winter_17": "800 Custom_RedPandaBazaar 47 41 0/1200 Town 59 100 2/1700 Beach 41 36 2 \"Strings\\schedules\\LiQingFeng:NightMarket.1\"/2000 Custom_LiQingFengHouse2 25 6 3 LiQingFeng_sleep",
+
+        "DesertFestival_3":"800 Desert 9 24 0 \"Strings\\schedules\\LiQingFeng:DesertFestival.3.1\"/1200 Desert 35 24 0 \"Strings\\schedules\\LiQingFeng:DesertFestival.3.2\"/1400 Desert 44 17 2 \"Strings\\schedules\\LiQingFeng:DesertFestival.3.3\"/1600 Town 103 34 2/1700 Custom_LiQingFengHouse2 26 10 0/2400 Custom_LiQingFengHouse2 25 6 3 LiQingFeng_sleep",
+
+        "marriage_Mon": "900 Custom_LiQingFengCafe1 9 23 2/1500 Custom_RedPandaBazaar 53 46 0/1700 bed",
+        "marriage_Fri": "900 Custom_LiQingFengCafe1 9 23 2/1500 Custom_RedPandaBazaar 53 46 0/1700 bed",
+
+        "marriage_DesertFestival_3": "900 Desert 9 24 0 LiQingFeng_drinking1 \"Strings\\schedules\\LiQingFeng:marriage.DesertFestival.3.1\"/1300 Desert 16 42 0 \"Strings\\schedules\\LiQingFeng:marriage.DesertFestival.3.2\"/1600 Desert 24 53 0 \"Strings\\schedules\\LiQingFeng:marriage.DesertFestival.3.3\"/1800 Desert 20 8 2 \"Strings\\schedules\\LiQingFeng:marriage.DesertFestival.3.4\"/1900 bed"
+      }
+    }
+  ]
+}

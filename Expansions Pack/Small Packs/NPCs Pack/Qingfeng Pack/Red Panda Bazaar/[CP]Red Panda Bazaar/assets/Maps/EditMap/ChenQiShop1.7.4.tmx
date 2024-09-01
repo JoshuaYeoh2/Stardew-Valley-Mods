@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="4" height="3" tilewidth="16" tileheight="16" infinite="0" nextlayerid="16" nextobjectid="43">
+ <properties>
+  <property name="AmbientLight" value="95 95 95"/>
+  <property name="DayTiles" value="Front 7 3 256 Front 7 4 288 Front 10 3 256 Front 10 4 288 Front 14 3 256 Front 14 4 288 Front 1 11 256 Front 1 12 288 Front 16 11 256 Front 16 12 288 Front 11 19 1344"/>
+  <property name="NightTiles" value="Front 7 3 1253 Front 7 4 1285 Front 10 3 1253 Front 10 4 1285 Front 14 3 1253 Front 14 4 1285 Front 1 11 1253 Front 1 12 1285 Front 16 11 1253 Front 16 12 1285 Front 11 19 1345"/>
+ </properties>
+ <tileset firstgid="1" name="LiLaoliu's Tilesheets" tilewidth="16" tileheight="16" tilecount="1500" columns="25">
+  <image source="LiLaoliu_Tilesheets.png" width="400" height="960"/>
+ </tileset>
+ <tileset firstgid="1501" name="LiLaoliu's Tilesheets2" tilewidth="16" tileheight="16" tilecount="1500" columns="25">
+  <image source="LiLaoliu_Tilesheets2.png" width="400" height="960"/>
+ </tileset>
+ <tileset firstgid="3001" name="paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths.png" width="64" height="144"/>
+ </tileset>
+ <tileset firstgid="3037" name="townInterior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="5213" name="furniture_3" tilewidth="16" tileheight="16" tilecount="351" columns="13">
+  <image source="Vanillafurniture_3.png" width="208" height="432"/>
+ </tileset>
+ <tileset firstgid="5564" name="LiLaoliu's Tilesheets3" tilewidth="16" tileheight="16" tilecount="1500" columns="25">
+  <image source="LiLaoliu_Tilesheets3.png" width="400" height="960"/>
+ </tileset>
+ <tileset firstgid="7064" name="furniture" tilewidth="16" tileheight="16" tilecount="2976" columns="32">
+  <image source="Vanillafurniture.png" width="512" height="1488"/>
+ </tileset>
+ <layer id="2" name="Back" width="4" height="3">
+  <data encoding="csv">
+869,870,871,869,
+869,870,871,869,
+4309,4310,4309,4310
+</data>
+ </layer>
+ <layer id="14" name="Back2" width="4" height="3">
+  <data encoding="csv">
+0,0,0,0,
+0,0,0,0,
+0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="Buildings" width="4" height="3">
+  <data encoding="csv">
+0,0,0,0,
+832,832,832,832,
+5643,5644,5645,5791
+</data>
+ </layer>
+ <layer id="5" name="Paths" width="4" height="3">
+  <data encoding="csv">
+3009,0,0,3009,
+0,0,0,0,
+0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="Front" width="4" height="3">
+  <data encoding="csv">
+3325,5594,5595,3325,
+5618,5619,5620,5766,
+0,0,0,0
+</data>
+ </layer>
+ <layer id="1" name="AlwaysFront" width="4" height="3">
+  <data encoding="csv">
+0,0,0,0,
+0,0,0,0,
+0,0,0,0
+</data>
+ </layer>
+ <layer id="11" name="AlwaysFront2" width="4" height="3">
+  <data encoding="csv">
+5593,0,0,0,
+0,0,0,0,
+0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="10" name="Back"/>
+ <objectgroup id="15" name="Back2"/>
+ <objectgroup id="9" name="Buildings">
+  <object id="2" name="TileData" x="0" y="32" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop ChenQiShop1.7.6"/>
+   </properties>
+  </object>
+  <object id="3" name="TileData" x="16" y="32" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop ChenQiShop1.8.6"/>
+   </properties>
+  </object>
+  <object id="4" name="TileData" x="32" y="32" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop ChenQiShop1.9.6"/>
+   </properties>
+  </object>
+  <object id="5" name="TileData" x="48" y="32" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop ChenQiShop1.10.6"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Paths"/>
+ <objectgroup id="7" name="Front"/>
+ <objectgroup id="6" name="AlwaysFront"/>
+ <objectgroup id="12" name="AlwaysFront2"/>
+</map>

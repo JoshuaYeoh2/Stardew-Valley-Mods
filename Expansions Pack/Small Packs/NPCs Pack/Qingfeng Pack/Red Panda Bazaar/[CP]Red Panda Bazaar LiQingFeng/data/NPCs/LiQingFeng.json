@@ -1,0 +1,141 @@
+{
+    "Changes": [
+      {
+        "Action": "EditData",
+        "Target": "Data/Characters",
+        "Entries": {
+          "LiQingFeng": {
+            "DisplayName": "{{i18n:NPCName:LiQingFeng}}",
+            "BirthSeason": "spring",
+            "BirthDay": 16,
+            "HomeRegion": "Town",
+            "Gender": "Female",
+            "Age": "Teen",
+            "Manner": "Polite",
+            "SocialAnxiety": "Shy",
+            "Optimism": "Positive",
+            "IsDarkSkinned": false,
+            "CanBeRomanced": true,
+            "Calendar": "AlwaysShown",
+            "SocialTab": "UnknownUntilMet",
+            "CanSocialize": true,
+            "CanVisitIslandCondition": false,
+            "ExcludeFromIntroductionsQuest": false,
+            "ExcludeFromPerfectionScore": false,
+            "EndSlideShow": "MainGroup",
+            "SpouseGiftJealousy": true,
+            "SpouseRoom": {
+              "MapAsset": "Custom_LiQingFengRoom",
+              "MapSourceRect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 6,
+                "Height": 9
+              }
+            },
+            "SpousePatio": {
+              "MapAsset": "LiQingFeng_Spouse_Area",
+              "MapSourceRect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 4,
+                "Height": 4
+              }
+            },
+            "FriendsAndFamily": {},
+            "UnlockConditions": null,
+            "SpawnIfMissing": true,
+            "Home": [
+              {
+                "Id": "Default",
+                "Condition": null,
+                "Location": "Custom_LiQingFengHouse2",
+                "Tile": {"X": 25, "Y": 6},
+                "Direction": "down"
+              }
+            ],
+            "TextureName": null,
+            "Size": {
+              "X": 16,
+              "Y": 32
+            },
+            "CustomFields": {}
+          }
+        }
+      },
+      {
+        "LogName": "LiQingFeng's Gift Tastes",
+        "Action": "EditData",
+        "Target": "Data/NPCGiftTastes",
+        "Entries": {
+          "LiQingFeng": "{{i18n:LiQingFeng.GiftTastes.love}}/424 636 279 74 797 18 Lilaoliu.LiQingFengCP_Pearl.milk.tea/{{i18n:LiQingFeng.GiftTastes.like}}/591 595 254 268/{{i18n:LiQingFeng.GiftTastes.dislike}}/258 591 595 254 268/{{i18n:LiQingFeng.GiftTastes.hate}}/174 176 180 182 376/{{i18n:LiQingFeng.GiftTastes.neutral}}/227 303 348 459 346 446//"
+        }
+      },
+      {
+        "LogName": "LiQingFeng's Gift Tastes",
+        "Action": "EditData",
+        "Target": "Data/NPCGiftTastes",
+        "Entries": {
+          "LiQingFeng": "{{i18n:Spouse.LiQingFeng.GiftTastes.love}}/424 636 279 74 797 18 Lilaoliu.LiQingFengCP_Pearl.milk.tea/{{i18n:Spouse.LiQingFeng.GiftTastes.like}}/591 595 254 268/{{i18n:Spouse.LiQingFeng.GiftTastes.dislike}}/258 591 595 254 268/{{i18n:Spouse.LiQingFeng.GiftTastes.hate}}/174 176 180 182 376/{{i18n:Spouse.LiQingFeng.GiftTastes.neutral}}/227 303 348 459 346//"
+        },
+        "When": {
+          "Spouse": "LiQingFeng"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Data/animationdescriptions",
+        "Entries": {
+          "LiQingFeng_sleep": "29/29/29",
+          "LiQingFeng_dozeoff": "16/16/16/16//17/17/17/17/16/16/16/16/17/17/17/17/16/16/16/16/17/17/17/17/18/18/18/18/18/18/18/18/18/18/19/19/19/19/19/19/19/19/19/19",
+          "LiQingFeng_sitsonachair": "32/32/32/32/32/33/33/33/33/34/34/34/34/35/35/35/35",
+          "LiQingFeng_drinking1":"20/20 20 20 20 20 20 20 20 20 20 21 21 21 21 21 21 21 21 21 21/20"
+        }
+      },
+      {
+        "Action": "Load",
+        "Target": "Characters/LiQingFeng",
+        "FromFile": "assets/Sprites/LiQingFeng.png"
+      },
+      {
+        "Action": "Load",
+        "Target": "Portraits/LiQingFeng",
+        "FromFile": "assets/Portraits/LiQingFeng.png"
+      },
+      {
+        "Action": "Load",
+        "Target": "Characters/LiQingFeng_Beach",
+        "FromFile": "assets/Sprites/LiQingFeng_Beach.png"
+      },
+      {
+        "Action": "Load",
+        "Target": "Portraits/LiQingFeng_Beach",
+        "FromFile": "assets/Portraits/LiQingFeng_Beach.png"
+      },
+      {
+        "Action": "Load",
+        "Target": "Strings/schedules/LiQingFeng",
+        "FromFile": "data/blank.json"
+      },
+      {
+        "Action": "Load",
+        "Target": "Characters/schedules/LiQingFeng",
+        "FromFile": "data/blank.json"
+      },
+      {
+        "Action": "Load",
+        "Target": "Characters/Dialogue/LiQingFeng,Characters/Dialogue/MarriageDialogueLiQingFeng",
+        "FromFile": "data/blank.json"
+      },
+      {
+        "LogName": "Dialogue",
+        "Action": "Include",
+        "FromFile": "assets/Dialogue/LiQingFengDialogue.json,assets/Dialogue/LiQingFengMarriageDialogue.json"
+      },
+      {
+        "LogName": "ScheduleDialogue",
+        "Action": "Include",
+        "FromFile": "assets/Schedules/LiQingFeng/ScheduleDialogue.json"
+      }
+    ]
+}

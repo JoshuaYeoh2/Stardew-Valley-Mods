@@ -1,0 +1,21 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Custom_LaoLiuGallery1": {
+          "DisplayName": "{{i18n:LaoLiuGallery1}}",
+          "CreateOnLoad": {
+            "AlwaysActive": true,
+            "MapPath": "Maps\\Custom_LaoLiuGallery1"
+          },
+          "CanPlantHere": true,
+          "FormerLocationNames": [
+            "LaoLiuGallery1"
+          ]
+        }
+      }
+    }
+  ]
+}

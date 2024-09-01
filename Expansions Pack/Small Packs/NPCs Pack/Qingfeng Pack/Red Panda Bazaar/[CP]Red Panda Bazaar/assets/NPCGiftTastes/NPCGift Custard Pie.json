@@ -1,0 +1,38 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/CookingRecipes",
+      "Entries": {
+        "Custard Pie": "245 1 246 1 -5 1 -6 1/9999 9999/Lilaoliu.Lilaoliu.food.friends_Custard_Pie/null/{{i18n:Lilaoliu's.food.friends.object.Custard.Pie.name}}"
+      }
+    },
+    {
+      "Action": "Load",
+      "Priority": "Low",
+      "Target": "Mods/Lilaoliu.Lilaoliu.food.friends/Custard Pie",
+      "FromFile": "assets/Png/Custard Pie.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "Lilaoliu.Lilaoliu.food.friends_Custard_Pie": {
+          "Name": "Custard Pie",
+          "DisplayName": "{{i18n:Lilaoliu's.food.friends.object.Custard.Pie.name}}",
+          "Description": "{{i18n:Lilaoliu's.food.friends.object.Custard.Pie.description}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 200,
+          "Texture": "Mods\\Lilaoliu.Lilaoliu.food.friends\\Custard Pie",
+          "SpriteIndex": 0,
+          "Edibility": 110,
+          "IsDrink": false,
+          "ExcludeFromFishingCollection": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        }
+      }
+    }
+  ]
+}

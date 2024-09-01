@@ -1,0 +1,78 @@
+﻿{
+    "Format": "2.0.0",
+    "DynamicTokens":
+    [
+        {
+            "Name": "IsOddYear",
+            "Value": "{{Query: {{Year}} % 2 = 1}}"
+        },
+        {
+            "Name": "IndoorVariant" ,
+            "Value": "_Indoor",
+            "When":
+            {
+                "IsOutdoors": "false"
+            }
+        },
+        {
+            "Name": "IndoorVariant",
+            "Value": "_Outdoor",
+            "When":
+            {
+                "IsOutdoors": "true"
+            }
+        }
+    ],
+    "Changes": [
+        {
+            "LogName": "Festivals",
+            "Action": "Include",
+            "FromFile": "data/Festivals.json"
+        },
+        {
+            "LogName": "NPCs",
+            "Action": "Include",
+            "FromFile": "data/NPCs/LiQingFeng.json"
+        },
+        {
+            "LogName": "Seasonal",
+            "Action": "Include",
+            "FromFile": "data/Seasonal.json"
+        },
+        {
+            "LogName": "SVEFestivals",
+            "Action": "Include",
+            "FromFile": "data/SVEFestivals.json"
+        },
+        {
+            "LogName": "RSVFestivals",
+            "Action": "Include",
+            "FromFile": "data/RSVFestivals.json"
+        },
+        {
+            "LogName": "Summit",
+            "Action": "Include",
+            "FromFile": "data/Summit.json"
+        },
+        {
+            "LogName": "Events",
+            "Action": "Include",
+            "FromFile": "data/Events.json"
+        },
+        {
+            "LogName": "Mail",
+            "Action": "Include",
+            "FromFile": "data/Mail.json"
+        },
+        {
+            "LogName": "Schedules",
+            "Action": "Include",
+            "FromFile": "assets/Schedules/LiQingFeng/Schedule.json"
+        },
+        {
+            "LogName": "Mail",
+            "Action": "Include",
+            "FromFile": "data/Mail.json"
+        }
+    ]
+}

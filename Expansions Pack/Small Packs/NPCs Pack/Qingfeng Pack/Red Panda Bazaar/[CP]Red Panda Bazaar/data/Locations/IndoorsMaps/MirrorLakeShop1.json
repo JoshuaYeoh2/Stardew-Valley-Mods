@@ -1,0 +1,21 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Custom_MirrorLakeShop1": {
+          "DisplayName": "{{i18n:MirrorLakeShop1}}",
+          "CreateOnLoad": {
+            "AlwaysActive": true,
+            "MapPath": "Maps\\Custom_MirrorLakeShop1"
+          },
+          "CanPlantHere": true,
+          "FormerLocationNames": [
+            "MirrorLakeShop1"
+          ]
+        }
+      }
+    }
+  ]
+}

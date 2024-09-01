@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="2">
+ <properties>
+  <property name="AmbientLight" value="250 140 160"/>
+  <property name="Music" value="Upper_Ambient"/>
+  <property name="Warp" value="0 12 Sewer 39 20 0 13 Sewer 39 21"/>
+  <property name="indoorWater" value="T"/>
+ </properties>
+ <tileset firstgid="1" name="st" tilewidth="16" tileheight="16" tilecount="88" columns="8">
+  <image source="SewerTiles.png" width="128" height="176"/>
+  <tile id="56">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="57">
+   <animation>
+    <frame tileid="57" duration="250"/>
+    <frame tileid="58" duration="250"/>
+    <frame tileid="59" duration="250"/>
+    <frame tileid="60" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="64">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="69">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="70">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="89" name="paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths.png" width="64" height="144"/>
+ </tileset>
+ <layer id="1" name="Back" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztk8EOgzAMQ/Mrg0vpH4wbl/H/fwRIteZlIQ0V3GrJEijCj5gi0tVla3w4G57VvTbP7+Bxbi7Xr93D7lSuvfeK6F2M7Olkn4HY2ZizkelpKcYzWf65idiR74DMK1wrF3tqtuaiK4+LHpjLHV89V9xTjXt4Nfa1zk2W77mK9PwR+zsvyt4+Seo9c1c6u5Ub6dk6VzUud8L/FXL1rDZf5Zzr7Y79kdsyj+pObqtauF2/2gDBJjS1
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="3" name="Buildings" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztk0sKwkAMQFMQUWsF6wesIF5BFy4tqF0UV6J4/6OY0QRD2jp27LgQA4/IZNqXGBoAQPDnToT0kDZlyYXuXEtqhr6jLyRiZIC06Peack53j+qc73Vr9MDzhfT8CEmQKeUNZcMJHnEWZ7I+LOmhyh/RPeObE1XRUVnHTPUQW7yJxecS3MMrb4psG/byO7VX7nWP7Br28jv1nifw3KtPL+95DMW9+vTqPZt5V0TmyXsQDjmvDB9eGTzvt70870Kdy//EoL+rtGY9U/UlFL9h3YMJPb/u31avctncn3rfcZb14OJ1cf0yN3mHF54=
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings">
+  <object id="1" name="TileData" x="144" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="LockedDoorWarp 26 24 Custom_RedPandaBazaar 600 2600"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="5" name="Front" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhawAeIfYHYb6AdMswBOxo9CkYBNqAGxOoDYIceEOvT2F562DEKsAN5KJalkfkySHbgAtS2W4YEtZT6nxj/EesGUvAoQAUAwiEFgA==
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="7" name="Paths" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgwkk4uDjEqeWPQNlxigYBaNgFIyCUTAcAQBGWwJH
+  </data>
+ </layer>
+ <objectgroup id="8" name="Paths"/>
+</map>

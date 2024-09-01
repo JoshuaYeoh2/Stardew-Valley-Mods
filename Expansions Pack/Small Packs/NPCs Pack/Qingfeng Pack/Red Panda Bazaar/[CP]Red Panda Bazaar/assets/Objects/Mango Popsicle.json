@@ -1,0 +1,55 @@
+{
+  "Changes": [
+        {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+          "Entries": {
+            "Mango Popsicle": "834 1 245 1 -6 1/9999 9999/RedPandaBazaar_Mango_Popsicle/null/{{i18n:RedPandaBazaar.object.Mango.Popsicle.name}}"
+          }
+        },
+        {
+          "Action": "Load",
+          "Priority": "Low",
+          "Target": "Mods/RedPandaBazaar/Mango Popsicle",
+          "FromFile": "assets/Png/Mango Popsicle.png"
+        },
+        {
+          "Action": "EditData",
+          "Target": "Data/Objects",
+          "Entries": {
+            "RedPandaBazaar_Mango_Popsicle": {
+              "Name": "Mango Popsicle",
+              "DisplayName": "{{i18n:RedPandaBazaar.object.Mango.Popsicle.name}}",
+              "Description": "{{i18n:RedPandaBazaar.object.Mango.Popsicle.description}}",
+              "Type": "Cooking",
+              "Category": -7,
+              "Price": 200,
+              "Texture": "Mods\\RedPandaBazaar\\Mango Popsicle",
+              "SpriteIndex": 0,
+              "Edibility": 50,
+              "IsDrink": false,
+              "ExcludeFromFishingCollection": true,
+              "ExcludeFromShippingCollection": true,
+              "ExcludeFromRandomSale": true,
+              "Buffs": [
+                {
+                  "Duration": 300,
+                  "CustomAttributes": {
+                    "FarmingLevel": 0,
+                    "FishingLevel": 0,
+                    "MiningLevel": 0,
+                    "LuckLevel": 0,
+                    "ForagingLevel": 2,
+                    "MaxStamina": 0,
+                    "MagneticRadius": 0,
+                    "Speed": 0,
+                    "Defense": 0,
+                    "Attack": 0
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+}

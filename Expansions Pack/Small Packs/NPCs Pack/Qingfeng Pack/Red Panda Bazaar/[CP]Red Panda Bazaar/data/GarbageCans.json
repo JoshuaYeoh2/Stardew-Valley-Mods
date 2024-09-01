@@ -1,0 +1,81 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/GarbageCans",
+      "TargetField": ["GarbageCans"],
+      "Entries": {
+        "LiQingFengCourtyard.43.53": {
+          "Items": [
+            {
+              "Condition": "RANDOM 0.1 @addDailyLuck",
+              "RandomItemId": [
+                "(0)74"
+              ]
+            }
+          ]
+        },
+        "RedPandaBazaar.27.58": {
+          "Items": [
+            {
+              "Condition": "RANDOM 0.1 @addDailyLuck",
+              "RandomItemId": [
+                "(0)400"
+              ]
+            }
+          ]
+        },
+        "RedPandaBazaar.28.59": {
+          "Items": [
+            {
+              "Condition": "RANDOM 0.1 @addDailyLuck",
+              "RandomItemId": [
+                "(0)402"
+              ]
+            }
+          ]
+        },
+        "RedPandaBazaar.29.58": {
+          "Items": [
+            {
+              "Condition": "RANDOM 0.1 @addDailyLuck",
+              "RandomItemId": [
+                "(0)720"
+              ]
+            }
+          ]
+        },
+        "RedPandaBazaar.30.58": {
+          "Items": [
+            {
+              "Condition": "RANDOM 0.1 @addDailyLuck",
+              "RandomItemId": [
+                "(0)637"
+              ]
+            }
+          ]
+        },
+        "RedPandaBazaar.30.60": {
+          "Items": [
+            {
+              "Condition": "RANDOM 0.1 @addDailyLuck",
+              "RandomItemId": [
+                "(0)410"
+              ]
+            }
+          ]
+        },
+        "RedPandaBazaar.32.59": {
+          "Items": [
+            {
+              "Condition": "RANDOM 0.1 @addDailyLuck",
+              "RandomItemId": [
+                "(0)306"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

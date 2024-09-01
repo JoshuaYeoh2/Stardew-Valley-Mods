@@ -1,0 +1,37 @@
+{
+  "Changes": [
+      {
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "Entries": {
+          "KataleShop": {
+            "Owners": [
+              {
+                "Name": "AnyOrNone",
+                "Portrait": "null",
+                "Dialogues": [
+                  {
+                    "Id": "KataleShop",
+                    "Dialogue": "{{i18n:Katale.KataleShopDialogue}}"
+                  }
+                ]
+              }
+            ],
+            "Items": [
+              {
+                "Id": "Katale.BatWings",
+                "ItemId": "767",
+                "Price": 300,
+                "AvailableStock": 3,
+                "AvailableStockLimit": "Player",
+              },
+            ]
+          },
+
+}
+},
+
+
+
+]
+}

@@ -1,0 +1,25 @@
+{
+  "Changes": [
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_RedPandaBazaar",
+      "FromFile": "assets/Maps/EditMap/RedPandaBazaar.52.42.tmx",
+      "Update": "OnLocationChange",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 52,
+        "Y": 42,
+        "Width": 1,
+        "Height": 1
+      },
+      "When": {
+        "Spouse": "LiQingFeng"
+      }
+    }
+  ]
+}

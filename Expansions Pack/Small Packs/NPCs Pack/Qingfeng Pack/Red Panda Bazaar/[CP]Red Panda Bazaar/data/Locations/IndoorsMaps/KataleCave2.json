@@ -1,0 +1,21 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Custom_KataleCave2": {
+          "DisplayName": "{{i18n:KataleCave2}}",
+          "CreateOnLoad": {
+            "AlwaysActive": true,
+            "MapPath": "Maps\\Custom_KataleCave2"
+          },
+          "CanPlantHere": true,
+          "FormerLocationNames": [
+            "KataleCave2"
+          ]
+        }
+      }
+    }
+  ]
+}

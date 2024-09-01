@@ -1,0 +1,38 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/CookingRecipes",
+      "Entries": {
+        "Buttermilk Bake": "-6 1 -5 1 245 1/9999 9999/Lilaoliu.Lilaoliu.food.friends_Buttermilk_Bake/null/{{i18n:Lilaoliu's.food.friends.object.Buttermilk.Bake.name}}"
+      }
+    },
+    {
+      "Action": "Load",
+      "Priority": "Low",
+      "Target": "Mods/Lilaoliu.Lilaoliu.food.friends/Buttermilk Bake",
+      "FromFile": "assets/Png/Buttermilk Bake.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "Lilaoliu.Lilaoliu.food.friends_Buttermilk_Bake": {
+          "Name": "Buttermilk Bake",
+          "DisplayName": "{{i18n:Lilaoliu's.food.friends.object.Buttermilk.Bake.name}}",
+          "Description": "{{i18n:Lilaoliu's.food.friends.object.Buttermilk.Bake.description}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 200,
+          "Texture": "Mods\\Lilaoliu.Lilaoliu.food.friends\\Buttermilk Bake",
+          "SpriteIndex": 0,
+          "Edibility": 75,
+          "IsDrink": false,
+          "ExcludeFromFishingCollection": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        }
+      }
+    }
+  ]
+}

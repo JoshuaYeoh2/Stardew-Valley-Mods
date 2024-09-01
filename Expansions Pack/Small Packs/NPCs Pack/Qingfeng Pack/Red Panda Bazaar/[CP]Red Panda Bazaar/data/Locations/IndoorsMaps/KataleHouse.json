@@ -1,0 +1,21 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Custom_KataleHouse": {
+          "DisplayName": "{{i18n:KataleHouse}}",
+          "CreateOnLoad": {
+            "AlwaysActive": true,
+            "MapPath": "Maps\\Custom_KataleHouse"
+          },
+          "CanPlantHere": true,
+          "FormerLocationNames": [
+            "KataleHouse"
+          ]
+        }
+      }
+    }
+  ]
+}

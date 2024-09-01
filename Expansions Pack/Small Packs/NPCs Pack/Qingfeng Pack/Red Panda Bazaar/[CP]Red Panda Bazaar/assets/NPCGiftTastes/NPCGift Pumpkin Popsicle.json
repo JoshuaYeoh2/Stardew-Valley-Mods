@@ -1,0 +1,40 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Abigail",
+            1
+          ],
+          "Value": "RedPandaBazaar_Pumpkin_Popsicle",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Krobus",
+            1
+          ],
+          "Value": "RedPandaBazaar_Pumpkin_Popsicle",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Willy",
+            1
+          ],
+          "Value": "RedPandaBazaar_Pumpkin_Popsicle",
+          "Delimiter": " "
+        }
+      ]
+    }
+    ]
+}
