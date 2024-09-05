@@ -53,7 +53,7 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "Entries": {
-                "Popberry Potion": "{{ModId}}_Ancient_Popberry 1 64 2 308 1/25 5/{{ModId}}_Popberry_Potion/null/Popberry Potion",
+                "Popberry Potion": "{{ModId}}_Ancient_Popberry 1 64 2 308 1/25 5/{{ModId}}_Popberry_Potion/null/{{i18n:Popberry_Potion.DisplayName}}",
             }
     },
     {

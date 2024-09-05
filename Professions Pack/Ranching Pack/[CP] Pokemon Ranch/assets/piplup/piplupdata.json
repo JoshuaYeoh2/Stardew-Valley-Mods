@@ -58,26 +58,26 @@
 					},
 					{
                     	"Id": "Default",
-                    	"Condition": null,
+                    	"Condition": "RANDOM 0.25 SEASON spring, summer, fall",
                     	"MinimumFriendship": 0,
                     	"ItemId": "{{ModId}}_gummitreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
-                    	"MinimumFriendship": 250,
+                    	"Condition": "RANDOM 0.5 SEASON spring, summer, fall",
+                    	"MinimumFriendship": 0,
                     	"ItemId": "{{ModId}}_bowtreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
+                    	"Condition": "RANDOM 0.5 SEASON spring, summer, fall",
                     	"MinimumFriendship": 500,
                     	"ItemId": "{{ModId}}_candytreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
-                    	"MinimumFriendship": 750,
+                    	"Condition": "RANDOM 0.25 SEASON spring, summer, fall",
+                    	"MinimumFriendship": 500,
                     	"ItemId": "{{ModId}}_deluxetreasurebox"
                     }
 				],
@@ -164,26 +164,26 @@
 					},
 					{
                     	"Id": "Default",
-                    	"Condition": null,
+                    	"Condition": "RANDOM 0.25 SEASON spring, summer, fall",
                     	"MinimumFriendship": 0,
                     	"ItemId": "{{ModId}}_gummitreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
-                    	"MinimumFriendship": 250,
+                    	"Condition": "RANDOM 0.5 SEASON spring, summer, fall",
+                    	"MinimumFriendship": 0,
                     	"ItemId": "{{ModId}}_bowtreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
+                    	"Condition": "RANDOM 0.5 SEASON spring, summer, fall",
                     	"MinimumFriendship": 500,
                     	"ItemId": "{{ModId}}_candytreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
-                    	"MinimumFriendship": 750,
+                    	"Condition": "RANDOM 0.25 SEASON spring, summer, fall",
+                    	"MinimumFriendship": 500,
                     	"ItemId": "{{ModId}}_deluxetreasurebox"
                     }
 				],
@@ -258,26 +258,26 @@
 					},
 					{
                     	"Id": "Default",
-                    	"Condition": null,
+                    	"Condition": "RANDOM 0.25 SEASON spring, summer, fall",
                     	"MinimumFriendship": 0,
                     	"ItemId": "{{ModId}}_gummitreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
-                    	"MinimumFriendship": 250,
+                    	"Condition": "RANDOM 0.5 SEASON spring, summer, fall",
+                    	"MinimumFriendship": 0,
                     	"ItemId": "{{ModId}}_bowtreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
+                    	"Condition": "RANDOM 0.5 SEASON spring, summer, fall",
                     	"MinimumFriendship": 500,
                     	"ItemId": "{{ModId}}_candytreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
-                    	"MinimumFriendship": 750,
+                    	"Condition": "RANDOM 0.25 SEASON spring, summer, fall",
+                    	"MinimumFriendship": 500,
                     	"ItemId": "{{ModId}}_deluxetreasurebox"
                     }
 				],
@@ -528,6 +528,7 @@
         "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
         "Entries": {
             "piplup": {
+				"MalePercentage": 0.875,
                 "AnimalProduceExtensionData": {
 					"(O){{ModId}}_gummitreasurebox": {
 						"HarvestTool": "DigUp"
@@ -544,6 +545,7 @@
                 }
             },
 			"prinplup": {
+				"MalePercentage": 0.875,
                 "AnimalProduceExtensionData": {
 					"(O){{ModId}}_gummitreasurebox": {
 						"HarvestTool": "DigUp"
@@ -560,6 +562,7 @@
                 }
             },
 			"empoleon": {
+				"MalePercentage": 0.875,
                 "AnimalProduceExtensionData": {
 					"(O){{ModId}}_gummitreasurebox": {
 						"HarvestTool": "DigUp"

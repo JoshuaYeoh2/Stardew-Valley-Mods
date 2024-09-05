@@ -76,7 +76,6 @@
     "pokemonincubator": "Pokemon Incubator",
     "pokemonincubator.d": "A safe, warm case to keep Pokemon Eggs safe until they hatch!",
 
-
 //buildingdata
 
     "pkcoop": "Pokemon Coop",
@@ -227,7 +226,7 @@
     "hugeapple": "Huge Apple",
     "hugeapple.d": "A large apple native to the Apple Woods! Looks tasty!",
     "perfectapple": "Perfect Apple",
-    "perfectapple.d": "A large and delicious apple Native to the Apple Woods. Examining it, you can't find a single defect!",
+    "perfectapple.d": "A large and delicious apple native to the Apple Woods. Examining it, you can't find a single defect!",
     "goldapple": "Golden Apple",
     "goldapple.d": "A miraculous apple that glows with an alluring golden aura. It's far too precious and beautiful to even consider eating!",
     "goldbanana": "Golden Banana",
@@ -310,6 +309,7 @@
     "combeeegg": "Combee Egg",
     "combeeegg.d": "A Pokemon egg! Looks like it was laid by a Vespiquen! Can be hatched in a Pokemon Incubator.",
     "combeefegg": "Combee Egg (Female)",
+    "combeemegg": "Combee Egg (Male)",
     "queenegg": "Vespiquen Egg",
     "combeemayo": "Combee Egg Mayo",
     "combeemayo.d": "Mayonnaise made from the egg of a Combee. Why would you..?",
@@ -321,6 +321,90 @@
     "buzztm.d": "TM162: The user vibrates its wings to generate a damaging sound wave. This may also lower the target's Sp. Def stat.",
     "stingtm": "Technical Machine - Fell Stinger",
     "stingtm.d": "TM: When the user knocks out a target with this move, the user's Attack stat is boosted drastically.",
+
+//rowlet
+
+    "rowlet": "Rowlet",
+    "rowlet.d": "Rowlet flies noiselessly on delicate wings. It has mastered the art of launching dagger-sharp feathers from those same wings. If the enemy gets too close, Rowlet switches tactics and delivers vicious kicks",
+    "rowlet.md": "Rowlet needs a place to live! Build them a Pokemon Barn!",
+    "rowletegg": "Rowlet Egg",
+    "rowletegg.d": "A Pokemon egg! Looks like it was laid by a Rowlet! Can be hatched in a Pokemon Incubator.",
+    "rowletmayo": "Rowlet Egg Mayo",
+    "rowletmayo.d": "Mayonnaise made from the egg of a Rowlet. Why would you..?",
+    "dartrix": "Dartrix",
+    "decidueye": "Decidueye",
+    "dartrixegg": "Dartrix Egg",
+    "decidueyeegg": "Decidueye Egg",
+    "leafagetm": "Technical Machine - Leafage",
+    "leafagetm.d": "TM: The user attacks by pelting the target with leaves.",
+    "plucktm": "Technical Machine - Pluck",
+    "plucktm.d": "TM88: The user pecks the target. If the target is holding a Berry, the user eats it and gains its effect.",    
+    "spiritshackletm": "Technical Machine - Spirit Shackle",
+    "spiritshackletm.d": "TM: The user attacks while simultaneously stitching the target's shadow to the ground to prevent the target from fleeing.",
+    "spelltag": "Spell Tag",
+    "spelltag.d": "A sinister, eerie tag. When held in battle, it powers up ghost-type moves.",
+
+//charmander
+
+    "charmander": "Charmander",
+    "charmander.d": "The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If Charmander becomes enraged, the flame burns fiercely.",
+    "charmander.md": "Charmander needs a place to live! Build them a Pokemon Barn!",
+    "charmanderegg": "Charmander Egg",
+    "charmanderegg.d": "A Pokemon egg! Looks like it was laid by a Charmander! Can be hatched in a Pokemon Incubator.",
+    "charmandermayo": "Charmander Egg Mayo",
+    "charmandermayo.d": "Mayonnaise made from the egg of a Charmander. Why would you..?",
+    "charmeleon": "Charmeleon",
+    "charizard": "Charizard",
+    "charmeleonegg": "Charmeleon Egg",
+    "charizardegg": "Charizard Egg",
+    "firefangtm": "Technical Machine - Fire Fang",
+    "firefangtm.d": "TM8: The user bites with flame-cloaked fangs. This may also make the target flinch or leave it with a burn.",    
+    "flamethrowertm": "Technical Machine - Flamethrower",
+    "flamethrowertm.d": "TM125: The target is scorched with an intense blast of fire. This may also leave the target with a burn.",
+    "airslashtm": "Technical Machine - Air Slash",
+    "airslashtm.d": "TM65: The user attacks with a blade of air that slices even the sky. This may also make the target flinch.",
+    "sharpbeak": "Sharp Beak",
+    "sharpbeak.d": "A long, sharp beak. When held in battle, it powers up flying-type moves.",
+
+//squirtle
+
+    "squirtle": "Squirtle",
+    "squirtle.d": "Squirtle's shell is not merely used for protection. The shell's rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokemon to swim at high speeds.",
+    "squirtle.md": "Squirtle needs a place to live! Build them a Pokemon Barn!",
+    "squirtleegg": "Squirtle Egg",    
+    "squirtleegg.d": "A Pokemon egg! Looks like it was laid by a Squirtle! Can be hatched in a Pokemon Incubator.",    
+    "squirtlemayo": "Squirtle Egg Mayo",
+    "squirtlemayo.d": "Mayonnaise made from the egg of a Squirtle. Why would you..?",
+    "wartortle": "Wartortle",
+    "blastoise": "Blastoise",
+    "wartortleegg": "Wartortle Egg",
+    "blastoiseegg": "Blastoise Egg",
+    "waterpulsetm": "Technical Machine - Water Pulse",
+    "waterpulsetm.d": "TM11: The user attacks the target with a pulsing blast of water. This attack never misses.",    
+    "aquatailtm": "Technical Machine - Aqua Tail",
+    "aquatailtm.d": "TM: The user attacks by swinging its tail as if it were a vicious wave in a raging storm.",
+    "flashcannontm": "Technical Machine - Flash Cannon",
+    "flashcannontm.d": "TM93: The user gathers all its light energy and releases it at once. This may also lower the target's defensive stats.",
+
+//bulbasaur
+
+    "bulbasaur": "Bulbasaur",
+    "bulbasaur.d": "Bulbasaur can often be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.",
+    "bulbasaur.md": "Bulbasaur needs a place to live! Build them a Pokemon Barn!",
+    "bulbasauregg": "Bulbasaur Egg",    
+    "bulbasauregg.d": "A Pokemon egg! Looks like it was laid by a Bulbasaur! Can be hatched in a Pokemon Incubator.",    
+    "bulbasaurmayo": "Bulbasaur Egg Mayo",
+    "bulbasaurmayo.d": "Mayonnaise made from the egg of a Bulbasaur. Why would you..?",
+    "ivysaur": "Ivysaur",
+    "venusaur": "Venusaur",
+    "ivysauregg": "Ivysaur Egg",
+    "venusauregg": "Venusaur Egg",
+    "vinewhiptm": "Technical Machine - Vine Whip",
+    "vinewhiptm.d": "TM: The target is struck with slender, whiplike vines to inflict damage.",    
+    "poisonpowdertm": "Technical Machine - Poison Powder",
+    "poisonpowdertm.d": "TM: The user scatters a cloud of toxic powder that poisons the target.",
+    "petalblizzardtm": "Technical Machine - Petal Blizzard",
+    "petalblizzardtm.d": "TM206: The user stirs up a violent petal blizzard and damages everything around it.",
 
 //piplup
 
@@ -423,9 +507,12 @@
     "mraichuegg": "Male Raichu Egg",
     "aloraichuegg": "Alolan Raichu Egg",
     "mimikyuegg": "Mimikyu Egg",
+    "mimikyu.d": "A Pokemon egg! Looks like it was laid by a Mimikyu! Can be hatched in a Pokemon Incubator.",
     "pichuegg.d": "A Pokemon egg! Looks like it was laid by a Pichu! Can be hatched in a Pokemon Incubator.",
     "pichumayo": "Pichu Egg Mayo",
     "pichumayo.d": "Mayonnaise made from the egg of a Pichu. Why would you..?",
+    "mimikyumayo": "Mimikyu Egg Mayo",
+    "mimikyumayo.d": "Mayonnaise made from the egg of a Mimikyu. Why would you..?",
     "pokedoll": "Poke Doll",
     "pokedoll.d": "A doll that attracts the attention of Pokemon. It guarantees escape from any battle with wild Pokemon.",
     "lumberry": "Lum Berry",
@@ -603,6 +690,35 @@
     "milkdrinktm": "Technical Machine - Milk Drink",
     "milkdrinktm.d": "TM: The user restores its own HP by up to half of its max HP. It may also be used to heal an ally's HP outside of battle. ",
 
+//lechonk
+
+    "lechonk": "Lechonk",
+    "lechonk.d": "It searches for food all day. It possesses a keen sense of smell but doesn't use it for anything other than foraging.",
+    "lechonk.md": "Lechonk needs a place to live! Build them a Pokemon Barn!",
+    "lechonkegg": "Lechonk Egg",
+    "lechonkegg.d": "A Pokemon egg! Looks like it was laid by a Lechonk! Can be hatched in a Pokemon Incubator.",
+    "lechonkmayo": "Lechonk Mayo",
+    "lechonkmayo.d": "Mayonnaise made from the egg of a Lechonk. Why would you..?",
+    "digtm": "Technical Machine - Dig",
+    "digtm.d": "TM28: The user digs underground in the first turn, then pops up in the next turn to attack.",
+    "revherb": "Revival Herb",
+    "revherb.d": "A terribly bitter medicinal herb. Pokemon Trainers use them to revive fainted Pokemon and fully restore HP.",
+    "energyroot": "Energy Root",
+    "energyroot.d": "An extremely bitter medicinal root. Pokemon trainers use them to restore 120 HP.",
+
+//magearna
+
+    "magearna": "Magearna",    
+    "magearna.d": "Magearna was constructed 500 years ago as a gift to a king's daughter. It's beautiful, mechanized body is merely a vessel for it's true self, the Soul-Heart.",
+    "magearna.md": "Magearna needs a place to live! Build them a Pokemon Coop!",
+    "magearnaegg": "Magearna Egg",
+    "fleurcannontm": "Technical Machine - Fleur Cannon",
+    "fleurcannontm.d": "TM: The user unleashes a strong beam. The recoil from this move harshly lowers the user's Sp. Atk stat.",
+    "bottlecap": "Bottle Cap",
+    "bottlecap.d": "A lovely silver bottle cap. Certain people are delighted to be given one of these.",
+    "flowers": "Flower Bouquet",
+    "flowers.d": "A lovley bouquet of pink flowers! Magearna will often present them to people in order to cheer them up.",
+
 //animal husbandry mod items
 
     "leekmeat": "Farfetch'd Meat",
@@ -616,5 +732,14 @@
     "miltankmeat": "Miltank Steak",
     "miltankmeat.d": "The meat of a Miltank. Similar to the meat of a dairy cow, though Miltank meat has a higher fat content.",
     "cookedmiltankmeat": "Grilled Miltank Steak",
-    "cookedmiltankmeat.d": "A large Miltank steak, perfectly grilled! Very similar to the meat of a typical dairy cow."
+    "cookedmiltankmeat.d": "A large Miltank steak, perfectly grilled! Very similar to the meat of a typical dairy cow.",
+    "lechonkmeat": "Lechonk Bacon",
+    "lechonkmeat.d": "The meat of a Lechonk. As Lechonk's body is mostly muscle, it contains a lot less fat than regular bacon!",
+    "cookedlechonkmeat": "Cooked Lechonk Bacon",
+    "cookedlechonkmeat.d": "The meat of a Lechonk, fried to a crisp!",
+
+//holly (WIP)
+
+    "holly": "Holly"
+
 }

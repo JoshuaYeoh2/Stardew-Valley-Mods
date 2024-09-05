@@ -88,6 +88,24 @@
                         "IgnoreShopPriceModifiers": true,
                         "TradeItemId": "499", 
                         "TradeItemAmount": 1,
+                      },
+                      {
+                        "Id": "{{ModId}}_Ancient_Frost_Berry_Seeds",
+                        "ItemId": "{{ModId}}_Ancient_Frost_Berry_Seeds",
+                        "Price": 0,
+                        "IsRecipe": false,
+                        "IgnoreShopPriceModifiers": true,
+                        "TradeItemId": "499", 
+                        "TradeItemAmount": 1,
+                      },
+                      {
+                        "Id": "{{ModId}}_Ancient_Sun_Berry_Seeds",
+                        "ItemId": "{{ModId}}_Ancient_Sun_Berry_Seeds",
+                        "Price": 0,
+                        "IsRecipe": false,
+                        "IgnoreShopPriceModifiers": true,
+                        "TradeItemId": "499", 
+                        "TradeItemAmount": 1,
                       }
                     ]
                 }

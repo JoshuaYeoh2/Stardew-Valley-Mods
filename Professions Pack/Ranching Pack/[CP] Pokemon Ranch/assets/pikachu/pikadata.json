@@ -3,7 +3,7 @@
 	{
 		"LogName": "granting pikachu a physical presence",
 		"Action": "Load",
-		"Target": "pikachu/pichuegg, pikachu/fpikachu, pikachu/shinyfpikachu, pikachu/mpikachu, pikachu/shinympikachu, pikachu/pichu, pikachu/shinypichu, pikachu/frai, pikachu/shinyfrai, pikachu/mrai, pikachu/shinymrai, pikachu/alorai, pikachu/shopicon, pikachu/pichumayo, pikachu/eletm, pikachu/psytm, pikachu/ghosttm, pikachu/items, pikachu/doll, pikachu/mim, pikachu/shinymim, pikachu/basicegg",
+		"Target": "pikachu/pichuegg, pikachu/fpikachu, pikachu/shinyfpikachu, pikachu/mpikachu, pikachu/shinympikachu, pikachu/pichu, pikachu/shinypichu, pikachu/frai, pikachu/shinyfrai, pikachu/mrai, pikachu/shinymrai, pikachu/alorai, pikachu/shopicon, pikachu/pichumayo, pikachu/eletm, pikachu/psytm, pikachu/ghosttm, pikachu/items, pikachu/doll, pikachu/mim, pikachu/shinymim, pikachu/mimikyuegg, pikachu/mimikyumayo",
 		"FromFile": "assets/pikachu/{{TargetWithoutPath}}.png"
 	},
 	{
@@ -64,26 +64,26 @@
 					},
 					{
                     	"Id": "Default",
-                    	"Condition": null,
+                    	"Condition": "RANDOM 0.25 SEASON spring, summer, fall",
                     	"MinimumFriendship": 0,
                     	"ItemId": "{{ModId}}_gummitreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
-                    	"MinimumFriendship": 250,
+                    	"Condition": "RANDOM 0.5 SEASON spring, summer, fall",
+                    	"MinimumFriendship": 0,
                     	"ItemId": "{{ModId}}_bowtreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
+                    	"Condition": "RANDOM 0.5 SEASON spring, summer, fall",
                     	"MinimumFriendship": 500,
                     	"ItemId": "{{ModId}}_candytreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
-                    	"MinimumFriendship": 750,
+                    	"Condition": "RANDOM 0.25 SEASON spring, summer, fall",
+                    	"MinimumFriendship": 500,
                     	"ItemId": "{{ModId}}_deluxetreasurebox"
                     }
 				],
@@ -184,26 +184,26 @@
 					},
 					{
                     	"Id": "Default",
-                    	"Condition": null,
+                    	"Condition": "RANDOM 0.25 SEASON spring, summer, fall",
                     	"MinimumFriendship": 0,
                     	"ItemId": "{{ModId}}_gummitreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
-                    	"MinimumFriendship": 250,
+                    	"Condition": "RANDOM 0.5 SEASON spring, summer, fall",
+                    	"MinimumFriendship": 0,
                     	"ItemId": "{{ModId}}_bowtreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
+                    	"Condition": "RANDOM 0.5 SEASON spring, summer, fall",
                     	"MinimumFriendship": 500,
                     	"ItemId": "{{ModId}}_candytreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
-                    	"MinimumFriendship": 750,
+                    	"Condition": "RANDOM 0.25 SEASON spring, summer, fall",
+                    	"MinimumFriendship": 500,
                     	"ItemId": "{{ModId}}_deluxetreasurebox"
                     }
 				],
@@ -272,26 +272,26 @@
 					},
 					{
                     	"Id": "Default",
-                    	"Condition": null,
+                    	"Condition": "RANDOM 0.25 SEASON spring, summer, fall",
                     	"MinimumFriendship": 0,
                     	"ItemId": "{{ModId}}_gummitreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
-                    	"MinimumFriendship": 250,
+                    	"Condition": "RANDOM 0.5 SEASON spring, summer, fall",
+                    	"MinimumFriendship": 0,
                     	"ItemId": "{{ModId}}_bowtreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
+                    	"Condition": "RANDOM 0.5 SEASON spring, summer, fall",
                     	"MinimumFriendship": 500,
                     	"ItemId": "{{ModId}}_candytreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
-                    	"MinimumFriendship": 750,
+                    	"Condition": "RANDOM 0.25 SEASON spring, summer, fall",
+                    	"MinimumFriendship": 500,
                     	"ItemId": "{{ModId}}_deluxetreasurebox"
                     }
 				],
@@ -355,26 +355,26 @@
 					},
 					{
                     	"Id": "Default",
-                    	"Condition": null,
+                    	"Condition": "RANDOM 0.25 SEASON spring, summer, fall",
                     	"MinimumFriendship": 0,
                     	"ItemId": "{{ModId}}_gummitreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
-                    	"MinimumFriendship": 250,
+                    	"Condition": "RANDOM 0.5 SEASON spring, summer, fall",
+                    	"MinimumFriendship": 0,
                     	"ItemId": "{{ModId}}_bowtreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
+                    	"Condition": "RANDOM 0.5 SEASON spring, summer, fall",
                     	"MinimumFriendship": 500,
                     	"ItemId": "{{ModId}}_candytreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
-                    	"MinimumFriendship": 750,
+                    	"Condition": "RANDOM 0.25 SEASON spring, summer, fall",
+                    	"MinimumFriendship": 500,
                     	"ItemId": "{{ModId}}_deluxetreasurebox"
                     }
 				],
@@ -425,39 +425,39 @@
 				],
 				"DeluxeProduceItemIds": [
 					{
-					"Id": "Default",
-					"Condition": null,
-					"MinimumFriendship": 250,
-					"ItemId": "{{ModId}}_leppaberry"
+						"Id": "Default",
+						"Condition": null,
+						"MinimumFriendship": 250,
+						"ItemId": "{{ModId}}_leppaberry"
 					},
 					{
-					"Id": "Default",
-					"Condition": null,
-					"MinimumFriendship": 750,
-					"ItemId": "{{ModId}}_thunderpunchtm"
+						"Id": "Default",
+						"Condition": null,
+						"MinimumFriendship": 750,
+						"ItemId": "{{ModId}}_thunderpunchtm"
 					},
 					{
                     	"Id": "Default",
-                    	"Condition": null,
+                    	"Condition": "RANDOM 0.25 SEASON spring, summer, fall",
                     	"MinimumFriendship": 0,
                     	"ItemId": "{{ModId}}_gummitreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
-                    	"MinimumFriendship": 250,
+                    	"Condition": "RANDOM 0.5 SEASON spring, summer, fall",
+                    	"MinimumFriendship": 0,
                     	"ItemId": "{{ModId}}_bowtreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
+                    	"Condition": "RANDOM 0.5 SEASON spring, summer, fall",
                     	"MinimumFriendship": 500,
                     	"ItemId": "{{ModId}}_candytreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
-                    	"MinimumFriendship": 750,
+                    	"Condition": "RANDOM 0.25 SEASON spring, summer, fall",
+                    	"MinimumFriendship": 500,
                     	"ItemId": "{{ModId}}_deluxetreasurebox"
                     }
 				],
@@ -521,26 +521,26 @@
 					},
 					{
                     	"Id": "Default",
-                    	"Condition": null,
+                    	"Condition": "RANDOM 0.25 SEASON spring, summer, fall",
                     	"MinimumFriendship": 0,
                     	"ItemId": "{{ModId}}_gummitreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
-                    	"MinimumFriendship": 250,
+                    	"Condition": "RANDOM 0.5 SEASON spring, summer, fall",
+                    	"MinimumFriendship": 0,
                     	"ItemId": "{{ModId}}_bowtreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
+                    	"Condition": "RANDOM 0.5 SEASON spring, summer, fall",
                     	"MinimumFriendship": 500,
                     	"ItemId": "{{ModId}}_candytreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
-                    	"MinimumFriendship": 750,
+                    	"Condition": "RANDOM 0.25 SEASON spring, summer, fall",
+                    	"MinimumFriendship": 500,
                     	"ItemId": "{{ModId}}_deluxetreasurebox"
                     }
 				],
@@ -604,26 +604,26 @@
 					},
 					{
                     	"Id": "Default",
-                    	"Condition": null,
+                    	"Condition": "RANDOM 0.25 SEASON spring, summer, fall",
                     	"MinimumFriendship": 0,
                     	"ItemId": "{{ModId}}_gummitreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
-                    	"MinimumFriendship": 250,
+                    	"Condition": "RANDOM 0.5 SEASON spring, summer, fall",
+                    	"MinimumFriendship": 0,
                     	"ItemId": "{{ModId}}_bowtreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
+                    	"Condition": "RANDOM 0.5 SEASON spring, summer, fall",
                     	"MinimumFriendship": 500,
                     	"ItemId": "{{ModId}}_candytreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
-                    	"MinimumFriendship": 750,
+                    	"Condition": "RANDOM 0.25 SEASON spring, summer, fall",
+                    	"MinimumFriendship": 500,
                     	"ItemId": "{{ModId}}_deluxetreasurebox"
                     }
 				],
@@ -745,8 +745,8 @@
 			"{{ModId}}_mimikyuegg": {
 				"Name": "{{ModId}}_mimikyuegg",
 				"DisplayName": "{{i18n: mimikyuegg}}",
-				"Description": "{{i18n: internalitem}}",
-				"Texture": "pikachu/basicegg",
+				"Description": "{{i18n: mimikyuegg.d}}",
+				"Texture": "pikachu/mimikyuegg",
 				"Type": "Basic",
 				"ExcludeFromShippingCollection": true,
 				"Category": -5,
@@ -882,6 +882,18 @@
                 "Edibility": 30,
 				"Category": -26,
 				"Price": 1200
+			},
+			"{{ModId}}_mimikyumayo": {
+				"Name": "{{ModId}}_mimikyumayo",
+				"DisplayName": "{{i18n: mimikyumayo}}",
+				"Description": "{{i18n: mimikyumayo.d}}",
+				"Texture": "pikachu/mimikyumayo",
+				"Type": "Basic",
+				"ExcludeFromShippingCollection": "{{Pokemon Items}}",
+                "IsDrink": true,
+                "Edibility": 30,
+				"Category": -26,
+				"Price": 1200
 			}
 		}
     },
@@ -902,6 +914,22 @@
                 "OutputItem": [
                     {
                         "ItemId": "{{ModId}}_pichumayo",
+                        "CopyQuality": false
+                    }
+                    ],
+                "MinutesUntilReady": 120
+            },
+			"{{ModId}}_mimikyumayon": {
+                "Id": "{{ModId}}_mimikyumayon",
+                "Triggers": [
+                    {
+                        "RequiredItemId": "{{ModId}}_mimikyuegg",
+                        "RequiredCount": 1
+                    }
+                    ],
+                "OutputItem": [
+                    {
+                        "ItemId": "{{ModId}}_mimikyumayo",
                         "CopyQuality": false
                     }
                     ],

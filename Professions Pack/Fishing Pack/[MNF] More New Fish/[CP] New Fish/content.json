@@ -21,24 +21,6 @@
 			"FromFile": "Data/AquariumData.json,Data/FishData.json,Data/Location.json,Data/Objects.json,Data/FishPondData.json,Data/EventsAndQuests.json,Data/NPCGiftTastes.json",
 		},
 		{
-			"LogName": "Include Summer Fish",
-			"Action": "Include",
-			"When": {"HasMod":"FishingIslandNPC,LemurKat.EastScarpe.CP"},
-			"FromFile": "Data/SummerFish.json",
-		},
-		{
-			"LogName": "Include Mermaid Island Fish",
-			"Action": "Include",
-			"When": {"HasMod":"FishingIslandNPC"},
-			"FromFile": "Data/MermaidIslandObjects.json",
-		},
-		{
-			"LogName": "Include Boarding House Fish",
-			"Action": "Include",
-			"When": {"HasMod":"CPBoardingHouse"},
-			"FromFile": "Data/BoardingHouseFish.json",
-		},
-		{
         "Action": "EditImage",
         "Target": "Maps/springobjects",
         "FromFile": "assets/lionfish_legacy.png",
@@ -85,7 +67,7 @@
 			"Requester": "Willy",
 			"Duration": "Month",
 			"Repeatable": "false",
-			"RequiredTags": "season_summer",
+			"RequiredTags": "island",
 			"OrderType": "",
 			"SpecialRule": "",
 			"Text": "[MNF.RobaloOrder_Text]",
@@ -138,7 +120,7 @@
 				"MNF.RobaloOrder_Name": "{{i18n:MNF.RobaloOrder_Name}}",
 				"MNF.RobaloOrder_Text": "{{i18n:MNF.RobaloOrder_Text}}",
 				"MNF.RobaloOrder__Objective_0_Text": "{{i18n:MNF.RobaloOrder__Objective_0_Text}}",
-				"MNF.RobaloOrder__Objective_1_Text": "{{i18n:MNF.RobaloOrder__Objective_1_Text}}",							
+				"MNF.RobaloOrder__Objective_1_Text": "{{i18n:MNF.RobaloOrder__Objective_1_Text}}",
 				}		
           },
 		 {

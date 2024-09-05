@@ -3,7 +3,7 @@
 	{
 		"LogName": "granting wooloo a physical presence",
 		"Action": "Load",
-		"Target": "wooloo/woolooegg, wooloo/wooloo, wooloo/shinywooloo, wooloo/shopicon, wooloo/wooloomayo, wooloo/grasstm, wooloo/wooloowool, wooloo/wooloocloth,  wooloo/graywooloowool, wooloo/graywooloocloth, wooloo/wooloomeat, wooloo/cookedwooloomeat",
+		"Target": "wooloo/woolooegg, wooloo/wooloo, wooloo/shinywooloo, wooloo/woolwooloo, wooloo/woolshinywooloo, wooloo/graywoolwooloo, wooloo/graywoolshinywooloo, wooloo/shopicon, wooloo/wooloomayo, wooloo/grasstm, wooloo/wooloowool, wooloo/wooloocloth,  wooloo/graywooloowool, wooloo/graywooloocloth, wooloo/wooloomeat, wooloo/cookedwooloomeat",
 		"FromFile": "assets/wooloo/{{TargetWithoutPath}}.png"
 	},
 	{
@@ -65,26 +65,26 @@
 					},
 					{
                     	"Id": "Default",
-                    	"Condition": null,
+                    	"Condition": "RANDOM 0.25 SEASON spring, summer, fall",
                     	"MinimumFriendship": 0,
                     	"ItemId": "{{ModId}}_gummitreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
-                    	"MinimumFriendship": 250,
+                    	"Condition": "RANDOM 0.5 SEASON spring, summer, fall",
+                    	"MinimumFriendship": 0,
                     	"ItemId": "{{ModId}}_bowtreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
+                    	"Condition": "RANDOM 0.5 SEASON spring, summer, fall",
                     	"MinimumFriendship": 500,
                     	"ItemId": "{{ModId}}_candytreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
-                    	"MinimumFriendship": 750,
+                    	"Condition": "RANDOM 0.25 SEASON spring, summer, fall",
+                    	"MinimumFriendship": 500,
                     	"ItemId": "{{ModId}}_deluxetreasurebox"
                     }
 				],
@@ -137,10 +137,18 @@
 						"HarvestTool": "DigUp"
                     },
 					"(O){{ModId}}_wooloowool": {
-						"HarvestTool": "Shears"
+						"HarvestTool": "Shears",
+						"ProduceTexture": "wooloo/woolwooloo",
+						"SkinProduceTexture": {
+							"Shinywooloo": "wooloo/woolshinywooloo"
+						}
                     },
 					"(O){{ModId}}_graywooloowool": {
-						"HarvestTool": "Shears"
+						"HarvestTool": "Shears",
+						"ProduceTexture": "wooloo/graywoolwooloo",
+						"SkinProduceTexture": {
+							"Shinywooloo": "wooloo/graywoolshinywooloo"
+						}
                     }
                 }
             }
@@ -218,7 +226,7 @@
 				"Type": "Basic",
 				"ExcludeFromShippingCollection": "{{Pokemon Items}}",
 				"Category": -26,
-				"Price": 1000,
+				"Price": 750,
 				"ContextTags": [
 					"color_white"
 				]
@@ -231,7 +239,7 @@
 				"Type": "Basic",
 				"ExcludeFromShippingCollection": "{{Deluxe Pokemon Items}}",
 				"Category": -26,
-				"Price": 1000,
+				"Price": 1500,
 				"ContextTags": [
 					"color_gray"
 				]

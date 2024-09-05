@@ -1295,6 +1295,62 @@
       ]
     },
 	},
+	"fish_dwarfstingray": {
+			"Id": "fish_dwarfstingray",
+			"RequiredTags": [
+				"fish_dwarfstingray"
+				],
+			"SpawnTime": -1,
+		   "ProducedItems": [
+		   {
+			   "RequiredPopulation": 10,
+			   "Chance": 0.02,
+			   "ItemID": "(O)122", //Dwarf Gadget
+			   "MinQuantity": 1,
+			   "MaxQuantity": 1
+			   },
+			   {
+				"RequiredPopulation": 8,
+				"Chance": 0.02,
+				"ItemID": "(O)121", //Dwarvish Helmet
+				"MinQuantity": 1,
+				"MaxQuantity": 1
+				},
+				{
+			   "RequiredPopulation": 8,
+			   "Chance": 0.02,
+			   "ItemID": "(O)112", //Rusty Cog
+			   "MinQuantity": 1,
+			   "MaxQuantity": 1
+			   },
+			   {
+			   "RequiredPopulation": 6,
+			   "Chance": 0.10,
+			   "ItemID": "(O)MNF.MoreNewFish_dwarf_stingray_pup", //Dwarf Stingray Pup
+			   "MinQuantity": 4,
+			   "MaxQuantity": 4
+			   },
+			   {
+			   "RequiredPopulation": 4,
+			   "Chance": 0.10,
+			   "ItemID": "(O)MNF.MoreNewFish_dwarf_stingray_pup", //Dwarf Stingray Pup
+			   "MinQuantity": 2,
+			   "MaxQuantity": 2
+			   },
+			   {
+			   "RequiredPopulation": 1,
+			   "Chance": 0.10,
+			   "ItemID": "(O)MNF.MoreNewFish_dwarf_stingray_pup", //Dwarf Stingray Pup
+			   "MinQuantity": 1,
+			   "MaxQuantity": 1
+			   },
+			   ],	
+			   "PopulationGates": {   
+			   "5": [
+			   "(O)393 10", //Coral
+			   ],
+			   },
+			   },
 			},
 		},
 		{
@@ -1328,6 +1384,7 @@
 				 {"ID": "fish_dumbooctopus","AfterID": "fish_cyclopshark"},
 				 {"ID": "fish_brainslug", "AfterID": "fish_dumbooctopus"},
 				 {"ID": "fish_blinky", "AfterID": "fish_brainslug"},
+				 {"ID": "fish_dwarfstingray", "AfterID": "fish_blinky"},
 			],
 		},
 		],

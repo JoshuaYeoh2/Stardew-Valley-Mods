@@ -64,28 +64,28 @@
 					},
 					{
                     	"Id": "Default",
-                    	"Condition": null,
+                    	"Condition": "RANDOM 0.25 SEASON spring, summer, fall",
                     	"MinimumFriendship": 0,
                     	"ItemId": "{{ModId}}_gummitreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
-                    	"MinimumFriendship": 250,
+                    	"Condition": "RANDOM 0.5 SEASON spring, summer, fall",
+                    	"MinimumFriendship": 0,
                     	"ItemId": "{{ModId}}_bowtreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
+                    	"Condition": "RANDOM 0.5 SEASON spring, summer, fall",
                     	"MinimumFriendship": 500,
                     	"ItemId": "{{ModId}}_candytreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
-                    	"MinimumFriendship": 750,
+                    	"Condition": "RANDOM 0.25 SEASON spring, summer, fall",
+                    	"MinimumFriendship": 500,
                     	"ItemId": "{{ModId}}_deluxetreasurebox"
-                    }	
+                    }
 				],
 				"SleepFrame": "16",
 				"Texture": "miltank/miltank",
@@ -180,7 +180,7 @@
 				"Price": 1800
 			},
 			"{{ModId}}_milkdrinktm": {
-				"Name": "{{ModId}}_minkdrinktm",
+				"Name": "{{ModId}}_milkdrinktm",
 				"DisplayName": "{{i18n: milkdrinktm}}",
 				"Description": "{{i18n: milkdrinktm.d}}",
 				"Texture": "miltank/normaltm",

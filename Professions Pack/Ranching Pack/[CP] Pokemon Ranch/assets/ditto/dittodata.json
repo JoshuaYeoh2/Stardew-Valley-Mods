@@ -34,7 +34,10 @@
 					],
 				"ProduceItemIds": [
 					{
-
+						"Id": "Default",
+						"Condition": "selph.ExtraAnimalConfig_ANIMAL_HOUSE_COUNT Here minccino 0 1 12",
+						"MinimumFriendship": 0,
+						"ItemId": "{{ModId}}_dittoegg"
 					}
 				],
 				"DeluxeProduceItemIds": [
@@ -58,26 +61,26 @@
 					},
 					{
                     	"Id": "Default",
-                    	"Condition": null,
+                    	"Condition": "RANDOM 0.25 SEASON spring, summer, fall",
                     	"MinimumFriendship": 0,
                     	"ItemId": "{{ModId}}_gummitreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
-                    	"MinimumFriendship": 250,
+                    	"Condition": "RANDOM 0.5 SEASON spring, summer, fall",
+                    	"MinimumFriendship": 0,
                     	"ItemId": "{{ModId}}_bowtreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
+                    	"Condition": "RANDOM 0.5 SEASON spring, summer, fall",
                     	"MinimumFriendship": 500,
                     	"ItemId": "{{ModId}}_candytreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
-                    	"MinimumFriendship": 750,
+                    	"Condition": "RANDOM 0.25 SEASON spring, summer, fall",
+                    	"MinimumFriendship": 500,
                     	"ItemId": "{{ModId}}_deluxetreasurebox"
                     }
 				],

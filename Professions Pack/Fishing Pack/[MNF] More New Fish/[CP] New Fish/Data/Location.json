@@ -370,7 +370,7 @@
                     "Id": "MNF.MoreNewFish_iridiumfish",
                     "ItemId": "(O)MNF.MoreNewFish_iridiumfish",
                     "Condition": "WEATHER Here Storm",
-					"MinFishingLevel": 4,					
+					"MinFishingLevel": 4,
 					"CuriosityLureBuff": 0.1,
 					"CatchLimit": 1,
 					"IsBossFish": true,
@@ -508,7 +508,6 @@
                     "Id": "MNF.MoreNewFish_kohaku_koi",
                     "ItemId": "(O)MNF.MoreNewFish_kohaku_koi",
                     "Condition": "LOCATION_SEASON Here spring",
-					"Precedence": 1,
                 }, "MNF.MoreNewFish_yamabuki_koi": {
                     "Id": "MNF.MoreNewFish_yamabuki_koi",
                     "ItemId": "(O)MNF.MoreNewFish_yamabuki_koi",
@@ -517,7 +516,6 @@
                     "Id": "MNF.MoreNewFish_sanke_koi",
                     "ItemId": "(O)MNF.MoreNewFish_sanke_koi",
                     "Condition": "LOCATION_SEASON Here summer",
-					"Precedence": 1,
                 }, "MNF.MoreNewFish_ki_utsuri_koi": {
                     "Id": "MNF.MoreNewFish_ki_utsuri_koi",
                     "ItemId": "(O)MNF.MoreNewFish_ki_utsuri_koi",
@@ -526,7 +524,6 @@
                     "Id": "MNF.MoreNewFish_tancho_koi",
                     "ItemId": "(O)MNF.MoreNewFish_tancho_koi",
                     "Condition": "LOCATION_SEASON Here fall",
-					"Precedence": 1,
                 }, "MNF.MoreNewFish_ghost_koi": {
                     "Id": "MNF.MoreNewFish_ghost_koi",
                     "ItemId": "(O)MNF.MoreNewFish_ghost_koi",
@@ -543,7 +540,7 @@
                     "Id": "MNF.MoreNewFish_tui",
                     "ItemId": "(O)MNF.MoreNewFish_tui",
                     "Condition": "LOCATION_SEASON Here winter",
-					"MinFishingLevel": 10,					
+					"MinFishingLevel": 10,
 					"CuriosityLureBuff": 0.1,
 					"CatchLimit": 1,
 					"IsBossFish": true,
@@ -551,7 +548,7 @@
                     "Id": "MNF.MoreNewFish_la",
                     "ItemId": "(O)MNF.MoreNewFish_la",
                     "Condition": "LOCATION_SEASON Here winter",
-					"MinFishingLevel": 10,					
+					"MinFishingLevel": 10,
 					"CuriosityLureBuff": 0.1,
 					"CatchLimit": 1,
 					"IsBossFish": true,
@@ -701,6 +698,46 @@
                     "Id": "MNF.MoreNewFish_clown_triggerfish",
                     "ItemId": "(O)MNF.MoreNewFish_clown_triggerfish",
                 },
+				"MNF.MoreNewFish_royal_angelfish": {
+                    "Id": "MNF.MoreNewFish_royal_angelfish",
+                    "ItemId": "(O)MNF.MoreNewFish_royal_angelfish",
+                },
+				"MNF.MoreNewFish_moorish_idol": {
+                    "Id": "MNF.MoreNewFish_moorish_idol",
+                    "ItemId": "(O)MNF.MoreNewFish_moorish_idol",
+                },
+				"MNF.MoreNewFish_mandarinfish": {
+                    "Id": "MNF.MoreNewFish_mandarinfish",
+                    "ItemId": "(O)MNF.MoreNewFish_mandarinfish",
+                },
+				"MNF.MoreNewFish_icefish": {
+                    "Id": "MNF.MoreNewFish_icefish",
+                    "ItemId": "(O)MNF.MoreNewFish_icefish",
+                },
+				"MNF.MoreNewFish_false_kelpfish": {
+                    "Id": "MNF.MoreNewFish_false_kelpfish",
+                    "ItemId": "(O)MNF.MoreNewFish_false_kelpfish",
+                },
+				"MNF.MoreNewFish_wide-band_clownfish": {
+                    "Id": "MNF.MoreNewFish_wide-band_clownfish",
+                    "ItemId": "(O)MNF.MoreNewFish_wide-band_clownfish",
+                },
+				"MNF.MoreNewFish_robalo": {
+                    "Id": "MNF.MoreNewFish_robalo",
+                    "ItemId": "(O)MNF.MoreNewFish_robalo",
+                },
+				"MNF.MoreNewFish_pink_skunk_clownfish": {
+                    "Id": "MNF.MoreNewFish_pink_skunk_clownfish",
+                    "ItemId": "(O)MNF.MoreNewFish_pink_skunk_clownfish",
+                },
+				"MNF.MoreNewFish_blue_tang": {
+                    "Id": "MNF.MoreNewFish_blue_tang",
+                    "ItemId": "(O)MNF.MoreNewFish_blue_tang",
+                },
+				"MNF.MoreNewFish_orange_clownfish": {
+                    "Id": "MNF.MoreNewFish_orange_clownfish",
+                    "ItemId": "(O)MNF.MoreNewFish_orange_clownfish",
+                },
             },
         }, 
 		{
@@ -715,6 +752,42 @@
 				"MNF.MoreNewFish_clown_triggerfish": {
                     "Id": "MNF.MoreNewFish_clown_triggerfish",
                     "ItemId": "(O)MNF.MoreNewFish_clown_triggerfish",
+                },
+				"MNF.MoreNewFish_skunk_clownfish": {
+                    "Id": "MNF.MoreNewFish_skunk_clownfish",
+                    "ItemId": "(O)MNF.MoreNewFish_skunk_clownfish",
+                },
+				"MNF.MoreNewFish_saddleback_clownfish": {
+                    "Id": "MNF.MoreNewFish_saddleback_clownfish",
+                    "ItemId": "(O)MNF.MoreNewFish_saddleback_clownfish",
+                },
+				"MNF.MoreNewFish_sebae_clownfish": {
+                    "Id": "MNF.MoreNewFish_sebae_clownfish",
+                    "ItemId": "(O)MNF.MoreNewFish_sebae_clownfish",
+                },
+				"MNF.MoreNewFish_pollock": {
+                    "Id": "MNF.MoreNewFish_pollock",
+                    "ItemId": "(O)MNF.MoreNewFish_pollock",
+                },
+				"MNF.MoreNewFish_soldierfish": {
+                    "Id": "MNF.MoreNewFish_soldierfish",
+                    "ItemId": "(O)MNF.MoreNewFish_soldierfish",
+                },
+				"MNF.MoreNewFish_robalo": {
+                    "Id": "MNF.MoreNewFish_robalo",
+                    "ItemId": "(O)MNF.MoreNewFish_robalo",
+                },
+				"MNF.MoreNewFish_yellowtail_clownfish": {
+                    "Id": "MNF.MoreNewFish_yellowtail_clownfish",
+                    "ItemId": "(O)MNF.MoreNewFish_yellowtail_clownfish",
+                },
+				"MNF.MoreNewFish_great_firefly_squid": {
+                    "Id": "MNF.MoreNewFish_great_firefly_squid",
+                    "ItemId": "(O)MNF.MoreNewFish_great_firefly_squid",
+					"MinFishingLevel": 10,					
+					"CatchLimit": 1,
+					"CuriosityLureBuff": 0.1,
+					"IsBossFish": true,
                 },
             },
         }, 
@@ -731,6 +804,26 @@
                     "Id": "MNF.MoreNewFish_bonnethead",
                     "ItemId": "(O)MNF.MoreNewFish_bonnethead",
                 },
+				"MNF.MoreNewFish_two-band_clownfish": {
+                    "Id": "MNF.MoreNewFish_two-band_clownfish",
+                    "ItemId": "(O)MNF.MoreNewFish_two-band_clownfish",
+                },
+				"MNF.MoreNewFish_whitesnout_clownfish": {
+                    "Id": "MNF.MoreNewFish_whitesnout_clownfish",
+                    "ItemId": "(O)MNF.MoreNewFish_whitesnout_clownfish",
+                },
+				"MNF.MoreNewFish_dwarf_stingray": {
+                    "Id": "MNF.MoreNewFish_dwarf_stingray",
+                    "ItemId": "(O)MNF.MoreNewFish_dwarf_stingray",
+                },
+				"MNF.MoreNewFish_thread-sail_filefish": {
+                    "Id": "MNF.MoreNewFish_thread-sail_filefish",
+                    "ItemId": "(O)MNF.MoreNewFish_thread-sail_filefish",
+                },
+				"MNF.MoreNewFish_squirrelfish": {
+                    "Id": "MNF.MoreNewFish_squirrelfish",
+                    "ItemId": "(O)MNF.MoreNewFish_squirrelfish",
+                },
             },
         },
 		{
@@ -746,9 +839,55 @@
                     "Id": "MNF.MoreNewFish_black_ghost_knifefish",
                     "ItemId": "(O)MNF.MoreNewFish_black_ghost_knifefish",
 					"FishAreaId": "Freshwater"
-                },"MNF.MoreNewFish_clown_triggerfish": {
-                    "Id": "MNF.MoreNewFish_clown_triggerfish",
-                    "ItemId": "(O)MNF.MoreNewFish_clown_triggerfish",
+                },
+				"MNF.MoreNewFish_tiger_puffer": {
+                    "Id": "MNF.MoreNewFish_tiger_puffer",
+                    "ItemId": "(O)MNF.MoreNewFish_tiger_puffer",
+					"FishAreaId": "Ocean"
+                },
+				"MNF.MoreNewFish_banded_angelfish": {
+                    "Id": "MNF.MoreNewFish_banded_angelfish",
+                    "ItemId": "(O)MNF.MoreNewFish_banded_angelfish",
+					"FishAreaId": "Ocean"
+                },
+				"MNF.MoreNewFish_flame_angelfish": {
+                    "Id": "MNF.MoreNewFish_flame_angelfish",
+                    "ItemId": "(O)MNF.MoreNewFish_flame_angelfish",
+					"FishAreaId": "Ocean"
+                },
+				"MNF.MoreNewFish_maroon_clownfish": {
+                    "Id": "MNF.MoreNewFish_maroon_clownfish",
+                    "ItemId": "(O)MNF.MoreNewFish_maroon_clownfish",
+					"FishAreaId": "Ocean"
+                },
+				"MNF.MoreNewFish_fire_clownfish": {
+                    "Id": "MNF.MoreNewFish_fire_clownfish",
+                    "ItemId": "(O)MNF.MoreNewFish_fire_clownfish",
+					"FishAreaId": "Ocean"
+                },
+				"MNF.MoreNewFish_wolffish": {
+                    "Id": "MNF.MoreNewFish_wolffish",
+                    "ItemId": "(O)MNF.MoreNewFish_wolffish",
+					"FishAreaId": "Ocean"
+                },
+				"MNF.MoreNewFish_robalo": {
+                    "Id": "MNF.MoreNewFish_robalo",
+                    "ItemId": "(O)MNF.MoreNewFish_robalo",
+					"FishAreaId": "Ocean"
+                },
+				"MNF.MoreNewFish_monkfish": {
+                    "Id": "MNF.MoreNewFish_monkfish",
+                    "ItemId": "(O)MNF.MoreNewFish_monkfish",
+					"FishAreaId": "Ocean"
+                },
+				"MNF.MoreNewFish_threespot_angelfish": {
+                    "Id": "MNF.MoreNewFish_threespot_angelfish",
+                    "ItemId": "(O)MNF.MoreNewFish_threespot_angelfish",
+					"FishAreaId": "Ocean"
+                },
+				"MNF.MoreNewFish_threespot_angelfish": {
+                    "Id": "MNF.MoreNewFish_threespot_angelfish",
+                    "ItemId": "(O)MNF.MoreNewFish_threespot_angelfish",
 					"FishAreaId": "Ocean"
                 },
             },

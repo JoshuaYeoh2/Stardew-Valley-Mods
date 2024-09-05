@@ -54,30 +54,30 @@
 						"Id": "Default",
 						"Condition": null,
 						"MinimumFriendship": 750,
-						"ItemId": "{{ModId}}_tailslap"
+						"ItemId": "{{ModId}}_tailslaptm"
 					},
 					{
                     	"Id": "Default",
-                    	"Condition": null,
+                    	"Condition": "RANDOM 0.25 SEASON spring, summer, fall",
                     	"MinimumFriendship": 0,
                     	"ItemId": "{{ModId}}_gummitreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
-                    	"MinimumFriendship": 250,
+                    	"Condition": "RANDOM 0.5 SEASON spring, summer, fall",
+                    	"MinimumFriendship": 0,
                     	"ItemId": "{{ModId}}_bowtreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
+                    	"Condition": "RANDOM 0.5 SEASON spring, summer, fall",
                     	"MinimumFriendship": 500,
                     	"ItemId": "{{ModId}}_candytreasurebox"
                     },
 					{
                     	"Id": "Default",
-                    	"Condition": null,
-                    	"MinimumFriendship": 750,
+                    	"Condition": "RANDOM 0.25 SEASON spring, summer, fall",
+                    	"MinimumFriendship": 500,
                     	"ItemId": "{{ModId}}_deluxetreasurebox"
                     }
 				],
@@ -131,7 +131,7 @@
 		"Target": "Data/Objects",
 		"Entries": {
 			"{{ModId}}_minccinoegg": {
-				"Name": "{{ModId}}_minccinoeg",
+				"Name": "{{ModId}}_minccinoegg",
 				"DisplayName": "{{i18n: minccinoegg}}",
 				"Description": "{{i18n: minccinoegg.d}}",
 				"Texture": "minccino/minccinoegg",
@@ -232,6 +232,7 @@
         "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
         "Entries": {
             "minccino": {
+				"MalePercentage": 0.25,
                 "AnimalProduceExtensionData": {
 					"(O){{ModId}}_gummitreasurebox": {
 						"HarvestTool": "DigUp"

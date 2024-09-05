@@ -64,10 +64,10 @@
 				  "Y": 2
 				},
 				"AnimalDoor": {
-				  "X": 2,
-				  "Y": 2,
+				  "X": 1,
+				  "Y": 1,
 				  "Width": 3,
-				  "Height": 2
+				  "Height": 3
 				},
 				"AnimalDoorOpenDuration": 0.3125,
 				"AnimalDoorOpenSound": "doorCreak",
@@ -203,10 +203,10 @@
 				  "Y": 2
 				},
 				"AnimalDoor": {
-				  "X": 2,
-				  "Y": 2,
+				  "X": 1,
+				  "Y": 1,
 				  "Width": 3,
-				  "Height": 2
+				  "Height": 3
 				},
 				"AnimalDoorOpenDuration": 0.3125,
 				"AnimalDoorOpenSound": "doorCreak",
@@ -400,10 +400,10 @@
 				  "Y": 2
 				},
 				"AnimalDoor": {
-				  "X": 2,
-				  "Y": 2,
+				  "X": 1,
+				  "Y": 1,
 				  "Width": 3,
-				  "Height": 2
+				  "Height": 3
 				},
 				"AnimalDoorOpenDuration": 0.3125,
 				"AnimalDoorOpenSound": "doorCreak",
@@ -606,10 +606,10 @@
 				  "Y": 3
 				},
 				"AnimalDoor": {
-				  "X": 3,
-				  "Y": 3,
+				  "X": 2,
+				  "Y": 2,
 				  "Width": 4,
-				  "Height": 3
+				  "Height": 4
 				},
 				"AnimalDoorOpenDuration": 0.4,
 				"AnimalDoorOpenSound": "doorCreak",
@@ -787,10 +787,10 @@
 				  "Y": 3
 				},
 				"AnimalDoor": {
-				  "X": 4,
-				  "Y": 3,
+				  "X": 3,
+				  "Y": 2,
 				  "Width": 4,
-				  "Height": 3
+				  "Height": 4
 				},
 				"AnimalDoorOpenDuration": 0.4,
 				"AnimalDoorOpenSound": "doorCreak",
@@ -1042,10 +1042,10 @@
 				  "Y": 3
 				},
 				"AnimalDoor": {
-				  "X": 4,
-				  "Y": 3,
+				  "X": 3,
+				  "Y": 2,
 				  "Width": 4,
-				  "Height": 3
+				  "Height": 4
 				},
 				"AnimalDoorOpenDuration": 0.4,
 				"AnimalDoorOpenSound": "doorCreak",
@@ -1918,7 +1918,7 @@
 		}
 	},
 	{
-		"LogName": "hiding bows in chests",
+		"LogName": "making bows",
 		"Action": "EditData",
 		"Target": "Data/Objects",
 		"Entries": {
@@ -1930,7 +1930,6 @@
 				"SpriteIndex": 0,
 				"Type": "Basic",
 				"Category": -17,
-				"Edibility": 5,
 				"Price": 1000,
 				"ExcludeFromShippingCollection": "{{Treasure Box Items}}",
 				"ContextTags": [
@@ -1945,7 +1944,6 @@
 				"SpriteIndex": 1,
 				"Type": "Basic",
 				"Category": -17,
-				"Edibility": 5,
 				"Price": 1000,
 				"ExcludeFromShippingCollection": "{{Treasure Box Items}}",
 				"ContextTags": [
@@ -1960,7 +1958,6 @@
 				"SpriteIndex": 2,
 				"Type": "Basic",
 				"Category": -17,
-				"Edibility": 5,
 				"Price": 1000,
 				"ExcludeFromShippingCollection": "{{Treasure Box Items}}",
 				"ContextTags": [
@@ -1975,7 +1972,6 @@
 				"SpriteIndex": 3,
 				"Type": "Basic",
 				"Category": -17,
-				"Edibility": 5,
 				"Price": 1000,
 				"ExcludeFromShippingCollection": "{{Treasure Box Items}}",
 				"ContextTags": [
@@ -1990,7 +1986,6 @@
 				"SpriteIndex": 4,
 				"Type": "Basic",
 				"Category": -17,
-				"Edibility": 5,
 				"Price": 1000,
 				"ExcludeFromShippingCollection": "{{Treasure Box Items}}",
 				"ContextTags": [
@@ -2005,7 +2000,6 @@
 				"SpriteIndex": 5,
 				"Type": "Basic",
 				"Category": -17,
-				"Edibility": 5,
 				"Price": 1000,
 				"ExcludeFromShippingCollection": "{{Treasure Box Items}}",
 				"ContextTags": [
@@ -2020,7 +2014,6 @@
 				"SpriteIndex": 6,
 				"Type": "Basic",
 				"Category": -17,
-				"Edibility": 5,
 				"Price": 1000,
 				"ExcludeFromShippingCollection": "{{Treasure Box Items}}",
 				"ContextTags": [
@@ -2035,7 +2028,6 @@
 				"SpriteIndex": 7,
 				"Type": "Basic",
 				"Category": -17,
-				"Edibility": 5,
 				"Price": 1000,
 				"ExcludeFromShippingCollection": "{{Treasure Box Items}}",
 				"ContextTags": [
@@ -2050,7 +2042,6 @@
 				"SpriteIndex": 8,
 				"Type": "Basic",
 				"Category": -17,
-				"Edibility": 5,
 				"Price": 1000,
 				"ExcludeFromShippingCollection": "{{Treasure Box Items}}",
 				"ContextTags": [
@@ -2065,7 +2056,6 @@
 				"SpriteIndex": 9,
 				"Type": "Basic",
 				"Category": -17,
-				"Edibility": 5,
 				"Price": 1000,
 				"ExcludeFromShippingCollection": "{{Treasure Box Items}}",
 				"ContextTags": [
@@ -2080,7 +2070,6 @@
 				"SpriteIndex": 10,
 				"Type": "Basic",
 				"Category": -17,
-				"Edibility": 5,
 				"Price": 1000,
 				"ExcludeFromShippingCollection": "{{Treasure Box Items}}",
 				"ContextTags": [
@@ -2095,7 +2084,6 @@
 				"SpriteIndex": 11,
 				"Type": "Basic",
 				"Category": -17,
-				"Edibility": 5,
 				"Price": 1000,
 				"ExcludeFromShippingCollection": "{{Treasure Box Items}}",
 				"ContextTags": [
@@ -2110,7 +2098,6 @@
 				"SpriteIndex": 12,
 				"Type": "Basic",
 				"Category": -17,
-				"Edibility": 5,
 				"Price": 1000,
 				"ExcludeFromShippingCollection": "{{Treasure Box Items}}",
 				"ContextTags": [
@@ -2125,7 +2112,6 @@
 				"SpriteIndex": 13,
 				"Type": "Basic",
 				"Category": -17,
-				"Edibility": 5,
 				"Price": 1000,
 				"ExcludeFromShippingCollection": "{{Treasure Box Items}}",
 				"ContextTags": [
@@ -2140,7 +2126,6 @@
 				"SpriteIndex": 14,
 				"Type": "Basic",
 				"Category": -17,
-				"Edibility": 5,
 				"Price": 1000,
 				"ExcludeFromShippingCollection": "{{Treasure Box Items}}",
 				"ContextTags": [
@@ -2155,7 +2140,6 @@
 				"SpriteIndex": 15,
 				"Type": "Basic",
 				"Category": -17,
-				"Edibility": 5,
 				"Price": 1000,
 				"ExcludeFromShippingCollection": "{{Treasure Box Items}}",
 				"ContextTags": [
@@ -2799,7 +2783,7 @@
 			
 				"Operation": "Append",
 				"Target": ["Fields", "Jas", 1],
-				"Value": "{{ModId}}_pokedoll {{ModId}}_cookie {{ModId}}_chocolate {{ModId}}_farmcandy {{ModId}}_fishcandy {{ModId}}_foragecandy {{ModId}}_luckcandy {{ModId}}_minecandy {{ModId}}_fightcandy {{ModId}}_defcandy {{ModId}}_energycandy {{ModId}}_redgummi {{ModId}}_orangegummi {{ModId}}_yellowgummi {{ModId}}_grassgummi {{ModId}}_greengummi {{ModId}}_skygummi {{ModId}}_bluegummi {{ModId}}_royalgummi {{ModId}}_purplegummi {{ModId}}_pinkgummi {{ModId}}_blackgummi {{ModId}}_browngummi {{ModId}}_whitegummi {{ModId}}_silvergummi {{ModId}}_cleargummi {{ModId}}_goldgummi {{ModId}}_wondergummi {{ModId}}_redbow {{ModId}}_brownbow {{ModId}}_orangebow {{ModId}}_yellowbow {{ModId}}_limebow {{ModId}}_greenbow {{ModId}}_viridianbow {{ModId}}_mintybow {{ModId}}_skybluebow {{ModId}}_bluebow {{ModId}}_cobaltbow {{ModId}}_violetbow {{ModId}}_purplebow {{ModId}}_pinkbow {{ModId}}_fuchsiabow {{ModId}}_silverbow {{ModId}}_redbowhat {{ModId}}_brownbowhat {{ModId}}_orangebowhat {{ModId}}_yellowbowhat {{ModId}}_limebowhat {{ModId}}_greenbowhat {{ModId}}_viridianbowhat {{ModId}}_mintybowhat {{ModId}}_skybluebowhat {{ModId}}_bluebowhat {{ModId}}_cobaltbowhat {{ModId}}_violetbowhat {{ModId}}_purplebowhat {{ModId}}_pinkbowhat {{ModId}}_fuchsiabowhat {{ModId}}_silverbowhat",
+				"Value": "{{ModId}}_pokedoll {{ModId}}_cookie {{ModId}}_chocolate {{ModId}}_farmcandy {{ModId}}_fishcandy {{ModId}}_foragecandy {{ModId}}_luckcandy {{ModId}}_minecandy {{ModId}}_fightcandy {{ModId}}_defcandy {{ModId}}_energycandy {{ModId}}_redgummi {{ModId}}_orangegummi {{ModId}}_yellowgummi {{ModId}}_grassgummi {{ModId}}_greengummi {{ModId}}_skygummi {{ModId}}_bluegummi {{ModId}}_royalgummi {{ModId}}_purplegummi {{ModId}}_pinkgummi {{ModId}}_blackgummi {{ModId}}_browngummi {{ModId}}_whitegummi {{ModId}}_silvergummi {{ModId}}_cleargummi {{ModId}}_goldgummi {{ModId}}_wondergummi {{ModId}}_redbow {{ModId}}_brownbow {{ModId}}_orangebow {{ModId}}_yellowbow {{ModId}}_limebow {{ModId}}_greenbow {{ModId}}_viridianbow {{ModId}}_mintybow {{ModId}}_skybluebow {{ModId}}_bluebow {{ModId}}_cobaltbow {{ModId}}_violetbow {{ModId}}_purplebow {{ModId}}_pinkbow {{ModId}}_fuchsiabow {{ModId}}_silverbow",
 				"Delimiter": " "
 			},
 			{
@@ -2817,12 +2801,12 @@
 			{
 				"Operation": "Append",
 				"Target": ["Fields", "Haley", 1],
-				"Value": "{{ModId}}_redbow {{ModId}}_brownbow {{ModId}}_orangebow {{ModId}}_yellowbow {{ModId}}_limebow {{ModId}}_greenbow {{ModId}}_viridianbow {{ModId}}_mintybow {{ModId}}_skybluebow {{ModId}}_bluebow {{ModId}}_cobaltbow {{ModId}}_violetbow {{ModId}}_purplebow {{ModId}}_pinkbow {{ModId}}_fuchsiabow {{ModId}}_silverbow {{ModId}}_redbowhat {{ModId}}_brownbowhat {{ModId}}_orangebowhat {{ModId}}_yellowbowhat {{ModId}}_limebowhat {{ModId}}_greenbowhat {{ModId}}_viridianbowhat {{ModId}}_mintybowhat {{ModId}}_skybluebowhat {{ModId}}_bluebowhat {{ModId}}_cobaltbowhat {{ModId}}_violetbowhat {{ModId}}_purplebowhat {{ModId}}_pinkbowhat {{ModId}}_fuchsiabowhat {{ModId}}_silverbowhat",
+				"Value": "{{ModId}}_redbow {{ModId}}_brownbow {{ModId}}_orangebow {{ModId}}_yellowbow {{ModId}}_limebow {{ModId}}_greenbow {{ModId}}_viridianbow {{ModId}}_mintybow {{ModId}}_skybluebow {{ModId}}_bluebow {{ModId}}_cobaltbow {{ModId}}_violetbow {{ModId}}_purplebow {{ModId}}_pinkbow {{ModId}}_fuchsiabow {{ModId}}_silverbow",
 				"Delimiter": " "
 			},
 			{
 				"Operation": "Append",
-				"Target": ["Fields", "Sandy", 2],
+				"Target": ["Fields", "Sandy", 3],
 				"Value": "{{ModId}}_wooloowool {{ModId}}_graywooloowool",
 				"Delimiter": " "
 			},
@@ -2835,7 +2819,7 @@
 			{
 				"Operation": "Append",
 				"Target": ["Fields", "Sam", 1],
-				"Value": "{{ModId}}_darkshades {{ModId}}_lightshades {{ModId}}_darkshadeshat {{ModId}}_lightshadeshat",
+				"Value": "{{ModId}}_darkshades {{ModId}}_lightshades",
 				"Delimiter": " "
 			},
 			{
@@ -2852,25 +2836,24 @@
 			},
 			{
 				"Operation": "Append",
-				"Target": ["Fields", "Marnie", 2],
+				"Target": ["Fields", "Marnie", 3],
 				"Value": "{{ModId}}_woolooegg {{ModId}}_miltankegg",
 				"Delimiter": " "
 			}
 		]
+	},
+	{
+		"LogName": "swapping farm animals for dittos",
+		"Action": "EditData",
+		"Target": "Data/",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Entries", ""],
+				"Value": "",
+				"Delimiter": " "
+			}
+		]
 	}
-	//do this
-	//{
-	//	"LogName": "swapping farm animals for dittos",
-	//	"Action": "EditData",
-	//	"Target": "Data/",
-	//	"TextOperations": [
-	//		{
-	//			"Operation": "Append",
-	//			"Target": ["Entries", ""],
-	//			"Value": "",
-	//			"Delimiter": " "
-	//		}
-	//	]
-	//}
 	]
 }

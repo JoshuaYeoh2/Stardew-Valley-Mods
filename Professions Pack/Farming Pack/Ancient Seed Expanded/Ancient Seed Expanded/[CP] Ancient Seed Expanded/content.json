@@ -49,6 +49,16 @@
         {   
             //Load Seed Transformer
             "Action": "Include",
+            "FromFile": "assets/Ancient_Frost_Berry/Ancient_Frost_Berry.json"
+        },
+        {   
+            //Load Seed Transformer
+            "Action": "Include",
+            "FromFile": "assets/Ancient_Sun_Berry/Ancient_Sun_Berry.json"
+        },
+        {   
+            //Load Seed Transformer
+            "Action": "Include",
             "FromFile": "assets/Luminaria_Fern/Luminaria_Fern.json"
         },
         {   
@@ -79,8 +89,19 @@
         {   
             //Load Seed Transformer
             "Action": "Include",
+            "FromFile": "assets/Food/Ice_Cream.json"
+        },
+        {   
+            //Load Seed Transformer
+            "Action": "Include",
+            "FromFile": "assets/Food/Sun_Tea.json"
+        },
+        {   
+            //Load Seed Transformer
+            "Action": "Include",
             "FromFile": "assets/BigCraftable/Luminaria_Fern_Fence.json"
         },
+
         {   
             //Load Seed Transformer
             "Action": "Include",
