@@ -1,0 +1,91 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "{{ModId}}_ShadyArtificialShack": {
+                    "Currency": 0,
+                    "StackSizeVisibility": null,
+                    "OpenSound": "openChest",
+                    "PurchaseSound": "purchaseClick",
+                    "PurchaseRepeatSound": "purchaseRepeat",
+                    "PriceModifiers": null,
+                    "PriceModifierMode": "Stack",
+                    "Owners": [
+                        {
+                            "Portrait": null,
+                            "Dialogues": [
+                                {
+                                    "Id": "{{ModId}}_ShadyArtificialShack",
+                                    "Condition": null,
+                                    "RandomDialogue": [
+                                        "{{i18n:ShadyArtificialShack1}}",
+                                        "{{i18n:ShadyArtificialShack2}}",
+                                        "{{i18n:ShadyArtificialShack3}}",
+                                        "{{i18n:ShadyArtificialShack4}}",
+                                        "{{i18n:ShadyArtificialShack5}}",
+                                        "{{i18n:ShadyArtificialShack6}}",
+                                        "{{i18n:ShadyArtificialShack7}}",
+                                        "{{i18n:ShadyArtificialShack8}}",
+                                        "{{i18n:ShadyArtificialShack9}}",
+                                        "{{i18n:ShadyArtificialShack10}}"
+                                    ]
+                                }
+                            ],
+                            "Name": "AnyOrNone"
+                        }
+                    ],
+                    "VisualTheme": null,
+                    "SalableItemTags": null,
+                    "Items": [
+                        {
+                            "Price": 250,
+                            "AvailableStock": -1,
+                            "AvailableStockLimit": "Global",
+                            "Id": "{{ModId}}_StinkhornSpore",
+                            "ItemId": "{{ModId}}_StinkhornSpore"
+                        },
+                        {
+                            "Price": 250,
+                            "AvailableStock": -1,
+                            "AvailableStockLimit": "Global",
+                            "Id": "{{ModId}}_MycenaSpore",
+                            "ItemId": "{{ModId}}_MycenaSpore"
+                        },
+                        {
+                            "Price": 250,
+                            "AvailableStock": -1,
+                            "AvailableStockLimit": "Global",
+                            "Id": "{{ModId}}_LactariusSpore",
+                            "ItemId": "{{ModId}}_LactariusSpore"
+                        },
+                        {
+                            "Price": 250,
+                            "AvailableStock": -1,
+                            "AvailableStockLimit": "Global",
+                            "Id": "{{ModId}}_PanellusSpore",
+                            "ItemId": "{{ModId}}_PanellusSpore"
+                        },
+                        {
+                            "Price": 250,
+                            "AvailableStock": -1,
+                            "AvailableStockLimit": "Global",
+                            "Id": "{{ModId}}_RhodotusSpore",
+                            "ItemId": "{{ModId}}_RhodotusSpore"
+                        },
+                        {
+                            "Price": 250,
+                            "AvailableStock": -1,
+                            "AvailableStockLimit": "Global",
+                            "Id": "{{ModId}}_MarasmiusSpore",
+                            "ItemId": "{{ModId}}_MarasmiusSpore"
+                        }
+                    ],
+                    "CustomFields": null,
+                    "ApplyProfitMargins": null
+                }
+            }
+        }
+    ]
+}

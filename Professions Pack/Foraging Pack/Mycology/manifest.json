@@ -1,0 +1,17 @@
+{
+    "Name": "Mycology",
+    "Author": "Aviroen",
+    "Version": "1.0.4",
+    "Description": "A broad range of mycology, from mutated trees, to daring cooking dishes!",
+    "UniqueID": "Aviroen.Mycology",
+    "UpdateKeys": [ "Nexus:27436" ],
+    "Dependencies": [
+        {
+            "UniqueID": "EnderTedi.TreeSizeFramework",
+            "IsRequired": true
+        }
+    ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

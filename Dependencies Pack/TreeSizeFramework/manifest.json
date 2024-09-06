@@ -1,0 +1,21 @@
+{
+  /*
+   | This file is automatically updated by ModManifestBuilder
+   | when the project is compiled.
+   | 
+   | Changes made to this file may be overwritten.
+   | 
+   */
+  "$schema": "https://smapi.io/schemas/manifest.json",
+  "UniqueID": "EnderTedi.TreeSizeFramework",
+  "Name": "Tree Size Framework",
+  "Author": "EnderTedi",
+  "Version": "1.1.0",
+  "Description": "A framework which allows bigger (or smaller) wild and fruit trees.",
+  "MinimumApiVersion": "4.0.0",
+  "MinimumGameVersion": "1.6",
+  "EntryDll": "TreeSizeFramework.dll",
+  "UpdateKeys": [
+    "Nexus:27123"
+  ]
+}

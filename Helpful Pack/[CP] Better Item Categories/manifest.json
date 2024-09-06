@@ -1,0 +1,32 @@
+{
+    "Name": "Better Item Categories",
+    "Author": "VegasOctober",
+    "Version": "1.4.2",
+    "Description": "Changes the Category and/or Type of many items in Stardew Valley, allowing for better categorization, consistency, and organization, in a lore-friendly and realistic way",
+    "UniqueID": "VegasOctober.BetterItemCategories",
+    "MinimumGameVersion": "1.6.0",
+    "UpdateKeys": ["Nexus: 27038"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+      { "IsRequired": true, "UniqueID": "spacechase0.SpaceCore" },
+      { "IsRequired": false, "UniqueID": "Aldino112.MMF" },
+      { "IsRequired": false, "UniqueID": "Cornucopia.ArtisanMachines" },
+      { "IsRequired": false, "UniqueID": "Cornucopia.MoreCrops" },
+      { "IsRequired": false, "UniqueID": "Cornucopia.MoreFlowers" },
+      { "IsRequired": false, "UniqueID": "cosmicRetribution.HiddenCropRecipes" },
+      { "IsRequired": false, "UniqueID": "drbirbdev.BinningSkill" },
+      { "IsRequired": false, "UniqueID": "FlashShifter.StardewValleyExpandedCP" },
+      { "IsRequired": false, "UniqueID": "minothilos.FreshandBit" },
+      { "IsRequired": false, "UniqueID": "MissAnaira.VanillaCookingRecipes" },
+      { "IsRequired": false, "UniqueID": "moonslime.CookingSkill.CP" },
+      { "IsRequired": false, "UniqueID": "NermNermNerm.QuestableTractor" },
+      { "IsRequired": false, "UniqueID": "Objection777.JojaColaExpanded" },
+      { "IsRequired": false, "UniqueID": "Rafseazz.RSVCP" },
+      { "IsRequired": false, "UniqueID": "stinkyvicki.DeliciousInStardew" },
+      { "IsRequired": false, "UniqueID": "supert.adventureguildexpanded" },
+      { "IsRequired": false, "UniqueID": "TheMightyAmondee.WeatherTotemsCP" },
+      { "IsRequired": false, "UniqueID": "Trent.NewAnimals" },
+    ],
+}

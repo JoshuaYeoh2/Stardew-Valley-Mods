@@ -4,10 +4,10 @@
 		"Action": "EditData",
 		"Target": "Data/Events/Farm",
 		"Entries": 	{
-			"90005264": "none/1 1/farmer 1 1 1/viewport -999 -999/addConversationTopic Time.A.00 4/message \"X\"/end",
-			"90105264/e 90005264/A Time.A.00": "none/1 1/farmer 1 1 1/viewport -999 -999/addConversationTopic Time.A.01 0/message \"X1\"/end",
-			"90205264/e 90105264/A Time.A.01": "none/1 1/farmer 1 1 1/viewport -999 -999/addConversationTopic Time.A.02 0/message \"X2\"/end",
-			"90305264/e 90205264/A Time.A.02": "none/1 1/farmer 1 1 1/viewport -999 -999/addConversationTopic Time.A.03 162/message \"X3\"/end"  // Para Ficarem Mais ou Menos Tempo, Ajuste Esse Valor. (Edward, Isis, Miranda e Lee)
+			"90005264": "none/1 1/farmer 1 1 1/viewport -999 -999/addConversationTopic Time.A.00 4/end",
+			"90105264/e 90005264/A Time.A.00": "none/1 1/farmer 1 1 1/viewport -999 -999/addConversationTopic Time.A.01 0/end",
+			"90205264/e 90105264/A Time.A.01": "none/1 1/farmer 1 1 1/viewport -999 -999/addConversationTopic Time.A.02 0/end",
+			"90305264/e 90205264/A Time.A.02": "none/1 1/farmer 1 1 1/viewport -999 -999/addConversationTopic Time.A.03 162/end"  // Para Ficarem Mais ou Menos Tempo, Ajuste Esse Valor. (Edward, Isis, Miranda e Lee)
 			}
 		},
 		{	//Gatilho (B) Desenvolvimento (1)
@@ -52,9 +52,9 @@
 		"Action": "EditData",
 		"Target": "Data/Events/Farm",
 		"Entries": 	{
-				"91205264/e 58614200/k 91005264/A Time.E.04": "none/1 1/farmer 1 1 1/viewport -999 -999/addConversationTopic Time.F.01 0/message \"F1 Retorno Isis\"/end",
-				"91305264/e 91205264/A Time.F.01": "none/1 1/farmer 1 1 1/viewport -999 -999/addConversationTopic Time.F.02 1/message \"F2 - 3 Inverno\"/end",
-				"91335264/e 91305264/k 61743011/A Time.F.02": "none/1 1/farmer 1 1 1/viewport -999 -999/addConversationTopic Time.F.03 57/message \"F3 - 5 Inverno\"/end"
+				"91205264/e 58614200/k 91005264/A Time.E.04": "none/1 1/farmer 1 1 1/viewport -999 -999/addConversationTopic Time.F.01 0/end",
+				"91305264/e 91205264/A Time.F.01": "none/1 1/farmer 1 1 1/viewport -999 -999/addConversationTopic Time.F.02 1/end",
+				"91335264/e 91305264/k 61743011/A Time.F.02": "none/1 1/farmer 1 1 1/viewport -999 -999/addConversationTopic Time.F.03 57/end"
 			}
 		},
 		{	//Gatilho (G) Desenvolvimento (3)
@@ -71,9 +71,9 @@
 		"Target": "Data/Events/Farm",
 		"When": { "HasSeenEvent: anyPlayer|contains=91505264": false }, // Multiplayer Fix
 		"Entries": {
-				"37918100/e 91335264/o Isis/k 91505264/k 37918310/A Time.F.03": "none/1 1/farmer 1 1 1/viewport -999 -999/addConversationTopic Time.H.01 0/message \"Contagem Despedida 3\"/end",
-				"37918200/e 37918100/A Time.H.01": "none/1 1/farmer 1 1 1/viewport -999 -999/addConversationTopic Time.H.02 1/message \"H2 - Verão 3\"/end",  
-				"37918000/e 37918200/A Time.H.02": "none/1 1/farmer 1 1 1/viewport -999 -999/addConversationTopic Time.H.03 22/message \"H3 - Verão 5\"/end"
+				"37918100/e 91335264/o Isis/k 91505264/k 37918310/A Time.F.03": "none/1 1/farmer 1 1 1/viewport -999 -999/addConversationTopic Time.H.01 0/end",
+				"37918200/e 37918100/A Time.H.01": "none/1 1/farmer 1 1 1/viewport -999 -999/addConversationTopic Time.H.02 1/end",  
+				"37918000/e 37918200/A Time.H.02": "none/1 1/farmer 1 1 1/viewport -999 -999/addConversationTopic Time.H.03 22/end"
 			}
 		},
 		{	//Gatilho (I1) Desenvolvimento Adega (5) (Edward) Dev

@@ -1,0 +1,212 @@
+{
+    ///////////////////////////////////////////////////////custom locations
+    "Changes": [
+        {
+            "LogName": "The Mushroom Map",
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Entries": {
+                "{{ModId}}_Mycologist": {
+                    "DisplayName": "{{i18n:MushroomForest}}",
+                    "DefaultArrivalTile": {
+                        "X": 27,
+                        "Y": 6
+                    },
+                    "CreateOnLoad": {
+                        "MapPath": "Maps\\{{ModId}}_Mycologist",
+                        "AlwaysActive": false
+                    },
+                    "Fish": [
+                        {
+                            "Id": "Pufferfish",
+                            "ItemID": "(O)128",
+                            "Chance": 0.05,
+                            "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+                        },
+                        {
+                            "Id": "Blobfish",
+                            "ItemID": "(O)800",
+                            "Chance": 0.03,
+                            "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+                        },
+                        {
+                            "Id": "Tilapia",
+                            "ItemID": "(O)701",
+                            "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+                        }
+                    ],
+                    "MusicDefault": "Overcast"
+                }
+            }
+        },
+        {
+            "LogName": "Load The Map Shinji",
+            "Action": "Load",
+            "Priority": "Low",
+            "Target": "Maps/{{ModId}}_Mycologist",
+            "FromFile": "assets/Map/Mycologist.tmx"
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModId}}_Mycologist",
+            "AddWarps": [
+                "28 4 Forest 38 95",
+                "28 5 Forest 38 95",
+                "28 6 Forest 38 95",
+                "28 7 Forest 38 95",
+                "28 8 Forest 38 95",
+                "28 9 Forest 38 95",
+                "28 10 Forest 38 95",
+                "28 11 Forest 38 95",
+                "28 12 Forest 38 95",
+                "28 13 Forest 38 95",
+                "28 14 Forest 38 95",
+                "28 15 Forest 38 95",
+                "28 16 Forest 38 95"
+
+            ],
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 11,
+                        "Y": 3
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "OpenShop {{ModId}}_ShadyArtificialShack"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 25,
+                        "Y": 10
+                    },
+                    "Layer": "Paths",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModId}}_Lactarius"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 15,
+                        "Y": 9
+                    },
+                    "Layer": "Paths",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModId}}_Marasmius"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 12,
+                        "Y": 4
+                    },
+                    "Layer": "Paths",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModId}}_Mycena"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 10,
+                        "Y": 4
+                    },
+                    "Layer": "Paths",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModId}}_Panellus"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 6,
+                        "Y": 7
+                    },
+                    "Layer": "Paths",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModId}}_Rhodotus"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 4,
+                        "Y": 11
+                    },
+                    "Layer": "Paths",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModId}}_Stinkhorn"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 11,
+                        "Y": 15
+                    },
+                    "Layer": "Paths",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModId}}_{{Seeds}}"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 2,
+                        "Y": 16
+                    },
+                    "Layer": "Paths",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModId}}_{{Seeds}}"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 5,
+                        "Y": 18
+                    },
+                    "Layer": "Paths",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModId}}_{{Seeds}}"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 3,
+                        "Y": 20
+                    },
+                    "Layer": "Paths",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModId}}_{{Seeds}}"
+                    }
+                }
+            ]
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "PatchMode": "Overlay",
+            "FromFile": "assets/Map/Mycologist.tmx",
+            "FromArea": {
+                "X": 23,
+                "Y": 8,
+                "Width": 1,
+                "Height": 1
+            },
+            "ToArea": {
+                "X": 38,
+                "Y": 95,
+                "Width": 1,
+                "Height": 1
+            },
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 38,
+                        "Y": 95
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Warp 11 4 {{ModId}}_Mycologist"
+                    }
+                }
+            ]
+        }
+    ]
+}

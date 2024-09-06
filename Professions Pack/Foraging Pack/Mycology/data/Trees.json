@@ -1,0 +1,411 @@
+{
+    "Changes": [
+        {
+            "LogName": "Load Stinkhorn",
+            "Action": "Load",
+            "Target": "Textures/StinkhornTop, Textures/StinkhornTopSummer, Textures/StinkhornTopFall, Textures/StinkhornTopWinter, Textures/StinkhornStump, Textures/StinkhornStumpSummer, Textures/StinkhornStumpFall, Textures/StinkhornStumpWinter, Textures/StinkhornBase",
+            "FromFile": "assets/Stinkhorn/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "Load Mycena",
+            "Action": "Load",
+            "Target": "Textures/MycenaTop, Textures/MycenaBase, Textures/MycenaStump",
+            "FromFile": "assets/Mycena/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "Load Lactarius",
+            "Action": "Load",
+            "Target": "Textures/LactariusTop, Textures/LactariusBase, Textures/LactariusStump",
+            "FromFile": "assets/Lactarius/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "Load Panellus",
+            "Action": "Load",
+            "Target": "Textures/PanellusTop, Textures/PanellusBase, Textures/PanellusStump, Textures/PanellusTopNight, Textures/PanellusStumpNight",
+            "FromFile": "assets/Panellus/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "Load Rhodotus",
+            "Action": "Load",
+            "Target": "Textures/RhodotusTop, Textures/RhodotusTopBleed, Textures/RhodotusBase, Textures/RhodotusStump",
+            "FromFile": "assets/Rhodotus/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "Load Marasmius",
+            "Action": "Load",
+            "Target": "Textures/MarasmiusTop, Textures/MarasmiusBase, Textures/MarasmiusStump",
+            "FromFile": "assets/Marasmius/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "Adding the Tree",
+            "Action": "EditData",
+            "Target": "Data/WildTrees",
+            "Entries": {
+                "{{ModId}}_Stinkhorn": {
+                    "Textures": [
+                        {
+                            "Texture": "Textures/StinkhornBase"
+                        }
+                    ],
+                    "SeedItemId": "(O){{ModId}}_StinkhornSpore",
+                    "SeedSpreadChance": 0.05,
+                    "UseAlternateSpriteWhenNotShaken": false,
+                    "ShakeItems": [
+                        {
+                            "ItemId": "(O){{ModId}}_StinkhornSpore",
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Chance": 1
+                        }
+                    ],
+                    "ChopItems": [
+                        {
+                            "MinSize": null,
+                            "MaxSize": null,
+                            "ForStump": true,
+                            "Season": null,
+                            "Chance": 1.0,
+                            "Condition": null,
+                            "Id": "(O){{ModId}}_VeiledLady",
+                            "ItemId": "(O){{ModId}}_VeiledLady",
+                            "RandomItemId": null,
+                            "MaxItems": null,
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "ObjectInternalName": null,
+                            "ObjectDisplayName": null,
+                            "ToolUpgradeLevel": -1,
+                            "IsRecipe": false,
+                            "StackModifiers": null,
+                            "StackModifierMode": "Stack",
+                            "QualityModifiers": null,
+                            "QualityModifierMode": "Stack",
+                            "ModData": null,
+                            "PerItemCondition": null
+                        }
+                    ],
+                    "TapItems": [
+                        {
+                            "ItemId": "(O){{ModId}}_VeiledLadyGleba",
+                            "DaysUntilReady": 5
+                        }
+                    ]
+                },
+                "{{ModId}}_Mycena": {
+                    "Textures": [
+                        {
+                            "Texture": "Textures/MycenaBase"
+                        }
+                    ],
+                    "SeedItemId": "(O){{ModId}}_MycenaSpore",
+                    "SeedSpreadChance": 0.05,
+                    "UseAlternateSpriteWhenNotShaken": false,
+                    "ShakeItems": [
+                        {
+                            "ItemId": "(O){{ModId}}_MycenaSpore",
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Chance": 1
+                        }
+                    ]
+                },
+                "{{ModId}}_Lactarius": {
+                    "Textures": [
+                        {
+                            "Texture": "Textures/LactariusBase"
+                        }
+                    ],
+                    "SeedItemId": "(O){{ModId}}_LactariusSpore",
+                    "SeedSpreadChance": 0.05,
+                    "ChopItems": [
+                        {
+                            "MinSize": null,
+                            "MaxSize": null,
+                            "ForStump": true,
+                            "Season": null,
+                            "Chance": 1.0,
+                            "Condition": null,
+                            "Id": "(O){{ModId}}_Chora",
+                            "ItemId": "(O){{ModId}}_Chora",
+                            "RandomItemId": null,
+                            "MaxItems": null,
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "ObjectInternalName": null,
+                            "ObjectDisplayName": null,
+                            "ToolUpgradeLevel": -1,
+                            "IsRecipe": false,
+                            "StackModifiers": null,
+                            "StackModifierMode": "Stack",
+                            "QualityModifiers": null,
+                            "QualityModifierMode": "Stack",
+                            "ModData": null,
+                            "PerItemCondition": null
+                        }
+                    ],
+                    "UseAlternateSpriteWhenNotShaken": false,
+                    "ShakeItems": [
+                        {
+                            "ItemId": "(O){{ModId}}_LactariusSpore",
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Chance": 1
+                        }
+                    ],
+                    "TapItems": [
+                        {
+                            "ItemId": "(O){{ModId}}_ChoraMilk",
+                            "DaysUntilReady": 5
+                        }
+                    ]
+                },
+                "{{ModId}}_Panellus": {
+                    "Textures": [
+                        {
+                            "Texture": "Textures/PanellusBase"
+                        }
+                    ],
+                    "SeedItemId": "(O){{ModId}}_PanellusSpore",
+                    "SeedSpreadChance": 0.05,
+                    "ChopItems": [
+                        {
+                            "MinSize": null,
+                            "MaxSize": null,
+                            "ForStump": true,
+                            "Season": null,
+                            "Chance": 1.0,
+                            "Condition": "TIME 600 1800",
+                            "Id": "(O){{ModId}}_PanellusStypic",
+                            "ItemId": "(O){{ModId}}_PanellusStypic",
+                            "RandomItemId": null,
+                            "MaxItems": null,
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "ObjectInternalName": null,
+                            "ObjectDisplayName": null,
+                            "ToolUpgradeLevel": -1,
+                            "IsRecipe": false,
+                            "StackModifiers": null,
+                            "StackModifierMode": "Stack",
+                            "QualityModifiers": null,
+                            "QualityModifierMode": "Stack",
+                            "ModData": null,
+                            "PerItemCondition": null
+                        },
+                        {
+                            "MinSize": null,
+                            "MaxSize": null,
+                            "ForStump": true,
+                            "Season": null,
+                            "Chance": 0.0001,
+                            "Condition": "TIME 1810 2600",
+                            "Id": "(O)909",
+                            "ItemId": "(O)909",
+                            "RandomItemId": null,
+                            "MaxItems": null,
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "ObjectInternalName": null,
+                            "ObjectDisplayName": null,
+                            "ToolUpgradeLevel": -1,
+                            "IsRecipe": false,
+                            "StackModifiers": null,
+                            "StackModifierMode": "Stack",
+                            "QualityModifiers": null,
+                            "QualityModifierMode": "Stack",
+                            "ModData": null,
+                            "PerItemCondition": null
+                        }
+                    ],
+                    "UseAlternateSpriteWhenNotShaken": false,
+                    "ShakeItems": [
+                        {
+                            "ItemId": "(O){{ModId}}_PanellusSpore",
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Chance": 1
+                        }
+                    ]
+                },
+                "{{ModId}}_Rhodotus": {
+                    "Textures": [
+                        {
+                            "Texture": "Textures/RhodotusBase"
+                        }
+                    ],
+                    "SeedItemId": "(O){{ModId}}_RhodotusSpore",
+                    "SeedSpreadChance": 0.05,
+                    "UseAlternateSpriteWhenNotShaken": false,
+                    "ShakeItems": [
+                        {
+                            "ItemId": "(O){{ModId}}_RhodotusSpore",
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Chance": 1
+                        }
+                    ],
+                    "TapItems": [
+                        {
+                            "ItemId": "(O){{ModId}}_RhodotusSap",
+                            "DaysUntilReady": 5
+                        }
+                    ]
+                },
+                "{{ModId}}_Marasmius": {
+                    "Textures": [
+                        {
+                            "Texture": "Textures/MarasmiusBase"
+                        }
+                    ],
+                    "SeedItemId": "(O){{ModId}}_MarasmiusSpore",
+                    "SeedSpreadChance": 0.05,
+                    "UseAlternateSpriteWhenNotShaken": false,
+                    "ShakeItems": [
+                        {
+                            "ItemId": "(O){{ModId}}_MarasmiusSpore",
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Chance": 1
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Adjusting the Tree's Size",
+            "Action": "EditData",
+            "Target": "EnderTedi.TreeSizeFramework/WildTreeData",
+            "Entries": {
+                "{{ModId}}_Stinkhorn": {
+                    "Textures": [
+                        {
+                            "Texture": "Textures/StinkhornTopWinter",
+                            "Season": "Winter"
+                        },
+                        {
+                            "Texture": "Textures/StinkhornTopFall",
+                            "Season": "Fall"
+                        },
+                        {
+                            "Texture": "Textures/StinkhornTopSummer",
+                            "Season": "Summer"
+                        },
+                        {
+                            "Texture": "Textures/StinkhornTop",
+                            "Season": null
+                        }
+                    ],
+                    "StumpTextures": [
+                        {
+                            "Texture": "Textures/StinkhornStumpWinter",
+                            "Season": "Winter"
+                        },
+                        {
+                            "Texture": "Textures/StinkhornStumpFall",
+                            "Season": "Fall"
+                        },
+                        {
+                            "Texture": "Textures/StinkhornStumpSummer",
+                            "Season": "Summer"
+                        },
+                        {
+                            "Texture": "Textures/StinkhornStump",
+                            "Season": null
+                        }
+                    ],
+                    "TreeHeight": 8,
+                    "TreeWidth": 4
+                },
+                "{{ModId}}_Mycena": {
+                    "Textures": [
+                        {
+                            "Texture": "Textures/MycenaTop"
+                        }
+                    ],
+                    "StumpTextures": [
+                        {
+                            "Texture": "Textures/MycenaStump"
+                        }
+                    ],
+                    "TreeHeight": 8,
+                    "TreeWidth": 4
+                },
+                "{{ModId}}_Lactarius": {
+                    "Textures": [
+                        {
+                            "Texture": "Textures/LactariusTop"
+                        }
+                    ],
+                    "StumpTextures": [
+                        {
+                            "Texture": "Textures/LactariusStump"
+                        }
+                    ],
+                    "TreeHeight": 8,
+                    "TreeWidth": 4
+                },
+                "{{ModId}}_Panellus": {
+                    "Textures": [
+                        {
+                            "Texture": "Textures/PanellusTopNight",
+                            "Condition": "TIME 1810 2600"
+                        },
+                        {
+                            "Texture": "Textures/PanellusTop",
+                            "Condition": null
+                        }
+                    ],
+                    "StumpTextures": [
+                        {
+                            "Texture": "Textures/PanellusStumpNight",
+                            "Condition": "TIME 1810 2600"
+                        },
+                        {
+                            "Texture": "Textures/PanellusStump",
+                            "Condition": null
+                        }
+                    ],
+                    "TreeHeight": 8,
+                    "TreeWidth": 4
+                },
+                "{{ModId}}_Rhodotus": {
+                    "Textures": [
+                        {
+                            "Texture": "Textures/RhodotusTopBleed",
+                            "Condition": "SYNCED_RANDOM day cart_rare_seed .3"
+                        },
+                        {
+                            "Texture": "Textures/RhodotusTop",
+                            "Condition": null
+                        }
+                    ],
+                    "StumpTextures": [
+                        {
+                            "Texture": "Textures/RhodotusStump"
+                        }
+                    ],
+                    "TreeHeight": 8,
+                    "TreeWidth": 4
+                },
+                "{{ModId}}_Marasmius": {
+                    "Textures": [
+                        {
+                            "Texture": "Textures/MarasmiusTop"
+                        }
+                    ],
+                    "StumpTextures": [
+                        {
+                            "Texture": "Textures/MarasmiusStump"
+                        }
+                    ],
+                    "TreeHeight": 8,
+                    "TreeWidth": 4
+                }
+            }
+        }
+    ]
+}

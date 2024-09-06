@@ -1,0 +1,17 @@
+{
+    "Changes": [
+        {
+            "LogName": "Mail sends",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "{{ModId}}_StinkhornSender": "{{i18n:StinkhornSender}}%item object {{ModId}}_StinkhornSpore 1  %%[#]{{i18n:StinkhornSenderTitle}}",
+                "{{ModId}}_MycenaSender": "{{i18n:MycenaSender}}%item object {{ModId}}_MycenaSpore 1  %%[#]{{i18n:MycenaSenderTitle}}",
+                "{{ModId}}_LactariusSender": "{{i18n:LactariusSender}}%item object {{ModId}}_LactariusSpore 1  %%[#]{{i18n:LactariusSenderTitle}}",
+                "{{ModId}}_PanellusSender": "{{i18n:PanellusSender}}%item object {{ModId}}_PanellusSpore 1  %%[#]{{i18n:PanellusSenderTitle}}",
+                "{{ModId}}_RhodotusSender": "{{i18n:RhodotusSender}}%item object {{ModId}}_RhodotusSpore 1  %%[#]{{i18n:RhodotusSenderTitle}}",
+                "{{ModId}}_MarasmiusSender": "{{i18n:MarasmiusSender}}%item object {{ModId}}_MarasmiusSpore 1  %%[#]{{i18n:MarasmiusSenderTitle}}"
+            }
+        }
+    ]
+}

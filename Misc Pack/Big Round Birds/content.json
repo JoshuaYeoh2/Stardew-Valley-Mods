@@ -1,0 +1,34 @@
+{
+    "Format": "1.26.0",
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "Entries": {
+             //"UniqueID" :	Name/category/w h/floorspace/number of rotations/price/location/i18n/spriteposition/asset,
+               "FatSparrowPlush": "FatSparrowPlush/decor/4 4/4 2/0/0/-1/{{i18n:FatSparrowPlush.name}}/0/Mods\\Ballshorse.SparrowPlushCP\\fat_fuck/true",
+               "FatLTTPlush": "FatLTTPlush/decor/4 4/4 2/0/0/-1/{{i18n:FatLTTPlush.name}}/0/Mods\\Ballshorse.SparrowPlushCP\\fat_fuck_white/true",
+               "FatJavaPlush": "FatJavaPlush/decor/4 4/4 2/0/0/-1/{{i18n:FatJavaPlush.name}}/0/Mods\\Ballshorse.SparrowPlushCP\\fat_fuck_black/true",
+               "FatZebraPlush": "FatZebraPlush/decor/4 4/4 2/0/0/-1/{{i18n:FatZebraPlush.name}}/0/Mods\\Ballshorse.SparrowPlushCP\\fat_fuck_zebra/true",
+               "FatSwallowPlush": "FatSwallowPlush/decor/4 4/4 2/0/0/-1/{{i18n:FatSwallowPlush.name}}/0/Mods\\Ballshorse.SparrowPlushCP\\fat_fuck_swallow/true",
+               "FatCasinoPlush": "FatCasinoPlush/decor/4 4/4 2/0/0/-1/{{i18n:FatCasinoPlush.name}}/0/Mods\\Ballshorse.SparrowPlushCP\\fat_fuck_casino/true",
+               "FatQiPlush": "FatQiPlush/decor/4 4/4 2/0/0/-1/{{i18n:FatQiPlush.name}}/0/Mods\\Ballshorse.SparrowPlushCP\\fat_fuck_qi/true",
+               "FatNakedQiPlush": "FatNakedQiPlush/decor/4 4/4 2/0/0/-1/{{i18n:FatNakedQiPlush.name}}/0/Mods\\Ballshorse.SparrowPlushCP\\fat_fuck_qi_naked/true",
+               "FatDovePlush": "FatDovePlush/decor/4 4/4 2/0/0/-1/{{i18n:FatDovePlush.name}}/0/Mods\\Ballshorse.SparrowPlushCP\\fat_fuck_dove/true",
+               "FatPigeonPlush": "FatPigeonPlush/decor/4 4/4 2/0/0/-1/{{i18n:FatPigeonPlush.name}}/0/Mods\\Ballshorse.SparrowPlushCP\\fat_fuck_pigeon/true",
+               "FatWarblerPlush": "FatWarblerPlush/decor/4 4/4 2/0/0/-1/{{i18n:FatWarblerPlush.name}}/0/Mods\\Ballshorse.SparrowPlushCP\\fat_fuck_warbler/true",
+               "FatOwlPlush": "FatOwlPlush/decor/4 4/4 2/0/0/-1/{{i18n:FatOwlPlush.name}}/0/Mods\\Ballshorse.SparrowPlushCP\\fat_fuck_owl/true",
+               "FatKingPlush": "FatKingPlush/decor/4 4/4 2/0/0/-1/{{i18n:FatKingPlush.name}}/0/Mods\\Ballshorse.SparrowPlushCP\\fat_fuck_king/true",
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/Ballshorse.SparrowPlushCP/fat_fuck, Mods/Ballshorse.SparrowPlushCP/fat_fuck_white, Mods/Ballshorse.SparrowPlushCP/fat_fuck_black, Mods/Ballshorse.SparrowPlushCP/fat_fuck_zebra, Mods/Ballshorse.SparrowPlushCP/fat_fuck_swallow, Mods/Ballshorse.SparrowPlushCP/fat_fuck_casino, Mods/Ballshorse.SparrowPlushCP/fat_fuck_qi, Mods/Ballshorse.SparrowPlushCP/fat_fuck_qi_naked, Mods/Ballshorse.SparrowPlushCP/fat_fuck_dove, Mods/Ballshorse.SparrowPlushCP/fat_fuck_pigeon, Mods/Ballshorse.SparrowPlushCP/fat_fuck_warbler, Mods/Ballshorse.SparrowPlushCP/fat_fuck_owl, Mods/Ballshorse.SparrowPlushCP/fat_fuck_king,",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        },
+            {
+      "Action": "Include",
+      "FromFile": "code/Casino.json, code/QiGemShop.json",
+      },
+    ]
+}

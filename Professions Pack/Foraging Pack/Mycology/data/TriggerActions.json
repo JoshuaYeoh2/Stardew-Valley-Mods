@@ -1,0 +1,34 @@
+{
+    "Changes": [
+
+        {
+            "LogName": "Trigger Actions: Base",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_StinkhornSender": {
+                    "Id": "{{ModId}}_StinkhornSender",
+                    "Trigger": "LocationChanged",
+                    "Condition": "DAYS_PLAYED 32, {{Trypophobia Toggle |contains=true}}",
+                    "Actions": [
+                        "AddMail all {{ModId}}_StinkhornSender tomorrow"
+                    ]
+                }
+                /*
+    Button — Today at 7:47 PM
+you can just check if they dont have a mail for an individual seed letter and send it if they dont
+or make a letter that contains all the kinds of seeds
+but just one letter
+Aviroen — Today at 7:48 PM
+yeah i was going to just do the individual letters as per "they don't have this one, better send it", but honestly since i'm going to just be like, "oops here's another mushroom" i might as well get it out of the way now and have a different location entirely
+Button — Today at 7:49 PM
+you could also make letters specific to different versions of your mod though if you've already released it it's probably too late for a nice naming convention there
+e.g. LetterV1 would have all the seeds present in version 1, LetterV2 would only send the seeds you added in version 2, and so on
+and then on a new save you check if they have none of those letters and if not, just send them all (but skip the mailbox) and send one letter with all the seeds instead
+(you send them all with the mailbox skip so that the mail flags still get marked)
+
+*/
+            }
+        }
+    ]
+}

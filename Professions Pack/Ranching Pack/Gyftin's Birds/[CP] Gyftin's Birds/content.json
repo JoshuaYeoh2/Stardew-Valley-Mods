@@ -1,0 +1,221 @@
+{
+    "Format": "2.0",
+    "Changes": [
+        {
+            "LogName": "Load data for Budgie (Budgie)",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Budgie": {
+                    "DisplayName": "{{i18n:Budgie.DisplayName}}",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 500,
+                    "ShopTexture": "Animals/gyftin.birds-Budgie Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "{{i18n:Budgie.ShopDisplayName}}",
+                    "ShopDescription": "{{i18n:Budgie.ShopDescription}}",
+                    "DaysToMature": "0",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "770"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "431"
+                        }
+                    ],
+                    "DaysToProduce": "1",
+                    "HarvestType": "HarvestWithTool",
+                    "HarvestTool": "null",
+                    "Sound": "budgie",
+                    "BabySound": "budgie",
+                    "Texture": "Animals/gyftin.birds-Budgie",
+                    "HarvestedTexture": "Animals/gyftin.birds-Budgie",
+					"UseFlippedRightForLeft": true,
+                    "BabyTexture": null,
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        {
+            "LogName": "Load data for Cockatiel (Cockatiel)",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Cockatiel": {
+                    "DisplayName": "{{i18n:Cockatiel.DisplayName}}",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 500,
+                    "ShopTexture": "Animals/gyftin.birds-Cockatiel Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "{{i18n:Cockatiel.ShopDisplayName}}",
+                    "ShopDescription": "{{i18n:Cockatiel.ShopDescription}}",
+                    "DaysToMature": "0",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "770"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "431"
+                        }
+                    ],
+                    "DaysToProduce": "1",
+                    "HarvestType": "HarvestWithTool",
+                    "HarvestTool": "null",
+                    "Sound": "cockatiel",
+                    "BabySound": "cockatiel",
+                    "Texture": "Animals/gyftin.birds-Cockatiel",
+                    "HarvestedTexture": "Animals/gyftin.birds-Cockatiel",
+					"UseFlippedRightForLeft": true,
+                    "BabyTexture": null,
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+		{
+            "LogName": "Load data for Green Cheeked Conure (Green Cheeked Conure)",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Green Cheeked Conure": {
+                    "DisplayName": "{{i18n:Green.Cheeked.Conure.DisplayName}}",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 500,
+                    "ShopTexture": "Animals/gyftin.birds-Green Cheeked Conure Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "{{i18n:Green.Cheeked.Conure.ShopDisplayName}}",
+                    "ShopDescription": "{{i18n:Green.Cheeked.Conure.ShopDescription}}",
+                    "DaysToMature": "0",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "770"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "431"
+                        }
+                    ],
+                    "DaysToProduce": "1",
+                    "HarvestType": "HarvestWithTool",
+                    "HarvestTool": "null",
+                    "Sound": "parrot",
+                    "BabySound": "parrot",
+                    "Texture": "Animals/gyftin.birds-Green Cheeked Conure",
+                    "HarvestedTexture": "Animals/gyftin.birds-Green Cheeked Conure",
+					"UseFlippedRightForLeft": true,
+                    "BabyTexture": null,
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        {
+            "LogName": "Load shopIcon for Budgie",
+            "Action": "Load",
+            "Target": "Animals/gyftin.birds-Budgie Icon",
+            "FromFile": "assets\\animal_shop_budgies.png"
+        },
+		{
+            "LogName": "Load shopIcon for Cockatiel",
+            "Action": "Load",
+            "Target": "Animals/gyftin.birds-Cockatiel Icon",
+            "FromFile": "assets\\animal_shop_cockatiels.png"
+        },
+		{
+            "LogName": "Load shopIcon for Green Cheeked Conure",
+            "Action": "Load",
+            "Target": "Animals/gyftin.birds-Green Cheeked Conure Icon",
+            "FromFile": "assets\\animal_shop_gcc.png"
+        },
+        {
+            "LogName": "Load adultSprite for Budgie",
+            "Action": "Load",
+            "Target": "Animals/gyftin.birds-Budgie",
+            "FromFile": "assets/budgies.png"
+        },
+		{
+            "LogName": "Load adultSprite for Cockatiel",
+            "Action": "Load",
+            "Target": "Animals/gyftin.birds-Cockatiel",
+            "FromFile": "assets/cockatiels.png"
+        },
+		{
+            "LogName": "Load adultSprite for Green Cheeked Conure",
+            "Action": "Load",
+            "Target": "Animals/gyftin.birds-Green Cheeked Conure",
+            "FromFile": "assets/gcc.png"
+        },
+		{
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "budgie": {
+                    "ID": "budgie",
+                    "Category": "Sound",
+                    "FilePaths": [ "{{AbsoluteFilePath: assets/budgie.wav}}" ],
+                    "StreamedVorbis": false
+                }
+            }
+        },
+		{
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "cockatiel": {
+                    "ID": "cockatiel",
+                    "Category": "Sound",
+                    "FilePaths": [ "{{AbsoluteFilePath: assets/cockatiel.wav}}" ],
+                    "StreamedVorbis": false
+                }
+            }
+        }
+    ]
+}

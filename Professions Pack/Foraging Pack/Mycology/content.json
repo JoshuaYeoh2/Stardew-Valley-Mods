@@ -1,0 +1,42 @@
+{
+    "Format": "2.3.0",
+    "ConfigSchema": {
+        "Trypophobia Toggle": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "True makes it so the Stinkhorn appears, False makes it so you don't have to see the Stinkhorn."
+        }
+    },
+    "DynamicTokens": [
+        {
+            "Name": "Seeds",
+            "Value": "Stinkhorn"
+        },
+        {
+            "Name": "Seeds",
+            "Value": "Panellus"
+        },
+        {
+            "Name": "Seeds",
+            "Value": "Mycena"
+        },
+        {
+            "Name": "Seeds",
+            "Value": "Rhodotus"
+        },
+        {
+            "Name": "Seeds",
+            "Value": "Lactarius"
+        },
+        {
+            "Name": "Seeds",
+            "Value": "Marasmius"
+        }
+    ],
+    "Changes": [
+        {
+            "Action": "Include",
+            "FromFile": "data/Trees.json, data/Items.json, data/Cooking.json, data/Mail.json, data/TriggerActions.json, data/GiftTastes.json, data/Location.json, data/Shop.json"
+        }
+    ]
+}

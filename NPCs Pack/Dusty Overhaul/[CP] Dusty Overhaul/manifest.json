@@ -1,0 +1,38 @@
+﻿{
+	"Name": "[CP] Dusty Overhaul",
+	"Author": "CyanFire",
+	"Version": "2.6.16",
+	"Description": "Overhauls Dusty's doghouse & pen, no more animal cruelty!",
+	"UniqueID": "CF.CP.DustyOverhaul",
+        "MinimumApiVersion": "4.0.0",
+	"UpdateKeys": ["Nexus:13057"],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+        "Dependencies": [
+        {
+         "UniqueID": "CF.FarmhouseFixes",
+         "IsRequired": false,
+        },
+        {
+        "UniqueID": "CF.CC.DustyOverhaul",
+        "IsRequired": true,
+        },
+        {
+        "UniqueID": "CF.SMAPI.DustyOverhaul",
+        "IsRequired": true,
+        },
+        {
+        "UniqueID": "PeacefulEnd.CustomCompanions",
+        "IsRequired": true,
+        },
+        {
+         "UniqueID": "Gweniaczek.WayBackPT",
+         "IsRequired": false,
+        },
+        {
+         "UniqueID": "DaisyNiko.SVR3",
+         "IsRequired": false,
+        }
+    ]
+}

@@ -1,0 +1,4737 @@
+{
+  "Format": "2.3.0",
+  "Changes": [{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Fields": {
+      "413": { //Blue Slime Egg
+        "Category": -28, //Monster Loot
+      },
+      "78": { //Cave Carrot
+        "Category": -75, //Vegetable
+      },
+      "CaveJelly": {
+        "Category": -23, //Sell at Willy's
+      },
+      "281": { //Chanterelle
+        "Category": -75, //Vegetable
+      },
+      "395": { //Coffee
+        "Category": -26, //Artisan Goods
+      },
+      "404": { //Common Mushroom
+        "Category": -75, //Vegetable
+      },
+      "18": { //Daffodil
+        "Category": -80, //Flower
+      },
+      "22": { //Dandelion
+        "Category": -80, //Flower
+      },
+      "852": { //Dragon Tooth
+        "Category": -28, //Monster Loot
+      },
+      "896": { //Galaxy Soul
+        "Category": -16, //Resource
+      },
+      "829": { //Ginger
+        "Category": -75, //Vegetable
+      },
+      "153": { //Green Algae
+        "Category": -23, //Sell at Willy's
+      },
+      "680": { //Green Slime Egg
+        "Category": -28, //Monster Loot
+      },
+      "408": { //Hazelnut
+        "Category": -79, //Fruit
+      },
+      "283": { //Holly
+        "Category": -80, //Flower
+      },
+      "911": { //Horse Flute
+        "Category": -99, //Tool
+        "ExcludeFromShippingCollection": true,
+      },
+      "20": { //Leek
+        "Category": -75, //Vegetable
+      },
+      "851": { //Magma Cap
+        "Category": -75, //Vegetable
+      },
+      "257": { //Morel
+        "Category": -75, //Vegetable
+      },
+      "247": { //Oil
+        "Category": -26, //Artisan Goods
+        "Edibility": -300,
+      },
+      "422": { //Purple Mushroom
+        "Category": -75, //Vegetable
+      },
+      "439": { //Purple Slime Egg
+        "Category": -28, //Monster Loot
+      },
+      "420": { //Red Mushroom
+        "Category": -75, //Vegetable
+      },
+      "437": { //Red Slime Egg
+        "Category": -28, //Monster Loot
+      },
+      "423": { //Rice
+        "Edibility": -300,
+      },
+      "RiverJelly": {
+        "Category": -23, //Sell at Willy's
+      },
+      "92": { //Sap
+        "Category": -16, //Resource
+        "Edibility": -300,
+      },
+      "SeaJelly": {
+        "Category": -23, //Sell at Willy's
+      },
+      "152": { //Seaweed
+        "Category": -23, //Sell at Willy's
+      },
+      "416": { //Snow Yam
+        "Category": -75, //Vegetable
+      },
+      "399": { //Spring Onion
+        "Category": -75, //Vegetable
+      },
+      "245": { //Sugar
+        "Edibility": -300,
+      },
+      "417": { //Sweet Gem Berry
+        "Price": "1800",
+        "Category": -79, //Fruit
+        "Edibility": 65,
+      },
+      "857": { //Tiger Slime Egg
+        "Category": -28, //Monster Loot
+      },
+      "430": { //Truffle
+        "Category": -5, //Animal Product
+      },
+      "432": { //Truffle Oil
+        "Edibility": -300,
+      },
+      "419": { //Vinegar
+        "Edibility": -300,
+      },
+      "246": { //Wheat Flour
+        "Edibility": -300,
+      },
+      "157": { //White Algae
+        "Category": -23, //Sell at Willy's
+      },
+      "16": { //Wild Horseradish
+        "Category": -75, //Vegetable
+      },
+      "412": { //Winter Root
+        "Category": -75, //Vegetable
+      },
+    },
+  }, {
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "When": { "HasMod": "Cornucopia.MoreCrops" },
+    "Fields": {
+      "Cornucopia_Almond": {
+        "Category": -79, //Fruit
+      },
+      "Cornucopia_BuckwheatFlour": {
+        "Edibility": -300,
+      },
+      "Cornucopia_Cashew": {
+        "Category": -79, //Fruit
+      },
+      "Cornucopia_ChickenoftheWoods": {
+        "Category": -75, //Vegetable
+      },
+      "Cornucopia_CinnamonSticks": {
+        "Category": -75, //Vegetable
+      },
+      "Cornucopia_CocoaPod": {
+        "Category": -75, //Vegetable
+      },
+      "Cornucopia_Nutmeg": {
+        "Category": -79, //Fruit
+      },
+      "Cornucopia_OliveOil": {
+        "Edibility": -300,
+      },
+      "Cornucopia_Peanut": {
+        "Category": -79, //Fruit
+      },
+      "Cornucopia_Pecan": {
+        "Category": -79, //Fruit
+      },
+      "Cornucopia_Pistachio": {
+        "Category": -79, //Fruit
+      },
+      "Cornucopia_SemolinaFlour": {
+        "Edibility": -300,
+      },
+      "Cornucopia_Shiitake": {
+        "Category": -75, //Vegetable
+      },
+      "Cornucopia_Turmeric": {
+        "Category": -75, //Vegetable
+      },
+      "Cornucopia_Vanilla": {
+        "Category": -75, //Vegetable
+      },
+      "Cornucopia_Walnut": {
+        "Category": -79, //Fruit
+      },
+      "Cornucopia_WasabiRoot": {
+        "Category": -75, //Vegetable
+      },
+      "Cornucopia_WholeGrainFlour": {
+        "Edibility": -300,
+      },
+    },
+  }, {
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "When": { "HasMod": "Cornucopia.MoreFlowers" },
+    "Fields": {
+      "Cornucopia_PitcherPlant": {
+        "Category": -80, //Flower
+      },
+      "Cornucopia_Rafflesia": {
+        "Category": -80, //Flower
+        "Price": "1900",
+      },
+    },
+  }, {
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "When": { "HasMod": "Cornucopia.ArtisanMachines" },
+    "Fields": {
+      "Cornucopia_AvocadoOil": {
+        "Edibility": -300,
+      },
+      "Cornucopia_ChiliOil": {
+        "Edibility": -300,
+      },
+      "Cornucopia_CoconutOil": {
+        "Edibility": -300,
+      },
+      "Cornucopia_CornFlour": {
+        "Edibility": -300,
+      },
+      "Cornucopia_FishOil": {
+        "Edibility": -300,
+      },
+      "Cornucopia_LemonZest": {
+        "Category": -26, //Artisan Goods
+      },
+      "Cornucopia_LimeZest": {
+        "Category": -26, //Artisan Goods
+      },
+      "Cornucopia_OrangeZest": {
+        "Category": -26, //Artisan Goods
+      },
+      "Cornucopia_SeaSalt": {
+        "Category": -23, //Sell at Willy's
+      },
+    },
+  }, {
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "When": { "HasMod": "FlashShifter.StardewValleyExpandedCP" },
+    "Fields": {
+      "FlashShifter.StardewValleyExpandedCP_Big_Conch": {
+        "Category": -23, //Sell at Willy's
+      },
+      "FlashShifter.StardewValleyExpandedCP_Dried_Sand_Dollar": {
+        "Category": -23, //Sell at Willy's
+      },
+      "FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed": {
+        "Category": -23, //Sell at Willy's
+      },
+      "FlashShifter.StardewValleyExpandedCP_Green_Mushroom": {
+        "Category": -75, //Vegetable
+      },
+      "FlashShifter.StardewValleyExpandedCP_Lucky_Four_Leaf_Clover": {
+        "Category": -80, //Flower
+      },
+      "FlashShifter.StardewValleyExpandedCP_Mushroom_Colony": {
+        "Category": -75, //Vegetable
+      },
+      "FlashShifter.StardewValleyExpandedCP_Poison_Mushroom": {
+        "Category": -75, //Vegetable
+      },
+      "FlashShifter.StardewValleyExpandedCP_Smelly_Rafflesia": {
+        "Category": -80, //Flower
+      },
+    },
+  }, {
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "When": { "HasMod": "Aldino112.MMF" },
+    "Fields": {
+      "MMF_NewMushrooms00": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushrooms01": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushrooms02": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushrooms03": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushrooms04": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushrooms05": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushrooms06": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushrooms07": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushrooms08": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushrooms09": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushrooms10": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushrooms11": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushrooms12": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushrooms13": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushrooms14": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushrooms15": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushrooms16": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushrooms17": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushrooms18": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushrooms19": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushrooms20": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushrooms21": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushrooms22": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushrooms23": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushrooms24": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushrooms25": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushrooms26": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushrooms27": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushrooms28": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushrooms29": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII00": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII01": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII02": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII03": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII04": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII05": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII06": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII07": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII08": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII09": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII10": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII11": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII12": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII13": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII14": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII15": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII16": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII17": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII18": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII19": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII20": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII21": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII22": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII23": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII24": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII25": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII26": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII27": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII28": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII29": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII30": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII31": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII32": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII33": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII34": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII35": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII36": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII37": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII38": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII39": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII40": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII41": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII42": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII43": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII44": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII45": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII46": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII47": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII48": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII49": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII50": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII51": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII52": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII53": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII54": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII55": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII56": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII57": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII58": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII59": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII60": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII61": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII62": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII63": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII64": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII65": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII66": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII67": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII68": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII69": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII70": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII71": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII72": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII73": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII74": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII75": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII76": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII77": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII78": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII79": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII80": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII81": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII82": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII83": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII84": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII85": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII86": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII87": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII88": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII89": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII90": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII91": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII92": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII93": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII94": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII95": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII96": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII97": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII98": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII99": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII100": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII101": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII102": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII103": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII104": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII105": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII106": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII107": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII108": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII109": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII110": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII111": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII112": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII113": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII114": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII115": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII116": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII117": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII118": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII119": {
+        "Category": -75, //Vegetable
+      },
+      "MMF_NewMushroomsII120": {
+        "Category": -75, //Vegetable
+      },
+    },
+  }, {
+    "LogName": "Better Item Categories",
+    "Action": "EditData",
+    "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+    "Entries": {
+      "GoldenAnimalCracker": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.AnimalConsumable}}",
+        "CategoryColorOverride": {
+          "R": 0,
+          "G": 130,
+          "B": 203,
+          "A": 255
+        },
+      },
+      "178": { //Hay
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.AnimalConsumable}}",
+        "CategoryColorOverride": {
+          "R": 0,
+          "G": 130,
+          "B": 203,
+          "A": 255
+        },
+      },
+      "CaveJelly": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.AquaticDebris}}",
+        "CategoryColorOverride": {
+          "R": 10,
+          "G": 86,
+          "B": 199,
+          "A": 255
+        },
+      },
+      "393": { //Coral
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.AquaticDebris}}",
+        "CategoryColorOverride": {
+          "R": 10,
+          "G": 86,
+          "B": 199,
+          "A": 255
+        },
+      },
+      "153": { //Green Algae
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.AquaticDebris}}",
+        "CategoryColorOverride": {
+          "R": 10,
+          "G": 86,
+          "B": 199,
+          "A": 255
+        },
+      },
+      "392": { //Nautilus Shell
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.AquaticDebris}}",
+        "CategoryColorOverride": {
+          "R": 10,
+          "G": 86,
+          "B": 199,
+          "A": 255
+        },
+      },
+      "394": { //Rainbow Shell
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.AquaticDebris}}",
+        "CategoryColorOverride": {
+          "R": 10,
+          "G": 86,
+          "B": 199,
+          "A": 255
+        },
+      },
+      "RiverJelly": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.AquaticDebris}}",
+        "CategoryColorOverride": {
+          "R": 10,
+          "G": 86,
+          "B": 199,
+          "A": 255
+        },
+      },
+      "SeaJelly": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.AquaticDebris}}",
+        "CategoryColorOverride": {
+          "R": 10,
+          "G": 86,
+          "B": 199,
+          "A": 255
+        },
+      },
+      "397": { //Sea Urchin
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.AquaticDebris}}",
+        "CategoryColorOverride": {
+          "R": 10,
+          "G": 86,
+          "B": 199,
+          "A": 255
+        },
+      },
+      "152": { //Seaweed
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.AquaticDebris}}",
+        "CategoryColorOverride": {
+          "R": 10,
+          "G": 86,
+          "B": 199,
+          "A": 255
+        },
+      },
+      "157": { //White Algae
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.AquaticDebris}}",
+        "CategoryColorOverride": {
+          "R": 10,
+          "G": 86,
+          "B": 199,
+          "A": 255
+        },
+      },
+      "926": { //Cookout Kit
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Consumable}}",
+        "CategoryColorOverride": {
+          "R": 0,
+          "G": 130,
+          "B": 203,
+          "A": 255
+        },
+      },
+      "872": { //Fairy Dust
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Consumable}}",
+        "CategoryColorOverride": {
+          "R": 0,
+          "G": 130,
+          "B": 203,
+          "A": 255
+        },
+      },
+      "895": { //Fireworks Green
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Consumable}}",
+        "CategoryColorOverride": {
+          "R": 0,
+          "G": 130,
+          "B": 203,
+          "A": 255
+        },
+      },
+      "894": { //Fireworks Purple
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Consumable}}",
+        "CategoryColorOverride": {
+          "R": 0,
+          "G": 130,
+          "B": 203,
+          "A": 255
+        },
+      },
+      "893": { //Fireworks Red
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Consumable}}",
+        "CategoryColorOverride": {
+          "R": 0,
+          "G": 130,
+          "B": 203,
+          "A": 255
+        },
+      },
+      "879": { //Monster Musk
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Consumable}}",
+        "CategoryColorOverride": {
+          "R": 0,
+          "G": 130,
+          "B": 203,
+          "A": 255
+        },
+      },
+      "681": { //Rain Totem
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Consumable}}",
+        "CategoryColorOverride": {
+          "R": 0,
+          "G": 130,
+          "B": 203,
+          "A": 255
+        },
+      },
+      "TentKit": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Consumable}}",
+        "CategoryColorOverride": {
+          "R": 0,
+          "G": 130,
+          "B": 203,
+          "A": 255
+        },
+      },
+      "TreasureTotem": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Consumable}}",
+        "CategoryColorOverride": {
+          "R": 0,
+          "G": 130,
+          "B": 203,
+          "A": 255
+        },
+      },
+      "690": { //Warp Totem Beach
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Consumable}}",
+        "CategoryColorOverride": {
+          "R": 0,
+          "G": 130,
+          "B": 203,
+          "A": 255
+        },
+      },
+      "261": { //Warp Totem Desert
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Consumable}}",
+        "CategoryColorOverride": {
+          "R": 0,
+          "G": 130,
+          "B": 203,
+          "A": 255
+        },
+      },
+      "688": { //Warp Totem Farm
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Consumable}}",
+        "CategoryColorOverride": {
+          "R": 0,
+          "G": 130,
+          "B": 203,
+          "A": 255
+        },
+      },
+      "886": { //Warp Totem Island
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Consumable}}",
+        "CategoryColorOverride": {
+          "R": 0,
+          "G": 130,
+          "B": 203,
+          "A": 255
+        },
+      },
+      "689": { //Warp Totem Mountains
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Consumable}}",
+        "CategoryColorOverride": {
+          "R": 0,
+          "G": 130,
+          "B": 203,
+          "A": 255
+        },
+      },
+      "287": { //Bomb
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Explosive}}",
+        "CategoryColorOverride": {
+          "R": 2,
+          "G": 2,
+          "B": 2,
+          "A": 255
+        },
+      },
+      "286": { //Cherry Bomb
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Explosive}}",
+        "CategoryColorOverride": {
+          "R": 2,
+          "G": 2,
+          "B": 2,
+          "A": 255
+        },
+      },
+      "441": { //Explosive Ammo
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Explosive}}",
+        "CategoryColorOverride": {
+          "R": 2,
+          "G": 2,
+          "B": 2,
+          "A": 255
+        },
+      },
+      "288": { //Mega Bomb
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Explosive}}",
+        "CategoryColorOverride": {
+          "R": 2,
+          "G": 2,
+          "B": 2,
+          "A": 255
+        },
+      },
+      "456": { //Algae Soup
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "605": { //Artichoke Dip
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "235": { //Autumn's Bounty
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "198": { //Baked Fish
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "904": { //Banana Pudding
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "207": { //Bean Hotpot
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "611": { //Blackberry Cobbler
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "234": { //Blueberry Tart
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "216": { //Bread
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "618": { //Bruschetta
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "874": { //Bug Steak
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "209": { //Carp Surprise
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "197": { //Cheese Cauliflower
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "220": { //Chocolate Cake
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "727": { //Chowder
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "648": { //Coleslaw
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "201": { //Complete Breakfast
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "223": { //Cookies
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "732": { //Crab Cakes
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "612": { //Cranberry Candy
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+      },
+      "238": { //Cranberry Sauce
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "214": { //Crispy Bass
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "242": { //Dish O' The Sea
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "231": { //Eggplant Parmesan
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "349": { //Energy Tonic
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "729": { //Escargot
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "240": { //Farmer's Lunch
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "649": { //Fiddlehead Risotto
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "403": { //Field Snack
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "728": { //Fish Stew
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "213": { //Fish Taco
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "202": { //Fried Calamari
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "225": { //Fried Eel
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "194": { //Fried Egg
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "205": { //Fried Mushroom
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "610": { //Fruit Salad
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "903": { //Ginger Ale
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+      },
+      "208": { //Glazed Yams
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "210": { //Hashbrowns
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "233": { //Ice Cream
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "167": { //Joja Cola
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "773": { //Life Elixir
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "730": { //Lobster Bisque
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "204": { //Lucky Lunch
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "279": { //Magic Rock Candy
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "228": { //Maki Roll
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "731": { //Maple Bar
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "905": { //Mango Sticky Rice
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "243": { //Miner's Treat
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "MossSoup": { //Moss Soup
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "351": { //Muscle Remedy
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "772": { //Oil of Garlic
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "195": { //Omelet
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "457": { //Pale Broth
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "211": { //Pancakes
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "199": { //Parsnip Soup
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "215": { //Pepper Poppers
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "873": { //Pina Colada
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+      },
+      "221": { //Pink Cake
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "206": { //Pizza
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "604": { //Plum Pudding
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "906": { //Poi
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "651": { //Poppyseed Muffin
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "608": { //Pumpkin Pie
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "236": { //Pumpkin Soup
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "609": { //Radish Salad
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "230": { //Red Plate
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "222": { //Rhubarb Pie
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "232": { //Rice Pudding
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "607": { //Roasted Hazelnuts
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "244": { //Roots Platter
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "196": { //Salad
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "212": { //Salmon Dinner
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "227": { //Sashimi
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "265": { //Seafoam Pudding
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "733": { //Shrimp Cocktail
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "224": { //Spaghetti
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "226": { //Spicy Eel
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "921": { //Squid Ink Ravioli
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "606": { //Stir Fry
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "203": { //Strange Bun
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "239": { //Stuffing
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "237": { //Super Meal
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "241": { //Survival Burger
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "218": { //Tom Kha Soup
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "229": { //Tortilla
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "253": { //Triple Shot Espresso
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+      },
+      "907": { //Tropical Curry
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "219": { //Trout Soup
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "200": { //Vegetable Medley
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "823": { //Fossilized Leg
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Fossil}}",
+        "CategoryColorOverride": {
+          "R": 102,
+          "G": 7,
+          "B": 75,
+          "A": 255
+        },
+      },
+      "824": { //Fossilized Ribs
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Fossil}}",
+        "CategoryColorOverride": {
+          "R": 102,
+          "G": 7,
+          "B": 75,
+          "A": 255
+        },
+      },
+      "820": { //Fossilized Skull
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Fossil}}",
+        "CategoryColorOverride": {
+          "R": 102,
+          "G": 7,
+          "B": 75,
+          "A": 255
+        },
+      },
+      "821": { //Fossilized Spine
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Fossil}}",
+        "CategoryColorOverride": {
+          "R": 102,
+          "G": 7,
+          "B": 75,
+          "A": 255
+        },
+      },
+      "822": { //Fossilized Tail
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Fossil}}",
+        "CategoryColorOverride": {
+          "R": 102,
+          "G": 7,
+          "B": 75,
+          "A": 255
+        },
+      },
+      "827": { //Mummified Bat
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Fossil}}",
+        "CategoryColorOverride": {
+          "R": 102,
+          "G": 7,
+          "B": 75,
+          "A": 255
+        },
+      },
+      "828": { //Mummified Frog
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Fossil}}",
+        "CategoryColorOverride": {
+          "R": 102,
+          "G": 7,
+          "B": 75,
+          "A": 255
+        },
+      },
+      "825": { //Snake Skull
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Fossil}}",
+        "CategoryColorOverride": {
+          "R": 102,
+          "G": 7,
+          "B": 75,
+          "A": 255
+        },
+      },
+      "826": { //Snake Vertebrae
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Fossil}}",
+        "CategoryColorOverride": {
+          "R": 102,
+          "G": 7,
+          "B": 75,
+          "A": 255
+        },
+      },
+      "536": { //Frozen Geode
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Geode}}",
+      },
+      "535": { //Geode
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Geode}}",
+      },
+      "537": { //Magma Geode
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Geode}}",
+      },
+      "749": { //Omni Geode
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Geode}}",
+      },
+      "BlueGrassStarter": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Grass}}",
+        "CategoryColorOverride": {
+          "R": 100,
+          "G": 25,
+          "B": 190,
+          "A": 255
+        },
+      },
+      "297": { //Grass Starter
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Grass}}",
+        "CategoryColorOverride": {
+          "R": 100,
+          "G": 25,
+          "B": 190,
+          "A": 255
+        },
+      },
+      "917": { //Qi Seasoning
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Ingredient}}",
+        "CategoryColorOverride": {
+          "R": 36,
+          "G": 92,
+          "B": 118,
+          "A": 255
+        },
+      },
+      "423": { //Rice
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Ingredient}}",
+        "CategoryColorOverride": {
+          "R": 36,
+          "G": 92,
+          "B": 118,
+          "A": 255
+        },
+      },
+      "814": { //Squid Ink
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Ingredient}}",
+        "CategoryColorOverride": {
+          "R": 36,
+          "G": 92,
+          "B": 118,
+          "A": 255
+        },
+      },
+      "245": { //Sugar
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Ingredient}}",
+        "CategoryColorOverride": {
+          "R": 36,
+          "G": 92,
+          "B": 118,
+          "A": 255
+        },
+      },
+      "419": { //Vinegar
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Ingredient}}",
+        "CategoryColorOverride": {
+          "R": 36,
+          "G": 92,
+          "B": 118,
+          "A": 255
+        },
+      },
+      "246": { //Wheat Flour
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Ingredient}}",
+        "CategoryColorOverride": {
+          "R": 36,
+          "G": 92,
+          "B": 118,
+          "A": 255
+        },
+      },
+      "420": { //Red Mushroom
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "867": { //Advanced TV Remote
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "868": { //Arctic Shard
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "790": { //Berry Basket
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "875": { //Ectoplasm
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "FarAwayStone": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "GoldenBobber": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "865": { //Gourmet Tomato Salt
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "788": { //Lost Axe
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "789": { //Lucky Purple Shorts
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "191": { //Ornate Necklace
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "870": { //Pirate's Locket
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "876": { //Prismatic Jelly
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "866": { //Stardew Valley Rose
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "864": { //War Memento
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "869": { //Wriggling Worm
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "458": { //Bouquet
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Social}}",
+        "CategoryColorOverride": {
+          "R": 255,
+          "G": 128,
+          "B": 176,
+          "A": 255
+        },
+      },
+      "460": { //Mermaid's Pendant
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Social}}",
+        "CategoryColorOverride": {
+          "R": 255,
+          "G": 128,
+          "B": 176,
+          "A": 255
+        },
+      },
+      "809": { //Movie Ticket
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Social}}",
+        "CategoryColorOverride": {
+          "R": 255,
+          "G": 128,
+          "B": 176,
+          "A": 255
+        },
+      },
+      "StardropTea": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Social}}",
+        "CategoryColorOverride": {
+          "R": 255,
+          "G": 128,
+          "B": 176,
+          "A": 255
+        },
+      },
+      "808": { //Void Ghost Pendant
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Social}}",
+        "CategoryColorOverride": {
+          "R": 255,
+          "G": 128,
+          "B": 176,
+          "A": 255
+        },
+      },
+      "277": { //Wilted Bouquet
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Social}}",
+        "CategoryColorOverride": {
+          "R": 255,
+          "G": 128,
+          "B": 176,
+          "A": 255
+        },
+      },
+      "911": { //Horse Flute
+        "CategoryColorOverride": { //Tool
+          "R": 47,
+          "G": 79,
+          "B": 79,
+          "A": 255
+        },
+      },
+      "275": { //Artifact Trove
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Treasure}}",
+        "CategoryColorOverride": {
+          "R": 128,
+          "G": 117,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "CalicoEgg": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Treasure}}",
+        "CategoryColorOverride": {
+          "R": 128,
+          "G": 117,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "791": { //Golden Coconut
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Treasure}}",
+        "CategoryColorOverride": {
+          "R": 128,
+          "G": 117,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "GoldenMysteryBox": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Treasure}}",
+        "CategoryColorOverride": {
+          "R": 128,
+          "G": 117,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "373": { //Golden Pumpkin
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Treasure}}",
+        "CategoryColorOverride": {
+          "R": 128,
+          "G": 117,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MysteryBox": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Treasure}}",
+        "CategoryColorOverride": {
+          "R": 128,
+          "G": 117,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "797": { //Pearl
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Treasure}}",
+        "CategoryColorOverride": {
+          "R": 128,
+          "G": 117,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "PrizeTicket": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Treasure}}",
+        "CategoryColorOverride": {
+          "R": 128,
+          "G": 117,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "166": { //Treasure Chest
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Treasure}}",
+        "CategoryColorOverride": {
+          "R": 128,
+          "G": 117,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "TroutDerbyTag": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Treasure}}",
+        "CategoryColorOverride": {
+          "R": 128,
+          "G": 117,
+          "B": 0,
+          "A": 255
+        },
+      },
+    },
+  }, {
+    "LogName": "Better Item Categories",
+    "Action": "EditData",
+    "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+    "When": { "HasMod": "Cornucopia.MoreCrops" },
+    "Entries": {
+      "Cornucopia_BuckwheatFlour": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Ingredient}}",
+        "CategoryColorOverride": {
+          "R": 36,
+          "G": 92,
+          "B": 118,
+          "A": 255
+        },
+      },
+      "Cornucopia_CocoaPod": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Spice}}",
+        "CategoryColorOverride": {
+          "R": 136,
+          "G": 14,
+          "B": 14,
+          "A": 255
+        },
+      },
+      "Cornucopia_CottonBoll": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.InediblePlant}}",
+        "CategoryColorOverride": {
+          "R": 252,
+          "G": 5,
+          "B": 7,
+          "A": 255
+        },
+      },
+      "420": { //Red Mushroom
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "Cornucopia_SeaSalt": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.AquaticDebris}}",
+        "CategoryColorOverride": {
+          "R": 10,
+          "G": 86,
+          "B": 199,
+          "A": 255
+        },
+      },
+      "Cornucopia_SemolinaFlour": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Ingredient}}",
+        "CategoryColorOverride": {
+          "R": 36,
+          "G": 92,
+          "B": 118,
+          "A": 255
+        },
+      },
+      "Cornucopia_WholeGrainFlour": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Ingredient}}",
+        "CategoryColorOverride": {
+          "R": 36,
+          "G": 92,
+          "B": 118,
+          "A": 255
+        },
+      },
+    },
+  }, {
+    "LogName": "Better Item Categories",
+    "Action": "EditData",
+    "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+    "When": { "HasMod": "Cornucopia.ArtisanMachines" },
+    "Entries": {
+      "Cornucopia_CornFlour": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Ingredient}}",
+        "CategoryColorOverride": {
+          "R": 36,
+          "G": 92,
+          "B": 118,
+          "A": 255
+        },
+      },
+    },
+  }, {
+    "LogName": "Better Item Categories",
+    "Action": "EditData",
+    "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+    "When": { "HasMod": "FlashShifter.StardewValleyExpandedCP" },
+    "Entries": {
+      "FlashShifter.StardewValleyExpandedCP_Aegis_Elixir": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "FlashShifter.StardewValleyExpandedCP_Armor_Elixir": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "FlashShifter.StardewValleyExpandedCP_Baked_Berry_Oatmeal": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "FlashShifter.StardewValleyExpandedCP_Barbarian_Elixir": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "FlashShifter.StardewValleyExpandedCP_Big_Conch": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.AquaticDebris}}",
+        "CategoryColorOverride": {
+          "R": 10,
+          "G": 86,
+          "B": 199,
+          "A": 255
+        },
+      },
+      "FlashShifter.StardewValleyExpandedCP_Flower_Cookie": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "FlashShifter.StardewValleyExpandedCP_Frog_Legs": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "FlashShifter.StardewValleyExpandedCP_Grampleton_Orange_Chicken": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "FlashShifter.StardewValleyExpandedCP_Gravity_Elixir": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "FlashShifter.StardewValleyExpandedCP_Haste_Elixir": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "FlashShifter.StardewValleyExpandedCP_Hero_Elixir": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "FlashShifter.StardewValleyExpandedCP_Dried_Sand_Dollar": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.AquaticDebris}}",
+        "CategoryColorOverride": {
+          "R": 10,
+          "G": 86,
+          "B": 199,
+          "A": 255
+        },
+      },
+      "FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.AquaticDebris}}",
+        "CategoryColorOverride": {
+          "R": 10,
+          "G": 86,
+          "B": 199,
+          "A": 255
+        },
+      },
+      "FlashShifter.StardewValleyExpandedCP_Green_Mushroom": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "FlashShifter.StardewValleyExpandedCP_Lance's_Schedule": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Treasure}}",
+        "CategoryColorOverride": {
+          "R": 128,
+          "G": 117,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "FlashShifter.StardewValleyExpandedCP_Lightning_Elixir": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "FlashShifter.StardewValleyExpandedCP_Mixed_Berry_Pie": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "FlashShifter.StardewValleyExpandedCP_Monster_Mushroom": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "FlashShifter.StardewValleyExpandedCP_Mushroom_Berry_Rice": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "FlashShifter.StardewValleyExpandedCP_Mushroom_Colony": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "FlashShifter.StardewValleyExpandedCP_Ornate_Treasure_Chest": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Treasure}}",
+        "CategoryColorOverride": {
+          "R": 128,
+          "G": 117,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "FlashShifter.StardewValleyExpandedCP_Poison_Mushroom": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "FlashShifter.StardewValleyExpandedCP_Seaweed_Salad": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "FlashShifter.StardewValleyExpandedCP_Sports_Drink": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "FlashShifter.StardewValleyExpandedCP_Stamina_Capsule": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "FlashShifter.StardewValleyExpandedCP_Super_Joja_Cola": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "FlashShifter.StardewValleyExpandedCP_Super_Starfruit": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Social}}",
+        "CategoryColorOverride": {
+          "R": 255,
+          "G": 128,
+          "B": 176,
+          "A": 255
+        },
+      },
+      "FlashShifter.StardewValleyExpandedCP_Void_Delight": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "FlashShifter.StardewValleyExpandedCP_Void_Salmon_Sushi": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+    },
+  }, {
+    "LogName": "Better Item Categories",
+    "Action": "EditData",
+    "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+    "When": { "HasMod": "Rafseazz.RSVCP" },
+    "Entries": {
+      "Rafseazz.RSVCP_Apricot_Juice": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+      },
+      "Rafseazz.RSVCP_Ancient_Music_Box": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "Rafseazz.RSVCP_Arugula_Roll": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "Rafseazz.RSVCP_Autumn_Dew_Drop_Juice": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+      },
+      "Rafseazz.RSVCP_Autumnal_Serenity": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "Rafseazz.RSVCP_Cherry_Berry_Shakey": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+      },
+      "Rafseazz.RSVCP_Clementine_Cake": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "Rafseazz.RSVCP_Clementine_Juice": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+      },
+      "Rafseazz.RSVCP_Crunchy_Bagel": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "Rafseazz.RSVCP_Elven_Comb": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "Rafseazz.RSVCP_Entombed_Ring": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "Rafseazz.RSVCP_Everfrost_Stone": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "Rafseazz.RSVCP_Fluffy_Apple_Crumble": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "Rafseazz.RSVCP_Forage_Souffle": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "Rafseazz.RSVCP_Forest_Halva": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "Rafseazz.RSVCP_Fried_Fish_a_la_Ridge": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "Rafseazz.RSVCP_Fried_Mountain_Greens": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "Rafseazz.RSVCP_Ginger_Arugula_Fried_Rice": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "Rafseazz.RSVCP_Ginger_Rangpur_Meringue": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "Rafseazz.RSVCP_Golden_Skull_Coral": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "Rafseazz.RSVCP_Hollowed_Bear": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "Rafseazz.RSVCP_Highland_Blueberry_Pie": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "Rafseazz.RSVCP_Highland_Ice_Cream": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+      },
+      "Rafseazz.RSVCP_Highland_Revani": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "Rafseazz.RSVCP_Holiday_Ice": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "Rafseazz.RSVCP_Honey_Ginger_Whitefish": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "Rafseazz.RSVCP_Honey_Glazed_Salad": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "Rafseazz.RSVCP_Hundred_Flavor_Doughnut": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "Rafseazz.RSVCP_Inked_Fossil": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "Rafseazz.RSVCP_Jumpy_Coffee_Cake": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "Rafseazz.RSVCP_Kedi_Delight": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "Rafseazz.RSVCP_Kek_s_Small_Dream": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "Rafseazz.RSVCP_Kek_s_Style_Shortcake": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "Rafseazz.RSVCP_Lover_s_Sorrow": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "Rafseazz.RSVCP_Matcha_Latte": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+      },
+      "Rafseazz.RSVCP_Mistbloom_Syrup": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+      },
+      "Rafseazz.RSVCP_Moose_Statue": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "Rafseazz.RSVCP_Nightblack_Diamond": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "Rafseazz.RSVCP_Opal_Halo": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "Rafseazz.RSVCP_Pale_Candelabrum": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "Rafseazz.RSVCP_Pillowsoft_Cheezy_Sandwich": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "Rafseazz.RSVCP_Pink_Frosted_Sprinkled_Doughnut": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "Rafseazz.RSVCP_Pumpkin_Darling_Slice": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "Rafseazz.RSVCP_Relic_Fox_Mask": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "Rafseazz.RSVCP_Ridge_Apple_Cake": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "Rafseazz.RSVCP_Ridge_Fruity_Plate": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "Rafseazz.RSVCP_Ridge_Mosaic_Cake": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "Rafseazz.RSVCP_Ridgeside_Shaketini": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+      },
+      "Rafseazz.RSVCP_Sapphire_Pearl": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "Rafseazz.RSVCP_Shell_Bracelet": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "Rafseazz.RSVCP_Silver_Fish_Bones": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "Rafseazz.RSVCP_Snow_Bowl_Surprise": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "Rafseazz.RSVCP_Snowball_Slurpee": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+      },
+      "Rafseazz.RSVCP_Springtime_Primetime": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "Rafseazz.RSVCP_Strawberry_Lover_Pie": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "Rafseazz.RSVCP_Summer_Mountain_Blessing": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "Rafseazz.RSVCP_Summit_Iced_Tea": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+      },
+      "Rafseazz.RSVCP_Sweet_Cranberry_Cheesecake": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "Rafseazz.RSVCP_Tropic_Mango_Cake": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "Rafseazz.RSVCP_Village_Hero_Sculpture": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "Rafseazz.RSVCP_Warp_Totem__Ridgeside": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Consumable}}",
+        "CategoryColorOverride": {
+          "R": 0,
+          "G": 130,
+          "B": 203,
+          "A": 255
+        },
+      },
+      "Rafseazz.RSVCP_Wild_Apple_Juice": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+      },
+      "Rafseazz.RSVCP_Winter_Night_Feast": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "Rafseazz.RSVCP_Yellow_Wood_Sculpture": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "Rafseazz.RSVCP_Zesty_Tuna": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+    },
+  }, {
+    "LogName": "Better Item Categories",
+    "Action": "EditData",
+    "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+    "When": { "HasMod": "TheMightyAmondee.WeatherTotemsCP" },
+    "Entries": {
+      "TheMightyAmondee.WeatherTotemsCP_GreenRainTotem": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Consumable}}",
+        "CategoryColorOverride": {
+          "R": 0,
+          "G": 130,
+          "B": 203,
+          "A": 255
+        },
+      },
+      "TheMightyAmondee.WeatherTotemsCP_SnowTotem": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Consumable}}",
+        "CategoryColorOverride": {
+          "R": 0,
+          "G": 130,
+          "B": 203,
+          "A": 255
+        },
+      },
+      "TheMightyAmondee.WeatherTotemsCP_SunTotem": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Consumable}}",
+        "CategoryColorOverride": {
+          "R": 0,
+          "G": 130,
+          "B": 203,
+          "A": 255
+        },
+      },
+      "TheMightyAmondee.WeatherTotemsCP_ThunderTotem": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Consumable}}",
+        "CategoryColorOverride": {
+          "R": 0,
+          "G": 130,
+          "B": 203,
+          "A": 255
+        },
+      },
+      "TheMightyAmondee.WeatherTotemsCP_WindTotem": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Consumable}}",
+        "CategoryColorOverride": {
+          "R": 0,
+          "G": 130,
+          "B": 203,
+          "A": 255
+        },
+      },
+    },
+  }, {
+    "LogName": "Better Item Categories",
+    "Action": "EditData",
+    "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+    "When": { "HasMod": "supert.adventureguildexpanded" },
+    "Entries": {
+      "supert_FireSlimeSoul": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "supert_FrozenSlimeSoul": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "supert_LifeEssence": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "supert_SlimeSoul": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "supert_TrueSlimeEnergy": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+    },
+  }, {
+    "LogName": "Better Item Categories",
+    "Action": "EditData",
+    "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+    "When": { "HasMod": "MissAnaira.VanillaCookingRecipes" },
+    "Entries": {
+      "MissAnaira.VanillaCookingRecipes_AcaiBowl": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_PoppySeedBagel": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_BananaBread": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_BreakfastBurrito": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_BroccoliCheddarSoup": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_CakePops": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_CaramelApple": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_CarrotCake": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_CaviarOysters": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_CharcuterieBoard": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_ChipsAndSalsa": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_Cornbread": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_DeviledEggs": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_DwarvenDragonRoll": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_EspressoMocktini": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+      },	
+      "MissAnaira.VanillaCookingRecipes_FairyBread": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_FishAndChips": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_FruitTart": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_GingerBeer": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_GobySuccotash": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_HollyJollyCupcake": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_LobsterRoll": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_MacAndCheese": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_MangoLassi": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_OrangeJuice": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_Parfait": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_PinaColada": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_Pulpo": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_Ramen": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_RedJelly": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_RhubarbBalsamic": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_ShadowGumbo": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_ShrimpAndGrits": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_SquashRisotto": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_StrawberryCheesecake": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_BananaSplitSundae": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_SuperSmoothie": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_YobaTea": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_ClubSunwich": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_QiBurger": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_MatchaLatte": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+      },
+      "MissAnaira.VanillaCookingRecipes_Dango": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+    },
+  }, {
+    "LogName": "Better Item Categories",
+    "Action": "EditData",
+    "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+    "When": { "HasMod": "minothilos.FreshandBit" },
+    "Entries": {
+      "minothilos.FreshandBit_moulesalacreme": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "minothilos.FreshandBit_lasagne": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "minothilos.FreshandBit_stuffedbellpepper": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "minothilos.FreshandBit_stuffedpumpkin": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "minothilos.FreshandBit_triplethreatchilli": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "minothilos.FreshandBit_bakedlobster": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "minothilos.FreshandBit_spinachsoup": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "minothilos.FreshandBit_empanada": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "minothilos.FreshandBit_beetsalad": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "minothilos.FreshandBit_cremebrulee": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "minothilos.FreshandBit_onigiri": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "minothilos.FreshandBit_avocadotoast": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+    },
+  }, {
+    "LogName": "Better Item Categories",
+    "Action": "EditData",
+    "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+    "When": { "HasMod": "stinkyvicki.DeliciousInStardew" },
+    "Entries": {
+      "stinkyvicki_BoiledStonefish": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "stinkyvicki_CaveBatTempura": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "stinkyvicki_CaveGrubDumplings": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "stinkyvicki_CheesyBatCasserole": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "stinkyvicki_ExorcismSorbet": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "stinkyvicki_MonsterMedleyStew": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "stinkyvicki_PrehistoricOmelet": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "stinkyvicki_RoastedBug": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "stinkyvicki_RockCrabHotpot": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "stinkyvicki_SlimeEggSouffle": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "stinkyvicki_SlimeJellySandwich": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "stinkyvicki_SlimeTorte": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "stinkyvicki_Slimeade": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+      },
+      "stinkyvicki_ShadowCoffee": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+      },
+    },
+  }, {
+    "LogName": "Better Item Categories",
+    "Action": "EditData",
+    "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+    "When": { "HasMod": "cosmicRetribution.HiddenCropRecipes" },
+    "Entries": {
+      "cosmicRetribution.HiddenCropRecipes_BorealPlate": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "cosmicRetribution.HiddenCropRecipes_BroccoliCheeseSoup": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "cosmicRetribution.HiddenCropRecipes_CarrotCake": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "cosmicRetribution.HiddenCropRecipes_CarrotGingerSoup": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "cosmicRetribution.HiddenCropRecipes_HoneyGlazedCarrots": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "cosmicRetribution.HiddenCropRecipes_PowdermelonSorbet": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "cosmicRetribution.HiddenCropRecipes_PastaPrimavera": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "cosmicRetribution.HiddenCropRecipes_SummerSquashSkillet": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "cosmicRetribution.HiddenCropRecipes_SummerSquashGoatCheeseTart": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "cosmicRetribution.HiddenCropRecipes_Quiche": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+    },
+  }, {
+    "LogName": "Better Item Categories",
+    "Action": "EditData",
+    "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+    "When": { "HasMod": "moonslime.CookingSkill.CP" },
+    "Entries": {
+      "moonslime.Cooking.pie_crust": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "moonslime.Cooking.apple_pie": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "moonslime.Cooking.strawberry_pie": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "moonslime.Cooking.fish_pie": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "moonslime.Cooking.cream_pie": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "moonslime.Cooking.caramel_miner_treat": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "moonslime.Cooking.banana_field_snack": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "moonslime.Cooking.fishers_breakfast": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "moonslime.Cooking.seafoam_icecream": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "moonslime.Cooking.tomato_soup": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "moonslime.Cooking.oeuf": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "moonslime.Cooking.tomatoe_cheese_omelet": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "moonslime.Cooking.wizards_brew": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+      },
+      "moonslime.Cooking.ramen": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "moonslime.Cooking.egg_ramen": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "moonslime.Cooking.fries": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "moonslime.Cooking.egg_sandwhich": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "moonslime.Cooking.egg_burrito": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "moonslime.Cooking.rice": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "moonslime.Cooking.mushroom_rice": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "moonslime.Cooking.wizard_casserole": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "moonslime.Cooking.spring_onion_soup": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "moonslime.Cooking.eggnog": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+      },
+      "moonslime.Cooking.nigiri": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "moonslime.Cooking.green_stew": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "moonslime.Cooking.green_smoothy": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+      },
+      "moonslime.Cooking.anchovy_pizza": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+    },
+  }, {
+    "LogName": "Better Item Categories",
+    "Action": "EditData",
+    "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+    "When": { "HasMod": "drbirbdev.BinningSkill" },
+    "Entries": {
+      "drbirbdev.BinningSkill_FishCasserole": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+      "drbirbdev.BinningSkill_GrilledCheese": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+    },
+  }, {
+    "LogName": "Better Item Categories",
+    "Action": "EditData",
+    "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+    "When": { "HasMod": "Trent.NewAnimals" },
+    "Entries": {
+      "TMT.TrentNewAnimals_Pizza_Quattro_Formaggi": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Food}}",
+      },
+    },
+  }, {
+    "LogName": "Better Item Categories",
+    "Action": "EditData",
+    "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+    "When": { "HasMod": "Objection777.JojaColaExpanded" },
+    "Entries": {
+      "Objection777_JojaColaExpanded_JC_Cherry": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_Grape": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_Cream": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_Star": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_Quartz": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_Bean": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_ParrotPunch": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_Gamer": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_BajojaBlast": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_HoneyLightning": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_Bluu": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_Recharge": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_Overcharge": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_RechargePeach": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_Battery": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_JackedCherry": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_Jacked": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_JackedGold": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_Void": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_Berserk": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_Z": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_Burn": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_PrismaticPride": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_Hydro": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_Fantasy": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_AllStar": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_Do": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_DoCodeStrawberry": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_DoBlueJazz": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_Rip": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_Gold": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_Freedom": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_OriginalRecipe": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_Sarsaparilla": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_Pink": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_Wumbus": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_Rare": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_Discovery": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+      "Objection777_JojaColaExpanded_JC_Comet": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Drink}}",
+        "CategoryColorOverride": {
+          "R": 218,
+          "G": 63,
+          "B": 15,
+          "A": 255
+        },
+      },
+    },
+  }, {
+    "LogName": "Better Item Categories",
+    "Action": "EditData",
+    "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+    "When": { "HasMod": "Aldino112.MMF" },
+    "Entries": {
+      "MMF_NewMushrooms00": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushrooms01": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushrooms02": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushrooms03": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushrooms04": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushrooms05": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushrooms06": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushrooms07": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushrooms08": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushrooms09": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushrooms10": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushrooms11": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushrooms12": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushrooms13": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushrooms14": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushrooms15": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushrooms16": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushrooms17": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushrooms18": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushrooms19": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushrooms20": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushrooms21": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushrooms22": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushrooms23": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushrooms24": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushrooms25": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushrooms26": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushrooms27": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushrooms28": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushrooms29": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII00": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII01": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII02": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII03": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII04": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII05": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII06": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII07": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII08": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII09": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII10": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII11": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII12": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII13": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII14": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII15": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII16": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII17": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII18": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII19": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII20": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII21": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII22": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII23": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII24": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII25": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII26": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII27": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII28": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII29": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII30": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII31": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII32": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII33": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII34": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII35": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII36": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII37": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII38": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII39": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII40": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII41": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII42": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII43": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII44": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII45": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII46": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII47": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII48": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII49": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII50": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII51": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII52": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII53": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII54": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII55": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII56": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII57": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII58": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII59": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII60": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII61": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII62": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII63": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII64": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII65": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII66": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII67": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII68": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII69": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII70": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII71": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII72": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII73": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII74": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII75": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII76": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII77": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII78": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII79": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII80": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII81": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII82": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII83": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII84": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII85": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII86": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII87": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII88": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII89": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII90": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII91": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII92": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII93": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII94": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII95": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII96": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII97": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII98": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII99": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII100": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII101": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII102": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII103": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII104": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII105": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII106": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII107": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII108": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII109": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII110": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII111": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII112": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII113": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII114": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII115": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII116": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII117": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII118": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII119": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+      "MMF_NewMushroomsII120": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.Mushroom}}",
+        "CategoryColorOverride": {
+          "R": 120,
+          "G": 56,
+          "B": 0,
+          "A": 255
+        },
+      },
+    },
+  }, {
+    "LogName": "Better Item Categories",
+    "Action": "EditData",
+    "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+    "When": { "HasMod": "NermNermNerm.QuestableTractor" },
+    "Entries": {
+      "NermNermNerm.QuestableTractor.BustedEngine": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "NermNermNerm.QuestableTractor.WorkingEngine": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "NermNermNerm.QuestableTractor.BustedLoader": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "NermNermNerm.QuestableTractor.WorkingLoader": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "NermNermNerm.QuestableTractor.BustedScythe": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "NermNermNerm.QuestableTractor.WorkingScythe": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "NermNermNerm.QuestableTractor.ScythePart1": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "NermNermNerm.QuestableTractor.ScythePart2": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "NermNermNerm.QuestableTractor.AlexesShoe": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "NermNermNerm.QuestableTractor.DisguisedShoe": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "NermNermNerm.QuestableTractor.BustedWaterer": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "NermNermNerm.QuestableTractor.WorkingWaterer": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "NermNermNerm.QuestableTractor.BustedSeeder": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+      "NermNermNerm.QuestableTractor.WorkingSeeder": {
+        "CategoryTextOverride": "{{i18n: VegasOctober.BetterItemCategories.QuestItem}}",
+        "CategoryColorOverride": {
+          "R": 11,
+          "G": 175,
+          "B": 8,
+          "A": 255
+        },
+      },
+    },
+  }],
+}

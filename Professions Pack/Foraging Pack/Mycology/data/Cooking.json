@@ -1,0 +1,23 @@
+{
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Items",
+            "FromFile": "assets/Items/Cooking.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                "Tom Yuea Phai": "{{ModId}}_VeiledLady 1 Carrot 1 20 1 78 1 720 1/25 5/{{ModId}}_TomYueaPhai/Foraging 7/"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/CraftingRecipes",
+            "Entries": {
+                "Ultra Luxe Fertilizer": "337 1 {{ModId}}_RhodotusSap 1/Field/919 5/false/Farming 8/"
+            }
+        }
+    ]
+}

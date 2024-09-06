@@ -1,0 +1,13 @@
+﻿{
+	"Name": "[CC] Dusty Overhaul",
+	"Author": "CyanFire",
+	"Version": "2.6.16",
+	"Description": "Adds a free roaming Dusty to the game",
+	"UniqueID": "CF.CC.DustyOverhaul",
+	"MinimumApiVersion": "4.0.0",
+	"UpdateKeys": ["Nexus:13057"],
+	"ContentPackFor": {
+          "UniqueID": "PeacefulEnd.CustomCompanions",
+          "MinimumVersion": "4.0.0"
+	}
+}
