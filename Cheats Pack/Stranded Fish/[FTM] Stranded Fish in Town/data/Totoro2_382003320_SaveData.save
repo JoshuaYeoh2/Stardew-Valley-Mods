@@ -1,5 +1,5 @@
 {
-  "WeatherForYesterday": "Wind",
+  "WeatherForYesterday": "Sun",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
@@ -9,6 +9,17 @@
       "Tile": "76, 64",
       "Type": "Forage",
       "ID": "132",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Town",
+      "Name": "Walleye",
+      "Tile": "78, 56",
+      "Type": "Forage",
+      "ID": "140",
       "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,

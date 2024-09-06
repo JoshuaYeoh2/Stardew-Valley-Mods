@@ -1,6 +1,29 @@
 {
-  "WeatherForYesterday": "Storm",
+  "WeatherForYesterday": "Sun",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
-  "SavedObjects": []
+  "SavedObjects": [
+    {
+      "MapName": "Custom_Ridgeside_Ridge",
+      "Name": "Bladetail Sturgeon",
+      "Tile": "27, 32",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Bladetail_Sturgeon",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_Ridge",
+      "Name": "Skulpin Fish",
+      "Tile": "17, 41",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Skulpin_Fish",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
 }
