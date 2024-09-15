@@ -1,5 +1,5 @@
 {
-  "WeatherForYesterday": "Storm",
+  "WeatherForYesterday": "Wind",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
@@ -9,7 +9,7 @@
       "Tile": "56, 88",
       "Type": "Forage",
       "ID": "Rafseazz.RSVCP_Harvester_Trout",
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -20,7 +20,7 @@
       "Tile": "63, 95",
       "Type": "Forage",
       "ID": "Rafseazz.RSVCP_Mountain_Redbelly_Dace",
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -31,7 +31,7 @@
       "Tile": "118, 121",
       "Type": "Forage",
       "ID": "Rafseazz.RSVCP_Harvester_Trout",
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -42,6 +42,28 @@
       "Tile": "30, 72",
       "Type": "Forage",
       "ID": "Rafseazz.RSVCP_Ridgeside_Bass",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgesideVillage",
+      "Name": "Harvester Trout",
+      "Tile": "63, 101",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Harvester_Trout",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgesideVillage",
+      "Name": "Harvester Trout",
+      "Tile": "30, 70",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Harvester_Trout",
       "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,

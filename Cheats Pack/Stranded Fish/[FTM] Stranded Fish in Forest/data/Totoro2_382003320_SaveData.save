@@ -1,5 +1,5 @@
 {
-  "WeatherForYesterday": "Storm",
+  "WeatherForYesterday": "Wind",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
@@ -9,7 +9,7 @@
       "Tile": "42, 42",
       "Type": "Forage",
       "ID": "153",
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -20,7 +20,7 @@
       "Tile": "26, 66",
       "Type": "Forage",
       "ID": "702",
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -31,7 +31,7 @@
       "Tile": "41, 89",
       "Type": "Forage",
       "ID": "153",
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -42,6 +42,17 @@
       "Tile": "23, 85",
       "Type": "Forage",
       "ID": "137",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Forest",
+      "Name": "Green Algae",
+      "Tile": "24, 35",
+      "Type": "Forage",
+      "ID": "153",
       "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,

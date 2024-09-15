@@ -1,26 +1,15 @@
 {
-  "WeatherForYesterday": "Storm",
+  "WeatherForYesterday": "Wind",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
-    {
-      "MapName": "Custom_Ridgeside_Ridge",
-      "Name": "Mountain Redbelly Dace",
-      "Tile": "23, 29",
-      "Type": "Forage",
-      "ID": "Rafseazz.RSVCP_Mountain_Redbelly_Dace",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
     {
       "MapName": "Custom_Ridgeside_Ridge",
       "Name": "Ridgeside Bass",
       "Tile": "26, 33",
       "Type": "Forage",
       "ID": "Rafseazz.RSVCP_Ridgeside_Bass",
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -31,7 +20,7 @@
       "Tile": "27, 28",
       "Type": "Forage",
       "ID": "Rafseazz.RSVCP_Mountain_Redbelly_Dace",
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -42,7 +31,7 @@
       "Tile": "24, 37",
       "Type": "Forage",
       "ID": "Rafseazz.RSVCP_Mountain_Whitefish",
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -53,7 +42,7 @@
       "Tile": "18, 28",
       "Type": "Forage",
       "ID": "Rafseazz.RSVCP_Mountain_Redbelly_Dace",
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -64,6 +53,17 @@
       "Tile": "20, 29",
       "Type": "Forage",
       "ID": "Rafseazz.RSVCP_Ridgeside_Bass",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_Ridge",
+      "Name": "Caped Tree Frog",
+      "Tile": "25, 28",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Caped_Tree_Frog",
       "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,

@@ -1,5 +1,5 @@
 {
-  "WeatherForYesterday": "Storm",
+  "WeatherForYesterday": "Wind",
   "LNOSCounter": {
     "Secret Cave": 1
   },
@@ -23,6 +23,17 @@
           }
         ]
       },
+      "MonType": null
+    },
+    {
+      "MapName": "Lemurkat_FairyPool",
+      "Name": null,
+      "Tile": "7, 30",
+      "Type": "ResourceClump",
+      "ID": "600",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
       "MonType": null
     }
   ]

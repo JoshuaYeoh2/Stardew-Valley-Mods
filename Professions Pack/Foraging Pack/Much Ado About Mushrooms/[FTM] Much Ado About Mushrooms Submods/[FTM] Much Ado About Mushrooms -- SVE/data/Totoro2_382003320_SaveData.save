@@ -1,6 +1,18 @@
 {
-  "WeatherForYesterday": "Storm",
+  "WeatherForYesterday": "Wind",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
-  "SavedObjects": []
+  "SavedObjects": [
+    {
+      "MapName": "Forest",
+      "Name": "Dew Cup Mushroom",
+      "Tile": "107, 97",
+      "Type": "Forage",
+      "ID": "MAAM_Dew_Cup_Mushroom",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
 }

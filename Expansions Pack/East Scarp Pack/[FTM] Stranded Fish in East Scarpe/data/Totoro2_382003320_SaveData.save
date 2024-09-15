@@ -1,26 +1,15 @@
 {
-  "WeatherForYesterday": "Storm",
+  "WeatherForYesterday": "Wind",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
-    {
-      "MapName": "EastScarp_Village",
-      "Name": "Herring",
-      "Tile": "18, 121",
-      "Type": "Forage",
-      "ID": "147",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
     {
       "MapName": "EastScarp_Village",
       "Name": "Sardine",
       "Tile": "33, 117",
       "Type": "Forage",
       "ID": "131",
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -31,7 +20,18 @@
       "Tile": "6, 131",
       "Type": "Forage",
       "ID": "152",
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_Village",
+      "Name": "Flounder",
+      "Tile": "13, 124",
+      "Type": "Forage",
+      "ID": "267",
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
