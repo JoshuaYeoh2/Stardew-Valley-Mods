@@ -1,6 +1,18 @@
 {
-  "WeatherForYesterday": "Sun",
+  "WeatherForYesterday": "Storm",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
-  "SavedObjects": []
+  "SavedObjects": [
+    {
+      "MapName": "Beach",
+      "Name": "Halibut",
+      "Tile": "7, 8",
+      "Type": "Forage",
+      "ID": "708",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
 }

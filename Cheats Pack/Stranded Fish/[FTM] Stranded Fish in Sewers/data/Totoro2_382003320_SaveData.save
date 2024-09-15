@@ -1,12 +1,12 @@
 {
-  "WeatherForYesterday": "Sun",
+  "WeatherForYesterday": "Storm",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
     {
       "MapName": "Sewer",
       "Name": "Green Algae",
-      "Tile": "18, 23",
+      "Tile": "4, 30",
       "Type": "Forage",
       "ID": "153",
       "DaysUntilExpire": 1,
@@ -16,21 +16,21 @@
     },
     {
       "MapName": "Sewer",
-      "Name": "White Algae",
+      "Name": "Carp",
       "Tile": "29, 22",
       "Type": "Forage",
-      "ID": "157",
-      "DaysUntilExpire": 2,
+      "ID": "142",
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
     },
     {
       "MapName": "Sewer",
-      "Name": "Green Algae",
-      "Tile": "4, 22",
+      "Name": "Carp",
+      "Tile": "18, 24",
       "Type": "Forage",
-      "ID": "153",
+      "ID": "142",
       "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -39,7 +39,7 @@
     {
       "MapName": "Sewer",
       "Name": "Green Algae",
-      "Tile": "23, 22",
+      "Tile": "12, 12",
       "Type": "Forage",
       "ID": "153",
       "DaysUntilExpire": 3,
@@ -49,11 +49,22 @@
     },
     {
       "MapName": "Sewer",
-      "Name": "White Algae",
-      "Tile": "21, 22",
+      "Name": "Green Algae",
+      "Tile": "30, 22",
       "Type": "Forage",
-      "ID": "157",
-      "DaysUntilExpire": 3,
+      "ID": "153",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Sewer",
+      "Name": "Green Algae",
+      "Tile": "18, 23",
+      "Type": "Forage",
+      "ID": "153",
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null

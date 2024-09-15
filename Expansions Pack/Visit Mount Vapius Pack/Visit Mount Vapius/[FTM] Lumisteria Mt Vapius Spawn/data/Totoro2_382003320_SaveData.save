@@ -1,6 +1,124 @@
 {
-  "WeatherForYesterday": "Sun",
+  "WeatherForYesterday": "Storm",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
-  "SavedObjects": []
+  "SavedObjects": [
+    {
+      "MapName": "Lumisteria.MtVapius_ForestCaveAmber",
+      "Name": null,
+      "Tile": "21, 12",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "Chest",
+        "Contents": [
+          {
+            "category": "item",
+            "name": "Lumisteria.MtVapius_Treasures_ArtifactTrove",
+            "stack": 1,
+            "PercentChanceToSpawn": 100
+          }
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Lumisteria.MtVapius_ForestCaveAmber",
+      "Name": null,
+      "Tile": "9, 13",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "Chest",
+        "Contents": [
+          {
+            "category": "item",
+            "name": "Lumisteria.MtVapius_Treasures_ArtifactTrove",
+            "stack": 1,
+            "PercentChanceToSpawn": 100
+          }
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Lumisteria.MtVapius_ForestCaveAmber",
+      "Name": null,
+      "Tile": "10, 28",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "Chest",
+        "Contents": [
+          {
+            "category": "item",
+            "name": "Lumisteria.MtVapius_Treasures_ArtifactTrove",
+            "stack": 1,
+            "PercentChanceToSpawn": 100
+          }
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Lumisteria.MtVapius_ForestCaveAmber",
+      "Name": null,
+      "Tile": "31, 22",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "Chest",
+        "Contents": [
+          {
+            "category": "item",
+            "name": "Lumisteria.MtVapius_Treasures_ArtifactTrove",
+            "stack": 1,
+            "PercentChanceToSpawn": 100
+          },
+          {
+            "category": "item",
+            "name": "Lumisteria.MtVapius_GrapeSapling",
+            "stack": 1,
+            "PercentChanceToSpawn": 1
+          }
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Lumisteria.MtVapius_ForestCaveAmber",
+      "Name": null,
+      "Tile": "6, 37",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "Chest",
+        "Contents": [
+          {
+            "category": "item",
+            "name": "Lumisteria.MtVapius_Treasures_ArtifactTrove",
+            "stack": 1,
+            "PercentChanceToSpawn": 100
+          },
+          {
+            "category": "item",
+            "name": "Lumisteria.MtVapius_BlackGeode",
+            "stack": 2,
+            "PercentChanceToSpawn": 10
+          }
+        ]
+      },
+      "MonType": null
+    }
+  ]
 }

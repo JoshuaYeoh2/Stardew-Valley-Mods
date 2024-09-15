@@ -1,15 +1,37 @@
 {
-  "WeatherForYesterday": "Sun",
+  "WeatherForYesterday": "Storm",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
     {
       "MapName": "EastScarp_Village",
-      "Name": "Super Cucumber",
-      "Tile": "35, 117",
+      "Name": "Herring",
+      "Tile": "18, 121",
       "Type": "Forage",
-      "ID": "155",
-      "DaysUntilExpire": 4,
+      "ID": "147",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_Village",
+      "Name": "Sardine",
+      "Tile": "33, 117",
+      "Type": "Forage",
+      "ID": "131",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_Village",
+      "Name": "Seaweed",
+      "Tile": "6, 131",
+      "Type": "Forage",
+      "ID": "152",
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
