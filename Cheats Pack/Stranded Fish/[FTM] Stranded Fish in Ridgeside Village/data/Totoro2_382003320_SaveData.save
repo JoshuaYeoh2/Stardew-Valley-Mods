@@ -1,36 +1,14 @@
 {
-  "WeatherForYesterday": "Wind",
+  "WeatherForYesterday": "Festival",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
     {
       "MapName": "Custom_Ridgeside_RidgesideVillage",
-      "Name": "Harvester Trout",
-      "Tile": "56, 88",
+      "Name": "Ridgeside Bass",
+      "Tile": "141, 116",
       "Type": "Forage",
-      "ID": "Rafseazz.RSVCP_Harvester_Trout",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Ridgeside_RidgesideVillage",
-      "Name": "Mountain Redbelly Dace",
-      "Tile": "63, 95",
-      "Type": "Forage",
-      "ID": "Rafseazz.RSVCP_Mountain_Redbelly_Dace",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Ridgeside_RidgesideVillage",
-      "Name": "Harvester Trout",
-      "Tile": "118, 121",
-      "Type": "Forage",
-      "ID": "Rafseazz.RSVCP_Harvester_Trout",
+      "ID": "Rafseazz.RSVCP_Ridgeside_Bass",
       "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -38,33 +16,11 @@
     },
     {
       "MapName": "Custom_Ridgeside_RidgesideVillage",
-      "Name": "Ridgeside Bass",
-      "Tile": "30, 72",
+      "Name": "Cutthroat Trout",
+      "Tile": "34, 58",
       "Type": "Forage",
-      "ID": "Rafseazz.RSVCP_Ridgeside_Bass",
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Ridgeside_RidgesideVillage",
-      "Name": "Harvester Trout",
-      "Tile": "63, 101",
-      "Type": "Forage",
-      "ID": "Rafseazz.RSVCP_Harvester_Trout",
-      "DaysUntilExpire": 4,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Ridgeside_RidgesideVillage",
-      "Name": "Harvester Trout",
-      "Tile": "30, 70",
-      "Type": "Forage",
-      "ID": "Rafseazz.RSVCP_Harvester_Trout",
-      "DaysUntilExpire": 4,
+      "ID": "Rafseazz.RSVCP_Cutthroat_Trout",
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null

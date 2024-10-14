@@ -1,0 +1,28 @@
+{
+  "WeatherForYesterday": "Rain",
+  "LNOSCounter": {},
+  "ExistingObjectLocations": {},
+  "SavedObjects": [
+    {
+      "MapName": "Lumisteria.MtVapius_ForestCaveAmber",
+      "Name": null,
+      "Tile": "11, 27",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "Chest",
+        "Contents": [
+          {
+            "category": "item",
+            "name": "Lumisteria.MtVapius_Treasures_ArtifactTrove",
+            "stack": 1,
+            "PercentChanceToSpawn": 100
+          }
+        ]
+      },
+      "MonType": null
+    }
+  ]
+}

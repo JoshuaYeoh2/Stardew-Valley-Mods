@@ -1,14 +1,25 @@
 {
-  "WeatherForYesterday": "Wind",
+  "WeatherForYesterday": "Festival",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
     {
       "MapName": "Woods",
       "Name": "Carp",
-      "Tile": "9, 28",
+      "Tile": "5, 22",
       "Type": "Forage",
       "ID": "142",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Woods",
+      "Name": "Woodskip",
+      "Tile": "16, 28",
+      "Type": "Forage",
+      "ID": "734",
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -17,43 +28,10 @@
     {
       "MapName": "Woods",
       "Name": "Catfish",
-      "Tile": "19, 23",
+      "Tile": "5, 21",
       "Type": "Forage",
       "ID": "143",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Woods",
-      "Name": "Carp",
-      "Tile": "13, 27",
-      "Type": "Forage",
-      "ID": "142",
       "DaysUntilExpire": 2,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Woods",
-      "Name": "Carp",
-      "Tile": "18, 18",
-      "Type": "Forage",
-      "ID": "142",
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Woods",
-      "Name": "Catfish",
-      "Tile": "16, 17",
-      "Type": "Forage",
-      "ID": "143",
-      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null

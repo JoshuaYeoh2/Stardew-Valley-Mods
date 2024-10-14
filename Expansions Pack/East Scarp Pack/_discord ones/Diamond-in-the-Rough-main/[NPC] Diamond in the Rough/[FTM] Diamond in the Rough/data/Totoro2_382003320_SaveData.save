@@ -1,14 +1,58 @@
 {
-  "WeatherForYesterday": "Wind",
+  "WeatherForYesterday": "Festival",
   "LNOSCounter": {
     "DitR - Sewer Shorts Spawn": 1
   },
   "ExistingObjectLocations": {},
   "SavedObjects": [
     {
-      "MapName": "EastScarp_DeepMountains",
+      "MapName": "Town",
+      "Name": "7thAxis.DitR_Items.GoldenValleyLily",
+      "Tile": "70, 9",
+      "Type": "Forage",
+      "ID": "7thAxis.DitR_Items.GoldenValleyLily",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Forest",
       "Name": "7thAxis.DitR_Items.ValleyLily",
-      "Tile": "39, 37",
+      "Tile": "19, 99",
+      "Type": "Forage",
+      "ID": "7thAxis.DitR_Items.ValleyLily",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Forest",
+      "Name": "7thAxis.DitR_Items.ValleyLily",
+      "Tile": "18, 26",
+      "Type": "Forage",
+      "ID": "7thAxis.DitR_Items.ValleyLily",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Farm",
+      "Name": "7thAxis.DitR_Items.ValleyLily",
+      "Tile": "74, 14",
+      "Type": "Forage",
+      "ID": "7thAxis.DitR_Items.ValleyLily",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Farm",
+      "Name": "7thAxis.DitR_Items.ValleyLily",
+      "Tile": "69, 13",
       "Type": "Forage",
       "ID": "7thAxis.DitR_Items.ValleyLily",
       "DaysUntilExpire": 1,

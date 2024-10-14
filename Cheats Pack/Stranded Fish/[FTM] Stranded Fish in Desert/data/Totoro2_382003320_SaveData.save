@@ -1,15 +1,26 @@
 {
-  "WeatherForYesterday": "Wind",
+  "WeatherForYesterday": "Festival",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
     {
       "MapName": "Desert",
-      "Name": "Sandfish",
+      "Name": "Scorpion Carp",
       "Tile": "2, 38",
       "Type": "Forage",
-      "ID": "164",
+      "ID": "165",
       "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Desert",
+      "Name": "Green Algae",
+      "Tile": "7, 44",
+      "Type": "Forage",
+      "ID": "153",
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
